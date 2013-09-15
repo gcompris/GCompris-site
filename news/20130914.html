@@ -1,0 +1,15 @@
+{% extends "template/onenews.html" %}
+{% set title = 'New web site' %}
+{% block content %}
+<p>Our web site was ten years old, a major refresh was more than needed.</p>
+
+<p>This new one is no more based on a CMS engine but is coded in python
+with the <a href='http://jinja.pocoo.org/'>jinja2 template engine</a>
+and generated statically.</p>
+
+<p>The site is now generated on the fly including the screenshots
+pages. Very important, the new site translation is managed through po
+files like the GCompris code base making it easier for translators to
+localize the web site.</p>
+
+{% endblock %}

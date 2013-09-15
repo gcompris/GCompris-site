@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 8.4.9' %}
+{% block content %}
+<p>I would like first to apologise towards the Portuguese children and teachers who have faced the translation issue.</p>
+<p>A special thanks to our Gnome Portuguese translation team, Duarte Loreto and António Lima. They spent the week-end working on a rework of the translation under the pressure of the bad press we have been facing in some Portugal’s news paper.</p>
+<p>GCompris supports over 50 languages and its a community based effort. Yes in some case we may ship incomplete or incorrect translations. We have always considered that we need to start somewhere and that an incomplete translation is better than no translation at all. This has worked pretty well so far because once people sees that the translation is not correct they join the project to improve it.</p>
+<p>Over the years, the Gnome Translation team gets stronger but for historical reason I kept the bad custom to release po files myself. I now understand how wrong I was. I call again the Gnome translation team to take over the languages I still commit myself. You can find which in the po/ChangeLog file.</p>
+<p>So this is pretty unusual for us to be in the headline. I hope this will calm down so we can go back to what we like to do, help the children learning.</p>
+
+<h4>Now the release notes for the 8.4.9</h4>
+
+<li class="puce">Fixes to compile on Ubuntu 8.10</li>
+<li class="puce">Improved robustness, fixed potential crash cases</li>
+<li class="puce">Miguel DE Izarra implemented a word selector. Now the teacher can easily put their own words in the reading and falling word activities.</li>
+<li class="puce">Integrated several patches from Vitali Perchonok related to Right to Left languages support.</li>
+<li class="puce">Matieu Ignacio: New original background for the target activity.</li>
+<li class="puce">Vitali Perchonok provided several images from OpenClipart to replace ours.</li>
+<li class="puce">Miguel De Izarra added support for a network mode to let teachers centralise their customisations. This save custom data in user_dir and make a content.txt (a md5sum like file) listing custom files. Simply put this files in a web server to diffuse in classroom. GCompris clients are launched with —server</li>
+<li class="puce">Miquel De Izarra Added support for editing the content of the missing letter activity.</li>
+<li class="puce">Fixed the empty date field in the admin section on Windows.</li>
+<li class="puce">Now properly points use images in My GCompris/Images In the animation activity, the image selector will display all images from this directory.</li>
+<li class="puce">gnet library is now enabled by default at compile time.</li>
+<li class="puce">Voices in Punjabi by Ankit Sahai</li>
+
+<h4>Translation updates</h4>
+
+<li class="puce">af.po: Created translation for Afrikaans by Friedel Wolff and Samuel Murray</li>
+<li class="puce">bg.po: Updated Bulgarian translation by</li>
+<li class="puce">de.po: Updated German translation</li>
+<li class="puce">el.po: Updated Greek translation by Yannis Kaskamanidis</li>
+<li class="puce">es.po: Updated Spanish translation</li>
+<li class="puce">fr.po: Updated French translation.</li>
+<li class="puce">he.po: Updated Hebrew translation by Jorge Mariano.</li>
+<li class="puce">hu.po: Translation updated.</li>
+<li class="puce">ka.po: Updated Georgian translation by Gia Shervashidze.</li>
+<li class="puce">nn.po: Updated Norwegian Nynorsk by Karl Ove Hufthammer</li>
+<li class="puce">pa.po: Updated Punjabi translation by Ankit Sahai</li>
+<li class="puce">pt.po: Updated Portuguese translation by Duarte Loreto and António Lima</li>
+<li class="puce">pt_BR.po: Updated Brazilian Portuguese translation.</li>
+<li class="puce">sv.po: Updated Swedish translation.</li>
+<li class="puce">ta.po: Tamil Translation updated by Tirumurthi Vasudevan</li>
+{% endblock %}

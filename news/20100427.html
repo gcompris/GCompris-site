@@ -1,0 +1,52 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 9.3' %}
+{% block content %}
+<p>This version is a minor update of the 9.2. The main new feature is that we now distribute a MacOSX version (Intel 10.4 and above).</p>
+
+<h4>Minor changes</h4>
+
+ Fixed superbrain<li class="puce">by Julian Gilbey. In some case the proposesed solution was wrong. This is a long lasting bug.</li>
+<li class="puce">Added support for MacOSX 10.4 Intel.</li>
+<li class="puce">Updated icons to reflect latest art work.</li>
+<li class="puce">Removed flags from GCompris. Flags create political issue. There is not always a clear relationship between a country flag and a language.</li>
+<li class="puce">Fixed a typo in sudoku tutorial.</li>
+<li class="puce">Improved graphism new skins babytoy by Cabaraux Stephane.</li>
+<li class="puce">Improved many graphism (connect4, ballcatch) by Cabaraux Stephane.</li>
+<li class="puce">Added a copy of gnome-gnuchess internally since the regular gnuchess crashes on macosx. This is activated only on MacOSX.</li>
+<li class="puce">Fixed missing translation request for the "Yes I Saw it" string in the reading activity.</li>
+<li class="puce">Workaround for the fullscreen mode on macosx. now set a huge max ratio hint when fullscreen is set.</li>
+<li class="puce">Added an ongoing progress status at GCompris startup. This is used to avoid the long delay at startup without user feedback.</li>
+<li class="puce">Fixed the audio tooltip in the bar.</li>
+<li class="puce">Fixed a segfault in the GCompris dialog box.</li>
+<li class="puce">New activity lights off by Bruno and Clement Coudoin. Added more simple levels in lightsoff.</li>
+<li class="puce">More art work content for photohunter activity Contributed by Marc Levivier Based on paintings by Le Douanier Rousseau.</li>
+<li class="puce">Improved wordsgame activity to support language selection.</li>
+<li class="puce">Fixed score counting in advanced color</li>
+<li class="puce">Now we give 4 chances at each sublevel. After that the sublevel restarts.</li>
+<li class="puce">Fixed redraw activity, several level was impossible to complete. There was many colors in the image target that was impossible to do.</li>
+<li class="puce">Fixed SDL audio backend to allow playing with effects and no backgroundd music.</li>
+<li class="puce">Fixed usa map due to missing rhode island.</li>
+
+<h4>Translations added</h4>
+
+<li class="puce">Added Traditional Chinese by Chao-Hsiung Liao</li>
+<li class="puce">Added asturian translation by Xandru Armesto Fernandez</li>
+
+<h4>Translations updated</h4>
+
+<li class="puce">Updated French translation by Zohra Coudoin.</li>
+<li class="puce">Updated Arabic translation by Khaled Hosny</li>
+<li class="puce">Update Chinese (Simplified) translation by Ray Wang</li>
+<li class="puce">Updated Galician translations by Fran Dieguez</li>
+<li class="puce">Updated Greek translation for gcompris by Yannis Kaskamanidis</li>
+<li class="puce">Update Czech translation by Marek Cernocky</li>
+<li class="puce">Updated Spanish translation by Jorge Gonzalez</li>
+<li class="puce">Updated German translation by Mario Blattermann</li>
+<li class="puce">Updated Norwegian Nynorsk translation by Karl Ove Hufthammer</li>
+<li class="puce">Updated Greek translation for gcomprixogoo by Yannis Kaskamanidis</li>
+<li class="puce">Updated Basque translation by Inaki Larranaga</li>
+<li class="puce">Updated Czech translation by Marek Cernocky</li>
+<li class="puce">Updated Swedish translation by Daniel Nylander</li>
+<li class="puce">Updated Slovenian translation by Andrej Znidarsic</li>
+<li class="puce">Updated russian translation by Slava Dubrovskiy</li>
+{% endblock %}

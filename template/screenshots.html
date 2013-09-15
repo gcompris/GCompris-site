@@ -1,0 +1,17 @@
+{% extends "template/base.html" %}
+{% import "template/social.html" as social %}
+{% set page = 'screenshots' %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <h1 class="bigtitle2">{% trans %}Screenshots{% endtrans %}</h1>
+      {{ social.block() }}
+      {% for screenshot in screenshots %}
+        {{ screenshot }}
+        <p/>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

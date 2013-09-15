@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 11.09' %}
+{% block content %}
+<h4>New Activities</h4>
+
+<li class="puce">A set of activities to discover the Braille system. They have been made by Srishti Sethi this summer (part of the Gnome Summer of Code):</li>
+<li class="puce">The history of Louis Braille</li>
+<li class="puce">Discover the Braille system</li>
+<li class="puce">Training using a funny game, like falling letters but with Braille</li>
+<li class="puce">Braille lotto to remember Braille numbers.</li>
+<li class="puce">click on letter uppercase: same as click on letter but with only upper case. Now the old activity ’click on letter’ poposes only lower case.</li>
+
+<h4>Activity updates</h4>
+
+<li class="puce">erase activity: added new animals from picture by Adrien Grellier and Claire Gegout from their Antarctic trip.</li>
+<li class="puce">shapegame activities: now we display the ok button when all shapes are placed even with errors We also show a red cross indicating the children errors. Thanks to Arnaud Limon for the suggestion. Fixed a potential crash when a piece was overwritten by another in their wrong position.</li>
+<li class="puce">Changed the combo locale system to display the language in their textual form instead of their locale code. Maintain them sorted to make it even easier to use. Now activites with locale configuration use this feature.</li>
+<li class="puce">Mostly full rewrite of the click on letter activity to allow a specific configuration per language and per user. Now this activity takes a desktop formated file as input. It contains for each level the questions and answers charaters to propose. This file can be edited in the game through the config button, in this case a local data file is save under the user’s My GCompris folder and is reused. Now for each country we must provide a data file, this is much better than before where it was fully random and was not respecting the natural difficulties of a language. If this file is missing we create the level automatically from the alphabet (or from the english one for Latin based alphabet) now display the text of the question if we cannot play it for any reason which makes this activity playable even if we don’t have the voice set or the sound is disabled. Also if one letter is missing from the voice set it remains playable. Improved the graphism. based on an openclipart image. Splitted click on letter in two activities, on with lowercase one with uppercase as suggested by Sylvain Dechy.</li>
+<li class="puce">memory sound activity: the tux band background image with the bsd devil is considered offensive in some country. Now the bsd devil looks less like a devil and more like a red little boy.</li>
+<li class="puce">wordsgame activity: changed the text color of the falling words to be back and white I found out that reading text in color other than black and white is very hard.</li>
+<li class="puce">In login.py and tuxpaint, reactivated the config button that was missing.</li>
+<li class="puce">memory activity: fixed several potential crash cases when the memory was run with sound disabled.</li>
+<li class="puce">Now in the hangman, we display the name of the current language.</li>
+<li class="puce">Advanced color activity: fixed color names not to include _ when composed of 2 names.</li>
+<li class="puce">Fixed the 2 click drag mode ( run it with gcompris -g 2clicks).</li>
+<li class="puce">findit: no more ask several times a missing answer at the end of the level</li>
+<li class="puce">geo-country activity: added the italian country map with 3 sub levels, north, central and south.</li>
+<li class="puce">bar: added the keyboard shortcut ctrl-b do hide/show the GCompris control bar. Now when changing the level, the sound is played before starting the activity in order not to flush the own activity sound.</li>
+<li class="puce">advanced_color: remade this activity based on the new findit engine.</li>
+<li class="puce">details-activity: Fixed the TajMahal level. References to images was wrong.</li>
+
+<h4>Voices</h4>
+
+<li class="puce">New voice set for Thai by Thummarat Phromphing</li>
+<li class="puce">English voices: new recordset of our english voices by Julia Wycherley with the help of Philip Morris.</li>
+{% endblock %}

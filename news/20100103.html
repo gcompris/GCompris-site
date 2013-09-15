@@ -1,0 +1,26 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 9.0' %}
+{% block content %}
+<p>After two years of work, the GCompris development team is happy to share with you the release of the version 9.0.</p>
+<p>GCompris is almost 10 years old and it required some deep code restructuring. This release brings many mandatory changes to make it easier to enhance, maintain and distribute.</p>
+<p>The first major change has been driven by the Sugar community. On the XO there was a need to distribute the activities individually. Since the early days of GCompris, we had properly separated the core engine and the activities but the laters were shared in a single folder. Now each activity in GCompris have a single directory. This includes its code and its data (menu, icon, images, sounds, data set).</p>
+<p>Beside allowing per activity distribution, it is also makes it easier to contribute to GCompris, there is even an activity called pythontemplate that can be used as a starting point to create your own.</p>
+<p>The second major change has been to replace the old, unmaintained gnome-canvas toolkit by the more modern, Cairo based toolkit named goocanvas. This makes the rendering of GCompris much better, we now have an alpha channel and the antialiasing.</p>
+<p>The third change is our skin format that is now fully SVG based and uses the elements IDs. This way creating a skin can be done by editing a single file instead of 70 files.</p>
+<p>The last change is the image ratio (width versus height). In the old version we were using 800x600 (4/3) and could only do fullscreen by changing the screen resolution. Now, to accomodate newer monitors, we are using the 800x520 resolution which is wider. But GCompris playing area is not smaller because we managed to replace the big button bar to something more integrated. The full screen is done by rescaling ourself, you can even rescale GCompris in window mode.</p>
+<p>A good side effect is that GCompris can be used on big monitor and on smaller devices.</p>
+<p>Beside the major changes, there has been a lot of minor changes all around, it would take too many time to report all of them.</p>
+
+<h4>At least, I have to mention</h4>
+
+<li class="puce">The new graphism from Stephane Cabaraux for the canal lock and water cycle activities.</li>
+<li class="puce">The new photo hunter activity by Marc Le Douarain</li>
+<li class="puce">More famous paintings by Marc Levivier.</li>
+<li class="puce">A full rewrite of the animation activity that allows now editing previous frames at will with a time line.</li>
+<li class="puce">A new mode for our scale activity where the children now learn the weight units gram and kilo by Wolfram Sang.</li>
+<li class="puce">I you can see, we make a lot of work and now we need your help to report us bugs or send patches to stabilize it.</li>
+
+<p>Thanks to all the contributors and supporters of all kinds who provide help to GCompris.</p>
+
+<p>Windows users, please be patient, I will work on it as soon as the 9.0 is stabilized.</p>
+{% endblock %}

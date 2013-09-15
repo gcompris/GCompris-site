@@ -1,0 +1,202 @@
+# Thai translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-09-15 21:13+0200\n"
+"PO-Revision-Date: 2013-09-12 17:42+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: th <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: template/base.html:64
+msgid "News"
+msgstr "ข่าว"
+
+#: template/base.html:65 template/buy.html:8
+msgid "Buy / Donate"
+msgstr "ซื้อ / บริจาค"
+
+#: template/base.html:66
+msgid "Screenshots"
+msgstr "ภาพหน้าจอ"
+
+#: template/base.html:67
+msgid "Manual"
+msgstr "คู่มือ"
+
+#: template/base.html:68
+msgid "Contribute"
+msgstr "สนับสนุน"
+
+#: template/buy.html:15
+msgid "Buying the Windows or MacOSX version"
+msgstr "ซื้อรุ่น Windows หรือ MacOSX"
+
+#: template/buy.html:19
+#, python-format
+msgid ""
+"The Windows and MacOSX versions have a limited number of activities, "
+"about %(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+"รุ่น Windows และ MacOSX มีจำนวน จำกัด ของกิจกรรมที่ เกี่ยวกับ "
+"%(demo_activities)s เมื่อ %(total_activities)s ใช้ได้"
+
+#: template/buy.html:20
+msgid ""
+"Click on the button below let you pay 9€ for the activation code. After "
+"payment you will receive immediately an email with your instructions "
+"(check your spam folder). If you do not receive this email please write "
+"me at bruno.coudoin@gcompris.net"
+msgstr ""
+"คลิกที่ ปุ่มด้านล่างนี้ ช่วยให้คุณสามารถ จ่าย 9 € สำหรับ รหัสเปิดใช้งาน "
+"หลังจาก ชำระเงินที่คุณ จะได้รับ ทันที ทางอีเมล์พร้อมกับคำแนะนำ ของคุณ "
+"(ตรวจสอบ โฟลเดอร์ สแปมของคุณ ) หากคุณ ไม่ได้รับอีเมล นี้กรุณา เขียนฉัน "
+"ที่ bruno.coudoin @ gcompris.net"
+
+#: template/buy.html:21
+msgid "Contact me to get a quote for your school."
+msgstr "ติดต่อ ผมที่จะ ได้รับ ใบ สำหรับโรงเรียน ของคุณ"
+
+#: template/buy.html:40
+msgid ""
+"The registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the "
+"latest release you got for as long as you wish."
+msgstr ""
+"การลงทะเบียนจะช่วยให้คุณ สิทธิในการ ปรับปรุง ใด ๆ รุ่นใหม่ของ GCompris "
+"เป็นเวลา 2 ปี หลังจากช่วงเวลา ที่ คุณยังคงสามารถ ใช้รุ่นล่าสุด ที่คุณได้ "
+"นานเท่าที่ คุณต้องการ"
+
+#: template/buy.html:41 template/buy.html:71
+msgid "Thanks for your support of free software in education."
+msgstr "ขอบคุณ สำหรับการสนับสนุน ของซอฟต์แวร์เสรี ในด้านการศึกษา ของคุณ"
+
+#: template/buy.html:43
+msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+msgstr "อ้างอิง ทางกฎหมาย : บริษัท บรูโน่ Coudoin RCS ตูลูสฝรั่งเศส 498 157 536"
+
+#: template/buy.html:55
+msgid "Donate"
+msgstr "บริจาค"
+
+#: template/buy.html:59
+msgid ""
+"You, your children, your classroom love GCompris. You have now the "
+"opportunity to help this project."
+msgstr ""
+"คุณ เด็ก ของคุณ ในห้องเรียน ของคุณ รัก GCompris คุณมี ในขณะนี้ "
+"มีโอกาสที่จะ ช่วยให้ โครงการนี้"
+
+#: template/buy.html:60
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies "
+"moving to promote the project. Said simply, I need your help to continue "
+"my investment in this project."
+msgstr ""
+"การพัฒนา ซอฟแวร์ จะใช้เวลามาก ของเวลาก็ต้อง ฮาร์ดแวร์จะ หมายถึง "
+"การเคลื่อนย้าย เพื่อส่งเสริม โครงการ กล่าว เพียง ฉันต้องการความช่วยเหลือ "
+"ของคุณ เพื่อดำเนินการต่อ การลงทุน ในโครงการนี้"
+
+#: template/buy.html:61
+msgid "You can donate the amount of your choice by clicking on the button below:"
+msgstr "คุณสามารถบริจาค เงิน ที่คุณเลือก ได้โดยคลิกที่ ปุ่มด้านล่างนี้ :"
+
+#: template/index.html:44 template/index.html:45
+msgid "Download GCompris"
+msgstr "ดาวน์โหลด GCompris"
+
+#: template/index.html:46
+#, python-format
+msgid "Version %(version)s"
+msgstr "รุ่น %(version)s"
+
+#: template/index.html:57
+msgid "View all screenshots"
+msgstr "ดู หน้าจอทั้งหมด"
+
+#: template/index.html:62
+msgid ""
+"GCompris is a high quality educational software suite comprising of "
+"numerous activities for children aged 2 to 10."
+msgstr ""
+"GCompris คือคุณภาพการศึกษา ชุดซอฟต์แวร์ สูง ประกอบไปด้วย กิจกรรมมากมาย "
+"สำหรับเด็กอายุ 2-10"
+
+#: template/index.html:63
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "บางส่วนของ กิจกรรมที่ เป็น เกม ที่เน้น แต่อย่างไรก็ตาม การศึกษา ยังคง"
+
+#: template/index.html:64
+msgid ""
+"Below you can find a list of categories with some of the activities "
+"available in that category."
+msgstr ""
+"ด้านล่างคุณ สามารถหารายชื่อของประเภท ที่มี บางกิจกรรม ที่มีอยู่ใน "
+"ประเภทที่"
+
+#: template/index.html:66
+msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
+msgstr "การค้นพบ คอมพิวเตอร์ แป้นพิมพ์เมาส์, เมาส์ ท่าทาง ที่แตกต่างกัน ..."
+
+#: template/index.html:67
+msgid "algebra: table memory, enumeration, double entry table, mirror image, ..."
+msgstr "พีชคณิต : หน่วยความจำ ตาราง แจงนับ, ตาราง รายการ คู่ ภาพสะท้อนในกระจก ..."
+
+#: template/index.html:68
+msgid ""
+"science: the canal lock, the water cycle, the submarine, electric "
+"simulation ..."
+msgstr "วิทยาศาสตร์ :คลอง วงจร น้ำ,ดำน้ำ, การจำลอง ไฟฟ้า ..."
+
+#: template/index.html:69
+msgid "geography: place the country on the map"
+msgstr "ภูมิศาสตร์ : คันทรีเพลสบนแผนที่"
+
+#: template/index.html:70
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "เกม หมากรุก, หน่วยความจำ การเชื่อมต่อ 4 oware, ซูโดกุ ..."
+
+#: template/index.html:71
+msgid "reading: reading practice"
+msgstr "การอ่าน ฝึกอ่าน"
+
+#: template/index.html:72
+msgid ""
+"other: learn to tell time, puzzle of famous paintings, vector drawing, "
+"cartoon making, ..."
+msgstr ""
+"อื่น ๆ เรียนรู้ที่จะ บอกเวลา, จิ๊กซอว์ ของภาพวาด ที่มีชื่อเสียง วาดภาพ "
+"เวกเตอร์, การทำ การ์ตูน ..."
+
+#: template/index.html:74
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being "
+"developed. GCompris is free software, that means that you can adapt it to"
+" your own needs, improve it and, most importantly, share it with children"
+" everywhere."
+msgstr ""
+"ปัจจุบัน GCompris บริการ ในส่วนที่เกิน จาก 100 กิจกรรม และอื่น ๆ "
+"มีการพัฒนา GCompris เป็นซอฟต์แวร์ ฟรี ที่ หมายความว่าคุณสามารถ ปรับให้ "
+"เข้ากับความต้องการ ของคุณเอง ปรับปรุงให้ดีขึ้น และที่สำคัญที่สุด ร่วมกัน "
+"กับเด็ก ทุกที่"
+
+#: template/index.html:79
+msgid "Latest news"
+msgstr "ข่าวล่าสุด"
+
+#: template/index.html:83
+msgid "All the news"
+msgstr "ข่าวทั้งหมด"
+

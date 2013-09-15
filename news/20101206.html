@@ -1,0 +1,52 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 9.4 (2010/11/06) / 9.5' %}
+{% block content %}
+<b>Warning: Due to a last minute packaging issue, this release has been re-issued under the number 9.5.</b>
+
+<h4>Major changes</h4>
+
+<li class="puce">Fixed level 8 of babyshapes. The makefile was missing all the images for this level. I reworked the files so that they lie in the resource directory instead of subdirectories.</li>
+<li class="puce">New hangman activity. Icon is a a modified one from Mathieu’s icon set. The cute background is based on a drawing Franck Doucet made for our bargame activity. This activity uses our default-.xml files to propose words to the children. It is thus very important now to have them properly filled. For now I did the work for English and French. Translators, please refer to this page for instructions</li>
+<li class="puce">Added details activity by Marc Levivier. In the spirit of famous painting discovery, in this activity the painting is complete and the children must put painting parts on the right places.</li>
+<li class="puce">New feature in the chat activity. The user has a shared white boards now. This has been developped by Fionn Ziegler.</li>
+<li class="puce">First release of an in progress tool that converts wiktionary xml dumps in an xml file. For now, it works only for French, this page tracks the progress. The idea behind this is to get an xml formatted dictionnary to create new activities in the reading / writing area. For now this is just not used in GCompris.</li>
+<li class="puce">In planegame now the numbers are spoken when the plane hit the correct cloud.</li>
+<li class="puce">Added missing configuration button in several activites where it makes sense. Now teachers / children can set force uppercase in click on letter, falling wards, falling letter, horizontal/vertical reading. Thanks to Luciana from sleducacional.org</li>
+<li class="puce">Added missing level for photohunter by Marc Levivier</li>
+<li class="puce">Added the option —disable-level. Some teacher want to be sure the children don’t skip a level.</li>
+<li class="puce">Now the click on letter activity can be played also with the keybord. This has been suggested by Sini Ruohomaa.</li>
+<li class="puce">Fixed reference to tuxpaint dataset. Now we display saved tuxpaint images in our image selector again. Thanks to the person in Latinoware 2010 who reported me that this feature has been lost.</li>
+<li class="puce">The configuration of the ’missing letter’ activity was not working for UTF-8 multibyte characters (bugzilla). Added a tooltip to better explain the different fields.</li>
+<li class="puce">Refined the sudoku’s level for scholl usage (By Sylvain Dechy).</li>
+<li class="puce">Changed the difficulty level of the maze activity to make it more usable in classrooms. (By Sylvain Dechy)</li>
+
+<h4>Voices</h4>
+
+ New voice set for Slovenian by Saša Batistič
+
+<h4>Translations</h4>
+
+<p>As for each release, many translation have been updated</p>
+
+<li class="puce">Alan Monfort (br)</li>
+<li class="puce">Aleksey Lim (es)</li>
+<li class="puce">Andrej Žnidaršič (sl)</li>
+<li class="puce">Bruno Brouard (fr)</li>
+<li class="puce">Christian Kirbach (de)</li>
+<li class="puce">Fran Diéguez (gl)</li>
+<li class="puce">Frederico Goncalves Guimaraes (pt_BR)</li>
+<li class="puce">Gabor Kelemen (hu)</li>
+<li class="puce">Giannis Kaskamanidis (el)</li>
+<li class="puce">Gonçalo Cordeiro (gl)</li>
+<li class="puce">Inaki Larranaga Murgoitio (eu)</li>
+<li class="puce">Joe Hansen (da)</li>
+<li class="puce">Jorge González (es)</li>
+<li class="puce">Karl Ove Hufthammer (nn)</li>
+<li class="puce">Mantas Kriaučiūnas (lt)</li>
+<li class="puce">Marek Černocký (cs)</li>
+<li class="puce">Mario Blättermann (de)</li>
+<li class="puce">Petr Kovar (cs)</li>
+<li class="puce">Reuma Mordechai (he)</li>
+<li class="puce">Xandru Armesto (ast)</li>
+<li class="puce">Yannis Kaskamanidis (el)</li>
+{% endblock %}

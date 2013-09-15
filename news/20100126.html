@@ -1,0 +1,60 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 9.1' %}
+{% block content %}
+<p>In short, this release is a bug fix release of the 9.0. It is
+mandatory for all packager to use this one due to the large number of
+problems we fixed.</p>
+
+<p>You get the tarball at the usual place on Sourceforge</p>
+
+<p>If you prefer, on the git side, this comes from the ’gcomprixogoo’ branch.</p>
+
+<p>If full, the change log is:</p>
+
+<h4>Core fixes</h4>
+
+<li class="puce">Added support of Sugar look&feel by Aleksey Lim</li>
+<li class="puce">Now the group menus are ordered based on an embedded difficulty level so that they appear in the same order.</li>
+<li class="puce">Fixes to compile with GTK 2.19 by Johan Cwiklinski</li>
+<li class="puce">Removed unused import rsvg in watercycle and penalty. PACKAGERS: This mean we no more need on python-rsvg.</li>
+
+<h4>Activity fixes</h4>
+
+<li class="puce">scale Added a sign on the scale The scale activity is sometimes annoying because you cannot easiliy see which side the scale goes. I added a sign < > or = on it to ease the task.</li>
+<li class="puce">photo hunter Major rework of he photo hunter activity that can now detect the image difference automagically. This makes it easy to contribute new data set to this activity, just provide it 2 images having some differences. BTW, I added some more content to it. Photo hunter has been fixed to work in full screen and now has an explanation string when started</li>
+<li class="puce">erase Fixed events on the canvas that where not taken in account. Now clicking beside the fish does speed them like it was before.</li>
+<li class="puce">reversecount Fixed reversecount, it was not restarting on loose case. Now when the children loose he restarts the same level.</li>
+<li class="puce">follow line Adapted the follow line to work on touch screen. This was reported by Ronny Standtke. Now not only the motion events are catched but also click events.</li>
+<li class="puce">animation activity Added tooltip in the animation activity.</li>
+<li class="puce">smallnumber Fixed a crash case in smallnumber activity. This has also been improved to avoid overlaps of dices. Fixed smallnumber2 activity regarding dice pair not close enough.</li>
+<li class="puce">electricity Fixed electricity activity, image was referenced badly.</li>
+<li class="puce">geography Added translation on tooltips in the geography activity.</li>
+<li class="puce">missingletter Fixed missingletter crash uppon changing its locale.</li>
+<li class="puce">erase double click Reintroduced the erase double click activity.</li>
+<li class="puce">memory word number Fixed memory word number activity. It was broken related to translations.</li>
+<li class="puce">smallnumber No more display the sublevel 11/10.</li>
+<li class="puce">ball catch Added the manual in the first start of ballcatch.</li>
+<li class="puce">traffic Simplified level for traffic. A contribution from a French teacher Sylvain Dechy who teaches in Hérimoncourt. This introduces a set of simplified level in the traffic activity best suited for children.</li>
+<li class="puce">tuxpaint Fixed tuxpaint activity. Was completely broken.</li>
+<li class="puce">memory sound Now in memory_sound activity the intro is heard.</li>
+<li class="puce">melody Added an OK button to start the melody activity. This avoids the intro voice to be skipped.</li>
+
+<h4>Translation updates</h4>
+
+<li class="puce">Updated Ukrainian translation by Ivan Onyshchuk</li>
+<li class="puce">Updated French translation by Bruno Coudoin</li>
+<li class="puce">Updated Hungarian translation by Gabor Kelemen</li>
+<li class="puce">Updated Czech translation by Marek Černocký</li>
+<li class="puce">Updated Simplified Chinese translation by Ray Wang</li>
+<li class="puce">Updated Arabic translation by Khaled Hosny</li>
+<li class="puce">Updated Afrikaans translation by Friedel Wolff</li>
+<li class="puce">Updated Portuguese translation by Duarte Loreto</li>
+<li class="puce">Updated Czech translation by Marek Cernocky</li>
+<li class="puce">Updated Bulgarian translation by Alexander Shopov</li>
+<li class="puce">Updated Brazilian Portuguese by Frederico Goncalves Guimaraes</li>
+
+<h4>Voice pack</h4>
+
+<li class="puce">Several voices where not played due to name mismatch</li>
+<li class="puce">Added a new Chinese voice set read out by Feng Jie and others, translated and post processed by littlebat at http://www.learndiary.com/</li>
+{% endblock %}

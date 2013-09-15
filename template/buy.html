@@ -1,0 +1,81 @@
+{% extends "template/base.html" %}
+{% import "template/social.html" as social %}
+{% set page = 'buy' %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <h1 class="bigtitle2">{% trans %}Buy / Donate{% endtrans %}</h1>
+      {{ social.block() }}
+
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Buying the Windows or MacOSX version{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}The Windows and MacOSX versions have a limited number of activities, about {{ demo_activities }} on the {{ total_activities }} available.{% endtrans %}</p>
+	      <p>{% trans %}Click on the button below let you pay 9€ for the activation code. After payment you will receive immediately an email with your instructions (check your spam folder). If you do not receive this email please write me at bruno.coudoin@gcompris.net{% endtrans %}</p>
+	      <p>{% trans %}Contact me to get a quote for your school.{% endtrans %}</p>
+	      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_xclick">
+		<input type="hidden" name="business" value="bruno.coudoin@gcompris.net">
+		<input type="hidden" name="item_name" value="gcompris">
+		<input type="hidden" name="item_number" value="gcompris">
+		<input type="hidden" name="no_shipping" value="1">
+		<input type="hidden" name="amount" value="9.00">
+		<input type="hidden" name="no_note" value="1">
+		<input type="hidden" name="currency_code" value="EUR">
+		<input type="image" src="paypal_buy.gif" border="0" name="submit" alt="Make your payment with paypal. A fast and efficient solution!">
+	      </form>
+	      {% if locale == 'fr' %}
+	      <p/><p>Par chèque : pour cela, veuillez remplir un chèque uniquement en euros et compensable en France (tiré sur une banque française) de 9 Euros, en le libellant à l’ordre de Bruno Coudoin. Veuillez noter, au dos du chèque, votre adresse email qui nous est indispensable pour vous envoyer le code d’activation. Veuillez envoyer le tout à l’adresse suivante :</p>
+	      <pre>Bruno Coudoin
+6 Rue des Amandiers
+31700 Blagnac
+FRANCE</pre>
+	      {% endif %}
+	      <p>{% trans %}The registration gives you the right to update to any new release of GCompris for 2 years. After that period, you can continue to use the latest release you got for as long as you wish.{% endtrans %}</p>
+	      <p>{% trans %}Thanks for your support of free software in education.{% endtrans %}</p>
+	      <p>Bruno Coudoin.</p>
+	      <p>{% trans %}Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536.{% endtrans %}</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <p/>
+
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Donate{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}You, your children, your classroom love GCompris. You have now the opportunity to help this project.{% endtrans %}</p>
+	      <p>{% trans %}Developing software takes a lot of time, it needs hardware, it implies moving to promote the project. Said simply, I need your help to continue my investment in this project.{% endtrans %}</p>
+	      <p>{% trans %}You can donate the amount of your choice by clicking on the button below:{% endtrans %}</p>
+	      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_xclick">
+		<input type="hidden" name="business" value="bruno.coudoin@gcompris.net">
+		<input type="hidden" name="no_shipping" value="1">
+		<input type="hidden" name="cn" value="Leave me a message if you wish.">
+		<input type="hidden" name="tax" value="0">
+		<input type="hidden" name="currency_code" value="EUR">
+		<input type="image" src="paypal_donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and  secure!">
+	      </form>
+	      <p>{% trans %}Thanks for your support of free software in education.{% endtrans %}</p>
+	      <p>Bruno Coudoin.</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
