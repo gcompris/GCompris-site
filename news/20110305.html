@@ -1,0 +1,61 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 9.6' %}
+{% block content %}
+<h4>New features</h4>
+
+<li class="puce">Added 2 new activities to learn to give money make in a shop. This is based on the money activity but now the children must give back money to Tux.</li>
+<li class="puce">Now the erase activity reads the .jpg file in its data directory instead of being hardcoded. In the erase activity we have a large number of animal backgrounds. Now these are found at run time instead of being hard coded. Also the user can add its own images in the directory /My GCompris/erase. Added more animal images taken from wikipedia.</li>
+<li class="puce">New renewable energy activity. Learn about electric dam, wind farm and solar panels works. This is heavily based on the watercycle activity.</li>
+<li class="puce">In money activity, we no more auto check the answer, there is now an OK button Created 3 price categories in money activtiy to make the game more realistic. As suggested by Arnaud Champollion, it is just too easy for the children.</li>
+<li class="puce">improved the drawnumber activity to have its dataset taken from a file instead of hardcoded. Now we have a text file named activity.txt that contains the images and points coordinate. converted .png files in .jpg in drawnumber activity to save disk space.</li>
+
+<h4>Bug Fixes</h4>
+
+<li class="puce">In the submarine activity, we now destroy and reset the frigate motion when we enter the help. Not doing so makes the children loose the game while reading the manual.</li>
+<li class="puce">Added a reset button for the locale in the configuration dialog. It is now easier to get back on the default locale. Sorted the locales following their english name instead of the locale code</li>
+<li class="puce">Deadlock occurs if new playback is scheduled from callback. Observed with sound-memory activity, while playing ’bonus’. In this fix, the sound is player in the gtk idle loop instead of being called directly (Fixed by Andreas Fenkart)</li>
+<li class="puce">Major random crash fix. In python activity, a call to gcompris.skin.svg_get() was freeing the skin object but it should not. This resulted in random crashes at any point in GCompris when trying to read the skin svg_handle.</li>
+<li class="puce">Fixed code to compile with the -Werror=unused-but-set-variable gcc new compilation flag.</li>
+<li class="puce">Fixed invisible cursor on 64 bits systems. The propoerty struct is now properly initialized even on 64 bits systems. Fixed by Peter Ujfalusi.</li>
+<li class="puce">Watercycle activity: Added toolips to explain the different items. Fixed a minor race issue. Added a bonus flower feedback in watercycle to let the children knows he completed the level. Thanks to Clara Coudoin for the feedback, it is great to have close beta testers.</li>
+<li class="puce">Added missing image files for money activity.</li>
+<li class="puce">Added missing activity files for drawnumber.</li>
+<li class="puce">String updates, requested translation for paintings. As reported by Friedel Wolff: https://bugzilla.gnome.org/show_bug.cgi?id=636887</li>
+<li class="puce">Cleanup, removed unused concept of activity board_dir This concept is no more use. Now we use the concept of a global package_data_dir found in the properties.</li>
+
+<h4>Translations updates</h4>
+
+<li class="puce">Added Montenegrin translation by Montenegro Consulting Company by Montenegro Consulting Company</li>
+<li class="puce">Added Slovenian translation by Matej Urbančič</li>
+<li class="puce">Much longer word list for Norwegian Nynorsk. by Karl Ove Hufthammer</li>
+<li class="puce">New word list for Czech by Marek Černocký by Bruno Coudoin</li>
+<li class="puce">Updated Czech translation by Marek Cernocky by Petr Kovar</li>
+<li class="puce">Updated Arabic translation by Khaled Hosny</li>
+<li class="puce">Updated Arabic translation by Khaled Hosny</li>
+<li class="puce">Updated Brazilian Portuguese translation by Frederico Gonçalves Guimarães</li>
+<li class="puce">Updated Czech translation by Marek Černocký</li>
+<li class="puce">Updated Czech translation by Marek Černocký</li>
+<li class="puce">Updated Danish translation by Joe Hansen</li>
+<li class="puce">Updated Danish translation by Joe Hansen</li>
+<li class="puce">Updated Esperanto translation by Kristjan SCHMIDT</li>
+<li class="puce">Updated French translation by Claude Paroz</li>
+<li class="puce">Updated Galician translations by Fran Diéguez</li>
+<li class="puce">Updated Galician translations by Gonçalo Cordeiro</li>
+<li class="puce">Updated German translation by Christian Kirbach</li>
+<li class="puce">Updated Greek translation by Yannis Kaskamanidis</li>
+<li class="puce">Updated Hungarian translation by Gabor Kelemen</li>
+<li class="puce">Updated Norwegian Nynorsk translation (still some missing strings). by Karl Ove Hufthammer</li>
+<li class="puce">Updated Slovenian translation by Andrej Žnidaršič</li>
+<li class="puce">Updated Spanish translation by Daniel Mustieles</li>
+<li class="puce">Updated Spanish translation by Sylvia Sánchez</li>
+<li class="puce">Updated Swedish translation by Daniel Nylander</li>
+<li class="puce">Updated Swedish translation by Daniel Nylander</li>
+<li class="puce">Updated Swedish translation by Daniel Nylander</li>
+<li class="puce">Updated Traditional Chinese translation(Hong Kong and Taiwan) by Chao-Hsiung Liao</li>
+<li class="puce">Updated asturian translation by Xandru Armesto</li>
+<li class="puce">Updated breton translation by Alan Monfort</li>
+<li class="puce">Updated translation and added new word list for Afrikaans (af) by Friedel Wolff</li>
+<li class="puce">Updated German translation by Mario Blättermann</li>
+<li class="puce">Updated Russian translation by Yuri Myasoedov</li>
+<li class="puce">New translation for Zulu by Priscilla Mahlangu</li>
+{% endblock %}

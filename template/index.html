@@ -1,0 +1,85 @@
+{% extends "template/base.html" %}
+{% import "template/social.html" as social %}
+{% set page = 'index' %}
+{% block head %}
+    {{ super() }}
+    <script language="JavaScript" type="text/javaScript">
+      window.onload = function()
+      {
+        windowsURL = "http://gcompris.net/download/gcompris-{{ version }}.exe";
+        macURL = "download_macosx.html";
+        linuxURL = "apt://gcompris";
+        if ( (/^Windows/).test(platform.os.family)) {
+          document.getElementById("downloadButton").href = windowsURL;
+          document.getElementById("downloadOS").innerHTML = "Windows";
+          document.getElementById("otherDownloadOS1Link").href = macURL;
+          document.getElementById("otherDownloadOS1Link").innerHTML = "MacOSX";
+          document.getElementById("otherDownloadOS2Link").href = linuxURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
+        } else if ( (/(Mac|OS X)/).test(platform.os.family)) {
+          document.getElementById("downloadButton").href = macURL;
+          document.getElementById("downloadOS").innerHTML = "MacOSX";
+          document.getElementById("otherDownloadOS1Link").href = windowsURL;
+          document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
+          document.getElementById("otherDownloadOS2Link").href = linuxURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
+        }else {
+          document.getElementById("downloadButton").href = linuxURL;
+          document.getElementById("downloadOS").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS1Link").href = windowsURL;
+          document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
+          document.getElementById("otherDownloadOS2Link").href = macURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "MacOSX";
+        }
+      }
+    </script>
+{% endblock %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div class="row">
+	<img class="projectImg" alt="Large GCompris Logo" src="largeGComprisLogo.png">
+	<a id="downloadButton">
+	  <img alt="{% trans %}Download GCompris{% endtrans %}" src="downloadGCompris.png" style="position: absolute; top: -10px; left: -10px;">
+	  <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
+	  <span id="downloadDetails" style="font-size: 12px; color: white;">{% trans %}Version {{version}}{% endtrans %}</span>
+	  <span id="downloadOS"></span>
+	</a>
+      </div>
+      <div class="row">
+	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
+	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a>
+	<span><a class="extraInfoLink" href="http://gcompris.net/download"><span>Other</span></a>
+      </div>
+      <div class="row">
+	<img class="projectScreenshot" alt="Some GCompris Screenshots" src="screenshots-6x.jpg">
+	<a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6 news">
+      <h1 class="bigtitle">GCompris</h1>{{ social.block() }}
+      <div class="projectDescription"><p>{% trans %}GCompris is a high quality educational software suite comprising of numerous activities for children aged 2 to 10.{% endtrans %}</p>
+	<p>{% trans %}Some of the activities are game orientated, but nonetheless still educational.{% endtrans %}</p>
+	<p>{% trans %}Below you can find a list of categories with some of the activities available in that category.{% endtrans %}</p>
+	<p>
+	  <li class="puce">{% trans %}computer discovery: keyboard, mouse, different mouse gesture, ...{% endtrans %}</li>
+	  <li class="puce">{% trans %}algebra: table memory, enumeration, double entry table, mirror image, ...{% endtrans %}</li>
+	  <li class="puce">{% trans %}science: the canal lock, the water cycle, the submarine, electric simulation ...{% endtrans %}</li>
+	  <li class="puce">{% trans %}geography: place the country on the map{% endtrans %}</li>
+	  <li class="puce">{% trans %}games: chess, memory, connect 4, oware, sudoku ...{% endtrans %}</li>
+	  <li class="puce">{% trans %}reading: reading practice{% endtrans %}</li>
+	  <li class="puce">{% trans %}other: learn to tell time, puzzle of famous paintings, vector drawing, cartoon making, ...{% endtrans %}</li>
+	</p>
+	<p>{% trans %}Currently GCompris offers in excess of 100 activities and more are being developed. GCompris is free software, that means that you can adapt it to your own needs, improve it and, most importantly, share it with children everywhere.{% endtrans %}</p></div>
+    </div>
+  </div>
+</div>
+<hr class="featurette-divider"></hr>
+<h2 class="bigtitle">{% trans %}Latest news{% endtrans %}</h2>
+{% for onenews in news %}
+  {%- if loop.index == 1 %}{{ onenews }}{% endif %}
+{% endfor %}
+<a class="extraInfoLink" href="news{{ suffix }}.html">{% trans %}All the news{% endtrans %}</a>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "template/base.html" %}
+{% import "template/social.html" as social %}
+{% set page = 'news' %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <h1 class="bigtitle2">{% trans %}News{% endtrans %}</h1>
+      {{ social.block() }}
+      {% for onenews in news %}
+        {%- if loop.index <= 8 %}{{ onenews }}{% endif %}
+      {% endfor %}
+      <p/>
+    </div>
+    <a class="extraInfoLink" href="newsall{{ suffix }}.html">{% trans %}All the news{% endtrans %}</a>
+  </div>
+</div>
+{% endblock %}

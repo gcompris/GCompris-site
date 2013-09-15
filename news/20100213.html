@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 9.2' %}
+{% block content %}
+<h4>New feature</h4>
+
+<li class="puce">Created a new U.S.A map for our geography activity</li>
+<li class="puce">Completed the Windows port. Now use the cute GCompris cursor. Fixed SDL audio back-end</li>
+
+<h4>Fixed bugs</h4>
+
+<li class="puce">Fixed geography activities. Many dot where missing, hidden by the background.</li>
+<li class="puce">Fixed drawn case in the chess activity, it was ending in an infinite loop.</li>
+<li class="puce">Improved a little bit the layout in the penalty activity.</li>
+<li class="puce">Replaced the yellow by white the text color of the score.</li>
+<li class="puce">Now the text dialog is centered in the height.</li>
+<li class="puce">Added an API entry to get the current cursor. This allow the help dialog to get the previous cursor, set the default one and change again to the caller one in the end.</li>
+<li class="puce">In erase activity, the sponge cursor is setback when exiting the pause state. This allow the about box to set the default cursor which is more suitable.</li>
+<li class="puce">In the menu, the display of the description is now centered. Minor change, better layout.</li>
+<li class="puce">In python, now import sqlite3 instead of pysqlite2 For backyard compatibility, there is a fall back to sill import pysqlite2.</li>
+<li class="puce">Added a missing background to the simple color activity It is based on the artwork of Mathieu Ignacio (from the target activity.)</li>
+<li class="puce">Fixed algebra activity to report the level properly.</li>
+<li class="puce">Better error checking in case the database cannot be loaded or created. Before that patch, a failure was exiting the startup sequence without warning the user Now, in case we cannot load the database of cannot created it we follow the procedure: - rename the database under the name gcompris_db.broken - recreate it from scratch - we failed again, fall back in no database mode.</li>
+
+<h4>Translation</h4>
+
+<li class="puce">Updated Arabic translation by Khaled Hosny</li>
+<li class="puce">Updated Greek translation by Yannis Kaskamanidis</li>
+<li class="puce">Updated Greek translation by Yannis Kaskamanidis</li>
+<li class="puce">Updated Hungarian translation updated by Gabor Kelemen</li>
+<li class="puce">Updated Brazilian Portuguese translation by Frederico Goncalves Guimaraes</li>
+<li class="puce">Updated Russian translation by Андрей Черепанов</li>
+<li class="puce">Updated Swedish translation by Daniel Nylander</li>
+{% endblock %}

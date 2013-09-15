@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 12.05' %}
+{% block content %}
+<p>The release <b>12.05</b> is mostly a maintenance release, no new activities have been included. Many bug fixes and translation updates.</p>
+
+<h4>Beth Hadley:</h4>
+
+<li class='puce'>Louis_braille activity: fixed a wrong fact</li>
+
+<h4>Bruno Brouard:</h4>
+
+<li class='puce'>Updated French translation</li>
+
+<h4>Bruno Coudoin:</h4>
+
+<li class='puce'>Management of sounds in the bar. removed the bleep and play the level in interrupt mode.</li>
+<li class='puce'>Wordsgame: fixed hungarian word dataset, the level 2 was missing. It made reading activities crashing in Hungarian.</li>
+<li class='puce'>Braille_alphabets: fixed level with numbers, was generating a python error.</li>
+<li class='puce'>Geo_country: added India by Matilda Bernard</li>
+<li class='puce'>Wordgame: improved the hungarian list of words by Somlai István</li>
+<li class='puce'>Geo_country: added Australia by Matilda Bernard</li>
+<li class='puce'>Geography: fixed reference to audio files for sudan and congo.</li>
+<li class='puce'>Geography activity: fixed naming of burkina to always be 'burkina faso'</li>
+<li class='puce'>Geography-activity: fixed the name of antartica to be properly spelled as antarctica.</li>
+<li class='puce'>Instrument activity: fixed wrong instrument bass drum was really a snare drum.</li>
+<li class='puce'>Lang activity: reworked the number level using images from wikicommons.</li>
+<li class='puce'>Lang activity: inprogress, added many images.</li>
+<li class='puce'>Lang activity: now play the sounds in interrupt mode, better user experience.</li>
+<li class='puce'>Lang activity: added hightlighs on buttons.</li>
+<li class='puce'>Instruments activities: fixed makefiles.</li>
+<li class='puce'>Core: fixed the command line option --difficulty which was not working.</li>
+<li class='puce'>Core: added the command line option --disable-database</li>
+<li class='puce'>Electric: cleanup, removed unused image.</li>
+<li class='puce'>Electric: added a red led. replaces the diode.</li>
+<li class='puce'>Electric: fixed a simulation issue. there was a missing recalculation when a component blows up.</li>
+<li class='puce'>Electric: now each wire is draw with a random color.</li>
+<li class='puce'>Administration: performance improvement in board selection / deselection</li>
+<li class='puce'>Core: in case no activities are selected display a nice error message.</li>
+<li class='puce'>Windows build: upgraded to gtk+-bundle_2.24.10-20120208</li>
+<li class='puce'>Core: size optimization of all png images with optipng -o7 (30MB size reduction)</li>
+<li class='puce'>Merge branch 'git://git.sugarlabs.org/alsroot/gcompris.git' for Sugar</li>
+<li class='puce'>Tools: added a tool to display the list of missing voices of a given language.</li>
+<li class='puce'>Tools: Improved gimp script foo by Angel Ivan Moreno</li>
+<li class='puce'>Animation activity: fixed the implementation of the z order management.</li>
+<li class='puce'>Windows: upgraded to gtk+-bundle_2.24.10-20120208 This fixes an issue in which users on Windows XP with a 16 bits display color  depth could not start GCompris.</li>
+
+<h4>Translations updates</h4>
+
+<li class='puce'>Chao-Hsiung Liao: Updated Traditional Chinese translation</li>
+<li class='puce'>Christian Kirbach: Updated German translation</li>
+<li class='puce'>Claude Paroz, Bruno Brouard: Updated French translation</li>
+<li class='puce'>Daniel Mustieles: Updated Spanish translation</li>
+<li class='puce'>Fran Diéguez: Updated Galician translations</li>
+<li class='puce'>Frederico Goncalves Guimaraes: Updated Brazilian Portuguese translation</li>
+<li class='puce'>Gabor Kelemen: Updated Hungarian translation by Istvan Somlai.</li>
+<li class='puce'>Jiro Matsuzawa: Updated Japanese translation</li>
+<li class='puce'>Joe Hansen: Updated Danish translation</li>
+<li class='puce'>Karl Ove Hufthammer: Updated Norwegian Nynorsk translation.</li>
+<li class='puce'>Lavanya gunasekaran: core: no more crash if we fail to write to the database.</li>
+<li class='puce'>Marek Černocký: Updated Czech translation</li>
+<li class='puce'>Matej Urbančič, Martin Srebotnjak: Updated Slovenian translation</li>
+<li class='puce'>Matilda Bernard: Geo_country: added china countries.</li>
+<li class='puce'>Mike Karfunkle: Drawnumber activity; now the dots are in random orders each time we play this activity.</li>
+<li class='puce'>OKANO Takayoshi: Update Japanese translation</li>
+<li class='puce'>Praveen Arimbrathodiyil: Gcompris Malayalam translations updated</li>
+<li class='puce'>Translation updates from Sadiq</li>
+<li class='puce'>Shreya Menon: Wordprocessor activity: added support for setting hyperlinks</li>
+<li class='puce'>Sowmya Ravidas: Money activity: the bonus lost is now displayed in case the children click ok and the answer it wrong.</li>
+<li class='puce'>Yannis Kaskamanidis: Updated Greek translation</li>
+<li class='puce'>Мирослав Николић: Updated Serbian translation</li>
+<li class='puce'>Marco Menardi: Italian voices: voice set has been cleaned (removed noises).</li>
+<li class='puce'>Philip Morris: English voices: Julia Wycherley sent us some updated voices.</li>
+<li class='puce'>Gabor Kelemen: New Hungarian intro sound files from Istvan Somlai</li>
+<li class='puce'>Rūdolfs Mazurs: Added latvian translation</li>
+<li class='puce'>Alexander Shopov: Updated Bulgarian translation</li>
+
+{% endblock %}

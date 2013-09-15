@@ -1,0 +1,58 @@
+<div class="container bs-docs-container">
+  <a name="{{ screenshot.section }}/{{ screenshot.name }}"></a>
+  {% if screenshot.type != 'menu' %}
+    <div class="row screenshot">
+  {% else %}
+    <div class="row screenshotmenu{{ depth }}">
+  {% endif %}
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+      {% if screenshot.type != 'menu' %}
+        <div class="newstitle" style="position: absolute; top: 0px; left: 100px;">{{ screenshot.title }}</div>
+        <img src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}' style="position: relative; top: 25px; padding-bottom: 25px; width: 400px; height: 260px;"/>
+      {% else %}
+        <div class="newstitle" style="position: absolute; top: 0px; left: 120px;">{{ screenshot.title }}</div>
+      {% endif %}
+      {% if screenshot.icon %}
+        {% if screenshot.type != 'menu' %}
+          <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}' style="position: absolute; top: -10px; left: -10px;"/>
+	{% else %}
+          <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}'/>
+	{% endif %}
+      {% endif %}
+      {% if screenshot.demo != 1 %}
+        <img src='money.png' alt='locked activity' style="position: absolute; top: 75px; left: 385px;"/>
+      {% endif %}
+      {% if screenshot.difficulty > 0 %}
+        <img src='boardicons/difficulty_star{{ screenshot.difficulty }}.png' alt='difficulty level {{ screenshot.difficulty }}' style="position: absolute; top: 25px; left: 385px;"/>
+      {% endif %}
+      {% if screenshot.type != 'menu' %}
+        <p class="newsdate" style='float: left; text-align: left;'>{{ screenshot.section }}/{{ screenshot.name }}</p>
+      {% else %}
+        <p class="newsdate">{{ screenshot.section }}/{{ screenshot.name }}</p>
+      {% endif %}
+      {% if screenshot.author %}
+        <p class="newsdate" style='float: right; text-align: right;'>{{ screenshot.author }}</p>
+      {% endif %}
+      <div style="clear: both;"></div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+      <div class="newstitle">{{ screenshot.description }}</div>
+      {% if screenshot.prerequisite %}
+        <br/>
+        <div><b>{% trans %}Prerequisite{% endtrans %}:</b> {{ screenshot.prerequisite }}</div>
+      {% endif %}
+      {% if screenshot.goal %}
+      <br/>
+      <div><b>{% trans %}Goal{% endtrans %}:</b> {{ screenshot.goal }}</div>
+      {% endif %}
+      {% if screenshot.manual %}
+      <br/>
+      <div><b>{% trans %}Manual{% endtrans %}:</b> {{ screenshot.manual }}</div>
+      {% endif %}
+      {% if screenshot.credit %}
+      <br/>
+      <div><b>{% trans %}Credit{% endtrans %}:</b> {{ screenshot.credit }}</div>
+      {% endif %}
+    </div>
+  </div>
+</div>

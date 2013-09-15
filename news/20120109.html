@@ -1,0 +1,24 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 12.01' %}
+{% block content %}
+<h4>Bug fixes</h4>
+
+<li class="puce">Windows installer: fixed a potential directory erasing at uninstall or reinstall time. Properly erase all our files at unistallation time</li>
+<li class="puce">Windows: updated the compilation chain for windows to compile against GTK 2.24</li>
+<li class="puce">Desktop entry: Added the Education category</li>
+<li class="puce">Compilation: Added ifdefs to compile with gdkpixbuf > 2.24 by Hans de Goede</li>
+<li class="puce">Guessnumber: fixed a potential crash at exit time. Give focus on the entry box.</li>
+<li class="puce">Braille fun: added audio feedback.</li>
+<li class="puce">Braille alphabet: improved to audio play the letter to find</li>
+<li class="puce">Baille lotto: fixed not to go back to the main menu at the end. Improved it a little bit the layour to accomodate with longer translated text. Added sound effects.</li>
+<li class="puce">Shapegame: Fixed a random crash in shapegame activities that happened while dragging a piece. Minor, now clicking on the left/right image selector does not trig the ok check.</li>
+<li class="puce">findit: Fixed to run on Windows 7</li>
+<li class="puce">clockgame: the first levels now highlight the hour sectors to make them easier to recognize and to teach. (By Angelo Naselli)</li>
+<li class="puce">Instruments activity: added a check for sound availability in the icon menu. Now the background music is muted when entering this activity.</li>
+<li class="puce">Memory: minor fix in memory activity to fix their reference to their mandatory audio file. Without this, a little audio error does appear at run time in the activity icon.</li>
+
+<h4>Translations updates</h4>
+
+<li class="puce">Updated Estonian translation by Olle Niit</li>
+<li class="puce">Updated Serbian translation by Мирослав Николић</li>
+{% endblock %}
