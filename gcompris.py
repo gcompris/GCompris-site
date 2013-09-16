@@ -88,7 +88,7 @@ for loca in localelist.split():
         language = lang
 
 # Add en_US manually
-locales.append( ['', _(getLocaleName( 'en_US'))] )
+locales.append( ['-en', _(getLocaleName( 'en_US'))] )
 if language == '':
     language = 'English'
 
