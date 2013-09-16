@@ -171,6 +171,7 @@ templateVars = {
     "version": version,
     "news": [],
     "screenshots": [],
+    "screenshotsmenu": [],
     "locales": locales,
     "manual": getManual(),
     "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
@@ -251,8 +252,12 @@ for screenshot in boards:
     if screenshot['description']:
         screenshot['description'] = _(screenshot['description'])
     templateVars["screenshot"] = screenshot
+    screenshot["depth"] = depth
     templateVars["depth"] = depth
     templateVars["screenshots"].append(templateScreenshot.render( templateVars ))
+
+    # Create the screenshot menu
+    templateVars["screenshotsmenu"].append(screenshot)
 
 (opens, closes) = sectionDiff(previousSection, '')
 templateVars["screenshots"].append("</div>" * closes)
