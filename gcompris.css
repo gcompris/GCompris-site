@@ -145,6 +145,8 @@ h2 {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0px 5px #555;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .screenshotmenu1 {
   border: 2px solid #999;
@@ -174,4 +176,71 @@ h2 {
 .featurette-divider {
     border-color: #FFF;
     box-shadow: 0px 0px 5px #555;
+}
+
+.bs-docs-sidenav {
+  width: 228px;
+  margin: 30px 0 0;
+  padding: 0;
+}
+.bs-docs-sidenav > li > a {
+  color: #000;
+  display: block;
+  width: 190px \9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #666;
+}
+.bs-docs-sidenav > li:first-child > a {
+    border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+    border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active2 > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  background-color: #fff;
+  border: 1;
+  box-shadow: 0px 0px 5px #555;
+}
+.bs-docs-sidenav > .active2 > a:hover {
+    text-decoration: none;
+    background-color: #fae33f;
+}
+
+.bs-docs-sidenav-depth1 {
+  padding-left: 0px;
+}
+.bs-docs-sidenav-depth2 {
+  padding-left: 15px;
+}
+.bs-docs-sidenav-depth3 {
+  padding-left: 30px;
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* Adjust sidenav width */
+  .bs-docs-sidenav {
+    width: auto;
+    margin-top: 20px;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  /* Sidenav */
+  .bs-docs-sidenav {
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
 }

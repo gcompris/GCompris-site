@@ -1,30 +1,31 @@
-<div class="container bs-docs-container">
-  <a name="{{ screenshot.section }}/{{ screenshot.name }}"></a>
+<div id="{{ screenshot.name }}" class="container">
   {% if screenshot.type != 'menu' %}
     <div class="row screenshot">
   {% else %}
     <div class="row screenshotmenu{{ depth }}">
   {% endif %}
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+    <div class="container" style="position: relative;">
       {% if screenshot.type != 'menu' %}
-        <div class="newstitle" style="position: absolute; top: 0px; left: 100px;">{{ screenshot.title }}</div>
-        <img src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}' style="position: relative; top: 25px; padding-bottom: 25px; width: 400px; height: 260px;"/>
+        <div class="newstitle">{{ screenshot.title }}</div>
+        <img src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}' style="float: left; padding-left: 20px; width: 400px; height: 260px;"/>
       {% else %}
-        <div class="newstitle" style="position: absolute; top: 0px; left: 120px;">{{ screenshot.title }}</div>
+        <div class="newstitle">{{ screenshot.title }}</div>
       {% endif %}
       {% if screenshot.icon %}
         {% if screenshot.type != 'menu' %}
-          <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}' style="position: absolute; top: -10px; left: -10px;"/>
+          <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}' style="position: absolute; left: 0px;"'/>
 	{% else %}
           <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}'/>
 	{% endif %}
       {% endif %}
-      {% if screenshot.demo != 1 %}
-        <img src='money.png' alt='locked activity' style="position: absolute; top: 75px; left: 385px;"/>
-      {% endif %}
       {% if screenshot.difficulty > 0 %}
-        <img src='boardicons/difficulty_star{{ screenshot.difficulty }}.png' alt='difficulty level {{ screenshot.difficulty }}' style="position: absolute; top: 25px; left: 385px;"/>
+        <img src='boardicons/difficulty_star{{ screenshot.difficulty }}.png' alt='difficulty level {{ screenshot.difficulty }}' style="position: absolute; left: 390px; top: 10px;"/>
       {% endif %}
+      {% if screenshot.demo != 1 %}
+        <a href="buy{{ suffix }}.html" title="{% trans %}Buying the Windows or MacOSX version{% endtrans %}"><img src='money.png' alt='locked activity' style="position: absolute; left: 380px; top: 60px;"'/></a>
+      {% endif %}
+      <div style="clear: both;"></div>
+      <div style="width: 400px;">
       {% if screenshot.type != 'menu' %}
         <p class="newsdate" style='float: left; text-align: left;'>{{ screenshot.section }}/{{ screenshot.name }}</p>
       {% else %}
@@ -33,9 +34,10 @@
       {% if screenshot.author %}
         <p class="newsdate" style='float: right; text-align: right;'>{{ screenshot.author }}</p>
       {% endif %}
+      </div>
       <div style="clear: both;"></div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+    <div class="container">
       <div class="newstitle">{{ screenshot.description }}</div>
       {% if screenshot.prerequisite %}
         <br/>
