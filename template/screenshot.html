@@ -38,7 +38,7 @@
       <div style="clear: both;"></div>
     </div>
     <div class="container">
-      <div class="newstitle">{{ screenshot.description }}</div>
+      <div class="newstitle"><b>{% trans %}Description:{% endtrans %}</b> {{ screenshot.description }}</div>
       {% if screenshot.prerequisite %}
         <br/>
         <div><b>{% trans %}Prerequisite{% endtrans %}:</b> {{ screenshot.prerequisite }}</div>
