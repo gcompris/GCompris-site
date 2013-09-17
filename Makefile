@@ -30,6 +30,10 @@ all: index.html
 
 locale/messages.pot : $(i18_sources)
 	pybabel extract -F babel.cfg -o locale/messages.pot ./
+	if test $(shell git diff locale/messages.pot | grep "^+[^+]" | wc -l) -eq 1; then \
+	  git checkout locale/messages.pot; \
+	  touch locale/messages.pot; \
+	fi
 
 #%.po :
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
