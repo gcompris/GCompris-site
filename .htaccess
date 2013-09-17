@@ -1,0 +1,32 @@
+#####################################################################
+# Miscellaneous configuration
+#####################################################################
+
+AddType application/octet-stream .dmg
+
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+RewriteRule \.git /404.html [L]
+RewriteRule ^-ar-$ /index-en.html [R=permanent,L]
+RewriteRule ^-br-$ /index-fr.html [R=permanent,L]
+RewriteRule ^-da-$ /index-da.html [R=permanent,L]
+RewriteRule ^-de-$ /index-de.html [R=permanent,L]
+RewriteRule ^-el-$ /index-el.html [R=permanent,L]
+RewriteRule ^-en-$ /index-en.html [R=permanent,L]
+RewriteRule ^-es-$ /index-es.html [R=permanent,L]
+RewriteRule ^-fr-$ /index-fr.html [R=permanent,L]
+RewriteRule ^-he-$ /index-en.html [R=permanent,L]
+RewriteRule ^-it-$ /index-en.html [R=permanent,L]
+RewriteRule ^-nl-$ /index-el.html [R=permanent,L]
+RewriteRule ^-nn-$ /index-nn.html [R=permanent,L]
+RewriteRule ^-pl-$ /index-pl.html [R=permanent,L]
+RewriteRule ^-pt-$ /index-pt-br.html [R=permanent,L]
+RewriteRule ^-pt-br-$ /index-pt-br.html [R=permanent,L]
+RewriteRule ^-ru-$ /index-ru.html [R=permanent,L]
+RewriteRule ^-sk-$ /index-sk.html [R=permanent,L]
+RewriteRule ^-sv-$ /index-sv.html [R=permanent,L]
+RewriteRule ^-zh-CN-$ /index-zh-TW.html [R=permanent,L]
+RewriteRule ^-download-$ /index-en.html [R=permanent,L]
+RewriteRule ^-Download-$ /index-en.html [R=permanent,L]
+RewriteRule ^-Descargar-$ /index-es.html [R=permanent,L]
