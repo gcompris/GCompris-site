@@ -13,16 +13,18 @@
       {% endif %}
       {% if screenshot.icon %}
         {% if screenshot.type != 'menu' %}
-          <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}' style="position: absolute; left: 0px;"'/>
+          <img class='screenshotIcon' src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}'/>
 	{% else %}
           <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}'/>
 	{% endif %}
       {% endif %}
       {% if screenshot.difficulty > 0 %}
-        <img src='boardicons/difficulty_star{{ screenshot.difficulty }}.png' alt='difficulty level {{ screenshot.difficulty }}' style="position: absolute; left: 390px; top: 10px;"/>
+        <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.png' alt='difficulty level {{ screenshot.difficulty }}'/>
       {% endif %}
       {% if screenshot.demo != 1 %}
-        <a href="buy{{ suffix }}.html" title="{% trans %}Buying the Windows or MacOSX version{% endtrans %}"><img src='money.png' alt='locked activity' style="position: absolute; left: 380px; top: 60px;"'/></a>
+        <a href="buy{{ suffix }}.html" title="{% trans %}Buying the Windows or MacOSX version{% endtrans %}">
+	  <img class='screenshotPay' src='money.png' alt='locked activity'/>
+	</a>
       {% endif %}
       <div style="clear: both;"></div>
       <div style="width: 400px;">

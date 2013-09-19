@@ -98,6 +98,20 @@ h2 {
     width: 400px;
     height: 260px;
 }
+.screenshotStar {
+    position: absolute;
+    left: 390px;
+    top: 10px;
+}
+.screenshotPay {
+    position: absolute;
+    left: 380px;
+    top: 60px;
+}
+.screenshotIcon {
+    position: absolute;
+    left: 0px;
+}
 .projectImg {
     clear: both;
     display: block;
@@ -249,4 +263,26 @@ h2 {
 /* Landscape phones
 ------------------------- */
 @media (max-width: 480px) {
+    .screenshotImg {
+	width: 200px;
+	height: 130px;
+    }
+    .screenshotIcon {
+	width: 50px;
+	height: 50px;
+    }
+    .screenshotStar {
+	position: absolute;
+	left: 195px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+    }
+    .screenshotPay {
+	position: absolute;
+	left: 195px;
+	top: 50px;
+	width: 23px;
+	height: 23px;
+    }
 }
