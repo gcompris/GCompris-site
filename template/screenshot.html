@@ -7,7 +7,7 @@
     <div class="container" style="position: relative;">
       {% if screenshot.type != 'menu' %}
         <div class="newstitle">{{ screenshot.title }}</div>
-        <img src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}' style="float: left; padding-left: 20px; width: 400px; height: 260px;"/>
+        <img class='screenshotImg' src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}'/>
       {% else %}
         <div class="newstitle">{{ screenshot.title }}</div>
       {% endif %}
