@@ -232,7 +232,7 @@ for screenshot in boards:
     if closes:
         templateVars["screenshots"].append("</div>" * closes)
     if opens:
-        templateVars["screenshots"].append("<div class='raw screenshot" + str(depth) + "'>" * opens)
+        templateVars["screenshots"].append("<div class='row screenshot" + str(depth) + "'>" * opens)
 
     previousSection = section
 
