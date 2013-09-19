@@ -27,14 +27,14 @@
 	</a>
       {% endif %}
       <div style="clear: both;"></div>
-      <div style="width: 400px;">
+      <div class='screenshotDivAuthor'>
       {% if screenshot.type != 'menu' %}
-        <p class="newsdate" style='float: left; text-align: left;'>{{ screenshot.section }}/{{ screenshot.name }}</p>
+        <p class="screenshotSection">{{ screenshot.section }}/{{ screenshot.name }}</p>
       {% else %}
         <p class="newsdate">{{ screenshot.section }}/{{ screenshot.name }}</p>
       {% endif %}
       {% if screenshot.author %}
-        <p class="newsdate" style='float: right; text-align: right;'>{{ screenshot.author }}</p>
+        <p class="screenshotAuthor">&#xa0;{{ screenshot.author }}</p>
       {% endif %}
       </div>
       <div style="clear: both;"></div>

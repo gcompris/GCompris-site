@@ -108,6 +108,24 @@ h2 {
     left: 380px;
     top: 60px;
 }
+.screenshotDivAuthor {
+    width: 400px;
+    padding-bottom: 25px;
+}
+.screenshotAuthor {
+    margin: 0;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    float: right;
+    text-align: right;
+}
+.screenshotSection {
+    margin: 0;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    float: left;
+    text-align: left;
+}
 .screenshotIcon {
     position: absolute;
     left: 0px;
@@ -153,12 +171,16 @@ h2 {
     text-align: justify;
 }
 .screenshot1 {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .screenshot2 {
-    padding-left: 20px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .screenshot3 {
-    padding-left: 20px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 .screenshot {
   border: 2px solid #999;
@@ -284,5 +306,16 @@ h2 {
 	top: 50px;
 	width: 23px;
 	height: 23px;
+    }
+    .screenshotDivAuthor {
+	width: 200px;
+    }
+    .screenshotSection {
+	font-size: 10px;
+    }
+    .screenshotAuthor {
+	font-size: 10px;
+	float: left;
+	text-align: left;
     }
 }

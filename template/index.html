@@ -39,9 +39,9 @@
   <div class="row">
     <div class="col-xs-12 col-md-6">
       <div class="row">
-	<img class="projectImg" alt="Large GCompris Logo" src="largeGComprisLogo.png">
+	<img class="projectImg" alt="Large GCompris Logo" src="largeGComprisLogo.png"/>
 	<a id="downloadButton">
-	  <img alt="{% trans %}Download GCompris{% endtrans %}" src="downloadGCompris.png" style="position: absolute; top: -10px; left: -10px;">
+	  <img alt="{% trans %}Download GCompris{% endtrans %}" src="downloadGCompris.png" style="position: absolute; top: -10px; left: -10px;"/>
 	  <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
 	  <span id="downloadDetails" style="font-size: 12px; color: white;">{% trans %}Version {{version}}{% endtrans %}</span>
 	  <span id="downloadOS"></span>
@@ -49,11 +49,11 @@
       </div>
       <div class="row">
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
-	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a>
-	<span><a class="extraInfoLink" href="http://gcompris.net/download"><span>Other</span></a>
+	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
+	<span><a class="extraInfoLink" href="http://gcompris.net/download">Other</a></span>
       </div>
       <div class="row">
-	<img class="projectScreenshot" alt="Some GCompris Screenshots" src="screenshots-6x.jpg">
+	<img class="projectScreenshot" alt="Some GCompris Screenshots" src="screenshots-6x.jpg"/>
 	<a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
       </div>
     </div>
@@ -81,5 +81,4 @@
   {%- if loop.index == 1 %}{{ onenews }}{% endif %}
 {% endfor %}
 <a class="extraInfoLink" href="news{{ suffix }}.html">{% trans %}All the news{% endtrans %}</a>
-</div>
 {% endblock %}
