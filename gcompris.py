@@ -166,7 +166,7 @@ templateVars = {
     "suffix" : suffix,
     "language" : language,
     "title" : "GCompris Free Educational Software",
-    "revision_date" : today.strftime("%Y%m%d"),
+    "revision_date" : today.strftime("%Y-%m-%d"),
     "current_year": today.strftime("%Y"),
     "version": version,
     "news": [],

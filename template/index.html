@@ -3,7 +3,7 @@
 {% set page = 'index' %}
 {% block head %}
     {{ super() }}
-    <script language="JavaScript" type="text/javaScript">
+    <script type="text/javaScript">
       window.onload = function()
       {
         windowsURL = "http://gcompris.net/download/gcompris-{{ version }}.exe";
@@ -62,7 +62,7 @@
       <div class="projectDescription"><p>{% trans %}GCompris is a high quality educational software suite comprising of numerous activities for children aged 2 to 10.{% endtrans %}</p>
 	<p>{% trans %}Some of the activities are game orientated, but nonetheless still educational.{% endtrans %}</p>
 	<p>{% trans %}Below you can find a list of categories with some of the activities available in that category.{% endtrans %}</p>
-	<p>
+	<ul style='padding: 0 0 0 0;'>
 	  <li class="puce">{% trans %}computer discovery: keyboard, mouse, different mouse gesture, ...{% endtrans %}</li>
 	  <li class="puce">{% trans %}algebra: table memory, enumeration, double entry table, mirror image, ...{% endtrans %}</li>
 	  <li class="puce">{% trans %}science: the canal lock, the water cycle, the submarine, electric simulation ...{% endtrans %}</li>
@@ -70,12 +70,13 @@
 	  <li class="puce">{% trans %}games: chess, memory, connect 4, oware, sudoku ...{% endtrans %}</li>
 	  <li class="puce">{% trans %}reading: reading practice{% endtrans %}</li>
 	  <li class="puce">{% trans %}other: learn to tell time, puzzle of famous paintings, vector drawing, cartoon making, ...{% endtrans %}</li>
-	</p>
-	<p>{% trans %}Currently GCompris offers in excess of 100 activities and more are being developed. GCompris is free software, that means that you can adapt it to your own needs, improve it and, most importantly, share it with children everywhere.{% endtrans %}</p></div>
+	</ul>
+	<p>{% trans %}Currently GCompris offers in excess of 100 activities and more are being developed. GCompris is free software, that means that you can adapt it to your own needs, improve it and, most importantly, share it with children everywhere.{% endtrans %}</p>
+      </div>
     </div>
   </div>
 </div>
-<hr class="featurette-divider"></hr>
+<hr class="featurette-divider"/>
 <h2 class="bigtitle">{% trans %}Latest news{% endtrans %}</h2>
 {% for onenews in news %}
   {%- if loop.index == 1 %}{{ onenews }}{% endif %}
