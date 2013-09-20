@@ -298,12 +298,12 @@ with codecs.open('screenshots' + suffix + '.html', 'w', encoding='utf8') as f:
 with codecs.open('buy' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputBuyText )
 
-if suffix == '-en':
-    template = templateEnv.get_template( "template/download_macosx.html" )
-    outputText = template.render( templateVars )
-    with codecs.open('download_macosx.html', 'w', encoding='utf8') as f:
-        f.write( outputText )
+template = templateEnv.get_template( "template/download_macosx.html" )
+outputText = template.render( templateVars )
+with codecs.open('download_macosx' + suffix + '.html', 'w', encoding='utf8') as f:
+    f.write( outputText )
 
+if suffix == '-en':
     template = templateEnv.get_template( "template/404.html" )
     outputText = template.render( templateVars )
     with codecs.open('404.html', 'w', encoding='utf8') as f:

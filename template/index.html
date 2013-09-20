@@ -7,7 +7,7 @@
       window.onload = function()
       {
         windowsURL = "http://gcompris.net/download/gcompris-{{ version }}.exe";
-        macURL = "download_macosx.html";
+        macURL = "download_macosx{{ suffix }}.html";
         linuxURL = "apt://gcompris";
         if ( (/^Windows/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = windowsURL;
