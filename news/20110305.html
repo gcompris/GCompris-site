@@ -2,15 +2,15 @@
 {% set title = 'Release 9.6' %}
 {% block content %}
 <h4>New features</h4>
-
+<ul>
 <li class="puce">Added 2 new activities to learn to give money make in a shop. This is based on the money activity but now the children must give back money to Tux.</li>
 <li class="puce">Now the erase activity reads the .jpg file in its data directory instead of being hardcoded. In the erase activity we have a large number of animal backgrounds. Now these are found at run time instead of being hard coded. Also the user can add its own images in the directory /My GCompris/erase. Added more animal images taken from wikipedia.</li>
 <li class="puce">New renewable energy activity. Learn about electric dam, wind farm and solar panels works. This is heavily based on the watercycle activity.</li>
 <li class="puce">In money activity, we no more auto check the answer, there is now an OK button Created 3 price categories in money activtiy to make the game more realistic. As suggested by Arnaud Champollion, it is just too easy for the children.</li>
 <li class="puce">improved the drawnumber activity to have its dataset taken from a file instead of hardcoded. Now we have a text file named activity.txt that contains the images and points coordinate. converted .png files in .jpg in drawnumber activity to save disk space.</li>
-
+</ul>
 <h4>Bug Fixes</h4>
-
+<ul>
 <li class="puce">In the submarine activity, we now destroy and reset the frigate motion when we enter the help. Not doing so makes the children loose the game while reading the manual.</li>
 <li class="puce">Added a reset button for the locale in the configuration dialog. It is now easier to get back on the default locale. Sorted the locales following their english name instead of the locale code</li>
 <li class="puce">Deadlock occurs if new playback is scheduled from callback. Observed with sound-memory activity, while playing ’bonus’. In this fix, the sound is player in the gtk idle loop instead of being called directly (Fixed by Andreas Fenkart)</li>
@@ -22,9 +22,9 @@
 <li class="puce">Added missing activity files for drawnumber.</li>
 <li class="puce">String updates, requested translation for paintings. As reported by Friedel Wolff: https://bugzilla.gnome.org/show_bug.cgi?id=636887</li>
 <li class="puce">Cleanup, removed unused concept of activity board_dir This concept is no more use. Now we use the concept of a global package_data_dir found in the properties.</li>
-
+</ul>
 <h4>Translations updates</h4>
-
+<ul>
 <li class="puce">Added Montenegrin translation by Montenegro Consulting Company by Montenegro Consulting Company</li>
 <li class="puce">Added Slovenian translation by Matej Urbančič</li>
 <li class="puce">Much longer word list for Norwegian Nynorsk. by Karl Ove Hufthammer</li>
@@ -58,4 +58,5 @@
 <li class="puce">Updated German translation by Mario Blättermann</li>
 <li class="puce">Updated Russian translation by Yuri Myasoedov</li>
 <li class="puce">New translation for Zulu by Priscilla Mahlangu</li>
+</ul>
 {% endblock %}

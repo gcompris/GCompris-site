@@ -2,19 +2,19 @@
 {% set title = 'Release 11.12' %}
 {% block content %}
 <h4>Improvements</h4>
-
+<ul>
 <li class="puce">wordlist in Spanish: added more words to the spanish list. By Germana Oliveira.</li>
-
+</ul>
 <h4>Bug fixes</h4>
-
+<ul>
 <li class="puce">Updated French translation, there was a string with the text being there twice causing the gnumch activity to have the text over sized and unreadable.</li>
 <li class="puce">By Hans de Goede rsvg: fixed deprecated issue releated to rsvg. wordsgame: manage depracation of the g_mutex_lock versus g_static_mutex_lock cleanup, replaced deprecated g_strcasecmp by g_ascii_strcasecmp wordsgame activity: fixed race conditions</li>
 <li class="puce">minor: made bigger icons to avoid pixelized icon in desktop task switchers.</li>
 <li class="puce">hangman: unsupported locale in GCompris was making this activity crash. Fixes bug https://bugzilla.gnome.org/show_bug.cgi?id=662576</li>
 <li class="puce">core: now handle the ’C’ locale as en_US Currently a ’C’ locale was interpreted in GCompris by Catalan.</li>
-
+</ul>
 <h4>Translations updates</h4>
-
+<ul>
 <li class="puce">Updated Albanian translation by Abdulsalem Osmani</li>
 <li class="puce">Fixed spelling mistake in Norwegian Nynorsk by Karl Ove Hufthammer</li>
 <li class="puce">Updated Greek translation for gcompris by Yannis Kaskamanidis</li>
@@ -24,4 +24,5 @@
 <li class="puce">Updated Turkish translation by Muhammet Kara</li>
 <li class="puce">Updated Spanish translation by Daniel Mustieles</li>
 <li class="puce">Updated Spanish translation by Daniel Mustieles</li>
+</ul>
 {% endblock %}
