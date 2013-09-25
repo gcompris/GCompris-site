@@ -1,0 +1,18 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Nouveau site Web' %}
+{% block content %}
+<p>Notre site Web a dix ans, un grand rafraîchissement était plus que nécessaire.</p>
+
+<p>Cette nouvelle version n'est plus basé sur un moteur CMS mais est
+codée en Python avec le <a href='http://jinja.pocoo.org/'>moteur de
+template jinja2</a>.</p>
+
+<p>Le site est maintenant généré à la volée, y compris les pages des
+captures d'écran. Très important, la nouvelle mouture du site est géré
+via des fichiers .po comme le code de base GCompris ce qui rend plus
+facile pour les traducteurs de localiser le site web.</p>
+
+<p>Le source du site peut être
+trouvé <a href='https://github.com/bdoin/GCompris-site'>sur
+github.</a></p>
+{% endblock %}
