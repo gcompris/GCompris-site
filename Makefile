@@ -52,4 +52,4 @@ index-en.html : $(POFILES) locale/messages.pot $(sources)
 	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"
 
 clean:
-	rm *.html *.pyc
+	rm -f *.html *.pyc
