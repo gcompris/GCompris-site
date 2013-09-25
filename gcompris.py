@@ -74,13 +74,6 @@ def getLocaleName(locale):
 #
 locales = []
 language = ""
-# for filename in os.listdir("/home/bcoudoin/Projets/gcompris/po"):
-#     if filename.endswith('.po'):
-#         loca = filename.replace('.po', '')
-#         lang = _(getLocaleName( loca ))
-#         locales.append( ['-' + loca, lang] )
-#         if locale == loca:
-#             language = lang
 for loca in localelist.split():
     lang = _(getLocaleName( loca ))
     locales.append( ['-' + loca, lang] )
