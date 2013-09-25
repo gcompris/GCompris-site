@@ -187,7 +187,8 @@ for filename in os.listdir("news"):
             filenames[dat] = filename
             print "added " + filename
     except:
-        filenames[filename_noext] = filename
+        if not filename_noext in filenames:
+            filenames[filename_noext] = filename
 
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
