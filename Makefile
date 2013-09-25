@@ -26,7 +26,7 @@ i18_sources = template/base.html \
 	template/buy.html \
 	template/index.html
 
-all: index.html
+all: index-en.html
 
 locale/messages.pot : $(i18_sources)
 	pybabel extract -F babel.cfg -o locale/messages.pot ./
@@ -38,7 +38,7 @@ locale/messages.pot : $(i18_sources)
 #%.po :
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
 
-index.html : $(POFILES) locale/messages.pot $(sources)
+index-en.html : $(POFILES) locale/messages.pot $(sources)
 	linguas="$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
 	  dir=locale/$$lang/LC_MESSAGES; \
