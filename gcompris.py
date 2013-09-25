@@ -170,13 +170,27 @@ templateVars = {
     "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
     }
 
-filenames = []
+#
+# Build a map of all news file to proceed for our locale
+#
+filenames = {}
 for filename in os.listdir("news"):
     if not filename.endswith(".html"):
         continue
-    filenames.append(filename)
+
+    # If a news is found with a -<LOCALE> suffix before .html
+    # It supercede a news without a such suffix (english one).
+    filename_noext = filename.split('.')[0]
+    try:
+        (dat, loc) = filename_noext.split('-')
+        if locale == loc:
+            filenames[dat] = filename
+            print "added " + filename
+    except:
+        filenames[filename_noext] = filename
 
 for filename in sorted(filenames, reverse=True):
+    filename = filenames[filename]
     templateOneNews = templateEnv.get_template( "news/" + filename )
     templateVars['newsDate'] = formatDate(filename)
     templateVars["news"].append(templateOneNews.render( templateVars ))
