@@ -31,6 +31,7 @@ RewriteRule ^-download-$ /index-en.html [R=permanent,L]
 RewriteRule ^-Download-$ /index-en.html [R=permanent,L]
 RewriteRule ^-Descargar-$ /index-es.html [R=permanent,L]
 RewriteRule ^-Telecharger-$ /index-fr.html [R=permanent,L]
+RewriteRule ^-Sur-une-page-$ /screenshots-fr.html [R=permanent,L]
 
 RewriteRule ^(.*)-gnumch-factors /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-bargame /screenshots-$1.html [R=permanent,L]
@@ -203,3 +204,4 @@ RewriteRule ^(.*)-hydroelectric /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-memory_add_minus /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-clickgame /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-melody /screenshots-$1.html [R=permanent,L]
+
