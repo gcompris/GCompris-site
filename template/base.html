@@ -54,7 +54,7 @@
 	  <li class="{% if page == 'news' %}active{% else %}non-active{% endif %}"><a href="news{{ suffix }}.html">{% trans %}News{% endtrans %}</a></li>
 	  <li class="{% if page == 'buy' %}active{% else %}non-active{% endif %}"><a href="buy{{ suffix }}.html">{% trans %}Buy / Donate{% endtrans %}</a></li>
 	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
-	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/{{ manual }}">{% trans %}Manual{% endtrans %}</a></li>
+	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/{{ manual }}">{{ manualTranslation }}</a></li>
 	  <li class="{% if page == 'contribute' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/wiki/Developer%27s_corner">{% trans %}Contribute{% endtrans %}</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">

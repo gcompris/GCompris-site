@@ -167,6 +167,7 @@ templateVars = {
     "screenshotsmenu": [],
     "locales": locales,
     "manual": getManual(),
+    "manualTranslation": _("Manual"),
     "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
     }
 
