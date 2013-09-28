@@ -186,7 +186,6 @@ for filename in os.listdir("news"):
         (dat, loc) = filename_noext.split('-')
         if locale == loc:
             filenames[dat] = filename
-            print "added " + filename
     except:
         if not filename_noext in filenames:
             filenames[filename_noext] = filename
