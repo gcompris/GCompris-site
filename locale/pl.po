@@ -1,0 +1,198 @@
+# Polish translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"PO-Revision-Date: 2013-09-12 17:42+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: pl <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2)\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: template/base.html:54
+msgid "News"
+msgstr "Nowości"
+
+#: template/base.html:55 template/buy.html:8
+msgid "Buy / Donate"
+msgstr "kupić / podarować"
+
+#: template/base.html:56
+msgid "Screenshots"
+msgstr "Zrzuty ekranu"
+
+#: template/base.html:58
+msgid "Contribute"
+msgstr "współpracować"
+
+#: template/buy.html:15
+msgid "Buying the Windows or MacOSX version"
+msgstr "Zakup wersję systemu Windows lub MacOSX"
+
+#: template/buy.html:19
+#, python-format
+msgid ""
+"The Windows and MacOSX versions have a limited number of activities, about "
+"%(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+"W wersjach systemu Windows i MacOSX ma ograniczoną liczbę działań, posiada "
+"około %(demo_activities)s ćwiczeń z około %(total_activities)s istniejących."
+
+#: template/buy.html:20
+msgid ""
+"Click on the button below let you pay 9€ for the activation code. After "
+"payment you will receive immediately an email with your instructions (check "
+"your spam folder). If you do not receive this email please write me at bruno."
+"coudoin@gcompris.net"
+msgstr ""
+"Kliknij poniżej, aby kupić € 9 kod aktywacyjny pełnej wersji GCompris. "
+"Otrzymasz e-mail w ciągu 24 godzin z instrukcjami. Jeśli nie otrzymasz ten "
+"list, napisz me bruno.coudoin@gcompris.net."
+
+#: template/buy.html:21
+msgid "Contact me to get a quote for your school."
+msgstr "Skontaktuj się ze mną na ofertę dla szkoły."
+
+#: template/buy.html:40
+msgid ""
+"The registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the latest "
+"release you got for as long as you wish."
+msgstr ""
+"Rejestracja działa dla wszystkich wersji oraz wydań nie starszych niż dwa "
+"lata."
+
+#: template/buy.html:41 template/buy.html:71
+msgid "Thanks for your support of free software in education."
+msgstr "Dziękuje za wsparcie darmowego produktu edukacyjnego."
+
+#: template/buy.html:43
+msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+msgstr "Podstawa prawna: Firma Bruno Coudoin RCS Toulouse France 498 157 536."
+
+#: template/buy.html:55
+msgid "Donate"
+msgstr "podarować"
+
+#: template/buy.html:59
+msgid ""
+"You, your children, your classroom love GCompris. You have now the "
+"opportunity to help this project."
+msgstr ""
+"Ty, Twoje dzieci, Twój szkolna miłość GCompris. Masz teraz okazję pomóc ten "
+"projekt."
+
+#: template/buy.html:60
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies "
+"moving to promote the project. Said simply, I need your help to continue my "
+"investment in this project."
+msgstr ""
+"Rozwijanie oprogramowania zajmuje dużo czasu, potrzebuje sprzętu, oznacza to "
+"przejście do promowania projektu. Powiedział po prostu potrzebuję twojej "
+"pomocy, aby kontynuować moją inwestycję w ramach tego projektu."
+
+#: template/buy.html:61
+msgid ""
+"You can donate the amount of your choice by clicking on the button below:"
+msgstr "Możesz przekazać kwotę wyboru klikając na przycisk poniżej:"
+
+#: template/index.html:44 template/index.html:45
+msgid "Download GCompris"
+msgstr "Pobierz GCompris"
+
+#: template/index.html:46
+#, python-format
+msgid "Version %(version)s"
+msgstr "Wersja %(version)s"
+
+#: template/index.html:57
+msgid "View all screenshots"
+msgstr "Zobacz wszystkie zdjęcia"
+
+#: template/index.html:62
+msgid ""
+"GCompris is a high quality educational software suite comprising of numerous "
+"activities for children aged 2 to 10."
+msgstr ""
+"GCompris jest wysokiej jakości edukacyjnych pakiet oprogramowania składający "
+"się z licznych zajęć dla dzieci w wieku od 2 do 10."
+
+#: template/index.html:63
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "Niektóre z zadań przypominają gry jednak są to gry edukacyjne"
+
+#: template/index.html:64
+msgid ""
+"Below you can find a list of categories with some of the activities "
+"available in that category."
+msgstr ""
+"Poniżej znajdziesz listę kategorii z niektórych działań dostępnych w tej "
+"kategorii."
+
+#: template/index.html:66
+msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
+msgstr "Odkrywanie komputera: klawiatura, mysz, kontrolowanie ruchów..."
+
+#: template/index.html:67
+msgid ""
+"algebra: table memory, enumeration, double entry table, mirror image, ..."
+msgstr "Algebra: gry pamięciowe, liczby, odbicia lustrzane..."
+
+#: template/index.html:68
+msgid ""
+"science: the canal lock, the water cycle, the submarine, electric "
+"simulation ..."
+msgstr ""
+"Nauka: śluza, cykl wody, kontrola łodzi podwodnej, symulacje elektryczne..."
+
+#: template/index.html:69
+msgid "geography: place the country on the map"
+msgstr "Geografia: Odnajdź kraj na mapie"
+
+#: template/index.html:70
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "Gry: Szachy, pamięć, kulki, oware, sudoku..."
+
+#: template/index.html:71
+msgid "reading: reading practice"
+msgstr "Czytanie: Ćwiczenia z czytania"
+
+#: template/index.html:72
+msgid ""
+"other: learn to tell time, puzzle of famous paintings, vector drawing, "
+"cartoon making, ..."
+msgstr "Inne: Nauka czasu, puzzle, rysowanie..."
+
+#: template/index.html:74
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being "
+"developed. GCompris is free software, that means that you can adapt it to "
+"your own needs, improve it and, most importantly, share it with children "
+"everywhere."
+msgstr ""
+"Program zawiera już ponad 100 ćwiczeń, następne są w trakcie tworzenia. "
+"GCompris jest wolnym programem, możesz go zmienić dostosowując do swoich "
+"potrzeb i co najważniejsze, podzielić się z tym z dziećmi z całego świata."
+
+#: template/index.html:80
+msgid "Latest news"
+msgstr "Aktualności"
+
+#: template/index.html:84
+msgid "All the news"
+msgstr "Wszystkie wiadomości"
+
