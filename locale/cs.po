@@ -1,0 +1,201 @@
+# Czech translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"PO-Revision-Date: 2013-09-12 17:41+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: cs <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: template/base.html:54
+msgid "News"
+msgstr "Zprávy"
+
+#: template/base.html:55 template/buy.html:8
+msgid "Buy / Donate"
+msgstr "Koupit / Donate"
+
+#: template/base.html:56
+msgid "Screenshots"
+msgstr "Obrázky"
+
+#: template/base.html:58
+msgid "Contribute"
+msgstr "Přispět"
+
+#: template/buy.html:15
+msgid "Buying the Windows or MacOSX version"
+msgstr "Zakoupení systému Windows nebo MacOS X verze"
+
+#: template/buy.html:19
+#, python-format
+msgid ""
+"The Windows and MacOSX versions have a limited number of activities, about "
+"%(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+"Systému Windows a MacOSX verze mají omezený počet činností, o "
+"%(demo_activities)s na %(total_activities)s k dispozici."
+
+#: template/buy.html:20
+msgid ""
+"Click on the button below let you pay 9€ for the activation code. After "
+"payment you will receive immediately an email with your instructions (check "
+"your spam folder). If you do not receive this email please write me at bruno."
+"coudoin@gcompris.net"
+msgstr ""
+"Klikněte na tlačítko níže vám zaplatí 9 € za aktivační kód. Po zaplacení "
+"obdržíte ihned e-mail s Vašimi pokyny (zkontrolujte složku se spamem ). "
+"Pokud neobdržíte tento e-mail, napište mi na bruno.coudoin @ gcompris.net."
+
+#: template/buy.html:21
+msgid "Contact me to get a quote for your school."
+msgstr "Kontaktujte mě dostat nabídku pro školy."
+
+#: template/buy.html:40
+msgid ""
+"The registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the latest "
+"release you got for as long as you wish."
+msgstr ""
+"Registrace vám dává právo aktualizovat, aby každé nové vydání GCompris 2 "
+"roky. Po uplynutí této doby můžete i nadále používat nejnovější verzi máš "
+"tak dlouho, jak si budete přát."
+
+#: template/buy.html:41 template/buy.html:71
+msgid "Thanks for your support of free software in education."
+msgstr "Díky za vaši podporu svobodného softwaru ve školství."
+
+#: template/buy.html:43
+msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+msgstr "Právní odkaz : Firma Bruno Coudoin RCS Toulouse Francie 498 157 536."
+
+#: template/buy.html:55
+msgid "Donate"
+msgstr "Darovat"
+
+#: template/buy.html:59
+msgid ""
+"You, your children, your classroom love GCompris. You have now the "
+"opportunity to help this project."
+msgstr ""
+"Vy, vaše děti, vaše třída milují GCompris. Nyní máte příležitost pomoci "
+"tento projekt."
+
+#: template/buy.html:60
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies "
+"moving to promote the project. Said simply, I need your help to continue my "
+"investment in this project."
+msgstr ""
+"Rozvoj software vyžaduje spoustu času, potřebuje hardware, to znamená "
+"přechod na propagaci projektu. Jednoduše řečeno, potřebuji vaši pomoc, aby i "
+"nadále svou investici do tohoto projektu."
+
+#: template/buy.html:61
+msgid ""
+"You can donate the amount of your choice by clicking on the button below:"
+msgstr "Můžete darovat částku dle Vašeho výběru kliknutím na tlačítko níže :"
+
+#: template/index.html:44 template/index.html:45
+msgid "Download GCompris"
+msgstr "Stáhnout GCompris"
+
+#: template/index.html:46
+#, python-format
+msgid "Version %(version)s"
+msgstr "Verze %(version)s"
+
+#: template/index.html:57
+msgid "View all screenshots"
+msgstr "Zobrazit všechny screenshoty"
+
+#: template/index.html:62
+msgid ""
+"GCompris is a high quality educational software suite comprising of numerous "
+"activities for children aged 2 to 10."
+msgstr ""
+"GCompris je vysoce kvalitní vzdělávací softwarový balík, skládající se z "
+"mnoha aktivit pro děti ve věku 2-10."
+
+#: template/index.html:63
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "Některé aktivity jsou orientovány hra, ale přesto stále poučné."
+
+#: template/index.html:64
+msgid ""
+"Below you can find a list of categories with some of the activities "
+"available in that category."
+msgstr ""
+"Níže najdete seznam kategorií s některými z aktivit je k dispozici v této "
+"kategorii."
+
+#: template/index.html:66
+msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
+msgstr "počítač objev : klávesnice, myš, různé gesta myši, ..."
+
+#: template/index.html:67
+msgid ""
+"algebra: table memory, enumeration, double entry table, mirror image, ..."
+msgstr "algebra: Tabulka paměť, výčet, podvojné stůl, zrcadlový obraz, ..."
+
+#: template/index.html:68
+msgid ""
+"science: the canal lock, the water cycle, the submarine, electric "
+"simulation ..."
+msgstr "Věda :zámek kanálu, koloběh vody, ponorka, elektrická simulace ..."
+
+#: template/index.html:69
+msgid "geography: place the country on the map"
+msgstr "geografie : místo na zemi na mapě"
+
+#: template/index.html:70
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "hry : šachy, paměť, připojení 4 Oware, sudoku ..."
+
+#: template/index.html:71
+msgid "reading: reading practice"
+msgstr "čtení : čtení praxe"
+
+#: template/index.html:72
+msgid ""
+"other: learn to tell time, puzzle of famous paintings, vector drawing, "
+"cartoon making, ..."
+msgstr ""
+"ostatní: naučit se určovat čas, puzzle slavných obrazů, vektorové kresby, "
+"karikatury tvorby, ..."
+
+#: template/index.html:74
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being "
+"developed. GCompris is free software, that means that you can adapt it to "
+"your own needs, improve it and, most importantly, share it with children "
+"everywhere."
+msgstr ""
+"V současné době GCompris nabízí více než 100 aktivit a další se připravují. "
+"GCompris je svobodný software, což znamená, že můžete přizpůsobit svým "
+"vlastním potřebám, zlepšit a co je nejdůležitější, je sdílet s dětmi po "
+"celém světě."
+
+#: template/index.html:80
+msgid "Latest news"
+msgstr "Poslední novinky"
+
+#: template/index.html:84
+msgid "All the news"
+msgstr "Všechny novinky"
+

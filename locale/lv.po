@@ -1,0 +1,208 @@
+# Latvian translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"PO-Revision-Date: 2013-09-12 17:43+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: lv <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2)\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: template/base.html:54
+msgid "News"
+msgstr "Jaunumi"
+
+#: template/base.html:55 template/buy.html:8
+msgid "Buy / Donate"
+msgstr "Pērk / Ziedot"
+
+#: template/base.html:56
+msgid "Screenshots"
+msgstr "Ekrānšāviņi"
+
+#: template/base.html:58
+msgid "Contribute"
+msgstr "Sekmēt"
+
+#: template/buy.html:15
+msgid "Buying the Windows or MacOSX version"
+msgstr "Pirkšana Windows vai MacOSX versija"
+
+#: template/buy.html:19
+#, python-format
+msgid ""
+"The Windows and MacOSX versions have a limited number of activities, about "
+"%(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+"Par Windows un MacOSX versijas ir ierobežotā skaitā darbības, apmēram "
+"%(demo_activities)s uz %(total_activities)s, kas pieejama."
+
+#: template/buy.html:20
+msgid ""
+"Click on the button below let you pay 9€ for the activation code. After "
+"payment you will receive immediately an email with your instructions (check "
+"your spam folder). If you do not receive this email please write me at bruno."
+"coudoin@gcompris.net"
+msgstr ""
+"Uzklikšķiniet uz zemāk esošās pogas ļauj jums maksāt 9 € par aktivizācijas "
+"kodu. Pēc maksājuma veikšanas Jūs saņemsiet uzreiz e-pastu ar jūsu "
+"norādījumiem ( pārbaudiet savu mēstuļu mapi ). Ja jūs nesaņemat šo e-pastu, "
+"lūdzu, rakstiet man uz bruno.coudoin @ gcompris.net."
+
+#: template/buy.html:21
+msgid "Contact me to get a quote for your school."
+msgstr ""
+"Sazinieties ar mani, lai iegūtu cenas piedāvājumu attiecībā uz savu skolu."
+
+#: template/buy.html:40
+msgid ""
+"The registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the latest "
+"release you got for as long as you wish."
+msgstr ""
+"Reģistrācijas dod jums tiesības atjaunināt uz jebkuru jaunu atbrīvošanu "
+"GCompris uz 2 gadiem. Pēc šī perioda, var turpināt izmantot jaunāko versiju "
+"jums tik ilgi, cik vēlaties."
+
+#: template/buy.html:41 template/buy.html:71
+msgid "Thanks for your support of free software in education."
+msgstr "Paldies par jūsu atbalstu bezmaksas programmatūru izglītībā."
+
+#: template/buy.html:43
+msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+msgstr ""
+"Juridiskā atsauce : Uzņēmuma Bruno Coudoin RCS Toulouse Francija 498 157 536."
+
+#: template/buy.html:55
+msgid "Donate"
+msgstr "Ziedot"
+
+#: template/buy.html:59
+msgid ""
+"You, your children, your classroom love GCompris. You have now the "
+"opportunity to help this project."
+msgstr ""
+"Jūs, jūsu bērni, jūsu klasē mīlu GCompris. Jums tagad ir iespēja, lai "
+"palīdzētu šo projektu."
+
+#: template/buy.html:60
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies "
+"moving to promote the project. Said simply, I need your help to continue my "
+"investment in this project."
+msgstr ""
+"Attīstot programmatūru, aizņem daudz laika, tai aparatūru, tas nozīmē "
+"pārvietojas, lai veicinātu projektu. Vienkārši teica, Man ir vajadzīga jūsu "
+"palīdzība, lai turpinātu savu ieguldījumu šajā projektā."
+
+#: template/buy.html:61
+msgid ""
+"You can donate the amount of your choice by clicking on the button below:"
+msgstr ""
+"Jūs varat ziedot summu, pēc jūsu izvēles, noklikšķinot uz pogas zemāk :"
+
+#: template/index.html:44 template/index.html:45
+msgid "Download GCompris"
+msgstr "Lejupielādēt GCompris"
+
+#: template/index.html:46
+#, python-format
+msgid "Version %(version)s"
+msgstr "Versija %(version)s"
+
+#: template/index.html:57
+msgid "View all screenshots"
+msgstr "Skatīt visus ekrānšāviņi"
+
+#: template/index.html:62
+msgid ""
+"GCompris is a high quality educational software suite comprising of numerous "
+"activities for children aged 2 to 10."
+msgstr ""
+"GCompris iraugstas kvalitātes izglītības programmatūras komplekts, kas "
+"sastāv no daudziem pasākumiem bērniem vecumā no 2 līdz 10."
+
+#: template/index.html:63
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Dažas no aktivitātēm ir spēle orientēta, bet tomēr joprojām izglītības."
+
+#: template/index.html:64
+msgid ""
+"Below you can find a list of categories with some of the activities "
+"available in that category."
+msgstr ""
+"Zemāk jūs varat atrast sarakstu ar kategoriju ar kādu no darbībām, kas ir "
+"pieejami minētajā kategorijā."
+
+#: template/index.html:66
+msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
+msgstr "Datoru atklājums : tastatūra, pele, atšķiras peles žestu, ..."
+
+#: template/index.html:67
+msgid ""
+"algebra: table memory, enumeration, double entry table, mirror image, ..."
+msgstr ""
+"algebra : galds atmiņa, skaitīšana, divkāršā ieraksta galds, "
+"spoguļattēls, ..."
+
+#: template/index.html:68
+msgid ""
+"science: the canal lock, the water cycle, the submarine, electric "
+"simulation ..."
+msgstr "zinātne :slūžas,ūdens ciklu,zemūdene, elektriskā simulācija ..."
+
+#: template/index.html:69
+msgid "geography: place the country on the map"
+msgstr "ģeogrāfija : vieta valsts kartē"
+
+#: template/index.html:70
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "spēles: šahs, atmiņas, pieslēgt 4, Oware, sudoku ..."
+
+#: template/index.html:71
+msgid "reading: reading practice"
+msgstr "lasījums : lasījums prakse"
+
+#: template/index.html:72
+msgid ""
+"other: learn to tell time, puzzle of famous paintings, vector drawing, "
+"cartoon making, ..."
+msgstr ""
+"citi: iemācīties pateikt laiku, mīklu slavenu gleznu, vektoru zīmēšanas, "
+"karikatūra pieņemšanā, ..."
+
+#: template/index.html:74
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being "
+"developed. GCompris is free software, that means that you can adapt it to "
+"your own needs, improve it and, most importantly, share it with children "
+"everywhere."
+msgstr ""
+"Šobrīd GCompris piedāvā vairāk nekā 100 pasākumos, un vairāk tiek "
+"izstrādātas. GCompris ir bezmaksas programmatūra, kas nozīmē, ka jūs varat "
+"pielāgot to savām vajadzībām, uzlabot to un, pats galvenais, dalīties tajā "
+"ar bērniem visur."
+
+#: template/index.html:80
+msgid "Latest news"
+msgstr "Jaunākās ziņas"
+
+#: template/index.html:84
+msgid "All the news"
+msgstr "Visasziņas"
+
