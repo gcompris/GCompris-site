@@ -1,6 +1,15 @@
-{% macro block() -%}
+{% macro block(locale) -%}
 <!-- Flattr -->
 <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"
    href="http://gcompris.net"></a>
-<g:plusone size="medium"></g:plusone>
+<div class="g-plusone" data-size="medium" data-href="http://gcompris.net"></div>
+<script type="text/javascript">
+  window.___gcfg = {lang: '{{ locale }}'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 {%- endmacro %}
