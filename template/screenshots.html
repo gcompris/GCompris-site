@@ -6,7 +6,7 @@
   <h1 class="bigtitle2">{% trans %}Screenshots{% endtrans %}</h1>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 bs-docs-sidebar">
-      {{ social.block() }}
+      {{ social.block(locale) }}
       <ul class="nav nav-list bs-docs-sidenav">
 	{% for activity in screenshotsmenu %}
           {% if activity.type == 'menu' %}
