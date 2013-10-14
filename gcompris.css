@@ -89,6 +89,10 @@ h2 {
     padding-left: 7px;
     padding-right: 23px;
 }
+.indexProjectImg {
+    float: right;
+    padding: 3px 0 3px 0;
+}
 .projectScreenshot {
     clear: both;
     display: block;
@@ -264,6 +268,11 @@ h2 {
 }
 .bs-docs-sidenav-depth3 {
   padding-left: 30px;
+}
+
+h3.carousel-text {
+  background-color: rgba(33, 33, 33, 0.3);
+  box-shadow: 0px 0px 5px #555;
 }
 
 /* Tablet to desktop
