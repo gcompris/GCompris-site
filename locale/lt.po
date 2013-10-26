@@ -1,17 +1,17 @@
 # Lithuanian translations for PROJECT.
 # Copyright (C) 2013 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2013.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2013-09-27 23:06+0200\n"
 "PO-Revision-Date: 2013-09-12 17:41+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: lt <LL@li.org>\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Language-Team: lt <komp_lt@konferencijos.lt>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +26,11 @@ msgstr "Naujienos"
 
 #: template/base.html:55 template/buy.html:8
 msgid "Buy / Donate"
-msgstr "Pirkti / Donate"
+msgstr "Įsigyti / Paremti"
 
 #: template/base.html:56
 msgid "Screenshots"
-msgstr "Ekrano"
+msgstr "Žaidimų vaizdai"
 
 #: template/base.html:58
 msgid "Contribute"
@@ -38,7 +38,7 @@ msgstr "Prisidėti"
 
 #: template/buy.html:15
 msgid "Buying the Windows or MacOSX version"
-msgstr "Ieško Windows ar MacOSX versija"
+msgstr "Įsigyti GCompris žaidimus Windows ar MacOSX sistemoms"
 
 #: template/buy.html:19
 #, python-format
@@ -46,8 +46,8 @@ msgid ""
 "The Windows and MacOSX versions have a limited number of activities, about "
 "%(demo_activities)s on the %(total_activities)s available."
 msgstr ""
-"Windows ir MacOSX versijos turi ribotą veiklą, apie %(demo_activities)s apie "
-"%(total_activities)s varianto."
+"Nemokamos GCompris Windows ir MacOSX versijos leidžia žaisti ne visas pamokėles, apie %(demo_activities)s"
+"iš %(total_activities)s galimų."
 
 #: template/buy.html:20
 msgid ""
@@ -56,14 +56,14 @@ msgid ""
 "your spam folder). If you do not receive this email please write me at bruno."
 "coudoin@gcompris.net"
 msgstr ""
-"Spauskite žemiau esantį mygtuką jums moka 9 € už aktyvacijos kodą. Po "
-"apmokėjimo jūs gausite iš karto el.laišką su jūsų nurodymus (patikrinkite "
-"savo šlamšto aplanką ). Jei nenorite gauti šį laišką, rašykite man bruno."
-"coudoin @ gcompris.net."
+"Paspaudę žemiau esantį mygtuką galėsite sumokėti 9€ už aktyvacijos kodą. Po "
+"apmokėjimo jūs iš karto gausite el.laišką su kodu ir nurodymais (patikrinkite "
+"ir šlamšto aplanką savo pašte). Jei negausite šio laiško, rašykite man bruno."
+"coudoin@gcompris.net"
 
 #: template/buy.html:21
 msgid "Contact me to get a quote for your school."
-msgstr "Susisiekite su manimi gauti savo mokykloje citata."
+msgstr "Susisiekite su manimi norėdami gauti nuolaidą savo mokyklai"
 
 #: template/buy.html:40
 msgid ""
@@ -71,18 +71,18 @@ msgid ""
 "GCompris for 2 years. After that period, you can continue to use the latest "
 "release you got for as long as you wish."
 msgstr ""
-"Registracija suteikia teisę atnaujinti bet nauja versija gcompris 2 metus. "
-"Pasibaigus šiam laikotarpiui, galite toliau naudoti naujausius gavai tiek, "
-"kiek norite."
+"Registracija suteikia teisę atnaujinti į bet naują GCompris versiją 2 metus."
+"Pasibaigus šiam laikotarpiui, galėsite ir toliau naudoti paskutine versija tiek, "
+"kiek norėsite."
 
 #: template/buy.html:41 template/buy.html:71
 msgid "Thanks for your support of free software in education."
-msgstr "Dėkojame už paramą laisvos programinės įrangos švietime."
+msgstr "Dėkojame už paramą laisvai edukacinei programinei įrangai."
 
 #: template/buy.html:43
 msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 msgstr ""
-"Teisinė nuoroda : Įmonės Bruno Coudoin RCS Tulūza Prancūzija 498 157 536."
+"Teisinė nuoroda : Įmonė Bruno Coudoin RCS Tulūza Prancūzija 498 157 536."
 
 #: template/buy.html:55
 msgid "Donate"
@@ -93,8 +93,8 @@ msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
 msgstr ""
-"Jūs, jūsų vaikai, jūsų klasėje patinka gcompris. Jūs turite dabar galimybę "
-"padėti šį projektą."
+"Jei Jums, jūsų vaikams ar jūsų klasei patinka GCompris, tuomet Jūs dabar turite"
+"galimybę padėti šiam projektui."
 
 #: template/buy.html:60
 msgid ""
@@ -102,19 +102,19 @@ msgid ""
 "moving to promote the project. Said simply, I need your help to continue my "
 "investment in this project."
 msgstr ""
-"Kuriant programinę įrangą, užima daug laiko, jis turi aparatūrą, tai "
-"reiškia, juda pristatyti projektą. Sakė tiesiog, man reikia jūsų pagalbos, "
-"kad tęsti savo investicijas į šį projektą."
+"Kurti programinę įrangą reikia daug laiko, taip pat reikia įsigyti kompiuterinę techniką, "
+"taip pat reikia daug pastangų populiarinant projektą. Taigi, man reikia jūsų pagalbos, "
+"kad galėčiau ir toliau tobulinti šį projektą."
 
 #: template/buy.html:61
 msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
 msgstr ""
-"Jūs galite paaukoti pasirinktą sumą, paspaudę ant žemiau esantį mygtuką :"
+"Jūs galite paaukoti norimą sumą, paspaudę ant žemiau esantį mygtuką:"
 
 #: template/index.html:44 template/index.html:45
 msgid "Download GCompris"
-msgstr "Parsisiųsti gcompris"
+msgstr "Atsisiųsti GCompris žaidimus"
 
 #: template/index.html:46
 #, python-format
@@ -123,68 +123,69 @@ msgstr "Versija %(version)s"
 
 #: template/index.html:57
 msgid "View all screenshots"
-msgstr "Žiūrėti visus ekrano"
+msgstr "Žiūrėti visas žaidimų nuotraukas"
 
 #: template/index.html:62
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
 msgstr ""
-"GCompris yraaukštos kokybės švietimo programinės įrangos paketas, sudarytas "
-"iš daug veiklos vaikams nuo 2 iki 10."
+"GCompris - tai mokomųjų-lavinamųjų žaidimų rinkinys 3–12 metų vaikams, skirtas "
+"mokytis skaityti, rašyti, skaičiuoti, pažinti gamtos dėsnius, spręsti "
+"galvosūkius, lavinti atmintį, išmokti naudotis kompiuteriu ir t.t. "
 
 #: template/index.html:63
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr "Kai veikla yra žaidimas orientuotas, bet vis vien švietimo."
+msgstr "Dalis pamokėlių yra orientuotos į žaidimą, tačiau ir jos ką nors lavina ar moko."
 
 #: template/index.html:64
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr ""
-"Žemiau rasite įvairių kategorijų sąrašą su tam tikrą veiklą, esamų šioje "
+"Žemiau rasite įvairių kategorijų sąrašą su pamokėlėmis, esamomis toje "
 "kategorijoje."
 
 #: template/index.html:66
 msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
-msgstr "kompiuteris atradimas : klaviatūra, pelė, įvairių pelės gestas, ..."
+msgstr "pažink kompiuterį: klaviatūra, pelė, įvairūs pelės gestai, ..."
 
 #: template/index.html:67
 msgid ""
 "algebra: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
-"algebra : Lentelė atmintis, išvardijimas, dvikartinės stalas, veidrodinis "
-"atspindys, ..."
+"algebra: daugybos lentelė, skaičiavimas iš eilės, sudėtis ir atimtis, "
+"susikirtimų lentelė, veidrodinis atspindys, ..."
 
 #: template/index.html:68
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr ""
-"mokslas :kanalas užraktas,vandens ciklas,povandeninis laivas, elektros "
-"modeliavimas ..."
+"mokslas: kanalų šliuzai, vandens ciklas gamtoje, povandeninis laivas, "
+"elektros grandinės modeliavimas, ..."
 
 #: template/index.html:69
 msgid "geography: place the country on the map"
-msgstr "geografija : vieta šalies žemėlapyje"
+msgstr "geografija: sudėlioti šalis žemėlapyje"
 
 #: template/index.html:70
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
-msgstr "žaidimai: šachmatai, atminties, prisijungti 4 oware, Sudoku ..."
+msgstr "žaidimai: šachmatai, atminties lavinimas, sujunk 4, oware, Sudoku ir kt. strateginiai žaidimai"
 
 #: template/index.html:71
 msgid "reading: reading practice"
-msgstr "skaitiniai: skaitymo praktika"
+msgstr "skaitymas: mokymasis skaityti"
 
 #: template/index.html:72
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr ""
-"kita: išmokti pasakyti laiką, dėlionę žinomų paveikslų, vektorinės grafikos, "
-"animacinių filmų formavimą, ..."
+"kita: išmokti pažinti laikrodį, žinomų paveikslų dėlionės, vektorinės grafikos bei "
+"animacinių filmų kūrimas, ..."
 
 #: template/index.html:74
 msgid ""
@@ -193,10 +194,10 @@ msgid ""
 "your own needs, improve it and, most importantly, share it with children "
 "everywhere."
 msgstr ""
-"Šiuo metu GCompris siūlo daugiau nei 100 veiklos ir daugiau yra kuriami. "
-"GCompris yra nemokama programinė įranga, tai reiškia, kad jūs galite "
-"pritaikyti jį savo poreikiams, tobulinti ir, svarbiausia, pasidalinti ja su "
-"vaikais visur."
+"Šiuo metu GCompris siūlo daugiau nei 140 pamokėlių, dar daugiau yra kuriamos. "
+"GCompris yra laisva programinė įranga, tai reiškia, kad jūs galite "
+"pritaikyti jį savo poreikiams, tobulinti ir, svarbiausia, visada dalintis šiomis "
+"programomis su vaikais."
 
 #: template/index.html:80
 msgid "Latest news"
