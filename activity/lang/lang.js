@@ -244,7 +244,7 @@ function getCarousel(triplets, category)
     result += '</div>';
 
     result += '<div>';
-    result += '<img id="carouselImg" src="' + triplets[0].image
+    result += '<img id="carouselImg" onload="carouselImageLoaded()" src="' + triplets[0].image
 	+ '" style="display: block; margin: 0 auto; width: '
 	+ imgSize + 'px; height ' + imgSize + 'px;"/>';
     result += '</div>';
@@ -277,11 +277,16 @@ function displayCurrentLesson() {
     displayLesson(currentChapter, currentLesson);
 }
 
+function carouselImageLoaded()
+{
+    triplet = dataSet.chapters[currentChapter].lessons[currentLesson].triplets[currentQuestionId];
+    document.getElementById("carouselTxt").innerHTML = triplet.description;
+    play(triplet.voice);
+}
+
 var currentCarouselPassed;
 function updateCarousel(triplet) {
     $('#carouselImg').attr('src', triplet.image);
-    document.getElementById("carouselTxt").innerHTML = triplet.description;
-    play(triplet.voice);
 
     currentCarouselPassed[currentQuestionId] = true;
     allSet = true;
