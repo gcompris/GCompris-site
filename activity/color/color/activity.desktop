@@ -1,0 +1,115 @@
+{
+  objectAreaXYWH: [140,50,520,340],
+  objectSelectionFill: "0xFF000090",
+  objectSelectionStroke: "0xFFFFFFCC",
+
+  questionColor: "#000",
+  questionFont: 30,
+
+  background: "background.svg",
+
+  levels:
+    [
+     {
+       questionPosition: [400,30],
+       questionText: "Find the {text} duck",
+       questionAudio: "voices/$LOCALE/colors/{text}.ogg",
+
+       okPosition: "470,310",
+
+       objects:
+	 [
+	  {
+	    objectImage: "yellow_duck.svg",
+	    objectText: "yellow",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg",
+	  },
+	  {
+	    objectImage: "black_duck.svg",
+	    objectText: "black",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg",
+	  },
+	  {
+	    objectImage: "green_duck.svg",
+	    objectText: "green",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "red_duck.svg",
+	    objectText: "red",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "white_duck.svg",
+	    objectText: "white",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "blue_duck.svg",
+	    objectText: "blue",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	 ]
+     },
+     {
+       questionPosition: [400,30],
+       questionText: "Find the {text} duck",
+       questionAudio: "voices/$LOCALE/colors/{text}.ogg",
+
+       okPosition: "470,310",
+       objects:
+	 [
+	  {
+	    objectImage: "yellow_duck.svg",
+	    objectText: "yellow",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "black_duck.svg",
+	    objectText: "black",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "brown_duck.svg",
+	    objectText: "brown",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "green_duck.svg",
+	    objectText: "green",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "grey_duck.svg",
+	    objectText: "grey",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "orange_duck.svg",
+	    objectText: "orange",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "purple_duck.svg",
+	    objectText: "purple",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "red_duck.svg",
+	    objectText: "red",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "white_duck.svg",
+	    objectText: "white",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	  {
+	    objectImage: "blue_duck.svg",
+	    objectText: "bue",
+	    objectAudio: "voices/$LOCALE/colors/{text}.ogg"
+	  },
+	 ]
+     }
+    ]
+}
