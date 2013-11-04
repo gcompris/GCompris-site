@@ -1,6 +1,6 @@
-/* gcompris - gcompris.c
+/* gcompris - lang.js
  *
- * Copyright (C) 2000, 2013 Bruno Coudoin
+ * Copyright (C) 2013 Bruno Coudoin
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -45,6 +45,14 @@ function play(sound) {
     audio.play();
 }
 
+function playCurrent() {
+    triplet = dataSet.chapters[currentChapter].lessons[currentLesson].triplets[currentQuestionId];
+    sound = triplet.voice;
+    var baseSound = sound.substring(sound.lastIndexOf('/')+1, sound.lastIndexOf('.'));
+    var audio = $('#' + baseSound).get(0);
+    audio.play();
+}
+
 function playIntro(sound) {
     var source = '<audio id="audio_player">';
     source +=  '<source id="audio_player_ogg" src="' + sound + '" type="audio/ogg" />';
@@ -68,15 +76,23 @@ window.onload = function() {
         $('#exit').on('click', function (e) {
 	    window.location.href = "http://gcompris.net";
         });
+	initAudioTooltip('#exit', "voices/" + locale + "/misc/quit.ogg");
+
         $('#home').on('click', function (e) {
             displayMenu();
         });
+	initAudioTooltip('#home', "voices/" + locale + "/misc/back.ogg");
+
         $('#config').on('click', function (e) {
             displayConfig();
         });
+	initAudioTooltip('#config', "voices/" + locale + "/misc/config.ogg");
+
         $('#help').on('click', function (e) {
             displayHelp();
         });
+	initAudioTooltip('#help', "voices/" + locale + "/misc/help.ogg");
+
         $('#level-down').on('click', function (e) {
 	    currentLesson--;
 	    if (currentLesson < 0) {
@@ -84,6 +100,8 @@ window.onload = function() {
 	    }
             displayLesson(currentChapter, currentLesson);
         });
+	initAudioTooltip('#level-down', "voices/" + locale + "/misc/level.ogg");
+
         $('#level-up').on('click', function (e) {
 	    currentLesson++;
 	    if (currentLesson >= dataSet.chapters[currentChapter].lessons.length) {
@@ -91,12 +109,32 @@ window.onload = function() {
 	    }
             displayLesson(currentChapter, currentLesson);
         });
+	initAudioTooltip('#level-up', "voices/" + locale + "/misc/level.ogg");
+
         $('#repeat').on('click', function (e) {
-	    var audio = $('#audio_player').get(0);
-	    audio.play();
+	    playCurrent();
         });
+	initAudioTooltip('#repeat', "" /* means current */);
     });
 };
+
+function initAudioTooltip(item, voice)
+{
+    $(item).on('mouseover mouseout', function(event) {
+	if (event.type == 'mouseover') {
+	    var self = this;
+	    $.data(this, "timer", setTimeout(function() {
+		if (voice != "") {
+		    playIntro(voice);
+		} else {
+		    playCurrent();
+		}
+	    }, 1000));
+	} else {
+	    clearTimeout($.data(this, "timer"));
+	}
+    });
+}
 
 function refreshBar()
 {
@@ -281,12 +319,16 @@ function carouselImageLoaded()
 {
     triplet = dataSet.chapters[currentChapter].lessons[currentLesson].triplets[currentQuestionId];
     document.getElementById("carouselTxt").innerHTML = triplet.description;
-    play(triplet.voice);
+    // Here we should call play(triplet.voice) but it is not possible
+    // to start sound other than from a click on Android
 }
 
 var currentCarouselPassed;
 function updateCarousel(triplet) {
     $('#carouselImg').attr('src', triplet.image);
+
+    // Should be in carouselImageLoaded if Android supported it.
+    play(triplet.voice);
 
     currentCarouselPassed[currentQuestionId] = true;
     allSet = true;
