@@ -353,17 +353,16 @@
             { "description": "bright", "image": "lang/words/bright.png", "voice": "voices/en/words/bright.ogg"},
             { "description": "crazy", "image": "lang/words/crazy.png", "voice": "voices/en/words/crazy.ogg"},
             { "description": "cute", "image": "lang/words/cute.png", "voice": "voices/en/words/cute.ogg"},
-            { "description": "dark", "image": "lang/words/dark.png", "voice": "voices/en/words/dark.ogg"},
             { "description": "dirty", "image": "lang/words/dirty.png", "voice": "voices/en/words/dirty.ogg"},
             { "description": "empty", "image": "lang/words/empty.png", "voice": "voices/en/words/empty.ogg"},
             { "description": "fat", "image": "lang/words/fat.png", "voice": "voices/en/words/fat.ogg"},
             { "description": "flat", "image": "lang/words/flat.png", "voice": "voices/en/words/flat.ogg"},
-            { "description": "front", "image": "lang/words/front.png", "voice": "voices/en/words/front.ogg"}
+            { "description": "front", "image": "lang/words/front.png", "voice": "voices/en/words/front.ogg"},
+            { "description": "full", "image": "lang/words/full.png", "voice": "voices/en/words/full.ogg"}
           ]
         },
        { "name": "adjective",
           "triplets": [
-            { "description": "giant", "image": "lang/words/giant.png", "voice": "voices/en/words/giant.ogg"},
             { "description": "happy", "image": "lang/words/happy.png", "voice": "voices/en/words/happy.ogg"},
             { "description": "high", "image": "lang/words/high.png", "voice": "voices/en/words/high.ogg"},
             { "description": "hot", "image": "lang/words/hot.png", "voice": "voices/en/words/hot.ogg"},
@@ -374,12 +373,12 @@
             { "description": "magic", "image": "lang/words/magic.png", "voice": "voices/en/words/magic.ogg"},
             { "description": "on", "image": "lang/words/on.png", "voice": "voices/en/words/on.ogg"},
             { "description": "pretty", "image": "lang/words/pretty.png", "voice": "voices/en/words/pretty.ogg"},
-            { "description": "right", "image": "lang/words/right.png", "voice": "voices/en/words/right.ogg"}
+            { "description": "right", "image": "lang/words/right.png", "voice": "voices/en/words/right.ogg"},
+            { "description": "round", "image": "lang/words/round.png", "voice": "voices/en/words/round.ogg"}
           ]
         },
        { "name": "adjective",
           "triplets": [
-            { "description": "royal", "image": "lang/words/royal.png", "voice": "voices/en/words/royal.ogg"},
             { "description": "shut", "image": "lang/words/shut.png", "voice": "voices/en/words/shut.ogg"},
             { "description": "sick", "image": "lang/words/sick.png", "voice": "voices/en/words/sick.ogg"},
             { "description": "small", "image": "lang/words/small.png", "voice": "voices/en/words/small.ogg"},
@@ -390,12 +389,12 @@
             { "description": "stripe", "image": "lang/words/stripe.png", "voice": "voices/en/words/stripe.ogg"},
             { "description": "strong", "image": "lang/words/strong.png", "voice": "voices/en/words/strong.ogg"},
             { "description": "tall", "image": "lang/words/tall.png", "voice": "voices/en/words/tall.ogg"},
-            { "description": "thick", "image": "lang/words/thick.png", "voice": "voices/en/words/thick.ogg"}
+            { "description": "thick", "image": "lang/words/thick.png", "voice": "voices/en/words/thick.ogg"},
+            { "description": "tired", "image": "lang/words/tired.png", "voice": "voices/en/words/tired.ogg"}
           ]
         },
        { "name": "adjective",
           "triplets": [
-            { "description": "under", "image": "lang/words/under.png", "voice": "voices/en/words/under.ogg"},
             { "description": "wet", "image": "lang/words/wet.png", "voice": "voices/en/words/wet.ogg"},
             { "description": "big", "image": "lang/words/big.png", "voice": "voices/en/words/big.ogg"},
             { "description": "blind", "image": "lang/words/blind.png", "voice": "voices/en/words/blind.ogg"},
@@ -403,10 +402,11 @@
             { "description": "bright", "image": "lang/words/bright.png", "voice": "voices/en/words/bright.ogg"},
             { "description": "crazy", "image": "lang/words/crazy.png", "voice": "voices/en/words/crazy.ogg"},
             { "description": "cute", "image": "lang/words/cute.png", "voice": "voices/en/words/cute.ogg"},
-            { "description": "dark", "image": "lang/words/dark.png", "voice": "voices/en/words/dark.ogg"},
             { "description": "dirty", "image": "lang/words/dirty.png", "voice": "voices/en/words/dirty.ogg"},
             { "description": "empty", "image": "lang/words/empty.png", "voice": "voices/en/words/empty.ogg"},
-            { "description": "fat", "image": "lang/words/fat.png", "voice": "voices/en/words/fat.ogg"}
+            { "description": "fat", "image": "lang/words/fat.png", "voice": "voices/en/words/fat.ogg"},
+            { "description": "flat", "image": "lang/words/flat.png", "voice": "voices/en/words/flat.ogg"},
+            { "description": "front", "image": "lang/words/front.png", "voice": "voices/en/words/front.ogg"}
           ]
         },
        { "name": "color",
