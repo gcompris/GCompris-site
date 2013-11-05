@@ -6,7 +6,7 @@
   <div class="row">
     <div class="col-xs-12 col-md-12">
       <h1 class="bigtitle2">{% trans %}News{% endtrans %}</h1>
-      {{ social.block() }}
+      {{ social.block(locale) }}
       {% for onenews in news %}
         {%- if loop.index <= 8 %}{{ onenews }}{% endif %}
       {% endfor %}

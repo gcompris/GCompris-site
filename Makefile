@@ -1,12 +1,12 @@
 
-VERSION = 12.11
+VERSION = 13.11
 
-ALL_LINGUAS = cs el es lt pt_BR sl hu de fr sr gl pl sk ta ru th bg da zh_TW lv nn sv
+ALL_LINGUAS = br cs el es gd lt pt_BR sl hu de fr sr gl pl sk ta ru th bg da zh_TW lv nn sv
 #ALL_LINGUAS = fr
 
-POFILES=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang/LC_MESSAGES/messages.po "; done)
+POFILES=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang.po "; done)
 
-CATALOGS=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang/LC_MESSAGES/messages.mo  "; done)
+CATALOGS=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang.mo  "; done)
 
 sources = \
 	gcompris.py \
@@ -26,9 +26,28 @@ i18_sources = template/base.html \
 	template/buy.html \
 	template/index.html
 
-all: index-en.html
+all:
+	linguas="$(ALL_LINGUAS)"; \
+	for lang in $$linguas; do \
+	  ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)"; \
+	done; \
+	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"
 
-locale/messages.pot : $(i18_sources)
+update:
+	linguas="$(ALL_LINGUAS)"; \
+	for lang in $$linguas; do \
+	  if test locale/messages.pot -nt locale/$$lang.po; then \
+	    cd locale; intltool-update --dist --gettext-package=messages $$lang; cd ..; \
+	  fi; \
+	  header_end=`grep -n '^$$' locale/$$lang.po | head -1 | sed s/://`; \
+	  tail -n +$$header_end locale/$$lang.po > locale/tempfile; \
+	  mkdir -p locale/$$lang/LC_MESSAGES; \
+	  cat ~/Projets/gcompris/po/$$lang.po locale/tempfile > locale/$$lang/LC_MESSAGES/gcompris.po; \
+	  rm -f locale/tempfile; \
+	  msgfmt locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
+	done;
+
+extract: $(i18_sources)
 	pybabel extract -F babel.cfg -o locale/messages.pot ./
 	if test $(shell git diff locale/messages.pot | grep "^+[^+]" | wc -l) -eq 1; then \
 	  git checkout locale/messages.pot; \
@@ -38,18 +57,8 @@ locale/messages.pot : $(i18_sources)
 #%.po :
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
 
-index-en.html : $(POFILES) locale/messages.pot $(sources)
-	linguas="$(ALL_LINGUAS)"; \
-	for lang in $$linguas; do \
-	  dir=locale/$$lang/LC_MESSAGES; \
-	  if test locale/messages.pot -nt locale/$$lang/LC_MESSAGES/messages.po; then \
-	    pybabel update --previous -l $$lang -d locale -i locale/messages.pot; \
-	  fi; \
-	  cat ~/Projets/gcompris/po/$$lang.po locale/$$lang/LC_MESSAGES/messages.po > locale/$$lang/LC_MESSAGES/gcompris.po; \
-	  pybabel compile -f -d locale -i locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
-	  ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)"; \
-	done; \
-	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"
+online:
+	rsync -az --copy-unsafe-links --exclude .git . bdoin@gcompris.net:/var/www/
 
 clean:
 	rm -f *.html *.pyc

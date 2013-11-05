@@ -1,0 +1,862 @@
+{ "strings": {
+    "help": "Revisa un conjunto de palabras. Cada palabra se muestra con una voz, un texto y una imagen. Cuando termines se te sugiere un ejercicio en el cual se da la voz y puede encontrar la palabra correcta. En la configuración puedes seleccionar el idioma que quieres aprender."
+  },
+ "locales": [
+    {"name": "Inglés (Estados Unidos)", "code": "en" },
+    {"name": "Español", "code": "es" },
+    {"name": "Francés", "code": "fr" },
+    {"name": "Gaélico escocés", "code": "gd" }
+  ],
+  "chapters": [
+    { "name": "objeto",
+      "lessons": [
+       { "name": "construcción",
+          "triplets": [
+            { "description": "banco", "image": "lang/words/bank.png", "voice": "voices/es/words/bank.ogg"},
+            { "description": "granero", "image": "lang/words/barn.png", "voice": "voices/es/words/barn.ogg"},
+            { "description": "dormitorio", "image": "lang/words/bedroom.png", "voice": "voices/es/words/bedroom.ogg"},
+            { "description": "puente", "image": "lang/words/bridge.png", "voice": "voices/es/words/bridge.ogg"},
+            { "description": "jaula", "image": "lang/words/cage.png", "voice": "voices/es/words/cage.ogg"},
+            { "description": "castillo", "image": "lang/words/castle.png", "voice": "voices/es/words/castle.ogg"},
+            { "description": "chimenea", "image": "lang/words/chimney.png", "voice": "voices/es/words/chimney.ogg"},
+            { "description": "circo", "image": "lang/words/circus.png", "voice": "voices/es/words/circus.ogg"},
+            { "description": "ciudad", "image": "lang/words/city.png", "voice": "voices/es/words/city.ogg"},
+            { "description": "puerta", "image": "lang/words/door.png", "voice": "voices/es/words/door.ogg"},
+            { "description": "granja", "image": "lang/words/farm.png", "voice": "voices/es/words/farm.ogg"},
+            { "description": "garaje", "image": "lang/words/garage.png", "voice": "voices/es/words/garage.ogg"}
+          ]
+        },
+       { "name": "construcción",
+          "triplets": [
+            { "description": "hospital", "image": "lang/words/hospital.png", "voice": "voices/es/words/hospital.ogg"},
+            { "description": "casa", "image": "lang/words/house.png", "voice": "voices/es/words/house.ogg"},
+            { "description": "cocina", "image": "lang/words/kitchen.png", "voice": "voices/es/words/kitchen.ogg"},
+            { "description": "carril", "image": "lang/words/lane.png", "voice": "voices/es/words/lane.ogg"},
+            { "description": "faro", "image": "lang/words/lighthouse.png", "voice": "voices/es/words/lighthouse.ogg"},
+            { "description": "molino", "image": "lang/words/mill.png", "voice": "voices/es/words/mill.ogg"},
+            { "description": "piscina", "image": "lang/words/pool.png", "voice": "voices/es/words/pool.ogg"},
+            { "description": "prisión", "image": "lang/words/prison.png", "voice": "voices/es/words/prison.ogg"},
+            { "description": "pirámide", "image": "lang/words/pyramid.png", "voice": "voices/es/words/pyramid.ogg"},
+            { "description": "carretera", "image": "lang/words/road.png", "voice": "voices/es/words/road.ogg"},
+            { "description": "techo", "image": "lang/words/roof.png", "voice": "voices/es/words/roof.ogg"},
+            { "description": "escuela", "image": "lang/words/school.png", "voice": "voices/es/words/school.ogg"}
+          ]
+        },
+       { "name": "construcción",
+          "triplets": [
+            { "description": "calle", "image": "lang/words/street.png", "voice": "voices/es/words/street.ogg"},
+            { "description": "templo", "image": "lang/words/temple.png", "voice": "voices/es/words/temple.ogg"},
+            { "description": "estación de tren", "image": "lang/words/train_station.png", "voice": "voices/es/words/train_station.ogg"},
+            { "description": "pared", "image": "lang/words/wall.png", "voice": "voices/es/words/wall.ogg"},
+            { "description": "ventana", "image": "lang/words/window.png", "voice": "voices/es/words/window.ogg"},
+            { "description": "clase", "image": "lang/words/class.png", "voice": "voices/es/words/class.ogg"},
+            { "description": "banco", "image": "lang/words/bank.png", "voice": "voices/es/words/bank.ogg"},
+            { "description": "granero", "image": "lang/words/barn.png", "voice": "voices/es/words/barn.ogg"},
+            { "description": "dormitorio", "image": "lang/words/bedroom.png", "voice": "voices/es/words/bedroom.ogg"},
+            { "description": "puente", "image": "lang/words/bridge.png", "voice": "voices/es/words/bridge.ogg"},
+            { "description": "jaula", "image": "lang/words/cage.png", "voice": "voices/es/words/cage.ogg"},
+            { "description": "castillo", "image": "lang/words/castle.png", "voice": "voices/es/words/castle.ogg"}
+          ]
+        },
+       { "name": "hogar",
+          "triplets": [
+            { "description": "reloj", "image": "lang/words/clock.png", "voice": "voices/es/words/clock.ogg"},
+            { "description": "cortina", "image": "lang/words/curtain.png", "voice": "voices/es/words/curtain.ogg"},
+            { "description": "tenedor", "image": "lang/words/fork.png", "voice": "voices/es/words/fork.ogg"},
+            { "description": "cuchillo", "image": "lang/words/knife.png", "voice": "voices/es/words/knife.ogg"},
+            { "description": "tapa", "image": "lang/words/lid.png", "voice": "voices/es/words/lid.ogg"},
+            { "description": "jarra", "image": "lang/words/mug.png", "voice": "voices/es/words/mug.ogg"},
+            { "description": "olla", "image": "lang/words/pot.png", "voice": "voices/es/words/pot.ogg"},
+            { "description": "esponja", "image": "lang/words/sponge.png", "voice": "voices/es/words/sponge.ogg"},
+            { "description": "cuchara", "image": "lang/words/spoon.png", "voice": "voices/es/words/spoon.ogg"},
+            { "description": "florero", "image": "lang/words/vase.png", "voice": "voices/es/words/vase.ogg"}
+          ]
+        },
+       { "name": "objeto",
+          "triplets": [
+            { "description": "ancla", "image": "lang/words/anchor.png", "voice": "voices/es/words/anchor.ogg"},
+            { "description": "bolsa", "image": "lang/words/bag.png", "voice": "voices/es/words/bag.ogg"},
+            { "description": "campana", "image": "lang/words/bell.png", "voice": "voices/es/words/bell.ogg"},
+            { "description": "bomba", "image": "lang/words/bomb.png", "voice": "voices/es/words/bomb.ogg"},
+            { "description": "libro", "image": "lang/words/book.png", "voice": "voices/es/words/book.ogg"},
+            { "description": "caja", "image": "lang/words/box.png", "voice": "voices/es/words/box.ogg"},
+            { "description": "cubo", "image": "lang/words/bucket.png", "voice": "voices/es/words/bucket.ogg"},
+            { "description": "cámara", "image": "lang/words/camera.png", "voice": "voices/es/words/camera.ogg"},
+            { "description": "vela", "image": "lang/words/candle.png", "voice": "voices/es/words/candle.ogg"},
+            { "description": "cadena", "image": "lang/words/chain.png", "voice": "voices/es/words/chain.ogg"},
+            { "description": "tiza", "image": "lang/words/chalk.png", "voice": "voices/es/words/chalk.ogg"},
+            { "description": "cigarro", "image": "lang/words/cigar.png", "voice": "voices/es/words/cigar.ogg"}
+          ]
+        },
+       { "name": "objeto",
+          "triplets": [
+            { "description": "moneda", "image": "lang/words/coin.png", "voice": "voices/es/words/coin.ogg"},
+            { "description": "peine", "image": "lang/words/comb.png", "voice": "voices/es/words/comb.ogg"},
+            { "description": "cono", "image": "lang/words/cone.png", "voice": "voices/es/words/cone.ogg"},
+            { "description": "muñeca", "image": "lang/words/doll.png", "voice": "voices/es/words/doll.ogg"},
+            { "description": "tambor", "image": "lang/words/drum.png", "voice": "voices/es/words/drum.ogg"},
+            { "description": "borrador", "image": "lang/words/eraser.png", "voice": "voices/es/words/eraser.ogg"},
+            { "description": "bandera", "image": "lang/words/flag.png", "voice": "voices/es/words/flag.ogg"},
+            { "description": "flauta", "image": "lang/words/flute.png", "voice": "voices/es/words/flute.ogg"},
+            { "description": "juego", "image": "lang/words/game.png", "voice": "voices/es/words/game.ogg"},
+            { "description": "regalo", "image": "lang/words/gift.png", "voice": "voices/es/words/gift.ogg"},
+            { "description": "gafas", "image": "lang/words/glasses.png", "voice": "voices/es/words/glasses.ogg"},
+            { "description": "pegamento", "image": "lang/words/glue.png", "voice": "voices/es/words/glue.ogg"}
+          ]
+        },
+       { "name": "objeto",
+          "triplets": [
+            { "description": "tinta", "image": "lang/words/ink.png", "voice": "voices/es/words/ink.ogg"},
+            { "description": "joya", "image": "lang/words/jewel.png", "voice": "voices/es/words/jewel.ogg"},
+            { "description": "cometa", "image": "lang/words/kite.png", "voice": "voices/es/words/kite.ogg"},
+            { "description": "nudo", "image": "lang/words/knot.png", "voice": "voices/es/words/knot.ogg"},
+            { "description": "correo", "image": "lang/words/mail.png", "voice": "voices/es/words/mail.ogg"},
+            { "description": "mapa", "image": "lang/words/map.png", "voice": "voices/es/words/map.ogg"},
+            { "description": "máscara", "image": "lang/words/mask.png", "voice": "voices/es/words/mask.ogg"},
+            { "description": "espejo", "image": "lang/words/mirror.png", "voice": "voices/es/words/mirror.ogg"},
+            { "description": "collar", "image": "lang/words/necklace.png", "voice": "voices/es/words/necklace.ogg"},
+            { "description": "nido", "image": "lang/words/nest.png", "voice": "voices/es/words/nest.ogg"},
+            { "description": "periódico", "image": "lang/words/newspaper.png", "voice": "voices/es/words/newspaper.ogg"},
+            { "description": "cuaderno", "image": "lang/words/notebook.png", "voice": "voices/es/words/notebook.ogg"}
+          ]
+        },
+       { "name": "objeto",
+          "triplets": [
+            { "description": "página", "image": "lang/words/page.png", "voice": "voices/es/words/page.ogg"},
+            { "description": "par", "image": "lang/words/pair.png", "voice": "voices/es/words/pair.ogg"},
+            { "description": "papel", "image": "lang/words/paper.png", "voice": "voices/es/words/paper.ogg"},
+            { "description": "perla", "image": "lang/words/pearl.png", "voice": "voices/es/words/pearl.ogg"},
+            { "description": "lápiz", "image": "lang/words/pencil.png", "voice": "voices/es/words/pencil.ogg"},
+            { "description": "teléfono", "image": "lang/words/phone.png", "voice": "voices/es/words/phone.ogg"},
+            { "description": "piano", "image": "lang/words/piano.png", "voice": "voices/es/words/piano.ogg"},
+            { "description": "imagen", "image": "lang/words/picture.png", "voice": "voices/es/words/picture.ogg"},
+            { "description": "píldora", "image": "lang/words/pill.png", "voice": "voices/es/words/pill.ogg"},
+            { "description": "almohada", "image": "lang/words/pillow.png", "voice": "voices/es/words/pillow.ogg"},
+            { "description": "radio", "image": "lang/words/radio.png", "voice": "voices/es/words/radio.ogg"},
+            { "description": "robot", "image": "lang/words/robot.png", "voice": "voices/es/words/robot.ogg"}
+          ]
+        },
+       { "name": "objeto",
+          "triplets": [
+            { "description": "jabón", "image": "lang/words/soap.png", "voice": "voices/es/words/soap.ogg"},
+            { "description": "sello", "image": "lang/words/stamp.png", "voice": "voices/es/words/stamp.ogg"},
+            { "description": "paja", "image": "lang/words/straw.png", "voice": "voices/es/words/straw.ogg"},
+            { "description": "maleta", "image": "lang/words/suitcase.png", "voice": "voices/es/words/suitcase.ogg"},
+            { "description": "etiqueta", "image": "lang/words/tag.png", "voice": "voices/es/words/tag.ogg"},
+            { "description": "billete", "image": "lang/words/ticket.png", "voice": "voices/es/words/ticket.ogg"},
+            { "description": "tejido", "image": "lang/words/tissue.png", "voice": "voices/es/words/tissue.ogg"},
+            { "description": "toalla", "image": "lang/words/towel.png", "voice": "voices/es/words/towel.ogg"},
+            { "description": "juguete", "image": "lang/words/toy.png", "voice": "voices/es/words/toy.ogg"},
+            { "description": "tubo", "image": "lang/words/tube.png", "voice": "voices/es/words/tube.ogg"},
+            { "description": "paraguas", "image": "lang/words/umbrella.png", "voice": "voices/es/words/umbrella.ogg"},
+            { "description": "rueda", "image": "lang/words/wheel.png", "voice": "voices/es/words/wheel.ogg"}
+          ]
+        },
+       { "name": "objeto",
+          "triplets": [
+            { "description": "madera", "image": "lang/words/wood.png", "voice": "voices/es/words/wood.ogg"},
+            { "description": "Navidad", "image": "lang/words/christmas.png", "voice": "voices/es/words/christmas.ogg"},
+            { "description": "película", "image": "lang/words/movie.png", "voice": "voices/es/words/movie.ogg"},
+            { "description": "música", "image": "lang/words/music.png", "voice": "voices/es/words/music.ogg"},
+            { "description": "precio", "image": "lang/words/price.png", "voice": "voices/es/words/price.ogg"},
+            { "description": "punto", "image": "lang/words/dot.png", "voice": "voices/es/words/dot.ogg"},
+            { "description": "ancla", "image": "lang/words/anchor.png", "voice": "voices/es/words/anchor.ogg"},
+            { "description": "bolsa", "image": "lang/words/bag.png", "voice": "voices/es/words/bag.ogg"},
+            { "description": "campana", "image": "lang/words/bell.png", "voice": "voices/es/words/bell.ogg"},
+            { "description": "bomba", "image": "lang/words/bomb.png", "voice": "voices/es/words/bomb.ogg"},
+            { "description": "libro", "image": "lang/words/book.png", "voice": "voices/es/words/book.ogg"},
+            { "description": "caja", "image": "lang/words/box.png", "voice": "voices/es/words/box.ogg"}
+          ]
+        },
+       { "name": "herramienta",
+          "triplets": [
+            { "description": "martillo", "image": "lang/words/hammer.png", "voice": "voices/es/words/hammer.ogg"},
+            { "description": "aguja", "image": "lang/words/needle.png", "voice": "voices/es/words/needle.ogg"},
+            { "description": "rastrillo", "image": "lang/words/rake.png", "voice": "voices/es/words/rake.ogg"},
+            { "description": "tijeras", "image": "lang/words/scissors.png", "voice": "voices/es/words/scissors.ogg"},
+            { "description": "pala", "image": "lang/words/shovel.png", "voice": "voices/es/words/shovel.ogg"},
+            { "description": "herramienta", "image": "lang/words/tool.png", "voice": "voices/es/words/tool.ogg"},
+            { "description": "viaje", "image": "lang/words/trip.png", "voice": "voices/es/words/trip.ogg"},
+            { "description": "bicicleta", "image": "lang/words/bike.png", "voice": "voices/es/words/bike.ogg"},
+            { "description": "barco", "image": "lang/words/boat.png", "voice": "voices/es/words/boat.ogg"},
+            { "description": "autobús", "image": "lang/words/bus.png", "voice": "voices/es/words/bus.ogg"},
+            { "description": "canoa", "image": "lang/words/canoe.png", "voice": "voices/es/words/canoe.ogg"},
+            { "description": "coche", "image": "lang/words/car.png", "voice": "voices/es/words/car.ogg"}
+          ]
+        },
+       { "name": "herramienta",
+          "triplets": [
+            { "description": "motocicleta", "image": "lang/words/motorcycle.png", "voice": "voices/es/words/motorcycle.ogg"},
+            { "description": "cohete", "image": "lang/words/rocket.png", "voice": "voices/es/words/rocket.ogg"},
+            { "description": "navegar", "image": "lang/words/sail.png", "voice": "voices/es/words/sail.ogg"},
+            { "description": "tren", "image": "lang/words/train.png", "voice": "voices/es/words/train.ogg"},
+            { "description": "camión", "image": "lang/words/truck.png", "voice": "voices/es/words/truck.ogg"},
+            { "description": "martillo", "image": "lang/words/hammer.png", "voice": "voices/es/words/hammer.ogg"},
+            { "description": "aguja", "image": "lang/words/needle.png", "voice": "voices/es/words/needle.ogg"},
+            { "description": "rastrillo", "image": "lang/words/rake.png", "voice": "voices/es/words/rake.ogg"},
+            { "description": "tijeras", "image": "lang/words/scissors.png", "voice": "voices/es/words/scissors.ogg"},
+            { "description": "pala", "image": "lang/words/shovel.png", "voice": "voices/es/words/shovel.ogg"},
+            { "description": "herramienta", "image": "lang/words/tool.png", "voice": "voices/es/words/tool.ogg"},
+            { "description": "viaje", "image": "lang/words/trip.png", "voice": "voices/es/words/trip.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "otro",
+      "lessons": [
+       { "name": "otro",
+          "triplets": [
+            { "description": "alfabeto", "image": "lang/words/alphabet.png", "voice": "voices/es/words/alphabet.ogg"},
+            { "description": "burbuja", "image": "lang/words/bubble.png", "voice": "voices/es/words/bubble.ogg"},
+            { "description": "enlace", "image": "lang/words/link.png", "voice": "voices/es/words/link.ogg"},
+            { "description": "número", "image": "lang/words/number.png", "voice": "voices/es/words/number.ogg"},
+            { "description": "cuestión", "image": "lang/words/question.png", "voice": "voices/es/words/question.ogg"},
+            { "description": "texto", "image": "lang/words/text.png", "voice": "voices/es/words/text.ogg"},
+            { "description": "vocal", "image": "lang/words/vowel.png", "voice": "voices/es/words/vowel.ogg"},
+            { "description": "peso", "image": "lang/words/weight.png", "voice": "voices/es/words/weight.ogg"},
+            { "description": "palabra", "image": "lang/words/word.png", "voice": "voices/es/words/word.ogg"}
+          ]
+        },
+       { "name": "acción",
+          "triplets": [
+            { "description": "ladrido", "image": "lang/words/bark.png", "voice": "voices/es/words/bark.ogg"},
+            { "description": "batir", "image": "lang/words/beat.png", "voice": "voices/es/words/beat.ogg"},
+            { "description": "hervir", "image": "lang/words/boil.png", "voice": "voices/es/words/boil.ogg"},
+            { "description": "romper", "image": "lang/words/break.png", "voice": "voices/es/words/break.ogg"},
+            { "description": "llamar", "image": "lang/words/call.png", "voice": "voices/es/words/call.ogg"},
+            { "description": "charlar", "image": "lang/words/chat.png", "voice": "voices/es/words/chat.ogg"},
+            { "description": "limpiar", "image": "lang/words/clean.png", "voice": "voices/es/words/clean.ogg"},
+            { "description": "llorar", "image": "lang/words/cry.png", "voice": "voices/es/words/cry.ogg"},
+            { "description": "cortar", "image": "lang/words/cut.png", "voice": "voices/es/words/cut.ogg"},
+            { "description": "cavar", "image": "lang/words/dig.png", "voice": "voices/es/words/dig.ogg"},
+            { "description": "dibujar", "image": "lang/words/draw.png", "voice": "voices/es/words/draw.ogg"},
+            { "description": "sueño", "image": "lang/words/dream.png", "voice": "voices/es/words/dream.ogg"}
+          ]
+        },
+       { "name": "acción",
+          "triplets": [
+            { "description": "secar", "image": "lang/words/dry.png", "voice": "voices/es/words/dry.ogg"},
+            { "description": "comer", "image": "lang/words/eat.png", "voice": "voices/es/words/eat.ogg"},
+            { "description": "encontrar", "image": "lang/words/find.png", "voice": "voices/es/words/find.ogg"},
+            { "description": "volar", "image": "lang/words/fly.png", "voice": "voices/es/words/fly.ogg"},
+            { "description": "escotilla", "image": "lang/words/hatch.png", "voice": "voices/es/words/hatch.ogg"},
+            { "description": "escuchar", "image": "lang/words/hear.png", "voice": "voices/es/words/hear.ogg"},
+            { "description": "saltar", "image": "lang/words/jump.png", "voice": "voices/es/words/jump.ogg"},
+            { "description": "beso", "image": "lang/words/kiss.png", "voice": "voices/es/words/kiss.ogg"},
+            { "description": "lamer", "image": "lang/words/lick.png", "voice": "voices/es/words/lick.ogg"},
+            { "description": "jugar", "image": "lang/words/play.png", "voice": "voices/es/words/play.ogg"},
+            { "description": "leer", "image": "lang/words/read.png", "voice": "voices/es/words/read.ogg"},
+            { "description": "gritar", "image": "lang/words/scream.png", "voice": "voices/es/words/scream.ogg"}
+          ]
+        },
+       { "name": "acción",
+          "triplets": [
+            { "description": "sacudir", "image": "lang/words/shake.png", "voice": "voices/es/words/shake.ogg"},
+            { "description": "cantar", "image": "lang/words/sing.png", "voice": "voices/es/words/sing.ogg"},
+            { "description": "sentarse", "image": "lang/words/sit.png", "voice": "voices/es/words/sit.ogg"},
+            { "description": "dormir", "image": "lang/words/sleep.png", "voice": "voices/es/words/sleep.ogg"},
+            { "description": "olor", "image": "lang/words/smell.png", "voice": "voices/es/words/smell.ogg"},
+            { "description": "hablar", "image": "lang/words/speak.png", "voice": "voices/es/words/speak.ogg"},
+            { "description": "derramar", "image": "lang/words/spill.png", "voice": "voices/es/words/spill.ogg"},
+            { "description": "parar", "image": "lang/words/stop.png", "voice": "voices/es/words/stop.ogg"},
+            { "description": "estudiar", "image": "lang/words/study.png", "voice": "voices/es/words/study.ogg"},
+            { "description": "enseñar", "image": "lang/words/teach.png", "voice": "voices/es/words/teach.ogg"},
+            { "description": "pensar", "image": "lang/words/think.png", "voice": "voices/es/words/think.ogg"},
+            { "description": "caminar", "image": "lang/words/walk.png", "voice": "voices/es/words/walk.ogg"}
+          ]
+        },
+       { "name": "acción",
+          "triplets": [
+            { "description": "ganar", "image": "lang/words/win.png", "voice": "voices/es/words/win.ogg"},
+            { "description": "escribir", "image": "lang/words/write.png", "voice": "voices/es/words/write.ogg"},
+            { "description": "ladrido", "image": "lang/words/bark.png", "voice": "voices/es/words/bark.ogg"},
+            { "description": "batir", "image": "lang/words/beat.png", "voice": "voices/es/words/beat.ogg"},
+            { "description": "hervir", "image": "lang/words/boil.png", "voice": "voices/es/words/boil.ogg"},
+            { "description": "romper", "image": "lang/words/break.png", "voice": "voices/es/words/break.ogg"},
+            { "description": "llamar", "image": "lang/words/call.png", "voice": "voices/es/words/call.ogg"},
+            { "description": "charlar", "image": "lang/words/chat.png", "voice": "voices/es/words/chat.ogg"},
+            { "description": "limpiar", "image": "lang/words/clean.png", "voice": "voices/es/words/clean.ogg"},
+            { "description": "llorar", "image": "lang/words/cry.png", "voice": "voices/es/words/cry.ogg"},
+            { "description": "cortar", "image": "lang/words/cut.png", "voice": "voices/es/words/cut.ogg"},
+            { "description": "cavar", "image": "lang/words/dig.png", "voice": "voices/es/words/dig.ogg"}
+          ]
+        },
+       { "name": "adjetivo",
+          "triplets": [
+            { "description": "grande", "image": "lang/words/big.png", "voice": "voices/es/words/big.ogg"},
+            { "description": "ciego", "image": "lang/words/blind.png", "voice": "voices/es/words/blind.ogg"},
+            { "description": "rubio", "image": "lang/words/blond.png", "voice": "voices/es/words/blond.ogg"},
+            { "description": "brillante", "image": "lang/words/bright.png", "voice": "voices/es/words/bright.ogg"},
+            { "description": "loco", "image": "lang/words/crazy.png", "voice": "voices/es/words/crazy.ogg"},
+            { "description": "sucio", "image": "lang/words/dirty.png", "voice": "voices/es/words/dirty.ogg"},
+            { "description": "vacío", "image": "lang/words/empty.png", "voice": "voices/es/words/empty.ogg"},
+            { "description": "grasa", "image": "lang/words/fat.png", "voice": "voices/es/words/fat.ogg"},
+            { "description": "frente", "image": "lang/words/front.png", "voice": "voices/es/words/front.ogg"},
+            { "description": "gigante", "image": "lang/words/giant.png", "voice": "voices/es/words/giant.ogg"},
+            { "description": "mitad", "image": "lang/words/half.png", "voice": "voices/es/words/half.ogg"},
+            { "description": "feliz", "image": "lang/words/happy.png", "voice": "voices/es/words/happy.ogg"}
+          ]
+        },
+       { "name": "adjetivo",
+          "triplets": [
+            { "description": "caliente", "image": "lang/words/hot.png", "voice": "voices/es/words/hot.ogg"},
+            { "description": "enorme", "image": "lang/words/huge.png", "voice": "voices/es/words/huge.ogg"},
+            { "description": "enfermo", "image": "lang/words/ill.png", "voice": "voices/es/words/ill.ogg"},
+            { "description": "izquierda", "image": "lang/words/left.png", "voice": "voices/es/words/left.ogg"},
+            { "description": "linea", "image": "lang/words/line.png", "voice": "voices/es/words/line.ogg"},
+            { "description": "líquido", "image": "lang/words/liquid.png", "voice": "voices/es/words/liquid.ogg"},
+            { "description": "abrir", "image": "lang/words/open.png", "voice": "voices/es/words/open.ogg"},
+            { "description": "bonita", "image": "lang/words/pretty.png", "voice": "voices/es/words/pretty.ogg"},
+            { "description": "pequeño", "image": "lang/words/small.png", "voice": "voices/es/words/small.ogg"},
+            { "description": "recto", "image": "lang/words/straight.png", "voice": "voices/es/words/straight.ogg"},
+            { "description": "fuerte", "image": "lang/words/strong.png", "voice": "voices/es/words/strong.ogg"},
+            { "description": "cansado", "image": "lang/words/tired.png", "voice": "voices/es/words/tired.ogg"}
+          ]
+        },
+       { "name": "adjetivo",
+          "triplets": [
+            { "description": "humedo", "image": "lang/words/wet.png", "voice": "voices/es/words/wet.ogg"},
+            { "description": "ancho", "image": "lang/words/wide.png", "voice": "voices/es/words/wide.ogg"},
+            { "description": "grande", "image": "lang/words/big.png", "voice": "voices/es/words/big.ogg"},
+            { "description": "ciego", "image": "lang/words/blind.png", "voice": "voices/es/words/blind.ogg"},
+            { "description": "rubio", "image": "lang/words/blond.png", "voice": "voices/es/words/blond.ogg"},
+            { "description": "brillante", "image": "lang/words/bright.png", "voice": "voices/es/words/bright.ogg"},
+            { "description": "loco", "image": "lang/words/crazy.png", "voice": "voices/es/words/crazy.ogg"},
+            { "description": "sucio", "image": "lang/words/dirty.png", "voice": "voices/es/words/dirty.ogg"},
+            { "description": "vacío", "image": "lang/words/empty.png", "voice": "voices/es/words/empty.ogg"},
+            { "description": "grasa", "image": "lang/words/fat.png", "voice": "voices/es/words/fat.ogg"},
+            { "description": "frente", "image": "lang/words/front.png", "voice": "voices/es/words/front.ogg"},
+            { "description": "gigante", "image": "lang/words/giant.png", "voice": "voices/es/words/giant.ogg"}
+          ]
+        },
+       { "name": "color",
+          "triplets": [
+            { "description": "color", "image": "lang/words/color.png", "voice": "voices/es/words/color.ogg"},
+            { "description": "azul", "image": "lang/words/blue.png", "voice": "voices/es/words/blue.ogg"},
+            { "description": "marrón", "image": "lang/words/brown.png", "voice": "voices/es/words/brown.ogg"},
+            { "description": "negro", "image": "lang/words/black.png", "voice": "voices/es/words/black.ogg"},
+            { "description": "gris", "image": "lang/words/gray.png", "voice": "voices/es/words/gray.ogg"},
+            { "description": "verde", "image": "lang/words/green.png", "voice": "voices/es/words/green.ogg"},
+            { "description": "rosa", "image": "lang/words/pink.png", "voice": "voices/es/words/pink.ogg"},
+            { "description": "rojo", "image": "lang/words/red.png", "voice": "voices/es/words/red.ogg"},
+            { "description": "blanco", "image": "lang/words/white.png", "voice": "voices/es/words/white.ogg"},
+            { "description": "amarillo", "image": "lang/words/yellow.png", "voice": "voices/es/words/yellow.ogg"}
+          ]
+        },
+       { "name": "número",
+          "triplets": [
+            { "description": "cero", "image": "lang/words/zero.png", "voice": "voices/es/alphabet/U0030.ogg"},
+            { "description": "uno", "image": "lang/words/one.png", "voice": "voices/es/alphabet/U0031.ogg"},
+            { "description": "dos", "image": "lang/words/two.png", "voice": "voices/es/alphabet/U0032.ogg"},
+            { "description": "tres", "image": "lang/words/three.png", "voice": "voices/es/alphabet/U0033.ogg"},
+            { "description": "cuatro", "image": "lang/words/four.png", "voice": "voices/es/alphabet/U0034.ogg"},
+            { "description": "cinco", "image": "lang/words/five.png", "voice": "voices/es/alphabet/U0035.ogg"},
+            { "description": "seis", "image": "lang/words/six.png", "voice": "voices/es/alphabet/U0036.ogg"},
+            { "description": "siete", "image": "lang/words/seven.png", "voice": "voices/es/alphabet/U0037.ogg"},
+            { "description": "ocho", "image": "lang/words/eight.png", "voice": "voices/es/alphabet/U0038.ogg"},
+            { "description": "nueve", "image": "lang/words/nine.png", "voice": "voices/es/alphabet/U0039.ogg"},
+            { "description": "diez", "image": "lang/words/ten.png", "voice": "voices/es/alphabet/10.ogg"},
+            { "description": "once", "image": "lang/words/eleven.png", "voice": "voices/es/words/eleven.ogg"}
+          ]
+        },
+       { "name": "número",
+          "triplets": [
+            { "description": "dieciséis", "image": "lang/words/sixteen.png", "voice": "voices/es/words/sixteen.ogg"},
+            { "description": "cero", "image": "lang/words/zero.png", "voice": "voices/es/alphabet/U0030.ogg"},
+            { "description": "uno", "image": "lang/words/one.png", "voice": "voices/es/alphabet/U0031.ogg"},
+            { "description": "dos", "image": "lang/words/two.png", "voice": "voices/es/alphabet/U0032.ogg"},
+            { "description": "tres", "image": "lang/words/three.png", "voice": "voices/es/alphabet/U0033.ogg"},
+            { "description": "cuatro", "image": "lang/words/four.png", "voice": "voices/es/alphabet/U0034.ogg"},
+            { "description": "cinco", "image": "lang/words/five.png", "voice": "voices/es/alphabet/U0035.ogg"},
+            { "description": "seis", "image": "lang/words/six.png", "voice": "voices/es/alphabet/U0036.ogg"},
+            { "description": "siete", "image": "lang/words/seven.png", "voice": "voices/es/alphabet/U0037.ogg"},
+            { "description": "ocho", "image": "lang/words/eight.png", "voice": "voices/es/alphabet/U0038.ogg"},
+            { "description": "nueve", "image": "lang/words/nine.png", "voice": "voices/es/alphabet/U0039.ogg"},
+            { "description": "diez", "image": "lang/words/ten.png", "voice": "voices/es/alphabet/10.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "naturaleza",
+      "lessons": [
+       { "name": "animal",
+          "triplets": [
+            { "description": "caimán", "image": "lang/words/alligator.png", "voice": "voices/es/words/alligator.ogg"},
+            { "description": "animal", "image": "lang/words/animal.png", "voice": "voices/es/words/animal.ogg"},
+            { "description": "hormiga", "image": "lang/words/ant.png", "voice": "voices/es/words/ant.ogg"},
+            { "description": "antilope", "image": "lang/words/antelope.png", "voice": "voices/es/words/antelope.ogg"},
+            { "description": "abeja", "image": "lang/words/bee.png", "voice": "voices/es/words/bee.ogg"},
+            { "description": "pájaro", "image": "lang/words/bird.png", "voice": "voices/es/words/bird.ogg"},
+            { "description": "escarabajo", "image": "lang/words/bug.png", "voice": "voices/es/words/bug.ogg"},
+            { "description": "mariposa", "image": "lang/words/butterfly.png", "voice": "voices/es/words/butterfly.ogg"},
+            { "description": "camello", "image": "lang/words/camel.png", "voice": "voices/es/words/camel.ogg"},
+            { "description": "gato", "image": "lang/words/cat.png", "voice": "voices/es/words/cat.ogg"},
+            { "description": "oruga", "image": "lang/words/caterpillar.png", "voice": "voices/es/words/caterpillar.ogg"},
+            { "description": "pollito", "image": "lang/words/chick.png", "voice": "voices/es/words/chick.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "garra", "image": "lang/words/claw.png", "voice": "voices/es/words/claw.ogg"},
+            { "description": "cobra", "image": "lang/words/cobra.png", "voice": "voices/es/words/cobra.ogg"},
+            { "description": "vaca", "image": "lang/words/cow.png", "voice": "voices/es/words/cow.ogg"},
+            { "description": "cangrejo", "image": "lang/words/crab.png", "voice": "voices/es/words/crab.ogg"},
+            { "description": "cocodrilo", "image": "lang/words/crocodile.png", "voice": "voices/es/words/crocodile.ogg"},
+            { "description": "ciervo", "image": "lang/words/deer.png", "voice": "voices/es/words/deer.ogg"},
+            { "description": "perro", "image": "lang/words/dog.png", "voice": "voices/es/words/dog.ogg"},
+            { "description": "dragón", "image": "lang/words/dragon.png", "voice": "voices/es/words/dragon.ogg"},
+            { "description": "pato", "image": "lang/words/duck.png", "voice": "voices/es/words/duck.ogg"},
+            { "description": "águila", "image": "lang/words/eagle.png", "voice": "voices/es/words/eagle.ogg"},
+            { "description": "pluma", "image": "lang/words/feather.png", "voice": "voices/es/words/feather.ogg"},
+            { "description": "aleta", "image": "lang/words/fin.png", "voice": "voices/es/words/fin.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "rana", "image": "lang/words/frog.png", "voice": "voices/es/words/frog.ogg"},
+            { "description": "piel", "image": "lang/words/fur.png", "voice": "voices/es/words/fur.ogg"},
+            { "description": "jirafa", "image": "lang/words/giraffe.png", "voice": "voices/es/words/giraffe.ogg"},
+            { "description": "cabra", "image": "lang/words/goat.png", "voice": "voices/es/words/goat.ogg"},
+            { "description": "gallina", "image": "lang/words/hen.png", "voice": "voices/es/words/hen.ogg"},
+            { "description": "hipopótamo", "image": "lang/words/hippopotamus.png", "voice": "voices/es/words/hippopotamus.ogg"},
+            { "description": "colmena", "image": "lang/words/hive.png", "voice": "voices/es/words/hive.ogg"},
+            { "description": "caballo", "image": "lang/words/horse.png", "voice": "voices/es/words/horse.ogg"},
+            { "description": "canguro", "image": "lang/words/kangaroo.png", "voice": "voices/es/words/kangaroo.ogg"},
+            { "description": "coala", "image": "lang/words/koala.png", "voice": "voices/es/words/koala.ogg"},
+            { "description": "mariquita", "image": "lang/words/ladybug.png", "voice": "voices/es/words/ladybug.ogg"},
+            { "description": "cordero", "image": "lang/words/lamb.png", "voice": "voices/es/words/lamb.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "león", "image": "lang/words/lion.png", "voice": "voices/es/words/lion.ogg"},
+            { "description": "lagartija", "image": "lang/words/lizard.png", "voice": "voices/es/words/lizard.ogg"},
+            { "description": "langosta", "image": "lang/words/lobster.png", "voice": "voices/es/words/lobster.ogg"},
+            { "description": "topo", "image": "lang/words/mole.png", "voice": "voices/es/words/mole.ogg"},
+            { "description": "mosquito", "image": "lang/words/mosquito.png", "voice": "voices/es/words/mosquito.ogg"},
+            { "description": "ratón", "image": "lang/words/mouse.png", "voice": "voices/es/words/mouse.ogg"},
+            { "description": "búho", "image": "lang/words/owl.png", "voice": "voices/es/words/owl.ogg"},
+            { "description": "panda", "image": "lang/words/panda.png", "voice": "voices/es/words/panda.ogg"},
+            { "description": "pantera", "image": "lang/words/panther.png", "voice": "voices/es/words/panther.ogg"},
+            { "description": "loro", "image": "lang/words/parrot.png", "voice": "voices/es/words/parrot.ogg"},
+            { "description": "cerdo", "image": "lang/words/pig.png", "voice": "voices/es/words/pig.ogg"},
+            { "description": "paloma", "image": "lang/words/pigeon.png", "voice": "voices/es/words/pigeon.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "rata", "image": "lang/words/rat.png", "voice": "voices/es/words/rat.ogg"},
+            { "description": "reptil", "image": "lang/words/reptile.png", "voice": "voices/es/words/reptile.ogg"},
+            { "description": "rinoceronte", "image": "lang/words/rhinoceros.png", "voice": "voices/es/words/rhinoceros.ogg"},
+            { "description": "salmón", "image": "lang/words/salmon.png", "voice": "voices/es/words/salmon.ogg"},
+            { "description": "escorpión", "image": "lang/words/scorpion.png", "voice": "voices/es/words/scorpion.ogg"},
+            { "description": "tiburón", "image": "lang/words/shark.png", "voice": "voices/es/words/shark.ogg"},
+            { "description": "oveja", "image": "lang/words/sheep.png", "voice": "voices/es/words/sheep.ogg"},
+            { "description": "concha", "image": "lang/words/shell.png", "voice": "voices/es/words/shell.ogg"},
+            { "description": "camarón", "image": "lang/words/shrimp.png", "voice": "voices/es/words/shrimp.ogg"},
+            { "description": "caracol", "image": "lang/words/snail.png", "voice": "voices/es/words/snail.ogg"},
+            { "description": "serpiente", "image": "lang/words/snake.png", "voice": "voices/es/words/snake.ogg"},
+            { "description": "araña", "image": "lang/words/spider.png", "voice": "voices/es/words/spider.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "cola", "image": "lang/words/tail.png", "voice": "voices/es/words/tail.ogg"},
+            { "description": "tigre", "image": "lang/words/tiger.png", "voice": "voices/es/words/tiger.ogg"},
+            { "description": "pavo", "image": "lang/words/turkey.png", "voice": "voices/es/words/turkey.ogg"},
+            { "description": "tortuga marina", "image": "lang/words/turtle.png", "voice": "voices/es/words/turtle.ogg"},
+            { "description": "víbora", "image": "lang/words/viper.png", "voice": "voices/es/words/viper.ogg"},
+            { "description": "avispa", "image": "lang/words/wasp.png", "voice": "voices/es/words/wasp.ogg"},
+            { "description": "lobo", "image": "lang/words/wolf.png", "voice": "voices/es/words/wolf.ogg"},
+            { "description": "cebra", "image": "lang/words/zebra.png", "voice": "voices/es/words/zebra.ogg"},
+            { "description": "caimán", "image": "lang/words/alligator.png", "voice": "voices/es/words/alligator.ogg"},
+            { "description": "animal", "image": "lang/words/animal.png", "voice": "voices/es/words/animal.ogg"},
+            { "description": "hormiga", "image": "lang/words/ant.png", "voice": "voices/es/words/ant.ogg"},
+            { "description": "antilope", "image": "lang/words/antelope.png", "voice": "voices/es/words/antelope.ogg"}
+          ]
+        },
+       { "name": "fruta",
+          "triplets": [
+            { "description": "manzana", "image": "lang/words/apple.png", "voice": "voices/es/words/apple.ogg"},
+            { "description": "albaricoque", "image": "lang/words/apricot.png", "voice": "voices/es/words/apricot.ogg"},
+            { "description": "cereza", "image": "lang/words/cherry.png", "voice": "voices/es/words/cherry.ogg"},
+            { "description": "fruta", "image": "lang/words/fruit.png", "voice": "voices/es/words/fruit.ogg"},
+            { "description": "uva", "image": "lang/words/grape.png", "voice": "voices/es/words/grape.ogg"},
+            { "description": "pomelo", "image": "lang/words/grapefruit.png", "voice": "voices/es/words/grapefruit.ogg"},
+            { "description": "kiwi", "image": "lang/words/kiwi.png", "voice": "voices/es/words/kiwi.ogg"},
+            { "description": "limón", "image": "lang/words/lemon.png", "voice": "voices/es/words/lemon.ogg"},
+            { "description": "melón", "image": "lang/words/melon.png", "voice": "voices/es/words/melon.ogg"},
+            { "description": "naranja", "image": "lang/words/orange.png", "voice": "voices/es/words/orange.ogg"},
+            { "description": "melocotón", "image": "lang/words/peach.png", "voice": "voices/es/words/peach.ogg"},
+            { "description": "pera", "image": "lang/words/pear.png", "voice": "voices/es/words/pear.ogg"}
+          ]
+        },
+       { "name": "fruta",
+          "triplets": [
+            { "description": "frambuesa", "image": "lang/words/raspberry.png", "voice": "voices/es/words/raspberry.ogg"},
+            { "description": "fresa", "image": "lang/words/strawberry.png", "voice": "voices/es/words/strawberry.ogg"},
+            { "description": "manzana", "image": "lang/words/apple.png", "voice": "voices/es/words/apple.ogg"},
+            { "description": "albaricoque", "image": "lang/words/apricot.png", "voice": "voices/es/words/apricot.ogg"},
+            { "description": "cereza", "image": "lang/words/cherry.png", "voice": "voices/es/words/cherry.ogg"},
+            { "description": "fruta", "image": "lang/words/fruit.png", "voice": "voices/es/words/fruit.ogg"},
+            { "description": "uva", "image": "lang/words/grape.png", "voice": "voices/es/words/grape.ogg"},
+            { "description": "pomelo", "image": "lang/words/grapefruit.png", "voice": "voices/es/words/grapefruit.ogg"},
+            { "description": "kiwi", "image": "lang/words/kiwi.png", "voice": "voices/es/words/kiwi.ogg"},
+            { "description": "limón", "image": "lang/words/lemon.png", "voice": "voices/es/words/lemon.ogg"},
+            { "description": "melón", "image": "lang/words/melon.png", "voice": "voices/es/words/melon.ogg"},
+            { "description": "naranja", "image": "lang/words/orange.png", "voice": "voices/es/words/orange.ogg"}
+          ]
+        },
+       { "name": "naturaleza",
+          "triplets": [
+            { "description": "playa", "image": "lang/words/beach.png", "voice": "voices/es/words/beach.ogg"},
+            { "description": "cueva", "image": "lang/words/cave.png", "voice": "voices/es/words/cave.ogg"},
+            { "description": "nube", "image": "lang/words/cloud.png", "voice": "voices/es/words/cloud.ogg"},
+            { "description": "costa", "image": "lang/words/coast.png", "voice": "voices/es/words/coast.ogg"},
+            { "description": "frio", "image": "lang/words/cold.png", "voice": "voices/es/words/cold.ogg"},
+            { "description": "desierto", "image": "lang/words/desert.png", "voice": "voices/es/words/desert.ogg"},
+            { "description": "diamante", "image": "lang/words/diamond.png", "voice": "voices/es/words/diamond.ogg"},
+            { "description": "duna", "image": "lang/words/dune.png", "voice": "voices/es/words/dune.ogg"},
+            { "description": "tierra", "image": "lang/words/earth.png", "voice": "voices/es/words/earth.ogg"},
+            { "description": "fuego", "image": "lang/words/fire.png", "voice": "voices/es/words/fire.ogg"},
+            { "description": "llama", "image": "lang/words/flame.png", "voice": "voices/es/words/flame.ogg"},
+            { "description": "bosque", "image": "lang/words/forest.png", "voice": "voices/es/words/forest.ogg"}
+          ]
+        },
+       { "name": "naturaleza",
+          "triplets": [
+            { "description": "calor", "image": "lang/words/heat.png", "voice": "voices/es/words/heat.ogg"},
+            { "description": "colina", "image": "lang/words/hill.png", "voice": "voices/es/words/hill.ogg"},
+            { "description": "agujero", "image": "lang/words/hole.png", "voice": "voices/es/words/hole.ogg"},
+            { "description": "isla", "image": "lang/words/island.png", "voice": "voices/es/words/island.ogg"},
+            { "description": "lago", "image": "lang/words/lake.png", "voice": "voices/es/words/lake.ogg"},
+            { "description": "lava", "image": "lang/words/lava.png", "voice": "voices/es/words/lava.ogg"},
+            { "description": "luna", "image": "lang/words/moon.png", "voice": "voices/es/words/moon.ogg"},
+            { "description": "montaña", "image": "lang/words/mountain.png", "voice": "voices/es/words/mountain.ogg"},
+            { "description": "barro", "image": "lang/words/mud.png", "voice": "voices/es/words/mud.ogg"},
+            { "description": "noche", "image": "lang/words/night.png", "voice": "voices/es/words/night.ogg"},
+            { "description": "océano", "image": "lang/words/ocean.png", "voice": "voices/es/words/ocean.ogg"},
+            { "description": "camino", "image": "lang/words/path.png", "voice": "voices/es/words/path.ogg"}
+          ]
+        },
+       { "name": "naturaleza",
+          "triplets": [
+            { "description": "estanque", "image": "lang/words/pond.png", "voice": "voices/es/words/pond.ogg"},
+            { "description": "lluvia", "image": "lang/words/rain.png", "voice": "voices/es/words/rain.ogg"},
+            { "description": "río", "image": "lang/words/river.png", "voice": "voices/es/words/river.ogg"},
+            { "description": "arena", "image": "lang/words/sand.png", "voice": "voices/es/words/sand.ogg"},
+            { "description": "mar", "image": "lang/words/sea.png", "voice": "voices/es/words/sea.ogg"},
+            { "description": "sombra", "image": "lang/words/shadow.png", "voice": "voices/es/words/shadow.ogg"},
+            { "description": "cielo", "image": "lang/words/sky.png", "voice": "voices/es/words/sky.ogg"},
+            { "description": "nieve", "image": "lang/words/snow.png", "voice": "voices/es/words/snow.ogg"},
+            { "description": "estrella", "image": "lang/words/star.png", "voice": "voices/es/words/star.ogg"},
+            { "description": "piedra", "image": "lang/words/stone.png", "voice": "voices/es/words/stone.ogg"},
+            { "description": "verano", "image": "lang/words/summer.png", "voice": "voices/es/words/summer.ogg"},
+            { "description": "cumbre", "image": "lang/words/summit.png", "voice": "voices/es/words/summit.ogg"}
+          ]
+        },
+       { "name": "naturaleza",
+          "triplets": [
+            { "description": "tiempo", "image": "lang/words/time.png", "voice": "voices/es/words/time.ogg"},
+            { "description": "agua", "image": "lang/words/water.png", "voice": "voices/es/words/water.ogg"},
+            { "description": "ola", "image": "lang/words/wave.png", "voice": "voices/es/words/wave.ogg"},
+            { "description": "viento", "image": "lang/words/wind.png", "voice": "voices/es/words/wind.ogg"},
+            { "description": "invierno", "image": "lang/words/winter.png", "voice": "voices/es/words/winter.ogg"},
+            { "description": "mundo", "image": "lang/words/world.png", "voice": "voices/es/words/world.ogg"},
+            { "description": "playa", "image": "lang/words/beach.png", "voice": "voices/es/words/beach.ogg"},
+            { "description": "cueva", "image": "lang/words/cave.png", "voice": "voices/es/words/cave.ogg"},
+            { "description": "nube", "image": "lang/words/cloud.png", "voice": "voices/es/words/cloud.ogg"},
+            { "description": "costa", "image": "lang/words/coast.png", "voice": "voices/es/words/coast.ogg"},
+            { "description": "frio", "image": "lang/words/cold.png", "voice": "voices/es/words/cold.ogg"},
+            { "description": "desierto", "image": "lang/words/desert.png", "voice": "voices/es/words/desert.ogg"}
+          ]
+        },
+       { "name": "planta",
+          "triplets": [
+            { "description": "bellota", "image": "lang/words/acorn.png", "voice": "voices/es/words/acorn.ogg"},
+            { "description": "rama", "image": "lang/words/branch.png", "voice": "voices/es/words/branch.ogg"},
+            { "description": "cactus", "image": "lang/words/cactus.png", "voice": "voices/es/words/cactus.ogg"},
+            { "description": "margarita", "image": "lang/words/daisy.png", "voice": "voices/es/words/daisy.ogg"},
+            { "description": "flor", "image": "lang/words/flower.png", "voice": "voices/es/words/flower.ogg"},
+            { "description": "grano", "image": "lang/words/grain.png", "voice": "voices/es/words/grain.ogg"},
+            { "description": "hierba", "image": "lang/words/grass.png", "voice": "voices/es/words/grass.ogg"},
+            { "description": "heno", "image": "lang/words/hay.png", "voice": "voices/es/words/hay.ogg"},
+            { "description": "cesped", "image": "lang/words/lawn.png", "voice": "voices/es/words/lawn.ogg"},
+            { "description": "hoja", "image": "lang/words/leaf.png", "voice": "voices/es/words/leaf.ogg"},
+            { "description": "pétalo", "image": "lang/words/petal.png", "voice": "voices/es/words/petal.ogg"},
+            { "description": "raíz", "image": "lang/words/root.png", "voice": "voices/es/words/root.ogg"}
+          ]
+        },
+       { "name": "planta",
+          "triplets": [
+            { "description": "vástago", "image": "lang/words/stem.png", "voice": "voices/es/words/stem.ogg"},
+            { "description": "palo", "image": "lang/words/stick.png", "voice": "voices/es/words/stick.ogg"},
+            { "description": "árbol", "image": "lang/words/tree.png", "voice": "voices/es/words/tree.ogg"},
+            { "description": "tulipán", "image": "lang/words/tulip.png", "voice": "voices/es/words/tulip.ogg"},
+            { "description": "bellota", "image": "lang/words/acorn.png", "voice": "voices/es/words/acorn.ogg"},
+            { "description": "rama", "image": "lang/words/branch.png", "voice": "voices/es/words/branch.ogg"},
+            { "description": "cactus", "image": "lang/words/cactus.png", "voice": "voices/es/words/cactus.ogg"},
+            { "description": "margarita", "image": "lang/words/daisy.png", "voice": "voices/es/words/daisy.ogg"},
+            { "description": "flor", "image": "lang/words/flower.png", "voice": "voices/es/words/flower.ogg"},
+            { "description": "grano", "image": "lang/words/grain.png", "voice": "voices/es/words/grain.ogg"},
+            { "description": "hierba", "image": "lang/words/grass.png", "voice": "voices/es/words/grass.ogg"},
+            { "description": "heno", "image": "lang/words/hay.png", "voice": "voices/es/words/hay.ogg"}
+          ]
+        },
+       { "name": "verduras",
+          "triplets": [
+            { "description": "alcachofa", "image": "lang/words/artichoke.png", "voice": "voices/es/words/artichoke.ogg"},
+            { "description": "espárragos", "image": "lang/words/asparagus.png", "voice": "voices/es/words/asparagus.ogg"},
+            { "description": "aguacate", "image": "lang/words/avocado.png", "voice": "voices/es/words/avocado.ogg"},
+            { "description": "frejol", "image": "lang/words/bean.png", "voice": "voices/es/words/bean.ogg"},
+            { "description": "brócoli", "image": "lang/words/broccoli.png", "voice": "voices/es/words/broccoli.ogg"},
+            { "description": "repollo", "image": "lang/words/cabbage.png", "voice": "voices/es/words/cabbage.ogg"},
+            { "description": "zanahoria", "image": "lang/words/carrot.png", "voice": "voices/es/words/carrot.ogg"},
+            { "description": "coliflor", "image": "lang/words/cauliflower.png", "voice": "voices/es/words/cauliflower.ogg"},
+            { "description": "maíz", "image": "lang/words/corn.png", "voice": "voices/es/words/corn.ogg"},
+            { "description": "pepino", "image": "lang/words/cucumber.png", "voice": "voices/es/words/cucumber.ogg"},
+            { "description": "ajo", "image": "lang/words/garlic.png", "voice": "voices/es/words/garlic.ogg"},
+            { "description": "puerro", "image": "lang/words/leek.png", "voice": "voices/es/words/leek.ogg"}
+          ]
+        },
+       { "name": "verduras",
+          "triplets": [
+            { "description": "hongo", "image": "lang/words/mushroom.png", "voice": "voices/es/words/mushroom.ogg"},
+            { "description": "nuez", "image": "lang/words/nut.png", "voice": "voices/es/words/nut.ogg"},
+            { "description": "oliva", "image": "lang/words/olive.png", "voice": "voices/es/words/olive.ogg"},
+            { "description": "cebolla", "image": "lang/words/onion.png", "voice": "voices/es/words/onion.ogg"},
+            { "description": "guisante", "image": "lang/words/pea.png", "voice": "voices/es/words/pea.ogg"},
+            { "description": "patata", "image": "lang/words/potato.png", "voice": "voices/es/words/potato.ogg"},
+            { "description": "calabaza", "image": "lang/words/pumpkin.png", "voice": "voices/es/words/pumpkin.ogg"},
+            { "description": "espinacas", "image": "lang/words/spinach.png", "voice": "voices/es/words/spinach.ogg"},
+            { "description": "trigo", "image": "lang/words/wheat.png", "voice": "voices/es/words/wheat.ogg"},
+            { "description": "alcachofa", "image": "lang/words/artichoke.png", "voice": "voices/es/words/artichoke.ogg"},
+            { "description": "espárragos", "image": "lang/words/asparagus.png", "voice": "voices/es/words/asparagus.ogg"},
+            { "description": "aguacate", "image": "lang/words/avocado.png", "voice": "voices/es/words/avocado.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "personas",
+      "lessons": [
+       { "name": "partes del cuerpo",
+          "triplets": [
+            { "description": "tobillo", "image": "lang/words/ankle.png", "voice": "voices/es/words/ankle.ogg"},
+            { "description": "brazo", "image": "lang/words/arm.png", "voice": "voices/es/words/arm.ogg"},
+            { "description": "espalda", "image": "lang/words/back.png", "voice": "voices/es/words/back.ogg"},
+            { "description": "calvo", "image": "lang/words/bald.png", "voice": "voices/es/words/bald.ogg"},
+            { "description": "barba", "image": "lang/words/beard.png", "voice": "voices/es/words/beard.ogg"},
+            { "description": "vientre", "image": "lang/words/belly.png", "voice": "voices/es/words/belly.ogg"},
+            { "description": "cerebro", "image": "lang/words/brain.png", "voice": "voices/es/words/brain.ogg"},
+            { "description": "mentón", "image": "lang/words/chin.png", "voice": "voices/es/words/chin.ogg"},
+            { "description": "codo", "image": "lang/words/elbow.png", "voice": "voices/es/words/elbow.ogg"},
+            { "description": "de pestañas", "image": "lang/words/eyelash.png", "voice": "voices/es/words/eyelash.ogg"},
+            { "description": "ojos", "image": "lang/words/eyes.png", "voice": "voices/es/words/eyes.ogg"},
+            { "description": "cara", "image": "lang/words/face.png", "voice": "voices/es/words/face.ogg"}
+          ]
+        },
+       { "name": "partes del cuerpo",
+          "triplets": [
+            { "description": "dedo", "image": "lang/words/finger.png", "voice": "voices/es/words/finger.ogg"},
+            { "description": "puño", "image": "lang/words/fist.png", "voice": "voices/es/words/fist.ogg"},
+            { "description": "pie", "image": "lang/words/foot.png", "voice": "voices/es/words/foot.ogg"},
+            { "description": "cabello", "image": "lang/words/hair.png", "voice": "voices/es/words/hair.ogg"},
+            { "description": "mano", "image": "lang/words/hand.png", "voice": "voices/es/words/hand.ogg"},
+            { "description": "cabeza", "image": "lang/words/head.png", "voice": "voices/es/words/head.ogg"},
+            { "description": "rodilla", "image": "lang/words/knee.png", "voice": "voices/es/words/knee.ogg"},
+            { "description": "pierna", "image": "lang/words/leg.png", "voice": "voices/es/words/leg.ogg"},
+            { "description": "labio", "image": "lang/words/lip.png", "voice": "voices/es/words/lip.ogg"},
+            { "description": "boca", "image": "lang/words/mouth.png", "voice": "voices/es/words/mouth.ogg"},
+            { "description": "músculo", "image": "lang/words/muscle.png", "voice": "voices/es/words/muscle.ogg"},
+            { "description": "cuello", "image": "lang/words/neck.png", "voice": "voices/es/words/neck.ogg"}
+          ]
+        },
+       { "name": "partes del cuerpo",
+          "triplets": [
+            { "description": "ventana de la nariz", "image": "lang/words/nostril.png", "voice": "voices/es/words/nostril.ogg"},
+            { "description": "cicatriz", "image": "lang/words/scar.png", "voice": "voices/es/words/scar.ogg"},
+            { "description": "sudar", "image": "lang/words/sweat.png", "voice": "voices/es/words/sweat.ogg"},
+            { "description": "pulgar", "image": "lang/words/thumb.png", "voice": "voices/es/words/thumb.ogg"},
+            { "description": "lengua", "image": "lang/words/tongue.png", "voice": "voices/es/words/tongue.ogg"},
+            { "description": "tobillo", "image": "lang/words/ankle.png", "voice": "voices/es/words/ankle.ogg"},
+            { "description": "brazo", "image": "lang/words/arm.png", "voice": "voices/es/words/arm.ogg"},
+            { "description": "espalda", "image": "lang/words/back.png", "voice": "voices/es/words/back.ogg"},
+            { "description": "calvo", "image": "lang/words/bald.png", "voice": "voices/es/words/bald.ogg"},
+            { "description": "barba", "image": "lang/words/beard.png", "voice": "voices/es/words/beard.ogg"},
+            { "description": "vientre", "image": "lang/words/belly.png", "voice": "voices/es/words/belly.ogg"},
+            { "description": "cerebro", "image": "lang/words/brain.png", "voice": "voices/es/words/brain.ogg"}
+          ]
+        },
+       { "name": "ropa",
+          "triplets": [
+            { "description": "babero", "image": "lang/words/bib.png", "voice": "voices/es/words/bib.ogg"},
+            { "description": "botón", "image": "lang/words/button.png", "voice": "voices/es/words/button.ogg"},
+            { "description": "capa", "image": "lang/words/cape.png", "voice": "voices/es/words/cape.ogg"},
+            { "description": "abrigo", "image": "lang/words/coat.png", "voice": "voices/es/words/coat.ogg"},
+            { "description": "vestir", "image": "lang/words/dress.png", "voice": "voices/es/words/dress.ogg"},
+            { "description": "guante", "image": "lang/words/glove.png", "voice": "voices/es/words/glove.ogg"},
+            { "description": "sombrero", "image": "lang/words/hat.png", "voice": "voices/es/words/hat.ogg"},
+            { "description": "casco", "image": "lang/words/helmet.png", "voice": "voices/es/words/helmet.ogg"},
+            { "description": "chaqueta", "image": "lang/words/jacket.png", "voice": "voices/es/words/jacket.ogg"},
+            { "description": "pantalones", "image": "lang/words/pants.png", "voice": "voices/es/words/pants.ogg"},
+            { "description": "parche", "image": "lang/words/patch.png", "voice": "voices/es/words/patch.ogg"},
+            { "description": "bolsillo", "image": "lang/words/pocket.png", "voice": "voices/es/words/pocket.ogg"}
+          ]
+        },
+       { "name": "ropa",
+          "triplets": [
+            { "description": "sandalias", "image": "lang/words/sandals.png", "voice": "voices/es/words/sandals.ogg"},
+            { "description": "camisa", "image": "lang/words/shirt.png", "voice": "voices/es/words/shirt.ogg"},
+            { "description": "zapato", "image": "lang/words/shoe.png", "voice": "voices/es/words/shoe.ogg"},
+            { "description": "corto", "image": "lang/words/short.png", "voice": "voices/es/words/short.ogg"},
+            { "description": "falda", "image": "lang/words/skirt.png", "voice": "voices/es/words/skirt.ogg"},
+            { "description": "manga", "image": "lang/words/sleeve.png", "voice": "voices/es/words/sleeve.ogg"},
+            { "description": "calcetín", "image": "lang/words/sock.png", "voice": "voices/es/words/sock.ogg"},
+            { "description": "Sudadera", "image": "lang/words/sweatshirt.png", "voice": "voices/es/words/sweatshirt.ogg"},
+            { "description": "uniforme", "image": "lang/words/uniform.png", "voice": "voices/es/words/uniform.ogg"},
+            { "description": "babero", "image": "lang/words/bib.png", "voice": "voices/es/words/bib.ogg"},
+            { "description": "botón", "image": "lang/words/button.png", "voice": "voices/es/words/button.ogg"},
+            { "description": "capa", "image": "lang/words/cape.png", "voice": "voices/es/words/cape.ogg"}
+          ]
+        },
+       { "name": "emoción",
+          "triplets": [
+            { "description": "peligro", "image": "lang/words/danger.png", "voice": "voices/es/words/danger.ogg"},
+            { "description": "diversión", "image": "lang/words/fun.png", "voice": "voices/es/words/fun.ogg"},
+            { "description": "reír", "image": "lang/words/laugh.png", "voice": "voices/es/words/laugh.ogg"},
+            { "description": "triste", "image": "lang/words/sad.png", "voice": "voices/es/words/sad.ogg"},
+            { "description": "sonreír", "image": "lang/words/smile.png", "voice": "voices/es/words/smile.ogg"}
+          ]
+        },
+       { "name": "trabajo",
+          "triplets": [
+            { "description": "actor", "image": "lang/words/actor.png", "voice": "voices/es/words/actor.ogg"},
+            { "description": "artista", "image": "lang/words/artist.png", "voice": "voices/es/words/artist.ogg"},
+            { "description": "astronauta", "image": "lang/words/astronaut.png", "voice": "voices/es/words/astronaut.ogg"},
+            { "description": "carnicero", "image": "lang/words/butcher.png", "voice": "voices/es/words/butcher.ogg"},
+            { "description": "payaso", "image": "lang/words/clown.png", "voice": "voices/es/words/clown.ogg"},
+            { "description": "médico", "image": "lang/words/doctor.png", "voice": "voices/es/words/doctor.ogg"},
+            { "description": "electricista", "image": "lang/words/electrician.png", "voice": "voices/es/words/electrician.ogg"},
+            { "description": "ingeniero", "image": "lang/words/engineer.png", "voice": "voices/es/words/engineer.ogg"},
+            { "description": "agricultor", "image": "lang/words/farmer.png", "voice": "voices/es/words/farmer.ogg"},
+            { "description": "bombero", "image": "lang/words/fireman.png", "voice": "voices/es/words/fireman.ogg"},
+            { "description": "pescador", "image": "lang/words/fisherman.png", "voice": "voices/es/words/fisherman.ogg"},
+            { "description": "cazador", "image": "lang/words/hunter.png", "voice": "voices/es/words/hunter.ogg"}
+          ]
+        },
+       { "name": "trabajo",
+          "triplets": [
+            { "description": "rey", "image": "lang/words/king.png", "voice": "voices/es/words/king.ogg"},
+            { "description": "librero", "image": "lang/words/librarian.png", "voice": "voices/es/words/librarian.ogg"},
+            { "description": "músico", "image": "lang/words/musician.png", "voice": "voices/es/words/musician.ogg"},
+            { "description": "enfermera", "image": "lang/words/nurse.png", "voice": "voices/es/words/nurse.ogg"},
+            { "description": "piloto", "image": "lang/words/pilot.png", "voice": "voices/es/words/pilot.ogg"},
+            { "description": "pirata", "image": "lang/words/pirate.png", "voice": "voices/es/words/pirate.ogg"},
+            { "description": "fontanero", "image": "lang/words/plumber.png", "voice": "voices/es/words/plumber.ogg"},
+            { "description": "policía", "image": "lang/words/police.png", "voice": "voices/es/words/police.ogg"},
+            { "description": "sacerdote", "image": "lang/words/priest.png", "voice": "voices/es/words/priest.ogg"},
+            { "description": "príncipe", "image": "lang/words/prince.png", "voice": "voices/es/words/prince.ogg"},
+            { "description": "princesa", "image": "lang/words/princess.png", "voice": "voices/es/words/princess.ogg"},
+            { "description": "reina", "image": "lang/words/queen.png", "voice": "voices/es/words/queen.ogg"}
+          ]
+        },
+       { "name": "trabajo",
+          "triplets": [
+            { "description": "soldado", "image": "lang/words/soldier.png", "voice": "voices/es/words/soldier.ogg"},
+            { "description": "estudiante", "image": "lang/words/student.png", "voice": "voices/es/words/student.ogg"},
+            { "description": "maestro", "image": "lang/words/teacher.png", "voice": "voices/es/words/teacher.ogg"},
+            { "description": "ladrón", "image": "lang/words/thief.png", "voice": "voices/es/words/thief.ogg"},
+            { "description": "veterinario", "image": "lang/words/vet.png", "voice": "voices/es/words/vet.ogg"},
+            { "description": "obrero", "image": "lang/words/worker.png", "voice": "voices/es/words/worker.ogg"},
+            { "description": "actor", "image": "lang/words/actor.png", "voice": "voices/es/words/actor.ogg"},
+            { "description": "artista", "image": "lang/words/artist.png", "voice": "voices/es/words/artist.ogg"},
+            { "description": "astronauta", "image": "lang/words/astronaut.png", "voice": "voices/es/words/astronaut.ogg"},
+            { "description": "carnicero", "image": "lang/words/butcher.png", "voice": "voices/es/words/butcher.ogg"},
+            { "description": "payaso", "image": "lang/words/clown.png", "voice": "voices/es/words/clown.ogg"},
+            { "description": "médico", "image": "lang/words/doctor.png", "voice": "voices/es/words/doctor.ogg"}
+          ]
+        },
+       { "name": "personas",
+          "triplets": [
+            { "description": "angel", "image": "lang/words/angel.png", "voice": "voices/es/words/angel.ogg"},
+            { "description": "hada", "image": "lang/words/fairy.png", "voice": "voices/es/words/fairy.ogg"},
+            { "description": "boda", "image": "lang/words/wedding.png", "voice": "voices/es/words/wedding.ogg"},
+            { "description": "niño", "image": "lang/words/boy.png", "voice": "voices/es/words/boy.ogg"},
+            { "description": "pareja", "image": "lang/words/couple.png", "voice": "voices/es/words/couple.ogg"},
+            { "description": "papá", "image": "lang/words/dad.png", "voice": "voices/es/words/dad.ogg"},
+            { "description": "enano", "image": "lang/words/dwarf.png", "voice": "voices/es/words/dwarf.ogg"},
+            { "description": "familia", "image": "lang/words/family.png", "voice": "voices/es/words/family.ogg"},
+            { "description": "amigo", "image": "lang/words/friend.png", "voice": "voices/es/words/friend.ogg"},
+            { "description": "chica", "image": "lang/words/girl.png", "voice": "voices/es/words/girl.ogg"},
+            { "description": "abuela", "image": "lang/words/grandmother.png", "voice": "voices/es/words/grandmother.ogg"},
+            { "description": "marido", "image": "lang/words/husband.png", "voice": "voices/es/words/husband.ogg"}
+          ]
+        },
+       { "name": "personas",
+          "triplets": [
+            { "description": "madre", "image": "lang/words/mother.png", "voice": "voices/es/words/mother.ogg"},
+            { "description": "hermana", "image": "lang/words/sister.png", "voice": "voices/es/words/sister.ogg"},
+            { "description": "hijo", "image": "lang/words/son.png", "voice": "voices/es/words/son.ogg"},
+            { "description": "esposa", "image": "lang/words/wife.png", "voice": "voices/es/words/wife.ogg"},
+            { "description": "mujer", "image": "lang/words/woman.png", "voice": "voices/es/words/woman.ogg"},
+            { "description": "angel", "image": "lang/words/angel.png", "voice": "voices/es/words/angel.ogg"},
+            { "description": "hada", "image": "lang/words/fairy.png", "voice": "voices/es/words/fairy.ogg"},
+            { "description": "boda", "image": "lang/words/wedding.png", "voice": "voices/es/words/wedding.ogg"},
+            { "description": "niño", "image": "lang/words/boy.png", "voice": "voices/es/words/boy.ogg"},
+            { "description": "pareja", "image": "lang/words/couple.png", "voice": "voices/es/words/couple.ogg"},
+            { "description": "papá", "image": "lang/words/dad.png", "voice": "voices/es/words/dad.ogg"},
+            { "description": "enano", "image": "lang/words/dwarf.png", "voice": "voices/es/words/dwarf.ogg"}
+          ]
+        },
+       { "name": "comida",
+          "triplets": [
+            { "description": "carne de res", "image": "lang/words/beef.png", "voice": "voices/es/words/beef.ogg"},
+            { "description": "hueso", "image": "lang/words/bone.png", "voice": "voices/es/words/bone.ogg"},
+            { "description": "pan", "image": "lang/words/bread.png", "voice": "voices/es/words/bread.ogg"},
+            { "description": "mantequilla", "image": "lang/words/butter.png", "voice": "voices/es/words/butter.ogg"},
+            { "description": "pastel", "image": "lang/words/cake.png", "voice": "voices/es/words/cake.ogg"},
+            { "description": "caramelo", "image": "lang/words/candy.png", "voice": "voices/es/words/candy.ogg"},
+            { "description": "cereal", "image": "lang/words/cereal.png", "voice": "voices/es/words/cereal.ogg"},
+            { "description": "queso", "image": "lang/words/cheese.png", "voice": "voices/es/words/cheese.ogg"},
+            { "description": "chocolate", "image": "lang/words/chocolate.png", "voice": "voices/es/words/chocolate.ogg"},
+            { "description": "cafe", "image": "lang/words/coffee.png", "voice": "voices/es/words/coffee.ogg"},
+            { "description": "galleta", "image": "lang/words/cookie.png", "voice": "voices/es/words/cookie.ogg"},
+            { "description": "postre", "image": "lang/words/dessert.png", "voice": "voices/es/words/dessert.ogg"}
+          ]
+        },
+       { "name": "comida",
+          "triplets": [
+            { "description": "huevo", "image": "lang/words/egg.png", "voice": "voices/es/words/egg.ogg"},
+            { "description": "harina", "image": "lang/words/flour.png", "voice": "voices/es/words/flour.ogg"},
+            { "description": "alimento", "image": "lang/words/food.png", "voice": "voices/es/words/food.ogg"},
+            { "description": "jamón", "image": "lang/words/ham.png", "voice": "voices/es/words/ham.ogg"},
+            { "description": "hielo", "image": "lang/words/ice.png", "voice": "voices/es/words/ice.ogg"},
+            { "description": "mermelada", "image": "lang/words/jam.png", "voice": "voices/es/words/jam.ogg"},
+            { "description": "jalea", "image": "lang/words/jelly.png", "voice": "voices/es/words/jelly.ogg"},
+            { "description": "almuerzo", "image": "lang/words/lunch.png", "voice": "voices/es/words/lunch.ogg"},
+            { "description": "comida", "image": "lang/words/meal.png", "voice": "voices/es/words/meal.ogg"},
+            { "description": "carne", "image": "lang/words/meat.png", "voice": "voices/es/words/meat.ogg"},
+            { "description": "leche", "image": "lang/words/milk.png", "voice": "voices/es/words/milk.ogg"},
+            { "description": "pimienta", "image": "lang/words/pepper.png", "voice": "voices/es/words/pepper.ogg"}
+          ]
+        },
+       { "name": "comida",
+          "triplets": [
+            { "description": "arroz", "image": "lang/words/rice.png", "voice": "voices/es/words/rice.ogg"},
+            { "description": "salsa", "image": "lang/words/sauce.png", "voice": "voices/es/words/sauce.ogg"},
+            { "description": "salchicha", "image": "lang/words/sausage.png", "voice": "voices/es/words/sausage.ogg"},
+            { "description": "bocadillo", "image": "lang/words/snack.png", "voice": "voices/es/words/snack.ogg"},
+            { "description": "sopa", "image": "lang/words/soup.png", "voice": "voices/es/words/soup.ogg"},
+            { "description": "especia", "image": "lang/words/spice.png", "voice": "voices/es/words/spice.ogg"},
+            { "description": "filete", "image": "lang/words/steak.png", "voice": "voices/es/words/steak.ogg"},
+            { "description": "azúcar", "image": "lang/words/sugar.png", "voice": "voices/es/words/sugar.ogg"},
+            { "description": "yogur", "image": "lang/words/yogurt.png", "voice": "voices/es/words/yogurt.ogg"},
+            { "description": "carne de res", "image": "lang/words/beef.png", "voice": "voices/es/words/beef.ogg"},
+            { "description": "hueso", "image": "lang/words/bone.png", "voice": "voices/es/words/bone.ogg"},
+            { "description": "pan", "image": "lang/words/bread.png", "voice": "voices/es/words/bread.ogg"}
+          ]
+        }
+    ]
+    }
+  ]
+}

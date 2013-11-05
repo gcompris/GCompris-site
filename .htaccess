@@ -7,6 +7,19 @@ AddType application/octet-stream .dmg
 ErrorDocument 404 /404.html
 
 RewriteEngine on
+
+# ---------- Start WIKI
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki-1.21.2/index.php [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteRule ^/?mediawiki-1.21.2/images/thumb/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.21.2/thumb.php?f=$1&width=$2 [L,QSA,B]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteRule ^/?mediawiki-1.21.2/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.21.2/thumb.php?f=$1&width=$2&archived=1 [L,QSA,B]
+# ---------- End Wiki
+
 RewriteRule \.git /404.html [L]
 RewriteRule ^-ar-$ /index-en.html [R=permanent,L]
 RewriteRule ^-br-$ /index-fr.html [R=permanent,L]
@@ -31,6 +44,7 @@ RewriteRule ^-download-$ /index-en.html [R=permanent,L]
 RewriteRule ^-Download-$ /index-en.html [R=permanent,L]
 RewriteRule ^-Descargar-$ /index-es.html [R=permanent,L]
 RewriteRule ^-Telecharger-$ /index-fr.html [R=permanent,L]
+RewriteRule ^-Sur-une-page-$ /screenshots-fr.html [R=permanent,L]
 
 RewriteRule ^(.*)-gnumch-factors /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-bargame /screenshots-$1.html [R=permanent,L]
@@ -203,3 +217,4 @@ RewriteRule ^(.*)-hydroelectric /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-memory_add_minus /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-clickgame /screenshots-$1.html [R=permanent,L]
 RewriteRule ^(.*)-melody /screenshots-$1.html [R=permanent,L]
+

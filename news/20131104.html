@@ -1,0 +1,66 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 13.11' %}
+{% block content %}
+<h4>Major features</h4>
+<ul>
+<li class="puce">A new activity in the reading section that presents a
+set of image, text and voice to children and an exercise set around
+them. This includes about 1000 images and voices in English, Spanish,
+French, and Gaelic-Scottish. The images and voices come from
+the <a href="http://www.art4apps.org/">Art4Apps project</a>, a big
+thanks to them for providing a such useful resource (under
+CC&nbsp;BY-SA). If you want to thanks Art4Apps for their hard work
+please consider making a donation on their site.</li>
+
+<li class="puce">If you want to have a look at what this new activity
+is about, you can <a href="http://gcompris.net/activity/lang">play it
+online.</a></li>
+
+<li class="puce">A rework of many text related activities to support multigraph
+languages. This is driven by a team of Gaelic-Scottish users.</li>
+
+<li class="puce">Added the font face use in GCompris in the skin
+configuration file. It is possible to select another font by manually
+changing it with one installed on your system. For example, In
+boards/skin/babytoy/skin.xml find the line "font
+id="gcompris/fontface" name="sans" and replace "sans" by "ruluko".
+<a href="http://www.google.com/fonts/specimen/Ruluko">Ruluko</a> is a
+font provided by Google under
+the <a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>
+designated to aid those learning to read. In the future selecting the
+font should be made available at the configuration level.</li>
+</ul>
+
+<h4>Bug fixes</h4>
+<ul>
+<li class="puce">By popular demand, there is now a simplified version
+of the submarine activity, now there is an easy first level. Added
+tooltips to explain items.</li>
+
+<li class="puce">Fixed a crash case after leaving intro and land_safe activity.</li>
+
+<li class="puce">New country map of Scotland by Fòram na Gàidhlig.</li>
+
+<li class="puce">Fixed colors values in the advanced color
+activity. <a href="http://gcompris.net/wiki/Color_translation">This
+page</a> reports the old and new value.</li>
+
+<li class="puce">Added support for remembering last passed level by Roopesh Shenoy.
+With this option when the children enters an activity the last
+succeeded level is proposed.</li>
+
+<li class="puce">Added Central America and Oceania geography map by GunChleoc</li>
+
+<li class="puce">Independent wordlist for reading activities by GunChleoc</li>
+
+<li class="puce">Now the intro voice is played when help is clicked.</li>
+
+<li class="puce">Fixed a bug which makes the administration menu missing</li>
+
+<h4>Translations</h4>
+
+Updated Brazilian Portuguese, Breton, Czech, Danish, French, Galician, German, Greek, Hungarian, Latvian, Lithuanian, Polish, Russian, Scottish Gaelic, Serbian, Serbian Latin, Slovak, Slovenian, Spanish, Tamil.
+
+<p>Look at the translation <a href='https://l10n.gnome.org/module/gcompris/#master'>status here</a>.</p>
+</ul>
+{% endblock %}

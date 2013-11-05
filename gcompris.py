@@ -167,6 +167,7 @@ templateVars = {
     "screenshotsmenu": [],
     "locales": locales,
     "manual": getManual(),
+    "manualTranslation": _("Manual"),
     "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
     }
 
@@ -185,7 +186,6 @@ for filename in os.listdir("news"):
         (dat, loc) = filename_noext.split('-')
         if locale == loc:
             filenames[dat] = filename
-            print "added " + filename
     except:
         if not filename_noext in filenames:
             filenames[filename_noext] = filename

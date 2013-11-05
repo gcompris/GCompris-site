@@ -1,0 +1,852 @@
+{ "strings": {
+    "help": "Sgrùd seata dhe dh'abairtean. Thèid gach abairt a shealltainn dhut le guth ga innse is dealbh. Nuair a bhios tu deiseil, cluinnidh tu an abairt ga bruidhinn is feumaidh tu an dealbh a bhuineas dhi a lorg. Cleachd na roghainnean gus an cànan a thaghadh a tha thu airson ionnsachadh."
+  },
+ "locales": [
+    {"name": "Beurla (nan Stàitean Aonaichte)", "code": "en" },
+    {"name": "Spàinntis", "code": "es" },
+    {"name": "Fraingis", "code": "fr" },
+    {"name": "Gàidhlig", "code": "gd" }
+  ],
+  "chapters": [
+    { "name": "rud",
+      "lessons": [
+       { "name": "togail",
+          "triplets": [
+            { "description": "banca mòr", "image": "lang/words/bank.png", "voice": "voices/gd/words/bank.ogg"},
+            { "description": "sabhal mòr", "image": "lang/words/barn.png", "voice": "voices/gd/words/barn.ogg"},
+            { "description": "drochaid bheag", "image": "lang/words/bridge.png", "voice": "voices/gd/words/bridge.ogg"},
+            { "description": "bothan beag", "image": "lang/words/cabin.png", "voice": "voices/gd/words/cabin.ogg"},
+            { "description": "cèidse mhòr", "image": "lang/words/cage.png", "voice": "voices/gd/words/cage.ogg"},
+            { "description": "caisteal mòr", "image": "lang/words/castle.png", "voice": "voices/gd/words/castle.ogg"},
+            { "description": "doras mòr", "image": "lang/words/door.png", "voice": "voices/gd/words/door.ogg"},
+            { "description": "faidhir bheag", "image": "lang/words/fair.png", "voice": "voices/gd/words/fair.ogg"},
+            { "description": "tuathanas beag", "image": "lang/words/farm.png", "voice": "voices/gd/words/farm.ogg"},
+            { "description": "fuaran beag", "image": "lang/words/fountain.png", "voice": "voices/gd/words/fountain.ogg"},
+            { "description": "uaigh bheag", "image": "lang/words/grave.png", "voice": "voices/gd/words/grave.ogg"},
+            { "description": "dachaigh bheag", "image": "lang/words/home.png", "voice": "voices/gd/words/home.ogg"}
+          ]
+        },
+       { "name": "àirneis",
+          "triplets": [
+            { "description": "amar teth", "image": "lang/words/bath.png", "voice": "voices/gd/words/bath.ogg"},
+            { "description": "leabaidh bheag", "image": "lang/words/bed.png", "voice": "voices/gd/words/bed.ogg"},
+            { "description": "being bheag", "image": "lang/words/bench.png", "voice": "voices/gd/words/bench.ogg"},
+            { "description": "sèithear beag", "image": "lang/words/chair.png", "voice": "voices/gd/words/chair.ogg"},
+            { "description": "ciste mhòr", "image": "lang/words/chest.png", "voice": "voices/gd/words/chest.ogg"},
+            { "description": "langasaid mhòr", "image": "lang/words/couch.png", "voice": "voices/gd/words/couch.ogg"},
+            { "description": "deasg beag", "image": "lang/words/desk.png", "voice": "voices/gd/words/desk.ogg"},
+            { "description": "gaotharan beag", "image": "lang/words/fan.png", "voice": "voices/gd/words/fan.ogg"},
+            { "description": "lampa mòr", "image": "lang/words/lamp.png", "voice": "voices/gd/words/lamp.ogg"},
+            { "description": "solas math", "image": "lang/words/light.png", "voice": "voices/gd/words/light.ogg"},
+            { "description": "plàta beag", "image": "lang/words/mat.png", "voice": "voices/gd/words/mat.ogg"},
+            { "description": "cuibhrig mhòr", "image": "lang/words/quilt.png", "voice": "voices/gd/words/quilt.ogg"}
+          ]
+        },
+       { "name": "àirneis",
+          "triplets": [
+            { "description": "suidheachan mòr", "image": "lang/words/seat.png", "voice": "voices/gd/words/seat.ogg"},
+            { "description": "sgeilp bheag", "image": "lang/words/shelf.png", "voice": "voices/gd/words/shelf.ogg"},
+            { "description": "frasair mòr", "image": "lang/words/shower.png", "voice": "voices/gd/words/shower.ogg"},
+            { "description": "dòirteal beag", "image": "lang/words/sink.png", "voice": "voices/gd/words/sink.ogg"},
+            { "description": "stòbha beag", "image": "lang/words/stove.png", "voice": "voices/gd/words/stove.ogg"},
+            { "description": "an taigh-beag", "image": "lang/words/toilet.png", "voice": "voices/gd/words/toilet.ogg"},
+            { "description": "amar teth", "image": "lang/words/bath.png", "voice": "voices/gd/words/bath.ogg"},
+            { "description": "leabaidh bheag", "image": "lang/words/bed.png", "voice": "voices/gd/words/bed.ogg"},
+            { "description": "being bheag", "image": "lang/words/bench.png", "voice": "voices/gd/words/bench.ogg"},
+            { "description": "sèithear beag", "image": "lang/words/chair.png", "voice": "voices/gd/words/chair.ogg"},
+            { "description": "ciste mhòr", "image": "lang/words/chest.png", "voice": "voices/gd/words/chest.ogg"},
+            { "description": "langasaid mhòr", "image": "lang/words/couch.png", "voice": "voices/gd/words/couch.ogg"}
+          ]
+        },
+       { "name": "acainn taighe",
+          "triplets": [
+            { "description": "meidh bheag", "image": "lang/words/balance.png", "voice": "voices/gd/words/balance.ogg"},
+            { "description": "canaichean beaga", "image": "lang/words/can.png", "voice": "voices/gd/words/can.ogg"},
+            { "description": "cleoc mòr", "image": "lang/words/clock.png", "voice": "voices/gd/words/clock.ogg"},
+            { "description": "soitheach beag", "image": "lang/words/dish.png", "voice": "voices/gd/words/dish.ogg"},
+            { "description": "forca bheag", "image": "lang/words/fork.png", "voice": "voices/gd/words/fork.ogg"},
+            { "description": "gloine mhòr", "image": "lang/words/glass.png", "voice": "voices/gd/words/glass.ogg"},
+            { "description": "sgian bheag", "image": "lang/words/knife.png", "voice": "voices/gd/words/knife.ogg"},
+            { "description": "failcean mòr", "image": "lang/words/lid.png", "voice": "voices/gd/words/lid.ogg"},
+            { "description": "mapaid mhòr", "image": "lang/words/mop.png", "voice": "voices/gd/words/mop.ogg"},
+            { "description": "muga mòr", "image": "lang/words/mug.png", "voice": "voices/gd/words/mug.ogg"},
+            { "description": "aghann bheag", "image": "lang/words/pan.png", "voice": "voices/gd/words/pan.ogg"},
+            { "description": "truinnsear mòr", "image": "lang/words/plate.png", "voice": "voices/gd/words/plate.ogg"}
+          ]
+        },
+       { "name": "acainn taighe",
+          "triplets": [
+            { "description": "sgèile beag", "image": "lang/words/scale.png", "voice": "voices/gd/words/scale.ogg"},
+            { "description": "spong mòr", "image": "lang/words/sponge.png", "voice": "voices/gd/words/sponge.ogg"},
+            { "description": "spàin mhòr", "image": "lang/words/spoon.png", "voice": "voices/gd/words/spoon.ogg"},
+            { "description": "sgudal salach", "image": "lang/words/trash.png", "voice": "voices/gd/words/trash.ogg"},
+            { "description": "treidhe bheag", "image": "lang/words/tray.png", "voice": "voices/gd/words/tray.ogg"},
+            { "description": "sguabag bheag", "image": "lang/words/whisk.png", "voice": "voices/gd/words/whisk.ogg"},
+            { "description": "meidh bheag", "image": "lang/words/balance.png", "voice": "voices/gd/words/balance.ogg"},
+            { "description": "canaichean beaga", "image": "lang/words/can.png", "voice": "voices/gd/words/can.ogg"},
+            { "description": "cleoc mòr", "image": "lang/words/clock.png", "voice": "voices/gd/words/clock.ogg"},
+            { "description": "soitheach beag", "image": "lang/words/dish.png", "voice": "voices/gd/words/dish.ogg"},
+            { "description": "forca bheag", "image": "lang/words/fork.png", "voice": "voices/gd/words/fork.ogg"},
+            { "description": "gloine mhòr", "image": "lang/words/glass.png", "voice": "voices/gd/words/glass.ogg"}
+          ]
+        },
+       { "name": "rud",
+          "triplets": [
+            { "description": "acair mhòr", "image": "lang/words/anchor.png", "voice": "voices/gd/words/anchor.ogg"},
+            { "description": "saighdear mòr", "image": "lang/words/badge.png", "voice": "voices/gd/words/badge.ogg"},
+            { "description": "baga mòr", "image": "lang/words/bag.png", "voice": "voices/gd/words/bag.ogg"},
+            { "description": "bàla mòr", "image": "lang/words/ball.png", "voice": "voices/gd/words/ball.ogg"},
+            { "description": "builgean mòr", "image": "lang/words/bead.png", "voice": "voices/gd/words/bead.ogg"},
+            { "description": "bloca gorm", "image": "lang/words/block.png", "voice": "voices/gd/words/block.ogg"},
+            { "description": "bòrd beag", "image": "lang/words/board.png", "voice": "voices/gd/words/board.ogg"},
+            { "description": "boma mòr", "image": "lang/words/bomb.png", "voice": "voices/gd/words/bomb.ogg"},
+            { "description": "leabhar mòr", "image": "lang/words/book.png", "voice": "voices/gd/words/book.ogg"},
+            { "description": "bogsa beag", "image": "lang/words/box.png", "voice": "voices/gd/words/box.ogg"},
+            { "description": "coinneal bheag", "image": "lang/words/candle.png", "voice": "voices/gd/words/candle.ogg"},
+            { "description": "bata mòr", "image": "lang/words/cane.png", "voice": "voices/gd/words/cane.ogg"}
+          ]
+        },
+       { "name": "rud",
+          "triplets": [
+            { "description": "troilidh", "image": "lang/words/cart.png", "voice": "voices/gd/words/cart.ogg"},
+            { "description": "airgead mòr", "image": "lang/words/cash.png", "voice": "voices/gd/words/cash.ogg"},
+            { "description": "cailc gheal", "image": "lang/words/chalk.png", "voice": "voices/gd/words/chalk.ogg"},
+            { "description": "criadh dhonn", "image": "lang/words/clay.png", "voice": "voices/gd/words/clay.ogg"},
+            { "description": "aodach buidhe", "image": "lang/words/cloth.png", "voice": "voices/gd/words/cloth.ogg"},
+            { "description": "bonn beag", "image": "lang/words/coin.png", "voice": "voices/gd/words/coin.ogg"},
+            { "description": "cìr mhòr", "image": "lang/words/comb.png", "voice": "voices/gd/words/comb.ogg"},
+            { "description": "còn mòr", "image": "lang/words/cone.png", "voice": "voices/gd/words/cone.ogg"},
+            { "description": "crùn mòr", "image": "lang/words/crown.png", "voice": "voices/gd/words/crown.ogg"},
+            { "description": "ciùb beag", "image": "lang/words/cube.png", "voice": "voices/gd/words/cube.ogg"},
+            { "description": "druma mhòr", "image": "lang/words/drum.png", "voice": "voices/gd/words/drum.ogg"},
+            { "description": "bratach bheag", "image": "lang/words/flag.png", "voice": "voices/gd/words/flag.ogg"}
+          ]
+        },
+       { "name": "rud",
+          "triplets": [
+            { "description": "geama beag", "image": "lang/words/game.png", "voice": "voices/gd/words/game.ogg"},
+            { "description": "prèasant beag", "image": "lang/words/gift.png", "voice": "voices/gd/words/gift.ogg"},
+            { "description": "glaodh math", "image": "lang/words/glue.png", "voice": "voices/gd/words/glue.ogg"},
+            { "description": "dubhan mòr", "image": "lang/words/hook.png", "voice": "voices/gd/words/hook.ogg"},
+            { "description": "pìob-uisge mhòr", "image": "lang/words/hose.png", "voice": "voices/gd/words/hose.ogg"},
+            { "description": "inc phurpaidh", "image": "lang/words/ink.png", "voice": "voices/gd/words/ink.ogg"},
+            { "description": "seud beag", "image": "lang/words/jewel.png", "voice": "voices/gd/words/jewel.ogg"},
+            { "description": "itealag bheag", "image": "lang/words/kite.png", "voice": "voices/gd/words/kite.ogg"},
+            { "description": "snaidhm mòr", "image": "lang/words/knot.png", "voice": "voices/gd/words/knot.ogg"},
+            { "description": "connadh tioram", "image": "lang/words/log.png", "voice": "voices/gd/words/log.ogg"},
+            { "description": "mapa beag", "image": "lang/words/map.png", "voice": "voices/gd/words/map.ogg"},
+            { "description": "aodannan beag", "image": "lang/words/mask.png", "voice": "voices/gd/words/mask.ogg"}
+          ]
+        },
+       { "name": "rud",
+          "triplets": [
+            { "description": "nead beag", "image": "lang/words/nest.png", "voice": "voices/gd/words/nest.ogg"},
+            { "description": "lìon beag", "image": "lang/words/net.png", "voice": "voices/gd/words/net.ogg"},
+            { "description": "dà ràmh mòr", "image": "lang/words/oar.png", "voice": "voices/gd/words/oar.ogg"},
+            { "description": "duilleag bheag", "image": "lang/words/page.png", "voice": "voices/gd/words/page.ogg"},
+            { "description": "paidhir bhrògan", "image": "lang/words/pair.png", "voice": "voices/gd/words/pair.ogg"},
+            { "description": "peann beag", "image": "lang/words/pen.png", "voice": "voices/gd/words/pen.ogg"},
+            { "description": "peansail mòr", "image": "lang/words/pencil.png", "voice": "voices/gd/words/pencil.ogg"},
+            { "description": "dealbh beag", "image": "lang/words/picture.png", "voice": "voices/gd/words/picture.ogg"},
+            { "description": "pòla beag", "image": "lang/words/pole.png", "voice": "voices/gd/words/pole.ogg"},
+            { "description": "duais mhòr", "image": "lang/words/prize.png", "voice": "voices/gd/words/prize.ogg"},
+            { "description": "luideag bheag", "image": "lang/words/rag.png", "voice": "voices/gd/words/rag.ogg"},
+            { "description": "ròpa fada", "image": "lang/words/rope.png", "voice": "voices/gd/words/rope.ogg"}
+          ]
+        },
+       { "name": "rud",
+          "triplets": [
+            { "description": "slaodan mòr", "image": "lang/words/sleigh.png", "voice": "voices/gd/words/sleigh.ogg"},
+            { "description": "sleamhnag bheag", "image": "lang/words/slide.png", "voice": "voices/gd/words/slide.ogg"},
+            { "description": "botal-steallaidh", "image": "lang/words/squirt.png", "voice": "voices/gd/words/squirt.ogg"},
+            { "description": "cruach mhòr", "image": "lang/words/stack.png", "voice": "voices/gd/words/stack.ogg"},
+            { "description": "stampa beag", "image": "lang/words/stamp.png", "voice": "voices/gd/words/stamp.ogg"},
+            { "description": "stràbh beag", "image": "lang/words/straw.png", "voice": "voices/gd/words/straw.ogg"},
+            { "description": "sreang fhada", "image": "lang/words/string.png", "voice": "voices/gd/words/string.ogg"},
+            { "description": "taga beag", "image": "lang/words/tag.png", "voice": "voices/gd/words/tag.ogg"},
+            { "description": "snàithlean pinc", "image": "lang/words/thread.png", "voice": "voices/gd/words/thread.ogg"},
+            { "description": "leus gorm", "image": "lang/words/torch.png", "voice": "voices/gd/words/torch.ogg"},
+            { "description": "searbhadair buidhe", "image": "lang/words/towel.png", "voice": "voices/gd/words/towel.ogg"},
+            { "description": "dèideag bheag", "image": "lang/words/toy.png", "voice": "voices/gd/words/toy.ogg"}
+          ]
+        },
+       { "name": "rud",
+          "triplets": [
+            { "description": "beul-dath dearg", "image": "lang/words/tube.png", "voice": "voices/gd/words/tube.ogg"},
+            { "description": "uaireadair beag", "image": "lang/words/watch.png", "voice": "voices/gd/words/watch.ogg"},
+            { "description": "cuibhle chruinn", "image": "lang/words/wheel.png", "voice": "voices/gd/words/wheel.ogg"},
+            { "description": "falt fuadain", "image": "lang/words/wig.png", "voice": "voices/gd/words/wig.ogg"},
+            { "description": "dèile fhada", "image": "lang/words/wood.png", "voice": "voices/gd/words/wood.ogg"},
+            { "description": "prìs mhòr", "image": "lang/words/price.png", "voice": "voices/gd/words/price.ogg"},
+            { "description": "dotag bheag", "image": "lang/words/dot.png", "voice": "voices/gd/words/dot.ogg"},
+            { "description": "acair mhòr", "image": "lang/words/anchor.png", "voice": "voices/gd/words/anchor.ogg"},
+            { "description": "saighdear mòr", "image": "lang/words/badge.png", "voice": "voices/gd/words/badge.ogg"},
+            { "description": "baga mòr", "image": "lang/words/bag.png", "voice": "voices/gd/words/bag.ogg"},
+            { "description": "bàla mòr", "image": "lang/words/ball.png", "voice": "voices/gd/words/ball.ogg"},
+            { "description": "builgean mòr", "image": "lang/words/bead.png", "voice": "voices/gd/words/bead.ogg"}
+          ]
+        },
+       { "name": "acainn",
+          "triplets": [
+            { "description": "breigean mòra", "image": "lang/words/brick.png", "voice": "voices/gd/words/brick.ogg"},
+            { "description": "bruis mhòr", "image": "lang/words/brush.png", "voice": "voices/gd/words/brush.ogg"},
+            { "description": "leus mòr", "image": "lang/words/flash.png", "voice": "voices/gd/words/flash.ogg"},
+            { "description": "ràcan mòr", "image": "lang/words/rake.png", "voice": "voices/gd/words/rake.ogg"},
+            { "description": "sgriubha mhòr", "image": "lang/words/screw.png", "voice": "voices/gd/words/screw.ogg"},
+            { "description": "sleagh mhòr", "image": "lang/words/spear.png", "voice": "voices/gd/words/spear.ogg"},
+            { "description": "acainnean", "image": "lang/words/tool.png", "voice": "voices/gd/words/tool.ogg"},
+            { "description": "gèinn mòr", "image": "lang/words/wedge.png", "voice": "voices/gd/words/wedge.ogg"},
+            { "description": "toinnear beag", "image": "lang/words/wrench.png", "voice": "voices/gd/words/wrench.ogg"},
+            { "description": "baidhsagal beag", "image": "lang/words/bike.png", "voice": "voices/gd/words/bike.ogg"},
+            { "description": "ràmhach beag", "image": "lang/words/boat.png", "voice": "voices/gd/words/boat.ogg"},
+            { "description": "curach bheag", "image": "lang/words/canoe.png", "voice": "voices/gd/words/canoe.ogg"}
+          ]
+        },
+       { "name": "acainn",
+          "triplets": [
+            { "description": "plèana beag", "image": "lang/words/plane.png", "voice": "voices/gd/words/plane.ogg"},
+            { "description": "seòl beag", "image": "lang/words/sail.png", "voice": "voices/gd/words/sail.ogg"},
+            { "description": "bàta beag", "image": "lang/words/ship.png", "voice": "voices/gd/words/ship.ogg"},
+            { "description": "càrn beag", "image": "lang/words/sled.png", "voice": "voices/gd/words/sled.ogg"},
+            { "description": "trèan beag", "image": "lang/words/train.png", "voice": "voices/gd/words/train.ogg"},
+            { "description": "làraidh dhearg", "image": "lang/words/truck.png", "voice": "voices/gd/words/truck.ogg"},
+            { "description": "bhana beag", "image": "lang/words/van.png", "voice": "voices/gd/words/van.ogg"},
+            { "description": "breigean mòra", "image": "lang/words/brick.png", "voice": "voices/gd/words/brick.ogg"},
+            { "description": "bruis mhòr", "image": "lang/words/brush.png", "voice": "voices/gd/words/brush.ogg"},
+            { "description": "leus mòr", "image": "lang/words/flash.png", "voice": "voices/gd/words/flash.ogg"},
+            { "description": "ràcan mòr", "image": "lang/words/rake.png", "voice": "voices/gd/words/rake.ogg"},
+            { "description": "sgriubha mhòr", "image": "lang/words/screw.png", "voice": "voices/gd/words/screw.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "eile",
+      "lessons": [
+       { "name": "eile",
+          "triplets": [
+            { "description": "balgam beag", "image": "lang/words/bit.png", "voice": "voices/gd/words/bit.ogg"},
+            { "description": "dul beag", "image": "lang/words/link.png", "voice": "voices/gd/words/link.ogg"},
+            { "description": "ceist mhòr", "image": "lang/words/question.png", "voice": "voices/gd/words/question.ogg"},
+            { "description": "co-fharpais cheist", "image": "lang/words/quiz.png", "voice": "voices/gd/words/quiz.ogg"},
+            { "description": "saidheans mòr", "image": "lang/words/science.png", "voice": "voices/gd/words/science.ogg"},
+            { "description": "steall beag", "image": "lang/words/splatter.png", "voice": "voices/gd/words/splatter.ogg"},
+            { "description": "fonn math", "image": "lang/words/tune.png", "voice": "voices/gd/words/tune.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "dh'ith i a leòr", "image": "lang/words/ate.png", "voice": "voices/gd/words/ate.ogg"},
+            { "description": "fuineadh", "image": "lang/words/bake.png", "voice": "voices/gd/words/bake.ogg"},
+            { "description": "a' tabhann", "image": "lang/words/bark.png", "voice": "voices/gd/words/bark.ogg"},
+            { "description": "a' guidhe", "image": "lang/words/beg.png", "voice": "voices/gd/words/beg.ogg"},
+            { "description": "a' toirt greim às", "image": "lang/words/bite.png", "voice": "voices/gd/words/bite.ogg"},
+            { "description": "priobadh na sùla", "image": "lang/words/blink.png", "voice": "voices/gd/words/blink.ogg"},
+            { "description": "a' goil", "image": "lang/words/boil.png", "voice": "voices/gd/words/boil.ogg"},
+            { "description": "cridhe briste", "image": "lang/words/break.png", "voice": "voices/gd/words/break.ogg"},
+            { "description": "a' cur fòn", "image": "lang/words/call.png", "voice": "voices/gd/words/call.ogg"},
+            { "description": "ag iasgach", "image": "lang/words/catch.png", "voice": "voices/gd/words/catch.ogg"},
+            { "description": "a' cabadaich", "image": "lang/words/chat.png", "voice": "voices/gd/words/chat.ogg"},
+            { "description": "a' gearradh", "image": "lang/words/chop.png", "voice": "voices/gd/words/chop.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "a' nighe d' fhalt", "image": "lang/words/clean.png", "voice": "voices/gd/words/clean.ogg"},
+            { "description": "falbh air mhàgaran", "image": "lang/words/crawl.png", "voice": "voices/gd/words/crawl.ogg"},
+            { "description": "a' gnàgail", "image": "lang/words/croak.png", "voice": "voices/gd/words/croak.ogg"},
+            { "description": "a' gal", "image": "lang/words/cry.png", "voice": "voices/gd/words/cry.ogg"},
+            { "description": "siosar beag", "image": "lang/words/cut.png", "voice": "voices/gd/words/cut.ogg"},
+            { "description": "a' cladhach", "image": "lang/words/dig.png", "voice": "voices/gd/words/dig.ogg"},
+            { "description": "ag òl", "image": "lang/words/drank.png", "voice": "voices/gd/words/drank.ogg"},
+            { "description": "a' dèanamh dealbh", "image": "lang/words/draw.png", "voice": "voices/gd/words/draw.ogg"},
+            { "description": "aisling mhath", "image": "lang/words/dream.png", "voice": "voices/gd/words/dream.ogg"},
+            { "description": "a' draibheadh", "image": "lang/words/drive.png", "voice": "voices/gd/words/drive.ogg"},
+            { "description": "a' sileadh sglongaid", "image": "lang/words/drool.png", "voice": "voices/gd/words/drool.ogg"},
+            { "description": "aodach tioram", "image": "lang/words/dry.png", "voice": "voices/gd/words/dry.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "thuit e", "image": "lang/words/fell.png", "voice": "voices/gd/words/fell.ogg"},
+            { "description": "faigh am pàipear", "image": "lang/words/fetch.png", "voice": "voices/gd/words/fetch.ogg"},
+            { "description": "a' lorg", "image": "lang/words/find.png", "voice": "voices/gd/words/find.ogg"},
+            { "description": "air fleòd", "image": "lang/words/float.png", "voice": "voices/gd/words/float.ogg"},
+            { "description": "ag itealaich", "image": "lang/words/fly.png", "voice": "voices/gd/words/fly.ogg"},
+            { "description": "reòthadh mòr", "image": "lang/words/freeze.png", "voice": "voices/gd/words/freeze.ogg"},
+            { "description": "a' toirt gnòdhan", "image": "lang/words/growl.png", "voice": "voices/gd/words/growl.ogg"},
+            { "description": "isean 'ga ghur", "image": "lang/words/hatch.png", "voice": "voices/gd/words/hatch.ogg"},
+            { "description": "a' cluinntinn", "image": "lang/words/hear.png", "voice": "voices/gd/words/hear.ogg"},
+            { "description": "ag ulfhairt", "image": "lang/words/howl.png", "voice": "voices/gd/words/howl.ogg"},
+            { "description": "a' glacadh a chèile gu teann", "image": "lang/words/hug.png", "voice": "voices/gd/words/hug.ogg"},
+            { "description": "a' leumadh", "image": "lang/words/jump.png", "voice": "voices/gd/words/jump.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "a' fighe", "image": "lang/words/knit.png", "voice": "voices/gd/words/knit.ogg"},
+            { "description": "ag imlich", "image": "lang/words/lick.png", "voice": "voices/gd/words/lick.ogg"},
+            { "description": "a' coimhead", "image": "lang/words/look.png", "voice": "voices/gd/words/look.ogg"},
+            { "description": "a' coinneachadh ri chèile", "image": "lang/words/meet.png", "voice": "voices/gd/words/meet.ogg"},
+            { "description": "norrag bheag", "image": "lang/words/nap.png", "voice": "voices/gd/words/nap.ogg"},
+            { "description": "a' sgobadh", "image": "lang/words/peck.png", "voice": "voices/gd/words/peck.ogg"},
+            { "description": "a' cluich", "image": "lang/words/play.png", "voice": "voices/gd/words/play.ogg"},
+            { "description": "a' treabhadh", "image": "lang/words/plow.png", "voice": "voices/gd/words/plow.ogg"},
+            { "description": "a' teumadh", "image": "lang/words/pounce.png", "voice": "voices/gd/words/pounce.ogg"},
+            { "description": "ag argamaid", "image": "lang/words/quarrel.png", "voice": "voices/gd/words/quarrel.ogg"},
+            { "description": "a' leughadh", "image": "lang/words/read.png", "voice": "voices/gd/words/read.ogg"},
+            { "description": "a' sracadh", "image": "lang/words/rip.png", "voice": "voices/gd/words/rip.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "casruisgte", "image": "lang/words/sat.png", "voice": "voices/gd/words/sat.ogg"},
+            { "description": "tha an t-eagal air", "image": "lang/words/scared.png", "voice": "voices/gd/words/scared.ogg"},
+            { "description": "a' sgrìobadh", "image": "lang/words/scratch.png", "voice": "voices/gd/words/scratch.ogg"},
+            { "description": "a' leigeil èigh", "image": "lang/words/scream.png", "voice": "voices/gd/words/scream.ogg"},
+            { "description": "a' sgrochladh", "image": "lang/words/scribble.png", "voice": "voices/gd/words/scribble.ogg"},
+            { "description": "a' faicinn", "image": "lang/words/see.png", "voice": "voices/gd/words/see.ogg"},
+            { "description": "a' crathadh", "image": "lang/words/shake.png", "voice": "voices/gd/words/shake.ogg"},
+            { "description": "a' seinn", "image": "lang/words/sing.png", "voice": "voices/gd/words/sing.ogg"},
+            { "description": "a' gabhail drùthag", "image": "lang/words/sip.png", "voice": "voices/gd/words/sip.ogg"},
+            { "description": "na shuidhe", "image": "lang/words/sit.png", "voice": "voices/gd/words/sit.ogg"},
+            { "description": "na chadal", "image": "lang/words/sleep.png", "voice": "voices/gd/words/sleep.ogg"},
+            { "description": "fàileadh math", "image": "lang/words/smell.png", "voice": "voices/gd/words/smell.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "a' snòtadh", "image": "lang/words/sniff.png", "voice": "voices/gd/words/sniff.ogg"},
+            { "description": "a' dòrtadh", "image": "lang/words/spill.png", "voice": "voices/gd/words/spill.ogg"},
+            { "description": "a' plubadaich", "image": "lang/words/splash.png", "voice": "voices/gd/words/splash.ogg"},
+            { "description": "a' stealladh", "image": "lang/words/spray.png", "voice": "voices/gd/words/spray.ogg"},
+            { "description": "a' liacradh", "image": "lang/words/spread.png", "voice": "voices/gd/words/spread.ogg"},
+            { "description": "sprionga mòr", "image": "lang/words/spring.png", "voice": "voices/gd/words/spring.ogg"},
+            { "description": "a' dèanamh gurraban", "image": "lang/words/squat.png", "voice": "voices/gd/words/squat.ogg"},
+            { "description": "gath beag", "image": "lang/words/sting.png", "voice": "voices/gd/words/sting.ogg"},
+            { "description": "stad ort", "image": "lang/words/stop.png", "voice": "voices/gd/words/stop.ogg"},
+            { "description": "a' sìneadh", "image": "lang/words/stretch.png", "voice": "voices/gd/words/stretch.ogg"},
+            { "description": "ag ionnsachadh", "image": "lang/words/study.png", "voice": "voices/gd/words/study.ogg"},
+            { "description": "a' teagasg", "image": "lang/words/teach.png", "voice": "voices/gd/words/teach.ogg"}
+          ]
+        },
+       { "name": "gnìomh",
+          "triplets": [
+            { "description": "a' smaoineachadh", "image": "lang/words/think.png", "voice": "voices/gd/words/think.ogg"},
+            { "description": "a' beantainn", "image": "lang/words/touch.png", "voice": "voices/gd/words/touch.ogg"},
+            { "description": "a' crathadh earball", "image": "lang/words/wag.png", "voice": "voices/gd/words/wag.ogg"},
+            { "description": "a' seasamh air leth-chas", "image": "lang/words/walk.png", "voice": "voices/gd/words/walk.ogg"},
+            { "description": "a' gabhail amar", "image": "lang/words/wash.png", "voice": "voices/gd/words/wash.ogg"},
+            { "description": "a' cagair", "image": "lang/words/whisper.png", "voice": "voices/gd/words/whisper.ogg"},
+            { "description": "a' buannachadh", "image": "lang/words/win.png", "voice": "voices/gd/words/win.ogg"},
+            { "description": "a' sgrìobhadh", "image": "lang/words/write.png", "voice": "voices/gd/words/write.ogg"},
+            { "description": "dh'ith i a leòr", "image": "lang/words/ate.png", "voice": "voices/gd/words/ate.ogg"},
+            { "description": "fuineadh", "image": "lang/words/bake.png", "voice": "voices/gd/words/bake.ogg"},
+            { "description": "a' tabhann", "image": "lang/words/bark.png", "voice": "voices/gd/words/bark.ogg"},
+            { "description": "a' guidhe", "image": "lang/words/beg.png", "voice": "voices/gd/words/beg.ogg"}
+          ]
+        },
+       { "name": "buadhair",
+          "triplets": [
+            { "description": "mòr", "image": "lang/words/big.png", "voice": "voices/gd/words/big.ogg"},
+            { "description": "fear dall", "image": "lang/words/blind.png", "voice": "voices/gd/words/blind.ogg"},
+            { "description": "falt bàn", "image": "lang/words/blond.png", "voice": "voices/gd/words/blond.ogg"},
+            { "description": "rionnag shoilleir", "image": "lang/words/bright.png", "voice": "voices/gd/words/bright.ogg"},
+            { "description": "duine craicte", "image": "lang/words/crazy.png", "voice": "voices/gd/words/crazy.ogg"},
+            { "description": "snog", "image": "lang/words/cute.png", "voice": "voices/gd/words/cute.ogg"},
+            { "description": "balach salach", "image": "lang/words/dirty.png", "voice": "voices/gd/words/dirty.ogg"},
+            { "description": "cana falamh", "image": "lang/words/empty.png", "voice": "voices/gd/words/empty.ogg"},
+            { "description": "gille reamhar", "image": "lang/words/fat.png", "voice": "voices/gd/words/fat.ogg"},
+            { "description": "flataichean beaga", "image": "lang/words/flat.png", "voice": "voices/gd/words/flat.ogg"},
+            { "description": "air a bheulaibh", "image": "lang/words/front.png", "voice": "voices/gd/words/front.ogg"},
+            { "description": "gloine làn", "image": "lang/words/full.png", "voice": "voices/gd/words/full.ogg"}
+          ]
+        },
+       { "name": "buadhair",
+          "triplets": [
+            { "description": "toilichte", "image": "lang/words/happy.png", "voice": "voices/gd/words/happy.ogg"},
+            { "description": "àrd", "image": "lang/words/high.png", "voice": "voices/gd/words/high.ogg"},
+            { "description": "teth", "image": "lang/words/hot.png", "voice": "voices/gd/words/hot.ogg"},
+            { "description": "anabarrach mòr", "image": "lang/words/huge.png", "voice": "voices/gd/words/huge.ogg"},
+            { "description": "clì", "image": "lang/words/left.png", "voice": "voices/gd/words/left.ogg"},
+            { "description": "loidhne ghorm", "image": "lang/words/line.png", "voice": "voices/gd/words/line.ogg"},
+            { "description": "boinne beag", "image": "lang/words/liquid.png", "voice": "voices/gd/words/liquid.ogg"},
+            { "description": "draoidheachd mhath", "image": "lang/words/magic.png", "voice": "voices/gd/words/magic.ogg"},
+            { "description": "air", "image": "lang/words/on.png", "voice": "voices/gd/words/on.ogg"},
+            { "description": "bòidheach", "image": "lang/words/pretty.png", "voice": "voices/gd/words/pretty.ogg"},
+            { "description": "deas", "image": "lang/words/right.png", "voice": "voices/gd/words/right.ogg"},
+            { "description": "cruinn", "image": "lang/words/round.png", "voice": "voices/gd/words/round.ogg"}
+          ]
+        },
+       { "name": "buadhair",
+          "triplets": [
+            { "description": "dùinte", "image": "lang/words/shut.png", "voice": "voices/gd/words/shut.ogg"},
+            { "description": "tinn", "image": "lang/words/sick.png", "voice": "voices/gd/words/sick.ogg"},
+            { "description": "beag", "image": "lang/words/small.png", "voice": "voices/gd/words/small.ogg"},
+            { "description": "aodach breac", "image": "lang/words/spot.png", "voice": "voices/gd/words/spot.ogg"},
+            { "description": "ceàrnagach", "image": "lang/words/square.png", "voice": "voices/gd/words/square.ogg"},
+            { "description": "na sheasamh", "image": "lang/words/stand.png", "voice": "voices/gd/words/stand.ogg"},
+            { "description": "dìreach", "image": "lang/words/straight.png", "voice": "voices/gd/words/straight.ogg"},
+            { "description": "stiall ghorm", "image": "lang/words/stripe.png", "voice": "voices/gd/words/stripe.ogg"},
+            { "description": "làidir", "image": "lang/words/strong.png", "voice": "voices/gd/words/strong.ogg"},
+            { "description": "àrd", "image": "lang/words/tall.png", "voice": "voices/gd/words/tall.ogg"},
+            { "description": "tiugh", "image": "lang/words/thick.png", "voice": "voices/gd/words/thick.ogg"},
+            { "description": "sgìth", "image": "lang/words/tired.png", "voice": "voices/gd/words/tired.ogg"}
+          ]
+        },
+       { "name": "buadhair",
+          "triplets": [
+            { "description": "fliuch", "image": "lang/words/wet.png", "voice": "voices/gd/words/wet.ogg"},
+            { "description": "mòr", "image": "lang/words/big.png", "voice": "voices/gd/words/big.ogg"},
+            { "description": "fear dall", "image": "lang/words/blind.png", "voice": "voices/gd/words/blind.ogg"},
+            { "description": "falt bàn", "image": "lang/words/blond.png", "voice": "voices/gd/words/blond.ogg"},
+            { "description": "rionnag shoilleir", "image": "lang/words/bright.png", "voice": "voices/gd/words/bright.ogg"},
+            { "description": "duine craicte", "image": "lang/words/crazy.png", "voice": "voices/gd/words/crazy.ogg"},
+            { "description": "snog", "image": "lang/words/cute.png", "voice": "voices/gd/words/cute.ogg"},
+            { "description": "balach salach", "image": "lang/words/dirty.png", "voice": "voices/gd/words/dirty.ogg"},
+            { "description": "cana falamh", "image": "lang/words/empty.png", "voice": "voices/gd/words/empty.ogg"},
+            { "description": "gille reamhar", "image": "lang/words/fat.png", "voice": "voices/gd/words/fat.ogg"},
+            { "description": "flataichean beaga", "image": "lang/words/flat.png", "voice": "voices/gd/words/flat.ogg"},
+            { "description": "air a bheulaibh", "image": "lang/words/front.png", "voice": "voices/gd/words/front.ogg"}
+          ]
+        },
+       { "name": "dath",
+          "triplets": [
+            { "description": "dathan", "image": "lang/words/color.png", "voice": "voices/gd/words/color.ogg"},
+            { "description": "dath gorm", "image": "lang/words/blue.png", "voice": "voices/gd/words/blue.ogg"},
+            { "description": "dath donn", "image": "lang/words/brown.png", "voice": "voices/gd/words/brown.ogg"},
+            { "description": "dath dubh", "image": "lang/words/black.png", "voice": "voices/gd/words/black.ogg"},
+            { "description": "dath liath", "image": "lang/words/gray.png", "voice": "voices/gd/words/gray.ogg"},
+            { "description": "dath uaine", "image": "lang/words/green.png", "voice": "voices/gd/words/green.ogg"},
+            { "description": "orainsear mòr", "image": "lang/words/orange-color.png", "voice": "voices/gd/words/orange-color.ogg"},
+            { "description": "dath pinc", "image": "lang/words/pink.png", "voice": "voices/gd/words/pink.ogg"},
+            { "description": "dath dearg", "image": "lang/words/red.png", "voice": "voices/gd/words/red.ogg"},
+            { "description": "dath geal", "image": "lang/words/white.png", "voice": "voices/gd/words/white.ogg"}
+          ]
+        },
+       { "name": "àireamh",
+          "triplets": [
+            { "description": "Missing translation for 'zero'", "image": "lang/words/zero.png", "voice": "voices/gd/alphabet/U0030.ogg"},
+            { "description": "Missing translation for 'one'", "image": "lang/words/one.png", "voice": "voices/gd/alphabet/U0031.ogg"},
+            { "description": "Missing translation for 'two'", "image": "lang/words/two.png", "voice": "voices/gd/alphabet/U0032.ogg"},
+            { "description": "Missing translation for 'three'", "image": "lang/words/three.png", "voice": "voices/gd/alphabet/U0033.ogg"},
+            { "description": "Missing translation for 'four'", "image": "lang/words/four.png", "voice": "voices/gd/alphabet/U0034.ogg"},
+            { "description": "Missing translation for 'five'", "image": "lang/words/five.png", "voice": "voices/gd/alphabet/U0035.ogg"},
+            { "description": "Missing translation for 'six'", "image": "lang/words/six.png", "voice": "voices/gd/alphabet/U0036.ogg"},
+            { "description": "Missing translation for 'seven'", "image": "lang/words/seven.png", "voice": "voices/gd/alphabet/U0037.ogg"},
+            { "description": "Missing translation for 'eight'", "image": "lang/words/eight.png", "voice": "voices/gd/alphabet/U0038.ogg"},
+            { "description": "Missing translation for 'nine'", "image": "lang/words/nine.png", "voice": "voices/gd/alphabet/U0039.ogg"},
+            { "description": "Missing translation for 'ten'", "image": "lang/words/ten.png", "voice": "voices/gd/alphabet/10.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "an nàdar",
+      "lessons": [
+       { "name": "beathach",
+          "triplets": [
+            { "description": "ailigeutair mòr", "image": "lang/words/alligator.png", "voice": "voices/gd/words/alligator.ogg"},
+            { "description": "beathaichean fiadhaich", "image": "lang/words/animal.png", "voice": "voices/gd/words/animal.ogg"},
+            { "description": "baoit bheò", "image": "lang/words/bait.png", "voice": "voices/gd/words/bait.ogg"},
+            { "description": "ialtag bheag", "image": "lang/words/bat.png", "voice": "voices/gd/words/bat.ogg"},
+            { "description": "seillean beag", "image": "lang/words/bee.png", "voice": "voices/gd/words/bee.ogg"},
+            { "description": "daolag mhòr", "image": "lang/words/beetle.png", "voice": "voices/gd/words/beetle.ogg"},
+            { "description": "eun donn", "image": "lang/words/bird.png", "voice": "voices/gd/words/bird.ogg"},
+            { "description": "biastag bheag", "image": "lang/words/bug.png", "voice": "voices/gd/words/bug.ogg"},
+            { "description": "càmhal mòr", "image": "lang/words/camel.png", "voice": "voices/gd/words/camel.ogg"},
+            { "description": "cat beag", "image": "lang/words/cat.png", "voice": "voices/gd/words/cat.ogg"},
+            { "description": "ceud-chasach fada", "image": "lang/words/centipede.png", "voice": "voices/gd/words/centipede.ogg"},
+            { "description": "isean beag", "image": "lang/words/chick.png", "voice": "voices/gd/words/chick.ogg"}
+          ]
+        },
+       { "name": "beathach",
+          "triplets": [
+            { "description": "muncaidh beag", "image": "lang/words/chimp.png", "voice": "voices/gd/words/chimp.ogg"},
+            { "description": "creachann mòr", "image": "lang/words/clam.png", "voice": "voices/gd/words/clam.ogg"},
+            { "description": "cròg mòr", "image": "lang/words/claw.png", "voice": "voices/gd/words/claw.ogg"},
+            { "description": "bò bheag", "image": "lang/words/cow.png", "voice": "voices/gd/words/cow.ogg"},
+            { "description": "crùbag mhòr", "image": "lang/words/crab.png", "voice": "voices/gd/words/crab.ogg"},
+            { "description": "crogall mòr", "image": "lang/words/crocodile.png", "voice": "voices/gd/words/crocodile.ogg"},
+            { "description": "feannag bheag", "image": "lang/words/crow.png", "voice": "voices/gd/words/crow.ogg"},
+            { "description": "saobhaidh mòr", "image": "lang/words/den.png", "voice": "voices/gd/words/den.ogg"},
+            { "description": "cù beag", "image": "lang/words/dog.png", "voice": "voices/gd/words/dog.ogg"},
+            { "description": "dràgon mòr", "image": "lang/words/dragon.png", "voice": "voices/gd/words/dragon.ogg"},
+            { "description": "tunnag bheag", "image": "lang/words/duck.png", "voice": "voices/gd/words/duck.ogg"},
+            { "description": "ite mhòr", "image": "lang/words/fin.png", "voice": "voices/gd/words/fin.ogg"}
+          ]
+        },
+       { "name": "beathach",
+          "triplets": [
+            { "description": "cuileag bheag", "image": "lang/words/flies.png", "voice": "voices/gd/words/flies.ogg"},
+            { "description": "madadh-ruadh beag", "image": "lang/words/fox.png", "voice": "voices/gd/words/fox.ogg"},
+            { "description": "losgann beag", "image": "lang/words/frog.png", "voice": "voices/gd/words/frog.ogg"},
+            { "description": "bian blàth", "image": "lang/words/fur.png", "voice": "voices/gd/words/fur.ogg"},
+            { "description": "sioraf mòr", "image": "lang/words/giraffe.png", "voice": "voices/gd/words/giraffe.ogg"},
+            { "description": "gobhar bàn", "image": "lang/words/goat.png", "voice": "voices/gd/words/goat.ogg"},
+            { "description": "cearc mhòr", "image": "lang/words/hen.png", "voice": "voices/gd/words/hen.ogg"},
+            { "description": "treud de chaoraich", "image": "lang/words/herd.png", "voice": "voices/gd/words/herd.ogg"},
+            { "description": "cù-seilg beag", "image": "lang/words/hound.png", "voice": "voices/gd/words/hound.ogg"},
+            { "description": "uan beag", "image": "lang/words/lamb.png", "voice": "voices/gd/words/lamb.ogg"},
+            { "description": "muing mhòr", "image": "lang/words/mane.png", "voice": "voices/gd/words/mane.ogg"},
+            { "description": "dà luchag bheag", "image": "lang/words/mice.png", "voice": "voices/gd/words/mice.ogg"}
+          ]
+        },
+       { "name": "beathach",
+          "triplets": [
+            { "description": "meanbh-chuileag mhòr", "image": "lang/words/mosquito.png", "voice": "voices/gd/words/mosquito.ogg"},
+            { "description": "leth-asal beag", "image": "lang/words/mule.png", "voice": "voices/gd/words/mule.ogg"},
+            { "description": "cailleach-oidhche bheag", "image": "lang/words/owl.png", "voice": "voices/gd/words/owl.ogg"},
+            { "description": "tarbh mòr", "image": "lang/words/ox.png", "voice": "voices/gd/words/ox.ogg"},
+            { "description": "spòg mhòr", "image": "lang/words/paw.png", "voice": "voices/gd/words/paw.ogg"},
+            { "description": "peata beag", "image": "lang/words/pet.png", "voice": "voices/gd/words/pet.ogg"},
+            { "description": "muc bheag", "image": "lang/words/pig.png", "voice": "voices/gd/words/pig.ogg"},
+            { "description": "cù-smutach", "image": "lang/words/pug.png", "voice": "voices/gd/words/pug.ogg"},
+            { "description": "cuilean beag", "image": "lang/words/puppy.png", "voice": "voices/gd/words/puppy.ogg"},
+            { "description": "radan mòr", "image": "lang/words/rat.png", "voice": "voices/gd/words/rat.ogg"},
+            { "description": "cearban mòr", "image": "lang/words/shark.png", "voice": "voices/gd/words/shark.ogg"},
+            { "description": "slige mhòr", "image": "lang/words/shell.png", "voice": "voices/gd/words/shell.ogg"}
+          ]
+        },
+       { "name": "meas",
+          "triplets": [
+            { "description": "siris mhath", "image": "lang/words/cherry.png", "voice": "voices/gd/words/cherry.ogg"},
+            { "description": "measan milis", "image": "lang/words/fruit.png", "voice": "voices/gd/words/fruit.ogg"},
+            { "description": "liomaideag shearbh", "image": "lang/words/lime.png", "voice": "voices/gd/words/lime.ogg"},
+            { "description": "dath orains", "image": "lang/words/orange.png", "voice": "voices/gd/words/orange.ogg"},
+            { "description": "peitseag mhòr", "image": "lang/words/peach.png", "voice": "voices/gd/words/peach.ogg"},
+            { "description": "plumas milis", "image": "lang/words/plum.png", "voice": "voices/gd/words/plum.ogg"},
+            { "description": "sùbh-làir milis", "image": "lang/words/strawberry.png", "voice": "voices/gd/words/strawberry.ogg"}
+          ]
+        },
+       { "name": "an nàdar",
+          "triplets": [
+            { "description": "bàgh beag", "image": "lang/words/bay.png", "voice": "voices/gd/words/bay.ogg"},
+            { "description": "tràigh mhòr", "image": "lang/words/beach.png", "voice": "voices/gd/words/beach.ogg"},
+            { "description": "uamh mhòr", "image": "lang/words/cave.png", "voice": "voices/gd/words/cave.ogg"},
+            { "description": "bearradh mòr", "image": "lang/words/cliff.png", "voice": "voices/gd/words/cliff.ogg"},
+            { "description": "neul beag", "image": "lang/words/cloud.png", "voice": "voices/gd/words/cloud.ogg"},
+            { "description": "fuar", "image": "lang/words/cold.png", "voice": "voices/gd/words/cold.ogg"},
+            { "description": "ùir dhorch", "image": "lang/words/dirt.png", "voice": "voices/gd/words/dirt.ogg"},
+            { "description": "dùn-gainmhich mòr", "image": "lang/words/dune.png", "voice": "voices/gd/words/dune.ogg"},
+            { "description": "an talamh", "image": "lang/words/earth.png", "voice": "voices/gd/words/earth.ogg"},
+            { "description": "teine mòr", "image": "lang/words/fire.png", "voice": "voices/gd/words/fire.ogg"},
+            { "description": "lasair mhòr", "image": "lang/words/flame.png", "voice": "voices/gd/words/flame.ogg"},
+            { "description": "gàrradh beag", "image": "lang/words/garden.png", "voice": "voices/gd/words/garden.ogg"}
+          ]
+        },
+       { "name": "an nàdar",
+          "triplets": [
+            { "description": "geadag bheag", "image": "lang/words/ground.png", "voice": "voices/gd/words/ground.ogg"},
+            { "description": "blàth", "image": "lang/words/heat.png", "voice": "voices/gd/words/heat.ogg"},
+            { "description": "toll beag", "image": "lang/words/hole.png", "voice": "voices/gd/words/hole.ogg"},
+            { "description": "loch beag", "image": "lang/words/lake.png", "voice": "voices/gd/words/lake.ogg"},
+            { "description": "talamh fliuch", "image": "lang/words/land.png", "voice": "voices/gd/words/land.ogg"},
+            { "description": "stalla beag", "image": "lang/words/ledge.png", "voice": "voices/gd/words/ledge.ogg"},
+            { "description": "poll salach", "image": "lang/words/mud.png", "voice": "voices/gd/words/mud.ogg"},
+            { "description": "oidhche dhorch", "image": "lang/words/night.png", "voice": "voices/gd/words/night.ogg"},
+            { "description": "cuan mòr", "image": "lang/words/ocean.png", "voice": "voices/gd/words/ocean.ogg"},
+            { "description": "slighe bheag", "image": "lang/words/path.png", "voice": "voices/gd/words/path.ogg"},
+            { "description": "clach bheag", "image": "lang/words/rock.png", "voice": "voices/gd/words/rock.ogg"},
+            { "description": "gainmheach bog", "image": "lang/words/sand.png", "voice": "voices/gd/words/sand.ogg"}
+          ]
+        },
+       { "name": "an nàdar",
+          "triplets": [
+            { "description": "turadh beag", "image": "lang/words/sky.png", "voice": "voices/gd/words/sky.ogg"},
+            { "description": "leathad mòr", "image": "lang/words/slope.png", "voice": "voices/gd/words/slope.ogg"},
+            { "description": "ceò beag", "image": "lang/words/smoke.png", "voice": "voices/gd/words/smoke.ogg"},
+            { "description": "sneachd mòr", "image": "lang/words/snow.png", "voice": "voices/gd/words/snow.ogg"},
+            { "description": "rionnag bheag", "image": "lang/words/star.png", "voice": "voices/gd/words/star.ogg"},
+            { "description": "dòirneag bheag", "image": "lang/words/stone.png", "voice": "voices/gd/words/stone.ogg"},
+            { "description": "allt beag", "image": "lang/words/stream.png", "voice": "voices/gd/words/stream.ogg"},
+            { "description": "samhradh math", "image": "lang/words/summer.png", "voice": "voices/gd/words/summer.ogg"},
+            { "description": "grian bhlàth", "image": "lang/words/sun.png", "voice": "voices/gd/words/sun.ogg"},
+            { "description": "an t-àm", "image": "lang/words/time.png", "voice": "voices/gd/words/time.ogg"},
+            { "description": "am mullach", "image": "lang/words/top.png", "voice": "voices/gd/words/top.ogg"},
+            { "description": "slighe thana", "image": "lang/words/trail.png", "voice": "voices/gd/words/trail.ogg"}
+          ]
+        },
+       { "name": "an nàdar",
+          "triplets": [
+            { "description": "gaoth mhòr", "image": "lang/words/wind.png", "voice": "voices/gd/words/wind.ogg"},
+            { "description": "bàgh beag", "image": "lang/words/bay.png", "voice": "voices/gd/words/bay.ogg"},
+            { "description": "tràigh mhòr", "image": "lang/words/beach.png", "voice": "voices/gd/words/beach.ogg"},
+            { "description": "uamh mhòr", "image": "lang/words/cave.png", "voice": "voices/gd/words/cave.ogg"},
+            { "description": "bearradh mòr", "image": "lang/words/cliff.png", "voice": "voices/gd/words/cliff.ogg"},
+            { "description": "neul beag", "image": "lang/words/cloud.png", "voice": "voices/gd/words/cloud.ogg"},
+            { "description": "fuar", "image": "lang/words/cold.png", "voice": "voices/gd/words/cold.ogg"},
+            { "description": "ùir dhorch", "image": "lang/words/dirt.png", "voice": "voices/gd/words/dirt.ogg"},
+            { "description": "dùn-gainmhich mòr", "image": "lang/words/dune.png", "voice": "voices/gd/words/dune.ogg"},
+            { "description": "an talamh", "image": "lang/words/earth.png", "voice": "voices/gd/words/earth.ogg"},
+            { "description": "teine mòr", "image": "lang/words/fire.png", "voice": "voices/gd/words/fire.ogg"},
+            { "description": "lasair mhòr", "image": "lang/words/flame.png", "voice": "voices/gd/words/flame.ogg"}
+          ]
+        },
+       { "name": "lus",
+          "triplets": [
+            { "description": "geug bheag", "image": "lang/words/branch.png", "voice": "voices/gd/words/branch.ogg"},
+            { "description": "gucag bheag", "image": "lang/words/bud.png", "voice": "voices/gd/words/bud.ogg"},
+            { "description": "preas mòr", "image": "lang/words/bush.png", "voice": "voices/gd/words/bush.ogg"},
+            { "description": "flùr beag", "image": "lang/words/flower.png", "voice": "voices/gd/words/flower.ogg"},
+            { "description": "feur fada", "image": "lang/words/grass.png", "voice": "voices/gd/words/grass.ogg"},
+            { "description": "feur tioram", "image": "lang/words/hay.png", "voice": "voices/gd/words/hay.ogg"},
+            { "description": "callaid bheag", "image": "lang/words/hedge.png", "voice": "voices/gd/words/hedge.ogg"},
+            { "description": "faiche bheag", "image": "lang/words/lawn.png", "voice": "voices/gd/words/lawn.ogg"},
+            { "description": "giuthas mòr", "image": "lang/words/pine.png", "voice": "voices/gd/words/pine.ogg"},
+            { "description": "lus beag", "image": "lang/words/plant.png", "voice": "voices/gd/words/plant.ogg"},
+            { "description": "ròs mòr", "image": "lang/words/rose.png", "voice": "voices/gd/words/rose.ogg"},
+            { "description": "sìol beag", "image": "lang/words/seed.png", "voice": "voices/gd/words/seed.ogg"}
+          ]
+        },
+       { "name": "lus",
+          "triplets": [
+            { "description": "gas bheag", "image": "lang/words/stem.png", "voice": "voices/gd/words/stem.ogg"},
+            { "description": "maide beag", "image": "lang/words/stick.png", "voice": "voices/gd/words/stick.ogg"},
+            { "description": "stoc mòr", "image": "lang/words/stump.png", "voice": "voices/gd/words/stump.ogg"},
+            { "description": "craobh mhòr", "image": "lang/words/tree.png", "voice": "voices/gd/words/tree.ogg"},
+            { "description": "geug bheag", "image": "lang/words/branch.png", "voice": "voices/gd/words/branch.ogg"},
+            { "description": "gucag bheag", "image": "lang/words/bud.png", "voice": "voices/gd/words/bud.ogg"},
+            { "description": "preas mòr", "image": "lang/words/bush.png", "voice": "voices/gd/words/bush.ogg"},
+            { "description": "flùr beag", "image": "lang/words/flower.png", "voice": "voices/gd/words/flower.ogg"},
+            { "description": "feur fada", "image": "lang/words/grass.png", "voice": "voices/gd/words/grass.ogg"},
+            { "description": "feur tioram", "image": "lang/words/hay.png", "voice": "voices/gd/words/hay.ogg"},
+            { "description": "callaid bheag", "image": "lang/words/hedge.png", "voice": "voices/gd/words/hedge.ogg"},
+            { "description": "faiche bheag", "image": "lang/words/lawn.png", "voice": "voices/gd/words/lawn.ogg"}
+          ]
+        },
+       { "name": "glasraich",
+          "triplets": [
+            { "description": "curran mòr", "image": "lang/words/carrot.png", "voice": "voices/gd/words/carrot.ogg"},
+            { "description": "dias mhòr", "image": "lang/words/corn.png", "voice": "voices/gd/words/corn.ogg"},
+            { "description": "cularan beag", "image": "lang/words/cucumber.png", "voice": "voices/gd/words/cucumber.ogg"},
+            { "description": "agairg nan cuileagan", "image": "lang/words/mushroom.png", "voice": "voices/gd/words/mushroom.ogg"},
+            { "description": "cnò mhòr", "image": "lang/words/nut.png", "voice": "voices/gd/words/nut.ogg"},
+            { "description": "peapag chrom", "image": "lang/words/squash.png", "voice": "voices/gd/words/squash.ogg"},
+            { "description": "cruithneachd mhath", "image": "lang/words/wheat.png", "voice": "voices/gd/words/wheat.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "neach",
+      "lessons": [
+       { "name": "pàirt den bhodhaig",
+          "triplets": [
+            { "description": "druim goirt", "image": "lang/words/back.png", "voice": "voices/gd/words/back.ogg"},
+            { "description": "dual fada", "image": "lang/words/braid.png", "voice": "voices/gd/words/braid.ogg"},
+            { "description": "eanchainn mhòr", "image": "lang/words/brain.png", "voice": "voices/gd/words/brain.ogg"},
+            { "description": "cnap mòr", "image": "lang/words/bump.png", "voice": "voices/gd/words/bump.ogg"},
+            { "description": "smiogaid mòr", "image": "lang/words/chin.png", "voice": "voices/gd/words/chin.ogg"},
+            { "description": "cluas bheag", "image": "lang/words/ear.png", "voice": "voices/gd/words/ear.ogg"},
+            { "description": "aodann cruinn", "image": "lang/words/face.png", "voice": "voices/gd/words/face.ogg"},
+            { "description": "cas bheag", "image": "lang/words/feet.png", "voice": "voices/gd/words/feet.ogg"},
+            { "description": "dòrn mòr", "image": "lang/words/fist.png", "voice": "voices/gd/words/fist.ogg"},
+            { "description": "cas mhòr", "image": "lang/words/foot.png", "voice": "voices/gd/words/foot.ogg"},
+            { "description": "fiamh-ghàire mòr", "image": "lang/words/grin.png", "voice": "voices/gd/words/grin.ogg"},
+            { "description": "falt ruadh", "image": "lang/words/hair.png", "voice": "voices/gd/words/hair.ogg"}
+          ]
+        },
+       { "name": "pàirt den bhodhaig",
+          "triplets": [
+            { "description": "ceann beag", "image": "lang/words/head.png", "voice": "voices/gd/words/head.ogg"},
+            { "description": "cruachann mhòr", "image": "lang/words/hip.png", "voice": "voices/gd/words/hip.ogg"},
+            { "description": "glùn bheag", "image": "lang/words/knee.png", "voice": "voices/gd/words/knee.ogg"},
+            { "description": "ann an uchd na seanmhar", "image": "lang/words/lap.png", "voice": "voices/gd/words/lap.ogg"},
+            { "description": "bilean pinc", "image": "lang/words/lip.png", "voice": "voices/gd/words/lip.ogg"},
+            { "description": "beul mòr", "image": "lang/words/mouth.png", "voice": "voices/gd/words/mouth.ogg"},
+            { "description": "amhaich thana", "image": "lang/words/neck.png", "voice": "voices/gd/words/neck.ogg"},
+            { "description": "sròn mhòr", "image": "lang/words/nose.png", "voice": "voices/gd/words/nose.ogg"},
+            { "description": "eàrra mhòr", "image": "lang/words/scar.png", "voice": "voices/gd/words/scar.ogg"},
+            { "description": "craiceann bog", "image": "lang/words/skin.png", "voice": "voices/gd/words/skin.ogg"},
+            { "description": "a' dùr-choimhead", "image": "lang/words/stare.png", "voice": "voices/gd/words/stare.ogg"},
+            { "description": "a' cur fallas", "image": "lang/words/sweat.png", "voice": "voices/gd/words/sweat.ogg"}
+          ]
+        },
+       { "name": "pàirt den bhodhaig",
+          "triplets": [
+            { "description": "leis thana", "image": "lang/words/thigh.png", "voice": "voices/gd/words/thigh.ogg"},
+            { "description": "sgòrnan goirt", "image": "lang/words/throat.png", "voice": "voices/gd/words/throat.ogg"},
+            { "description": "caol an dùirn", "image": "lang/words/wrist.png", "voice": "voices/gd/words/wrist.ogg"},
+            { "description": "druim goirt", "image": "lang/words/back.png", "voice": "voices/gd/words/back.ogg"},
+            { "description": "dual fada", "image": "lang/words/braid.png", "voice": "voices/gd/words/braid.ogg"},
+            { "description": "eanchainn mhòr", "image": "lang/words/brain.png", "voice": "voices/gd/words/brain.ogg"},
+            { "description": "cnap mòr", "image": "lang/words/bump.png", "voice": "voices/gd/words/bump.ogg"},
+            { "description": "smiogaid mòr", "image": "lang/words/chin.png", "voice": "voices/gd/words/chin.ogg"},
+            { "description": "cluas bheag", "image": "lang/words/ear.png", "voice": "voices/gd/words/ear.ogg"},
+            { "description": "aodann cruinn", "image": "lang/words/face.png", "voice": "voices/gd/words/face.ogg"},
+            { "description": "cas bheag", "image": "lang/words/feet.png", "voice": "voices/gd/words/feet.ogg"},
+            { "description": "dòrn mòr", "image": "lang/words/fist.png", "voice": "voices/gd/words/fist.ogg"}
+          ]
+        },
+       { "name": "aodach",
+          "triplets": [
+            { "description": "uchdan gorm", "image": "lang/words/bib.png", "voice": "voices/gd/words/bib.ogg"},
+            { "description": "bonaid bheag", "image": "lang/words/cap.png", "voice": "voices/gd/words/cap.ogg"},
+            { "description": "guailleachan beag", "image": "lang/words/cape.png", "voice": "voices/gd/words/cape.ogg"},
+            { "description": "còta mòr", "image": "lang/words/coat.png", "voice": "voices/gd/words/coat.ogg"},
+            { "description": "dreasa bheag", "image": "lang/words/dress.png", "voice": "voices/gd/words/dress.ogg"},
+            { "description": "miotagan blàtha", "image": "lang/words/glove.png", "voice": "voices/gd/words/glove.ogg"},
+            { "description": "ad mhòr", "image": "lang/words/hat.png", "voice": "voices/gd/words/hat.ogg"},
+            { "description": "tuthag bheag", "image": "lang/words/patch.png", "voice": "voices/gd/words/patch.ogg"},
+            { "description": "sgarfa mhòr", "image": "lang/words/scarf.png", "voice": "voices/gd/words/scarf.ogg"},
+            { "description": "lèine bheag", "image": "lang/words/shirt.png", "voice": "voices/gd/words/shirt.ogg"},
+            { "description": "bròg mhòr", "image": "lang/words/shoe.png", "voice": "voices/gd/words/shoe.ogg"},
+            { "description": "goirid", "image": "lang/words/short.png", "voice": "voices/gd/words/short.ogg"}
+          ]
+        },
+       { "name": "aodach",
+          "triplets": [
+            { "description": "muilcheann goirid", "image": "lang/words/sleeve.png", "voice": "voices/gd/words/sleeve.ogg"},
+            { "description": "na luideagan", "image": "lang/words/smock.png", "voice": "voices/gd/words/smock.ogg"},
+            { "description": "bròg-spòrs", "image": "lang/words/sneaker.png", "voice": "voices/gd/words/sneaker.ogg"},
+            { "description": "stocainn gheal", "image": "lang/words/sock.png", "voice": "voices/gd/words/sock.ogg"},
+            { "description": "deise ghorm", "image": "lang/words/suit.png", "voice": "voices/gd/words/suit.ogg"},
+            { "description": "uchdan gorm", "image": "lang/words/bib.png", "voice": "voices/gd/words/bib.ogg"},
+            { "description": "bonaid bheag", "image": "lang/words/cap.png", "voice": "voices/gd/words/cap.ogg"},
+            { "description": "guailleachan beag", "image": "lang/words/cape.png", "voice": "voices/gd/words/cape.ogg"},
+            { "description": "còta mòr", "image": "lang/words/coat.png", "voice": "voices/gd/words/coat.ogg"},
+            { "description": "dreasa bheag", "image": "lang/words/dress.png", "voice": "voices/gd/words/dress.ogg"},
+            { "description": "miotagan blàtha", "image": "lang/words/glove.png", "voice": "voices/gd/words/glove.ogg"},
+            { "description": "ad mhòr", "image": "lang/words/hat.png", "voice": "voices/gd/words/hat.ogg"}
+          ]
+        },
+       { "name": "faireachdainn",
+          "triplets": [
+            { "description": "cunnart mòr", "image": "lang/words/danger.png", "voice": "voices/gd/words/danger.ogg"},
+            { "description": "tha drèin oirre", "image": "lang/words/frown.png", "voice": "voices/gd/words/frown.ogg"},
+            { "description": "tha plòigh a' dol", "image": "lang/words/fun.png", "voice": "voices/gd/words/fun.ogg"},
+            { "description": "air a' chaothach", "image": "lang/words/mad.png", "voice": "voices/gd/words/mad.ogg"},
+            { "description": "tha fearg air", "image": "lang/words/rage.png", "voice": "voices/gd/words/rage.ogg"},
+            { "description": "brònach", "image": "lang/words/sad.png", "voice": "voices/gd/words/sad.ogg"},
+            { "description": "gàire mhòr", "image": "lang/words/smile.png", "voice": "voices/gd/words/smile.ogg"}
+          ]
+        },
+       { "name": "dreuchd",
+          "triplets": [
+            { "description": "ceannard mòr", "image": "lang/words/chief.png", "voice": "voices/gd/words/chief.ogg"},
+            { "description": "amadan mòr", "image": "lang/words/clown.png", "voice": "voices/gd/words/clown.ogg"},
+            { "description": "còidse mhath", "image": "lang/words/coach.png", "voice": "voices/gd/words/coach.ogg"},
+            { "description": "gille-cruidh beag", "image": "lang/words/cowboy.png", "voice": "voices/gd/words/cowboy.ogg"},
+            { "description": "sealgair mòr", "image": "lang/words/hunter.png", "voice": "voices/gd/words/hunter.ogg"},
+            { "description": "britheamh mòr", "image": "lang/words/judge.png", "voice": "voices/gd/words/judge.ogg"},
+            { "description": "ridir mòr", "image": "lang/words/knight.png", "voice": "voices/gd/words/knight.ogg"},
+            { "description": "balach beag", "image": "lang/words/lad.png", "voice": "voices/gd/words/lad.ogg"},
+            { "description": "am pàpa", "image": "lang/words/pope.png", "voice": "voices/gd/words/pope.ogg"},
+            { "description": "prionnsa beag", "image": "lang/words/prince.png", "voice": "voices/gd/words/prince.ogg"},
+            { "description": "bana-phrionnsa bheag", "image": "lang/words/princess.png", "voice": "voices/gd/words/princess.ogg"},
+            { "description": "bànrigh mhòr", "image": "lang/words/queen.png", "voice": "voices/gd/words/queen.ogg"}
+          ]
+        },
+       { "name": "dreuchd",
+          "triplets": [
+            { "description": "dotair math", "image": "lang/words/vet.png", "voice": "voices/gd/words/vet.ogg"},
+            { "description": "ceannard mòr", "image": "lang/words/chief.png", "voice": "voices/gd/words/chief.ogg"},
+            { "description": "amadan mòr", "image": "lang/words/clown.png", "voice": "voices/gd/words/clown.ogg"},
+            { "description": "còidse mhath", "image": "lang/words/coach.png", "voice": "voices/gd/words/coach.ogg"},
+            { "description": "gille-cruidh beag", "image": "lang/words/cowboy.png", "voice": "voices/gd/words/cowboy.ogg"},
+            { "description": "sealgair mòr", "image": "lang/words/hunter.png", "voice": "voices/gd/words/hunter.ogg"},
+            { "description": "britheamh mòr", "image": "lang/words/judge.png", "voice": "voices/gd/words/judge.ogg"},
+            { "description": "ridir mòr", "image": "lang/words/knight.png", "voice": "voices/gd/words/knight.ogg"},
+            { "description": "balach beag", "image": "lang/words/lad.png", "voice": "voices/gd/words/lad.ogg"},
+            { "description": "am pàpa", "image": "lang/words/pope.png", "voice": "voices/gd/words/pope.ogg"},
+            { "description": "prionnsa beag", "image": "lang/words/prince.png", "voice": "voices/gd/words/prince.ogg"},
+            { "description": "bana-phrionnsa bheag", "image": "lang/words/princess.png", "voice": "voices/gd/words/princess.ogg"}
+          ]
+        },
+       { "name": "neach",
+          "triplets": [
+            { "description": "aingeal bheag", "image": "lang/words/angel.png", "voice": "voices/gd/words/angel.ogg"},
+            { "description": "fireannach beag", "image": "lang/words/boy.png", "voice": "voices/gd/words/boy.ogg"},
+            { "description": "bean bainnse", "image": "lang/words/bride.png", "voice": "voices/gd/words/bride.ogg"},
+            { "description": "bràthair beag", "image": "lang/words/brother.png", "voice": "voices/gd/words/brother.ogg"},
+            { "description": "duine-cloinne beag", "image": "lang/words/child.png", "voice": "voices/gd/words/child.ogg"},
+            { "description": "caraid math", "image": "lang/words/friend.png", "voice": "voices/gd/words/friend.ogg"},
+            { "description": "caileag bheag", "image": "lang/words/girl.png", "voice": "voices/gd/words/girl.ogg"},
+            { "description": "luchraban beag", "image": "lang/words/gnome.png", "voice": "voices/gd/words/gnome.ogg"},
+            { "description": "companach math", "image": "lang/words/mate.png", "voice": "voices/gd/words/mate.ogg"},
+            { "description": "daoine", "image": "lang/words/men.png", "voice": "voices/gd/words/men.ogg"},
+            { "description": "clann bheaga", "image": "lang/words/pal.png", "voice": "voices/gd/words/pal.ogg"}
+          ]
+        },
+       { "name": "spors",
+          "triplets": [
+            { "description": "ruithear math", "image": "lang/words/athlete.png", "voice": "voices/gd/words/athlete.ogg"},
+            { "description": "dannsair math", "image": "lang/words/ballet.png", "voice": "voices/gd/words/ballet.ogg"},
+            { "description": "a' toirt misneachd", "image": "lang/words/cheer.png", "voice": "voices/gd/words/cheer.ogg"},
+            { "description": "a' streap", "image": "lang/words/climb.png", "voice": "voices/gd/words/climb.ogg"},
+            { "description": "a' dannsadh", "image": "lang/words/dance.png", "voice": "voices/gd/words/dance.ogg"},
+            { "description": "a' daoibhigeadh", "image": "lang/words/dive.png", "voice": "voices/gd/words/dive.ogg"},
+            { "description": "a' rannsachadh", "image": "lang/words/explore.png", "voice": "voices/gd/words/explore.ogg"},
+            { "description": "a' coiseachd", "image": "lang/words/hike.png", "voice": "voices/gd/words/hike.ogg"},
+            { "description": "a' bualadh a chèile", "image": "lang/words/hit.png", "voice": "voices/gd/words/hit.ogg"},
+            { "description": "a' bocadaich", "image": "lang/words/hop.png", "voice": "voices/gd/words/hop.ogg"},
+            { "description": "a' jogadh", "image": "lang/words/jog.png", "voice": "voices/gd/words/jog.ogg"},
+            { "description": "a' togail", "image": "lang/words/lift.png", "voice": "voices/gd/words/lift.ogg"}
+          ]
+        },
+       { "name": "spors",
+          "triplets": [
+            { "description": "a' falbh air baidhsagal", "image": "lang/words/ride.png", "voice": "voices/gd/words/ride.ogg"},
+            { "description": "a' falbh air spèileabord ", "image": "lang/words/skate.png", "voice": "voices/gd/words/skate.ogg"},
+            { "description": "a' sgìtheadh", "image": "lang/words/ski.png", "voice": "voices/gd/words/ski.ogg"},
+            { "description": "spòrs", "image": "lang/words/sport.png", "voice": "voices/gd/words/sport.ogg"},
+            { "description": "a' snàmh", "image": "lang/words/swim.png", "voice": "voices/gd/words/swim.ogg"},
+            { "description": "a' tilgeil", "image": "lang/words/throw.png", "voice": "voices/gd/words/throw.ogg"},
+            { "description": "ruithear math", "image": "lang/words/athlete.png", "voice": "voices/gd/words/athlete.ogg"},
+            { "description": "dannsair math", "image": "lang/words/ballet.png", "voice": "voices/gd/words/ballet.ogg"},
+            { "description": "a' toirt misneachd", "image": "lang/words/cheer.png", "voice": "voices/gd/words/cheer.ogg"},
+            { "description": "a' streap", "image": "lang/words/climb.png", "voice": "voices/gd/words/climb.ogg"},
+            { "description": "a' dannsadh", "image": "lang/words/dance.png", "voice": "voices/gd/words/dance.ogg"},
+            { "description": "a' daoibhigeadh", "image": "lang/words/dive.png", "voice": "voices/gd/words/dive.ogg"}
+          ]
+        },
+       { "name": "biadh",
+          "triplets": [
+            { "description": "cnàimh mòr", "image": "lang/words/bone.png", "voice": "voices/gd/words/bone.ogg"},
+            { "description": "aran math", "image": "lang/words/bread.png", "voice": "voices/gd/words/bread.ogg"},
+            { "description": "rola beag", "image": "lang/words/bun.png", "voice": "voices/gd/words/bun.ogg"},
+            { "description": "cèic mhòr", "image": "lang/words/cake.png", "voice": "voices/gd/words/cake.ogg"},
+            { "description": "siùcar beag ", "image": "lang/words/candy.png", "voice": "voices/gd/words/candy.ogg"},
+            { "description": "càise mhath", "image": "lang/words/cheese.png", "voice": "voices/gd/words/cheese.ogg"},
+            { "description": "seòclaid mhath", "image": "lang/words/chocolate.png", "voice": "voices/gd/words/chocolate.ogg"},
+            { "description": "briosgaid mhòr", "image": "lang/words/cookie.png", "voice": "voices/gd/words/cookie.ogg"},
+            { "description": "criomag bheag", "image": "lang/words/crumb.png", "voice": "voices/gd/words/crumb.ogg"},
+            { "description": "cùlan donn", "image": "lang/words/crust.png", "voice": "voices/gd/words/crust.ogg"},
+            { "description": "deoch bhlàth", "image": "lang/words/drink.png", "voice": "voices/gd/words/drink.ogg"},
+            { "description": "biadh math", "image": "lang/words/feast.png", "voice": "voices/gd/words/feast.ogg"}
+          ]
+        },
+       { "name": "biadh",
+          "triplets": [
+            { "description": "biadh luath", "image": "lang/words/food.png", "voice": "voices/gd/words/food.ogg"},
+            { "description": "tofaidh math", "image": "lang/words/fudge.png", "voice": "voices/gd/words/fudge.ogg"},
+            { "description": "bìth milis", "image": "lang/words/gum.png", "voice": "voices/gd/words/gum.ogg"},
+            { "description": "deigh fhuar", "image": "lang/words/ice.png", "voice": "voices/gd/words/ice.ogg"},
+            { "description": "sùgh fuar", "image": "lang/words/juice.png", "voice": "voices/gd/words/juice.ogg"},
+            { "description": "lòn math", "image": "lang/words/lunch.png", "voice": "voices/gd/words/lunch.ogg"},
+            { "description": "popcorn", "image": "lang/words/pop.png", "voice": "voices/gd/words/pop.ogg"},
+            { "description": "rìs geal", "image": "lang/words/rice.png", "voice": "voices/gd/words/rice.ogg"},
+            { "description": "ceapaire mòr", "image": "lang/words/sandwich.png", "voice": "voices/gd/words/sandwich.ogg"},
+            { "description": "sabhs dearg", "image": "lang/words/sauce.png", "voice": "voices/gd/words/sauce.ogg"},
+            { "description": "biadh beag", "image": "lang/words/snack.png", "voice": "voices/gd/words/snack.ogg"},
+            { "description": "spaghetti", "image": "lang/words/spaghetti.png", "voice": "voices/gd/words/spaghetti.ogg"}
+          ]
+        },
+       { "name": "biadh",
+          "triplets": [
+            { "description": "stiubha math", "image": "lang/words/stew.png", "voice": "voices/gd/words/stew.ogg"},
+            { "description": "siùcaran", "image": "lang/words/treat.png", "voice": "voices/gd/words/treat.ogg"},
+            { "description": "cnàimh mòr", "image": "lang/words/bone.png", "voice": "voices/gd/words/bone.ogg"},
+            { "description": "aran math", "image": "lang/words/bread.png", "voice": "voices/gd/words/bread.ogg"},
+            { "description": "rola beag", "image": "lang/words/bun.png", "voice": "voices/gd/words/bun.ogg"},
+            { "description": "cèic mhòr", "image": "lang/words/cake.png", "voice": "voices/gd/words/cake.ogg"},
+            { "description": "siùcar beag ", "image": "lang/words/candy.png", "voice": "voices/gd/words/candy.ogg"},
+            { "description": "càise mhath", "image": "lang/words/cheese.png", "voice": "voices/gd/words/cheese.ogg"},
+            { "description": "seòclaid mhath", "image": "lang/words/chocolate.png", "voice": "voices/gd/words/chocolate.ogg"},
+            { "description": "briosgaid mhòr", "image": "lang/words/cookie.png", "voice": "voices/gd/words/cookie.ogg"},
+            { "description": "criomag bheag", "image": "lang/words/crumb.png", "voice": "voices/gd/words/crumb.ogg"},
+            { "description": "cùlan donn", "image": "lang/words/crust.png", "voice": "voices/gd/words/crust.ogg"}
+          ]
+        }
+    ]
+    }
+  ]
+}

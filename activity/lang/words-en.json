@@ -1,0 +1,838 @@
+{ "strings": {
+    "help": "Review a set of words. Each word is shown with a voice a text and an image. When done you are suggested an exercice in which, given the voice, you must find the right word. In the configuration you can select the language you want to learn."
+  },
+ "locales": [
+    {"name": "English (United States)", "code": "en" },
+    {"name": "Spanish", "code": "es" },
+    {"name": "French", "code": "fr" },
+    {"name": "Scottish Gaelic", "code": "gd" }
+  ],
+  "chapters": [
+    { "name": "object",
+      "lessons": [
+       { "name": "construction",
+          "triplets": [
+            { "description": "bank", "image": "lang/words/bank.png", "voice": "voices/en/words/bank.ogg"},
+            { "description": "barn", "image": "lang/words/barn.png", "voice": "voices/en/words/barn.ogg"},
+            { "description": "bridge", "image": "lang/words/bridge.png", "voice": "voices/en/words/bridge.ogg"},
+            { "description": "cabin", "image": "lang/words/cabin.png", "voice": "voices/en/words/cabin.ogg"},
+            { "description": "cage", "image": "lang/words/cage.png", "voice": "voices/en/words/cage.ogg"},
+            { "description": "castle", "image": "lang/words/castle.png", "voice": "voices/en/words/castle.ogg"},
+            { "description": "door", "image": "lang/words/door.png", "voice": "voices/en/words/door.ogg"},
+            { "description": "fair", "image": "lang/words/fair.png", "voice": "voices/en/words/fair.ogg"},
+            { "description": "farm", "image": "lang/words/farm.png", "voice": "voices/en/words/farm.ogg"},
+            { "description": "fountain", "image": "lang/words/fountain.png", "voice": "voices/en/words/fountain.ogg"},
+            { "description": "grave", "image": "lang/words/grave.png", "voice": "voices/en/words/grave.ogg"},
+            { "description": "home", "image": "lang/words/home.png", "voice": "voices/en/words/home.ogg"}
+          ]
+        },
+       { "name": "furniture",
+          "triplets": [
+            { "description": "bath", "image": "lang/words/bath.png", "voice": "voices/en/words/bath.ogg"},
+            { "description": "bed", "image": "lang/words/bed.png", "voice": "voices/en/words/bed.ogg"},
+            { "description": "bench", "image": "lang/words/bench.png", "voice": "voices/en/words/bench.ogg"},
+            { "description": "chair", "image": "lang/words/chair.png", "voice": "voices/en/words/chair.ogg"},
+            { "description": "chest", "image": "lang/words/chest.png", "voice": "voices/en/words/chest.ogg"},
+            { "description": "couch", "image": "lang/words/couch.png", "voice": "voices/en/words/couch.ogg"},
+            { "description": "crib", "image": "lang/words/crib.png", "voice": "voices/en/words/crib.ogg"},
+            { "description": "desk", "image": "lang/words/desk.png", "voice": "voices/en/words/desk.ogg"},
+            { "description": "fan", "image": "lang/words/fan.png", "voice": "voices/en/words/fan.ogg"},
+            { "description": "lamp", "image": "lang/words/lamp.png", "voice": "voices/en/words/lamp.ogg"},
+            { "description": "light", "image": "lang/words/light.png", "voice": "voices/en/words/light.ogg"},
+            { "description": "mat", "image": "lang/words/mat.png", "voice": "voices/en/words/mat.ogg"}
+          ]
+        },
+       { "name": "furniture",
+          "triplets": [
+            { "description": "rug", "image": "lang/words/rug.png", "voice": "voices/en/words/rug.ogg"},
+            { "description": "seat", "image": "lang/words/seat.png", "voice": "voices/en/words/seat.ogg"},
+            { "description": "shelf", "image": "lang/words/shelf.png", "voice": "voices/en/words/shelf.ogg"},
+            { "description": "shower", "image": "lang/words/shower.png", "voice": "voices/en/words/shower.ogg"},
+            { "description": "sink", "image": "lang/words/sink.png", "voice": "voices/en/words/sink.ogg"},
+            { "description": "stove", "image": "lang/words/stove.png", "voice": "voices/en/words/stove.ogg"},
+            { "description": "toilet", "image": "lang/words/toilet.png", "voice": "voices/en/words/toilet.ogg"},
+            { "description": "bath", "image": "lang/words/bath.png", "voice": "voices/en/words/bath.ogg"},
+            { "description": "bed", "image": "lang/words/bed.png", "voice": "voices/en/words/bed.ogg"},
+            { "description": "bench", "image": "lang/words/bench.png", "voice": "voices/en/words/bench.ogg"},
+            { "description": "chair", "image": "lang/words/chair.png", "voice": "voices/en/words/chair.ogg"},
+            { "description": "chest", "image": "lang/words/chest.png", "voice": "voices/en/words/chest.ogg"}
+          ]
+        },
+       { "name": "houseware",
+          "triplets": [
+            { "description": "balance", "image": "lang/words/balance.png", "voice": "voices/en/words/balance.ogg"},
+            { "description": "can", "image": "lang/words/can.png", "voice": "voices/en/words/can.ogg"},
+            { "description": "clock", "image": "lang/words/clock.png", "voice": "voices/en/words/clock.ogg"},
+            { "description": "dish", "image": "lang/words/dish.png", "voice": "voices/en/words/dish.ogg"},
+            { "description": "fork", "image": "lang/words/fork.png", "voice": "voices/en/words/fork.ogg"},
+            { "description": "glass", "image": "lang/words/glass.png", "voice": "voices/en/words/glass.ogg"},
+            { "description": "knife", "image": "lang/words/knife.png", "voice": "voices/en/words/knife.ogg"},
+            { "description": "lid", "image": "lang/words/lid.png", "voice": "voices/en/words/lid.ogg"},
+            { "description": "mop", "image": "lang/words/mop.png", "voice": "voices/en/words/mop.ogg"},
+            { "description": "mug", "image": "lang/words/mug.png", "voice": "voices/en/words/mug.ogg"},
+            { "description": "pan", "image": "lang/words/pan.png", "voice": "voices/en/words/pan.ogg"},
+            { "description": "plate", "image": "lang/words/plate.png", "voice": "voices/en/words/plate.ogg"}
+          ]
+        },
+       { "name": "houseware",
+          "triplets": [
+            { "description": "scale", "image": "lang/words/scale.png", "voice": "voices/en/words/scale.ogg"},
+            { "description": "sponge", "image": "lang/words/sponge.png", "voice": "voices/en/words/sponge.ogg"},
+            { "description": "spoon", "image": "lang/words/spoon.png", "voice": "voices/en/words/spoon.ogg"},
+            { "description": "trash", "image": "lang/words/trash.png", "voice": "voices/en/words/trash.ogg"},
+            { "description": "tray", "image": "lang/words/tray.png", "voice": "voices/en/words/tray.ogg"},
+            { "description": "whisk", "image": "lang/words/whisk.png", "voice": "voices/en/words/whisk.ogg"},
+            { "description": "balance", "image": "lang/words/balance.png", "voice": "voices/en/words/balance.ogg"},
+            { "description": "can", "image": "lang/words/can.png", "voice": "voices/en/words/can.ogg"},
+            { "description": "clock", "image": "lang/words/clock.png", "voice": "voices/en/words/clock.ogg"},
+            { "description": "dish", "image": "lang/words/dish.png", "voice": "voices/en/words/dish.ogg"},
+            { "description": "fork", "image": "lang/words/fork.png", "voice": "voices/en/words/fork.ogg"},
+            { "description": "glass", "image": "lang/words/glass.png", "voice": "voices/en/words/glass.ogg"}
+          ]
+        },
+       { "name": "object",
+          "triplets": [
+            { "description": "anchor", "image": "lang/words/anchor.png", "voice": "voices/en/words/anchor.ogg"},
+            { "description": "badge", "image": "lang/words/badge.png", "voice": "voices/en/words/badge.ogg"},
+            { "description": "bag", "image": "lang/words/bag.png", "voice": "voices/en/words/bag.ogg"},
+            { "description": "ball", "image": "lang/words/ball.png", "voice": "voices/en/words/ball.ogg"},
+            { "description": "bead", "image": "lang/words/bead.png", "voice": "voices/en/words/bead.ogg"},
+            { "description": "block", "image": "lang/words/block.png", "voice": "voices/en/words/block.ogg"},
+            { "description": "board", "image": "lang/words/board.png", "voice": "voices/en/words/board.ogg"},
+            { "description": "bomb", "image": "lang/words/bomb.png", "voice": "voices/en/words/bomb.ogg"},
+            { "description": "book", "image": "lang/words/book.png", "voice": "voices/en/words/book.ogg"},
+            { "description": "box", "image": "lang/words/box.png", "voice": "voices/en/words/box.ogg"},
+            { "description": "candle", "image": "lang/words/candle.png", "voice": "voices/en/words/candle.ogg"},
+            { "description": "cane", "image": "lang/words/cane.png", "voice": "voices/en/words/cane.ogg"}
+          ]
+        },
+       { "name": "object",
+          "triplets": [
+            { "description": "cart", "image": "lang/words/cart.png", "voice": "voices/en/words/cart.ogg"},
+            { "description": "cash", "image": "lang/words/cash.png", "voice": "voices/en/words/cash.ogg"},
+            { "description": "chalk", "image": "lang/words/chalk.png", "voice": "voices/en/words/chalk.ogg"},
+            { "description": "clay", "image": "lang/words/clay.png", "voice": "voices/en/words/clay.ogg"},
+            { "description": "cloth", "image": "lang/words/cloth.png", "voice": "voices/en/words/cloth.ogg"},
+            { "description": "coin", "image": "lang/words/coin.png", "voice": "voices/en/words/coin.ogg"},
+            { "description": "comb", "image": "lang/words/comb.png", "voice": "voices/en/words/comb.ogg"},
+            { "description": "cone", "image": "lang/words/cone.png", "voice": "voices/en/words/cone.ogg"},
+            { "description": "crown", "image": "lang/words/crown.png", "voice": "voices/en/words/crown.ogg"},
+            { "description": "cube", "image": "lang/words/cube.png", "voice": "voices/en/words/cube.ogg"},
+            { "description": "drum", "image": "lang/words/drum.png", "voice": "voices/en/words/drum.ogg"},
+            { "description": "flag", "image": "lang/words/flag.png", "voice": "voices/en/words/flag.ogg"}
+          ]
+        },
+       { "name": "object",
+          "triplets": [
+            { "description": "game", "image": "lang/words/game.png", "voice": "voices/en/words/game.ogg"},
+            { "description": "gift", "image": "lang/words/gift.png", "voice": "voices/en/words/gift.ogg"},
+            { "description": "glue", "image": "lang/words/glue.png", "voice": "voices/en/words/glue.ogg"},
+            { "description": "hook", "image": "lang/words/hook.png", "voice": "voices/en/words/hook.ogg"},
+            { "description": "hose", "image": "lang/words/hose.png", "voice": "voices/en/words/hose.ogg"},
+            { "description": "ink", "image": "lang/words/ink.png", "voice": "voices/en/words/ink.ogg"},
+            { "description": "jewel", "image": "lang/words/jewel.png", "voice": "voices/en/words/jewel.ogg"},
+            { "description": "kite", "image": "lang/words/kite.png", "voice": "voices/en/words/kite.ogg"},
+            { "description": "knot", "image": "lang/words/knot.png", "voice": "voices/en/words/knot.ogg"},
+            { "description": "log", "image": "lang/words/log.png", "voice": "voices/en/words/log.ogg"},
+            { "description": "map", "image": "lang/words/map.png", "voice": "voices/en/words/map.ogg"},
+            { "description": "mask", "image": "lang/words/mask.png", "voice": "voices/en/words/mask.ogg"}
+          ]
+        },
+       { "name": "object",
+          "triplets": [
+            { "description": "nest", "image": "lang/words/nest.png", "voice": "voices/en/words/nest.ogg"},
+            { "description": "net", "image": "lang/words/net.png", "voice": "voices/en/words/net.ogg"},
+            { "description": "oar", "image": "lang/words/oar.png", "voice": "voices/en/words/oar.ogg"},
+            { "description": "page", "image": "lang/words/page.png", "voice": "voices/en/words/page.ogg"},
+            { "description": "pair", "image": "lang/words/pair.png", "voice": "voices/en/words/pair.ogg"},
+            { "description": "pen", "image": "lang/words/pen.png", "voice": "voices/en/words/pen.ogg"},
+            { "description": "pencil", "image": "lang/words/pencil.png", "voice": "voices/en/words/pencil.ogg"},
+            { "description": "picture", "image": "lang/words/picture.png", "voice": "voices/en/words/picture.ogg"},
+            { "description": "pole", "image": "lang/words/pole.png", "voice": "voices/en/words/pole.ogg"},
+            { "description": "prize", "image": "lang/words/prize.png", "voice": "voices/en/words/prize.ogg"},
+            { "description": "rag", "image": "lang/words/rag.png", "voice": "voices/en/words/rag.ogg"},
+            { "description": "rope", "image": "lang/words/rope.png", "voice": "voices/en/words/rope.ogg"}
+          ]
+        },
+       { "name": "object",
+          "triplets": [
+            { "description": "sleigh", "image": "lang/words/sleigh.png", "voice": "voices/en/words/sleigh.ogg"},
+            { "description": "slide", "image": "lang/words/slide.png", "voice": "voices/en/words/slide.ogg"},
+            { "description": "squirt", "image": "lang/words/squirt.png", "voice": "voices/en/words/squirt.ogg"},
+            { "description": "stack", "image": "lang/words/stack.png", "voice": "voices/en/words/stack.ogg"},
+            { "description": "stamp", "image": "lang/words/stamp.png", "voice": "voices/en/words/stamp.ogg"},
+            { "description": "straw", "image": "lang/words/straw.png", "voice": "voices/en/words/straw.ogg"},
+            { "description": "string", "image": "lang/words/string.png", "voice": "voices/en/words/string.ogg"},
+            { "description": "tag", "image": "lang/words/tag.png", "voice": "voices/en/words/tag.ogg"},
+            { "description": "thread", "image": "lang/words/thread.png", "voice": "voices/en/words/thread.ogg"},
+            { "description": "torch", "image": "lang/words/torch.png", "voice": "voices/en/words/torch.ogg"},
+            { "description": "towel", "image": "lang/words/towel.png", "voice": "voices/en/words/towel.ogg"},
+            { "description": "toy", "image": "lang/words/toy.png", "voice": "voices/en/words/toy.ogg"}
+          ]
+        },
+       { "name": "object",
+          "triplets": [
+            { "description": "tube", "image": "lang/words/tube.png", "voice": "voices/en/words/tube.ogg"},
+            { "description": "watch", "image": "lang/words/watch.png", "voice": "voices/en/words/watch.ogg"},
+            { "description": "wheel", "image": "lang/words/wheel.png", "voice": "voices/en/words/wheel.ogg"},
+            { "description": "wig", "image": "lang/words/wig.png", "voice": "voices/en/words/wig.ogg"},
+            { "description": "wood", "image": "lang/words/wood.png", "voice": "voices/en/words/wood.ogg"},
+            { "description": "price", "image": "lang/words/price.png", "voice": "voices/en/words/price.ogg"},
+            { "description": "dot", "image": "lang/words/dot.png", "voice": "voices/en/words/dot.ogg"},
+            { "description": "anchor", "image": "lang/words/anchor.png", "voice": "voices/en/words/anchor.ogg"},
+            { "description": "badge", "image": "lang/words/badge.png", "voice": "voices/en/words/badge.ogg"},
+            { "description": "bag", "image": "lang/words/bag.png", "voice": "voices/en/words/bag.ogg"},
+            { "description": "ball", "image": "lang/words/ball.png", "voice": "voices/en/words/ball.ogg"},
+            { "description": "bead", "image": "lang/words/bead.png", "voice": "voices/en/words/bead.ogg"}
+          ]
+        },
+       { "name": "tool",
+          "triplets": [
+            { "description": "brick", "image": "lang/words/brick.png", "voice": "voices/en/words/brick.ogg"},
+            { "description": "brush", "image": "lang/words/brush.png", "voice": "voices/en/words/brush.ogg"},
+            { "description": "flash", "image": "lang/words/flash.png", "voice": "voices/en/words/flash.ogg"},
+            { "description": "rake", "image": "lang/words/rake.png", "voice": "voices/en/words/rake.ogg"},
+            { "description": "screw", "image": "lang/words/screw.png", "voice": "voices/en/words/screw.ogg"},
+            { "description": "spear", "image": "lang/words/spear.png", "voice": "voices/en/words/spear.ogg"},
+            { "description": "tool", "image": "lang/words/tool.png", "voice": "voices/en/words/tool.ogg"},
+            { "description": "wedge", "image": "lang/words/wedge.png", "voice": "voices/en/words/wedge.ogg"},
+            { "description": "wrench", "image": "lang/words/wrench.png", "voice": "voices/en/words/wrench.ogg"},
+            { "description": "bike", "image": "lang/words/bike.png", "voice": "voices/en/words/bike.ogg"},
+            { "description": "boat", "image": "lang/words/boat.png", "voice": "voices/en/words/boat.ogg"},
+            { "description": "canoe", "image": "lang/words/canoe.png", "voice": "voices/en/words/canoe.ogg"}
+          ]
+        },
+       { "name": "tool",
+          "triplets": [
+            { "description": "plane", "image": "lang/words/plane.png", "voice": "voices/en/words/plane.ogg"},
+            { "description": "sail", "image": "lang/words/sail.png", "voice": "voices/en/words/sail.ogg"},
+            { "description": "ship", "image": "lang/words/ship.png", "voice": "voices/en/words/ship.ogg"},
+            { "description": "sled", "image": "lang/words/sled.png", "voice": "voices/en/words/sled.ogg"},
+            { "description": "train", "image": "lang/words/train.png", "voice": "voices/en/words/train.ogg"},
+            { "description": "truck", "image": "lang/words/truck.png", "voice": "voices/en/words/truck.ogg"},
+            { "description": "van", "image": "lang/words/van.png", "voice": "voices/en/words/van.ogg"},
+            { "description": "brick", "image": "lang/words/brick.png", "voice": "voices/en/words/brick.ogg"},
+            { "description": "brush", "image": "lang/words/brush.png", "voice": "voices/en/words/brush.ogg"},
+            { "description": "flash", "image": "lang/words/flash.png", "voice": "voices/en/words/flash.ogg"},
+            { "description": "rake", "image": "lang/words/rake.png", "voice": "voices/en/words/rake.ogg"},
+            { "description": "screw", "image": "lang/words/screw.png", "voice": "voices/en/words/screw.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "other",
+      "lessons": [
+       { "name": "other",
+          "triplets": [
+            { "description": "bit", "image": "lang/words/bit.png", "voice": "voices/en/words/bit.ogg"},
+            { "description": "link", "image": "lang/words/link.png", "voice": "voices/en/words/link.ogg"},
+            { "description": "question", "image": "lang/words/question.png", "voice": "voices/en/words/question.ogg"},
+            { "description": "quiz", "image": "lang/words/quiz.png", "voice": "voices/en/words/quiz.ogg"},
+            { "description": "science", "image": "lang/words/science.png", "voice": "voices/en/words/science.ogg"},
+            { "description": "splatter", "image": "lang/words/splatter.png", "voice": "voices/en/words/splatter.ogg"},
+            { "description": "tune", "image": "lang/words/tune.png", "voice": "voices/en/words/tune.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "ate", "image": "lang/words/ate.png", "voice": "voices/en/words/ate.ogg"},
+            { "description": "bake", "image": "lang/words/bake.png", "voice": "voices/en/words/bake.ogg"},
+            { "description": "bark", "image": "lang/words/bark.png", "voice": "voices/en/words/bark.ogg"},
+            { "description": "beg", "image": "lang/words/beg.png", "voice": "voices/en/words/beg.ogg"},
+            { "description": "bite", "image": "lang/words/bite.png", "voice": "voices/en/words/bite.ogg"},
+            { "description": "blink", "image": "lang/words/blink.png", "voice": "voices/en/words/blink.ogg"},
+            { "description": "boil", "image": "lang/words/boil.png", "voice": "voices/en/words/boil.ogg"},
+            { "description": "break", "image": "lang/words/break.png", "voice": "voices/en/words/break.ogg"},
+            { "description": "call", "image": "lang/words/call.png", "voice": "voices/en/words/call.ogg"},
+            { "description": "catch", "image": "lang/words/catch.png", "voice": "voices/en/words/catch.ogg"},
+            { "description": "chat", "image": "lang/words/chat.png", "voice": "voices/en/words/chat.ogg"},
+            { "description": "chop", "image": "lang/words/chop.png", "voice": "voices/en/words/chop.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "clean", "image": "lang/words/clean.png", "voice": "voices/en/words/clean.ogg"},
+            { "description": "crawl", "image": "lang/words/crawl.png", "voice": "voices/en/words/crawl.ogg"},
+            { "description": "croak", "image": "lang/words/croak.png", "voice": "voices/en/words/croak.ogg"},
+            { "description": "cry", "image": "lang/words/cry.png", "voice": "voices/en/words/cry.ogg"},
+            { "description": "cut", "image": "lang/words/cut.png", "voice": "voices/en/words/cut.ogg"},
+            { "description": "dig", "image": "lang/words/dig.png", "voice": "voices/en/words/dig.ogg"},
+            { "description": "drank", "image": "lang/words/drank.png", "voice": "voices/en/words/drank.ogg"},
+            { "description": "draw", "image": "lang/words/draw.png", "voice": "voices/en/words/draw.ogg"},
+            { "description": "dream", "image": "lang/words/dream.png", "voice": "voices/en/words/dream.ogg"},
+            { "description": "drive", "image": "lang/words/drive.png", "voice": "voices/en/words/drive.ogg"},
+            { "description": "drool", "image": "lang/words/drool.png", "voice": "voices/en/words/drool.ogg"},
+            { "description": "dry", "image": "lang/words/dry.png", "voice": "voices/en/words/dry.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "fell", "image": "lang/words/fell.png", "voice": "voices/en/words/fell.ogg"},
+            { "description": "fetch", "image": "lang/words/fetch.png", "voice": "voices/en/words/fetch.ogg"},
+            { "description": "find", "image": "lang/words/find.png", "voice": "voices/en/words/find.ogg"},
+            { "description": "float", "image": "lang/words/float.png", "voice": "voices/en/words/float.ogg"},
+            { "description": "fly", "image": "lang/words/fly.png", "voice": "voices/en/words/fly.ogg"},
+            { "description": "freeze", "image": "lang/words/freeze.png", "voice": "voices/en/words/freeze.ogg"},
+            { "description": "growl", "image": "lang/words/growl.png", "voice": "voices/en/words/growl.ogg"},
+            { "description": "hatch", "image": "lang/words/hatch.png", "voice": "voices/en/words/hatch.ogg"},
+            { "description": "hear", "image": "lang/words/hear.png", "voice": "voices/en/words/hear.ogg"},
+            { "description": "howl", "image": "lang/words/howl.png", "voice": "voices/en/words/howl.ogg"},
+            { "description": "hug", "image": "lang/words/hug.png", "voice": "voices/en/words/hug.ogg"},
+            { "description": "jump", "image": "lang/words/jump.png", "voice": "voices/en/words/jump.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "knit", "image": "lang/words/knit.png", "voice": "voices/en/words/knit.ogg"},
+            { "description": "lick", "image": "lang/words/lick.png", "voice": "voices/en/words/lick.ogg"},
+            { "description": "look", "image": "lang/words/look.png", "voice": "voices/en/words/look.ogg"},
+            { "description": "meet", "image": "lang/words/meet.png", "voice": "voices/en/words/meet.ogg"},
+            { "description": "nap", "image": "lang/words/nap.png", "voice": "voices/en/words/nap.ogg"},
+            { "description": "peck", "image": "lang/words/peck.png", "voice": "voices/en/words/peck.ogg"},
+            { "description": "play", "image": "lang/words/play.png", "voice": "voices/en/words/play.ogg"},
+            { "description": "plow", "image": "lang/words/plow.png", "voice": "voices/en/words/plow.ogg"},
+            { "description": "pounce", "image": "lang/words/pounce.png", "voice": "voices/en/words/pounce.ogg"},
+            { "description": "quarrel", "image": "lang/words/quarrel.png", "voice": "voices/en/words/quarrel.ogg"},
+            { "description": "read", "image": "lang/words/read.png", "voice": "voices/en/words/read.ogg"},
+            { "description": "rip", "image": "lang/words/rip.png", "voice": "voices/en/words/rip.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "sat", "image": "lang/words/sat.png", "voice": "voices/en/words/sat.ogg"},
+            { "description": "scared", "image": "lang/words/scared.png", "voice": "voices/en/words/scared.ogg"},
+            { "description": "scratch", "image": "lang/words/scratch.png", "voice": "voices/en/words/scratch.ogg"},
+            { "description": "scream", "image": "lang/words/scream.png", "voice": "voices/en/words/scream.ogg"},
+            { "description": "scribble", "image": "lang/words/scribble.png", "voice": "voices/en/words/scribble.ogg"},
+            { "description": "see", "image": "lang/words/see.png", "voice": "voices/en/words/see.ogg"},
+            { "description": "shake", "image": "lang/words/shake.png", "voice": "voices/en/words/shake.ogg"},
+            { "description": "sing", "image": "lang/words/sing.png", "voice": "voices/en/words/sing.ogg"},
+            { "description": "sip", "image": "lang/words/sip.png", "voice": "voices/en/words/sip.ogg"},
+            { "description": "sit", "image": "lang/words/sit.png", "voice": "voices/en/words/sit.ogg"},
+            { "description": "sleep", "image": "lang/words/sleep.png", "voice": "voices/en/words/sleep.ogg"},
+            { "description": "smell", "image": "lang/words/smell.png", "voice": "voices/en/words/smell.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "sniff", "image": "lang/words/sniff.png", "voice": "voices/en/words/sniff.ogg"},
+            { "description": "spill", "image": "lang/words/spill.png", "voice": "voices/en/words/spill.ogg"},
+            { "description": "splash", "image": "lang/words/splash.png", "voice": "voices/en/words/splash.ogg"},
+            { "description": "spray", "image": "lang/words/spray.png", "voice": "voices/en/words/spray.ogg"},
+            { "description": "spread", "image": "lang/words/spread.png", "voice": "voices/en/words/spread.ogg"},
+            { "description": "spring", "image": "lang/words/spring.png", "voice": "voices/en/words/spring.ogg"},
+            { "description": "squat", "image": "lang/words/squat.png", "voice": "voices/en/words/squat.ogg"},
+            { "description": "sting", "image": "lang/words/sting.png", "voice": "voices/en/words/sting.ogg"},
+            { "description": "stop", "image": "lang/words/stop.png", "voice": "voices/en/words/stop.ogg"},
+            { "description": "stretch", "image": "lang/words/stretch.png", "voice": "voices/en/words/stretch.ogg"},
+            { "description": "study", "image": "lang/words/study.png", "voice": "voices/en/words/study.ogg"},
+            { "description": "teach", "image": "lang/words/teach.png", "voice": "voices/en/words/teach.ogg"}
+          ]
+        },
+       { "name": "action",
+          "triplets": [
+            { "description": "think", "image": "lang/words/think.png", "voice": "voices/en/words/think.ogg"},
+            { "description": "touch", "image": "lang/words/touch.png", "voice": "voices/en/words/touch.ogg"},
+            { "description": "wag", "image": "lang/words/wag.png", "voice": "voices/en/words/wag.ogg"},
+            { "description": "walk", "image": "lang/words/walk.png", "voice": "voices/en/words/walk.ogg"},
+            { "description": "wash", "image": "lang/words/wash.png", "voice": "voices/en/words/wash.ogg"},
+            { "description": "whisper", "image": "lang/words/whisper.png", "voice": "voices/en/words/whisper.ogg"},
+            { "description": "win", "image": "lang/words/win.png", "voice": "voices/en/words/win.ogg"},
+            { "description": "write", "image": "lang/words/write.png", "voice": "voices/en/words/write.ogg"},
+            { "description": "ate", "image": "lang/words/ate.png", "voice": "voices/en/words/ate.ogg"},
+            { "description": "bake", "image": "lang/words/bake.png", "voice": "voices/en/words/bake.ogg"},
+            { "description": "bark", "image": "lang/words/bark.png", "voice": "voices/en/words/bark.ogg"},
+            { "description": "beg", "image": "lang/words/beg.png", "voice": "voices/en/words/beg.ogg"}
+          ]
+        },
+       { "name": "adjective",
+          "triplets": [
+            { "description": "big", "image": "lang/words/big.png", "voice": "voices/en/words/big.ogg"},
+            { "description": "blind", "image": "lang/words/blind.png", "voice": "voices/en/words/blind.ogg"},
+            { "description": "blond", "image": "lang/words/blond.png", "voice": "voices/en/words/blond.ogg"},
+            { "description": "bright", "image": "lang/words/bright.png", "voice": "voices/en/words/bright.ogg"},
+            { "description": "crazy", "image": "lang/words/crazy.png", "voice": "voices/en/words/crazy.ogg"},
+            { "description": "cute", "image": "lang/words/cute.png", "voice": "voices/en/words/cute.ogg"},
+            { "description": "dirty", "image": "lang/words/dirty.png", "voice": "voices/en/words/dirty.ogg"},
+            { "description": "empty", "image": "lang/words/empty.png", "voice": "voices/en/words/empty.ogg"},
+            { "description": "fat", "image": "lang/words/fat.png", "voice": "voices/en/words/fat.ogg"},
+            { "description": "flat", "image": "lang/words/flat.png", "voice": "voices/en/words/flat.ogg"},
+            { "description": "front", "image": "lang/words/front.png", "voice": "voices/en/words/front.ogg"},
+            { "description": "full", "image": "lang/words/full.png", "voice": "voices/en/words/full.ogg"}
+          ]
+        },
+       { "name": "adjective",
+          "triplets": [
+            { "description": "happy", "image": "lang/words/happy.png", "voice": "voices/en/words/happy.ogg"},
+            { "description": "high", "image": "lang/words/high.png", "voice": "voices/en/words/high.ogg"},
+            { "description": "hot", "image": "lang/words/hot.png", "voice": "voices/en/words/hot.ogg"},
+            { "description": "huge", "image": "lang/words/huge.png", "voice": "voices/en/words/huge.ogg"},
+            { "description": "left", "image": "lang/words/left.png", "voice": "voices/en/words/left.ogg"},
+            { "description": "line", "image": "lang/words/line.png", "voice": "voices/en/words/line.ogg"},
+            { "description": "liquid", "image": "lang/words/liquid.png", "voice": "voices/en/words/liquid.ogg"},
+            { "description": "magic", "image": "lang/words/magic.png", "voice": "voices/en/words/magic.ogg"},
+            { "description": "on", "image": "lang/words/on.png", "voice": "voices/en/words/on.ogg"},
+            { "description": "pretty", "image": "lang/words/pretty.png", "voice": "voices/en/words/pretty.ogg"},
+            { "description": "right", "image": "lang/words/right.png", "voice": "voices/en/words/right.ogg"},
+            { "description": "round", "image": "lang/words/round.png", "voice": "voices/en/words/round.ogg"}
+          ]
+        },
+       { "name": "adjective",
+          "triplets": [
+            { "description": "shut", "image": "lang/words/shut.png", "voice": "voices/en/words/shut.ogg"},
+            { "description": "sick", "image": "lang/words/sick.png", "voice": "voices/en/words/sick.ogg"},
+            { "description": "small", "image": "lang/words/small.png", "voice": "voices/en/words/small.ogg"},
+            { "description": "spot", "image": "lang/words/spot.png", "voice": "voices/en/words/spot.ogg"},
+            { "description": "square", "image": "lang/words/square.png", "voice": "voices/en/words/square.ogg"},
+            { "description": "stand", "image": "lang/words/stand.png", "voice": "voices/en/words/stand.ogg"},
+            { "description": "straight", "image": "lang/words/straight.png", "voice": "voices/en/words/straight.ogg"},
+            { "description": "stripe", "image": "lang/words/stripe.png", "voice": "voices/en/words/stripe.ogg"},
+            { "description": "strong", "image": "lang/words/strong.png", "voice": "voices/en/words/strong.ogg"},
+            { "description": "tall", "image": "lang/words/tall.png", "voice": "voices/en/words/tall.ogg"},
+            { "description": "thick", "image": "lang/words/thick.png", "voice": "voices/en/words/thick.ogg"},
+            { "description": "tired", "image": "lang/words/tired.png", "voice": "voices/en/words/tired.ogg"}
+          ]
+        },
+       { "name": "adjective",
+          "triplets": [
+            { "description": "wet", "image": "lang/words/wet.png", "voice": "voices/en/words/wet.ogg"},
+            { "description": "big", "image": "lang/words/big.png", "voice": "voices/en/words/big.ogg"},
+            { "description": "blind", "image": "lang/words/blind.png", "voice": "voices/en/words/blind.ogg"},
+            { "description": "blond", "image": "lang/words/blond.png", "voice": "voices/en/words/blond.ogg"},
+            { "description": "bright", "image": "lang/words/bright.png", "voice": "voices/en/words/bright.ogg"},
+            { "description": "crazy", "image": "lang/words/crazy.png", "voice": "voices/en/words/crazy.ogg"},
+            { "description": "cute", "image": "lang/words/cute.png", "voice": "voices/en/words/cute.ogg"},
+            { "description": "dirty", "image": "lang/words/dirty.png", "voice": "voices/en/words/dirty.ogg"},
+            { "description": "empty", "image": "lang/words/empty.png", "voice": "voices/en/words/empty.ogg"},
+            { "description": "fat", "image": "lang/words/fat.png", "voice": "voices/en/words/fat.ogg"},
+            { "description": "flat", "image": "lang/words/flat.png", "voice": "voices/en/words/flat.ogg"},
+            { "description": "front", "image": "lang/words/front.png", "voice": "voices/en/words/front.ogg"}
+          ]
+        },
+       { "name": "color",
+          "triplets": [
+            { "description": "color", "image": "lang/words/color.png", "voice": "voices/en/words/color.ogg"},
+            { "description": "blue", "image": "lang/words/blue.png", "voice": "voices/en/words/blue.ogg"},
+            { "description": "brown", "image": "lang/words/brown.png", "voice": "voices/en/words/brown.ogg"},
+            { "description": "black", "image": "lang/words/black.png", "voice": "voices/en/words/black.ogg"},
+            { "description": "gray", "image": "lang/words/gray.png", "voice": "voices/en/words/gray.ogg"},
+            { "description": "green", "image": "lang/words/green.png", "voice": "voices/en/words/green.ogg"},
+            { "description": "orange", "image": "lang/words/orange-color.png", "voice": "voices/en/words/orange-color.ogg"},
+            { "description": "pink", "image": "lang/words/pink.png", "voice": "voices/en/words/pink.ogg"},
+            { "description": "red", "image": "lang/words/red.png", "voice": "voices/en/words/red.ogg"},
+            { "description": "white", "image": "lang/words/white.png", "voice": "voices/en/words/white.ogg"}
+          ]
+        },
+       { "name": "number",
+          "triplets": [
+            { "description": "zero", "image": "lang/words/zero.png", "voice": "voices/en/alphabet/U0030.ogg"},
+            { "description": "one", "image": "lang/words/one.png", "voice": "voices/en/alphabet/U0031.ogg"},
+            { "description": "two", "image": "lang/words/two.png", "voice": "voices/en/alphabet/U0032.ogg"},
+            { "description": "three", "image": "lang/words/three.png", "voice": "voices/en/alphabet/U0033.ogg"},
+            { "description": "four", "image": "lang/words/four.png", "voice": "voices/en/alphabet/U0034.ogg"},
+            { "description": "five", "image": "lang/words/five.png", "voice": "voices/en/alphabet/U0035.ogg"},
+            { "description": "six", "image": "lang/words/six.png", "voice": "voices/en/alphabet/U0036.ogg"},
+            { "description": "seven", "image": "lang/words/seven.png", "voice": "voices/en/alphabet/U0037.ogg"},
+            { "description": "eight", "image": "lang/words/eight.png", "voice": "voices/en/alphabet/U0038.ogg"},
+            { "description": "nine", "image": "lang/words/nine.png", "voice": "voices/en/alphabet/U0039.ogg"},
+            { "description": "ten", "image": "lang/words/ten.png", "voice": "voices/en/alphabet/10.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "nature",
+      "lessons": [
+       { "name": "animal",
+          "triplets": [
+            { "description": "alligator", "image": "lang/words/alligator.png", "voice": "voices/en/words/alligator.ogg"},
+            { "description": "animal", "image": "lang/words/animal.png", "voice": "voices/en/words/animal.ogg"},
+            { "description": "bait", "image": "lang/words/bait.png", "voice": "voices/en/words/bait.ogg"},
+            { "description": "bat", "image": "lang/words/bat.png", "voice": "voices/en/words/bat.ogg"},
+            { "description": "bee", "image": "lang/words/bee.png", "voice": "voices/en/words/bee.ogg"},
+            { "description": "beetle", "image": "lang/words/beetle.png", "voice": "voices/en/words/beetle.ogg"},
+            { "description": "bird", "image": "lang/words/bird.png", "voice": "voices/en/words/bird.ogg"},
+            { "description": "bug", "image": "lang/words/bug.png", "voice": "voices/en/words/bug.ogg"},
+            { "description": "camel", "image": "lang/words/camel.png", "voice": "voices/en/words/camel.ogg"},
+            { "description": "cat", "image": "lang/words/cat.png", "voice": "voices/en/words/cat.ogg"},
+            { "description": "centipede", "image": "lang/words/centipede.png", "voice": "voices/en/words/centipede.ogg"},
+            { "description": "chick", "image": "lang/words/chick.png", "voice": "voices/en/words/chick.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "chimp", "image": "lang/words/chimp.png", "voice": "voices/en/words/chimp.ogg"},
+            { "description": "clam", "image": "lang/words/clam.png", "voice": "voices/en/words/clam.ogg"},
+            { "description": "claw", "image": "lang/words/claw.png", "voice": "voices/en/words/claw.ogg"},
+            { "description": "cow", "image": "lang/words/cow.png", "voice": "voices/en/words/cow.ogg"},
+            { "description": "crab", "image": "lang/words/crab.png", "voice": "voices/en/words/crab.ogg"},
+            { "description": "crocodile", "image": "lang/words/crocodile.png", "voice": "voices/en/words/crocodile.ogg"},
+            { "description": "crow", "image": "lang/words/crow.png", "voice": "voices/en/words/crow.ogg"},
+            { "description": "den", "image": "lang/words/den.png", "voice": "voices/en/words/den.ogg"},
+            { "description": "dog", "image": "lang/words/dog.png", "voice": "voices/en/words/dog.ogg"},
+            { "description": "dragon", "image": "lang/words/dragon.png", "voice": "voices/en/words/dragon.ogg"},
+            { "description": "duck", "image": "lang/words/duck.png", "voice": "voices/en/words/duck.ogg"},
+            { "description": "fin", "image": "lang/words/fin.png", "voice": "voices/en/words/fin.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "flies", "image": "lang/words/flies.png", "voice": "voices/en/words/flies.ogg"},
+            { "description": "fox", "image": "lang/words/fox.png", "voice": "voices/en/words/fox.ogg"},
+            { "description": "frog", "image": "lang/words/frog.png", "voice": "voices/en/words/frog.ogg"},
+            { "description": "fur", "image": "lang/words/fur.png", "voice": "voices/en/words/fur.ogg"},
+            { "description": "giraffe", "image": "lang/words/giraffe.png", "voice": "voices/en/words/giraffe.ogg"},
+            { "description": "goat", "image": "lang/words/goat.png", "voice": "voices/en/words/goat.ogg"},
+            { "description": "hen", "image": "lang/words/hen.png", "voice": "voices/en/words/hen.ogg"},
+            { "description": "herd", "image": "lang/words/herd.png", "voice": "voices/en/words/herd.ogg"},
+            { "description": "hound", "image": "lang/words/hound.png", "voice": "voices/en/words/hound.ogg"},
+            { "description": "lamb", "image": "lang/words/lamb.png", "voice": "voices/en/words/lamb.ogg"},
+            { "description": "mane", "image": "lang/words/mane.png", "voice": "voices/en/words/mane.ogg"},
+            { "description": "mice", "image": "lang/words/mice.png", "voice": "voices/en/words/mice.ogg"}
+          ]
+        },
+       { "name": "animal",
+          "triplets": [
+            { "description": "mosquito", "image": "lang/words/mosquito.png", "voice": "voices/en/words/mosquito.ogg"},
+            { "description": "mule", "image": "lang/words/mule.png", "voice": "voices/en/words/mule.ogg"},
+            { "description": "owl", "image": "lang/words/owl.png", "voice": "voices/en/words/owl.ogg"},
+            { "description": "ox", "image": "lang/words/ox.png", "voice": "voices/en/words/ox.ogg"},
+            { "description": "paw", "image": "lang/words/paw.png", "voice": "voices/en/words/paw.ogg"},
+            { "description": "pet", "image": "lang/words/pet.png", "voice": "voices/en/words/pet.ogg"},
+            { "description": "pig", "image": "lang/words/pig.png", "voice": "voices/en/words/pig.ogg"},
+            { "description": "pug", "image": "lang/words/pug.png", "voice": "voices/en/words/pug.ogg"},
+            { "description": "puppy", "image": "lang/words/puppy.png", "voice": "voices/en/words/puppy.ogg"},
+            { "description": "rat", "image": "lang/words/rat.png", "voice": "voices/en/words/rat.ogg"},
+            { "description": "shark", "image": "lang/words/shark.png", "voice": "voices/en/words/shark.ogg"},
+            { "description": "shell", "image": "lang/words/shell.png", "voice": "voices/en/words/shell.ogg"}
+          ]
+        },
+       { "name": "fruit",
+          "triplets": [
+            { "description": "cherry", "image": "lang/words/cherry.png", "voice": "voices/en/words/cherry.ogg"},
+            { "description": "fruit", "image": "lang/words/fruit.png", "voice": "voices/en/words/fruit.ogg"},
+            { "description": "lime", "image": "lang/words/lime.png", "voice": "voices/en/words/lime.ogg"},
+            { "description": "orange", "image": "lang/words/orange.png", "voice": "voices/en/words/orange.ogg"},
+            { "description": "peach", "image": "lang/words/peach.png", "voice": "voices/en/words/peach.ogg"},
+            { "description": "plum", "image": "lang/words/plum.png", "voice": "voices/en/words/plum.ogg"},
+            { "description": "strawberry", "image": "lang/words/strawberry.png", "voice": "voices/en/words/strawberry.ogg"}
+          ]
+        },
+       { "name": "nature",
+          "triplets": [
+            { "description": "bay", "image": "lang/words/bay.png", "voice": "voices/en/words/bay.ogg"},
+            { "description": "beach", "image": "lang/words/beach.png", "voice": "voices/en/words/beach.ogg"},
+            { "description": "cave", "image": "lang/words/cave.png", "voice": "voices/en/words/cave.ogg"},
+            { "description": "cliff", "image": "lang/words/cliff.png", "voice": "voices/en/words/cliff.ogg"},
+            { "description": "cloud", "image": "lang/words/cloud.png", "voice": "voices/en/words/cloud.ogg"},
+            { "description": "cold", "image": "lang/words/cold.png", "voice": "voices/en/words/cold.ogg"},
+            { "description": "dirt", "image": "lang/words/dirt.png", "voice": "voices/en/words/dirt.ogg"},
+            { "description": "dune", "image": "lang/words/dune.png", "voice": "voices/en/words/dune.ogg"},
+            { "description": "earth", "image": "lang/words/earth.png", "voice": "voices/en/words/earth.ogg"},
+            { "description": "fire", "image": "lang/words/fire.png", "voice": "voices/en/words/fire.ogg"},
+            { "description": "flame", "image": "lang/words/flame.png", "voice": "voices/en/words/flame.ogg"},
+            { "description": "garden", "image": "lang/words/garden.png", "voice": "voices/en/words/garden.ogg"}
+          ]
+        },
+       { "name": "nature",
+          "triplets": [
+            { "description": "ground", "image": "lang/words/ground.png", "voice": "voices/en/words/ground.ogg"},
+            { "description": "heat", "image": "lang/words/heat.png", "voice": "voices/en/words/heat.ogg"},
+            { "description": "hole", "image": "lang/words/hole.png", "voice": "voices/en/words/hole.ogg"},
+            { "description": "lake", "image": "lang/words/lake.png", "voice": "voices/en/words/lake.ogg"},
+            { "description": "land", "image": "lang/words/land.png", "voice": "voices/en/words/land.ogg"},
+            { "description": "ledge", "image": "lang/words/ledge.png", "voice": "voices/en/words/ledge.ogg"},
+            { "description": "mud", "image": "lang/words/mud.png", "voice": "voices/en/words/mud.ogg"},
+            { "description": "night", "image": "lang/words/night.png", "voice": "voices/en/words/night.ogg"},
+            { "description": "ocean", "image": "lang/words/ocean.png", "voice": "voices/en/words/ocean.ogg"},
+            { "description": "path", "image": "lang/words/path.png", "voice": "voices/en/words/path.ogg"},
+            { "description": "rock", "image": "lang/words/rock.png", "voice": "voices/en/words/rock.ogg"},
+            { "description": "sand", "image": "lang/words/sand.png", "voice": "voices/en/words/sand.ogg"}
+          ]
+        },
+       { "name": "nature",
+          "triplets": [
+            { "description": "sky", "image": "lang/words/sky.png", "voice": "voices/en/words/sky.ogg"},
+            { "description": "slope", "image": "lang/words/slope.png", "voice": "voices/en/words/slope.ogg"},
+            { "description": "smoke", "image": "lang/words/smoke.png", "voice": "voices/en/words/smoke.ogg"},
+            { "description": "snow", "image": "lang/words/snow.png", "voice": "voices/en/words/snow.ogg"},
+            { "description": "star", "image": "lang/words/star.png", "voice": "voices/en/words/star.ogg"},
+            { "description": "stone", "image": "lang/words/stone.png", "voice": "voices/en/words/stone.ogg"},
+            { "description": "stream", "image": "lang/words/stream.png", "voice": "voices/en/words/stream.ogg"},
+            { "description": "summer", "image": "lang/words/summer.png", "voice": "voices/en/words/summer.ogg"},
+            { "description": "sun", "image": "lang/words/sun.png", "voice": "voices/en/words/sun.ogg"},
+            { "description": "time", "image": "lang/words/time.png", "voice": "voices/en/words/time.ogg"},
+            { "description": "top", "image": "lang/words/top.png", "voice": "voices/en/words/top.ogg"},
+            { "description": "trail", "image": "lang/words/trail.png", "voice": "voices/en/words/trail.ogg"}
+          ]
+        },
+       { "name": "nature",
+          "triplets": [
+            { "description": "wind", "image": "lang/words/wind.png", "voice": "voices/en/words/wind.ogg"},
+            { "description": "bay", "image": "lang/words/bay.png", "voice": "voices/en/words/bay.ogg"},
+            { "description": "beach", "image": "lang/words/beach.png", "voice": "voices/en/words/beach.ogg"},
+            { "description": "cave", "image": "lang/words/cave.png", "voice": "voices/en/words/cave.ogg"},
+            { "description": "cliff", "image": "lang/words/cliff.png", "voice": "voices/en/words/cliff.ogg"},
+            { "description": "cloud", "image": "lang/words/cloud.png", "voice": "voices/en/words/cloud.ogg"},
+            { "description": "cold", "image": "lang/words/cold.png", "voice": "voices/en/words/cold.ogg"},
+            { "description": "dirt", "image": "lang/words/dirt.png", "voice": "voices/en/words/dirt.ogg"},
+            { "description": "dune", "image": "lang/words/dune.png", "voice": "voices/en/words/dune.ogg"},
+            { "description": "earth", "image": "lang/words/earth.png", "voice": "voices/en/words/earth.ogg"},
+            { "description": "fire", "image": "lang/words/fire.png", "voice": "voices/en/words/fire.ogg"},
+            { "description": "flame", "image": "lang/words/flame.png", "voice": "voices/en/words/flame.ogg"}
+          ]
+        },
+       { "name": "plant",
+          "triplets": [
+            { "description": "branch", "image": "lang/words/branch.png", "voice": "voices/en/words/branch.ogg"},
+            { "description": "bud", "image": "lang/words/bud.png", "voice": "voices/en/words/bud.ogg"},
+            { "description": "bush", "image": "lang/words/bush.png", "voice": "voices/en/words/bush.ogg"},
+            { "description": "flower", "image": "lang/words/flower.png", "voice": "voices/en/words/flower.ogg"},
+            { "description": "grass", "image": "lang/words/grass.png", "voice": "voices/en/words/grass.ogg"},
+            { "description": "hay", "image": "lang/words/hay.png", "voice": "voices/en/words/hay.ogg"},
+            { "description": "hedge", "image": "lang/words/hedge.png", "voice": "voices/en/words/hedge.ogg"},
+            { "description": "lawn", "image": "lang/words/lawn.png", "voice": "voices/en/words/lawn.ogg"},
+            { "description": "pine", "image": "lang/words/pine.png", "voice": "voices/en/words/pine.ogg"},
+            { "description": "plant", "image": "lang/words/plant.png", "voice": "voices/en/words/plant.ogg"},
+            { "description": "rose", "image": "lang/words/rose.png", "voice": "voices/en/words/rose.ogg"},
+            { "description": "seed", "image": "lang/words/seed.png", "voice": "voices/en/words/seed.ogg"}
+          ]
+        },
+       { "name": "plant",
+          "triplets": [
+            { "description": "stem", "image": "lang/words/stem.png", "voice": "voices/en/words/stem.ogg"},
+            { "description": "stick", "image": "lang/words/stick.png", "voice": "voices/en/words/stick.ogg"},
+            { "description": "stump", "image": "lang/words/stump.png", "voice": "voices/en/words/stump.ogg"},
+            { "description": "tree", "image": "lang/words/tree.png", "voice": "voices/en/words/tree.ogg"},
+            { "description": "branch", "image": "lang/words/branch.png", "voice": "voices/en/words/branch.ogg"},
+            { "description": "bud", "image": "lang/words/bud.png", "voice": "voices/en/words/bud.ogg"},
+            { "description": "bush", "image": "lang/words/bush.png", "voice": "voices/en/words/bush.ogg"},
+            { "description": "flower", "image": "lang/words/flower.png", "voice": "voices/en/words/flower.ogg"},
+            { "description": "grass", "image": "lang/words/grass.png", "voice": "voices/en/words/grass.ogg"},
+            { "description": "hay", "image": "lang/words/hay.png", "voice": "voices/en/words/hay.ogg"},
+            { "description": "hedge", "image": "lang/words/hedge.png", "voice": "voices/en/words/hedge.ogg"},
+            { "description": "lawn", "image": "lang/words/lawn.png", "voice": "voices/en/words/lawn.ogg"}
+          ]
+        },
+       { "name": "vegetables",
+          "triplets": [
+            { "description": "carrot", "image": "lang/words/carrot.png", "voice": "voices/en/words/carrot.ogg"},
+            { "description": "corn", "image": "lang/words/corn.png", "voice": "voices/en/words/corn.ogg"},
+            { "description": "cucumber", "image": "lang/words/cucumber.png", "voice": "voices/en/words/cucumber.ogg"},
+            { "description": "mushroom", "image": "lang/words/mushroom.png", "voice": "voices/en/words/mushroom.ogg"},
+            { "description": "nut", "image": "lang/words/nut.png", "voice": "voices/en/words/nut.ogg"},
+            { "description": "squash", "image": "lang/words/squash.png", "voice": "voices/en/words/squash.ogg"},
+            { "description": "wheat", "image": "lang/words/wheat.png", "voice": "voices/en/words/wheat.ogg"}
+          ]
+        }
+    ]
+    },
+    { "name": "people",
+      "lessons": [
+       { "name": "bodyparts",
+          "triplets": [
+            { "description": "back", "image": "lang/words/back.png", "voice": "voices/en/words/back.ogg"},
+            { "description": "braid", "image": "lang/words/braid.png", "voice": "voices/en/words/braid.ogg"},
+            { "description": "brain", "image": "lang/words/brain.png", "voice": "voices/en/words/brain.ogg"},
+            { "description": "bump", "image": "lang/words/bump.png", "voice": "voices/en/words/bump.ogg"},
+            { "description": "chin", "image": "lang/words/chin.png", "voice": "voices/en/words/chin.ogg"},
+            { "description": "ear", "image": "lang/words/ear.png", "voice": "voices/en/words/ear.ogg"},
+            { "description": "face", "image": "lang/words/face.png", "voice": "voices/en/words/face.ogg"},
+            { "description": "feet", "image": "lang/words/feet.png", "voice": "voices/en/words/feet.ogg"},
+            { "description": "fist", "image": "lang/words/fist.png", "voice": "voices/en/words/fist.ogg"},
+            { "description": "foot", "image": "lang/words/foot.png", "voice": "voices/en/words/foot.ogg"},
+            { "description": "grin", "image": "lang/words/grin.png", "voice": "voices/en/words/grin.ogg"},
+            { "description": "hair", "image": "lang/words/hair.png", "voice": "voices/en/words/hair.ogg"}
+          ]
+        },
+       { "name": "bodyparts",
+          "triplets": [
+            { "description": "head", "image": "lang/words/head.png", "voice": "voices/en/words/head.ogg"},
+            { "description": "hip", "image": "lang/words/hip.png", "voice": "voices/en/words/hip.ogg"},
+            { "description": "knee", "image": "lang/words/knee.png", "voice": "voices/en/words/knee.ogg"},
+            { "description": "lap", "image": "lang/words/lap.png", "voice": "voices/en/words/lap.ogg"},
+            { "description": "lip", "image": "lang/words/lip.png", "voice": "voices/en/words/lip.ogg"},
+            { "description": "mouth", "image": "lang/words/mouth.png", "voice": "voices/en/words/mouth.ogg"},
+            { "description": "neck", "image": "lang/words/neck.png", "voice": "voices/en/words/neck.ogg"},
+            { "description": "nose", "image": "lang/words/nose.png", "voice": "voices/en/words/nose.ogg"},
+            { "description": "scar", "image": "lang/words/scar.png", "voice": "voices/en/words/scar.ogg"},
+            { "description": "skin", "image": "lang/words/skin.png", "voice": "voices/en/words/skin.ogg"},
+            { "description": "stare", "image": "lang/words/stare.png", "voice": "voices/en/words/stare.ogg"},
+            { "description": "sweat", "image": "lang/words/sweat.png", "voice": "voices/en/words/sweat.ogg"}
+          ]
+        },
+       { "name": "bodyparts",
+          "triplets": [
+            { "description": "thigh", "image": "lang/words/thigh.png", "voice": "voices/en/words/thigh.ogg"},
+            { "description": "throat", "image": "lang/words/throat.png", "voice": "voices/en/words/throat.ogg"},
+            { "description": "wrist", "image": "lang/words/wrist.png", "voice": "voices/en/words/wrist.ogg"},
+            { "description": "back", "image": "lang/words/back.png", "voice": "voices/en/words/back.ogg"},
+            { "description": "braid", "image": "lang/words/braid.png", "voice": "voices/en/words/braid.ogg"},
+            { "description": "brain", "image": "lang/words/brain.png", "voice": "voices/en/words/brain.ogg"},
+            { "description": "bump", "image": "lang/words/bump.png", "voice": "voices/en/words/bump.ogg"},
+            { "description": "chin", "image": "lang/words/chin.png", "voice": "voices/en/words/chin.ogg"},
+            { "description": "ear", "image": "lang/words/ear.png", "voice": "voices/en/words/ear.ogg"},
+            { "description": "face", "image": "lang/words/face.png", "voice": "voices/en/words/face.ogg"},
+            { "description": "feet", "image": "lang/words/feet.png", "voice": "voices/en/words/feet.ogg"},
+            { "description": "fist", "image": "lang/words/fist.png", "voice": "voices/en/words/fist.ogg"}
+          ]
+        },
+       { "name": "clothes",
+          "triplets": [
+            { "description": "bib", "image": "lang/words/bib.png", "voice": "voices/en/words/bib.ogg"},
+            { "description": "cap", "image": "lang/words/cap.png", "voice": "voices/en/words/cap.ogg"},
+            { "description": "cape", "image": "lang/words/cape.png", "voice": "voices/en/words/cape.ogg"},
+            { "description": "coat", "image": "lang/words/coat.png", "voice": "voices/en/words/coat.ogg"},
+            { "description": "dress", "image": "lang/words/dress.png", "voice": "voices/en/words/dress.ogg"},
+            { "description": "glove", "image": "lang/words/glove.png", "voice": "voices/en/words/glove.ogg"},
+            { "description": "hat", "image": "lang/words/hat.png", "voice": "voices/en/words/hat.ogg"},
+            { "description": "patch", "image": "lang/words/patch.png", "voice": "voices/en/words/patch.ogg"},
+            { "description": "scarf", "image": "lang/words/scarf.png", "voice": "voices/en/words/scarf.ogg"},
+            { "description": "shirt", "image": "lang/words/shirt.png", "voice": "voices/en/words/shirt.ogg"},
+            { "description": "shoe", "image": "lang/words/shoe.png", "voice": "voices/en/words/shoe.ogg"},
+            { "description": "short", "image": "lang/words/short.png", "voice": "voices/en/words/short.ogg"}
+          ]
+        },
+       { "name": "clothes",
+          "triplets": [
+            { "description": "sleeve", "image": "lang/words/sleeve.png", "voice": "voices/en/words/sleeve.ogg"},
+            { "description": "smock", "image": "lang/words/smock.png", "voice": "voices/en/words/smock.ogg"},
+            { "description": "sneaker", "image": "lang/words/sneaker.png", "voice": "voices/en/words/sneaker.ogg"},
+            { "description": "sock", "image": "lang/words/sock.png", "voice": "voices/en/words/sock.ogg"},
+            { "description": "suit", "image": "lang/words/suit.png", "voice": "voices/en/words/suit.ogg"},
+            { "description": "bib", "image": "lang/words/bib.png", "voice": "voices/en/words/bib.ogg"},
+            { "description": "cap", "image": "lang/words/cap.png", "voice": "voices/en/words/cap.ogg"},
+            { "description": "cape", "image": "lang/words/cape.png", "voice": "voices/en/words/cape.ogg"},
+            { "description": "coat", "image": "lang/words/coat.png", "voice": "voices/en/words/coat.ogg"},
+            { "description": "dress", "image": "lang/words/dress.png", "voice": "voices/en/words/dress.ogg"},
+            { "description": "glove", "image": "lang/words/glove.png", "voice": "voices/en/words/glove.ogg"},
+            { "description": "hat", "image": "lang/words/hat.png", "voice": "voices/en/words/hat.ogg"}
+          ]
+        },
+       { "name": "emotion",
+          "triplets": [
+            { "description": "danger", "image": "lang/words/danger.png", "voice": "voices/en/words/danger.ogg"},
+            { "description": "frown", "image": "lang/words/frown.png", "voice": "voices/en/words/frown.ogg"},
+            { "description": "fun", "image": "lang/words/fun.png", "voice": "voices/en/words/fun.ogg"},
+            { "description": "mad", "image": "lang/words/mad.png", "voice": "voices/en/words/mad.ogg"},
+            { "description": "rage", "image": "lang/words/rage.png", "voice": "voices/en/words/rage.ogg"},
+            { "description": "sad", "image": "lang/words/sad.png", "voice": "voices/en/words/sad.ogg"},
+            { "description": "smile", "image": "lang/words/smile.png", "voice": "voices/en/words/smile.ogg"},
+            { "description": "yum", "image": "lang/words/yum.png", "voice": "voices/en/words/yum.ogg"}
+          ]
+        },
+       { "name": "job",
+          "triplets": [
+            { "description": "chief", "image": "lang/words/chief.png", "voice": "voices/en/words/chief.ogg"},
+            { "description": "clown", "image": "lang/words/clown.png", "voice": "voices/en/words/clown.ogg"},
+            { "description": "coach", "image": "lang/words/coach.png", "voice": "voices/en/words/coach.ogg"},
+            { "description": "cowboy", "image": "lang/words/cowboy.png", "voice": "voices/en/words/cowboy.ogg"},
+            { "description": "hunter", "image": "lang/words/hunter.png", "voice": "voices/en/words/hunter.ogg"},
+            { "description": "judge", "image": "lang/words/judge.png", "voice": "voices/en/words/judge.ogg"},
+            { "description": "knight", "image": "lang/words/knight.png", "voice": "voices/en/words/knight.ogg"},
+            { "description": "lad", "image": "lang/words/lad.png", "voice": "voices/en/words/lad.ogg"},
+            { "description": "pope", "image": "lang/words/pope.png", "voice": "voices/en/words/pope.ogg"},
+            { "description": "prince", "image": "lang/words/prince.png", "voice": "voices/en/words/prince.ogg"},
+            { "description": "princess", "image": "lang/words/princess.png", "voice": "voices/en/words/princess.ogg"},
+            { "description": "queen", "image": "lang/words/queen.png", "voice": "voices/en/words/queen.ogg"}
+          ]
+        },
+       { "name": "job",
+          "triplets": [
+            { "description": "vet", "image": "lang/words/vet.png", "voice": "voices/en/words/vet.ogg"},
+            { "description": "chief", "image": "lang/words/chief.png", "voice": "voices/en/words/chief.ogg"},
+            { "description": "clown", "image": "lang/words/clown.png", "voice": "voices/en/words/clown.ogg"},
+            { "description": "coach", "image": "lang/words/coach.png", "voice": "voices/en/words/coach.ogg"},
+            { "description": "cowboy", "image": "lang/words/cowboy.png", "voice": "voices/en/words/cowboy.ogg"},
+            { "description": "hunter", "image": "lang/words/hunter.png", "voice": "voices/en/words/hunter.ogg"},
+            { "description": "judge", "image": "lang/words/judge.png", "voice": "voices/en/words/judge.ogg"},
+            { "description": "knight", "image": "lang/words/knight.png", "voice": "voices/en/words/knight.ogg"},
+            { "description": "lad", "image": "lang/words/lad.png", "voice": "voices/en/words/lad.ogg"},
+            { "description": "pope", "image": "lang/words/pope.png", "voice": "voices/en/words/pope.ogg"},
+            { "description": "prince", "image": "lang/words/prince.png", "voice": "voices/en/words/prince.ogg"},
+            { "description": "princess", "image": "lang/words/princess.png", "voice": "voices/en/words/princess.ogg"}
+          ]
+        },
+       { "name": "sport",
+          "triplets": [
+            { "description": "athlete", "image": "lang/words/athlete.png", "voice": "voices/en/words/athlete.ogg"},
+            { "description": "ballet", "image": "lang/words/ballet.png", "voice": "voices/en/words/ballet.ogg"},
+            { "description": "camp", "image": "lang/words/camp.png", "voice": "voices/en/words/camp.ogg"},
+            { "description": "cheer", "image": "lang/words/cheer.png", "voice": "voices/en/words/cheer.ogg"},
+            { "description": "climb", "image": "lang/words/climb.png", "voice": "voices/en/words/climb.ogg"},
+            { "description": "dance", "image": "lang/words/dance.png", "voice": "voices/en/words/dance.ogg"},
+            { "description": "dive", "image": "lang/words/dive.png", "voice": "voices/en/words/dive.ogg"},
+            { "description": "explore", "image": "lang/words/explore.png", "voice": "voices/en/words/explore.ogg"},
+            { "description": "hike", "image": "lang/words/hike.png", "voice": "voices/en/words/hike.ogg"},
+            { "description": "hit", "image": "lang/words/hit.png", "voice": "voices/en/words/hit.ogg"},
+            { "description": "hop", "image": "lang/words/hop.png", "voice": "voices/en/words/hop.ogg"},
+            { "description": "jog", "image": "lang/words/jog.png", "voice": "voices/en/words/jog.ogg"}
+          ]
+        },
+       { "name": "sport",
+          "triplets": [
+            { "description": "ran", "image": "lang/words/ran.png", "voice": "voices/en/words/ran.ogg"},
+            { "description": "ride", "image": "lang/words/ride.png", "voice": "voices/en/words/ride.ogg"},
+            { "description": "skate", "image": "lang/words/skate.png", "voice": "voices/en/words/skate.ogg"},
+            { "description": "ski", "image": "lang/words/ski.png", "voice": "voices/en/words/ski.ogg"},
+            { "description": "sport", "image": "lang/words/sport.png", "voice": "voices/en/words/sport.ogg"},
+            { "description": "swim", "image": "lang/words/swim.png", "voice": "voices/en/words/swim.ogg"},
+            { "description": "throw", "image": "lang/words/throw.png", "voice": "voices/en/words/throw.ogg"},
+            { "description": "athlete", "image": "lang/words/athlete.png", "voice": "voices/en/words/athlete.ogg"},
+            { "description": "ballet", "image": "lang/words/ballet.png", "voice": "voices/en/words/ballet.ogg"},
+            { "description": "camp", "image": "lang/words/camp.png", "voice": "voices/en/words/camp.ogg"},
+            { "description": "cheer", "image": "lang/words/cheer.png", "voice": "voices/en/words/cheer.ogg"},
+            { "description": "climb", "image": "lang/words/climb.png", "voice": "voices/en/words/climb.ogg"}
+          ]
+        },
+       { "name": "food",
+          "triplets": [
+            { "description": "bone", "image": "lang/words/bone.png", "voice": "voices/en/words/bone.ogg"},
+            { "description": "bread", "image": "lang/words/bread.png", "voice": "voices/en/words/bread.ogg"},
+            { "description": "bun", "image": "lang/words/bun.png", "voice": "voices/en/words/bun.ogg"},
+            { "description": "cake", "image": "lang/words/cake.png", "voice": "voices/en/words/cake.ogg"},
+            { "description": "candy", "image": "lang/words/candy.png", "voice": "voices/en/words/candy.ogg"},
+            { "description": "cheese", "image": "lang/words/cheese.png", "voice": "voices/en/words/cheese.ogg"},
+            { "description": "chocolate", "image": "lang/words/chocolate.png", "voice": "voices/en/words/chocolate.ogg"},
+            { "description": "cookie", "image": "lang/words/cookie.png", "voice": "voices/en/words/cookie.ogg"},
+            { "description": "crumb", "image": "lang/words/crumb.png", "voice": "voices/en/words/crumb.ogg"},
+            { "description": "crust", "image": "lang/words/crust.png", "voice": "voices/en/words/crust.ogg"},
+            { "description": "drink", "image": "lang/words/drink.png", "voice": "voices/en/words/drink.ogg"},
+            { "description": "feast", "image": "lang/words/feast.png", "voice": "voices/en/words/feast.ogg"}
+          ]
+        },
+       { "name": "food",
+          "triplets": [
+            { "description": "food", "image": "lang/words/food.png", "voice": "voices/en/words/food.ogg"},
+            { "description": "fudge", "image": "lang/words/fudge.png", "voice": "voices/en/words/fudge.ogg"},
+            { "description": "gum", "image": "lang/words/gum.png", "voice": "voices/en/words/gum.ogg"},
+            { "description": "ice", "image": "lang/words/ice.png", "voice": "voices/en/words/ice.ogg"},
+            { "description": "juice", "image": "lang/words/juice.png", "voice": "voices/en/words/juice.ogg"},
+            { "description": "lunch", "image": "lang/words/lunch.png", "voice": "voices/en/words/lunch.ogg"},
+            { "description": "pop", "image": "lang/words/pop.png", "voice": "voices/en/words/pop.ogg"},
+            { "description": "rice", "image": "lang/words/rice.png", "voice": "voices/en/words/rice.ogg"},
+            { "description": "sandwich", "image": "lang/words/sandwich.png", "voice": "voices/en/words/sandwich.ogg"},
+            { "description": "sauce", "image": "lang/words/sauce.png", "voice": "voices/en/words/sauce.ogg"},
+            { "description": "snack", "image": "lang/words/snack.png", "voice": "voices/en/words/snack.ogg"},
+            { "description": "spaghetti", "image": "lang/words/spaghetti.png", "voice": "voices/en/words/spaghetti.ogg"}
+          ]
+        },
+       { "name": "food",
+          "triplets": [
+            { "description": "stew", "image": "lang/words/stew.png", "voice": "voices/en/words/stew.ogg"},
+            { "description": "treat", "image": "lang/words/treat.png", "voice": "voices/en/words/treat.ogg"},
+            { "description": "bone", "image": "lang/words/bone.png", "voice": "voices/en/words/bone.ogg"},
+            { "description": "bread", "image": "lang/words/bread.png", "voice": "voices/en/words/bread.ogg"},
+            { "description": "bun", "image": "lang/words/bun.png", "voice": "voices/en/words/bun.ogg"},
+            { "description": "cake", "image": "lang/words/cake.png", "voice": "voices/en/words/cake.ogg"},
+            { "description": "candy", "image": "lang/words/candy.png", "voice": "voices/en/words/candy.ogg"},
+            { "description": "cheese", "image": "lang/words/cheese.png", "voice": "voices/en/words/cheese.ogg"},
+            { "description": "chocolate", "image": "lang/words/chocolate.png", "voice": "voices/en/words/chocolate.ogg"},
+            { "description": "cookie", "image": "lang/words/cookie.png", "voice": "voices/en/words/cookie.ogg"},
+            { "description": "crumb", "image": "lang/words/crumb.png", "voice": "voices/en/words/crumb.ogg"},
+            { "description": "crust", "image": "lang/words/crust.png", "voice": "voices/en/words/crust.ogg"}
+          ]
+        }
+    ]
+    }
+  ]
+}
