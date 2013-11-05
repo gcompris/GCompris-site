@@ -1,0 +1,206 @@
+# Breton translation of gcompris
+# Copyright (C) 2000-2011 Free Software Foundation, Inc.
+#
+# Alan Monfort <alan.monfort@free.fr>, 2007-2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gcompris\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"PO-Revision-Date: 2013-09-28 23:30+0100\n"
+"Last-Translator: Alan <alan@drouizig.org>\n"
+"Language-Team: An Drouizig <drouizig@drouizig.org>\n"
+"Language: br_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: template/base.html:54
+msgid "News"
+msgstr "Keleier"
+
+#: template/base.html:55 template/buy.html:8
+msgid "Buy / Donate"
+msgstr "Prenañ/Reiñ arc'hant"
+
+#: template/base.html:56
+msgid "Screenshots"
+msgstr "Skrammadoù"
+
+#: template/base.html:58
+msgid "Contribute"
+msgstr "Kemer perzh"
+
+#: template/buy.html:15
+msgid "Buying the Windows or MacOSX version"
+msgstr "Prenañ an handelv evit Windows pe MacOSX"
+
+#: template/buy.html:19
+#, python-format
+msgid ""
+"The Windows and MacOSX versions have a limited number of activities, about "
+"%(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+"Un niver bevennet a obererezhioù ez eus gant an handelvoù evit Windows ha "
+"MacOSX, war-dro %(demo_activities)s e-keñver %(total_activities)s hag a zo "
+"hegerz."
+
+#: template/buy.html:20
+msgid ""
+"Click on the button below let you pay 9€ for the activation code. After "
+"payment you will receive immediately an email with your instructions (check "
+"your spam folder). If you do not receive this email please write me at bruno."
+"coudoin@gcompris.net"
+msgstr ""
+"Klikit war an afell amañ dindan da baeañ 9 € evit ar rineg weredekaat. Goude "
+"an talañ e tegemerot ur postel gant an titouroù (taolit ur sell ouzh teuliad "
+"ar spamoù). Ma ne zegemerot ket ar postel-se, skrivit din : bruno."
+"coudoin@gcompris.net"
+
+#: template/buy.html:21
+msgid "Contact me to get a quote for your school."
+msgstr "Kit e darempred ganin a-benn ma vo meneget ho skol."
+
+#: template/buy.html:40
+msgid ""
+"The registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the latest "
+"release you got for as long as you wish."
+msgstr ""
+"Gant ar marilhadur e teu ar gwir deoc'h da gaout an holl hizivadennoù evit "
+"GCompris e-pad 2 vloaz. Goure 2 vloaz e c'hallot ober gant an handelv "
+"diwezhañ bet degemeret keit ha ma fello deoc'h."
+
+#: template/buy.html:41 template/buy.html:71
+msgid "Thanks for your support of free software in education."
+msgstr "Trugarez da skorañ ar meziantoù digor er c'helennadurezh."
+
+#: template/buy.html:43
+msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+msgstr ""
+"Daveoù lezenn : Kompagnunezh Bruno Coudoin RCS Toulouse France 498 157 536."
+
+#: template/buy.html:55
+msgid "Donate"
+msgstr "Reiñ"
+
+#: template/buy.html:59
+msgid ""
+"You, your children, your classroom love GCompris. You have now the "
+"opportunity to help this project."
+msgstr ""
+"Ho klasad, ho pugale, c'hwi zo plijet gant GCompris. Bremañ e c'hallit "
+"skoazell ar raktres-mañ."
+
+#: template/buy.html:60
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies "
+"moving to promote the project. Said simply, I need your help to continue my "
+"investment in this project."
+msgstr ""
+"Kalz amzer a vez tapet da ziorren meziantoù, dafar ez eus ezhomm. Ezhomm ez "
+"eus din mont ha dont d'ober bruderezh evit ar meziant. Da vezañ fraezh em "
+"eus ezhomm ho skoazell da genderc'hell gant ar raktres-mañ."
+
+#: template/buy.html:61
+msgid ""
+"You can donate the amount of your choice by clicking on the button below:"
+msgstr "Roit ar yalc'had a fell deoc'h dre glikañ war an afell amañ dindan :"
+
+#: template/index.html:44 template/index.html:45
+msgid "Download GCompris"
+msgstr "Pellgargañ Gcompris"
+
+#: template/index.html:46
+#, python-format
+msgid "Version %(version)s"
+msgstr "Handelv %(version)s"
+
+#: template/index.html:57
+msgid "View all screenshots"
+msgstr "Gwelout an holl skrammadoù"
+
+#: template/index.html:62
+msgid ""
+"GCompris is a high quality educational software suite comprising of numerous "
+"activities for children aged 2 to 10."
+msgstr ""
+"GCompris a dalv d'ur meziant uhel e berzhded o kinnig ur bern obererezhioù "
+"evit ar vugale 2 vloaz betek 10 vloaz."
+
+#: template/index.html:63
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "Obererezhioù a dalv da c'hoarioù, chom a rint kelennadel 'vat."
+
+#: template/index.html:64
+msgid ""
+"Below you can find a list of categories with some of the activities "
+"available in that category."
+msgstr ""
+"Amañ dindan e kavot ur roll rummadoù gant obererezhioù hegerz er rummad-mañ."
+
+#: template/index.html:66
+msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
+msgstr ""
+"dizoleiñ an urzhiataerioù : klavier, logodenn, jestroù disheñvel gant al "
+"logodenn..."
+
+#: template/index.html:67
+msgid ""
+"algebra: table memory, enumeration, double entry table, mirror image, ..."
+msgstr ""
+"aljebr : taolennoù evit an eñvor, an niveriñ, taolennoù dre zaouenmoned, "
+"skeudennoù dre velezour..."
+
+#: template/index.html:68
+msgid ""
+"science: the canal lock, the water cycle, the submarine, electric "
+"simulation ..."
+msgstr ""
+"skiantoù : skluz war ar ster, kelc'hiad an dour, ar splujerez, an darvanadur "
+"tredan..."
+
+#: template/index.html:69
+msgid "geography: place the country on the map"
+msgstr "douaroniezh : laka ar vro war ar gartenn"
+
+#: template/index.html:70
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "c'hoarioù : echedoù, eñvor, oware, sudoku..."
+
+#: template/index.html:71
+msgid "reading: reading practice"
+msgstr "lenn : pleustriñ war al lenn"
+
+#: template/index.html:72
+msgid ""
+"other: learn to tell time, puzzle of famous paintings, vector drawing, "
+"cartoon making, ..."
+msgstr ""
+"all : deskiñ penaos lenn an amzer, mildammoù gant livadurioù brudet, tredañ "
+"sturiadel, ober tresadennoù bev..."
+
+#: template/index.html:74
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being "
+"developed. GCompris is free software, that means that you can adapt it to "
+"your own needs, improve it and, most importantly, share it with children "
+"everywhere."
+msgstr ""
+"Ouzhpenn 100 obererezh zo kinniget gant GCompris ha reoù all zo war ar "
+"stern. Ur meziant digor eo GComplris, da lavarout eo ez oc'h aotreet da "
+"azasaat ar meziant diouzh hoc'h ezhommoù, d'e wellaat hag ar pep pouezusañ, "
+"aotreet oc'h da rannañ GCompris gant an holl vugale er bed."
+
+#: template/index.html:80
+msgid "Latest news"
+msgstr "Keleier nevesañ"
+
+#: template/index.html:84
+msgid "All the news"
+msgstr "An holl geleier"

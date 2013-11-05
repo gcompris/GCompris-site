@@ -1,0 +1,81 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 13.11' %}
+{% block content %}
+<h4>Nouveautés</h4>
+<ul>
+<li class="puce">Une nouvelle activité dans la section
+lecture. Celle-ci présente un ensemble d'images suivi d'exercices.
+Nous avons un ensemble de 1000 images avec un texte
+associé et les voix en anglais, espagnol, français et gaélique
+écossais. Les images et les voix viennent
+du <a href="http://www.art4apps.org/"> projet Art4Apps</a> (sous
+licence CC&nbsp;BY-SA). Un grand merci pour leur travail,
+n'hésitez pas à leur faire une donation.</li>
+
+<li class="puce">Si vous désirez dévouvrir à quoi ressemble cette
+activité, vous pouvez
+l'essayer <a href="http://gcompris.net/activity/lang">ici en
+ligne.</a></li>
+
+<li class="puce">Un ensemble de modification pour ajouter le support
+des <a href="http://fr.wikipedia.org/wiki/Digramme">digrammes</a>.</li>
+
+<li class="puce">Ajout de la possibilité de changer la police de
+caractère utilisée dans GCompris. Il est possible de changer la
+police par défaut par une disponible sur votre système. Par exemple,
+dans le fichier boards/skin/babytoy/skin.xml trouver la ligne "font
+id="gcompris/fontface" name="sans" et remplacer "sans" par "ruluko".
+<a href="http://www.google.com/fonts/specimen/Ruluko">Ruluko</a> est
+ une police fournie par Google sous la
+ licence <a href="http://scripts.sil.org/OFL">SIL Open Font License
+ 1.1</a> et conçue pour aider à l'apprentissage de la lecture. A
+ l'avenir nous proposerons cette option directement dans la
+ configuration de GCompris.</li>
+</ul>
+
+<h4>Correctifs</h4>
+<ul>
+<li class="puce">Suite à une demande populaire il y a une version
+simplifiée de l'activité du sous marin. Nous avons ajouté des bulles
+d'aides pour décrire les éléments.</li>
+
+<li class="puce">Correction d'un cas de crash en quittant les
+activités intro et land_safe.</li>
+
+<li class="puce">Nouvelle carte de l'écosse par Fòram na
+Gàidhlig.</li>
+
+<li class="puce">Correction des nom des couleurs dans notre activité
+des couleurs
+avancées. <a href="http://gcompris.net/wiki/Color_translation">Cette
+page</a> reprend les anciennes et les nouvelles valeurs.</li>
+
+<li class="puce">Ajout d'une option par Roopesh Shenoy qui garde le
+dernier niveau atteint par l'enfant dans chaque activité. Le dernier
+niveau atteint est alors proposé lorsque l'enfant revient dans cette
+activité.</li>
+
+<li class="puce">Ajout de la carte d'Amérique Centrale et d'Océanie
+par GunChleoc</li>
+
+<li class="puce">Liste de mots indépendante dans l'activité de lecture
+par GunChleoc</li>
+
+<li class="puce">Maintenant la voix d'introduction d'une activité est
+rejouée lorsqu'on rendre dans l'aide.</li>
+
+<li class="puce">Correction d'un bug empêchant l'accés au module
+d'administration.</li>
+
+<h4>Traductions</h4>
+
+Mise à jour des traduction en portugais brésilien, tchèque, breton,
+danois, français, galicien, grec, hongrois, lituanien, serbe, serbe
+latin, slovène, russe, espagnol, Gaélique écossais, allemand, letton,
+polonais, slovaque, tamoul.
+
+<p>Vous pouvez
+voir <a href='https://l10n.gnome.org/module/gcompris/#master'>l'état
+des traductions ici</a>.</p>
+</ul>
+{% endblock %}

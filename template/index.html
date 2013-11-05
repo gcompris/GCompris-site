@@ -33,32 +33,113 @@
         }
       }
     </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+      $('.carousel').carousel({
+      interval: 3000
+      });
+      $('.carousel').carousel('cycle');
+      });
+</script>
 {% endblock %}
 {% block content %}
 <div class="container bs-docs-container">
   <div class="row">
     <div class="col-xs-12 col-md-6">
       <div class="row">
-	<img class="projectImg" alt="Large GCompris Logo" src="largeGComprisLogo.png"/>
-	<a id="downloadButton">
-	  <img alt="{% trans %}Download GCompris{% endtrans %}" src="downloadGCompris.png" style="position: absolute; top: -10px; left: -10px;"/>
-	  <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
-	  <span id="downloadDetails" style="font-size: 12px; color: white;">{% trans %}Version {{version}}{% endtrans %}</span>
-	  <span id="downloadOS"></span>
-	</a>
+	<div style="width: 400px; margin: 0 auto">
+	  <a id="downloadButton">
+	    <img alt="{% trans %}Download GCompris{% endtrans %}" src="downloadGCompris.png" style="position: absolute; top: -10px; left: -10px;"/>
+	    <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
+	    <span id="downloadDetails" style="font-size: 12px; color: white;">{% trans %}Version {{version}}{% endtrans %}</span>
+	    <span id="downloadOS"></span>
+	  </a>
+	</div>
       </div>
-      <div class="row">
+      <div class="row" style="width: 400px; margin: 0 auto">
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
 	<span><a class="extraInfoLink" href="http://gcompris.net/download">Other</a></span>
       </div>
-      <div class="row">
-	<img class="projectScreenshot" alt="Some GCompris Screenshots" src="screenshots-6x.jpg"/>
-	<a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
+      <div class="row" style="margin-top: 10px">
+	<div id="carousel" class="carousel slide" style="width: 400px; margin: 0 auto">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel" data-slide-to="1"></li>
+	    <li data-target="#carousel" data-slide-to="2"></li>
+	    <li data-target="#carousel" data-slide-to="3"></li>
+	    <li data-target="#carousel" data-slide-to="4"></li>
+	    <li data-target="#carousel" data-slide-to="5"></li>
+	    <li data-target="#carousel" data-slide-to="6"></li>
+	    <li data-target="#carousel" data-slide-to="7"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="screenshots/erase.jpg" alt="screenshot move the mouse">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Move the mouse{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/colors.jpg" alt="screenshot colors">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Colors{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/clockgame.jpg" alt="screenshot learning clock">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Learn how to tell the time{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/piano_composition.jpg" alt="screenshot piano composition">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Piano Composition{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/electric.jpg" alt="screenshot electric">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Electricity{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/watercycle.jpg" alt="screenshot water cycle">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Learn about the water cycle{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/anim.jpg" alt="screenshot animation">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Create a drawing or an animation{% endtrans %}</h3>
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="screenshots/click_on_letter.jpg" alt="screenshot click on a lower case letter">
+	      <div class="carousel-caption">
+		<h3 class="carousel-text">{% trans %}Click on a lowercase letter{% endtrans %}</h3>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel" data-slide="prev">
+	    <span class="icon-prev"></span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel" data-slide="next">
+	    <span class="icon-next"></span>
+	  </a>
+	  <a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
+	</div>
       </div>
     </div>
     <div class="col-xs-12 col-md-6 news">
-      <h1 class="bigtitle">GCompris</h1>{{ social.block() }}
+      <img class="indexProjectImg" alt="Large GCompris Logo" src="middleGComprisLogo.png"/>
+      <h1 class="bigtitle">GCompris</h1>{{ social.block(locale) }}
       <div class="projectDescription"><p>{% trans %}GCompris is a high quality educational software suite comprising of numerous activities for children aged 2 to 10.{% endtrans %}</p>
 	<p>{% trans %}Some of the activities are game orientated, but nonetheless still educational.{% endtrans %}</p>
 	<p>{% trans %}Below you can find a list of categories with some of the activities available in that category.{% endtrans %}</p>
