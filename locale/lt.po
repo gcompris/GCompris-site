@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"POT-Creation-Date: 2013-11-07 00:34+0100\n"
 "PO-Revision-Date: 2013-09-12 17:41+0200\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: lt <komp_lt@konferencijos.lt>\n"
@@ -20,19 +20,19 @@ msgstr ""
 "%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:54
+#: template/base.html:53
 msgid "News"
 msgstr "Naujienos"
 
-#: template/base.html:55 template/buy.html:8
+#: template/base.html:54 template/buy.html:8
 msgid "Buy / Donate"
 msgstr "Įsigyti / Paremti"
 
-#: template/base.html:56
+#: template/base.html:55
 msgid "Screenshots"
 msgstr "Žaidimų vaizdai"
 
-#: template/base.html:58
+#: template/base.html:57
 msgid "Contribute"
 msgstr "Prisidėti"
 
@@ -46,8 +46,8 @@ msgid ""
 "The Windows and MacOSX versions have a limited number of activities, about "
 "%(demo_activities)s on the %(total_activities)s available."
 msgstr ""
-"Nemokamos GCompris Windows ir MacOSX versijos leidžia žaisti ne visas pamokėles, apie %(demo_activities)s"
-"iš %(total_activities)s galimų."
+"Nemokamos GCompris Windows ir MacOSX versijos leidžia žaisti ne visas "
+"pamokėles, apie %(demo_activities)siš %(total_activities)s galimų."
 
 #: template/buy.html:20
 msgid ""
@@ -57,9 +57,9 @@ msgid ""
 "coudoin@gcompris.net"
 msgstr ""
 "Paspaudę žemiau esantį mygtuką galėsite sumokėti 9€ už aktyvacijos kodą. Po "
-"apmokėjimo jūs iš karto gausite el.laišką su kodu ir nurodymais (patikrinkite "
-"ir šlamšto aplanką savo pašte). Jei negausite šio laiško, rašykite man bruno."
-"coudoin@gcompris.net"
+"apmokėjimo jūs iš karto gausite el.laišką su kodu ir nurodymais "
+"(patikrinkite ir šlamšto aplanką savo pašte). Jei negausite šio laiško, "
+"rašykite man bruno.coudoin@gcompris.net"
 
 #: template/buy.html:21
 msgid "Contact me to get a quote for your school."
@@ -72,8 +72,8 @@ msgid ""
 "release you got for as long as you wish."
 msgstr ""
 "Registracija suteikia teisę atnaujinti į bet naują GCompris versiją 2 metus."
-"Pasibaigus šiam laikotarpiui, galėsite ir toliau naudoti paskutine versija tiek, "
-"kiek norėsite."
+"Pasibaigus šiam laikotarpiui, galėsite ir toliau naudoti paskutine versija "
+"tiek, kiek norėsite."
 
 #: template/buy.html:41 template/buy.html:71
 msgid "Thanks for your support of free software in education."
@@ -93,8 +93,8 @@ msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
 msgstr ""
-"Jei Jums, jūsų vaikams ar jūsų klasei patinka GCompris, tuomet Jūs dabar turite"
-"galimybę padėti šiam projektui."
+"Jei Jums, jūsų vaikams ar jūsų klasei patinka GCompris, tuomet Jūs dabar "
+"turitegalimybę padėti šiam projektui."
 
 #: template/buy.html:60
 msgid ""
@@ -102,45 +102,47 @@ msgid ""
 "moving to promote the project. Said simply, I need your help to continue my "
 "investment in this project."
 msgstr ""
-"Kurti programinę įrangą reikia daug laiko, taip pat reikia įsigyti kompiuterinę techniką, "
-"taip pat reikia daug pastangų populiarinant projektą. Taigi, man reikia jūsų pagalbos, "
-"kad galėčiau ir toliau tobulinti šį projektą."
+"Kurti programinę įrangą reikia daug laiko, taip pat reikia įsigyti "
+"kompiuterinę techniką, taip pat reikia daug pastangų populiarinant projektą. "
+"Taigi, man reikia jūsų pagalbos, kad galėčiau ir toliau tobulinti šį "
+"projektą."
 
 #: template/buy.html:61
 msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
-msgstr ""
-"Jūs galite paaukoti norimą sumą, paspaudę ant žemiau esantį mygtuką:"
+msgstr "Jūs galite paaukoti norimą sumą, paspaudę ant žemiau esantį mygtuką:"
 
-#: template/index.html:44 template/index.html:45
+#: template/index.html:52 template/index.html:53
 msgid "Download GCompris"
 msgstr "Atsisiųsti GCompris žaidimus"
 
-#: template/index.html:46
+#: template/index.html:54
 #, python-format
 msgid "Version %(version)s"
 msgstr "Versija %(version)s"
 
-#: template/index.html:57
+#: template/index.html:136
 msgid "View all screenshots"
 msgstr "Žiūrėti visas žaidimų nuotraukas"
 
-#: template/index.html:62
+#: template/index.html:143
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
 msgstr ""
-"GCompris - tai mokomųjų-lavinamųjų žaidimų rinkinys 3–12 metų vaikams, skirtas "
-"mokytis skaityti, rašyti, skaičiuoti, pažinti gamtos dėsnius, spręsti "
-"galvosūkius, lavinti atmintį, išmokti naudotis kompiuteriu ir t.t. "
+"GCompris - tai mokomųjų-lavinamųjų žaidimų rinkinys 3–12 metų vaikams, "
+"skirtas mokytis skaityti, rašyti, skaičiuoti, pažinti gamtos dėsnius, "
+"spręsti galvosūkius, lavinti atmintį, išmokti naudotis kompiuteriu ir t.t. "
 
-#: template/index.html:63
+#: template/index.html:144
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr "Dalis pamokėlių yra orientuotos į žaidimą, tačiau ir jos ką nors lavina ar moko."
+msgstr ""
+"Dalis pamokėlių yra orientuotos į žaidimą, tačiau ir jos ką nors lavina ar "
+"moko."
 
-#: template/index.html:64
+#: template/index.html:145
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -148,18 +150,18 @@ msgstr ""
 "Žemiau rasite įvairių kategorijų sąrašą su pamokėlėmis, esamomis toje "
 "kategorijoje."
 
-#: template/index.html:66
+#: template/index.html:147
 msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
 msgstr "pažink kompiuterį: klaviatūra, pelė, įvairūs pelės gestai, ..."
 
-#: template/index.html:67
+#: template/index.html:148
 msgid ""
-"algebra: table memory, enumeration, double entry table, mirror image, ..."
+"arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
-"algebra: daugybos lentelė, skaičiavimas iš eilės, sudėtis ir atimtis, "
+"aritmetinis: daugybos lentelė, skaičiavimas iš eilės, sudėtis ir atimtis, "
 "susikirtimų lentelė, veidrodinis atspindys, ..."
 
-#: template/index.html:68
+#: template/index.html:149
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
@@ -167,43 +169,44 @@ msgstr ""
 "mokslas: kanalų šliuzai, vandens ciklas gamtoje, povandeninis laivas, "
 "elektros grandinės modeliavimas, ..."
 
-#: template/index.html:69
+#: template/index.html:150
 msgid "geography: place the country on the map"
 msgstr "geografija: sudėlioti šalis žemėlapyje"
 
-#: template/index.html:70
+#: template/index.html:151
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
-msgstr "žaidimai: šachmatai, atminties lavinimas, sujunk 4, oware, Sudoku ir kt. strateginiai žaidimai"
+msgstr ""
+"žaidimai: šachmatai, atminties lavinimas, sujunk 4, oware, Sudoku ir kt. "
+"strateginiai žaidimai"
 
-#: template/index.html:71
+#: template/index.html:152
 msgid "reading: reading practice"
 msgstr "skaitymas: mokymasis skaityti"
 
-#: template/index.html:72
+#: template/index.html:153
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr ""
-"kita: išmokti pažinti laikrodį, žinomų paveikslų dėlionės, vektorinės grafikos bei "
-"animacinių filmų kūrimas, ..."
+"kita: išmokti pažinti laikrodį, žinomų paveikslų dėlionės, vektorinės "
+"grafikos bei animacinių filmų kūrimas, ..."
 
-#: template/index.html:74
+#: template/index.html:155
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
 "your own needs, improve it and, most importantly, share it with children "
 "everywhere."
 msgstr ""
-"Šiuo metu GCompris siūlo daugiau nei 140 pamokėlių, dar daugiau yra kuriamos. "
-"GCompris yra laisva programinė įranga, tai reiškia, kad jūs galite "
-"pritaikyti jį savo poreikiams, tobulinti ir, svarbiausia, visada dalintis šiomis "
-"programomis su vaikais."
+"Šiuo metu GCompris siūlo daugiau nei 140 pamokėlių, dar daugiau yra "
+"kuriamos. GCompris yra laisva programinė įranga, tai reiškia, kad jūs galite "
+"pritaikyti jį savo poreikiams, tobulinti ir, svarbiausia, visada dalintis "
+"šiomis programomis su vaikais."
 
-#: template/index.html:80
+#: template/index.html:161
 msgid "Latest news"
 msgstr "Paskutinės naujienos"
 
-#: template/index.html:84
+#: template/index.html:165
 msgid "All the news"
 msgstr "Visos naujienos"
-
