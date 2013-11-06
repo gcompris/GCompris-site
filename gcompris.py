@@ -171,6 +171,12 @@ templateVars = {
     "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
     }
 
+# Use this filter in template when you know the text comes from the
+# software part and should not be added to the web site po file.
+def trans(text):
+    return _(text)
+templateEnv.filters['trans'] = trans
+
 #
 # Build a map of all news file to proceed for our locale
 #
