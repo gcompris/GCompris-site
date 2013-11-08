@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Saiu a versão 13.11' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <h4>Modificações/inclusões principais</h4>
 <ul>
@@ -17,7 +18,10 @@ por seu trabalho, pode fazer doações em seu site.<br>
 Se você quiser ter uma ideia de como essa atividade funciona, você pode 
 <a href="http://gcompris.net/activity/lang">experimentá-la 
 online.</a></li>
-
+</ul>
+{% endblock %}
+{% block longcontent %}
+<ul>
 <li class="puce">Várias atividades relacionadas a textos foram refeitas 
 para suportar escritas multigráficas. Esse trabalho está sendo conduzido 
 por uma equipe de usuários gaélicos-escoceses.</li>

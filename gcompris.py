@@ -200,6 +200,7 @@ for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
     templateOneNews = templateEnv.get_template( "news/" + filename )
     templateVars['newsDate'] = formatDate(filename)
+    templateVars['fileName'] = filename
     templateVars["news"].append(templateOneNews.render( templateVars ))
 
 templateNews = templateEnv.get_template( "template/news.html" )

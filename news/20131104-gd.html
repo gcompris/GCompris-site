@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Foillseachadh 13.11' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <h4>Na prìomh-fheartan</h4>
 <ul>
@@ -8,7 +9,10 @@
  Fhuair sinn dealbhan is guthan on <a href="http://www.art4apps.org/">phròiseact Art4Apps</a> is gach taing dhaibh airson goireas cho feumail a sholar (fo
 CC&nbsp;BY-SA).
 Nam bu toil leat taing a thoirt do Art4Apps airson an cuid obrach chruaidh, saoil an toir thu tìodhlac dhaibh air an làrach-lìn aca?</li>
-
+</ul>
+{% endblock %}
+{% block longcontent %}
+<ul>
 <li class="puce">Ma tha thu airson sùil a thoirt air a' chleas ùr seo, 's urrainn dhut <a href="http://gcompris.net/activity/lang">a chluich air loidhne.</a></li>
 
 <li class="puce">Chaidh mòran dhe na cleasan co-cheangailte ri teacsa ath-phrògramachadh gus taic a thoirt ri cànanan a chleachdas ioma-ghrafaichean.

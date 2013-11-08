@@ -30,6 +30,22 @@
     /* ]]> */
     </script>
 
+    <script language="javascript">
+      /* Toggle a div */
+function toggle(id, toggleId) {
+	  var ele = document.getElementById(id);
+	  var toggle = document.getElementById(toggleId);
+	  if(ele.style.display == "block") {
+	      ele.style.display = "none";
+	      toggle.innerHTML = '+ + +';
+	  }
+	  else {
+	      ele.style.display = "block";
+	      toggle.innerHTML = '- - -';
+	  }
+      }
+    </script>
+
     <title>{{ title }}</title>
     {% endblock %}
   </head>

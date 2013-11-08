@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Version 13.11' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <h4>Nouveautés</h4>
 <ul>
@@ -11,7 +12,10 @@ associé et les voix en anglais, espagnol, français et gaélique
 du <a href="http://www.art4apps.org/"> projet Art4Apps</a> (sous
 licence CC&nbsp;BY-SA). Un grand merci pour leur travail,
 n'hésitez pas à leur faire une donation.</li>
-
+</ul>
+{% endblock %}
+{% block longcontent %}
+<ul>
 <li class="puce">Si vous désirez dévouvrir à quoi ressemble cette
 activité, vous pouvez
 l'essayer <a href="http://gcompris.net/activity/lang">ici en

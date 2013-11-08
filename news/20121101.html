@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Release 12.11' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <p>The GCompris development team is happy to propose you a new version of GCompris numbered <b>12.11</b>. This release includes 13 new activities, probably more than any release of GCompris so far. </p>
 
@@ -11,6 +12,8 @@
 
 <p>Here is a summary of the new activities sorted by contributors:</p>
 
+{% endblock %}
+{% block longcontent %}
 <h4>Beth Hadley</h4>
 <ul>
   <li class='puce'>Learn about farm animals, what sounds they make, and interesting facts</li>
