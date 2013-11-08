@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Release 12.05' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <p>The release <b>12.05</b> is mostly a maintenance release, no new activities have been included. Many bug fixes and translation updates.</p>
 
@@ -13,6 +14,8 @@
 <ul>
 <li class='puce'>Updated French translation</li>
 </ul>
+{% endblock %}
+{% block longcontent %}
 <h4>Bruno Coudoin:</h4>
 <ul>
 <li class='puce'>Management of sounds in the bar. removed the bleep and play the level in interrupt mode.</li>

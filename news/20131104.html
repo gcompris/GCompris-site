@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Release 13.11' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <h4>Major features</h4>
 <ul>
@@ -11,7 +12,10 @@ the <a href="http://www.art4apps.org/">Art4Apps project</a>, a big
 thanks to them for providing a such useful resource (under
 CC&nbsp;BY-SA). If you want to thanks Art4Apps for their hard work
 please consider making a donation on their site.</li>
-
+</ul>
+{% endblock %}
+{% block longcontent %}
+<ul>
 <li class="puce">If you want to have a look at what this new activity
 is about, you can <a href="http://gcompris.net/activity/lang">play it
 online.</a></li>
