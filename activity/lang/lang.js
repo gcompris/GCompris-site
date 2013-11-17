@@ -281,22 +281,22 @@ function getCarousel(triplets, category)
     result += '<h2 class="langtitle">' + category + '</h2>';
     result += '</div>';
 
-    result += '<div>';
-    result += '<img id="carouselImg" onload="carouselImageLoaded()" src="' + triplets[0].image
-	+ '" style="display: block; margin: 0 auto; width: '
+    result += '<div class="center">';
+    result += '  <div style="display: inline-block; width: 9%;">';
+    result += '    <img id="carouselLeft" src="prev.png" class="gcbutton" style="float: right;"/>';
+    result += '  </div>';
+    result += '  <img id="carouselImg" onload="carouselImageLoaded()" src="' + triplets[0].image
+	+ '" style="display: inline-block; margin: 0 auto; width: '
 	+ imgSize + 'px; height ' + imgSize + 'px;"/>';
+    result += '  <div style="display: inline-block; width: 9%;">';
+    result += '    <img id="carouselRight" src="next.png" class="gcbutton" style="float: left;"/>';
+    result += '  </div>';
     result += '</div>';
 
     fontSize = Math.floor(Math.min($(window).width()/16, 55));
     result += '<div>';
-    result += '  <div style="display: inline-block; width: 9%;">';
-    result += '    <img id="carouselLeft" src="prev.png" class="gcbutton" style="float: right;"/>';
-    result += '  </div>';
-    result += '  <div class="centerBg" style="display: inline-block; width: 80%; text-align: center;">';
+    result += '  <div class="centerBg" style="text-align: center;">';
     result += '    <h1 id="carouselTxt" class="langtitle" style="display: inline-block; font-size:' + fontSize + 'px;"></h1>';
-    result += '  </div>';
-    result += '  <div style="display: inline-block; width: 9%;">';
-    result += '    <img id="carouselRight" src="next.png" class="gcbutton" style="float: left;"/>';
     result += '  </div>';
     result += '</div>';
 
