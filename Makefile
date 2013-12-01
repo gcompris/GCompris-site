@@ -60,5 +60,8 @@ extract: $(i18_sources)
 online:
 	rsync -az --copy-unsafe-links --exclude .git . bdoin@gcompris.net:/var/www/
 
+online2:
+	rsync -az --copy-unsafe-links --exclude .git --rsh="ssh -i $$HOME/.ssh/webserver_rsa" . root@www2.gcompris.net:/var/www
+
 clean:
 	rm -f *.html *.pyc
