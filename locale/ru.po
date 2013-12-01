@@ -45,8 +45,8 @@ msgid ""
 "The Windows and MacOSX versions have a limited number of activities, about "
 "%(demo_activities)s on the %(total_activities)s available."
 msgstr ""
-"Окна и MacOSX версии имеют ограниченное число видов деятельности, около "
-"%(demo_activities)s на %(total_activities)s доступных."
+"Windows и Mac OS X версии имеют ограниченное количество игр, "
+"%(demo_activities)s из %(total_activities)s доступных."
 
 #: template/buy.html:20
 msgid ""
@@ -55,16 +55,18 @@ msgid ""
 "your spam folder). If you do not receive this email please write me at bruno."
 "coudoin@gcompris.net"
 msgstr ""
-"Нажмите кнопку PayPal внизу, чтобы заплатить 9€ за персональный код "
-"активации. В течение 24 часов после оплаты вы получите по e-mail код "
-"активации и необходимые инструкции. Если вы не получили код, напишите мне по "
-"адресу: bruno.coudoin@gcompris.net на английском или французском языке."
+"Если вы хотите использовать все доступные игры, то для этого нажмите "
+"кнопку PayPal внизу, чтобы заплатить 9€ за персональный код "
+"активации. В течение 1 минуты после оплаты вы получите по e-mail код "
+"активации и необходимые инструкции. Если вы не получили код, напишите "
+"мне по адресу: bruno.coudoin@gcompris.net на английском или "
+"французском языке."
 
 #: template/buy.html:21
 msgid "Contact me to get a quote for your school."
 msgstr ""
-"Свяжитесь со мной, пожалуйста, чтобы получить коммерческое предложение для "
-"своей школы."
+"Если вы хотите получить коммерческое предложение для своей школы, "
+"свяжитесь со мной."
 
 #: template/buy.html:40
 msgid ""
@@ -89,15 +91,15 @@ msgstr ""
 
 #: template/buy.html:55
 msgid "Donate"
-msgstr "жертвовать"
+msgstr "Помочь проекту"
 
 #: template/buy.html:59
 msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
 msgstr ""
-"Если вы, ваши дети, ваш класс полюбили программу GCompris, вы можете помочь "
-"проекту!"
+"Если вы, ваши дети или ваш класс полюбили программу GCompris, вы "
+"можете помочь проекту!"
 
 #: template/buy.html:60
 msgid ""
