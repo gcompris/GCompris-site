@@ -40,7 +40,6 @@ def setLocale(locale):
     try:
         t = gettext.translation('gcompris', 'locale', languages=[locale])
     except:
-        print locale
         t = gettext.NullTranslations()
     _ = t.ugettext
 
