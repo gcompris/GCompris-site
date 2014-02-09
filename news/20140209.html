@@ -1,0 +1,69 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris\'s future' %}
+{% set withlongcontent = 1 %}
+{% block content %}
+<p>I have been particularly discreet for several months. It is not a sign of
+disinterest in this project, quiet the opposite.</p>
+
+<p>In fact as you imagine, many users are requesting us a tablet version
+of GCompris and I tried to evaluate the different technical
+possibilities to bring GCompris to this world. Sadly, Gtk+ the core
+technology we are based on does not provide any easy way to run on
+tablet.</p>
+{% endblock %}
+{% block longcontent %}
+<p>The main requirements for me was to be able to have a single code base
+that would let us target the main desktops and the main tablets.</p>
+
+<p>After looking at different options, I settled
+on <a href='http://qt-project.org/doc/qt-5.0/qtquick/qtquick-index.html'>Qt
+Quick</a>. It is a modern toolkit based on a novative descriptive
+language called QML that let you describe the user interface,
+javascript that complement it to code the game logic. It is also
+possible to develop the non graphical part of the application in C++
+with Qt.</p>
+
+<p>It is based on an OpenGL scene graph, we can create shader and
+particles to make graphical effects and do smooth animations.</p>
+
+<p>In order to validate this choice, I did a prototype and this convinced
+me that it was a pertinent choice for GCompris. Even if this is a new
+technology, the learning curve is acceptable, with very few code you
+can create a very good looking activitiy. In my test it takes about
+half the lines of code to make the same activity in Qt Quick than we
+used to in Python and we get a better graphical quality.</p>
+
+<p>The bad news is that it is not compatible with the current version of
+GCompris and it requires a full rewrite. All we can keep is the game
+logic and tuning, the texts, the translations, the graphics and the
+sounds.</p>
+
+<p>I just published
+the <a href='https://github.com/bdoin/GCompris-qt'>GCompris-qt version
+on GitHub</a> and updated
+our <a href='http://gcompris.net/wiki/Developer%27s_corner'>development
+page</a> to give some starting points to build it yourself.</p>
+
+<p>For those who don't want to compile it, you can look at
+the <a href='https://www.youtube.com/watch?v=cHFteAemeLo'>little
+video</a>.</p>
+
+<p>Another important point, since this is not based on Gtk+ this new
+version cannot be hosted by Gnome as we used to do. Therefore we
+cannot participate in the Google Summer of Code under the Gnome
+umbrella. I thus registered GCompris for this year session of GSoC and
+Frederico Goncalves Guimaraes accepted to be the official
+co-mentor.</p>
+
+<p>If you are interested in helping GCompris, I encourage you to learn Qt
+Quick and to help port some activities. This is a good opportunity to
+learn a new technology while doing something useful. I still have to
+refine and document the process to create a new activity but it is not
+very complex.</p>
+
+<p>GCompris on Gtk+ has been around for 14 years. It is true that the
+migration will take time, probably several years but this is something
+we have to do if we want to stay relevant in the coming years.</p>
+
+<p>Bruno.</p>
+{% endblock %}
