@@ -1,5 +1,6 @@
 {% extends "template/onenews.html" %}
 {% set title = 'Release 12.01' %}
+{% set withlongcontent = 1 %}
 {% block content %}
 <h4>Bug fixes</h4>
 <ul>
@@ -17,6 +18,8 @@
 <li class="puce">Instruments activity: added a check for sound availability in the icon menu. Now the background music is muted when entering this activity.</li>
 <li class="puce">Memory: minor fix in memory activity to fix their reference to their mandatory audio file. Without this, a little audio error does appear at run time in the activity icon.</li>
 </ul>
+{% endblock %}
+{% block longcontent %}
 <h4>Translations updates</h4>
 <ul>
 <li class="puce">Updated Estonian translation by Olle Niit</li>

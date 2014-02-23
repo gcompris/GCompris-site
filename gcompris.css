@@ -11,8 +11,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-ul
-{
+ul {
     padding: 0 0 0 0;
 }
 h1 {
@@ -153,7 +152,8 @@ h2 {
 .puce {
   display: list-item;
   list-style-image: url(puce.gif);
-  list-style-position: inside;
+  list-style: disc outside none;
+  margin-left: 14px;
   text-align: left;
 }
 .news {

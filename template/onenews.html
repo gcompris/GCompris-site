@@ -7,7 +7,16 @@
       <div class="newsdate" style="float: right; text-align: right;">{{ newsDate }}</div>
       </div>
       <div style="clear: both;"></div>
-      <div class="newscontent">{% block content %}{% endblock %}</div>
+      <div class="newscontent">{% block content %}{% endblock %}
+	{% set longcontentstyle = '' %}
+	{% if withlongcontent %}
+	  {% set longcontentstyle = 'display: none;' %}
+	{% endif %}
+	<div id="{{ fileName }}" style="{{ longcontentstyle }}">{% block longcontent %}{% endblock %}</div>
+	{% if withlongcontent %}
+	  <a id="newsToggle{{ fileName }}" onclick = "toggle('{{ fileName }}', 'newsToggle{{ fileName }}')">+ + +</a>
+	{% endif %}
+      </div>
     </div>
   </div>
 </div>

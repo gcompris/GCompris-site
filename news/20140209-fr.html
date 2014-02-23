@@ -1,0 +1,75 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Le futur de GCompris' %}
+{% set withlongcontent = 1 %}
+{% block content %}
+<p>J'ai été particulièrement discret depuis plusieurs mois. Ce n'est pas
+un signe de désintérêt pour ce projet même plutôt l'inverse.</p>
+
+<p>En fait, comme vous l'imaginez, de nombreux utilisateurs nous
+demandent une version tablette de GCompris et j'ai essayé d'évaluer
+les différentes possibilités techniques nous permettant d'y
+arriver. Malheureusement, Gtk+ la technologie de base sur laquelle
+nous sommes basés n'offre pas de moyen simple de faire une version
+tablette.</p>
+{% endblock %}
+{% block longcontent %}
+<p>Les principales exigences pour moi sont d'être capable d'avoir un
+code de base unique qui nous permettrait de cibler à la fois les PC de
+bureau et les tablettes.</p>
+
+<p>Après avoir examiné différentes options, je me suis positionné sur
+<a href='http://qt-project.org/doc/qt-5.0/qtquick/qtquick-index.html'>Qt
+Quick</a>. C'est une technologie moderne basée sur un langage
+descriptif innovant appelé QML qui permet de décrire l'interface
+utilisateur et Javascript pour coder la logique du jeu. Il est également
+possible de développer la partie non graphique de l'application en C++
+avec Qt.</p>
+
+<p>Qt Quick est basé sur un graphe de scène OpenGL qui permet de créer
+des shaders et des particules pour faire des effets graphiques et
+obtenir des animations fluides.</p>
+
+<p>Afin de valider ce choix, j'ai fait un prototype et cela m'a
+convaincu que c'était une approche pertinente pour GCompris. Même s'il
+s'agit d'une nouvelle technologie, la courbe d'apprentissage est
+acceptable, avec très peu de code vous pouvez créer une activité. Dans
+mon test, il faut environ la moitié de lignes de code pour faire la
+même activité en Qt Quick que ce que nous faisions en Python, tout en
+améliorant la qualité graphique.</p>
+
+<p>La mauvaise nouvelle c'est que ce n'est pas compatible avec la
+version actuelle de GCompris et cela nécessite une réécriture
+complète. Tout ce que nous pouvons garder est la logique de jeu, les
+réglages, les textes, les traductions, les graphismes et les sons.</p>
+
+<p>Je viens de publier la
+version <a href='https://github.com/bdoin/GCompris-qt'>GCompris-qt sur
+GitHub</a> et j'ai mis à jour
+la <a href='http://gcompris.net/wiki/Developer%27s_corner'>page de
+développement</a> afin de donner quelques points de départ pour compiler
+cette version vous-même.</p>
+
+<p>Pour ceux qui ne veulent pas compiler, vous pouvez regarder la
+<a href='https://www.youtube.com/watch?v=cHFteAemeLo'>petite vidéo</a>.</p>
+
+<p>Un autre point important, n'étant pas basée sur Gtk+ cette nouvelle
+version ne peut pas être hébergée par Gnome comme nous avions
+l'habitude de le faire. Aussi, nous ne pouvons pas participer au
+Google Summer of Code sous l'égide de Gnome. J'ai donc inscrit
+GCompris pour la session à venir du GSoC et Frederico Goncalves
+Guimaraes a accepté d'être le co-mentor officiel.</p>
+
+<p>Si vous êtes intéressé à aider GCompris, je vous encourage à
+apprendre Qt Quick et participer au portage de certaines
+activités. C'est une bonne occasion d'apprendre une nouvelle
+technologie tout en faisant quelque chose d'utile. Je dois encore
+affiner et documenter le processus pour créer une nouvelle activité,
+mais ce n'est pas très complexe.</p>
+
+<p>GCompris Gtk+ existe depuis 14 ans. Il est vrai que la migration va
+prendre du temps, probablement plusieurs années, mais c'est quelque
+chose que nous devons faire si nous voulons rester pertinent dans les
+années à venir.</p>
+
+<p>Bruno.</p>
+{% endblock %}

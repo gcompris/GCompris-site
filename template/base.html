@@ -10,6 +10,7 @@
     <meta name="publisher" content="GCompris"/>
     <meta name="created" content="{{ revision_date }}"/>
     <meta name="rights" content="{{ current_year }} Bruno Coudoin CC-BY-SA"/>
+    <a href="https://plus.google.com/113529386573064332925" rel="publisher"/>
     <link href="js/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link rel="stylesheet" href="gcompris.css" />
     <link href='http://fonts.googleapis.com/css?family=Ruluko&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
@@ -28,6 +29,22 @@
         t.parentNode.insertBefore(s, t);
         })();
     /* ]]> */
+    </script>
+
+    <script language="javascript">
+      /* Toggle a div */
+function toggle(id, toggleId) {
+	  var ele = document.getElementById(id);
+	  var toggle = document.getElementById(toggleId);
+	  if(ele.style.display == "block") {
+	      ele.style.display = "none";
+	      toggle.innerHTML = '+ + +';
+	  }
+	  else {
+	      ele.style.display = "block";
+	      toggle.innerHTML = '- - -';
+	  }
+      }
     </script>
 
     <title>{{ title }}</title>
@@ -55,6 +72,7 @@
 	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
 	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/{{ manual }}">{{ manualTranslation }}</a></li>
 	  <li class="{% if page == 'contribute' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/wiki/Developer%27s_corner">{% trans %}Contribute{% endtrans %}</a></li>
+	  <li class="{% if page == 'langactivity' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/activity/lang">{% trans %}Enrich your vocabulary{% endtrans %}</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
 	  <li class="dropdown">
