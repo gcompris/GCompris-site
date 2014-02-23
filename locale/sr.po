@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"POT-Creation-Date: 2013-11-07 00:34+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sr <LL@li.org>\n"
@@ -20,19 +19,19 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:54
+#: template/base.html:53
 msgid "News"
 msgstr "вести"
 
-#: template/base.html:55 template/buy.html:8
+#: template/base.html:54 template/buy.html:8
 msgid "Buy / Donate"
 msgstr "Буи / Донате"
 
-#: template/base.html:56
+#: template/base.html:55
 msgid "Screenshots"
 msgstr "Слике"
 
-#: template/base.html:58
+#: template/base.html:57
 msgid "Contribute"
 msgstr "допринети"
 
@@ -110,20 +109,20 @@ msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
 msgstr "Можете донирати износ по жељи тако што ћете кликнути на дугме испод :"
 
-#: template/index.html:44 template/index.html:45
+#: template/index.html:52 template/index.html:53
 msgid "Download GCompris"
 msgstr "Довнлоад ГЦомприс"
 
-#: template/index.html:46
+#: template/index.html:54
 #, python-format
 msgid "Version %(version)s"
 msgstr "Верзија %(version)s"
 
-#: template/index.html:57
+#: template/index.html:136
 msgid "View all screenshots"
 msgstr "Погледајте све сцреенсхот"
 
-#: template/index.html:62
+#: template/index.html:143
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -131,13 +130,13 @@ msgstr ""
 "ГЦомприс јеквалитетан образовни софтверски пакет који се састоји од бројних "
 "активности за децу узраста од 2 до 10."
 
-#: template/index.html:63
+#: template/index.html:144
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "Неке од активности су оријентисане игре, али ипак још увек образовне."
 
-#: template/index.html:64
+#: template/index.html:145
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -145,34 +144,34 @@ msgstr ""
 "Испод можете пронаћи списак категорија са неке од активности на располагању "
 "у тој категорији."
 
-#: template/index.html:66
+#: template/index.html:147
 msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
 msgstr "рачунарски откриће : тастатура, миш, миш другачија гест, ..."
 
-#: template/index.html:67
+#: template/index.html:148
 msgid ""
-"algebra: table memory, enumeration, double entry table, mirror image, ..."
-msgstr "алгебре : сто меморија, набрајање, двојног сто, огледало, ..."
+"arithmetic: table memory, enumeration, double entry table, mirror image, ..."
+msgstr "аритметика : сто меморија, набрајање, двојног сто, огледало, ..."
 
-#: template/index.html:68
+#: template/index.html:149
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "Наука :канал брава,вода циклус,подморница, електрична симулација ..."
 
-#: template/index.html:69
+#: template/index.html:150
 msgid "geography: place the country on the map"
 msgstr "географија : место земљу на мапи"
 
-#: template/index.html:70
+#: template/index.html:151
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "игре : шах, меморија, повезивање 4, оваре, судоку ..."
 
-#: template/index.html:71
+#: template/index.html:152
 msgid "reading: reading practice"
 msgstr "читања : читање пракса"
 
-#: template/index.html:72
+#: template/index.html:153
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -180,7 +179,7 @@ msgstr ""
 "Други : научите да кажете време, загонетке познатих слика, векторско цртање, "
 "цртани одлука, ..."
 
-#: template/index.html:74
+#: template/index.html:155
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -191,10 +190,10 @@ msgstr ""
 "је слободан софтвер, то значи да можете да га прилагодите својим потребама, "
 "побољша га и, што је најважније, да је поделе са децом свуда."
 
-#: template/index.html:80
+#: template/index.html:161
 msgid "Latest news"
 msgstr "Најновије вести"
 
-#: template/index.html:84
+#: template/index.html:165
 msgid "All the news"
 msgstr "Свевести"

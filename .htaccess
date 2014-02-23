@@ -9,15 +9,15 @@ ErrorDocument 404 /404.html
 RewriteEngine on
 
 # ---------- Start WIKI
-RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki-1.21.2/index.php [L]
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki-1.22.0/index.php [L]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-RewriteRule ^/?mediawiki-1.21.2/images/thumb/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.21.2/thumb.php?f=$1&width=$2 [L,QSA,B]
+RewriteRule ^/?mediawiki-1.22.0/images/thumb/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.22.0/thumb.php?f=$1&width=$2 [L,QSA,B]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-RewriteRule ^/?mediawiki-1.21.2/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.21.2/thumb.php?f=$1&width=$2&archived=1 [L,QSA,B]
+RewriteRule ^/?mediawiki-1.22.0/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.22.0/thumb.php?f=$1&width=$2&archived=1 [L,QSA,B]
 # ---------- End Wiki
 
 RewriteRule \.git /404.html [L]

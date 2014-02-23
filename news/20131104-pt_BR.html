@@ -1,0 +1,84 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Saiu a versão 13.11' %}
+{% set withlongcontent = 1 %}
+{% block content %}
+<h4>Modificações/inclusões principais</h4>
+<ul>
+<li class="puce">Foi adicionada uma nova atividade, na seção <b>Leitura</b>, 
+que apresenta um conjunto de imagens, textos e vozes para as crianças, 
+associado a um exercício. Ela inclui aproximadamente 1000 imagens e 
+vozes em inglês, espanhol, francês e gaélico-escocês (a tradução para o 
+português está em andamento). As imagens e vozes são do 
+<a href="http://www.art4apps.org/">projeto Art4Apps</a>. E aqui cabe um
+grande <b>muito obrigado</b> aos envolvidos no projeto por disponibilizarem 
+esses recursos tão úteis, sob a 
+<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR"> 
+CC&nbsp;BY-SA</a>). Caso você também queira agradecer à <i>Art4Apps</i> 
+por seu trabalho, pode fazer doações em seu site.<br>
+Se você quiser ter uma ideia de como essa atividade funciona, você pode 
+<a href="http://gcompris.net/activity/lang">experimentá-la 
+online.</a></li>
+</ul>
+{% endblock %}
+{% block longcontent %}
+<ul>
+<li class="puce">Várias atividades relacionadas a textos foram refeitas 
+para suportar escritas multigráficas. Esse trabalho está sendo conduzido 
+por uma equipe de usuários gaélicos-escoceses.</li>
+
+<li class="puce">A fonte utilizada no <i>GCompris</i> foi incluída no 
+arquivo de configurações do tema. Agora é possível mudar a fonte de cada 
+uma das atividades por qualquer outra presente no seu sistema. Por exemplo, 
+você pode abrir o arquivo <i>boards/skin/babytoy/skin.xml</i>, procurar 
+pela linha que contenha o argumento <i>font id="gcompris/fontface" 
+name="sans"</i> e trocar <i>sans</i> por <i>ruluko</i>. 
+<a href="http://www.google.com/fonts/specimen/Ruluko">Ruluko</a> é uma 
+fonte fornecida pela <i>Google</i> sob a 
+<a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a> 
+voltada para auxiliar aqueles que estão aprendendo a ler. No futuro, a 
+escolha da fonte estará disponível nas configurações das atividades.</li>
+</ul>
+
+<h4>Correções de erros</h4>
+<ul>
+<li class="puce">Atendendo a uma demanda popular, agora existe uma 
+versão simplificada da atividade do submarino, com um nível inicial 
+fácil. Foram adicionadas dicas para explicar os itens.</li>
+
+<li class="puce">Corrigido um erro que ocorria após sair da introdução e 
+da atividade land_safe.</li>
+
+<li class="puce">Adicionado um novo mapa da Escócia, por Fòram na 
+Gàidhlig.</li>
+
+<li class="puce">Corrigidos os valores das cores, na atividade de cores 
+avançadas. <a href="http://gcompris.net/wiki/Color_translation">Esta 
+página</a> mostra os valores antigos e os atuais.</li>
+
+<li class="puce">Adicionada a opção para armazenar o último nível 
+atingido na atividade, por Roopesh Shenoy. Com isso, quando a criança 
+entra em uma atividade, é proposto o último nível no qual ela obteve 
+sucesso.</li>
+
+<li class="puce">Adicionados os mapas da América Central e da Oceania, 
+por GunChleoc.</li>
+
+<li class="puce">Lista independente de palavras nas atividades de 
+leitura, por GunChleoc.</li>
+
+<li class="puce">Agora a introdução é falada quando se clica na ajuda.</li>
+
+<li class="puce">Corrigido um erro que fazia o menu de administração 
+desaparecer.</li>
+
+<h4>Traduções</h4>
+
+<p>Foram atualizadas as traduções para: português do Brasil, bretão, 
+tcheco, dinamarquês, francês, galego, alemão, grego, húngaro, letão, 
+lituano, polonês, russo, gaélico escocês, sérvio, latim sérvio, eslovaco, 
+esloveno, espanhol e tâmil.</p>
+
+<p>Você encontra o status das traduções 
+<a href='https://l10n.gnome.org/module/gcompris/#master'>aqui</a>.</p>
+</ul>
+{% endblock %}

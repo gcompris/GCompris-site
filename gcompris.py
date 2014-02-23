@@ -32,12 +32,16 @@ except:
     sys.exit(1)
 
 # Load the proper locale catalog
-try:
-    t = gettext.translation('gcompris', 'locale', languages=[locale])
-except:
-    t = gettext.NullTranslations()
-_ = t.ugettext
-
+_ = None
+t = None
+def setLocale(locale):
+    global _
+    global t
+    try:
+        t = gettext.translation('gcompris', 'locale', languages=[locale])
+    except:
+        t = gettext.NullTranslations()
+    _ = t.ugettext
 
 def formatDate(date):
     return date[0:4] + '-' + date[4:6] + '-' + date[6:8]
@@ -69,21 +73,30 @@ def getLocaleName(locale):
 
     return result
 
+# Set the default locale
+setLocale(locale)
+
 #
 # Create locales [ [ locale, language ], ...]
 #
 locales = []
 language = ""
 for loca in localelist.split():
+    # We want each country in its own language
+    setLocale(loca)
     lang = _(getLocaleName( loca ))
     locales.append( ['-' + loca, lang] )
     if locale == loca:
         language = lang
 
 # Add en_US manually
+setLocale("en")
 locales.append( ['-en', _(getLocaleName( 'en_US'))] )
 if language == '':
     language = 'English'
+
+# Back to the default locale
+setLocale(locale)
 
 locales = sorted(locales, key=lambda t: t[1])
 
@@ -171,6 +184,12 @@ templateVars = {
     "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
     }
 
+# Use this filter in template when you know the text comes from the
+# software part and should not be added to the web site po file.
+def trans(text):
+    return _(text)
+templateEnv.filters['trans'] = trans
+
 #
 # Build a map of all news file to proceed for our locale
 #
@@ -194,6 +213,7 @@ for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
     templateOneNews = templateEnv.get_template( "news/" + filename )
     templateVars['newsDate'] = formatDate(filename)
+    templateVars['fileName'] = filename
     templateVars["news"].append(templateOneNews.render( templateVars ))
 
 templateNews = templateEnv.get_template( "template/news.html" )

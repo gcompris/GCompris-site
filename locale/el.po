@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-09-27 23:06+0200\n"
+"POT-Creation-Date: 2013-11-07 00:34+0100\n"
 "PO-Revision-Date: 2013-09-12 17:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: el <LL@li.org>\n"
@@ -19,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:54
+#: template/base.html:53
 msgid "News"
 msgstr "Νέα"
 
-#: template/base.html:55 template/buy.html:8
+#: template/base.html:54 template/buy.html:8
 msgid "Buy / Donate"
 msgstr "Παραγγελία / Δωρεά"
 
-#: template/base.html:56
+#: template/base.html:55
 msgid "Screenshots"
 msgstr "Στιγμιότυπα οθόνης"
 
-#: template/base.html:58
+#: template/base.html:57
 msgid "Contribute"
 msgstr "συμβάλλω"
 
@@ -113,20 +112,20 @@ msgstr ""
 "Μπορείς να δωρήσεις ένα ποσό της δικής σου επιλογής κάνοντας κλικ στο κουμπί "
 "παρακάτω:"
 
-#: template/index.html:44 template/index.html:45
+#: template/index.html:52 template/index.html:53
 msgid "Download GCompris"
 msgstr "κατεβάστε GCompris"
 
-#: template/index.html:46
+#: template/index.html:54
 #, python-format
 msgid "Version %(version)s"
 msgstr "έκδοση %(version)s"
 
-#: template/index.html:57
+#: template/index.html:136
 msgid "View all screenshots"
 msgstr "δείτε όλα τα στιγμιότυπα"
 
-#: template/index.html:62
+#: template/index.html:143
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -134,7 +133,7 @@ msgstr ""
 "Το GCompris είναι μια σουίτα εκπαιδευτικού λογισμικού και αποτελείται από "
 "ένα μεγάλο πλήθος δραστηριοτήτων για παιδιά ηλικίας 2 έως 10 ετών."
 
-#: template/index.html:63
+#: template/index.html:144
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
@@ -142,7 +141,7 @@ msgstr ""
 "Μερικές από τις δραστηριότητες αν και έχουν παιγνιώδη χαρακτήρα, ωστόσο "
 "διατηρούν τον εκπαιδευτικό τους προσανατολισμό."
 
-#: template/index.html:64
+#: template/index.html:145
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -150,18 +149,18 @@ msgstr ""
 "Παρακάτω μπορείτε να δείτε μια κατηγοριοποίηση μερικών δραστηριοτήτων του "
 "GCompris: "
 
-#: template/index.html:66
+#: template/index.html:147
 msgid "computer discovery: keyboard, mouse, different mouse gesture, ..."
 msgstr "ανακάλυψη του υπολογιστή: πληκτρολόγιο, ποντίκι, ..."
 
-#: template/index.html:67
+#: template/index.html:148
 msgid ""
-"algebra: table memory, enumeration, double entry table, mirror image, ..."
+"arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
-"άλγεβρα: πίνακας μνήμης, αρίθμηση, πίνακας διπλής καταχώρησης, είδωλα "
+"αριθμητική: πίνακας μνήμης, αρίθμηση, πίνακας διπλής καταχώρησης, είδωλα "
 "γεωμετρικών σχημάτων, ..."
 
-#: template/index.html:68
+#: template/index.html:149
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
@@ -169,19 +168,19 @@ msgstr ""
 "επιστήμη: λειτουργία διώρυγας, ο κύκλος του νερού, υποβρύχιο, ηλεκτρικά "
 "κυκλώματα, ..."
 
-#: template/index.html:69
+#: template/index.html:150
 msgid "geography: place the country on the map"
 msgstr "γεωγραφία: τοποθέτησε τις χώρες στο χάρτη"
 
-#: template/index.html:70
+#: template/index.html:151
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "παιχνίδια: σκάκι, μνημονικές τεχνικές, σύνδεσε 4, oware, sudoku, ..."
 
-#: template/index.html:71
+#: template/index.html:152
 msgid "reading: reading practice"
 msgstr "ανάγνωση: εξάσκηση των αναγνωστικών δεξιοτήτων"
 
-#: template/index.html:72
+#: template/index.html:153
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -189,7 +188,7 @@ msgstr ""
 "άλλα: εκμάθηση της ώρας, παζλ με διάσημους πίνακες ζωγραφικής, διανυσματική "
 "σχεδίαση, ..."
 
-#: template/index.html:74
+#: template/index.html:155
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -202,11 +201,10 @@ msgstr ""
 "ανάγκες, να το βελτιώσετε και, το πιο σημαντικό, να το μοιραστείτε με όλα τα "
 "παιδιά του κόσμου."
 
-#: template/index.html:80
+#: template/index.html:161
 msgid "Latest news"
 msgstr ""
 
-#: template/index.html:84
+#: template/index.html:165
 msgid "All the news"
 msgstr ""
-
