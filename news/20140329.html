@@ -1,0 +1,85 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 14.03' %}
+{% set withlongcontent = 1 %}
+{% block content %}
+<h4>Major feature</h4>
+<ul>
+<li class="puce">Added support for multigraph languages in click_on_letter by
+GunChleoc.</li>
+<li class="puce">Added a font selector in the config dialog box by Bruno Coudoin.
+This feature replaces the skin selector. Removed the skin gartoon as
+it is useless now.</li>
+</ul>
+{% endblock %}
+{% block longcontent %}
+<h4>Minor changes</h4>
+<ul>
+<li class="puce">Replaced torta py pastel in Spanish text exercise</li>
+<li class="puce">Added support for localized sound by GunChleoc. The 'yummy yummy'
+gnumch voice can now be translated in voices/$LOCALE/misc/eat.wav</li>
+<li class="puce">Added a cute background to hexagon by Bruno Coudoin.
+The background comes from openclipart.org.</li>
+<li class="puce">Updated FSF's address by Daniel Mustieles.</li>
+<li class="puce">Geography, fixed reference to sri_lanka.ogg by Bruno Coudoin.</li>
+<li class="puce">Hangman, added missing word files by Bruno Coudoin. The Scottish
+Gaelic word list was not installed. Added a French word list. Fixed
+support for accentuated letters. The code that also check for
+accentuated letter in the word to find was broken.</li>
+<li class="puce">Fixed administration to accept UTF-8 user entries by Bruno Coudoin.</li>
+<li class="puce">Fixed login by text entry by Bruno Coudoin.</li>
+<li class="puce">Fixed admin log list, user 0 was missing by Bruno Coudoin.</li>
+<li class="puce">Fixed a typo in the help ctrl-x is now ctrl-q by Bruno Coudoin.</li>
+<li class="puce">Awale activity, fixes some bugs especially party end by Nicolas
+Adenis-Lamarre.</li>
+<li class="puce">Leftright, fixed manual. better button name for translation by
+Bruno Coudoin.</li>
+<li class="puce">Fixed wartercycle and hydroelectric activity click events by Hans de
+Goede.</li>
+<li class="puce">Added bonus files from gartoon skin by Bruno Coudoin.</li>
+<li class="puce">Changed default skin as gartoon, babytoy has been removed</li>
+<li class="puce">Windows installer, fixed image format by Bruno Coudoin.</li>
+<li class="puce">Config dialog layout change to make more room for texts by Bruno
+Coudoin.</li>
+<li class="puce">Lang, fixed 'back to last level' mode by Bruno Coudoin. Fixed call
+to bonus so that we properly log success to each exercise.</li>
+<li class="puce">Lang, fixed startup sequence in remember level mode by Bruno
+Coudoin. The ready button was bypassed in remember level mode.</li>
+<li class="puce">Lang, fixed a python exec error case by Bruno Coudoin. If we have
+an error in the startup sequence a variable was used non
+initialized.</li>
+<li class="puce">Lang activity, replaced http://laske.fr/abecedarium/ by our own
+online version at http://gcompris.net/activity/lang (global replace
+in the code and the translations).</li>
+<li class="puce">Administration, layout improvement by Bruno Coudoin. the module
+labels was too large. replaced them by tooltips.</li>
+<li class="puce">Change back our licence file to properly report GPLV3+</li>
+<li class="puce">Fixed selection of internal gnuchess by default by Cosimo Cecchi</li>
+<li class="puce">click-on-letter, added french accentuated letters.</li>
+<li class="puce">gnumch, fixed localization of eat.wav. A localize eat.wav can be
+provided in voices/$LOCALE/misc/eat.wav</li>
+</ul>
+<h4>Translation update</h4>
+<ul>
+<li class="puce">Fixed Russian translation by Stas Solovey.</li>
+<li class="puce">Updated Brazilian Portuguese translation by Adorilson Bezerra.</li>
+<li class="puce">Updated Brazilian Portuguese translation by Enrico Nicoletto.</li>
+<li class="puce">Updated Brazilian Portuguese translation by Rafael Ferreira.</li>
+<li class="puce">Updated Czech translation by Marek Černocký.</li>
+<li class="puce">Updated Danish translation by Joe Hansen.</li>
+<li class="puce">Updated Dutch translation master by Herman van Beem.</li>
+<li class="puce">Updated French translation by Bruno Coudoin.</li>
+<li class="puce">Updated Galician translation by Gonçalo Cordeiro</li>
+<li class="puce">Updated German translation by Christian Kirbach.</li>
+<li class="puce">Updated Greek translation by Yannis Kaskamanidis.</li>
+<li class="puce">Updated Hungarian translation by Gabor Kelemen</li>
+<li class="puce">Updated Lithuanian translation by Aurimas Černius.</li>
+<li class="puce">Updated Scottish Gaelic translation by GunChleoc.</li>
+<li class="puce">Updated Serbian translation by Мирослав Николић.</li>
+<li class="puce">Updated Spanish translation by Daniel Mustieles.</li>
+<li class="puce">Updated Spanish translation by Milagros Alessandra Infante Montero.</li>
+<li class="puce">Updated Spanish translation by Rafael Ferreira</li>
+<li class="puce">Updated russian word list by Mayya Sharipova.</li>
+<li class="puce">Updated word list for gd by GunChleoc.</li>
+<li class="puce">Updated English voice by Philip Morris and Julia Wycherley</li>
+</ul>
+{% endblock %}
