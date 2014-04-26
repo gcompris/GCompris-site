@@ -7,10 +7,6 @@
     <meta name="keywords" content="free educational software gnu gpl education game children kid logiciel libre educatif education apprentissage informatique ordinateur computer keyboard mouse learning skills mathematique enfant math electricity teaching"/>
     <meta name="description" content="educational software gcompris. Logiciel educatif gcompris"/>
     <meta name="author" content="Bruno Coudoin"/>
-    <meta name="publisher" content="GCompris"/>
-    <meta name="created" content="{{ revision_date }}"/>
-    <meta name="rights" content="{{ current_year }} Bruno Coudoin CC-BY-SA"/>
-    <a href="https://plus.google.com/113529386573064332925" rel="publisher"/>
     <link href="js/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link rel="stylesheet" href="gcompris.css" />
     <link href='http://fonts.googleapis.com/css?family=Ruluko&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
@@ -31,7 +27,7 @@
     /* ]]> */
     </script>
 
-    <script language="javascript">
+    <script type="text/javascript">
       /* Toggle a div */
 function toggle(id, toggleId) {
 	  var ele = document.getElementById(id);
@@ -51,6 +47,7 @@ function toggle(id, toggleId) {
     {% endblock %}
   </head>
   <body>
+    <a href="https://plus.google.com/113529386573064332925" rel="publisher"></a>
     <nav class="navbar navbar-default" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -91,7 +88,8 @@ function toggle(id, toggleId) {
     </div>
     <hr class="featurette-divider"/>
     <footer class="bs-footer" role="contentinfo">
-      <div class="footer">Copyright 2000-{{ current_year }} <a href="mailto:bruno.coudoin@gcompris.net">Bruno Coudoin</a>
+      <div class="footer">Copyright 2000-{{ current_year }} <a href="mailto:bruno.coudoin@gcompris.net">Bruno Coudoin</a>.
+	Site last updated the {{ revision_date }}.
 	<a href='http://www.gnu.org/licenses/gpl.html'>{{ license_info }}</a><br/>
 	This site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">Creative Commons Attribution-ShareAlike 2.0 France License</a>.<br/>
 	<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"><img alt="Creative Commons License" style="border-width:0" src="ccbysa_88x31.png" /></a><br/>
