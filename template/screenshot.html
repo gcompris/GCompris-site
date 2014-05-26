@@ -5,6 +5,11 @@
     <div class="row screenshotmenu{{ depth }}">
   {% endif %}
     <div class="container" style="position: relative;">
+      <div style="float: right;">
+	<a href="#{{ screenshot.name }}" style="color: black">
+	  <span class="glyphicon glyphicon-share"></span>
+	</a>
+      </div>
       {% if screenshot.type != 'menu' %}
         <div class="newstitle">{{ screenshot.title }}</div>
         <img class='screenshotImg' src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}'/>
