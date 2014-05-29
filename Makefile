@@ -36,6 +36,10 @@ all:
 update:
 	linguas="$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
+	  if test ! -f locale/$$lang.po; then \
+	    cp locale/messages.pot locale/$$lang.po; \
+	    touch -d yesterday locale/$$lang.po; \
+	  fi; \
 	  if test locale/messages.pot -nt locale/$$lang.po; then \
 	    cd locale; intltool-update --dist --gettext-package=messages $$lang; cd ..; \
 	  fi; \
