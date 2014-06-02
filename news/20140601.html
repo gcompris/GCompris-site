@@ -1,0 +1,21 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release 14.05' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<h4>Major fixes</h4>
+<ul>
+<li class="puce">Exclude known symbol fonts from the font selector</li>
+<li class="puce">Now the python path separator is ';' on
+windows. Before that it was not possible to install GCompris on
+another disk drive on Windows (other than C:)</li>
+<li class="puce">Added missing timer images (the balloon) in the
+multiplication table activity.</li>
+</ul>
+<h4>Translation update</h4>
+<ul>
+<li class="puce">Updated Russian translation by Yuri Myasoedov</li>
+<li class="puce">Updated Greek translation by Yannis Kaskamanidis</li>
+<li class="puce">Updated french translation by Bruno Coudoin</li>
+<li class="puce">Updated Norwegian bokmål translation by Erlend Thune</li>
+</ul>
+{% endblock %}
