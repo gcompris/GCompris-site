@@ -1,5 +1,5 @@
 
-VERSION = 14.03
+VERSION = 14.05
 
 ALL_LINGUAS = bg br cs da de el es fr gd gl hu lt lv nl nn pl pt_BR ru sk sl sr sv ta th zh_TW 
 #ALL_LINGUAS = fr
@@ -62,10 +62,10 @@ extract: $(i18_sources)
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
 
 online:
-	rsync -az --copy-unsafe-links --exclude .git . bdoin@gcompris.net:/var/www/
+	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc . bdoin@gcompris.net:/var/www/
 
 online2:
-	rsync -az --copy-unsafe-links --exclude .git --rsh="ssh -i $$HOME/.ssh/webserver_rsa" . root@www2.gcompris.net:/var/www
+	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc --rsh="ssh -i $$HOME/.ssh/webserver_rsa" . root@www2.gcompris.net:/var/www
 
 clean:
 	rm -f *.html *.pyc
