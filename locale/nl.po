@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-07 00:34+0100\n"
+"POT-Creation-Date: 2014-06-11 15:07+0200\n"
 "PO-Revision-Date: 2014-01-17 11:21+0100\n"
 "Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -20,19 +20,23 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: template/base.html:53
+#: template/base.html:46
+msgid "GCompris Educational Software"
+msgstr "GCompris educatieve software"
+
+#: template/base.html:67
 msgid "News"
 msgstr "Nieuws"
 
-#: template/base.html:54 template/buy.html:8
+#: template/base.html:68 template/buy.html:8
 msgid "Buy / Donate"
 msgstr "Kopen / doneren"
 
-#: template/base.html:55
+#: template/base.html:69
 msgid "Screenshots"
 msgstr "Schermafdrukken"
 
-#: template/base.html:57
+#: template/base.html:71
 msgid "Contribute"
 msgstr "Bijdragen"
 

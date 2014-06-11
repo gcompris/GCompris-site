@@ -171,7 +171,7 @@ templateVars = {
     "locale" : locale,
     "suffix" : suffix,
     "language" : language,
-    "title" : "GCompris Free Educational Software",
+    "vocabularyActivity" : _("Enrich your vocabulary"),
     "revision_date" : today.strftime("%Y-%m-%d"),
     "current_year": today.strftime("%Y"),
     "version": version,

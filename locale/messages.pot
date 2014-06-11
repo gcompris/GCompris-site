@@ -1,35 +1,39 @@
 # Translations template for PROJECT.
-# Copyright (C) 2013 ORGANIZATION
+# Copyright (C) 2014 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-07 00:34+0100\n"
+"POT-Creation-Date: 2014-06-11 15:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: Babel 1.3\n"
 
-#: template/base.html:53
+#: template/base.html:46
+msgid "GCompris Educational Software"
+msgstr ""
+
+#: template/base.html:67
 msgid "News"
 msgstr ""
 
-#: template/base.html:54 template/buy.html:8
+#: template/base.html:68 template/buy.html:8
 msgid "Buy / Donate"
 msgstr ""
 
-#: template/base.html:55
+#: template/base.html:69
 msgid "Screenshots"
 msgstr ""
 
-#: template/base.html:57
+#: template/base.html:71
 msgid "Contribute"
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-11-07 00:34+0100\n"
+"POT-Creation-Date: 2014-06-11 15:07+0200\n"
 "PO-Revision-Date: 2013-09-12 17:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sl <LL@li.org>\n"
@@ -19,19 +19,23 @@ msgstr ""
 "%100==4 ? 2 : 3)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:53
+#: template/base.html:46
+msgid "GCompris Educational Software"
+msgstr "GCompris izobraževalna programska oprema"
+
+#: template/base.html:67
 msgid "News"
 msgstr "Novice"
 
-#: template/base.html:54 template/buy.html:8
+#: template/base.html:68 template/buy.html:8
 msgid "Buy / Donate"
 msgstr "Nakup / Darujte"
 
-#: template/base.html:55
+#: template/base.html:69
 msgid "Screenshots"
 msgstr "Galerija slik"
 
-#: template/base.html:57
+#: template/base.html:71
 msgid "Contribute"
 msgstr "Prispeva"
 
