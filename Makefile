@@ -65,7 +65,7 @@ online:
 	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc . bdoin@gcompris.net:/var/www/
 
 online2:
-	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc --rsh="ssh -i $$HOME/.ssh/webserver_rsa" . root@www2.gcompris.net:/var/www
+	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc --rsh="ssh -i $$HOME/.ssh/webserver_rsa" . root@one.gcompris.net:/var/www
 
 clean:
 	rm -f *.html *.pyc
