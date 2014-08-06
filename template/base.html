@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="gcompris.css" />
     <link href='http://fonts.googleapis.com/css?family=Ruluko&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
     <link rel="icon" TYPE="image/png" href="favicon.png"/>
+    {% for suffix, language in locales %}
+    <link rel="alternate" hreflang="{{ suffix }}" href="{{page}}-{{ suffix }}.html">
+    {% endfor %}
     <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/platform.js"></script>
@@ -76,7 +79,7 @@ function toggle(id, toggleId) {
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ language }} <b class="caret"></b></a>
             <ul class="dropdown-menu">
 	      {% for suffix, language in locales %}
-                <li><a href="{{page}}{{ suffix }}.html">{{ language }}</a></li>
+                <li><a href="{{page}}-{{ suffix }}.html">{{ language }}</a></li>
 	      {% endfor %}
             </ul>
 	  </li>

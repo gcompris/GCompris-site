@@ -1,5 +1,5 @@
 
-VERSION = 14.05
+VERSION = 14.07
 
 ALL_LINGUAS = bg br cs da de el es fr gd gl hu lt lv nl nn pl pt_BR ru sk sl sr sv ta th zh_TW 
 #ALL_LINGUAS = fr

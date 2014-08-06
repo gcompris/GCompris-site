@@ -85,13 +85,13 @@ for loca in localelist.split():
     # We want each country in its own language
     setLocale(loca)
     lang = _(getLocaleName( loca ))
-    locales.append( ['-' + loca, lang] )
+    locales.append( [loca, lang] )
     if locale == loca:
         language = lang
 
 # Add en_US manually
 setLocale("en")
-locales.append( ['-en', _(getLocaleName( 'en_US'))] )
+locales.append( ['en', _(getLocaleName( 'en_US'))] )
 if language == '':
     language = 'English'
 
@@ -163,7 +163,9 @@ def sectionDiff(old, new):
 
 templateLoader = jinja2.FileSystemLoader( searchpath="." )
 templateEnv = jinja2.Environment( loader=templateLoader,
-                                  extensions=['jinja2.ext.i18n'] )
+                                  extensions=['jinja2.ext.i18n'],
+                                  trim_blocks=True,
+                                  lstrip_blocks=True)
 templateEnv.install_gettext_callables(t.ugettext, t.ungettext, newstyle=True)
 
 # Specify any input variables to the template as a dictionary.
