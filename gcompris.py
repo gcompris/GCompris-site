@@ -10,6 +10,10 @@ import sqlite3
 import re
 from collections import OrderedDict
 import gettext
+from os.path import expanduser
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 today = date.today()
 
@@ -52,7 +56,8 @@ def formatDate(date):
 #
 def getLocaleName(locale):
     result = locale
-    with open("/home/bcoudoin/Projets/gcompris/src/gcompris/config.c", 'r') as f:
+    with open(expanduser("~") + 
+              "/Projets/gcompris/gcompris-gtk/src/gcompris/config.c", 'r') as f:
         inlist = False
         for line in f:
             line = line.rstrip()
@@ -120,7 +125,8 @@ def getManual():
     return manuals['en']
 
 def getBoards():
-    con = sqlite3.connect("/home/bcoudoin/.config/gcompris/gcompris_sqlite.db")
+    con = sqlite3.connect(expanduser("~") +
+                          "/.config/gcompris/gcompris_sqlite.db")
     con.row_factory = sqlite3.Row
     cur = con.cursor()
     cur.execute('select name, section, author, difficulty, icon, title, description, prerequisite, goal, manual, credit, demo, type from boards order by section||\'/\'||name, difficulty')
