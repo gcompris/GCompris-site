@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-06-11 15:07+0200\n"
+"POT-Creation-Date: 2014-09-07 16:58+0200\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ta <LL@li.org>\n"
@@ -18,31 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:46
-msgid "GCompris Educational Software"
-msgstr "GCompris கல்வி மென்பொருள்"
-
-#: template/base.html:67
+#: template/base.html:70
 msgid "News"
 msgstr "செய்தி"
 
-#: template/base.html:68 template/buy.html:8
+#: template/base.html:71 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "வாங்க / நன்கொடை"
 
-#: template/base.html:69
+#: template/base.html:72
 msgid "Screenshots"
 msgstr "திரைக்காட்சிகளுடன்"
 
-#: template/base.html:71
+#: template/base.html:74
 msgid "Contribute"
 msgstr "பங்களிக்க"
 
-#: template/buy.html:15
+#: template/buy.html:16
 msgid "Buying the Windows or MacOSX version"
 msgstr "விண்டோஸ் அல்லது MacOSX பதிப்பு வாங்கும்"
 
-#: template/buy.html:19
+#: template/buy.html:20
 #, python-format
 msgid ""
 "The Windows and MacOSX versions have a limited number of activities, about "
@@ -51,9 +47,10 @@ msgstr ""
 "விண்டோஸ் மற்றும் MacOSX பதிப்புகள் பற்றி நடவடிக்கைகள் ஒரு குறிப்பிட்ட எண்ணிக்கையிலான "
 "%(demo_activities)s இல் %(total_activities)s உள்ளது."
 
-#: template/buy.html:20
+#: template/buy.html:21
+#, fuzzy
 msgid ""
-"Click on the button below let you pay 9€ for the activation code. After "
+"Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
 "your spam folder). If you do not receive this email please write me at bruno."
 "coudoin@gcompris.net"
@@ -63,11 +60,11 @@ msgstr ""
 "ஒரு மின்னஞ்சல் பெறுவீர்கள். நீங்கள் வரவில்லை என்றால் , இந்த மின்னஞ்சல் bruno."
 "coudoin@gcompris.net என்னை எழுதவும்."
 
-#: template/buy.html:21
+#: template/buy.html:22
 msgid "Contact me to get a quote for your school."
 msgstr "உங்கள் பள்ளி மேற்கோள் பெற என்னை தொடர்பு கொள்ளவும்."
 
-#: template/buy.html:40
+#: template/buy.html:41
 msgid ""
 "The registration gives you the right to update to any new release of "
 "GCompris for 2 years. After that period, you can continue to use the latest "
@@ -77,20 +74,20 @@ msgstr ""
 "அந்த காலத்திற்கு பிறகு , நீங்கள் நீண்ட நீங்கள் விருப்பப்படி வாங்கினேன் சமீபத்திய வெளியீட்டில் "
 "தொடர்ந்து பயன்படுத்தலாம்."
 
-#: template/buy.html:41 template/buy.html:71
+#: template/buy.html:42 template/buy.html:72
 msgid "Thanks for your support of free software in education."
 msgstr "கல்வி இலவச மென்பொருள் உங்கள் ஆதரவு நன்றி."
 
-#: template/buy.html:43
+#: template/buy.html:44
 msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 msgstr ""
 "சட்ட குறிப்பு : நிறுவனத்தின் புருனோ Coudoin RCS Toulouse பிரான்ஸ் 498 157 536."
 
-#: template/buy.html:55
+#: template/buy.html:56
 msgid "Donate"
 msgstr "இனாமாக அளி"
 
-#: template/buy.html:59
+#: template/buy.html:60
 msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
@@ -98,7 +95,7 @@ msgstr ""
 "நீங்கள் , உங்கள் குழந்தைகள் , உங்கள் வகுப்பறையில் GCompris நேசிக்கிறேன். நீங்கள் இப்போது இந்த "
 "திட்டத்தின் உதவ வாய்ப்பு."
 
-#: template/buy.html:60
+#: template/buy.html:61
 msgid ""
 "Developing software takes a lot of time, it needs hardware, it implies "
 "moving to promote the project. Said simply, I need your help to continue my "
@@ -108,26 +105,30 @@ msgstr ""
 "ஊக்குவிக்க நகரும் குறிக்கிறது. வெறுமனே அவர் , நான் இந்த திட்டத்தில் என் முதலீட்டை தொடர "
 "உங்கள் உதவி தேவை."
 
-#: template/buy.html:61
+#: template/buy.html:62
 msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
 msgstr ""
 "கீழே உள்ள பொத்தானை கிளிக் செய்வதன் மூலம் உங்கள் விருப்பத்தை அளவு தானம் செய்ய முடியும் :"
 
-#: template/index.html:52 template/index.html:53
+#: template/index.html:4
+msgid "GCompris Educational Software"
+msgstr "GCompris கல்வி மென்பொருள்"
+
+#: template/index.html:53 template/index.html:54
 msgid "Download GCompris"
 msgstr "GCompris பதிவிறக்க"
 
-#: template/index.html:54
+#: template/index.html:55
 #, python-format
 msgid "Version %(version)s"
 msgstr "பதிப்பு %(version)s"
 
-#: template/index.html:136
+#: template/index.html:137
 msgid "View all screenshots"
 msgstr "அனைத்து திரைக்காட்சிகளுடன் காண்க"
 
-#: template/index.html:143
+#: template/index.html:144
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -135,47 +136,47 @@ msgstr ""
 "GCompris 2 10 வயது குழந்தைகள் பல்வேறு நடவடிக்கைகள் உள்ளடக்கிய ஒரு உயர் தரமான கல்வி "
 "மென்பொருள் தொகுப்பு உள்ளது."
 
-#: template/index.html:144
+#: template/index.html:145
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "நடவடிக்கைகள் சில விளையாட்டு நோக்கியதாக இருக்கும் , ஆனாலும் இன்னும் கல்வி."
 
-#: template/index.html:145
+#: template/index.html:146
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "கீழே நீங்கள் அந்த வகை கிடைக்க நடவடிக்கைகள் சில பிரிவுகள் பட்டியலை காணலாம்."
 
-#: template/index.html:147
+#: template/index.html:148
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "கணினி கண்டுபிடிப்பு : விசைப்பலகை, சுட்டி , வெவ்வேறு சுட்டி சைகை , ..."
 
-#: template/index.html:148
+#: template/index.html:149
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
 "கணக்கு : அட்டவணை நினைவு , கணக்கெடுப்பு , இரட்டை உள்ளீட்டு அட்டவணை , கண்ணாடி பிம்பம் , ..."
 
-#: template/index.html:149
+#: template/index.html:150
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "அறிவியல் : கால்வாய் பூட்டு , நீர் சுழற்சி , நீர்மூழ்கி கப்பல் , மின்சார தூண்டல் ..."
 
-#: template/index.html:150
+#: template/index.html:151
 msgid "geography: place the country on the map"
 msgstr "புவியியல் : வரைபடத்தில் இடம் நாடு"
 
-#: template/index.html:151
+#: template/index.html:152
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "விளையாட்டுகள் : சதுரங்கம், நினைவு , இணைப்பு 4 , oware , சுடோகுவை ..."
 
-#: template/index.html:152
+#: template/index.html:153
 msgid "reading: reading practice"
 msgstr "வாசிப்பு : வாசிப்பு பழக்கத்தை"
 
-#: template/index.html:153
+#: template/index.html:154
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -183,7 +184,7 @@ msgstr ""
 "மற்ற : , பிரபல ஓவியங்கள் , திசையன் வரைதல் , முல்லா தயாரித்தல், ஒரு புதிர் நேரம் சொல்ல "
 "கற்று ..."
 
-#: template/index.html:155
+#: template/index.html:156
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -195,10 +196,10 @@ msgstr ""
 "அதை மேம்படுத்த மற்றும் , மிக முக்கியமாக , எல்லா இடங்களிலும் குழந்தைகள் பகிர்ந்து "
 "கொள்ளலாம் என்று அர்த்தம்."
 
-#: template/index.html:161
+#: template/index.html:162
 msgid "Latest news"
 msgstr "சமீபத்திய செய்தி"
 
-#: template/index.html:165
+#: template/index.html:166
 msgid "All the news"
 msgstr "அனைத்து செய்திகள்"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-06-11 15:07+0200\n"
+"POT-Creation-Date: 2014-09-07 16:58+0200\n"
 "PO-Revision-Date: 2013-09-12 17:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -18,31 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:46
-msgid "GCompris Educational Software"
-msgstr "的GCompris教育軟件"
-
-#: template/base.html:67
+#: template/base.html:70
 msgid "News"
 msgstr "新聞"
 
-#: template/base.html:68 template/buy.html:8
+#: template/base.html:71 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "買/捐贈"
 
-#: template/base.html:69
+#: template/base.html:72
 msgid "Screenshots"
 msgstr "截圖"
 
-#: template/base.html:71
+#: template/base.html:74
 msgid "Contribute"
 msgstr "貢獻"
 
-#: template/buy.html:15
+#: template/buy.html:16
 msgid "Buying the Windows or MacOSX version"
 msgstr "購買的Windows或MacOSX版本"
 
-#: template/buy.html:19
+#: template/buy.html:20
 #, python-format
 msgid ""
 "The Windows and MacOSX versions have a limited number of activities, about "
@@ -51,9 +47,10 @@ msgstr ""
 "Windows和MacOSX的版本有數量有限的活動，約％ %(demo_activities)s "
 "%(total_activities)s 提供。"
 
-#: template/buy.html:20
+#: template/buy.html:21
+#, fuzzy
 msgid ""
-"Click on the button below let you pay 9€ for the activation code. After "
+"Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
 "your spam folder). If you do not receive this email please write me at bruno."
 "coudoin@gcompris.net"
@@ -62,11 +59,11 @@ msgstr ""
 "示（請檢查您的垃圾郵件文件夾） 。如果您沒有收到這封電子郵件，請我寫在bruno."
 "coudoin @ gcompris.net 。"
 
-#: template/buy.html:21
+#: template/buy.html:22
 msgid "Contact me to get a quote for your school."
 msgstr "聯繫我為你的學校獲得報價。"
 
-#: template/buy.html:40
+#: template/buy.html:41
 msgid ""
 "The registration gives you the right to update to any new release of "
 "GCompris for 2 years. After that period, you can continue to use the latest "
@@ -75,25 +72,25 @@ msgstr ""
 "登記給你到任何新版本的GCompris進行更新的權利2年。期限屆滿後，可以繼續使用，只"
 "要你想你得到的最新版本。"
 
-#: template/buy.html:41 template/buy.html:71
+#: template/buy.html:42 template/buy.html:72
 msgid "Thanks for your support of free software in education."
 msgstr "感謝您的支持自由軟件教育。"
 
-#: template/buy.html:43
+#: template/buy.html:44
 msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 msgstr "法律參考： ： Bruno Coudoin RCS的法國圖盧茲498 157 536 。"
 
-#: template/buy.html:55
+#: template/buy.html:56
 msgid "Donate"
 msgstr "捐贈"
 
-#: template/buy.html:59
+#: template/buy.html:60
 msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
 msgstr "你，你的孩子，你的課堂上愛的GCompris 。現在你有機會幫助這個項目。"
 
-#: template/buy.html:60
+#: template/buy.html:61
 msgid ""
 "Developing software takes a lot of time, it needs hardware, it implies "
 "moving to promote the project. Said simply, I need your help to continue my "
@@ -102,76 +99,80 @@ msgstr ""
 "開發軟件需要大量的時間，它需要硬件，這意味著移動推廣項目。簡單地說，我需要你"
 "的幫助，繼續我在這個項目中的投資。"
 
-#: template/buy.html:61
+#: template/buy.html:62
 msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
 msgstr "您可以通過點擊下面的按鈕，您選擇的捐贈金額："
 
-#: template/index.html:52 template/index.html:53
+#: template/index.html:4
+msgid "GCompris Educational Software"
+msgstr "的GCompris教育軟件"
+
+#: template/index.html:53 template/index.html:54
 msgid "Download GCompris"
 msgstr "下載的GCompris"
 
-#: template/index.html:54
+#: template/index.html:55
 #, python-format
 msgid "Version %(version)s"
 msgstr "版本%(version)s"
 
-#: template/index.html:136
+#: template/index.html:137
 msgid "View all screenshots"
 msgstr "查看所有截圖"
 
-#: template/index.html:143
+#: template/index.html:144
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
 msgstr "GCompris是一款高品質的教育軟件套件，包括眾多的活動為2至10歲的兒童。"
 
-#: template/index.html:144
+#: template/index.html:145
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "有些活動是遊戲導向的，但仍然教育。"
 
-#: template/index.html:145
+#: template/index.html:146
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "下面你可以找到與該類別中的一些活動類別列表。"
 
-#: template/index.html:147
+#: template/index.html:148
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "計算機發現：鍵盤，鼠標，鼠標手勢不同， ..."
 
-#: template/index.html:148
+#: template/index.html:149
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "算術：表記憶，枚舉，雙項表，鏡像， ..."
 
-#: template/index.html:149
+#: template/index.html:150
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "科學：運河水閘，水循環，潛艇，電動模擬..."
 
-#: template/index.html:150
+#: template/index.html:151
 msgid "geography: place the country on the map"
 msgstr "地理：地方在地圖上的國家"
 
-#: template/index.html:151
+#: template/index.html:152
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "遊戲：國際象棋，內存，連接4 oware ，數獨......"
 
-#: template/index.html:152
+#: template/index.html:153
 msgid "reading: reading practice"
 msgstr "閱讀：閱讀練習"
 
-#: template/index.html:153
+#: template/index.html:154
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr "其它：學會講時間，名畫，矢量繪圖，動畫製作，益智..."
 
-#: template/index.html:155
+#: template/index.html:156
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -181,10 +182,10 @@ msgstr ""
 "目前的GCompris提供超過100個活動和正在開發中。 GCompris是自由軟件，這意味著，"
 "你能適應自己的需要，提高它，最重要的是，與世界各地的兒童分享。"
 
-#: template/index.html:161
+#: template/index.html:162
 msgid "Latest news"
 msgstr "最新消息"
 
-#: template/index.html:165
+#: template/index.html:166
 msgid "All the news"
 msgstr "全部新聞"

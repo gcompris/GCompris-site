@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-06-11 15:07+0200\n"
+"POT-Creation-Date: 2014-09-07 16:58+0200\n"
 "PO-Revision-Date: 2014-01-17 11:21+0100\n"
 "Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -20,31 +20,27 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: template/base.html:46
-msgid "GCompris Educational Software"
-msgstr "GCompris educatieve software"
-
-#: template/base.html:67
+#: template/base.html:70
 msgid "News"
 msgstr "Nieuws"
 
-#: template/base.html:68 template/buy.html:8
+#: template/base.html:71 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "Kopen / doneren"
 
-#: template/base.html:69
+#: template/base.html:72
 msgid "Screenshots"
 msgstr "Schermafdrukken"
 
-#: template/base.html:71
+#: template/base.html:74
 msgid "Contribute"
 msgstr "Bijdragen"
 
-#: template/buy.html:15
+#: template/buy.html:16
 msgid "Buying the Windows or MacOSX version"
 msgstr "De Windows- of MacOSX-versie kopen"
 
-#: template/buy.html:19
+#: template/buy.html:20
 #, python-format
 msgid ""
 "The Windows and MacOSX versions have a limited number of activities, about "
@@ -54,9 +50,10 @@ msgstr ""
 "zijn ongeveer %(demo_activities)s van de %(total_activities)s activiteiten "
 "beschikbaar."
 
-#: template/buy.html:20
+#: template/buy.html:21
+#, fuzzy
 msgid ""
-"Click on the button below let you pay 9€ for the activation code. After "
+"Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
 "your spam folder). If you do not receive this email please write me at bruno."
 "coudoin@gcompris.net"
@@ -66,11 +63,11 @@ msgstr ""
 "(controleer ook uw map \"Ongewenst\"). Als u de e-mail niet ontvangen heeft, "
 "stuur dan a.u.b. een bericht naar bruno.coudoin@gcompris.net."
 
-#: template/buy.html:21
+#: template/buy.html:22
 msgid "Contact me to get a quote for your school."
 msgstr "Neem contact met mij op om een offerte voor uw school te krijgen."
 
-#: template/buy.html:40
+#: template/buy.html:41
 msgid ""
 "The registration gives you the right to update to any new release of "
 "GCompris for 2 years. After that period, you can continue to use the latest "
@@ -80,20 +77,20 @@ msgstr ""
 "van GCompris op te waarderen. Na die periode kunt u de laatst ontvangen "
 "versie blijven gebruiken zolang u wilt."
 
-#: template/buy.html:41 template/buy.html:71
+#: template/buy.html:42 template/buy.html:72
 msgid "Thanks for your support of free software in education."
 msgstr "Bedankt dat u vrije software in het onderwijs steunt."
 
-#: template/buy.html:43
+#: template/buy.html:44
 msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 msgstr ""
 "Wettelijke referentie: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 
-#: template/buy.html:55
+#: template/buy.html:56
 msgid "Donate"
 msgstr "Doneren"
 
-#: template/buy.html:59
+#: template/buy.html:60
 msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
@@ -101,7 +98,7 @@ msgstr ""
 "U, uw kinderen, uw klas zijn dol op GCompris. U heeft nu de gelegenheid om "
 "dit project te helpen."
 
-#: template/buy.html:60
+#: template/buy.html:61
 msgid ""
 "Developing software takes a lot of time, it needs hardware, it implies "
 "moving to promote the project. Said simply, I need your help to continue my "
@@ -111,26 +108,30 @@ msgstr ""
 "het project moet gepromoot worden. Kortom, ik heb uw hulp nodig om mijn "
 "investering in dit project voort te zetten."
 
-#: template/buy.html:61
+#: template/buy.html:62
 msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
 msgstr ""
 "U kunt het bedrag van uw keuze doneren door te klikken op de knop hieronder:"
 
-#: template/index.html:52 template/index.html:53
+#: template/index.html:4
+msgid "GCompris Educational Software"
+msgstr "GCompris educatieve software"
+
+#: template/index.html:53 template/index.html:54
 msgid "Download GCompris"
 msgstr "GCompris downloaden"
 
-#: template/index.html:54
+#: template/index.html:55
 #, python-format
 msgid "Version %(version)s"
 msgstr "Versie %(version)s"
 
-#: template/index.html:136
+#: template/index.html:137
 msgid "View all screenshots"
 msgstr "Alle schermafdrukken bekijken"
 
-#: template/index.html:143
+#: template/index.html:144
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -138,7 +139,7 @@ msgstr ""
 "GCompris is een educatief softwarepakket van hoge kwaliteit, bestaande uit "
 "talrijke oefeningen voor kinderen van 2 tot 10 jaar."
 
-#: template/index.html:144
+#: template/index.html:145
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
@@ -146,7 +147,7 @@ msgstr ""
 "Sommige van de oefeningen zijn in de vorm van een spelletje, maar ze zijn "
 "nog altijd educatief."
 
-#: template/index.html:145
+#: template/index.html:146
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -154,34 +155,34 @@ msgstr ""
 "Hieronder treft u een categorieënlijst met enkele van de in die categorie "
 "beschikbare oefeningen."
 
-#: template/index.html:147
+#: template/index.html:148
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "ontdek de computer: toetsenbord, muis, andere acties met de muis, …"
 
-#: template/index.html:148
+#: template/index.html:149
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "rekenen: tafels oefenen, leren tellen, afbeelding spiegelen, …"
 
-#: template/index.html:149
+#: template/index.html:150
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "techniek: de sluis, de waterkringloop, de onderzeeër, electronica, …"
 
-#: template/index.html:150
+#: template/index.html:151
 msgid "geography: place the country on the map"
 msgstr "aardrijkskunde: plaats de landen op de kaart"
 
-#: template/index.html:151
+#: template/index.html:152
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "spelletjes: schaken, memory, 4-op-een-rij, oware, sudoku, …"
 
-#: template/index.html:152
+#: template/index.html:153
 msgid "reading: reading practice"
 msgstr "Lezen: leesoefeningen"
 
-#: template/index.html:153
+#: template/index.html:154
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -189,7 +190,7 @@ msgstr ""
 "overige: leren klok kijken, puzzel met beroemde schilderijen, tekenen, "
 "beeldverhalen maken, …"
 
-#: template/index.html:155
+#: template/index.html:156
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -201,10 +202,10 @@ msgstr ""
 "behoeftes kunt aanpassen, kunt verbeteren en vooral dat u het met kinderen "
 "overal kunt delen."
 
-#: template/index.html:161
+#: template/index.html:162
 msgid "Latest news"
 msgstr "Laatste nieuws"
 
-#: template/index.html:165
+#: template/index.html:166
 msgid "All the news"
 msgstr "Al het nieuws"
