@@ -1,23 +1,24 @@
-# Slovenian translations for PROJECT.
-# Copyright (C) 2013 ORGANIZATION
+# Translations template for PROJECT.
+# Copyright (C) 2014 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
+# Andrej Mernik <andrejm@ubuntu.si>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2014-09-07 16:58+0200\n"
-"PO-Revision-Date: 2013-09-12 17:41+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: sl <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2014-12-01 13:50+0100\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3)\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: Babel 1.3\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%"
+"100==4 ? 3 : 0);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: template/base.html:70
 msgid "News"
@@ -25,98 +26,98 @@ msgstr "Novice"
 
 #: template/base.html:71 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
-msgstr "Nakup / Darujte"
+msgstr "Nakup / donacija"
 
 #: template/base.html:72
 msgid "Screenshots"
-msgstr "Galerija slik"
+msgstr "Posnetki zaslona"
 
 #: template/base.html:74
 msgid "Contribute"
-msgstr "Prispeva"
+msgstr "Prispevajte"
 
 #: template/buy.html:16
 msgid "Buying the Windows or MacOSX version"
-msgstr "Nakup različico operacijskega sistema Windows ali MacOSX"
+msgstr "Nakup različice za Windows ali MacOSX"
 
 #: template/buy.html:20
 #, python-format
 msgid ""
-"The Windows and MacOSX versions have a limited number of activities, about "
-"%(demo_activities)s on the %(total_activities)s available."
+"The Windows and MacOSX versions have a limited number of activities, "
+"about %(demo_activities)s on the %(total_activities)s available."
 msgstr ""
-"Različice operacijskega sistema Windows in MacOSX imajo omejeno število "
-"dejavnosti, o %(demo_activities)s na %(total_activities)s na voljo."
+"Različici za Windows in MacOSX imata omejeno število dejavnosti: okrog %"
+"(demo_activities)s od %(total_activities)s razpoložljivih."
 
 #: template/buy.html:21
-#, fuzzy
 msgid ""
-"Click on the button below let you pay 9&euro; for the activation code. After "
-"payment you will receive immediately an email with your instructions (check "
-"your spam folder). If you do not receive this email please write me at bruno."
-"coudoin@gcompris.net"
+"Click on the button below let you pay 9&euro; for the activation code. "
+"After payment you will receive immediately an email with your "
+"instructions (check your spam folder). If you do not receive this email "
+"please write me at bruno.coudoin@gcompris.net"
 msgstr ""
-"Kliknite na spodnji gumb vam plačati 9 € za aktivacijsko kodo. Po plačilu "
-"boste takoj prejeli e-pošto z vašimi navodili (preverite mapo spam). Če ne "
-"boste prejeli to sporočilo, pišite mi na bruno.coudoin @ gcompris.net."
+"Kliknite na spodnji gumb, da kupite aktivacijsko kodo za 9 &euro;. Po plačilu "
+"boste takoj dobili e-pošto z navodili (preverite tudi mapo z neželeno pošto). "
+"Če te e-pošte ne prejmete, pošljite e-poštno sporočilo na "
+"bruno.coudoin@gcompris.net"
 
 #: template/buy.html:22
 msgid "Contact me to get a quote for your school."
-msgstr "Stik z mano, da bi dobili ponudbo za svojo šolo."
+msgstr "Stopite v stik z mano, da dobite ponudbo za vašo šolo."
 
 #: template/buy.html:41
 msgid ""
 "The registration gives you the right to update to any new release of "
-"GCompris for 2 years. After that period, you can continue to use the latest "
-"release you got for as long as you wish."
+"GCompris for 2 years. After that period, you can continue to use the "
+"latest release you got for as long as you wish."
 msgstr ""
-"Registracija vam daje pravico, da posodobite na vsako novo sproščanje "
-"GCompris za 2 leti. Po tem obdobju se lahko še naprej uporabljajo najnovejšo "
-"verzijo imaš za tako dolgo, kot želite."
+"Registracija vam bo omogočila brezplačno nadgrajevanje programa GCompris za "
+"dve leti. Po tem času lahko zadnjo razpoložljivo izdajo uporabljate neomejeno "
+"časa."
 
 #: template/buy.html:42 template/buy.html:72
 msgid "Thanks for your support of free software in education."
-msgstr "Hvala za vašo podporo proste programske opreme v izobraževanju."
+msgstr "Hvala za vašo podporo prosti izobraževalni programski opremi."
 
 #: template/buy.html:44
 msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 msgstr ""
-"Pravna podlaga: Podjetje Bruno Coudoin RCS Toulouse Francija 498 157 536."
+"Pravno obvestilo: podjetje Bruno Coudoin RCS, Toulouse, Francija. 498 157 536."
 
 #: template/buy.html:56
 msgid "Donate"
-msgstr "Darujte"
+msgstr "Donirajte"
 
 #: template/buy.html:60
 msgid ""
 "You, your children, your classroom love GCompris. You have now the "
 "opportunity to help this project."
 msgstr ""
-"Vi, vaši otroci, vaš učilnica ljubezen GCompris. Zdaj imate priložnost, da "
-"pomaga ta projekt."
+"Vi, vaši otroci in/ali vaš razred obožujejo GCompris? Sedaj lahko pomagate "
+"temu projektu."
 
 #: template/buy.html:61
 msgid ""
 "Developing software takes a lot of time, it needs hardware, it implies "
-"moving to promote the project. Said simply, I need your help to continue my "
-"investment in this project."
+"moving to promote the project. Said simply, I need your help to continue "
+"my investment in this project."
 msgstr ""
-"Razvijanjem programske opreme, je potrebno veliko časa, da potrebuje strojno "
-"opremo, to pomeni, da se gibljejo promocija projekta. Je dejal le, rabim "
-"vašo pomoč, da nadaljuje svoje naložbe v ta projekt."
+"Razvoj programske opreme zahteva veliko časa, strojno opremo in vključuje "
+"potovanja za promocijo projekta. Enostavno povedano, potrebujem pomoč za "
+"nadaljevanje vlaganja v ta projekt."
 
 #: template/buy.html:62
 msgid ""
 "You can donate the amount of your choice by clicking on the button below:"
-msgstr "Lahko prispevam količino po vaši izbiri s klikom na gumb spodaj:"
+msgstr "S klikom na spodnji gumb lahko donirate poljubno količino:"
 
 #: template/index.html:4
 msgid "GCompris Educational Software"
-msgstr "GCompris izobraževalna programska oprema"
+msgstr "Izobraževalna programska oprema GCompris"
 
 #: template/index.html:53 template/index.html:54
 msgid "Download GCompris"
-msgstr "Prenos GCompris"
+msgstr "Prejmi GCompris"
 
 #: template/index.html:55
 #, python-format
@@ -125,82 +126,85 @@ msgstr "Različica %(version)s"
 
 #: template/index.html:137
 msgid "View all screenshots"
-msgstr "Ogled vseh galerija"
+msgstr "Pokaži vse posnetke zaslona"
 
 #: template/index.html:144
 msgid ""
-"GCompris is a high quality educational software suite comprising of numerous "
-"activities for children aged 2 to 10."
+"GCompris is a high quality educational software suite comprising of "
+"numerous activities for children aged 2 to 10."
 msgstr ""
-"GCompris jevisoke kakovosti izobraževalne programske opreme suite, "
-"sestavljen iz številnih aktivnosti za otroke, stare od 2 do 10."
+"GCompris je kakovosten izobraževalni programski paket, ki sestoji iz "
+"številnih dejavnosti za otroke med 2 in 10 leti."
 
 #: template/index.html:145
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr "Nekatere dejavnosti so usmerjene igro, a kljub temu še vedno poučna."
+msgstr "Čeprav so nekatere dejavnosti igre, so kljub temu poučne."
 
 #: template/index.html:146
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr ""
-"Spodaj lahko najdete seznam kategorij z nekaterimi dejavnostmi na voljo v "
-"tej kategoriji."
+"Spodaj lahko najdete seznam kategorij in nekaj dejavnosti, ki se nahajajo v "
+"tisti kategoriji."
 
 #: template/index.html:148
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
-msgstr "Računalnik odkritje : tipkovnica, miška, različne miš poteza ..."
+msgstr "delo z računalnikom: tipkovnica, miška, kretnje miške, ..."
 
 #: template/index.html:149
 msgid ""
-"arithmetic: table memory, enumeration, double entry table, mirror image, ..."
-msgstr "aritmetično: miza spomin, štetje, dvostavno miza, zrcalna slika, ..."
+"arithmetic: table memory, enumeration, double entry table, mirror image, "
+"..."
+msgstr "računstvo: spomin z računi, štetje, prezrcali predmet, ..."
 
 #: template/index.html:150
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr ""
-"znanost :zaklepanje kanal,kroženje vode,podmornica, električna simulacija ..."
+"znanost: upravljanje vodnih kanalov, kroženje vode, podmornica, simulacija "
+"elektrike, ..."
 
 #: template/index.html:151
 msgid "geography: place the country on the map"
-msgstr "zemljepis : kraj, državo na zemljevidu"
+msgstr "zemljepis: postavi državo na zemljevid"
 
 #: template/index.html:152
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
-msgstr "igre: šah, spomin, connect 4, oware, sudoku ..."
+msgstr "igre: šah, spomin, štiri v vrsto, oware, sudoku ..."
 
 #: template/index.html:153
 msgid "reading: reading practice"
-msgstr "branje: branje praksa"
+msgstr "branje: bralne vaje"
 
 #: template/index.html:154
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr ""
-"drugo: naučiti gledati na uro, sestavljanko znanih slik, vektorsko risanje, "
-"risanka odločitev, ..."
+"drugo: poznavanje časa, sestavljanke iz slavnih slik, vektorsko risanje, "
+"izdelovanje risank, ..."
 
 #: template/index.html:156
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
-"developed. GCompris is free software, that means that you can adapt it to "
-"your own needs, improve it and, most importantly, share it with children "
-"everywhere."
+"developed. GCompris is free software, that means that you can adapt it to"
+" your own needs, improve it and, most importantly, share it with children"
+" everywhere."
 msgstr ""
-"Trenutno GCompris ponuja v več kot 100 aktivnosti in bolj se razvijajo. "
-"GCompris je brezplačna programska oprema, kar pomeni, da ga lahko "
-"prilagodijo svojim potrebam, jo izboljšati in kar je najpomembneje, ga "
-"delite z otroki povsod."
+"GCompris trenutno ponuja več kot 100 dejavnosti, še več pa jih je v razvoju. "
+"GCompris je prosta programska oprema, kar pomeni, da jo lahko prilagodite po "
+"svoje, še pomembneje pa je, da jo lahko delite z otroki širom sveta."
 
 #: template/index.html:162
 msgid "Latest news"
-msgstr "Zadnje novice"
+msgstr "Najnovejše novice"
 
 #: template/index.html:166
 msgid "All the news"
-msgstr "Vsenovice"
+msgstr "Vse novice"
+
+
