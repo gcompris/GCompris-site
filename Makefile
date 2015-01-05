@@ -1,5 +1,5 @@
 
-VERSION = 14.07
+VERSION = 14.12
 
 ALL_LINGUAS = bg br cs da de el es fr gd gl hu lt lv nl nn pl pt_BR ru sk sl sr sv ta th zh_TW 
 #ALL_LINGUAS = fr
@@ -46,7 +46,7 @@ update:
 	  header_end=`grep -n '^$$' locale/$$lang.po | head -1 | sed s/://`; \
 	  tail -n +$$header_end locale/$$lang.po > locale/tempfile; \
 	  mkdir -p locale/$$lang/LC_MESSAGES; \
-	  cat ~/Projets/gcompris/gcompris-gtk/po/$$lang.po locale/tempfile > locale/$$lang/LC_MESSAGES/gcompris.po; \
+	  cat ~/Projets/gcompris/gcompris-gtk/po/$$lang.po locale/tempfile | grep -v "^#~" > locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  rm -f locale/tempfile; \
 	  msgfmt locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
 	done;
