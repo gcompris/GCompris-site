@@ -32,6 +32,9 @@
           document.getElementById("otherDownloadOS2Link").href = macURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "MacOSX";
         }
+        androidURL = "https://play.google.com/store/apps/details?id=net.gcompris";
+        document.getElementById("androidDownloadLink").href = androidURL;
+        document.getElementById("androidDownloadLink").innerHTML = "Android";
       }
     </script>
     <script type="text/javascript">
@@ -58,6 +61,7 @@
 	</div>
       </div>
       <div class="row" style="width: 400px; margin: 0 auto">
+	<span><a class="extraInfoLink" id="androidDownloadLink"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
 	<span><a class="extraInfoLink" href="http://gcompris.net/download">Other</a></span>
@@ -161,7 +165,7 @@
 <hr class="featurette-divider"/>
 <h2 class="bigtitle">{% trans %}Latest news{% endtrans %}</h2>
 {% for onenews in news %}
-  {%- if loop.index == 1 %}{{ onenews }}{% endif %}
+  {%- if loop.index <= 2 %}{{ onenews }}{% endif %}
 {% endfor %}
 <a class="extraInfoLink" href="news{{ suffix }}.html">{% trans %}All the news{% endtrans %}</a>
 {% endblock %}
