@@ -1,16 +1,21 @@
 {% block onenews %}
-<div class="container bs-docs-container">
+<div id="{{ newsDate }}" class="container bs-docs-container">
   <div class="row news">
     <div class="col-xs-12 col-md-12">
       <div>
+      <div style="float: right;">
+	<a href="#{{ newsDate }}" style="color: black">
+	  <span class="glyphicon glyphicon-share"></span>
+	</a>
+      </div>
       <div class="newstitle" style="float: left; text-align: left;">{{ title }}</div>
-      <div class="newsdate" style="float: right; text-align: right;">{{ newsDate }}</div>
+      <div class="newsdate" style="float: right; text-align: right;">{{ newsDate }}&nbsp;</div>
       </div>
       <div style="clear: both;"></div>
       <div class="newscontent">{% block content %}{% endblock %}
 	{% set longcontentstyle = '' %}
 	{% if withlongcontent %}
-	  {% set longcontentstyle = 'display: none;' %}
+	  {% set longcontentstyle = 'display: block;' %}
 	{% endif %}
 	<div id="{{ fileName }}" style="{{ longcontentstyle }}">{% block longcontent %}{% endblock %}</div>
 	{% if withlongcontent %}
