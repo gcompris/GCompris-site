@@ -1,0 +1,15 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris für Android wurde veröffentlich' %}
+{% set withlongcontent = 1 %}
+{% block content %}
+<p>Wir freuen uns, die Veröffentlichung der ersten Version von GCompris für Android <a href='https://play.google.com/store/apps/details?id=net.gcompris'>auf dem Google Play Store</a> ankündigen zu können.</p>
+{% endblock %}
+{% block longcontent %}
+<p>Vor einem Jahr haben wir die schwierige Entscheidung getroffen, GCompris vollständigen in QtQuick neu zu implementieren, um die Software auch Nutzern von Tablet-Geräten zugänglich zu machen, ohne die Kompatibilität zu Desktop PCs aufgeben zu müssen. Wie man sich leicht vostellen kann, ist das ein zu gewaltiges Vorhaben für eine einzelne Person. Dank der Hilfe von vielen Mitwirkenden, die dem Projekt beigetreten sind, haben wir es geschafft, in einem Jahr 86 der 140 Aktivitäten der Originalversion zu portieren. <a href='http://gcompris.net/wiki/Qt_Quick_Migration_status'>Auf den Wiki Seiten</a> kann der genaue Status des Projekts nachgelesen werden. Wir hoffen, in einem weiteren Jahr den Port fertigstellen zu können. Die neue Version ist bei weitem nicht perfekt und wir arbeiten ständig daran, sie weiter zu verbessern, haben aber gegenüber der alten Version schon jetzt eine bessere User-Experience erreicht.</p>
+
+<p>Wir wollen diese Gelegenheit nutzen, um der <a href='https://www.kde.org/community/'>KDE Community</a> zu danken, die uns unkompliziert und herzlich unter ihrem breiten Dach aufgenommen hat. Dank ihr konnten wir viele neue Helfer, Entwickler und Übersetzer gewinnen und nicht zuletzt haben wir von ihrem großen technischen Know-How und ihrer Infrastruktur profitiert.</p>
+
+<p>Um einige Zahlen zu nennen: In einem Jahr gab es 1211 commits, von 19 Entwicklern im GCompris-qt Projekt, das inzwischen mehr als 34000 Zeilen Quellcode umfaßt, und 8 Übersetzer-Teams des KDE-Projekts haben es geschafft, vollständige Übersetzungen fertigzustellen (bei 100% sind Ukrainisch, Schwedisch, Portugiesisch, Polnisch, Französisch, Niederländisch, vereinfachtes Chinesisch, und Brasilianisches Portugiesisch).</p>
+
+<p>Die vollständige Android-Version, kann derzeit für 6€ im Play Store freigeschaltet werden, wobei sich der Preis noch ändern kann in Abhängigkeit davon, was sich bei diesem Vertriebsmodell als optimal herausstellt. Softwareentwicklung ist viel Arbeit und für GCompris zu bezahlen ist ein guter Weg, um uns und dem Projekt, das uns am Herzen liegt, etwas zurückzugeben und damit dessen weitere Entwicklung zu unterstützen. Eine andere einfache Möglichkeit uns zu helfen ist, die Nachricht weiterzuverbreiten und die App auf dem Play Store zu bewerten.</p>
+{% endblock %}
