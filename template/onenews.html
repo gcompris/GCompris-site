@@ -13,14 +13,7 @@
       </div>
       <div style="clear: both;"></div>
       <div class="newscontent">{% block content %}{% endblock %}
-	{% set longcontentstyle = '' %}
-	{% if withlongcontent %}
-	  {% set longcontentstyle = 'display: block;' %}
-	{% endif %}
-	<div id="{{ fileName }}" style="{{ longcontentstyle }}">{% block longcontent %}{% endblock %}</div>
-	{% if withlongcontent %}
-	  <a id="newsToggle{{ fileName }}" onclick = "toggle('{{ fileName }}', 'newsToggle{{ fileName }}')">+ + +</a>
-	{% endif %}
+	<div>{% block longcontent %}{% endblock %}</div>
       </div>
     </div>
   </div>
