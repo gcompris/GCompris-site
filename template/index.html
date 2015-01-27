@@ -10,9 +10,14 @@
         windowsURL = "http://gcompris.net/download/gcompris-{{ version }}.exe";
         macURL = "download_macosx{{ suffix }}.html";
         linuxURL = "apt://gcompris";
+        androidURL = "https://play.google.com/store/apps/details?id=net.gcompris";
         if ( (/^Windows/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = windowsURL;
           document.getElementById("downloadOS").innerHTML = "Windows";
+          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
+          document.getElementById("downloadDetails").innterHTML = "{% trans %}Version {{version}}{% endtrans %}";
+          document.getElementById("otherDownloadOS0Link").href = androidURL;
+          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
           document.getElementById("otherDownloadOS1Link").href = macURL;
           document.getElementById("otherDownloadOS1Link").innerHTML = "MacOSX";
           document.getElementById("otherDownloadOS2Link").href = linuxURL;
@@ -20,21 +25,37 @@
         } else if ( (/(Mac|OS X)/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = macURL;
           document.getElementById("downloadOS").innerHTML = "MacOSX";
+          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
+          document.getElementById("downloadDetails").innterHTML = "";
+          document.getElementById("otherDownloadOS0Link").href = androidURL;
+          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
           document.getElementById("otherDownloadOS1Link").href = windowsURL;
           document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS2Link").href = linuxURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
-        }else {
+        } else if ( (/^Android/).test(platform.os.family)) {
+          document.getElementById("downloadButton").href = androidURL;
+          document.getElementById("downloadOS").innerHTML = "Android";
+          document.getElementById("downloadButtonImg").src = "downloadAndroid.png";
+          document.getElementById("downloadDetails").innterHTML = "";
+          document.getElementById("otherDownloadOS0Link").href = windowsURL;
+          document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
+          document.getElementById("otherDownloadOS1Link").href = macURL;
+          document.getElementById("otherDownloadOS1Link").innerHTML = "MacOSX";
+          document.getElementById("otherDownloadOS2Link").href = linuxURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
+        } else {
           document.getElementById("downloadButton").href = linuxURL;
           document.getElementById("downloadOS").innerHTML = "Linux";
+          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
+          document.getElementById("downloadDetails").innterHTML = "{% trans %}Version {{version}}{% endtrans %}";
+          document.getElementById("otherDownloadOS0Link").href = androidURL;
+          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
           document.getElementById("otherDownloadOS1Link").href = windowsURL;
           document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS2Link").href = macURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "MacOSX";
         }
-        androidURL = "https://play.google.com/store/apps/details?id=net.gcompris";
-        document.getElementById("androidDownloadLink").href = androidURL;
-        document.getElementById("androidDownloadLink").innerHTML = "Android";
       }
     </script>
     <script type="text/javascript">
@@ -53,15 +74,15 @@
       <div class="row">
 	<div style="width: 400px; margin: 0 auto">
 	  <a id="downloadButton">
-	    <img alt="{% trans %}Download GCompris{% endtrans %}" src="downloadGCompris.png" style="position: absolute; top: -10px; left: -10px;"/>
+	    <img id="downloadButtonImg" alt="{% trans %}Download GCompris{% endtrans %}" src="empty.png" style="position: absolute; top: -10px; left: -10px;"/>
 	    <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
-	    <span id="downloadDetails" style="font-size: 12px; color: white;">{% trans %}Version {{version}}{% endtrans %}</span>
+	    <span id="downloadDetails" style="font-size: 12px; color: white;"></span>
 	    <span id="downloadOS"></span>
 	  </a>
 	</div>
       </div>
       <div class="row" style="width: 400px; margin: 0 auto">
-	<span><a class="extraInfoLink" id="androidDownloadLink"></a></span>
+	<span><a class="extraInfoLink" id="otherDownloadOS0Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
 	<span><a class="extraInfoLink" href="http://gcompris.net/download">Other</a></span>
