@@ -49,7 +49,6 @@ msgstr ""
 "%(demo_activities)s из %(total_activities)s доступных."
 
 #: template/buy.html:21
-#, fuzzy
 msgid ""
 "Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
@@ -58,15 +57,16 @@ msgid ""
 msgstr ""
 "Если вы хотите использовать все доступные игры, то для этого нажмите кнопку "
 "PayPal внизу, чтобы заплатить 9€ за персональный код активации. В течение 1 "
-"минуты после оплаты вы получите по e-mail код активации и необходимые "
-"инструкции. Если вы не получили код, напишите мне по адресу: bruno."
-"coudoin@gcompris.net на английском или французском языке."
+"минуты после оплаты вы получите по электронной почте код активации и "
+"необходимые инструкции. Если вы не получили код (проверьте папку спам), то "
+"напишите мне по адресу bruno.coudoin@gcompris.net на английском или"
+"французском языке."
 
 #: template/buy.html:22
 msgid "Contact me to get a quote for your school."
 msgstr ""
-"Если вы хотите получить коммерческое предложение для своей школы, свяжитесь "
-"со мной."
+"Если вы хотите получить коммерческое предложение для своей школы или другого"
+"образовательного учреждения, свяжитесь со мной."
 
 #: template/buy.html:41
 msgid ""
@@ -87,7 +87,7 @@ msgstr ""
 #: template/buy.html:44
 msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
 msgstr ""
-"Юридические справки: Компания Бруно Coudoin RCS Тулуза Франция 498 157 536."
+"Юридические справки: Компания Bruno Coudoin RCS, Тулуза, Франция 498 157 536."
 
 #: template/buy.html:56
 msgid "Donate"
@@ -108,7 +108,7 @@ msgid ""
 "investment in this project."
 msgstr ""
 "Разработка программ занимает много времени, требует покупки оборудования и "
-"средств для продвижения проекта. Проще говоря, мне нужна ваша помощь, чтобы "
+"средств для продвижения проекта. Проще говоря, нам нужна ваша помощь, чтобы "
 "продолжать развивать GCompris."
 
 #: template/buy.html:62
@@ -146,16 +146,16 @@ msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr ""
-"Некоторые из этих мероприятий являются игры ориентированы, но тем не менее "
-"до сих пор образовательные."
+"Часть из них являются просто играми, но в любом случае, обучающими."
+""
 
 #: template/index.html:146
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr ""
-"Ниже вы можете найтисписок категорий с некоторыми из мероприятий, доступных "
-"в этой категории."
+"Ниже вы можете найти список категорий упражнений."
+""
 
 #: template/index.html:148
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
@@ -180,19 +180,19 @@ msgstr "география: размести страны на карте; …"
 
 #: template/index.html:152
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
-msgstr "игры: шахматы; развитие памяти; соедини четыре точки; судоку; …"
+msgstr "игры: шахматы; соедини точки; судоку; игры на развитие памяти;…"
 
 #: template/index.html:153
 msgid "reading: reading practice"
-msgstr "чтение: практика чтения; …"
+msgstr "чтение: практика чтения; изучение иностранных языков …"
 
 #: template/index.html:154
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr ""
-"многое другое: как читать часы и минуты; паззлы; рисование; создание "
-"мультиков; …"
+"многое другое: как узнать время по часам; пазлы; рисование; создание "
+"мультфильмов; …"
 
 #: template/index.html:156
 msgid ""
@@ -202,10 +202,10 @@ msgid ""
 "everywhere."
 msgstr ""
 "В настоящий момент в GCompris входит более ста упражнений и постоянно "
-"разрабатываются новые. GCompris — это свободная программная платформа. Это "
-"означает, что её можно адаптировать под свои нужды, улучшать, создавать свои "
-"собственные упражнения, и, самое главное, дарить детям всего мира "
-"возможность пользоваться ею."
+"разрабатываются новые. GCompris — это свободная программная платформа с"
+"открытым исходным кодом. Это означает, что её можно адаптировать под свои"
+"нужды, улучшать, создавать свои собственные упражнения, и, самое главное,"
+"дарить детям всего мира возможность пользоваться ими."
 
 #: template/index.html:162
 msgid "Latest news"
