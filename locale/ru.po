@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"POT-Creation-Date: 2015-01-29 01:45+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru <LL@li.org>\n"
@@ -59,14 +59,14 @@ msgstr ""
 "PayPal внизу, чтобы заплатить 9€ за персональный код активации. В течение 1 "
 "минуты после оплаты вы получите по электронной почте код активации и "
 "необходимые инструкции. Если вы не получили код (проверьте папку спам), то "
-"напишите мне по адресу bruno.coudoin@gcompris.net на английском или"
-"французском языке."
+"напишите мне по адресу bruno.coudoin@gcompris.net на английском "
+"илифранцузском языке."
 
 #: template/buy.html:22
 msgid "Contact me to get a quote for your school."
 msgstr ""
-"Если вы хотите получить коммерческое предложение для своей школы или другого"
-"образовательного учреждения, свяжитесь со мной."
+"Если вы хотите получить коммерческое предложение для своей школы или "
+"другогообразовательного учреждения, свяжитесь со мной."
 
 #: template/buy.html:41
 msgid ""
@@ -120,20 +120,24 @@ msgstr "Вы можете пожертвовать любую сумму, наж
 msgid "GCompris Educational Software"
 msgstr "GCompris образовательные программы"
 
-#: template/index.html:53 template/index.html:54
-msgid "Download GCompris"
-msgstr "Скачать GCompris"
-
-#: template/index.html:55
+#: template/index.html:18 template/index.html:51
 #, python-format
 msgid "Version %(version)s"
 msgstr "Версия %(version)s"
 
-#: template/index.html:137
+#: template/index.html:77 template/index.html:78
+msgid "Download GCompris"
+msgstr "Скачать GCompris"
+
+#: template/index.html:88
+msgid "Other"
+msgstr ""
+
+#: template/index.html:162
 msgid "View all screenshots"
 msgstr "Смотреть все скриншоты"
 
-#: template/index.html:144
+#: template/index.html:169
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -141,52 +145,48 @@ msgstr ""
 "GCompris представляет собой пакет обучающих программ для детей от 2 до 10 "
 "лет, состоящий из различных упражнений и игр образовательного характера."
 
-#: template/index.html:145
+#: template/index.html:170
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr ""
-"Часть из них являются просто играми, но в любом случае, обучающими."
-""
+msgstr "Часть из них являются просто играми, но в любом случае, обучающими."
 
-#: template/index.html:146
+#: template/index.html:171
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
-msgstr ""
-"Ниже вы можете найти список категорий упражнений."
-""
+msgstr "Ниже вы можете найти список категорий упражнений."
 
-#: template/index.html:148
+#: template/index.html:173
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr ""
 "основы компьютерной грамотности: использование клавиатуры и мыши; падающие "
 "буквы; …"
 
-#: template/index.html:149
+#: template/index.html:174
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "арифметика: основы счёта; таблица умножения; сложение и вычитание; …"
 
-#: template/index.html:150
+#: template/index.html:175
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "основы физики: электричество; круговорот воды; подводная лодка; …"
 
-#: template/index.html:151
+#: template/index.html:176
 msgid "geography: place the country on the map"
 msgstr "география: размести страны на карте; …"
 
-#: template/index.html:152
+#: template/index.html:177
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "игры: шахматы; соедини точки; судоку; игры на развитие памяти;…"
 
-#: template/index.html:153
+#: template/index.html:178
 msgid "reading: reading practice"
 msgstr "чтение: практика чтения; изучение иностранных языков …"
 
-#: template/index.html:154
+#: template/index.html:179
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -194,7 +194,7 @@ msgstr ""
 "многое другое: как узнать время по часам; пазлы; рисование; создание "
 "мультфильмов; …"
 
-#: template/index.html:156
+#: template/index.html:181
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -202,15 +202,15 @@ msgid ""
 "everywhere."
 msgstr ""
 "В настоящий момент в GCompris входит более ста упражнений и постоянно "
-"разрабатываются новые. GCompris — это свободная программная платформа с"
-"открытым исходным кодом. Это означает, что её можно адаптировать под свои"
-"нужды, улучшать, создавать свои собственные упражнения, и, самое главное,"
+"разрабатываются новые. GCompris — это свободная программная платформа "
+"соткрытым исходным кодом. Это означает, что её можно адаптировать под "
+"своинужды, улучшать, создавать свои собственные упражнения, и, самое главное,"
 "дарить детям всего мира возможность пользоваться ими."
 
-#: template/index.html:162
+#: template/index.html:187
 msgid "Latest news"
 msgstr "последние известия"
 
-#: template/index.html:166
+#: template/index.html:191
 msgid "All the news"
 msgstr "Все новости"

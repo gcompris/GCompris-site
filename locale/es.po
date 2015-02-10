@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"POT-Creation-Date: 2015-01-29 01:45+0100\n"
 "PO-Revision-Date: 2013-09-12 17:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -115,20 +115,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr "GCompris cómputo educacional"
 
-#: template/index.html:53 template/index.html:54
-msgid "Download GCompris"
-msgstr "Descargar GCompris"
-
-#: template/index.html:55
+#: template/index.html:18 template/index.html:51
 #, python-format
 msgid "Version %(version)s"
 msgstr "Versión %(version)s"
 
-#: template/index.html:137
+#: template/index.html:77 template/index.html:78
+msgid "Download GCompris"
+msgstr "Descargar GCompris"
+
+#: template/index.html:88
+msgid "Other"
+msgstr ""
+
+#: template/index.html:162
 msgid "View all screenshots"
 msgstr "Ver imágenes"
 
-#: template/index.html:144
+#: template/index.html:169
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -136,50 +140,50 @@ msgstr ""
 "GCompris es un programa de cómputo educacional con diferentes actividades "
 "para niños entre 2 y 10 años de edad."
 
-#: template/index.html:145
+#: template/index.html:170
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "Algunas actividades son como juegos, pero siempre son educacionales"
 
-#: template/index.html:146
+#: template/index.html:171
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "Encontrarás algunas actividades dentro de los siguientes temas:"
 
-#: template/index.html:148
+#: template/index.html:173
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr ""
 "descubriendo la computadora: teclado, ratón, diferentes movimientos del "
 "ratón, ..."
 
-#: template/index.html:149
+#: template/index.html:174
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
 "aritmética: tabla de memoria, enumeración, tabla de doble entrada (balance), "
 "imagen espejo, ..."
 
-#: template/index.html:150
+#: template/index.html:175
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "Ciencia: El canal, El ciclo del agua, El submarino, ..."
 
-#: template/index.html:151
+#: template/index.html:176
 msgid "geography: place the country on the map"
 msgstr "geografía: Coloca los países en el mapa."
 
-#: template/index.html:152
+#: template/index.html:177
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "juegos: ajedrez, memoria, ..."
 
-#: template/index.html:153
+#: template/index.html:178
 msgid "reading: reading practice"
 msgstr "lectura: práctica de lectura"
 
-#: template/index.html:154
+#: template/index.html:179
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -187,7 +191,7 @@ msgstr ""
 "otros: Aprende a decir la hora, Rompecabezas de pinturas famosas, dibujos "
 "por vectores, ..."
 
-#: template/index.html:156
+#: template/index.html:181
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -199,10 +203,10 @@ msgstr ""
 "posibilidad de adaptarlo a tus necesidades, o de mejorarlo, y porque no, de "
 "compartir tu trabajo con niños de todo el mundo."
 
-#: template/index.html:162
+#: template/index.html:187
 msgid "Latest news"
 msgstr "Noticias Recientes"
 
-#: template/index.html:166
+#: template/index.html:191
 msgid "All the news"
 msgstr "Todas las noticias"

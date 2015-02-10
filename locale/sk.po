@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"POT-Creation-Date: 2015-01-29 01:45+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sk <LL@li.org>\n"
@@ -115,20 +115,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr "GCompris vzdelávací softvér"
 
-#: template/index.html:53 template/index.html:54
-msgid "Download GCompris"
-msgstr "Stiahnuť GCompris"
-
-#: template/index.html:55
+#: template/index.html:18 template/index.html:51
 #, python-format
 msgid "Version %(version)s"
 msgstr "Verzia %(version)s"
 
-#: template/index.html:137
+#: template/index.html:77 template/index.html:78
+msgid "Download GCompris"
+msgstr "Stiahnuť GCompris"
+
+#: template/index.html:88
+msgid "Other"
+msgstr ""
+
+#: template/index.html:162
 msgid "View all screenshots"
 msgstr "Zobraziť všetky screenshoty"
 
-#: template/index.html:144
+#: template/index.html:169
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -136,14 +140,14 @@ msgstr ""
 "GCompris je balík výučbového softvéru pozostavajúci z rôznych aktivít pre "
 "deti vo veku 2 až 10 rokov."
 
-#: template/index.html:145
+#: template/index.html:170
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr ""
 "Niektoré z aktivít sú herne orientované, ale napriek tomu stále výučbové."
 
-#: template/index.html:146
+#: template/index.html:171
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -151,34 +155,34 @@ msgstr ""
 "Nižšie môžte nájsť zoznam kategórií s niektorými aktivitami prístupnými v "
 "tejto kategórii."
 
-#: template/index.html:148
+#: template/index.html:173
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "objavovanie počítača: klávesnica, myš, rôzne 'myšacie gestá', ..."
 
-#: template/index.html:149
+#: template/index.html:174
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "aritmetický: malá násobilka, počítanie, zrkadlenie, ..."
 
-#: template/index.html:150
+#: template/index.html:175
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "veda: priehrada, vodný cyklus, ponorka, elektrická simulácia ..."
 
-#: template/index.html:151
+#: template/index.html:176
 msgid "geography: place the country on the map"
 msgstr "geografia: urči krajinu na mape"
 
-#: template/index.html:152
+#: template/index.html:177
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "hry: šach, pamäť, spoj 4, sudoku ..."
 
-#: template/index.html:153
+#: template/index.html:178
 msgid "reading: reading practice"
 msgstr "čítanie: precvičovanie čítania"
 
-#: template/index.html:154
+#: template/index.html:179
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -186,7 +190,7 @@ msgstr ""
 "ostatné: nauč sa určit čas, puzzle so známymi maľbami, vektorové kreslenie, "
 "vytváranie komiksov, ..."
 
-#: template/index.html:156
+#: template/index.html:181
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -198,10 +202,10 @@ msgstr ""
 "prispôsobiť podľa vlastných potrieb, vylepšiť ho a hľavne, zdielať ho s "
 "deťmi všade na svete."
 
-#: template/index.html:162
+#: template/index.html:187
 msgid "Latest news"
 msgstr "Posledné novinky"
 
-#: template/index.html:166
+#: template/index.html:191
 msgid "All the news"
 msgstr "Všetky novinky"

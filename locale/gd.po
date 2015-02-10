@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-Unofficial\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"POT-Creation-Date: 2015-01-29 01:45+0100\n"
 "PO-Revision-Date: 2013-09-26 06:37+0000\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/projects/p/"
@@ -119,20 +119,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr ""
 
-#: template/index.html:53 template/index.html:54
-msgid "Download GCompris"
-msgstr "Luchdaich a-nuas GCompris"
-
-#: template/index.html:55
+#: template/index.html:18 template/index.html:51
 #, python-format
 msgid "Version %(version)s"
 msgstr "Tionndadh %(version)s"
 
-#: template/index.html:137
+#: template/index.html:77 template/index.html:78
+msgid "Download GCompris"
+msgstr "Luchdaich a-nuas GCompris"
+
+#: template/index.html:88
+msgid "Other"
+msgstr ""
+
+#: template/index.html:162
 msgid "View all screenshots"
 msgstr "Seall na h-uile glacadh-sgrìn"
 
-#: template/index.html:144
+#: template/index.html:169
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -140,7 +144,7 @@ msgstr ""
 "'S e sreath de phrògraman foghlaim a th' ann an GCompris le deagh chàileachd "
 "is tha iomadh cleas na bhroinn airson clann aois 2 gu 10."
 
-#: template/index.html:145
+#: template/index.html:170
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
@@ -148,7 +152,7 @@ msgstr ""
 "'S e geamannan a th' ann an cuid dhe na cleasan ach tha iad math airson "
 "foghlam co-dhiù."
 
-#: template/index.html:146
+#: template/index.html:171
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -156,20 +160,20 @@ msgstr ""
 "Chì thu liosta dhe na roinnean-seòrsa gu h-ìosal le cuid dhe na cleasan a "
 "tha ri am faighinn anns gach roinn."
 
-#: template/index.html:148
+#: template/index.html:173
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr ""
 "Faigh a-mach mun choimpiutair: am meur-chlàr, an luchag, gluasadan na "
 "luchaige, ..."
 
-#: template/index.html:149
+#: template/index.html:174
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
 "àireamhachd: cuimhnich na clàran, àireamhachadh, an griod, sgàthanaich "
 "dealbh, ..."
 
-#: template/index.html:150
+#: template/index.html:175
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
@@ -177,19 +181,19 @@ msgstr ""
 "saidheans: loc canail, cearcall an uisge, bàta-tumaidh, atharrais sgeama "
 "dealain, ..."
 
-#: template/index.html:151
+#: template/index.html:176
 msgid "geography: place the country on the map"
 msgstr "cruinn-eòlas: suidhich an dùthaich air a' mhapa"
 
-#: template/index.html:152
+#: template/index.html:177
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "geamannan: tàileasg, cuimhne, ceangail 4, oware, sudoku, ..."
 
-#: template/index.html:153
+#: template/index.html:178
 msgid "reading: reading practice"
 msgstr "leughadh: cleachd do sgilean leughaidh"
 
-#: template/index.html:154
+#: template/index.html:179
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -197,7 +201,7 @@ msgstr ""
 "eile: ionnsaich an uaireadair, tòimhseachain le dealbhan cliùiteach, "
 "tarraing vector, dèan cartùn, ..."
 
-#: template/index.html:156
+#: template/index.html:181
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -209,10 +213,10 @@ msgstr ""
 "thu gleus a chur air a-rèir nam feumalachdan agad fhèin, a leasachadh is gu "
 "h-àraidh a cho-roinn leis a' chlann air fheadh an t-saoghail."
 
-#: template/index.html:162
+#: template/index.html:187
 msgid "Latest news"
 msgstr "Na naidheachdan as ùire"
 
-#: template/index.html:166
+#: template/index.html:191
 msgid "All the news"
 msgstr "A h-uile naidheachd"

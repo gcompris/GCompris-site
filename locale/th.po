@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"POT-Creation-Date: 2015-01-29 01:45+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
@@ -110,20 +110,24 @@ msgstr "คุณสามารถบริจาค เงิน ที่ค�
 msgid "GCompris Educational Software"
 msgstr "GCompris ซอฟต์แวร์เพื่อการศึกษา"
 
-#: template/index.html:53 template/index.html:54
-msgid "Download GCompris"
-msgstr "ดาวน์โหลด GCompris"
-
-#: template/index.html:55
+#: template/index.html:18 template/index.html:51
 #, python-format
 msgid "Version %(version)s"
 msgstr "รุ่น %(version)s"
 
-#: template/index.html:137
+#: template/index.html:77 template/index.html:78
+msgid "Download GCompris"
+msgstr "ดาวน์โหลด GCompris"
+
+#: template/index.html:88
+msgid "Other"
+msgstr ""
+
+#: template/index.html:162
 msgid "View all screenshots"
 msgstr "ดู หน้าจอทั้งหมด"
 
-#: template/index.html:144
+#: template/index.html:169
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -131,46 +135,46 @@ msgstr ""
 "GCompris คือคุณภาพการศึกษา ชุดซอฟต์แวร์ สูง ประกอบไปด้วย กิจกรรมมากมาย สำหรับเด็กอายุ "
 "2-10"
 
-#: template/index.html:145
+#: template/index.html:170
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "บางส่วนของ กิจกรรมที่ เป็น เกม ที่เน้น แต่อย่างไรก็ตาม การศึกษา ยังคง"
 
-#: template/index.html:146
+#: template/index.html:171
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "ด้านล่างคุณ สามารถหารายชื่อของประเภท ที่มี บางกิจกรรม ที่มีอยู่ใน ประเภทที่"
 
-#: template/index.html:148
+#: template/index.html:173
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "การค้นพบ คอมพิวเตอร์ แป้นพิมพ์เมาส์, เมาส์ ท่าทาง ที่แตกต่างกัน ..."
 
-#: template/index.html:149
+#: template/index.html:174
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "พคณิตศาสตร์ : หน่วยความจำ ตาราง แจงนับ, ตาราง รายการ คู่ ภาพสะท้อนในกระจก ..."
 
-#: template/index.html:150
+#: template/index.html:175
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "วิทยาศาสตร์ :คลอง วงจร น้ำ,ดำน้ำ, การจำลอง ไฟฟ้า ..."
 
-#: template/index.html:151
+#: template/index.html:176
 msgid "geography: place the country on the map"
 msgstr "ภูมิศาสตร์ : คันทรีเพลสบนแผนที่"
 
-#: template/index.html:152
+#: template/index.html:177
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "เกม หมากรุก, หน่วยความจำ การเชื่อมต่อ 4 oware, ซูโดกุ ..."
 
-#: template/index.html:153
+#: template/index.html:178
 msgid "reading: reading practice"
 msgstr "การอ่าน ฝึกอ่าน"
 
-#: template/index.html:154
+#: template/index.html:179
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -178,7 +182,7 @@ msgstr ""
 "อื่น ๆ เรียนรู้ที่จะ บอกเวลา, จิ๊กซอว์ ของภาพวาด ที่มีชื่อเสียง วาดภาพ เวกเตอร์, การทำ "
 "การ์ตูน ..."
 
-#: template/index.html:156
+#: template/index.html:181
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -189,10 +193,10 @@ msgstr ""
 "เป็นซอฟต์แวร์ ฟรี ที่ หมายความว่าคุณสามารถ ปรับให้ เข้ากับความต้องการ ของคุณเอง "
 "ปรับปรุงให้ดีขึ้น และที่สำคัญที่สุด ร่วมกัน กับเด็ก ทุกที่"
 
-#: template/index.html:162
+#: template/index.html:187
 msgid "Latest news"
 msgstr "ข่าวล่าสุด"
 
-#: template/index.html:166
+#: template/index.html:191
 msgid "All the news"
 msgstr "ข่าวทั้งหมด"

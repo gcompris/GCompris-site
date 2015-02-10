@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"POT-Creation-Date: 2015-01-29 01:45+0100\n"
 "PO-Revision-Date: 2013-09-12 17:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -108,71 +108,75 @@ msgstr "您可以通過點擊下面的按鈕，您選擇的捐贈金額："
 msgid "GCompris Educational Software"
 msgstr "的GCompris教育軟件"
 
-#: template/index.html:53 template/index.html:54
-msgid "Download GCompris"
-msgstr "下載的GCompris"
-
-#: template/index.html:55
+#: template/index.html:18 template/index.html:51
 #, python-format
 msgid "Version %(version)s"
 msgstr "版本%(version)s"
 
-#: template/index.html:137
+#: template/index.html:77 template/index.html:78
+msgid "Download GCompris"
+msgstr "下載的GCompris"
+
+#: template/index.html:88
+msgid "Other"
+msgstr ""
+
+#: template/index.html:162
 msgid "View all screenshots"
 msgstr "查看所有截圖"
 
-#: template/index.html:144
+#: template/index.html:169
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
 msgstr "GCompris是一款高品質的教育軟件套件，包括眾多的活動為2至10歲的兒童。"
 
-#: template/index.html:145
+#: template/index.html:170
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "有些活動是遊戲導向的，但仍然教育。"
 
-#: template/index.html:146
+#: template/index.html:171
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "下面你可以找到與該類別中的一些活動類別列表。"
 
-#: template/index.html:148
+#: template/index.html:173
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "計算機發現：鍵盤，鼠標，鼠標手勢不同， ..."
 
-#: template/index.html:149
+#: template/index.html:174
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "算術：表記憶，枚舉，雙項表，鏡像， ..."
 
-#: template/index.html:150
+#: template/index.html:175
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "科學：運河水閘，水循環，潛艇，電動模擬..."
 
-#: template/index.html:151
+#: template/index.html:176
 msgid "geography: place the country on the map"
 msgstr "地理：地方在地圖上的國家"
 
-#: template/index.html:152
+#: template/index.html:177
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "遊戲：國際象棋，內存，連接4 oware ，數獨......"
 
-#: template/index.html:153
+#: template/index.html:178
 msgid "reading: reading practice"
 msgstr "閱讀：閱讀練習"
 
-#: template/index.html:154
+#: template/index.html:179
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr "其它：學會講時間，名畫，矢量繪圖，動畫製作，益智..."
 
-#: template/index.html:156
+#: template/index.html:181
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -182,10 +186,10 @@ msgstr ""
 "目前的GCompris提供超過100個活動和正在開發中。 GCompris是自由軟件，這意味著，"
 "你能適應自己的需要，提高它，最重要的是，與世界各地的兒童分享。"
 
-#: template/index.html:162
+#: template/index.html:187
 msgid "Latest news"
 msgstr "最新消息"
 
-#: template/index.html:166
+#: template/index.html:191
 msgid "All the news"
 msgstr "全部新聞"
