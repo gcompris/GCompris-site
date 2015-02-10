@@ -1,0 +1,172 @@
+# Italian translation for PROJECT.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <p.gibellini@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-09-07 16:58+0200\n"
+"PO-Revision-Date: 2015-01-21 02:23+0100\n"
+"Last-Translator: Paolo Gibellini <p.gibellini@gmail.com>\n"
+"Language-Team: IT <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: it\n"
+"X-Generator: Poedit 1.7.3\n"
+
+# Mi sembra che "Notizie" sia meno espressivo come traduzione
+#: template/base.html:70
+msgid "News"
+msgstr "Novità"
+
+#: template/base.html:71 template/buy.html:4 template/buy.html:9
+msgid "Buy / Donate"
+msgstr "Acquisto / Donazione"
+
+#: template/base.html:72
+msgid "Screenshots"
+msgstr "Schermate"
+
+#: template/base.html:74
+msgid "Contribute"
+msgstr "Contribuire"
+
+#: template/buy.html:16
+msgid "Buying the Windows or MacOSX version"
+msgstr "Acquistare la versione per Windows o MacOSX"
+
+#: template/buy.html:20
+#, python-format
+msgid "The Windows and MacOSX versions have a limited number of activities, about %(demo_activities)s on the %(total_activities)s available."
+msgstr "Le versioni per Windows e MacOSX hanno un numero limitato di attività, circa %(demo_activities)s su %(total_activities)s disponibili."
+
+#: template/buy.html:21
+msgid ""
+"Click on the button below let you pay 9&euro; for the activation code. After payment you will receive immediately an email with your instructions (check "
+"your spam folder). If you do not receive this email please write me at bruno.coudoin@gcompris.net"
+msgstr ""
+"Facendo clic sul pulsante sottostante, procedete con il pagamento di 9&euro; per il codice di attivazione. Dopo il pagamento riceverete immediatamente "
+"un'email con le istruzioni (se non la trovaste, verificate la vostra cartella con i messaggi della posta indesiderata). Nel caso in cui non doveste "
+"ricevere questa email, vi prego di scrivermi all'indirizzo bruno.coudoin@gcompris.net"
+
+#: template/buy.html:22
+msgid "Contact me to get a quote for your school."
+msgstr "Contattatemi per richiedere un preventivo per la vostra scuola"
+
+#: template/buy.html:41
+msgid ""
+"The registration gives you the right to update to any new release of GCompris for 2 years. After that period, you can continue to use the latest release "
+"you got for as long as you wish."
+msgstr ""
+"La registrazione vi dà diritto ad aggiornare a ogni nuova versione di GCompris per 2 anni. Dopo questo periodo, potrete continuare ad utilizzare per "
+"tutto il tempo che desiderate l'ultima versione ottenuta."
+
+#: template/buy.html:42 template/buy.html:72
+msgid "Thanks for your support of free software in education."
+msgstr "Grazie per aver sostenuto il software libero nella didattica."
+
+#: template/buy.html:44
+msgid "Legal reference: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+msgstr "Riferimenti legali: Company Bruno Coudoin RCS Toulouse France 498 157 536."
+
+#: template/buy.html:56
+msgid "Donate"
+msgstr "Donazione"
+
+#: template/buy.html:60
+msgid "You, your children, your classroom love GCompris. You have now the opportunity to help this project."
+msgstr "Tu, i tuoi bambini, la tua classe amate GCompris. Adesso avete l'opportunità di aiutare questo progetto."
+
+#: template/buy.html:61
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies moving to promote the project. Said simply, I need your help to continue my "
+"investment in this project."
+msgstr ""
+"Sviluppare software richiede molto tempo, serve hardware, comporta spostamenti per promuovere il progetto. In parole povere, io ho bisogno del vostro "
+"aiuto per continuare a investire il mio tempo in questo progetto."
+
+#: template/buy.html:62
+msgid "You can donate the amount of your choice by clicking on the button below:"
+msgstr "Potete donare un importo a vostra scelta facendo clic sul pulsante sottostante:"
+
+# Ma anche "GCompris - Software Didattico"
+#: template/index.html:4
+msgid "GCompris Educational Software"
+msgstr "Software didattico GCompris"
+
+# Non mi piace "Scaricamento di GCompris"...
+#: template/index.html:53 template/index.html:54
+msgid "Download GCompris"
+msgstr "Scaricare GCompris"
+
+#: template/index.html:55
+#, python-format
+msgid "Version %(version)s"
+msgstr "Versione %(version)s"
+
+#: template/index.html:137
+msgid "View all screenshots"
+msgstr "Mostra tutte le schermate"
+
+#: template/index.html:144
+msgid "GCompris is a high quality educational software suite comprising of numerous activities for children aged 2 to 10."
+msgstr "GCompris è una collezione di software didattico di alta qualità che offre differenti attività ai bambini dai 2 ai 10 anni."
+
+# Anche "sono educative" o "sono a carattere didattico"
+#: template/index.html:145
+msgid "Some of the activities are game orientated, but nonetheless still educational."
+msgstr "Alcune attività sono orientate al gioco, ma, in ogni caso, hanno valore didattico."
+
+#: template/index.html:146
+msgid "Below you can find a list of categories with some of the activities available in that category."
+msgstr "Di seguito si trova un elenco di categorie, con alcune delle attività disponibili in ciascuna categoria."
+
+# "gestures" potrebbe essere reso anche come "puntamento" o come "posizioni", ma ho lasciato il termine utilizzato nella vecchia versione italiana del gioco
+#: template/index.html:148
+msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
+msgstr "scoperta del computer: tastiera, mouse, movimento del mouse, ..."
+
+#: template/index.html:149
+msgid "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
+msgstr "aritmetica: giochi di memoria con le tabelline, enumerazioni, tabelle a doppia entrata, immagini speculari, ..."
+
+#: template/index.html:150
+msgid "science: the canal lock, the water cycle, the submarine, electric simulation ..."
+msgstr "scienze: il funzionamento di una chiusa, il ciclo dell'acqua, il sottomarino, simulazioni schema elettrico..."
+
+#: template/index.html:151
+msgid "geography: place the country on the map"
+msgstr "geografia: posizionare il paese sulla mappa"
+
+# Ebbene sì, "Oware" in italiano si chiama "Wari"
+#: template/index.html:152
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "giochi: scacchi, memory, forza 4, wari, sudoku..."
+
+#: template/index.html:153
+msgid "reading: reading practice"
+msgstr "lettura: esercizi di lettura"
+
+#: template/index.html:154
+msgid "other: learn to tell time, puzzle of famous paintings, vector drawing, cartoon making, ..."
+msgstr "altro: imparare a dire l'ora, puzzle di quadri famosi, disegno vettoriale, creazione di cartoni animati, ..."
+
+#: template/index.html:156
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being developed. GCompris is free software, that means that you can adapt it to your "
+"own needs, improve it and, most importantly, share it with children everywhere."
+msgstr ""
+"Attualmente GCompris offre più di 100 attività, e molte altre sono in fase di sviluppo. GCompris è un software libero, questo significa che si può "
+"adattare alle proprie esigenze, migliorare e, soprattutto, condividere ovunque con i bambini."
+
+#: template/index.html:162
+msgid "Latest news"
+msgstr "Ultime notizie"
+
+#: template/index.html:166
+msgid "All the news"
+msgstr "Tutte le notizie"
