@@ -1,0 +1,25 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Gtk+ 15.02' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<h4>Bug fixes and improvements:</h4>
+<ul>
+<li class="puce">missing_letter, data fix for bolsa and pastel in Spanish by Edy Paz</li>
+<li class="puce">lang, fix a bug in case of excactly 12 triplets in the dataset by Jan Boon</li>
+<li class="puce">trying to avoid a crash case in the menu by Bruno Coudoin</li>
+<li class="puce">gletters, add Norwegian Bokmål dataset based on the Nynorsk one by Bruno Coudoin</li>
+<li class="puce">Fix a typo in submarine.c by Gabor Kelemen</li>
+</ul>
+
+<h4>Translations update:</h4>
+<ul>
+<li class="puce">Updated Russian translation by Stas Solovey</li>
+<li class="puce">Updated Spanish translation by Daniel Mustieles</li>
+<li class="puce">Updated Serbian translation by Мирослав Николић</li>
+<li class="puce">Updated Brazilian Portuguese translation by Rafael Ferreira</li>
+<li class="puce">Updated Hungarian translation by Balázs Úr</li>
+<li class="puce">Updated Czech translation by Marek Černocký</li>
+<li class="puce">Updated Hungarian translation by Balázs Úr</li>
+</ul>
+
+{% endblock %}

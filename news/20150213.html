@@ -1,0 +1,48 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Qt 0.28' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<h4>Bug fixes and improvements:</h4>
+<ul>
+<li class="puce">A new activity in the reading section to learn words. Currently
+supports German, English, Spanish, French, Gaelic and Brazilian
+Portuguese</li>
+<li class="puce">Menu, add a message when we have no favorite</li>
+<li class="puce">Menu, better icon for locked activities</li>
+<li class="puce">Falling letters, adaptative falling speed on success /
+failure</li>
+<li class="puce">Color mixing, fixed broken image on some system. Fixed text
+position.</li>
+<li class="puce">Fix a crash in restricted profile.</li>
+<li class="puce">Disabled particle effects as it crashes on several Android
+devices</li>
+<li class="puce">Our VirtualKeyboard has a larger key height</li>
+<li class="puce">On many activities, normalized difficulty levels. Now
+level 1 does not require reading skills.</li>
+<li class="puce">DialogConfig, allow to set a base font-size</li>
+<li class="puce">DialogConfig, better layout in portrait mode</li>
+<li class="puce">Android: stop all audio playback when application leaves active
+state</li>
+<li class="puce">Ask for downloading voices at the first start</li>
+<li class="puce">No more show the blocked activities if in demo mode (An option can
+enable it)</li>
+<li class="puce">Update of Andika and OpenDyslexic fonts</li>
+</ul>
+
+<h4>Translations update:</h4>
+
+<p>Ukrainian (Yuri Chornoivan), Swedish (Stefan Asserhäll), Portuguese
+(José Nuno Coelho Pires), Polish (Łukasz Wojniłowicz), French (Ludovic
+Grossard), Dutch (Freek de Kruijf), Chinese Simplified (Weng Xuetian),
+Brazilian Portuguese (Luiz Fernando Ranghetti).</p>
+
+<h4>New translations:</h4>
+
+<p>Norwegian Nynorsk (Karl Ove Hufthammer), Italian (Vincenzo Reale),
+Catalan (Antoni Bella Pérez), British English.</p>
+
+<h4>Developpers:</h4>
+
+<p>Bruno Coudoin, Burkhard Lück, Holger Kaelberer, Johnny Jazeix, Karl
+Ove Hufthammer, Luigi Toscano, Paolo Gibellini.</p>
+{% endblock %}
