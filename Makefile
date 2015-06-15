@@ -31,7 +31,8 @@ all:
 	for lang in $$linguas; do \
 	  ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)"; \
 	done; \
-	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"
+	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"; \
+	cp template/mobile-privacy-policy.html .
 
 update:
 	linguas="$(ALL_LINGUAS)"; \
