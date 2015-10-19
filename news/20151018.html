@@ -1,0 +1,38 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Gtk+ 15.10' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<h4>Bug fixes and improvements:</h4>
+<ul>
+<li class="puce">core, proper locale detection from the env variable</li>
+<li class="puce">explore_wold_animals, changed the map background</li>
+<li class="puce">german translation fix for letter 'b' broken in hangman</li>
+<li class="puce">play_piano, fix string too large for button in some languages</li>
+<li class="puce">play_rhythm, made a bigger text area to accomodate larger translations</li>
+<li class="puce">add a generic-name entry in our desktop file</li>
+<li class="puce">windows, set a bat file as a startup entry point to avoid the R6034 error</li>
+<li class="puce">piano_composition, fix image name (eighth instead of quarter) by Johnny Jazeix</li>
+</ul>
+
+<h4>Translations update:</h4>
+<ul>
+<li class="puce">Added Bosnian translation by Samir Ribic</li>
+<li class="puce">Fixes to Catalan translation by Jordi Mas</li>
+<li class="puce">Updated ALL_LINGUAS by Piotr Drąg</li>
+<li class="puce">Updated Czech translation by Marek Černocký</li>
+<li class="puce">Updated Hebrew translation by Yosef Or Boczko</li>
+<li class="puce">Updated Hungarian translation by Balázs Úr</li>
+<li class="puce">Updated Lithuanian translation by Aurimas Černius</li>
+<li class="puce">Updated Portuguese translation by Pedro Albuquerque</li>
+<li class="puce">Updated Scottish Gaelic translation</li>
+<li class="puce">Updated Spanish translation by Daniel Mustieles</li>
+<li class="puce">Updated Swedish translation by Anders Jonsson and Josef Andersson</li>
+<li class="puce">Updated Turkish translation by Atilla ÖNTAŞ</li>
+</ul>
+
+<h4>Voices:</h4>
+<ul>
+<li class="puce">Updated Brazilian Portuguese by Marcos Dias Meneghel</li>
+<li class="puce">Initial catalan voices by Antoni Bella Pérez</li>
+</ul>
+{% endblock %}
