@@ -1,5 +1,5 @@
 
-VERSION = 15.02
+VERSION = 15.10
 
 ALL_LINGUAS = bg br cs da de el es fr gd gl hu it lt lv nl nn pl pt_BR ru sk sl sr sv ta th zh_TW 
 #ALL_LINGUAS = fr
