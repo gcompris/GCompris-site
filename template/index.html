@@ -11,6 +11,7 @@
         macURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1019161041";
         linuxURL = "apt://gcompris";
         androidURL = "https://play.google.com/store/apps/details?id=net.gcompris";
+        iOSURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1020904808";
         if ( (/^Windows/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = windowsURL;
           document.getElementById("downloadOS").innerHTML = "Windows";
@@ -20,19 +21,23 @@
           document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
           document.getElementById("otherDownloadOS1Link").href = macURL;
           document.getElementById("otherDownloadOS1Link").innerHTML = "MacOSX";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS2Link").href = iOSURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "iPad";
+          document.getElementById("otherDownloadOS3Link").href = linuxURL;
+          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
         } else if ( (/(Mac|OS X)/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = "macappstore://itunes.apple.com/us/app/id1019161041";
           document.getElementById("downloadOS").innerHTML = "MacOSX";
           document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
           document.getElementById("downloadDetails").innterHTML = "";
-          document.getElementById("otherDownloadOS0Link").href = androidURL;
-          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
-          document.getElementById("otherDownloadOS1Link").href = windowsURL;
-          document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS0Link").href = iOSURL;
+          document.getElementById("otherDownloadOS0Link").innerHTML = "iPad";
+          document.getElementById("otherDownloadOS1Link").href = androidURL;
+          document.getElementById("otherDownloadOS1Link").innerHTML = "Android";
+          document.getElementById("otherDownloadOS2Link").href = windowsURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "Windows";
+          document.getElementById("otherDownloadOS3Link").href = linuxURL;
+          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
         } else if ( (/^Android/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = androidURL;
           document.getElementById("downloadOS").innerHTML = "Android";
@@ -42,8 +47,23 @@
           document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS1Link").href = macURL;
           document.getElementById("otherDownloadOS1Link").innerHTML = "MacOSX";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS2Link").href = iOSURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "iPad";
+          document.getElementById("otherDownloadOS3Link").href = linuxURL;
+          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
+        } else if ( (/^iOS/).test(platform.os.family)) {
+          document.getElementById("downloadButton").href = iOSURL;
+          document.getElementById("downloadOS").innerHTML = "iPAD / iPhone";
+          document.getElementById("downloadButtonImg").src = "downloadiOS.png";
+          document.getElementById("downloadDetails").innterHTML = "";
+          document.getElementById("otherDownloadOS0Link").href = windowsURL;
+          document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
+          document.getElementById("otherDownloadOS1Link").href = macURL;
+          document.getElementById("otherDownloadOS1Link").innerHTML = "MacOSX";
+          document.getElementById("otherDownloadOS2Link").href = iOSURL;
+          document.getElementById("otherDownloadOS2Link").innerHTML = "iPad";
+          document.getElementById("otherDownloadOS3Link").href = linuxURL;
+          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
         } else {
           document.getElementById("downloadButton").href = linuxURL;
           document.getElementById("downloadOS").innerHTML = "Linux";
@@ -55,6 +75,8 @@
           document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS2Link").href = macURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "MacOSX";
+          document.getElementById("otherDownloadOS3Link").href = iOSURL;
+          document.getElementById("otherDownloadOS3Link").innerHTML = "iPad";
         }
       }
     </script>
@@ -81,10 +103,11 @@
 	  </a>
 	</div>
       </div>
-      <div class="row" style="width: 400px; margin: 0 auto">
+      <div class="row" style="width: 420px; margin: 0 auto">
 	<span><a class="extraInfoLink" id="otherDownloadOS0Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
+	<span><a class="extraInfoLink" id="otherDownloadOS3Link"></a></span>
 	<span><a class="extraInfoLink" href="http://gcompris.net/download">{% trans %}Other{% endtrans %}</a></span>
       </div>
       <div class="row" style="margin-top: 10px">
