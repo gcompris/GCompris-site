@@ -34,6 +34,8 @@ all:
 	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"; \
 	cp template/mobile-privacy-policy.html .
 
+#
+# Run it to update the translation. This requires the Gtk+ version.
 update:
 	linguas="$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
@@ -51,7 +53,8 @@ update:
 	  rm -f locale/tempfile; \
 	  msgfmt locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
 	done;
-
+#
+# Run this when new strings are added in the templates
 extract: $(i18_sources)
 	pybabel extract -F babel.cfg -o locale/messages.pot ./
 	if test $(shell git diff locale/messages.pot | grep "^+[^+]" | wc -l) -eq 1; then \
