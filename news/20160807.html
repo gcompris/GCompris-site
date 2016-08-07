@@ -1,0 +1,72 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Qt 0.61' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+
+<img src='news/images/r0.61-small.png'
+     alt='screenshots of the new activities in version 0.61'
+     style='float: right; width: 383px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r0.61.png')"/>
+
+<p>After 7 months, we are proud to announce the new version of
+GCompris 0.61.</p>
+
+<p>One important change on the commercial side of GCompris. <b>Bruno
+Coudoin is now replaced by Timothée Giet as the commercial
+entity</b>. Timothée is a graphic artist with a long list of
+contributions on GCompris and in the KDE community. After 16 years of
+continuous development on GCompris, Bruno is willing to step down and
+gives the opportunity to a new team to bring the project forward. For
+now, all sales go to Timothée and he is in charge of the commercial
+support. There are no changes in the licensing nor in the development
+process which is still under the responsability of the KDE
+community (Johnny Jazeix being the most active contributor).</p>
+
+<p>The new activities are:</p>
+<li class="puce">A simple wordprocessor (baby_word_processor by Bruno
+Coudoin), this activity is not available on mobile platforms due to
+issues with the virtual keyboard: if we only use the real keyboard,
+styles don't apply and if we only use the virtual keyboard, we can't
+navigate in the text, select it...</li>
+<li class="puce">A tangram (by Bruno Coudoin). It starts with children
+friendly levels to introduce each concepts little by little and end up
+in the real tangram.</li>
+<li class="puce">Explore the monuments of the world (explore_monuments
+by Ayush Agrawal during SoK).</li>
+<li class="puce">An activity in which the children must color a graph
+so that no two adjacent nodes have the same color (graph_coloring by
+Akshat Tandon during SoK).</li>
+<li class="puce">Pilot the spaceship towards the green landing area
+(land_safe by Holger Kaelberer).</li>
+<li class="puce">Find the differences between the two pictures
+(photo_hunter by Stefan Toncu).</li>
+
+<p>Timothée Giet updated images for chess, hangman and
+horizontal/vertical reading activities along with the gcompris
+logo.</p>
+
+<p>Lots of little fixes/improvements have been done (storing and
+restoring the window's width/height at start-up, docbook updated,
+levels/images bonus, adding an internal dataset for words games so
+that we no more expect the network to run GCompris (except for the
+voices but they also can be bundled in the binary).</p>
+
+<p>On translation side, we have 17 languages fully supported:
+Belarusian, British English, Brazilian Portuguese, Catalan, Catalan
+(Valencian), Chinese Simplified, Dutch, French, Galician, Italian,
+Norwegian Nynorsk, Polish, Portuguese, Romanian, Spanish, Swedish,
+Ukrainian and some partially: Breton (88%), Chinese Traditional (97%),
+Estonian (82%), Finnish (74%), German (93%), Russian (83%), Slovak
+(76%), Slovenian (82%), Turkish (82%)</p>
+
+<p>If you want to help, please make some posts in your community about GCompris.</p>
+
+<p>The source code tarball
+is <a href='http://gcompris.net/download/qt/src/gcompris-qt-0.61.tar.xz'>available
+here</a> (GNU/Linux packagers are welcome)
+
+<p>For Android it is available on
+the <a href="https://play.google.com/store/apps/details?id=net.gcompris">Google
+play store</a>.</p>
+
+{% endblock %}
