@@ -52,8 +52,9 @@ update:
 	  cat ~/Softs/src/gcompris/po/gcompris_$$lang.po locale/tempfile | grep -v "^#~" > locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  rm -f locale/tempfile; \
 	  sed '/^msgctxt "ActivityInfo|"/ d' < locale/$$lang/LC_MESSAGES/gcompris.po > locale/$$lang/LC_MESSAGES/gcompris_tmp.po; \
-	  msguniq --use-first locale/$$lang/LC_MESSAGES/gcompris_tmp.po -o locale/$$lang/LC_MESSAGES/gcompris.po; \
-	  rm -f locale/tempfile locale/$$lang/LC_MESSAGES/gcompris_tmp.po; \
+	  sed '/^msgctxt "DialogHelp/ d' < locale/$$lang/LC_MESSAGES/gcompris_tmp.po > locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
+	  msguniq --use-first locale/$$lang/LC_MESSAGES/gcompris_tmp2.po -o locale/$$lang/LC_MESSAGES/gcompris.po; \
+	  rm -f locale/tempfile locale/$$lang/LC_MESSAGES/gcompris_tmp.po locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
 	  msgfmt locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
 	done;
 #
