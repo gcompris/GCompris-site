@@ -397,7 +397,7 @@ for screenshot in boards:
         screenshot['credit'] = _(screenshot['credit']).replace('\n', '<br/>')
     if screenshot['title']:
         screenshot['title'] = _(screenshot['title'])
-    if screenshot['description']:
+    if screenshot['description'] and screenshot['description'] != "":
         screenshot['description'] = _(screenshot['description'])
     templateVars["screenshot"] = screenshot
     screenshot["depth"] = depth
