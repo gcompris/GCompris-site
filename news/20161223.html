@@ -1,0 +1,61 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Qt 0.70' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r0.70-small.png'
+     alt='screenshots of the new activities in version 0.61'
+     style='float: right; width: 375px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r0.70.png')"/>
+
+     
+<p>Hi,</p>
+
+<p>just in time for Christmas, we are pleased to announce you the new GCompris version 0.70.</p>
+
+<p>It is an important release because we officially drop the Gtk+ version for Windows to use the Qt one.
+Everyone who bought the full version for the last two years will get a new activation code in a few days.</p>
+
+<p>Also, for people who likes number, we are over the 100000 of downloads in the google play store!</p>
+
+<p>This new version contains 8 new activities, half of them being created by last Google Summer of Code students:</p>
+<li class="puce">crane by Stefan Toncu</li>
+<li class="puce">drawnumbers by Nitish Chauhan</li>
+<li class="puce">drawletters by Nitish Chauhan</li>
+<li class="puce">letter-in-word by Akshat Tandon</li>
+<li class="puce">nine_men_morris by Pulkit Gupta</li>
+<li class="puce">nine_men_morris_2_players by Pulkit Gupta</li>
+<li class="puce">share by Stefan Toncu</li>
+<li class="puce">roman_numerals by Bruno Coudoin</li>
+</br>
+<p>We always have new features and bug fixes:</p>
+<li class="puce">search feature by Rishabh Gupta</li>
+<li class="puce">windows build by Bruno Coudoin and Johnny Jazeix</li>
+<li class="puce">hint icon in the bar (used in photohunter) by Johnny Jazeix</li>
+<li class="puce">neon build by Jonathan Riddell</li>
+<li class="puce">we are now in openSUSE Tumbleweed repository thanks to the Bruno Friedmann</li>
+<li class="puce">archlinux (https://aur.archlinux.org/packages/gcompris-qt/) by Jose Riha</li>
+<li class="puce">package on mageia cauldron by Timothee Giet</li>
+<li class="puce">word list for Slovakia by Jose Riha</li>
+<li class="puce">word list for Belarusian by Antos Vaclauski</li>
+<li class="puce">various updates on Romanian wordlists and voices (probably the most complete one) by Horia Pelle</li>
+<li class="puce">voices added for Portuguese Brazilian by Marcos D.</li>
+<li class="puce">new graphics for crane by Timothee Giet</li>
+</br>
+
+<p>You can find this new version here: </br>
+
+<a href='https://play.google.com/store/apps/details?id=net.gcompris'>Android version</a></br>
+
+<a href='http://gcompris.net/download/qt/windows/gcompris-qt-0.70-win32.exe'>Windows 32bit</a> or <a href='http://gcompris.net/download/qt/windows/gcompris-qt-0.70-win64.exe'>Windows 64bit</a> version</br>
+
+<a href='http://gcompris.net/download/qt/linux/gcompris-qt-0.70-Linux.sh'>Linux version (64bit)</a></br>
+
+<a href='http://gcompris.net/download/qt/src/gcompris-qt-0.70.tar.xz'>source code</a></br>
+</p>
+
+<p>On the translation side, we have 15 languages fully supported: Belarusian, British English, Brazilian Portuguese, Catalan, Catalan (Valencian), Dutch, Estonian, French, Italian, Polish, Portuguese, Romanian, Spanish, Swedish, Ukrainian and some partially: Breton (82%), Chinese Simplified (93%), Chinese Traditional (91%), Finnish (70%), Galician (93%), German (97%), Norwegian Nynorsk (98%), Russian (83%), Slovak (85%), Slovenian (88%), Turkish (77%).</p>
+
+<p>If you want to help, please make some posts in your community about GCompris.</p>
+
+{% endblock %}
