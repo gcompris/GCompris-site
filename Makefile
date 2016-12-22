@@ -55,7 +55,7 @@ update:
 	  sed '/^msgctxt "DialogHelp/ d' < locale/$$lang/LC_MESSAGES/gcompris_tmp.po > locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
 	  msguniq --use-first locale/$$lang/LC_MESSAGES/gcompris_tmp2.po -o locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  rm -f locale/tempfile locale/$$lang/LC_MESSAGES/gcompris_tmp.po locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
-	  msgfmt locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
+	  msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
 	done;
 #
 # Run this when new strings are added in the templates
