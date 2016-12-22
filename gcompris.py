@@ -344,7 +344,7 @@ outputNewsAllText = templateNewsAll.render( templateVars )
 # Get the board list and make some adaptations
 #
 boards = getBoards()
-print boards
+#print boards
 
 for screenshot in boards:
     if screenshot['name'] == 'menu':

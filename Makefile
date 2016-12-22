@@ -35,7 +35,7 @@ all:
 	cp template/mobile-privacy-policy.html .
 
 #
-# Run it to update the translation. This requires the Gtk+ version.
+# Run it to update the translation. This requires the .po from the -qt version.
 update:
 	linguas="$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
