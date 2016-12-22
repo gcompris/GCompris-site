@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-12-21 18:13+0100\n"
+"POT-Creation-Date: 2016-12-22 16:13+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sk <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgstr "Obrázky"
 msgid "Contribute"
 msgstr "Crispieť"
 
-#: template/buy.html:16
+#: template/buy.html:16 template/screenshot.html:28
 msgid "Buying the Windows or MacOSX version"
 msgstr "Zakúpenie systému Windows alebo MacOS X verzia"
 
@@ -114,24 +114,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr "GCompris vzdelávací softvér"
 
-#: template/index.html:19 template/index.html:71
+#: template/index.html:23 template/index.html:75
 #, python-format
 msgid "Version %(version)s"
 msgstr "Verzia %(version)s"
 
-#: template/index.html:99 template/index.html:100
+#: template/index.html:103 template/index.html:104
 msgid "Download GCompris"
 msgstr "Stiahnuť GCompris"
 
-#: template/index.html:111
+#: template/index.html:115
 msgid "Other"
 msgstr ""
 
-#: template/index.html:185
+#: template/index.html:189
 msgid "View all screenshots"
 msgstr "Zobraziť všetky screenshoty"
 
-#: template/index.html:192
+#: template/index.html:196
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -139,14 +139,14 @@ msgstr ""
 "GCompris je balík výučbového softvéru pozostavajúci z rôznych aktivít pre "
 "deti vo veku 2 až 10 rokov."
 
-#: template/index.html:193
+#: template/index.html:197
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr ""
 "Niektoré z aktivít sú herne orientované, ale napriek tomu stále výučbové."
 
-#: template/index.html:194
+#: template/index.html:198
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -154,34 +154,34 @@ msgstr ""
 "Nižšie môžte nájsť zoznam kategórií s niektorými aktivitami prístupnými v "
 "tejto kategórii."
 
-#: template/index.html:196
+#: template/index.html:200
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "objavovanie počítača: klávesnica, myš, rôzne 'myšacie gestá', ..."
 
-#: template/index.html:197
+#: template/index.html:201
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "aritmetický: malá násobilka, počítanie, zrkadlenie, ..."
 
-#: template/index.html:198
+#: template/index.html:202
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "veda: priehrada, vodný cyklus, ponorka, elektrická simulácia ..."
 
-#: template/index.html:199
+#: template/index.html:203
 msgid "geography: place the country on the map"
 msgstr "geografia: urči krajinu na mape"
 
-#: template/index.html:200
+#: template/index.html:204
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "hry: šach, pamäť, spoj 4, sudoku ..."
 
-#: template/index.html:201
+#: template/index.html:205
 msgid "reading: reading practice"
 msgstr "čítanie: precvičovanie čítania"
 
-#: template/index.html:202
+#: template/index.html:206
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -189,7 +189,7 @@ msgstr ""
 "ostatné: nauč sa určit čas, puzzle so známymi maľbami, vektorové kreslenie, "
 "vytváranie komiksov, ..."
 
-#: template/index.html:204
+#: template/index.html:208
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -201,10 +201,30 @@ msgstr ""
 "prispôsobiť podľa vlastných potrieb, vylepšiť ho a hľavne, zdielať ho s "
 "deťmi všade na svete."
 
-#: template/index.html:210
+#: template/index.html:214
 msgid "Latest news"
 msgstr "Posledné novinky"
 
-#: template/index.html:214
+#: template/index.html:218
 msgid "All the news"
 msgstr "Všetky novinky"
+
+#: template/screenshot.html:46
+msgid "Description:"
+msgstr ""
+
+#: template/screenshot.html:49
+msgid "Prerequisite"
+msgstr ""
+
+#: template/screenshot.html:53
+msgid "Goal"
+msgstr ""
+
+#: template/screenshot.html:57
+msgid "Manual"
+msgstr ""
+
+#: template/screenshot.html:61
+msgid "Credit"
+msgstr ""

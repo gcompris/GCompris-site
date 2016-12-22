@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-12-21 18:13+0100\n"
+"POT-Creation-Date: 2016-12-22 16:13+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: sr <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgstr "Слике"
 msgid "Contribute"
 msgstr "допринети"
 
-#: template/buy.html:16
+#: template/buy.html:16 template/screenshot.html:28
 msgid "Buying the Windows or MacOSX version"
 msgstr "Куповина Виндовс или МацОСКС верзију"
 
@@ -114,24 +114,24 @@ msgstr "Можете донирати износ по жељи тако што �
 msgid "GCompris Educational Software"
 msgstr "GCompris Образовни софтвер"
 
-#: template/index.html:19 template/index.html:71
+#: template/index.html:23 template/index.html:75
 #, python-format
 msgid "Version %(version)s"
 msgstr "Верзија %(version)s"
 
-#: template/index.html:99 template/index.html:100
+#: template/index.html:103 template/index.html:104
 msgid "Download GCompris"
 msgstr "Довнлоад ГЦомприс"
 
-#: template/index.html:111
+#: template/index.html:115
 msgid "Other"
 msgstr ""
 
-#: template/index.html:185
+#: template/index.html:189
 msgid "View all screenshots"
 msgstr "Погледајте све сцреенсхот"
 
-#: template/index.html:192
+#: template/index.html:196
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -139,13 +139,13 @@ msgstr ""
 "ГЦомприс јеквалитетан образовни софтверски пакет који се састоји од бројних "
 "активности за децу узраста од 2 до 10."
 
-#: template/index.html:193
+#: template/index.html:197
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "Неке од активности су оријентисане игре, али ипак још увек образовне."
 
-#: template/index.html:194
+#: template/index.html:198
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -153,34 +153,34 @@ msgstr ""
 "Испод можете пронаћи списак категорија са неке од активности на располагању "
 "у тој категорији."
 
-#: template/index.html:196
+#: template/index.html:200
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "рачунарски откриће : тастатура, миш, миш другачија гест, ..."
 
-#: template/index.html:197
+#: template/index.html:201
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "аритметика : сто меморија, набрајање, двојног сто, огледало, ..."
 
-#: template/index.html:198
+#: template/index.html:202
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "Наука :канал брава,вода циклус,подморница, електрична симулација ..."
 
-#: template/index.html:199
+#: template/index.html:203
 msgid "geography: place the country on the map"
 msgstr "географија : место земљу на мапи"
 
-#: template/index.html:200
+#: template/index.html:204
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "игре : шах, меморија, повезивање 4, оваре, судоку ..."
 
-#: template/index.html:201
+#: template/index.html:205
 msgid "reading: reading practice"
 msgstr "читања : читање пракса"
 
-#: template/index.html:202
+#: template/index.html:206
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -188,7 +188,7 @@ msgstr ""
 "Други : научите да кажете време, загонетке познатих слика, векторско цртање, "
 "цртани одлука, ..."
 
-#: template/index.html:204
+#: template/index.html:208
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -199,10 +199,30 @@ msgstr ""
 "је слободан софтвер, то значи да можете да га прилагодите својим потребама, "
 "побољша га и, што је најважније, да је поделе са децом свуда."
 
-#: template/index.html:210
+#: template/index.html:214
 msgid "Latest news"
 msgstr "Најновије вести"
 
-#: template/index.html:214
+#: template/index.html:218
 msgid "All the news"
 msgstr "Свевести"
+
+#: template/screenshot.html:46
+msgid "Description:"
+msgstr ""
+
+#: template/screenshot.html:49
+msgid "Prerequisite"
+msgstr ""
+
+#: template/screenshot.html:53
+msgid "Goal"
+msgstr ""
+
+#: template/screenshot.html:57
+msgid "Manual"
+msgstr ""
+
+#: template/screenshot.html:61
+msgid "Credit"
+msgstr ""

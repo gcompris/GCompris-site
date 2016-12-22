@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-12-21 18:13+0100\n"
+"POT-Creation-Date: 2016-12-22 16:13+0100\n"
 "PO-Revision-Date: 2013-09-11 14:55+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr_FR <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "Captures d'écran"
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: template/buy.html:16
+#: template/buy.html:16 template/screenshot.html:28
 msgid "Buying the Windows or MacOSX version"
 msgstr "Acheter la version Windows ou MacOSX"
 
@@ -114,24 +114,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr "Logiciel éducatif enfant GCompris"
 
-#: template/index.html:19 template/index.html:71
+#: template/index.html:23 template/index.html:75
 #, python-format
 msgid "Version %(version)s"
 msgstr "Version %(version)s"
 
-#: template/index.html:99 template/index.html:100
+#: template/index.html:103 template/index.html:104
 msgid "Download GCompris"
 msgstr "Télécharger GCompris"
 
-#: template/index.html:111
+#: template/index.html:115
 msgid "Other"
 msgstr "Autre"
 
-#: template/index.html:185
+#: template/index.html:189
 msgid "View all screenshots"
 msgstr "Voir toutes les captures d'écran"
 
-#: template/index.html:192
+#: template/index.html:196
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -140,51 +140,51 @@ msgstr ""
 "enfants de 2 à 10 ans. Il est plébiscité par les écoles maternelles et "
 "primaires de part sa qualité et son spectre couvrant les cycles 1, 2 et 3."
 
-#: template/index.html:193
+#: template/index.html:197
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "Les activités sont quelquefois ludiques, mais toujours pédagogiques."
 
-#: template/index.html:194
+#: template/index.html:198
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "Vous trouverez des activités dans les domaines suivants :"
 
-#: template/index.html:196
+#: template/index.html:200
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr ""
 "découverte de l’ordinateur : clavier, souris, les mouvements de la "
 "souris, ... "
 
-#: template/index.html:197
+#: template/index.html:201
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
 "mathématiques : révision des tables, dénombrement, les tables à double "
 "entrée, symétrie, ..."
 
-#: template/index.html:198
+#: template/index.html:202
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr ""
 "sciences : l’électricité, l’écluse, le cycle de l’eau, le sous-marin, ..."
 
-#: template/index.html:199
+#: template/index.html:203
 msgid "geography: place the country on the map"
 msgstr "géographie : placer les pays sur une carte"
 
-#: template/index.html:200
+#: template/index.html:204
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "jeux : des casses têtes, les échecs, le memory, ..."
 
-#: template/index.html:201
+#: template/index.html:205
 msgid "reading: reading practice"
 msgstr "lecture : exercice d’entraînement à la lecture"
 
-#: template/index.html:202
+#: template/index.html:206
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -192,7 +192,7 @@ msgstr ""
 "autres : lecture de l’heure, peintures célèbres sous forme de puzzle, dessin "
 "vectoriel, création de dessin animé ..."
 
-#: template/index.html:204
+#: template/index.html:208
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -204,10 +204,30 @@ msgstr ""
 "votre besoin ou de l’améliorer, et pourquoi pas, d’en faire bénéficier les "
 "enfants du monde entier."
 
-#: template/index.html:210
+#: template/index.html:214
 msgid "Latest news"
 msgstr "Dernière nouvelle"
 
-#: template/index.html:214
+#: template/index.html:218
 msgid "All the news"
 msgstr "Toutes les nouvelles"
+
+#: template/screenshot.html:46
+msgid "Description:"
+msgstr ""
+
+#: template/screenshot.html:49
+msgid "Prerequisite"
+msgstr ""
+
+#: template/screenshot.html:53
+msgid "Goal"
+msgstr ""
+
+#: template/screenshot.html:57
+msgid "Manual"
+msgstr ""
+
+#: template/screenshot.html:61
+msgid "Credit"
+msgstr ""
