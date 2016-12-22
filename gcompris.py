@@ -419,7 +419,7 @@ total_activities = 0
 for screenshot in boards:
     if screenshot['name'] != 'root':
         total_activities += 1
-        if screenshot['demo'] == 1:
+        if screenshot['demo'] == "true":
             demo_activities += 1
 
 templateVars['total_activities'] = total_activities
