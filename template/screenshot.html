@@ -12,21 +12,19 @@
       </div>
       {% if screenshot.type != 'menu' %}
         <div class="newstitle">{{ screenshot.title }}</div>
-        <img class='screenshotImg' src='screenshots/{{ screenshot.name }}.jpg' alt='screenshot {{ screenshot.name }}'/>
+        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}'/>
       {% else %}
         <div class="newstitle">{{ screenshot.title }}</div>
       {% endif %}
       {% if screenshot.icon %}
-        {% if screenshot.type != 'menu' %}
-          <img class='screenshotIcon' src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}'/>
-	{% else %}
-          <img src='boardicons/{{ screenshot.icon }}.png' alt='icon {{ screenshot.icon }}'/>
+        {% if screenshot.name != 'root' %}
+          <img class='screenshotIcon' src='boardicons/{{ screenshot.icon }}.svg' alt='icon {{ screenshot.icon }}'/>
 	{% endif %}
       {% endif %}
-      {% if screenshot.difficulty > 0 %}
-        <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.png' alt='difficulty level {{ screenshot.difficulty }}'/>
+      {% if screenshot.name != 'root' %}
+        <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.svg' alt='difficulty level {{ screenshot.difficulty }}'/>
       {% endif %}
-      {% if screenshot.demo != 1 %}
+      {% if screenshot.demo == 'false' %}
         <a href="buy{{ suffix }}.html" title="{% trans %}Buying the Windows or MacOSX version{% endtrans %}">
 	  <img class='screenshotPay' src='money.png' alt='locked activity'/>
 	</a>
@@ -34,7 +32,7 @@
       <div style="clear: both;"></div>
       <div class='screenshotDivAuthor'>
       {% if screenshot.type != 'menu' %}
-        <p class="screenshotSection">{{ screenshot.section }}/{{ screenshot.name }}</p>
+        <p class="screenshotSection">{{ screenshot.section }} {{ screenshot.name }}</p>
       {% else %}
         <p class="newsdate">{{ screenshot.section }}/{{ screenshot.name }}</p>
       {% endif %}

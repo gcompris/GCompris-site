@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-01-29 01:45+0100\n"
+"POT-Creation-Date: 2016-12-21 18:13+0100\n"
 "PO-Revision-Date: 2013-09-12 17:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: lv <LL@li.org>\n"
@@ -19,19 +19,19 @@ msgstr ""
 "2)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:70
+#: template/base.html:58
 msgid "News"
 msgstr "Jaunumi"
 
-#: template/base.html:71 template/buy.html:4 template/buy.html:9
+#: template/base.html:59 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "Pērk / Ziedot"
 
-#: template/base.html:72
+#: template/base.html:60
 msgid "Screenshots"
 msgstr "Ekrānšāviņi"
 
-#: template/base.html:74
+#: template/base.html:62
 msgid "Contribute"
 msgstr "Sekmēt"
 
@@ -53,8 +53,8 @@ msgstr ""
 msgid ""
 "Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
-"your spam folder). If you do not receive this email please write me at sales"
-"@gcompris.net"
+"your spam folder). If you do not receive this email please write me at "
+"sales@gcompris.net"
 msgstr ""
 "Uzklikšķiniet uz zemāk esošās pogas ļauj jums maksāt 9 € par aktivizācijas "
 "kodu. Pēc maksājuma veikšanas Jūs saņemsiet uzreiz e-pastu ar jūsu "
@@ -117,24 +117,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr "GCompris izglītības programmas"
 
-#: template/index.html:18 template/index.html:51
+#: template/index.html:19 template/index.html:71
 #, python-format
 msgid "Version %(version)s"
 msgstr "Versija %(version)s"
 
-#: template/index.html:77 template/index.html:78
+#: template/index.html:99 template/index.html:100
 msgid "Download GCompris"
 msgstr "Lejupielādēt GCompris"
 
-#: template/index.html:88
+#: template/index.html:111
 msgid "Other"
 msgstr ""
 
-#: template/index.html:162
+#: template/index.html:185
 msgid "View all screenshots"
 msgstr "Skatīt visus ekrānšāviņi"
 
-#: template/index.html:169
+#: template/index.html:192
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -142,14 +142,14 @@ msgstr ""
 "GCompris iraugstas kvalitātes izglītības programmatūras komplekts, kas "
 "sastāv no daudziem pasākumiem bērniem vecumā no 2 līdz 10."
 
-#: template/index.html:170
+#: template/index.html:193
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr ""
 "Dažas no aktivitātēm ir spēle orientēta, bet tomēr joprojām izglītības."
 
-#: template/index.html:171
+#: template/index.html:194
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -157,36 +157,36 @@ msgstr ""
 "Zemāk jūs varat atrast sarakstu ar kategoriju ar kādu no darbībām, kas ir "
 "pieejami minētajā kategorijā."
 
-#: template/index.html:173
+#: template/index.html:196
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "Datoru atklājums : tastatūra, pele, atšķiras peles žestu, ..."
 
-#: template/index.html:174
+#: template/index.html:197
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
 "aritmētika : galds atmiņa, skaitīšana, divkāršā ieraksta galds, "
 "spoguļattēls, ..."
 
-#: template/index.html:175
+#: template/index.html:198
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "zinātne : slūžas,ūdens ciklu,zemūdene, elektriskā simulācija ..."
 
-#: template/index.html:176
+#: template/index.html:199
 msgid "geography: place the country on the map"
 msgstr "ģeogrāfija : vieta valsts kartē"
 
-#: template/index.html:177
+#: template/index.html:200
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "spēles: šahs, atmiņas, pieslēgt 4, Oware, sudoku ..."
 
-#: template/index.html:178
+#: template/index.html:201
 msgid "reading: reading practice"
 msgstr "lasījums : lasījums prakse"
 
-#: template/index.html:179
+#: template/index.html:202
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -194,7 +194,7 @@ msgstr ""
 "citi: iemācīties pateikt laiku, mīklu slavenu gleznu, vektoru zīmēšanas, "
 "karikatūra pieņemšanā, ..."
 
-#: template/index.html:181
+#: template/index.html:204
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -206,10 +206,10 @@ msgstr ""
 "pielāgot to savām vajadzībām, uzlabot to un, pats galvenais, dalīties tajā "
 "ar bērniem visur."
 
-#: template/index.html:187
+#: template/index.html:210
 msgid "Latest news"
 msgstr "Jaunākās ziņas"
 
-#: template/index.html:191
+#: template/index.html:214
 msgid "All the news"
 msgstr "Visasziņas"

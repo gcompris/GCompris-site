@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-01-29 01:45+0100\n"
+"POT-Creation-Date: 2016-12-21 18:13+0100\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: pl <LL@li.org>\n"
@@ -19,19 +19,19 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2)\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:70
+#: template/base.html:58
 msgid "News"
 msgstr "Nowości"
 
-#: template/base.html:71 template/buy.html:4 template/buy.html:9
+#: template/base.html:59 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "kupić / podarować"
 
-#: template/base.html:72
+#: template/base.html:60
 msgid "Screenshots"
 msgstr "Zrzuty ekranu"
 
-#: template/base.html:74
+#: template/base.html:62
 msgid "Contribute"
 msgstr "współpracować"
 
@@ -53,8 +53,8 @@ msgstr ""
 msgid ""
 "Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
-"your spam folder). If you do not receive this email please write me at sales"
-"@gcompris.net"
+"your spam folder). If you do not receive this email please write me at "
+"sales@gcompris.net"
 msgstr ""
 "Kliknij poniżej, aby kupić € 9 kod aktywacyjny pełnej wersji GCompris. "
 "Otrzymasz e-mail w ciągu 24 godzin z instrukcjami. Jeśli nie otrzymasz ten "
@@ -112,24 +112,24 @@ msgstr "Możesz przekazać kwotę wyboru klikając na przycisk poniżej:"
 msgid "GCompris Educational Software"
 msgstr "GCompris oprogramowanie edukacyjne"
 
-#: template/index.html:18 template/index.html:51
+#: template/index.html:19 template/index.html:71
 #, python-format
 msgid "Version %(version)s"
 msgstr "Wersja %(version)s"
 
-#: template/index.html:77 template/index.html:78
+#: template/index.html:99 template/index.html:100
 msgid "Download GCompris"
 msgstr "Pobierz GCompris"
 
-#: template/index.html:88
+#: template/index.html:111
 msgid "Other"
 msgstr ""
 
-#: template/index.html:162
+#: template/index.html:185
 msgid "View all screenshots"
 msgstr "Zobacz wszystkie zdjęcia"
 
-#: template/index.html:169
+#: template/index.html:192
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -137,13 +137,13 @@ msgstr ""
 "GCompris jest wysokiej jakości edukacyjnych pakiet oprogramowania składający "
 "się z licznych zajęć dla dzieci w wieku od 2 do 10."
 
-#: template/index.html:170
+#: template/index.html:193
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "Niektóre z zadań przypominają gry jednak są to gry edukacyjne"
 
-#: template/index.html:171
+#: template/index.html:194
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -151,41 +151,41 @@ msgstr ""
 "Poniżej znajdziesz listę kategorii z niektórych działań dostępnych w tej "
 "kategorii."
 
-#: template/index.html:173
+#: template/index.html:196
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "Odkrywanie komputera: klawiatura, mysz, kontrolowanie ruchów..."
 
-#: template/index.html:174
+#: template/index.html:197
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "Arytmetyka: gry pamięciowe, liczby, odbicia lustrzane..."
 
-#: template/index.html:175
+#: template/index.html:198
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr ""
 "Nauka: śluza, cykl wody, kontrola łodzi podwodnej, symulacje elektryczne..."
 
-#: template/index.html:176
+#: template/index.html:199
 msgid "geography: place the country on the map"
 msgstr "Geografia: Odnajdź kraj na mapie"
 
-#: template/index.html:177
+#: template/index.html:200
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "Gry: Szachy, pamięć, kulki, oware, sudoku..."
 
-#: template/index.html:178
+#: template/index.html:201
 msgid "reading: reading practice"
 msgstr "Czytanie: Ćwiczenia z czytania"
 
-#: template/index.html:179
+#: template/index.html:202
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr "Inne: Nauka czasu, puzzle, rysowanie..."
 
-#: template/index.html:181
+#: template/index.html:204
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -196,10 +196,10 @@ msgstr ""
 "GCompris jest wolnym programem, możesz go zmienić dostosowując do swoich "
 "potrzeb i co najważniejsze, podzielić się z tym z dziećmi z całego świata."
 
-#: template/index.html:187
+#: template/index.html:210
 msgid "Latest news"
 msgstr "Aktualności"
 
-#: template/index.html:191
+#: template/index.html:214
 msgid "All the news"
 msgstr "Wszystkie wiadomości"

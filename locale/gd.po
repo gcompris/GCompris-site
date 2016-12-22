@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-Unofficial\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-01-29 01:45+0100\n"
+"POT-Creation-Date: 2016-12-21 18:13+0100\n"
 "PO-Revision-Date: 2013-09-26 06:37+0000\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/projects/p/"
@@ -21,19 +21,19 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
 
-#: template/base.html:70
+#: template/base.html:58
 msgid "News"
 msgstr "Naidheachdan"
 
-#: template/base.html:71 template/buy.html:4 template/buy.html:9
+#: template/base.html:59 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "Ceannaich / Thoir tìodhlac dhuinn"
 
-#: template/base.html:72
+#: template/base.html:60
 msgid "Screenshots"
 msgstr "Glacaidhean-sgrìn"
 
-#: template/base.html:74
+#: template/base.html:62
 msgid "Contribute"
 msgstr "Thoir taic dhuinn"
 
@@ -55,8 +55,8 @@ msgstr ""
 msgid ""
 "Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
-"your spam folder). If you do not receive this email please write me at sales"
-"@gcompris.net"
+"your spam folder). If you do not receive this email please write me at "
+"sales@gcompris.net"
 msgstr ""
 "Briog air a' phutan gu h-ìosal gus 9€ a phàigheadh airson còd gnìomhachaidh. "
 "Nuair a bhios tu air pàigheadh, gheibh thu post-d sa bhad le mìneachaidhean "
@@ -83,8 +83,7 @@ msgstr "Tapadh leat airson taic a thoirt do bhathar-bog saor san fhoghlam."
 
 #: template/buy.html:44
 msgid "Legal reference: Company Timothée Giet RCS RENNES France 537 873 986."
-msgstr ""
-"Iomradh laghail: Company Timothée Giet RCS RENNES France 537 873 986."
+msgstr "Iomradh laghail: Company Timothée Giet RCS RENNES France 537 873 986."
 
 #: template/buy.html:56
 msgid "Donate"
@@ -119,24 +118,24 @@ msgstr ""
 msgid "GCompris Educational Software"
 msgstr ""
 
-#: template/index.html:18 template/index.html:51
+#: template/index.html:19 template/index.html:71
 #, python-format
 msgid "Version %(version)s"
 msgstr "Tionndadh %(version)s"
 
-#: template/index.html:77 template/index.html:78
+#: template/index.html:99 template/index.html:100
 msgid "Download GCompris"
 msgstr "Luchdaich a-nuas GCompris"
 
-#: template/index.html:88
+#: template/index.html:111
 msgid "Other"
 msgstr ""
 
-#: template/index.html:162
+#: template/index.html:185
 msgid "View all screenshots"
 msgstr "Seall na h-uile glacadh-sgrìn"
 
-#: template/index.html:169
+#: template/index.html:192
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
@@ -144,7 +143,7 @@ msgstr ""
 "'S e sreath de phrògraman foghlaim a th' ann an GCompris le deagh chàileachd "
 "is tha iomadh cleas na bhroinn airson clann aois 2 gu 10."
 
-#: template/index.html:170
+#: template/index.html:193
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
@@ -152,7 +151,7 @@ msgstr ""
 "'S e geamannan a th' ann an cuid dhe na cleasan ach tha iad math airson "
 "foghlam co-dhiù."
 
-#: template/index.html:171
+#: template/index.html:194
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
@@ -160,20 +159,20 @@ msgstr ""
 "Chì thu liosta dhe na roinnean-seòrsa gu h-ìosal le cuid dhe na cleasan a "
 "tha ri am faighinn anns gach roinn."
 
-#: template/index.html:173
+#: template/index.html:196
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr ""
 "Faigh a-mach mun choimpiutair: am meur-chlàr, an luchag, gluasadan na "
 "luchaige, ..."
 
-#: template/index.html:174
+#: template/index.html:197
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr ""
 "àireamhachd: cuimhnich na clàran, àireamhachadh, an griod, sgàthanaich "
 "dealbh, ..."
 
-#: template/index.html:175
+#: template/index.html:198
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
@@ -181,19 +180,19 @@ msgstr ""
 "saidheans: loc canail, cearcall an uisge, bàta-tumaidh, atharrais sgeama "
 "dealain, ..."
 
-#: template/index.html:176
+#: template/index.html:199
 msgid "geography: place the country on the map"
 msgstr "cruinn-eòlas: suidhich an dùthaich air a' mhapa"
 
-#: template/index.html:177
+#: template/index.html:200
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "geamannan: tàileasg, cuimhne, ceangail 4, oware, sudoku, ..."
 
-#: template/index.html:178
+#: template/index.html:201
 msgid "reading: reading practice"
 msgstr "leughadh: cleachd do sgilean leughaidh"
 
-#: template/index.html:179
+#: template/index.html:202
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
@@ -201,7 +200,7 @@ msgstr ""
 "eile: ionnsaich an uaireadair, tòimhseachain le dealbhan cliùiteach, "
 "tarraing vector, dèan cartùn, ..."
 
-#: template/index.html:181
+#: template/index.html:204
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -213,10 +212,10 @@ msgstr ""
 "thu gleus a chur air a-rèir nam feumalachdan agad fhèin, a leasachadh is gu "
 "h-àraidh a cho-roinn leis a' chlann air fheadh an t-saoghail."
 
-#: template/index.html:187
+#: template/index.html:210
 msgid "Latest news"
 msgstr "Na naidheachdan as ùire"
 
-#: template/index.html:191
+#: template/index.html:214
 msgid "All the news"
 msgstr "A h-uile naidheachd"

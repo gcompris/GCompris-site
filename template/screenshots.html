@@ -10,7 +10,7 @@
       {{ social.block(locale) }}
       <ul class="nav nav-list bs-docs-sidenav">
 	{% for activity in screenshotsmenu %}
-          {% if activity.type == 'menu' %}
+          {% if activity.type != 'menu' %}
             <li class="active2">
 	      <a href="#{{ activity.name }}"><div class="bs-docs-sidenav-depth{{ activity.depth }}">{{ activity.title }}</div></a>
 	    </li>

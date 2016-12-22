@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-01-29 01:45+0100\n"
+"POT-Creation-Date: 2016-12-21 18:13+0100\n"
 "PO-Revision-Date: 2013-09-12 17:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: zh_TW <LL@li.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: template/base.html:70
+#: template/base.html:58
 msgid "News"
 msgstr "新聞"
 
-#: template/base.html:71 template/buy.html:4 template/buy.html:9
+#: template/base.html:59 template/buy.html:4 template/buy.html:9
 msgid "Buy / Donate"
 msgstr "買/捐贈"
 
-#: template/base.html:72
+#: template/base.html:60
 msgid "Screenshots"
 msgstr "截圖"
 
-#: template/base.html:74
+#: template/base.html:62
 msgid "Contribute"
 msgstr "貢獻"
 
@@ -52,12 +52,12 @@ msgstr ""
 msgid ""
 "Click on the button below let you pay 9&euro; for the activation code. After "
 "payment you will receive immediately an email with your instructions (check "
-"your spam folder). If you do not receive this email please write me at sales"
-"@gcompris.net"
+"your spam folder). If you do not receive this email please write me at "
+"sales@gcompris.net"
 msgstr ""
 "點擊下面的按鈕，讓你支付9歐元激活碼。付款後，您將立即收到一封電子郵件，你的指"
-"示（請檢查您的垃圾郵件文件夾） 。如果您沒有收到這封電子郵件，請我寫在sales"
-"@gcompris.net 。"
+"示（請檢查您的垃圾郵件文件夾） 。如果您沒有收到這封電子郵件，請我寫在"
+"sales@gcompris.net 。"
 
 #: template/buy.html:22
 msgid "Contact me to get a quote for your school."
@@ -108,75 +108,75 @@ msgstr "您可以通過點擊下面的按鈕，您選擇的捐贈金額："
 msgid "GCompris Educational Software"
 msgstr "的GCompris教育軟件"
 
-#: template/index.html:18 template/index.html:51
+#: template/index.html:19 template/index.html:71
 #, python-format
 msgid "Version %(version)s"
 msgstr "版本%(version)s"
 
-#: template/index.html:77 template/index.html:78
+#: template/index.html:99 template/index.html:100
 msgid "Download GCompris"
 msgstr "下載的GCompris"
 
-#: template/index.html:88
+#: template/index.html:111
 msgid "Other"
 msgstr ""
 
-#: template/index.html:162
+#: template/index.html:185
 msgid "View all screenshots"
 msgstr "查看所有截圖"
 
-#: template/index.html:169
+#: template/index.html:192
 msgid ""
 "GCompris is a high quality educational software suite comprising of numerous "
 "activities for children aged 2 to 10."
 msgstr "GCompris是一款高品質的教育軟件套件，包括眾多的活動為2至10歲的兒童。"
 
-#: template/index.html:170
+#: template/index.html:193
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr "有些活動是遊戲導向的，但仍然教育。"
 
-#: template/index.html:171
+#: template/index.html:194
 msgid ""
 "Below you can find a list of categories with some of the activities "
 "available in that category."
 msgstr "下面你可以找到與該類別中的一些活動類別列表。"
 
-#: template/index.html:173
+#: template/index.html:196
 msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgstr "計算機發現：鍵盤，鼠標，鼠標手勢不同， ..."
 
-#: template/index.html:174
+#: template/index.html:197
 msgid ""
 "arithmetic: table memory, enumeration, double entry table, mirror image, ..."
 msgstr "算術：表記憶，枚舉，雙項表，鏡像， ..."
 
-#: template/index.html:175
+#: template/index.html:198
 msgid ""
 "science: the canal lock, the water cycle, the submarine, electric "
 "simulation ..."
 msgstr "科學：運河水閘，水循環，潛艇，電動模擬..."
 
-#: template/index.html:176
+#: template/index.html:199
 msgid "geography: place the country on the map"
 msgstr "地理：地方在地圖上的國家"
 
-#: template/index.html:177
+#: template/index.html:200
 msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgstr "遊戲：國際象棋，內存，連接4 oware ，數獨......"
 
-#: template/index.html:178
+#: template/index.html:201
 msgid "reading: reading practice"
 msgstr "閱讀：閱讀練習"
 
-#: template/index.html:179
+#: template/index.html:202
 msgid ""
 "other: learn to tell time, puzzle of famous paintings, vector drawing, "
 "cartoon making, ..."
 msgstr "其它：學會講時間，名畫，矢量繪圖，動畫製作，益智..."
 
-#: template/index.html:181
+#: template/index.html:204
 msgid ""
 "Currently GCompris offers in excess of 100 activities and more are being "
 "developed. GCompris is free software, that means that you can adapt it to "
@@ -186,10 +186,10 @@ msgstr ""
 "目前的GCompris提供超過100個活動和正在開發中。 GCompris是自由軟件，這意味著，"
 "你能適應自己的需要，提高它，最重要的是，與世界各地的兒童分享。"
 
-#: template/index.html:187
+#: template/index.html:210
 msgid "Latest news"
 msgstr "最新消息"
 
-#: template/index.html:191
+#: template/index.html:214
 msgid "All the news"
 msgstr "全部新聞"

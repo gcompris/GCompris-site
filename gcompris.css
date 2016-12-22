@@ -101,22 +101,22 @@ h2 {
 }
 .screenshotImg {
     float: left;
-    padding-left: 20px;
-    width: 400px;
+    padding-left: 100px;
+    width: 500px;
     height: 260px;
 }
 .screenshotStar {
     position: absolute;
-    left: 390px;
+    left: 490px;
     top: 10px;
 }
 .screenshotPay {
     position: absolute;
-    left: 380px;
+    left: 480px;
     top: 60px;
 }
 .screenshotDivAuthor {
-    width: 400px;
+    width: 500px;
     padding-bottom: 25px;
 }
 .screenshotAuthor {
@@ -134,8 +134,9 @@ h2 {
     text-align: left;
 }
 .screenshotIcon {
+    background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
-    left: 0px;
+    left: 10px;
 }
 .projectImg {
     clear: both;

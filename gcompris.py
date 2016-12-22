@@ -57,7 +57,7 @@ def formatDate(date):
 def getLocaleName(locale):
     result = locale
     with open(expanduser("~") + 
-              "/Projets/gcompris/gcompris-gtk/src/gcompris/config.c", 'r') as f:
+              "/Softs/src/gcompris-gtk/gcompris/src/gcompris/config.c", 'r') as f:
         inlist = False
         for line in f:
             line = line.rstrip()
@@ -123,15 +123,125 @@ def getManual():
     if locale in manuals:
         return manuals[locale]
     return manuals['en']
+    
+    
+    
+descriptions = []
 
+    
 def getBoards():
-    con = sqlite3.connect(expanduser("~") +
-                          "/.config/gcompris/gcompris_sqlite.db")
-    con.row_factory = sqlite3.Row
-    cur = con.cursor()
-    cur.execute('select name, section, author, difficulty, icon, title, description, prerequisite, goal, manual, credit, demo, type from boards order by section||\'/\'||name, difficulty')
-    # Make a dict rw of the result
-    return [dict(row) for row in cur]
+    '''create a list of activity infos as found in GCompris ActivityInfo.qml'''
+
+    activity_dir = expanduser("~") +"/Softs/src/gcompris/src/activities"
+    for activity in os.listdir(activity_dir):
+        # Skip unrelevant activities
+        if activity == 'template' or \
+           not os.path.isdir(activity_dir + "/" + activity):
+            continue
+        
+        try:
+            with open(activity_dir + "/" + activity + "/ActivityInfo.qml") as f:
+                content = f.readlines()
+                
+                description = ''
+                name = ''
+                title = ''
+                credit = ''
+                goal = ''
+                section = ''
+                author = ''
+                manual = ''
+                difficulty = ''
+                demo = ''
+                category = ''
+                prerequisite = ''
+                icon = ''
+
+                for line in content:
+
+                    m = re.match('.*description:.*\"(.*)\"', line)
+                    if m:
+                        description =  m.group(1)
+
+                    m = re.match('.*name:.*\"(.*)\"', line)
+                    if m:
+                        name = activity
+                        icon = activity
+                    
+                    m = re.match('.*title:.*\"(.*)\"', line)
+                    if m:
+                        title = m.group(1)
+                    
+                    m = re.match('.*credit:.*\"(.*)\"', line)
+                    if m:
+                        credit = m.group(1)
+                    
+                    m = re.match('.*goal:.*\"(.*)\"', line)
+                    if m:
+                        goal = m.group(1)
+                    
+                    m = re.match('.*section:.*\"(.*)\"', line)
+                    if m:
+                        section = m.group(1)
+                    
+                    m = re.match('.*author:.*\"(.*)\"', line)
+                    if m:
+                        author = re.sub("&lt;.*?&gt;", "", m.group(1))+(' & Timothee Giet')
+                    
+                    m = re.match('.*manual:.*\"(.*)\"', line)
+                    if m:
+                        manual = m.group(1)
+                    
+                    m = re.match('.*difficulty:.*', line)
+                    if m:
+                        difficulty = (m.group(0)).replace('  difficulty: ', '')
+                        difficulty = (difficulty).replace(' ', '')
+                        
+                    
+                    m = re.match('.*demo:.*', line)
+                    if m:
+                        demo = (m.group(0)).replace('  demo: ', '')
+                        
+                    m = re.match('.*type:.*\"(.*)\"', line)
+                    if m:
+                        category = m.group(1)
+                        
+                    m = re.match('.*prerequisite:.*\"(.*)\"', line)
+                    if m:
+                        prerequisite = m.group(1)
+                        
+
+                    infos = {'description':description, 
+                             'name':name, 
+                             'title':title, 
+                             'credit':credit,
+                             'goal':goal, 
+                             'section':section,
+                             'author':author,
+                             'manual':manual,
+                             'difficulty':difficulty,
+                             'demo':demo, 
+                             'type':category,
+                             'prerequisite':prerequisite,
+                             'icon':icon}
+                
+                descriptions.append(infos)    
+
+        except IOError as e:
+            pass
+    
+    return descriptions
+    
+    
+    
+#def getBoards():
+    #con = sqlite3.connect(expanduser("~") +
+                          #"/.config/gcompris/gcompris_sqlite.db")
+    #con.row_factory = sqlite3.Row
+    #cur = con.cursor()
+    #cur.execute('select name, section, author, difficulty, icon, title, description, prerequisite, goal, manual, credit, demo, type from boards order by section||\'/\'||name, difficulty')
+    ## Make a dict rw of the result    
+    #return [dict(row) for row in cur]
 
 # /a/b /a => 1 0
 # /a/b /c => 2 1
@@ -234,19 +344,22 @@ outputNewsAllText = templateNewsAll.render( templateVars )
 # Get the board list and make some adaptations
 #
 boards = getBoards()
+print boards
+
 for screenshot in boards:
-    if screenshot['name'] == "":
+    if screenshot['name'] == 'menu':
         screenshot['name'] = 'root'
-        screenshot['section'] = '/administration'
+        screenshot['section'] = 'administration'
         screenshot['type'] = 'root menu'
+        screenshot['difficulty'] = "0"
 
     if screenshot['name'] == "login":
-        screenshot['section'] = '/administration'
+        screenshot['section'] = 'administration'
 
-boards = sorted(boards, key=lambda t: t['section']+'/'+t['name'])
+boards = sorted(boards, key=lambda t: t['section']+' '+t['name'])
 
 # Reorder root, administration and login boards
-boards[0], boards[1], boards[2] = boards[2], boards[0], boards[1]
+#boards[0], boards[1], boards[2] = boards[2], boards[0], boards[1]
 
 #
 # Now process the board list
@@ -259,22 +372,21 @@ for screenshot in boards:
     if screenshot['section'] == '/experimental' or screenshot['name'] == 'experimental':
         continue
 
-    section = screenshot['section']
-    if screenshot['type'] == 'menu':
-        section += "/" + screenshot['name']
+    #section = screenshot['section']
+    #if screenshot['type'] == 'root menu':
+        #section += "/" + screenshot['name']
 
-    (opens, closes) = sectionDiff(previousSection, section)
-    depth += opens - closes
-    if closes:
-        templateVars["screenshots"].append("</div>" * closes)
-    if opens:
-        templateVars["screenshots"].append("<div class='row screenshot" + str(depth) + "'>" * opens)
+    #(opens, closes) = sectionDiff(previousSection, section)
+    #depth += opens - closes
+    #if closes:
+        #templateVars["screenshots"].append("</div>" * closes)
+    #if opens:
+        #templateVars["screenshots"].append("<div class='row screenshot" + str(depth) + "'>" * opens)
 
-    previousSection = section
+    #previousSection = section
 
-    screenshot['icon'] = screenshot['icon'].replace(".svg", "")
-    screenshot['icon'] = screenshot['icon'].replace(".png", "")
-    screenshot['author'] = re.sub(r" \(.*\)", "", screenshot['author'])
+
+    #screenshot['author'] = re.sub(r" \(.*\)", "", screenshot['author'])
     if screenshot['goal']:
         screenshot['goal'] = _(screenshot['goal']).replace('\n', '<br/>')
     if screenshot['prerequisite']:
@@ -305,7 +417,7 @@ outputScreenshotsText = templateScreenshots.render( templateVars )
 demo_activities = 0
 total_activities = 0
 for screenshot in boards:
-    if screenshot['type'] != 'menu':
+    if screenshot['name'] != 'root':
         total_activities += 1
         if screenshot['demo'] == 1:
             demo_activities += 1
