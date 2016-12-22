@@ -1,0 +1,60 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Sortie GCompris Qt 0.70' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r0.70-small.png'
+     alt='screenshots of the new activities in version 0.61'
+     style='float: right; width: 375px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r0.70.png')"/>
+
+
+
+<p>Juste à temps pour Noël, nous sommes heureux de vous annoncer la publication de la nouvelle version de GCompris.</p>
+
+<p>Il s'agit d'une étape importante car nous abandonnons enfin officiellement l'ancienne version Gtk+ pour la version Qt sur Windows. Tous ceux qui ont acheté la version complète au cours des deux dernières années recevront un nouveau code d'activation d'ici quelques jours.</p>
+
+<p>Aussi, pour ceux qui aiment les chiffres, nous avons dépassé les 100000 téléchargements sur le google play store.</p>
+
+<p>Cette nouvelle version contient entre autres 8 nouvelles activités, dont certaines ont été développées par des étudiants lors du dernier Google Summer Of Code:</p>
+<li class="puce">déplacer des éléments pour reconstruire un modèle donné (crane par Stefan Toncu)</li>
+<li class="puce">dessiner les nombres (drawnumbers par Nitish Chauhan)</li>
+<li class="puce">dessiner les lettres (drawletters par Nitish Chauhan)</li>
+<li class="puce">trouver à quels mots appartient une lettre (letter-in-word par Akshat Tandon)</li>
+<li class="puce">le jeu du moulin en version contre l'ordinateur (nine_men_morris par Pulkit Gupta)</li>
+<li class="puce">le jeu du moulin en version contre un ami (nine_men_morris_2_players par Pulkit Gupta)</li>
+<li class="puce">partager un nombre de friandises donné entre plusieurs enfants (share par Stefan Toncu)</li>
+<li class="puce">apprendre les nombres romains (roman_numerals par Bruno Coudoin)</li>
+</br>
+<p>Nous avons aussi comme toujours de nouvelles fonctions et corrections de bug:</p>
+<li class="puce">fonction de recherche par Rishabh Gupta</li>
+<li class="puce">compilation windows par Bruno Coudoin et Johnny Jazeix</li>
+<li class="puce">icon d'indice dans la barre (utilisé dans photohunter) par Johnny Jazeix</li>
+<li class="puce">paquet pour neon by Jonathan Riddell</li>
+<li class="puce">paquet pour openSUSE Tumbleweed grâce à Bruno Friedmann</li>
+<li class="puce">paquet pour archlinux (https://aur.archlinux.org/packages/gcompris-qt/) par Jose Riha</li>
+<li class="puce">paquet pour mageia cauldron par Timothee Giet</li>
+<li class="puce">liste de mots pour le Slovaque par Jose Riha</li>
+<li class="puce">liste de mots pour le Biélorusse par Antos Vaclauski</li>
+<li class="puce">divers mises à jour de listes de mots et de voix pour le Roumain par Horia Pelle</li>
+<li class="puce">voix ajoutées pour le Portugais Brésilien par Marcos D.</li>
+<li class="puce">nouveaux graphismes pour crane par Timothee Giet</li>
+<li class="puce">captures d'écran sur le site gcompris.net mises à jour pour la version Qt par Timothée et Johnny</li>
+</br>
+
+<p>Vous pouvez trouver cette nouvelle version ici: </br>
+
+<a href='https://play.google.com/store/apps/details?id=net.gcompris'>Android version</a></br>
+
+<a href='http://gcompris.net/download/qt/windows/gcompris-qt-0.70-win32.exe'>Windows 32bit</a> or <a href='http://gcompris.net/download/qt/windows/gcompris-qt-0.70-win64.exe'>Windows 64bit</a> version</br>
+
+<a href='http://gcompris.net/download/qt/linux/gcompris-qt-0.70-Linux.sh'>Linux version (64bit)</a></br>
+
+<a href='http://gcompris.net/download/qt/src/gcompris-qt-0.70.tar.xz'>source code</a></br>
+</p>
+
+<p>Cette version est complètement traduite en 15 langues grâce au travail de la communauté KDE: Biélorusse, Anglais Britannique, Portugais Brésilien, Catalan, Catalan (Valences), Néerlandais, Estonien, Français, Italien, Polonais, Portugais, Roumain, Espagnol, Suédois, Ukrainien. Elle est aussi partiellement traduite en: Breton (82%), Chinois Simplifié, Chinois Traditionnel (91%), Finlandais (70%), Galicien (93%), Allemand (97%), Norvégien Nynorsk (98%), Russe (83%), Slovaque (85%), Slovène (88%), Turc (77%).</p>
+
+<p>Si vous voulez aidez, n'hésitez pas à parler de GCompris dans votre communauté.</p>
+
+{% endblock %}
