@@ -29,9 +29,9 @@ i18_sources = template/base.html \
 all:
 	linguas="$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)"; \
+	  ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
 	done; \
-	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)"; \
+	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
 	cp template/mobile-privacy-policy.html .
 
 #
@@ -49,7 +49,7 @@ update:
 	  header_end=`grep -n '^$$' locale/$$lang.po | head -1 | sed s/://`; \
 	  tail -n +$$header_end locale/$$lang.po > locale/tempfile; \
 	  mkdir -p locale/$$lang/LC_MESSAGES; \
-	  cat ~/Softs/src/gcompris/po/gcompris_$$lang.po locale/tempfile | grep -v "^#~" > locale/$$lang/LC_MESSAGES/gcompris.po; \
+	  cat $(GCOMPRIS_DIR)/po/gcompris_$$lang.po locale/tempfile | grep -v "^#~" > locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  rm -f locale/tempfile; \
 	  sed '/^msgctxt "ActivityInfo|"/ d' < locale/$$lang/LC_MESSAGES/gcompris.po > locale/$$lang/LC_MESSAGES/gcompris_tmp.po; \
 	  sed '/^msgctxt "DialogHelp/ d' < locale/$$lang/LC_MESSAGES/gcompris_tmp.po > locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \

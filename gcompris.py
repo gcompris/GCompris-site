@@ -10,7 +10,6 @@ import sqlite3
 import re
 from collections import OrderedDict
 import gettext
-from os.path import expanduser
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -35,6 +34,12 @@ except:
     print "Missing GCompris list of locales"
     sys.exit(1)
 
+try:
+    gcomprisdir = sys.argv[4]
+except:
+    print "Missing GCompris installation directory, export GCOMPRIS_DIR as env var"
+    sys.exit(1)
+
 # Load the proper locale catalog
 _ = None
 t = None
@@ -56,25 +61,16 @@ def formatDate(date):
 #
 def getLocaleName(locale):
     result = locale
-    with open(expanduser("~") + 
-              "/Softs/src/gcompris-gtk/gcompris/src/gcompris/config.c", 'r') as f:
-        inlist = False
-        for line in f:
-            line = line.rstrip()
-            if line.startswith("static gchar *linguas[]"):
-                inlist = True
-                continue
-
-            if line == "};":
-                break
-
-            if not inlist:
-                continue
-
-            sline = line.split(',')
-            if sline[0].strip(' "').startswith(locale):
-                result = sline[1].strip().replace('N_("', '').replace('")', '')
-                break
+    try:
+        with open(gcomprisdir + '/src/core/LanguageList.qml') as f:
+            content = f.readlines()
+            for line in content:
+                m = re.match('.*{ \"text\": \"(.*)\", \"locale\": \"(.*)\" }', line)
+                if m and m.group(2).startswith(locale):
+                    result = m.group(1)
+                    break
+    except IOError as e:
+        pass
 
     return result
 
@@ -132,7 +128,7 @@ descriptions = []
 def getBoards():
     '''create a list of activity infos as found in GCompris ActivityInfo.qml'''
 
-    activity_dir = expanduser("~") +"/Softs/src/gcompris/src/activities"
+    activity_dir = gcomprisdir + "/src/activities"
     for activity in os.listdir(activity_dir):
         # Skip unrelevant activities
         if activity == 'template' or \
@@ -231,17 +227,6 @@ def getBoards():
             pass
     
     return descriptions
-    
-    
-    
-#def getBoards():
-    #con = sqlite3.connect(expanduser("~") +
-                          #"/.config/gcompris/gcompris_sqlite.db")
-    #con.row_factory = sqlite3.Row
-    #cur = con.cursor()
-    #cur.execute('select name, section, author, difficulty, icon, title, description, prerequisite, goal, manual, credit, demo, type from boards order by section||\'/\'||name, difficulty')
-    ## Make a dict rw of the result    
-    #return [dict(row) for row in cur]
 
 # /a/b /a => 1 0
 # /a/b /c => 2 1
