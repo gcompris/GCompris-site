@@ -1,0 +1,234 @@
+# Translations template for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.70\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-12-22 16:13+0100\n"
+"PO-Revision-Date: 2017-03-05 16:49+0300\n"
+"Last-Translator: Antoś Vaclaŭski <vaclau@zkodam.info>\n"
+"Language-Team: Belarus <vaclau@zkodam.info>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: template/base.html:58
+msgid "News"
+msgstr "Навіны"
+
+#: template/base.html:59 template/buy.html:4 template/buy.html:9
+msgid "Buy / Donate"
+msgstr "Набыць / Ахвяраваць"
+
+#: template/base.html:60
+msgid "Screenshots"
+msgstr "Здымкі экрану"
+
+#: template/base.html:62
+msgid "Contribute"
+msgstr "Унёсак"
+
+#: template/buy.html:16 template/screenshot.html:28
+msgid "Buying the Windows or MacOSX version"
+msgstr "Набыццё Windows- ці MacOSX-версіі"
+
+#: template/buy.html:20
+#, python-format
+msgid ""
+"The Windows and MacOSX versions have a limited number of activities, about "
+"%(demo_activities)s on the %(total_activities)s available."
+msgstr ""
+"Windows- ды MacOSX-версіі маюць абмежаваную колькасць практыкаванняў - "
+"даступныя блізу %(demo_activities)s з %(total_activities)s."
+
+#: template/buy.html:21
+msgid ""
+"Click on the button below let you pay 9&euro; for the activation code. After "
+"payment you will receive immediately an email with your instructions (check "
+"your spam folder). If you do not receive this email please write me at "
+"sales@gcompris.net"
+msgstr ""
+"Пстрычком па кнопцы ніжэй набудзьце код актывацыі за 9&euro;. Пасля аплаты "
+"Вы адразу ж атрымаеце электронны ліст з правадніцтвам (праверце таксама спам-"
+"тэчку). Калі Вы не атрымаеце гэты ліст, калі ласка, напішыце мне на "
+"sales@gcompris.net"
+
+#: template/buy.html:22
+msgid "Contact me to get a quote for your school."
+msgstr ""
+"Звяжыцеся са мною, каб атрымаць звесткі аб камерцыйным выкарыстанні для "
+"Вашае школы."
+
+#: template/buy.html:41
+msgid ""
+"The registration gives you the right to update to any new release of "
+"GCompris for 2 years. After that period, you can continue to use the latest "
+"release you got for as long as you wish."
+msgstr ""
+"Рэгістрацыя дазваляе Вам карыстацца аднаўленнямі GCompris цягам 2 гадоў. "
+"Пасля гэтага перыяду, Вы зможаце працягваць карыстацца Вашай версіяй колькі "
+"пажадаеце."
+
+#: template/buy.html:42 template/buy.html:72
+msgid "Thanks for your support of free software in education."
+msgstr "Дзякуй Вам за падтрымку вольнага праграмнага забеспячэння ў адукацыі."
+
+#: template/buy.html:44
+msgid "Legal reference: Company Timothée Giet RCS RENNES France 537 873 986."
+msgstr ""
+"Юрыдычныя звесткі: Кампанія Timothée Giet RCS RENNES France 537 873 986."
+
+#: template/buy.html:56
+msgid "Donate"
+msgstr "Ахвяраваць"
+
+#: template/buy.html:60
+msgid ""
+"You, your children, your classroom love GCompris. You have now the "
+"opportunity to help this project."
+msgstr ""
+"Вы, Вашыя дзеткі, Ваш клас упадабалі GCompris. У Вас ёсць цяпер магчымасць "
+"зрабіць свой унёсак у гэты праект."
+
+#: template/buy.html:61
+msgid ""
+"Developing software takes a lot of time, it needs hardware, it implies "
+"moving to promote the project. Said simply, I need your help to continue my "
+"investment in this project."
+msgstr ""
+"Распрацоўка праграм бярэ шмат часу, патрабуе кампутарнай тэхнікі, патрабуе "
+"сродкаў для прасоўвання праекту. Адным словам, мне патрэбная Вашая дапамога "
+"для сваіх укладанняў у гэты праект."
+
+#: template/buy.html:62
+msgid ""
+"You can donate the amount of your choice by clicking on the button below:"
+msgstr "Вы можаце ахвяраваць суму па Вашаму выбару, пстрыкнуўшы кнопку ніжэй:"
+
+#: template/index.html:4
+msgid "GCompris Educational Software"
+msgstr "Адукацыйнае праграмнае забеспячэнне GCompris"
+
+#: template/index.html:23 template/index.html:75
+#, python-format
+msgid "Version %(version)s"
+msgstr "Версія %(version)s"
+
+#: template/index.html:103 template/index.html:104
+msgid "Download GCompris"
+msgstr "Заладаваць GCompris"
+
+#: template/index.html:115
+msgid "Other"
+msgstr "Іншае"
+
+#: template/index.html:189
+msgid "View all screenshots"
+msgstr "Пабачыць усе здымкі"
+
+#: template/index.html:196
+msgid ""
+"GCompris is a high quality educational software suite comprising of numerous "
+"activities for children aged 2 to 10."
+msgstr ""
+"GCompris - гэты высакаякаснае адукацыйнае праграмнае забеспячэнне, якое "
+"аб'ядноўвае шэраг практыкаванняў для дзетак узростам ад 2 да 10 год."
+
+#: template/index.html:197
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Некаторыя практыкаванні арыентаваныя на гульню, але ўсё ж маюць адукацыйны "
+"характар."
+
+#: template/index.html:198
+msgid ""
+"Below you can find a list of categories with some of the activities "
+"available in that category."
+msgstr ""
+"Ніжэй Вы пабачыце спіс катэгорый з некаторымі практыкаваннямі, даступнымі ў "
+"гэтых катэгорыях."
+
+#: template/index.html:200
+msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
+msgstr "вывучэнне кампутара: клавіятуры, мышкі, розныя дзеянні мышкі, ..."
+
+#: template/index.html:201
+msgid ""
+"arithmetic: table memory, enumeration, double entry table, mirror image, ..."
+msgstr "арыфметыка: лік, табліцы і тэхнікі навучання, ..."
+
+#: template/index.html:202
+msgid ""
+"science: the canal lock, the water cycle, the submarine, electric "
+"simulation ..."
+msgstr ""
+"навука: канальны шлюз, цыкл вады, падводная лодка, сімуляцыя электрычнай "
+"схемы ..."
+
+#: template/index.html:203
+msgid "geography: place the country on the map"
+msgstr "геаграфія: размясціць краіну на мапе"
+
+#: template/index.html:204
+msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgstr "гульні: шахматы, на памяць, злучыць 4, оварэ, судоку ..."
+
+#: template/index.html:205
+msgid "reading: reading practice"
+msgstr "чытанне: практыка чытання"
+
+#: template/index.html:206
+msgid ""
+"other: learn to tell time, puzzle of famous paintings, vector drawing, "
+"cartoon making, ..."
+msgstr ""
+"іншае: навучыцца казаць час, пазл з вядомымі карцінамі, вектарнае маляванне, "
+"стварэнне мультфільмаў, ..."
+
+#: template/index.html:208
+msgid ""
+"Currently GCompris offers in excess of 100 activities and more are being "
+"developed. GCompris is free software, that means that you can adapt it to "
+"your own needs, improve it and, most importantly, share it with children "
+"everywhere."
+msgstr ""
+"Цяпер GCompris прапануе як найменш 100 практыкаванняў і яшчэ распрацоўваюцца "
+"новыя. GCompris - гэта вольнае праграмнае забеспячэнне, і гэта значыць, што "
+"Вы можаце адаптаваць яго пад свае мэты, паляпшаць і, што найважней - "
+"дзяліцца ім з дзеткамі паўсюль."
+
+#: template/index.html:214
+msgid "Latest news"
+msgstr "Апошнія навіны"
+
+#: template/index.html:218
+msgid "All the news"
+msgstr "Усе навіны"
+
+#: template/screenshot.html:46
+msgid "Description:"
+msgstr "Апісанне:"
+
+#: template/screenshot.html:49
+msgid "Prerequisite"
+msgstr "Перадумова"
+
+#: template/screenshot.html:53
+msgid "Goal"
+msgstr "Мэта"
+
+#: template/screenshot.html:57
+msgid "Manual"
+msgstr "Правадніцтва"
+
+#: template/screenshot.html:61
+msgid "Credit"
+msgstr "Інфармацыя"

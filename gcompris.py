@@ -65,7 +65,7 @@ def getLocaleName(locale):
         with open(gcomprisdir + '/src/core/LanguageList.qml') as f:
             content = f.readlines()
             for line in content:
-                m = re.match('.*{ \"text\": \"(.*)\", \"locale\": \"(.*)\" }', line)
+                m = re.match('.*\"text\": \"(.*)\", \"locale\": \"(.*)\" }', line)
                 if m and m.group(2).startswith(locale):
                     result = m.group(1)
                     break
