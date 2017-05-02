@@ -25,7 +25,7 @@ $Destination['th'] = '-th';
 $Destination['zh-tw'] = '-zh_TW';
 
 /*
-  code copyed from http://php.net/manual/en/function.http-negotiate-language.php
+  code copied from http://php.net/manual/en/function.http-negotiate-language.php
   determine which language out of an available set the user prefers most
 
   $available_languages        array with language-tag-strings (must be lowercase) that are available

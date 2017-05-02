@@ -6,7 +6,6 @@ import os
 import sys
 import jinja2
 from datetime import date
-import sqlite3
 import re
 from collections import OrderedDict
 import gettext
