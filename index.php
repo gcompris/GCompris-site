@@ -1,5 +1,6 @@
 <?php
 $Destination['en'] = '-en';
+$Destination['be'] = '-be';
 $Destination['bg'] = '-bg';
 $Destination['cs'] = '-cs';
 $Destination['da'] = '-da';
@@ -14,6 +15,7 @@ $Destination['lt'] = '-lt';
 $Destination['lv'] = '-lv';
 $Destination['nn'] = '-nn';
 $Destination['pl'] = '-pl';
+$Destination['pt'] = '-pt';
 $Destination['pt-br'] = '-pt_BR';
 $Destination['ru'] = '-ru';
 $Destination['sk'] = '-sk';
