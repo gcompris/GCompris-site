@@ -1,7 +1,7 @@
 
 VERSION = 0.70
 
-ALL_LINGUAS = be bg br ca ca@valencia cs da de el es fr gd gl hu it lt lv nl nn pl pt pt_BR ru sk sl sr sv ta th uk zh_TW 
+ALL_LINGUAS = be bg br ca ca@valencia cs da de el es fr gd gl hu it lt lv nl nn pl pt pt_BR ro ru sk sl sr sv ta th uk zh_TW 
 #ALL_LINGUAS = fr
 
 POFILES=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang.po "; done)
