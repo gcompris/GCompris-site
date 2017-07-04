@@ -7,10 +7,10 @@
     <script type="text/javaScript">
       window.onload = function()
       {
-       winarch = "win64";
-        if (navigator.userAgent.indexOf("WOW64") != -1){
-            winarch = "win32";
-            }
+        var winarch = "win32";
+        if ( platform.os.architecture = 64){
+            winarch = "win64";
+        }
         windowsURL = "http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-"+winarch+".exe";
         macURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1019161041";
         linuxURL = "http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux.sh";
