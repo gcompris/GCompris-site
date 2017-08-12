@@ -7,13 +7,17 @@
     <script type="text/javaScript">
       window.onload = function()
       {
-        var winarch = "win32";
+        var winarch = "win32-gcc";
         if ( platform.os.architecture = 64){
-            winarch = "win64";
+            winarch = "win64-gcc";
+        }
+        var linarch = "Linux32";
+        if ( platform.os.architecture = 64){
+            linarch = "Linux64";
         }
         windowsURL = "http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-"+winarch+".exe";
         macURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1019161041";
-        linuxURL = "http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux.sh";
+        linuxURL = "http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-"+linarch+".sh";
         androidURL = "https://play.google.com/store/apps/details?id=net.gcompris";
         iOSURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1020904808";
         if ( (/^Windows/).test(platform.os.family)) {
