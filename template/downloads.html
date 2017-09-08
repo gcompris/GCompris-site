@@ -1,0 +1,108 @@
+{% extends "template/base.html" %}
+{% import "template/social.html" as social %}
+{% set page = 'downloads' %}
+{% set title = _('Download') + " - GCompris" %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <h1 class="bigtitle2">{% trans %}Download{% endtrans %}</h1>
+      {{ social.block(locale) }}
+
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Windows installer{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}System requirements: Windows 7, 8 or 10 with OpenGL 2 support.{% endtrans %}</p>
+	      <pre>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64-gcc.exe">GCompris {{ version }}-Windows 64bit</a></li>
+          <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win32-gcc.exe">GCompris {{ version }}-Windows 32bit</a></li>
+          </pre>
+          <p>{% trans %}If your system doesn't have OpenGL 2 support or if it's not working properly, you can use this version with software-OpenGL enabled. However, note that this version uses a lot of CPU.{% endtrans %}</p>
+          <pre>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64.exe">GCompris {{ version }}-Windows 64bit-No OpenGL</a></li>
+          <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win32.exe">GCompris {{ version }}-Windows 32bit-No OpenGL</a></li>
+          </pre>
+          <p>{% trans %}If you really need a version that runs on Windows XP, or if your system doesn't support the new version, you can use the last installer from the old GCompris 15.10.{% endtrans %}</p>
+          <pre>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/gtk/windows/gcompris-15.10.exe">GCompris 15.10-Windows 32bit</a></li>
+	      </pre>
+	    </div>
+	  </div>
+	</div>
+      </div>
+     
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Linux installer{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}We provide standalone packages for GNU/Linux. They should work on any distribution (requires at least linux kernel 3.10, and gstreamer 1.0).{% endtrans %}</p>
+	      <pre>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux64.sh">GCompris {{ version }}-Linux 64bit</a></li>
+          <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux32.sh">GCompris {{ version }}-Linux 32bit</a></li>
+          </pre>
+          <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands :{% endtrans %}</p>
+          <pre>
+          <p>chmod u+x gcompris-qt-{{ version }}-Linux64.sh</p>
+          <p>./gcompris-qt-{{ version }}-Linux64.sh</p>
+	      </pre>
+	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
+	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh .{% endtrans %}</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Source code{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}The source code is available under the GPLv3 license.{% endtrans %}</p>
+	      <pre>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/src/gcompris-qt-{{ version }}.tar.xz">GCompris {{ version }}-source code</a></li>
+          </pre>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+          <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}MD5 and GPG{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}To check the integrity of your downloads, you can compare the md5sums with those in this file: <a href="http://gcompris.net/download/qt/md5sums-0.80.txt">MD5SUMS</a>{% endtrans %}</p>
+	      <p>{% trans %}The source tarball and the main installers are signed with the GPG key from Timothée Giet (public key: {% endtrans %}<a href="https://share.kde.org/index.php/s/YjKzYs1bgDsOo5V">0x63d7264c05687d7e.asc</a> )</p>
+	      <pre>
+	      <p>{% trans %}sig files:{% endtrans %}</p>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/src/gcompris-qt-{{ version }}.tar.xz.sig">GCompris {{ version }}-source code</a></li>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux64.sh.sig">GCompris {{ version }}-Linux 64bit</a></li>
+          <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux32.sh.sig">GCompris {{ version }}-Linux 32bit</a></li>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64-gcc.exe.sig">GCompris {{ version }}-Windows 64bit</a></li>
+          <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win32-gcc.exe.sig">GCompris {{ version }}-Windows 32bit</a></li>
+          </pre>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+{% endblock %}
+ 

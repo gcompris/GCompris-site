@@ -412,6 +412,9 @@ templateVars['demo_activities'] = demo_activities
 templateBuy = templateEnv.get_template( "template/buy.html" )
 outputBuyText = templateBuy.render( templateVars )
 
+templateDownloads = templateEnv.get_template( "template/downloads.html" )
+outputDownloadsText = templateDownloads.render( templateVars )
+
 templateIndex = templateEnv.get_template( "template/index.html" )
 outputIndexText = templateIndex.render( templateVars )
 
@@ -429,6 +432,9 @@ with codecs.open('screenshots' + suffix + '.html', 'w', encoding='utf8') as f:
 
 with codecs.open('buy' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputBuyText )
+
+with codecs.open('downloads' + suffix + '.html', 'w', encoding='utf8') as f:
+    f.write( outputDownloadsText )
 
 template = templateEnv.get_template( "template/download_macosx.html" )
 outputText = template.render( templateVars )

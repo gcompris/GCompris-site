@@ -7,7 +7,7 @@
     <script type="text/javaScript">
       window.onload = function()
       {
-        var winarch = "win32";
+        var winarch = "win32-gcc";
         if ( platform.os.architecture = 64){
             winarch = "win64-gcc";
         }
@@ -116,7 +116,7 @@
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS3Link"></a></span>
-	<span><a class="extraInfoLink" href="http://gcompris.net/download">{# notes other platform #}{% trans %}Other{% endtrans %}</a></span>
+	<span><a class="extraInfoLink" href="http://gcompris.net/downloads{{ suffix }}">{# notes other platform #}{% trans %}All{% endtrans %}</a></span>
       </div>
       <div class="row" style="margin-top: 10px">
 	<div id="carousel" class="carousel slide" style="width: 400px; margin: 0 auto">

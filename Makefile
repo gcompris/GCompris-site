@@ -12,6 +12,7 @@ sources = \
 	gcompris.py \
 	template/base.html \
 	template/buy.html \
+	template/downloads.html \
 	template/download_macosx.html \
 	template/index.html \
 	template/news.html \
