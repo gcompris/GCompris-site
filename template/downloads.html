@@ -40,7 +40,7 @@
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Linux installer{% endtrans %}</div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}GNU/Linux{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -54,6 +54,31 @@
           <pre>
           <p>chmod u+x gcompris-qt-{{ version }}-Linux64.sh</p>
           <p>./gcompris-qt-{{ version }}-Linux64.sh</p>
+	      </pre>
+	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
+	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh .{% endtrans %}</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+      
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Raspberry Pi{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}We provide a standalone package for Raspberry Pi.{% endtrans %} This package is a beta version. It was tested only on Raspberry Pi 3.</p>
+	      <pre>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/raspberrypi/gcompris-qt-0.81-raspberry-beta.sh">GCompris {{ version }}-Raspberry Pi 3 (beta)</a></li>
+          </pre>
+          <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands :{% endtrans %}</p>
+          <pre>
+          <p>chmod u+x gcompris-qt-{{ version }}-raspberry-beta.sh</p>
+          <p>./gcompris-qt-{{ version }}-raspberry-beta.sh</p>
 	      </pre>
 	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
 	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh .{% endtrans %}</p>

@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris Qt for Raspberry Pi' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/RPi-Logo.png'
+     alt='Raspberry Pi'
+     style='float: right; width: 128px; padding: 20px; cursor: pointer;'
+     onclick="window.open('https://www.raspberrypi.org')"/>
+     
+<img src='news/images/gcompris-qt.png'
+     alt='gcompris on Raspberry Pi'
+     style='float: right; width: 256px; padding-left: 20px; cursor: pointer;'
+     onclick="window.open('http://gcompris.net/downloads-en.html')"/>
+     
+<p>We are very happy to bring you GCompris 0.81, this time on Raspberry Pi.</p>
+
+<p>This version for Raspberry Pi was made possible thanks to the new "light" mode that we've been working on (read the previous post to learn more about this new rendering mode).</p>
+
+<p>It was built and tested on Raspberry Pi 3, where it works good. Since it was not tested a lot yet, this first package is considered beta. Please report any issue you may experience with it. If you can try it on a Pi 2, please let us know the result. It was also not tested on Pi 1, but those probably don't have enough cpu and/or ram to run it.</p>
+
+<p>The installer is on the <a href="http://gcompris.net/downloads-en.html">Download page</a> with all instructions needed to use it.</p>
+
+<p>Thank you all, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}
