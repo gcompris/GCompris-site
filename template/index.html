@@ -18,7 +18,7 @@
         windowsURL = "http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-"+winarch+".exe";
         macURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1019161041";
         linuxURL = "http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-"+linarch+".sh";
-        androidURL = "https://play.google.com/store/apps/details?id=net.gcompris";
+        androidURL = "downloads{{ suffix }}.html#android";
         iOSURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1020904808";
         if ( (/^Windows/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = windowsURL;
@@ -116,7 +116,7 @@
 	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
 	<span><a class="extraInfoLink" id="otherDownloadOS3Link"></a></span>
-	<span><a class="extraInfoLink" href="http://gcompris.net/downloads{{ suffix }}">{# notes other platform #}{% trans %}All{% endtrans %}</a></span>
+	<span><a class="extraInfoLink" href="downloads{{ suffix }}.html">{# notes other platform #}{% trans %}All{% endtrans %}</a></span>
       </div>
       <div class="row" style="margin-top: 10px">
 	<div id="carousel" class="carousel slide" style="width: 400px; margin: 0 auto">

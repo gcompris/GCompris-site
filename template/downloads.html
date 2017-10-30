@@ -9,11 +9,11 @@
       <h1 class="bigtitle2">{% trans %}Download{% endtrans %}</h1>
       {{ social.block(locale) }}
 
-      <div class="container bs-docs-container">
+      <div class="container bs-docs-container" id="windows">
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Windows installer{% endtrans %}</div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Windows{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -36,7 +36,26 @@
 	</div>
       </div>
      
-      <div class="container bs-docs-container">
+      <div class="container bs-docs-container" id="android">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Android{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}The version for Android is distributed in the Play Store. The demo and the full version have separate installers.{% endtrans %}</p>
+	      <pre>
+	      <li class="puce"><a class="extraInfoLink" href="https://play.google.com/store/apps/details?id=net.gcompris.full">GCompris {{ version }}-Full version for Android</a></li>
+          <li class="puce"><a class="extraInfoLink" href="https://play.google.com/store/apps/details?id=net.gcompris">GCompris {{ version }}-Demo version for Android</a></li>
+          </pre>
+          <p>{% trans %}Note: It is recommended to buy directly the full version from the store, not from the button in the demo. This way, you can share it with 5 family members using the Google Play Family Library. Also, a few users reported issues to unlock the demo.{% endtrans %}</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+     
+      <div class="container bs-docs-container" id="linux">
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
@@ -63,7 +82,7 @@
       </div>
       
       
-      <div class="container bs-docs-container">
+      <div class="container bs-docs-container" id="rpi">
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
@@ -87,7 +106,7 @@
 	</div>
       </div>
 
-      <div class="container bs-docs-container">
+      <div class="container bs-docs-container" id="source">
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
