@@ -1,0 +1,53 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Qt 0.90' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r0.90-small.png'
+     alt='screenshots of the new activities in version 0.90'
+     style='float: right; width: 375px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r0.90.png')"/>
+
+     
+<p>Hi,</p>
+
+<p>We are happy to bring you GCompris 0.90.</p>
+
+<p>This new version contains 8 new activities:</p>
+
+<li class="puce"> A calendar activity where the child learns how to use it (by Amit Sagtani)</li>
+<li class="puce"> Another activity based on calendar where the child has to find the date corresponding at a date + some days further/before this date (by Amit Sagtani))</li>
+<li class="puce"> An activity to learn how people on a family are related and how to call this relation (started by Rajdeep Kaur on a previous GSoC, completed by Rudra Nil Basu during last GSoC)</li>
+<li class="puce"> Another similar activity with questions about family members</li>
+<li class="puce"> An extension of memory activities where the child has to match lowercase letters with their corresponding uppercase (by Aman Gupta)</li>
+<li class="puce"> The same activity in two players mode with Tux (by Aman Gupta)</li>
+<li class="puce"> The Gtk+ port and improved submarine activity where the child learns a basic overview on how to run a submarine (by Rudra Nil Basu)</li>
+<li class="puce"> The digital electricity activity where the child can use different components to create an electric schema. There is also a tutorial mode to explain how to use each component (started by Pulkit Gupta on previous GSoC, completed by Rudra Nil Basu)</li>
+
+<br/>
+<p>We always have new features, content and bug fixes:</p>
+
+<li class="puce"> Updated graphics on several activities by Timothée Giet</li>
+<li class="puce"> Irish translation, voices and datasets by Séamus Ó Briain</li>
+<li class="puce"> Lot of improvements on removing overriding elements issues (score were hidden behind the bar...)</li>
+<li class="puce"> Add Tutorial item to be able to have activity introductions with both images and texts</li>
+<li class="puce"> Add easy mode in letter in word with less words displayed</li>
+<li class="puce"> Add license page</li>
+<li class="puce"> Lots of small bug fixes</li>
+
+
+<br/>
+
+<p>You can find this new version <a href="https://gcompris.net/downloads-en.html">on the download page</a>.</p>
+
+<br/>
+
+<p>On the translation side, we have 17 languages fully supported: Belarusian, British English, Brazilian Portuguese, Catalan, Catalan (Valencian), Dutch, French, Galician, Italian, Norwegian Nynorsk, Polish, Portuguese,  Romanian, Spanish, Swedish, Turkish, Ukrainian;<br/> And some partially supported: Breton (75%), Chinese Simplified (88%), Chinese Traditional (90%), Estonian (91%), Finnish (63%), German (92%), Greek (90%), Hindi (98%), Irish Gaelic (99%), Russian (88%), Slovak (88%), Slovenian (80%).</p>
+
+<p>If you want to help, please make some posts in your community about GCompris and don't hesitate to give feedbacks.</p>
+
+<p>Thank you all, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}
