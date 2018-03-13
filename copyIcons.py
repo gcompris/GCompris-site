@@ -24,6 +24,6 @@ for activity in os.listdir(activity_dir):
         not os.path.isdir(activity_dir + "/" + activity):
         continue
         
-    shutil.copy2(activity_dir + '/' + activity +'/' + activity + '.svg', '/home/timo/Softs/src/gcompris-net/boardIcons/' + activity + '.svg')
+    shutil.copy2(activity_dir + '/' + activity +'/' + activity + '.svg', '/home/timo/Softs/src/gcompris-net/boardicons/' + activity + '.svg')
         
 print "Done"
