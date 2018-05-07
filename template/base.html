@@ -56,7 +56,7 @@ function toggle(id, toggleId) {
       <div class="collapse navbar-collapse navbar-ex1-collapse">
 	<ul class="nav navbar-nav">
 	  <li class="{% if page == 'index' %}active{% else %}non-active{% endif %}"><a href="index{{ suffix }}.html">GCompris</a></li>
-	  <li class="{% if page == 'news' %}active{% else %}non-active{% endif %}"><a href="downloads{{ suffix }}.html">{% trans %}Download{% endtrans %}</a></li>
+	  <li class="{% if page == 'downloads' %}active{% else %}non-active{% endif %}"><a href="downloads{{ suffix }}.html">{% trans %}Download{% endtrans %}</a></li>
 	  <li class="{% if page == 'buy' %}active{% else %}non-active{% endif %}"><a href="buy{{ suffix }}.html">{% trans %}Buy / Donate{% endtrans %}</a></li>
 	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
 	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/{{ manual }}">{{ manualTranslation }}</a></li>
