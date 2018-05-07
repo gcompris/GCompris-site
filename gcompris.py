@@ -5,10 +5,13 @@ import codecs
 import os
 import sys
 import jinja2
+import time
+import datetime
 from datetime import date
 import re
 from collections import OrderedDict
 import gettext
+from email import utils
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -283,7 +286,8 @@ templateVars = {
     "locales": locales,
     "manual": getManual(),
     "manualTranslation": _("Manual"),
-    "license_info": _("This software is a GNU Package and is released under the GNU General Public License")
+    "license_info": _("This software is a GNU Package and is released under the GNU General Public License"),
+    "feed": []
     }
 
 # Use this filter in template when you know the text comes from the
@@ -313,16 +317,32 @@ for filename in os.listdir("news"):
 
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
-    templateOneNews = templateEnv.get_template( "news/" + filename )
+    templateOneNews = templateEnv.get_template("news/" + filename)
     templateVars['newsDate'] = formatDate(filename)
     templateVars['fileName'] = filename
-    templateVars["news"].append(templateOneNews.render( templateVars ))
+    templateVars["news"].append(templateOneNews.render(templateVars))
 
-templateNews = templateEnv.get_template( "template/news.html" )
-outputNewsText = templateNews.render( templateVars )
+    # read file to get the title, not sure if it is doable using jinja
+    lines = ""
+    with open ("news/" + filename, 'rt') as in_file:
+        for line in in_file:
+            lines += line.rstrip('\n')
+    rgx = re.compile('set title = \'(?P<name>[^{}]+)\'')
+    variable_names = {match.group('name') for match in rgx.finditer(lines)}
 
-templateNewsAll = templateEnv.get_template( "template/newsall.html" )
-outputNewsAllText = templateNewsAll.render( templateVars )
+    dateRFC822 = utils.formatdate(time.mktime(datetime.datetime.strptime(templateVars['newsDate'], "%Y-%m-%d").timetuple()))
+    currentFeed = {"dateRFC822": dateRFC822, "date": templateVars['newsDate'], "title": next(iter(variable_names))}
+
+    templateVars["feed"].append(currentFeed)
+
+templateNews = templateEnv.get_template("template/news.html")
+outputNewsText = templateNews.render(templateVars)
+
+templateNewsAll = templateEnv.get_template("template/newsall.html")
+outputNewsAllText = templateNewsAll.render(templateVars)
+
+templateFeedAll = templateEnv.get_template("feed.xml")
+outputFeedAllText = templateFeedAll.render(templateVars)
 
 #
 # Get the board list and make some adaptations
@@ -435,6 +455,9 @@ with codecs.open('buy' + suffix + '.html', 'w', encoding='utf8') as f:
 
 with codecs.open('downloads' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputDownloadsText )
+
+with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
+    f.write( outputFeedAllText )
 
 template = templateEnv.get_template( "template/download_macosx.html" )
 outputText = template.render( templateVars )
