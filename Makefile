@@ -75,4 +75,4 @@ online:
 	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc --exclude template . maintener@gcompris.net:/var/www/
 
 clean:
-	rm -f *.html *.pyc locale/*
+	rm -Rf *.html feed-*.xml *.pyc locale/*
