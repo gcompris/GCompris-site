@@ -1,0 +1,88 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 0.91' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; width: 360px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Hi,<br />
+Here is GCompris 0.91, a new bugfix release to correct some issues in previous version and improve a few things.</p>
+
+<p>Every GNU/Linux distribution shipping 0.90 should update to 0.91.</p>
+
+<p>With 68 commits since last release, the full changelog is too long for this post.
+But here is a list to summarize the changes.</p>
+
+<p>Activities:</p>
+<li class="puce">fix English text in several activities</li>
+<li class="puce">fix score position in several activities</li>
+<li class="puce">block some buttons and interactions when needed in several places</li>
+<li class="puce">lots of fixes for audio in several activities</li>
+<li class="puce">number_sequence (and others based on it), fix base layout</li>
+<li class="puce">update dataset for clickanddraw, drawnumbers and drawletters</li>
+<li class="puce">crane, add localized dataset</li>
+<li class="puce">lightsoff, add keyboard support and other fixes</li>
+<li class="puce">algorithm, add keyboard support and other fixes</li>
+<li class="puce">money, fixes for locale currency used</li>
+<li class="puce">ballcatch, improve audio feedback</li>
+<li class="puce">calendar, several little fixes</li>
+<li class="puce">memory-case-association fix icons size</li>
+<br/>
+<p>Other changes:</p>
+<li class="puce">re-enable sound effects on linux</li>
+<li class="puce">improved playback of sound effects, no more delay</li>
+<li class="puce">add captions to images and OARS tags in the appdata</li>
+<li class="puce">add Scottish Gaelic to core, and update some datasets for it</li>
+<li class="puce">main bar, fix some items size</li>
+<li class="puce">remove unused images</li>
+
+
+<br/>
+
+<p>You can find this new version <a href="https://gcompris.net/downloads-en.html">on the download page</a>, and soon in the Play store and Windows store.</p>
+
+<p>On the translation side, we have 16 languages fully supported: 
+British English, 
+Catalan, 
+Catalan (Valencian), 
+Chinese Traditional, 
+Dutch, 
+French, 
+Greek, 
+Indonesian, 
+Irish Gaelic, 
+Italian, 
+Polish, 
+Portuguese, 
+Romanian, 
+Spanish, 
+Swedish, 
+Ukrainian. 
+
+We also have 15 languages partially supported: 
+
+Norwegian Nynorsk (97%), 
+Hindi (96%), 
+Turkish (90%), 
+Scottish Gaelic (86%), 
+Galician (86%), 
+Brazilian Portuguese (84%), 
+Belarusian (84%), 
+German (81%), 
+Chinese Simplified (79%), 
+Russian (78%), 
+Estonian (77%), 
+Slovak (76%), 
+Finnish (76%), 
+Slovenian (69%), 
+Breton (65%).</p>
+
+<p>Thank you all, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}
