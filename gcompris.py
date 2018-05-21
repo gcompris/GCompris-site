@@ -341,7 +341,7 @@ outputNewsText = templateNews.render(templateVars)
 templateNewsAll = templateEnv.get_template("template/newsall.html")
 outputNewsAllText = templateNewsAll.render(templateVars)
 
-templateFeedAll = templateEnv.get_template("feed.xml")
+templateFeedAll = templateEnv.get_template("template/feed.xml")
 outputFeedAllText = templateFeedAll.render(templateVars)
 
 #
