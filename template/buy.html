@@ -13,35 +13,50 @@
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Buying the Windows or MacOSX version{% endtrans %}</div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Buying the full version{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
-	      <p>{% trans %}The Windows and MacOSX versions have a limited number of activities, about {{ demo_activities }} on the {{ total_activities }} available.{% endtrans %}</p>
-	      <p>{% trans %}Click on the button below let you pay 9&euro; for the activation code. After payment you will receive immediately an email with your instructions (check your spam folder). If you do not receive this email please write me at sales@gcompris.net{% endtrans %}</p>
-	      <p>{% trans %}Contact me to get a quote for your school.{% endtrans %}</p>
+	      <p>{% trans %}On proprietary operating systems (Windows/Mac/Android...), the full version of GCompris has a cost.{% endtrans %}</br>
+	      {% trans %}We provide a free demo with a limited number of activities, {{ demo_activities }} on the {{ total_activities }} available.{% endtrans %}</br>
+	      {% trans %}Follow the instructions below to buy the full version.{% endtrans %}</p>
+	      <li class="puce">Windows</li>
+	      <p>{% trans %}For Windows, you can get the demo from the <a href=downloads-{{locale}}.html>download page</a>, and buy here the activation code to unlock the full version. The cost is 9€.{% endtrans %}</p>
 	      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-		<input type="hidden" name="cmd" value="_xclick">
-		<input type="hidden" name="business" value="animtim@gmail.com">
-		<input type="hidden" name="item_name" value="gcompris">
-		<input type="hidden" name="item_number" value="gcompris">
-		<input type="hidden" name="no_shipping" value="1">
-		<input type="hidden" name="amount" value="9.00">
-		<input type="hidden" name="no_note" value="1">
-		<input type="hidden" name="currency_code" value="EUR">
-		<input type="image" src="paypal_buy.gif" border="0" name="submit" alt="Make your payment with paypal. A fast and efficient solution!">
+		 <input type="hidden" name="cmd" value="_xclick">
+		 <input type="hidden" name="business" value="animtim@gmail.com">
+		 <input type="hidden" name="item_name" value="gcompris">
+		 <input type="hidden" name="item_number" value="gcompris">
+		 <input type="hidden" name="no_shipping" value="1">
+		 <input type="hidden" name="amount" value="9.00">
+		 <input type="hidden" name="no_note" value="1">
+		 <input type="hidden" name="currency_code" value="EUR">
+		 <input type="image" src="paypal_buy.gif" border="0" name="submit" alt="Make your payment with paypal. A fast and efficient solution!">
 	      </form>
-	      {% if locale == 'fr' %}
-	      <p></p><p>Par ch&egrave;que : pour cela, veuillez remplir un ch&egrave;que uniquement en euros et compensable en France (tir&eacute; sur une banque fran&ccedil;aise) de 9 Euros, en le libellant &agrave; l'ordre de Timothée Giet. Veuillez noter, au dos du ch&egrave;que, votre adresse email qui nous est indispensable pour vous envoyer le code d'activation. Veuillez envoyer le tout &agrave; l'adresse suivante :</p>
-	      <pre>Timothée Giet
-Résidence du Haut-Bourg, apt. 11
-35650 Le Rheu
-FRANCE</pre>
-	      {% endif %}
-	      <p>{% trans %}The registration gives you the right to update to any new release of GCompris for 2 years. After that period, you can continue to use the latest release you got for as long as you wish.{% endtrans %}</p>
-	      <p>{% trans %}Thanks for your support of free software in education.{% endtrans %}</p>
+	      </br>
+          <p>{% trans %}Notes:{% endtrans %}<p>
+          <p>{% trans %}For personal use, it is possible to use this code on several computers.</br>
+          For schools and other institutions, please contact us to get a quote.{% endtrans %}</p>
+	      <p>{% trans %}After the payment you will immediately receive an email with instructions (check your spam folder). If you do not receive this email please contact us at sales@gcompris.net .{% endtrans %}</p>
+	      <p>{% trans %}This registration gives you the right to update to any new release of GCompris for 2 years. After that period, you can continue to use the latest release you got for as long as you wish.{% endtrans %}</p>
+	      </br>
+          <p>{% trans %}Alternatively, you can also buy the full version of GCompris directly <a href="https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm">from the Windows Store.</a>{% endtrans %}</p>
+          </br>
+	      <li class="puce">MacOSX</li>
+          <p>{% trans %}For MacOSX, the current version is not available anymore, we are working to bring it back soon. It will use the same code as the Windows version.{% endtrans %}</p>
+          </br>
+	      <li class="puce">Android</li>
+          <p>{% trans %}For Android, the recommanded way is to directly buy the full version <a href="https://play.google.com/store/apps/details?id=net.gcompris.full">from Google Play store</a>.{% endtrans %}</p>
+          <p>{% trans %}You can also install <a href="https://play.google.com/store/apps/details?id=net.gcompris">the demo</a> available in the store, and use the in-app purchase button to unlock the full version from it. Note however that this second method doesn't allow to use the Google Play Family Library to share it with your family. Also, a few users reported issues to unlock the demo.{% endtrans %}</p>
+          </br>
+	      <li class="puce">GNU/Linux</li>
+          <p>{% trans %}For users of Free-Software operating systems, the full version is always free.</br>
+          This means that for GNU/Linux, the installer we provide and the distribution packages have the full version. There is no need for any activation code.{% endtrans %}</br>
+          {% trans %}However, you can still support us with a donation, see below.{% endtrans %}</p>
+          </br>
+	      <p>{% trans %}Thanks for supporting Free Software in education.{% endtrans %}</p>
 	      <p>Timothée Giet.</p>
-	      <p>{% trans %}Legal reference: Company Timothée Giet RCS RENNES France 537 873 986.{% endtrans %}</p>
+	      <p>{% trans %}Legal reference: Company{% endtrans %} Timothée Giet RCS RENNES France 537 873 986.</p>
 	    </div>
 	  </div>
 	</div>
@@ -51,12 +66,28 @@ FRANCE</pre>
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
+	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Schools{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}For schools and other institutions, you need a site license.{% endtrans %}</br>
+	      {% trans %}The price of a site license depends on the number of installations.{% endtrans %}</p>
+	      <p>{% trans %}Please contact us at <a href="mailto:sales@gcompris.net?subject=GCompris - Quote for school">sales@gcompris.net</a> to request a quote.{% endtrans %}</p>
+	    </div>
+	  </div>
+	</div>
+      </div>
+      
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
 	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Donate{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
-	      <p>{% trans %}You, your children, your classroom love GCompris. You have now the opportunity to help this project.{% endtrans %}</p>
-	      <p>{% trans %}Developing software takes a lot of time, it needs hardware, it implies moving to promote the project. Said simply, I need your help to continue my investment in this project.{% endtrans %}</p>
+	      <p>{% trans %}You, your children or your school love GCompris. You can support the project with a donation.{% endtrans %}</p>
+	      <p>{% trans %}Developing software takes a lot of time, it needs hardware, and other requirements that have a cost. Currently all sales and donations are used to support one of the main contributors, a professional graphic artist and developer who is now in charge of the graphics and co-maintaining the application.{% endtrans %}</p>
 	      <p>{% trans %}You can donate the amount of your choice by clicking on the button below:{% endtrans %}</p>
 	      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 		<input type="hidden" name="cmd" value="_xclick">
@@ -65,9 +96,10 @@ FRANCE</pre>
 		<input type="hidden" name="cn" value="Leave me a message if you wish.">
 		<input type="hidden" name="tax" value="0">
 		<input type="hidden" name="currency_code" value="EUR">
-		<input type="image" src="paypal_donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and  secure!">
+		<input type="image" src="paypal_donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 	      </form>
-	      <p>{% trans %}Thanks for your support of free software in education.{% endtrans %}</p>
+	      </br>
+	      <p>{% trans %}Thanks for supporting Free Software in education.{% endtrans %}</p>
 	      <p>Timothée Giet.</p>
 	    </div>
 	  </div>
