@@ -58,6 +58,7 @@ update:
 	  msguniq --use-first locale/$$lang/LC_MESSAGES/gcompris_tmp2.po -o locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  rm -f locale/tempfile locale/$$lang/LC_MESSAGES/gcompris_tmp.po locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
 	  msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
+	  python3 tools/convertPoToNews.py $$lang locale/$$lang.po; \
 	done;
 #
 # Run this when new strings are added in the templates
