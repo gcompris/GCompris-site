@@ -25,7 +25,9 @@ sources = \
 
 i18_sources = template/base.html \
 	template/buy.html \
-	template/index.html
+	template/downloads.html \
+	template/index.html \
+	template/screenshot.html
 
 all:
 	linguas="$(ALL_LINGUAS)"; \
