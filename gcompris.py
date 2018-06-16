@@ -368,7 +368,7 @@ boards = sorted(boards, key=lambda t: t['section']+' '+t['name'])
 #
 # Now process the board list
 #
-templateScreenshot = templateEnv.get_template( "template/screenshot.html" )
+templateScreenshot = templateEnv.get_template("template/screenshot.html")
 previousSection = ''
 depth = 0
 
@@ -414,7 +414,7 @@ for screenshot in boards:
 (opens, closes) = sectionDiff(previousSection, '')
 templateVars["screenshots"].append("</div>" * closes)
 
-templateScreenshots = templateEnv.get_template( "template/screenshots.html" )
+templateScreenshots = templateEnv.get_template("template/screenshots.html")
 outputScreenshotsText = templateScreenshots.render( templateVars )
 
 # Count the number of activities
@@ -429,14 +429,14 @@ for screenshot in boards:
 templateVars['total_activities'] = total_activities
 templateVars['demo_activities'] = demo_activities
 
-templateBuy = templateEnv.get_template( "template/buy.html" )
-outputBuyText = templateBuy.render( templateVars )
+templateBuy = templateEnv.get_template("template/buy.html")
+outputBuyText = templateBuy.render(templateVars)
 
-templateDownloads = templateEnv.get_template( "template/downloads.html" )
-outputDownloadsText = templateDownloads.render( templateVars )
+templateDownloads = templateEnv.get_template("template/downloads.html")
+outputDownloadsText = templateDownloads.render(templateVars)
 
-templateIndex = templateEnv.get_template( "template/index.html" )
-outputIndexText = templateIndex.render( templateVars )
+templateIndex = templateEnv.get_template("template/index.html")
+outputIndexText = templateIndex.render(templateVars)
 
 with codecs.open('index' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputIndexText )
@@ -459,13 +459,13 @@ with codecs.open('downloads' + suffix + '.html', 'w', encoding='utf8') as f:
 with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
     f.write( outputFeedAllText )
 
-template = templateEnv.get_template( "template/download_macosx.html" )
-outputText = template.render( templateVars )
+template = templateEnv.get_template("template/download_macosx.html")
+outputText = template.render(templateVars)
 with codecs.open('download_macosx' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputText )
 
 if suffix == '-en':
-    template = templateEnv.get_template( "template/404.html" )
-    outputText = template.render( templateVars )
+    template = templateEnv.get_template("template/404.html")
+    outputText = template.render(templateVars)
     with codecs.open('404.html', 'w', encoding='utf8') as f:
-        f.write( outputText )
+        f.write(outputText)
