@@ -1,5 +1,22 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+#
+# GCompris - convertPoToNews.py
+#
+# Copyright (C) 2018 Johnny Jazeix <jazeix@gmail.com>
+#
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 3 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with this program; if not, see <http://www.gnu.org/licenses/>.
 import os
 import re
 import polib
@@ -15,10 +32,13 @@ poFile = polib.pofile(sys.argv[2], encoding="utf-8")
 
 news = {}
 
+# reading all news translations from the po
+# storing them in a dict
 for entry in poFile:
     filename = entry.msgctxt
     if not filename or not filename.find('.html'):
         continue
+    originalFilename = "news/" + filename
     index = filename.find('.html')
     filename = "news/" + filename[:index] + '-' + locale + filename[index:]
 
@@ -34,23 +54,34 @@ for entry in poFile:
 
     if "title" in context:
         currentNews['title'] = entry.msgstr
-        currentNews['header'] = "{% extends \"template/onenews.html\" %}\n" \
-                                "{% set title = '" + entry.msgstr + "' %}\n" \
-                                "{% set withlongcontent = 0 %}\n" \
-                                "{% block content %} \n"
+        currentNews['originalFilename'] = originalFilename
     else:
-        currentNews["newsContent"] = polib.unescape(entry.msgstr)
+        currentNews[polib.unescape(entry.msgid)] = polib.unescape(entry.msgstr)
 
     news[filename] = currentNews
-
-FOOTER = "{% endblock %}"
+# for all news we have in the pot file, we create the corresponding html 
+# translated file
 for currentNews in news:
-    if news[currentNews]['title'] == "" or news[currentNews]['newsContent'] == "":
+    if not 'title' in news[currentNews] or news[currentNews]['title'] == "":
         print("Skip news", currentNews)
         continue
-    
+
     print("Creating", currentNews)
-    file = open(currentNews, "w", encoding="utf-8")
-    file.write(news[currentNews]['header'])
-    file.write(news[currentNews]['newsContent'])
-    file.write(FOOTER+"\n")
+
+    # Read in the file
+    with open(news[currentNews]['originalFilename'], "r", encoding="utf-8") as originalFile:
+        fileData = originalFile.read()
+
+    # Replace the target string
+    for string in news[currentNews]:
+        if 'title' == string:
+            matches = re.findall(r'[{% set title =]\'(.+?)\'[ %}]', fileData)
+            for m in matches:
+                fileData = fileData.replace('\'%s\'' % m, '\'%s\'' % news[currentNews][string])
+            continue
+        else:
+            fileData = fileData.replace(string, news[currentNews][string])
+
+    # Write the file out again
+    with open(currentNews, 'w') as file:
+        file.write(fileData)
