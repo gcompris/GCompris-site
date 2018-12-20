@@ -28,7 +28,7 @@ Run me from GCompris's top-level directory.
 """
 
 
-SVN_PATH = "svn://anonsvn.kde.org/home/kde/trunk/l10n-kde4/"
+SVN_PATH = "svn://anonsvn.kde.org/home/kde/trunk/l10n-kf5/"
 SOURCE_PO_PATH = "/messages/www/gcompris-net.po"
 OUTPUT_PO_PATH = "./locale/"
 OUTPUT_PO_PATTERN = "%s.po"
