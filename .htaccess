@@ -8,16 +8,25 @@ ErrorDocument 404 /404.html
 
 RewriteEngine on
 
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/data.*
+RewriteCond %{REQUEST_URI} !^/download/qt/src.*
+RewriteCond %{REQUEST_URI} !^/download/.*7z
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # ---------- Start WIKI
-RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki-1.22.0/index.php [L]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?wiki/(.*) http://%{SERVER_NAME}/wiki/$1 [R,L]
+
+RewriteRule ^/?wiki(/.*)?$ %{DOCUMENT_ROOT}/mediawiki-1.31.0/index.php [L]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-RewriteRule ^/?mediawiki-1.22.0/images/thumb/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.22.0/thumb.php?f=$1&width=$2 [L,QSA,B]
+RewriteRule ^/?mediawiki-1.31.0/images/thumb/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCU$
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
-RewriteRule ^/?mediawiki-1.22.0/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$ %{DOCUMENT_ROOT}/mediawiki-1.22.0/thumb.php?f=$1&width=$2&archived=1 [L,QSA,B]
+RewriteRule ^/?mediawiki-1.31.0/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)px-.*$
 # ---------- End Wiki
 
 RewriteRule \.git /404.html [L]
@@ -45,5 +54,3 @@ RewriteRule ^-Download-$ /index-en.html [R=permanent,L]
 RewriteRule ^-Descargar-$ /index-es.html [R=permanent,L]
 RewriteRule ^-Telecharger-$ /index-fr.html [R=permanent,L]
 RewriteRule ^-Sur-une-page-$ /screenshots-fr.html [R=permanent,L]
-
-
