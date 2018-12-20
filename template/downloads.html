@@ -25,11 +25,7 @@
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64-gcc.exe">GCompris {{ version }}-Windows 64bit</a></li>
           <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win32-gcc.exe">GCompris {{ version }}-Windows 32bit</a></li>
           </pre>
-          <p>{% trans %}If your system doesn't have OpenGL 2 support or if it's not working properly, you can use this "light" version which is using the software rendering. Some effects are disabled, and some activities will look different, but everything should be usable.{% endtrans %}</p>
-          <pre>
-	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64-NoOpenGL.exe">GCompris {{ version }}-Windows 64bit-No OpenGL</a></li>
-          <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win32-NoOpenGL.exe">GCompris {{ version }}-Windows 32bit-No OpenGL</a></li>
-          </pre>
+          <p>{% trans %}Note: If your system doesn't have OpenGL 2 support or if it's not working properly, the software should automatically switch to software rendering mode. If the automatic switch doesn't work, you can manually select the software rendering mode by editing the configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf for Linux, %LocalAppData%/gcompris/GCompris.conf for Windows): find the line renderer=auto , replace auto with software and save the file. We are also interested to get some feedback to help us improve this auto-detection.{% endtrans %}</p>
           <p>{% trans %}If you really need a version that runs on Windows XP, or if your system doesn't support the new version, you can use the last installer from the old GCompris 15.10.{% endtrans %}</p>
           <pre>
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/gtk/windows/gcompris-15.10.exe">GCompris 15.10-Windows 32bit</a></li>
@@ -71,7 +67,6 @@
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux64.sh">GCompris {{ version }}-Linux 64bit</a></li>
           <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/linux/gcompris-qt-{{ version }}-Linux32.sh">GCompris {{ version }}-Linux 32bit</a></li>
           </pre>
-          <p>Note: The 64bit version requires OpenGL. The 32bit version is using software rendering to make it compatible with every computer.</p>
           <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands:{% endtrans %}</p>
           <pre>
           <p>chmod u+x gcompris-qt-{{ version }}-Linux64.sh</p>
@@ -79,6 +74,7 @@
 	      </pre>
 	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
 	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh.{% endtrans %}</p>
+	      <p>Note: If your system doesn't have OpenGL 2 support or if it's not working properly, the software should automatically switch to software rendering mode. If the automatic switch doesn't work, you can manually select the software rendering mode by editing the configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf for Linux, %LocalAppData%/gcompris/GCompris.conf for Windows): find the line renderer=auto , replace auto with software and save the file. We are also interested to get some feedback to help us improve this auto-detection.</p>
 	    </div>
 	  </div>
 	</div>
@@ -95,7 +91,7 @@
 	    <div class="newscontent">
 	      <p>{% trans %}We provide a standalone package for Raspberry Pi.{% endtrans %} This package is a beta version. It was tested only on Raspberry Pi 3.</p>
 	      <pre>
-	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/raspberrypi/gcompris-qt-{{ version }}-raspberry-beta.sh">GCompris {{ version }} -Raspberry Pi 3 (beta)</a></li>
+	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/raspberrypi/gcompris-qt-0.91-raspberry-beta.sh">GCompris {{ version }} -Raspberry Pi 3 (beta)</a></li>
           </pre>
           <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands:{% endtrans %}</p>
           <pre>
