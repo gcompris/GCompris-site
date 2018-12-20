@@ -75,7 +75,7 @@ extract: $(i18_sources)
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
 
 online:
-	rsync -az --copy-unsafe-links --exclude .git --exclude .rcc --exclude template . maintener@gcompris.net:/var/www/
+	rsync -az --copy-unsafe-links --exclude .git --exclude .htaccess --exclude .rcc --exclude template . maintener@gcompris.net:/var/www/
 
 clean:
 	rm -Rf *.html feed-*.xml *.pyc locale/*
