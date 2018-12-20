@@ -13,7 +13,7 @@
     <link rel="icon" TYPE="image/png" href="favicon.png"/>
     {% for suffix, language in locales %}
     <link rel="alternate" hreflang="{{ suffix |replace("_", "-") }}" href="{{page}}-{{ suffix }}.html">
-    <link rel="alternate" type="application/rss+xml" title="RSS flux" href="http://www.gcompris.net/feed-{{ locale }}.xml" />
+    <link rel="alternate" type="application/rss+xml" title="RSS flux" href="https://www.gcompris.net/feed-{{ locale }}.xml" />
     {% endfor %}
     <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
@@ -43,7 +43,7 @@ function toggle(id, toggleId) {
     <nav class="navbar navbar-default" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-	<a href="index-en.html"><img class="smallProjectImg" alt="Small GCompris Logo" src="smallGComprisLogo.png"/></a>
+	<a href="index-{{ locale }}.html"><img class="smallProjectImg" alt="Small GCompris Logo" src="smallGComprisLogo.png"/></a>
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 	  <span class="sr-only">Toggle navigation</span>
 	  <span class="icon-bar"></span>
@@ -59,8 +59,8 @@ function toggle(id, toggleId) {
 	  <li class="{% if page == 'downloads' %}active{% else %}non-active{% endif %}"><a href="downloads{{ suffix }}.html">{% trans %}Download{% endtrans %}</a></li>
 	  <li class="{% if page == 'buy' %}active{% else %}non-active{% endif %}"><a href="buy{{ suffix }}.html">{% trans %}Buy / Donate{% endtrans %}</a></li>
 	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
-	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/{{ manual }}">{{ manualTranslation }}</a></li>
-	  <li class="{% if page == 'contribute' %}active{% else %}non-active{% endif %}"><a href="http://gcompris.net/wiki/Developer%27s_corner">{% trans %}Contribute{% endtrans %}</a></li>
+	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="https://gcompris.net/{{ manual }}">{{ manualTranslation }}</a></li>
+	  <li class="{% if page == 'contribute' %}active{% else %}non-active{% endif %}"><a href="https://gcompris.net/wiki/Developer%27s_corner">{% trans %}Contribute{% endtrans %}</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
 	  <li class="dropdown">
@@ -81,9 +81,9 @@ function toggle(id, toggleId) {
     <footer class="bs-footer" role="contentinfo">
       <div class="footer">Copyright 2000-{{ current_year }} <a href="mailto:support@gcompris.net">Timothée Giet and others</a>.
 	Site last updated the {{ revision_date }}.
-	<a href='http://www.gnu.org/licenses/gpl.html'>{{ license_info }}</a><br/>
-	This site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">Creative Commons Attribution-ShareAlike 2.0 France License</a>.<br/>
-	<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"><img alt="Creative Commons License" style="border-width:0" src="ccbysa_88x31.png" /></a><br/>
+	<a href='https://www.gnu.org/licenses/gpl.html'>{{ license_info }}</a><br/>
+	This site is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">Creative Commons Attribution-ShareAlike 2.0 France License</a>.<br/>
+	<a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"><img alt="Creative Commons License" style="border-width:0" src="ccbysa_88x31.png" /></a><br/>
       </div>
     </footer>
   </body>
