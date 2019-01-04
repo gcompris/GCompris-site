@@ -1,0 +1,46 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Publicado GCompris 0.95' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r095-small.png'
+     alt='gcompris banner'
+     style='float: right; width: 360px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r095.png')"/>
+
+     
+<p>Ola,<br />
+Comprácenos anunciar a publicación da versión 0.95 de GCompris.</p>
+
+<p>Esta nova versión contén 7 actividades novas:</p>
+<li class="puce">Lámpadas binarias: para aprender a contar en binario</li>
+<li class="puce">Actividade de vía férrea: para adestrar a memoria visual</li>
+<li class="puce">Sistema Solar: para aprender o Sistema Solar</li>
+<li class="puce">Nomea a nota: para aprender a recoñecer notas musicais e os seus nomes</li>
+<li class="puce">Tocar o piano: para practicar a lectura de notas nunha partitura</li>
+<li class="puce">Reproducir o ritmo: para practicar o seguimento dun ritmo musical</li>
+<li class="puce">Composición de piano: para aprender a compoñer unha partitura musical</li>
+
+<br/>
+
+<p>Podes atopar paquetes desta nova versión para Linux e Windows na páxina de descargas. Esta actualización tamén estará dispoñíbel nuns días nas tendas de Android e Windows. Para Raspberry Pi forneceremos un instalador a comezos de 2019. As versións actualizadas para MacOS e iOS aínda non están dispoñíbeis, esperamos poder publicalas durante o vindeiro ano.</p>
+
+<p>No que respecta ás traducións, temos 15 idiomas completamente traducidos:catalán,chinés tradicional,francés,galego,grego, húngaro,inglés británico, italiano, malaio,neerlandés,portugués,romano,sueco, ucraíno evalenciano.
+<br />
+Tamén temos 19 idiomas con traducións parciais: alemán (86%),bielorruso (69%), bretón (54%), castelán (95%), chinés simplificado (69%), eslovaco (62%), esloveno (57%),estoniano (63%),éuscara (78%), finés (61%), gaélico escocés (71%),gaélico irlandés (82%),hindú (77%),indonesio (84%), noruegués (89%),polaco (94%),portugués do Brasil (74%), ruso (74%) eturco (74%). </p>
+
+<p>Normalmente só distribuímos traducións que están polo menos ao 80%. Porén, para esta versión varios idiomas baixaron do 80%. Decidimos mantelas de maneira excepcional durante esta versión, e esperamos que os tradutores actuais ou tradutores novos as completen. Se obtemos actualizacións ou novas traducións, publicaremos actualizacións para incluílas.
+Así que se o seu idioma está na lista de traducións parciais, ou nin sequera está na lista, e quere axudar, contacte connosco e fornecerémoslle instrucións para empezar a traducir.</p>
+
+<p>Outra forma de axudar é escribir novas na túa comunidade sobre GCompris, e non dubides en darnos a túa opinión.</p>
+
+<p>Notas:</p>
+<li class="puce">Notas:
+- En Linux e Windows adoitábamos ter dous instaladores por separado para OpenGL e renderización por software. Agora os dous métodos de renderización están dispoñíbeis nun mesmo instalador. Intentamos usar OpenGL de maneira predeterminada, e se non funciona agora mostramos un erro e cambiamos ao método de renderización por software. Este cambio automático é novo e pode que non funcione en todos os casos. Se non te funciona, podes seleccionar o método de renderización por software manualmente editando o ficheiro de configuración (en ~/.config/gcompris/gcompris-qt.conf en Linux, %LocalAppData%/gcompris/GCompris.conf en Windows): atopa a liña «renderer=auto», cambia «auto» por «software» e garda o ficheiro. Tamén nos gustaría que nos deses a túa opinión sobre como melloras esta detección automática.
+</li>
+<li class="puce">- Decatámonos de que o idioma malaio ten algúns problemas co tipo de letra predeterminado, «Andika-R». Aos usuarios que usen ese idioma recomendámoslles seleccionar o tipo de letra «Noto-Sans-Malayalam» desde o menú do aplicativo (se non está dispoñíbel na lista, ten que instalar o tipo de letra no sistema para poder seleccionalo).</li>
+<p>Grazas a todos, <br/>
+Timothée e Johnny</p>
+
+
+{% endblock %}

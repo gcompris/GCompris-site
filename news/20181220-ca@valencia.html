@@ -1,0 +1,47 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 0.95' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r095-small.png'
+     alt='gcompris banner'
+     style='float: right; width: 360px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r095.png')"/>
+
+     
+<p>Hola,<br />
+Ens complau anunciar l'alliberament del GCompris versió 0.95.</p>
+
+<p>Aquesta nova versió conté 7 noves activitats:</p>
+<li class="puce">Bombetes binàries: per aprendre a comptar en binari</li>
+<li class="puce">Activitat del ferrocarril: per entrenar la memòria visual</li>
+<li class="puce">Sistema solar: per a conèixer el nostre sistema solar</li>
+<li class="puce">El nom d'aquesta nota: per aprendre a reconèixer les notes musicals i els seus noms</li>
+<li class="puce">Toca el piano: per a entrenar la lectura de les notes emprant una puntuació</li>
+<li class="puce">Toca el ritme: per a entrenar seguint un ritme musical</li>
+<li class="puce">Composició per a piano: per aprendre la composició d'una partitura musical</li>
+
+<br/>
+
+<p>Trobareu els paquets d'aquesta nova versió per a Linux i Windows a la pàgina de baixades. Aquesta actualització també estarà disponible en pocs dies a la botiga d'Android i Windows. Per a la Raspberry Pi, proporcionarem un instal·lador a principis de 2019. Les versions actualitzades per a MacOS i iOS encara no estan disponibles, esperem poder alliberar-les durant l'any que ve.</p>
+
+<p>Pel que fa a les traduccions, tenim 15 idiomes totalment admesos: anglés britànic, català, català (valencià), xinés tradicional, holandés, francés, gallec, grec, hongarés, italià, malai, portugués, romanés, suec i ucraïnés.
+<br />
+També tenim 19 idiomes parcialment admesos: basc (78%), bielorús (69%), portugués brasiler (74%), bretó (54%), xinés simplificat (69%), estonià (63%), finés (61%), alemany (86%), hindi (77%), indonesi (84%), gaèlic irlandés (82%), noruec nynorsk (89%), rus (74%), gaèlic escocés (71%), eslovac (62%), eslové (57%), polonés (94%) i turc (74%).</p>
+
+<p>En general, només enviem traduccions que almenys estan completes al 80%. No obstant això, per a aquest llançament, diverses traduccions han minvat per sota del 80%. Hem decidit mantindre-les excepcionalment per a aquest llançament, i esperem veure traductors antics o nous que les completin. Si obtenim actualitzacions o traduccions noves, farem una actualització menor de llançament.
+<br/>
+Per tant, si el vostre idioma es troba a la llista de parcialment compatible o encara no és compatible i voleu ajudar-vos, poseu-vos en contacte amb nosaltres i vos donarem instruccions per començar a traduir.</p>
+
+<p>Una altra forma d'ajudar-nos és escriure algunes publicacions a la vostra comunitat sobre el GCompris, i no dubteu en enviar-nos comentaris.</p>
+
+<p>Notes:</p>
+<li class="puce">A Linux i Windows solíem tindre dos instal·ladors independents per a la representació OpenGL i per programari. Ara, els dos modes de representació estan disponibles des del mateix instal·lador. Per defecte, intentem usar la representació OpenGL i, si no funciona, es mostra un error i canviem a la representació per programari. Aquest canvi automàtic és nou i pot ser que no funcione a tot arreu. En cas que no ho faça, podeu seleccionar manualment el mode de representació per programari editant el fitxer de configuració (a ~/.config/gcompris-qt/gcompris-qt.conf per a Linux, i %LocalAppData%/gcompris/GCompris.conf per a Windows ): cerqueu la línia «renderer=auto», substituïu «auto» per «software» i guardeu el fitxer. També ens interessa rebre algun comentari per ajudar-nos a millorar aquesta detecció automàtica.
+</li>
+<li class="puce">Per a la llengua malaia, hem vist alguns problemes amb el tipus de lletra predeterminat «Andika-R». Recomanem als usuaris del malai que seleccionin el tipus de lletra «Noto-Sans-Malayalam» des del menú de l'aplicació (si no està disponible a la llista, primer l'haureu d'instal·lar al vostre sistema per a poder-la seleccionar).
+</li>
+<p>Gràcies a tots,<br/>
+Timothée i Johnny</p>
+
+
+{% endblock %}
