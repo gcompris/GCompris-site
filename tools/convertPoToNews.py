@@ -36,6 +36,10 @@ news = {}
 # storing them in a dict
 for entry in poFile:
     filename = entry.msgctxt
+
+    if "fuzzy" in entry.flags:
+        continue
+
     if not filename or not filename.find('.html'):
         continue
     originalFilename = "news/" + filename
