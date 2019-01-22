@@ -16,7 +16,7 @@
             linarch = "Linux64";
         }
         windowsURL = "downloads{{ suffix }}.html#windows";
-        macURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1019161041";
+        macURL = "downloads{{ suffix }}.html#osx";
         linuxURL = "downloads{{ suffix }}.html#linux";
         androidURL = "downloads{{ suffix }}.html#android";
         iOSURL = "https://itunes.apple.com/us/app/gcompris-educational-game/id1020904808";
@@ -34,7 +34,7 @@
           document.getElementById("otherDownloadOS3Link").href = linuxURL;
           document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
         } else if ( (/(Mac|OS X)/).test(platform.os.family)) {
-          document.getElementById("downloadButton").href = "macappstore://itunes.apple.com/us/app/id1019161041";
+          document.getElementById("downloadButton").href = "downloads{{ suffix }}.html#osx";
           document.getElementById("downloadOS").innerHTML = "MacOSX";
           document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
           document.getElementById("downloadDetails").innterHTML = "";

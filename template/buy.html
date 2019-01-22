@@ -20,8 +20,8 @@
 	      <p>{% trans %}On proprietary operating systems (Windows/Mac/Android...), the full version of GCompris has a cost.{% endtrans %}</br>
 	      {% trans %}We provide a free demo with a limited number of activities, {{ demo_activities }} on the {{ total_activities }} available.{% endtrans %}</br>
 	      {% trans %}Follow the instructions below to buy the full version.{% endtrans %}</p>
-	      <li class="puce">Windows</li>
-	      <p>{% trans %}For Windows, you can get the demo from the <a href=downloads-{{locale}}.html>download page</a>, and buy here the activation code to unlock the full version. The cost is 9€.{% endtrans %}</p>
+	      <li class="puce">Windows, MacOSX</li>
+	      <p>{% trans %}For Windows and MacOSX, you can get the demo from the <a href=downloads-{{locale}}.html>download page</a>, and buy here the activation code to unlock the full version. The cost is 9€.{% endtrans %}</p>
 	      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 		 <input type="hidden" name="cmd" value="_xclick">
 		 <input type="hidden" name="business" value="animtim@gmail.com">
@@ -41,9 +41,6 @@
 	      <p>{% trans %}This registration gives you the right to update to any new release of GCompris for 2 years. After that period, you can continue to use the latest release you got for as long as you wish.{% endtrans %}</p>
 	      </br>
           <p>{% trans %}Alternatively, you can also buy the full version of GCompris directly <a href="https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm">from the Windows Store.</a>{% endtrans %}</p>
-          </br>
-	      <li class="puce">MacOSX</li>
-          <p>{% trans %}For MacOSX, the current version is not available anymore, we are working to bring it back soon. It will use the same code as the Windows version.{% endtrans %}</p>
           </br>
 	      <li class="puce">Android</li>
           <p>{% trans %}For Android, the recommended way is to directly buy the full version <a href="https://play.google.com/store/apps/details?id=net.gcompris.full">from Google Play store</a>.{% endtrans %}</p>
