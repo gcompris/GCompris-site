@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'El GCompris torna al Mac OSX' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; width: 360px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Hola,<br />
+Bones notícies per als usuaris de Mac: finalment tenim una nova versió del GCompris per a OSX!</p>
+
+<p>La darrera versió del GCompris per OSX va ser la 0.52 ja fa 3 anys. Des de llavors, ningú de l'equip l'ha pogut actualitzar per falta de maquinari. Gràcies a en Boudewijn de la Fundació Krita, ara tenim un petit Mac mini, antic, però prou bo per a construir els nostres paquets. Em va dur diversos dies de treball dedicat per aprendre aquesta nova plataforma i actualitzar el sistema de compilació per a produir un paquet distribuïble.</p>
+
+<br/>
+
+<p>Aquest paquet s'ha construït i provat a l'OSX 10.13. Si la podeu provar en una versió OSX diferent, feu-nos saber si funciona bé.</p>
+
+<p>L'instal·lador .dmg està disponible <a href="https://gcompris.net/downloads{{ suffix }}#osx.html">a la pàgina de baixades</a>.</p>
+
+<p>Aquesta vegada hem decidit deixar de distribuir-la des de l'App Store. Quant a la versió per a iOS, trigarà més temps abans de poder-la veure, i encara no disposem de cap dispositiu per a provar-la.
+</p>
+
+<p>Notes: aquest paquet està basat en el GCompris versió 0.95. Està construït amb l'última versió de les Qt (5.12.0), les quals han introduït algunes regressions. Hem esmenat tots aquests problemes, però algunes d'aquestes esmenes per ara només es troben en la versió de desenvolupament. Es trenquen algunes activitats (checkers, braille, braille_alphabet, algorithm), però farem un nou llançament el proper mes que també abordarà aquests petits problemes.
+</p>
+
+<p>Gràcies a tots, <br/>
+Timothée: l'equip del GCompris</p>
+
+
+{% endblock %}
