@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris à nouveau sous Mac OSX' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; width: 360px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Bonjour, <br/> 
+Bonne nouvelle pour les utilisateurs de Mac : nous avons finalement réussi à compiler la dernière version pour OSX !</p>
+
+<p>La précédente version pour OSX était la 0.52 et datait de 3 ans. Depuis, personne dans l'équipe ne pouvait la mettre à jour à cause d'un manque de machine compatible. Grâce à Boudewijn, qui fait partie de la fondation Krita, nous avons maintenant un mini mac, un peu ancien mais suffisamment puissant pour compiler notre logiciel. Ça nous a pris plusieurs jours afin d'apprendre cette nouvelle plate-forme et mettre à jour le système de construction de paquet pour en créer un distribuable.</p>
+
+<br/>
+
+<p>Ce paquet a été créé et testé sous OSX 10.13. Si vous l'essayez dans une version différente de OSX, n'hésitez pas à nous remonter si ça fonctionne.</p>
+
+<p>L'installateur DMG est disponible sur <a href="https://gcompris.net/downloads{{ suffix }}#osx.html">la page de téléchargement</a>.</p>
+
+<p>Nous avons décidé d'arrêter de distribuer la version mac OSX à partir de l'app-store. Pour la version iOS, il nous faudra plus de temps avant de pouvoir créer un paquet car nous n'avons aucun appareil pour tester.
+</p>
+
+<p>Remarque : ce paquet est basé sur la version 0.95 de GCompris. Il est construit avec la dernière version de Qt disponible actuellement (5.12.0) qui a introduit quelques régressions. Nous avons corrigé ces problèmes mais certaines corrections n'ont pas été reporté dans cette version. Quelques activités sont donc injouable (les dames, les jeux pour apprendre le braille, et le jeu d'associations logiques). Nous allons cependant faire une nouvelle version dans le mois prochain pour corriger ces petits problèmes.
+</p>
+
+<p>Merci à tous, <br/>
+Timothée - équipe GCompris</p>
+
+
+{% endblock %}
