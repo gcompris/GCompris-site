@@ -13,7 +13,7 @@
     <link rel="icon" TYPE="image/png" href="favicon.png"/>
     {% for suffix, language in locales %}
     <link rel="alternate" hreflang="{{ suffix |replace("_", "-") }}" href="{{page}}-{{ suffix }}.html">
-    <link rel="alternate" type="application/rss+xml" title="RSS flux" href="https://www.gcompris.net/feed-{{ locale }}.xml" />
+    <link rel="alternate" type="application/rss+xml" title="RSS flux" href="https://www.gcompris.net/feed-{{ suffix }}.xml" />
     {% endfor %}
     <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
