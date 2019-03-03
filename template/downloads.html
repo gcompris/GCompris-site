@@ -25,7 +25,7 @@
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64-gcc.exe">GCompris {{ version }}-Windows 64bit</a></li>
           <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win32-gcc.exe">GCompris {{ version }}-Windows 32bit</a></li>
           </pre>
-          <p>{% trans %}Note: If your system doesn't have OpenGL 2 support or if it's not working properly, the software should automatically switch to software rendering mode. If the automatic switch doesn't work, you can manually select the software rendering mode by editing the configuration file (in ~/.config/gcompris/gcompris-qt.conf for Linux, %LocalAppData%/gcompris/GCompris.conf for Windows): find the line renderer=auto , replace auto with software and save the file. We are also interested to get some feedback to help us improve this auto-detection.{% endtrans %}</p>
+          <p>{% trans %}Note: If your system doesn't have OpenGL 2 support or if it's not working properly, please use the entry GCompris (Safe Mode) in the start menu to launch GCompris with the software rendering mode which doesn't use OpenGL.{% endtrans %}</p>
           <p>{% trans %}If you really need a version that runs on Windows XP, or if your system doesn't support the new version, you can use the last installer from the old GCompris 15.10.{% endtrans %}</p>
           <pre>
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/gtk/windows/gcompris-15.10.exe">GCompris 15.10-Windows 32bit</a></li>
@@ -92,7 +92,7 @@
 	      </pre>
 	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
 	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh.{% endtrans %}</p>
-	      <p>Note: If your system doesn't have OpenGL 2 support or if it's not working properly, the software should automatically switch to software rendering mode. If the automatic switch doesn't work, you can manually select the software rendering mode by editing the configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf for Linux, %LocalAppData%/gcompris/GCompris.conf for Windows): find the line renderer=auto , replace auto with software and save the file. We are also interested to get some feedback to help us improve this auto-detection.</p>
+	      <p>Note: If your system doesn't have OpenGL 2 support or if it's not working properly, please add the option --software-renderer at the end of the last line of the script gcompris-qt.sh. Another way is to edit the configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the line renderer=auto , replace auto with software and save the file.</p>
 	    </div>
 	  </div>
 	</div>

@@ -1,0 +1,48 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; width: 360px; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Hi,<br />
+We are pleased to announce the release of GCompris version 0.96.</p>
+
+<p>This new version includes updated translation for several languages, and a few bug fixes.</p>
+
+<p>Translations that received a big update:</p>
+
+<li class="puce">Brazilian Portuguese (100%)</li>
+<li class="puce">Breton (100%)</li>
+<li class="puce">Finnish (90%)</li>
+<li class="puce">Indonesian (100%)</li>
+<li class="puce">Norwegian Nynorsk (97%)</li>
+<li class="puce">Polish (100%)</li>
+
+<br/>
+
+<p>This means we have now 19 languages fully supported: British English, Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, Italian, Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian.</p>
+
+<p>We still have 15 partially supported languages: Basque (78%), Belarusian (68%), Chinese Simplified (69%), Estonian (62%), Finnish (90%), German (84%), Hindi (76%), Irish Gaelic (82%), Norwegian Nynorsk (97%), Russian (77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), Turkish (73%).</p>
+
+<p>We decided again for this release to keep the translations that dropped below 80%. It would be sad to have to disable 10 languages from the application, but if no one updates the following translations, they will be disabled in next release: Basque, Belarusian, Chinese Simplified, Estonian, Hindi, Russian, Scottish Gaelic, Slovak, Slovenian and Turkish.</p>
+
+<p>For the windows version, we added a new entry in the start menu called GCompris (Safe Mode) to launch it with software rendering mode. This was needed as the auto-detection of OpenGL support was not reliable. Now, users can easily choose between OpenGL and software rendering without changing the configuration file.</p>
+
+<p>Known issues:</p>
+<li class="puce">The progress bar for downloads doesn't work anymore. This is a side effect from our switch to https for hosting the files. We are looking to improve this for next release.
+</li>
+
+<br/>
+
+<p>As usual you can download this new version from our <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. It will also be available soon on the Android and Windows store.</p>
+
+<p>Thank you all, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}
