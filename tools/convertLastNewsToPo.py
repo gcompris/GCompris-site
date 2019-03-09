@@ -59,15 +59,15 @@ for newsFileName in lastNews:
     #catch all li: <[li class="puce">]*>(.*?)</[li>]+> in group 1
     allLines = re.findall("(?s)<[p>]*>(.*?)</[p>]+>|<[li class=\"puce\">]*>(.*?)</[li>]+>", fileContent)
 
-    titleEntry = polib.POEntry(msgid=polib.escape(newsTitle), tcomment='news title', msgctxt=newsFileName)
+    titleEntry = polib.POEntry(msgid=polib.escape(newsTitle), comment='news title', msgctxt=newsFileName)
     potFile.append(titleEntry)
 
     for line in allLines:
         if line[0]: # paragraph
-            contextEntry = polib.POEntry(msgid=polib.escape(line[0]), tcomment='paragraph', msgctxt=newsFileName)
+            contextEntry = polib.POEntry(msgid=polib.escape(line[0]), comment='paragraph', msgctxt=newsFileName)
             potFile.append(contextEntry)
         elif line[1]: # list item
-            contextEntry = polib.POEntry(msgid=polib.escape(line[1]), tcomment='list item', msgctxt=newsFileName)
+            contextEntry = polib.POEntry(msgid=polib.escape(line[1]), comment='list item', msgctxt=newsFileName)
             potFile.append(contextEntry)
 
 # saving the created po file

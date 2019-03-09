@@ -50,7 +50,7 @@ for entry in poFile:
         print(filename + " already exists, we skip it")
         continue
 
-    context = entry.tcomment
+    context = entry.comment
 
     currentNews = {}
     if news.get(filename):
