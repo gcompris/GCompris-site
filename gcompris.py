@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 import codecs
@@ -9,37 +9,36 @@ import time
 import datetime
 from datetime import date
 import re
-from collections import OrderedDict
 import gettext
 from email import utils
+from importlib import reload
 
 reload(sys)
-sys.setdefaultencoding('utf-8')
 
 today = date.today()
 
 try:
     version = sys.argv[1]
 except:
-    print "Missing GCompris version"
+    print("Missing GCompris version")
     sys.exit(1)
 
 try:
     locale = sys.argv[2]
 except:
-    print "Missing GCompris locale"
+    print("Missing GCompris locale")
     sys.exit(1)
 
 try:
     localelist = sys.argv[3]
 except:
-    print "Missing GCompris list of locales"
+    print("Missing GCompris list of locales")
     sys.exit(1)
 
 try:
     gcomprisdir = sys.argv[4]
 except:
-    print "Missing GCompris installation directory, export GCOMPRIS_DIR as env var"
+    print("Missing GCompris installation directory, export GCOMPRIS_DIR as env var")
     sys.exit(1)
 
 # Load the proper locale catalog
@@ -52,7 +51,7 @@ def setLocale(locale):
         t = gettext.translation('gcompris', 'locale', languages=[locale])
     except:
         t = gettext.NullTranslations()
-    _ = t.ugettext
+    _ = t.gettext
 
 def formatDate(date):
     return date[0:4] + '-' + date[4:6] + '-' + date[6:8]
@@ -269,7 +268,7 @@ templateEnv = jinja2.Environment( loader=templateLoader,
                                   extensions=['jinja2.ext.i18n'],
                                   trim_blocks=True,
                                   lstrip_blocks=True)
-templateEnv.install_gettext_callables(t.ugettext, t.ungettext, newstyle=True)
+templateEnv.install_gettext_callables(t.gettext, t.ngettext, newstyle=True)
 
 # Specify any input variables to the template as a dictionary.
 templateVars = {
