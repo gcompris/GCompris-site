@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Hej,<br />
+Vi är glada att tillkännage lanseringen av GCompris version 0.96.</p>
+
+<p>Den nya versionen inkluderar uppdaterade översättningar för flera språk och några felrättningar.</p>
+
+<p>Översättningar som har stora uppdateringar:</p>
+
+<li class="puce">Brasiliansk portugisiska (100 %)</li>
+<li class="puce">Bretonska (100 %)</li>
+<li class="puce">Finska (90 %)</li>
+<li class="puce">Indonesiska (100 %)</li>
+<li class="puce">Nynorska (97 %)</li>
+<li class="puce">Polska (100 %)</li>
+
+<br/>
+
+<p>Det betyder att vi nu har fullständigt stöd för 19 språk: brasiliansk portugisiska, bretonska, brittisk engelska, franska, galiciska, grekiska, holländska, indonesiska, italienska, katalanska, katalanska (valencianska), malayalam, polska, portugisiska, rumänska, svenska, traditionell kinesiska, ukrainska, ungerska.</p>
+
+<p>We still have 15 partially supported languages: Basque (78%), Belarusian (68%), Chinese Simplified (69%), Estonian (62%), Finska (90 %), German (84%), Hindi (76%), Irish Gaelic (82%), Nynorska (97 %), Russian (77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), Turkish (73%).</p>
+
+<p>Återigen bestämde vi att behålla översättningar som hamnat under 80 % i den här utgåvan. Det skulle ha varit tråkigt att inaktivera 10 språk från programmet, men om ingen uppdaterar följande översättningar kommer de att inaktiveras i nästa utgåva: baskiska, estniska, förenklad kinesiska, hindi, ryska, skotsk gäliska, slovakiska, slovenska, turkiska och vitryska.</p>
+
+<p>I Windows-versionen har vi lagt till ett nytt alternativ i startmenyn som lyder GCompris (felsäkert läge) för att starta med programvaruåtergivning. Det behövs eftersom den automatiska detekteringen av stöd för OpenGL inte var tillförlitlig. Nu kan användare enkelt välja mellan OpenGL och programvaruåtergivning utan att ändra inställningsfilen.</p>
+
+<p>Kända problem:</p>
+<li class="puce">Förloppsraden för nerladdningar fungerar inte längre. Det är en sidoeffekt av vårt byte till https för att hantera filerna. Vi kommer att försöka förbättra den i nästa utgåva.
+</li>
+
+<br/>
+
+<p>Som en sidnot gällande GNU/Linux distributionspaket, kräver den nya versionen nu OpenSSL för att kunna ladda ner röster och ytterligare bilder.</p>
+
+<p>Som vanligt kan den nya versionen laddas ner från vår <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssida</a>. Den kommer också snart att vara tillgänglig i Android och Windows Store.</p>
+
+<p>Tack allesamman, <br/>
+Timothée och Johnny</p>
+
+
+{% endblock %}

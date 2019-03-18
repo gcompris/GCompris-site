@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Hallo,<br />
+We zijn blij de uitgave van GCompris versie 0.96 aan te kondigen.</p>
+
+<p>Deze nieuwe versie bevat bijgewerkte vertalingen voor een aantal talen en een paar reparaties van bugs.</p>
+
+<p>Vertalingen die zeer goed zijn bijwerkt:</p>
+
+<li class="puce">Braziliaans Portugees (100%)</li>
+<li class="puce">Bretons (100%)</li>
+<li class="puce">Fins (90%)</li>
+<li class="puce">Indonesisch (100%)</li>
+<li class="puce">Noors Nynorsk (97%)</li>
+<li class="puce">Pools (100%)</li>
+
+<br/>
+
+<p>Dit betekent dat we nu 19 talen volledig ondersteunen: Brits Engels, Braziliaans Portugees, Bretons, Catalaans, Catalaans (Valencia), Chinees Traditioneel, Nederlands, Frans, Gallisch, Grieks, Hongaars, Indonesisch, Italiaans, Maleis, Pools, Portugees, Roemeens, Zweeds, Oekraïens.</p>
+
+<p>We still have 15 partially supported languages: Basque (78%), Belarusian (68%), Chinese Simplified (69%), Estonian (62%), Fins (90%), German (84%), Hindi (76%), Irish Gaelic (82%), Noors Nynorsk (97%), Russian (77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), Turkish (73%).</p>
+
+<p>We hebben opnieuw besloten om voor deze uitgave de vertalingen die  onder 80% zijn gevallen. Het zou verdrietig zijn om 10 talen uit de toepassing te schrappen, maar als er geen updates komen voor de volgende vertalingen komen, dan zullen ze uitgeschakeld worden in de volgende uitgave: Baskisch, Wit-Russisch, Chinees Vereenvoudigd, Ests, Hindi, Russisch, Schots Gaelic, Slovaaks, Sloveens en Turks.</p>
+
+<p>Voor de versie voor Windows hebben we een nieuw item in het opstartmenu toegevoegd genaamd GCompris (Veilige modus) om het te starten met modus  software rendering. Dit was nodig omdat de automatische detectie van ondersteuning voor OpenGL niet betrouwbaar was. Gebruikers kunnen nu gemakkelijk kiezen tussen OpenGL en software rendering zonder het configuratiebestand te wijzigen.</p>
+
+<p>Bekende problemen:</p>
+<li class="puce">De voortgangsbalk voor downloads werkt iet meer. Dit is een bijproduct van onze omschakeling naar https voor het hosten van de bestanden. We zoeken naar dit verbeteren voor de volgende uitgave.
+</li>
+
+<br/>
+
+<p>Als een kleine opmerking bedoeld voor pakketmakers van GNU/Linux distributies, vereist deze nieuwe versie nu OpenSSL om stemmen te downloaden en extra afbeeldingen.</p>
+
+<p>Zoals gebruikelijk kunt u deze nieuwe versie downloaden vanaf onze <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Het zal ook spoedig beschikbaar zijn in de Android en Windows store.</p>
+
+<p>Allen bedankt, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

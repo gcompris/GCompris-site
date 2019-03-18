@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Hola,<br />
+Ens complau anunciar l'alliberament del GCompris versió 0.96.</p>
+
+<p>Aquesta nova versió inclou la traducció actualitzada de diversos idiomes i algunes correccions d'errors.</p>
+
+<p>Traduccions que han rebut una gran actualització:</p>
+
+<li class="puce">Portugués brasiler (100%)</li>
+<li class="puce">Bretó (100%)</li>
+<li class="puce">Finés (90%)</li>
+<li class="puce">Indonesi (100%)</li>
+<li class="puce">Noruec nynorsk (97%)</li>
+<li class="puce">Polonés (100%)</li>
+
+<br/>
+
+<p>Això vol dir que ara tenim 19 idiomes completament admesos: anglés britànic, portugués brasiler, bretó, català, català (valencià), xinés tradicional, neerlandés, francés, gallec, grec, hongarés, indonesi, italià, malai, polonés, suec i ucraïnés.</p>
+
+<p>We still have 15 partially supported languages: Basque (78%), Belarusian (68%), Chinese Simplified (69%), Estonian (62%), Finés (90%), German (84%), Hindi (76%), Irish Gaelic (82%), Noruec nynorsk (97%), Russian (77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), Turkish (73%).</p>
+
+<p>Vam decidir de nou per a aquest llançament mantindre les traduccions que baixaven per sota del 80%. Seria trist haver de desactivar 10 idiomes de l'aplicació, però si ningú actualitza les següents traduccions, es veuran inhabilitades en el proper llançament: basc, bielorús, xinés simplificat, estonià, hindi, rus, gaèlic escocés, eslovac, eslovè i turc.</p>
+
+<p>Per a la versió de Windows, hem afegit una nova entrada al menú d'inici anomenada GCompris (mode segur) per a llançar-la amb el mode de representació per programari. Això era necessari perquè la detecció automàtica de l'OpenGL no era fiable. Ara, els usuaris poden triar amb facilitat entre OpenGL i la representació per programari sense canviar el fitxer de configuració.</p>
+
+<p>Problemes coneguts:</p>
+<li class="puce">La barra de progrés de les baixades ja no funciona. Aquest és un efecte secundari del nostre canvi a https per allotjar els fitxers. Estem buscant millorar-ho per al pròxim llançament.
+</li>
+
+<br/>
+
+<p>Com a nota lateral dedicada als empaquetadors per a la distribució GNU/Linux, aquesta nova versió ara requereix OpenSSL per a poder baixar les veus i imatges addicionals.</p>
+
+<p>Com és habitual, podeu baixar aquesta nova versió des de la nostra <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Prompte també estarà disponible a la botiga d'Android i Windows.</p>
+
+<p>Gràcies a tots, <br/>
+Timothée i Johnny</p>
+
+
+{% endblock %}

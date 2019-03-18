@@ -99,99 +99,98 @@
 {% endblock %}
 {% block content %}
 <div class="container bs-docs-container">
-  <div class="row">
     <div class="col-xs-12 col-md-6">
-      <div class="row">
-	<div style="width: 400px; margin: 0 auto">
-	  <a id="downloadButton">
-	    <img id="downloadButtonImg" alt="{% trans %}Download GCompris{% endtrans %}" src="empty.png" style="position: absolute; top: -10px; left: -10px;"/>
-	    <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
-	    <span id="downloadDetails" style="font-size: 12px; color: white;"></span>
-	    <span id="downloadOS"></span>
-	  </a>
-	</div>
+      <div class="row" style="width: 100%; margin: 0 auto">
+	    <div>
+	      <a class= "col-xs-12" id="downloadButton">
+	       <img id="downloadButtonImg" alt="{% trans %}Download GCompris{% endtrans %}" src="empty.png" style="position: absolute; top: -10px; left: -5px;"/>
+	       <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
+	       <span id="downloadDetails" style="font-size: 12px; color: white;"></span>
+	       <span id="downloadOS"></span>
+	      </a>
+	    </div>
       </div>
-      <div class="row" style="width: 420px; margin: 0 auto">
-	<span><a class="extraInfoLink" id="otherDownloadOS0Link"></a></span>
-	<span><a class="extraInfoLink" id="otherDownloadOS1Link"></a></span>
-	<span><a class="extraInfoLink" id="otherDownloadOS2Link"></a></span>
-	<span><a class="extraInfoLink" id="otherDownloadOS3Link"></a></span>
-	<span><a class="extraInfoLink" href="downloads{{ suffix }}.html">{# notes other platform #}{% trans %}All{% endtrans %}</a></span>
+      <div class="col-xs-12" style="width: 100%; margin: 0 auto; text-align: center">
+	    <a class="extraDlLink" id="otherDownloadOS0Link"></a>
+	    <a class="extraDlLink" id="otherDownloadOS1Link"></a>
+	    <a class="extraDlLink" id="otherDownloadOS2Link"></a>
+	    <a class="extraDlLink" id="otherDownloadOS3Link"></a>
+	    <a class="extraDlLink" href="downloads{{ suffix }}.html">{# notes other platform #}{% trans %}All{% endtrans %}</a>
       </div>
-      <div class="row" style="margin-top: 10px">
-	<div id="carousel" class="carousel slide" style="width: 400px; margin: 0 auto">
+      <div style="margin-top: 10px; margin-bottom: 40px">
+        <div id="carousel" class="carousel slide" style="width: 100%; margin: 0 auto">
 	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel" data-slide-to="1"></li>
-	    <li data-target="#carousel" data-slide-to="2"></li>
-	    <li data-target="#carousel" data-slide-to="3"></li>
-	    <li data-target="#carousel" data-slide-to="4"></li>
-	    <li data-target="#carousel" data-slide-to="5"></li>
-	    <li data-target="#carousel" data-slide-to="6"></li>
-	    <li data-target="#carousel" data-slide-to="7"></li>
-	  </ol>
+	      <ol class="carousel-indicators">
+	        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#carousel" data-slide-to="1"></li>
+	        <li data-target="#carousel" data-slide-to="2"></li>
+	        <li data-target="#carousel" data-slide-to="3"></li>
+	        <li data-target="#carousel" data-slide-to="4"></li>
+	        <li data-target="#carousel" data-slide-to="5"></li>
+	        <li data-target="#carousel" data-slide-to="6"></li>
+	        <li data-target="#carousel" data-slide-to="7"></li>
+	      </ol>
 
 	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
-	    <div class="item active">
-	      <img src="screenshots_qt/small/erase.png" alt="screenshot clic or tap">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Click or tap'|trans }}</h3>
+	      <div class="carousel-inner">
+	        <div class="item active">
+	          <img src="screenshots_qt/small/erase.png" alt="screenshot clic or tap" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Click or tap'|trans }}</h3>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/advanced_colors.png" alt="screenshot colors" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Identifying colours'|trans }}</h3>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/clockgame.png" alt="screenshot learning clock" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Learning Clock'|trans }}</h3>
+              </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/wordsgame.png" alt="screenshot keyboard" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Keyboard training'|trans }}</h3>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/magic-hat-plus.png" alt="screenshot addition" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		    <h3 class="carousel-text">{{ 'Addition'|trans }}</h3>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/watercycle.png" alt="screenshot watercycle" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Watercycle'|trans }}</h3>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/chess_partyend.png" alt="screenshot chess" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Chess'|trans }}</h3>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="screenshots_qt/small/click_on_letter.png" alt="screenshot click on a lower case letter" style="margin: 0 auto">
+	          <div class="carousel-caption">
+		        <h3 class="carousel-text">{{ 'Click on a lowercase letter'|trans }}</h3>
+	          </div>
+	        </div>
 	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/advanced_colors.png" alt="screenshot colors">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Identifying colours'|trans }}</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/clockgame.png" alt="screenshot learning clock">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Learning Clock'|trans }}</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/wordsgame.png" alt="screenshot keyboard">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Keyboard training'|trans }}</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/magic-hat-plus.png" alt="screenshot addition">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Addition'|trans }}</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/watercycle.png" alt="screenshot watercycle">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Watercycle'|trans }}</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/chess_partyend.png" alt="screenshot chess">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Chess'|trans }}</h3>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img src="screenshots_qt/small/click_on_letter.png" alt="screenshot click on a lower case letter">
-	      <div class="carousel-caption">
-		<h3 class="carousel-text">{{ 'Click on a lowercase letter'|trans }}</h3>
-	      </div>
-	    </div>
-	  </div>
 	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel" data-slide="prev">
-	    <span class="icon-prev"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel" data-slide="next">
-	    <span class="icon-next"></span>
-	  </a>
-	  <a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
-	</div>
+	      <a class="left carousel-control" href="#carousel" data-slide="prev">
+	        <span class="icon-prev"></span>
+	      </a>
+	      <a class="right carousel-control" href="#carousel" data-slide="next">
+	        <span class="icon-next"></span>
+	      </a>
+	      <a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
+	    </div>
       </div>
     </div>
     <div class="col-xs-12 col-md-6 news">
@@ -213,7 +212,7 @@
 	<p>{% trans %}The GCompris project is hosted and developed by <a target="_blank" rel="noopener" href="https://www.kde.org/">the KDE community</a>.{% endtrans %}</p>
       </div>
     </div>
-  </div>
+  
 </div>
 <hr class="featurette-divider"/>
 <a href="http://www.gcompris.net/feed-{{ locale }}.xml"><img class="rssIcons" src="images/rss-gcompris-48.png"></a>
