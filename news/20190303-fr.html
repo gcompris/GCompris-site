@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Sortie de GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Bonjour,<br />
+Nous sommes heureux de vous annoncer la sortie de GCompris version 0.96.</p>
+
+<p>Cette nouvelle version améliore la traduction de plusieurs langues et contient des corrections de bugs.</p>
+
+<p>Les traductions ayant reçu une grosse mise à jour :</p>
+
+<li class="puce">Portugais Brésilien (100 %)</li>
+<li class="puce">Breton (100 %)</li>
+<li class="puce">Finnois (90 %)</li>
+<li class="puce">Indonésien (100 %)</li>
+<li class="puce">Norvégien Nynorsk (97 %)</li>
+<li class="puce">Polonais (100 %)</li>
+
+<br/>
+
+<p>Nous avons donc 19 langues complètes : anglais britannique, portugais brésilien, breton, catalan, catalan (de Valence), chinois traditionnel, néerlandais, français, galicien, grec, hongrois, indonésien, italien, malayalam, polonais, portugais, roumain, suédois et ukrainien.</p>
+
+<p>We still have 15 partially supported languages: Basque (78%), Belarusian (68%), Chinese Simplified (69%), Estonian (62%), Finnois (90 %), German (84%), Hindi (76%), Irish Gaelic (82%), Norvégien Nynorsk (97 %), Russian (77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish (93%), Turkish (73%).</p>
+
+<p>Nous avons décidé pour cette version de conserver les traductions qui sont passées sous le seuil de 80 % de traduit. Ce serait dommage de devoir désactiver 10 langues de l'application, mais si personne ne peut mettre à jour les traductions pour les langues suivantes, elles seront désactivées dans la prochaine version : basque, biélorusse, chinois simplifié, estonien, hindi, russe, écossais gaélique, slovaque, slovène et turc.</p>
+
+<p>Pour la version Windows, nous avons rajouté une nouvelle entrée dans le menu nommée « GCompris (Safe Mode) » pour lancer le logiciel en mode de rendu logiciel. Cela est devenu nécessaire car la détection automatique de la prise en charge d'OpenGL n'était pas stable. Dorénavant, les utilisateurs peuvent facilement choisir entre le rendu OpenGL et le rendu logiciel sans avoir à modifier le fichier de configuration.</p>
+
+<p>Problèmes connus :</p>
+<li class="puce">La barre d'avancement pour les téléchargements ne fonctionne plus. C'est un effet de bord au passage au protocole https pour la récupération des fichiers de voix sur nos serveurs. Nous travaillons à une correction pour la prochaine version.
+</li>
+
+<br/>
+
+<p>Pour les personnes créant les paquets sous une distribution GNU/Linux, OpenSSL est devenu une nouvelle dépendance obligatoire pour pouvoir télécharger les fichiers de voix et d'images.</p>
+
+<p>Comme d'habitude, vous pouvez télécharger cette version à partir de la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Elle est aussi disponible sur les stores Android et Windows.</p>
+
+<p>Merci à tous, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}
