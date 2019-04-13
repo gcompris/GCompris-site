@@ -1,7 +1,7 @@
 
 body {
     background-color: #efefef;
-    font-family: Arial;
+    font-family: Arial, "Noto Sans Malayalam";
 }
 a {
     color: #e05f0f;
@@ -21,7 +21,7 @@ h1 {
 }
 h1.bigtitle {
     border-bottom: 2px solid #e77935;
-    font-family: 'Ruluko', sans-serif;
+    font-family: 'Ruluko', "Noto Sans Malayalam", sans-serif;
     font-size: 55px;
     letter-spacing: -0.04em;
     margin-left: -5px;
@@ -29,7 +29,7 @@ h1.bigtitle {
     padding-bottom: 10px;
 }
 h1.bigtitle2 {
-    font-family: 'Ruluko', sans-serif;
+    font-family: 'Ruluko', "Noto Sans Malayalam", sans-serif;
     font-size: 55px;
     letter-spacing: -0.04em;
     margin-left: -5px;
@@ -88,7 +88,7 @@ h2 {
 .downloadText {
     color: white;
     display: block;
-    font-family: "trebuchet MS",Arial,"Sans-Serif";
+    font-family: "trebuchet MS",Arial,"Noto Sans Malayalam", "Sans-Serif";
     font-size: 30px;
     letter-spacing: 0.03em;
     line-height: 32px;
