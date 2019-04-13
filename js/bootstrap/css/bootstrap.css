@@ -2391,7 +2391,9 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: "Noto Sans Malayalam";
-  src: url("../fonts/NotoSansMalayalam-Regular.ttf");
+  src: url("../fonts/NotoSansMalayalam-Regular.ttf") format("truetype"),
+       url('../fonts/notosansmalayalam-regular.woff2') format('woff2'),
+       url('../fonts/notosansmalayalam-regular.woff') format('woff');
 }
 
 .glyphicon {
