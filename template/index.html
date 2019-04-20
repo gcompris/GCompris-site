@@ -32,7 +32,7 @@
           document.getElementById("otherDownloadOS2Link").href = iOSURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "iPad";
           document.getElementById("otherDownloadOS3Link").href = linuxURL;
-          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS3Link").innerHTML = "GNU/Linux";
         } else if ( (/(Mac|OS X)/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = "downloads{{ suffix }}.html#osx";
           document.getElementById("downloadOS").innerHTML = "MacOSX";
@@ -45,7 +45,7 @@
           document.getElementById("otherDownloadOS2Link").href = windowsURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS3Link").href = linuxURL;
-          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS3Link").innerHTML = "GNU/Linux";
         } else if ( (/^Android/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = androidURL;
           document.getElementById("downloadOS").innerHTML = "Android";
@@ -58,7 +58,7 @@
           document.getElementById("otherDownloadOS2Link").href = iOSURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "iPad";
           document.getElementById("otherDownloadOS3Link").href = linuxURL;
-          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS3Link").innerHTML = "GNU/Linux";
         } else if ( (/^iOS/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = iOSURL;
           document.getElementById("downloadOS").innerHTML = "iPAD / iPhone";
@@ -71,10 +71,10 @@
           document.getElementById("otherDownloadOS2Link").href = iOSURL;
           document.getElementById("otherDownloadOS2Link").innerHTML = "iPad";
           document.getElementById("otherDownloadOS3Link").href = linuxURL;
-          document.getElementById("otherDownloadOS3Link").innerHTML = "Linux";
+          document.getElementById("otherDownloadOS3Link").innerHTML = "GNU/Linux";
         } else {
           document.getElementById("downloadButton").href = linuxURL;
-          document.getElementById("downloadOS").innerHTML = "Linux";
+          document.getElementById("downloadOS").innerHTML = "GNU/Linux";
           document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
           document.getElementById("downloadDetails").innterHTML = "{% trans %}Version {{version}}{% endtrans %}";
           document.getElementById("otherDownloadOS0Link").href = androidURL;
