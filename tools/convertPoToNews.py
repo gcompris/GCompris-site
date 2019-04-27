@@ -84,10 +84,8 @@ for currentNews in news:
                 fileData = fileData.replace('\'%s\'' % m, '\'%s\'' % news[currentNews][string])
             continue
         else:
-            # We surround with ">...<" to only replace full strings between tags
-            # else we may replace the string in another paragraph
-            # and mess the translation
-            fileData = fileData.replace(">"+string+"<", ">"+news[currentNews][string]+"<")
+            # We only want to replace the first occurence of the string
+            fileData = fileData.replace(string, news[currentNews][string], 1)
 
     # Write the file out again
     with open(currentNews, 'w') as file:
