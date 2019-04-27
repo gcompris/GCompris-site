@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>¡Hola!<br />
+Nos complace anunciar el lanzamiento de GCompris versión 0.96.</p>
+
+<p>Esta nueva versión incluye traducciones actualizadas para varios idiomas, además de unas cuantas correcciones.</p>
+
+<p>Traducciones que han recibido una gran actualización:</p>
+
+<li class="puce">Portugués brasileño (100%)</li>
+<li class="puce">Bretón (100%)</li>
+<li class="puce">Finés (90%)</li>
+<li class="puce">Indonesio (100%)</li>
+<li class="puce">Noruego nynorsk (97%)</li>
+<li class="puce">Polaco (100%)</li>
+
+<br/>
+
+<p>Esto significa que ahora disponemos de 19 idiomas completos: inglés británico, portugués brasileño, bretón, catalán, valenciano, chino tradicional, neerlandés, francés, gallego, griego, húngaro, indonesio, italiano, malabar, polaco, portugués, rumano, sueco y ucraniano.</p>
+
+<p>También disponemos de 15 idiomas parcialmente traducidos: euskera (78%), bielorruso (68%), chino simplificado (69%), estonio (62%), finés (90%), alemán (84%), hindi (76%), gaélico irlandés (82%), noruego nynorsk (97%), ruso (77%), gaélico escocés (70%), eslovaco (62%), esloveno (56%), español (93%) y turco (73%).</p>
+
+<p>Para este lanzamiento, hemos decidido de nuevo que mantendríamos las traducciones que caían por debajo del 80%. Sería triste tener que desactivar los siguientes 10 idiomas de la aplicación, pero si nadie los actualiza, no estarán presentes en el siguiente lanzamiento: euskera, bielorruso, chino simplificado, estonio, hindi, ruso, gaélico escocés, eslovaco, esloveno y turco.</p>
+
+<p>Para la versión de Windows, hemos añadido una nueva entrada en el menú de inicio llamada «GCompris (modo seguro)» para lanzarlo en el modo de renderizado por software. Esto es necesario porque la detección automática de OpenGL no es fiable en ese sistema. Ahora, el usuario puede escoger con facilidad entre el renderizado por software o usando OpenGL sin necesidad de cambiar el archivo de configuración.</p>
+
+<p>Problemas conocidos:</p>
+<li class="puce">La barra de avance para las descargas ha dejado de funcionar. Esto se debe a un efecto colateral de nuestro cambio a «https» para alojar los archivos. Estamos trabajando en corregir esto para el siguiente lanzamiento.
+</li>
+
+<br/>
+
+<p>Como nota complementaria para los empaquetadores de distribuciones GNU/Linux, esta nueva versión necesita OpenSSL para poder descargar voces e imágenes adicionales.</p>
+
+<p>Como vine siendo habitual, puede descargar esta nueva versión de nuestra <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. También estará disponible en breve en las tiendas de Android y de Windows.</p>
+
+<p>Gracias a todos, <br/>
+Timothée y Johnny</p>
+
+
+{% endblock %}

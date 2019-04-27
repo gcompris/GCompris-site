@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/gcompris360.png')"/>
+
+     
+<p>Bună,<br />
+Avem plăcerea de a anunța lansarea versiunii GCompris 0.96.</p>
+
+<p>Această nouă versiune aduce ca noutăți traducerea actualizată pentru mai multe limbi și câteva corecții ale unor erori de programare.</p>
+
+<p>Traduceri care au primit o actualizare semnificativă:</p>
+
+<li class="puce">Portugheza braziliană (100%)</li>
+<li class="puce">Bretonă (100%)</li>
+<li class="puce">Finlandeză (100%)</li>
+<li class="puce">Indoneziană (100%)</li>
+<li class="puce">Norvegiană Nynorsk (97%)</li>
+<li class="puce">Poloneză (100%)</li>
+
+<br/>
+
+<p>Aceasta înseamnă că avem acum 19 limbi cu suport complet: bretona, catalana, catalana valanciană, chineza tradițională, engleza britanică, franceza, galiciana, greaca, indoneziana, italiana, maghiara, malaieza, olandeza, poloneza, portugheza braziliană, româna, suedeza și ucrainiana.</p>
+
+<p>Avem încă 15 limbi cu suport parțial: norvegiana nynorsk (97%), spaniola (93%), finlandeza (90%), germana (84%), galeza irlandeză (82%), basca (78%), rusa (77%), hindi (76%), turca (73%), galeza scoțiană (70%), chineza simplificată (69%), belarusa (68%), estoniana (62%), slovaca (62%), slovena (56%).</p>
+
+<p>Am decis din nou pentru această versiune să păstrăm și traducerile care au scăzut sub pragul de 80%. Ar fi trist să trebuiască să dezactivăm 10 limbi din aplicație, dar dacă nimeni nu actualizează următoarele traduceri, acestea vor fi dezactivate în următoarea versiune: basca, belarusa, chineza simplificată, estoniana, hindi, rusa, galeza scoțiană, slovaca, slovena și turca.</p>
+
+<p>Pentru versiunea Windows, am adăugat o nouă intrare în meniul de start, numită GCompris (Safe Mode), pentru lansarea programului în modul de randare software. Acest lucru era necesar, deoarece autodetecția suportului pentru OpenGL nu funcționa precis. Acum, utilizatorii pot alege cu ușurință între OpenGL și randarea software, fără a trebui să modifice fișierul de configurare.</p>
+
+<p>Probleme cunoscute:</p>
+<li class="puce">Bara de progres pentru descărcări nu mai funcționează. Acesta este un efect colateral al trecerii noastre de la http la https în găzduirea fișierelor. Plănuim să rezolvăm această problemă în următoarea versiune.
+</li>
+
+<br/>
+
+<p>Ca o notă dedicată celor care fac pachete pentru distribuțiile GNU/Linux, această nouă versiune necesită acum OpenSSL pentru a putea descărca vocile și imaginile adiționale.</p>
+
+<p>Ca de obicei, puteți descărca această nouă versiune din <a href="https://gcompris.net/downloads{{ suffix }}.html">pagina noastră de descărcare</a>. Ea va fi în curând disponibilă și în magazinul Android și Windows.</p>
+
+<p>Vă mulțumim tuturor,<br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}
