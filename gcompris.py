@@ -62,17 +62,38 @@ def formatDate(date):
 #
 def getLocaleName(locale):
     result = locale
-    try:
-        with open(gcomprisdir + '/src/core/LanguageList.qml') as f:
-            content = f.readlines()
-            for line in content:
-                m = re.match('.*\"text\": \"(.*)\", \"locale\": \"(.*)\" }', line)
-                if m and m.group(2).startswith(locale):
-                    result = m.group(1)
-                    break
-    except IOError as e:
-        pass
+    locales = {
+        'en_GB': 'UK English', 'en_US': 'American English',
+        'bg': 'Brezhoneg', 'br': u'български',
+        'be': u'Беларуская', 'ca': u'Català',
+        'cs': u'Česká', 'da': 'Dansk',
+        'de': 'Deutsch', 'el': u'Ελληνικά',
+        'es': u'Español', 'et': 'Eesti',
+        'eu': 'Euskara', 'fi': 'Suomi',
+        'fr': u'Français', 'ga': 'Gaeilge',
+        'gd': u'Gàidhlig', 'gl': 'Galego',
+        'hi': u'हिन्दी', 'hu': 'Magyar',
+        'id': 'Indonesia', 'it': 'Italiano',
+        'ko': u'한국어',
+        'lt': u'Lietuvių', 'lv': u'Latviešu',
+        'ml': u'മലയാളം', 'nl': 'Nederlands',
+        'nn': 'Norsk (nynorsk)', 'pl': 'Polski',
+        'pt': u'Português', 'pt_BR': u'Português do Brasil',
+        'ro': u'Română', 'ruU': u'Русский',
+        'sk': u'Slovenský', 'sl': 'Slovenski',
+        'sr': u'црногорски jeзик', 'sv': 'Svenska',
+        'ta': u'தமிழ்', 'th': u'ไทย',
+        'tr': u'Türk', 'uk': u'український',
+        'zh_CN': u'中文（简体）', 'zh_TW': u'繁體中文'
+    }
 
+    if locale in locales:
+        result = locales[locale]
+    else: # take the first key that starts with locale
+        for loc in locales:
+            if loc.startswith(locale):
+                result = locales[loc]
+                continue
     return result
 
 # Set the default locale
