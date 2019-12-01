@@ -1,5 +1,5 @@
 
-VERSION = 0.96
+VERSION = 0.97
 
 ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr ga gd gl hi hu id it ko ml nl nn pl pt pt_BR ro ru sk sl sv tr uk zh_CN zh_TW 
 #ALL_LINGUAS = fr
