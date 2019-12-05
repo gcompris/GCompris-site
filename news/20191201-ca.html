@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r097.png')"/>
+
+     
+<p>Hola,<br />
+Ens complau anunciar l'alliberament del GCompris versió 0.97.</p>
+
+<p>Aquesta nova versió conté 2 noves activitats:</p>
+
+<li class="puce">Programació en el laberint: per aprendre els conceptes bàsics de la programació amb unes poques instruccions</li>
+<li class="puce">Tangram per a nadons: per aprendre els conceptes bàsics del Tangram (aquesta activitat correspon als nivells més baixos de l'anterior activitat del Tangram)</li>
+
+<br />
+
+<p>I un munt de novetats:</p>
+
+<li class="puce">subcategories noves per organitzar les activitats</li>
+<li class="puce">característica nova per a la música i pistes d'àudio de fons</li>
+<li class="puce">ajustaments nous del volum per als efectes de l'àudio</li>
+<li class="puce">ajustaments nous per a la velocitat en diverses activitats («gletters», «algebra», «readingh», «note_names»)</li>
+<li class="puce">característica nova en les activitats d'escacs per a mostrar les peces capturades</li>
+<li class="puce">opció nova per passar al següent nivell manualment en «drawletters» i «drawnumbers»</li>
+<li class="puce">veus noves per a en_US</li>
+<li class="puce">imatges noves per a l'activitat «colors»</li>
+<li class="puce">imatges noves per a l'activitat «advanced_colors»</li>
+<li class="puce">imatges noves per a l'activitat «target»</li>
+<li class="puce">es milloren els ajustaments per a la disposició</li>
+<li class="puce">es millora la disposició per a l'activitat «share»</li>
+<li class="puce">es millora la disposició per a l'activitat «categorisation»</li>
+<li class="puce">els fitxers dels recursos ara s'emmagatzemen al servidor KDE (https://cdn.kde.org/)</li>
+<li class="puce">s'afegeix una guia d'aprenentatge per a Nombres parells i senars</li>
+<li class="puce">s'afegeix una intro per a «piano_composition»</li>
+<li class="puce">s'afegeix un conjunt de dades en malai a la «gletters»</li>
+<li class="puce">s'afegeix un conjunt de dades en bretó a la «wordsgame»</li>
+<li class="puce">s'esmenen les veus que no sonen a la «geography»</li>
+<li class="puce">s'esmenen els sons que no sonen a la «mining»</li>
+<li class="puce">s'esmena el mode retrat a la «binary_bulb̉»</li>
+<li class="puce">s'esmena la càrrega alta de la CPU en el menú</li>
+<li class="puce">s'esmena la mida de la imatge de consell a la «photo_hunter»</li>
+<li class="puce">s'esmena la disposició a la «color_mix»</li>
+<li class="puce">i un munt d'altres petites esmenes...</li>
+
+<br/>
+
+<p>Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows i MacOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització també estarà disponible aviat a les botigues Android Play i Windows Store. Per a la Raspberry Pi, proporcionarem un instal·lador aviat. La versió actualitzada per a iOS encara no està disponible. Recordeu que el paquet per al MacOS encara no està notariat, esperem poder fer-ho durant l'any que ve.</p>
+
+<p>Pel costat de les veus, afegim una nova veu «prova una altra vegada», la qual s'utilitza en diverses activitats en lloc de «comprova la resposta». A fi de comprovar en aquesta pàgina si aquesta veu està disponible en el vostre idioma: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (a la secció «Misc»). Podeu ajudar-nos proporcionant una bona gravació de la vostra veu per a totes les entrades que falten en el vostre idioma nadiu.</p>
+
+<p>Això vol dir que ara tenim 20 idiomes completament admesos: anglès britànic, basc, bretó, català, eslovac, espanyol, francès, gallec, grec, holandès, italià, macedoni, malai, polonès, portuguès, portuguès brasiler, romanès, suec, ucraïnès i xinès tradicional.</p>
+
+<p>Tenim 15 idiomes parcialment admesos: alemany (96%), català (valencià 95%), hongarès (95%), indonesi (95%), turc (95%), estonià (93%), noruec nynorsk (93%), finlandès (86%), gaèlic irlandès (78%), rus (76%), hindi (73%), gaèlic escocès (67%), xinès simplificat (66%), bielorús (65%) i eslovè (54%).</p>
+
+<p>En general, només enviem traduccions que almenys estan completes al 80%. No obstant això, per a aquest llançament, diverses traduccions han minvat per sota del 80% (en especial l'eslové, el bielorús i el gaèlic escocès -però també l'hindi, el rus i el gaèlic irlandès-). Hem decidit mantenir-les excepcionalment per a aquest llançament, i esperem veure traductors antics o nous que les completin. Si obtenim actualitzacions o traduccions noves, farem una actualització de llançament.</p>
+
+<p>Per tant, si el vostre idioma es troba a la llista de parcialment compatible o encara no és compatible i voleu ajudar, poseu-vos en contacte amb nosaltres i us donarem instruccions per començar a traduir.</p>
+
+<p>Una altra forma d'ajudar-nos és escriure algunes publicacions a la vostra comunitat sobre el GCompris, i no dubteu en enviar-nos comentaris.</p>
+
+<p>Notes:</p>
+<li class="puce">Per a la llengua malaia, hem vist alguns problemes amb el tipus de lletra predeterminat «Andika-R». Recomanem als usuaris del malai que seleccionin el tipus de lletra «Noto-Sans-Malayalam» o «RaghuMalaylamSans» des del menú de l'aplicació (si no està disponible a la llista, primer l'haureu d'instal·lar al vostre sistema per a poder-la seleccionar).
+</li>
+
+<br/>
+
+<p>Gràcies a tots, <br/>
+Timothée i Johnny</p>
+
+
+{% endblock %}

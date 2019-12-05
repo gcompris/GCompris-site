@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versione GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r097.png')"/>
+
+     
+<p>Ciao,<br />
+Siamo felici di annunciare il rilascio di GCompris, versione 0.97.</p>
+
+<p>Questo versione contiene 2 nuove attività:</p>
+
+<li class="puce">Un labirinto programmabile: per imparare le basi della programmazione con poche istruzioni</li>
+<li class="puce">Baby tangram: per imparare le basi del tangram (questa attività corrisponde al livelli più bassi dell'attività tangram precedente)</li>
+
+<br />
+
+<p>E tante nuove funzionalità:</p>
+
+<li class="puce">nuove sottocategorie per organizzare le attività</li>
+<li class="puce">nuova funzionalità di musica di sottofondo e tracce audio</li>
+<li class="puce">nuove impostazioni del volume per gli effetti audio</li>
+<li class="puce">nuova impostazione di velocità in numerose attività (gletters, algebra, readingh, note_names)</li>
+<li class="puce">nuova funzionalità nell'attività degli scacchi per visualizzare i pezzi catturati</li>
+<li class="puce">nuova opzione per andare al livello successivo manualmente in Disegna le lettere e Disegna i numeri</li>
+<li class="puce">nuove voci per en_US</li>
+<li class="puce">nuove immagini per le attività di colore</li>
+<li class="puce">nuove immagini per l'attività Colori avanzati</li>
+<li class="puce">nuove immagini per l'attività Bersaglio</li>
+<li class="puce">migliora la disposizione delle impostazioni</li>
+<li class="puce">migliora la disposizione di condivisione delle attività Condividi</li>
+<li class="puce">migliora la disposizione dell'attività Categorizzazione</li>
+<li class="puce">i file delle risorse ora sono archiviati in un server di KDE (https://cdn.kde.org/)</li>
+<li class="puce">aggiunge una guida per i numeri pari/dispari</li>
+<li class="puce">aggiunge un'introduzione a Composizione al pianoforte</li>
+<li class="puce">aggiunge un insieme di dati malayalam a Lettere</li>
+<li class="puce">aggiunge un insieme di dati bretone a Parole</li>
+<li class="puce">corregge la mancata riproduzione delle voci in Geografia</li>
+<li class="puce">corregge la mancata riproduzione di suoni in Cerca l'oro</li>
+<li class="puce">corregge la modalità orizzontale in Lampadine binarie</li>
+<li class="puce">corregge l'alto utilizzo della CPU nel menu</li>
+<li class="puce">corregge il suggerimento di dimensione dell'immagine in photo_hunter</li>
+<li class="puce">corregge la disposizione in color_mix</li>
+<li class="puce">e molte altre piccole correzioni...</li>
+
+<br/>
+
+<p>Puoi trovare i pacchetti di questa nuova versione per GNU/Linux, Windows e MacOS sulla <a href="https://gcompris.net/downloads{{ suffix }}.html">pagina Scarica</a>. Questo aggiornamento sarà inoltre disponibile presto nel Play Store di Android e nel Windows Store. Per Raspberry Pi, forniremo presto un installatore. La versione aggiornata per iOS non è ancora disponibile. Notare che il pacchetto per MacOS non è ancora convalidata, ci occuperemo di questo nel prossimo anno.</p>
+
+<p>Dal lato delle voci, abbiamo aggiunto una nuova voce "try again" che è utilizzata in numerose attività invece di "check answer". Puoi controllare su questa pagina se questa voce è disponibile nella tua lingua: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (nella sezione "Misc"). Puoi aiutarci fornendo una buona registrazione della tua voce per tutte le voci mancanti nella tua lingua nativa.</p>
+
+<p>Ciò significa che ora ci sono 20 lingue completamente supportate: basco, portoghese brasiliano, bretone, inglese britannico, catalano, catalano, cinese tradizionale, olandese, francese, galiziano, greco, italiano, macedone, malayalam, polacco, portoghese, rumeno, slovacco, spagnolo, svedese, ucraino.</p>
+
+<p>Ci sono ancora 15 lingue parzialmente supportate: bielorusso (65%), catalano (valenziano 95%), cinese semplificato (66%), estone (93%), finlandese (86%), tedesco (96%), Hindi (73%), ungherese (95%), indonesiano (95%), gaelico irlandese (78%), norvegese Nynorsk (93%), russo (76%), gaelico scozzese (67%), sloveno (54%), turco (95%).</p>
+
+<p>Normalmente rilasciamo solo le traduzioni complete almeno all'80%. Tuttavia, numerose traduzioni sono scese al di sotto dell'80% (in particolare sloveno, bielorusso, e gaelico scozzese, ma anche hindi, russo e gaelico irlandese). Abbiamo deciso di mantenerle in via eccezionale per questa versione, e speriamo di vedere vecchi o nuovi traduttori completare queste traduzioni. Se riceviamo aggiornamenti o nuove traduzioni, rilasceremo un aggiornamento.</p>
+
+<p>Se la tua lingua è nell'elenco delle lingue parzialmente supportate, o non è affatto supportata, e vuoi contribuire, contattaci e ti forniremo le istruzioni per iniziare a tradurre.</p>
+
+<p>Inoltre, puoi aiutarci anche pubblicando commenti nella tua comunità su GCompris e non esitare a fornirci segnalazioni.</p>
+
+<p>Note:</p>
+<li class="puce">Per la lingua Malayalam, abbiamo notato dei problemi con il carattere predefinito "Andika-R". Consigliamo agli utenti malayalam di selezionare il carattere Noto-Sans-Malayalam o RaghuMalaylamSans dal menu dell'applicazione (se non è disponibile nell'elenco, devi installare prima questo carattere sul tuo sistema per poterlo selezionare).
+</li>
+
+<br/>
+
+<p>Grazie a tutti, <br/>
+Timothée e Johnny</p>
+
+
+{% endblock %}

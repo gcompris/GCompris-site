@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versão do GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r097.png')"/>
+
+     
+<p>Olá,<br />
+Estamos felizes por anunciar o lançamento do GCompris na versão 0.97.</p>
+
+<p>Esta nova versão contém 2 novas actividades:</p>
+
+<li class="puce">Um labirinto de programação: aprender as bases de programação com algumas instruções</li>
+<li class="puce">Tangrama para bebés: aprender as bases do tangrama (esta actividade corresponde aos níveis inferiores da actividade do tangrama anterior)</li>
+
+<br />
+
+<p>E um conjunto de novas funcionalidades:</p>
+
+<li class="puce">novas sub-categorias para organizar as actividades</li>
+<li class="puce">nova funcionalidade de música de fundo e faixas de áudio</li>
+<li class="puce">nova configuração do volume para os efeitos de áudio</li>
+<li class="puce">nova configuração de velocidade em diversas actividades (gletters, algebra, readingh, note_names)</li>
+<li class="puce">nova funcionalidade nas actividades de xadrez para mostrar as peças capturadas</li>
+<li class="puce">nova opção para ir manualmente para o nível seguinte nas actividades drawletters e drawnumbers</li>
+<li class="puce">novas vozes para en_US</li>
+<li class="puce">novas imagens para a actividade de cores</li>
+<li class="puce">novas imagens para a actividade advanced_colors</li>
+<li class="puce">novas imagens para a actividade do alvo</li>
+<li class="puce">melhoria da apresentação da configuração</li>
+<li class="puce">melhoria da apresentação da actividade de partilha</li>
+<li class="puce">melhoria da apresentação da actividade de categorização</li>
+<li class="puce">os ficheiros dos recursos estão agora guardados nos servidores do KDE (https://cdn.kde.org/)</li>
+<li class="puce">adição de um tutorial para números pares/ímpares</li>
+<li class="puce">adição de introdução para a piano_composition</li>
+<li class="puce">adição do conjunto de dados Malayalam ao gletters</li>
+<li class="puce">adição do conjunto de dados em bretão para o wordsgame</li>
+<li class="puce">correcção de vozes não reproduzidas na 'geography'</li>
+<li class="puce">correcção de sons não reproduzidos na 'mining'</li>
+<li class="puce">correcção do modo de retrato na 'binary_bulb'</li>
+<li class="puce">correcção de carga de CPU elevada no menu</li>
+<li class="puce">correcção do tamanho da imagem da sugestão no caçador de fotografias</li>
+<li class="puce">correcção da apresentação do 'color_mix'</li>
+<li class="puce">e muitas outras pequenas correcções...</li>
+
+<br/>
+
+<p>Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows e MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de transferências</a>. Esta actualização ficará também disponível em breve na loja Android Play e na loja do Windows. Para o Raspberry Pi, será fornecido um instalador em breve. A versão actualizada para o iOS ainda não está disponível. Lembre-se que o pacote para MacOS ainda não está oficializado, algo que será tratado durante o ano seguinte.</p>
+
+<p>Do lado das vozes, foi adicionada uma nova voz "tente de novo", a qual é usada em diversas actividades em vez do "verifique a resposta". Poderá consultar nesta página se esta voz está disponível na sua língua: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (na secção "Diversos"). Poder-nos-á ajudar a fornecer uma boa gravação da sua voz para todos os elementos em falta na sua língua nativa.</p>
+
+<p>Isto significa que temos agora 20 línguas totalmente suportadas: Basco, Inglês Britânico, Português do Brasil, Bretão, Catalão, Catalão (Valenciano), Chinês Tradicional, Holandês, Francês, Galego, Grego, Italiano, Macedónio, Malayalam, Polaco, Português, Romeno, Eslovaco, Espanhol, Sueco, Ucraniano.</p>
+
+<p>Também temos 15 línguas parcialmente suportadas: Bielorrusso (65%), Catalão (Valenciano 95%), Chinês Simplificado (66%), Estónio (93%), Finlandês (86%), Alemão (96%),  Hindu (73%), Húngaro (95%), Indonésio (95%), Gaélico Irlandês (78%), Norueguês Nynorsk (93%), Russo (76%), Gaélico Escocês (67%), Esloveno (54%), Turco (95%).</p>
+
+<p>Normalmente só fornecemos as traduções que estejam pelo menos 80% completas. Contudo, diversas traduções desceram bastante abaixo dos 80% (especialmente o Esloveno, o Bielorrusso e o Gaélico Escocês, mas também o Hindu, o Russo e o Gaélico Irlandês). Optámos por manter esses excepcionalmente para esta versão, esperando que alguns dos tradutores novos ou ou antigos terminem essas traduções. Se receber actualizações ou traduções novas, será feita uma actualização da versão.</p>
+
+<p>Por isso, se a sua língua estiver na lista das parcialmente suportadas, ou se ainda não tiver suporte de todo, e caso queira ajudar, por favor contacte-nos e dar-lhe-emos instruções para começar as traduções.</p>
+
+<p>Outra forma de ajudar é escrever algumas publicações na sua comunidade acerca do GCompris e não hesite em nos dar as suas opiniões.</p>
+
+<p>Notas:</p>
+<li class="puce">Para a língua Malayalam, reparámos em alguns problemas com o tipo de letra "Andika-R". Recomendamos que os utilizadores Malayalam seleccionem o tipo de letra Noto-Sans-Malayalam ou o RaghuMalaylamSans no menu de aplicações (se não estiver disponível na lista, terá de instalar este tipo de letra no seu sistema para o poder seleccionar).
+</li>
+
+<br/>
+
+<p>Obrigado a todos, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}
