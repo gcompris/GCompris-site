@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 0.97-es verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='news/images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('news/images/r097.png')"/>
+
+     
+<p>Hi,<br />
+Örömmel jelentjük be a GCompris version 0.97-es verzióját.</p>
+
+<p>Ez a változat két új alkalmazást tartalmaz:</p>
+
+<li class="puce">Programlabirintus: segítségével a programozás alap utasításait tanulhatjuk meg</li>
+<li class="puce">Baba tangram: a tangram játék szabályainak elsajátításához (ez a tevékenység megegyezik az előző tangram játék alacsonyabb szintjeivel)</li>
+
+<br />
+
+<p>Rengeteg új funkció:</p>
+
+<li class="puce">Új alkategóriák a tevékenységek átláthatósága miatt</li>
+<li class="puce">Háttérzene lehetőség, és beépített zeneszámok</li>
+<li class="puce">Az audio effektek hangereje mostantól állítható</li>
+<li class="puce">Új sebesség beállítások több alkalmazásban (Gletters, algebra, radnight, hangjegyek)</li>
+<li class="puce">A Sakkban a program kijelzi az elfogott bábúkat</li>
+<li class="puce">Mosatantól manuálisan is tovább lehet lépni a Szám és betűrajzoló tevékenységeknél</li>
+<li class="puce">Új angol_US hangfájlok</li>
+<li class="puce">Új képek a színek tevékenységhez</li>
+<li class="puce">Új képek a  további szinek tevékenységeben</li>
+<li class="puce">Több kép a céltevékenységekhez</li>
+<li class="puce">Továbbfejlesztett beállítások elrendezése panel</li>
+<li class="puce">Fejlesztett tevékenység megosztó elrendezés</li>
+<li class="puce">Továbfejlesztett kategória szervező a tevékenységek között </li>
+<li class="puce">A forrásfájlok mostantól KDE szerveren tárolódnak. (http://cdn.kde.org/)</li>
+<li class="puce">Bekerült egy útmutató a páros-páratlan számokról</li>
+<li class="puce">A zongora alkalmazás intro-vaé bővült</li>
+<li class="puce">A gletter alkalmazás Maláj adattáblával bűvült</li>
+<li class="puce">Hozzáadva: Breton adatkészlet a szójátékba</li>
+<li class="puce">Javítva: A Földrajzban nem szóltak a hangok</li>
+<li class="puce">Javítva: A hangok működése a bányász játékban</li>
+<li class="puce">Javítva: Portré mód a bináris égőkben</li>
+<li class="puce">Javítva: Nagy processzorterheláés a főmenüben</li>
+<li class="puce">Javítva: A segyítség képének mérete a fotóvadászban</li>
+<li class="puce">Javítva: Az elrendezés a szincserében</li>
+<li class="puce">és persze néhány kisebb hibajavítás..</li>
+
+<br/>
+
+<p>A GNU/Linux felhasználásra szánt új csomagok is elkészültek, Windows és MacOS a <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül</a>. A frissítés hamarosan érkezik Androidra is a Play Áruházon illetve  a Windows store-on keresztül. A Raspberry Pi tulajoknak, haraosan kikerül egy telepítőkészlet. A megújult iOS verzió még nincs kész, a MacOS csomagok várhatóan jövőre készülnek el.</p>
+
+<p>A hangoknál egy új hangot vezettünk be "próbáld meg újra" amely több tevékenységnél felváltja az eddig használt "ellenőrizd a válaszodat". Az alábbi oldalon ellenőrizheted elérhető-e az anyanyelveden: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (az "Egyéb" részben). Segíthetsz nekünk ha jó hangod van. Küldd el a hiányzó hangokat az anyanyelveden!</p>
+
+<p>Fordítási oldalról jelenleg 20 nyelven "beszél" a program teljesen: Baszk, Brazil Breton, Brit Angol, Francia, Gall, Görög, Holland, Katalán, Kínai, Lengyel, Olasz, Macedón, Maláj, Portugál, Román, Szlovák, Spanyol, Svéd, Ukrán.</p>
+
+<p>Van 15 olyan nyelv ami nem teljes : Belarusz (65%), Katalán (Valencian 95%), Egyszerűsített Kínai (66%), Észt (93%), Finn (86%), Német (96%),  Hindi (73%), Magyar (95%), Indonéz (95%), Gall-Ír (78%), Norvég Nynorsk (93%), Orosz (76%), Skót-Gall (67%), Szlovén (54%), Török (95%).</p>
+
+<p>Általában a verziók csak olyan fordításokat tartalmaznak melyek legalább 80% készültségűek. Bár vannak nyelvek melyek sajnos még nem érik el ezt a 80%-os szintet (különösen a Szlovén, Belorusz és a Skót-gall ; de a Hindi, orosz és az  ír- Ggall változat sem).  Ezért úgy döntöttünk ebbe a verzióba kivételesen betesszük őket, reménykedve abban, hogy régi vagy egy új fordító felkarolja őket. Ha a fordításban előrehaladás van, az egy új kiadásba bekerül.</p>
+
+<p>Ha az anyanyelved a részben készek listáján van , vagy nem találtad meg köztük, és szívesen segítenél, kérlek keress meg minket, hogy segíthessünk a fordítás elkészítésében.</p>
+
+<p>A GCompris fórumába adott visszajelzéseiddel is segytheted munkánkat.</p>
+
+<p>Megjegyzések:</p>
+<li class="puce">A Maláj nyelvnél észrevettük, hogy, problémák merültek fel az alapértelmezett betütipussal "Andika-R\. Javasolkuk nekik a Noto-Sans-Malayalam vagy a RaghuMalaylamSans betűtipus használatát a főmenüből (ha nem elérhető a vezérlőpultból lehet telepíteni).
+</li>
+
+<br/>
+
+<p>Mindenkinek köszönjükl, <br/>
+Timothée és Johnny</p>
+
+
+{% endblock %}
