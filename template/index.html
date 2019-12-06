@@ -8,11 +8,11 @@
       window.onload = function()
       {
         var winarch = "win32-gcc";
-        if ( platform.os.architecture = 64){
+        if (platform.os.architecture = 64){
             winarch = "win64-gcc";
         }
         var linarch = "Linux32";
-        if ( platform.os.architecture = 64){
+        if (platform.os.architecture = 64){
             linarch = "Linux64";
         }
         windowsURL = "downloads{{ suffix }}.html#windows";
@@ -24,7 +24,7 @@
           document.getElementById("downloadButton").href = windowsURL;
           document.getElementById("downloadOS").innerHTML = "Windows";
           document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innterHTML = "{% trans %}Version {{version}}{% endtrans %}";
+          document.getElementById("downloadDetails").innerHTML = "{% trans %}Version {{version}}{% endtrans %}";
           document.getElementById("otherDownloadOS0Link").href = androidURL;
           document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
           document.getElementById("otherDownloadOS1Link").href = macURL;
@@ -37,7 +37,7 @@
           document.getElementById("downloadButton").href = "downloads{{ suffix }}.html#osx";
           document.getElementById("downloadOS").innerHTML = "MacOSX";
           document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innterHTML = "";
+          document.getElementById("downloadDetails").innerHTML = "";
           document.getElementById("otherDownloadOS0Link").href = iOSURL;
           document.getElementById("otherDownloadOS0Link").innerHTML = "iPad";
           document.getElementById("otherDownloadOS1Link").href = androidURL;
@@ -50,7 +50,7 @@
           document.getElementById("downloadButton").href = androidURL;
           document.getElementById("downloadOS").innerHTML = "Android";
           document.getElementById("downloadButtonImg").src = "downloadAndroid.png";
-          document.getElementById("downloadDetails").innterHTML = "";
+          document.getElementById("downloadDetails").innerHTML = "";
           document.getElementById("otherDownloadOS0Link").href = windowsURL;
           document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS1Link").href = macURL;
@@ -63,7 +63,7 @@
           document.getElementById("downloadButton").href = iOSURL;
           document.getElementById("downloadOS").innerHTML = "iPAD / iPhone";
           document.getElementById("downloadButtonImg").src = "downloadiOS.png";
-          document.getElementById("downloadDetails").innterHTML = "";
+          document.getElementById("downloadDetails").innerHTML = "";
           document.getElementById("otherDownloadOS0Link").href = windowsURL;
           document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
           document.getElementById("otherDownloadOS1Link").href = macURL;
@@ -76,7 +76,7 @@
           document.getElementById("downloadButton").href = linuxURL;
           document.getElementById("downloadOS").innerHTML = "GNU/Linux";
           document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innterHTML = "{% trans %}Version {{version}}{% endtrans %}";
+          document.getElementById("downloadDetails").innerHTML = "{% trans %}Version {{version}}{% endtrans %}";
           document.getElementById("otherDownloadOS0Link").href = androidURL;
           document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
           document.getElementById("otherDownloadOS1Link").href = windowsURL;
