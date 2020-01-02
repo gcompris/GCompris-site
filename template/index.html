@@ -7,14 +7,6 @@
     <script type="text/javaScript">
       window.onload = function()
       {
-        var winarch = "win32-gcc";
-        if (platform.os.architecture = 64){
-            winarch = "win64-gcc";
-        }
-        var linarch = "Linux32";
-        if (platform.os.architecture = 64){
-            linarch = "Linux64";
-        }
         windowsURL = "downloads{{ suffix }}.html#windows";
         macURL = "downloads{{ suffix }}.html#osx";
         linuxURL = "downloads{{ suffix }}.html#linux";
