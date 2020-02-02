@@ -64,7 +64,7 @@ def getLocaleName(locale):
     result = locale
     locales = {
         'en_GB': 'UK English', 'en_US': 'American English',
-        'bg': 'Brezhoneg', 'br': u'български',
+        'bg': u'български', 'br': 'Brezhoneg',
         'be': u'Беларуская', 'ca': u'Català',
         'cs': u'Česká', 'da': 'Dansk',
         'de': 'Deutsch', 'el': u'Ελληνικά',
