@@ -1,5 +1,4 @@
 {% extends "template/base.html" %}
-{% import "template/social.html" as social %}
 {% set page = 'index' %}
 {% set title = _('GCompris Educational Software') %}
 {% block head %}
@@ -187,7 +186,7 @@
     </div>
     <div class="col-xs-12 col-md-6 news">
       <img class="indexProjectImg" alt="Large GCompris Logo" src="middleGComprisLogo.png"/>
-      <h1 class="bigtitle">GCompris</h1>{{ social.block(locale) }}
+      <h1 class="bigtitle">GCompris</h1>
       <div class="projectDescription"><p>{% trans %}GCompris is a high quality educational software suite, including a large number of activities for children aged 2 to 10.{% endtrans %}</p>
 	<p>{% trans %}Some of the activities are game orientated, but nonetheless still educational.{% endtrans %}</p>
 	<p>{% trans %}Here is the list of activity categories with some examples:{% endtrans %}</p>

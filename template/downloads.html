@@ -1,5 +1,4 @@
 {% extends "template/base.html" %}
-{% import "template/social.html" as social %}
 {% set page = 'downloads' %}
 {% set title = _('Download') + " - GCompris" %}
 {% block content %}
@@ -7,7 +6,6 @@
   <div class="row">
     <div class="col-xs-12 col-md-12">
       <h1 class="bigtitle2">{% trans %}Download{% endtrans %}</h1>
-      {{ social.block(locale) }}
 
       <div class="container bs-docs-container" id="windows">
 	<div class="row news">
@@ -17,10 +15,10 @@
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
-	      <p>{% trans %}You can buy the full version of GCompris <a href="https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm">in the Windows Store</a>.{% endtrans %}</p>
+	      <p>{% trans %}You can install GCompris <a href="https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm">from the Windows Store</a>.{% endtrans %}</p>
 	      <p>{% trans %}Note: the Windows Store requires Windows 10.{% endtrans %}</p>
 	      <br/>
-	      <p>{% trans %}Else, you can get the demo from the links below, and <a href="buy-{{ locale }}.html">buy on our website</a> the activation code to unlock the full version.{% endtrans %}</p>
+	      <p>{% trans %}Else, you can download the installer from the links below.{% endtrans %}</p>
 	      <p>{% trans %}System requirements: Windows 7, 8 or 10 with OpenGL 2 support.{% endtrans %}</p>
 	      <pre>
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/windows/gcompris-qt-{{ version }}-win64-gcc.exe">GCompris {{ version }}-Windows 64bit</a></li>
@@ -44,16 +42,13 @@
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
-	      <p>{% trans %}The version for Android is distributed in the Play Store. The demo and the full version have separate installers.{% endtrans %}</p>
+	      <p>{% trans %}The version for Android is distributed in the Play Store.{% endtrans %}</p>
 	      <pre>
-	      <li class="puce"><a class="extraInfoLink" href="https://play.google.com/store/apps/details?id=net.gcompris.full">GCompris {{ version }}-Full version for Android</a></li>
-          <li class="puce"><a class="extraInfoLink" href="https://play.google.com/store/apps/details?id=net.gcompris">GCompris {{ version }}-Demo version for Android</a></li>
+	      <li class="puce"><a class="extraInfoLink" href="https://play.google.com/store/apps/details?id=net.gcompris.full">GCompris {{ version }}-GCompris for Android</a></li>
           </pre>
-          <p>{% trans %}Note: It is recommended to buy directly the full version from the store, not from the button in the demo. This way, you can share it with 5 family members using the Google Play Family Library. Also, a few users reported issues to unlock the demo.{% endtrans %}</p>
           <p>{% trans %}We support both android 32bit and 64bit from the Play Store. The appropriate version is downloaded automatically depending on your Android operating system.{% endtrans %}</p>
           <br/>
-           <p>{% trans %}The full version is also available from F-Droid, the Free and Open Source Android app repository.{% endtrans %}<br/>
-              {% trans %}If you use this version, please consider <a href="buy{{ suffix }}.html#donation">making a donation</a> to support GCompris.{% endtrans %}</p>
+           <p>{% trans %}GCompris is also available from F-Droid, the Free and Open Source Android app repository.{% endtrans %}<br/>
 	      <pre>
 	      <li class="puce"><a class="extraInfoLink" href="https://f-droid.org/en/packages/net.gcompris.full/">GCompris {{ version }} from F-Droid</a></li>
           </pre>
@@ -70,7 +65,7 @@
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
-	      <p>{% trans %}You can get the demo from the link below, and <a href="buy-{{ locale }}.html">buy on our website</a> the activation code to unlock the full version.{% endtrans %}</p>
+	      <p>{% trans %}You can get the macOS version from the link below.{% endtrans %}</p>
 	      <p>{% trans %}Built and tested on macOS 10.13.{% endtrans %}</p>
 	      <pre>
 	      <li class="puce"><a class="extraInfoLink" href="http://gcompris.net/download/qt/macos/gcompris-qt-{{ version }}-Darwin.dmg">GCompris {{ version }}-Darwin</a></li>

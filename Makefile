@@ -11,7 +11,7 @@ CATALOGS=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "loc
 sources = \
 	gcompris.py \
 	template/base.html \
-	template/buy.html \
+	template/donate.html \
 	template/downloads.html \
 	template/download_macosx.html \
 	template/index.html \
@@ -20,11 +20,10 @@ sources = \
 	template/onenews.html \
 	template/screenshot.html \
 	template/screenshots.html \
-	template/social.html \
 	template/test.html
 
 i18_sources = template/base.html \
-	template/buy.html \
+	template/donate.html \
 	template/downloads.html \
 	template/index.html \
 	template/screenshot.html

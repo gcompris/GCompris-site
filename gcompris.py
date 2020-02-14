@@ -449,8 +449,8 @@ for screenshot in boards:
 templateVars['total_activities'] = total_activities
 templateVars['demo_activities'] = demo_activities
 
-templateBuy = templateEnv.get_template("template/buy.html")
-outputBuyText = templateBuy.render(templateVars)
+templateDonate = templateEnv.get_template("template/donate.html")
+outputDonateText = templateDonate.render(templateVars)
 
 templateDownloads = templateEnv.get_template("template/downloads.html")
 outputDownloadsText = templateDownloads.render(templateVars)
@@ -470,8 +470,8 @@ with codecs.open('newsall' + suffix + '.html', 'w', encoding='utf8') as f:
 with codecs.open('screenshots' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputScreenshotsText )
 
-with codecs.open('buy' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputBuyText )
+with codecs.open('donate' + suffix + '.html', 'w', encoding='utf8') as f:
+    f.write( outputDonateText )
 
 with codecs.open('downloads' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputDownloadsText )

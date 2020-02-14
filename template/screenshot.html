@@ -24,11 +24,6 @@
       {% if screenshot.name != 'root' %}
         <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.svg' alt='difficulty level {{ screenshot.difficulty }}'/>
       {% endif %}
-      {% if screenshot.demo == 'false' %}
-        <a href="buy{{ suffix }}.html" title="{% trans %}Buying the Windows or MacOSX version{% endtrans %}">
-	  <img class='screenshotPay' src='money.png' alt='locked activity'/>
-	</a>
-      {% endif %}
       <div style="clear: both;"></div>
       <div class='screenshotDivAuthor'>
       {% if screenshot.type != 'menu' %}

@@ -1,0 +1,33 @@
+{% extends "template/base.html" %}
+{% set page = 'donate' %}
+{% set title = _('Donate') + " - GCompris" %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">      
+      <div class="container bs-docs-container">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div id="donation" class="newstitle" style="float: left; text-align: left;">{% trans %}Donate{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	      <div class="newscontent">
+	      <p>{% trans %}You, your children or your school love GCompris. You can support the project with a donation.{% endtrans %}</p>
+	      <p>{% trans %}Developing software takes a lot of time, it needs hardware, and other requirements that have a cost.{% endtrans %}</p>
+	      <p>{% trans %}You can donate the amount of your choice to KDE :{% endtrans %}</p>
+	      <p><a href="https://kde.org/community/donations/">Donate to KDE</a></p>
+	      <p>{% trans %}Thanks for supporting Free Software in education.{% endtrans %}</p>
+	      <br/>
+	      <img class="col-xs-12 col-md-12" src="images/gcompris_thank_you.png" alt="GCompris Thank-you">
+	      <br/><br/>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+
