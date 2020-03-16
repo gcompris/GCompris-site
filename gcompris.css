@@ -119,6 +119,23 @@ h2 {
     color: #FFF;
     text-decoration: none;
 }
+.patreoncards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #e77935;
+}
+.patronslist {
+  text-align: center;
+  padding-top: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 5px #e77935;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
 .smallProjectImg {
     float: left;
     padding-left: 7px;
