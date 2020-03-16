@@ -73,7 +73,7 @@ h2 {
     clear: both;
     color: #FFFFFF;
     float: left;
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 15px 15px 15px 90px;
     position: relative;
 }
@@ -93,6 +93,31 @@ h2 {
     letter-spacing: 0.03em;
     line-height: 32px;
     padding-bottom: 6px;
+}
+.patreonlink {
+    display: block;
+    width: 70%;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+    margin: 20px auto 20px auto;
+    padding: 8px 12px 8px 12px;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.15rem;
+    background: linear-gradient(to right, #D79B35, #E77935);
+    border-radius: 2px;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 0px 0px rgba(0,0,0,0.3);
+}
+.patreonlink:hover {
+    filter: brightness(1.2);
+    transition: all 0.2s ease-in;
+}
+.patreonlink span {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
 }
 .smallProjectImg {
     float: left;
@@ -334,6 +359,9 @@ h3.carousel-text {
   }
   .screenshotDivAuthor {
     width: 375px;
+  }
+  .patreonlink {
+    width: 100%;
   }
 }
 
