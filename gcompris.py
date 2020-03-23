@@ -72,6 +72,7 @@ def getLocaleName(locale):
         'eu': 'Euskara', 'fi': 'Suomi',
         'fr': u'Français', 'ga': 'Gaeilge',
         'gd': u'Gàidhlig', 'gl': 'Galego',
+        'he': u'עברית',
         'hi': u'हिन्दी', 'hu': 'Magyar',
         'id': 'Indonesia', 'it': 'Italiano',
         'ko': u'한국어',
@@ -346,7 +347,7 @@ for filename in sorted(filenames, reverse=True):
     with open ("news/" + filename, 'rt') as in_file:
         for line in in_file:
             lines += line.rstrip('\n')
-    rgx = re.compile('set title = \'(?P<name>[^{}]+)\'')
+    rgx = re.compile('set title = [\'"](?P<name>[^{}]+)[\'"]')
     variable_names = {match.group('name') for match in rgx.finditer(lines)}
 
     dateRFC822 = utils.formatdate(time.mktime(datetime.datetime.strptime(templateVars['newsDate'], "%Y-%m-%d").timetuple()))
