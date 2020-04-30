@@ -5,6 +5,7 @@
 # was added.
 
 # Requires optipng (apt install optipng)
+# and pngquant (to compile if not packaged https://pngquant.org/)
 
 mkdir -p middle
 mkdir -p small
@@ -23,6 +24,7 @@ do
     then
         echo "Processing small $f"
         convert $f -resize 25% small/$png
+        pngquant -f --quality 50-100 --output small/$png small/$png
         optipng small/$png
 
         # Also optimize the new source file
