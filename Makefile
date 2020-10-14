@@ -8,6 +8,8 @@ POFILES=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "loca
 
 CATALOGS=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang.mo  "; done)
 
+HTML := $(ALL_LINGUAS:%=index-%.html)
+
 sources = \
 	gcompris.py \
 	template/base.html \
@@ -28,13 +30,16 @@ i18_sources = template/base.html \
 	template/index.html \
 	template/screenshot.html
 
-all:
-	linguas="$(ALL_LINGUAS)"; \
-	for lang in $$linguas; do \
-	  ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
-	done; \
+all: $(HTML) mobile-privacy-policy.html
 	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
-	cp template/mobile-privacy-policy.html .
+
+mobile-privacy-policy.html: template/mobile-privacy-policy.html
+	cp $< $@
+
+index-%.html: $(sources)
+	lang=`echo $@ | sed 's/index-\([^.]*\).html/\1/g'`; \
+	./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
+
 
 #
 # Run it to update the translation. This requires the .po from the -qt version.
