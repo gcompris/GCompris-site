@@ -17,6 +17,7 @@ do
     then
         echo "Processing middle $f"
         convert $f -resize 50% middle/$png
+        pngquant -f --quality 50-100 --output middle/$png middle/$png
         optipng middle/$png
     fi
 
@@ -27,7 +28,7 @@ do
         pngquant -f --quality 50-100 --output small/$png small/$png
         optipng small/$png
 
-        # Also optimize the new source file
-        optipng large/$png
+        # Also optimize the new source file ; now commented as new files as been optimized already
+        # optipng large/$png
     fi
 done
