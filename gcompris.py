@@ -206,7 +206,10 @@ def getBoards():
                     
                     m = re.match('.*author:.*\"(.*)\"', line)
                     if m:
-                        author = re.sub("&lt;.*?&gt;", "", m.group(1))+(' & Timothee Giet')
+                        if 'Timothée Giet' in m.group(1):
+                            author = re.sub("&lt;.*?&gt;", "", m.group(1))
+                        else:
+                            author = re.sub("&lt;.*?&gt;", "", m.group(1))+(' & Timothée Giet')
                     
                     m = re.match('.*manual:.*\"(.*)\"', line)
                     if m:
