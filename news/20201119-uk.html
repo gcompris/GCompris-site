@@ -1,0 +1,37 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Випуск GCompris 1.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='news/images/gcompris-20years.png' class='col-xs-12 col-md-4' alt='gcompris banner' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('news/images/gcompris-20years.png')"/>
+
+<p>Привіт,<br />
+У межах святкування 20 років GCompris, ми раді повідомити про випуск версії 1.0 GCompris.</p>
+<p>У цій новій версії реалізовано одну нову значну можливість: додано меню параметрів вправ із вибором набору даних для понад 50 вправ. За допомогою цього меню ви зможете точніше визначати предмет навчання у вправах.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CAgIAIRxRE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Нами також додано 4 нові вправи:</p>
+<li class="puce">Довгоочікувана вправа із аналоговою електронікою, за допомогою якої ви зможете малювати електричні ланцюги та імітувати їхню роботу.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8TbbVhdqZUw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Вправа з вивчення цифр та дві допоміжні вправи для вивчення додавання та віднімання. Метою вправ є вивчення малими дітками відповідних понять та оволодіння найпростішими обчисленнями.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xxA97bVLO8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdJbGiytyCg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">«Дитяча клавіатура», у якій при натисканні клавіші на клавіатурі буде показано зображення символу на екрані та виконано озвучення, якщо таке передбачено.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-PdEtP3YqjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">«Тяжіння», яка замінила стару вправу «Вступ до теорії тяжіння», містить краще пояснення поняття та є реалістичнішою.</li><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiklpq8JldA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Посилання на пакунки нової версії для GNU/Linux, Windows, MacOS та Raspberry Pi можна знайти на <a href="https://gcompris.net/downloads{{ suffix }}.html">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows. Зауважте також, що пакунок для MacOS ще офіційно не затверджено.</p>
+<p>Ви можете перевірити стан підтримки голосових даних для вашої мови за допомогою цієї сторінки: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a>. Ви можете допомогти, надавши власні записи озвучування вашою рідною мовою.</p>
+
+<p>Це означає, що повністю реалізовано підтримку 22 мов: баскської, бретонської, британської англійської, каталанської, каталанської (валенсійський діалект), традиційної китайської, голландської, французької, грецької, івриту, угорської, індонезійської, італійської, малаялам, польської, португальської, румунської, словенської, іспанської, шведської, турецької, української.</p>
+
+<p>Крім того, 4 мови мають часткову підтримку: білоруська (85%), бразильська португальська (92%), німецька (89%), литовська (84%).</p>
+
+<p>Як уже повідомлялося у попередніх новинах, ми вирішили постачати лише переклад, які виконано на понад 80%, щоб діти почувалися комфортно і не користувалися напівперекладеним програмним забезпеченням. На жаль, нам довелося викинути переклади такими мовами: естонською, фінською, ірландською гельською, шотландською гельською, галісійською, гінді, македонською, норвезькою (нюноршк), російською, словацькою та спрощеною китайською.</p>
+
+<p>Якщо переклад вашою рідною мовою потрапив до списку частково підтримуваних або його вже чи ще немає у списку перекладів взагалі, а ви хочете допомогти нам, будь ласка, зв'яжіться із нами (support@gcompris.net) для отримання настанов щодо того, як розпочати переклад.</p>
+<p>Крім того, ви можете допомогти, розміщуючи дописи про програму GCompris у вашій спільноті та надсилаючи нам ваші відгуки.</p><br/>
+
+<p>Дякуємо вам усім, <br/>
+Timothée і Johnny</p>{% endblock %}
