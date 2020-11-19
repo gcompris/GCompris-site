@@ -1,0 +1,37 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Sortie de GCompris 1.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='news/images/gcompris-20years.png' class='col-xs-12 col-md-4' alt='Sortie de GCompris 1.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('news/images/gcompris-20years.png')"/>
+
+<p>Bonjour,<br />
+ Pour l'anniversaire des 20 ans de la suite GCompris, nous sommes heureux de vous annoncer la publication de la version 1.0 de GCompris.</p>
+<p>Cette nouvelle version contient une nouvelle fonctionnalité majeure : l'ajout du menu de configuration d'activité. Ajouté à plus de 50 activités, il permet d'adapter la difficulté de l'activité pour différents niveaux d'apprentissage.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CAgIAIRxRE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Cette nouvelle version contient 4 nouvelles activités :</p>
+<li class="puce">L'activité tant attendue « Électronique Analogique » permettant de dessiner des circuits électroniques et de les simuler.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8TbbVhdqZUw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">« Compte et colorie » et ses deux sous-activités « Apprends les additions » et « Apprends les soustractions » permettant de travailler les quantités et les calculs sur de toutes petites quantités. Le but est d'enseigner ces concepts à de jeunes enfants, avec des calculs faciles.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xxA97bVLO8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdJbGiytyCg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">« Clavier basique », lorsqu'un caractère est tapé au clavier, il est affiché sur l'écran et son nom est prononcé s'il a été enregistré.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-PdEtP3YqjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">« Gravité », remplaçant l'ancienne version d'introduction à la gravité, explique plus simplement et illustre plus concrètement le concept de gravité.</li><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiklpq8JldA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Vous trouverez les paquets de cette nouvelle version pour GNU / Linux, Windows, MacOS et Raspberry Pi sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette mise à jour sera également disponible d'ici quelques jours dans les boutiques Android et Windows, ainsi dans le dépôt F-Droid. Il est à noter que le paquet MacOS n'est pas authentifié.</p>
+<p>Vous pouvez vérifier sur cette page l'état d'enregistrement des voix pour votre langue : <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a>. Vous pouvez nous aider en fournissant un bel enregistrement de votre voix pour toutes les entrées manquantes dans votre langue maternelle.</p>
+
+<p>En ce qui concerne la traduction, 22 langues sont totalement prises en charge : anglais britannique, basque, breton, catalan, catalan (valencien), chinois traditionnel, espagnol, français, grec, hébreu, hongrois, indonésien, italien, malayalam, néerlandais, polonais, portugais, roumain, slovène, suédois, turc, ukrainien.</p>
+
+<p>Les 4 langues suivantes sont partiellement traduites : biélorusse (85%), portugais du Brésil (92 %), allemand (89 %), lituanien (84 %).</p>
+
+<p>Comme indiqué dans les nouvelles précédentes, nous avons décidé de ne publier que les traductions ayant atteint un niveau de 80 %. Cela pour permettre aux enfants de ne pas utiliser des logiciels à moitié traduits. Malheureusement, nous avons momentanément dû abandonner la traduction pour les langues suivantes : estonien, finnois, gaélique irlandais, gaélique écossais, galicien, hindi, macédonien, norvégien nynorsk, russe, slovaque et chinois simplifié.</p>
+
+<p>Si votre langue fait partie des traductions partiellement supportées, ou n'est pas supportée du tout pour l'instant, et que vous voulez nous aider, veuillez-nous contacter (support@gcompris.net) et nous vous donnerons les instructions pour vous permettre de contribuer aux traductions.</p>
+<p>Un autre moyen de nous aider est de parler de GCompris autour de vous, et n'hésitez pas à nous envoyer vos commentaires.</p><br/>
+
+<p>Merci à tous, <br/>
+Timothée & Johnny</p>{% endblock %}
