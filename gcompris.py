@@ -299,6 +299,7 @@ templateEnv.install_gettext_callables(t.gettext, t.ngettext, newstyle=True)
 # Specify any input variables to the template as a dictionary.
 templateVars = {
     "locale" : locale,
+    "direction" : "rtl" if locale == "he" else "ltr",
     "suffix" : suffix,
     "language" : language,
     "vocabularyActivity" : _("Enrich your vocabulary"),
