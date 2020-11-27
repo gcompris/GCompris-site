@@ -35,27 +35,36 @@ news = {}
 # reading all news translations from the po
 # storing them in a dict
 for entry in poFile:
-    filename = entry.msgctxt
+    originalNewsFilename = entry.msgctxt
 
     if "fuzzy" in entry.flags:
         continue
 
-    if not filename or not filename.find('.html'):
+    if not originalNewsFilename or not originalNewsFilename.find('.html'):
         continue
-    originalFilename = "news/" + filename
-    index = filename.find('.html')
-    filename = "news/" + filename[:index] + '-' + locale + filename[index:]
+    originalFilename = "news/" + originalNewsFilename
+    index = originalNewsFilename.find('.html')
+    filename = "news/" + originalNewsFilename[:index] + '-' + locale + originalNewsFilename[index:]
 
     if os.path.isfile(filename):
         print(filename + " already exists, we skip it")
         continue
 
-    context = entry.comment
+    # Check if the news is 100% translated, else skip it
+    isFullyTranslated = True
+    for allEntries in poFile:
+        if allEntries.msgctxt == originalNewsFilename and (allEntries.msgstr == "" or "fuzzy" in entry.flags):
+            print("Skip", filename, "due to", allEntries)
+            isFullyTranslated = False
+            break
+    if not isFullyTranslated:
+        continue
 
     currentNews = {}
     if news.get(filename):
         currentNews = news.get(filename)
 
+    context = entry.comment
     if "title" in context:
         currentNews['title'] = entry.msgstr
         currentNews['originalFilename'] = originalFilename
