@@ -454,6 +454,9 @@ for screenshot in boards:
 templateVars['total_activities'] = total_activities
 templateVars['demo_activities'] = demo_activities
 
+templateChristmas = templateEnv.get_template("template/christmas.html")
+outputChristmasText = templateChristmas.render(templateVars)
+
 templateDonate = templateEnv.get_template("template/donate.html")
 outputDonateText = templateDonate.render(templateVars)
 
@@ -474,6 +477,9 @@ with codecs.open('newsall' + suffix + '.html', 'w', encoding='utf8') as f:
 
 with codecs.open('screenshots' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputScreenshotsText )
+
+with codecs.open('christmas' + suffix + '.html', 'w', encoding='utf8') as f:
+    f.write( outputChristmasText )
 
 with codecs.open('donate' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputDonateText )
