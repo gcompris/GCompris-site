@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="gcompris.css" />
     <link href='https://fonts.googleapis.com/css?family=Ruluko&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
     <link rel="icon" TYPE="image/png" href="favicon.png"/>
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{title}}" />
+    <meta property="og:image" itemprop="image" content="https://gcompris.net/images/gcompris.png" />
+    <meta property="og:site_name" content="GCompris" />
+    <meta property="og:url" content="https://www.gcompris.net/{{page}}-{{ locale }}.html" />
     {% for suffix, language in locales %}
     <link rel="alternate" hreflang="{{ suffix |replace("_", "-") }}" href="{{page}}-{{ suffix }}.html">
     <link rel="alternate" type="application/rss+xml" title="RSS flux" href="https://www.gcompris.net/feed-{{ suffix }}.xml" />
+
     {% endfor %}
     <script src="js/jquery/jquery.min.js"></script>
     <script src="js/bootstrap/js/bootstrap.min.js"></script>
