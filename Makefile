@@ -21,6 +21,7 @@ sources = \
 	template/news.html \
 	template/newsall.html \
 	template/onenews.html \
+	template/schools.html \
 	template/screenshot.html \
 	template/screenshots.html \
 	template/test.html
@@ -29,7 +30,8 @@ i18_sources = template/base.html \
 	template/donate.html \
 	template/downloads.html \
 	template/index.html \
-	template/screenshot.html
+	template/screenshot.html \
+	template/schools.html
 
 all: $(HTML) mobile-privacy-policy.html
 	./gcompris.py $(VERSION) en "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \

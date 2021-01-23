@@ -457,6 +457,9 @@ templateVars['demo_activities'] = demo_activities
 templateChristmas = templateEnv.get_template("template/christmas.html")
 outputChristmasText = templateChristmas.render(templateVars)
 
+templateSchools = templateEnv.get_template("template/schools.html")
+outputSchoolsText = templateSchools.render(templateVars)
+
 templateDonate = templateEnv.get_template("template/donate.html")
 outputDonateText = templateDonate.render(templateVars)
 
@@ -474,6 +477,9 @@ with codecs.open('news' + suffix + '.html', 'w', encoding='utf8') as f:
 
 with codecs.open('newsall' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputNewsAllText )
+
+with codecs.open('schools' + suffix + '.html', 'w', encoding='utf8') as f:
+    f.write( outputSchoolsText )
 
 with codecs.open('screenshots' + suffix + '.html', 'w', encoding='utf8') as f:
     f.write( outputScreenshotsText )
