@@ -172,7 +172,6 @@ def getBoards():
                 author = ''
                 manual = ''
                 difficulty = ''
-                demo = ''
                 category = ''
                 prerequisite = ''
                 icon = ''
@@ -219,12 +218,7 @@ def getBoards():
                     if m:
                         difficulty = (m.group(0)).replace('  difficulty: ', '')
                         difficulty = (difficulty).replace(' ', '')
-                        
-                    
-                    m = re.match('.*demo:.*', line)
-                    if m:
-                        demo = (m.group(0)).replace('  demo: ', '')
-                        
+
                     m = re.match('.*type:.*\"(.*)\"', line)
                     if m:
                         category = m.group(1)
@@ -243,7 +237,6 @@ def getBoards():
                              'author':author,
                              'manual':manual,
                              'difficulty':difficulty,
-                             'demo':demo, 
                              'type':category,
                              'prerequisite':prerequisite,
                              'icon':icon}
@@ -443,16 +436,12 @@ templateScreenshots = templateEnv.get_template("template/screenshots.html")
 outputScreenshotsText = templateScreenshots.render( templateVars )
 
 # Count the number of activities
-demo_activities = 0
 total_activities = 0
 for screenshot in boards:
     if screenshot['name'] != 'root':
         total_activities += 1
-        if screenshot['demo'] == "true":
-            demo_activities += 1
 
 templateVars['total_activities'] = total_activities
-templateVars['demo_activities'] = demo_activities
 
 templateChristmas = templateEnv.get_template("template/christmas.html")
 outputChristmasText = templateChristmas.render(templateVars)
