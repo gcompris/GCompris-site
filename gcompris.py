@@ -83,6 +83,7 @@ def getLocaleName(locale):
         'pt': u'Português', 'pt_BR': u'Português do Brasil',
         'ro': u'Română', 'ruU': u'Русский',
         'sk': u'Slovenský', 'sl': 'Slovenski',
+        'sq': u'Shqip',
         'sr': u'црногорски jeзик', 'sv': 'Svenska',
         'ta': u'தமிழ்', 'th': u'ไทย',
         'tr': u'Türk', 'uk': u'український',
