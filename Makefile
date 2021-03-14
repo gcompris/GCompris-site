@@ -43,12 +43,11 @@ index-%.html: $(sources)
 	lang=`echo $@ | sed 's/index-\([^.]*\).html/\1/g'`; \
 	./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
 
-
 #
 # Run it to update the translation. This requires the .po from the -qt version.
 update:
 	linguas="$(ALL_LINGUAS)"; \
-	python2 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
+	python3 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
 	  if test ! -f locale/$$lang.po; then \
 	    cp locale/messages.pot locale/$$lang.po; \

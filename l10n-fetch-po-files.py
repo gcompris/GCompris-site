@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # GCompris - l10n-fetch-po-files.py
 #
@@ -15,7 +15,7 @@
 #   GNU General Public License for more details.
 #
 #   You should have received a copy of the GNU General Public License
-#   along with this program; if not, see <http://www.gnu.org/licenses/>.
+#   along with this program; if not, see <https://www.gnu.org/licenses/>.
 import os
 import re
 import sys
@@ -45,11 +45,10 @@ all_languages = sys.argv[1]
 all_languages = [x.strip() for x in all_languages.split(" ") if len(x)]
 
 for lang in all_languages:
-    print lang
     try:
         raw_data = subprocess.check_output(['svn', 'cat', SVN_PATH + lang + SOURCE_PO_PATH],
                                           stderr=subprocess.PIPE)
-        (transformed, subs) = fixer.subn('# ~| ', raw_data)
+        (transformed, subs) = fixer.subn('# ~| ', raw_data.decode())
         pos1 = re_empty_msgid.search(transformed).start()
         pos2 = re_empty_line.search(transformed).start()
         if re_has_qt_contexts.search(transformed, pos1, pos2) is None:
@@ -58,9 +57,10 @@ for lang in all_languages:
                     transformed[pos2:]
             subs = subs + 1
         if (subs > 0):
-            print "Fetched %s (and performed %d cleanups)" % (lang, subs)
+            print("Fetched %s (and performed %d cleanups)" % (lang, subs))
         else:
-            print "Fetched %s" % lang
-        file(OUTPUT_PO_PATH + OUTPUT_PO_PATTERN % lang, "wb").write(transformed)
+            print("Fetched %s" % lang)
+        out_file = open(OUTPUT_PO_PATH + OUTPUT_PO_PATTERN % lang, "wb")
+        out_file.write(transformed.encode())
     except subprocess.CalledProcessError:
-        print "No data for %s" % lang
+        print ("No data for %s" % lang)
