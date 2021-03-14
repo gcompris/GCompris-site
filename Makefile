@@ -49,24 +49,10 @@ update:
 	linguas="$(ALL_LINGUAS)"; \
 	python3 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  if test ! -f locale/$$lang.po; then \
-	    cp locale/messages.pot locale/$$lang.po; \
-	    touch -d yesterday locale/$$lang.po; \
-	  fi; \
-	  if test locale/messages.pot -nt locale/$$lang.po; then \
-	    cd locale; intltool-update --dist --gettext-package=messages $$lang; cd ..; \
-	  fi; \
-	  header_end=`grep -n '^$$' locale/$$lang.po | head -1 | sed s/://`; \
-	  tail -n +$$header_end locale/$$lang.po > locale/tempfile; \
 	  mkdir -p locale/$$lang/LC_MESSAGES; \
-	  cat $(GCOMPRIS_DIR)/po/gcompris_$$lang.po locale/tempfile | grep -v "^#~" > locale/$$lang/LC_MESSAGES/gcompris.po; \
-	  rm -f locale/tempfile; \
-	  sed '/^msgctxt "ActivityInfo|"/ d' < locale/$$lang/LC_MESSAGES/gcompris.po > locale/$$lang/LC_MESSAGES/gcompris_tmp.po; \
-	  sed '/^msgctxt "DialogHelp/ d' < locale/$$lang/LC_MESSAGES/gcompris_tmp.po > locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
-	  msguniq --use-first locale/$$lang/LC_MESSAGES/gcompris_tmp2.po -o locale/$$lang/LC_MESSAGES/gcompris.po; \
-	  rm -f locale/tempfile locale/$$lang/LC_MESSAGES/gcompris_tmp.po locale/$$lang/LC_MESSAGES/gcompris_tmp2.po; \
+	  mv locale/$$lang.po locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
-	  python3 tools/convertPoToNews.py $$lang locale/$$lang.po; \
+	  python3 tools/convertPoToNews.py $$lang locale/$$lang/LC_MESSAGES/gcompris.po; \
 	done;
 #
 # Run this when new strings are added in the templates
