@@ -13,6 +13,12 @@ import gettext
 from email import utils
 from importlib import reload
 
+from ActivityInfo import ActivityInfo
+from ApplicationInfo import ApplicationInfo
+from PyQt5.QtCore import QCoreApplication, QUrl, QTranslator
+from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
+from pathlib import Path
+
 reload(sys)
 
 today = date.today()
@@ -40,6 +46,16 @@ try:
 except:
     print("Missing GCompris installation directory, export GCOMPRIS_DIR as env var")
     sys.exit(1)
+
+# Create Qt application to load the activities information from ActivityInfo.qml
+app = QCoreApplication(sys.argv)
+# looking for the translation file in gcompris folder.
+# for now, we expect that it is compiled within GCompris source folder
+translator = QTranslator()
+for file_path in Path(gcomprisdir).glob('**/gcompris_'+locale+'.qm'):
+    translator.load(str(file_path))
+    break
+app.installTranslator(translator)
 
 # Load the proper locale catalog
 _ = None
@@ -153,6 +169,12 @@ descriptions = []
 def getBoards():
     '''create a list of activity infos as found in GCompris ActivityInfo.qml'''
 
+    # create qml engine to read the files
+    engine = QQmlEngine()
+    component = QQmlComponent(engine)
+    qmlRegisterSingletonType(ApplicationInfo, "GCompris", 1, 0, "ApplicationInfo", ApplicationInfo.createSingleton);
+    qmlRegisterType(ActivityInfo, "GCompris", 1, 0, "ActivityInfo");
+
     activity_dir = gcomprisdir + "/src/activities"
     for activity in os.listdir(activity_dir):
         # Skip unrelevant activities
@@ -161,88 +183,45 @@ def getBoards():
             continue
         
         try:
-            with open(activity_dir + "/" + activity + "/ActivityInfo.qml") as f:
-                content = f.readlines()
-                
-                description = ''
-                name = ''
-                title = ''
-                credit = ''
-                goal = ''
-                section = ''
-                author = ''
-                manual = ''
-                difficulty = ''
-                category = ''
-                prerequisite = ''
-                icon = ''
+            component.loadUrl(QUrl(activity_dir + "/" + activity + "/ActivityInfo.qml"))
+            activityInfo = component.create()
+            if activityInfo is None:
+                # Print all errors that occurred.
+                for error in component.errors():
+                    print(error.toString())
+                exit(-1)
+             
+            description = activityInfo.property('description').replace('\n', '<br/>')
+            name = activityInfo.property('name').split('/')[0]
+            title = activityInfo.property('title')
+            credit = activityInfo.property('credit').replace('\n', '<br/>')
+            goal = activityInfo.property('goal').replace('\n', '<br/>')
+            section = activityInfo.property('section')
+            author = activityInfo.property('author')
+            if 'Timothée Giet' in author or author == "":
+                author = re.sub("&lt;.*?&gt;", "", author)
+            else:
+                author = re.sub("&lt;.*?&gt;", "", author)+(' & Timothée Giet')
 
-                for line in content:
+            manual = activityInfo.property('manual').replace('\n', '<br/>')
+            difficulty = activityInfo.property('difficulty')
+            category = activityInfo.property('category')
+            prerequisite = activityInfo.property('prerequisite').replace('\n', '<br/>')
+            icon = activityInfo.property('icon').split('/')[0]
 
-                    m = re.match('.*description:.*\"(.*)\"', line)
-                    if m:
-                        description =  m.group(1)
-
-                    m = re.match('.*name:.*\"(.*)\"', line)
-                    if m:
-                        name = activity
-                        icon = activity
-                    
-                    m = re.match('.*title:.*\"(.*)\"', line)
-                    if m:
-                        title = m.group(1)
-                    
-                    m = re.match('.*credit:.*\"(.*)\"', line)
-                    if m:
-                        credit = m.group(1)
-                    
-                    m = re.match('.*goal:.*\"(.*)\"', line)
-                    if m:
-                        goal = m.group(1)
-                    
-                    m = re.match('.*section:.*\"(.*)\"', line)
-                    if m:
-                        section = m.group(1)
-                    
-                    m = re.match('.*author:.*\"(.*)\"', line)
-                    if m:
-                        if 'Timothée Giet' in m.group(1):
-                            author = re.sub("&lt;.*?&gt;", "", m.group(1))
-                        else:
-                            author = re.sub("&lt;.*?&gt;", "", m.group(1))+(' & Timothée Giet')
-                    
-                    m = re.match('.*manual:.*\"(.*)\"', line)
-                    if m:
-                        manual = m.group(1)
-                    
-                    m = re.match('.*difficulty:.*', line)
-                    if m:
-                        difficulty = (m.group(0)).replace('  difficulty: ', '')
-                        difficulty = (difficulty).replace(' ', '')
-
-                    m = re.match('.*type:.*\"(.*)\"', line)
-                    if m:
-                        category = m.group(1)
-                        
-                    m = re.match('.*prerequisite:.*\"(.*)\"', line)
-                    if m:
-                        prerequisite = m.group(1)
-                        
-
-                    infos = {'description':description, 
-                             'name':name, 
-                             'title':title, 
-                             'credit':credit,
-                             'goal':goal, 
-                             'section':section,
-                             'author':author,
-                             'manual':manual,
-                             'difficulty':difficulty,
-                             'type':category,
-                             'prerequisite':prerequisite,
-                             'icon':icon}
-                
-                descriptions.append(infos)    
+            infos = {'description':description, 
+                     'name':name, 
+                     'title':title, 
+                     'credit':credit,
+                     'goal':goal, 
+                     'section':section,
+                     'author':author,
+                     'manual':manual,
+                     'difficulty':difficulty,
+                     'type':category,
+                     'prerequisite':prerequisite,
+                     'icon':icon}
+            descriptions.append(infos)    
 
         except IOError as e:
             pass
@@ -296,7 +275,6 @@ templateVars = {
     "direction" : "rtl" if locale == "he" else "ltr",
     "suffix" : suffix,
     "language" : language,
-    "vocabularyActivity" : _("Enrich your vocabulary"),
     "revision_date" : today.strftime("%Y-%m-%d"),
     "current_year": today.strftime("%Y"),
     "version": version,
@@ -367,7 +345,6 @@ outputFeedAllText = templateFeedAll.render(templateVars)
 # Get the board list and make some adaptations
 #
 boards = getBoards()
-#print boards
 
 for screenshot in boards:
     if screenshot['name'] == 'menu':
@@ -381,9 +358,6 @@ for screenshot in boards:
 
 boards = sorted(boards, key=lambda t: t['section']+' '+t['name'])
 
-# Reorder root, administration and login boards
-#boards[0], boards[1], boards[2] = boards[2], boards[0], boards[1]
-
 #
 # Now process the board list
 #
@@ -395,37 +369,10 @@ for screenshot in boards:
     if screenshot['section'] == '/experimental' or screenshot['name'] == 'experimental':
         continue
 
-    #section = screenshot['section']
-    #if screenshot['type'] == 'root menu':
-        #section += "/" + screenshot['name']
-
-    #(opens, closes) = sectionDiff(previousSection, section)
-    #depth += opens - closes
-    #if closes:
-        #templateVars["screenshots"].append("</div>" * closes)
-    #if opens:
-        #templateVars["screenshots"].append("<div class='row screenshot" + str(depth) + "'>" * opens)
-
-    #previousSection = section
-
-
-    #screenshot['author'] = re.sub(r" \(.*\)", "", screenshot['author'])
-    if screenshot['goal']:
-        screenshot['goal'] = _(screenshot['goal']).replace('\n', '<br/>')
-    if screenshot['prerequisite']:
-        screenshot['prerequisite'] = _(screenshot['prerequisite']).replace('\n', '<br/>')
-    if screenshot['manual']:
-        screenshot['manual'] = _(screenshot['manual']).replace('\n', '<br/>')
-    if screenshot['credit']:
-        screenshot['credit'] = _(screenshot['credit']).replace('\n', '<br/>')
-    if screenshot['title']:
-        screenshot['title'] = _(screenshot['title'])
-    if screenshot['description'] and screenshot['description'] != "":
-        screenshot['description'] = _(screenshot['description'])
     templateVars["screenshot"] = screenshot
     screenshot["depth"] = depth
     templateVars["depth"] = depth
-    templateVars["screenshots"].append(templateScreenshot.render( templateVars ))
+    templateVars["screenshots"].append(templateScreenshot.render(templateVars))
 
     # Create the screenshot menu
     templateVars["screenshotsmenu"].append(screenshot)
