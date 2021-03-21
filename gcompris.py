@@ -283,7 +283,7 @@ templateVars = {
     "screenshotsmenu": [],
     "locales": locales,
     "manual": getManual(),
-    "license_info": _("This software is a GNU Package and is released under the GNU General Public License"),
+    "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License"),
     "feed": []
     }
 
