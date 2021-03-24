@@ -94,6 +94,7 @@ def getLocaleName(locale):
         'id': 'Indonesia', 'it': 'Italiano',
         'ko': u'한국어',
         'lt': u'Lietuvių', 'lv': u'Latviešu',
+        'mk': u'Македонски',
         'ml': u'മലയാളം', 'nl': 'Nederlands',
         'nn': 'Norsk (nynorsk)', 'pl': 'Polski',
         'pt': u'Português', 'pt_BR': u'Português do Brasil',
