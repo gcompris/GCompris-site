@@ -1,0 +1,47 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 0.95' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Olá,<br />
+Estamos felizes por anunciar o lançamento do GCompris na versão 0.95.</p>
+
+<p>Esta nova versão contém 7 novas actividades:</p>
+<li class="puce">Lâmpadas binárias: aprender a contar em binário</li>
+<li class="puce">Actividade de ferrovia: treinar a memória visual</li>
+<li class="puce">Sistema Solar: aprender sobre o nosso sistema solar</li>
+<li class="puce">Nomes às Notas: aprender a reconhecer as notas musicais e os seus nomes</li>
+<li class="puce">Tocar Piano: treinar a leitura de notas numa pauta</li>
+<li class="puce">Tocar com Ritmo: treinar o seguimento de um ritmo musical</li>
+<li class="puce">Composição de Piano: aprender a composição de uma pauta musical</li>
+
+<br/>
+
+<p>Poderá encontrar pacotes desta nova versão para o GNU/Linux e Windows na página de transferências. Esta actualização também estará disponível por alguns dias na loja do Android e do Windows. Para o Raspberry Pi, iremos fornecer um instalador no início de 2019. As versões actualizadas para o MacOS e iOS ainda não estão disponíveis, pelo que esperamos lançá-las no próximo ano.</p>
+
+<p>No lado da traduções, temos 15 línguas completamente suportadas: Inglês Britânico, Catalão, Catalão (Valenciano), Chinês Tradicional, Holandês, Francês, Galego, Grego, Húngaro, Italiano, Malayalam, Português, Romeno, Sueco e Ucraniano.
+<br />
+Também temos 19 línguas parcialmente suportadas: Basco (78%), Bielorrusso (69%), Português do Brasil (74%), Bretão (54%), Chinês Simplificado (69%), Estoniano (63%), Finlandês (61%), Alemão (86%), Hindu (77%), Indonésio (84%), Irlandês Gaélico (82%), Norueguês Nynorsk (89%), Russo (74%), Escocês Gaélico (71%), Eslovaco (62%), Esloveno (57%), Espanhol (95%), Polaco (94%) e Turco (74%).</p>
+
+<p>Normalmente só lançamos traduções que estejam pelo menos 80% completas. Contudo, para esta versão, diversas traduções reduziram para menos dos 80%. Decidimos deixá-las excepcionalmente nesta versão, com a esperança que os tradutores actuais ou novos completem essas traduções. Se recebermos actualizações ou traduções novas, faremos uma actualização da versão para as mesmas.
+<br/>
+Assim, se a sua língua estiver na lista das parcialmente suportadas, ou ainda não for suportada de todo, e deseja ajudar, por favor contacte-nos para que lhe demos instruções para começar logo a traduzir.</p>
+
+<p>Outra forma de ajudar será escrever algumas publicações na sua comunidade acerca do GCompris e não hesite em dar as suas opiniões.</p>
+
+<p>Notas:</p>
+<li class="puce">No GNU/Linux e Windows, costumávamos ter dois instaladores separados para o desenho por OpenGL ou por 'software'. Agora ambos os modos estão disponíveis para o mesmo instalador. Por omissão, iremos tentar usar o desenho com OpenGL e, caso não funcione, iremos mostrar um erro e mudar para o desenho por 'software'. Esta mudança automática é recente e poderá não funcionar em todo o lado. No caso de não funcionar, poderá seleccionar manualmente o modo de desenho por 'software se editar o ficheiro de configuração (em ~/.config/gcompris-qt/gcompris-qt.conf no GNU/Linux ou em %LocalAppData%/gcompris/GCompris.conf no Windows): descubra a linha "renderer=auto", substitua 'auto' por 'software' e grave o ficheiro. Também estamos interessados em obter algumas opiniões que nos ajudem a melhorar esta detecção automática.
+</li>
+<li class="puce">Para a língua Malayalam, reparámos em alguns problemas com o tipo de letra predefinido "Andika-R". Recomendamos aos utilizadores Malayalam que seleccionem o tipo de letra Noto-Sans-Malayalam no menu da aplicação (se não estiver na lista, poderá ter de instalar este tipo de letra no seu sistema para o poder seleccionar).</li>
+<p>Obrigado a vocês todos, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

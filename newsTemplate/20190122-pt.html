@@ -1,0 +1,34 @@
+{% extends "template/onenews.html" %}
+{% set title = 'O GCompris está de volta ao Mac OSX' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Olá,<br />
+Boas notícias para os utilizadores de Mac: finalmente temos uma nova versão do GCompris para o OSX !</p>
+
+<p>A última versão do GCompris para o OSX foi a 0.52, há 3 anos. Desde então, ninguém na equipa conseguiu actualizá-la, devido à falta de 'hardware'. Graças ao Boudewijn da Krita Foundation, conseguimos arranjar um pequeno Mac Mini, antigo mas bom o suficiente para criarmos os nossos pacotes. Demorou algum tempo para aprender esta nova plataforma e actualizar o sistema de compilação para produzir um pacote para distribuição.</p>
+
+<br/>
+
+<p>Este pacote foi compilado e testado no OSX 10.13. Se puder experimentar numa versão diferente do OS X, por favor diga-nos se funciona.</p>
+
+<p>O instalador .dmg está disponível <a href="https://gcompris.net/downloads{{ suffix }}#osx.html">na página de transferências</a>.</p>
+
+<p>Desta vez, optámos por deixar de o distribuir a partir da loja de aplicações. Sobre a versão para iOS, ainda levará algum tempo para que se possa olhar para ela, para além do facto de não possuirmos nenhum dispositivo para testar.
+</p>
+
+<p>Notas: este pacote baseia-se no GCompris versão 0.95. Está compilado com a última versão do Qt (5.12.0), que introduziu alguns erros de regressão. Corrigimos todos estes erros, mas algumas das correcções só estão ainda na versão de desenvolvimento, por agora. Algumas actividades estão com problemas (checkers, braille, braille_alphabet, algorithm), mas iremos criar uma nova versão no próximo mês, a qual poderá tratar de alguns desses pequenos problemas. 
+</p>
+
+<p>Obrigado a vocês todos, <br/>
+Timothée - equipa do GCompris</p>
+
+
+{% endblock %}

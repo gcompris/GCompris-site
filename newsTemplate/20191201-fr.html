@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Sortie de GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/r097.png')"/>
+
+     
+<p>Bonjour,<br />
+Nous sommes heureux de vous annoncer la sortie de GCompris version 0.97.</p>
+
+<p>Cette nouvelle version contient 2 nouvelles activités :</p>
+
+<li class="puce">Code pour sortir du labyrinthe : activité pour apprendre les bases de la programmation par blocs.</li>
+<li class="puce">Tangram basique : aide à comprendre comment utiliser l'activité Tangram. Le but est de déplacer et d'orienter des pièces de puzzle pour compléter celui-ci.</li>
+
+<br />
+
+<p>Et beaucoup de nouvelles fonctionnalités :</p>
+
+<li class="puce">Des sous-catégories pour mieux organiser les activités par thèmes.</li>
+<li class="puce">Des musiques de fond (comme dans l'ancienne version Gtk+).</li>
+<li class="puce">Une option pour modifier le volume pour les effets audio.</li>
+<li class="puce">Une configuration pour changer la vitesse de défilement des éléments dans plusieurs activités (lettres qui tombent, lecture horizontale/verticale, nomme la note).</li>
+<li class="puce">L'affichage des pièces capturées dans le jeu d'échecs.</li>
+<li class="puce">Nouvelle option pour atteindre le niveau suivant des activités « Dessine les lettres » et « Dessine les nombres ».</li>
+<li class="puce">Des nouvelles voix américaines.</li>
+<li class="puce">De nouvelles images pour l'activité de couleurs.</li>
+<li class="puce">De nouvelles images pour l'activité de couleurs avancées.</li>
+<li class="puce">De nouvelles images pour l'activité de cible.</li>
+<li class="puce">Amélioration de l'affichage des options.</li>
+<li class="puce">Amélioration de l'ergonomie de l'activité de partage.</li>
+<li class="puce">Amélioration de l'ergonomie de l'activité de catégorisation.</li>
+<li class="puce">Les fichiers de ressources (données) sont maintenant sur un serveur KDE (https://cdn.kde.org/).</li>
+<li class="puce">Ajout d'un tutorial pour l'activité des nombres pairs/impairs.</li>
+<li class="puce">Ajout d'une introduction à l'activité de composition de piano.</li>
+<li class="puce">Ajout du jeu de données en malayalam pour l'activité « Jeu de lettres ».</li>
+<li class="puce">Ajout du jeu de données en breton pour l'activité « Les mots qui tombent ».</li>
+<li class="puce">Correction des voix ne se jouant pas dans l'activité de géographie.</li>
+<li class="puce">Correction des sons ne se jouant pas dans l'activité de minage.</li>
+<li class="puce">Correction d'une erreur d'affichage en mode portrait de l'activité « Les nombres binaires ».</li>
+<li class="puce">Remédie à une utilisation trop importante du processeur lors du chargement du menu.</li>
+<li class="puce">Correction d'un problème de taille d'image dans l'activité « Trouver les différences ».</li>
+<li class="puce">Correction de la disposition des éléments dans l'activité « Mélange de la couleur de peinture ».</li>
+<li class="puce">et de nombreuses autres corrections de petits disfonctionnements ...</li>
+
+<br/>
+
+<p>Vous trouverez les paquets de cette nouvelle version pour Linux,  Windows et MacOS dans la page Téléchargements. Cette mise à jour sera également disponible d'ici quelques jours dans le play-store d'Android et le Windows-store. Pour la version Raspberry Pi, nous fournirons un installateur très prochainement. Les versions à jour pour MacOS et iOS ne sont toujours pas disponibles pour l'instant. Nous espérons pouvoir les fournir au cours de l'année prochaine.</p>
+
+<p>En ce qui concerne les messages vocaux, vous avons ajouté un nouveau message « Essaie encore » en plus du message  « Vérifie la réponse ». Vous pouvez vérifier à la page suivante si ce message vocal est disponible pour votre langage : <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> sous la section "Misc". Vous pouvez nous aider en nous fournissant une enregistrement de votre voix pour tous les messages vocaux manquants dans votre langage.</p>
+
+<p>Au niveau de la traduction, nous avons donc 20 langues complètes : basque, anglais britannique, portugais brésilien, breton, catalan, chinois traditionnel, néerlandais, français, galicien, grec, italien, macédonien, malayalam, polonais, portugais, roumain, slovaque, espagnol, suédois et ukrainien.</p>
+
+<p>Nous avons également les traductions partielles pour 15 langues : biélorusse (65%), catalan (de Valence 95%), chinois simplifié (66%), estonien (93%), finnois (86%), allemand (96%), hindi (73%), hongrois (95%), indonésien (95%), irlandais gaélique (78%), norvégien nynorsk (93%), russe (76%), écossais gaélique (67%), slovène (54%) et turc (95%).</p>
+
+<p>Habituellement, nous fournissons seulement les traductions au moins complètes à 80%. Cependant pour cette version, de nombreuses traductions sont passées sous la barre des 80% (le slovène, biélorusse et écossais gaélique mais aussi l'hindi, le russe et l'irlandais gaélique) . Nous avons décidé exceptionnellement de les conserver pour cette version, en espérant les voir complétées par leurs traducteurs précédents ou par de nouveaux. Si nous avons des traductions mises à jour ou de nouvelles langues supportées, nous publierons une nouvelle mise à jour les contenant.</p>
+
+<p>Donc, si votre langue fait partie des traductions partiellement supportées, ou n'est pas supportée du tout pour l'instant, et que vous voulez nous aider, veuillez nous contacter et nous vous donnerons les instructions pour vous permettre de contribuer aux traductions.</p>
+
+<p>Un autre moyen de nous aider est de parler de GCompris autour de vous, et n'hésitez pas à nous envoyer vos commentaires.</p>
+
+<p>Remarques :</p>
+<li class="puce">Pour la traduction en Malayalam, nous avons remarqué quelques problèmes avec la police de caractères par défaut « Andika-R ». Nous recommandons aux utilisateurs du Malayalam de sélectionner la police de caractères Noto-Sans-Malayalam ou RaghuMalaylamSans depuis le menu de l'application (si celle-ci n'est pas disponible dans la liste, vous devez d'abord l'installer sur votre système pour pouvoir la sélectionner).
+</li>
+
+<br/>
+
+<p>Merci à tous, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

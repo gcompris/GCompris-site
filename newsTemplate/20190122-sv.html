@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris är tillbaka på Mac OSX' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hej,<br />
+Goda nyheter för Mac-användare: Vi har äntligen en ny version av GCompris för OSX!</p>
+
+<p>Den senaste versionen av GCompris för OSX var 0.52 för tre år sedan. Sedan dess har ingen i gruppen kunnat uppdatera den på grund av avsaknad av maskinvara. Tack vara Boudewijn från Krita-stiftelsen har vi nu en liten mac mini, gammal, men bra nog för att bygga våra paket. Det tog mig flera dagar av hängivet arbete att lära mig den nya plattformen och uppdatera byggsystemet för att producera ett distribuerbart paket.</p>
+
+<br/>
+
+<p>Paketet byggdes och utprovades på OSX 10.13. Om du kan prova det med en annan version av OSX, låt oss få veta om det fungerar.</p>
+
+<p>Installationsfilen .dmg är tillgänglig <a href="https://gcompris.net/downloads{{ suffix }}#osx.html">på nerladdningssidan</a>.</p>
+
+<p>Den här gången bestämde vi att sluta distribuera det från app-butiken. Vad gäller iOS-versionen, kommer det att ta lite längre innan jag kan titta på den, och vi har fortfarande ingen apparat för utprovning.</p>
+
+<p>Anmärkningar: Paketet är baserat på GCompris version 0.95. Det är byggt med senaste Qt-version (5.12.0), vilket introducerade några regressioner. Vi har rättat alla sådana problem, men vissa av rättningarna finns för närvarande bara i utvecklingsversionen. Några aktiviteter fungerar inte (damspel, braille, braille-alfabet, algoritm), men vi kommer att ge ut en ny version nästa månad som också tar hand om dessa smärre problem. 
+</p>
+
+<p>Tack allesamman, <br/>
+Timothée och GCompris-gruppen</p>
+
+
+{% endblock %}

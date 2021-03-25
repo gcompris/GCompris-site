@@ -27,7 +27,7 @@ if len(sys.argv) > 1:
     newsCount = -int(sys.argv[1])
 print("Fetching last", -newsCount, "news")
 
-newsFolder="news/"
+newsFolder="newsTemplate/"
 # get all the news in news folder and only get the last N ones that are not translated
 lastNews = [news for news in sorted(os.listdir(newsFolder)) if not "-" in news and "html" in news][newsCount:]
 

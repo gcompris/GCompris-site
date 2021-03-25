@@ -1,0 +1,93 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Publicado GCompris 0.91' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Ola,<br />
+Aquí tedes GCompris 0.91, unha nova versión de corrección de erros para solucionar algúns problemas da versión anterior e mellorar algunhas cousas.</p>
+
+<p>Toda distribución de GNU/Linux que teña a versión 0.90 debería actualizar á 0.91.</p>
+
+<p>Con 68 remisións desde a última versión, a rexistro de cambios completo é longo de máis para esta nova.
+Pero aquí vai unha lista para resumir os cambios.</p>
+
+<p>Actividades:</p>
+<li class="puce">corrixe textos en inglés en varias actividades</li>
+<li class="puce">corrixe a posición da puntuación en varias actividades</li>
+<li class="puce">bloquea algúns botóns e algunhas interaccións cando é necesario en varios lugares</li>
+<li class="puce">aplica unha morea de solucións a problemas de son en varias actividades</li>
+<li class="puce">corrixe a disposición base de number_sequence (e doutras baseadas nela)</li>
+<li class="puce">actualiza o conxunto de datos para clickanddraw, drawnumbers e drawletters</li>
+<li class="puce">engade un conxunto de datos localizado a crane</li>
+<li class="puce">engade compatibilidade co teclado e pon solución a varios problemas en lightsoff</li>
+<li class="puce">engade compatibilidade co teclado e pon solución a varios problemas en algorithm</li>
+<li class="puce">correccións para a moeda da configuración rexional en money</li>
+<li class="puce">mellora dos sons informativos en ballcatch</li>
+<li class="puce">moitas pequenas correccións en calendar</li>
+<li class="puce">corrección do tamaño das iconas en memory-case-association</li>
+<br/>
+<p>Outros cambios:</p>
+<li class="puce">activa de novo os efectos de son e Linux</li>
+<li class="puce">mellora a reprodución dos efectos de son, non máis atrasos</li>
+<li class="puce">engade lendas ás imaxes e etiquetas de OARS en appdata</li>
+<li class="puce">engade gaélico escocés ao núcleo, e actualiza algúns dos seus conxuntos de datos</li>
+<li class="puce">barra principal, corrixe o tamaño dalgúns elementos</li>
+<li class="puce">retira imaxes non usadas</li>
+
+
+<br/>
+
+<p>Podes atopar esta nova versión <a href="https://gcompris.net/downloads-en.html">na páxina de descargas</a>, e axiña nas tendas Play e de Windows.</p>
+
+<p>No que respecta ás traducións, temos 16 idiomas completamente traducidos: 
+inglés británico, 
+catalán, 
+valenciano, 
+chinés tradicional,
+neerlandés, 
+francés, 
+grego, 
+indonesio, 
+gaélico irlandés, 
+italiano, 
+polaco, 
+portugués, 
+romano, 
+castelán, 
+sueco e 
+ucraíno.
+<br /> 
+Tamén temos 15 idiomas con traducións parciais: 
+
+noruegués (97%), 
+hindú (96%), 
+turco (90%), 
+gaélico escocés (86%), 
+galego (86%), 
+portugués do Brasil (84%), 
+bielorruso (84%), 
+alemán (81%), 
+chinés simplificado (79%), 
+ruso (78%), 
+estoniano (77%), 
+eslovaco (76%), 
+finés (76%), 
+esloveno (69%), 
+bretón (65%).</p>
+
+<p>Contacta connosco se queres axudar a completar unha destas traducións ou engadir unha nova.</p>
+
+<p>Tamén podes axudar publicando novas na túa comunidade sobre GCompris, e non dubides en darnos a túa opinión.</p>
+
+<p>Grazas a todos, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}

@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/r097.png')"/>
+
+     
+<p>Hallo,<br />
+We zijn verheugd de uitgave van GCompris versie 0.97 aan te kondigen.</p>
+
+<p>Deze nieuwe versie bevat 2 nieuwe activiteiten:</p>
+
+<li class="puce">Een programmeerdoolhof: om de basis van programmeren te leren met een paar instructies</li>
+<li class="puce">Baby tangram: om de basis van tangram te leren (deze activiteit komt overeen met de laagste niveaus van eerdere tangram activiteit)</li>
+
+<br />
+
+<p>En veel nieuwe mogelijkheden:</p>
+
+<li class="puce">nieuwe subcategorieën om activiteiten te organiseren</li>
+<li class="puce">nieuwe mogelijkheden voor achtergrondmuziek en geluidstracks</li>
+<li class="puce">nieuwe instellingen voor volume  voor geluidseffecten</li>
+<li class="puce">nieuwe instelling voor snelheid in verschillende activiteiten (gletters, algebra, readingh, note_names)</li>
+<li class="puce">nieuwe mogelijkheden in activiteiten schaken om geslagen stukken te tonen</li>
+<li class="puce">nieuwe optie om handmatig naar het volgende niveau te gaan in letters en cijfers tekenen</li>
+<li class="puce">nieuww stemmen voor en_US</li>
+<li class="puce">nieuwe afbeeldingen voor activiteit kleuren</li>
+<li class="puce">nieuwe afbeeldingen voor activiteit geavanceerde kleuren</li>
+<li class="puce">nieuwe afbeeldingen voor activiteit doel</li>
+<li class="puce">opmaak van instellingen verbeterd</li>
+<li class="puce">opmaak van activiteit delen verbeterd</li>
+<li class="puce">opmaak van activiteit categorisatie verbeterd</li>
+<li class="puce">hulpbronbestanden zijn nu opgeslagen op KDE-server (https://cdn.kde.org/)</li>
+<li class="puce">een inleiding in even/oneven getallen toegevoegd</li>
+<li class="puce">introductie in piano compositie toegevoegd</li>
+<li class="puce">Maleise gegevensset in gletters toegevoegd</li>
+<li class="puce">Bretonse gegevensset in wordsgame toegevoegd</li>
+<li class="puce">stemmen die niet afgespeld worden in geografie gerepareerd</li>
+<li class="puce">geluiden die niet afspelen in mijnbouw gerepareerd</li>
+<li class="puce">modus portret in binaire lamp gerepareerd</li>
+<li class="puce">hoge cpu-load in menu gerepareerd</li>
+<li class="puce">hint afbeeldingsgrootte in fotojager gerepareerd</li>
+<li class="puce">opmaak in kleuren mengen gerepareerd</li>
+<li class="puce">en vele andere kleine reparaties...</li>
+
+<br/>
+
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows en MacOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal ook spoedig beschikbaar zijn in de Android Play store en Windows store. Voor Raspberry Pi, leveren we spoedig een installatieprogramma. De opgewaardeerde versie voor iOS is nog steeds niet beschikbaar. Merk op dat het pakket voor MacOS nog niet notarieel is bekrachtigd, we zullen kijken of dat volgend jaar gedaan kan worden.</p>
+
+<p>Aan de kant van de stemmen hebben we een nieuwe uitdrukking toegevoegd "probeer nog eens" die wordt gebruikt in verschillende activiteiten in plaats van "antwoord controleren". U kunt dat controleren op deze pagina als deze stem beschikbaar is in uw taal: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (in de sectie "Misc"). U kunt ons helpen door een mooie opname van uw stem te leveren voor alle ontbrekende items in uw eigen taal.</p>
+
+<p>Aan de kant van vertalingen hebben we nu 20 talen volledig ondersteund: Baskisch, Braziliaans Portugees, Bretons, Brits Engels, Catalaans, Chinees Traditioneel, Nederlands, Frans, Gallisch, Grieks, Italiaans, Macedonisch, Maleis, Maleis, Pools, Portugees, Roemeens, Slovaaks, Spaans, Zweeds, Oekraïens.</p>
+
+<p>We hebben ook 15 gedeeltelijk ondersteunde talen: Wit-Russisch (65%), Catalaans (Valenciaans 95%), Chinees Vereenvoudigd (66%), Ests (93%), Fins (86%), Duits (96%), Hindi (73%), Hongaars (95%), Indonesisch (95%), Iers Gaelic (78%), Noors Nynorsk (93%), Russisch (76%), Schots Gaelic (67%), Sloveens (54%), Turks (95%).</p>
+
+<p>Gewoonlijk leveren we alleen vertalingen die minstens 80% vertaald zijn. Echter, verschillende vertalingen zijn onder 80% gekomen (speciaal Sloveens, Wit-Russisch en Schots Gaelic ; maar ook Hindi, Russisch en Iers Gaelic). Bij uitzondering hebben we besloten voor deze uitgave ze te behouden en hopen voormalige of nieuwe vertalers deze vertalingen te voltooien. Als we bijgewerkte of nieuwe vertalingen krijgen, dan maken we daar een bijgewerkte uitgave van.</p>
+
+<p>Dus als uw taal zich in de lijst met gedeeltelijk ondersteund bevindt of nog helemaal niet wordt ondersteund en u wilt helpen, neem contact op met ons en we zullen u instructies geven om met vertalen te beginnen.</p>
+
+<p>Een andere manier om te helpen is door berichten te maken in uw gemeenschap over GCompris en aarzel niet om ons terugkoppeling te geven.</p>
+
+<p>Opmerkingen:</p>
+<li class="puce">Voor de taal Malayalam, hebben we enige problemen gezien met het standaard lettertype "Andika-R". We bevelen de gebruikers van Malayalam aan om het lettertype Noto-Sans-Malayalam of RaghuMalaylamSans te selecteren uit het menu Toepassingen (als het niet beschikbaar is in de lijst dan moet u dit lettertype installeren op uw systeem om het te kunnen selecteren).
+</li>
+
+<br/>
+
+<p>Allen bedankt, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

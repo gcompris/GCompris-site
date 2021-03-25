@@ -1,0 +1,67 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version GCompris Qt 0.61' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+
+<img src='{{ newsFolder }}images/r0.61-small.png'
+     alt=Captures d'écran des nouvelles activités de la version 0.61'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/r0.61.png')"/>
+
+<p>Après 7 mois, nous sommes heureux de vous annoncer la nouvelle version
+  de GCompris 0.61.</p>
+
+<p>Un changement important apparaît sur le côté commercial de GCompris. <b>Bruno
+    Coudoin est maintenant remplacé par Timothée Giet pour gérer la partie
+    commerciale de GCompris. 
+  </b>Timothée est un infographiste ayant fait un nombre important de
+  contributions sur GCompris et dans la communauté KDE. Après 16 ans de
+  développement sur GCompris, Bruno veut prendre du recul et donner
+  l'opportunité à une nouvelle équipe de faire avancer le projet.
+  Pour l'instant, toutes les ventes vont à Timothée et il est en charge du
+  support commercial. Il n'y a pas de changements au niveau de la licence ni
+  au niveau du processus de contribution qui est toujours sous la
+  responsabilité de la communauté KDE (Johnny Jazeix étant le contributeur
+  le plus actif).</p>
+
+<p>Les nouvelles activités sont :</p>
+<li class="puce">un mini traitement de texte (qui n'est pas disponible sur les
+  plate-formes mobiles à cause du clavier virtuel) ;</li>
+<li class="puce">un tangram dans lequel on commence avec des niveaux adaptés
+  aux plus jeunes pour introduire le concept et se termine avec le vrai
+  tangram ;</li>
+<li class="puce">explore les monuments du monde (réalisé par Ayush Agrawal
+  pendant le Season of KDE) ;</li>
+<li class="puce">une activité dans laquelle l'enfant doit colorier un graphe de
+  telle sorte que deux nœuds adjacents soient de couleur différente
+  (réalisation par Akshat Tandon pendant le Season of KDE) ;</li>
+<li class="puce">pilote un vaisseau spatial vers la zone d'atterrissage en
+  contrôlant la poussée (par Holger Kaelberer) ;</li>
+<li class="puce">et le jeu classique où l'on doit trouver les différences entre
+  deux photos (par Stefan Toncu).</li>
+
+<p>Timothée Giet a mis à jour les graphismes des échecs, du pendu et des
+  activités de lecture horizontale / verticale et nous a honoré avec un nouveau
+  logo (et oui, on abandonne Tux dans son avion jaune).</p>
+
+<p>Côté traduction, nous avons 17 langues supportées :
+  bélarusse, anglais, portugais brésilien, catalan, catalan (Valence),
+  chinois simplifié, néerlandais, français, galicien, italien,
+  norvégien nynorsk, polonais, portugais, roumain, espagnol, suédois,
+  ukrainien et certaines partiellement traduites : breton (88%),
+  chinois traditionnel (97%), estonien (82%), finnois (74%), allemand (93%), 
+  russe (83%), slovaque (76%), slovène (82%), turc (82%)</p>
+
+<p>Si vous souhaitez aider, n'hésitez pas à faire des posts dans votre
+  communauté à propos de GCompris.</p>
+
+<p>L'archive contenant le code source est
+ <a href='http://gcompris.net/download/qt/src/gcompris-qt-0.61.tar.xz'>disponible
+ici</a> (Les packageurs GNU/Linux sont les bienvenus).
+
+<p>Pour android, la version est disponible sur le
+  <a href="https://play.google.com/store/apps/details?id=net.gcompris&hl=fr">Google
+play store</a>.</p>
+
+{% endblock %}

@@ -280,6 +280,7 @@ templateVars = {
     "current_year": today.strftime("%Y"),
     "version": version,
     "news": [],
+    "single_news": [],
     "screenshots": [],
     "screenshotsmenu": [],
     "locales": locales,
@@ -298,7 +299,7 @@ templateEnv.filters['trans'] = trans
 # Build a map of all news file to proceed for our locale
 #
 filenames = {}
-for filename in os.listdir("news"):
+for filename in os.listdir("newsTemplate"):
     if not filename.endswith(".html"):
         continue
 
@@ -315,14 +316,15 @@ for filename in os.listdir("news"):
 
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
-    templateOneNews = templateEnv.get_template("news/" + filename)
+    templateOneNews = templateEnv.get_template("newsTemplate/" + filename)
     templateVars['newsDate'] = formatDate(filename)
     templateVars['fileName'] = filename
+    templateVars["single_news"] = templateOneNews.render(templateVars)
     templateVars["news"].append(templateOneNews.render(templateVars))
 
     # read file to get the title, not sure if it is doable using jinja
     lines = ""
-    with open ("news/" + filename, 'rt') as in_file:
+    with open ("newsTemplate/" + filename, 'rt') as in_file:
         for line in in_file:
             lines += line.rstrip('\n')
     rgx = re.compile('set title = [\'"](?P<name>[^{}]+)[\'"]')
@@ -332,6 +334,12 @@ for filename in sorted(filenames, reverse=True):
     currentFeed = {"dateRFC822": dateRFC822, "date": templateVars['newsDate'], "title": next(iter(variable_names))}
 
     templateVars["feed"].append(currentFeed)
+
+    templateNewsSingle = templateEnv.get_template("template/singlenews.html")
+    outputNewsSingleText = templateNewsSingle.render(templateVars)
+
+    with codecs.open('news/' + templateVars['newsDate'] + suffix + '.html', 'w', encoding='utf8') as f:
+        f.write( outputNewsSingleText )
 
 templateNews = templateEnv.get_template("template/news.html")
 outputNewsText = templateNews.render(templateVars)

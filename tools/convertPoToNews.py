@@ -42,9 +42,9 @@ for entry in poFile:
 
     if not originalNewsFilename or not originalNewsFilename.find('.html'):
         continue
-    originalFilename = "news/" + originalNewsFilename
+    originalFilename = "newsTemplate/" + originalNewsFilename
     index = originalNewsFilename.find('.html')
-    filename = "news/" + originalNewsFilename[:index] + '-' + locale + originalNewsFilename[index:]
+    filename = "newsTemplate/" + originalNewsFilename[:index] + '-' + locale + originalNewsFilename[index:]
 
     if os.path.isfile(filename):
         print(filename + " already exists, we skip it")

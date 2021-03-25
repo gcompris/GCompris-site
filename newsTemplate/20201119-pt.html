@@ -1,0 +1,37 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 1.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris-20years.png' class='col-xs-12 col-md-4' alt='gcompris banner'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris-20years.png')"/>
+
+<p>Olá,<br />
+Para celebrar os 20 anos do GCompris, estamos orgulhosos de anunciar o lançamento do GCompris na versão 1.0.</p>
+<p>Esta nova versão contém uma nova funcionalidade importante: a adição do menu de Configuração da Actividade, com a selecção do Conjunto de Dados de mais de 50 actividades, permitindo-lhe escolher de forma mais específica o que poderá aprender nas actividades.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CAgIAIRxRE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Também adicionámos 4 actividades novas:</p>
+<li class="puce">A muito esperada actividade de Electricidade Analógica, que nos permite desenhar circuitos e executar a sua simulação.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8TbbVhdqZUw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Aprender os algarismos e duas sub-actividades para aprender as somas e subtracções. O objectivo é ensinar esses conceitos a crianças mais novas, com cálculos simples.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xxA97bVLO8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdJbGiytyCg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Um teclado para bebés, onde ao carregar numa tecla do teclado, será apresentado o carácter respectivo no ecrã e será reproduzida a voz correspondente, se existir.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-PdEtP3YqjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">A Gravidade, que substitui a antiga Introdução à Gravidade, que explica melhor o conceito e é mais realista.</li><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiklpq8JldA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS e Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de transferências</a>. Esta actualização também estará disponível em breve na loja Android Play, no repositório F-Droid e na loja do Windows. Lembre-se que o pacote para MacOS não está autenticado.</p>
+<p>Poderá ver nesta página o estado das vozes para a sua língua: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a>. Poder-nos-á ajudar se fornecer uma boa gravação da sua voz para todos os itens em falta na sua língua nativa.</p>
+
+<p>Do lado das traduções, temos 22 línguas completamente suportadas: Basco, Bretão, Inglês (Britânico), Catalão, Catalão (Valenciano), Chinês Tradicional, Holandês, Francês, Grego, Hebreu, Húngaro, Indonésio, Italiano, Malayalam, Polaco, Português, Romeno, Esloveno, Espanhol, Sueco, Turco, Ucraniano.</p>
+
+<p>Também temos 4 línguas parcialmente suportadas: Bielorrusso (85%), Português (Brasil) (92%), Alemão (89%), Lituano (84%).</p>
+
+<p>Como foi dito nas notícias anteriores, decidimos apenas incluir as traduções que estejam pelo menos 80% completas para que as crianças tenham uma melhor experiência e não uma aplicação apenas parcialmente traduzida. Infelizmente, tivemos de retirar as traduções para: Estoniano, Finlandês, Irlandês (Gaélico), Escocês (Gaélico), Galego, Hindu, Macedónio, Norueguês (Nynorsk), Russo, Eslovaco e Chinês Simplificado.</p>
+
+<p>Se a sua língua estiver na lista das parcialmente suportadas, ou caso não tenha ainda/mais suporte de todo, e caso queira ajudar, por favor contacte-nos (support@gcompris.net) e dar-lhe-emos instruções para iniciar as traduções.</p>
+<p>Outra forma de ajudar é escrever algumas publicações na sua comunidade acerca do GCompris e não hesite em dispor-nos as suas reacções.</p><br/>
+
+<p>Obrigado a todos, <br/>
+Timothée & Johnny</p>{% endblock %}

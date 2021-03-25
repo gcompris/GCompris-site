@@ -1,0 +1,93 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 0.91' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hola,<br />
+Aquí està el GCompris 0.91, una nova versió per a solucionar errors que corregeixen alguns problemes de la versió anterior i en millora algunes coses.</p>
+
+<p>Cada distribució de GNU/Linux s'ha d'actualitzar a la 0.91.</p>
+
+<p>Amb 68 commits des de la darrera versió, la llista de canvis completa és massa llarga per a aquesta publicació.
+Però a continuació, hi ha una llista que en resumeix els canvis.</p>
+
+<p>Activitats:</p>
+<li class="puce">esmena el text en anglés en diverses activitats</li>
+<li class="puce">esmena la posició de la puntuació en diverses activitats</li>
+<li class="puce">bloqueja alguns botons i interaccions en diversos llocs quan és necessari</li>
+<li class="puce">moltes esmenes per a l'àudio en diverses activitats</li>
+<li class="puce">«number_sequence» (i altres que s'hi basen), esmena el disseny de la base</li>
+<li class="puce">actualitza el conjunt de dades per a «clickanddraw», «drawumbers» i «drawletters»</li>
+<li class="puce">«crane», afig un conjunt de dades traduïble</li>
+<li class="puce">«lightsoff», afig suport per al teclat i altres esmenes</li>
+<li class="puce">«algorithm», afig suport per al teclat i altres esmenes</li>
+<li class="puce">«money», esmenes per a la configuració regional emprada per a la moneda</li>
+<li class="puce">«ballcatch», millora els comentaris en àudio</li>
+<li class="puce">«calendar», diverses petites esmenes</li>
+<li class="puce">«memory-case-association», esmena la mida de les icones</li>
+<br/>
+<p>Altres canvis:</p>
+<li class="puce">torna a habilitar els efectes de so a linux</li>
+<li class="puce">millora la reproducció dels efectes de so, sense més retards</li>
+<li class="puce">afig subtítols a les imatges i a les etiquetes d'OARS a les dades de l'aplicació</li>
+<li class="puce">afig el gaèlic escocés al nucli i actualitza alguns dels seus conjunts de dades</li>
+<li class="puce">barra principal, esmena la mida d'alguns elements</li>
+<li class="puce">elimina les imatges que no s'empraven</li>
+
+
+<br/>
+
+<p>Trobareu aquesta nova versió <a href="https://gcompris.net/downloads-ca.html">a la pàgina de baixades</a>, i prompte a les botigues Google Play i Windows Store.</p>
+
+<p>Pel que fa a les traduccions, tenim 16 idiomes totalment admesos: 
+anglés britànic, 
+català, 
+català (valencià), 
+xinés tradicional, 
+holandés, 
+francés, 
+grec, 
+indonesi, 
+gaèlic irlandés, 
+italià, 
+polonés, 
+portugués, 
+romanés, 
+espanyol, 
+suec 
+i ucraïnés. 
+<br />
+També tenim 15 idiomes parcialment admesos: 
+
+noruec nynorsk (97%), 
+hindi (96%), 
+turc (90%), 
+gaèlic escocés (86%), 
+gallec (86%), 
+portugués brasiler (84%), 
+bielorús (84%), 
+alemany (81%), 
+xinés simplificat (79%), 
+rus (78%), 
+estonià (77%), 
+eslovac (76%), 
+finlandés (76%), 
+eslovè (69%) 
+i bretó (65%).</p>
+
+<p>Si voleu ajudar a completar alguna d'aquestes traduccions o afegir-ne una de nova, contacteu amb nosaltres.</p>
+
+<p>També podeu ajudar-nos fent algunes publicacions a la vostra comunitat sobre el GCompris i no dubteu a enviar-nos comentaris.</p>
+
+<p>Gràcies a tots, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}

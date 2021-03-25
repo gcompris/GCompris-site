@@ -1,0 +1,37 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 1.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris-20years.png' class='col-xs-12 col-md-4' alt='gcompris banner'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris-20years.png')"/>
+
+<p>Hi,<br />
+To celebrate the 20 years of GCompris, we are pleased to announce the release of GCompris version 1.0.</p>
+<p>This new version contains a new major feature: the addition of the Activity Settings menu with Dataset selection for more than 50 activities, allowing to choose more specifically what can be learned on the activities.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CAgIAIRxRE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>We also added 4 new activities:</p>
+<li class="puce">The long awaited Analog Electricity activity which allows us to draw circuits and run their simulation.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8TbbVhdqZUw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Learn digits and two subactivities to learn additions and subtractions. The aim is to teach these concepts to younger children, with easy computations.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xxA97bVLO8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdJbGiytyCg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Baby keyboard where, when a character is typed on the keyboard, we display it on the screen and play the corresponding voice if it exists.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-PdEtP3YqjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Gravity, which replaces the old Intro Gravity, explains better the concept and is more realistic.</li><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiklpq8JldA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>You can find packages of this new version for GNU/Linux, Windows, MacOS and Raspberry Pi on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will also be available soon in the Android Play store, the F-Droid repository and the Windows store. Note that the MacOS package is not notarized.</p>
+<p>You can check on this page the voices status in your language: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a>. You can help us by providing a nice recording of your voice for all the missing entries in your native language.</p>
+
+<p>On the translation side, we have 22 languages fully supported: Basque, Breton, British English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, Hungarian, Indonesian, Italian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, Swedish, Turkish, Ukrainian.</p>
+
+<p>We also have 4 languages partially supported: Belarusian (85%), Brazilian Portuguese (92%), German (89%), Lithuanian (84%).</p>
+
+<p>As said in the previous news, we decided to only ship translations that are at least 80% completed to let the children have a better experience and not half translated software. Unfortunately, we had to drop the translation for: Estonian, Finnish, Irish Gaelic, Scottish Gaelic, Galician, Hindi, Macedonian, Norwegian Nynorsk, Russian, Slovak and Chinese Simplified.</p>
+
+<p>If your language is in the partially supported list, or is no more or not yet supported at all, and you want to help, please contact us (support@gcompris.net) and we will give you instructions to get started translating.</p>
+<p>Another way to help is to write some posts in your community about GCompris, and don't hesitate to give us some feedback.</p><br/>
+
+<p>Thank you all, <br/>
+Timothée & Johnny</p>{% endblock %}

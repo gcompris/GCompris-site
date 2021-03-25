@@ -1,0 +1,90 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris Qt 0.50' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+
+<img src='{{ newsFolder }}r0.50-small.png'
+     alt='screenshots of the new activities in version 0.50'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('news/r0.50.png')"/>
+
+<p>Just on time for Christmas and after 6 months of hard work we are
+shipping GCompris 0.50. So far we have many fixes and improvements all
+around in 563 commits done by 17 contributors and more than 20
+translators.</p>
+
+<p>Just looking at the 12 new activities:</p>
+
+<li class="puce">Bruno: A single player and two player chess
+activity. It shows the children the possibilities of each pieces and
+is very easy to win against at first levels.</li>
+
+<li class="puce">Bruno: An activity where the children listen to the
+sound sequence played, and reproduce it by clicking on xylophone's
+bars.</li>
+
+<li class="puce">Siddhesh Suthar (part of GSoC): The children is
+proposed a set of words. Each word is shown with a voice, a text and
+an image. When done, an exercise asks him to find the right word given
+the voice.</li>
+
+<li class="puce">Pulkit Gupta: A puzzle with famous paintings.</li>
+
+<li class="puce">Johnny Jazeix, A reading practice activity. Some
+words are moving, it trains the children to read.</li>
+
+<li class="puce">Sagar Chand Agarwal (part of GSoC): A scientific
+simulation where the children click on the different stages to make up
+the power supply.</li>
+
+<li class="puce">Sagar Chand Agarwal (part of GSoC): The water
+system. In it, the children has to click on different active elements:
+sun, cloud, pumping station, and the sewage treatment plant, in order
+to reactivate the entire water system.</li>
+
+<li class="puce">Holger: A fine motor skill practice activity. The
+children must navigate the ball to the door. Be careful to not make it
+fall into the holes. On mobile it uses the accelerometer. For this
+activity we have integrated the box2d engine (
+https://github.com/qml-box2d/qml-box2d ).</li>
+
+<li class="puce">Rajdeep Kaur: The classical hangman. The children
+must guess the letters of the given word. To help, on every wrong try,
+a part of the image representing the word will be revealed.</li>
+
+<p/>
+
+<p>Languages supported: Brazilian Portuguese, British English,
+Catalan, Catalan (Valencian), Chinese Simplified, Chinese Traditional,
+Dutch, Finnish (92% translated), French, Galician, German, Italian,
+Norwegian Nynorsk, Polish, Portuguese, Russian (98% translated),
+Slovak (92% translated), Slovenian, Spanish, Swedish, Turkish,
+Ukrainian.</p>
+
+<p>A loading overlay is now available to let the user know that some
+actions (loading a level in an activity for example) is taking place
+and can take some seconds. We also fixed visual glitches in some
+activities due to a misuse of ColorOverlay and Colorize items.</p>
+
+<p>Thanks to all of you who step by step make GCompris the outstanding
+educational software it is now.</p>
+
+<p>So far 2 years after the start of the Qt Quick port we completed
+the rewrite of 114 activities out of the 140 of the Gtk+version. You
+can check
+the <a href='http://gcompris.net/wiki/Qt_Quick_Migration_status'>status
+of the port</a>. If we keep this momentum we can expect to announce
+the completion of the port somewhere next year.</p>
+
+<p>If you want to help, please make some posts in your community about GCompris.</p>
+
+<p>The source code tarball
+is <a href='http://gcompris.net/download/qt/src/gcompris-qt-0.50.tar.xz'>available
+here</a> (GNU/Linux packagers are welcome)
+
+<p>For Android it is available on
+the <a href="https://play.google.com/store/apps/details?id=net.gcompris">Google
+play store</a>.</p>
+
+{% endblock %}

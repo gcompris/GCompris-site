@@ -1,0 +1,16 @@
+{% extends "template/base.html" %}
+{% set page = 'singlenews' %}
+{% set title = _('News') + " - GCompris" %}
+{% set rootFolder = "../" %}
+{% block content %}
+<div class="container bs-docs-container">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <h1 class="bigtitle2">{% trans %}News{% endtrans %}</h1>
+        {{ single_news }}
+      <p></p>
+    </div>
+    <a class="extraInfoLink" href="{{ rootFolder }}newsall{{ suffix }}.html">{% trans %}All the news{% endtrans %}</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Выпуск GCompris Qt 0.70' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/r0.70-small.png'
+     alt='screenshots of the new activities in version 0.61'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/r0.70.png')"/>
+
+     
+<p>Вітаем,</p>
+
+<p>Акурат пад Каляды, мы радыя абвесціць Вам пра новую версію GCompris 0.70.</p>
+
+<p>Гэта важны выпуск, бо мы афіцыйна пакідаем падтрымку Gtk+ версіі для Windows на карысць Qt-версіі.
+Усе, набыўшыя поўную версію апошнімі двума гадамі, атрымаюць новы код актывацыі на днях.</p>
+
+<p>Яшчэ, для тых, хто любіць лічбы - мы набралі 100000 заладаванняў з google play сховішча.</p>
+
+<p>У гэтай версіі прадстаўленыя 8 новых практыкаванняў, палова ад іх была створаная студэнтамі апошняга Google Summer of Code:</p>
+<li class="puce">практыкаванне, у якім дзіця перасоўвае блокі, каб збудаваць паказаную мадэль (кран by Stefan Toncu)</li>
+<li class="puce">практыкаванне ў напісанні лічбаў ад 0 да 9 (drawnumbers by Nitish Chauhan)</li>
+<li class="puce">практыкаванне ў напісанні літар (drawletters by Nitish Chauhan)</li>
+<li class="puce">практыкаванне на вызначэнне слова, у якім змяшчаецца пададзеная літара (letter-in-word by Akshat Tandon)</li>
+<li class="puce">гульня nine men morris game супраць Тукса (nine_men_morris by Pulkit Gupta)</li>
+<li class="puce">гульня nine men morris game з сябрам (nine_men_morris_2_players by Pulkit Gupta)</li>
+<li class="puce">гульня ў падзел цукерак з іншымі дзеткамі (share by Stefan Toncu)</li>
+<li class="puce">практыкаванне ў разуменні рымскіх лічбаў (roman_numerals by Bruno Coudoin)</li>
+<br/>
+<p>Мы заўжды маем новыя функцыі ды выпраўленні памылак:</p>
+<li class="puce">функцыя пошуку by Rishabh Gupta</li>
+<li class="puce">сборка пад windows by Bruno Coudoin ды Johnny Jazeix</li>
+<li class="puce">абразок для абвяшчэнняў на палічцы (used in photohunter) by Johnny Jazeix</li>
+<li class="puce">сборка пад neon by Jonathan Riddell</li>
+<li class="puce">мы цяпер у рэпазіторыі openSUSE Tumbleweed, дзякуючы Bruno Friedmann</li>
+<li class="puce">archlinux (https://aur.archlinux.org/packages/gcompris-qt/) by Jose Riha</li>
+<li class="puce">пакунак для mageia cauldron by Timothee Giet</li>
+<li class="puce">пакунак для KaOS by demm</li>
+<li class="puce">спіс словаў для Славацкай мовы by Jose Riha</li>
+<li class="puce">спіс словаў для Беларускай мовы by Antos Vaclauski</li>
+<li class="puce">розныя аднаўленні Румынскіх спісаў словаў ды галасоў (верагодна, найбольш поўныя з усіх) by Horia Pelle</li>
+<li class="puce">запісы галасоў дададзеныя для Партугальскай (Бразільскай) мовы by Marcos D.</li>
+<li class="puce">новая графіка для крану by Timothee Giet</li>
+<li class="puce">здымкі экрану адноўленыя на gcompris.net для Qt версіі by Timothee and Johnny</li>
+<br/>
+
+<p>Вы знойдзеце новую версію тут: <br/>
+
+<a href='https://play.google.com/store/apps/details?id=net.gcompris'>Android версія</a><br/>
+
+<a href='http://gcompris.net/download/qt/windows/gcompris-qt-0.70-win32.exe'>Windows 32-бітная</a> ці <a href='http://gcompris.net/download/qt/windows/gcompris-qt-0.70-win64.exe'>Windows 64-бітная</a> версія<br/>
+
+<a href='http://gcompris.net/download/qt/linux/gcompris-qt-0.70-Linux.sh'>Linux версія (64біт)</a><br/>
+
+<a href='http://gcompris.net/download/qt/src/gcompris-qt-0.70.tar.xz'>зыходны код</a><br/>
+</p>
+
+<p>У рэчышчы перакладаў мы маем поўную падтрымку 15 моваў: Беларуская, Ангельская (Брытанія), Партугальская (Бразілія), Каталонская, Каталонская (Валенсійская), Датская, Эстонская, Французская, Італьянская, Польская, Партугальская, Румынская, Іспанская, Шведская, Украінская і частковая падтрымка: Брэтонская (82%), спрошчаная Кітайская (93%), традыцыйная Кітайская (91%), Фінская (70%), Галісійская (93%), Нямецкая (97%), Нованарвежская (98%), Руская (83%), Славацкая (85%), Славенская (88%), Турэцкая (77%).</p>
+
+<p>Калі Вы жадаеце дапамагчы, калі ласка, зрабіце пару абвестак у сваім асяродку пра GCompris.</p>
+
+{% endblock %}

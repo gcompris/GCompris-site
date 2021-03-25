@@ -1,0 +1,86 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version GCompris Qt 0.50' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+
+<img src='{{ newsFolder }}r0.50-small.png'
+     alt='screenshots of the new activities in version 0.50'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('news/r0.50.png')"/>
+
+<p>Juste à temps pour Noël et après 6 mois de travail acharné, nous
+sommes heureux de sortir la version 0.50 de GCompris.  Celle-ci inclut
+de nombreuses corrections et améliorations réalisées par 17
+contributeurs et plus de 20 traducteurs.</p>
+
+<p>Concernant les 12 nouvelles activités :</p>
+
+<li class="puce">Bruno : Un jeu d'échec pour un et deux joueurs. Il
+montre les possibilités de déplacement de chaque pièce et il est très
+facile de le gagner au premier niveau.</li>
+
+<li class="puce">Bruno : Une activité musicale où une séquence de sons
+est jouée et l'enfant doit la reproduire en tapant sur les barres
+correspondantes du xylophone.</li>
+
+<li class="puce">Siddhesh Suthar (part of GSoC) : Imagier pour enrichir
+le vocabulaire. Une première étape consiste à fournir une image, un
+son et le mot puis l'enfant doit deviner et écrire le mot
+correspondant à partir de l'image et du son. Cette activité peut être
+utilisée en français ou dans une langue étrangère.</li>
+
+<li class="puce">Pulkit Gupta : Un jeu de puzzle où l'enfant doit
+reconstruire une peinture célèbre à partir des différentes pièces a
+aussi été ajouté. Activité paintings.</li>
+
+<li class="puce">Johnny Jazeix : Deux activités de lecture, les mots
+défilent verticalement ou horizontalement et l'enfant doit trouver si
+un mot spécifique est apparu dans la liste.</li>
+
+<li class="puce">Sagar Chand Agarwal (lors du GSoC) : Le cycle de
+l'eau. Ici l'enfant doit activer les différents éléments pour amener
+l'eau chez Tux. Activité watercycle</li>
+
+<li class="puce">Sagar Chand Agarwal (lors du GSoC) : Dans le même
+principe mais ici l'objectif est de fournir le courant électrique aux
+différents bâtiments.</li>
+
+<li class="puce">Holger : L'intégration de la
+bibliothèque <a href='https://github.com/qml-box2d/qml-box2d'>box2D</a>
+a aussi permis la réalisation d'un jeu de motricité fine où
+l'utilisateur doit incliner sa tablette pour faire avancer une balle
+dans un niveau.</li>
+
+<li class="puce">Rajdeep Kaur: Le classique jeu du pendu.</li>
+
+<p/>
+
+<p>Langages supportés: Brazilian Portuguese, British English,
+Catalan, Catalan (Valencian), Chinese Simplified, Chinese Traditional,
+Dutch, Finnish (92% translated), French, Galician, German, Italian,
+Norwegian Nynorsk, Polish, Portuguese, Russian (98% translated),
+Slovak (92% translated), Slovenian, Spanish, Swedish, Turkish,
+Ukrainian.</p>
+
+<p>Nous avons aussi pu corriger un vieux défaut visuel sur certaines
+activités utilisant les élements QML Colorize et ColorOverlay.</p>
+
+<p>Merci à vous tous qui, étape par étape nous aident à faire avancer GCompris.</p>
+
+<p>Deux ans après le début du portage Qt Quick nous avons terminé
+la réécriture de 114 activités sur les 140 de la version Gtk+. Vous pouvez vérifier
+<a href='http://gcompris.net/wiki/Qt_Quick_Migration_status'>l'état de
+la migration</a>. Si nous continuons sur cette lancée, nous pouvons
+espérer annoncer l'achèvement du portage quelque part l'année prochaine.</p>
+
+<p>Si vous voulez aider, n'hésitez pas à publier des nouvelles au sujet de GCompris.</p>
+
+<p>Le code
+source <a href='http://gcompris.net/download/qt/src/gcompris-qt-0.50.tar.xz'>est
+disponible ici</a> (Packagers GNU/Linux vous êtes les bienvenus)</p>
+
+<p>Pour Android il est disponible sur le <a href="https://play.google.com/store/apps/details?id=net.gcompris">Google
+play store</a>.</p>
+
+{% endblock %}

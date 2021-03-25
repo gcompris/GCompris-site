@@ -7,10 +7,10 @@
     <meta name="keywords" content="free educational software gnu gpl education game children kid logiciel libre educatif education apprentissage informatique ordinateur computer keyboard mouse learning skills mathematique enfant math electricity teaching"/>
     <meta name="description" content="educational software gcompris. Logiciel educatif gcompris"/>
     <meta name="author" content="Timothée Giet"/>
-    <link href="js/bootstrap/css/bootstrap.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="gcompris.css" />
+    <link href="{{ rootFolder }}js/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ rootFolder }}gcompris.css" />
     <link href='https://fonts.googleapis.com/css?family=Ruluko&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
-    <link rel="icon" TYPE="image/png" href="favicon.png"/>
+    <link rel="icon" TYPE="image/png" href="{{ rootFolder }}favicon.png"/>
     <meta property="og:title" content="{{title}}" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{title}}" />
@@ -22,9 +22,9 @@
     <link rel="alternate" type="application/rss+xml" title="RSS flux" href="https://www.gcompris.net/feed-{{ suffix }}.xml" />
 
     {% endfor %}
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/platform.js"></script>
+    <script src="{{ rootFolder }}js/jquery/jquery.min.js"></script>
+    <script src="{{ rootFolder }}js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ rootFolder }}js/platform.js"></script>
 
     <script type="text/javascript">
       /* Toggle a div */
@@ -49,7 +49,7 @@ function toggle(id, toggleId) {
     <nav class="navbar navbar-default">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-	<a href="index-{{ locale }}.html"><img class="smallProjectImg" alt="Small GCompris Logo" src="smallGComprisLogo.png"/></a>
+	<a href="{{ rootFolder }}index-{{ locale }}.html"><img class="smallProjectImg" alt="Small GCompris Logo" src="{{ rootFolder }}smallGComprisLogo.png"/></a>
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 	  <span class="sr-only">Toggle navigation</span>
 	  <span class="icon-bar"></span>
@@ -61,11 +61,11 @@ function toggle(id, toggleId) {
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
 	<ul class="nav navbar-nav">
-	  <li class="{% if page == 'index' %}active{% else %}non-active{% endif %}"><a href="index{{ suffix }}.html">GCompris</a></li>
-	  <li class="{% if page == 'downloads' %}active{% else %}non-active{% endif %}"><a href="downloads{{ suffix }}.html">{% trans %}Download{% endtrans %}</a></li>
-	  <li class="{% if page == 'donate' %}active{% else %}non-active{% endif %}"><a href="donate{{ suffix }}.html">{% trans %}Donate{% endtrans %}</a></li>
-	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
-	  <li class="{% if page == 'schools' %}active{% else %}non-active{% endif %}"><a href="schools{{ suffix }}.html">{% trans %}Schools{% endtrans %}</a></li>
+	  <li class="{% if page == 'index' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}index{{ suffix }}.html">GCompris</a></li>
+	  <li class="{% if page == 'downloads' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}downloads{{ suffix }}.html">{% trans %}Download{% endtrans %}</a></li>
+	  <li class="{% if page == 'donate' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}donate{{ suffix }}.html">{% trans %}Donate{% endtrans %}</a></li>
+	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
+	  <li class="{% if page == 'schools' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}schools{{ suffix }}.html">{% trans %}Schools{% endtrans %}</a></li>
 	  <li class="{% if page == 'manual' %}active{% else %}non-active{% endif %}"><a href="https://gcompris.net/{{ manual }}">{% trans %}Manual{% endtrans %}</a></li>
 	  <li class="{% if page == 'contribute' %}active{% else %}non-active{% endif %}"><a href="https://gcompris.net/wiki/Developer%27s_corner">{% trans %}Contribute{% endtrans %}</a></li>
 	</ul>
@@ -86,7 +86,7 @@ function toggle(id, toggleId) {
     </div>
     <hr class="featurette-divider"/>
     <footer class="bs-footer">
-      <div class="footer"><a href="https://kde.org/"><img alt="KDE" src="kde-logo.svg" height="32"></a>
+      <div class="footer"><a href="https://kde.org/"><img alt="KDE" src="{{ rootFolder }}kde-logo.svg" height="32"></a>
       <br/>
       Copyright 2000-{{ current_year }} <a href="mailto:support@gcompris.net">Timothée Giet and others</a>.
 	Site last updated the {{ revision_date }}.

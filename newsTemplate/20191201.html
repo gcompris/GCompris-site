@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/r097.png')"/>
+
+     
+<p>Hi,<br />
+We are pleased to announce the release of GCompris version 0.97.</p>
+
+<p>This new version contains 2 new activities:</p>
+
+<li class="puce">A programming maze: to learn the basics of programming with a few instructions</li>
+<li class="puce">Baby tangram: to learn the basics of tangram (this activity corresponds to the lowest levels of previous tangram activity)</li>
+
+<br />
+
+<p>And a lot of new features:</p>
+
+<li class="puce">new sub-categories to organize activities</li>
+<li class="puce">new background music feature and audio tracks</li>
+<li class="puce">new volume settings for audio effects</li>
+<li class="puce">new speed setting in several activities (gletters, algebra, readingh, note_names)</li>
+<li class="puce">new feature in chess activities to display captured pieces</li>
+<li class="puce">new option to go to next level manually in drawletters and drawnumbers</li>
+<li class="puce">new voices for en_US</li>
+<li class="puce">new images for colors activity</li>
+<li class="puce">new images for advanced_colors activity</li>
+<li class="puce">new images for target activity</li>
+<li class="puce">improve settings layout</li>
+<li class="puce">improve share activity layout</li>
+<li class="puce">improve categorisation activity layout</li>
+<li class="puce">resource files are now stored in KDE server (https://cdn.kde.org/)</li>
+<li class="puce">add a tutorial to even/odd numbers</li>
+<li class="puce">add intro to piano_composition</li>
+<li class="puce">add malayalam dataset to gletters</li>
+<li class="puce">add breton dataset to wordsgame</li>
+<li class="puce">fix voices not playing in geography</li>
+<li class="puce">fix sounds not playing in mining</li>
+<li class="puce">fix portrait mode in binary_bulb</li>
+<li class="puce">fix high cpu load in menu</li>
+<li class="puce">fix hint image size in photo_hunter</li>
+<li class="puce">fix layout in color_mix</li>
+<li class="puce">and lots of other small fixes...</li>
+
+<br/>
+
+<p>You can find packages of this new version for GNU/Linux, Windows and MacOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will also be available soon in the Android Play store and the Windows store. For Raspberry Pi, we'll provide an installer soon. The updated version for iOS is still not available. Note that the MacOS package is not yet notarized, we will look at doing this during next year.</p>
+
+<p>On the voices side, we added a new voice "try again" which is used in several activities instead of "check answer". You can check on this page if this voice is available in your language: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (in the "Misc" section). You can help us by providing a nice recording of your voice for all the missing entries in your native language.</p>
+
+<p>On the translation side, we have 20 languages fully supported: Basque, Brazilian Portuguese, Breton, British English, Catalan, Chinese Traditional, Dutch, French, Galician, Greek, Italian, Macedonian, Malayalam, Polish, Portuguese, Romanian, Slovak, Spanish, Swedish, Ukrainian.</p>
+
+<p>We also have 15 languages partially supported: Belarusian (65%), Catalan (Valencian 95%), Chinese Simplified (66%), Estonian (93%), Finnish (86%), German (96%),  Hindi (73%), Hungarian (95%), Indonesian (95%), Irish Gaelic (78%), Norwegian Nynorsk (93%), Russian (76%), Scottish Gaelic (67%), Slovenian (54%), Turkish (95%).</p>
+
+<p>Usually we only ship translations that are at least 80% complete. However several translations dropped way below 80% (especially Slovenian, Belarusian and Scottish Gaelic ; but also Hindi, Russian and Irish Gaelic). We decided to keep those exceptionally for this release, and hope to see former or new translators complete those translations. If we get updates or new translations, we will make a release update.</p>
+
+<p>So if your language is in the partially supported list, or is not yet supported at all, and you want to help, please contact us and we will give you instructions to get started translating.</p>
+
+<p>Another way to help is to write some posts in your community about GCompris, and don't hesitate to give us feedbacks.</p>
+
+<p>Notes:</p>
+<li class="puce">For the Malayalam language, we noticed some issues with the default font "Andika-R". We recommend Malayalam users to select the font Noto-Sans-Malayalam or RaghuMalaylamSans from the application menu (if it is not available in the list you need to install this font on your system to be able to select it).
+</li>
+
+<br/>
+
+<p>Thank you all, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris is terug op Mac OSX' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hallo,<br />
+Goed nieuws voor Mac gebruikers: eindelijk hebben we een nieuwe versie van GCompris voor OSX !</p>
+
+<p>De laatste versie van GCompris voor OSX was 0.52 van 3 jaar geleden. Sindsdien kon niemand in het team het bijwerken door gebrek aan hardware. Dankzij Boudewijn van de Krita Foundation hebben we een kleine mac mini, oud maar goed genoeg om onze pakketten te bouwen. Het nam me een aantal dagen van toegewijd werken om dit nieuwe platform te leren en het bouwsysteem bij te werken om een te distribueren pakket te produceren.</p>
+
+<br/>
+
+<p>Dit pakket is gebouwd en getest op OSX 10.13. Als u het kunt proberen op een andere OSX-versie, laat het ons weten als het werkt.</p>
+
+<p>Het installatieprogramma voor .dmg is beschikbaar <a href="https://gcompris.net/downloads{{ suffix }}#osx.html">op de downloadpagina</a>.</p>
+
+<p>Deze keer hebben we besloten te stoppen met de distributie vanuit de app-store. Met betrekking tot de iOS versie zal het nog wat meer tijd nemen voordat ik er naar kan kijken en we hebben nog geen apparaat om te testen.
+</p>
+
+<p>Opmerkingen: dit pakket is gebaseerd op GCompris version 0.95. Het wordt gebouwd met de laatste versie van Qt (5.12.0) die enige regressies introduceert. We hebben alle deze problemen gerepareerd, maar enige van die reparaties zijn op dit moment alleen in de ontwikkel versie. Er zijn een paar activiteiten gebroken (schaak, braille, braille_alfabet, algoritme), maar we zullen een nieuwe uitgave maken in de volgende maand die ook deze kleine problemen aan zal pakken.
+</p>
+
+<p>Allen bedankt, <br/>
+Timothée - het team van GCompris</p>
+
+
+{% endblock %}

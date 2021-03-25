@@ -24,6 +24,7 @@ sources = \
 	template/schools.html \
 	template/screenshot.html \
 	template/screenshots.html \
+	template/singlenews.html \
 	template/test.html
 
 i18_sources = template/base.html \
@@ -67,7 +68,7 @@ extract: $(i18_sources)
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
 
 online:
-	rsync -az --copy-unsafe-links --exclude .git --exclude .htaccess --exclude .rcc --exclude template . maintener@gcompris.net:/var/www/
+	rsync -az --copy-unsafe-links --exclude .git --exclude .htaccess --exclude .rcc --exclude locale --exclude tools --exclude newsTemplate --exclude template . maintener@gcompris.net:/var/www/
 
 clean:
-	rm -Rf *.html feed-*.xml *.pyc locale/*
+	rm -Rf *.html feed-*.xml *.pyc locale/* news/*.html

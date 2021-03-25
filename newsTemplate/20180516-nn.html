@@ -1,0 +1,92 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 0.91 klar' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hei!<br />
+Her er GCompris 0.91, ein ny versjon med nokre feilrettingar og forbetringar frå den førre versjonen.</p>
+
+<p>Alle GNU/Linux-distribusjonar med versjon 0.90 bør oppdatera til versjon 0.91.</p>
+
+<p>Det er 68 endringar sidan førre versjon, så ei fullstendig endringsoversikt vert for lang å visa.
+Men her er ei kort oversikt over dei viktigaste endringane:</p>
+
+<p>Aktivitetar:</p>
+<li class="puce">Forbetra engelsk i ulike aktivitetar</li>
+<li class="puce">Retta plasseringa av poengvisaren i ulike aktivitetar</li>
+<li class="puce">Blokkerer nokre knappar/interaksjonar fleire stadar der det var nødvendig</li>
+<li class="puce">Mange lydfiksar i ulike aktivitetar</li>
+<li class="puce">Forbetra layout i aktiviteten «number_sequence» (og andre aktivitetar baserte på denne)</li>
+<li class="puce">Oppdaterte datasett for clickanddraw, drawnumbers and drawletters</li>
+<li class="puce">Lagt til ordliste i aktiviteten «crane»</li>
+<li class="puce">Tastaturstøtte og andre rettingar i aktivitetane «lightsoff» og «algorithm»</li>
+<li class="puce">Rettingar for lokal valuta brukt i aktiviteten «money»</li>
+<li class="puce">Forbetra lyd i «ballcatch»</li>
+<li class="puce">Fleire rettingar i «calendar»</li>
+<li class="puce">Betre ikonstorleik i «memory-case-association»</li>
+<br/>
+<p>Andre endringar:</p>
+<li class="puce">Slått på att lydeffektar på Linux</li>
+<li class="puce">Forbetra avspeling av lydeffektar – no utan forseinking</li>
+<li class="puce">Lagt til bilettekst til bileta og OARS-taggar i appdata</li>
+<li class="puce">Støtte for skotsk-gælisk, med oppdaterte datasett</li>
+<li class="puce">Forbetra storleik i hovudverktøylinja</li>
+<li class="puce">Fjerna bilete som ikkje var brukte</li>
+
+
+<br/>
+
+<p>Du finn den nye versjonen <a href="https://gcompris.net/downloads-en.html">på nedlastingssida</a> og snart i Google Play Store og Windows Store.</p>
+
+<p>No er 16 språk fullt støtta: 
+British English, 
+Catalan, 
+Catalan (Valencian), 
+Chinese Traditional, 
+Dutch, 
+French, 
+Greek, 
+Indonesian, 
+Irish Gaelic, 
+Italian, 
+Polish, 
+Portuguese, 
+Romanian, 
+Spanish, 
+Swedish, 
+Ukrainian. 
+<br />
+Me har òg 15 språk som er delvis støtta: 
+
+Norwegian Nynorsk (97%), 
+Hindi (96%), 
+Turkish (90%), 
+Scottish Gaelic (86%), 
+Galician (86%), 
+Brazilian Portuguese (84%), 
+Belarusian (84%), 
+German (81%), 
+Chinese Simplified (79%), 
+Russian (78%), 
+Estonian (77%), 
+Slovak (76%), 
+Finnish (76%), 
+Slovenian (69%), 
+Breton (65%).</p>
+
+<p>Viss du vil hjelpa å fullføra ein av desse omsetjingane eller leggja til ein ny ein, kontakt oss.</p>
+
+<p>Elles kan du òg hjelpa ved å skriva om GCompris eller komma med tilbakemeldingar på programmet.</p>
+
+<p>Takk, alle saman<br/>
+Timothée og Johnny </p>
+
+
+{% endblock %}

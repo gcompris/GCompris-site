@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 0.97 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/r097.png')"/>
+
+     
+<p>Kaixo,<br />
+Pozarren ematen dugu GCompris 0.97 bertsioaren argitalpenaren berri.</p>
+
+<p>Bertsio berri honek 2 jarduera berri ditu:</p>
+
+<li class="puce">Programatzeko labirinto bat: agindu gutxi batzuk erabiliz programatzearen oinarriak ikasteko</li>
+<li class="puce">Haurtxo tangram: tangramaren oinarriak ikasteko (jarduera hau aurreko tangram jardueraren maila baxuenei dagokie)</li>
+
+<br />
+
+<p>Eta eginbide berri mordo bat:</p>
+
+<li class="puce">jarduerak antolatzeko azpi-kategoria berriak</li>
+<li class="puce">hondoko musika eginbide eta audio pista berriak</li>
+<li class="puce">audio efektuetarako bolumen ezarpen berriak</li>
+<li class="puce">abiadura ezarpen berriak hainbat jardueratan («gletters», «algebra», «readingh», «note_names»)</li>
+<li class="puce">xake jardueratan atzemandako piezak azaltzeko eginbide berria</li>
+<li class="puce">hurrengo mailara eskuz joateko aukera berria marraztuletrak («drawletters») eta marraztuzenbakiak («drawnumbers») jardueretan</li>
+<li class="puce">«en_US»rako ahots berriak</li>
+<li class="puce">irudi berriak koloreak («colors») jardueran</li>
+<li class="puce">irudi berriak kolore_aurreratuak («advanced_colors») jardueran</li>
+<li class="puce">irudi berriak punteria («target») jardueran</li>
+<li class="puce">ezarpenen antolamendua hobetu da</li>
+<li class="puce">banatu («share») jardueraren antolamendua hobetu da</li>
+<li class="puce">kategorizazioa («categorisation») jardueraren antolaera hobetu da</li>
+<li class="puce">baliabide fitxategiak orain KDE zerbitzarian (https://cdn.kde.org/) gordetzen dira</li>
+<li class="puce">zenbaki bikoiti/bakoiti jardueraren tutorial bat gehitu da</li>
+<li class="puce">piano_konposatzea («piano_composition») jarduerari sarrerakoa gehitu zaio</li>
+<li class="puce">«gletters» jardueran malaberaren datu-multzoa gehitu da</li>
+<li class="puce">hitzen-jokoa («wordsgame») jarduerari bretoieraren datu-multzoa gehitu zaio</li>
+<li class="puce">konpondu egin da geografia («geography») jardueran  ahotsak ez jotzea</li>
+<li class="puce">konpondu egin da meatzaritza («mining») jardueran soinuak ez jotzea</li>
+<li class="puce">konpondu egin da erretratu modua (bertikala) bonbilla_bitarra («binary_bulb̉») jardueran</li>
+<li class="puce">konpondu egin da menuko PUZ-zama handia</li>
+<li class="puce">konpondu egin da argibide-irudi neurria argazki_ehiztaria («photo_hunter») jardueran</li>
+<li class="puce">konpondu egin da kolore_nahasketa («color_mix») jarduerako antolamendua</li>
+<li class="puce">eta beste konponketa txiki mordo bat...</li>
+
+<br/>
+
+<p>Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows eta MacOS sistema eragileetarako, <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da eskuragarri Android Play eta Windows dendetan ere. Raspberry Pi-ri dagokionean, instalatzaile bat emango dugu laster. iOS bertsioa oraindik ez dago eskuragarri. Jakizu MacOS paketea oraindik ez dela notarioak izenpetua izan, hurrengo urtean zehar egitea aztertuko dugu.</p>
+
+<p>Ahotsei dagokienean, ahots berri bat gehitu dugu "berriz saiatu", hainbat jardueratan,  "begiratu erantzuna"ren ordez erabiltzen dena. Orri honetan ikus dezakezu ahots hau zure hizkuntzan erabilgarri dagoen: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> («Misc\» sailean). Zure jatorrizko hizkuntzan falta diren sarrera guztietarako zure ahotsaren grabaketa atsegin bat emanez lagun diezagukezu.</p>
+
+<p>Itzulpenei dagokienean, euskarri osoa duten 20 hizkuntza ditugu: Brasileko portugesa, bretoiera, Britainiako ingelesa, errumaniera, eslovakiera, euskara, frantsesa, galiziera, gaztelania, grekoa, italiera, katalana, malabarera, mazedoniera, nederlandera, poloniera, portugesa, suediera, txinera tradizionala eta ukrainera.</p>
+
+<p>Hein bateko euskarria duten 15 hizkuntza ere baditugu: alemana (%96), bielorrusiera (%65), Eskoziako gaelera (%67), errusiera (%76), esloveniera (%54), estoniera (%93), finlandiera (%86), hindi (%73), hungariera (%95), indonesiera (%95), Irlandako gaelera (%78), katalana (valentziera %95), norvegiera nynorsk (%93), turkiera (%95), txinera sinplifikatua (%66).</p>
+
+<p>Gutxienez itzulpenen %80 egina duten hizkuntzak hornitu ohi ditugu. Hala ere, zenbait itzulpenek %80tik dezente behera egin dute (bereziki esloveniera, bielorrusiera eta Eskoziako gaelera; baino baita hindi, errusiera eta Irlandako gaelera ere). Salbuespen bat eginez argitalpen honetarako haiek mantentzea erabaki dugu, eta espero dugu aurreko itzultzaileek edo berriek itzulpenak osatuko dituztela. Eguneratzeak edo itzulpen berriak jasotzen baditugu, argitalpen eguneratze bat egingo dugu.</p>
+
+<p>Beraz, zure hizkuntza hein bateko euskarri zerrendan badago, edo euskarririk ere ez badu, eta lagundu nahi duzu, jarri gurekin harremanean eta itzultzen hasteko jarraibideak emango dizkizugu.</p>
+
+<p>Laguntzeko beste era bat, zure komunitatean GCompris-en inguruko mezuak idaztea da, ez izan guri erreakzioak bidaltzeko zalantzarik.</p>
+
+<p>Oharrak:</p>
+<li class="puce">Malabarera hizkuntzan arazoak nabaritu ditugu lehenetsitako "Andika-R" letra-tipoarekin. Malabarera erabiltzaileei aplikazioen menuan Noto-Sans-Malayalam edo RaghuMalaylamSans hautatzea gomendatzen diegu (ez badago zerrendan erabilgarri, letra-tipo hau zure sisteman instalatu behar duzu hura hautatu ahal izateko).
+</li>
+
+<br/>
+
+<p>Eskerrik asko guztiei, <br/>
+Timothée eta Johnny</p>
+
+
+{% endblock %}

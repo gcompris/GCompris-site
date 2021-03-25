@@ -1,0 +1,92 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Sortie de GCompris 0.91' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Bonjour,<br />
+Voici la nouvelle version de GCompris 0.91,  une version corrigeant plusieurs bugs découverts dans les versions précédentes et contenant d'autres améliorations.</p>
+
+<p>Toutes les distributions GNU/Linux qui proposent actuellement une version précédente devraient intégrer la version 0.91.</p>
+
+<p>Avec 68 commits depuis la précédente version, la liste des changements effectués est trop longue pour ce billet.
+Voici un résumé de ces changements :</p>
+
+<p>Activités :</p>
+<li class="puce">Correction des textes en anglais dans plusieurs activités</li>
+<li class="puce">Meilleur positionnement du score dans plusieurs activités</li>
+<li class="puce">Blocage des boutons de réponse pour éviter des réponses multiples dans plusieurs activités</li>
+<li class="puce">Amélioration des sons dans plusieurs activités</li>
+<li class="puce">Amélioration de l'ergonomie pour l'activité number_sequence (et celles basées dessus) </li>
+<li class="puce">Mise à jour des jeux de données pour clickanddraw, drawnumbers et drawletters</li>
+<li class="puce">Pour le jeu de la grue (crane), ajout de jeux de données par pays</li>
+<li class="puce">Ajout de la gestion du clavier pour l'activité lightsoff ainsi que d'autres corrections</li>
+<li class="puce">Ajout de la gestion du clavier pour l'activité algorithm ainsi que d'autres corrections</li> 
+<li class="puce">Correction pour avoir le bon symbole monétaire dans les activités pour apprendre l'argent</li>
+<li class="puce">Meilleurs effets sonores dans ballcatch</li>
+<li class="puce">Plusieurs corrections dans l'activité de calendrier</li>
+<li class="puce">Correction de la taille des icônes dans memory-case-association</li>
+<br/>
+<p>Autres changements :</p>
+<li class="puce">Réactivation des effets sonores sous linux</li>
+<li class="puce">Amélioration du temps de latence pour les effets sonores (moins de décalage)</li>
+<li class="puce">Ajout des légendes pour les images et tags OARS dans le fichier appdata </li>
+<li class="puce">Ajout de l'Écossais Gaélique dans le choix des langues et création des différents jeux de données.</li>
+<li class="puce">Correction de la taille de certains éléments dans la barre de jeu</li> 
+<li class="puce">Suppression de certaines images non utilisées.</li>
+
+
+<br/>
+
+<p>Vous pouvez trouver cette version <a href="https://gcompris.net/downloads-fr.html">sur la page de téléchargement</a>, ou sur le Google Play store ou store Windows.</p>
+
+<p>Pour les traductions, nous avons 16 langues complètement traduites : 
+Anglais 
+Catalan, 
+Catalan (Valence), 
+Chinois Traditionnel, 
+Néerlandais, 
+Français, 
+Grec, 
+Indonésien, 
+Irlandais Gaélique, 
+Italien, 
+Polonais, 
+Portugais, 
+Roumain, 
+Espagnol, 
+Suédois, 
+Ukrainien. 
+<br />\Nous avons 15 langues partiallement traduites : 
+
+Norvégien Nynorsk (97%), 
+Hindi (96%), 
+Turc (90%), 
+Écossais Gaélique (86%), 
+Galicien (86%), 
+Portugais Brésilien (84%), 
+Bélarusse (84%), 
+Allemand (81%), 
+Chinois Simplifié (79%), 
+Russe (78%), 
+Estonien (77%), 
+Slovaque (76%), 
+Finnois (76%), 
+Slovène (69%), 
+Breton (65%).</p>
+
+<p>Si vous souhaitez nous aider pour compléter une des ces traductions ou en ajouter une nouvelle, contactez-nous.</p>
+
+<p>Vous pouvez aussi nous aider en parlant à votre communauté/entourage de GCompris et nous donner des retours d'expérience.</p>
+
+<p>Merci à tous, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}

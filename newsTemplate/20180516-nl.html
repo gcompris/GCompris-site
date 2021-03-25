@@ -1,0 +1,93 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave van GCompris 0.91' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hallo,<br />
+hier is GCompris 0.91, een nieuwe uitgave met reparaties om enige problemen in de eerdere versie te corrigeren en een paar dingen te verbeteren.</p>
+
+<p>Elke GNU/Linux distributie die 0.90 meelevert zou bijgewerkt moeten worden naar 0.91.</p>
+
+<p>Met 68 commits sinds de laatste uitgave, is de volledige log met wijzigingen te lang voor deze melding.
+Maar hier is een lijst om de wijzigingen samen te vatten.</p>
+
+<p>Activiteiten:</p>
+<li class="puce">Engelse tekst in verschillende activiteiten repareren</li>
+<li class="puce">positie van score in verschillende activiteiten repareren</li>
+<li class="puce">blokkeer sommige knoppen en interacties indien nodig op verschillende plaatsen</li>
+<li class="puce">veel reparaties voor geluid in verschillende activiteiten</li>
+<li class="puce">nummer_volgorde (en andere erop gebaseerd), basisindeling repareren</li>
+<li class="puce">set gegevens bijwerken voor klikken_en_tekenen, nummers en letters tekenen</li>
+<li class="puce">kraan, voeg gelokaliseerd bestand toe</li>
+<li class="puce">lichten_uit, ondersteuning van toetsenbord toevoegen en andere reparaties</li>
+<li class="puce">algoritme, ondersteuning van toetsenbord toevoegen en andere reparaties</li>
+<li class="puce">geld, reparaties voor lokaal gebruikte valuta</li>
+<li class="puce">ballcatch, geluidsterugkoppeling verbeteren</li>
+<li class="puce">kalender, verschillende kleine reparaties</li>
+<li class="puce">memory-case-association pictogramgrootte repareren</li>
+<br/>
+<p>Andere wijzigingen:</p>
+<li class="puce">geluidseffecten onder GNU/Linux weer inschakelen</li>
+<li class="puce">verbeterd afspelen van geluidseffecten, geen vertraging meer</li>
+<li class="puce">opschriften bij afbeeldingen en OARS-tags in de gegevens van de toepassing</li>
+<li class="puce"> Schots Gaelic toevoegen aan kern en enige sets gegevens ervoor bijwerken</li>
+<li class="puce">hoofdbalk, grootte van enige items repareren</li>
+<li class="puce">remove unused images</li>
+
+
+<br/>
+
+<p>U kunt deze nieuwe versie vinden op <a href="https://gcompris.net/downloads-en.html">de downloadpagina</a> en spoedig in de Play store en Windows store.</p>
+
+<p>Aan de kant van de vertalingen, we hebben 16 talen volledig ondersteund: 
+Brits Engels, 
+Catalaans, 
+Catalaans (Valenciaans), 
+Chinees Traditioneel, 
+Nederlands, 
+Frans, 
+Grieks, 
+Indonesisch, 
+Iers Gaelic, 
+Italiaans, 
+Pools, 
+Portugees, 
+Roemeens, 
+Spaans, 
+Zweeds, 
+Oekraiens. 
+<br />
+We hebben ook 15 talen gedeeltelijk ondersteund: 
+
+Noos Nynorsk (97%), 
+Hindi (96%), 
+Turks (90%), 
+Schots Gaelic (86%), 
+Galiciaans (86%), 
+Braziliaans Portugees (84%), 
+Wit-Russisch (84%), 
+Duits (81%), 
+Chinees vereenvoudigd (79%), 
+Russisch (78%), 
+Ests (77%), 
+Slovaaks (76%), 
+Fins (76%), 
+Sloveens (69%), 
+Bretons (65%).</p>
+
+<p>Als u wilt helpen om een van deze vertalingen te voltooien of een nieuwe wilt toevoegen, neem dan contact met ons op.</p>
+
+<p>Anders kunt u nog steeds helpen door berichten te sturen in uw gemeenschap over GCompris en aarzel niet om terugkoppeling te geven.</p>
+
+<p>Dank aan u allen, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}

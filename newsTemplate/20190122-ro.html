@@ -1,0 +1,34 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris se reîntoarce pe Mac OSX' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Bună,<br />
+Vești bune pentru utilizatorii de Mac: în sfârșit, avem o nouă versiune de GCompris pentru OSX !</p>
+
+<p>Ultima versiune de GCompris pentru OSX era versiunea 0.52 de acum trei ani. De atunci, nimeni din echipă nu a putut-o actualiza, din cauza lipsei de hardware Mac. Mulțumită lui Boudewijn de la fundația Krita, avem acum un mic mac mini, vechi, dar suficient de bun pentru a ne putea construi pachetele. Mi-a luat câteva zile de muncă dedicată învățarea aceastei noi platforme și actualizarea sistemului de construcție, pentru a putea produce în final un pachet de distribuție.</p>
+
+<br/>
+
+<p>Acest pachet a fost construit și testat pe OSX 10.13. Dacă îl puteți încerca pe o versiune OSX diferită, vă rugăm să ne anunțați dacă merge.</p>
+
+<p>Instalatorul .dmg este disponibil <a href="https://gcompris.net/ downloads{{ suffix }}#osx.html">în pagina de descărcare</a>.</p>
+
+<p>De această dată, am decis să încetăm să-l distribuim din app-store. Referitor la versiunea iOS, îmi va lua mai mult timp înainte de a putea studia problema, și încă nu avem niciun dispozitiv de testare.
+</p>
+
+<p>Observații: acest pachet se bazează pe GCompris versiunea 0.95. Este construit cu ultima versiune de Qt (5.12.0), care a introdus niște regresii. Am reparat toate problemele respective, dar unele din aceste reparații se regăsesc deocamdată doar în versiunea de dezvoltare. Câteva activități nu merg (checkers, braille, braille_alphabet, algorithm), dar vom scoate o nouă versiune luna viitoare, în care vom rezolva și aceste mici probleme.
+</p>
+
+<p>Vă mulțumesc tuturor,<br/>
+Timothée - echipa GCompris</p>
+
+
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave van GCompris 0.95' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hallo,<br />
+We zijn blij de uitgave van GCompris versie 0.95 aan te kondigen.</p>
+
+<p>Deze nieuwe versie bevat 7 nieuwe activiteiten:</p>
+<li class="puce">Binaire lampjes: om binair te leren tellen</li>
+<li class="puce">Activiteit Spoorweg: om het visuele geheugen te trainen</li>
+<li class="puce">Zonnestelsel: om te leren over ons zonnestelsel</li>
+<li class="puce">Benoem die noot: om muzieknoten te leren herkennen en hun namen</li>
+<li class="puce">Pianospelen: om het lezen van noten in een partituur te trainen</li>
+<li class="puce">Speel het ritme: het volgen van een muzikaal ritme te trainen</li>
+<li class="puce">Pianocompositie: om het componeren van een partituur te leren</li>
+
+<br/>
+
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux en Windows vinden op de downloadpagina. Deze opwaardering zal ook beschikbaar zijn binnen een paar dagen on de Android- en Windows-winkel. Voor Raspberry Pi, leveren we een installatieprogramma in het beginn van 2019. De opgewaardeerde versies voor MacOS en iOS zijn nog steeds niet beschikbaar, we hopen in staat te zijn deze uit te geven in het volgende jaar.</p>
+
+<p>Aan de kant van vertalingen hebben we 15 talen volledig ondersteund: British English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, French, Galician, Greek, Hungarian, Italian, Malayalam, Portuguese, Romanian, Swedish, Ukrainian. 
+<br />
+We hebben ook 19 talen gedeeltelijk ondersteund: Basque (78%), Belarusian (69%), Brazilian Portuguese (74%), Breton (54%), Chinese Simplified (69%), Estonian (63%), Finnish (61%), German (86%),  Hindi (77%), Indonesian (84%), Irish Gaelic (82%), Norwegian Nynorsk (89%), Russian (74%), Scottish Gaelic (71%), Slovak (62%), Slovenian (57%), Spanish (95%), Polish (94%), Turkish (74%).</p>
+
+<p>Gewoonlijk leveren we alleen vertalingen die minstens 80% vertaald zijn. Echter, voor deze uitgave, zijn veschillende vertalingen onder 80% gekomen. Bij uitzondering hebben we besloten voor deze uitgave ze te behouden en hopen voormalige of nieuwe vertalers deze vertalingen te voltooien. Als we bijgewerkte of nieuwe vertalingen krijgen, dan maken we daar een bijgewerkte uitgave van.
+<br/>
+Dus als uw taal zich in de lijst met gedeeltelijke vertalingen bevindt of helemaal nog niet ondersteund wordt, en u wilt helpen, neem dan contact met ons op en we zullen u instructies geven om te beginnen met de vertaling.</p>
+
+<p>Een andere manier om te helpen is door berichten te maken in uw gemeenschap over GCompris en aarzel niet om ons terugkoppeling te geven.</p>
+
+<p>Opmerkingen:</p>
+<li class="puce">Opmerkingen:
+-Op GNU/Linux en Windows gebruikten we twee aparte installatieprogramma's voor OpenGL en rendering met software. Nu zijn de beide manieren van rendering beschikbaar in hetzelfde installatieprogramma. Standaard proberen we de rendering met OpenGL te doen en als dat niet werkt, dan tonen we een foutmelding en schakelen over naar rendering met software. Dit automatisch omschakelen is nieuw en zou niet overal kunnen werken. Als het niet werkt kunt u handmatig rendering met software selecteren door het configuratiebestand (in ~/.config/gcompris/gcompris-qt.conf voor Linux, %LocalAppData%/gcompris/GCompris.conf voor Windows) te bewerken: zoek de regel "renderer=auto", vervang auto door software en sla het bestand op. We zijn ook geïnteresseerd om enige terugkoppeling te krijgen om ons te helpen deze autodetectie te verbeteren.
+<br/>
+</li>
+<li class="puce">Voor de taal Malayalam, hebben we enige problemen gezien met het standaard lettertype "Andika-R". We bevelen de gebruikers van Malayalam aan om het lettertype Noto-Sans-Malayalam te selecteren uit het menu Toepassingen (als het niet beschikbaar is in de lijst dan moet u dit lettertype installeren op uw systeem om het te kunnen selecteren).
+</li>
+<p>Allen bedankt, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

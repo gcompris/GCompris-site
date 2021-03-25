@@ -1,0 +1,48 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 0.95' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     class='col-xs-12 col-md-4'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Bună,<br />
+Avem plăcerea de a anunța lansarea versiunii GCompris 0.95.</p>
+
+<p>Noua versiune conține 7 noi activități:</p>
+<li class="puce">Beculețe binare: învățarea sistemului numeric binar</li>
+<li class="puce">Calea ferată: activitate pentru antrenarea memoriei vizuale</li>
+<li class="puce">Sistemul Solar: pentru a învăța despre sistemul nostru solar</li>
+<li class="puce">Recunoaște nota muzicală: pentru învățarea notelor muzicale și a numelor acestora</li>
+<li class="puce">Cântă la pian: pentru a exersa citirea notelor de pe un portativ</li>
+<li class="puce">Redă ritmul: antrenarea ascultării și reproducerii unui ritm</li>
+<li class="puce">Compoziție la pian: învățarea compoziției muzicale scrise, pe un portativ</li>
+
+<br/>
+
+<p>Puteți găsi în pagina de descărcare pachetele de instalare ale acestei noi versiuni pentru GNU/Linux și Windows. De asemenea, această actualizare va fi de asemenea disponibilă în câteva zile pe Magazin Play și Windows Magazin. Pentru sisteme de calcul Raspberry Pi, vom furniza un program de instalare la începutul lui 2019. Versiunile actualizate pentru MacOS și iOS nu sunt încă disponibile, sperăm să reușim să le lansăm în decursul anului viitor.</p>
+
+<p>Pe partea de traducere, avem 15 limbi care oferă suport complet: engleză britanică, catalană, catalană valenciană, chineză tradițională, olandeză, franceză, galiciană, greacă, maghiară, italiană, malaieză, portugheză, română, suedeză, ucrainiană. 
+<br />
+Avem de asemenea 19 limbi care oferă suport parțial: bască (78%), belarusă (69%), portugheză braziliană (74%), bretonă (54%), chineză simplificată (69%), estoniană (63%), finlandeză (61%), germană (86%), hindi (77%), indoneziană (84%), galeză irlandeză (82%), norvegiană nynorsk (89%), rusă (74%), galeză scoțiană (71%), slovacă (62%), slovenă (57%), spaniolă (95%), poloneză (94%), turcă (74%).</p>
+
+<p>De obicei, oferim posibilitatea descărcării pachetelor de limbă doar pentru traducerile complete măcar în proporție de 80%. Am observat însă la această versiune că unele traduceri au scăzut sub respectivul procent. Ca urmare, am decis în mod excepțional ca pentru această versiune să menținem și aceste traduceri, sperând ca foștii sau viitorii traducători să le completeze ulterior. Dacă vom primi traduceri actualizate sau traduceri noi, vom actualiza această versiune cu respectivele traduceri.
+<br/>
+Deci, dacă limba ta apare doar în lista limbilor care oferă suport parțial, sau nu figurează deloc, și dorești să ajuți, te rugăm să ne contactezi și îți vom da instrucțiuni cum să începi să traduci.</p>
+
+<p>Un alt mod de a ajuta este de a scrie câteva postări despre GCompris în comunitatea ta, și de a ne furniza feedback-uri.</p>
+
+<p>Note:</p>
+<li class="puce">Pe GNU/Linux și pe Windows obișnuiam să avem două programe de instalare separate, pentru OpenGL și pentru randarea software. Acum, ambele moduri de randare sunt disponibile dintr-un singur program de instalare. Ca opțiune implicită, încercăm să folosim randarea OpenGL, iar dacă aceasta nu funcționează, este afișat un mesaj de eroare și se comută automat la randarea software. Această comutare automată este nouă, și s-ar putea să nu funcționeze în toate cazurile. În acest caz, puteți selecta manual modul de randare software prin editarea fișierului de configurare (în ~/.config/gcompris/gcompris-qt.conf pentru Linux, respectiv %LocalAppData%/gcompris/GCompris.conf pentru Windows): căutați linia "renderer=auto", înlocuiți auto cu software și salvați fișierul. Am vrea să știm cum funcționează practic această autodetecție, deci orice feedback al dvs. în această privință este mai mult decât binevenit.
+</li>
+<li class="puce">Pentru limba malaieză, am observat câteva probleme cu fontul implicit "Andika-R". Le recomandăm utilizatorilor de malaieză să selecteze fontul Noto-Sans-Malayalam din meniul aplicației (dacă nu este disponibil în listă, va trebui să instalezi acest font pe sistemul tău de operare, petru a-l putea selecta).
+</li>
+<p>Vă mulțumim tuturor,<br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

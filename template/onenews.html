@@ -1,3 +1,4 @@
+{% set newsFolder = "https://gcompris.net/news/" %}
 {% block onenews %}
 <div id="{{ newsDate }}" class="container bs-docs-container">
   <div class="row news">
@@ -8,7 +9,7 @@
 	  <span class="glyphicon glyphicon-share"></span>
 	</a>
       </div>
-      <div class="newstitle" style="float: left; text-align: left;">{{ title }}</div>
+      <div class="newstitle" style="float: left; text-align: left;"><a href= "news/{{ newsDate }}-{{ locale}}.html">{{ title }}</a></div>
       <div class="newsdate" style="float: right; text-align: right;">{{ newsDate }}&nbsp;</div>
       </div>
       <div style="clear: both;"></div>

@@ -1,0 +1,51 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 0.96 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Kaixo,<br />
+Pozarren adierazten dugu GCompris 0.96 bertsioa argitaratu dela.</p>
+
+<p>Bertsio honek hainbat hizkuntzetarako itzulpen eguneratuak dakartza, baita akats konponketa batzuk ere.</p>
+
+<p>Eguneraketa handia jaso duten itzulpenak:</p>
+
+<li class="puce">Brasileko Portugesa (%100)</li>
+<li class="puce">Bretoiera (%100)</li>
+<li class="puce">Suomiera (%90)</li>
+<li class="puce">Indonesiera (%100)</li>
+<li class="puce">Norvegiera Nynorsk (%97)</li>
+<li class="puce">Poloniera (%100)</li>
+
+<br/>
+
+<p>Honek esan nahi du orain euskarri osoa duten 19 hizkuntza ditugula: Britainiako ingeles, Brasileko portuges, bretoiera, katalan, Katalan (Valentziera), Txinera tradizionala, nederlandera, frantses, galiziera, greko, hungariera, indonesiera, italiera, malabarera, poloniera, portuges, errumaniera, suediera, ukrainera.</p>
+
+<p>Oraindik hein batean euskarria duten 15 hizkuntza ditugu: euskara (%78), bielorrusiera (%68), txinera sinplifikatua (%69), estoniera (%62), finlandiera (%90), alemana (%84), Hindi (%76), Irlandako gaelera (%82), norvegiera nynorsk (%97), errusiera (%77), Eskoziako gaelera (%70), eslovakiera (%62), esloveniera (%56), gaztelania (%93), turkiera (%73).</p>
+
+<p>Argitalpen honetarako atzera %80tik jaitsi diren hizkuntzen itzulpenak mantentzea erabaki dugu. Tamalgarria litzateke aplikaziotik 10 hizkuntza desgaitzea, baino inork ez baditu ondoko itzulpenak eguneratzen, hurrengo argitalpenean desgaituta egongo dira: euskara, bielorrusiera, txinera sinplifikatua, estoniera, hindi, errusiera, eskoziako gaelera, eslovakiera, esloveniera eta turkiera.</p>
+
+<p>Windows-eko bertsiorako, sarrera berria gehitu diogu haserako menuari, "GCompris (Modu segurua)" izenekoa, software errendatze moduarekin jaurtitzeko. Hau beharrezkoa zen, OpenGL euskarriaren hautemate automatikoa ez zelako fidagarria. Orain, erabiltzaileek erraz aukeratu dezakete OpenGL eta software errendatzearen artean konfiguratzeko fitxategia aldatu gabe.</p>
+
+<p>Arazo ezagunak:</p>
+<li class="puce">Zama-jaistearen aurrerapen-barra jadanik ez dabil. Fitxategiak ostatzeko «https»ra aldatu izanaren alboko ondorio bat da hau. Hurrengo argitalpenerako hau hobetzeko modua bilatzen ari gara.
+</li>
+
+<br/>
+
+<p>GNU/Linux banaketetako paketegileentzako ohar gisa, bertsio berri honek OpenSSL behar du ahotsak eta irudi osagarriak zama-jaitsi ahal izateko.</p>
+
+<p>Ohi bezala bertsio berri hau gure <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orritik</a> zama-jaitsi daiteke. Laster egongo da erabilgarri Android eta Windows biltegietan ere.</p>
+
+<p>Eskerrik asko guztiei, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

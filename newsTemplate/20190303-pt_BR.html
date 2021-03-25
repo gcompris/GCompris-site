@@ -1,0 +1,50 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 0.96' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Olá,<br />
+Estamos felizes em anunciar o lançamento do GCompris versão 0.96.</p>
+
+<p>Esta nova versão inclui traduções atualizadas para vários idiomas e algumas correções de erros.</p>
+
+<p>Traduções que receberam uma grande atualização:</p>
+
+<li class="puce">Português brasileiro (100%)</li>
+<li class="puce">Bretão (100%)</li>
+<li class="puce">Finlandês (90%)</li>
+<li class="puce">Indonésio (100%)</li>
+<li class="puce">Novo norueguês (97%)</li>
+<li class="puce">Polonês (100%)</li>
+
+<br/>
+
+<p>Isto significa que temos agroa 19 idiomas completamente suportados: inglês britânico, português brasileiro, bretão, catalão, catalão (Valência), chinês tradicional, holandês, francês, galício, grego, húngaro, indonésio, italiano, malaio, polonês, português, romeno, suéco e ucraniano.</p>
+
+<p>Temos ainda 15 idiomas parcialmente suportados: basco (78%), bielorrusso (68%), chinês simplificado (69%), estoniano (62%), finlandês (90%), alemão (84%), indu (76%), gaélico irlandês (82%), novo norueguês (97%), russo (77%), gaélico escocês (70%), eslovaco (62%), eslovenio (56%), espanhol (93%), turco (73%).</p>
+
+<p></p>
+
+<p></p>
+
+<p>Problemas conhecidos:</p>
+<li class="puce"></li>
+
+<br/>
+
+<p></p>
+
+<p>Como de costume você pode baixar esta nova versão em nossa <a href="https://gcompris.net/downloads{{ suffix }}.html">página de download</a>. Também estará disponível em breve nas lojas do Android e da Microsoft.</p>
+
+<p>Obrigado a todos, <br/>
+Timothée & Johnny</p>
+
+
+{% endblock %}

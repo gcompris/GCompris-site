@@ -1,0 +1,93 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Rilis GCompris 0.91' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/gcompris360.png'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     class='col-xs-12 col-md-4'
+     onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+     
+<p>Hai,<br />
+Ini adalah GCompris 0.91, sebuah rilis perbaikan bug untuk membetulkan beberapa masalah dalam versi sebelumnya dan menambah perbaikan beberapa hal.</p>
+
+<p>Setiap distribusi GNU/Linux yang membawa versi 0.90 seharusnya mengupdate ke versi 0.91.</p>
+
+<p>Dengan 68 commits sejak rilis terakhir, catatan perubahan terlalu panjang untuk post ini.
+Tetapi di sini adalah daftar rangkuman perubahannya.</p>
+
+<p>Activitas:</p>
+<li class="puce">perbaikan teks Inggris dalam beberapa aktifitas</li>
+<li class="puce">perbaikan posisi skor dalam beberapa aktifitas</li>
+<li class="puce">blok beberapa tombol dan interaksi ketika diperlukan dalam bebrapa tempat</li>
+<li class="puce">bagian perbaikan untuk audio dalam beberapa aktifitas</li>
+<li class="puce">rangkaian angka (dan lainnya yang berdasarkan padanya), perbaikan tataletak dasar</li>
+<li class="puce">update dataset untuk klik-dan-gambar (clickanddraw), gambar-angka (drawnumbers) dan gambar-huruf (drawletters)</li>
+<li class="puce">derek, tambahan dataset terlokalis</li>
+<li class="puce">lampu mati, tambahan dukungan keyboard dan perbaikan lain</li>
+<li class="puce">algoritma, tambahan dukungan keyboard dan perbaikan lain</li>
+<li class="puce">uang, perbaikan untuk mata uang lokal yang digunakan</li>
+<li class="puce">tangkap bola, penambahan-baik tanggapan audio</li>
+<li class="puce">kalender, beberapa perbaikan kecil</li>
+<li class="puce">perbaikan ukuran ikon asosiasi kasus memori</li>
+<br/>
+<p>Perubahan lain:</p>
+<li class="puce">aktifkan-ulang efek suara pada linux</li>
+<li class="puce">penambahan-baik pemainan efek suara, tidak lagi tertunda</li>
+<li class="puce">tambahan bab untuk citra dan tag OARS di dalam appdata</li>
+<li class="puce">tambahan Scottish Gaelic untuk inti, dan update beberapa datasets untuknya</li>
+<li class="puce">bilah utama, perbaikan beberapa ukuran item</li>
+<li class="puce">hapus citra yang tak digunakan</li>
+
+
+<br/>
+
+<p>Kamu bisa menemukan versi baru ini <a href="https://gcompris.net/downloads-en.html">pada halaman unduh</a>, dan segera di Play store dan Windows store.</p>
+
+<p>Pada sisi terjemahan, kami memiliki 16 bahasa yang didukung secara penuh: 
+British English, 
+Catalan, 
+Catalan (Valencian), 
+Chinese Traditional, 
+Dutch, 
+French, 
+Greek, 
+Indonesian, 
+Irish Gaelic, 
+Italian, 
+Polish, 
+Portuguese, 
+Romanian, 
+Spanish, 
+Swedish, 
+Ukrainian. 
+<br />
+Kami juga memiliki 15 bahasa yang didukung secara parsial: 
+
+Norwegian Nynorsk (97%), 
+Hindi (96%), 
+Turkish (90%), 
+Scottish Gaelic (86%), 
+Galician (86%), 
+Brazilian Portuguese (84%), 
+Belarusian (84%), 
+German (81%), 
+Chinese Simplified (79%), 
+Russian (78%), 
+Estonian (77%), 
+Slovak (76%), 
+Finnish (76%), 
+Slovenian (69%), 
+Breton (65%).</p>
+
+<p>Jika kamu ingin membantu melengkapi salah satu terjemahan tersebut atau menambah bahasa yang baru, silakan kontak kita.</p>
+
+<p>Selain itu kamu bisa membantu dengan membuat beberapa post di komunitasmu tentang GCompris dan janganlah ragu untuk memberikan tanggapan.</p>
+
+<p>Terima kasih untuk kalian semua, <br/>
+Timothée & Johnny </p>
+
+
+{% endblock %}

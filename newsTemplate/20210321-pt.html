@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 1.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Olá,<br />
+Estamos orgulhosos de anunciar o lançamento do GCompris na versão 1.1.</p>
+<p>Esta é uma versão de manutenção, pelo que todas as distribuições de GNU/Linux que forneçam a 1.0 dever-se-ão actualizar para a 1.1.</p>
+
+<p>Aqui está um resumo das mudanças incluídas:</p>
+<li class="puce">Foram actualizados os gráficos de 21 actividades.</li>
+<li class="puce">Foram corrigidos diversos erros.</li>
+<li class="puce">Foi adicionada uma nova versão para o Ubuntu Touch.</li>
+<li class="puce">Foi corrigida a ortografia dos distritos da Turquia.</li>
+<li class="puce">Foi adicionado um pacote .msi mínimo alternativo para o Windows.</li>
+<li class="puce">O executável do GCompris mudou a sua licença para o AGPLv3, devido a uma dependência da electricidade analógica.</li>
+<br/>
+<p>Do lado das traduções:</p>
+<li class="puce">Foram concluídas as traduções para Albanês, Bielorrusso, Português do Brasil e Russo.</li>
+<li class="puce">Regressou o Irlandês Gaélico e o Macedónio (traduções parciais acima dos 80% para já).</li>
+<li class="puce">Foi adicionado o conjunto de palavras para as actividades de vocabulário para o Albanês e Macedónio.</li>
+<li class="puce">Foram adicionadas todas as vozes para o Lituano.</li>
+<br/>
+
+<p>Temos agora 22 línguas completamente suportadas: Albanês, Basco, Bielorrusso, Português do Brasil, Bretão, Inglês (Britânico), Catalão, Catalão (Valenciano), Chinês Tradicional, Holandês, Francês, Grego, Hebreu, Húngaro, Indonésio, Italiano, Macedónio, Malayalam, Polaco, Português, Romeno, Russo, Esloveno, Espanhol, Sueco, Turco e Ucraniano.</p>
+
+<p>Também temos 4 línguas parcialmente suportadas: Alemão (91%), Irlandês Gaélico (87%), Lituano (96%) e Norueguês Nynorsk (85%).</p>
+
+<p>Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS e Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de transferências</a>. Esta actualização também estará disponível em breve na loja Android Play, no repositório F-Droid e na loja do Windows. O pacote para Raspberry Pi estará também disponível em breve.</p>
+
+<p>Obrigado a todos, <br/>
+Timothée & Johnny</p>{% endblock %}

@@ -1,0 +1,77 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 0.97' %}
+{% set withlongcontent = 0 %}
+{% block content %} 
+
+<img src='{{ newsFolder }}images/r097-small.png'
+     class='col-xs-12 col-md-4'
+     alt='gcompris banner'
+     style='float: right; padding-left: 10px; cursor: pointer;'
+     onclick="window.open('{{ newsFolder }}images/r097.png')"/>
+
+     
+<p>¡Hola!<br />
+Nos complace anunciar el lanzamiento de GCompris versión 0.97.</p>
+
+<p>Esta nueva versión contiene dos nuevas actividades:</p>
+
+<li class="puce">Un laberinto de programación: para aprender las nociones básicas de la programación con unas cuantas instrucciones.</li>
+<li class="puce">Un tangram para niños: para aprender las nociones básicas de tangram (esta actividad se corresponde con los niveles más fáciles de la anterior actividad de tangram).</li>
+
+<br />
+
+<p>Y gran cantidad de nuevas funcionalidades:</p>
+
+<li class="puce">Nuevas subcategorías para organizar las actividades.</li>
+<li class="puce">Nueva función de música de fondo y de pistas de sonido.</li>
+<li class="puce">Nuevas preferencias del volumen para los efectos de sonido.</li>
+<li class="puce">Nueva preferencia para la velocidad de algunas actividades («Letras sencillas», álgebra, «Lectura horizontal», «Nombre de la nota»).</li>
+<li class="puce">Nueva funcionalidad en las actividades de ajedrez para mostrar las piezas capturadas.</li>
+<li class="puce">Nueva opción para ir al siguiente nivel de forma manual en «Dibujar letras» y en «Dibujar números».</li>
+<li class="puce">Nuevas voces para el idioma inglés de Estados Unidos.</li>
+<li class="puce">Nuevas imágenes para la actividad «Colores».</li>
+<li class="puce">Nuevas imágenes para la actividad «Colores avanzados».</li>
+<li class="puce">Nuevas imágenes para la actividad «Practica la suma con un juego de blancos».</li>
+<li class="puce">Se ha mejorado la distribución de las preferencias.</li>
+<li class="puce">Se ha mejorado la distribución de la actividad «Comparte caramelos».</li>
+<li class="puce">Se ha mejorado la distribución de la actividad «Categorización».</li>
+<li class="puce">Los archivos de recursos se guardan ahora en el servidor de KDE (https://cdn.kde.org/).</li>
+<li class="puce">Se a añadido un tutorial a la actividad «Números pares e impares».</li>
+<li class="puce">Se ha añadido una introducción a la actividad «Composición para piano».</li>
+<li class="puce">Se ha añadido un conjunto de datos en malabar a la actividad «Letras sencillas».</li>
+<li class="puce">Se ha añadido un conjunto de datos en bretón a la actividad «Palabras que caen».</li>
+<li class="puce">Se han corregido las voces que no sonaban en las actividades de geografía.</li>
+<li class="puce">Se han corregido los sonidos que no sonaban en la actividad «Excavar para obtener oro».</li>
+<li class="puce">Se ha corregido el modo retrato en la actividad «Bombillas binarias».</li>
+<li class="puce">Se ha corregido la sobrecarga de la CPU en el menú.</li>
+<li class="puce">Se ha corregido el tamaño de la imagen de ayuda en la actividad «Cazador de fotos».</li>
+<li class="puce">Se ha corregido la distribución en la actividad «Mezclando colores de pintura».</li>
+<li class="puce">Y gran cantidad de correcciones menores.</li>
+
+<br/>
+
+<p>Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows y MacOS en la <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. Esta actualización también estará disponible en breve en Google Play de Android y en la Windows Store. También proporcionaremos en breve un instalador para Raspberry Pi. La versión actualizada para iOS todavía no está disponible. Tenga en cuenta que el paquete para MacOS todavía no ha sido certificado; veremos cómo hacer esto durante el próximo año.</p>
+
+<p>Por lo que respecta a las voces, hemos añadido una nueva voz «vuelve a intentarlo» que se usa en varias actividades en lugar de «comprueba la respuesta». Puede comprobar en esta página si dicha voz está disponible en su idioma: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a> (en la sección «Misc»). Puede ayudarnos proporcionándonos una bonita grabación de su voz con todas las entradas que faltan en su idioma nativo.</p>
+
+<p>En cuanto a traducciones se refiere, disponemos de 20 idiomas completamente traducidos: bretón, catalán, chino tradicional, eslovaco, español, euskera, francés, gallego, griego, holandés, inglés británico, italiano, macedonio, malabar, polaco, portugués, portugués brasileño, rumano, sueco y ucraniano.</p>
+
+<p>También disponemos de 15 idiomas parcialmente traducidos: alemán (96%), bielorruso (65%), catalán de Valencia (95%), chino simplificado (66%), esloveno (54%), estonio (93%), finlandés (86%), gaélico escocés (67%), gaélico irlandés (78%), hindi (73%), húngaro (95%), indonesio (95%), nynorsk (93%), ruso (76%) y turco (95%).</p>
+
+<p>Normalmente, solo entregamos las traducciones que se han completado en al menos un 80%. No obstante, algunas traducciones han caído por debajo de dicho porcentaje (especialmente en esloveno, en bielorruso y en gaélico escocés, aunque también en hindi, en ruso y en gaélico irlandés). Excepcionalmente, hemos decidido mantenerlas para este lanzamiento, por lo que esperamos ver a antiguos o a nuevos traductores completarlas. Si obtenemos actualizaciones o nuevas traducciones crearemos una actualización del lanzamiento.</p>
+
+<p>Si su idioma está en la lista de parcialmente completados (o si todavía no aparece en ella) y desea colaborar, contacte con nosotros para que le indiquemos cómo empezar a traducir.</p>
+
+<p>También puede ayudar escribiendo algún artículo en su comunidad sobre GCompris, y no dude en hacernos llegar sus comentarios.</p>
+
+<p>Notas:</p>
+<li class="puce">Hemos detectado algunos problemas para el idioma malabar con el tipo de letra por omisión «Andika-R». Recomendamos a los usuarios del idioma malabar que seleccionen uno de los tipos de letra «Noto-Sans-Malayalam» o «RaghuMalayalamSans» para el menú de la aplicación (si no aparecen en la lista, tendrá que instalarlos en su sistema para poder seleccionarlos).
+</li>
+
+<br/>
+
+<p>Gracias a todos, <br/>
+Timothée y Johnny</p>
+
+
+{% endblock %}
