@@ -3,13 +3,13 @@
 <channel>
    <title>GCompris</title>
    <description>GCompris rss</description>
-   <link>http://www.gcompris.net</link>
-   <atom:link href="http://www.gcompris.net/feed-{{ locale }}.xml" rel="self" type="application/rss+xml" />
+   <link>https://www.gcompris.net</link>
+   <atom:link href="https://www.gcompris.net/feed-{{ locale }}.xml" rel="self" type="application/rss+xml" />
    {% for entry in feed %}
    <item>
      <title>{{ entry.title }}</title>
-     <link>http://www.gcompris.net/newsall-{{ locale }}.html#{{ entry.date }}</link>
-     <guid>http://www.gcompris.net/newsall-{{ locale }}.html#{{ entry.date }}</guid>
+     <link>https://www.gcompris.net/newsall-{{ locale }}.html#{{ entry.date }}</link>
+     <guid>https://www.gcompris.net/newsall-{{ locale }}.html#{{ entry.date }}</guid>
      <pubDate>{{ entry.dateRFC822 }}</pubDate>
    </item>
    {% endfor %}
