@@ -58,7 +58,7 @@
 	      <li class="puce"><a href="https://f-droid.org/en/packages/net.gcompris.full/">GCompris {{ version }} from F-Droid</a></li>
           </pre>
           <br/>
-          <p>{% trans %}You can also directly download the apk from our website to install it manually on your device.{% endtrans %}</p>
+          <p>{% trans %}You can also direcly download the apk from our website to install it manually on your device.{% endtrans %}</p>
 	      <pre>
 	      <li class="puce"><a href="https://gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-1.0.apk">GCompris {{ version }} apk for Android 32bit</a></li>
 	      <li class="puce"><a href="https://gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-arm64-v8a-dl-1.0.apk">GCompris {{ version }} apk for Android 64bit</a></li>
@@ -122,14 +122,14 @@
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
-	      <p>{% trans %}We provide a standalone package for Raspberry Pi.{% endtrans %} {% trans %}This package is a beta version.{% endtrans %} {% trans %}It was tested only on Raspberry Pi 3.{% endtrans %}</p>
+	      <p>{% trans %}We provide a standalone package for Raspberry Pi.{% endtrans %} {% trans %}It was tested only on Raspberry Pi 3.{% endtrans %}</p>
 	      <pre>
-	      <li class="puce"><a href="https://gcompris.net/download/qt/raspberrypi/gcompris-qt-1.0-Raspberry.sh">GCompris 1.0-Raspberry Pi 3 (beta)</a></li>
+	      <li class="puce"><a href="https://gcompris.net/download/qt/raspberrypi/gcompris-qt-{{ version }}-Raspberry.sh">GCompris {{ version }}-Raspberry Pi 3</a></li>
           </pre>
           <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands:{% endtrans %}</p>
           <pre>
-          <p>chmod u+x gcompris-qt-1.0-Raspberry.sh</p>
-          <p>./gcompris-qt-1.0-Raspberry.sh</p>
+          <p>chmod u+x gcompris-qt-{{ version }}-Raspberry.sh</p>
+          <p>./gcompris-qt-{{ version }}-Raspberry.sh</p>
 	      </pre>
 	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
 	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh.{% endtrans %}</p>
