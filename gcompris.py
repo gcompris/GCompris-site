@@ -103,7 +103,7 @@ def getLocaleName(locale):
         'sq': u'Shqip',
         'sr': u'црногорски jeзик', 'sv': 'Svenska',
         'ta': u'தமிழ்', 'th': u'ไทย',
-        'tr': u'Türk', 'uk': u'Український',
+        'tr': u'Türk', 'uk': u'українська',
         'zh_CN': u'中文（简体）', 'zh_TW': u'繁體中文'
     }
 
