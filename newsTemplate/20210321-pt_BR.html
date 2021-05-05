@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 1.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Olá!<br />
+Temos o prazer de anunciar o lançamento da versão 1.1 do GCompris!</p>
+<p>Esta é uma versão de manutenção, portanto cada distribuição GNU/Linux que tem a versão 1.0 deve atualizar para a 1.1.</p>
+
+<p>Aqui está o resumo das alterações incluídas:</p>
+<li class="puce">Os gráficos foram atualizados em 21 atividades.</li>
+<li class="puce">Corrigimos muitos erros.</li>
+<li class="puce">Uma versão para o Ubuntu Touch foi adicionada.</li>
+<li class="puce">A ortografia dos distritos turcos foi corrigida.</li>
+<li class="puce">Adicionamos um pacote mínimo .MSI alternativo para o Windows.</li>
+<li class="puce">O executável do GCompris foi relicenciado para AGPLv3 devido a uma dependência da eletricidade analógica.</li>
+<br/>
+<p>Pelo lado das traduções:</p>
+<li class="puce">Albanês, bielorrusso, português brasileiro e russo foram concluídos.</li>
+<li class="puce">Irlandês e macedônio voltaram (traduções parciais acima de 80% por enquanto)</li>
+<li class="puce">Conjunto de palavras para as atividades de vocabulário foram adicionados para albanês e macedônio.</li>
+<li class="puce">Todas as vozes foram adicionadas para o lituano.</li>
+<br/>
+
+<p>Temos agora 27 idiomas totalmente suportados: albanês, basco, bielorrusso, bretão, catalão, catalão (valenciano), chinês tradicional, esloveno, espanhol, francês, grego, holandês, hebraico, húngaro, indonésio, inglês britânico, italiano, macedônio, malaio, polonês, português, português brasileiro, romeno, russo, sueco, turco e ucraniano.</p>
+
+<p>Também temos 4 idiomas parcialmente suportados: alemão (91%), irlandês (87%), lituano (96%) e novo norueguês (85%).</p>
+
+<p>Você pode encontrar os pacotes desta nova versão para GNU/Linux, Windows e MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de download</a>. Esta atualização será disponibilizada na Play Store do Android, no repositório F-Droid e na Microsoft Store. O pacote para Raspberry Pi será disponibilizado logo.</p>
+
+<p>Obrigado a todos, <br/>
+Timothée e Johnny</p>{% endblock %}
