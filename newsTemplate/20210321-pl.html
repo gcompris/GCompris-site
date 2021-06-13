@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Wydano GCompris 1.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Witaj,<br />
+Jesteśmy zaszczyceni, że możemy ogłosić wydanie GCompris w wersji 1.1.</p>
+<p>Jest to wydanie poprawkowe, tak więcj każda dystrybucja GNU/Linuks dostarczająca 1.0 powinna uaktualnić do 1.1.</p>
+
+<p>Oto podusowanie wprowadzonych zmian:</p>
+<li class="puce">Uaktualniono grafikę dla 21 aktywności.</li>
+<li class="puce">Usunęliśmy wiele błędów.</li>
+<li class="puce">Dodano budowę na Dotykowe Ubuntu.</li>
+<li class="puce">Poprawiono zapis dystryktów tureckich.</li>
+<li class="puce">Dodaliśmy minimalny alternatywny pakiet .msi dla Windowsa.</li>
+<li class="puce">Plik wykonywalny GCompriz zmienił licencję na AGPLv3 ze względu na zależność elektryczności analogowej.</li>
+<br/>
+<p>Po stronie tłumaczeń:</p>
+<li class="puce">Ukończono albański, białoruski, brazylijski portugalski oraz rosyjski.</li>
+<li class="puce">Irlandzki oraz Macedoński wróciły (częściowe tłumaczoenie powyżej 80%).</li>
+<li class="puce">Zestaw słów dla aktywności ze słownictwem został dodany do albańskiego i macedońskiego.</li>
+<li class="puce">Dodano wszystkie głosy do litewskiego.</li>
+<br/>
+
+<p>Obsługujemy w pełni 27 języków: Albański, Basków, Białoruski, Brazylijski Portugalski, Bretoński, Brytyjski Angielski, Kataloński, Kataloński (Walencja), Chiński Tradycyjny, Holenderski, Francuski, Grecki, Hebrajski, Węgierski, Indonezyjski, Włoski, Macedoński, Malayalam, Polski, Portugalski, Rumuński, Rosyjski, Słoweński, Hiszpański, Szwedzki, Turecki i Ukraiński.</p>
+
+<p>Mamy także 4 języki częściowo obsługiwane: Niemiecki (91%), Irlandzki (87%), Litewski (96%) oraz Norweski Nynorsk (85%).</p>
+
+<p>Pakiety tej nowej wersji dla GNU/Linuksa, Windowsa oraz MacOSa możesz znaleźć na <a href="https://gcompris.net/downloads{{ suffix }}.html">stronie pobierań</a>. To uaktualnienie będzie wkrótce dostępne w Sklepie Andorida, repozytorium F-Droid oraz Sklepie Windowsa. Pakiet dla Raspberry Pi także będzie wkrótce dostępny.</p>
+
+<p>Dzięki wam wszystkim, <br/>
+Timothée & Johnny</p>{% endblock %}
