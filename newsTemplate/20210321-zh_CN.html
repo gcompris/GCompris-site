@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = '发布 GCompris 1.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Hi,<br />
+我们高兴地宣布 GCompris 1.1 版本的发布。</p>
+<p>这是一个维护性版本更新，所以每一个使用1.0版本的 GNU/Linux 发行版应更新到 1.1 版本。</p>
+
+<p>下面是包含的更改的摘要：</p>
+<li class="puce">21项活动的图形已经更新。</li>
+<li class="puce">我们修复了大量的漏洞。</li>
+<li class="puce">已为Ubuntu Touch添加了一个构建版本。</li>
+<li class="puce">更正了土耳其各区的拼写。</li>
+<li class="puce">我们为Windows添加了一个最小的 .msi 替代包。</li>
+<li class="puce">由于模拟电路的依赖，GCompris 可执行文件已经更改为 AGPLv3 许可证授权。</li>
+<br/>
+<p>在翻译方面：</p>
+<li class="puce">阿尔巴尼亚语、白俄罗斯语、巴西葡萄牙语和俄语已经完成。</li>
+<li class="puce">爱尔兰盖尔语和马其顿语已经回归（目前已翻译部分超过80%）。</li>
+<li class="puce">添加了阿尔巴尼亚语和马其顿语词汇表用于词汇活动。</li>
+<li class="puce">立陶宛语所有音频都已经添加。</li>
+<br/>
+
+<p>我们现在有27种语言得到充分支持：阿尔巴尼亚语、巴斯克语、白俄罗斯语、巴西葡萄牙语、布列顿语、英国英语、加泰罗尼亚语、加泰罗尼亚语(巴伦西亚语)、繁体中文、荷兰语， 法语、希腊语、希伯来语、匈牙利语、印度尼西亚语、意大利语、马其顿语、马来语、波兰语、葡萄牙语、罗马尼亚语、俄语、斯洛文尼亚语、西班牙语、瑞典语、土耳其语和乌克兰语。</p>
+
+<p>我们还有4种语言得到部分支持：德语(91%)、爱尔兰盖尔语(87%)、立陶宛语(96%)和挪威尼诺尔斯克语(85%)。</p>
+
+<p>您可以在 <a href="https://gcompris.net/downloads{{ suffix }}.html">下载页面</a>找到这个新版本的 GNU/Linux 、 Windows 和 MacOS 的包。 此更新将很快在 Android Play 商店、F-Droid 仓库和Windows 应用商店中提供。 为树莓派准备的包也将很快提供。</p>
+
+<p>谢谢大家， <br/>
+Timothee e & Johnny</p>{% endblock %}
