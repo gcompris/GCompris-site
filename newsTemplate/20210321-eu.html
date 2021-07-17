@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 1.1 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Kaixo,<br />
+Atseginez jakinarazten dugu GCompris-en 1.1 bertsioaargitaratu dela.</p>
+<p>Hau, mantentze-lanak dituen argitalpen bat da, eta 1.0 duten GNU/Linux banaketa guztiek 1.1era eguneratu beharko lukete.</p>
+
+<p>Hona hemen egindako aldaketen laburpena:</p>
+<li class="puce">Grafikoak 21 jardueratarako eguneratu dira.</li>
+<li class="puce">Akats asko konpondu ditugu.</li>
+<li class="puce">Ubuntu Toucherako eraikin bat gehitu da.</li>
+<li class="puce">Turkiako barrutien ortografia zuzendu da.</li>
+<li class="puce">Windows-erako aukerako .msi pakete minimo bat gehitu dugu.</li>
+<li class="puce">GCompris-en exekutagarria AGPLv3 lizentziara aldatu da «elektrizitate analogikoa»ren mendekotasunak direla eta.</li>
+<br/>
+<p>Itzulpenei dagokienez:</p>
+<li class="puce">Albaniera, bielorrusiera, Brasilgo portugesa eta errusiera osatu egin dira.</li>
+<li class="puce">Irlandako Gaelera eta Mazedoniera itzuli egin dira (% 80tik gorako itzulpen partziala oraingoz).</li>
+<li class="puce">Hiztegi jardueretarako hitz-multzoak gehitu dira albaniera eta mazedonierarako.</li>
+<li class="puce">Ahots guztiak gehitu zaizkio lituanierari.</li>
+<br/>
+
+<p>Euskarri osoa duten 27 hizkuntza ditugu orain: albaniera, bielorrusiera, Brasilgo portugesa, bretoiera, Britainiako ingelesa, errumaniera, errusiera, esloveniera, euskara, frantsesa, gaztelania, grekoa, hebreera, hungariera, indonesiera, italiera, katalana, katalana (valentziera), malabarera, mazedoniera, nederlandera, poloniera, portugesa, suediera, txinera tradizionala, turkiera eta ukrainera.</p>
+
+<p>Partzialki onartutako 4 hizkuntza ere baditugu: alemana (% 91), Irlandako gaelera (% 87), lituaniera (% 96) eta Norvegiako nynorks (% 85).</p>
+
+<p>Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, eta MacOS-rako, <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da eskuragarri Android Play dendan, F-Droid gordetegian eta Windows dendan. Raspberry Pi-rako paketeak laster egongo dira erabilgarri.</p>
+
+<p>Eskerrik asko guztiei, <br/>
+Timothée & Johnny</p>{% endblock %}
