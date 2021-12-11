@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 1.1 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Sveiki,<br />
+Džiaugiamės galėdami paskelbti GCompris 1.1 versijos leidimą.</p>
+<p>Tai yra palaikomasis leidimas, tad kiekvienas GNU/Linux platinimasis paketas, teikiantis 1.0 versiją, turėtų atnaujinti „GCompris“ į 1.1 versiją.</p>
+
+<p>Šios versijos pakeitimų sąrašas:</p>
+<li class="puce">Atnaujinti vaizdai 21 pamokėlei.</li>
+<li class="puce">Ištaisėme daug klaidų.</li>
+<li class="puce">Pridėjome Ubuntu Touch versiją.</li>
+<li class="puce">Pataisėme Turkijos apskričių rašybą.</li>
+<li class="puce">Pridėjome alternatyvų minimalų .msi paketą Windows operacinei sistemai.</li>
+<li class="puce">GCompris paleidimo failas perlicencijuotas į AGPLv3 dėl analoginės elektros poreikio.</li>
+<br/>
+<p>Vertimų į kitas kalbas progresas:</p>
+<li class="puce">Užbaigti vertimai į albanų, baltarusių, brazilų portugalų ir rusų kalbas.</li>
+<li class="puce">Sugrąžinome airių gėlų ir makedonų kalbas (kol kas tai daliniai vertimai, užbaigti daugiau nei 80%).</li>
+<li class="puce">Pridėjome žodžių sąrašą žodyno pamokėlėms albanų ir makedonų kalbomis.</li>
+<li class="puce">Užbaigtas lietuviškas įgarsinimas.</li>
+<br/>
+
+<p>Mes jau pilnai palaikome 27-ias kalbas: albanų, baskų, baltarusių, brazilų portugalų, bretonų, britų anglų, graikų, hebrajų, indoneziečių, ispanų, italų, katalonų, katalonų (Valensijos), tradicinę kinų, lenkų, makedonų, malajalių, olandų, portugalų, prancūzų, rumunų, rusų, slovėnų, švedų, turkų, ukrainiečių ir vengrų.</p>
+
+<p>Iš dalies palaikome 4 kalbas: airių gėlų (87%), lietuvių (96%), norvegų nynorską (85%) ir vokiečių (91%).</p>
+
+<p>Šios versijos paketus GNU/Linux, Windows ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje. Paketas Raspberry Pi sistemai irgi greitai bus išleistas.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>
+Timothée ir Johnny</p>{% endblock %}
