@@ -47,13 +47,8 @@ for entry in poFile:
     index = originalNewsFilename.find('.html')
     newsFilename = "newsTemplate/" + originalNewsFilename[:index] + '-' + locale + originalNewsFilename[index:]
 
-    # if the news has been ignored because it either already exists or has at least one string not translated
+    # if the news has been ignored because at least one string not translated
     if newsFilename in ignoredNews:
-        continue
-    if os.path.isfile(newsFilename):
-        if not newsFilename in ignoredNews:
-            print(newsFilename + " already exists, we skip it")
-        ignoredNews.append(newsFilename)
         continue
 
     # Check if the news is 100% translated, else skip it
