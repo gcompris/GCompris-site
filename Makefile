@@ -61,9 +61,11 @@ update:
 	rm -rf po; \
 	python3 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  mv locale/$$lang.po locale/$$lang/LC_MESSAGES/gcompris.po; \
-	  msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
-	  python3 tools/convertPoToNews.py $$lang locale/$$lang/LC_MESSAGES/gcompris.po; \
+	  if [ -f locale/$$lang.po ]; then \
+		mv locale/$$lang.po locale/$$lang/LC_MESSAGES/gcompris.po; \
+		msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
+		python3 tools/convertPoToNews.py $$lang locale/$$lang/LC_MESSAGES/gcompris.po; \
+	fi; \
 	done;
 #
 # Run this when new strings are added in the templates
