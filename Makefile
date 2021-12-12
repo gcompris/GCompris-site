@@ -4,10 +4,6 @@ VERSION = 1.1
 ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr ga gd gl he hi hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
 #ALL_LINGUAS = fr
 
-POFILES=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang.po "; done)
-
-CATALOGS=$(shell LINGUAS="$(ALL_LINGUAS)"; for lang in $$LINGUAS; do printf "locale/$$lang.mo  "; done)
-
 HTML := $(ALL_LINGUAS:%=index-%.html)
 
 sources = \
@@ -45,12 +41,26 @@ index-%.html: $(sources)
 	./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
 
 #
-# Run it to update the translation. This requires the .po from the -qt version.
+# Run it to update the translation.
+# 1) It will first download all po files from the GCompris version.
+# Then, it will convert them to .qm files to be read by PyQt (to get the ActivityInfo.qml translated).
+# 2) The second for loop is to retrieve the gcompris-net po files and convert them
+# to .mo files to be used by Jinja2.
 update:
 	linguas="$(ALL_LINGUAS)"; \
+	python3 $(GCOMPRIS_DIR)/tools/l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
+	for lang in $$linguas; do \
+	  translationFolder="locale/$$lang/LC_MESSAGES"; \
+	  outTsFile="$$translationFolder/gcompris_qt.ts"; \
+	  outQmFile="$$translationFolder/gcompris_qt.qm"; \
+	  mkdir -p $$translationFolder; \
+	  msgattrib --no-obsolete po/gcompris_$$lang.po -o $$outTsFile; \
+	  lconvert -if po -of ts -i $$outTsFile -o $$outTsFile; \
+	  lrelease -compress -nounfinished $$outTsFile -qm $$outQmFile; \
+	done; \
+	rm -rf po; \
 	python3 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  mkdir -p locale/$$lang/LC_MESSAGES; \
 	  mv locale/$$lang.po locale/$$lang/LC_MESSAGES/gcompris.po; \
 	  msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
 	  python3 tools/convertPoToNews.py $$lang locale/$$lang/LC_MESSAGES/gcompris.po; \

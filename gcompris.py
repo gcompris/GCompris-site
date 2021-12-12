@@ -49,12 +49,8 @@ except:
 
 # Create Qt application to load the activities information from ActivityInfo.qml
 app = QCoreApplication(sys.argv)
-# looking for the translation file in gcompris folder.
-# for now, we expect that it is compiled within GCompris source folder
 translator = QTranslator()
-for file_path in Path(gcomprisdir).glob('**/gcompris_'+locale+'.qm'):
-    translator.load(str(file_path))
-    break
+translator.load(str("locale/"+locale+"/LC_MESSAGES/gcompris_qt.qm"))
 app.installTranslator(translator)
 
 # Load the proper locale catalog
