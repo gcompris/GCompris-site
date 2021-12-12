@@ -28,7 +28,12 @@ if len(sys.argv) < 3:
     sys.exit(1)
 
 locale = sys.argv[1]
-poFile = polib.pofile(sys.argv[2], encoding="utf-8")
+poFilename=sys.argv[2]
+if not os.path.isfile(poFilename):
+    print(poFilename, "does not exist, we cannot create news files for", locale)
+    sys.exit(1)
+
+poFile = polib.pofile(poFilename, encoding="utf-8")
 
 news = {}
 
