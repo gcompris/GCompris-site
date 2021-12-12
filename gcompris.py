@@ -17,7 +17,6 @@ from ActivityInfo import ActivityInfo
 from ApplicationInfo import ApplicationInfo
 from PyQt5.QtCore import QCoreApplication, QUrl, QTranslator
 from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
-from pathlib import Path
 
 reload(sys)
 
@@ -440,11 +439,6 @@ with codecs.open('downloads' + suffix + '.html', 'w', encoding='utf8') as f:
 
 with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
     f.write( outputFeedAllText )
-
-template = templateEnv.get_template("template/download_macosx.html")
-outputText = template.render(templateVars)
-with codecs.open('download_macosx' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputText )
 
 if suffix == '-en':
     template = templateEnv.get_template("template/404.html")

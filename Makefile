@@ -12,7 +12,6 @@ sources = \
 	template/christmas.html \
 	template/donate.html \
 	template/downloads.html \
-	template/download_macosx.html \
 	template/index.html \
 	template/news.html \
 	template/newsall.html \
