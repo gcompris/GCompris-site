@@ -187,7 +187,10 @@ def getBoards():
                 for error in component.errors():
                     print(error.toString())
                 exit(-1)
-             
+            # ignore disabled activities
+            if not activityInfo.property('enabled'):
+                print("Disabling", activityInfo.property('name'))
+                continue
             description = activityInfo.property('description').replace('\n', '<br/>')
             name = activityInfo.property('name').split('/')[0]
             title = activityInfo.property('title')
