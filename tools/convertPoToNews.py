@@ -32,6 +32,7 @@ poFile = polib.pofile(sys.argv[2], encoding="utf-8")
 
 news = {}
 
+ignoredNews = []
 # reading all news translations from the po
 # storing them in a dict
 for entry in poFile:
@@ -44,25 +45,31 @@ for entry in poFile:
         continue
     originalFilename = "newsTemplate/" + originalNewsFilename
     index = originalNewsFilename.find('.html')
-    filename = "newsTemplate/" + originalNewsFilename[:index] + '-' + locale + originalNewsFilename[index:]
+    newsFilename = "newsTemplate/" + originalNewsFilename[:index] + '-' + locale + originalNewsFilename[index:]
 
-    if os.path.isfile(filename):
-        print(filename + " already exists, we skip it")
+    # if the news has been ignored because it either already exists or has at least one string not translated
+    if newsFilename in ignoredNews:
+        continue
+    if os.path.isfile(newsFilename):
+        if not newsFilename in ignoredNews:
+            print(newsFilename + " already exists, we skip it")
+        ignoredNews.append(newsFilename)
         continue
 
     # Check if the news is 100% translated, else skip it
     isFullyTranslated = True
     for allEntries in poFile:
         if allEntries.msgctxt == originalNewsFilename and (allEntries.msgstr == "" or "fuzzy" in entry.flags):
-            print("Skip", filename, "due to", allEntries)
+            print("Skip", newsFilename, "due to", allEntries.msgid, "not translated")
             isFullyTranslated = False
+            ignoredNews.append(newsFilename)
             break
     if not isFullyTranslated:
         continue
 
     currentNews = {}
-    if news.get(filename):
-        currentNews = news.get(filename)
+    if news.get(newsFilename):
+        currentNews = news.get(newsFilename)
 
     context = entry.comment
     if "title" in context:
@@ -71,7 +78,7 @@ for entry in poFile:
     else:
         currentNews[polib.unescape(entry.msgid)] = polib.unescape(entry.msgstr)
 
-    news[filename] = currentNews
+    news[newsFilename] = currentNews
 # for all news we have in the pot file, we create the corresponding html 
 # translated file
 for currentNews in news:
