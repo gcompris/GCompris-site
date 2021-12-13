@@ -16,15 +16,16 @@ The official repository is [hosted by
 KDE](https://invent.kde.org/websites/gcompris-net)
 
 ## Requirements
+* subversion
 * Jinja2
 * PyQt5 (QtCore and QtQml)
 
 ## Build this website
 
 ```bash
-git clone git@invent.kde.org:education/gcompris.git
 git clone git@invent.kde.org:websites/gcompris-net.git
-cd gcompris; git checkout KDE/2.0; cd ..
 cd gcompris-net/screenshots_qt; ./small_middle_converter.sh; cd ..
-GCOMPRIS_DIR=../gcompris make clean update all
+make clean update all
 ````
+
+The update target will get the GCompris corresponding tarball source version from https://gcompris.net/download/qt/src/ and uncompress it in the website folder if not already present.
