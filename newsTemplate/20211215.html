@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Hi,<br />
+We are pleased to announce the release of GCompris 2.0. The educational value and the hours of fun and entertainment it provides children of all ages makes it the perfect present for these festive holidays.</p>
+<p>It contains many new and improved activities. Below is a summary of included changes.</p>
+
+<p>New Activities:</p>
+<li class="puce">Baby mouse is for children learning to interact with a computer for the first time.</li>
+<li class="puce">Oware is a traditional African strategy game, it can be played against the computer or with a friend.</li>
+<li class="puce">In Path encoding (absolute or relative) children need to give a set of directions to follow a defined path in a grid.</li>
+<li class="puce">Path decoding (absolute or relative) is the opposite. Children have to create the path corresponding to a defined set of directions.</li>
+<li class="puce">In Learn quantities, the goal is to count how many items are needed to represent a quantity.</li>
+<li class="puce">In Learn decimal numbers, children cut units in pieces to learn the concept of decimal numbers.</li>
+<li class="puce">Learn decimal additions and Learn decimal subtractions use the same principles as Learn decimal numbers, but this time to practice these operations.</li>
+<li class="puce">With Ordering numbers, children can practice ordering numbers in ascending or descending order.</li>
+<li class="puce">With Ordering letters, children can practice ordering letters in alphabetical order or in reverse order.</li>
+<li class="puce">Ordering sentences is a step up in which children can practice reading and grammar by sorting out parts of a sentence.</li>
+<li class="puce">Positions is an activity to learn the terms describing the relative position of an object.</li>
+
+<br/>
+<p>Improved activities:</p>
+<li class="puce">Analog electricity has a new set of tutorial level.</li>
+<li class="puce">Programming maze has a new dataset containing loops operations, and its tutorial images are now translated.</li>
+<li class="puce">Magic hat activities have new datasets for younger children.</li>
+<li class="puce">In Solar system we now use Earth days and years as unit for all planets.</li>
+<li class="puce">In Geography activities, all the maps have been redrawn and updated, using better projections and in svg format. We also added new maps for each part of Asia (East, Southeast, South, Central and Western).</li>
+<li class="puce">New images and visual improvements for Hanoï activities, Missing letter, Money activities, Photo hunter, Simple paint and Tangram.</li>
+<li class="puce">We have a new Inkscape extension to help creating svg maps and puzzles (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... and many more little fixes and improvements.</p>
+
+<br/>
+
+<p>On the translation side, GCompris 2.0 contains 33 languages. 26 are fully translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, Swedish, Ukrainian). 7 Are partially translated: (German (96%), Norwegian Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish (76%) and Russian (76%)).</p>
+
+<p>As usual you can find packages of this new version for GNU/Linux, Windows, Android, Raspberry Pi and macOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will also be available soon in the Android Play store, the F-Droid repository and the Windows store.</p>
+
+<p>Thank you all, <br/>
+Timothée & Johnny</p>{% endblock %}
