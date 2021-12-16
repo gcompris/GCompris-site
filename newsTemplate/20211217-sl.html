@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Zdravo,<br />
+Veseli nas, da lahko objavimo izdajo GCompris 2.0. Izobraževalna vrednost in ure zabave, ki jih nudi otrokom vseh starosti je popolno darilo za te praznične počitnice.</p>
+<p>Vsebuje veliko novih in izboljšanih dejavnosti. Spodaj je povzetek vključenih sprememb.</p>
+
+<p>Nove dejavnosti:</p>
+<li class="puce">Mišji dojenček je za otroke, ki se prvič učijo interakcijo z računalnikom.</li>
+<li class="puce">Oware je tradicionalna afriška strateška igra, lahko se jo igra proti računalniku ali s prijateljem.</li>
+<li class="puce">V kodiranju poti (absolutni ali relativni) morajo otroci dati niz navodil za sledenje določeni poti v mreži.</li>
+<li class="puce">Dekodiranje poti (absolutno ali relativno) je obratno. Otroci morajo ustvariti pot, ki ustreza določenemu nizu navodil.</li>
+<li class="puce">Pri učenju količin je cilj prešteti, koliko predmetov je potrebno, da predstavljajo količino.</li>
+<li class="puce">Pri učenju decimalnih števil, otroci razrežejo enote na kose, da se naučijo koncepta decimalnih števil.</li>
+<li class="puce">Učenje decimalnega seštevanja in učenje decimalnega odštevanja uporablja enaka načela kot učenje decimalnih števil, a tokrat vadi operacije.</li>
+<li class="puce">Pri razvrščanju števil lahko otroci vadijo razvrščanje števil v naraščajočem ali padajočem vrstnem redu.</li>
+<li class="puce">Z razvrščanjem črk lahko otroci vadijo razvrščanje črk po abecednem ali obratnem vrstnem redu.</li>
+<li class="puce">Razvrščanje stavkov je naslednji korak, v katerem lahko otroci vadijo branje in slovnico z razvrščanjem delov stavka.</li>
+<li class="puce">Položaji so dejavnost, da se naučijo izrazov, ki opisujejo relativni položaj predmeta.</li>
+
+<br/>
+<p>Izboljšane dejavnosti:</p>
+<li class="puce">Analogna elektrika ima novo zbirko ravni učenja.</li>
+<li class="puce">Programiranje labirinta ima novo zbirko podatkov, ki vsebuje operacije zank in njegove slike za vaje so zdaj prevedene.</li>
+<li class="puce">Dejavnosti čarobnega klobuka imajo nove zbirke podatkov za mlajše otroke.</li>
+<li class="puce">V sončnem sistemu zdaj uporabljamo zemeljske dneve in leta kot enote za vse planete.</li>
+<li class="puce">V dejavnostih geografije so vsi zemljevidi ponovno narisani in posodobljeni, z uporabo boljše projekcije in v obliki svg. Dodali smo tudi nove zemljevide za vsak del Azije (vzhodni, jugovzhodni, južni, osrednji in zahodni).</li>
+<li class="puce">Nove slike in vizualne izboljšave za dejavnosti  Hanoï, manjkajočo črko, denarne dejavnosti, foto lovca, preprosto barvanje in Tangram.</li>
+<li class="puce">Imamo novo razširitev za Inkscape za kreiranje zemljevidov in sestavljank (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... in še veliko malih popravkov in izboljšav.</p>
+
+<br/>
+
+<p>Na strani prevoda GCompris 2.0 imamo 33 jezikov. V celoti je podprtih 26 jezikov: azarbejžanski, albanski, baskovski, beloruski, brazilsko portugalski, britansko angleški, katalonski, katalonski (Valencia), tradicionalni kitajski, nizozemski, francoski, grški, hebrejski, madžarski, indonezijski, italijanski, makedonski, malajalamski, poljski, portugalski, romunski, ruski, slovenski, španski, švedski, turški in ukrajinski. 7 je delnih prevodov: (nemški (96%), norveški (96%), beloruski (83%), makedonski (82%), bretonski (80%), turški (76%) in ruski (76%).</p>
+
+<p>Ko ponavadi lahko najdete pakete te nove verzije lahko najdete za GNU/Linux, Windows, Android, Raspberry Pi in MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in trgovini za Windows.</p>
+
+<p>Hvala vsem, <br/>
+Timothée in Johnny</p>{% endblock %}

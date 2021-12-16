@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Tungjatjeta,<br />\Kemi kënaqësinë t’ju njoftojmë hedhjen në qarkullim të GCompris 2.0. Vlerat edukative dhe orët e dëfrimit që ofron për fëmijët e të gjitha moshave e bën dhuratën e përsosur për këto pushime festive.</p>
+<p>Përmban mjaft veprimtari të reja dhe të përmirësuara. Më poshtë vijon një përmbledhje e ndryshimeve të përfshira.</p>
+
+<p>Veprimtari të reja:</p>
+<li class="puce">Miu për bebe është për fëmijë që mësojnë të ndërveprojnë për herë të parë me një kompjuter.</li>
+<li class="puce">Oware është një lojë tradicionale afrikane për strategji, mund të luhet kundër kompjuterit ose me një shok.</li>
+<li class="puce">Te Kodim shtigjesh (absolute ose relative) fëmijët lypset të japin një grup udhëzimesh për ndjekje te një rrjetë të një shtegu të caktuar.</li>
+<li class="puce">Shkodim shtigjesh (absolute ose relative) është e kundërta. Fëmijët duhet të krijojnë shtegun që i përgjigjet një grupi të caktuar udhëzimesh.</li>
+<li class="puce">Te “Mësoni sasitë”, synimi është të numërohen sa objekte duhen për të përfaqësuar një sasi.</li>
+<li class="puce">Te “Mësoni numrat dhjetorë”, fëmijët presin njësi në copa, për të mësuar konceptin e numrave dhjetorë.</li>
+<li class="puce">“Mësoni mbledhje dhjetore” dhe “Mësoni zbritje dhjetore” përdorin të njëjtat parime si “Mësoni numrat dhjetorë”, por këtë herë për të praktikuar këto veprime.</li>
+<li class="puce">Me “Renditje numrash”, fëmijët mund të praktikojnë renditje numrash në rend rritës ose zbritës.</li>
+<li class="puce">Me “Renditje shkronjash”, fëmijët mund të praktikojnë renditje shkronjash në rend alfabetik ose në kah të kundërt.</li>
+<li class="puce">Renditja e togfjalëshave është një hap më sipër, në të cilën fëmijët mund të ushtrohen në lexim dhe gramatikë, duke renditur pjesë të një togfjalëshi.</li>
+<li class="puce">“Pozicione” është një veprimtari për të mësuar terma që përshkruajnë pozicionin relativ të një objekti.</li>
+
+<br/>
+<p>Veprimtari të përmirësuara:</p>
+<li class="puce">Elektriciteti analog ka një nivel të ri grupi përkujdesoreje</li>
+<li class="puce">Labirinti i programimit ka një grup të ri të dhënash që përmban veprime me “loop” dhe tani figurat e përkujdesores përkatëse janë të përkthyera.</li>
+<li class="puce">Veprimtaritë e “Kapelës magjike” kanë grupe të reja të dhënash, për fëmijë më të vegjël.</li>
+<li class="puce">Te “Sistemi diellor” tani përdorim ditë dhe vite tokësore për krejt planetët.</li>
+<li class="puce">Te veprimtaritë e Gjeografisë, krejt hartat janë vizatuar sërish dhe përditësuar, duke përdorur projeksione më të mira dhe në formatin svg. Shtuam gjithashtu harta të reja për çdo pesë të Azisë (Lindje, Juglindje, Jug, Qendrore dhe Perëndime).</li>
+<li class="puce">Figura të reja dhe përmirësime pamore për veprimtaritë Hanoï, Shkronja që mungojnë, veprimtaritë Para, Gjuetar fotosh, Ngjyrosje e thjeshtë dhe Tangram.</li>
+<li class="puce">Kemi një zgjerim të ri për Inkscape, për t’ju ndihmuar të krijoni harta dhe puzzle-e në svg (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>… dhe mjaft ndreqje dhe përmirësime të vockla.</p>
+
+<br/>
+
+<p>Për sa i përket përkthimit, GCompris 2.0 përmban 33 gjuhë. 26 gjuhë janë plotësisht të përkthyera: (azerbajxhanisht, anglishte britanike, baskisht, bretone, estonisht, finlandisht, frëngjisht, greqisht, hebraisht, holandisht, hungarisht, indoneziane, italisht, katalanisht, katalanisht (Valencie), kinezçe tradicionale, lituanisht, malajalame, polonisht, portugalishte Brazili, portugalisht, rumanisht, sllovenisht, shqip, spanjisht, suedisht, ukrainase). 7 janë pjesërisht të përkthyera: (bjellorusisht (83%), gjermanisht (96%), norvegjishte nynorsk (96%), maqedonisht (82%), bretonisht (80%), turqisht (76%) dhe rusisht (76%)).</p>
+
+<p>As usual you can find packages of this new version for GNU/Linux, Windows, Android, Raspberry Pi and macOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will also be available soon in the Android Play store, the F-Droid repository and the Windows store.
+
+Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë gjithashtu së shpejti i passhëm te shitorja Android Play, depoja F-Droid dhe shitorja Windows.</p>
+
+<p>Faleminderit të tërëve, <br/>
+Timothée & Johnny</p>{% endblock %}

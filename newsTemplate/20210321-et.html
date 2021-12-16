@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GComprise versiooni 1.1 väljalase' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r1.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 1.1'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r1.1.png')"/>
+
+<p>Hei,<br />
+Meil on suur rõõm teada anda, et GComprise 1.1 on lõpuks saadaval.</p>
+<p>See on hooldusväljaanne, nii et iga GNU / Linuxi distribuutor kes levitab versiooni 1.0 peaks uuendama 1.1-le.</p>
+
+<p>Siin on kokkuvõte muudatustest:</p>
+<li class="puce">Graafikat on uuendatud 21 tegevuse jaoks.</li>
+<li class="puce">Me oleme parandanud palju vigu.</li>
+<li class="puce">Lisatud on versioon Ubuntu Touchi jaoks.</li>
+<li class="puce">Türgi piirkondade õigekiri on fikseeritud.</li>
+<li class="puce">Lisasime Windowsi jaoks minimaalse .msi alternatiivse paketi.</li>
+<li class="puce">Gcompris on AGPLv3 jaoks taaslitsenseeritud, kuna seda kasutab analoogelekter.</li>
+<br/>
+<p>Tõlke poolel:</p>
+<li class="puce">Albaania, Valgevene, Brasiilia portugali ja vene keele tõlge on lõpetatud.</li>
+<li class="puce">Iiri gaeli ja makedoonia keel on tagasi tulnud (omavad osalist tõlget, üle 80%).</li>
+<li class="puce">Albaania ja makedoonia keele jaoks on lisatud sõnavara tegevuste jaoks sõnu.</li>
+<li class="puce">Kõik hääled on lisatud leedu keelele.</li>
+<br/>
+
+<p>Meil on nüüd täielikult toetatud 27 keelt: albaania, baski, valgevene, brasiilia portugali, bretoon, briti inglise, katalaani, katalaani (valencia), traditsiooniline hiina, hollandi, prantsuse, kreeka, heebrea, ungari, indoneesia, itaalia, makedoonia, malajalami, poola, portugali, rumeenia, vene, sloveeni, hispaania, rootsi, türgi ja ukraina keel.</p>
+
+<p>Osaliselt toetatakse ka 4 keelt: saksa (91%), iiri gaeli (87%), leedu (96%) ja norra nynorski (85%).</p>
+
+<p>Selle uue versiooni paketid GNU/Linuxi, Windowsi ja MacOS-i jaoks leiate <a href="https://gcompris.net/downloads{{ suffix }}.html">allalaadimislehel</a>. See värskendus on peagi saadaval Android Play poes, F-Droidi hoidlas ja Windowsi poes. Samuti on varsti tulekul ka Raspberry Pi pakett.</p>
+
+<p>Täname teid kõiki, <br/>
+Timothée ja Johnny</p>{% endblock %}

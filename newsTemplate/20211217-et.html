@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GComprise väljalase 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Hei<br />
+Meil on hea meel teatada GCompris 2.0 väljaandmisest. Hariduslik väärtus ning lõbus ja meelelahutus, mida see pakub igas vanuses lastele, muudab selle ideaalseks kingituseks nende pidulike pühade jaoks.</p>
+<p>See sisaldab palju uusi ja täiustatud tegevusi. Allpool on kokkuvõte lisatud muudatustest.</p>
+
+<p>Uued tegevused:</p>
+<li class="puce">Beebihiir on mõeldud lastele, kes teevad arvutit kasutades esimesi samme.</li>
+<li class="puce">Oware on traditsiooniline Aafrika strateegia mäng, seda saab mängida nii arvuti või sõbraga.</li>
+<li class="puce">Tee kodeerimises (absoluutne või suhteline) peavad lapsed andma juhiste kogumi, et järgida ruudustikus määratletud teed.</li>
+<li class="puce">Tee dekodeerimine (absoluutne või suhteline) on vastupidine. Lapsed peavad looma tee, mis vastab määratletud juhiste kogumile.</li>
+<li class="puce">Jaotises "Õpi koguseid" on eesmärk loendada, kui palju kaupu on koguse esindamiseks vaja.</li>
+<li class="puce">Jaotises "Õpi kümnendarve" lõikavad lapsed kümnendarvu mõiste õppimiseks ühikuid tükkideks.</li>
+<li class="puce">Kümnendarvude liitmise õppimine ja kümnendarvude lahutamise õppimine kasutavad samu põhimõtteid nagu kümnendarvude õppimine, kuid seekord neid liites ja lahutades.</li>
+<li class="puce">Numbrite järjestamise abil saavad lapsed harjutada numbrite järjestamist kasvavas või kahanevas järjekorras.</li>
+<li class="puce">Tähtede tellimise abil saavad lapsed harjutada tähtede järjestamist tähestikulises või vastupidises järjekorras.</li>
+<li class="puce">Lausete järjestamine on samm, mille käigus lapsed saavad harjutada lugemist ja grammatikat, sorteerides lauseosi.</li>
+<li class="puce">Positions is an activity to learn the terms describing the relative position of an object.</li>
+
+<br/>
+<p>Täiustatud tegevused:</p>
+<li class="puce">Analoogelektril on uus õpetuse tase.</li>
+<li class="puce">Programmeerimislabürindil on uus andmekogum, mis sisaldab tsüklite toiminguid, ja selle õpetuspildid on nüüd tõlgitud.</li>
+<li class="puce">Võlukübarate tegevustel on nooremate laste jaoks uued andmekogumid.</li>
+<li class="puce">Päikesesüsteemis kasutame maa päevi ja aastaid kõigi planeetide ühikuna.</li>
+<li class="puce">Geograafia tegevustes on kõik kaardid ümber joonistatud ja värskendatud, kasutades paremaid projektsioone ja svg-vormingus. Lisasime ka uued kaardid Aasia iga osa jaoks (ida, kagu, lõuna, kesk- ja lääneosa).</li>
+<li class="puce">Uued pildid ja visuaalsed täiustused Hanoï tegevuste jaoks, Kadunud kiri, Rahalised tegevused, Fotokütt, Lihtne värv ja Tangram.</li>
+<li class="puce">Meil on uus Inkscape'i laiendus, mis aitab luua svg kaarte ja mõistatusi (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... ja palju muid väikeseid parandusi ja täiustusi.</p>
+
+<br/>
+
+<p>Tõlkepoolel sisaldab GCompris 2.0 33 keelt. 26 on täielikult tõlgitud: (aserbaidžaani, albaania, baski, brasiilia portugali, briti inglise, katalaani, katalaani (valencia), hiina traditsiooniline, hollandi, eesti, soome, prantsuse, kreeka, heebrea, ungari, indoneesia, itaalia, leedu, malajalami, poola, portugali, rumeenia, sloveeni, hispaania, rootsi, ukraina). 7 on osaliselt tõlgitud: (saksa (96%), norra nynorsk (96%), valgevene (83%), makedoonia (82%), bretooni (80%), türgi (76%) ja vene (76%).</p>
+
+<p>Nagu tavaliselt, leiate selle uue versiooni paketid GNU/Linuxi, Windowsi, Androidi, Raspberry Pi ja macOS-i jaoks saidilt <a href="https://gcompris.net/downloads{{ suffix }}.html"> allalaadimisleht</a>. See värskendus on peagi saadaval ka Android Play poes, F-Droidi hoidlas ja Windowsi poes.</p>
+
+<p>Täname teid kõiki, <br/>
+Timothée ja Johnny</p>{% endblock %}

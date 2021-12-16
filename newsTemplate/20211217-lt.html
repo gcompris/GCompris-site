@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.0 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Sveiki,<br />
+Džiaugiamės galėdami paskelbti GCompris 2.0 versijos leidimą. Dėl mokomosios vertės ir linksmybių bei pramogų, kurias jis suteikia įvairaus amžiaus vaikams, tai puiki dovana šioms šventinėms atostogoms.</p>
+<p>Daug naujų ir patobulintų veiklų. Žemiau pateikiame pakeitimų santrauką.</p>
+
+<p>Naujos pamokėlės:</p>
+<li class="puce">Vaikiška dėlionė skirta vaikams, kurie pirmą kartą mokosi bendrauti su kompiuteriu.</li>
+<li class="puce">Oware yra tradicinis Afrikos strateginis žaidimas, kurį galima žaisti prieš kompiuterį arba su draugu.</li>
+<li class="puce">Kelio kodavimas (absoliutus ar santykinis). Vaikai turi paruošti komandų rinkinį, kurio pagalba būtų galima eiti nurodytu keliu tinklelyje.</li>
+<li class="puce">Kelio dekodavimas (absoliutus ar santykinis). Vaikai, priešingai, turi sukurti kelią, atitinkantį duotą komandų rinkinį.</li>
+<li class="puce">Mokykis skaičiuoti tikslas yra suskaičiuoti, kiek daiktų reikia kiekiui pavaizduoti.</li>
+<li class="puce">Mokykis dešimtainius skaičius. Vaikai dalina vienetus į dalis ir taip supranta dešimtainius skaičius.</li>
+<li class="puce">Mokykis dešimtainių skaičių sudėties ir atimties. Naudojami tie patys principai, kaip ir mokantis dešimtainių skaičių, tik dar praktikuojamasi sudėti ir atimti.</li>
+<li class="puce">Skaičių rikiavimas. Vaikai praktikuojasi išdėlioti skaičius didėjimo arba mažėjimo tvarka.</li>
+<li class="puce">Raidžių rūšiavimas. Vaikai praktikuojasi išrikiuoti raides abėcėlės ar atvirkščia abėcėlei tvarka.</li>
+<li class="puce">Sakinių rūšiavimas yra žingsnis, kuriame vaikai gali lavinti skaitymą ir gramatiką rūšiuodami sakinio dalis.</li>
+<li class="puce">Pozicijos yra veikla, skirta išmokti santykinę objekto padėtį apibūdinančių terminų.</li>
+
+<br/>
+<p>Patobulintos pamokėlės:</p>
+<li class="puce">Analoginė elektra turi naują mokymo rinkinį.</li>
+<li class="puce">Programavimo labirintas turi naują duomenų rinkinį, kuriame yra ciklų operacijos, o jo mokomieji vaizdai dabar išversti.</li>
+<li class="puce">Mago skrybėlės veikla turi naujų duomenų rinkinių jaunesniems vaikams.</li>
+<li class="puce">Saulės sistemoje Žemės dienas ir metus naudojame kaip vienetus visoms planetoms.</li>
+<li class="puce">Geografijos pamokėlėse visi žemėlapiai buvo perbraižyti ir atnaujinti svg formatu, naudojant geresnes projekcijas. Taip pat pridėjome naujus žemėlapius kiekvienai Azijos daliai (Rytų, Pietryčių, Pietų, Vidurio ir Vakarų), pamokėlę Sudėkiok šalį papildėme Lietuvos etnokultūriniais regionais.</li>
+<li class="puce">Nauji vaizdai ir vizualiniai patobulinimai „Hanojaus“ pamokėlėse, „Įrašyk raidę“, pamokėlėse su pinigais, „Nuotraukų medžioklėje“, piešimo pamokėlėse ir „Tangramų dėlionėje“.</li>
+<li class="puce">Turime naują Inkscape plėtinį, kuris padeda kurti SVG žemėlapius ir galvosūkius (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... ir daug kitų smulkių pataisymų ir patobulinimų.</p>
+
+<br/>
+
+<p>Gcompris 2.0 jau palaiko 33-is kalbas. Į 26-ias išverstas pilnai: (albanų, azerbaidžaniečių, baskų, brazilų portugalų, britų anglų, danų, estų, graikų, hebrajų, indoneziečių, ispanų, italų, katalonų, katalonų (Valensijos), kinų tradicinę, lenkų, lietuvių, malajų, portugalų, prancūzų, rumunų, slovėnų, suomių, švedų, ukrainiečių, vengrų ).Į 7-ias kalbas išverstas dalinai: (vokiečių (96%), norvegų nynorsk (96%), baltarusių (83%), Makedoniečių (82%), bretonų (80%), turkų (76%) ir rusų (76%)).</p>
+
+<p>Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>
+Timothée ir Johnny</p>{% endblock %}
