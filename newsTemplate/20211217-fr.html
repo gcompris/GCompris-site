@@ -1,0 +1,41 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 2.0 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Bonjour, <br />\Nous avons le plaisir de vous annoncer la sortie de GCompris 2.0. Cette année encore, les heures de plaisir et de divertissement que l'application procure en font un cadeau idéal pour ces fêtes de fin d'année.</p>
+<p>GCompris revient avec de plusieurs nouveautés et de nombreuses améliorations. Vous trouverez ci-dessous un résumé de ces changements.</p>
+
+<p>Nouvelles activités :</p>
+<li class="puce">L'activité Baby Mouse est destinée aux enfants qui apprennent à utiliser un ordinateur pour la première fois. Elle a pour but de développer la coordination œil-main et la dextérité. Basée autour du déplacement de canards, elle permet d'appréhender l'utilisation de la souris ou des écrans tactiles.</li>
+<li class="puce">L'owaré est un jeu de stratégie qui exige de l'anticipation et des compétences en calcul. L'owaré est à l'origine un passe-temps traditionnel africain et peut être joué contre un ami ou contre Tux.</li>
+<li class="puce">Encodage le chemin (absolu ou relatif), aident les enfants à interpréter des directions abstraites. À l'aide de flèches indiquant une direction sur une carte le joueur doit soit diriger Tux vers le drapeau final.</li>
+<li class="puce">Décodage le chemin (absolu ou relatif) est l'inverse. Les enfants doivent suivre le chemin correspondant à un ensemble défini de directions.</li>
+<li class="puce">Crée une collection permet de travailler le dénombrement et entraine à compter combien d'éléments sont nécessaires pour représenter une quantité.</li>
+<li class="puce">Apprends les nombres décimaux entraine les enfants à découper des unités en dixièmes pour apprendre le concept des nombres décimaux.</li>
+<li class="puce">Apprends à additionner avec des nombres décimaux et Apprends à soustraire avec des nombres décimaux, utilisent les mêmes principes que l'apprentissage des nombres décimaux, dans le but de pratiquer ces opérations.</li>
+<li class="puce">Ordonne les nombres permet de s'entraîner à ordonner les nombres dans l'ordre croissant et décroissant.</li>
+<li class="puce">Ordonne les lettre permet de son côté de s'entraîner à ordonner les lettres dans l'ordre alphabétique ou dans l'ordre alphabétique inversé.</li>
+<li class="puce">Une fois les connaissances sur la mise en ordre des lettres acquises, les enfants peuvent passer à l'étape suivante, qui consiste à s'exercer à la lecture et au sens des phrases en ordonnant les parties d'une phrase.</li>
+<li class="puce">L'activité de positions permet d'apprendre les termes décrivant la position relative d'un objet par rapport à un autre.</li>
+
+<br/>
+<p>Activités améliorées :</p>
+<li class="puce">Des tutoriels ont été rajoutés à l'activité d'électricité analogique pour mieux comprendre certains concepts et composants.</li>
+<li class="puce">L'activité Labyrinthe de programmation possède un nouveau jeu de données contenant des opérations de boucles. De plus, ses images de tutoriels sont maintenant traduites.</li>
+<li class="puce">Les activités du chapeau magique possèdent de nouvelles questions adaptées pour les enfants de 3 et 4 ans.</li>
+<li class="puce">L'activité Le système solaire utilise maintenant les jours et les années terrestres comme unité pour toutes les planètes.</li>
+<li class="puce">Pour les activités de géographie, toutes les cartes ont été redessinées et mises à jour, en utilisant de meilleures projections et dans le format « svg ». Nous avons également ajouté de nouvelles cartes pour chaque partie de l'Asie (Est, Sud-Est, Sud, Centre et Ouest).</li>
+<li class="puce">Nouvelles images et améliorations visuelles pour les activités « Hanoï », « Lettre manquante », « Activités d'argent », « Trouve les différences », « Activité de dessin » et « Tangram ».</li>
+<li class="puce">Nous avons une nouvelle extension « Inkscape » pour aider à créer des cartes et des puzzles en « svg » (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... et beaucoup d'autres petites corrections et améliorations.</p>
+
+<br/>
+
+<p>Concernant les traductions, GCompris prend en charge 33 langues, dont 26 langues sont totalement traduites : azerbaïdjanais, albanais, basque, brésilien portugais, anglais britannique, catalan, catalan (valencien), chinois traditionnel, hollandais, estonien, finnois, français, grec, hébreu, hongrois, indonésien, italien, lituanien,  malayalam, polonais, roumain, slovène, espagnol, suédois et ukrainien. 7 langues sont partiellement traduites : allemand (96 %), norvégien Nynorsk (96 %), macédonien (82 %), breton (80 %), turc (76 %) et russe (76 %).</p>
+
+<p>Comme d'habitude, vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, Windows, Raspberry Pi et MacOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible très bientôt dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt F-Droid.</p>
+
+<p>Merci à vous tous et toutes, <br/>
+Timothée & Johnny</p>{% endblock %}

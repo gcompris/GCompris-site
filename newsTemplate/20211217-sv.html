@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Hej,<br />
+Vi är är glada att tillkännage utgivningen av GCompris version 2.0. Det pedagogiska värdet och många timmars nöje och underhållning det ger till barn av alla åldrar gör det till den perfekta presenten inför kommande festliga helgdagar.</p>
+<p>Det innehåller många nya och förbättrade aktiviteter. Nedan är en sammanfattning av ändringarna som ingår.</p>
+
+<p>Nya aktiviteter:</p>
+<li class="puce">Bebismus är till för barn som håller på att lära sig att interagera med en dator för första gången.</li>
+<li class="puce">Oware är ett traditionellt afrikanskt strategispel. Det kan spelas mot datorn eller med en vän.</li>
+<li class="puce">I Vägkodning (absolut eller relativ) måste barn ge ett antal direktiv för att följa en definierad väg i ett rutnät.</li>
+<li class="puce">Vägavkodning (absolut eller relativ) är motsatsen. Barn måste skapa vägen som motsvarar ett definierat antal direktiv.</li>
+<li class="puce">I Lär dig antal, är målet att räkna hur många saker behövs för att representera en kvantitet.</li>
+<li class="puce">I Lär dig decimaltal, delar barn upp enheter för att lära sig konceptet decimaltal.</li>
+<li class="puce">Addera decimaltal och Subtrahera decimaltal använder samma principer som Lär dig decimaltal, men den här gången för att öva operationerna.</li>
+<li class="puce">Med Ordna tal, kan barn öva på att ordna tal i stigande eller fallande ordning.</li>
+<li class="puce">Med Ordna bokstäver, kan barn öva på att ordna bokstäver i alfabetisk ordning eller omvänd ordning.</li>
+<li class="puce">Ordna meningar är ytterligare ett steg där barn kan öva läsning och grammatik genom att ordna delar av en mening.</li>
+<li class="puce">Positioner är en aktivitet för att lära sig begreppen som beskriver ett objekts relativa position.</li>
+
+<br/>
+<p>Förbättrade aktiviteter:</p>
+<li class="puce">Analog elektricitet har en ny uppsättning handledningsnivåer.</li>
+<li class="puce">Programmeringslabyrint har en ny datauppsättning som innehåller snurrsatser, och dess övningsbilder är nu översatta.</li>
+<li class="puce">Aktiviteter med magiska hattar har nya datauppsättningar för yngre barn.</li>
+<li class="puce">I Solsystemet använder vi nu jorddagar och år som enhet för alla planeter.</li>
+<li class="puce">I Geografiaktiviteter har alla kartor ritats om och uppdaterats, med användning av bättre projektioner och med SVG-format. Vi har också lagt till nya kartor för olika delar av Asien (Öst, Sydöst, Syd, Central, och Väst).</li>
+<li class="puce">Nya bilder och visuella förbättringar för aktiviteterna Hanoï, Saknad bokstav, Pengar, Fotojägare, Enkel teckning och Tangram.</li>
+<li class="puce">Vi har en ny Inkscape-utökning för att hjälpa till med att skapa SVG-kartor och pussel (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... och många fler smårättningar och förbättringar.</p>
+
+<br/>
+
+<p>När det gäller översättningar innehåller GCompris 2.0 33 språk. 26 är fullständigt översatta: (azerbajdzjanska, albanska, baskiska, brasiliansk portugisiska, brittisk engelska, estländska, finska, franska, grekiska, hebreiska, holländska, indonesiska, italienska, katalanska, katalanska (valencianska), litauiska, malayalam, polska, portugisiska, rumänska, slovenska, spanska, svenska, traditionell kinesiska, ukrainska, ungerska). Sju är delvis översatta: (tyska (96 %), nynorska (96 %), vitryska (83 %), makedonska (82 %), bretonska (80 %), turkiska (76 %) och ryska (76 %)).</p>
+
+<p>Som vanligt finns paket av den nya versionen för GNU/Linux, Windows, Android, Raspberry Pi och macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer också snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+
+<p>Tack allesamman, <br/>
+Timothée och Johnny</p>{% endblock %}
