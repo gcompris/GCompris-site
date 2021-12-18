@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Hola,<br />
+Ens complau anunciar el llançament de la versió 2.0 del GCompris. El valor educatiu, així com les hores de diversió i entreteniment que proporciona als infants de totes les edats el converteix en el present perfecte per a aquestes festes.</p>
+<p>Conté moltes activitats noves i millorades. A continuació es mostra un resum dels canvis inclosos.</p>
+
+<p>Activitats noves:</p>
+<li class="puce">A «Ratolí de nadó» és per a que els infants aprenguin a interactuar amb un ordinador per primera vegada.</li>
+<li class="puce">«Aualé» és un joc tradicional africà d'estratègia, es pot jugar contra l'ordinador o amb un amic.</li>
+<li class="puce">«Codificació del camí» (absolut o relatiu) els infants han de donar un conjunt de direccions per a seguir un camí definit en una quadrícula.</li>
+<li class="puce">«Descodifica el camí» (absolut o relatiu) és el contrari. Els infants han de crear el camí corresponent amb un conjunt definit de direccions.</li>
+<li class="puce">A «Aprendre les quantitats», l'objectiu és comptar quants elements es necessiten per a representar una quantitat.</li>
+<li class="puce">A «Nombres decimals», els infants retallen unitats a trossos per a aprendre el concepte dels nombres decimals.</li>
+<li class="puce">A «Sumes amb nombres decimals» i «Restes amb nombres decimals» s'utilitzen els mateixos principis que a «Nombres decimals», però aquesta vegada per a practicar aquestes operacions.</li>
+<li class="puce">Amb «Ordena els números», els infants poden practicar ordenant els números en ordre ascendent o descendent.</li>
+<li class="puce">Amb «Ordena les lletres», els infants poden practicar ordenant les lletres en ordre alfabètic o en ordre invers.</li>
+<li class="puce">«Ordena les frases» és un pas avant en què els infants podran practicar la lectura i la gramàtica ordenant les parts d'una frase.</li>
+<li class="puce">«Posicions» és una activitat per a aprendre els termes que descriuen la posició relativa d'un objecte.</li>
+
+<br/>
+<p>Activitats millorades:</p>
+<li class="puce">«Electricitat analògica» té un conjunt nou de nivells de guia d'aprenentatge.</li>
+<li class="puce">«Programació en el laberint» té un conjunt de dades nou que conté operacions en bucle, i ara s'han traduït les imatges de la guia d'aprenentatge.</li>
+<li class="puce">Les activitats de «Màgic» tenen conjunts de dades nous per als infants més petits.</li>
+<li class="puce">Al «Sistema solar» ara utilitzem els dies i els anys de la Terra com a unitat per a tots els planetes.</li>
+<li class="puce">A les activitats de «Geografia» s'han redibuixat i actualitzat tots els mapes, utilitzant millors projeccions i en format SVG. També hem afegit mapes nous per a cada part d'Àsia (est, sud-est, sud, centre i oest).</li>
+<li class="puce">Imatges noves i millores visuals per a les activitats de «Hanoi», «La lletra que falta», «Diners», «Caçador de fotografies», «Pintura senzilla» i «Tangram».</li>
+<li class="puce">Tenim una extensió nova de l'Inkscape per ajudar a crear mapes i trencaclosques en SVG (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... i moltes petites correccions i millores.</p>
+
+<br/>
+
+<p>Al costat de les traduccions, el GCompris 2.0 conté 33 idiomes. 26 totalment admesos: (àzeri, albanés, basc, bielorús, portugués brasiler, anglés britànic, català, català (valencià), xinés tradicional, neerlandés, estonià, finés, francés, grec, hebreu, hongarés, indonesi, italià, lituà, malai, polonés, portugués, romanés, eslovè, espanyol, suec i ucraïnés). 7 traduïts parcialment: (alemany (96%), noruec nynorsk (96%), bielorús (83%), macedoni (82%), bretó (80%), turc (76%) i rus (76%)).</p>
+
+<p>Com de costum, trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Raspberry Pi i macOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització estarà disponible prompte a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+
+<p>Gràcies a tots, <br/>
+Timothée i Johnny</p>{% endblock %}
