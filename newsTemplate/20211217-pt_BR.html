@@ -1,0 +1,41 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Olá pessoak,<br />Temos o prazer de anunciar o lançamento da versão 2.0 do GCompris! O valor educacional e as horas de diversão e entretenimento que ele oferece às crianças de todas as idades combinam perfeitamente com essa época festiva.</p>
+<p>Essa versão contém várias atividades novas e melhorias naquelas já existentes. Abaixo temos um resumo das alterações que foram feitas.</p>
+
+<p>Novas atividades:</p>
+<li class="puce">O Mouse Infantil é para crianças aprendendo a interagir com computadores pela primeira vez.</li>
+<li class="puce">Oware é um jogo de estratégia africano tradicional, ele pode ser jogado contra o computador ou um amigo.</li>
+<li class="puce">Em Codificando o Caminho (absoluto ou relativo) as crianças precisam fornecer um conjunto de direções para indicar um caminho a ser seguido em uma grade.</li>
+<li class="puce">Já o Decodificando o Caminho (absoluto ou relativo) é o oposto. As crianças devem criar o caminho correspondente a um conjunto definido de direções.</li>
+<li class="puce">Em Aprender Quantitades, o objetivo é contar quantos itens são necessários para representar um valor.</li>
+<li class="puce">Em Aprender Números Decimais, as crianças cortam unidades em pedaços para aprender o conceito de números decimais.</li>
+<li class="puce">Aprender Adições e Aprender Subtrações usam os mesmos princípios de Aprender Números Decimais, mas, dessa vez, para praticar essas operações.</li>
+<li class="puce">No Ordenando Números, as crianças podem praticar a ordenação de números na ordem crescente ou decrescente.</li>
+<li class="puce">Já o Ordenando Letras, possui uma lógica similar, mas, dessa vez, as crianças ordenam letras alfabeticamente, de forma crescente ou decrescente.</li>
+<li class="puce">E a última atividade de ordenação é o Ordenando Sentenças, que é tem um grau de dificuldade a mais, no qual as crianças podem praticar a leitura, ordenando partes de uma sentença.</li>
+<li class="puce">Por fim, temos o Posições, que é uma atividade para aprender os termos que descrevem a posição relativa de um objeto.</li>
+
+<br/>
+<p>Atividades aperfeiçoadas:</p>
+<li class="puce">Eletricidade Analógica possui um novo conjunto no nível do tutorial.</li>
+<li class="puce">O Labirinto de Programação possui um novo conjunto de dados contendo operações de loop e as imagens do tutorial agora estão traduzidos.</li>
+<li class="puce">As atividades do Chapéu Mágico possuem novos conjuntos de dados, para crianças mais novas.</li>
+<li class="puce">Agora, no Sistema Solar, nós usamos dias e anos terrestres como unidades para todos os planetas.</li>
+<li class="puce">Nas atividades de Geografia, todos os mapas foram redesenhados e atualizados, usando projeções melhores e em formato SVG. Nós também adicionamos novos mapas para cada parte da Ásia (oriental, sudeste, central e ocidental).</li>
+<li class="puce">Novas imagens e melhorias visuais para as atividades de Hanoi, de dinheiro e de pintura, A Letra Desaparecida, Investigador de Fotos e Tangram.</li>
+<li class="puce">Nós temos uma nova extensão do Inkscape para ajudar na criação de mapas e quebra-cabeças em SVG (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... e diversas outras pequenas correções e melhorias!</p>
+
+<br/>
+
+<p>Em relação à tradução, o GCompris 2.0 contém 33 idiomas. Desses, 26 estão totalmente traduzidos: albanês, basco, catalão, catalão (valenciano), chinês tradicional, estoniano, esloveno, espanhol, finlandês, francês, grego, hebraico, holandês, húngaro, indonésio, inglês britânico, italiano, lituano, malaio, polonês, português, português brasileiro, sueco e ucraniano. 7 estão parcialmente traduzidos: alemão (96%), nynorsk norueguês (96%), bielorrusso (83%), macedônio (82%), bretão (80%), turco (76%) e russo (76%).</p>
+
+<p>Como sempre, você pode encontrar os pacotes desta nova versão para GNU/Linux, Windows e MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de download</a>. Esta atualização também estará disponível em breve na Play Store do Android, no repositório F-Droid e na Windows Store.</p>
+
+<p>Obrigado a todos, <br/>
+Timothée & Johnny</p>{% endblock %}
