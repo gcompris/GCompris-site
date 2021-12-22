@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.0-s verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Üdv,<br />
+Örömel jelentjük be a GCompris 2.0-t.  Mellyel a gyerekek minden korosztálya órákon át játszva tanulhat így remek ajándék az ünnepi időszakra.</p>
+<p>Új és javított feladatokat is tartalmaz. Lentebb olvasható a változtatások listája.</p>
+
+<p>Új alkalmazások:</p>
+<li class="puce">Baba-egér a legkisebbeknek akik először látnak számítógépet</li>
+<li class="puce">Az Oware egy klasszikus afrikai stratégiai játék, két játékos illetve sazámítóg ellen is játszható.</li>
+<li class="puce">Az Útvonal-alkotásnál (aszolút vagy relatív) a gyerekeknek utasításokat kell kötvetniük egy négyzetben.</li>
+<li class="puce">Az útvonal értelmezés az előző fordíttottja. A gyerekeknek el kell készíteniiük az útvonalat a megadott utasítások alapján.</li>
+<li class="puce">A mennyiségek megtanulásánál a cél, hogy megszámoljuk az adott mennyiségek darabszámát.</li>
+<li class="puce">A tizes számrendszer számainál, a gyerekek egységeket szabdalnak szét darabokra, hogy megtanulják a tizes számrendszerben való számítás alajait.</li>
+<li class="puce">Tanulj meg összeadni  és kivonni a tíizes számrendszerben ugyanazokkal a szabályokkal minnt a tizes számrendszer megismerése gyakorlatban, de ezalkalommal a műveletek gyakorlásásval.</li>
+<li class="puce">A számsorrend gyakorlásával a gyerekek megismerik és gyakorolhatják a számok növekvő és csökkenő sorrendbe való rendezését,</li>
+<li class="puce">A betűrend segítítségével a gyerekek az abc rend illetve a fordított beűrendbe rendezését gyakorolhatják.</li>
+<li class="puce">A mondatok szórendje segítségével a gyerekek a nyelvtant gyakorohatják a mondatokban található szavak helyes sorrendjbe állításával.</li>
+<li class="puce">A helyzetek gyakorlatban a gyerekek megtanulhatják egy tárgy helyét.</li>
+
+<br/>
+<p>Javított tevékenységek listája:</p>
+<li class="puce">Az Analóg elektromosságnál már gyakorló pályák is helyet kaptak. </li>
+<li class="puce">A Programlabirintusban új adatkéslet került beépítésre így már ismétléseket is tartalmaz, és a gyakorló mód is le lett fordítva.</li>
+<li class="puce">A Varázskalap alkalmazás már a kisebb gyerekek számára is használható.</li>
+<li class="puce">A Napdrendszer alkalmazás már földi napokat és éveket használ és minden bolygóhoz van már feladata.</li>
+<li class="puce">A Földrajz alkalmazásban minden térkép újra van rajzolva és javítva,  svg formátomban jobb leképezéseket használ. Illetve új térképek kerültek be Ázsiáról.</li>
+<li class="puce">Új képek a Hani tornya programban, a Hiányzó betűnél, a Pénzes alkalmazásokban, a Foóvadászban az Egyszerű festésnél és a Tangramnál.</li>
+<li class="puce">Az új Inkscape kiterjesztés segítségével könnyebb az svg fileok létrehozása a térképek és feladatok számára (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>...illetve további apróbb javítások és fejlesztések.</p>
+
+<br/>
+
+<p>A GCompris 2.0  33 nyelven érhető el ebből. 26 nyelven teljesen honosított: (Azerbajdzsáni, Albán, Baszk, Brazil-portugál, Brit-angol Holland, Észt, Finn, Francia, Görög, Héber,Holland, Indonéz, Katalán, Lengyel, Litván, Magyar, Maláj,Olasz, Portugál, Román, Spanyol, Svéd, Szlovén, Ukrán, Velencei-katalán). 7 nyelven pedig nem teljesen: (Német (96%), Norvég Nynorski (96%), Belorusz (83%), Macedón (82%), Breton (80%), Török (76%) és Orosz (76%)).</p>
+
+<p>Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi  és MacOS csomagjai a, <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows store-ba is. </p>
+
+<p>Mindenkinek köszönjük, <br/>
+Timothée és Johnny</p>{% endblock %}
