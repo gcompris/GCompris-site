@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.0 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+
+<p>Kaixo,<br />
+Atseginez iragartzen dugu GCompris 2.0ren argitalpena. Adin guztietako haurrak hezteko duen balioak eta eskaintzen dituen dibertsio orduek ospakizun-opor hauetarako opari ezin hobea bihurtzen dute.</p>
+<p>Jarduera berri eta hobetu ugari ditu. Hona hemen egindako aldaketen laburpen bat.</p>
+
+<p>Jarduera berriak:</p>
+<li class="puce">Haurrentzako sagua, ordenagailu batekin aurreneko aldiz ibiltzen ikasten ari diren umeentzako da.</li>
+<li class="puce">Oware, Afrikako estrategia-joko tradizional bat da, ordenagailuaren aurka edo lagun batekin joka daiteke.</li>
+<li class="puce">Ibilbidea kodetzean, absolutuan nahiz erlatiboan, haurrek jarraibide multzo bat eman behar dute lauki-sare batean definitutako bide bat jarraitzeko.</li>
+<li class="puce">Ibilbidea deskodetzea, absolutua nahiz erlatiboa, alderantzizkoa da. Haurrek jarraibide multzo bati dagokion bide bat sortu behar dute.</li>
+<li class="puce">Kopuruak ikastean, helburua, kopuru bat adierazteko zenbat elementu behar diren zenbatzea da.</li>
+<li class="puce">Zenbaki hamartarrak ikastean, haurrek unitateak zatitzen dituzte zenbaki hamartarren kontzeptua ikasteko.</li>
+<li class="puce">Ikasi hamartarren batuketak eta Ikasi hamartarren kenketek Zenbaki hamartarrak ikastearen oinarri berdinak erabiltzen ditu, oraingoan, eragiketa hauetan trebatzeko.</li>
+<li class="puce">Zenbakiak ordenatzean, haurrak zenbakiak ordena gorakorrean edo beherakorrean ordenatzen treba daitezke.</li>
+<li class="puce">Letrak ordenatzean, haurrak, letrak ordena alfabetikoan edo alderantzizkoan ordenatzen treba daitezke.</li>
+<li class="puce">Perpausak ordenatzea beste urrats bat da, non haurrek perpausa baten zatiak ordenatuz irakurketa eta gramatika landu dezaketen.</li>
+<li class="puce">Posizioak, objektu baten posizio erlatiboa deskribatzeko terminoak ikasteko jarduera bat da.</li>
+
+<br/>
+<p>Hobetutako jarduerak:</p>
+<li class="puce">Elektrizitate analogikoak tutoretza-maila multzo berri bat du.</li>
+<li class="puce">Labirintoa programatzeak begizta eragiketak dituen datu-multzo berri bat du, eta bere tutoretzaren irudiak, orain, itzulita daude.</li>
+<li class="puce">Kapela magikoa jarduerek haur gazteagoentzako datu-multzo berriak dituzte.</li>
+<li class="puce">Eguzki-sisteman, orain, Lurreko egun eta urteak erabiltzen ditugu unitate gisa planeta guztietarako.</li>
+<li class="puce">Geografia jardueretan, mapa guztiak berriz marraztu eta eguneratu dira, proiekzio hobea eta svg formatua erabiliz. Asiako alde bakoitzerako mapa berriak ere gehitu ditugu (Ekialde, Hego-ekialde, Hegoalde, Erdialde eta Mendebaldekoa).</li>
+<li class="puce">Irudi berriak eta ikus-hobekuntzak Hanoï jardueretan, Falta duen letran, Diru jardueretan, Argazki ehiztarian, Margotze errazean eta Tangramen.</li>
+<li class="puce">svg mapak eta buru-hausgarriak sortzen laguntzeko Inkscape hedapen berri bat dugu (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+<p>... eta beste hainbat zuzenketa eta hobekuntza txiki.</p>
+
+<br/>
+
+<p>Itzulpenen atalean, GCompris 2.0  33 hizkuntzara itzulita dago. 26tan dago erabat itzulita: azerbaijanera, albaniera, euskara, Brasilgo portugesa, Britainiako ingelesa, katalana, katalana (valentziera), txinera tradizionala, nederlandera, estoniera, finlandiera/suomiera, frantsesa, greziera, hebreera, hungariera, indonesiera, italiera, lituaniera, malabarera, poloniera, portugesa, errumaniera, esloveniera, gaztelania, suediera, ukrainera. 7 daude hein batean itzulita: (alemana (%96), norvegiera Nynorsk (%96), bielorrusiera (%83), mazedoniera (%82), bretoiera (%80), turkiera (%76) eta errusiera (%76)).</p>
+
+<p>Ohikoa den bezala, bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, Android, Raspberry Pi eta MacOSrako, <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+
+<p>Eskerrik asko guztiei, <br/>
+Timothée eta Johnny</p>{% endblock %}
