@@ -19,8 +19,6 @@
     <meta property="og:url" content="https://www.gcompris.net/{{page}}-{{ locale }}.html" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@g_compris">
-    <meta name="twitter:title" content="{{title}}">
-    <meta name="twitter:image" content="https://gcompris.net/images/gcompris.png">
 
     {% for suffix, language in locales %}
     <link rel="alternate" hreflang="{{ suffix |replace("_", "-") }}" href="{{page}}-{{ suffix }}.html">
