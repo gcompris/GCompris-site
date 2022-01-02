@@ -2,7 +2,7 @@
 {% set title = 'Llançament del GCompris 2.0' %}
 {% set withlongcontent = 0 %}
 {% block content %}
-<img src='{{ newsFolder }}images/r2.0.png' class='col-xs-12 col-md-4' alt='gcompris 2.0'     style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.0.png')"/>
+<img src='{{ newsFolder }}images/r2.0-{{ locale }}.png' class='col-xs-12 col-md-4' alt='gcompris 2.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open(this.src)" onerror="this.onerror=null;this.src='{{ newsFolder }}images/r2.0.png';"/>
 
 <p>Hola,<br />
 Ens complau anunciar el llançament de la versió 2.0 del GCompris. El valor educatiu, així com les hores de diversió i entreteniment que proporciona als infants de totes les edats el converteix en el present perfecte per a aquestes festes.</p>
