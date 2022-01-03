@@ -55,9 +55,9 @@ for newsFileName in lastNews:
     # get the title separately
     newsTitle = re.search("{% set title = \'(.+?)\'", fileContent).group(1)
 
-    #catch all <p>: (?s)<[p>]*>(.*?)</[p>]+> in group 0
-    #catch all li: <[li class="puce">]*>(.*?)</[li>]+> in group 1
-    allLines = re.findall("(?s)<[p>]*>(.*?)</[p>]+>|<[li class=\"puce\">]*>(.*?)</[li>]+>", fileContent)
+    #catch all <p>: (?s)<p>(.*?)</p> in group 0
+    #catch all li: <li.*?>(.*?)</li> in group 1
+    allLines = re.findall("(?s)<p>(.*?)</p>|<li.*?>(.*?)</li>", fileContent)
 
     titleEntry = polib.POEntry(msgid=polib.escape(newsTitle), comment='news title', msgctxt=newsFileName)
     potFile.append(titleEntry)
