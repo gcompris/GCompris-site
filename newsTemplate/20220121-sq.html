@@ -1,0 +1,32 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Njatjeta,<br />
+Jemi të gëzuar të njoftojmë hedhjen në qarkullim të GCompris version 2.1.</p>
+<p>Kjo është një hedhje në qarkullim mirëmbajtje, pra, çdo shpërndarje GNU/Linux që jep 2.0 duhet të përditësohet me 2.1.</p>
+<p>Ndryshimi më i rëndësishëm është se shkarkimet e burimeve në disa versione të dikurshëm të Android-it do të duhej të funksiononin sërish.</p>
+<p>Ja një përmbledhje e ndryshimeve të përfshira:</p>
+
+<ul>
+<li class="puce">Dhënie dëshmie SSL për të shkarkuar burimet për telefona/tablete me Android të dikurshëm, të cilët nuk kanë, ose s’arrijnë të shkarkojnë të dhëna (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Janë përditësuar elementë grafikë për veprimtaritë “Kuti baraspeshimi” dhe “Fshijeni”.</li>
+<li class="puce">Ndreqje e një të mete në numërim së prapthi, kur peshku ka kryer një xhiro, s’qe e mundur të fitohej, edhe kur jepej përfundimi i duhur.</li>
+<li class="puce">Ndreqje e një ngrirjeje të programit te veprimtaritë për mësim numrash dhjetorë, kur ndryshoheshin nivele.</li>
+<li class="puce">Shtim etikete për të trasha, për vijën e kontrolleve nga tastiera, për veprimtaritë e kodimit.</li>
+<li class="puce">Ndreqje e fundit të listës së veprimtarive, që nuk dukej, kur rrëshqitej poshtë drejt fundit.</li>
+<li class="puce">Në Windows, heqje e turbullimit në ekrane HiDPI, kur instalohet GCompris-i.</li>
+</ul>
+<br/>
+<p>Për sa i përket përkthimit:</p>
+<ul>
+<li class="puce">Janë plotësuar bretonishtja dhe maqedonishtja.</li>
+<li class="puce">Është rikthyer çekishtja (përkthim i pjesshëm, mbi 80% tani për tani).</li>
+</ul>
+<br/>
+<p>Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows dhe MacOS. Ky përditësim do të jetë gjithashtu së shpejti i passhëm te shitorja Android Play, depoja F-Droid dhe shitorja Windows. Së shpejti do të jetë gati edhe paketa për Raspberry Pi.</p>
+ <p>Faleminderit të tërëve, <br/>
+Timothée & Johnny</p>
+ {% endblock %} 

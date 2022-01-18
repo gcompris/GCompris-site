@@ -1,0 +1,32 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Hi,<br />
+We hebben het genoegen om de uitgave van GCompris versie 2.1 aan te kondigen.</p>
+<p>Dit is een uitgave voor onderhoud, dus zou iedere GNU/Linux distributie die 2.0 levert moeten opwaarderen naar 2.1.</p>
+<p>De belangrijkste wijziging is dat downloaden van gegevens op sommige oudere Android versies nu weer zouden moeten werken.</p>
+<p>Hier is een samenvatting van ingevoegde wijzigingen:</p>
+
+<ul>
+<li class="puce">SSL certificaat meeleveren om de gegevens voor oudere Android telefoons/tablets die het niet hebben en mislukken bij downloaden van gegevens (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Illustraties zijn bijgewerkt voor activiteiten balansvak en wissen.</li>
+<li class="puce">Een bug gerepareerd in telling omdraaien waar nadat de vis zich één keer omdraaide, het niet mogelijk was om te winnen zelfs bij invoeren van het goede resultaat.</li>
+<li class="puce">Bevriezing repareren in activiteit decimalen-leren bij wijziging van niveaus.</li>
+<li class="puce">Tag voor vet in toetsenbordbesturingsregel op coderingsactiviteiten van pad.</li>
+<li class="puce">Onderkant van de activiteitenlijst niet zichtbaar bij omlaag schuiven naar het einde repareren.</li>
+<li class="puce">Op Windows, de vaagheid op HiDPI schermen verwijderen bij installeren van GCompris.</li>
+</ul>
+<br/>
+<p>Aan de kant van vertalingen:</p>
+<ul>
+<li class="puce">Bretons en Macedonisch zijn voltooid.</li>
+<li class="puce">Tsjechisch is teruggekeerd (gedeeltelijke vertaling boven 80% op dit moment).</li>
+</ul>
+<br/>
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows en
+ macOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal ook spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store. Het pakket voor Raspberry Pi zal spoedig beschikbaar zijn.</p>
+ <p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+ {% endblock %} 

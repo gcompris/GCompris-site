@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>¡Hola!<br />
+Nos complace anunciar el lanzamiento de GCompris versión 2.1.</p>
+<p>Esta es una versión de mantenimiento, por lo que cualquier distribución de GNU/Linux que incluyese la versión 2.0 debería actualizarse a la 2.1.</p>
+<p>El cambio más importante es que las descargas de herramientas en algunas versiones anteriores de Android deberían volver a funcionar.</p>
+<p>Este es el resumen de los cambios que contiene:</p>
+
+<ul>
+<li class="puce">Remitir el certificado SSL para descargar las herramientas para teléfonos/tabletas Android más antiguos que no lo tienen y no pueden descargar datos (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Se han actualizado los gráficos de las actividades «Caja de equilibrio» y «Borrado».</li>
+<li class="puce">Se ha corregido un fallo en la cuenta regresiva donde, tras el turno del pez, no era posible ganar, incluso cuando se introducía el resultado bueno.</li>
+<li class="puce">Se ha corregido un bloqueo en la actividad «Aprende los números decimales» al cambiar de nivel.</li>
+<li class="puce">Se ha añadido una etiqueta en negrita para la línea de los controles del teclado en las actividades de codificación de ruta.</li>
+<li class="puce">Se ha corregido la parte inferior de la lista de actividades que no era visible al desplazarla hasta el final.</li>
+<li class="puce">En Windows, eliminar la borrosidad en pantallas HiDPI al instalar GCompris.</li>
+</ul>
+<br/>
+<p>En el lado de las traducciones:</p>
+<ul>
+<li class="puce">Se han completado las traducciones al bretón y al macedonio.</li>
+<li class="puce">Ha vuelto el idioma checo (con traducciones parciales por encima del 80% en la actualidad).</li>
+</ul>
+<br/>
+<p>Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows y macOS en la <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. Esta actualización estará disponible en breve en la Play Store de Android, el repositorio F-Droid y en la Windows Store. El paquete para Raspberry Pi también estará disponible en breve.</p>
+ <p>Gracias a todos, <br/>Timothée y Johnny</p>
+ {% endblock %} 

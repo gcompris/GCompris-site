@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Pozdravljeni,<br />
+Z veseljem objavljamo izdajo GCompris verzije 2.1.</p>
+<p>To je vzdrževalna verzija, da bi vsaka distribucija GNU/Linuxa, ki je dobavila verzijo 2.0 le to nadgradila na 2.1.</p>
+<p>Najpomembnejša sprememba je, da prenos imovine na nekaterih starejših verzijah Androida spet deluje.</p>
+<p>Tu je povzetek vsebovanih sprememb:</p>
+
+<ul>
+<li class="puce">Dobava SSL potrdila za prenos imovine za starejše telefone/tablice z Androidom, ki ga nimajo in zato prenos podatkov ne deluje (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Grafike so bile posodobljene za ravnotežno škatlo in dejavnosti brisanja.</li>
+<li class="puce">Popravek napake pri obratnem štetju, kjer je po eni potezi ribe ni bilo več mogoče premagati, četudi ste vnesli pravilni rezultat.</li>
+<li class="puce">Popravek zamrznenja pri učenju decimalk, kadar ste spreminjali ravni.</li>
+<li class="puce">Dodana krepka oznaka za upravljanje tipkovnice pri dejavnostih določanja poti.</li>
+<li class="puce">Popravljeno nevidno dno seznama dejavnosti, kadar ste se pomaknili na konec.</li>
+<li class="puce">Na okolju Windows odstranjena zamegljenost na visoko ločljivih zaslonih pri namestitvi GCompris.</li>
+</ul>
+<br/>
+<p>Na strani prevodov:</p>
+<ul>
+<li class="puce">Dokončana sta prevoda v bretonski in makedonski jezik.</li>
+<li class="puce">Češčina se je vrnila (za zdaj le delni prevod nad 80%).</li>
+</ul>
+<br/>
+<p>Pakete te nove verzije lahko najdete za GNU/Linux, Windows, MacOS na
+<a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in trgovini za Windows. Paket za Raspberry Pi bo na voljo kmalu.</p>
+ <p>Hvala vsem,<br/>
+Timothée in Johnny</p>
+ {% endblock %} 

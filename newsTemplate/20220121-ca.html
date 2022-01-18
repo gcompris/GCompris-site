@@ -1,0 +1,32 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Hola,<br />
+ens complau anunciar el llançament de la versió 2.1 del GCompris.</p>
+<p>Aquesta és una versió de manteniment, de manera que cada enviament de les distribucions de GNU/Linux de la 2.0 haurà d'actualitzar-se a la 2.1.</p>
+<p>El canvi més important és que els actius baixats en algunes versions antigues de l'Android haurien de tornar a funcionar.</p>
+<p>Aquí hi ha un resum dels canvis inclosos:</p>
+
+<ul>
+<li class="puce">Distribueix el certificat SSL per a baixar els actius per a telèfons/tauletes Android antigues que no el tenen i fallen en baixar les dades (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Els gràfics s'han actualitzat per a les activitats Inclina la capsa i Esborrar.</li>
+<li class="puce">Corregeix un error en el comptador invers quan després que el peix fes un torn, no era possible guanyar fins i tot quan s'introduís el resultat correcte.</li>
+<li class="puce">Corregeix una aturada a les activitats d'aprendre decimals en canviar els nivells.</li>
+<li class="puce">Afegeix l'etiqueta negreta a la línia de controls del teclat en el camí de les activitats de codificació.</li>
+<li class="puce">Corregeix la part inferior de la llista d'activitats que no era visible en desplaçar-se fins al final.</li>
+<li class="puce">En el Windows, elimina el desenfocament a les pantalles HiDPI en instal·lar el GCompris.</li>
+</ul>
+<br/>
+<p>Per la banda de les traduccions:</p>
+<ul>
+<li class="puce">S'ha completat el bretó i el macedoni.</li>
+<li class="puce">El txec ha tornat (per ara una traducció parcial per sobre del 80%).</li>
+</ul>
+<br/>
+<p>Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows i
+macOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows. El paquet per a Raspberry Pi també estarà disponible aviat.</p>
+ <p>Gràcies a tots, <br/>Timothée i Johnny</p>
+ {% endblock %} 

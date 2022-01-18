@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 2.1 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Hi,<br />
+We are pleased to announce the release of GCompris version 2.1.</p>
+<p>Ceci est une version de maintenance. Ainsi, chaque distribution GNU / Linux embarquant la version 2.0 devrait mettre à jour vers la version 2.1.</p>
+<p>Le changement le plus important amené par cette version est le téléchargement des ressources externes (voix, jeu de mots complet…) devrait fonctionner à nouveau sur certaines versions d'Android.</p>
+<p>Voici un résumé des modifications apportées :</p>
+
+<ul>
+<li class="puce">Le certificat SSL pour télécharger les ressources externes a été embarqué directement dans l’application. Cela devrait permettre leur téléchargement sur certaines versions d'Android où ce fichier était manquant (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Les graphismes ont été mis à jour pour les activités « Jeu d'équilibre » et « Suppression ».</li>
+<li class="puce">Correction d'un bug dans « Compte les intervalles » qui rendait l'activité impossible à gagner quand le poisson avait fait un tour complet.</li>
+<li class="puce">Correction d'un plantage (freeze) dans les activités pour apprendre les « nombres décimaux » lors d'un changement de niveau.</li>
+<li class="puce">Le texte d'aide pour afficher les contrôles clavier des activités « Encode le chemin » (et ses dérivés) est maintenant en gras.</li>
+<li class="puce">Dans le menu, lorsque l'on scrolle jusqu’à la fin de la liste, le titre des dernières activités n'était pas affiché entièrement.</li>
+<li class="puce">Sur Windows, avec un écran HiDPI, l'installeur n'est plus flou.</li>
+</ul>
+<br/>
+<p>Du coté des traductions :</p>
+<ul>
+<li class="puce">Le breton et le macédonien ont été réintégrés.</li>
+<li class="puce">La traduction pour le tchèque a été rajoutée (traduction partielle supérieure à 80 % actuellement).</li>
+</ul>
+<br/>
+<p>Vous trouverez les paquets de cette nouvelle version pour GNU / Linux, Windows et macOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible d'ici quelques jours dans les boutiques Android et Windows, ainsi dans le dépôt F-Droid. Le paquet pour Raspberry Pi sera disponible très bientôt.</p>
+ <p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+ {% endblock %} 

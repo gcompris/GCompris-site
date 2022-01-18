@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Hej,<br />
+Vi är glada att tillkännage utgivningen av GCompris version 2.1.</p>
+<p>Det är en underhållsutgåva, så alla GNU/Linux-distributioner som levererar 2.0 bör uppgradera till 2.1.</p>
+<p>Den viktigaste ändringen är att nerladdning av tillgångar på vissa äldre versioner av Android ska nu fungera igen.</p>
+<p>Här är en sammanfattning av ingående ändringar:</p>
+
+<ul>
+<li class="puce">Leverera SSL-certifikat för att ladda ner tillgångar för äldre telefoner eller surfplattor med Android, som inte har det och misslyckades ladda ner data (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Grafiken har uppdaterats för aktiviteterna Balansruta och Radera.</li>
+<li class="puce">Rätta ett fel i omvänd räkning där det inte var möjligt att vinna efter fisken vänt en gång, även om det rätta resultatet skrevs in.</li>
+<li class="puce">Rätta att aktiviteterna för att lära sig decimal fryses när man byter nivåer.</li>
+<li class="puce">Lägg till fetstil för tangentbordskontrollrad vid vägkodningsaktiviteter.</li>
+<li class="puce">Rätta att aktivitetslistans nederdel inte är synlig när den rullas ner till slutet.</li>
+<li class="puce">Ta bort suddighet på skärmar med hög upplösning när GCompris installeras på Windows.</li>
+</ul>
+<br/>
+<p>På översättningssidan:</p>
+<ul>
+<li class="puce">Bretonska och Makedoniska är färdiggjorda.</li>
+<li class="puce">Tjeckiska är tillbaka (partiell översättning nu över 80 %).</li>
+</ul>
+<br/>
+<p>Paket av den nya versionen för GNU/Linux, Windows och macOS finns på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer också snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store. Paketet för Raspberry Pi är också snart tillgängligt.</p>
+ <p>Tack allesamman, <br/>Timothée och Johnny</p>
+ {% endblock %} 
