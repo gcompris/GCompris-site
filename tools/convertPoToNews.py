@@ -95,7 +95,7 @@ for currentNews in news:
     # Replace the target string
     for string in news[currentNews]:
         if 'title' == string:
-            matches = re.findall(r'[{% set title =]\'(.+?)\' %}', fileData)
+            matches = re.findall(r"{% set title = \'(.+?)\'", fileData)
             for m in matches:
                 fileData = fileData.replace('\'%s\'' % m, '\'%s\'' % news[currentNews][string])
             continue
