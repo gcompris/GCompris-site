@@ -7,7 +7,6 @@ import sys
 import jinja2
 import time
 import datetime
-from datetime import date
 import re
 import gettext
 from email import utils
@@ -20,7 +19,7 @@ from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent
 
 reload(sys)
 
-today = date.today()
+today = datetime.date.today()
 
 try:
     version = sys.argv[1]
