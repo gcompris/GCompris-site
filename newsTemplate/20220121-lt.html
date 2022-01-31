@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.1 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Sveiki,<br />
+Džiaugiamės galėdami paskelbti GCompris 2.1 versijos leidimą.</p>
+<p>Tai yra palaikomasis leidimas, tad kiekvienas GNU/Linux platinimasis paketas, teikiantis 2.0 versiją, turėtų atnaujinti „GCompris“ į 2.1
+ versiją.</p>
+<p>Svarbiausias pakeitimas yra tas, kad kai kuriose senesnėse „Android“ versijose žaidimų rinkinio atsisiuntimas vėl turėtų veikti.</p>
+<p>Šios versijos pakeitimų sąrašas:</p>
+
+<ul>
+<li class="puce">Paruoštas  SSL sertifikatas senesniems „Android“ telefonams / planšetiniams kompiuteriams, kuriuose jo nėra ir nepavyksta atsisiųsti duomenų, (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Atnaujinta balanso dėžutės ir trynimo veiklos grafika.</li>
+<li class="puce">Ištaisyta atgalinio skaičiavimo klaida, kai žuviai vienąkart apsisukus nebuvo įmanoma laimėti net įvedus gerą rezultatą.</li>
+<li class="puce">Ištaisyta klaida, atsirandanti keičiant lygius pamokėlėje learn_decimals. </li>
+<li class="puce">Kelio kodavimo veikloje pridėta paryškinta žyma klaviatūros valdiklių eilutėje.</li>
+<li class="puce">Pataisyta pamokėlių sąrašo apačia, kuri nebuvo matoma nuslinkus žemyn.</li>
+<li class="puce">Sistemoje Windows pašalintas HiDPI ekrano blyškumas diegiant GCompris.</li>
+</ul>
+<br/>
+<p>Vertimų į kitas kalbas progresas:</p>
+<ul>
+<li class="puce">Bretonų ir makedonų kalbos pabaigtos.</li>
+<li class="puce">Sugrąžinome čekų (išversta daugiau nei 80%).</li>
+</ul>
+<br/>
+<p>Šios versijos paketus GNU/Linux, Windows ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje. Paketas Raspberry Pi sistemai irgi greitai bus išleistas.</p>
+ <p>Nuoširdžiai dėkojame, <br/>
+Timothée ir Johnny</p>
+ {% endblock %} 
