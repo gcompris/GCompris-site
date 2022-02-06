@@ -23,25 +23,25 @@ today = datetime.date.today()
 
 try:
     version = sys.argv[1]
-except:
+except IndexError:
     print("Missing GCompris version")
     sys.exit(1)
 
 try:
     locale = sys.argv[2]
-except:
+except IndexError:
     print("Missing GCompris locale")
     sys.exit(1)
 
 try:
     localelist = sys.argv[3]
-except:
+except IndexError:
     print("Missing GCompris list of locales")
     sys.exit(1)
 
 try:
     gcomprisdir = sys.argv[4]
-except:
+except IndexError:
     print("Missing GCompris installation directory, export GCOMPRIS_DIR as env var")
     sys.exit(1)
 
