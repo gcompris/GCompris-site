@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Wydano GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Witaj,<br />
+Miło nam móc ogłosić GCompris w wersji 2.1.</p>
+<p>Jest to wydanie poprawkowe, tak więc każda dystrybucja GNU/Linux dostarczająca 2.0 powinna uaktualnić do 2.1.</p>
+<p>Najważniejszą zmianą jest ta, która przywraca pobieranie pobieranie zasobów na niektórych, starszych wersjach Androida.</p>
+<p>Oto podsumowanie wprowadzonych zmian:</p>
+
+<ul>
+<li class="puce">Dostarczenie certyfikatu SSL do pobierania zasobów dla starszych telefonów/tabletów z Androidem, które ich nie mają i przez to nie mogą pobrać danych (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Grafika została uaktualniona dla aktywności pola równowagi oraz wymazywania.</li>
+<li class="puce">Naprawienie błędu w odliczaniu w tył po tym jak ryba wykonała jeden skręt, nie można było wygrać nawet po wpisaniu poprawnego wyniku.</li>
+<li class="puce">Naprawiono zawieszenie w aktywności nauki liczb dziesiętnych przy zmianie poziomów.</li>
+<li class="puce">Dodaj wytłuszczony znacznik dla wiersza sterowania z klawiatury dla aktywności kodowania ścieżek.</li>
+<li class="puce">Poprawiono niewidoczny dół aktywności po przewinięciu na dół.</li>
+<li class="puce">Na Windowsie, usunięto rozmycie na ekranach HiDPI po wgraniu GCompris.</li>
+</ul>
+<br/>
+<p>Po stronie tłumaczeń:</p>
+<ul>
+<li class="puce">Ukończono bretoński i macedoński.</li>
+<li class="puce">Czeski powrócił (częściowe tłumaczenie teraz powyżej 80%).</li>
+</ul>
+<br/>
+<p>Pakiety tej nowej wersji dla GNU/Linuksa, Windowsa oraz macOSa możesz znaleźć na <a href="https://gcompris.net/downloads{{ suffix }}.html">stronie pobierań</a>. To uaktualnienie będzie wkrótce dostępne w Sklepie Andorida, repozytorium F-Droid oraz Sklepie Windowsa. Pakiet dla Raspberry Pi także będzie wkrótce dostępny.</p>
+ <p>Dzięki wam wszystkim, <br/>Timothée & Johnny</p>
+ {% endblock %} 

@@ -1,0 +1,45 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Wydano GCompris 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0-{{ locale }}.png' class='col-xs-12 col-md-4' alt='gcompris 2.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open(this.src)" onerror="this.onerror=null;this.src='{{ newsFolder }}images/r2.0.png';"/>
+
+<p>Witaj,<br />
+Miło nam móc ogłosić GCompris w wersji 2.0. Wartość edukacyjna oraz godziny zabawy i rozrywki, którą dostarcza dzieciom w każdym wieku, czyni ją doskonałym prezentem na te uroczyste święta.</p>
+<p>Zawiera wiele nowych i ulepszonych aktywności. Poniżej podsumowanie wprowadzonych zmian.</p>
+
+<p>Nowe aktywności:</p>
+<ul>
+<li class="puce">Dziecięca mysz jest dla dzieci po raz pierwszy uczących się obsługi komputera.</li>
+<li class="puce">Oware jest tradycyjną, afrykańską grą strategiczną, można w nią zagrać z komputerem lub przyjacielem.</li>
+<li class="puce">W kodowaniu ścieżki (bezwzględnej lub względnej) dziecko musi podać zestaw ruchów, aby pójść daną ścieżką na siatce.</li>
+<li class="puce">Dekodowanie ścieżki (bezwzględne lub względne) jest przeciwieństwem. Dzieci muszą utworzyć ścieżkę zgodną z ustalonym zestawem kierunków.</li>
+<li class="puce">W nauce ilości, celem jest zliczenie ile rzeczy jest potrzebnych do przedstawienia danej ilości.</li>
+<li class="puce">W nauce liczb dziesiętnych, dziecko tnie jednostki na kawałki, aby nauczyć się pojęcia liczb dziesiętnych.</li>
+<li class="puce">Uczenie się dodawania i odejmowania liczb dziesiętnych na tej samej zasadzie, co uczenie się liczb dziesiętnych, z tym, że teraz można ćwiczyć te działania.</li>
+<li class="puce">W szeregowaniu liczb, dziecko ćwiczy szeregowanie liczb w kolejności rosnącej lub malejącej.</li>
+<li class="puce">W szeregowaniu liter, dziecko ćwiczy szeregowanie liter w kolejności alfabetycznej lub do niej odwrotnej.</li>
+<li class="puce">Układanie zdań to krok do przodu, dzięki któremu dzieci mogą ćwiczyć czytanie i gramatykę próbując zrozumieć części zdania.</li>
+<li class="puce">Położenia to aktywność do nauki pojęć opisujących względne położenie obiektu.</li>
+</ul>
+<br/>
+<p>Ulepszone aktywności:</p>
+<ul>
+<li class="puce">Elektryczność analogowa ma nowy poziom samouczka.</li>
+<li class="puce">Labirynt programistyczny ma nowy zestaw danych, zawierający pętle, a jego obrazy w samouczku są teraz przetłumaczone.</li>
+<li class="puce">Aktywności magicznej czapki mają nowe zestawy danych dla mniejszych dzieci.</li>
+<li class="puce">W układzie słonecznym od teraz używamy dni ziemskich jako jednostki dla wszystkich planet.</li>
+<li class="puce">W aktywnościach geograficznych, wszystkie mapy zostały narysowane na nowo i uaktualnione, używając lepszych rzutować i formatu svg. Dodaliśmy także nowe mapy dla każdej z części Azji (wschodniej, południowowschodniej, południowej, środkowej i zachodniej).</li>
+<li class="puce">Nowe obrazy i usprawnienia wyglądu dla aktywności Hanoï, brakujących liter, związanych z pieniędzmi, łowcy zdjęć, prostego malowania oraz Tangramu.</li>
+<li class="puce">Mamy nowe rozszerzenie Inkscape, pomagające tworzyć mapy i puzzle svg (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+</ul>
+<p>... i wiele więcej małych poprawek i usprawnień.</p>
+
+<br/>
+
+<p>Po stronie tłumaczeń, GCompris 2.0 zawiera 33 języki. 26 z nich ma pełne tłumaczenie: (Azerbejdżański, Albański, Baskijski, Brazylijski Portugalski, Brytyjski, Kataloński, Kataloński (Walencja), Chiński Tradycyjny, Holenderski, Estoński, Fiński, Francuski, Grecki, Hebrajski, Węgierski, Indonezyjski, Włoski, Litewski, Malayalam, Polski, Portugalski, Rumuński, Słoweński, Hiszpański, Szwedzki, i Ukraiński). 7 zawiera częściowe tłumaczenie: (Niemiecki (96%), Norweski Nynorsk (96%), Białoruski (83%), Macedoński (82%), Bretoński (80%), Turecki (76%) oraz Rosyjski (76%)).</p>
+
+<p>Jak zwykle, pakiety tej nowej wersji dla GNU/Linuksa, Windowsa, Androida, Raspberry Pi oraz macOSa możesz znaleźć na <a href="https://gcompris.net/downloads{{ suffix }}.html">stronie pobierań</a>. To uaktualnienie będzie wkrótce dostępne w Sklepie Andorida, repozytorium F-Droid oraz Sklepie Windowsa. </p>
+
+<p>Dzięki wam wszystkim, <br/>
+Timothée & Johnny</p>{% endblock %}
