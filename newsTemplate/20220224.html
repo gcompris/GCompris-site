@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='news/images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('news/images/r2.2.png')"/>
+
+<p>Hi,<br/>
+We are pleased to announce the release of GCompris version 2.2.</p>
+<p>This is a maintenance release, so every GNU/Linux distribution shipping 2.0 or 2.1 should update to 2.2.</p>
+<p>Here is a summary of included changes:</p>
+
+<ul>
+<li class="puce">New images and lot of little issues fixed in Watercycle and Renewable energy activities.</li>
+<li class="puce">New images in Tangram activity.</li>
+<li class="puce">Better letter ordering in the virtual keyboard (follows the locale set in GCompris).</li>
+<li class="puce">Fix a crash on Android when starting Balancebox activity.</li>
+<li class="puce">Many other little fixes and improvements.</li>
+</ul>
+<br/>
+<p>On the translation side:</p>
+<li class="puce">Russian translation has been completed.</li>
+<li class="puce">New voices added for Norwegian Nynorsk (all except the introduction voices).</li>
+</ul>
+<br/>
+<p>You can find packages of this new version for GNU/Linux, Windows and
+ macOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will be available soon in the Android Play store, the F-Droid repository and the Windows store. The package for Raspberry Pi will also be available soon.</p>
+ <p>Thank you all, <br/>Timothée & Johnny</p>
+ {% endblock %} 
