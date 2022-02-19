@@ -2,7 +2,7 @@
 {% set title = 'Release GCompris 2.2' %}
 {% set withlongcontent = 0 %}
 {% block content %}
-<img src='news/images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('news/images/r2.2.png')"/>
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
 
 <p>Hi,<br/>
 We are pleased to announce the release of GCompris version 2.2.</p>
@@ -18,6 +18,7 @@ We are pleased to announce the release of GCompris version 2.2.</p>
 </ul>
 <br/>
 <p>On the translation side:</p>
+<ul>
 <li class="puce">Russian translation has been completed.</li>
 <li class="puce">New voices added for Norwegian Nynorsk (all except the introduction voices).</li>
 </ul>
