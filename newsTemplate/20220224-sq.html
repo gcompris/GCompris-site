@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Njatjeta,<br />
+Jemi të gëzuar të njoftojmë hedhjen në qarkullim të GCompris version 2.2.</p>
+<p>Kjo është një hedhje në qarkullim mirëmbajtje, pra, çdo shpërndarje GNU/Linux që jep 2.0 ose 2.1 duhet të përditësohet me 2.2.</p>
+<p>Ja një përmbledhje e ndryshimeve të përfshira:</p>
+
+<ul>
+<li class="puce">Dhënie dëshmie SSL për të shkarkuar burimet për telefona/tablete me Android të dikurshëm, të cilët nuk kanë, ose s’arrijnë të shkarkojnë të dhëna (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Figura të reja te veprimtaria Tangram.</li>
+<li class="puce">Ndreqje e një të mete në numërim së prapthi, kur peshku ka kryer një xhiro, s’qe e mundur të fitohej, edhe kur jepej përfundimi i duhur.</li>
+<li class="puce">Ndreqje e një ngrirjeje të programit te veprimtaritë për mësim numrash dhjetorë, kur ndryshoheshin nivele.</li>
+<li class="puce">Mjaft ndreqje dhe përmirësime të vockla.</li>
+</ul>
+<br/>
+<p>Për sa i përket përkthimit:</p>
+<ul>
+<li class="puce">Është plotësuar përkthimi rusisht.</li>
+<li class="puce">Zëra të rinj shtuar për norvegjishten Nynorsk (krejt, hiq zërat e hyrjes).</li>
+</ul>
+<br/>
+<p>Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows dhe MacOS. Ky përditësim do të jetë gjithashtu së shpejti i passhëm te shitorja Android Play, depoja F-Droid dhe shitorja Windows. Së shpejti do të jetë gati edhe paketa për Raspberry Pi.</p>
+ <p>Faleminderit të tërëve, <br/>
+Timothée & Johnny</p>
+ {% endblock %} 

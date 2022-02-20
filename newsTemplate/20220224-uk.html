@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Випуск GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Привіт,<br/>
+Ми раді оголосити про випуск GCompris версії 2.2.</p>
+<p>Цей випуск є проміжним, тому усім дистрибутивам GNU/Linux, до складу яких включено версію 2.0 або 2.1, варто оновити версію пакунка до 2.2.</p>
+<p>Ось резюме змін:</p>
+
+<ul>
+<li class="puce">Нові зображення і багато виправлень незначних вад у вправах із кругообігом води та відновлюваними джерелами енергії.</li>
+<li class="puce">Нові зображення у вправі із танграмом.</li>
+<li class="puce">Краще упорядкування літер на віртуальній клавіатурі (відповідно до локалі, яку встановлено у GCompris).</li>
+<li class="puce">Усунено аварійне завершення роботи при запуску вправи зі урівноваження на Android.</li>
+<li class="puce">Багато інших незначних виправлень та удосконалень.</li>
+</ul>
+<br/>
+<p>Переклади:</p>
+<ul>
+<li class="puce">Завершено переклад російською мовою.</li>
+<li class="puce">Додано нове озвучування норвезькою (усе, окрім вступних голосів).</li>
+</ul>
+<br/>
+<p>Посилання на пакунки нової версії для GNU/Linux, Windows та MacOS можна знайти на <a href="https://gcompris.net/downloads{{ suffix }}.html">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows. Також невдовзі з'явиться пакунок для Raspberry Pi.</p>
+ <p>Дякуємо вам усім, <br/>Timothée і Johnny</p>
+ {% endblock %} 
