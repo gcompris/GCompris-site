@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Hi,<br/>
+We hebben het genoegen om de uitgave van GCompris versie 2.2 aan te kondigen.</p>
+<p>Dit is een uitgave voor onderhoud, dus zou iedere GNU/Linux distributie die 2.0 of 2.1 levert moeten opwaarderen naar 2.2.</p>
+<p>Hier is een samenvatting van ingevoegde wijzigingen:</p>
+
+<ul>
+<li class="puce">Nieuwe afbeeldingen en veel kleine problemen gerepareerd in activiteiten Watercyclus en Hernieuwbare energie.</li>
+<li class="puce">Nieuwe afbeeldingen in activiteit Tangram.</li>
+<li class="puce">Betere ordering van letters in het virtuele toetsenbord (volgt de lokale set in GCompris).</li>
+<li class="puce">Een crash gerepareerd op Android bij starten van activiteit Balansvak.</li>
+<li class="puce">Veel andere kleine reparaties en verbeteringen.</li>
+</ul>
+<br/>
+<p>Aan de kant van vertalingen:</p>
+<ul>
+<li class="puce">Russische vertalingen zijn voltooid.</li>
+<li class="puce">Nieuwe stemmen voor Noors Nynorsk (allen behalve de stemmen in de introductie).</li>
+</ul>
+<br/>
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows en
+ macOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal ook spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store. Het pakket voor Raspberry Pi zal spoedig beschikbaar zijn.</p>
+ <p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+ {% endblock %} 
