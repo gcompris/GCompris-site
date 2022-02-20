@@ -1,0 +1,32 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.1 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Kaixo,<br />
+Atseginez jakinarazten dugu GCompris-en 2.1 bertsioa argitaratu dela.</p>
+<p>Hau, mantentze-lanak dituen argitalpen bat da, eta 2.0 duten GNU/Linux banaketa guztiek 2.1era eguneratu beharko lukete.</p>
+<p>Aldaketa garrantzitsuena da Android bertsio zaharrago batzuetan, aktiboen zama-jaitsierak orain berriz ibili beharko litzatekeela.</p>
+<p>Hona hemen egindako aldaketen laburpen bat:</p>
+
+<ul>
+<li class="puce">Ziurtagiria ez izateagatik datuak zama-jaitsi ezin duten Android telefono/tableta zaharragoetan aktiboak zama-jaisteko SSL ziurtagiria kaleratzea (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Oreka kaxa eta Ezabatu jardueretako grafikoak eguneratu dira.</li>
+<li class="puce">akats bat konpondu</li>
+<li class="puce">Hamartarrak ikasteko jardueretan maila aldatzerakoan izozte bat konpontzea.</li>
+<li class="puce">Bidea kodetzeko jardueretan teklatu kontrol lerrorako etiketa lodia gehitzea.</li>
+<li class="puce">Konpondu amaierara kiribiltzean jardueren zerrenda botoia ikusgai ez egotea.</li>
+<li class="puce">Windows-en, kendu HiDPI pantailetako lausotasuna GCompris instalatzean.</li>
+</ul>
+<br/>
+<p>Itzulpenei dagokienez:</p>
+<ul>
+<li class="puce">Bretoiera eta Mazedoniera osatu dira.</li>
+<li class="puce">Txekiera itzuli da (% 80tik gorako itzulpen partziala, oraingoz).</li>
+</ul>
+<br/>
+<p>Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, eta
+macOS-rako, <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da eskuragarri Android Play dendan, F-Droid gordetegian eta Windows dendan. Raspberry Pi-rako paketeak laster egongo dira erabilgarri.</p>
+ <p>Eskerrik asko guztiei, <br/>Timothée & Johnny</p>
+ {% endblock %} 
