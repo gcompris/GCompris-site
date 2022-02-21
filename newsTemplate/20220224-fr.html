@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 2.0 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Bonjour,<br />
+Nous sommes heureux de vous annoncer la publication de la version 2.2 de GCompris.</p>
+<p>Ceci est une version de maintenance. Ainsi, chaque distribution GNU / Linux embarquant la version 2.0 ou 2.1 devrait mettre à jour vers la version 2.2.</p>
+<p>Voici un résumé des modifications apportées :</p>
+
+<ul>
+<li class="puce">Nouvelles images et beaucoup de petites corrections dans les activités « Cycle de l'eau » et « Énergie renouvelable ».</li>
+<li class="puce">De nouvelles images pour l'activité « Le jeu du Tangram ».</li>
+<li class="puce">Meilleur arrangement des lettres dans le clavier virtuel (suit l'ordre alphabétique de la langue mise dans GCompris).</li>
+<li class="puce">Correction d'un plantage sur certaines plateformes sous Android au démarrage de l'activité « Jeu d'équilibre ».</li>
+<li class="puce">Beaucoup d'autres petites corrections et améliorations.</li>
+</ul>
+<br/>
+<p>Du coté des traductions :</p>
+<ul>
+<li class="puce">La traduction en russe est maintenant complète.</li>
+<li class="puce">Des nouvelles voix ont été rajouté pour le norvégien Nynorsk (toutes sauf celles qui introduisent les activités).</li>
+</ul>
+<br/>
+<p>Vous trouverez les paquets de cette nouvelle version pour GNU / Linux, Windows et macOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible d'ici quelques jours dans les boutiques Android et Windows, ainsi dans le dépôt F-Droid. Le paquet pour Raspberry Pi sera disponible très bientôt.</p>
+ <p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+ {% endblock %} 

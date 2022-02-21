@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>¡Hola!<br />
+Nos complace anunciar el lanzamiento de GCompris versión 2.2.</p>
+<p>Esta es una versión de mantenimiento, por lo que cualquier distribución de GNU/Linux que incluyese la versión 2.0 o 2.1 debería actualizarse a la 2.2.</p>
+<p>Este es el resumen de los cambios que contiene:</p>
+
+<ul>
+<li class="puce">Nuevas imágenes y se han solucionado gran cantidad de pequeños problemas en las actividades de «Ciclo del agua» y «Energía renovable».</li>
+<li class="puce">Nuevas imágenes para la actividad «Tangram».</li>
+<li class="puce">Mejor orden de letras en el teclado virtual (sigue la configuración regional de GCompris).</li>
+<li class="puce">Se ha corregido un fallo de la aplicación en Android al iniciar la actividad «Caja de equilibrio».</li>
+<li class="puce">Numerosas pequeñas correcciones y mejoras.</li>
+</ul>
+<br/>
+<p>En el lado de las traducciones:</p>
+<ul>
+<li class="puce">Se ha completado la traducción al ruso.</li>
+<li class="puce">Se han añadido nuevas voces para el noruego Nynorsk (todas, excepto las voces de introducción).</li>
+</ul>
+<br/>
+<p>Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows y macOS en la <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. Esta actualización estará disponible en breve en la Play Store de Android, el repositorio F-Droid y en la Windows Store. El paquete para Raspberry Pi también estará disponible en breve.</p>
+ <p>Gracias a todos, <br/>Timothée y Johnny</p>
+ {% endblock %} 
