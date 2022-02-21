@@ -1,0 +1,45 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stumm 2.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.0-{{ locale }}.png' class='col-xs-12 col-md-4' alt='gcompris 2.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open(this.src)" onerror="this.onerror=null;this.src='{{ newsFolder }}images/r2.0.png';"/>
+
+<p>Salud d'an holl,<br />
+Plijet omp o kemenn stumm nevez  GCompris 2.0. A-drugarez d'e berzhioù kelennadel ha d'an eurvezhioù plijadur gantañ evit bugale a bep seurt oad eo ur prof dibar evit gouelioù ar vakañsoù-mañ.</p>
+<p>Ennañ e vo kavet ur bern obererezhioù nevez ha gwellaet. Amañ-dindan e kaver ur roll eus ar c'hemmoù graet.</p>
+
+<p>Obererezhioù nevez :</p>
+<ul>
+<li class="puce">Logodenn ar babigoù a zo evit deskiñ d'ar vugale ober gant un urzhiataer evit ar wech kentañ.</li>
+<li class="puce">Ur c'hoari strategiezh hengounel eus Afrika eo Awale, bez' e c'heller c'hoari anezhañ a-enep an urzhiataer pe gant ur c'heneil.</li>
+<li class="puce">En obererezh Kodiñ an hent (gant ur sell daveel pe get) e rank ar vugale reiñ un aridennad tuadennoù evit heuliañ un hent resis war ur gael.</li>
+<li class="puce">Ar c'hontrel-fed eo Diskodiñ an hent (dizave pe sell daveel). Rankout a ra ar vugale sevel an hent a glot gant un aridennad tuadennoù resis.</li>
+<li class="puce">En obererezh Desk kementadoù e ranker kontañ pet tra zo ezhomm evit ezteurel ur c'hementad.</li>
+<li class="puce">En obererezh Desk niveroù dekrannel e troc'h ar vugale unannennoù e tammoù a-benn deskiñ petra eo an niveroù dekrannel.</li>
+<li class="puce">Memes doare d'ober zo gant Desk sammadurioù dekrannel ha Desk lamadurioù dekrannel eget gant Desk niveroù dekrannel, met ar wech-mañ evit pleustriñ gant ar jedadurioù-se.</li>
+<li class="puce">Gant Niveroù en urzh mat e pleustr ar vugale war urzh an niveroù en urzh war-gresk pe war-zigresk.</li>
+<li class="puce">Gant Lizherennoù en urzh mat e pleustr ar vugale war urzh al lizherennoù hervez hini al lizherenneg pe un tu kontroll.</li>
+<li class="puce">Urzhiañ frazennoù a zo avañsetoc'h, pa bleustr ar vugale war al lenn hag ar yezhadur en ur urzhiañ lodennoù ur frazenn.</li>
+<li class="puce">Lec'hiadurioù a zo un obererezh evit deskiñ penaos ezteurel lec'hiadur un dra gant ur sell daveel.</li>
+</ul>
+<br/>
+<p>Obererezhioù gwellaet :</p>
+<ul>
+<li class="puce">An obererezh Tredan elektronek a zo ganti ur live deskiñ nevez.</li>
+<li class="puce">Programmiñ ar milendall a zo ganti roadennoù nevez enne ar mod d'ober gant boukloù, ha troidigezhioù a zo gant ar skeudennoù titouriñ.</li>
+<li class="puce">Obererezhioù an Tog hud a zo dezhe roadennoù nevez evit ar vugale vihanañ.</li>
+<li class="puce">Koskoriad an Heol a ra bremañ gant devezhioù ha bloavezhioù an Douar evit an holl blanedennoù.</li>
+<li class="puce">An holl gartoù en oberezhioù Geografiezh a zo bet adtreset hag hizivaet, gant ur bannañ gwelloc'h hag er stumm svg. Ouzhpennet zo bet ivez kartoù nevez evit pep lodenn eus Azia (Reter, Gevred, Su, Kreiz ha Kornôg).</li>
+<li class="puce">Skeudennoù nevez ha gwellaennoù-sell evit an obererezhioù Hanoi, Lizherenn o vankout, Arc'hant, Chaseour foto, Pentur eeun ha Tangram.</li>
+<li class="puce">An astenn Inkscape nevez zo ganeomp evit sikour da grouiñ kartennoù svg ha miltammoù (https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape).</li>
+</ul>
+<p>... hag ur bern difazioùigoù ha gwellaennoù ouzhpenn.</p>
+
+<br/>
+
+<p>Evit ar pezh a sell ouzh an troidigezhioù, setu bremañ 33 yezh gant GCompris 2.0, 26 anezhe peurdroet : azerbaijaneg, albaneg, estoneg, euskareg, finneg, kastilhaneg, galleg, gresianeg, hebraeg, hollandeg, hungarek, indonezianeg, italianeg, katalaneg, katalaneg Bro-Valensia, lituaneg, malayameg, poloneg, portugaleg, portugaleg Bro-Vrazil, roumaneg, sloveneg, saozneg Bro-Saoz, sinaeg hengounel,  svedeg hag ukraineg. 7 anezhe zo damdroet : alamaneg (96%), norwegeg Nynorsk (96%), belaruseg (83%), makedoneg (82%), brezhoneg (80%), turkeg (76%) ha ruseg (76%)</p>
+
+<p>Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, Android, Rasperry Pi ha MacOS war ar <a href="https://gcompris.net/downloads{{ suffix }}.html">bajenn bellgargañ</a>. An hizivaat a vo deus outañ a-benn nebeut en Android Play store, en dastumlec'h F-Droid hag er Windows store.</p>
+
+<p>Trugarez d'an holl, <br/>
+Timothée & Johnny</p>{% endblock %}
