@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stumm 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Salud d'an holl,<br />
+Plijet omp o kemenn stumm nevez  GCompris 2.1.</p>
+<p>Ur c'hempenn eo, neuze e rankfe pep dasparzh GNU/Linux gant ar stumm 2.0 bezañ hizivaet da 2.1.</p>
+<p>Ar c'hemm pouezusañ : mont a raio bremañ en dro adarre an tu da pellgargañ evit stummoù kozh Android.</p>
+<p>Setu ur verradenn eus ar c'hemmoù graet :</p>
+
+<ul>
+<li class="puce">Kas ur sertifikad SSL da bellgargañ evit stummoù kozh pellgomzerioù/tabletezennoù Android n'o doa ket unan hag a chome hep gallout pellgargañ an roadennoù (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Hizivaet eo bet an tresadennoù evit an obererezhioù Boest kempouezañ ha Diverkañ.</li>
+<li class="puce">Reizhet ur fazi e Reversecount lec'h ma n'heller ket ken gounit zoken gant un disoc'h reizh ur wech graet un dro gant ar pesk.</li>
+<li class="puce">Reizhet ur skornañ e Desk niveroù dekrannel pa veze cheñchet al liveoù.</li>
+<li class="puce">Ouzhpennet un draig e druz el linenn-gontroll ar c'hlavier en obererezhioù Kodiñ an hent.</li>
+<li class="puce">Reizhet strad roll an obererezhioù a chome diwelus pa veze diskennet betek betek an traoñ.</li>
+<li class="puce">Lamet evit Windows an dispis war ar skrammoù HiDPI pa veze staliet GCompris.</li>
+</ul>
+<br/>
+<p>Evit ar pezh a sell ouzh an troidigezhioù :</p>
+<ul>
+<li class="puce">Brezhoneg ha makedoneg a zo bet klokaet.</li>
+<li class="puce">Distroet eo an tchekeg (damdroet en tu all da 80% evit ar poent).</li>
+</ul>
+<br/>
+<p>Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows ha 
+ MacOS war ar <a href="https://gcompris.net/downloads{{ suffix }}.html">bajenn bellgargañ</a>. An hizivaat a vo deus outañ a-benn nebeut en Android Play store hag er Windows store. Evit Raspberry Pi e kinnigimp ur stalier a-benn nebeut.</p>
+ <p>Trugarez d'an holl, <br/>
+Timothée & Johnny</p>
+ {% endblock %} 
