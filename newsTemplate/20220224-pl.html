@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Wydano GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Witaj,<br />
+Miło nam móc ogłosić GCompris w wersji 2.2.</p>
+<p>Jest to wydanie poprawkowe, tak więc każda dystrybucja GNU/Linux dostarczająca 2.1 powinna uaktualnić do 2.2.</p>
+<p>Oto podsumowanie wprowadzonych zmian:</p>
+
+<ul>
+<li class="puce">Nowe obrazy i wiele poprawek drobnych błędów w aktywnościach obiegu wody i energii odnawialnej.</li>
+<li class="puce">Nowe obrazy w aktywności Tangram.</li>
+<li class="puce">Lepsze szeregowanie liter na klawiaturze wirtualnej (jest teraz zgodne z językiem ustawionym w GCompris).</li>
+<li class="puce">Naprawiono wysypywanie się na Androidzie po uruchomieniu aktywności pudełka równowagi.</li>
+<li class="puce">Wiele więcej małych poprawek i usprawnień.</li>
+</ul>
+<br/>
+<p>Po stronie tłumaczeń:</p>
+<ul>
+<li class="puce">Ukończono tłumaczenie na rosyjski.</li>
+<li class="puce">Nowe głosy dla norweskiego nynorsk (wszystkie poza głosami wprowadzającymi).</li>
+</ul>
+<br/>
+<p>Pakiety tej nowej wersji dla GNU/Linuksa, Windowsa oraz macOSa możesz znaleźć na <a href="https://gcompris.net/downloads{{ suffix }}.html">stronie pobierań</a>. To uaktualnienie będzie wkrótce dostępne w Sklepie Andorida, repozytorium F-Droid oraz Sklepie Windowsa. Pakiet dla Raspberry Pi także będzie wkrótce dostępny.</p>
+ <p>Dzięki wam wszystkim, <br/>Timothée & Johnny</p>
+ {% endblock %} 
