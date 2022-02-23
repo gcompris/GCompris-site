@@ -338,15 +338,6 @@ for filename in sorted(filenames, reverse=True):
     with codecs.open('news/' + templateVars['newsDate'] + suffix + '.html', 'w', encoding='utf8') as f:
         f.write( outputNewsSingleText )
 
-templateNews = templateEnv.get_template("template/news.html")
-outputNewsText = templateNews.render(templateVars)
-
-templateNewsAll = templateEnv.get_template("template/newsall.html")
-outputNewsAllText = templateNewsAll.render(templateVars)
-
-templateFeedAll = templateEnv.get_template("template/feed.xml")
-outputFeedAllText = templateFeedAll.render(templateVars)
-
 #
 # Get the board list and make some adaptations
 #
@@ -386,9 +377,6 @@ for screenshot in boards:
 (opens, closes) = sectionDiff(previousSection, '')
 templateVars["screenshots"].append("</div>" * closes)
 
-templateScreenshots = templateEnv.get_template("template/screenshots.html")
-outputScreenshotsText = templateScreenshots.render( templateVars )
-
 # Count the number of activities
 total_activities = 0
 for screenshot in boards:
@@ -397,47 +385,17 @@ for screenshot in boards:
 
 templateVars['total_activities'] = total_activities
 
-templateChristmas = templateEnv.get_template("template/christmas.html")
-outputChristmasText = templateChristmas.render(templateVars)
-
-templateSchools = templateEnv.get_template("template/schools.html")
-outputSchoolsText = templateSchools.render(templateVars)
-
-templateDonate = templateEnv.get_template("template/donate.html")
-outputDonateText = templateDonate.render(templateVars)
-
-templateDownloads = templateEnv.get_template("template/downloads.html")
-outputDownloadsText = templateDownloads.render(templateVars)
-
-templateIndex = templateEnv.get_template("template/index.html")
-outputIndexText = templateIndex.render(templateVars)
-
-with codecs.open('index' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputIndexText )
-
-with codecs.open('news' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputNewsText )
-
-with codecs.open('newsall' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputNewsAllText )
-
-with codecs.open('schools' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputSchoolsText )
-
-with codecs.open('screenshots' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputScreenshotsText )
-
-with codecs.open('christmas' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputChristmasText )
-
-with codecs.open('donate' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputDonateText )
-
-with codecs.open('downloads' + suffix + '.html', 'w', encoding='utf8') as f:
-    f.write( outputDownloadsText )
+templateFeedAll = templateEnv.get_template("template/feed.xml")
+outputFeedAllText = templateFeedAll.render(templateVars)
 
 with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
-    f.write( outputFeedAllText )
+    f.write(outputFeedAllText)
+
+for f in ["christmas", "schools", "donate", "downloads", "index", "screenshots", "news", "newsall"]:
+    template = templateEnv.get_template(os.path.join("template/", f + ".html"))
+    outputText = template.render(templateVars)
+    with codecs.open(f + suffix + '.html', 'w', encoding='utf8') as output:
+        output.write(outputText)
 
 if suffix == '-en':
     template = templateEnv.get_template("template/404.html")
