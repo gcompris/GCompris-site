@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.2 er ute' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Hei!<br />
+Me er glade for å kunngjera at GCompris versjon 2.2 no er ute.</p>
+<p>Dette er ein vedlikehalds­versjon, så alle GNU/Linux-distribusjonar med versjon 2.0 eller 2.1 bør oppdatera til versjon 2.2.</p>
+<p>Dette er nytt i denne versjonen:</p>
+
+<ul>
+<li class="puce">Nye bilete og mange små forbetringar i aktivitetane der du lærer om vasskrins­løpet eller om fornybar energi</li>
+<li class="puce">Nye bilete i tangram-aktiviteten</li>
+<li class="puce">Rekkjefølgja på bokstavane i skjerm­tastaturet følgjer no alfabetet for alle språk</li>
+<li class="puce">Retta ein krasj i Android-versjonen ved start av balanseøskje-aktiviteten</li>
+<li class="puce">Mange andre små rettingar og forbetringar</li>
+</ul>
+<br/>
+<p>Og dette er nytt i språkstøtta:</p>
+<ul>
+<li class="puce">Russiskomsetjinga er no fullstendig</li>
+<li class="puce">Programmet har no tale på nynorsk (for alt utanom introduksjonen til aktivitetane)</li>
+</ul>
+<br/>
+<p>Du finn pakkar for denne nye versjonen for GNU/Linux, Windows og macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android Play Store, i F-Droid og på Windows Store. Ein pakke for Raspberry Pi vert også snart tilgjengeleg.</p>
+ <p>Takke, alle saman!<br/>Timothée & Johnny</p>
+ {% endblock %} 
