@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.2 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Kaixo,<br />
+Atseginez jakinarazten dugu GCompris-en 2.2 bertsioa argitaratu dela.</p>
+<p>Hau, mantentze-lanak dituen argitalpen bat da, eta 2.0 edo 2.1 duten GNU/Linux banaketa guztiek 2.2era eguneratu beharko lukete.</p>
+<p>Hona hemen egindako aldaketen laburpen bat:</p>
+
+<ul>
+<li class="puce">Uraren zikloa eta Energia berriztagarria jardueretan irudi berriak, eta arazo txiki asko konpondu dira.</li>
+<li class="puce">Irudi berriak Tangram jardueran.</li>
+<li class="puce">Alegiazko teklatuan letren ordena hobea (GCompris-en ezarritako tokiko ezarpenei jarraitzen die).</li>
+<li class="puce">Android-en Oreka kaxa jarduera abiatzean ematen zen kraskatzea konpondu da.</li>
+<li class="puce">Beste zuzenketa eta hobekuntza txiki asko.</li>
+</ul>
+<br/>
+<p>Itzulpenei dagokienez:</p>
+<ul>
+<li class="puce">Errusiera itzulpena osatu da.</li>
+<li class="puce">Norvegiera Nynorsk-erako ahots berriak gehitu dira (guztiak, sarrerako ahotsak izan ezik).</li>
+</ul>
+<br/>
+<p>Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, eta
+macOS-rako, <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da eskuragarri Android Play dendan, F-Droid gordetegian eta Windows dendan. Raspberry Pi-rako paketeak laster egongo dira erabilgarri.</p>
+ <p>Eskerrik asko guztiei, <br/>Timothée eta Johnny</p>
+ {% endblock %} 
