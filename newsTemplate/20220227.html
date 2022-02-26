@@ -1,0 +1,11 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 2.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Today we are releasing GCompris version 2.3.</p>
+<p>As we noticed that version 2.2 had been shipped with a bug that broke 3 activities ("Alphabet sequence", "Even and odd numbers" and "Numbers in order"), we decided to fix it quickly with a new maintenance release.</p>
+<p>You can find packages of this new version for GNU/Linux, Windows, Raspberry Pi and macOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will be available soon in the Android Play store, the F-Droid repository and the Windows store.</p>
+<p>Thank you all, <br/>Timothée & Johnny</p>
+{% endblock %}
