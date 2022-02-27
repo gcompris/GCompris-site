@@ -1,0 +1,11 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 2.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Vandaag geven we GCompris versie 2.3 uit.</p>
+<p>Omdat we opgemerkt hebben dat versie 2.2 verzonden is met een bug die 3 activiteiten heeft gebroken ("Volgorde van alfabet", "Even en oneven getallen" en "Volgorde van getallen"), hebben we besloten dat snel te repareren met een nieuwe onderhoudsuitgave.</p>
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows, Raspberry Pi en MacOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store.</p>
+<p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+{% endblock %}
