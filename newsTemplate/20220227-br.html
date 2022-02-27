@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stumm 2.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Hiziv e kinnigomp stumm 2.3 GCompris.</p>
+<p>Goude bezañ dizoloet ur fazi a freuze 3 obererezh hon eus dibabet mennañ buan anezhañ ha kinnig dres ur c'hempenn nevez.</p>
+<p>Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, Raspberry Pi ha MacOS war ar <a href="https://gcompris.net/downloads{{ suffix }}.html">bajenn bellgargañ</a>. An hizivaat a vo deus outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid hag er Windows store.</p>
+<p>Trugarez d'an holl, <br/>
+Timothée & Johnny</p>
+{% endblock %}
