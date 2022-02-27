@@ -1,0 +1,11 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 2.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Idag ger vi ut GCompris version 2.3.</p>
+<p>Eftersom vi märkte att version 2.2 levererades med ett fel som gjorde att tre aktiviteter inte fungerade ("Alfabetisk ordning", "Jämna och udda tal" and "Tal i ordning"), bestämde vi oss för att snabbt rätta det med en underhållsutgåva.</p>
+<p>Du hittar paket av den nya versionen för GNU/Linux, Windows, Raspberry Pi och macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+{% endblock %}
