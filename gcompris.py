@@ -205,7 +205,8 @@ def getBoards():
             difficulty = activityInfo.property('difficulty')
             category = activityInfo.property('category')
             prerequisite = activityInfo.property('prerequisite').replace('\n', '<br/>')
-            icon = activityInfo.property('icon').split('/')[0]
+            if name != "menu":
+                icon = activityInfo.property('icon').split('/')[1]
 
             infos = {'description':description, 
                      'name':name, 
