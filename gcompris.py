@@ -266,7 +266,7 @@ templateEnv = jinja2.Environment( loader=templateLoader,
                                   extensions=['jinja2.ext.i18n'],
                                   trim_blocks=True,
                                   lstrip_blocks=True)
-templateEnv.install_gettext_callables(t.gettext, t.ngettext, newstyle=True)
+templateEnv.install_gettext_callables(t.gettext, t.ngettext, newstyle=True, pgettext=t.pgettext)
 
 # Specify any input variables to the template as a dictionary.
 templateVars = {
@@ -283,7 +283,8 @@ templateVars = {
     "screenshotsmenu": [],
     "locales": locales,
     "manual": getManual(),
-    "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License"),
+    "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License."),
+    "translators_names": t.pgettext("NAME OF TRANSLATORS", "Your names"),
     "feed": []
     }
 

@@ -91,13 +91,16 @@ function toggle(id, toggleId) {
     <hr class="featurette-divider"/>
     <footer class="bs-footer">
       <div class="footer"><a href="https://kde.org/"><img alt="KDE" src="{{ rootFolder }}kde-logo.svg" height="32"></a>
-      <br/>
-      Copyright 2000-{{ current_year }} <a href="mailto:support@gcompris.net">Timothée Giet and others</a>.
-	Site last updated the {{ revision_date }}.
-	<a href='https://www.gnu.org/licenses/agpl-3.0.html'>{{ license_info }}</a><br/>
-	<a rel="privacy" href="https://gcompris.net/mobile-privacy-policy.html">Privacy policy</a>.<br/>
-	This site is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">Creative Commons Attribution-ShareAlike 2.0 France License</a>.<br/>
-	<a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"><img alt="Creative Commons License" style="border-width:0" src="ccbysa_88x31.png" /></a><br/>
+        <br/>
+        Copyright 2000-{{ current_year }} <a href="mailto:support@gcompris.net">Timothée Giet and others</a>.
+        {% trans %}Site last updated the {{ revision_date }}.{% endtrans %}
+        <a href='https://www.gnu.org/licenses/agpl-3.0.html'>{{ license_info }}</a><br/>
+        {% if translators_names != "Your names" %}
+            {% trans %}Site translated by: {{ translators_names }}.{% endtrans %}<br/>
+        {% endif %}
+        <a rel="privacy" href="https://gcompris.net/mobile-privacy-policy.html">Privacy policy</a>.<br/>
+        This site is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">Creative Commons Attribution-ShareAlike 2.0 France License</a>.<br/>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"><img alt="Creative Commons License" style="border-width:0" src="ccbysa_88x31.png" /></a><br/>
       </div>
     </footer>
   </body>
