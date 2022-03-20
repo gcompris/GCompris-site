@@ -21,8 +21,7 @@ sources = \
 	template/schools.html \
 	template/screenshot.html \
 	template/screenshots.html \
-	template/singlenews.html \
-	template/test.html
+	template/singlenews.html
 
 i18_sources = template/base.html \
 	template/donate.html \
