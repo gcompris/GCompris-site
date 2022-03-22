@@ -16,6 +16,7 @@ The official repository is [hosted by
 KDE](https://invent.kde.org/websites/gcompris-net)
 
 ## Requirements
+* python 3.8
 * subversion
 * Jinja2
 * PyQt5 (QtCore and QtQml)
