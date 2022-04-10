@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Today we are releasing GCompris version 2.4.</p>
+<p>We optimized the size of all the packages for all platforms and of the external word images set (~30% smaller).</p>
+<p>If you disabled the automatic download and want to have the full images set, you should go to the configuration and click on "Download full word image set".</p>
+<p>The text "Full word image set is installed" is displayed below when you have the latest version.</p>
+<p>Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been completed by Aiswarya Kaitheri Kandoth.</p>
+<p>Many images have been updated for several activities.</p>
+<p>We have also fixed a few bugs in Renewable energy, Watercycle and Logical associations activities.</p>
+<p>You can find packages of this new version for GNU/Linux, Windows, Raspberry Pi and macOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will be available soon in the Android Play store, the F-Droid repository and the Windows store.</p>
+<p>Thank you all, <br/>Timothée & Johnny</p>
+{% endblock %}
