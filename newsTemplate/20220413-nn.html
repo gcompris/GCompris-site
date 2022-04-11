@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.4 er ute' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>I dag gjev me ut GCompris versjon 2.4.</p>
+<p>Me har optimert storleiken på program­pakkane (alle platt­former) og på den eksterne ordbilet­samlinga (om lag 30 % reduksjon i storleik).</p>
+<p>Viss du har slått av automatisk nedlasting, men ønskjer alle ordbileta, kan du gå til innstillingane og trykkja på knappen «Last ned fullstendig ordbiletsamling».</p>
+<p>Teksten «Fullstendig ordbilet­samling er installert» vert vist nedanfor knappen dersom du alt har den nyaste versjonen.</p>
+<p>Nynorske talelydfiler med introduksjon til alle aktivitetane er lagde til, takka vere Karl Ove Hufthammer og Øystein Steffensen-Alværvik. Talelydfilene til malayalam er no fullstendige, takka vere Aiswarya Kaitheri Kandoth.</p>
+<p>Mange teikningar i ulike aktivitetar er forbetra.</p>
+<p>Me har òg retta nokre feil i aktivitetane «Fornybar energi», «Vasskrinsløpet» og «Logiske samanhengar».</p>
+<p>Du finn pakkar for denne nye versjonen for GNU/Linux, Windows Raspberry Pi og macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android Play Store, i F-Droid og på Windows Store.</p>
+<p>Takk, alle saman!<br/>Timothée & Johnny</p>
+{% endblock %}
