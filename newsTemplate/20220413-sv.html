@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Idag ger vi ut GCompris version 2.4.</p>
+<p>Vi optimerade storleken på paketen för alla plattformar och för den externa uppsättningen med ordbilder (ungefär 30 % mindre).</p>
+<p>Om du inaktiverade den automatiska nerladdningen och vill ha hela bilduppsättningen, ska du gå till inställningen och klicka på "Ladda ner hela uppsättningen ordbilder".</p>
+<p>Texten "Hela uppsättningen ordbilder är installerad" visas nedanför när du har den senaste versionen.</p>
+<p>Introduktionsröster på Nynorsk har lagts till av Karl Ove Hufthammer och Øystein Steffensen-Alværvik. Röster på Malayalam har färdigställts av Aiswarya Kaitheri Kandoth.</p>
+<p>Många bilder har uppdaterats i flera aktiviteter.</p>
+<p>Vi har också rättat några fel i aktiviteterna Förnyelsebar energi, Vattnets kretslopp och Logiska associationer.</p>
+<p>Du hittar paket av den nya versionen för GNU/Linux, Windows, Raspberry Pi och macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+{% endblock %}
