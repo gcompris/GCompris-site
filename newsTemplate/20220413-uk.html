@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Випуск GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Сьогодні нами випущено GCompris версії 2.4.</p>
+<p>Ми оптимізували розмір пакунків та зовнішнього набору зображень для усіх платформ (приблизно на 30%).</p>
+<p>Якщо ви вимкнули автоматичне отримання даних і хочете встановити повний набір зображень, вам слід перейти до налаштувань програми і натиснути кнопку «Отримати повний набір зображень».</p>
+<p>Якщо ви користуєтеся найсвіжішою версією, програма покаже повідомлення «Повний набір зображень для слів встановлено».</p>
+<p>Додано вступне озвучення норвезькою мовою від Karl Ove Hufthammer і Øystein Steffensen-Alværvik. Завершено озвучення мовою малаялам. Автор — Aiswarya Kaitheri Kandoth.</p>
+<p>Для декількох вправ оновлено багато зображень.</p>
+<p>Крім того, нами виправлено вади у вправах із відновлювальної енергії, оберту води у природі та логічних зв'язків.</p>
+<p>Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та MacOS можна знайти на <a href="https://gcompris.net/downloads{{ suffix }}.html">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows.</p>
+<p>Дякуємо вам усім, <br/>Timothée і Johnny</p>
+{% endblock %}
