@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.3-as verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Bemutatjuk GCompris 2.3-as verzióját.</p>
+<p>Észrevettük , hogy a 2.2-es változat hibásan kerül ki, ami miatt 3 tevékenységgel is gondok akadtak ("ABC rend", "Páros-páratlan számok" és a \Számsorrend"" ezért úgy gondoltunkj kiadunk egy hibajavító változatot.</p>
+<p>Az új verzió GNU/Linux, Windows, Android, Raspberry Pi  és MacOS csomagjai a, <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows store-ba is. </p>
+<p>Mindenkinek köszönjük, <br/>
+Timothée és Johnny</p>
+{% endblock %}
