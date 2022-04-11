@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.2-es verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Üdv!<br />
+Örömmel jelentjük be a  GCompris 2.2-es változatát.</p>
+<p>Ez egy hibajavítási kiadás így minden GNU/Linux disztibúció amely az 2.0-s változatot tartalmazza, frissítésre kerül 2.2-re.</p>
+<p>A változások listája a következő:</p>
+
+<ul>
+<li class="puce">Új képek és rengeteg probléma kijavításra került a Víz körforgása és a Megújuló energiaforrűsok tevékenységekben.</li>
+<li class="puce">Új képek a Tangram alkalmazásban.</li>
+<li class="puce">Jobb betű elrendezés a virtuális billentyűzet alakalmazásban (az adott nyelvnek megfelelően)</li>
+<li class="puce">Androidon javítva lett az Egyednsúly doboz indítási problémája.</li>
+<li class="puce">További apróbb javítások és fejlesztések.</li>
+</ul>
+<br/>
+<p>Fordítási oldalról:.</p>
+<ul>
+<li class="puce">Az orosz fordítás teljesen elkészült.</li>
+<li class="puce">Új hangok a nynorski norvég nyelvnél (az üdvözlő hangok kivételével)</li>
+</ul>
+<br/>
+<p>A GNU/Linux felhasználásra szánt új csomagok is elkészültek, Windows és MacOS-re <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül</a>. A frissítés hamarosan érkezik Androidra is a Play Áruházon illetve a Windows store-on keresztül. A Raspberry Pi csomag hamarosan szintén elérhetővé válik.</p>
+ <p>Mindenkinek köszönjük, <br/>
+Timothée és Johnny</p>
+ {% endblock %} 
