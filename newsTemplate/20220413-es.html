@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Hoy hemos publicado GCompris versión 2.4.</p>
+<p>Hemos optimizado el tamaño de todos los paquetes para todas las plataformas y el conjunto de imágenes externas para las palabras (alrededor de un 30% más pequeños).</p>
+<p>Si había desactivado la descarga automática y desea tener el conjunto completo de imágenes, debe ir a la configuración y pulsar «Descargar el conjunto completo de imágenes para palabras».</p>
+<p>El texto «El conjunto completo de imágenes para palabras está instalado» se muestra en la parte inferior cuando tiene la última versión.</p>
+<p>Se han añadido las voces de introducción en noruego Nynorsk por Karl Ove Hufthammer y Øystein Steffensen-Alværvik. Las voces en malabar se han completado por Aiswarya Kaitheri Kandoth.</p>
+<p>Se han actualizado muchas imágenes de varias actividades.</p>
+<p>También hemos corregido algunos errores en las actividades de «Energía renovable», «El ciclo del agua» y «Asociaciones lógicas».</p>
+<p>Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows, Raspberry Pi y MacOS en la <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. Esta actualización estará disponible en breve en la Play Store de Android, el repositorio F-Droid y en la Windows Store.</p>
+<p>Gracias a todos, <br/>Timothée y Johnny</p>
+{% endblock %}
