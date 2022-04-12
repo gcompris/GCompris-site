@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Danes izdajamo GCompris verzija 2.4.</p>
+<p>Optimizirali smo velikost vseh paketov za vse platforme in zunanjo zbirko slik besed (~30% manjše).</p>
+<p>Če ste onemogočili samodejni prenos in želite imeti polno zbirko slik, pojdite na nastavitve in kliknite na "Prenesi celotno zbirko slik besed".</p>
+<p>Besedilo "Nameščena je celotna zbirka slik besed" je prikazana spodaj, kadar imate zadnjo inačico.</p>
+<p>Norveške Nynorsk uvodne glasove sta dodala Karl Ove Hufthammer in Øystein Steffensen-Alværvik. Malajske glasove je dokončal Aiswarya Kaitheri Kandoth.</p>
+<p>Veliko slik je bilo osveženo za več dejavnosti.</p>
+<p>Popravili smo tudi nekaj napak v Obnovljivi energiji, Vodnem krogu in dejavnosti Logičnih asociacij.</p>
+<p>Pakete te nove verzije lahko najdete za GNU/Linux, Windows, Raspbery Pi in MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in trgovini za Windows.</p>
+<p>Hvala vsem,<br/>Timothée in Johnny</p>
+{% endblock %}
