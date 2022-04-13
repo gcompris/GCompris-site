@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament de GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Hui fem el llançament de GCompris versió 2.4.</p>
+<p>Hem optimitzat la mida de tots els paquets per a totes les plataformes i del conjunt d'imatges extern de paraules (30% més xicotet).</p>
+<p>Si desactiveu la descàrrega automàtica i voleu que s'establisquen les imatges completes, haureu d'anar a la configuració i fer clic a «Baixa el conjunt complet d'imatges de les paraules».</p>
+<p>Es mostra el text «Està instal·lat el conjunt complet d'imatges» davall quan s'ha instal·lat la última versió.</p>
+<p>S'han afegit les veus d'introducció del noruec nynorsk per Karl Ove Hufthammer i Øystein Steffensen-Alværvik. S'han completat les veus del malaiàlam per Aiswarya Kaitheri Kandoth.</p>
+<p>S'han actualitzat moltes imatges per a diverses activitats.</p>
+<p>També s'han corregit diversos errors a les activitats d'Energia renovable, Cicle de l'aigua i Associacions lògiques.</p>
+<p>Trobareu els paquets d'esta nova versió per a GNU/Linux, Windows, Raspberry Pi i macOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Esta actualització estarà disponible prompte a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+{% endblock %}
