@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.4 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Gaurkoan GCompris 2.4 bertsioa argitaratzen dugu.</p>
+<p>Plataforma guztietarako paketeen neurria optimizatu dugu eta hitzen kanpoko irudi-multzoena (~%30 txikiagoa).</p>
+<p>Zama-jaiste automatikoa ezgaitu bazenuen eta irudi-multzo osoa izan nahi baduzu, konfiguraziora joan eta "Zama-jaitsi hitzen irudi multzo osoa" gainean klik egin beharko zenuke.</p>
+<p>"Hitzen irudi multzo osoa instalatuta dago" testua azaltzen da bertsio berriena instalatuta duzunean.</p>
+<p>Norvegiera Nynorskerako sarrerako ahotsak erantsi dituzte Karl Ove Hufthammer-reketa Øystein Steffensen-Alværvik-ek. Malaberarako ahotsak osatu ditu Aiswarya Kaitheri Kandoth-ek.</p>
+<p>Zenbait jardueretako irudi asko eguneratu dira.</p>
+<p>Energia berriztagarria, Uraren zikloa eta Elkarketa logikoak jardueretan akats batzuk konpondu ditugu.</p>
+<p>Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, Android, Raspberry Pi eta MacOSrako, <a href="https://gcompris.net/downloads {{ suffix }}.html">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+<p>Eskerrik asko guztiei, <br/>Timothée eta Johnny</p>
+{% endblock %}
