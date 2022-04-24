@@ -1,0 +1,17 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.4 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Šiandien išleidžiame GCompris 2.4 versiją.</p>
+<p>Optimizavome visų paketų visoms platformoms ir žodžių paveikslėlių rinkinio dydį (sumažinome apie 30%).</p>
+<p>Jei išjungėte automatinį atsisiuntimą ir norite turėti pilną paveikslėlių rinkinį, eikite į konfigūraciją ir spustelėkite „Atsisiųsti visą žodžių paveikslėlių rinkinį“.</p>
+<p>Tekstas „Įdiegtas viso žodžio paveikslėlių rinkinys“ bus rodomas, kai turėsite naujausią versiją.</p>
+<p>Norvegų Nynorsk įvadinius balsus pridėjo Karl Ove Hufthammer ir Øystein Steffensen-Alværvik. Malajalių balsus užbaigė Aiswarya Kaitheri Kandoth.</p>
+<p>Atnaujinta daug paveikslėlių keliose pamokėlėse.</p>
+<p>Taip pat ištaisėme keletą klaidų atsinaujinančios energijos, vandens ciklų ir loginių asociacijų pamokėlėse.</p>
+<p>Šios versijos paketus GNU/Linux, Windows, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+<p>Nuoširdžiai dėkojame, <br/>
+Timothée ir Johnny</p>
+{% endblock %}
