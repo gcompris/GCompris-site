@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Sot hedhim në qarkullim GCompris version 2.4.</p>
+<p>Optimizuam madhësinë e krejt paketave për krejt platformat dhe të grupit të jashtëm të figurave për fjalët (~30% më pak).</p>
+<p>Nëse çaktivizuat shkarkimin e automatizuar dhe doni të keni grupin e plotë të figurave, duhet të kaloni te formësimi dhe të klikoni mbi \“Shkarko grupin e plotë të figurave për fjalët\”.</p>
+<p>Nën të shfaqet teksti \“Grupi i plotë i figurave për fjalët është i instaluar\”, kur keni versionin më të ri.</p>
+<p>U shtuan zërat e hyrjes për norvegjishte Nynorsk nga Karl Ove Hufthammer dhe Øystein Steffensen-Alværvik. Zërat e malajalamases u plotësuan nga Aiswarya Kaitheri Kandoth.</p>
+<p>Për disa veprimtari janë përditësuar mjaft figura.</p>
+<p>Ndreqëm gjithashtu pak të meta te veprimtaritë “Energji e Rinovueshme”, “Cikël Ujor” dhe “Përshoqërime Logjike”.</p>
+<p>Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows, Raspberry Pi dhe macOS. Ky përditësim do të jetë së shpejti i passhëm edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows.</p>
+<p>Faleminderit të tërëve, <br/>Timothée & Johnny</p>
+{% endblock %}
