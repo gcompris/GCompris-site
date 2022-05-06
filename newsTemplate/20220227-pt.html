@@ -1,0 +1,11 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 2.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Hoje anunciamos o lançamento do GCompris na versão 2.3.</p>
+<p>Como reparámos que a versão 2.2 foi lançada com um erro que danificou 3 actividades ("Sequência alfabética", "Números pares e ímpares" e "Números por ordem"), optámos por corrigi-la rapidamente com uma nova versão de manutenção.</p>
+<p>Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS e Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de transferências</a>. Esta actualização também estará disponível em breve na loja Android Play, no repositório F-Droid e na loja do Windows.</p>
+<p>Obrigado a todos, <br/>Timothée & Johnny</p>
+{% endblock %}
