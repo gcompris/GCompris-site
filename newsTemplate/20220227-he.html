@@ -1,0 +1,11 @@
+{% extends "template/onenews.html" %}
+{% set title = 'השקת GCompris 2.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>היום אנו משיקים את גירסה 2.3 של GCompris.</p>
+<p>מאחַר ונוכחנו שגירסה 2.3 הושקה עם שלוש פעילויות תקולות ("סדר אלפביתי", "מספרים זוגיים ואי-זוגיים", ו־"מספרים לפי הסדר"), החלטנו להשיק גירסה חדשה על מנת לתקן זאת.</p>
+<p>כרגיל, ניתן למצוא חבילות לגירסה החדשה הזו לגנוּ/לינוֹקס, וווינדווס, MacOS ורספברי פאי ב<a href="https://gcompris.net/downloads{{ suffix }}.html">דף ההורדה</a>.</p>
+<p>תודה רבה לכולכם, <br/>טימות'י וְז'וֹנִי</p>
+{% endblock %}
