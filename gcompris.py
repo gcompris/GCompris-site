@@ -57,10 +57,7 @@ t = None
 def setLocale(locale):
     global _
     global t
-    try:
-        t = gettext.translation('gcompris', 'locale', languages=[locale])
-    except:
-        t = gettext.NullTranslations()
+    t = gettext.translation('gcompris', 'locale', languages=[locale], fallback=True)
     _ = t.gettext
 
 def formatDate(date):
