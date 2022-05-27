@@ -9,8 +9,13 @@
 	  <span class="glyphicon glyphicon-share"></span>
 	</a>
       </div>
-      <div class="newstitle" style="float: left; text-align: left;"><a href= "https://gcompris.net/news/{{ newsDate }}-{{ locale}}.html">{{ title }}</a></div>
+      {% if direction == 'ltr' %}
+      <div class="newstitle" style="float: left; text-align: left;"><a href= "https://gcompris.net/news/{{ newsDate }}-{{ locale }}.html">{{ title }}</a></div>
       <div class="newsdate" style="float: right; text-align: right;">{{ newsDate }}&nbsp;</div>
+      {% else %}
+      <div class="newsdate" style="float: right; text-align: right;">{{ newsDate }}&nbsp;</div>
+      <div class="newstitle" style="float: right; text-align: left;"><a href= "https://gcompris.net/news/{{ newsDate }}-{{ locale }}.html">{{ title }}</a></div>
+      {% endif %}
       </div>
       <div style="clear: both;"></div>
       <div class="newscontent">{% block content %}{% endblock %}
