@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+#
+# GCompris - gcompris.py
+#
+# SPDX-FileCopyrightText: 2013 Bruno Coudoin <bruno.coudoin@gcompris.net>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 import codecs
 import os
