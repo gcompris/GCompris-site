@@ -1,5 +1,8 @@
 #! /bin/sh
 
+# SPDX-FileCopyrightText: 2022 Johnny Jazeix <jazeix@gmail.com>
+# SPDX-License-Identifier: BSD-2-Clause
+
 if [ ! -d "newsTemplate/" ]; then
     echo "Needs to be run from top level directory of gcompris-net"
     exit -1
