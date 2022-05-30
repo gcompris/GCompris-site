@@ -83,9 +83,9 @@ for currentNews in news:
     # Replace the target string
     for string in news[currentNews]:
         if 'title' == string:
-            matches = re.findall(r"{% set title = \'(.+?)\'", fileData)
+            matches = re.findall(r"{% set title = '(.+?)' %}", fileData)
             for m in matches:
-                fileData = fileData.replace('\'%s\'' % m, '\'%s\'' % news[currentNews][string])
+                fileData = fileData.replace('\'%s\'' % m.replace("'", "\\'"), repr(news[currentNews][string]))
             continue
         else:
             # We only want to replace the first occurence of the string

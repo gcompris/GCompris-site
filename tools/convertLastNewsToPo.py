@@ -42,7 +42,9 @@ for newsFileName in lastNews:
     fileContent = file.read()
 
     # get the title separately
-    newsTitle = re.search("{% set title = \'(.+?)\'", fileContent).group(1)
+    newsTitle = re.search("{% set title = '(.+?)' %}", fileContent).group(1)
+    # Eval in case there is a \' in the title string to unescape
+    newsTitle = eval("'%s'" % (newsTitle,))
 
     #catch all <p>: (?s)<p>(.*?)</p> in group 0
     #catch all li: <li.*?>(.*?)</li> in group 1
