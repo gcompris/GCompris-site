@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Wydano GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Dzisiaj udostępniamy GCompris w wersji 2.4.</p>
+<p>Zoptymalizowaliśmy rozmiar wszystkich pakietów dla wszystkich platform  oraz zestaw obrazów słów zewnętrznych (o ~30% mniejszy).</p>
+<p>Jeśli wyłączyłeś automatyczne pobieranie i chcesz mieć ustawione pełne obrazy,  przejdź do ustawień i naciśnij przycisk "Pobierz pełny zestaw słów obrazowych".</p>
+<p>W przypadku posiadania najnowszej wersji programu poniżej wyświetlany  jest tekst "Zainstalowano pełny zestaw słów obrazowych".</p>
+<p>Głosy wprowadzające dla norweskiego języka nynorsk zostały dodane przez  Karla Ove Hufthammera i Øysteina Steffensena-lværvika. Głosy w języku malajalam  zostały uzupełnione przez Aiswarya Kaitheri Kandoth.</p>
+<p>Wiele obrazów zostało zaktualizowanych dla kilku działań.</p>
+<p>Naprawiliśmy także kilka błędów w Energii odnawialnej, Obiegu wody i Skojarzeniach logicznych.</p>
+<p>Pakiety z nową wersją dla systemów GNU/Linux, Windows, Raspberry Pi i macOS można znaleźć na stronie <a href="https://gcompris.net/downloads{{ suffix }}.html">stronie pobierań</a>. Ta aktualizacja będzie dostępna wkrótce w sklepie Android Play, repozytorium F-Droid oraz w sklepie Windows.</p>
+<p>Dziękujemy wam wszystkim, <br/>Timothée & Johnny</p>
+{% endblock %}
