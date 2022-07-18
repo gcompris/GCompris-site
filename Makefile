@@ -1,8 +1,8 @@
 
 VERSION = 2.4
 
-ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr ga gd gl he hi hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
-#ALL_LINGUAS = fr
+#ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr ga gd gl he hi hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
+ALL_LINGUAS = fr
 
 GCOMPRIS_DIR="gcompris-qt-$(VERSION)"
 
