@@ -269,11 +269,42 @@ h2 {
 }
 .navbar-header {
 }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #00A4EB;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #e77935;
+  background-color: #fff;
+}
+
 .active {
   border-bottom: 3px solid #e77935;
 }
 .non-active {
 }
+
+.non-active:hover {
+  border-bottom: 3px solid #00A4EB;
+}
+
+.dropdown-menu > li > a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #00A4EB;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #00A4EB;
+  border-bottom-color: #00A4EB;
+}
+
 .featurette-divider {
   border: 1px solid #e77935;
   background: #e77935;
