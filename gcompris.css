@@ -201,8 +201,24 @@ h2 {
     height: 144px;
 }
 .footer {
-    text-align: center;
+  text-align: center;
+  background-color: #4da849;
+  color: #ffffff;
 }
+
+.footer > a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-top {
+  background: #4da849;
+  height: 7em;
+  margin-top: 2em;
+  margin-bottom: 0em;
+  clip-path: url("#clip-footer");
+}
+
 .puce {
   display: list-item;
   list-style-image: url(puce.gif);
@@ -303,12 +319,6 @@ h2 {
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
   border-top-color: #00A4EB;
   border-bottom-color: #00A4EB;
-}
-
-.featurette-divider {
-  border: 1px solid #e77935;
-  background: #e77935;
-  box-shadow: 1px 1px 1px #888;
 }
 
 .bs-docs-sidenav {
