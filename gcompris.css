@@ -299,13 +299,15 @@ h2 {
   background-color: #fff;
 }
 
-.active {
+.navbar-default .navbar-nav > .active {
   border-bottom: 3px solid #e77935;
 }
-.non-active {
+
+.navbar-default .navbar-nav > .non-active {
+  border-bottom: 3px solid #ffffff;
 }
 
-.non-active:hover {
+.navbar-default .navbar-nav > .non-active:hover {
   border-bottom: 3px solid #00A4EB;
 }
 
