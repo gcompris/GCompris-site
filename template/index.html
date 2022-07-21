@@ -1,6 +1,7 @@
 {% extends "template/base.html" %}
 {% set page = 'index' %}
 {% set title = _('GCompris Educational Software') %}
+
 {% block head %}
     {{ super() }}
     <script type="text/javaScript">
@@ -10,61 +11,19 @@
         macURL = "downloads{{ suffix }}.html#osx";
         linuxURL = "downloads{{ suffix }}.html#linux";
         androidURL = "downloads{{ suffix }}.html#android";
+        downloadURL = "downloads{{ suffix }}.html";
         if ( (/^Windows/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = windowsURL;
-          document.getElementById("downloadOS").innerHTML = "Windows";
-          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innerHTML = "{% trans %}Version {{version}}{% endtrans %}";
-          document.getElementById("otherDownloadOS0Link").href = androidURL;
-          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
-          document.getElementById("otherDownloadOS1Link").href = macURL;
-          document.getElementById("otherDownloadOS1Link").innerHTML = "macOS";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "GNU/Linux";
         } else if ( (/(Mac|OS X)/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = "downloads{{ suffix }}.html#osx";
-          document.getElementById("downloadOS").innerHTML = "macOS";
-          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innerHTML = "";
-          document.getElementById("otherDownloadOS0Link").href = androidURL;
-          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
-          document.getElementById("otherDownloadOS1Link").href = windowsURL;
-          document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "GNU/Linux";
         } else if ( (/^Android/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = androidURL;
-          document.getElementById("downloadOS").innerHTML = "Android";
-          document.getElementById("downloadButtonImg").src = "downloadAndroid.png";
-          document.getElementById("downloadDetails").innerHTML = "";
-          document.getElementById("otherDownloadOS0Link").href = windowsURL;
-          document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
-          document.getElementById("otherDownloadOS1Link").href = macURL;
-          document.getElementById("otherDownloadOS1Link").innerHTML = "macOS";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "GNU/Linux";
         } else if ( (/^iOS/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = "downloads{{ suffix }}.html";
-          document.getElementById("downloadOS").innerHTML = "";
-          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innerHTML = "";
-          document.getElementById("otherDownloadOS0Link").href = windowsURL;
-          document.getElementById("otherDownloadOS0Link").innerHTML = "Windows";
-          document.getElementById("otherDownloadOS1Link").href = macURL;
-          document.getElementById("otherDownloadOS1Link").innerHTML = "macOS";
-          document.getElementById("otherDownloadOS2Link").href = linuxURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "GNU/Linux";
-        } else {
+        } else if ( (/^Linux/).test(platform.os.family)) {
           document.getElementById("downloadButton").href = linuxURL;
-          document.getElementById("downloadOS").innerHTML = "GNU/Linux";
-          document.getElementById("downloadButtonImg").src = "downloadGCompris.png";
-          document.getElementById("downloadDetails").innerHTML = "{% trans %}Version {{version}}{% endtrans %}";
-          document.getElementById("otherDownloadOS0Link").href = androidURL;
-          document.getElementById("otherDownloadOS0Link").innerHTML = "Android";
-          document.getElementById("otherDownloadOS1Link").href = windowsURL;
-          document.getElementById("otherDownloadOS1Link").innerHTML = "Windows";
-          document.getElementById("otherDownloadOS2Link").href = macURL;
-          document.getElementById("otherDownloadOS2Link").innerHTML = "macOS";
+        } else {
+          document.getElementById("downloadButton").href = downloadURL;
         }
       }
     </script>
@@ -77,26 +36,34 @@
       });
 </script>
 {% endblock %}
+
+{% block hero %}
+<div id="hero-bg">
+    <div id="hero-bottom"></div>
+</div>
+
+{% endblock %}
+
 {% block content %}
-<div class="container bs-docs-container">
+<div class="container main-page-container">
+    <div class="col-xs-12 col-md-6 hero-content">
+        <div id="hero-title"></div>
+        <div id="hero-character-mobile"></div>
+        
+        <div class="buttonLine">
+            <a class="buttonGlobal" id="downloadButton">{% trans %}Download GCompris{% endtrans %}</a>
+        </div>
+        <div class="buttonLine">
+            <a class="buttonGlobal" id="newsButton" href="news{{ suffix }}.html">{% trans %}Latest news{% endtrans %}</a>
+        </div>
+
+    </div>
+    <div class="col-xs-12 col-md-6 hero-content">
+        <div id="hero-character"></div>
+    </div>
+
     <div class="col-xs-12 col-md-6">
-      <div class="row" style="width: 100%; margin: 0 auto">
-	    <div>
-	      <a class= "col-xs-12" id="downloadButton">
-	       <img id="downloadButtonImg" alt="{% trans %}Download GCompris{% endtrans %}" src="empty.png" style="position: absolute; top: -10px; left: -5px;"/>
-	       <span class="downloadText">{% trans %}Download GCompris{% endtrans %}</span>
-	       <span id="downloadDetails" style="font-size: 12px; color: white;"></span>
-	       <span id="downloadOS"></span>
-	      </a>
-	    </div>
-      </div>
-      <div class="col-xs-12" style="width: 100%; margin: 0 auto; text-align: center">
-	    <a class="extraDlLink" id="otherDownloadOS0Link"></a>
-	    <a class="extraDlLink" id="otherDownloadOS1Link"></a>
-	    <a class="extraDlLink" id="otherDownloadOS2Link"></a>
-	    <a class="extraDlLink" href="downloads{{ suffix }}.html">{# notes other platform #}{% trans %}All{% endtrans %}</a>
-      </div>
-      <div style="margin-top: 10px; margin-bottom: 40px">
+      <div style="margin-bottom: 40px">
         <div id="carousel" class="carousel slide" style="width: 100%; margin: 0 auto">
 	  <!-- Indicators -->
 	      <ol class="carousel-indicators">
@@ -171,13 +138,11 @@
 	      <a class="extraInfoLink" href="screenshots{{ suffix }}.html">{% trans %}View all screenshots{% endtrans %}</a>
 	    </div>
       </div>
-      <a class="patreonlink" href="https://www.patreon.com/join/animtim?">
-          <span>☀ {% trans %}Become a Patron{% endtrans %}</span>
-      </a>
+      <div class="buttonLine">
+          <a id="patreonButton" class="buttonGlobal" href="https://www.patreon.com/join/animtim?">☀ {% trans %}Become a Patron{% endtrans %}</a>
+      </div>
     </div>
     <div class="col-xs-12 col-md-6 news">
-      <img class="indexProjectImg" alt="Large GCompris Logo" src="middleGComprisLogo.png"/>
-      <h1 class="bigtitle">GCompris</h1>
       <div class="projectDescription"><p>{% trans %}GCompris is a high quality educational software suite, including a large number of activities for children aged 2 to 10.{% endtrans %}</p>
 	<p>{% trans %}Some of the activities are game orientated, but nonetheless still educational.{% endtrans %}</p>
 	<p>{% trans %}Here is the list of activity categories with some examples:{% endtrans %}</p>
@@ -194,13 +159,5 @@
 	<p>{% trans %}The GCompris project is hosted and developed by <a target="_blank" rel="noopener" href="https://www.kde.org/">the KDE community</a>.{% endtrans %}</p>
       </div>
     </div>
-  
 </div>
-<hr class="featurette-divider"/>
-<a href="https://www.gcompris.net/feed-{{ locale }}.xml"><img class="rssIcons" src="images/rss-gcompris-48.png"></a>
-<h1 class="bigtitle2">{% trans %}Latest news{% endtrans %}</h1>
-{% for onenews in news %}
-  {%- if loop.index <= 2 %}{{ onenews }}{% endif %}
-{% endfor %}
-<a class="extraInfoLink" href="news{{ suffix }}.html">{% trans %}All the news{% endtrans %}</a>
 {% endblock %}
