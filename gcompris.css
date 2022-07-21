@@ -64,61 +64,65 @@ h2 {
 .rssIcons {
     float: right;
 }
-#downloadButton {
-    color: white;
-    background-color: #6fb734;
-    border: 1px solid white;
-    border-radius: 12px;
-    box-shadow: 0 0 6px #888888;
-    clear: both;
-    color: #FFFFFF;
-    float: left;
-    margin-top: 10px;
-    padding: 15px 15px 15px 90px;
-    position: relative;
+
+.buttonLine {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
-#downloadButton:hover {
-    text-decoration: none;
-    background-color: #84CC48;
-}
-#downloadDetails {
-    color: #FFFFFF;
-    padding-left: 3px;
-}
-.downloadText {
-    color: white;
-    display: block;
-    font-family: "trebuchet MS",Arial,"Noto Sans Malayalam", "Sans-Serif";
-    font-size: 30px;
-    letter-spacing: 0.03em;
-    line-height: 32px;
-    padding-bottom: 6px;
-}
-.patreonlink {
-    display: block;
-    width: 70%;
+
+.buttonGlobal {
+    display: inline-block;
+    min-width: 70%;
     text-transform: uppercase;
     white-space: nowrap;
     font-weight: bold;
-    margin: 20px auto 20px auto;
-    padding: 8px 12px 8px 12px;
+    margin: 1em auto 1em auto;
+    padding: 0.5em 2em 0.5em 2em;
+    font-family: "trebuchet MS",Arial,"Noto Sans Malayalam", "Sans-Serif";
     text-align: center;
     font-size: 1.8rem;
     line-height: 2.15rem;
+    color: #FFF;
+    text-decoration: none;
     background: linear-gradient(to right, #D79B35, #E77935);
-    border-radius: 2px;
-    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 0px 0px rgba(0,0,0,0.3);
+    border-radius: 0.33em;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 0px 0px rgba(0,0,0,0.3);   
 }
-.patreonlink:hover {
+
+.buttonGlobal:hover {
     filter: brightness(1.2);
     transition: all 0.2s ease-in;
-}
-.patreonlink span {
-    display: inline-block;
     color: #FFF;
     text-decoration: none;
 }
+
+#downloadButton {
+    min-width: 70%;
+    padding: 1em 2em 1em 2em;
+}
+
+#newsButton {
+    min-width: 50%;
+    background: transparent;
+    color: #00A4EB;
+    border: 0.2em solid #00A4EB;
+    border-radius: 0.33em;
+    text-shadow: none;
+    box-shadow: none;   
+}
+
+#newsButton:hover {
+    filter: none;
+    background: #00A4EB;
+    color: #fff;   
+}
+
+#patreonButton {
+    min-width: 50%;
+}
+
 .patreoncards {
   display: block;
   margin-left: auto;
@@ -283,6 +287,15 @@ h2 {
   background: #ffd89c;
   box-shadow: 0px 0px 5px #555;
 }
+
+.navbar {
+  position: relative;
+  z-index: 1000;
+  min-height: 50px;
+  margin-bottom: 0;
+  border: 0px solid transparent;
+}
+
 .navbar-header {
 }
 
@@ -321,6 +334,58 @@ h2 {
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
   border-top-color: #00A4EB;
   border-bottom-color: #00A4EB;
+}
+
+.navbar-collapse {
+  max-height: none;
+}
+
+.hero-container {
+  margin-bottom: 20px;
+}
+
+.main-page-container {
+  margin-top: -25em;
+}
+
+.hero-content {
+  margin-bottom: 2em;
+}
+
+#hero-bg{
+  width: 100%;
+  margin: 0;
+  height: 30em;
+  background: #85D8F6;
+}
+
+#hero-bottom {
+  background: #EFEFEF;
+  width: 100%;
+  height: 7em;
+  clip-path: url("#clip-footer");
+  position: relative;
+  top: 23em;
+}
+
+#hero-title {
+  background: url("images/gcompris-logo-full.svg")no-repeat;
+  background-size: contain;
+  height: 15em;
+}
+
+#hero-character {
+  background: url("images/hero-character.svg")no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  height: 30em;
+}
+
+#hero-character-mobile {
+  background: url("images/hero-character.svg")no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  height: 0;
 }
 
 .bs-docs-sidenav {
@@ -371,7 +436,7 @@ h3.carousel-text {
 
 /* Tablet to desktop
 ------------------------- */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 991px) {
   /* Adjust sidenav width */
   .bs-docs-sidenav {
     width: auto;
@@ -380,6 +445,15 @@ h3.carousel-text {
   .extraDlLink {
     padding-right: 20px;
   }
+  #hero-title {
+    height: 10em;  
+  }
+  #hero-character-mobile {
+    height: 15em;
+ }
+  #hero-character {
+    height: 0;
+ }
 }
 
 /* Tablet
@@ -419,9 +493,28 @@ h3.carousel-text {
   .screenshotDivAuthor {
     width: 375px;
   }
-  .patreonlink {
-    width: 100%;
+  
+  #downloadButton {
+    min-width: 100%;
   }
+
+  #newsButton {
+    min-width: 100%;
+  }
+
+  #patreonButton {
+    min-width: 100%;
+  }
+  
+  #hero-title {
+    height: 10em;  
+  }
+  #hero-character-mobile {
+    height: 15em;
+ }
+  #hero-character {
+    height: 0;
+ }
 }
 
 
@@ -461,9 +554,6 @@ h3.carousel-text {
 	font-size: 10px;
 	float: left;
 	text-align: left;
-    }
-    .downloadText {
-    font-size: 1.5em;
     }
     .extraDlLink {
     padding-right: 20px;
