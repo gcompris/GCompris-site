@@ -40,6 +40,7 @@ pre {
 body {
     background-color: #efefef;
     font-family: Arial, "Noto Sans Malayalam";
+    color: #4f4f4f;
 }
 a {
     color: #e05f0f;
@@ -212,12 +213,8 @@ h2 {
     float: right;
     padding: 3px 0 3px 0;
 }
-.projectScreenshot {
-    clear: both;
-    display: block;
-    padding-top: 26px;
-    width: 414px;
-    height: 189px;
+.projectDescription {
+  font-size: 1.3em;
 }
 .screenshotImg {
     float: left;
@@ -267,6 +264,7 @@ h2 {
     width: 164px;
     height: 144px;
 }
+
 .footer {
   text-align: center;
   background-color: #4da849;
@@ -281,7 +279,7 @@ h2 {
 .footer-top {
   background: #4da849;
   height: 7em;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0em;
   clip-path: url("#clip-footer");
 }
@@ -293,11 +291,12 @@ h2 {
   margin-left: 14px;
 }
 .news {
-  border: 1px solid #f8f8f8;
   background: #fff;
-  box-shadow: 1px 1px 1px #888;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
+  border-radius: 1rem;
+  padding: 3rem;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.05), 0px 15px 20px -1px rgba(0,0,0,0.025);
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .newstitle {
     font-weight: bold;
@@ -461,6 +460,14 @@ h2 {
   background-size: contain;
   background-position: right bottom;
   height: 0;
+}
+
+#bottomIllustration {
+  background: url("images/gcompris-characters.png")no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  height: 30em;
+  margin-bottom: 0;
 }
 
 .bs-docs-sidenav {
@@ -643,6 +650,10 @@ h3.carousel-text {
   #hero-character {
     height: 0;
  }
+
+  #bottomIllustration {
+    height: 15em;
+ }
  .carousel-control .icon-prev {
     left: 40%;
  }
@@ -715,6 +726,11 @@ h3.carousel-text {
   #hero-character {
     height: 0;
  }
+
+  #bottomIllustration {
+    height: 15em;
+ }
+
 }
 
 
