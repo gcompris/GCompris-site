@@ -198,6 +198,16 @@ h2 {
     padding-left: 7px;
     padding-right: 23px;
 }
+
+.headerLogo {
+  background-image: url("gcompris-logo-48.svg");
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 7px;
+  width: 72px;
+  height: 48px;
+}
+
 .indexProjectImg {
     float: right;
     padding: 3px 0 3px 0;
