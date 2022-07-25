@@ -639,6 +639,18 @@ h3.carousel-text {
   height: 2em;
 }
 
+/* Carousel specific */
+@media (max-width: 1199px) {
+ .carousel-control .icon-prev {
+    left: 25%;
+ }
+
+ .carousel-control .icon-next {
+    right: 25%;
+ }
+}
+
+
 /* Tablet to desktop
 ------------------------- */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -664,11 +676,11 @@ h3.carousel-text {
     height: 15em;
  }
  .carousel-control .icon-prev {
-    left: 40%;
+    left: -20%;
  }
 
  .carousel-control .icon-next {
-    right: 40%;
+    right: -20%;
  }
 }
 
@@ -708,6 +720,14 @@ h3.carousel-text {
   }
   .screenshotDivAuthor {
     width: 375px;
+  }
+
+  .carousel-control .icon-prev {
+    left: -20%;
+  }
+
+  .carousel-control .icon-next {
+    right: -20%;
   }
   
   #downloadButton {
@@ -782,6 +802,13 @@ h3.carousel-text {
     }
     .extraDlLink {
     padding-right: 20px;
+    }
+    .carousel-control .icon-prev {
+       left: -25%;
+    }
+
+    .carousel-control .icon-next {
+       right: -25%;
     }
 }
 
