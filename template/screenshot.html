@@ -1,10 +1,10 @@
-<div id="{{ screenshot.name }}" class="container">
+<div id="{{ screenshot.name }}">
   {% if screenshot.type != 'menu' %}
     <div class="row screenshot">
   {% else %}
     <div class="row screenshotmenu{{ depth }}">
   {% endif %}
-    <div class="container" style="position: relative;">
+    <div class="screenshotContainer" style="position: relative;">
       <div style="float: right;">
 	<a href="#{{ screenshot.name }}" style="color: black">
 	  <span class="glyphicon glyphicon-share"></span>
@@ -37,7 +37,7 @@
       </div>
       <div style="clear: both;"></div>
     </div>
-    <div class="container">
+    <div class="screenshotContainer">
       <div class="newstitle"><b>{% trans %}Description:{% endtrans %}</b> {{ screenshot.description }}</div>
       {% if screenshot.prerequisite %}
         <br/>
