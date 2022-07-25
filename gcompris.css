@@ -288,7 +288,8 @@ h2 {
   background: #4da849;
   height: 7em;
   margin-top: 1em;
-  margin-bottom: 0em;
+/* fix tiny white border on chrome android */
+  margin-bottom: -0.05em;
   clip-path: url("#clip-footer");
 }
 
