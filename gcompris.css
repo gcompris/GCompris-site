@@ -216,6 +216,14 @@ h2 {
 .projectDescription {
   font-size: 1.3em;
 }
+
+.screenshotContainer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .screenshotImg {
     float: left;
     padding-left: 100px;
