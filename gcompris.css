@@ -682,6 +682,9 @@ h3.carousel-text {
  .carousel-control .icon-next {
     right: -20%;
  }
+  .news {
+    padding: 2rem;
+  }
 }
 
 /* Tablet
@@ -729,6 +732,10 @@ h3.carousel-text {
   .carousel-control .icon-next {
     right: -20%;
   }
+
+  .news {
+    padding: 2rem;
+  }
   
   #downloadButton {
     min-width: 100%;
@@ -766,50 +773,52 @@ h3.carousel-text {
 /* Landscape phones
 ------------------------- */
 @media (max-width: 480px) {
-    .screenshotImg {
+  .screenshotImg {
     padding-left: 50px;
-	width: 250px;
-	height: 130px;
-    }
-    .screenshotIcon {
-	width: 50px;
-	height: 50px;
-    }
-    .screenshotStar {
-	position: absolute;
-	left: 250px;
-	top: 10px;
-	width: 30px;
-	height: 30px;
-    }
-    .screenshotPay {
-	position: absolute;
-	left: 250px;
-	top: 50px;
-	width: 23px;
-	height: 23px;
-    }
-    .screenshotDivAuthor {
-	width: 200px;
-    }
-    .screenshotSection {
-	font-size: 10px;
-    }
-    .screenshotAuthor {
-	font-size: 10px;
-	float: left;
-	text-align: left;
-    }
-    .extraDlLink {
+    width: 250px;
+    height: 130px;
+  }
+  .screenshotIcon {
+    width: 50px;
+    height: 50px;
+  }
+  .screenshotStar {
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .screenshotPay {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    width: 23px;
+    height: 23px;
+  }
+  .screenshotDivAuthor {
+    width: 200px;
+  }
+  .screenshotSection {
+    font-size: 10px;
+  }
+  .screenshotAuthor {
+    font-size: 10px;
+    float: left;
+    text-align: left;
+  }
+  .extraDlLink {
     padding-right: 20px;
-    }
-    .carousel-control .icon-prev {
-       left: -25%;
-    }
-
-    .carousel-control .icon-next {
-       right: -25%;
-    }
+  }
+  .carousel-control .icon-prev {
+    left: -25%;
+  }
+  .carousel-control .icon-next {
+    right: -25%;
+  }
+  .news {
+    padding: 2rem;
+  }
 }
 
 div.fb-like
