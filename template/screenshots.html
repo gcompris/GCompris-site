@@ -1,22 +1,45 @@
 {% extends "template/base.html" %}
 {% set page = 'screenshots' %}
 {% set title = _('Screenshots') + " - GCompris" %}
+{% block head %}
+    {{ super() }}
+    <script type="text/javaScript">
+    function filterSection(section) {
+        const screenshotCards = document.getElementsByClassName(".screenshotCard");
+        Array.from(screenshotCards).forEach(card => {
+            if(card.getAttribute("data-section").includes(section)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    }
+    </script>
+{% endblock %}
+
 {% block content %}
 <div class="container">
   <h1 class="bigtitle2">{% trans %}Screenshots{% endtrans %}</h1>
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 bs-docs-sidebar">
-      <ul class="nav nav-list bs-docs-sidenav">
-	{% for activity in screenshotsmenu %}
-          {% if activity.type != 'menu' %}
-            <li class="active2">
-	      <a href="#{{ activity.name }}"><div class="bs-docs-sidenav-depth{{ activity.depth }}">{{ activity.title }}</div></a>
-	    </li>
-	  {% endif %}
-	{% endfor %}
-      </ul>
+    <div class="col-xs-12">
+      <div id="category-selector">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Category Filter <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a onClick=filterSection("")>All</a></li>
+            <li><a onClick=filterSection("computer")>Computer</a></li>
+            <li><a onClick=filterSection("discovery")>Discovery</a></li>
+            <li><a onClick=filterSection("sciences")>Sciences</a></li>
+            <li><a onClick=filterSection("fun")>Fun</a></li>
+            <li><a onClick=filterSection("math")>Mathematics</a></li>
+            <li><a onClick=filterSection("puzzle")>Puzzle</a></li>
+            <li><a onClick=filterSection("reading")>Reading</a></li>
+            <li><a onClick=filterSection("strategy")>Strategy</a></li>
+          </ul>
+        </li>
+      </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+    <div class="col-xs-12">
       {% for screenshot in screenshots %}
         {{ screenshot }}
         <p></p>

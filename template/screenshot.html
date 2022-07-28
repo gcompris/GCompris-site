@@ -1,4 +1,4 @@
-<div id="{{ screenshot.name }}">
+<div id="{{ screenshot.name }}" class=".screenshotCard" data-section="{{ screenshot.section }}">
   {% if screenshot.type != 'menu' %}
     <div class="row screenshot">
   {% else %}
@@ -12,17 +12,17 @@
       </div>
       {% if screenshot.type != 'menu' %}
         <div class="newstitle">{{ screenshot.title }}</div>
-        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}'/>
+        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}' loading="lazy" />
       {% else %}
         <div class="newstitle">{{ screenshot.title }}</div>
       {% endif %}
       {% if screenshot.icon %}
         {% if screenshot.name != 'root' %}
-          <img class='screenshotIcon' src='boardicons/{{ screenshot.icon }}' alt='icon {{ screenshot.icon }}'/>
+          <img class='screenshotIcon' src='boardicons/{{ screenshot.icon }}' alt='icon {{ screenshot.icon }}' loading="lazy"/>
 	{% endif %}
       {% endif %}
       {% if screenshot.name != 'root' %}
-        <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.svg' alt='difficulty level {{ screenshot.difficulty }}'/>
+        <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.svg' alt='difficulty level {{ screenshot.difficulty }}' loading="lazy"/>
       {% endif %}
       <div style="clear: both;"></div>
       <div class='screenshotDivAuthor'>

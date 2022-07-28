@@ -283,7 +283,6 @@ templateVars = {
     "news": [],
     "single_news": [],
     "screenshots": [],
-    "screenshotsmenu": [],
     "locales": locales,
     "manual": getManual(),
     "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License."),
@@ -358,7 +357,14 @@ for screenshot in boards:
     if screenshot['name'] == "login":
         screenshot['section'] = 'administration'
 
-boards = sorted(boards, key=lambda t: t['section']+' '+t['name'])
+boards = sorted(boards, key=lambda t: t['title'])
+
+# Move the menu in first position
+for i in range(0, len(boards)):
+    if boards[i]['name'] == 'root':
+        menuScreenshot = boards[i]
+        boards.pop(i)
+        boards.insert(0, menuScreenshot)
 
 #
 # Now process the board list
@@ -375,9 +381,6 @@ for screenshot in boards:
     screenshot["depth"] = depth
     templateVars["depth"] = depth
     templateVars["screenshots"].append(templateScreenshot.render(templateVars))
-
-    # Create the screenshot menu
-    templateVars["screenshotsmenu"].append(screenshot)
 
 (opens, closes) = sectionDiff(previousSection, '')
 templateVars["screenshots"].append("</div>" * closes)
