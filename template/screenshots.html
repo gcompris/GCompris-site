@@ -6,13 +6,21 @@
     <script type="text/javaScript">
     function filterSection(section) {
         const screenshotCards = document.getElementsByClassName(".screenshotCard");
-        Array.from(screenshotCards).forEach(card => {
-            if(card.getAttribute("data-section").includes(section)) {
+        if(section === "allCategories") {
+            Array.from(screenshotCards).forEach(card => {
                 card.style.display = "block";
-            } else {
-                card.style.display = "none";
-            }
-        });
+            });
+            document.getElementById("selected-category").innerHTML = "";
+        } else {
+            Array.from(screenshotCards).forEach(card => {
+                if(card.getAttribute("data-section").includes(section)) {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+            document.getElementById("selected-category").innerHTML = document.getElementById(section).innerHTML;
+        }
     }
     </script>
 {% endblock %}
@@ -22,21 +30,24 @@
   <h1 class="bigtitle2">{% trans %}Screenshots{% endtrans %}</h1>
   <div class="row">
     <div class="col-xs-12">
-      <div id="category-selector">
+      <div class="buttonLine">
+      <ul class="category-selector">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Category Filter <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a onClick=filterSection("")>All</a></li>
-            <li><a onClick=filterSection("computer")>Computer</a></li>
-            <li><a onClick=filterSection("discovery")>Discovery</a></li>
-            <li><a onClick=filterSection("sciences")>Sciences</a></li>
-            <li><a onClick=filterSection("fun")>Fun</a></li>
-            <li><a onClick=filterSection("math")>Mathematics</a></li>
-            <li><a onClick=filterSection("puzzle")>Puzzle</a></li>
-            <li><a onClick=filterSection("reading")>Reading</a></li>
-            <li><a onClick=filterSection("strategy")>Strategy</a></li>
+          <a href="#" class="dropdown-toggle buttonGlobal" id="newsButton" data-toggle="dropdown">{% trans %}Select a category{% endtrans %} <b class="caret"></b></a>
+          <ul class="dropdown-menu" id="category-dropdown">
+            <li><a id="allCategories" onClick="filterSection(id)">{% trans %}All{% endtrans %}</a></li>
+            <li><a id="computer" onClick="filterSection(id)">{% trans %}Computer{% endtrans %}</a></li>
+            <li><a id="discovery" onClick="filterSection(id)">{% trans %}Discovery{% endtrans %}</a></li>
+            <li><a id="sciences" onClick="filterSection(id)">{% trans %}Sciences{% endtrans %}</a></li>
+            <li><a id="fun" onClick="filterSection(id)">{% trans %}Fun{% endtrans %}</a></li>
+            <li><a id="math" onClick="filterSection(id)">{% trans %}Mathematics{% endtrans %}</a></li>
+            <li><a id="puzzle" onClick="filterSection(id)">{% trans %}Puzzle{% endtrans %}</a></li>
+            <li><a id="reading" onClick="filterSection(id)">{% trans %}Reading{% endtrans %}</a></li>
+            <li><a id="strategy" onClick="filterSection(id)">{% trans %}Strategy{% endtrans %}</a></li>
           </ul>
         </li>
+        <p id="selected-category"></p>
+      </ul>
       </div>
     </div>
     <div class="col-xs-12">

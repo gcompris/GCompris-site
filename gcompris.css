@@ -413,10 +413,47 @@ h2 {
   border-width: 2px;
 }
 
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #00A4EB;
-  border-bottom-color: #00A4EB;
+#newsButton > .dropdown > a:hover .caret,
+#newsButton > .dropdown > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.category-selector {
+  font-size: 1.8em;
+}
+
+.category-selector a {
+  text-decoration: none;
+}
+
+.category-selector > li > a:hover,
+.category-selector > li > a:focus {
+  color: #00A4EB;
+  background-color: transparent;
+}
+
+.category-selector li {
+  list-style: none;
+}
+
+#category-dropdown {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  float: none;
+  text-align: center;
+  width: 100px;
+  min-width: 50%;
+  max-width: 100%;
+}
+
+#category-dropdown a {
+  font-size: 1.5em;
+}
+
+#selected-category {
+  color: #00A4EB;
 }
 
 .navbar-collapse {
@@ -767,6 +804,10 @@ h3.carousel-text {
     height: 15em;
  }
 
+ #category-dropdown {
+   min-width: 100%;
+   max-width: 100%;
+ }
 }
 
 
