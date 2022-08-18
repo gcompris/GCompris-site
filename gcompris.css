@@ -273,6 +273,37 @@ h2 {
     height: 144px;
 }
 
+#scrollButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1024;
+  background-color: #ffffff;
+  color: #00A4EB;
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  border: 3px solid #00A4EB;
+  border-radius: 21px;
+}
+
+#scrollButton:hover {
+  background-color: #00A4EB;
+}
+
+#scrollButton svg {
+  fill: #00A4EB;
+  max-width: 16px;
+  position: relative;
+  vertical-align: middle;
+  top: -3px;
+}
+
+#scrollButton:hover svg {
+  fill: #ffffff;
+}
+
 .footer {
   text-align: center;
   background-color: #4da849;
