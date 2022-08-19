@@ -365,6 +365,7 @@ for i in range(0, len(boards)):
         menuScreenshot = boards[i]
         boards.pop(i)
         boards.insert(0, menuScreenshot)
+        break
 
 #
 # Now process the board list
