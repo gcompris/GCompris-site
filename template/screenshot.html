@@ -2,33 +2,25 @@
     <div class="col-xs-12 news">
     <div class="screenshotContainer" style="position: relative;">
       <div style="float: right;">
-	<a href="#{{ screenshot.name }}" style="color: black">
+	<a href="#{{ screenshot.name }}" style="color: #4f4f4f">
 	  <span class="glyphicon glyphicon-share"></span>
 	</a>
       </div>
-      {% if screenshot.type != 'menu' %}
-        <div class="newstitle">{{ screenshot.title }}</div>
-        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}' loading="lazy" />
-      {% else %}
-        <div class="newstitle">{{ screenshot.title }}</div>
-      {% endif %}
-      {% if screenshot.icon %}
-        {% if screenshot.name != 'root' %}
+        <div class="newstitle screenshotInfo">{{ screenshot.title }}</div>
+        <div class='screenshotLeftSide'>
+        {% if screenshot.icon %}
+            {% if screenshot.name != 'root' %}
           <img class='screenshotIcon' src='boardicons/{{ screenshot.icon }}' alt='icon {{ screenshot.icon }}' loading="lazy"/>
-	{% endif %}
-      {% endif %}
-      {% if screenshot.name != 'root' %}
-        <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.svg' alt='difficulty level {{ screenshot.difficulty }}' loading="lazy"/>
-      {% endif %}
+           <img class='screenshotStar' src='boardicons/difficulty_star{{ screenshot.difficulty }}.svg' alt='difficulty level {{ screenshot.difficulty }}' loading="lazy"/>
+            {% endif %}
+        {% endif %}
+        </div>
+        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}' loading="lazy" />
       <div style="clear: both;"></div>
       <div class='screenshotDivAuthor'>
-      {% if screenshot.type != 'menu' %}
-        <p class="screenshotSection">{{ screenshot.section }} {{ screenshot.name }}</p>
-      {% else %}
-        <p class="newsdate">{{ screenshot.section }}/{{ screenshot.name }}</p>
-      {% endif %}
+        <p class="screenshotSection screenshotInfo">{{ screenshot.section }} {{ screenshot.name }}</p>
       {% if screenshot.author %}
-        <p class="screenshotAuthor">&#xa0;{{ screenshot.author }}</p>
+        <p class="screenshotAuthor">{{ screenshot.author }}</p>
       {% endif %}
       </div>
       <div style="clear: both;"></div>

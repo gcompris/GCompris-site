@@ -258,22 +258,36 @@ h2 {
 }
 
 .screenshotContainer {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   padding-left: 2em;
   padding-right: 2em;
 }
 
+.screenshotInfo {
+    margin-left: 100px;
+}
+
+.screenshotLeftSide {
+    position: absolute;
+    left: 10px;
+    margin-top: 0.5em;
+    width: 100px;
+}
+
 .screenshotImg {
     float: left;
-    padding-left: 100px;
-    width: 500px;
+    margin-left: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5), 0px 15px 20px -1px rgba(0,0,0,0.025);
+    width: 400px;
     height: 260px;
 }
 .screenshotStar {
-    position: absolute;
-    left: 490px;
-    top: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 50px;
 }
 .screenshotDivAuthor {
     width: 500px;
@@ -287,16 +301,16 @@ h2 {
     text-align: right;
 }
 .screenshotSection {
-    margin: 0;
     color: rgb(153, 153, 153);
     font-size: 12px;
     float: left;
     text-align: left;
+    margin-bottom: 0;
+    padding-right: 12px;
 }
 .screenshotIcon {
-    background-color: rgba(255, 255, 255, 0.5);
-    position: absolute;
-    left: 10px;
+    width: 100px;
+    height: 100px;
 }
 .projectImg {
     clear: both;
@@ -764,9 +778,15 @@ h3.carousel-text {
   .extraDlLink {
     padding-right: 20px;
   }
+  .screenshotInfo {
+    margin-left: 75px;
+  }
+  .screenshotLeftSide {
+    width: 75px;
+  }
   .screenshotImg {
-    padding-left: 75px;
-    width: 375px;
+    margin-left: 75px;
+    width: 300px;
     height: 195px;
   }
   .screenshotIcon {
@@ -774,11 +794,9 @@ h3.carousel-text {
     height: 75px;
   }
   .screenshotStar {
-    position: absolute;
-    left: 375px;
-    top: 10px;
-    width: 45px;
-    height: 45px;
+    margin-left: 23px;
+    margin-top: 30px;
+    width: 38px;
   }
   .screenshotDivAuthor {
     width: 375px;
@@ -836,9 +854,15 @@ h3.carousel-text {
 /* Landscape phones
 ------------------------- */
 @media (max-width: 480px) {
+  .screenshotInfo {
+    margin-left: 50px;
+  }
+  .screenshotLeftSide {
+    width: 50px;
+  }
   .screenshotImg {
-    padding-left: 50px;
-    width: 250px;
+    margin-left: 50px;
+    width: 200px;
     height: 130px;
   }
   .screenshotIcon {
@@ -846,22 +870,22 @@ h3.carousel-text {
     height: 50px;
   }
   .screenshotStar {
-    position: absolute;
-    left: 250px;
-    top: 10px;
-    width: 30px;
-    height: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 25px;
   }
   .screenshotDivAuthor {
     width: 200px;
   }
   .screenshotSection {
     font-size: 10px;
+    padding-right: 0;
   }
   .screenshotAuthor {
     font-size: 10px;
     float: left;
     text-align: left;
+    margin-left: 50px;
   }
   .extraDlLink {
     padding-right: 20px;
