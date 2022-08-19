@@ -2,16 +2,14 @@
 {% set page = 'schools' %}
 {% set title = _('Schools') + " - GCompris" %}
 {% block content %}
-<div class="container bs-docs-container">
+<div>
   <div class="row">
     <div class="col-xs-12 col-md-12">
-      <div class="container bs-docs-container">
+          <h1 class="bigtitle2">{% trans %}Schools{% endtrans %}</h1>
+    <div class="col-xs-12 col-md-12">
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
-	    <div>
-	      <div id="schools" class="newstitle" style="float: left; text-align: left;">{% trans %}Schools{% endtrans %}</div>
-	      <div style="clear: both;"></div>
-	      <div class="newscontent">
+        <div>
 	        <p>{% trans %}GCompris is an e-learning tool to provide training exercises within and outside the classroom. It is a Free Software released under the GNU General Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), and can run on low power computers.{% endtrans %}</p>
 	        <p>{% trans %}GCompris has been present for over twenty years in schools worldwide and offers more than 150 activities covering the main pedagogical domains, including:{% endtrans %}</p>
                 <ul>
@@ -37,7 +35,6 @@
 	    </div>
       </div>
     </div>
-      </div>
     </div>
   </div>
 </div>
