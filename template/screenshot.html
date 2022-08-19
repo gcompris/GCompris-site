@@ -1,9 +1,5 @@
 <div id="{{ screenshot.name }}" class=".screenshotCard" data-section="{{ screenshot.section }}">
-  {% if screenshot.type != 'menu' %}
     <div class="row screenshot">
-  {% else %}
-    <div class="row screenshotmenu{{ depth }}">
-  {% endif %}
     <div class="screenshotContainer" style="position: relative;">
       <div style="float: right;">
 	<a href="#{{ screenshot.name }}" style="color: black">

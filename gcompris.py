@@ -371,15 +371,12 @@ for i in range(0, len(boards)):
 #
 templateScreenshot = templateEnv.get_template("template/screenshot.html")
 previousSection = ''
-depth = 0
 
 for screenshot in boards:
     if screenshot['section'] == '/experimental' or screenshot['name'] == 'experimental':
         continue
 
     templateVars["screenshot"] = screenshot
-    screenshot["depth"] = depth
-    templateVars["depth"] = depth
     templateVars["screenshots"].append(templateScreenshot.render(templateVars))
 
 (opens, closes) = sectionDiff(previousSection, '')
