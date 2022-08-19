@@ -21,6 +21,8 @@ KDE](https://invent.kde.org/websites/gcompris-net)
 * Jinja2
 * PyQt5 (QtCore and QtQml)
 
+To test the site locally, you need to copy the content of https://gcompris.net/fonts/ in a fonts folder at the root of the repository. It contains the fonts Acme (https://fonts.google.com/specimen/Acme), Noto Sans latin (https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2), Noto Sans latin-ext (https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam) and Noto Sans Malayalam (https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam), all in woff2, woff and ttf formats. Other languages will use the corresponding default sans-serif font from the system.
+
 ## Build this website
 
 ```bash
