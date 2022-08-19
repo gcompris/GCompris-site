@@ -86,7 +86,7 @@ extract: $(i18_sources)
 #	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
 
 online:
-	rsync -az --copy-unsafe-links --exclude "*.py" --exclude ".git" --exclude ".gitignore" --exclude ".directory" --exclude ".htaccess" --exclude ".rcc" --exclude ".emacs.d" --exclude "__pycache__" --exclude "babel.cfg" --exclude "Makefile" --exclude "Messages.sh" --exclude "locale" --exclude "tools" --exclude "newsTemplate" --exclude "template" --exclude "gcompris-qt-*" . maintener@gcompris.net:/var/www/
+	rsync -az --copy-unsafe-links --exclude "*.py" --exclude ".git" --exclude ".gitignore" --exclude ".directory" --exclude ".htaccess" --exclude ".rcc" --exclude ".emacs.d" --exclude "__pycache__" --exclude "babel.cfg" --exclude "Makefile" --exclude "Messages.sh" --exclude "locale" --exclude "tools" --exclude "newsTemplate" --exclude "template" --exclude "gcompris-qt-*" --exclude "fonts" . maintener@gcompris.net:/var/www/
 
 clean:
 	rm -Rf *.html feed-*.xml *.pyc locale/* news/*.html
