@@ -21,7 +21,7 @@ KDE](https://invent.kde.org/websites/gcompris-net)
 * Jinja2
 * PyQt5 (QtCore and QtQml)
 
-To test the site locally, you need to copy the content of https://gcompris.net/fonts/ in a fonts folder at the root of the repository. It contains the fonts Acme (https://fonts.google.com/specimen/Acme), Noto Sans latin (https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2), Noto Sans latin-ext (https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam) and Noto Sans Malayalam (https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam), all in woff2, woff and ttf formats. Other languages will use the corresponding default sans-serif font from the system.
+To test the site locally, you need to copy the content of https://gcompris.net/fonts/ in a fonts folder at the root of the repository. It contains the fonts Acme (https://fonts.google.com/specimen/Acme), Noto Sans latin (https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr5TRA.woff2), Noto Sans latin-ext (https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNr6zRAW_0.woff2) and Noto Sans Malayalam (https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam), all in woff2, woff and ttf formats. Other languages will use the corresponding default sans-serif font from the system.
 
 ## Build this website
 
@@ -29,6 +29,6 @@ To test the site locally, you need to copy the content of https://gcompris.net/f
 git clone git@invent.kde.org:websites/gcompris-net.git
 cd gcompris-net/screenshots_qt; ./small_middle_converter.sh; cd ..
 make clean update all
-````
+```
 
 The update target will get the GCompris corresponding tarball source version from https://gcompris.net/download/qt/src/ and uncompress it in the website folder if not already present.
