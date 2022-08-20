@@ -3,6 +3,7 @@
 #####################################################################
 
 AddType application/octet-stream .dmg
+AddDefaultCharset utf-8
 
 ErrorDocument 404 /404.html
 
