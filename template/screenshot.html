@@ -15,7 +15,11 @@
             {% endif %}
         {% endif %}
         </div>
-        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}' loading="lazy" />
+        <img class='screenshotImg' src='screenshots_qt/small/{{ screenshot.name }}.png' alt='screenshot {{ screenshot.name }}'
+             {% if screenshot.name != 'root' %}
+             loading="lazy"
+             {% endif %}
+             />
       <div style="clear: both;"></div>
       <div class='screenshotDivAuthor'>
         <p class="screenshotSection screenshotInfo">{{ screenshot.section }} {{ screenshot.name }}</p>
