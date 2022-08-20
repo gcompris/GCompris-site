@@ -55,3 +55,8 @@ RewriteRule ^-Download-$ /index-en.html [R=permanent,L]
 RewriteRule ^-Descargar-$ /index-es.html [R=permanent,L]
 RewriteRule ^-Telecharger-$ /index-fr.html [R=permanent,L]
 RewriteRule ^-Sur-une-page-$ /screenshots-fr.html [R=permanent,L]
+
+<IfModule mod_headers.c>
+Header always set X-FRAME-OPTIONS "DENY"
+Header always set X-Content-Type-Options "nosniff"
+</IfModule>
