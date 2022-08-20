@@ -23,6 +23,8 @@ from ApplicationInfo import ApplicationInfo
 from PyQt5.QtCore import QCoreApplication, QUrl, QTranslator
 from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
 
+import htmlmin
+
 reload(sys)
 
 today = datetime.date.today()
@@ -340,7 +342,7 @@ for filename in sorted(filenames, reverse=True):
     outputNewsSingleText = templateNewsSingle.render(templateVars)
 
     with codecs.open('news/' + templateVars['newsDate'] + suffix + '.html', 'w', encoding='utf8') as f:
-        f.write( outputNewsSingleText )
+        f.write(htmlmin.minify(outputNewsSingleText))
 
 #
 # Get the board list and make some adaptations
@@ -401,10 +403,10 @@ for f in ["christmas", "schools", "donate", "downloads", "index", "screenshots",
     template = templateEnv.get_template(os.path.join("template/", f + ".html"))
     outputText = template.render(templateVars)
     with codecs.open(f + suffix + '.html', 'w', encoding='utf8') as output:
-        output.write(outputText)
+        output.write(htmlmin.minify(outputText))
 
 if suffix == '-en':
     template = templateEnv.get_template("template/404.html")
     outputText = template.render(templateVars)
     with codecs.open('404.html', 'w', encoding='utf8') as f:
-        f.write(outputText)
+        f.write(htmlmin.minify(outputText))
