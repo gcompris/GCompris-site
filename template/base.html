@@ -27,23 +27,6 @@
     <script src="{{ rootFolder }}js/jquery/jquery.min.js"></script>
     <script src="{{ rootFolder }}js/bootstrap/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-      /* Toggle a div */
-function toggle(id, toggleId) {
-	  var ele = document.getElementById(id);
-	  var toggle = document.getElementById(toggleId);
-	  if(ele.style.display == "block") {
-	      ele.style.display = "none";
-	      toggle.innerHTML = '+ + +';
-	  }
-	  else {
-	      ele.style.display = "block";
-	      toggle.innerHTML = '- - -';
-	  }
-}
-      var pagePath = window.location.href.replace("{{ suffix }}.html", "");
-    </script>
-
     <title>{{title}}</title>
     {% endblock %}
   </head>
