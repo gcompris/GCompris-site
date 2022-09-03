@@ -56,7 +56,7 @@ except IndexError:
 # Create Qt application to load the activities information from ActivityInfo.qml
 app = QCoreApplication(sys.argv)
 translator = QTranslator()
-translator.load(str("locale/"+locale+"/LC_MESSAGES/gcompris_qt.qm"))
+translator.load(str("po/"+locale+"/LC_MESSAGES/gcompris_qt.qm"))
 app.installTranslator(translator)
 
 # Load the proper locale catalog
@@ -65,7 +65,7 @@ t = None
 def setLocale(locale):
     global _
     global t
-    t = gettext.translation('gcompris', 'locale', languages=[locale], fallback=True)
+    t = gettext.translation('gcompris', 'po', languages=[locale], fallback=True)
     _ = t.gettext
 
 def formatDate(date):

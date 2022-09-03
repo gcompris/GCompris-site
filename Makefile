@@ -55,7 +55,7 @@ index-%.html: $(sources)
 update: downloadGComprisSrc
 	linguas="$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  translationFolder="locale/$$lang/LC_MESSAGES"; \
+	  translationFolder="po/$$lang/LC_MESSAGES"; \
 	  outTsFile="$$translationFolder/gcompris_qt.ts"; \
 	  outQmFile="$$translationFolder/gcompris_qt.qm"; \
 	  mkdir -p $$translationFolder; \
@@ -67,26 +67,23 @@ update: downloadGComprisSrc
 	done; \
 	python3 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
-	  if [ -f locale/$$lang.po ]; then \
-		mv locale/$$lang.po locale/$$lang/LC_MESSAGES/gcompris.po; \
-		msgfmt --use-fuzzy locale/$$lang/LC_MESSAGES/gcompris.po -o locale/$$lang/LC_MESSAGES/gcompris.mo; \
-		python3 tools/convertPoToNews.py $$lang locale/$$lang/LC_MESSAGES/gcompris.po; \
+	  if [ -f po/$$lang/gcompris-net.po ]; then \
+		cp po/$$lang/gcompris-net.po po/$$lang/LC_MESSAGES/gcompris.po; \
+		msgfmt --use-fuzzy po/$$lang/LC_MESSAGES/gcompris.po -o po/$$lang/LC_MESSAGES/gcompris.mo; \
+		python3 tools/convertPoToNews.py $$lang po/$$lang/LC_MESSAGES/gcompris.po; \
 	fi; \
 	done;
 #
 # Run this when new strings are added in the templates
 extract: $(i18_sources)
-	pybabel extract -F babel.cfg -o locale/messages.pot ./
-	if test $(shell git diff locale/messages.pot | grep "^+[^+]" | wc -l) -eq 1; then \
-	  git checkout locale/messages.pot; \
-	  touch locale/messages.pot; \
+	pybabel extract -F babel.cfg -o po/messages.pot ./
+	if test $(shell git diff po/messages.pot | grep "^+[^+]" | wc -l) -eq 1; then \
+	  git checkout po/messages.pot; \
+	  touch po/messages.pot; \
 	fi
 
-#%.po :
-#	pybabel init -d locale -l `echo $* | cut -d/ -f2` -i locale/messages.pot -o $*.po
-
 online:
-	rsync -az --copy-unsafe-links --exclude "*.py" --exclude ".git" --exclude ".gitignore" --exclude ".directory" --exclude ".htaccess" --exclude ".rcc" --exclude ".emacs.d" --exclude "__pycache__" --exclude "babel.cfg" --exclude "Makefile" --exclude "Messages.sh" --exclude "locale" --exclude "tools" --exclude "newsTemplate" --exclude "template" --exclude "gcompris-qt-*" --exclude "fonts" . maintener@gcompris.net:/var/www/
+	rsync -az --copy-unsafe-links --exclude "*.py" --exclude ".git" --exclude ".gitignore" --exclude ".directory" --exclude ".htaccess" --exclude ".rcc" --exclude ".emacs.d" --exclude "__pycache__" --exclude "babel.cfg" --exclude "Makefile" --exclude "Messages.sh" --exclude "po" --exclude "tools" --exclude "newsTemplate" --exclude "template" --exclude "gcompris-qt-*" --exclude "fonts" . maintener@gcompris.net:/var/www/
 
 clean:
-	rm -Rf *.html feed-*.xml *.pyc locale/* news/*.html
+	rm -Rf *.html feed-*.xml *.pyc po/* news/*.html
