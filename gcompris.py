@@ -392,6 +392,16 @@ with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
     f.write(outputFeedAllText)
 
 for f in ["christmas", "schools", "donate", "downloads", "index", "screenshots", "news", "newsall"]:
+    if f == "christmas":
+        templateVars["ogDescription"] = _("For Christmas, offer GCompris to your children.");
+        templateVars["ogImage"] = "https://gcompris.net/images/gcompris-christmas.png";
+        templateVars["ogType"] = "article";
+    else:
+        # If empty, it will take the page title by default
+        templateVars["ogDescription"] = "";
+        templateVars["ogImage"] = "https://gcompris.net/images/gcompris.png";
+        templateVars["ogType"] = "website";
+
     template = templateEnv.get_template(os.path.join("template/", f + ".html"))
     outputText = template.render(templateVars)
     with codecs.open(f + suffix + '.html', 'w', encoding='utf8') as output:

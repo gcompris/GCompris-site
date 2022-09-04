@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="{{ rootFolder }}gcompris.css?version=20220726" />
     <link rel="icon" TYPE="image/png" href="{{ rootFolder }}favicon.png"/>
     <meta property="og:title" content="{{title}}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{title}}" />
-    <meta property="og:image" itemprop="image" content="https://gcompris.net/images/gcompris.png" />
+    <meta property="og:type" content="{{ogType}}" />
+    <meta property="og:description" content="{% if ogDescription %}{{ogDescription}}{% else %}{{title}}{% endif %}" />
+    <meta property="og:image" itemprop="image" content="{{ogImage}}" />
     <meta property="og:site_name" content="GCompris" />
     <meta property="og:url" content="https://www.gcompris.net/{{page}}-{{ locale }}.html" />
     <meta name="twitter:card" content="summary_large_image">

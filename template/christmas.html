@@ -1,52 +1,6 @@
 {% extends "template/base.html" %}
 {% set page = 'christmas' %}
-{% set title = "GCompris for Christmas" %}
-{% block head %}
-
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="keywords" content="free educational software gnu gpl education game children kid logiciel libre educatif education apprentissage informatique ordinateur computer keyboard mouse learning skills mathematique enfant math electricity teaching"/>
-    <meta name="description" content="educational software gcompris. Logiciel educatif gcompris"/>
-    <meta name="author" content="Timothée Giet"/>
-    <link href="js/bootstrap/css/bootstrap.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="gcompris.css" />
-    <link rel="icon" TYPE="image/png" href="favicon.png"/>
-    {% for suffix, language in locales %}
-    <link rel="alternate" hreflang="{{ suffix |replace("_", "-") }}" href="{{page}}-{{ suffix }}.html">
-    <link rel="alternate" type="application/rss+xml" title="RSS flux" href="https://www.gcompris.net/feed-{{ suffix }}.xml" />
-    {% endfor %}
-    <script src="js/jquery/jquery.slim.min.js"></script>
-    <script src="js/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/platform.js"></script>
-
-    <script type="text/javascript">
-      /* Toggle a div */
-function toggle(id, toggleId) {
-	  var ele = document.getElementById(id);
-	  var toggle = document.getElementById(toggleId);
-	  if(ele.style.display == "block") {
-	      ele.style.display = "none";
-	      toggle.innerHTML = '+ + +';
-	  }
-	  else {
-	      ele.style.display = "block";
-	      toggle.innerHTML = '- - -';
-	  }
-      }
-    </script>
-
-    <title>{{title}}</title>
-
-<meta property="og:title" content="GCompris for Christmas" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://gcompris.net/christmas{{ suffix }}.html" />
-<meta property="og:description" content="For Christmas, offer GCompris to your children." />
-<meta property="og:image" itemprop="image" content="https://gcompris.net/images/gcompris-christmas.png" />
-<meta property="og:site_name" content="GCompris" />
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@g_compris">
-
-{% endblock %}
+{% set title = _("GCompris for Christmas") %}
 
 {% block content %}
 
