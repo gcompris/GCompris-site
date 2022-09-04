@@ -385,14 +385,6 @@ for screenshot in boards:
 (opens, closes) = sectionDiff(previousSection, '')
 templateVars["screenshots"].append("</div>" * closes)
 
-# Count the number of activities
-total_activities = 0
-for screenshot in boards:
-    if screenshot['name'] != 'root':
-        total_activities += 1
-
-templateVars['total_activities'] = total_activities
-
 templateFeedAll = templateEnv.get_template("template/feed.xml")
 outputFeedAllText = templateFeedAll.render(templateVars)
 
