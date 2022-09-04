@@ -27,6 +27,7 @@ h6,
   font-family: 'Acme';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src:local("Acme"),
   url(fonts/acme.woff2) format('woff2'),
   url(fonts/acme.woff) format('woff'),
@@ -39,6 +40,7 @@ h6,
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src:local("Noto Sans"),
   local("NotoSans"),
   url(fonts/notosans-regular-latin-ext.woff2) format('woff2'),
@@ -51,6 +53,7 @@ h6,
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src:local("Noto Sans"),
   local("NotoSans"),
   url(fonts/notosans-regular-latin.woff2) format('woff2'),
@@ -62,6 +65,7 @@ h6,
 /* malayalam */
 @font-face {
   font-family: "Noto Sans";
+  font-display: swap;
   src:local("Noto Sans Malayalam"),
   local("NotoSansMalayalam"),
   url('fonts/notosansmalayalam-regular.woff2') format('woff2'),
