@@ -27,6 +27,11 @@
     <script src="{{ rootFolder }}js/jquery/jquery.slim.min.js"></script>
     <script src="{{ rootFolder }}js/bootstrap/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript">
+      var pagePath = window.location.href.replace("{{ suffix }}.html", "");
+    </script>
+
+
     <title>{{title}}</title>
     {% endblock %}
   </head>
