@@ -1,0 +1,1353 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# Shinjo Park <kde@peremen.name>, 2019, 2020, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"PO-Revision-Date: 2021-05-22 20:58+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 20.12.3\n"
+
+#. news title
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Release GCompris 1.1"
+msgctxt "20220227.html"
+msgid "Release GCompris 2.3"
+msgstr "GCompris 1.1 출시"
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Today we are releasing GCompris version 2.3."
+msgstr ""
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
+"release."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows and "
+#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#| "\">download page</a>. This update will be available soon in the Android "
+#| "Play store, the F-Droid repository and the Windows store. The package for "
+#| "Raspberry Pi will also be available soon."
+msgctxt "20220227.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니다. "
+"이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows 스토어에"
+"도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입니다."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20220227.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Release GCompris 1.1"
+msgctxt "20220413.html"
+msgid "Release GCompris 2.4"
+msgstr "GCompris 1.1 출시"
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Today we are releasing GCompris version 2.4."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We optimized the size of all the packages for all platforms and of the "
+"external word images set (~30% smaller)."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"If you disabled the automatic download and want to have the full images set, "
+"you should go to the configuration and click on \\\"Download full word image "
+"set\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"The text \\\"Full word image set is installed\\\" is displayed below when "
+"you have the latest version."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
+"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
+"Aiswarya Kaitheri Kandoth."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Graphics have been updated for 21 activities."
+msgctxt "20220413.html"
+msgid "Many images have been updated for several activities."
+msgstr "활동 21개의 그래픽을 업데이트했습니다."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+"associations activities."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows and "
+#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#| "\">download page</a>. This update will be available soon in the Android "
+#| "Play store, the F-Droid repository and the Windows store. The package for "
+#| "Raspberry Pi will also be available soon."
+msgctxt "20220413.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니다. "
+"이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows 스토어에"
+"도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입니다."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
+
+#: gcompris.py:290
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+
+#: gcompris.py:291
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: gcompris.py:396
+#, fuzzy
+#| msgid ""
+#| "For Christmas, offer GCompris to your children. It's free and will give "
+#| "them hours of educational fun."
+msgid "For Christmas, offer GCompris to your children."
+msgstr ""
+"크리스마스 선물로 GCompris를 추천합니다. 무료이며 즐거운 교육 시간을 선사합니"
+"다."
+
+#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "다운로드"
+
+#: template/base.html:56 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "기부하기"
+
+#: template/base.html:57 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "스크린샷"
+
+#: template/base.html:58 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr "학교"
+
+#: template/base.html:59
+msgid "Manual"
+msgstr "설명서"
+
+#: template/base.html:60
+msgid "Contribute"
+msgstr "기여하기"
+
+#: template/base.html:91
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr ""
+
+#: template/base.html:96
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr ""
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr "크리스마스 버전 GCompris"
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+"크리스마스 선물로 GCompris를 추천합니다. 무료이며 즐거운 교육 시간을 선사합니"
+"다."
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr "다운로드 페이지에서 GCompris 다운로드"
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr "Play 스토어에서 다운로드"
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr "Windows 스토어에서 다운로드"
+
+#: template/donate.html:13
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"귀하나 귀하의 자녀, 또는 자녀가 다니는 학교에서 GCompris를 좋아한다면 기부금"
+"으로 프로젝트를 지원할 수 있습니다."
+
+#: template/donate.html:14
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+"소프트웨어 개발에는 많은 시간이 소요되고, 하드웨어 및 비용이 들어가는 기타 요"
+"구 사항이 필요합니다."
+
+#: template/donate.html:16
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+"GCompris 개발을 지속 가능한 형태로 지원하고 싶다면 Patreon에서 GCompris를 후"
+"원해 주십시오:"
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+msgid "Become a Patron"
+msgstr "후원하기"
+
+#: template/donate.html:21
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr "또한 KDE에 원하는 금액을 기부할 수 있습니다:"
+
+#: template/donate.html:22
+msgid "Donate to KDE"
+msgstr "KDE에 기부하기"
+
+#: template/donate.html:24
+msgid "Thanks for supporting Free Software in education."
+msgstr "교육에서 자유 소프트웨어를 지원해 주셔서 감사합니다."
+
+#: template/donate.html:27
+msgid "Patreon"
+msgstr "Patreon"
+
+#: template/donate.html:30
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Patreon에서 GCompris를 지원해 주신 모든 분께 감사합니다!"
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr "Windows"
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+"<a href=\"https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm"
+"\">Windows 스토어</a>에서 GCompris를 설치할 수 있습니다."
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr "메모: Windows 스토어를 사용하려면 Windows 10이 필요합니다."
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr "또한 아래 링크에서 설치 도구를 다운로드할 수 있습니다."
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr "시스템 요구 사항: OpenGL 2 지원, Windows 7, 8, 10"
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+"참고: 시스템에 OpenGL 2 지원이 없거나 제대로 작동하지 않는 경우 시작 메뉴의 "
+"GCompris(안전 모드) 항목을 사용하여 OpenGL을 사용하지 않는 소프트웨어 렌더링 "
+"모드로 GCompris를 시작하십시오."
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+"Windows XP에서 실행되는 버전이 필요하거나 시스템이 새 버전을 지원하지 않는 경"
+"우 GCompris 15.10 버전을 설치할 수 있습니다."
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+"이 과거 버전에서 모든 활동을 활성화하려면 프로그램을 시작할 때 표시되는 CODE"
+"라는 단어가 있는 입력 상자에 200202를 입력하십시오."
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr "안드로이드"
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr "안드로이드용 버전은 Play 스토어에서 배포합니다."
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+"Play 스토어에서 안드로이드 32비트와 64비트를 모두 지원합니다. 안드로이드 운"
+"영 체제에 따라서 적합한 버전을 다운로드합니다."
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+"GCompris는 자유 오픈 소스 안드로이드 앱 저장소인 F-Droid에서도 다운로드할 수 "
+"있습니다."
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+"웹사이트에서 APK 파일을 다운로드하여 장치에 수동으로 설치할 수도 있습니다."
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr "macOS"
+
+#: template/downloads.html:79
+msgid "You can get the macOS version from the link below."
+msgstr "아래 링크에서 macOS 버전을 다운로드할 수 있습니다."
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr "macOS 10.13에서 빌드 및 테스트되었습니다."
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr "배포판에서 GCompris 최신 버전을 제공하는지 확인해 보십시오."
+
+#: template/downloads.html:98
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+"이외에도 GNU/Linux용 독립 실행형 패키지를 제공합니다. 대부분 배포판에서 작동"
+"합니다."
+
+#: template/downloads.html:98
+msgid "System requirements:"
+msgstr "시스템 요구 사양:"
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+"이 파일을 사용하려면 설치 프로그램을 다운로드한 폴더에서 터미널을 열고 다음 "
+"명령을 실행하십시오."
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+"그 후 라이선스를 읽거나 q 키를 눌러 건너뛴 다음, 질문에 yes라고 대답하면 소프"
+"트웨어가 설치 프로그램이 있는 폴더 아래의 새 폴더에 설치됩니다."
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+"마지막으로, gcompris를 시작하려면 새로 생성된 폴더 아래 bin 폴더에 있는 "
+"gcompris-qt.sh를 두 번 클릭하십시오."
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+"참고: 시스템에서 OpenGL 2를 지원하지 않거나 제대로 작동하지 않는 경우 "
+"gcompris-qt.sh 스크립트의 마지막 줄 끝에 \"--software-renderer\" 옵션을 추가"
+"하십시오. 또 다른 방법은 설정 파일(~/.config/gcompris-qt/gcompris-qt.conf)을 "
+"편집하여 render=auto 줄을 render=sofware로 변경한 다음 저장하십시오."
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr "라즈베리 파이"
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr "라즈베리 파이에서 실행 가능한 독립 실행형 패키지를 제공합니다."
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr "라즈베리 파이 3에서만 테스트되었습니다."
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr "소스 코드"
+
+#: template/downloads.html:150
+msgid "The source code is available under the AGPLv3 license."
+msgstr "소스 코드는 AGPLv3 라이선스 하에 제공됩니다."
+
+#: template/downloads.html:163
+#, fuzzy
+#| msgid "MD5 and GPG"
+msgid "SHA-256 and GPG"
+msgstr "MD5 및 GPG"
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+
+#: template/downloads.html:168
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+"소스 코드 TAR 압축 파일 및 Linux 설치 프로그램은 Timothée Giet의 GPG 키로 서"
+"명됩니다(공개 키: "
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr "sig 파일:"
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "GCompris 교육용 소프트웨어"
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr "GCompris 다운로드"
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "최근 뉴스"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr ""
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr ""
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr ""
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr ""
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr ""
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr ""
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr ""
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr ""
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "모든 스크린샷 보기"
+
+#: template/index.html:153
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"GCompris는 2세에서 10세 사이의 아동을 위한 많은 활동이 들어 있는 고품질의 교"
+"육용 소프트웨어 제품군입니다."
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "일부 활동은 기능성 게임을 지향합니다."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr "다음은 활동 그룹 목록이며 몇 가지 예시를 표시합니다:"
+
+#: template/index.html:157
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr "컴퓨와 친해지기: 키보드, 마우스, 터치 스크린 ..."
+
+#: template/index.html:158
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr "읽기: 글자, 단어, 읽기 연습, 텍스트 입력 ..."
+
+#: template/index.html:159
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr "산술: 숫자, 연산, 테이블 메모리, 열거, 이중 항목 테이블 ..."
+
+#: template/index.html:160
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr "과학: 운하 갑문, 물의 순환, 재생 가능한 에너지 ..."
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr "지리: 국가, 지역, 문화 ..."
+
+#: template/index.html:162
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr "게임: 체스, 메모리, 4, 행맨, 틱택토 ..."
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr "기타: 색상, 도형, 점자, 시간을 말하는 법 배우기 ..."
+
+#: template/index.html:165
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"현재 GCompris는 100가지 이상의 활동을 제공하고 있으며 더 많은 활동이 개발 중"
+"입니다. GCompris는 자유 소프트웨어입니다. 필요에 따라 변경 및 개선할 수 있으"
+"며, 가장 중요한 것은 전 세계의 어린이들과 공유할 수 있습니다."
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+"GCompris 프로젝트는 <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
+"kde.org/\">KDE 커뮤니티</a>에서 호스팅하고 개발합니다."
+
+#: template/news.html:3 template/news.html:8 template/newsall.html:3
+#: template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "뉴스"
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr "모든 뉴스"
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+"GCompris는 교실 안팎에서 연습해 볼 수 있는 이러닝 도구입니다. GNU 일반 공중 "
+"사용 허가서의 조건으로 배포되는 자유 소프트웨어입니다. GNU/리눅스, Windows, "
+"안드로이드, macOS 등 다중 플랫폼을 지원하며 저사양 컴퓨터에서도 실행할 수 있"
+"습니다."
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+"GCompris는 전 세계의 학교에서 20년 이상 사용되어 왔으며 교육 관련 150가지 이"
+"상의 활동을 제공합니다:"
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr "컴퓨터 사용법 익히기"
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr "글자, 단어, 문장 읽기 연습"
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr "숫자, 연산, 측정, 퍼즐을 통한 수학 익히기"
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr "논리, 예술, 음악으로 세상 탐험하기"
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr "실험, 역사, 지리를 통해서 과학과 인문학 익히기"
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr "보드 게임으로 전략적으로 사고하기"
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+"GCompris는 인터넷에 연결되어 있지 않아도 작동하며, 데이터를 수집하지 않으므"
+"로 EU GDPR의 조건에 합치합니다."
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+"GCompris 1.0은 어린이의 능력에 따라서 활동의 수준을 선택할 수 있습니다. 예를 "
+"들어 숫자를 익히는 활동에서는 익숙한 숫자의 범위를 설정하여 더 크고 어려운 숫"
+"자를 나중에 나오게 할 수 있습니다. 그림을 시간 순으로 배열하는 활동에서는 숫"
+"자를 읽을 수 있는 어린이에게만 점수를 매기거나 숫자와 단어를 읽을 수 있는 어"
+"린이에게 더 어려운 문제를 출제하도록 설정할 수 있습니다."
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+"단계 기능을 사용하여 학생들이 수학, 언어, 과학, 인문학을 익힐 수 있는 연습을 "
+"조정할 수 있습니다. 전략 게임으로 문제 풀이 기법을 연습할 수 있습니다."
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+"GCompris 활동 단계는 유아 교육학적 근거에 따라 프랑스의 초등학교 교육 과정에 "
+"따라서 배정되었습니다."
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "설명:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "필요 조건:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "목표:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "설명서:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "개발자:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr ""
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr "모두"
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr ""
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr ""
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr ""
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr ""
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr ""
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr ""
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr ""
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr ""
+
+#~ msgid "Version %(version)s"
+#~ msgstr "버전 %(version)s"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#~| "1.1."
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
+#~ msgstr "안녕하세요,<br />\\nGCompris 버전 1.1의 출시를 알립니다!"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~| "1.0 should update to 1.1."
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~ "2.0 or 2.1 should update to 2.2."
+#~ msgstr ""
+#~ "이 릴리스는 관리 릴리스이므로, 1.0을 배포하는 GNU/리눅스 배포판은 1.1로 업"
+#~ "데이트하기를 추천합니다."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "Here is a summary of included changes:"
+#~ msgctxt "20220224.html"
+#~ msgid "Here is a summary of included changes:"
+#~ msgstr "다음은 변경 사항 요약 목록입니다:"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "On the translation side:"
+#~ msgctxt "20220224.html"
+#~ msgid "On the translation side:"
+#~ msgstr "번역 개선:"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "You can find packages of this new version for GNU/Linux, Windows and "
+#~| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+#~| "\\\">download page</a>. This update will be available soon in the "
+#~| "Android Play store, the F-Droid repository and the Windows store. The "
+#~| "package for Raspberry Pi will also be available soon."
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~ "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">download page</a>. This update will be available soon in the Android "
+#~ "Play store, the F-Droid repository and the Windows store. The package for "
+#~ "Raspberry Pi will also be available soon."
+#~ msgstr ""
+#~ "GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니"
+#~ "다. 이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows "
+#~ "스토어에도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입"
+#~ "니다."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#~| "1.1."
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#~ "2.1."
+#~ msgstr "안녕하세요,<br />\\nGCompris 버전 1.1의 출시를 알립니다!"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~| "1.0 should update to 1.1."
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~ "2.0 should update to 2.1."
+#~ msgstr ""
+#~ "이 릴리스는 관리 릴리스이므로, 1.0을 배포하는 GNU/리눅스 배포판은 1.1로 업"
+#~ "데이트하기를 추천합니다."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "Here is a summary of included changes:"
+#~ msgctxt "20220121.html"
+#~ msgid "Here is a summary of included changes:"
+#~ msgstr "다음은 변경 사항 요약 목록입니다:"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "On the translation side:"
+#~ msgctxt "20220121.html"
+#~ msgid "On the translation side:"
+#~ msgstr "번역 개선:"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "Irish Gaelic and Macedonian have returned (partial translation above 80% "
+#~| "for now)."
+#~ msgctxt "20220121.html"
+#~ msgid "Czech has returned (partial translation above 80% for now)."
+#~ msgstr ""
+#~ "마케도니아어와 아일랜드 게일어 번역이 다시 추가되었습니다(80% 이상 번역"
+#~ "됨)."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "You can find packages of this new version for GNU/Linux, Windows and "
+#~| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+#~| "\\\">download page</a>. This update will be available soon in the "
+#~| "Android Play store, the F-Droid repository and the Windows store. The "
+#~| "package for Raspberry Pi will also be available soon."
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~ "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">download page</a>. This update will be available soon in the Android "
+#~ "Play store, the F-Droid repository and the Windows store. The package for "
+#~ "Raspberry Pi will also be available soon."
+#~ msgstr ""
+#~ "GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니"
+#~ "다. 이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows "
+#~ "스토어에도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입"
+#~ "니다."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
+#~| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
+#~| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
+#~| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
+#~| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
+#~| "Ukrainian."
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
+#~ "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
+#~ "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
+#~ "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
+#~ "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
+#~ "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
+#~ "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
+#~ "(76%) and Russian (76%))."
+#~ msgstr ""
+#~ "이제 다음 27개 언어를 완벽하게 지원합니다: 갈리시아어, 그리스어, 네덜란드"
+#~ "어, 러시아어, 루마니아어, 마케도니아어, 말라얄람어, 바스크어, 발렌시아 카"
+#~ "탈루냐어, 벨라루스어, 브라질 포르투갈어, 브르타뉴어, 스웨덴어, 스페인어, "
+#~ "슬로베니아어, 알바니아어, 영국 영어, 우크라이나어, 이탈리아어, 인도네시아"
+#~ "어, 중국어 번체, 카탈루냐어, 터키어, 포르투갈어, 폴란드어, 프랑스어, 헝가"
+#~ "리어, 히브리어."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+#~ msgctxt "20211217.html"
+#~ msgid "Thank you all, <br/>\\nTimothée & Johnny"
+#~ msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
+
+#~ msgctxt "20210321.html"
+#~ msgid "Release GCompris 1.1"
+#~ msgstr "GCompris 1.1 출시"
+
+#~ msgctxt "20210321.html"
+#~ msgid "We have fixed lots of bugs."
+#~ msgstr "다양한 버그를 수정했습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid "A build for Ubuntu Touch has been added."
+#~ msgstr "Ubuntu Touch 빌드가 추가되었습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid "The spelling of the Turkish districts has been fixed."
+#~ msgstr "터키의 행정 구역 명칭을 수정했습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid "We added a minimal .msi alternative package for Windows."
+#~ msgstr "Windows용 최소 설치 .msi 대체 패키지를 추가했습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "The GCompris executable has been relicenced to AGPLv3 due to a dependency "
+#~ "of analog electricity."
+#~ msgstr ""
+#~ "아날로그 전기 학습 모듈 의존성 때문에 GCompris 실행 파일의 라이선스가 "
+#~ "AGPLv3으로 변경되었습니다."
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "Albanian, Belarusian, Brazilian Portuguese and Russian have been "
+#~| "completed."
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "Albanian, Belarusian, Brazilian Portuguese and Russian have been "
+#~ "completed."
+#~ msgstr ""
+#~ "러시아어, 벨라루스어, 브라질 포르투갈어, 알바니아어 번역이 완료되었습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "Wordset for vocabulary activities has been added for Albanian and "
+#~ "Macedonian."
+#~ msgstr "마케도니아어와 알바니아어 어휘 활동의 단어가 추가되었습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid "All the voices have been added for Lithuanian."
+#~ msgstr "리투아니아어 음성이 모두 추가되었습니다."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
+#~ "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
+#~ "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
+#~ "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
+#~ "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
+#~ "Ukrainian."
+#~ msgstr ""
+#~ "이제 다음 27개 언어를 완벽하게 지원합니다: 갈리시아어, 그리스어, 네덜란드"
+#~ "어, 러시아어, 루마니아어, 마케도니아어, 말라얄람어, 바스크어, 발렌시아 카"
+#~ "탈루냐어, 벨라루스어, 브라질 포르투갈어, 브르타뉴어, 스웨덴어, 스페인어, "
+#~ "슬로베니아어, 알바니아어, 영국 영어, 우크라이나어, 이탈리아어, 인도네시아"
+#~ "어, 중국어 번체, 카탈루냐어, 터키어, 포르투갈어, 폴란드어, 프랑스어, 헝가"
+#~ "리어, 히브리어."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "We also have 4 languages partially supported: German (91%), Irish Gaelic "
+#~ "(87%), Lithuanian (96%) and Norwegian Nynorsk (85%)."
+#~ msgstr ""
+#~ "다음 4개 언어는 일부만 지원합니다: 노르웨이어 뉘노르스크(85%), 독일어"
+#~ "(91%), 리투아니아어(96%), 아일랜드 게일어(86%)."
+
+#~ msgid ""
+#~ "WARNING: For Android version 4.4.2, it is recommended to directly "
+#~ "download and install manually <a href= \"https://gcompris.net/download/qt/"
+#~ "android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.95.apk"
+#~ "\">GCompris version 0.95 from our website</a>, as the version 0.96 from "
+#~ "the Play Store will not be able to download external assets with this "
+#~ "Android version."
+#~ msgstr ""
+#~ "경고: 안드로이드 4.4.2 버전을 사용 중이면 <a href= \"https://gcompris.net/"
+#~ "download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-"
+#~ "dl-0.95.apk\">GCompris 0.95</a> 버전을 웹사이트에서 직접 다운로드해서 설치"
+#~ "하십시오. Play 스토어에 있는 0.96 버전은 안드로이드 4.4.2 버전에서 외부 구"
+#~ "성 요소를 다운로드할 수 없습니다."
+
+#~ msgid ""
+#~ "To check the integrity of your downloads, you can compare the md5sums "
+#~ "with those in this file: <a href=\"https://gcompris.net/download/qt/"
+#~ "md5sums-%(version)s.txt\">MD5SUMS</a>"
+#~ msgstr ""
+#~ "다운로드의 무결성을 확인하려면 MD5 체크섬을 <a href=\"https://gcompris."
+#~ "net/download/qt/md5sums-%(version)s.txt\">MD5SUMS</a> 파일과 비교하십시오."
+
+#~ msgid "This package is a beta version."
+#~ msgstr "이 패키지는 베타 버전입니다."
+
+#~ msgctxt "20200214.html"
+#~ msgid "GCompris is now Free to install everywhere"
+#~ msgstr "GCompris 모든 설치 버전 무료화"
+
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "The installers for Windows and macOS on our website have been updated to "
+#~ "not require activation code anymore, and the full version on the Play "
+#~ "store and Microsoft store are now gratis."
+#~ msgstr ""
+#~ "이 웹 사이트에 있는 Windows와 macOS 버전 설치 도구에서는 더 이상 활성화 코"
+#~ "드를 묻지 않으며, Play 스토어와 Microsoft 스토어에 있는 버전도 무료로 사용"
+#~ "할 수 있습니다."
+
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "We hope that this move will make it easier for all the children in the "
+#~ "world to get access to the best educational software."
+#~ msgstr ""
+#~ "전 세계에 있는 모든 어린이들이 교육용 소프트웨어에 쉽게 접근할 수 있기를 "
+#~ "기대합니다."
+
+#, fuzzy
+#~| msgctxt "20190303.html"
+#~| msgid ""
+#~| "We still have 15 partially supported languages: Basque (78%), Belarusian "
+#~| "(68%), Chinese Simplified (69%), Estonian (62%), Finnish (90%), German "
+#~| "(84%), Hindi (76%), Irish Gaelic (82%), Norwegian Nynorsk (97%), Russian "
+#~| "(77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish "
+#~| "(93%), Turkish (73%)."
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "We also have 15 languages partially supported: Belarusian (65%), Catalan "
+#~ "(Valencian 95%), Chinese Simplified (66%), Estonian (93%), Finnish (86%), "
+#~ "German (96%),  Hindi (73%), Hungarian (95%), Indonesian (95%), Irish "
+#~ "Gaelic (78%), Norwegian Nynorsk (93%), Russian (76%), Scottish Gaelic "
+#~ "(67%), Slovenian (54%), Turkish (95%)."
+#~ msgstr ""
+#~ "아직 부분적으로 지원하는 언어는 15개입니다: 노르웨이어 뉘노르스크(97%), 독"
+#~ "일어(84%), 러시아어(77%), 바스크어(78%), 벨라루스어(68%), 스코틀랜드 게일"
+#~ "어(70%), 스페인어(93%), 슬로바키아어(62%), 슬로베니아어(56%), 아일랜드 게"
+#~ "일어(82%), 에스토니아어(62%), 중국어 간체(69%), 터키어(73%), 핀란드어"
+#~ "(90%), 힌디어(76%)."
+
+#, fuzzy
+#~| msgid "Notes:"
+#~ msgctxt "20191201.html"
+#~ msgid "Notes:"
+#~ msgstr "메모:"
+
+#~ msgid "Buy / Donate"
+#~ msgstr "구매/기부"
+
+#~ msgid "Buying the full version"
+#~ msgstr "완전 버전 구입"
+
+#~ msgid ""
+#~ "On proprietary operating systems (Windows/Mac/Android...), the full "
+#~ "version of GCompris has a cost."
+#~ msgstr ""
+#~ "독점 운영 체제(Windows/Mac/Android 등)용 GCompris 완전 버전은 유료로 제공"
+#~ "됩니다."
+
+#~ msgid ""
+#~ "We provide a free demo with a limited number of activities, "
+#~ "%(demo_activities)s on the %(total_activities)s available."
+#~ msgstr ""
+#~ "%(total_activities)s개의 활동 중 %(demo_activities)s개만 활성화되어 있는 "
+#~ "무료 데모 버전을 제공합니다."
+
+#~ msgid "Follow the instructions below to buy the full version."
+#~ msgstr "완전 버전을 구입하려면 아래 절차를 따르십시오."
+
+#~ msgid ""
+#~ "For Windows and macOS, you can get the demo from the <a href=downloads-"
+#~ "%(locale)s.html>download page</a>, and buy here the activation code to "
+#~ "unlock the full version. The cost is 9€."
+#~ msgstr ""
+#~ "Windows 및 macOS에서는 <a href=downloads-%(locale)s.html>다운로드 페이지</"
+#~ "a>에서 데모 버전을 다운로드할 수 있으며, 활성화 코드를 구입하여 완전 버전"
+#~ "의 잠금을 해제할 수 있습니다. 비용은 9 €입니다."
+
+#~ msgid ""
+#~ "After the payment you will immediately receive an email with instructions "
+#~ "(check your spam folder). If you do not receive this email please contact "
+#~ "us at sales@gcompris.net."
+#~ msgstr ""
+#~ "결제 후에는 지시 사항이 담긴 이메일을 즉시 받게 됩니다(스팸 폴더도 확인하"
+#~ "십시오). 이 이메일을 받지 못한 경우 sales@gcompris.net 주소로 문의하십시"
+#~ "오."
+
+#~ msgid ""
+#~ "This registration gives you the right to update to any new release of "
+#~ "GCompris for 2 years. After that period, you can continue to use the "
+#~ "latest release you got for as long as you wish."
+#~ msgstr ""
+#~ "등록 사용자는 GCompris의 새로운 릴리스를 2년간 업데이트할 수 있습니다. 이 "
+#~ "기간이 지난 후에도 마지막으로 다운로드했던 최신 릴리스는 계속 사용할 수 있"
+#~ "습니다."
+
+#~ msgid "Notes:"
+#~ msgstr "메모:"
+
+#~ msgid "You can use this code on several computers."
+#~ msgstr "이 코드는 여러 대의 컴퓨터에서 사용할 수 있습니다."
+
+#~ msgid ""
+#~ "Schools and other institutions can buy a site activation key to support "
+#~ "the project."
+#~ msgstr ""
+#~ "학교 및 기타 기관 사용자는 사이트 단위 활성화 키를 구입할 수 있습니다. 해"
+#~ "당 키를 구입하면 프로젝트를 지원합니다."
+
+#~ msgid ""
+#~ "Please contact us at <a href=\"mailto:sales@gcompris.net?subject=GCompris "
+#~ "- Quote for school\">sales@gcompris.net</a> to request a quote."
+#~ msgstr ""
+#~ "견적을 요청하려면 <a href=\"mailto:sales@gcompris.net?subject=GCompris - "
+#~ "Quote for school\">sales@gcompris.net</a> 주소로 연락해 주십시오."
+
+#~ msgid ""
+#~ "Alternatively, you can also buy the full version of GCompris directly <a "
+#~ "href=\"https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm"
+#~ "\">from the Windows Store.</a>"
+#~ msgstr ""
+#~ "또는 <a href=\"https://www.microsoft.com/en-us/store/p/"
+#~ "gcompris/9pgxjtcxn8qm\">Windows Store</a>에서 직접 GCompris 완전 버전을 구"
+#~ "입할 수도 있습니다."
+
+#~ msgid ""
+#~ "For Android, the recommended way is to directly buy the full version <a "
+#~ "href=\"https://play.google.com/store/apps/details?id=net.gcompris.full"
+#~ "\">from Google Play store</a>."
+#~ msgstr ""
+#~ "Android의 경우 <a href=\"https://play.google.com/store/apps/details?"
+#~ "id=net.gcompris.full\">Google Play 스토어</a>에서 완전 버전을 직접 구매하"
+#~ "는 것을 추천합니다."
+
+#~ msgid ""
+#~ "You can also install <a href=\"https://play.google.com/store/apps/details?"
+#~ "id=net.gcompris\">the demo</a> available in the store, and use the in-app "
+#~ "purchase button to unlock the full version from it. Note however that "
+#~ "this second method doesn't allow to use the Google Play Family Library to "
+#~ "share it with your family. Also, a few users reported issues to unlock "
+#~ "the demo."
+#~ msgstr ""
+#~ "Play 스토어에서 <a href=\"https://play.google.com/store/apps/details?"
+#~ "id=net.gcompris\">데모 버전</a>을 다운로드한 다음 앱 내 구매 기능을 사용하"
+#~ "여 전체 버전의 잠금을 해제할 수도 있습니다. 그러나 이 방법을 사용하면 "
+#~ "Google Play 가족 콘텐츠 라이브러리를 사용하여 가족 구성원과 앱을 공유할 "
+#~ "수 없습니다. 또한 일부 환경에서 데모 잠금 해제 기능에 문제가 있을 수도 있"
+#~ "습니다."
+
+#, fuzzy
+#~| msgid ""
+#~| "For users of Free-Software operating systems, the full version is always "
+#~| "free.</br>\n"
+#~| "          This means that for GNU/Linux, the installer we provide and "
+#~| "the distribution packages have the full version. There is no need for "
+#~| "any activation code."
+#~ msgid ""
+#~ "For users of Free-Software operating systems, the full version is always "
+#~ "free.<br/>\n"
+#~ "          This means that for GNU/Linux, the installer we provide and the "
+#~ "distribution packages have the full version. There is no need for any "
+#~ "activation code."
+#~ msgstr ""
+#~ "자유 소프트웨어 운영 체제 사용자에게는 항상 완전 버전이 무료로 제공됩니다."
+#~ "</br> \n"
+#~ "          즉, GNU/Linux 플랫폼에서는 저희가 제공하는 버전과 배포판 패키지"
+#~ "의 버전은 항상 완전 버전입니다. 활성화 코드를 별도로 구매할 필요가 없습니"
+#~ "다."
+
+#~ msgid "However, you can still support us with a donation, see below."
+#~ msgstr ""
+#~ "그래도 아래 방법을 사용하여 기부를 통해 프로젝트를 지원할 수 있습니다."
+
+#~ msgid "Legal reference: Company"
+#~ msgstr "법적 고지: 회사"
+
+#~ msgid ""
+#~ "Developing software takes a lot of time, it needs hardware, and other "
+#~ "requirements that have a cost. Currently all sales and donations are used "
+#~ "to support one of the main contributors, a professional graphic artist "
+#~ "and developer who is now in charge of the graphics and co-maintaining the "
+#~ "application."
+#~ msgstr ""
+#~ "소프트웨어 개발에는 많은 시간이 소요되고, 하드웨어 및 비용이 들어가는 기"
+#~ "타 요구 사항이 필요합니다. 현재 모든 판매 및 기부금은 전문 그래픽 아티스트"
+#~ "이자 프로그램과 그래픽을 관리하는 개발자에게 돌아갑니다."
+
+#~ msgid ""
+#~ "Else, you can get the demo from the links below, and <a href=\"buy-"
+#~ "%(locale)s.html\">buy on our website</a> the activation code to unlock "
+#~ "the full version."
+#~ msgstr ""
+#~ "또한 아래 링크에서 데모를 다운로드한 다음 <a href=\"buy-%(locale)s.html\">"
+#~ "웹 사이트</a>에서 활성화 코드를 구입하여 완전 버전의 잠금을 해제할 수도 있"
+#~ "습니다."
+
+#~ msgid ""
+#~ "Note: It is recommended to buy directly the full version from the store, "
+#~ "not from the button in the demo. This way, you can share it with 5 family "
+#~ "members using the Google Play Family Library. Also, a few users reported "
+#~ "issues to unlock the demo."
+#~ msgstr ""
+#~ "참고: 데모 프로그램 내에서 인 앱 구매를 사용하는 것보다는 Play 스토어에서 "
+#~ "직접 완전 버전을 구매하는 것을 추천합니다. 이렇게 하면 Google Play 가족 콘"
+#~ "텐츠 라이브러리를 사용하여 최대 5명의 가족과 공유할 수 있습니다. 또한 일"
+#~ "부 환경에서 데모 잠금 해제 기능에 문제가 있을 수도 있습니다."
+
+#~ msgid ""
+#~ "You can get the demo from the link below, and <a href=\"buy-%(locale)s."
+#~ "html\">buy on our website</a> the activation code to unlock the full "
+#~ "version."
+#~ msgstr ""
+#~ "아래 링크에서 데모를 다운로드한 다음 <a href=\"buy-%(locale)s.html\">웹 사"
+#~ "이트</a>에서 활성화 코드를 구입하여 완전 버전의 잠금을 해제할 수도 있습니"
+#~ "다."
+
+#~ msgid "Buying the Windows or MacOSX version"
+#~ msgstr "Windows 또는 MacOSX 버전 구입"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "This new version includes updated translation for several languages, and "
+#~ "a few bug fixes."
+#~ msgstr ""
+#~ "이 새 버전에는 여러 언어 번역 업데이트와 몇 가지 버그 수정이 포함되어 있습"
+#~ "니다."
+
+#~ msgctxt "20190303.html"
+#~ msgid "Translations that received a big update:"
+#~ msgstr "상당 부분 업데이트된 번역:"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Brazilian Portuguese (100%)"
+#~ msgstr "포르투갈어(브라질)(100%)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Breton (100%)"
+#~ msgstr "브르타뉴어(100%)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Finnish (90%)"
+#~ msgstr "핀란드어(90%)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Indonesian (100%)"
+#~ msgstr "인도네시아어(100%)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Norwegian Nynorsk (97%)"
+#~ msgstr "노르웨이어(뉘노르스크)(97%)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Polish (100%)"
+#~ msgstr "폴란드어(100%)"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "We decided again for this release to keep the translations that dropped "
+#~ "below 80%. It would be sad to have to disable 10 languages from the "
+#~ "application, but if no one updates the following translations, they will "
+#~ "be disabled in next release: Basque, Belarusian, Chinese Simplified, "
+#~ "Estonian, Hindi, Russian, Scottish Gaelic, Slovak, Slovenian and Turkish."
+#~ msgstr ""
+#~ "이 릴리스에서는 80% 미만으로 번역률이 떨어진 언어를 유지하기로 다시 결정했"
+#~ "습니다. 만약 다음 언어 번역이 다음 릴리스까지 업데이트되지 않는다면 아쉽게"
+#~ "도 다음 릴리스에서는 번역을 삭제할 것입니다: 러시아어, 바스크어, 벨라루스"
+#~ "어, 스코틀랜드 게일어, 슬로바키아어, 슬로베니아어, 에스토니아어, 중국어 간"
+#~ "체, 터키어, 힌디어."
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "For the windows version, we added a new entry in the start menu called "
+#~ "GCompris (Safe Mode) to launch it with software rendering mode. This was "
+#~ "needed as the auto-detection of OpenGL support was not reliable. Now, "
+#~ "users can easily choose between OpenGL and software rendering without "
+#~ "changing the configuration file."
+#~ msgstr ""
+#~ "Windows 버전의 경우 소프트웨어 렌더링 모드로 시작하는 시작 메뉴에 "
+#~ "GCompris(안전 모드)라는 새 항목이 추가됩니다. OpenGL 지원의 자동 감지가 올"
+#~ "바르게 작동하지 않는 경우가 있어서 추가했습니다. 이제 사용자는 설정 파일"
+#~ "을 변경하지 않고도 OpenGL과 소프트웨어 렌더링 중에서 쉽게 선택할 수 있습니"
+#~ "다."
+
+#~ msgctxt "20190303.html"
+#~ msgid "Known issues:"
+#~ msgstr "알려진 문제점:"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "The progress bar for downloads doesn't work anymore. This is a side "
+#~ "effect from our switch to https for hosting the files. We are looking to "
+#~ "improve this for next release.\\n"
+#~ msgstr ""
+#~ "다운로드 진행 표시기가 더 이상 작동하지 않습니다. HTTPS로 파일을 호스팅하"
+#~ "도록 변경하면서 생긴 부작용입니다. 다음 릴리스에서 개선할 예정입니다.\\n"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "As a side note dedicated to GNU/Linux distribution packagers, this new "
+#~ "version now requires OpenSSL to be able to download voices and additional "
+#~ "images."
+#~ msgstr ""
+#~ "GNU/Linux 배포판 패키지 담당자를 위한 메모: 이 새 버전부터는 음성과 추가 "
+#~ "이미지를 다운로드하려면 OpenSSL이 필요합니다."

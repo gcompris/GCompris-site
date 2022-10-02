@@ -1,0 +1,1858 @@
+# Translation template for gcompris-net.po to Euskara/Basque (eu).
+# Copyright (C) 2019-2022, This file is copyright:
+# This file is distributed under the same license as the websites-gcompris-net project.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: websites-gcompris-net\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"PO-Revision-Date: 2022-09-05 07:29+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.0\n"
+
+#. news title
+msgctxt "20220227.html"
+msgid "Release GCompris 2.3"
+msgstr "GCompris 2.3 argitaratzea"
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Today we are releasing GCompris version 2.3."
+msgstr "Gaurkoan GCompris 2.3 bertsioa argitaratzen dugu."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
+"release."
+msgstr ""
+"2.2 bertsioa 3 jarduera (\\\"Alfabetoaren hurrenkera\\\", \\\"Zenbaki "
+"bikoitiak eta bakoitiak\\\" eta \\\"Zenbakiak ordenan\\\") hausten zituen "
+"akats batekin argitaratu zela konturatu ginenez, mantentze-argitalpen berri "
+"batekin azkar konpontzea erabaki genuen."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, Android, "
+"Raspberry Pi eta MacOSrako, <a href=\\\"https://gcompris.net/downloads "
+"{{ suffix }}.html\\\">zama-jaisteko orrian</a>. Eguneratze hau laster egongo "
+"da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
+"saltokian."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
+
+#. news title
+msgctxt "20220413.html"
+msgid "Release GCompris 2.4"
+msgstr "GCompris 2.4 argitaratzea"
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Today we are releasing GCompris version 2.4."
+msgstr "Gaurkoan GCompris 2.4 bertsioa argitaratzen dugu."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We optimized the size of all the packages for all platforms and of the "
+"external word images set (~30% smaller)."
+msgstr ""
+"Plataforma guztietarako paketeen neurria optimizatu dugu eta hitzen kanpoko "
+"irudi-multzoena (~%30 txikiagoa)."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"If you disabled the automatic download and want to have the full images set, "
+"you should go to the configuration and click on \\\"Download full word image "
+"set\\\"."
+msgstr ""
+"Zama-jaiste automatikoa ezgaitu bazenuen eta irudi-multzo osoa izan nahi "
+"baduzu, konfiguraziora joan eta \\\"Zama-jaitsi hitzen irudi multzo osoa\\\" "
+"gainean klik egin beharko zenuke."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"The text \\\"Full word image set is installed\\\" is displayed below when "
+"you have the latest version."
+msgstr ""
+"\\\"Hitzen irudi multzo osoa instalatuta dago\\\" testua azaltzen da bertsio "
+"berriena instalatuta duzunean."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
+"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
+"Aiswarya Kaitheri Kandoth."
+msgstr ""
+"Norvegiera Nynorskerako sarrerako ahotsak erantsi dituzte Karl Ove "
+"Hufthammer-reketa Øystein Steffensen-Alværvik-ek. Malaberarako ahotsak osatu "
+"ditu Aiswarya Kaitheri Kandoth-ek."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Many images have been updated for several activities."
+msgstr "Zenbait jardueretako irudi asko eguneratu dira."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+"associations activities."
+msgstr ""
+"Energia berriztagarria, Uraren zikloa eta Elkarketa logikoak jardueretan "
+"akats batzuk konpondu ditugu."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, Android, "
+"Raspberry Pi eta MacOSrako, <a href=\\\"https://gcompris.net/downloads "
+"{{ suffix }}.html\\\">zama-jaisteko orrian</a>. Eguneratze hau laster egongo "
+"da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
+"saltokian."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
+
+#: gcompris.py:290
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+"Software hau GNU pakete bat da eta GNU Affero Lizentzia Publiko Orokorraren "
+"pean argitaratzen da."
+
+#: gcompris.py:291
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#: gcompris.py:396
+msgid "For Christmas, offer GCompris to your children."
+msgstr "Gabonetarako, eskaini GCompris zure haurrei."
+
+#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "Zama-jaitsi"
+
+#: template/base.html:56 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "Egin dohaintza"
+
+#: template/base.html:57 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "Pantaila-argazkiak"
+
+#: template/base.html:58 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr "Ikastetxeak"
+
+#: template/base.html:59
+msgid "Manual"
+msgstr "Eskuliburua"
+
+#: template/base.html:60
+msgid "Contribute"
+msgstr "Lagundu"
+
+#: template/base.html:91
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr "Lekuaren azken eguneratzea, %(revision_date)s."
+
+#: template/base.html:96
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr "Lekuaren itzultzaileak: %(translators_names)s."
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr "GCompris gabonetarako"
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+"Gabonetarako, eskaini GCompris zure haurrei. Doakoa da eta dibertsio "
+"hezigarriz beteriko orduak eskainiko dizkie."
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr "Lortu GCompris zama-jaisteko orritik"
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr "Lortu GCompris Play dendatik"
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr "Lortu GCompris Windows dendatik"
+
+#: template/donate.html:13
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"Zuk, zure umeek edo zure eskolak GCompris maite duzue. Proiektuari sostengua "
+"eman diezaiokezu dohaintza bat eginez."
+
+#: template/donate.html:14
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+"Softwarea garatzeak denbora asko behar du, hardwarea behar da, eta kostua "
+"duten beste eskakizun batzuk ere bai."
+
+#: template/donate.html:16
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+"GCompris-en garapenari modu iraunkorrean lagundu nahi badiozu, egin zaitez "
+"GGompris-en babesle Patreon-en:"
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+msgid "Become a Patron"
+msgstr "Izan zaitez babesle"
+
+#: template/donate.html:21
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr ""
+"Gainera, zuk aukeratzen duzun kopurua eman diezaiokezu dohaintzan KDEri:"
+
+#: template/donate.html:22
+msgid "Donate to KDE"
+msgstr "Egin dohaintza KDEri"
+
+#: template/donate.html:24
+msgid "Thanks for supporting Free Software in education."
+msgstr "Eskerrik asko hezkuntzan Software Askeari sostengua emateagatik."
+
+#: template/donate.html:27
+msgid "Patreon"
+msgstr "Patreon"
+
+#: template/donate.html:30
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Eskerrik asko Patreon bidez GCompris-i laguntzen diozuen guztiei!"
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr "Windows"
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+"GCompris instalatu dezakezu <a href=\"https://www.microsoft.com/en-us/store/"
+"p/gcompris/9pgxjtcxn8qm\">Windows-en dendatik</a>."
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr "Oharra: Windows dendak Windows 10 izatea eskatzen du."
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr "Bestela, instalatzailea zama-jaitsi dezakezu azpiko esteketatik."
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr ""
+"Sistemaren betekizunak: Windows 7, 8 edo 10 OpenGL 2ren euskarriarekin."
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+"Oharra: Zure sistemak OpenGL 2 euskarririk ez badu edo ez badabil ondo, "
+"erabili hasera menuko \"GCompris (Modu segurua)\" GCompris software "
+"errendatzeko moduan jaurtitzeko, horrek ez du OpenGL erabiltzen."
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+"Bene-benetan behar baduzu Windows XPrekin dabilen bertsio bat, edo zure "
+"sistemak ez badu bertsio berria onarten, GCompris 15.10 zaharreko "
+"instalatzailea erabil dezakezu."
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+"Bertsio zahar honetako jarduera guztiak gaitzeko, aplikazioa abiatzean "
+"200202 kodea erabil dezakezu KODEA hitza duen sarrerako laukian."
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr "Android"
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr "Androiderako bertsioa Play dendaren bidez banatzen da."
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+"Biak sostengatzen ditugu, Play Storeko 32bit-eko eta 64bit-eko Androideak. "
+"Bertsio egokia automatikoki zama-jaisten da zure Android sistema-eragilearen "
+"arabera."
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+"GCompris eskuragarri dago ere «F-Droid»etik, Androiderako aplikazio aske eta "
+"sorburu irekikoen gordetegia."
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+"Eskuz instalatzeko, «apk», zuzenean gure webgunetik ere zama-jaisteko aukera "
+"duzu."
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+"2.3tik 4.0ra arteko Android darabilten gailuetarako, azken bertsio "
+"bateragarria <a href= \"https://gcompris.net/download/qt/android/GCompris-"
+"Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a> "
+"da."
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr "macOS"
+
+#: template/downloads.html:79
+msgid "You can get the macOS version from the link below."
+msgstr "macOS-rako bertsioa eskuratu dezakezu azpiko esteketatik."
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr "macOS 10.13an eraikia eta probatua."
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+"Zure banaketak GCompris-en azken bertsiorako paketerik eskaintzen duen "
+"egiaztatu dezakezu."
+
+#: template/downloads.html:98
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+"GNU/Linux-erako pakete autonomoak ere hornitzen ditugu. Berriki egindako "
+"banaketa guztietan ibili beharko lirateke."
+
+#: template/downloads.html:98
+msgid "System requirements:"
+msgstr "Sistema-eskakizunak:"
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+"Hori erabiltzeko, ireki terminal bat instalatzailea zama-jaitsi duzun "
+"karpetan eta exekutatu komando hauek:"
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+"Ondoren irakurri lizentzia edo sakatu «q» hura saltatzeko, galderei baietz "
+"erantzun, eta softwarea instalatzailearen ondoko karpeta berri batean "
+"instalatuko da."
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+"Azkenik, gcompris jaurtitzeko, joan karpeta berrira, «bin»en, eta egin klik "
+"bikotza «gcompris-qt.sh» fitxategiari."
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+"Oharra: Zure sistemak OpenGL 2 euskarririk ez badu edo ez badabil ondo, "
+"«gcompris-qt.sh» script-aren azken lerro amaieran gehitu  \"--software-"
+"renderer\" aukera. Beste era bat da konfiguratzeko fitxategia ( ~/.config/"
+"gcompris-qt/gcompris-qt.conf ) editatzea: bilatu  «renderer=auto» lerroa, "
+"ordezkatu «auto» «software» ipinita eta gorde fitxategia."
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+"Bestela, GCompris <a href=\"https://flathub.org/apps/details/org.kde.gcompris"
+"\">Flathub</a> edo <a href=\"https://snapcraft.io/gcompris\">Snap "
+"biltokitik</a> instala dezakezu."
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr "Raspberry Pi-rako pakete autonomo bat hornitzen dugu."
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr "Raspberry P 3 bertsioan baino ez da probatu."
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr "Sorburu kodea"
+
+#: template/downloads.html:150
+msgid "The source code is available under the AGPLv3 license."
+msgstr "Sorburu kodea erabilgarri dago GPLv3 lizentziapean."
+
+#: template/downloads.html:163
+msgid "SHA-256 and GPG"
+msgstr "SHA-256 eta GPG"
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+"Zure zama-jaitsitakoen osotasuna ikuskatzeko, fitxategien jatorrizko SHA-256 "
+"hash lor dezakezu haien zama-jaisteko url bukaeran \".sha256\" gehituta."
+
+#: template/downloads.html:168
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+"Sorburuen «tarball»a eta Linux instalatzailea Timothée Giet-en GPG "
+"gakoarekin sinatuta daude (gako publikoa: "
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr "sinadura fitxategiak:"
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "GCompris hezkuntza-softwarea"
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr "Zama-jaitsi GCompris"
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "Azken albisteak"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr "Egin klik edo tak"
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr "Koloreak identifikatzea"
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr "Ordularia ikastea"
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr "Teklatuaren prestakuntza"
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr "Ikasi batuketak egiten"
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr "Ezagutu uraren zikloa"
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr "Jokatu xakean zure lagunaren aurka"
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr "Egin klik letra xehe bati"
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "Ikusi pantaila-argazki guztiak"
+
+#: template/index.html:153
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"GCompris kalitate handiko hezkuntza-software multzo bat da, 2 eta 10 urte "
+"bitarteko haurrentzako jarduera kopuru handia duena."
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Zenbait jarduera jolas hutsak dira baina, hala ere, hezkuntza balioa dute."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr "Honako hau da jarduera kategoria-zerrenda adibide batzuekin:"
+
+#: template/index.html:157
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr "ordenagailua ezagutzea: teklatua, sagua, ukimen-pantaila ..."
+
+#: template/index.html:158
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr ""
+"irakurtzea: letrak, hitzak, irakurtzen trebatzea, testua tekleatzea ..."
+
+#: template/index.html:159
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr ""
+"aritmetika: zenbakiak, eragiketak, taula oroitzea, zenbaketa, sarrera "
+"bikoitzeko taula ..."
+
+#: template/index.html:160
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr "zientzia: ubideko uhateak, uraren zikloa, energia berriztagarria ..."
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr "geografia: herrialdeak, eskualdeak, kulturak ..."
+
+#: template/index.html:162
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr "jokoak: xakea, oroimena, lerrokatu 4, urkabe, hirutan hiru ..."
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr "beste batzuk: koloreak, formak, Braille, ordua esaten ikasi ..."
+
+#: template/index.html:165
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"Une honetan GCompris-ek 100dik gora jarduera eskaintzen ditu, eta gehiago "
+"ari dira garatzen. GCompris software askea da, horrek esan nahi du zure "
+"beharretara egokitu dezakezula, hobetu, eta garrantzitsuena dena, leku "
+"guztietako haurrekin partekatu dezakezula."
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+"GCompris proiektua <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
+"kde.org/\">KDE komunitateak</a> ostatzen eta garatzen du."
+
+#: template/news.html:3 template/news.html:8 template/newsall.html:3
+#: template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Albisteak"
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr "Albiste guztiak"
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+"GCompris ikasgela barruan eta kanpoan entrenamendu-ariketak egiteko e-"
+"ikaskuntza tresna bat da. GNUren Lizentzia Publiko Orokorraren pean "
+"jaurtitako Software Askea da. Plataforma anitzekoa da (GNU/Linux, Windows, "
+"Android, macOS) eta potentzia txikiko ordenagailuetan ibil daiteke."
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+"GCompris hogei urtez baino gehiagoz egon da mundu osoko eskoletan, eta 150 "
+"jarduera baino gehiago eskaintzen ditu arlo pedagogiko nagusiak betetzeko, "
+"besteak beste:"
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr "Ordenagailu bat erabiltzen ikastea"
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr ""
+"Letrak, hitzak eta multzo lexikoak ikasteko jarduerekin irakurketa "
+"praktikatzea"
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr ""
+"Matematikan gaitasuna lortzea zenbakitzea, aritmetika, neurriak eta buru-"
+"hausgarriak praktikatuz"
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr "Mundua logikaren, arteen eta musikaren bidez ezagutzea"
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr ""
+"Zientzia eta giza zientziak esperimentazioaren, historiaren eta geografiaren "
+"bidez esploratzea"
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr "Pentsamendu estrategikoa mahai-jokoekin garatzea"
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+"GCompris-ek ez du Interneteko konexiorik behar, ez du inolako daturik "
+"biltzen eta, beraz, zorrotz betetzen du EBeko Datuak Babesteko Erregelamendu "
+"Orokorra."
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+"GCompris 1.0: haur bakoitzaren trebetasunaren arabera jarduera-maila "
+"hautatzeko aukera ematen die hezitzaileei. Adibidez, haurrei zenbakiak "
+"praktikatzeko aukera ematen dien jarduera batean, zein zenbakirekin lan egin "
+"dezaketen hauta dezakezu, eta zenbaki altuagoak eta zailagoak utz ditzakezu "
+"ondorengo etapa baterako. Edo haurrak argazkiak kronologikoki ordenatu behar "
+"dituen jarduera bat, zenbakiak bakarrik irakur ditzaketen haurrentzako "
+"mailakatu dezakezu, edo zenbakiak eta hitzak irakur ditzaketen haurrentzat "
+"zailagoa egin."
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+"Mailakatzeko funtzionalitate horrek, ikasleei, matematika, hizkuntza, "
+"zientzia eta giza-zientzia praktikatzeko entrenamendu-ariketak proposatzeko "
+"aukera eskaintzen dizu. Problemak ebazteko trebetasunak lantzeko, "
+"estrategiazko jokoekin ere jolastu ahal izango dira."
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+"Prestakuntza pedagogiko sendoa emateko, GCompris-en jarduera-mailak "
+"Frantziako Lehen Hezkuntzako curriculumean oinarritu dira, zeinak definitzen "
+"baitu irakasle frantsesek eskolan irakatsi behar dutena."
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "Azalpena:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "Aurretiko betekizuna:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "Helburua:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "Eskuliburua:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "Merituak:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr "Hautatu kategoria bat"
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr "Guztiak"
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr "Ordenagailua"
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr "Aurkikuntza"
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr "Zientziak"
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr "Dibertsioa"
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr "Matematika"
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr "Buruhaustekoa"
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr "Irakurketa"
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr "Estrategia"
+
+#~ msgid "Version %(version)s"
+#~ msgstr "%(version)s bertsioa"
+
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
+#~ msgstr ""
+#~ "Kaixo,<br />\\nAtseginez jakinarazten dugu GCompris-en 2.2 bertsioa "
+#~ "argitaratu dela."
+
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~ "2.0 or 2.1 should update to 2.2."
+#~ msgstr ""
+#~ "Hau, mantentze-lanak dituen argitalpen bat da, eta 2.0 edo 2.1 duten GNU/"
+#~ "Linux banaketa guztiek 2.2era eguneratu beharko lukete."
+
+#~ msgctxt "20220224.html"
+#~ msgid "Here is a summary of included changes:"
+#~ msgstr "Hona hemen egindako aldaketen laburpen bat:"
+
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "New images and lot of little issues fixed in Watercycle and Renewable "
+#~ "energy activities."
+#~ msgstr ""
+#~ "Uraren zikloa eta Energia berriztagarria jardueretan irudi berriak, eta "
+#~ "arazo txiki asko konpondu dira."
+
+#~ msgctxt "20220224.html"
+#~ msgid "New images in Tangram activity."
+#~ msgstr "Irudi berriak Tangram jardueran."
+
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "Better letter ordering in the virtual keyboard (follows the locale set in "
+#~ "GCompris)."
+#~ msgstr ""
+#~ "Alegiazko teklatuan letren ordena hobea (GCompris-en ezarritako tokiko "
+#~ "ezarpenei jarraitzen die)."
+
+#~ msgctxt "20220224.html"
+#~ msgid "Fix a crash on Android when starting Balancebox activity."
+#~ msgstr ""
+#~ "Android-en Oreka kaxa jarduera abiatzean ematen zen kraskatzea konpondu "
+#~ "da."
+
+#~ msgctxt "20220224.html"
+#~ msgid "Many other little fixes and improvements."
+#~ msgstr "Beste zuzenketa eta hobekuntza txiki asko."
+
+#~ msgctxt "20220224.html"
+#~ msgid "On the translation side:"
+#~ msgstr "Itzulpenei dagokienez:"
+
+#~ msgctxt "20220224.html"
+#~ msgid "Russian translation has been completed."
+#~ msgstr "Errusiera itzulpena osatu da."
+
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "New voices added for Norwegian Nynorsk (all except the introduction "
+#~ "voices)."
+#~ msgstr ""
+#~ "Norvegiera Nynorsk-erako ahots berriak gehitu dira (guztiak, sarrerako "
+#~ "ahotsak izan ezik)."
+
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~ "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">download page</a>. This update will be available soon in the Android "
+#~ "Play store, the F-Droid repository and the Windows store. The package for "
+#~ "Raspberry Pi will also be available soon."
+#~ msgstr ""
+#~ "Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, eta"
+#~ "\\nmacOS-rako, <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+#~ "\\\">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da "
+#~ "eskuragarri Android Play dendan, F-Droid gordetegian eta Windows dendan. "
+#~ "Raspberry Pi-rako paketeak laster egongo dira erabilgarri."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#~ "2.1."
+#~ msgstr ""
+#~ "Kaixo,<br />\\nAtseginez jakinarazten dugu GCompris-en 2.1 bertsioa "
+#~ "argitaratu dela."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~ "2.0 should update to 2.1."
+#~ msgstr ""
+#~ "Hau, mantentze-lanak dituen argitalpen bat da, eta 2.0 duten GNU/Linux "
+#~ "banaketa guztiek 2.1era eguneratu beharko lukete."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "The most important change is that assets downloads on some older Android "
+#~ "versions should now work again."
+#~ msgstr ""
+#~ "Aldaketa garrantzitsuena da Android bertsio zaharrago batzuetan, aktiboen "
+#~ "zama-jaitsierak orain berriz ibili beharko litzatekeela."
+
+#~ msgctxt "20220121.html"
+#~ msgid "Here is a summary of included changes:"
+#~ msgstr "Hona hemen egindako aldaketen laburpen bat:"
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "Ship SSL certificate to download the assets for older Android phones/"
+#~ "tablets which do not have it and fail to download data (https://bugs.kde."
+#~ "org/show_bug.cgi?id=447572)."
+#~ msgstr ""
+#~ "Ziurtagiria ez izateagatik datuak zama-jaitsi ezin duten Android telefono/"
+#~ "tableta zaharragoetan aktiboak zama-jaisteko SSL ziurtagiria kaleratzea "
+#~ "(https://bugs.kde.org/show_bug.cgi?id=447572)."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "Fix a bug in reversecount where after the fish did one turn, it was not "
+#~ "possible to win even when inputting the good result."
+#~ msgstr "akats bat konpondu"
+
+#~ msgctxt "20220121.html"
+#~ msgid "Fix a freeze in learn_decimals activities when changing levels."
+#~ msgstr ""
+#~ "Hamartarrak ikasteko jardueretan maila aldatzerakoan izozte bat "
+#~ "konpontzea."
+
+#~ msgctxt "20220121.html"
+#~ msgid "Add bold tag for Keyboard controls line on path encoding activities."
+#~ msgstr ""
+#~ "Bidea kodetzeko jardueretan teklatu kontrol lerrorako etiketa lodia "
+#~ "gehitzea."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "Fix bottom of the activities list not visible when scrolled down to the "
+#~ "end."
+#~ msgstr ""
+#~ "Konpondu amaierara kiribiltzean jardueren zerrenda botoia ikusgai ez "
+#~ "egotea."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "On Windows, remove the blurriness on HiDPI screens when installing "
+#~ "GCompris."
+#~ msgstr ""
+#~ "Windows-en, kendu HiDPI pantailetako lausotasuna GCompris instalatzean."
+
+#~ msgctxt "20220121.html"
+#~ msgid "On the translation side:"
+#~ msgstr "Itzulpenei dagokienez:"
+
+#~ msgctxt "20220121.html"
+#~ msgid "Breton and Macedonian have been completed."
+#~ msgstr "Bretoiera eta Mazedoniera osatu dira."
+
+#~ msgctxt "20220121.html"
+#~ msgid "Czech has returned (partial translation above 80% for now)."
+#~ msgstr "Txekiera itzuli da (% 80tik gorako itzulpen partziala, oraingoz)."
+
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~ "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">download page</a>. This update will be available soon in the Android "
+#~ "Play store, the F-Droid repository and the Windows store. The package for "
+#~ "Raspberry Pi will also be available soon."
+#~ msgstr ""
+#~ "Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, eta"
+#~ "\\nmacOS-rako, <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+#~ "\\\">zama-jaisteko orrian</a>. Eguneratze hau laster egongo da "
+#~ "eskuragarri Android Play dendan, F-Droid gordetegian eta Windows dendan. "
+#~ "Raspberry Pi-rako paketeak laster egongo dira erabilgarri."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Hi,<br />\\nWe are pleased to announce the release of GCompris 2.0. The "
+#~ "educational value and the hours of fun and entertainment it provides "
+#~ "children of all ages makes it the perfect present for these festive "
+#~ "holidays."
+#~ msgstr ""
+#~ "Kaixo,<br />\\nAtseginez iragartzen dugu GCompris 2.0ren argitalpena. "
+#~ "Adin guztietako haurrak hezteko duen balioak eta eskaintzen dituen "
+#~ "dibertsio orduek ospakizun-opor hauetarako opari ezin hobea bihurtzen "
+#~ "dute."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "It contains many new and improved activities. Below is a summary of "
+#~ "included changes."
+#~ msgstr ""
+#~ "Jarduera berri eta hobetu ugari ditu. Hona hemen egindako aldaketen "
+#~ "laburpen bat."
+
+#~ msgctxt "20211217.html"
+#~ msgid "New activities:"
+#~ msgstr "Jarduera berriak:"
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Baby mouse is for children learning to interact with a computer for the "
+#~ "first time."
+#~ msgstr ""
+#~ "Haurrentzako sagua, ordenagailu batekin aurreneko aldiz ibiltzen ikasten "
+#~ "ari diren umeentzako da."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Oware is a traditional African strategy game, it can be played against "
+#~ "the computer or with a friend."
+#~ msgstr ""
+#~ "Oware, Afrikako estrategia-joko tradizional bat da, ordenagailuaren aurka "
+#~ "edo lagun batekin joka daiteke."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "In Path encoding (absolute or relative) children need to give a set of "
+#~ "directions to follow a defined path in a grid."
+#~ msgstr ""
+#~ "Ibilbidea kodetzean, absolutuan nahiz erlatiboan, haurrek jarraibide "
+#~ "multzo bat eman behar dute lauki-sare batean definitutako bide bat "
+#~ "jarraitzeko."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Path decoding (absolute or relative) is the opposite. Children have to "
+#~ "create the path corresponding to a defined set of directions."
+#~ msgstr ""
+#~ "Ibilbidea deskodetzea, absolutua nahiz erlatiboa, alderantzizkoa da. "
+#~ "Haurrek jarraibide multzo bati dagokion bide bat sortu behar dute."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "In Learn quantities, the goal is to count how many items are needed to "
+#~ "represent a quantity."
+#~ msgstr ""
+#~ "Kopuruak ikastean, helburua, kopuru bat adierazteko zenbat elementu behar "
+#~ "diren zenbatzea da."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "In Learn decimal numbers, children cut units in pieces to learn the "
+#~ "concept of decimal numbers."
+#~ msgstr ""
+#~ "Zenbaki hamartarrak ikastean, haurrek unitateak zatitzen dituzte zenbaki "
+#~ "hamartarren kontzeptua ikasteko."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Learn decimal additions and Learn decimal subtractions use the same "
+#~ "principles as Learn decimal numbers, but this time to practice these "
+#~ "operations."
+#~ msgstr ""
+#~ "Ikasi hamartarren batuketak eta Ikasi hamartarren kenketek Zenbaki "
+#~ "hamartarrak ikastearen oinarri berdinak erabiltzen ditu, oraingoan, "
+#~ "eragiketa hauetan trebatzeko."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "With Ordering numbers, children can practice ordering numbers in "
+#~ "ascending or descending order."
+#~ msgstr ""
+#~ "Zenbakiak ordenatzean, haurrak zenbakiak ordena gorakorrean edo "
+#~ "beherakorrean ordenatzen treba daitezke."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "With Ordering letters, children can practice ordering letters in "
+#~ "alphabetical order or in reverse order."
+#~ msgstr ""
+#~ "Letrak ordenatzean, haurrak, letrak ordena alfabetikoan edo "
+#~ "alderantzizkoan ordenatzen treba daitezke."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Ordering sentences is a step up in which children can practice reading "
+#~ "and grammar by sorting out parts of a sentence."
+#~ msgstr ""
+#~ "Perpausak ordenatzea beste urrats bat da, non haurrek perpausa baten "
+#~ "zatiak ordenatuz irakurketa eta gramatika landu dezaketen."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Positions is an activity to learn the terms describing the relative "
+#~ "position of an object."
+#~ msgstr ""
+#~ "Posizioak, objektu baten posizio erlatiboa deskribatzeko terminoak "
+#~ "ikasteko jarduera bat da."
+
+#~ msgctxt "20211217.html"
+#~ msgid "Improved activities:"
+#~ msgstr "Hobetutako jarduerak:"
+
+#~ msgctxt "20211217.html"
+#~ msgid "Analog electricity has a new set of tutorial level."
+#~ msgstr "Elektrizitate analogikoak tutoretza-maila multzo berri bat du."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "Programming maze has a new dataset containing loops operations, and its "
+#~ "tutorial images are now translated."
+#~ msgstr ""
+#~ "Labirintoa programatzeak begizta eragiketak dituen datu-multzo berri bat "
+#~ "du, eta bere tutoretzaren irudiak, orain, itzulita daude."
+
+#~ msgctxt "20211217.html"
+#~ msgid "Magic hat activities have new datasets for younger children."
+#~ msgstr ""
+#~ "Kapela magikoa jarduerek haur gazteagoentzako datu-multzo berriak dituzte."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "In Solar system we now use Earth days and years as unit for all planets."
+#~ msgstr ""
+#~ "Eguzki-sisteman, orain, Lurreko egun eta urteak erabiltzen ditugu unitate "
+#~ "gisa planeta guztietarako."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "In Geography activities, all the maps have been redrawn and updated, "
+#~ "using better projections and in svg format. We also added new maps for "
+#~ "each part of Asia (East, Southeast, South, Central and Western)."
+#~ msgstr ""
+#~ "Geografia jardueretan, mapa guztiak berriz marraztu eta eguneratu dira, "
+#~ "proiekzio hobea eta svg formatua erabiliz. Asiako alde bakoitzerako mapa "
+#~ "berriak ere gehitu ditugu (Ekialde, Hego-ekialde, Hegoalde, Erdialde eta "
+#~ "Mendebaldekoa)."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "New images and visual improvements for Hanoï activities, Missing letter, "
+#~ "Money activities, Photo hunter, Simple paint and Tangram."
+#~ msgstr ""
+#~ "Irudi berriak eta ikus-hobekuntzak Hanoï jardueretan, Falta duen letran, "
+#~ "Diru jardueretan, Argazki ehiztarian, Margotze errazean eta Tangramen."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "We have a new Inkscape extension to help creating svg maps and puzzles "
+#~ "(https://invent.kde.org/education/gcompris/-/tree/master/tools/inkscape)."
+#~ msgstr ""
+#~ "svg mapak eta buru-hausgarriak sortzen laguntzeko Inkscape hedapen berri "
+#~ "bat dugu (https://invent.kde.org/education/gcompris/-/tree/master/tools/"
+#~ "inkscape)."
+
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
+#~ "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
+#~ "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
+#~ "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
+#~ "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
+#~ "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
+#~ "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
+#~ "(76%) and Russian (76%))."
+#~ msgstr ""
+#~ "Itzulpenen atalean, GCompris 2.0  33 hizkuntzara itzulita dago. 26tan "
+#~ "dago erabat itzulita: azerbaijanera, albaniera, euskara, Brasilgo "
+#~ "portugesa, Britainiako ingelesa, katalana, katalana (valentziera), "
+#~ "txinera tradizionala, nederlandera, estoniera, finlandiera/suomiera, "
+#~ "frantsesa, greziera, hebreera, hungariera, indonesiera, italiera, "
+#~ "lituaniera, malabarera, poloniera, portugesa, errumaniera, esloveniera, "
+#~ "gaztelania, suediera, ukrainera. 7 daude hein batean itzulita: (alemana "
+#~ "(%96), norvegiera Nynorsk (%96), bielorrusiera (%83), mazedoniera (%82), "
+#~ "bretoiera (%80), turkiera (%76) eta errusiera (%76))."
+
+#~ msgctxt "20211217.html"
+#~ msgid "Thank you all, <br/>\\nTimothée & Johnny"
+#~ msgstr "Eskerrik asko guztiei, <br/>\\nTimothée eta Johnny"
+
+#~ msgctxt "20210321.html"
+#~ msgid "Release GCompris 1.1"
+#~ msgstr "GCompris 1.1 argitaratzea"
+
+#~ msgctxt "20210321.html"
+#~ msgid "We have fixed lots of bugs."
+#~ msgstr "Akats asko konpondu ditugu."
+
+#~ msgctxt "20210321.html"
+#~ msgid "A build for Ubuntu Touch has been added."
+#~ msgstr "Ubuntu Toucherako eraikin bat gehitu da."
+
+#~ msgctxt "20210321.html"
+#~ msgid "The spelling of the Turkish districts has been fixed."
+#~ msgstr "Turkiako barrutien ortografia zuzendu da."
+
+#~ msgctxt "20210321.html"
+#~ msgid "We added a minimal .msi alternative package for Windows."
+#~ msgstr "Windows-erako aukerako .msi pakete minimo bat gehitu dugu."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "The GCompris executable has been relicenced to AGPLv3 due to a dependency "
+#~ "of analog electricity."
+#~ msgstr ""
+#~ "GCompris-en exekutagarria AGPLv3 lizentziara aldatu da «elektrizitate "
+#~ "analogikoa»ren mendekotasunak direla eta."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "Albanian, Belarusian, Brazilian Portuguese and Russian have been "
+#~ "completed."
+#~ msgstr ""
+#~ "Albaniera, bielorrusiera, Brasilgo portugesa eta errusiera osatu egin "
+#~ "dira."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "Wordset for vocabulary activities has been added for Albanian and "
+#~ "Macedonian."
+#~ msgstr ""
+#~ "Hiztegi jardueretarako hitz-multzoak gehitu dira albaniera eta "
+#~ "mazedonierarako."
+
+#~ msgctxt "20210321.html"
+#~ msgid "All the voices have been added for Lithuanian."
+#~ msgstr "Ahots guztiak gehitu zaizkio lituanierari."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
+#~ "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
+#~ "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
+#~ "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
+#~ "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
+#~ "Ukrainian."
+#~ msgstr ""
+#~ "Euskarri osoa duten 27 hizkuntza ditugu orain: albaniera, bielorrusiera, "
+#~ "Brasilgo portugesa, bretoiera, Britainiako ingelesa, errumaniera, "
+#~ "errusiera, esloveniera, euskara, frantsesa, gaztelania, grekoa, hebreera, "
+#~ "hungariera, indonesiera, italiera, katalana, katalana (valentziera), "
+#~ "malabarera, mazedoniera, nederlandera, poloniera, portugesa, suediera, "
+#~ "txinera tradizionala, turkiera eta ukrainera."
+
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "We also have 4 languages partially supported: German (91%), Irish Gaelic "
+#~ "(87%), Lithuanian (96%) and Norwegian Nynorsk (85%)."
+#~ msgstr ""
+#~ "Partzialki onartutako 4 hizkuntza ere baditugu: alemana (% 91), Irlandako "
+#~ "gaelera (% 87), lituaniera (% 96) eta Norvegiako nynorks (% 85)."
+
+#~ msgid ""
+#~ "WARNING: For Android version 4.4.2, it is recommended to directly "
+#~ "download and install manually <a href= \"https://gcompris.net/download/qt/"
+#~ "android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.95.apk"
+#~ "\">GCompris version 0.95 from our website</a>, as the version 0.96 from "
+#~ "the Play Store will not be able to download external assets with this "
+#~ "Android version."
+#~ msgstr ""
+#~ "OHARRA: Android-en 4.4.2 bertsiorako, <a href= \"https://gcompris.net/"
+#~ "download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-"
+#~ "dl-0.95.apk\">GCompris 0.95 bertsioa gure webgunetik</a> zuzenean zama-"
+#~ "jaitsi eta eskuz instalatzea gomendatzen da, Play dendako 0.96 bertsioa "
+#~ "ez delako, Android-en bertsio honekin, kanpoko baliabideak zama-jaisteko "
+#~ "gai izango."
+
+#~ msgid ""
+#~ "To check the integrity of your downloads, you can compare the md5sums "
+#~ "with those in this file: <a href=\"https://gcompris.net/download/qt/"
+#~ "md5sums-%(version)s.txt\">MD5SUMS</a>"
+#~ msgstr ""
+#~ "Zama-jaitsitakoen osotasuna egiaztatzeko, md5 baturak fitxategi honetan "
+#~ "daudenekin alderatu ditzakezu: <a href=\"https://gcompris.net/download/qt/"
+#~ "md5sums-%(version)s.txt\">MD5SUMS</a>"
+
+#~ msgid "This package is a beta version."
+#~ msgstr "Pakete hau beta bertsio bat da."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "This new version contains a new major feature: the addition of the "
+#~ "Activity Settings menu with Dataset selection for more than 50 "
+#~ "activities, allowing to choose more specifically what can be learned on "
+#~ "the activities."
+#~ msgstr ""
+#~ "Bertsio berri horrek ezaugarri nagusi berri bat du: «Jarduera ezarpenak» "
+#~ "menua, 50 jarduera baino gehiagorako datu-multzo hautapenarekin, eta "
+#~ "horrek jardueretan zer ikas daitekeen zehatzago aukeratzen uzten du."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "The long awaited Analog Electricity activity which allows us to draw "
+#~ "circuits and run their simulation."
+#~ msgstr ""
+#~ "Luzaroan itxaron dugun «Elektrizitate analogikoa» jarduera, zirkuituak "
+#~ "marrazten eta haien simulazioa egiten uzten diguna."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "Learn digits and two subactivities to learn additions and subtractions. "
+#~ "The aim is to teach these concepts to younger children, with easy "
+#~ "computations."
+#~ msgstr ""
+#~ "«Digituak ikastea», eta bi azpijarduera, batuketak eta kenketak ikasteko. "
+#~ "Kontzeptu horiek haur txikiei irakastea da helburua, kalkulu errazak "
+#~ "eginez."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "Baby keyboard where, when a character is typed on the keyboard, we "
+#~ "display it on the screen and play the corresponding voice if it exists."
+#~ msgstr ""
+#~ "«Haur teklatua» non, teklatuan karaktere bat tekleatzen denean, pantailan "
+#~ "azaldu eta, dagoenean, dagokion ahotsa jotzen dugun."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "Gravity, which replaces the old Intro Gravity, explains better the "
+#~ "concept and is more realistic."
+#~ msgstr ""
+#~ "«Grabitatea», «Grabitaterako sarrera» zaharra ordezkatzen duena, "
+#~ "kontzeptua hobeto azaltzen du eta errealistagoa da."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "You can check on this page the voices status in your language: <a href=\\"
+#~ "\"https://gcompris.net/voicestats/\\\">https://gcompris.net/voicestats/</"
+#~ "a>. You can help us by providing a nice recording of your voice for all "
+#~ "the missing entries in your native language."
+#~ msgstr ""
+#~ "Orri honetan egiazta dezakezu ahotsen egoera zure hizkuntzan: <a href=\\"
+#~ "\"https://gcompris.net/voicestats/\\\">https://gcompris.net/voicestats/</"
+#~ "a>. Zure jatorrizko hizkuntzan falta diren sarrera guztietarako zure "
+#~ "ahotsaren grabaketa atsegin bat emanez lagun diezagukezu."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "As said in the previous news, we decided to only ship translations that "
+#~ "are at least 80% completed to let the children have a better experience "
+#~ "and not half translated software. Unfortunately, we had to drop the "
+#~ "translation for: Estonian, Finnish, Irish Gaelic, Scottish Gaelic, "
+#~ "Galician, Hindi, Macedonian, Norwegian Nynorsk, Russian, Slovak and "
+#~ "Chinese Simplified."
+#~ msgstr ""
+#~ "Aurreko albistean aipatu bezala, gutxienez % 80 osatutako itzulpenak "
+#~ "kaleratzen ditugu, haurrek esperientzia hobea izan dezaten, eta ez "
+#~ "dezaten erdi itzulitako softwarerik erabili behar izan. Tamalez, ondoko "
+#~ "itzulpenak kanpoan utzi behar izan ditugu: estoniera, finlandiera, "
+#~ "Irlandako gaelera, Eskoziako gaelera, galiziera, hindi, mazedoniera, "
+#~ "norvegiera nynorsk, errusiera, eslovakiera eta txinera sinplifikatua."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "If your language is in the partially supported list, or is no more or not "
+#~ "yet supported at all, and you want to help, please contact us "
+#~ "(support@gcompris.net) and we will give you instructions to get started "
+#~ "translating."
+#~ msgstr ""
+#~ "Zure hizkuntza partzialki euskarria dutenen zerrendan badago, edo "
+#~ "dagoeneko ez badu, edo oraindik ez badu euskarririk, eta lagundu nahi "
+#~ "duzu, jar zaitez gurekin harremanean (support@gcompris.net) eta itzultzen "
+#~ "hasteko jarraibideak emango dizkizugu."
+
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "Another way to help is to write some posts in your community about "
+#~ "GCompris, and don't hesitate to give us some feedback."
+#~ msgstr ""
+#~ "Laguntzeko beste era bat, zure komunitatean GCompris-en inguruko postak "
+#~ "idaztea da, ez izan guri erreakzioak bidaltzeko zalantzarik."
+
+#~ msgctxt "20200214.html"
+#~ msgid "GCompris is now Free to install everywhere"
+#~ msgstr "GCompris orain toki guztietan instalatzeko doan da"
+
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "Hi,<br />\\nWe are pleased to announce that the full version of GCompris "
+#~ "is now available at no cost for every supported platform!"
+#~ msgstr ""
+#~ "Kaixo,<br />\\nPozarren berri ematen dugu GCompris bertsio osoa orain "
+#~ "kosturik gabe eskuragarri dagoela euskarria duten plataforma guztietarako!"
+
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "The installers for Windows and macOS on our website have been updated to "
+#~ "not require activation code anymore, and the full version on the Play "
+#~ "store and Microsoft store are now gratis."
+#~ msgstr ""
+#~ "Gure webgunean dauden Windows eta macOS-rako instalatzaileak eguneratu "
+#~ "ditugu aurrerantzean aktibazio koderik behar ez dezaten, eta Play eta "
+#~ "Microsoft dendetako bertsio osoak orain doan dira."
+
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "We hope that this move will make it easier for all the children in the "
+#~ "world to get access to the best educational software."
+#~ msgstr ""
+#~ "Espero dugu aldaketa honek erraztuko duela munduko haur guztiak hezkuntza-"
+#~ "software onenera iristea."
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "A programming maze: to learn the basics of programming with a few "
+#~ "instructions"
+#~ msgstr ""
+#~ "Programatzeko labirinto bat: agindu gutxi batzuk erabiliz programatzearen "
+#~ "oinarriak ikasteko"
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "Baby tangram: to learn the basics of tangram (this activity corresponds "
+#~ "to the lowest levels of previous tangram activity)"
+#~ msgstr ""
+#~ "Haurtxo tangram: tangramaren oinarriak ikasteko (jarduera hau aurreko "
+#~ "tangram jardueraren maila baxuenei dagokie)"
+
+#~ msgctxt "20191201.html"
+#~ msgid "And a lot of new features:"
+#~ msgstr "Eta eginbide berri mordo bat:"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new sub-categories to organize activities"
+#~ msgstr "jarduerak antolatzeko azpi-kategoria berriak"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new background music feature and audio tracks"
+#~ msgstr "hondoko musika eginbide eta audio pista berriak"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new volume settings for audio effects"
+#~ msgstr "audio efektuetarako bolumen ezarpen berriak"
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "new speed setting in several activities (gletters, algebra, readingh, "
+#~ "note_names)"
+#~ msgstr ""
+#~ "abiadura ezarpen berriak hainbat jardueratan («gletters», «algebra», "
+#~ "«readingh», «note_names»)"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new feature in chess activities to display captured pieces"
+#~ msgstr "xake jardueratan atzemandako piezak azaltzeko eginbide berria"
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "new option to go to next level manually in drawletters and drawnumbers"
+#~ msgstr ""
+#~ "hurrengo mailara eskuz joateko aukera berria marraztuletrak "
+#~ "(«drawletters») eta marraztuzenbakiak («drawnumbers») jardueretan"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new voices for en_US"
+#~ msgstr "«en_US»rako ahots berriak"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new images for colors activity"
+#~ msgstr "irudi berriak koloreak («colors») jardueran"
+
+#~ msgctxt "20191201.html"
+#~ msgid "new images for advanced_colors activity"
+#~ msgstr "irudi berriak kolore_aurreratuak («advanced_colors») jardueran"
+
+#~ msgctxt "20191201.html"
+#~ msgid "improve settings layout"
+#~ msgstr "ezarpenen antolamendua hobetu da"
+
+#~ msgctxt "20191201.html"
+#~ msgid "improve share activity layout"
+#~ msgstr "banatu («share») jardueraren antolamendua hobetu da"
+
+#~ msgctxt "20191201.html"
+#~ msgid "improve categorisation activity layout"
+#~ msgstr "kategorizazioa («categorisation») jardueraren antolaera hobetu da"
+
+#~ msgctxt "20191201.html"
+#~ msgid "resource files are now stored in KDE server (https://cdn.kde.org/)"
+#~ msgstr ""
+#~ "baliabide fitxategiak orain KDE zerbitzarian (https://cdn.kde.org/) "
+#~ "gordetzen dira"
+
+#~ msgctxt "20191201.html"
+#~ msgid "add a tutorial to even/odd numbers"
+#~ msgstr "zenbaki bikoiti/bakoiti jardueraren tutorial bat gehitu da"
+
+#~ msgctxt "20191201.html"
+#~ msgid "add intro to piano_composition"
+#~ msgstr ""
+#~ "piano_konposatzea («piano_composition») jarduerari sarrerakoa gehitu zaio"
+
+#~ msgctxt "20191201.html"
+#~ msgid "add malayalam dataset to gletters"
+#~ msgstr "«gletters» jardueran malaberaren datu-multzoa gehitu da"
+
+#~ msgctxt "20191201.html"
+#~ msgid "add breton dataset to wordsgame"
+#~ msgstr ""
+#~ "hitzen-jokoa («wordsgame») jarduerari bretoieraren datu-multzoa gehitu "
+#~ "zaio"
+
+#~ msgctxt "20191201.html"
+#~ msgid "fix voices not playing in geography"
+#~ msgstr ""
+#~ "konpondu egin da geografia («geography») jardueran  ahotsak ez jotzea"
+
+#~ msgctxt "20191201.html"
+#~ msgid "fix sounds not playing in mining"
+#~ msgstr "konpondu egin da meatzaritza («mining») jardueran soinuak ez jotzea"
+
+#~ msgctxt "20191201.html"
+#~ msgid "fix portrait mode in binary_bulb"
+#~ msgstr ""
+#~ "konpondu egin da erretratu modua (bertikala) bonbilla_bitarra "
+#~ "(«binary_bulb̉») jardueran"
+
+#~ msgctxt "20191201.html"
+#~ msgid "fix high cpu load in menu"
+#~ msgstr "konpondu egin da menuko PUZ-zama handia"
+
+#~ msgctxt "20191201.html"
+#~ msgid "fix hint image size in photo_hunter"
+#~ msgstr ""
+#~ "konpondu egin da argibide-irudi neurria argazki_ehiztaria "
+#~ "(«photo_hunter») jardueran"
+
+#~ msgctxt "20191201.html"
+#~ msgid "fix layout in color_mix"
+#~ msgstr ""
+#~ "konpondu egin da kolore_nahasketa («color_mix») jarduerako antolamendua"
+
+#~ msgctxt "20191201.html"
+#~ msgid "and lots of other small fixes..."
+#~ msgstr "eta beste konponketa txiki mordo bat..."
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "We also have 15 languages partially supported: Belarusian (65%), Catalan "
+#~ "(Valencian 95%), Chinese Simplified (66%), Estonian (93%), Finnish (86%), "
+#~ "German (96%),  Hindi (73%), Hungarian (95%), Indonesian (95%), Irish "
+#~ "Gaelic (78%), Norwegian Nynorsk (93%), Russian (76%), Scottish Gaelic "
+#~ "(67%), Slovenian (54%), Turkish (95%)."
+#~ msgstr ""
+#~ "Hein bateko euskarria duten 15 hizkuntza ere baditugu: alemana (%96), "
+#~ "bielorrusiera (%65), Eskoziako gaelera (%67), errusiera (%76), "
+#~ "esloveniera (%54), estoniera (%93), finlandiera (%86), hindi (%73), "
+#~ "hungariera (%95), indonesiera (%95), Irlandako gaelera (%78), katalana "
+#~ "(valentziera %95), norvegiera nynorsk (%93), turkiera (%95), txinera "
+#~ "sinplifikatua (%66)."
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "Usually we only ship translations that are at least 80% complete. However "
+#~ "several translations dropped way below 80% (especially Slovenian, "
+#~ "Belarusian and Scottish Gaelic ; but also Hindi, Russian and Irish "
+#~ "Gaelic). We decided to keep those exceptionally for this release, and "
+#~ "hope to see former or new translators complete those translations. If we "
+#~ "get updates or new translations, we will make a release update."
+#~ msgstr ""
+#~ "Gutxienez itzulpenen %80 egina duten hizkuntzak hornitu ohi ditugu. Hala "
+#~ "ere, zenbait itzulpenek %80tik dezente behera egin dute (bereziki "
+#~ "esloveniera, bielorrusiera eta Eskoziako gaelera; baino baita hindi, "
+#~ "errusiera eta Irlandako gaelera ere). Salbuespen bat eginez argitalpen "
+#~ "honetarako haiek mantentzea erabaki dugu, eta espero dugu aurreko "
+#~ "itzultzaileek edo berriek itzulpenak osatuko dituztela. Eguneratzeak edo "
+#~ "itzulpen berriak jasotzen baditugu, argitalpen eguneratze bat egingo dugu."
+
+#~ msgctxt "20191201.html"
+#~ msgid "Notes:"
+#~ msgstr "Oharrak:"
+
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "For the Malayalam language, we noticed some issues with the default font "
+#~ "\\\"Andika-R\\\". We recommend Malayalam users to select the font Noto-"
+#~ "Sans-Malayalam or RaghuMalaylamSans from the application menu (if it is "
+#~ "not available in the list you need to install this font on your system to "
+#~ "be able to select it).\\n"
+#~ msgstr ""
+#~ "Malabarera hizkuntzan arazoak nabaritu ditugu lehenetsitako \\\"Andika-R\\"
+#~ "\" letra-tipoarekin. Malabarera erabiltzaileei aplikazioen menuan Noto-"
+#~ "Sans-Malayalam edo RaghuMalaylamSans hautatzea gomendatzen diegu (ez "
+#~ "badago zerrendan erabilgarri, letra-tipo hau zure sisteman instalatu "
+#~ "behar duzu hura hautatu ahal izateko).\\n"
+
+#~ msgid "Buy / Donate"
+#~ msgstr "Erosi / Egin dohaintza"
+
+#~ msgid "Buying the full version"
+#~ msgstr "Bertsio oso erostea"
+
+#~ msgid ""
+#~ "On proprietary operating systems (Windows/Mac/Android...), the full "
+#~ "version of GCompris has a cost."
+#~ msgstr ""
+#~ "Jabedun sistema-eragileetan (Windows/Mac/Android...), GCompris-en "
+#~ "bertsioak kostu bat dauka."
+
+#~ msgid ""
+#~ "We provide a free demo with a limited number of activities, "
+#~ "%(demo_activities)s on the %(total_activities)s available."
+#~ msgstr ""
+#~ "Jarduera kopuru mugatua duen erakusgai bat eskaintzen dugu doan, "
+#~ "%(demo_activities)s / %(total_activities)s jarduera erabilgarri dituena."
+
+#~ msgid "Follow the instructions below to buy the full version."
+#~ msgstr "Jarraitu beheko jarraibideei bertsio osoa erosteko."
+
+#~ msgid ""
+#~ "For Windows and macOS, you can get the demo from the <a href=downloads-"
+#~ "%(locale)s.html>download page</a>, and buy here the activation code to "
+#~ "unlock the full version. The cost is 9€."
+#~ msgstr ""
+#~ "Windows eta macOS-rako, erakusgaia <a href=downloads-%(locale)s.html>zama-"
+#~ "jaisteko orri</a>tik lor dezakezu, eta hemen eros dezakezu aktibatzeko "
+#~ "kodea bertsio osoa libratzeko. Kostua 9€koa da."
+
+#~ msgid ""
+#~ "After the payment you will immediately receive an email with instructions "
+#~ "(check your spam folder). If you do not receive this email please contact "
+#~ "us at sales@gcompris.net."
+#~ msgstr ""
+#~ "Ordainketa egin ondoren berehala jasoko duzu e-posta bat jarraibideekin "
+#~ "(begiratu zure «spam» karpetan). E-posta hau jasotzen ez baduzu, jar "
+#~ "zaitez gurekin harremanean  sales@gcompris.net  helbidean."
+
+#~ msgid ""
+#~ "This registration gives you the right to update to any new release of "
+#~ "GCompris for 2 years. After that period, you can continue to use the "
+#~ "latest release you got for as long as you wish."
+#~ msgstr ""
+#~ "Erregistro honek 2 urtez GCompris-en argitaratze guztietara eguneratzeko "
+#~ "eskubidea ematen dizu. Aldi hori igarota, lortu duzun bertsio berriena "
+#~ "nahi duzun arte erabiltzen jarrai dezakezu."
+
+#~ msgid "Notes:"
+#~ msgstr "Oharrak:"
+
+#~ msgid "You can use this code on several computers."
+#~ msgstr "Kode hau hainbat ordenagailutan erabil dezakezu."
+
+#~ msgid ""
+#~ "Schools and other institutions can buy a site activation key to support "
+#~ "the project."
+#~ msgstr ""
+#~ "Ikastetxeek eta beste erakunde batzuek lekurako aktibatzeko gako bat eros "
+#~ "dezakete proiektuari laguntza emateko."
+
+#~ msgid ""
+#~ "Please contact us at <a href=\"mailto:sales@gcompris.net?subject=GCompris "
+#~ "- Quote for school\">sales@gcompris.net</a> to request a quote."
+#~ msgstr ""
+#~ "Jarri zaitez gurekin harremanean <a href=\"mailto:sales@gcompris.net?"
+#~ "subject=GCompris - Quote for school\">sales@gcompris.net</a> helbidean "
+#~ "aurrekontu bat eskatzeko."
+
+#~ msgid ""
+#~ "Alternatively, you can also buy the full version of GCompris directly <a "
+#~ "href=\"https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm"
+#~ "\">from the Windows Store.</a>"
+#~ msgstr ""
+#~ "Bestela, GCompris-en bertsio osoa zuzenean <a href=\"https://www."
+#~ "microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm\">Windows Store</a>tik "
+#~ "ere eros dezakezu."
+
+#~ msgid "However, the Windows Store requires Windows 10."
+#~ msgstr "Dena den, Windows biltegiak Windows 10 izatea eskatzen du."
+
+#~ msgid ""
+#~ "For Android, the recommended way is to directly buy the full version <a "
+#~ "href=\"https://play.google.com/store/apps/details?id=net.gcompris.full"
+#~ "\">from Google Play store</a>."
+#~ msgstr ""
+#~ "Androiderako, gomendatutako bidea bertsio osoa zuzenean <a href=\"https://"
+#~ "play.google.com/store/apps/details?id=net.gcompris.full\">Google Play "
+#~ "dendatik</a> erostea da."
+
+#~ msgid ""
+#~ "You can also install <a href=\"https://play.google.com/store/apps/details?"
+#~ "id=net.gcompris\">the demo</a> available in the store, and use the in-app "
+#~ "purchase button to unlock the full version from it. Note however that "
+#~ "this second method doesn't allow to use the Google Play Family Library to "
+#~ "share it with your family. Also, a few users reported issues to unlock "
+#~ "the demo."
+#~ msgstr ""
+#~ "Biltegian erabilgarri dagoen <a href=\"https://play.google.com/store/apps/"
+#~ "details?id=net.gcompris\">erakusgaia</a> instalatu dezakezu eta "
+#~ "aplikazioak daukan erosteko botoia ere erabil dezakezu bertatik bertsio "
+#~ "osoa libratzeko. Kontuan izan ezazu dena den metodo honekin ezingo duzula "
+#~ "zure familiarekin partekatzeko Google Play Family Library erabili. "
+#~ "Halaber, erabiltzaile gutxi batzuk erakusgaia libratzeko arazoak izan "
+#~ "dituztela jakinarazi dute."
+
+#~ msgid ""
+#~ "For users of Free-Software operating systems, the full version is always "
+#~ "free.<br/>\n"
+#~ "          This means that for GNU/Linux, the installer we provide and the "
+#~ "distribution packages have the full version. There is no need for any "
+#~ "activation code."
+#~ msgstr ""
+#~ "Software-askeko sistema-eragileen erabiltzaileentzako, bertsio osoa doan "
+#~ "da beti.<br/>\n"
+#~ "          Honek esan nahi du GNU/Linux-erako, ematen dugun instalatzailea "
+#~ "eta banaketen paketeek bertsio osoa dutela. Ez da aktibazio koderik behar."
+
+#~ msgid "However, you can still support us with a donation, see below."
+#~ msgstr ""
+#~ "Hala ere, zure laguntza eman diezagukezu dohaintza bat eginez, begiratu "
+#~ "behean."
+
+#~ msgid "Legal reference: Company"
+#~ msgstr "Erreferentzia legala: Konpainia"
+
+#~ msgid ""
+#~ "Developing software takes a lot of time, it needs hardware, and other "
+#~ "requirements that have a cost. Currently all sales and donations are used "
+#~ "to support one of the main contributors, a professional graphic artist "
+#~ "and developer who is now in charge of the graphics and co-maintaining the "
+#~ "application."
+#~ msgstr ""
+#~ "Softwarea garatzea denbora asko behar du, hardwarea behar du, eta kostua "
+#~ "duten beste baliabide batzuk. Une honetan salmenta eta dohaintza guztiak "
+#~ "kolaboratzaile nagusietako bati, artista grafiko eta garatzailea, "
+#~ "laguntzeko erabiltzen dira, orain grafikoen arduraduna da eta aplikazioa "
+#~ "mantentzeaz arduratzen da beste batzuekin batera."
+
+#~ msgid ""
+#~ "Else, you can get the demo from the links below, and <a href=\"buy-"
+#~ "%(locale)s.html\">buy on our website</a> the activation code to unlock "
+#~ "the full version."
+#~ msgstr ""
+#~ "Bestela, erakusgaia beheko esteketatik lor dezakezu, eta bertsio osoa "
+#~ "libratzeko aktibatzeko kodea <a href=\"buy-%(locale)s.html\">gure "
+#~ "webgunean erosi</a> dezakezu."
+
+#~ msgid ""
+#~ "Note: It is recommended to buy directly the full version from the store, "
+#~ "not from the button in the demo. This way, you can share it with 5 family "
+#~ "members using the Google Play Family Library. Also, a few users reported "
+#~ "issues to unlock the demo."
+#~ msgstr ""
+#~ "Oharra: Bertsio osoa biltegitik erostea gomendatzen da, ez erakusgaiaren "
+#~ "botoitik. Era honetan familiako 5 sendirekin parteka dezakezu Google Play "
+#~ "Family Library erabiliz. Halaber, erabiltzaile gutxi batzuk erakusgaia "
+#~ "libratzeko arazoak izan dituztela jakinarazi dute."
+
+#~ msgid ""
+#~ "If you use this version, please consider <a href=\"buy%(suffix)s."
+#~ "html#donation\">making a donation</a> to support GCompris."
+#~ msgstr ""
+#~ "Bertsio hau erabiltzen baduzu, hausnartu GCompris laguntzeko <a href=\"buy"
+#~ "%(suffix)s.html#donation\">dohaintza bat egitea</a>."
+
+#~ msgid ""
+#~ "You can get the demo from the link below, and <a href=\"buy-%(locale)s."
+#~ "html\">buy on our website</a> the activation code to unlock the full "
+#~ "version."
+#~ msgstr ""
+#~ "Erakusgaia beheko estekatik lor dezakezu, bertsio osoa libratzeko "
+#~ "aktibatzeko kodea <a href=\"buy-%(locale)s.html\">gure webgunean erosi</"
+#~ "a> dezakezu."
+
+#~ msgid "Buying the Windows or MacOSX version"
+#~ msgstr "Windows edo MacOSX bertsioa erostea"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "This new version includes updated translation for several languages, and "
+#~ "a few bug fixes."
+#~ msgstr ""
+#~ "Bertsio honek hainbat hizkuntzetarako itzulpen eguneratuak dakartza, "
+#~ "baita akats konponketa batzuk ere."
+
+#~ msgctxt "20190303.html"
+#~ msgid "Translations that received a big update:"
+#~ msgstr "Eguneraketa handia jaso duten itzulpenak:"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Brazilian Portuguese (100%)"
+#~ msgstr "Brasileko Portugesa (%100)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Breton (100%)"
+#~ msgstr "Bretoiera (%100)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Finnish (90%)"
+#~ msgstr "Suomiera (%90)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Indonesian (100%)"
+#~ msgstr "Indonesiera (%100)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Norwegian Nynorsk (97%)"
+#~ msgstr "Norvegiera Nynorsk (%97)"
+
+#~ msgctxt "20190303.html"
+#~ msgid "Polish (100%)"
+#~ msgstr "Poloniera (%100)"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "We decided again for this release to keep the translations that dropped "
+#~ "below 80%. It would be sad to have to disable 10 languages from the "
+#~ "application, but if no one updates the following translations, they will "
+#~ "be disabled in next release: Basque, Belarusian, Chinese Simplified, "
+#~ "Estonian, Hindi, Russian, Scottish Gaelic, Slovak, Slovenian and Turkish."
+#~ msgstr ""
+#~ "Argitalpen honetarako atzera %80tik jaitsi diren hizkuntzen itzulpenak "
+#~ "mantentzea erabaki dugu. Tamalgarria litzateke aplikaziotik 10 hizkuntza "
+#~ "desgaitzea, baino inork ez baditu ondoko itzulpenak eguneratzen, hurrengo "
+#~ "argitalpenean desgaituta egongo dira: euskara, bielorrusiera, txinera "
+#~ "sinplifikatua, estoniera, hindi, errusiera, eskoziako gaelera, "
+#~ "eslovakiera, esloveniera eta turkiera."
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "For the windows version, we added a new entry in the start menu called "
+#~ "GCompris (Safe Mode) to launch it with software rendering mode. This was "
+#~ "needed as the auto-detection of OpenGL support was not reliable. Now, "
+#~ "users can easily choose between OpenGL and software rendering without "
+#~ "changing the configuration file."
+#~ msgstr ""
+#~ "Windows-eko bertsiorako, sarrera berria gehitu diogu haserako menuari, "
+#~ "\"GCompris (Modu segurua)\" izenekoa, software errendatze moduarekin "
+#~ "jaurtitzeko. Hau beharrezkoa zen, OpenGL euskarriaren hautemate "
+#~ "automatikoa ez zelako fidagarria. Orain, erabiltzaileek erraz aukeratu "
+#~ "dezakete OpenGL eta software errendatzearen artean konfiguratzeko "
+#~ "fitxategia aldatu gabe."
+
+#~ msgctxt "20190303.html"
+#~ msgid "Known issues:"
+#~ msgstr "Arazo ezagunak:"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "The progress bar for downloads doesn't work anymore. This is a side "
+#~ "effect from our switch to https for hosting the files. We are looking to "
+#~ "improve this for next release.\\n"
+#~ msgstr ""
+#~ "Zama-jaistearen aurrerapen-barra jadanik ez dabil. Fitxategiak ostatzeko "
+#~ "«https»ra aldatu izanaren alboko ondorio bat da hau. Hurrengo "
+#~ "argitalpenerako hau hobetzeko modua bilatzen ari gara.\\n"
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "As a side note dedicated to GNU/Linux distribution packagers, this new "
+#~ "version now requires OpenSSL to be able to download voices and additional "
+#~ "images."
+#~ msgstr ""
+#~ "GNU/Linux banaketetako paketegileentzako ohar gisa, bertsio berri honek "
+#~ "OpenSSL behar du ahotsak eta irudi osagarriak zama-jaitsi ahal izateko."
+
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "As usual you can download this new version from our <a href=\\\"https://"
+#~ "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. It will "
+#~ "also be available soon on the Android and Windows store."
+#~ msgstr ""
+#~ "Ohi bezala bertsio berri hau gure <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">zama-jaisteko orritik</a> zama-jaitsi "
+#~ "daiteke. Laster egongo da erabilgarri Android eta Windows biltegietan ere."

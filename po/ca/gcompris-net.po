@@ -1,0 +1,804 @@
+# Translation of gcompris-net.po to Catalan
+# Copyright (C) 2015-2022 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015, 2017, 2018, 2019, 2020, 2021, 2022.
+# Josep M. Ferrer <txemaq@gmail.com>, 2017, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: websites-gcompris-net\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"PO-Revision-Date: 2022-09-05 12:22+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#. news title
+msgctxt "20220227.html"
+msgid "Release GCompris 2.3"
+msgstr "Llançament del GCompris 2.3"
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Today we are releasing GCompris version 2.3."
+msgstr "Avui fem el llançament del GCompris versió 2.3."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
+"release."
+msgstr ""
+"Ens hem adonat que la versió 2.2 s'havia distribuït amb un error que "
+"trencava 3 activitats («Ordre de l'alfabet», «Nombres parells i senars» i "
+"«Números en ordre»), hem decidit corregir-ho ràpidament amb un llançament "
+"nou de manteniment."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, "
+"Raspberry Pi i macOS a la <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">pàgina de baixades</a>. Aquesta actualització "
+"estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i "
+"a la botiga de Windows."
+
+# paragraph
+#. paragraph
+msgctxt "20220227.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Gràcies a tots, <br/>Timothée i Johnny"
+
+#. news title
+msgctxt "20220413.html"
+msgid "Release GCompris 2.4"
+msgstr "Llançament del GCompris 2.4"
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Today we are releasing GCompris version 2.4."
+msgstr "Avui fem el llançament del GCompris versió 2.4."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We optimized the size of all the packages for all platforms and of the "
+"external word images set (~30% smaller)."
+msgstr ""
+"Hem optimitzat la mida de tots els paquets per a totes les plataformes i del "
+"conjunt d'imatges extern de paraules (30% més petit)."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"If you disabled the automatic download and want to have the full images set, "
+"you should go to the configuration and click on \\\"Download full word image "
+"set\\\"."
+msgstr ""
+"Si desactiveu la descàrrega automàtica i voleu que s'estableixin les imatges "
+"completes, haureu d'anar a la configuració i fer clic a «Baixa el conjunt "
+"complet d'imatges de les paraules»."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"The text \\\"Full word image set is installed\\\" is displayed below when "
+"you have the latest version."
+msgstr ""
+"Es mostra el text «Està instal·lat el conjunt complet d'imatges» a sota quan "
+"s'ha instal·lat la darrera versió."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
+"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
+"Aiswarya Kaitheri Kandoth."
+msgstr ""
+"S'han afegit les veus d'introducció del noruec nynorsk per Karl Ove "
+"Hufthammer i Øystein Steffensen-Alværvik. S'han completat les veus del "
+"malaiàlam per Aiswarya Kaitheri Kandoth."
+
+# skip-rule: kct-box
+#. paragraph
+msgctxt "20220413.html"
+msgid "Many images have been updated for several activities."
+msgstr "S'han actualitzat moltes imatges per a diverses activitats."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+"associations activities."
+msgstr ""
+"També s'han corregit diversos errors a les activitats d'Energia renovable, "
+"Cicle de l'aigua i Associacions lògiques."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, "
+"Raspberry Pi i macOS a la <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">pàgina de baixades</a>. Aquesta actualització "
+"estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i "
+"a la botiga de Windows."
+
+# paragraph
+#. paragraph
+msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Gràcies a tots, <br/>Timothée i Johnny"
+
+#: gcompris.py:290
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+"Aquest programari és un paquet GNU i està llicenciat d'acord amb els termes "
+"de la Llicència pública general GNU Affero."
+
+#: gcompris.py:291
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Equip de traducció de KDE al català"
+
+#: gcompris.py:396
+msgid "For Christmas, offer GCompris to your children."
+msgstr "Per Nadal, oferiu el GCompris als vostres fills."
+
+#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "Baixa"
+
+#: template/base.html:56 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "Donació de diners"
+
+#: template/base.html:57 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "Captures de pantalla"
+
+#: template/base.html:58 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr "Escoles"
+
+#: template/base.html:59
+msgid "Manual"
+msgstr "Manual"
+
+#: template/base.html:60
+msgid "Contribute"
+msgstr "Col·labora"
+
+#: template/base.html:91
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr "Darrera actualització del lloc el %(revision_date)s."
+
+#: template/base.html:96
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr "Lloc traduït per: %(translators_names)s."
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr "El GCompris per Nadal"
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+"Per Nadal, oferiu el GCompris als vostres fills. És gratuït i els donarà "
+"hores de diversió educativa."
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr "Obteniu el GCompris des de la nostra pàgina de baixades"
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr "Obteniu el GCompris des de la Play Store"
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr "Obteniu el GCompris des de la Windows Store"
+
+#: template/donate.html:13
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"Si tu, els teus fills o la teva classe estimen el GCompris. Podeu donar "
+"suport al projecte amb una donació."
+
+#: template/donate.html:14
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+"Desenvolupar programari pren molt de temps, es necessita maquinari, i hi ha "
+"altres requisits que tenen un cost."
+
+#: template/donate.html:16
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+"Si voleu ajudar al desenvolupament del GCompris d'una manera sostenible, "
+"esdeveniu patrocinador del GCompris al Patreon:"
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+msgid "Become a Patron"
+msgstr "Fer-se patrocinador"
+
+#: template/donate.html:21
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr "També, podeu donar la quantitat que vulgueu al KDE:"
+
+#: template/donate.html:22
+msgid "Donate to KDE"
+msgstr "Feu una donació al KDE"
+
+#: template/donate.html:24
+msgid "Thanks for supporting Free Software in education."
+msgstr "Gràcies per donar suport al programari lliure a l'educació."
+
+#: template/donate.html:27
+msgid "Patreon"
+msgstr "Patreon"
+
+#: template/donate.html:30
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Gràcies a tothom per ajudar el GCompris al Patreon!"
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr "Windows"
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+"Podeu instal·lar el GCompris <a href=\"https://www.microsoft.com/en-us/store/"
+"p/gcompris/9pgxjtcxn8qm\">des de la Windows Store</a>."
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr "Nota: la Windows Store requereix el Windows 10."
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr "Podeu baixar l'instal·lador des dels següents enllaços."
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr "Requisits del sistema: Windows 7, 8 o 10 amb suport d'OpenGL 2."
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+"Nota: Si el vostre sistema no té compatibilitat amb OpenGL 2 o si no "
+"funciona correctament, empreu l'entrada GCompris (mode segur) al menú "
+"d'inici per a llançar el GCompris amb el mode de representació per "
+"programari que no utilitza OpenGL."
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+"Si realment us cal una versió que s'executi sobre Windows XP, o si el vostre "
+"sistema no admet la nova versió, podeu utilitzar l'últim instal·lador de "
+"l'antic GCompris 15.10."
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+"Per a habilitar totes les activitats en aquesta versió antiga, podeu "
+"utilitzar el codi 200202 al quadre d'entrada que conté la paraula CODI quan "
+"s'inicia l'aplicació."
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr "Android"
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr "La versió per a Android es distribueix a la Play Store."
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+"Donem suport a l'Android de 32 bits i 64 bits des de la Play Store. La "
+"versió adequada es baixa automàticament segons el vostre sistema operatiu "
+"Android."
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+"El GCompris també està disponible des de F-Droid, el repositori "
+"d'aplicacions Android de codi font obert i lliure."
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+"També podeu descarregar directament l'apk des del nostre lloc web per a "
+"instal·lar-la de forma manual al dispositiu."
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+"Per als dispositius que tenen l'Android 2.3 fins al 4.0, la darrera versió "
+"compatible és el <a href= \"https://gcompris.net/download/qt/android/"
+"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
+"0.81</a>."
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr "macOS"
+
+#: template/downloads.html:79
+msgid "You can get the macOS version from the link below."
+msgstr "Podeu obtenir la versió de macOS des del següent enllaç."
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr "Construïda i provada al macOS 10.13."
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+"Podeu comprovar si la vostra distribució proporciona un paquet per a la "
+"darrera versió del GCompris."
+
+#: template/downloads.html:98
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+"També proporcionem paquets independents per a GNU/Linux. Haurien de "
+"funcionar sobre qualsevol distribució recent."
+
+#: template/downloads.html:98
+msgid "System requirements:"
+msgstr "Requisits del sistema:"
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+"Per a utilitzar-los, obriu una terminal a la carpeta on vau baixar "
+"l'instal·lador i executeu aquestes ordres:"
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+"A continuació, llegiu la llicència o premeu «q» per a ometre-la, responeu sí "
+"a les preguntes i el programari s'instal·larà en una carpeta nova al costat "
+"de l'instal·lador."
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+"Finalment, per a llançar el «gcompris», aneu a la carpeta nova, dins de la "
+"carpeta «bin» i feu doble clic a «gcompris-qt.sh»."
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+"Nota: Si el vostre sistema no admet l'OpenGL 2 o si no funciona "
+"correctament, afegiu l'opció «--software-renderer» al final de l'última "
+"línia de l'script gcompris-qt.sh. Una altra manera és editant el fitxer de "
+"configuració (a ~/.config/gcompris-qt/gcompris-qt.conf): cerqueu la línia "
+"«renderer=auto», substituïu «auto» per «software» i deseu el fitxer."
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+"De manera alternativa, també podeu instal·lar el GCompris des de <a href="
+"\"https://flathub.org/apps/details/org.kde.gcompris\">Flathub</a> o des de "
+"la <a href=\"https://snapcraft.io/gcompris\">Snap store</a>."
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr "Proporcionem un paquet independent per a Raspberry Pi."
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr "Només s'ha provat a la Raspberry Pi 3."
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr "Codi font"
+
+#: template/downloads.html:150
+msgid "The source code is available under the AGPLv3 license."
+msgstr "El codi font està disponible d'acord amb la llicència AGPL versió 3."
+
+#: template/downloads.html:163
+msgid "SHA-256 and GPG"
+msgstr "SHA-256 i GPG"
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+"Per a verificar la integritat de les baixades, podeu obtenir el resum "
+"SHA-256 original dels fitxers afegint «.sha256» al final dels seus URL de "
+"baixada."
+
+# skip-rule: t-par_obe_tan
+#: template/downloads.html:168
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+"L'arxiu tar amb les fonts i els instal·ladors de Linux està signat amb la "
+"clau GPG d'en Timothée Giet (clau pública: "
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr "Fitxers de signatura:"
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "Programari educatiu GCompris"
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr "Baixa el GCompris"
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "Darreres notícies"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr "Fes clic o toca"
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr "Identificar els colors"
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr "Aprendre el rellotge"
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr "Entrenar amb el teclat"
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr "Aprendre les sumes"
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr "Descobrir el cicle de l'aigua"
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr "Jugar als escacs contra un amic"
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr "Fer clic en una lletra en minúscula"
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "Veure totes les captures de pantalla"
+
+#: template/index.html:153
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"El GCompris és una suite de programari educatiu d'alta qualitat, que inclou "
+"una gran quantitat d'activitats per a nens i nenes entre els 2 i els 10 anys."
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Algunes de les activitats estan orientades a joc, però sempre són educatives."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr "Aquí teniu la llista de categories d'activitats amb alguns exemples:"
+
+#: template/index.html:157
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr "descobrir l'ordinador: teclat, ratolí, pantalla tàctil..."
+
+#: template/index.html:158
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr "lectura: lletres, paraules, practicar la lectura, escriure text..."
+
+#: template/index.html:159
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr ""
+"aritmètica: números, operacions, memoritzar la taula, enumeració, taula de "
+"doble entrada..."
+
+#: template/index.html:160
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr "ciència: blocar el canal, el cicle de l'aigua, energia renovable..."
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr "geografia: països, regions, cultura..."
+
+#: template/index.html:162
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr "jocs: escacs, memòria, connecta 4, el penjat, tres en ratlla..."
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr "altres: colors, formes, Braille, aprendre a dir l'hora..."
+
+#: template/index.html:165
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"Actualment el GCompris ofereix més de 100 activitats, i encara se'n "
+"desenvolupen més. El GCompris és programari lliure, el qual vol dir que "
+"podeu adaptar-lo a les vostres pròpies necessitats, millorar-lo i, el més "
+"important, compartir-lo amb infants de tot arreu."
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+"El projecte GCompris està hostatjat i és desenvolupat per <a target=\"_blank"
+"\" rel=\"noopener\" href=\"https://www.kde.org/\">la comunitat KDE</a>."
+
+#: template/news.html:3 template/news.html:8 template/newsall.html:3
+#: template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Notícies"
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr "Totes les notícies"
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+"El GCompris és una eina d'aprenentatge que proporciona exercicis de "
+"capacitació dins i fora de l'aula. És un programari lliure distribuït "
+"d'acord amb la Llicència Pública General de GNU. És multiplataforma (GNU/"
+"Linux, Windows, Android, macOS) i pot executar-se en ordinadors de baix "
+"consum."
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+"El GCompris ha estat present durant més de vint anys en les escoles de tot "
+"el món i ofereix més de 150 activitats que cobreixen els principals dominis "
+"pedagògics, el qual inclou:"
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr "Aprendre a fer servir un ordinador"
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr ""
+"Practicar la lectura amb activitats per a aprendre lletres, paraules i "
+"conjunts de lèxic"
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr ""
+"Adquirir competència en matemàtiques practicant numeració, aritmètica, "
+"mesures i trencaclosques"
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr "Descobrir el món a través de la lògica, les arts i la música"
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr ""
+"Explorar la ciència i les humanitats a través de l'experimentació, la "
+"història i la geografia"
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr "Desenvolupar el pensament estratègic amb jocs de taula"
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+"El GCompris no requereix connexió a Internet, no recopila cap dada i, per "
+"tant, compleix estrictament amb el Reglament General de Protecció de Dades "
+"de la UE."
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+"El GCompris 1.0 permet als educadors seleccionar el nivell de les activitats "
+"d'acord amb l'habilitat de cada infant. Per exemple, en una activitat que "
+"permet als infants practicar nombres, es podrà seleccionar amb quins nombres "
+"poden treballar, deixant els nombres més alts i més difícils per a una etapa "
+"posterior. O en una activitat en la qual l'infant ha d'ordenar les imatges "
+"cronològicament, es podrà qualificar l'activitat per als que només poden "
+"llegir nombres o fer-la més difícil per als que poden llegir tant nombres "
+"com paraules."
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+"Aquesta funcionalitat de qualificació permet proposar exercicis de formació "
+"als alumnes perquè practiquin les matemàtiques, l'idioma, les ciències i les "
+"humanitats. També podran jugar a jocs d'estratègia per a entrenar les seves "
+"habilitats en la resolució de problemes."
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+"Per a proporcionar una formació pedagògica sòlida, els nivells de les "
+"activitats del GCompris s'han basat en el pla d'estudis de l'escola primària "
+"francesa, el qual defineix el que han d'ensenyar a classe els professors "
+"francesos."
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "Descripció:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "Prerequisits:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "Objectiu:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "Manual:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "Crèdits:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr "Seleccioneu una categoria"
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr "Totes"
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr "Ordinador"
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr "Descobriment"
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr "Ciències"
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr "Diversió"
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr "Matemàtiques"
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr "Trencaclosques"
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr "Lectura"
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr "Estratègia"

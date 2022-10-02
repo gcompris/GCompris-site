@@ -1,0 +1,424 @@
+# Translation of gcompris-net.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: gcompris-net\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-06-17 02:14+0200\n"
+"PO-Revision-Date: 2017-09-25 19:53+0200\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Generated-By: Babel 0.9.6\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#. news title
+msgctxt "20200214.html"
+msgid "GCompris is now Free to install everywhere"
+msgstr ""
+
+#. paragraph
+msgctxt "20200214.html"
+msgid ""
+"Hi,<br />\\nWe are pleased to announce that the full version of GCompris is "
+"now available at no cost for every supported platform!"
+msgstr ""
+
+#. paragraph
+msgctxt "20200214.html"
+msgid ""
+"The installers for Windows and macOS on our website have been updated to not "
+"require activation code anymore, and the full version on the Play store and "
+"Microsoft store are now gratis."
+msgstr ""
+
+#. paragraph
+msgctxt "20200214.html"
+msgid ""
+"We hope that this move will make it easier for all the children in the world "
+"to get access to the best educational software."
+msgstr ""
+
+#. paragraph
+msgctxt "20200214.html"
+msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgstr ""
+
+# >> @title:menu
+#: template/base.html:58 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "Преузимање"
+
+# >> @title:group
+#: template/base.html:59 template/donate.html:3 template/donate.html:12
+msgid "Donate"
+msgstr "Донирање"
+
+# >> @title:menu
+#: template/base.html:60
+msgid "Screenshots"
+msgstr "Снимци екрана"
+
+#: template/base.html:61
+#, fuzzy
+#| msgid "Manual:"
+msgid "Manual"
+msgstr "Упутство:"
+
+# >> @title:menu
+#: template/base.html:62
+msgid "Contribute"
+msgstr "Доприношење"
+
+#: template/donate.html:15
+#, fuzzy
+#| msgid ""
+#| "You, your children, your classroom love GCompris. You have now the "
+#| "opportunity to help this project."
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"Ви, ваша деца и ваше одељење воле Гкомприс. Сада имате могућност да "
+"помогнете пројекту."
+
+#: template/donate.html:16
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+
+#: template/donate.html:18
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+
+#: template/donate.html:20 template/downloads.html:10 template/index.html:187
+msgid "Become a Patron"
+msgstr ""
+
+#: template/donate.html:23
+#, fuzzy
+#| msgid ""
+#| "You can donate the amount of your choice by clicking on the button below:"
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr "Можете донирати износ по жељи кликом на дугме испод:"
+
+# >> @title:group
+#: template/donate.html:24
+#, fuzzy
+#| msgid "Donate"
+msgid "Donate to KDE"
+msgstr "Донирање"
+
+#: template/donate.html:26
+#, fuzzy
+#| msgid "Thanks for your support of free software in education."
+msgid "Thanks for supporting Free Software in education."
+msgstr "Хвала на подршци слободног софтвера у образовању."
+
+#: template/donate.html:29
+msgid "Patreon"
+msgstr ""
+
+#: template/donate.html:32
+#, fuzzy
+#| msgid "Thanks for your support of free software in education."
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Хвала на подршци слободног софтвера у образовању."
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr ""
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr ""
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr ""
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr ""
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr ""
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr ""
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+
+#: template/downloads.html:67
+msgid "macOS"
+msgstr ""
+
+#: template/downloads.html:71
+msgid "You can get the macOS version from the link below."
+msgstr ""
+
+#: template/downloads.html:72
+msgid "Built and tested on macOS 10.13."
+msgstr ""
+
+#: template/downloads.html:85
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/downloads.html:89
+msgid ""
+"We provide standalone packages for GNU/Linux. They should work on any recent "
+"distribution."
+msgstr ""
+
+#: template/downloads.html:89
+msgid "System requirements:"
+msgstr ""
+
+#: template/downloads.html:94 template/downloads.html:120
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+
+#: template/downloads.html:99 template/downloads.html:125
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+
+#: template/downloads.html:100 template/downloads.html:126
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+
+#: template/downloads.html:101
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+
+#: template/downloads.html:112
+msgid "Raspberry Pi"
+msgstr ""
+
+#: template/downloads.html:116
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr ""
+
+#: template/downloads.html:116
+msgid "This package is a beta version."
+msgstr ""
+
+#: template/downloads.html:116
+msgid "It was tested only on Raspberry Pi 3."
+msgstr ""
+
+#: template/downloads.html:136
+msgid "Source code"
+msgstr ""
+
+#: template/downloads.html:140
+msgid "The source code is available under the GPLv3 license."
+msgstr ""
+
+#: template/downloads.html:153
+msgid "MD5 and GPG"
+msgstr ""
+
+#: template/downloads.html:157
+#, python-format
+msgid ""
+"To check the integrity of your downloads, you can compare the md5sums with "
+"those in this file: <a href=\"http://gcompris.net/download/qt/md5sums-"
+"%(version)s.txt\">MD5SUMS</a>"
+msgstr ""
+
+#: template/downloads.html:158
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+
+#: template/downloads.html:160
+msgid "sig files:"
+msgstr ""
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "Гкомприс, образовни софтвер"
+
+# literal-string: version
+#: template/index.html:18 template/index.html:70
+#, python-format
+msgid "Version %(version)s"
+msgstr "Издање %(version)s"
+
+#: template/index.html:97 template/index.html:98
+msgid "Download GCompris"
+msgstr "Преузмите Гкомприс"
+
+#. other platform
+#: template/index.html:109
+msgid "All"
+msgstr "Све"
+
+#: template/index.html:183
+msgid "View all screenshots"
+msgstr "Погледајте све снимке екрана"
+
+#: template/index.html:193
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"Гкомприс је високо квалитетан образовни софтверски пакет, који укључује "
+"многобројне активности за децу узраста од 2 до 10 година."
+
+#: template/index.html:194
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Неке од активности усмерене су на игру, али су и поред тога образовног "
+"карактера."
+
+#: template/index.html:195
+msgid "Here is the list of activity categories with some examples:"
+msgstr "Ово је списак категорија активности, са примерима:"
+
+#: template/index.html:197
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr "Откривање рачунара: тастатура, миш, додирни екран..."
+
+#: template/index.html:198
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr "Читање: слова, речи, вежбање читања, куцање текста..."
+
+# skip-rule: t-table
+#: template/index.html:199
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr ""
+"Аритметика: бројеви, операције, меморисање таблица, набрајање, таблица "
+"двоструких уноса..."
+
+#: template/index.html:200
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr ""
+"Наука: каналске преводнице, кружење воде у природи, обновљива енергија..."
+
+#: template/index.html:201
+msgid "geography: countries, regions, culture ..."
+msgstr "Географија: државе, региони, култура..."
+
+# well-spelled: икс, окс
+#: template/index.html:202
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr "Игре: шах, меморија, ређање четворке, вешала, икс‑окс..."
+
+#: template/index.html:203
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr "Остало: боје, облици, Брајева азбука, читање времена..."
+
+#: template/index.html:205
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"Гкомприс тренутно нуди преко 100 активности, и још их се развија. Гкомприс "
+"је слободни софтвер, што значи да можете да га прилагодите својим потребама, "
+"побољшате га, и, што је најважније, поделите га деци било где."
+
+#: template/index.html:206
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+
+#: template/index.html:213
+msgid "Latest news"
+msgstr "Најновије вести"
+
+#: template/index.html:217
+msgid "All the news"
+msgstr "Све вести"
+
+#: template/screenshot.html:41
+msgid "Description:"
+msgstr "Опис:"
+
+#: template/screenshot.html:44
+msgid "Prerequisite:"
+msgstr "Захтеви:"
+
+#: template/screenshot.html:48
+msgid "Goal:"
+msgstr "Циљ:"
+
+#. activity handbook
+#: template/screenshot.html:52
+msgid "Manual:"
+msgstr "Упутство:"
+
+#. activity thanks to
+#: template/screenshot.html:56
+msgid "Credit:"
+msgstr "Заслуге:"

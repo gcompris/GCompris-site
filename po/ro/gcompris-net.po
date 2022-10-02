@@ -1,0 +1,1647 @@
+# Translations template for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# Horia PELLE <horricane@gmail.com>, 2017, 2018, 2019.
+# Timo <animtim@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"PO-Revision-Date: 2020-03-17 00:05+0100\n"
+"Last-Translator: Timo <animtim@gmail.com>\n"
+"Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Release GCompris 0.96"
+msgctxt "20220227.html"
+msgid "Release GCompris 2.3"
+msgstr "Versiunea GCompris 0.96"
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Today we are releasing GCompris version 2.3."
+msgstr ""
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
+"release."
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20181220.html"
+#| msgid ""
+#| "You can find packages of this new version for Linux and Windows on the "
+#| "download page. This update will also be available in a few days on the "
+#| "Android and Windows store. For Raspberry Pi, we'll provide an installer "
+#| "in the beginning of 2019. The updated versions for MacOS and iOS are "
+#| "still not available, we hope to be able to release those during next year."
+msgctxt "20220227.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Puteți găsi în pagina de descărcare pachetele de instalare ale acestei noi "
+"versiuni pentru Linux și Windows. De asemenea, această actualizare va fi de "
+"asemenea disponibilă în câteva zile pe Magazin Play și Windows Magazin. "
+"Pentru sisteme de calcul Raspberry Pi, vom furniza un program de instalare "
+"la începutul lui 2019. Versiunile actualizate pentru MacOS și iOS nu sunt "
+"încă disponibile, sperăm să reușim să le lansăm în decursul anului viitor."
+
+# paragraph
+#. paragraph
+#, fuzzy
+msgctxt "20220227.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Release GCompris 0.96"
+msgctxt "20220413.html"
+msgid "Release GCompris 2.4"
+msgstr "Versiunea GCompris 0.96"
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Today we are releasing GCompris version 2.4."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We optimized the size of all the packages for all platforms and of the "
+"external word images set (~30% smaller)."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"If you disabled the automatic download and want to have the full images set, "
+"you should go to the configuration and click on \\\"Download full word image "
+"set\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"The text \\\"Full word image set is installed\\\" is displayed below when "
+"you have the latest version."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
+"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
+"Aiswarya Kaitheri Kandoth."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Many images have been updated for several activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+"associations activities."
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20181220.html"
+#| msgid ""
+#| "You can find packages of this new version for Linux and Windows on the "
+#| "download page. This update will also be available in a few days on the "
+#| "Android and Windows store. For Raspberry Pi, we'll provide an installer "
+#| "in the beginning of 2019. The updated versions for MacOS and iOS are "
+#| "still not available, we hope to be able to release those during next year."
+msgctxt "20220413.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Puteți găsi în pagina de descărcare pachetele de instalare ale acestei noi "
+"versiuni pentru Linux și Windows. De asemenea, această actualizare va fi de "
+"asemenea disponibilă în câteva zile pe Magazin Play și Windows Magazin. "
+"Pentru sisteme de calcul Raspberry Pi, vom furniza un program de instalare "
+"la începutul lui 2019. Versiunile actualizate pentru MacOS și iOS nu sunt "
+"încă disponibile, sperăm să reușim să le lansăm în decursul anului viitor."
+
+# paragraph
+#. paragraph
+#, fuzzy
+msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
+
+#: gcompris.py:290
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+
+#: gcompris.py:291
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: gcompris.py:396
+msgid "For Christmas, offer GCompris to your children."
+msgstr ""
+
+#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "Descarcă"
+
+#: template/base.html:56 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "Donează"
+
+#: template/base.html:57 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "Capturi de ecran"
+
+#: template/base.html:58 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr ""
+
+#: template/base.html:59
+msgid "Manual"
+msgstr "Manual"
+
+#: template/base.html:60
+msgid "Contribute"
+msgstr "Contribuie"
+
+#: template/base.html:91
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr ""
+
+#: template/base.html:96
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr ""
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr ""
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr ""
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr ""
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr ""
+
+#: template/donate.html:13
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"Dumneavoastră, copiii dumneavoastră sau școala dumneavoastră iubesc "
+"GCompris. Puteți sprijini acest proiect cu o donație."
+
+#: template/donate.html:14
+#, fuzzy
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+"Dezvoltarea software este o activitate laborioasă ce necesită timp, hardware "
+"și alte lucruri care implică costuri."
+
+#: template/donate.html:16
+#, fuzzy
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+"Dacă doriți să sprijiniți dezvoltarea GCompris într-un mod sustenabil, vă "
+"rugăm să deveniți un patron al GCompris pe Patreon:"
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+#, fuzzy
+msgid "Become a Patron"
+msgstr "Devino un patron"
+
+#: template/donate.html:21
+#, fuzzy
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr "De asemenea, puteți dona o sumă la alegerea dvs. pentru KDE:"
+
+#: template/donate.html:22
+#, fuzzy
+msgid "Donate to KDE"
+msgstr "Donează la KDE"
+
+#: template/donate.html:24
+msgid "Thanks for supporting Free Software in education."
+msgstr ""
+"Vă mulțumim pentru sprijinirea produselor software educaționale gratuite."
+
+#: template/donate.html:27
+#, fuzzy
+msgid "Patreon"
+msgstr "Patreon"
+
+#: template/donate.html:30
+#, fuzzy
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Vă mulțumim tuturor acelora care sprijină GCompris pe Patreon!"
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr "Windows"
+
+#: template/downloads.html:20
+#, fuzzy
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+"Puteți instala GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">din Windows Magazin.</a>"
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr "Notă: Windows Store necesită Windows 10."
+
+#: template/downloads.html:23
+#, fuzzy
+msgid "Else, you can download the installer from the links below."
+msgstr ""
+"O altă variantă este să descărcați programul de instalare din linkurile de "
+"mai jos."
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr ""
+"Cerințe de sistem: Windows 7, 8, 8.1 sau 10, cu suport pentru OpenGL 2."
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+"Notă: dacă sistemul dvs. nu are suport pentru OpenGL 2, sau dacă acesta nu "
+"funcționează corect, vă rugăm să folosiți intrarea GCompris (Safe Mode) din "
+"meniul de start pentru a lansa GCompris în modul de randare software, care "
+"nu folosește OpenGL."
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+"Dacă chiar aveți nevoie de o versiune ce rulează pe Windows XP, sau dacă "
+"sistemul dvs. nu oferă suport pentru noua versiune, puteți folosi ultimul "
+"installer din vechiul GCompris Gtk v15.10."
+
+#: template/downloads.html:34
+#, fuzzy
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+"Pentru a activa toate activitățile în această versiune veche, puteți folosi "
+"codul 200202 în căsuța care conține cuvântul CODE, atunci când porniți "
+"aplicația."
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr "Android"
+
+#: template/downloads.html:48
+#, fuzzy
+msgid "The version for Android is distributed in the Play Store."
+msgstr "Versiunea pentru Android este distribuită în Magazin Google Play."
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+"Oferim suport pe Google Store atât pentru variantele de Android pe 32 de "
+"biți cât și pentru cele pe 64 de biți. Versiunea potrivită este descărcată "
+"automat, în funcție de sistemul dvs. de operare Android."
+
+#: template/downloads.html:54
+#, fuzzy
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+"Versiunea completă este de asemenea disponibilă pe F-Droid, registrul de "
+"aplicații Android gratuite și din sursă deschisă."
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr "macOS"
+
+#: template/downloads.html:79
+#, fuzzy
+msgid "You can get the macOS version from the link below."
+msgstr "Puteți obține versiunea MacOS din linkul de mai jos."
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr "Construit și testat pe macOS 10.13."
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+
+#: template/downloads.html:98
+#, fuzzy
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+"Furnizăm pachete de instalare de sine stătătoare pentru GNU/Linux. Ele ar "
+"trebui să funcționeze pe orice distribuție recentă de Linux."
+
+#: template/downloads.html:98
+#, fuzzy
+msgid "System requirements:"
+msgstr "Cerințe de sistem:"
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+"Pentru a le folosi, deschideți un terminal în directorul în care ați "
+"descărcat programul de instalare și rulați aceste comenzi:"
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+"Citiți apoi licența sau apăsați q pentru a sări peste acest pas, răspundeți "
+"cu da la înrebări, și pachetul software va fi instalat într-un nou director "
+"din interiorul locației pachetului de instalare."
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+"În final, pentru a lansa GCompris, intrați în noul director, în folderul "
+"bin, și faceți dublu clic pe gcompris-qt.sh."
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+"Observație: dacă sistemul dvs. nu are suport pentru OpenGL 2 sau acesta nu "
+"funcționează corect, vă rugăm să adăugați opțiunea \"--software-renderer\" "
+"la sfârșitul ultimei linii a scriptului gcompris-qt.sh. O altă metodă este "
+"să editați fișierul de configurare (în ~/.config/gcompris-qt/gcompris-qt."
+"conf): căutați linia renderer=auto, înlocuiți auto cu software și salvați "
+"fișierul."
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr "Furnizăm un pachet de instalare de sine stătător pentru Raspberry Pi."
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr "A fost testat doar pe Raspberry Pi 3."
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr "Codul sursă"
+
+#: template/downloads.html:150
+#, fuzzy
+#| msgid "The source code is available under the GPLv3 license."
+msgid "The source code is available under the AGPLv3 license."
+msgstr "Codul sursă este disponibil sub licența GPLv3."
+
+#: template/downloads.html:163
+#, fuzzy
+#| msgid "MD5 and GPG"
+msgid "SHA-256 and GPG"
+msgstr "MD5 și GPG"
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+
+#: template/downloads.html:168
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+"Arhiva de instalare sursă și pachetele de instalare Linux sunt semnate cu "
+"cheia GPG de la Timothée Giet (cheie publică: "
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr "fișiere sig:"
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "Suita de software educațional GCompris"
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr "Descarcă GCompris"
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "Ultimele noutăți"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr ""
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr ""
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr ""
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr ""
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr ""
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr ""
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr ""
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr ""
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "Vezi toate capturile de ecran"
+
+#: template/index.html:153
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"GCompris este o suită educațională software de înaltă calitate, constând în "
+"numeroase activități pentru copii între 2 și 10 ani."
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Unele activități sunt orientate spre joc, dar cu toate acestea au și valoare "
+"educațională."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr "Aici este o listă a categoriilor de activități, cu câteva exemple:"
+
+#: template/index.html:157
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr ""
+"descoperirea sistemului de calcul: tastatura, mausul, diversele gesturi de "
+"maus, glisarea și diversele gesturi de ecran tactil ..."
+
+#: template/index.html:158
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr ""
+"citirea:  litere, cuvinte, exersarea citirii, scrierea de la tastatură a "
+"unui text ..."
+
+#: template/index.html:159
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr ""
+"aritmetică: numerele, numărarea, operațiile matematice (inclusiv tabla "
+"adunării, scăderii, înmulțirii și împărțirii - interactiv), completarea "
+"liniilor și coloanelor unui tabel, imaginea în oglindă ..."
+
+#: template/index.html:160
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr ""
+"știință: ecluza, ciclul apei, energia regenerabilă, submarinul, "
+"electricitatea digitală ..."
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr "geografie: țări, regiuni, cultură ..."
+
+#: template/index.html:162
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr ""
+"jocuri: șah, moară, jocuri de memorie cu cărți de joc, spânzurătoare, X și "
+"0 ..."
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr ""
+"altele: culori, forme, Braille, învățarea ceasului clasic, a calendarului, a "
+"gradelor de rudenie ..."
+
+#: template/index.html:165
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"În prezent, GCompris oferă peste 100 de activități și dezvoltă permanent "
+"altele noi. GCompris este un software educațional gratuit, ceea ce înseamnă "
+"că îl puteți adapta la propriile dvs. necesități, îl puteți îmbunătăți și, "
+"cel mai important, îl puteți împărtăși cu copiii de pretutindeni."
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+"Proiectul GCompris este găzduit și dezvoltat de <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">comunitatea KDE</a>."
+
+#: template/news.html:3 template/news.html:8 template/newsall.html:3
+#: template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr ""
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr "Toate noutățile"
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr ""
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr ""
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr ""
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr ""
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr ""
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr ""
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "Descriere:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "Cerință prealabilă:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "Scop:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "Manual:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "Credit:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr ""
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr "Toate"
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr ""
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr ""
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr ""
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr ""
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr ""
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr ""
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr ""
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr ""
+
+#~ msgid "Version %(version)s"
+#~ msgstr "Versiunea %(version)s"
+
+# paragraph
+#, fuzzy
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
+#~ msgstr ""
+#~ "Bună,<br />\\nAvem plăcerea să vă anunțăm că versiunea integrală de "
+#~ "GCompris este acum disponibilă gratuit pe oricare din platformele "
+#~ "suportate!"
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20181220.html"
+#~| msgid ""
+#~| "You can find packages of this new version for Linux and Windows on the "
+#~| "download page. This update will also be available in a few days on the "
+#~| "Android and Windows store. For Raspberry Pi, we'll provide an installer "
+#~| "in the beginning of 2019. The updated versions for MacOS and iOS are "
+#~| "still not available, we hope to be able to release those during next "
+#~| "year."
+#~ msgctxt "20220224.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~ "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">download page</a>. This update will be available soon in the Android "
+#~ "Play store, the F-Droid repository and the Windows store. The package for "
+#~ "Raspberry Pi will also be available soon."
+#~ msgstr ""
+#~ "Puteți găsi în pagina de descărcare pachetele de instalare ale acestei "
+#~ "noi versiuni pentru Linux și Windows. De asemenea, această actualizare va "
+#~ "fi de asemenea disponibilă în câteva zile pe Magazin Play și Windows "
+#~ "Magazin. Pentru sisteme de calcul Raspberry Pi, vom furniza un program de "
+#~ "instalare la începutul lui 2019. Versiunile actualizate pentru MacOS și "
+#~ "iOS nu sunt încă disponibile, sperăm să reușim să le lansăm în decursul "
+#~ "anului viitor."
+
+# paragraph
+#, fuzzy
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#~ "2.1."
+#~ msgstr ""
+#~ "Bună,<br />\\nAvem plăcerea să vă anunțăm că versiunea integrală de "
+#~ "GCompris este acum disponibilă gratuit pe oricare din platformele "
+#~ "suportate!"
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20181220.html"
+#~| msgid ""
+#~| "You can find packages of this new version for Linux and Windows on the "
+#~| "download page. This update will also be available in a few days on the "
+#~| "Android and Windows store. For Raspberry Pi, we'll provide an installer "
+#~| "in the beginning of 2019. The updated versions for MacOS and iOS are "
+#~| "still not available, we hope to be able to release those during next "
+#~| "year."
+#~ msgctxt "20220121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~ "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">download page</a>. This update will be available soon in the Android "
+#~ "Play store, the F-Droid repository and the Windows store. The package for "
+#~ "Raspberry Pi will also be available soon."
+#~ msgstr ""
+#~ "Puteți găsi în pagina de descărcare pachetele de instalare ale acestei "
+#~ "noi versiuni pentru Linux și Windows. De asemenea, această actualizare va "
+#~ "fi de asemenea disponibilă în câteva zile pe Magazin Play și Windows "
+#~ "Magazin. Pentru sisteme de calcul Raspberry Pi, vom furniza un program de "
+#~ "instalare la începutul lui 2019. Versiunile actualizate pentru MacOS și "
+#~ "iOS nu sunt încă disponibile, sperăm să reușim să le lansăm în decursul "
+#~ "anului viitor."
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20181220.html"
+#~| msgid "This new version contains 7 new activities:"
+#~ msgctxt "20211217.html"
+#~ msgid "New activities:"
+#~ msgstr "Noua versiune conține 7 noi activități:"
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20190303.html"
+#~| msgid ""
+#~| "This means we have now 19 languages fully supported: British English, "
+#~| "Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese "
+#~| "Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, "
+#~| "Italian, Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian."
+#~ msgctxt "20211217.html"
+#~ msgid ""
+#~ "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
+#~ "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
+#~ "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
+#~ "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
+#~ "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
+#~ "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
+#~ "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
+#~ "(76%) and Russian (76%))."
+#~ msgstr ""
+#~ "Aceasta înseamnă că avem acum 19 limbi cu suport complet: bretona, "
+#~ "catalana, catalana valanciană, chineza tradițională, engleza britanică, "
+#~ "franceza, galiciana, greaca, indoneziana, italiana, maghiara, malaieza, "
+#~ "olandeza, poloneza, portugheza braziliană, româna, suedeza și ucrainiana."
+
+# paragraph
+#, fuzzy
+#~ msgctxt "20211217.html"
+#~ msgid "Thank you all, <br/>\\nTimothée & Johnny"
+#~ msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
+
+# news title
+#, fuzzy
+#~| msgctxt "20190303.html"
+#~| msgid "Release GCompris 0.96"
+#~ msgctxt "20210321.html"
+#~ msgid "Release GCompris 1.1"
+#~ msgstr "Versiunea GCompris 0.96"
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20190303.html"
+#~| msgid ""
+#~| "This means we have now 19 languages fully supported: British English, "
+#~| "Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese "
+#~| "Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, "
+#~| "Italian, Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian."
+#~ msgctxt "20210321.html"
+#~ msgid ""
+#~ "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
+#~ "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
+#~ "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
+#~ "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
+#~ "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
+#~ "Ukrainian."
+#~ msgstr ""
+#~ "Aceasta înseamnă că avem acum 19 limbi cu suport complet: bretona, "
+#~ "catalana, catalana valanciană, chineza tradițională, engleza britanică, "
+#~ "franceza, galiciana, greaca, indoneziana, italiana, maghiara, malaieza, "
+#~ "olandeza, poloneza, portugheza braziliană, româna, suedeza și ucrainiana."
+
+#, fuzzy
+#~| msgid ""
+#~| "To check the integrity of your downloads, you can compare the md5sums "
+#~| "with those in this file: <a href=\"http://gcompris.net/download/qt/"
+#~| "md5sums-%(version)s.txt\">MD5SUMS</a>"
+#~ msgid ""
+#~ "To check the integrity of your downloads, you can compare the md5sums "
+#~ "with those in this file: <a href=\"https://gcompris.net/download/qt/"
+#~ "md5sums-%(version)s.txt\">MD5SUMS</a>"
+#~ msgstr ""
+#~ "Pentru a verifica integritatea fișierelor descărcate de dvs., puteți "
+#~ "compara sumele MD5 ale acestora cu cele din acest fișier: <a href="
+#~ "\"https://gcompris.net/download/qt/md5sums-%(version)s.txt\">MD5SUMS</a>"
+
+#~ msgid "This package is a beta version."
+#~ msgstr "Acest pachet este o versiune beta."
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20181220.html"
+#~| msgid ""
+#~| "Another way to help is to write some posts in your community about "
+#~| "GCompris, and don't hesitate to give us feedbacks."
+#~ msgctxt "20201119.html"
+#~ msgid ""
+#~ "Another way to help is to write some posts in your community about "
+#~ "GCompris, and don't hesitate to give us some feedback."
+#~ msgstr ""
+#~ "Un alt mod de a ajuta este de a scrie câteva postări despre GCompris în "
+#~ "comunitatea ta, și de a ne furniza feedback-uri."
+
+#, fuzzy
+#~ msgctxt "20200214.html"
+#~ msgid "GCompris is now Free to install everywhere"
+#~ msgstr "GCompris se poate instala acum gratuit pe orice platformă"
+
+#, fuzzy
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "The installers for Windows and macOS on our website have been updated to "
+#~ "not require activation code anymore, and the full version on the Play "
+#~ "store and Microsoft store are now gratis."
+#~ msgstr ""
+#~ "Programele de instalare pentru Windows și MacOS de pe saitul nostru au "
+#~ "fost actualizate să nu mai ceară codul de activare, iar versiunile "
+#~ "integrale de pe Magazin Google Play și Magazin Microsoft sunt acum "
+#~ "gratuite."
+
+#, fuzzy
+#~ msgctxt "20200214.html"
+#~ msgid ""
+#~ "We hope that this move will make it easier for all the children in the "
+#~ "world to get access to the best educational software."
+#~ msgstr ""
+#~ "Sperăm ca această decizie să faciliteze accesul tuturor copiilor din lume "
+#~ "la cel mai bun software educațional."
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20190303.html"
+#~| msgid ""
+#~| "We still have 15 partially supported languages: Basque (78%), Belarusian "
+#~| "(68%), Chinese Simplified (69%), Estonian (62%), Finnish (90%), German "
+#~| "(84%), Hindi (76%), Irish Gaelic (82%), Norwegian Nynorsk (97%), Russian "
+#~| "(77%), Scottish Gaelic (70%), Slovak (62%), Slovenian (56%), Spanish "
+#~| "(93%), Turkish (73%)."
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "We also have 15 languages partially supported: Belarusian (65%), Catalan "
+#~ "(Valencian 95%), Chinese Simplified (66%), Estonian (93%), Finnish (86%), "
+#~ "German (96%),  Hindi (73%), Hungarian (95%), Indonesian (95%), Irish "
+#~ "Gaelic (78%), Norwegian Nynorsk (93%), Russian (76%), Scottish Gaelic "
+#~ "(67%), Slovenian (54%), Turkish (95%)."
+#~ msgstr ""
+#~ "Avem încă 15 limbi cu suport parțial: norvegiana nynorsk (97%), spaniola "
+#~ "(93%), finlandeza (90%), germana (84%), galeza irlandeză (82%), basca "
+#~ "(78%), rusa (77%), hindi (76%), turca (73%), galeza scoțiană (70%), "
+#~ "chineza simplificată (69%), belarusa (68%), estoniana (62%), slovaca "
+#~ "(62%), slovena (56%)."
+
+# paragraph
+#, fuzzy
+#~| msgctxt "20181220.html"
+#~| msgid ""
+#~| "Usually we only ship translations that are at least 80% complete. "
+#~| "However for this release, several translations dropped below 80%. We "
+#~| "decided to keep them exceptionally for this release, and hope to see "
+#~| "former or new translators complete those translations. If we get updates "
+#~| "or new translations, we will make a release update for those.\\n<br/>"
+#~| "\\nSo if your language is in the partially supported list, or is not yet "
+#~| "supported at all, and you want to help, please contact us and we will "
+#~| "give you instructions to get started translating."
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "Usually we only ship translations that are at least 80% complete. However "
+#~ "several translations dropped way below 80% (especially Slovenian, "
+#~ "Belarusian and Scottish Gaelic ; but also Hindi, Russian and Irish "
+#~ "Gaelic). We decided to keep those exceptionally for this release, and "
+#~ "hope to see former or new translators complete those translations. If we "
+#~ "get updates or new translations, we will make a release update."
+#~ msgstr ""
+#~ "De obicei, oferim posibilitatea descărcării pachetelor de limbă doar "
+#~ "pentru traducerile complete măcar în proporție de 80%. Am observat însă "
+#~ "la această versiune că unele traduceri au scăzut sub respectivul procent. "
+#~ "Ca urmare, am decis în mod excepțional ca pentru această versiune să "
+#~ "menținem și aceste traduceri, sperând ca foștii sau viitorii traducători "
+#~ "să le completeze ulterior. Dacă vom primi traduceri actualizate sau "
+#~ "traduceri noi, vom actualiza această versiune cu respectivele traduceri."
+#~ "\\n<br/>\\nDeci, dacă limba ta apare doar în lista limbilor care oferă "
+#~ "suport parțial, sau nu figurează deloc, și dorești să ajuți, te rugăm să "
+#~ "ne contactezi și îți vom da instrucțiuni cum să începi să traduci."
+
+#, fuzzy
+#~| msgid "Notes:"
+#~ msgctxt "20191201.html"
+#~ msgid "Notes:"
+#~ msgstr "Note:"
+
+# list item
+#, fuzzy
+#~| msgctxt "20181220.html"
+#~| msgid ""
+#~| "For the Malayalam language, we noticed some issues with the default font "
+#~| "\\\"Andika-R\\\". We recommend Malayalam users to select the font Noto-"
+#~| "Sans-Malayalam from the application menu (if it is not available in the "
+#~| "list you need to install this font on your system to be able to select "
+#~| "it).\\n"
+#~ msgctxt "20191201.html"
+#~ msgid ""
+#~ "For the Malayalam language, we noticed some issues with the default font "
+#~ "\\\"Andika-R\\\". We recommend Malayalam users to select the font Noto-"
+#~ "Sans-Malayalam or RaghuMalaylamSans from the application menu (if it is "
+#~ "not available in the list you need to install this font on your system to "
+#~ "be able to select it).\\n"
+#~ msgstr ""
+#~ "Pentru limba malaieză, am observat câteva probleme cu fontul implicit \\"
+#~ "\"Andika-R\\\". Le recomandăm utilizatorilor de malaieză să selecteze "
+#~ "fontul Noto-Sans-Malayalam din meniul aplicației (dacă nu este disponibil "
+#~ "în listă, va trebui să instalezi acest font pe sistemul tău de operare, "
+#~ "petru a-l putea selecta).\\n"
+
+#~ msgid "Buy / Donate"
+#~ msgstr "Cumpără / Donează"
+
+#~ msgid "Buying the full version"
+#~ msgstr "Cumpărarea versiunii complete"
+
+#~ msgid ""
+#~ "On proprietary operating systems (Windows/Mac/Android...), the full "
+#~ "version of GCompris has a cost."
+#~ msgstr ""
+#~ "Pe sistemele de operare proprietare (Windows/Mac/Android...), versiunea "
+#~ "completă GCompris are un cost."
+
+#~ msgid ""
+#~ "We provide a free demo with a limited number of activities, "
+#~ "%(demo_activities)s on the %(total_activities)s available."
+#~ msgstr ""
+#~ "Oferim gratuit o versiune demo, cu un număr limitat de activități, "
+#~ "%(demo_activities)s din %(total_activities)s disponibile."
+
+#~ msgid "Follow the instructions below to buy the full version."
+#~ msgstr ""
+#~ "Urmați instrucțiunile de mai jos pentru a cumpăra versiunea completă."
+
+#~ msgid ""
+#~ "For Windows and macOS, you can get the demo from the <a href=downloads-"
+#~ "%(locale)s.html>download page</a>, and buy here the activation code to "
+#~ "unlock the full version. The cost is 9€."
+#~ msgstr ""
+#~ "Pentru Windows și MacOS, puteți lua versiunea demo din <a href=downloads-"
+#~ "%(locale)s.html>pagina de descărcare</a>, și să cumpărați aici codul de "
+#~ "activare, pentru a debloca versiunea completă. Costul este de 9€."
+
+#~ msgid ""
+#~ "After the payment you will immediately receive an email with instructions "
+#~ "(check your spam folder). If you do not receive this email please contact "
+#~ "us at sales@gcompris.net."
+#~ msgstr ""
+#~ "După efectuarea plății, veți primi imediat un e-mail cu instrucțiuni "
+#~ "(verificați și în dosarul de spam). Dacă nu primiți acest e-mail, vă "
+#~ "rugăm să ne contactați la adresa sales@gcompris.net"
+
+#~ msgid ""
+#~ "This registration gives you the right to update to any new release of "
+#~ "GCompris for 2 years. After that period, you can continue to use the "
+#~ "latest release you got for as long as you wish."
+#~ msgstr ""
+#~ "Licența vă dă dreptul să actualizați GCompris timp de doi ani, la orice "
+#~ "nouă versiune. După această perioadă, puteți continua să folosiți acea "
+#~ "ultimă versiune cât timp doriți dvs."
+
+#~ msgid "Notes:"
+#~ msgstr "Note:"
+
+#~ msgid "You can use this code on several computers."
+#~ msgstr "Puteți folosi acest cod pe mai multe calculatoare."
+
+#~ msgid ""
+#~ "Schools and other institutions can buy a site activation key to support "
+#~ "the project."
+#~ msgstr ""
+#~ "Școlile și alte instituții pot cumpăra o cheie de activare de site pentru "
+#~ "a sprijini proiectul."
+
+#~ msgid ""
+#~ "Please contact us at <a href=\"mailto:sales@gcompris.net?subject=GCompris "
+#~ "- Quote for school\">sales@gcompris.net</a> to request a quote."
+#~ msgstr ""
+#~ "Vă rugăm să ne contactați la <a href=\"mailto:sales@gcompris.net?"
+#~ "subject=GCompris - Quote for school\">sales@gcompris.net</a> pentru a "
+#~ "solicita o cotă."
+
+#~ msgid ""
+#~ "Alternatively, you can also buy the full version of GCompris directly <a "
+#~ "href=\"https://www.microsoft.com/en-us/store/p/gcompris/9pgxjtcxn8qm"
+#~ "\">from the Windows Store.</a>"
+#~ msgstr ""
+#~ "Alternativ, puteți de asemenea cumpăra varianta completă de GCompris "
+#~ "direct <a href=\"https://www.microsoft.com/en-us/store/p/"
+#~ "gcompris/9pgxjtcxn8qm\">din Windows Magazin.</a>"
+
+#~ msgid "However, the Windows Store requires Windows 10."
+#~ msgstr "Cu toate acestea, Windows Store necesită Windows 10."
+
+#~ msgid ""
+#~ "For Android, the recommended way is to directly buy the full version <a "
+#~ "href=\"https://play.google.com/store/apps/details?id=net.gcompris.full"
+#~ "\">from Google Play store</a>."
+#~ msgstr ""
+#~ "Pentru Android, modalitatea recomandată este de a cumpăra versiunea "
+#~ "completă direct <a href=\"https://play.google.com/store/apps/details?"
+#~ "id=net.gcompris.full\">de pe Google Play Magazin</a>."
+
+#~ msgid ""
+#~ "You can also install <a href=\"https://play.google.com/store/apps/details?"
+#~ "id=net.gcompris\">the demo</a> available in the store, and use the in-app "
+#~ "purchase button to unlock the full version from it. Note however that "
+#~ "this second method doesn't allow to use the Google Play Family Library to "
+#~ "share it with your family. Also, a few users reported issues to unlock "
+#~ "the demo."
+#~ msgstr ""
+#~ "Puteți de asemenea instala <a href=\"https://play.google.com/store/apps/"
+#~ "details?id=net.gcompris\">versiunea demo</a> disponibilă în Google Play "
+#~ "Magazin, și să folosiți butonul de cumpărare în aplicație pentru a "
+#~ "debloca versiunea completă. Luați aminte totuși că această a doua metodă "
+#~ "nu permite folosirea Bibliotecii de Familie Google Play, pentru a partaja "
+#~ "aplicația cu membrii familiei dumneavoastră. De asemenea, câțiva "
+#~ "utilizatori au raportat probleme cu deblocarea versiunii demo."
+
+#~ msgid ""
+#~ "For users of Free-Software operating systems, the full version is always "
+#~ "free.<br/>\n"
+#~ "          This means that for GNU/Linux, the installer we provide and the "
+#~ "distribution packages have the full version. There is no need for any "
+#~ "activation code."
+#~ msgstr ""
+#~ "Pentru utilizatorii sistemelor de operare tip software gratuit, versiunea "
+#~ "completă este întotdeauna gratuită.<br/>\n"
+#~ "          Aceasta înseamnă că pentru GNU/Linux, programul de instalare "
+#~ "pus la dispoziție de noi și pachetele de distribuție conțin versiunea "
+#~ "completă, nefiind necesar vreun cod de activare."
+
+#~ msgid "However, you can still support us with a donation, see below."
+#~ msgstr ""
+#~ "Totuși, ne puteți sprijini cu o donație, după cum puteți vedea mai jos."
+
+#~ msgid "Legal reference: Company"
+#~ msgstr "Referință legală: Compania"
+
+#~ msgid ""
+#~ "Developing software takes a lot of time, it needs hardware, and other "
+#~ "requirements that have a cost. Currently all sales and donations are used "
+#~ "to support one of the main contributors, a professional graphic artist "
+#~ "and developer who is now in charge of the graphics and co-maintaining the "
+#~ "application."
+#~ msgstr ""
+#~ "Dezvoltarea software necesită mult timp, hardware și alte cerințe, care "
+#~ "toate costă. În prezent, toate vânzările și donațiile sunt folosite "
+#~ "pentru a sprijini unul din principalii contributori, un artist grafic și "
+#~ "dezvoltator profesionist, responsabil acum de grafică și de co-menținerea "
+#~ "aplicației."
+
+#~ msgid ""
+#~ "Else, you can get the demo from the links below, and <a href=\"buy-"
+#~ "%(locale)s.html\">buy on our website</a> the activation code to unlock "
+#~ "the full version."
+#~ msgstr ""
+#~ "Sau, puteți lua versiunea demo de pe linkul de mai jos, și să <a href="
+#~ "\"buy-%(locale)s.html\">cumpărați pe site la noi</a> codul de activare, "
+#~ "pentru a debloca versiunea completă."
+
+#~ msgid ""
+#~ "Note: It is recommended to buy directly the full version from the store, "
+#~ "not from the button in the demo. This way, you can share it with 5 family "
+#~ "members using the Google Play Family Library. Also, a few users reported "
+#~ "issues to unlock the demo."
+#~ msgstr ""
+#~ "Notă: se recomandă să cumpărați direct versiunea completă din Google Play "
+#~ "Magazin, nu prin folosirea butonului din versiunea demo. În acest fel, "
+#~ "puteți partaja aplicația cu 5 membri de familie, folosind Biblioteca "
+#~ "Google Play de Familie. De asemenea, câțiva utilizatori au raportat "
+#~ "probleme cu deblocarea versiunii demo."
+
+#~ msgid ""
+#~ "If you use this version, please consider <a href=\"buy%(suffix)s."
+#~ "html#donation\">making a donation</a> to support GCompris."
+#~ msgstr ""
+#~ "Dacă folosiți această versiune, vă rugăm să luați în considerare <a href="
+#~ "\"buy%(suffix)s.html#donation\">ideea unei donații</a> pentru a susține "
+#~ "proiectul GCompris."
+
+#~ msgid ""
+#~ "You can get the demo from the link below, and <a href=\"buy-%(locale)s."
+#~ "html\">buy on our website</a> the activation code to unlock the full "
+#~ "version."
+#~ msgstr ""
+#~ "Sau, puteți lua versiunea demo de pe linkul de mai jos, și să <a href="
+#~ "\"buy-%(locale)s.html\">cumpărați pe site la noi</a> codul de activare, "
+#~ "pentru a  debloca versiunea completă."
+
+#~ msgid "Buying the Windows or MacOSX version"
+#~ msgstr "Cumpărarea versiunii pentru Windows sau MacOSX"
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "This new version includes updated translation for several languages, and "
+#~ "a few bug fixes."
+#~ msgstr ""
+#~ "Această nouă versiune aduce ca noutăți traducerea actualizată pentru mai "
+#~ "multe limbi și câteva corecții ale unor erori de programare."
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid "Translations that received a big update:"
+#~ msgstr "Traduceri care au primit o actualizare semnificativă:"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid "Brazilian Portuguese (100%)"
+#~ msgstr "Portugheza braziliană (100%)"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid "Breton (100%)"
+#~ msgstr "Bretonă (100%)"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid "Finnish (90%)"
+#~ msgstr "Finlandeză (100%)"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid "Indonesian (100%)"
+#~ msgstr "Indoneziană (100%)"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid "Norwegian Nynorsk (97%)"
+#~ msgstr "Norvegiană Nynorsk (97%)"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid "Polish (100%)"
+#~ msgstr "Poloneză (100%)"
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "We decided again for this release to keep the translations that dropped "
+#~ "below 80%. It would be sad to have to disable 10 languages from the "
+#~ "application, but if no one updates the following translations, they will "
+#~ "be disabled in next release: Basque, Belarusian, Chinese Simplified, "
+#~ "Estonian, Hindi, Russian, Scottish Gaelic, Slovak, Slovenian and Turkish."
+#~ msgstr ""
+#~ "Am decis din nou pentru această versiune să păstrăm și traducerile care "
+#~ "au scăzut sub pragul de 80%. Ar fi trist să trebuiască să dezactivăm 10 "
+#~ "limbi din aplicație, dar dacă nimeni nu actualizează următoarele "
+#~ "traduceri, acestea vor fi dezactivate în următoarea versiune: basca, "
+#~ "belarusa, chineza simplificată, estoniana, hindi, rusa, galeza scoțiană, "
+#~ "slovaca, slovena și turca."
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "For the windows version, we added a new entry in the start menu called "
+#~ "GCompris (Safe Mode) to launch it with software rendering mode. This was "
+#~ "needed as the auto-detection of OpenGL support was not reliable. Now, "
+#~ "users can easily choose between OpenGL and software rendering without "
+#~ "changing the configuration file."
+#~ msgstr ""
+#~ "Pentru versiunea Windows, am adăugat o nouă intrare în meniul de start, "
+#~ "numită GCompris (Safe Mode), pentru lansarea programului în modul de "
+#~ "randare software. Acest lucru era necesar, deoarece autodetecția "
+#~ "suportului pentru OpenGL nu funcționa precis. Acum, utilizatorii pot "
+#~ "alege cu ușurință între OpenGL și randarea software, fără a trebui să "
+#~ "modifice fișierul de configurare."
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid "Known issues:"
+#~ msgstr "Probleme cunoscute:"
+
+# list item
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "The progress bar for downloads doesn't work anymore. This is a side "
+#~ "effect from our switch to https for hosting the files. We are looking to "
+#~ "improve this for next release.\\n"
+#~ msgstr ""
+#~ "Bara de progres pentru descărcări nu mai funcționează. Acesta este un "
+#~ "efect colateral al trecerii noastre de la http la https în găzduirea "
+#~ "fișierelor. Plănuim să rezolvăm această problemă în următoarea versiune."
+#~ "\\n"
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "As a side note dedicated to GNU/Linux distribution packagers, this new "
+#~ "version now requires OpenSSL to be able to download voices and additional "
+#~ "images."
+#~ msgstr ""
+#~ "Ca o notă dedicată celor care fac pachete pentru distribuțiile GNU/Linux, "
+#~ "această nouă versiune necesită acum OpenSSL pentru a putea descărca "
+#~ "vocile și imaginile adiționale."
+
+# paragraph
+#~ msgctxt "20190303.html"
+#~ msgid ""
+#~ "As usual you can download this new version from our <a href=\\\"https://"
+#~ "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. It will "
+#~ "also be available soon on the Android and Windows store."
+#~ msgstr ""
+#~ "Ca de obicei, puteți descărca această nouă versiune din <a href=\\"
+#~ "\"https://gcompris.net/downloads{{ suffix }}.html\\\">pagina noastră de "
+#~ "descărcare</a>. Ea va fi în curând disponibilă și în magazinul Android și "
+#~ "Windows."
+
+# news title
+#~ msgctxt "20190122.html"
+#~ msgid "GCompris is back on Mac OSX"
+#~ msgstr "GCompris se reîntoarce pe Mac OSX"
+
+# paragraph
+#~ msgctxt "20190122.html"
+#~ msgid ""
+#~ "Hi,<br />\\nGood news for Mac users: we finally have a new version of "
+#~ "GCompris for OSX !"
+#~ msgstr ""
+#~ "Bună,<br />\\nVești bune pentru utilizatorii de Mac: în sfârșit, avem o "
+#~ "nouă versiune de GCompris pentru OSX !"
+
+# paragraph
+#~ msgctxt "20190122.html"
+#~ msgid ""
+#~ "The last version of GCompris for OSX was 0.52 from 3 years ago. Since "
+#~ "then, no one in the team could update it because of the lack of hardware. "
+#~ "Thanks to Boudewijn from the Krita Foundation, we have now a little mac "
+#~ "mini, old but good enough to build our packages. It took me several days "
+#~ "of dedicated work to learn this new platform and update the build system "
+#~ "to produce a distributable package."
+#~ msgstr ""
+#~ "Ultima versiune de GCompris pentru OSX era versiunea 0.52 de acum trei "
+#~ "ani. De atunci, nimeni din echipă nu a putut-o actualiza, din cauza "
+#~ "lipsei de hardware Mac. Mulțumită lui Boudewijn de la fundația Krita, "
+#~ "avem acum un mic mac mini, vechi, dar suficient de bun pentru a ne putea "
+#~ "construi pachetele. Mi-a luat câteva zile de muncă dedicată învățarea "
+#~ "aceastei noi platforme și actualizarea sistemului de construcție, pentru "
+#~ "a putea produce în final un pachet de distribuție."
+
+# paragraph
+#~ msgctxt "20190122.html"
+#~ msgid ""
+#~ "This package was built and tested on OSX 10.13. If you can try it on a "
+#~ "different OSX version, please let us know if it works."
+#~ msgstr ""
+#~ "Acest pachet a fost construit și testat pe OSX 10.13. Dacă îl puteți "
+#~ "încerca pe o versiune OSX diferită, vă rugăm să ne anunțați dacă merge."
+
+# paragraph
+#~ msgctxt "20190122.html"
+#~ msgid ""
+#~ "The .dmg installer is available <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}#osx.html\\\">on the download page</a>."
+#~ msgstr ""
+#~ "Instalatorul .dmg este disponibil <a href=\\\"https://gcompris.net/ "
+#~ "downloads{{ suffix }}#osx.html\\\">în pagina de descărcare</a>."
+
+# paragraph
+#~ msgctxt "20190122.html"
+#~ msgid ""
+#~ "This time we decided to stop distributing it from the app-store. About "
+#~ "the iOS version, it will take some more time before I can look at it, and "
+#~ "we still don't have any device to test.\\n"
+#~ msgstr ""
+#~ "De această dată, am decis să încetăm să-l distribuim din app-store. "
+#~ "Referitor la versiunea iOS, îmi va lua mai mult timp înainte de a putea "
+#~ "studia problema, și încă nu avem niciun dispozitiv de testare.\\n"
+
+# paragraph
+#~ msgctxt "20190122.html"
+#~ msgid ""
+#~ "Notes: this package is based on GCompris version 0.95. It is built with "
+#~ "the latest version of Qt (5.12.0) which introduced some regressions. We "
+#~ "fixed all of those issues, but some of those fixes are only in the "
+#~ "development version for now. A few activities are broken (checkers, "
+#~ "braille, braille_alphabet, algorithm), but we will make a new release "
+#~ "next month that will also address those little issues. \\n"
+#~ msgstr ""
+#~ "Observații: acest pachet se bazează pe GCompris versiunea 0.95. Este "
+#~ "construit cu ultima versiune de Qt (5.12.0), care a introdus niște "
+#~ "regresii. Am reparat toate problemele respective, dar unele din aceste "
+#~ "reparații se regăsesc deocamdată doar în versiunea de dezvoltare. Câteva "
+#~ "activități nu merg (checkers, braille, braille_alphabet, algorithm), dar "
+#~ "vom scoate o nouă versiune luna viitoare, în care vom rezolva și aceste "
+#~ "mici probleme.\\n"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Binary bulbs: to learn how to count in binary"
+#~ msgstr "Beculețe binare: învățarea sistemului numeric binar"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Railroad activity: to train visual memory"
+#~ msgstr "Calea ferată: activitate pentru antrenarea memoriei vizuale"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Solar System: to learn about our solar system"
+#~ msgstr "Sistemul Solar: pentru a învăța despre sistemul nostru solar"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Name that Note: to learn to recognize musical notes and their names"
+#~ msgstr ""
+#~ "Recunoaște nota muzicală: pentru învățarea notelor muzicale și a numelor "
+#~ "acestora"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Play Piano: to train reading notes on a score"
+#~ msgstr "Cântă la pian: pentru a exersa citirea notelor de pe un portativ"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Play Rhythm: to train following a musical rhythm"
+#~ msgstr "Redă ritmul: antrenarea ascultării și reproducerii unui ritm"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid "Piano Composition: to learn composition of a musical score"
+#~ msgstr ""
+#~ "Compoziție la pian: învățarea compoziției muzicale scrise, pe un portativ"
+
+#~ msgctxt "20181220.html"
+#~ msgid "Notes:"
+#~ msgstr "Note:"
+
+# list item
+#~ msgctxt "20181220.html"
+#~ msgid ""
+#~ "On Linux and Windows, we used to have two separate installers for OpenGL "
+#~ "and software rendering. Now both rendering modes are available from the "
+#~ "same installer. By default we try to use the OpenGL rendering, and if not "
+#~ "working, we show an error and switch to the software rendering. This "
+#~ "automatic switch is new and may not work everywhere. In case it doesn't, "
+#~ "you can manually select the software rendering mode by editing the "
+#~ "configuration file (in ~/.config/gcompris/gcompris-qt.conf for Linux, "
+#~ "%LocalAppData%/gcompris/GCompris.conf for Windows): find the line \\"
+#~ "\"renderer=auto\\\", replace auto with software and save the file. We are "
+#~ "also interested to get some feedback to help us improve this auto-"
+#~ "detection.\\n"
+#~ msgstr ""
+#~ "Pe Linux și pe Windows obișnuiam să avem două programe de instalare "
+#~ "separate, pentru OpenGL și pentru randarea software. Acum, ambele moduri "
+#~ "de randare sunt disponibile dintr-un singur program de instalare. Ca "
+#~ "opțiune implicită, încercăm să folosim randarea OpenGL, iar dacă aceasta "
+#~ "nu funcționează, este afișat un mesaj de eroare și se comută automat la "
+#~ "randarea software. Această comutare automată este nouă, și s-ar putea să "
+#~ "nu funcționeze în toate cazurile. În acest caz, puteți selecta manual "
+#~ "modul de randare software prin editarea fișierului de configurare (în ~/."
+#~ "config/gcompris/gcompris-qt.conf pentru Linux, respectiv %LocalAppData%/"
+#~ "gcompris/GCompris.conf pentru Windows): căutați linia \\\"renderer=auto\\"
+#~ "\", înlocuiți auto cu software și salvați fișierul. Am vrea să știm cum "
+#~ "funcționează practic această autodetecție, deci orice feedback al dvs. în "
+#~ "această privință este mai mult decât binevenit.\\n"
+
+#~ msgid ""
+#~ "For MacOSX, the current version is not available anymore, we are working "
+#~ "to bring it back soon. It will use the same code as the Windows version."
+#~ msgstr ""
+#~ "Pentru MacOS X, versiunea curentă nu mai este disponibilă, lucrăm pentru "
+#~ "a o pune cât mai repede la dispoziție. Ea va folosi același cod ca "
+#~ "versiunea pentru Windows."
+
+# news text
+#~ msgctxt "20180516.html"
+#~ msgid ""
+#~ "\\n<img src='news/images/gcompris360.png'\\n     alt='gcompris "
+#~ "banner'\\n     style='float: right; width: 360px; padding-left: 10px; "
+#~ "cursor: pointer;'\\n     onclick=\\\"window.open('news/images/gcompris360."
+#~ "png')\\\"/>\\n\\n     \\n<p>Hi,<br />\\nHere is GCompris 0.91, a new "
+#~ "bugfix release to correct some issues in previous version and improve a "
+#~ "few things.</p>\\n\\n<p>Every GNU/Linux distribution shipping 0.90 should "
+#~ "update to 0.91.</p>\\n\\n<p>With 68 commits since last release, the full "
+#~ "changelog is too long for this post.\\nBut here is a list to summarize "
+#~ "the changes.</p>\\n\\n<p>Activities:</p>\\n<li class=\\\"puce\\\">fix "
+#~ "English text in several activities</li>\\n<li class=\\\"puce\\\">fix "
+#~ "score position in several activities</li>\\n<li class=\\\"puce\\\">block "
+#~ "some buttons and interactions when needed in several places</li>\\n<li "
+#~ "class=\\\"puce\\\">lots of fixes for audio in several activities</li>"
+#~ "\\n<li class=\\\"puce\\\">number_sequence (and others based on it), fix "
+#~ "base layout</li>\\n<li class=\\\"puce\\\">update dataset for "
+#~ "clickanddraw, drawnumbers and drawletters</li>\\n<li class=\\\"puce\\"
+#~ "\">crane, add localized dataset</li>\\n<li class=\\\"puce\\\">lightsoff, "
+#~ "add keyboard support and other fixes</li>\\n<li class=\\\"puce\\"
+#~ "\">algorithm, add keyboard support and other fixes</li>\\n<li class=\\"
+#~ "\"puce\\\">money, fixes for locale currency used</li>\\n<li class=\\\"puce"
+#~ "\\\">ballcatch, improve audio feedback</li>\\n<li class=\\\"puce\\"
+#~ "\">calendar, several little fixes</li>\\n<li class=\\\"puce\\\">memory-"
+#~ "case-association fix icons size</li>\\n<br/>\\n<p>Other changes:</p>"
+#~ "\\n<li class=\\\"puce\\\">re-enable sound effects on linux</li>\\n<li "
+#~ "class=\\\"puce\\\">improved playback of sound effects, no more delay</li>"
+#~ "\\n<li class=\\\"puce\\\">add captions to images and OARS tags in the "
+#~ "appdata</li>\\n<li class=\\\"puce\\\">add Scottish Gaelic to core, and "
+#~ "update some datasets for it</li>\\n<li class=\\\"puce\\\">main bar, fix "
+#~ "some items size</li>\\n<li class=\\\"puce\\\">remove unused images</li>\\n"
+#~ "\\n\\n<br/>\\n\\n<p>You can find this new version <a href=\\\"https://"
+#~ "gcompris.net/downloads-en.html\\\">on the download page</a>, and soon in "
+#~ "the Play store and Windows store.</p>\\n\\n<p>On the translation side, we "
+#~ "have 16 languages fully supported: \\nBritish English, \\nCatalan, "
+#~ "\\nCatalan (Valencian), \\nChinese Traditional, \\nDutch, \\nFrench, "
+#~ "\\nGreek, \\nIndonesian, \\nIrish Gaelic, \\nItalian, \\nPolish, "
+#~ "\\nPortuguese, \\nRomanian, \\nSpanish, \\nSwedish, \\nUkrainian. \\n<br /"
+#~ ">\\nWe also have 15 languages partially supported: \\n\\nNorwegian "
+#~ "Nynorsk (97%), \\nHindi (96%), \\nTurkish (90%), \\nScottish Gaelic "
+#~ "(86%), \\nGalician (86%), \\nBrazilian Portuguese (84%), \\nBelarusian "
+#~ "(84%), \\nGerman (81%), \\nChinese Simplified (79%), \\nRussian (78%), "
+#~ "\\nEstonian (77%), \\nSlovak (76%), \\nFinnish (76%), \\nSlovenian (69%), "
+#~ "\\nBreton (65%).</p>\\n\\n<p>If you want to help completing one of these "
+#~ "translations or adding a new one, please contact us.</p>\\n\\n<p>Else you "
+#~ "can still help by making some posts in your community about GCompris and "
+#~ "don't hesitate to give feedbacks.</p>\\n\\n<p>Thank you all, <br/>"
+#~ "\\nTimothée & Johnny </p>\\n\\n\\n"
+#~ msgstr ""
+#~ "\\n<img src='news/images/gcompris360.png'\\n     alt='gcompris "
+#~ "banner'\\n     style='float: right; width: 360px; padding-left: 10px; "
+#~ "cursor: pointer;'\\n     onclick=\\\"window.open('news/images/gcompris360."
+#~ "png')\\\"/>\\n\\n     \\n<p>Bună,<br />\\nAvem aici GCompris 0.91, o nouă "
+#~ "versiune pentru corectarea câtorva erori punctuale din versiunea "
+#~ "precedentă și îmbunătățirea altor câteva lucruri.</p>\\n\\n<p>Fiecare "
+#~ "distribuție GNU/Linux care furnizează versiunea 0.90 ar trebui să o "
+#~ "actualizeze la versiunea 0.91.</p>\\n\\n<p>Cu 68 de noi modificări față "
+#~ "de precedenta versiune, jurnalul complet al modificărilor este prea lung "
+#~ "pentru această postare.\\nAvem însă aici o listă care sintetizează "
+#~ "modificările.</p>\\n\\n<p>Activități:</p>\\n<li class=\\\"puce\\\">am "
+#~ "corectat textul în engleză din câteva activități</li>\\n<li class=\\\"puce"
+#~ "\\\">am corectat poziția scorului în câteva activități</li>\\n<li class=\\"
+#~ "\"puce\\\">am blocat câteva butoane și interacțiuni în mai multe locuri "
+#~ "care necesitau acest lucru</li>\\n<li class=\\\"puce\\\">o mulțime de "
+#~ "corecții pentru partea audio, la mai multe activități</li>\\n<li class=\\"
+#~ "\"puce\\\">activitatea number_sequence (și alte activități bazate pe ea): "
+#~ "corectarea formatului de bază</li>\\n<li class=\\\"puce\\\">activitățile "
+#~ "clickanddraw, drawnumbers and drawletters: actualizarea setului de date</"
+#~ "li>\\n<li class=\\\"puce\\\">activitatea crane: adăugarea setului de date "
+#~ "localizat</li>\\n<li class=\\\"puce\\\">activitatea lightsoff: adăugarea "
+#~ "suportului pentru tastatură și alte corecții</li>\\n<li class=\\\"puce\\"
+#~ "\">activitatea algorithm: adăugarea suportului pentru tastatură și alte "
+#~ "corecții</li>\\n<li class=\\\"puce\\\">activitatea money: corecții pentru "
+#~ "valuta locală folosită</li>\\n<li class=\\\"puce\\\">activitatea "
+#~ "ballcatch: îmbunătățirea feedback-ului audio</li>\\n<li class=\\\"puce\\"
+#~ "\">activitatea calendar: câteva micicorecții</li>\\n<li class=\\\"puce\\"
+#~ "\">activitatea memory-case-association: corectarea dimensiunilor "
+#~ "pictogramelor</li>\\n<br/>\\n<p>Alte modificări:</p>\\n<li class=\\\"puce"
+#~ "\\\">reactivarea efectelor sonore pe Linux</li>\\n<li class=\\\"puce\\"
+#~ "\">redarea îmbunătățită a efectelor sonore, fără întârzieri</li>\\n<li "
+#~ "class=\\\"puce\\\">adăugarea de text explicativ la imagini și de etichete "
+#~ "OARS în datele aplicațiilor</li>\\n<li class=\\\"puce\\\">adăugarea "
+#~ "Galezei Scoțiene în nucleul de limbi disponibile utilizatorilor, plus "
+#~ "actualizarea unor seturi de date pentru această limbă</li>\\n<li class=\\"
+#~ "\"puce\\\">la bara principală de meniu: corectarea dimensiunii unor "
+#~ "articole</li>\\n<li class=\\\"puce\\\">am eliminat imaginile nefolosite</"
+#~ "li>\\n\\n\\n<br/>\\n\\n<p>Puteți găsi această nouă versiune <a href=\\"
+#~ "\"https://gcompris.net/downloads-en.html\\\">la pagina de descărcare</a>, "
+#~ "și în curând în Google Play Magazin și Windows Magazin.</p>\\n\\n<p>Pe "
+#~ "partea de traducere, avem 16 limbi cu traducere completă: \\nengleză "
+#~ "britanică, \\ncatalană, \\ncatalană (valenciană), \\nchineză "
+#~ "tradițională, \\nolandeză, \\nfranceză, \\ngreacă, \\nindoneziană, "
+#~ "\\ngaleză irlandeză, \\nitaliană, \\npoloneză, \\nportugheză, \\nromână, "
+#~ "\\nspaniolă, \\nsuedeză, \\nucrainiană. \\n<br />\\nAvem de asemenea 15 "
+#~ "limbi cu traducere parțială: \\n\\nnorvegiană nynorsk (97%), \\nhindi "
+#~ "(96%), \\nturcă (90%), \\ngaleză scoțiană (86%), \\ngaliciană (86%), "
+#~ "\\nportugheză braziliană (84%), \\nbelarusă (84%), \\ngermană (81%), "
+#~ "\\nchineză simplificată (79%), \\nrusă (78%), \\nestoniană (77%), "
+#~ "\\nslovacă (76%), \\nfinlandeză (76%), \\nslovenă (69%), \\nbretonă (65%)."
+#~ "</p>\\n\\n<p>Dacă dorești să ajuți la completarea vreuneia din aceste "
+#~ "traduceri, sau să adaugi o nouă traducere, te rugăm să ne contactezi.</p>"
+#~ "\\n\\n<p>Dacă nu, ne poți ajuta și în alt fel, făcând publice aceste "
+#~ "informații despre GCompris în comunitatea ta și dându-ne un feedback.</p>"
+#~ "\\n\\n<p>Vă mulțumim tuturor, <br/>\\nTimothée & Johnny </p>\\n\\n\\n"

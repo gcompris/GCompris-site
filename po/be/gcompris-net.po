@@ -1,0 +1,818 @@
+# Translations template for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# Timo <animtim@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.70\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"PO-Revision-Date: 2020-03-16 23:52+0100\n"
+"Last-Translator: Timo <animtim@gmail.com>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"X-Generator: Lokalize 19.04.0\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
+"%100>=11 && n%100<=14 ? 2 : 3);\n"
+
+#. news title
+msgctxt "20220227.html"
+msgid "Release GCompris 2.3"
+msgstr ""
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Today we are releasing GCompris version 2.3."
+msgstr ""
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
+"release."
+msgstr ""
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr ""
+
+#. news title
+msgctxt "20220413.html"
+msgid "Release GCompris 2.4"
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Today we are releasing GCompris version 2.4."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We optimized the size of all the packages for all platforms and of the "
+"external word images set (~30% smaller)."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"If you disabled the automatic download and want to have the full images set, "
+"you should go to the configuration and click on \\\"Download full word image "
+"set\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"The text \\\"Full word image set is installed\\\" is displayed below when "
+"you have the latest version."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
+"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
+"Aiswarya Kaitheri Kandoth."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Many images have been updated for several activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+"associations activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr ""
+
+#: gcompris.py:290
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+
+#: gcompris.py:291
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: gcompris.py:396
+msgid "For Christmas, offer GCompris to your children."
+msgstr ""
+
+#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+#, fuzzy
+#| msgid "Download GCompris"
+msgid "Download"
+msgstr "Заладаваць GCompris"
+
+#: template/base.html:56 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "Ахвяраваць"
+
+#: template/base.html:57 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "Здымкі экрану"
+
+#: template/base.html:58 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr ""
+
+#: template/base.html:59
+msgid "Manual"
+msgstr "Правадніцтва"
+
+#: template/base.html:60
+msgid "Contribute"
+msgstr "Унёсак"
+
+#: template/base.html:91
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr ""
+
+#: template/base.html:96
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr ""
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr ""
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr ""
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr ""
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr ""
+
+#: template/donate.html:13
+#, fuzzy
+#| msgid ""
+#| "You, your children, your classroom love GCompris. You have now the "
+#| "opportunity to help this project."
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"Вы, Вашыя дзеткі, Ваш клас упадабалі GCompris. У Вас ёсць цяпер магчымасць "
+"зрабіць свой унёсак у гэты праект."
+
+#: template/donate.html:14
+#, fuzzy
+#| msgid ""
+#| "Developing software takes a lot of time, it needs hardware, it implies "
+#| "moving to promote the project. Said simply, I need your help to continue "
+#| "my investment in this project."
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+"Распрацоўка праграм бярэ шмат часу, патрабуе кампутарнай тэхнікі, патрабуе "
+"сродкаў для прасоўвання праекту. Адным словам, мне патрэбная Вашая дапамога "
+"для сваіх укладанняў у гэты праект."
+
+#: template/donate.html:16
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+msgid "Become a Patron"
+msgstr ""
+
+#: template/donate.html:21
+#, fuzzy
+#| msgid ""
+#| "You can donate the amount of your choice by clicking on the button below:"
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr "Вы можаце ахвяраваць суму па Вашаму выбару, пстрыкнуўшы кнопку ніжэй:"
+
+#: template/donate.html:22
+#, fuzzy
+#| msgid "Donate"
+msgid "Donate to KDE"
+msgstr "Ахвяраваць"
+
+#: template/donate.html:24
+#, fuzzy
+#| msgid "Thanks for your support of free software in education."
+msgid "Thanks for supporting Free Software in education."
+msgstr "Дзякуй Вам за падтрымку вольнага праграмнага забеспячэння ў адукацыі."
+
+#: template/donate.html:27
+msgid "Patreon"
+msgstr ""
+
+#: template/donate.html:30
+#, fuzzy
+#| msgid "Thanks for your support of free software in education."
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Дзякуй Вам за падтрымку вольнага праграмнага забеспячэння ў адукацыі."
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr ""
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr ""
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr ""
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr ""
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr ""
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr ""
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr ""
+
+#: template/downloads.html:79
+msgid "You can get the macOS version from the link below."
+msgstr ""
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr ""
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr ""
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+
+#: template/downloads.html:98
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+
+#: template/downloads.html:98
+msgid "System requirements:"
+msgstr ""
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr ""
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr ""
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr ""
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr ""
+
+#: template/downloads.html:150
+msgid "The source code is available under the AGPLv3 license."
+msgstr ""
+
+#: template/downloads.html:163
+msgid "SHA-256 and GPG"
+msgstr ""
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+
+#: template/downloads.html:168
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr ""
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "Адукацыйнае праграмнае забеспячэнне GCompris"
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr "Заладаваць GCompris"
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "Апошнія навіны"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr ""
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr ""
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr ""
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr ""
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr ""
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr ""
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr ""
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr ""
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "Пабачыць усе здымкі"
+
+#: template/index.html:153
+#, fuzzy
+#| msgid ""
+#| "GCompris is a high quality educational software suite comprising of "
+#| "numerous activities for children aged 2 to 10."
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"GCompris - гэты высакаякаснае адукацыйнае праграмнае забеспячэнне, якое "
+"аб'ядноўвае шэраг практыкаванняў для дзетак узростам ад 2 да 10 год."
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr ""
+"Некаторыя практыкаванні арыентаваныя на гульню, але ўсё ж маюць адукацыйны "
+"характар."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr ""
+
+#: template/index.html:157
+#, fuzzy
+#| msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr "вывучэнне кампутара: клавіятуры, мышкі, розныя дзеянні мышкі, ..."
+
+#: template/index.html:158
+#, fuzzy
+#| msgid "reading: reading practice"
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr "чытанне: практыка чытання"
+
+#: template/index.html:159
+#, fuzzy
+#| msgid ""
+#| "arithmetic: table memory, enumeration, double entry table, mirror "
+#| "image, ..."
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr "арыфметыка: лік, табліцы і тэхнікі навучання, ..."
+
+#: template/index.html:160
+#, fuzzy
+#| msgid ""
+#| "science: the canal lock, the water cycle, the submarine, electric "
+#| "simulation ..."
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr ""
+"навука: канальны шлюз, цыкл вады, падводная лодка, сімуляцыя электрычнай "
+"схемы ..."
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr ""
+
+#: template/index.html:162
+#, fuzzy
+#| msgid "games: chess, memory, connect 4, oware, sudoku ..."
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr "гульні: шахматы, на памяць, злучыць 4, оварэ, судоку ..."
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr ""
+
+#: template/index.html:165
+#, fuzzy
+#| msgid ""
+#| "Currently GCompris offers in excess of 100 activities and more are being "
+#| "developed. GCompris is free software, that means that you can adapt it to "
+#| "your own needs, improve it and, most importantly, share it with children "
+#| "everywhere."
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"Цяпер GCompris прапануе як найменш 100 практыкаванняў і яшчэ распрацоўваюцца "
+"новыя. GCompris - гэта вольнае праграмнае забеспячэнне, і гэта значыць, што "
+"Вы можаце адаптаваць яго пад свае мэты, паляпшаць і, што найважней - "
+"дзяліцца ім з дзеткамі паўсюль."
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+
+#: template/news.html:3 template/news.html:8 template/newsall.html:3
+#: template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Навіны"
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr "Усе навіны"
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr ""
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr ""
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr ""
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr ""
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr ""
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr ""
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "Апісанне:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "Перадумова:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "Мэта:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "Правадніцтва:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "Інфармацыя:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr ""
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr ""
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr ""
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr ""
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr ""
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr ""
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr ""
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr ""
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr ""
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr ""
+
+#~ msgid "Version %(version)s"
+#~ msgstr "Версія %(version)s"
+
+#~ msgid "Buy / Donate"
+#~ msgstr "Набыць / Ахвяраваць"
+
+#, fuzzy
+#~| msgid "Buying the Windows or MacOSX version"
+#~ msgid "Buying the full version"
+#~ msgstr "Набыццё Windows- ці MacOSX-версіі"
+
+#, fuzzy
+#~| msgid ""
+#~| "The Windows and MacOSX versions have a limited number of activities, "
+#~| "about %(demo_activities)s on the %(total_activities)s available."
+#~ msgid ""
+#~ "We provide a free demo with a limited number of activities, "
+#~ "%(demo_activities)s on the %(total_activities)s available."
+#~ msgstr ""
+#~ "Windows- ды MacOSX-версіі маюць абмежаваную колькасць практыкаванняў - "
+#~ "даступныя блізу %(demo_activities)s з %(total_activities)s."
+
+#, fuzzy
+#~| msgid ""
+#~| "Click on the button below let you pay 9&euro; for the activation code. "
+#~| "After payment you will receive immediately an email with your "
+#~| "instructions (check your spam folder). If you do not receive this email "
+#~| "please write me at sales@gcompris.net"
+#~ msgid ""
+#~ "After the payment you will immediately receive an email with instructions "
+#~ "(check your spam folder). If you do not receive this email please contact "
+#~ "us at sales@gcompris.net."
+#~ msgstr ""
+#~ "Пстрычком па кнопцы ніжэй набудзьце код актывацыі за 9&euro;. Пасля "
+#~ "аплаты Вы адразу ж атрымаеце электронны ліст з правадніцтвам (праверце "
+#~ "таксама спам-тэчку). Калі Вы не атрымаеце гэты ліст, калі ласка, напішыце "
+#~ "мне на sales@gcompris.net"
+
+#, fuzzy
+#~| msgid ""
+#~| "The registration gives you the right to update to any new release of "
+#~| "GCompris for 2 years. After that period, you can continue to use the "
+#~| "latest release you got for as long as you wish."
+#~ msgid ""
+#~ "This registration gives you the right to update to any new release of "
+#~ "GCompris for 2 years. After that period, you can continue to use the "
+#~ "latest release you got for as long as you wish."
+#~ msgstr ""
+#~ "Рэгістрацыя дазваляе Вам карыстацца аднаўленнямі GCompris цягам 2 гадоў. "
+#~ "Пасля гэтага перыяду, Вы зможаце працягваць карыстацца Вашай версіяй "
+#~ "колькі пажадаеце."
+
+#~ msgid "Buying the Windows or MacOSX version"
+#~ msgstr "Набыццё Windows- ці MacOSX-версіі"
+
+#~ msgid "Contact me to get a quote for your school."
+#~ msgstr ""
+#~ "Звяжыцеся са мною, каб атрымаць звесткі аб камерцыйным выкарыстанні для "
+#~ "Вашае школы."
+
+#~ msgid ""
+#~ "Legal reference: Company Timothée Giet RCS RENNES France 537 873 986."
+#~ msgstr ""
+#~ "Юрыдычныя звесткі: Кампанія Timothée Giet RCS RENNES France 537 873 986."
+
+#~ msgid "Other"
+#~ msgstr "Іншае"
+
+#~ msgid "geography: place the country on the map"
+#~ msgstr "геаграфія: размясціць краіну на мапе"
+
+#~ msgid ""
+#~ "other: learn to tell time, puzzle of famous paintings, vector drawing, "
+#~ "cartoon making, ..."
+#~ msgstr ""
+#~ "іншае: навучыцца казаць час, пазл з вядомымі карцінамі, вектарнае "
+#~ "маляванне, стварэнне мультфільмаў, ..."
+
+#~ msgid ""
+#~ "Below you can find a list of categories with some of the activities "
+#~ "available in that category."
+#~ msgstr ""
+#~ "Ніжэй Вы пабачыце спіс катэгорый з некаторымі практыкаваннямі, даступнымі "
+#~ "ў гэтых катэгорыях."

@@ -1,0 +1,779 @@
+# Translation of gcompris-net to Norwegian Nynorsk
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# Karl Ove Hufthammer <karl@huftis.org>, 2017, 2018, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"PO-Revision-Date: 2022-09-11 19:45+0200\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Generated-By: Babel 0.9.6\n"
+"X-Generator: Lokalize 22.08.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#. news title
+msgctxt "20220227.html"
+msgid "Release GCompris 2.3"
+msgstr "GCompris 2.3 er ute"
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Today we are releasing GCompris version 2.3."
+msgstr "I dag gjev me ut GCompris versjon 2.3."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
+"release."
+msgstr ""
+"Me oppdaga at versjon 2.2 hadde ein feil som gjorde at tre aktivitetar ikkje "
+"verka skikkeleg («Rekkjefølgja på bokstavane i alfabetet», «Partal og "
+"oddetal» og «Tal i rekkjefølgje»). Me gjev derfor ut ei kjapp vedlikehalds­"
+"oppdatering."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Du finn pakkar for denne nye versjonen for GNU/Linux, Windows Raspberry Pi "
+"og macOS på <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android "
+"Play Store, i F-Droid og på Windows Store."
+
+#. paragraph
+msgctxt "20220227.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Takk, alle saman!<br/>Timothée & Johnny"
+
+#. news title
+msgctxt "20220413.html"
+msgid "Release GCompris 2.4"
+msgstr "GCompris 2.4 er ute"
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Today we are releasing GCompris version 2.4."
+msgstr "I dag gjev me ut GCompris versjon 2.4."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We optimized the size of all the packages for all platforms and of the "
+"external word images set (~30% smaller)."
+msgstr ""
+"Me har optimert storleiken på program­pakkane (alle platt­former) og på den "
+"eksterne ordbilet­samlinga (om lag 30 % reduksjon i storleik)."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"If you disabled the automatic download and want to have the full images set, "
+"you should go to the configuration and click on \\\"Download full word image "
+"set\\\"."
+msgstr ""
+"Viss du har slått av automatisk nedlasting, men ønskjer alle ordbileta, kan "
+"du gå til innstillingane og trykkja på knappen «Last ned fullstendig "
+"ordbiletsamling»."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"The text \\\"Full word image set is installed\\\" is displayed below when "
+"you have the latest version."
+msgstr ""
+"Teksten «Fullstendig ordbilet­samling er installert» vert vist nedanfor "
+"knappen dersom du alt har den nyaste versjonen."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
+"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
+"Aiswarya Kaitheri Kandoth."
+msgstr ""
+"Nynorske talelydfiler med introduksjon til alle aktivitetane er lagde til, "
+"takka vere Karl Ove Hufthammer og Øystein Steffensen-Alværvik. Talelydfilene "
+"til malayalam er no fullstendige, takka vere Aiswarya Kaitheri Kandoth."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Many images have been updated for several activities."
+msgstr "Mange teikningar i ulike aktivitetar er forbetra."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+"associations activities."
+msgstr ""
+"Me har òg retta nokre feil i aktivitetane «Fornybar energi», "
+"«Vasskrinsløpet» og «Logiske samanhengar»."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Du finn pakkar for denne nye versjonen for GNU/Linux, Windows Raspberry Pi "
+"og macOS på <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android "
+"Play Store, i F-Droid og på Windows Store."
+
+#. paragraph
+msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Takk, alle saman!<br/>Timothée & Johnny"
+
+#: gcompris.py:290
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+"GCompris er ein GNU-pakke og tilgjengeleg under GNU Affero General Public "
+"License."
+
+#: gcompris.py:291
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Karl Ove Hufthammer"
+
+#: gcompris.py:396
+msgid "For Christmas, offer GCompris to your children."
+msgstr "Korfor ikkje visa barna dine GCompris i jula?"
+
+#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "Last ned"
+
+#: template/base.html:56 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "Gje penge­gåve"
+
+#: template/base.html:57 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "Skjerm­bilete"
+
+#: template/base.html:58 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr "Skular"
+
+#: template/base.html:59
+msgid "Manual"
+msgstr "Bruks­rettleiing"
+
+#: template/base.html:60
+msgid "Contribute"
+msgstr "Bidra"
+
+#: template/base.html:91
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr "Nettstaden vart sist oppdatert %(revision_date)s."
+
+#: template/base.html:96
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr "Nettstaden er omsett av: %(translators_names)s."
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr "GCompris til jul"
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+"Korfor ikkje visa barna dine GCompris i jula? Det er gratis og gjev timevis "
+"med pedagogisk moro."
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr "Last ned GCompris frå nedlastingssida"
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr "Last ned GCompris frå Play Store"
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr "Last ned GCompris frå Windows Store"
+
+#: template/donate.html:13
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+"Kanskje du, barna dine eller skulen din elskar GCompris? Du kan no støtta "
+"oss med ei pengegåve."
+
+#: template/donate.html:14
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+"Å utvikla programvare tek mykje tid, og det krev utstyr og anna som kostar "
+"pengar."
+
+#: template/donate.html:16
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+"Viss du ønskjer å støtta ei bere­kraftig utvikling av GCompris, kan du verta "
+"fast sponsor via Patreon:"
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+msgid "Become a Patron"
+msgstr "Vert fast sponsor"
+
+#: template/donate.html:21
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr "Du kan òg gje ein éingongs­sum til KDE:"
+
+#: template/donate.html:22
+msgid "Donate to KDE"
+msgstr "Gje pengegåve til KDE"
+
+#: template/donate.html:24
+msgid "Thanks for supporting Free Software in education."
+msgstr "Takk for støtta di til pedagogisk fri programvare."
+
+#: template/donate.html:27
+msgid "Patreon"
+msgstr "Patreon"
+
+#: template/donate.html:30
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr "Takk til alle som støttar GCompris på Patreon!"
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr "Windows"
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+"Du kan installera GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">frå Windows Store</a>."
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr "Merk: Windows Store krev Windows 10."
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr "Du kan òg lasta ned installasjons­programmet via lenkjene nedanfor."
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr "Systemkrav: Windows 7, 8 eller 10 med OpenGL 2-støtte."
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+"Merk: Viss systemet ditt ikkje har støtte for OpenGL 2 eller støtta ikkje "
+"verkar, kan du bruka meny­oppføringa «GCompris (Safe Mode)» på Start-menyen "
+"for å køyra GCompris med programvare­basert oppteikning. Dette brukar ikkje "
+"OpenGL."
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+"Viss du verkeleg treng ein versjon som køyrer på Windows XP, eller viss "
+"systemet ditt ikkje støttar den nye versjonen, kan du bruka det siste "
+"installerings­programmet frå den gamle versjon 15.10."
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+"Får å få tilgang til alle aktivitetane i denne gamle versjonen kan du, når "
+"du startar programmet, bruka koden «200202» i registrerings­feltet som har "
+"teksten «CODE»."
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr "Android"
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr "Denne versjonen for Android er tilgjengeleg i Play Store."
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+"Me støttar både 32-bits og 64-bits Android i Play Store. Rett versjonen vert "
+"automatisk lasta ned basert på kva operativ­system du har."
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+"GCompris er òg tilgjengeleg frå F-Droid, app­butikken for fri programvare for "
+"Android."
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+"Du kan òg lasta ned ei APK-fil direkte for å installera appen manuelt på "
+"eininga di."
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+"For einingar med Android 2.3 til 4.0 er siste kompatible versjon <a href= "
+"\"https://gcompris.net/download/qt/android/GCompris-Android-release-signed-"
+"aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr "macOS"
+
+#: template/downloads.html:79
+msgid "You can get the macOS version from the link below."
+msgstr "Du kan lasta ned macOS-versjonen via lenkja nedanfor."
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr "Han er bygd og testa på macOS 10.13."
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+"Du kan sjå om distribusjonen din har ein pakke for den nyaste GCompris-"
+"versjonen."
+
+#: template/downloads.html:98
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+"Me tilbyr òg frittståande pakkar for GNU/Linux. Dei bør fungera på alle "
+"nyare distribusjonar."
+
+#: template/downloads.html:98
+msgid "System requirements:"
+msgstr "Systemkrav:"
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+"Du kan bruka han ved å opna eit terminal­vindauge i mappa der du lasta ned "
+"installerings­programmet og skriva:"
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+"Les så lisensvilkåra eller trykk «Q» for å hoppa over dei, og svar ja på "
+"spørsmåla. Programmet vert då installert i ei ny mappe ved sida av "
+"installerings­programmet."
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+"Til slutt kan du starta GCompris ved å gå til denne mappa, til undermappa "
+"«bin» og så trykkja på fila «gcompris-qt.sh»."
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+"Merk: Viss systemet ditt ikkje har støtte for OpenGL 2 eller støtta ikkje "
+"verkar, legg til valet «--software-renderer» på slutten av siste linje i "
+"skriptfila «gcompris-qt.sh». Ein annan måte er å redigera oppsett­fila (~/."
+"config/gcompris-qt/gcompris-qt.conf): Finn linja «renderer=auto», og byt ut "
+"«auto» med «software»."
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+"Eit anna alternativ er å installera GCompris frå <a href=\"https://flathub."
+"org/apps/details/org.kde.gcompris\">Flathub</a> eller <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr "Me tilbyr ein frittståande pakke for Raspberry Pi."
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr "Han er berre testa på Raspberry Pi 3."
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr "Kjeldekode"
+
+#: template/downloads.html:150
+msgid "The source code is available under the AGPLv3 license."
+msgstr "Kjeldekoden er tilgjengeleg via AGPLv3-lisensen."
+
+#: template/downloads.html:163
+msgid "SHA-256 and GPG"
+msgstr "SHA-256 og GPG"
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+"For å sjekka at filene du lasta ned ikkje er øydelagde kan du bruka SHA-256-"
+"sjekk­summar. Legg til «.sha256» på slutten av nedlastings­adressa for å henta "
+"ei fil som inneheld rett sjekksum."
+
+#: template/downloads.html:168
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: "
+msgstr ""
+"Arkivfilene med kjeldekoden og Linux-installerings­programmet er signerte med "
+"GPG-nøkkelen til Timothée Giet (offentlegnøkkel: "
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr "Signaturfiler:"
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr "GCompris pedagogisk programvare"
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr "Last ned GCompris"
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "Siste nyheiter"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr "Trykk med musa eller fingeren"
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr "Kjenn att fargar"
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr "Lær klokka"
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr "Øv på å bruka tastaturet"
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr "Lær å plussa"
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr "Lær om vasskrinsløpet"
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr "Spel sjakk mot ein venn"
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr "Trykk på ein liten bokstav"
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "Vis alle skjermbileta"
+
+#: template/index.html:153
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+"GCompris er eit leik og lær-spel med mange ulike aktivitetar for ungar frå 2 "
+"til 10 år."
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "Nokre av aktivitetane er mest som spel, men er likevel lærerike."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr "Her dei ulike aktivitets­kategoriane, med nokre eksempel:"
+
+#: template/index.html:157
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr "Lær datamaskinbruk: tastatur, mus, peikeskjerm, …"
+
+#: template/index.html:158
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr "Lesing: bokstavar, ord, leseøvingar, tekstskriving …"
+
+#: template/index.html:159
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr "Rekning: tal, operatorar, gongetabellen, teljing, …"
+
+#: template/index.html:160
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr "Vitskap: kanalsluse, vasskrinsløpet, fornybar energi, …"
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr "Geografi: land, fylke, kulturar …"
+
+#: template/index.html:162
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr "Spel: sjakk, hugsespel, bondesjakk, fire på rad, ordgjetteleik, …"
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr "Anna: fargar, former, blindeskrift, lær klokka, …"
+
+#: template/index.html:165
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+"GCompris har over 100 aktivitetar, og fleire er under utvikling. Det er òg "
+"fri programvare. Det vil seia at du kan tilpassa spelet slik du ønskjer, "
+"forbetra det og dela det med ungar i heile verda."
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+"GCompris-prosjektet vert utvikla av <a target=\"_blank\" rel=\"noopener\" "
+"href=\"https://www.kde.org/\">KDE-fellesskapet</a>."
+
+#: template/news.html:3 template/news.html:8 template/newsall.html:3
+#: template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Nyheiter"
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr "Alle nyheiter"
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+"GCompris er eit e-læringsverktøy med ulike øvingar for både skulen og heime. "
+"Det er fri programvare tilgjengeleg under lisensen GNU General Public "
+"License. Programmet køyrer på fleire plattformer (GNU/Linux, Windows, "
+"Android og macOS), og det verkar òg bra på gamle /mindre kraftige "
+"datamaskiner."
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+"GCompris har blitt brukt i over tjue år på skular i heile verda. Det har "
+"meir enn 150 aktivitetar/øvingar, som dekkjer dei fleste læringsområda:"
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr "Læra å bruka datamaskina"
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr "Øva på bokstavar, ord og ordkategoriar"
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr "Rekna – teljing, aritmetikk, mål, vekt og problemløysing"
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr "Utforska verda via logikk, kunst og musikk"
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr "Læra om natur og samfunn – eksperiment, historie og geografi"
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr "Utvikla strategisk tenking med brettspel"
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+"GCompris krev ikkje tilgang til Internett og samlar ikkje informasjon om "
+"brukaren. Programmet er heilt i tråd med EUs personvernforordning."
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+"I GCompris 1.0 kan du som lærar tilpassa aktivitetane basert på nivået til "
+"kvar einskilde elev. For eksempel kan du i rekne­aktivitetane velja kva tal "
+"som skal brukast i reknestykka, slik at programmet i første omgang utelèt "
+"dei større og vanskelegare tala. Og i aktivitetane der ein skal setja bilete "
+"i rett rekkjefølgje, kan du tilpassa bileta til elevar som berre kan lesa "
+"tal eller som kan lesa både tal og ord."
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+"Denne nivå­inndelinga lèt deg skreddarsy elev­øvingar for både rekning, språk, "
+"naturfag og humaniora. Elevane kan òg spela strategispel for å øva på "
+"problemløysing."
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+"For å vera pedagogisk rette er nivåa til GCompris-aktivitetane baserte på "
+"læreplanane i den franske grunnskulen."
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "Skildring:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "Føresetnadar:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "Mål:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "Manual:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "Kreditering:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr "Vel ein kategori"
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr "Alle"
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr "Datamaskin"
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr "Utforsking"
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr "Vitskap"
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr "Moro"
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr "Matematikk"
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr "Tenking"
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr "Lesing"
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr "Strategi"
