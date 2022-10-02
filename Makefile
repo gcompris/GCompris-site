@@ -65,7 +65,6 @@ update: downloadGComprisSrc
 		  lrelease -compress -nounfinished $$outTsFile -qm $$outQmFile; \
 	  fi; \
 	done; \
-	python3 l10n-fetch-po-files.py "$(ALL_LINGUAS)"; \
 	for lang in $$linguas; do \
 	  if [ -f po/$$lang/gcompris-net.po ]; then \
 		cp po/$$lang/gcompris-net.po po/$$lang/LC_MESSAGES/gcompris.po; \
@@ -86,4 +85,4 @@ online:
 	rsync -az --copy-unsafe-links --exclude "*.py" --exclude ".git" --exclude ".gitignore" --exclude ".directory" --exclude ".htaccess" --exclude ".rcc" --exclude ".emacs.d" --exclude "__pycache__" --exclude "babel.cfg" --exclude "Makefile" --exclude "Messages.sh" --exclude "po" --exclude "tools" --exclude "newsTemplate" --exclude "template" --exclude "gcompris-qt-*" --exclude "fonts" . maintener@gcompris.net:/var/www/
 
 clean:
-	rm -Rf *.html feed-*.xml *.pyc po/* news/*.html
+	rm -Rf *.html feed-*.xml *.pyc news/*.html po/*/LC_MESSAGES/

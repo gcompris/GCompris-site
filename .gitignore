@@ -2,6 +2,7 @@
 # Only ignore the LC_MESSAGES folder with generated files inside the locale folder, but not the po files that are automatically committed
 gcompris.po
 *.mo
+po/*/LC_MESSAGES
 /*.html
 news/*.html
 feed-*.xml
