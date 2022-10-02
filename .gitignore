@@ -1,7 +1,5 @@
 *~
 # Only ignore the LC_MESSAGES folder with generated files inside the locale folder, but not the po files that are automatically committed
-po/*/*/
-po/*.*
 gcompris.po
 *.mo
 /*.html
