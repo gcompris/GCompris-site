@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-17 00:50+0000\n"
 "PO-Revision-Date: 2021-05-22 20:58+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -178,37 +178,37 @@ msgstr ""
 "크리스마스 선물로 GCompris를 추천합니다. 무료이며 즐거운 교육 시간을 선사합니"
 "다."
 
-#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "다운로드"
 
-#: template/base.html:56 template/donate.html:3 template/donate.html:8
+#: template/base.html:72 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "기부하기"
 
-#: template/base.html:57 template/screenshots.html:3
+#: template/base.html:73 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "스크린샷"
 
-#: template/base.html:58 template/schools.html:3 template/schools.html:8
+#: template/base.html:74 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "학교"
 
-#: template/base.html:59
+#: template/base.html:75
 msgid "Manual"
 msgstr "설명서"
 
-#: template/base.html:60
+#: template/base.html:76
 msgid "Contribute"
 msgstr "기여하기"
 
-#: template/base.html:91
+#: template/base.html:107
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:96
+#: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""

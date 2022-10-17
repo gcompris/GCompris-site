@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-17 00:50+0000\n"
 "PO-Revision-Date: 2021-12-14 23:11+0100\n"
 "Last-Translator: Aiswarya Kaitheri Kandoth <aiswaryakk29@gmail.com>\n"
 "Language-Team: Malayalam <kde-i18n-doc@kde.org>\n"
@@ -179,37 +179,37 @@ msgstr ""
 "നിങ്ങളുടെ കുട്ടികൾക്ക് ക്രിസ്തുമസിന് ജികോംപ്രി സമ്മാനിക്കൂ. ഇതു സൗജന്യമാണെന്നു മാത്രമല്ല അവർക്ക് "
 "പഠിച്ചുകൊണ്ട് രസിക്കുകയും ചെയ്യാം."
 
-#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "ഡൗൺലോഡ്"
 
-#: template/base.html:56 template/donate.html:3 template/donate.html:8
+#: template/base.html:72 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "സംഭാവന ചെയ്യുക"
 
-#: template/base.html:57 template/screenshots.html:3
+#: template/base.html:73 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "സ്ക്രീൻഷോട്ടുകൾ"
 
-#: template/base.html:58 template/schools.html:3 template/schools.html:8
+#: template/base.html:74 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "സ്കൂളുകൾ"
 
-#: template/base.html:59
+#: template/base.html:75
 msgid "Manual"
 msgstr "ലഘുവിവരണം"
 
-#: template/base.html:60
+#: template/base.html:76
 msgid "Contribute"
 msgstr "കോൺട്രിബ്യൂട്ട്"
 
-#: template/base.html:91
+#: template/base.html:107
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:96
+#: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""

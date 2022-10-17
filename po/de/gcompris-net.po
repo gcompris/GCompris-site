@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-17 00:50+0000\n"
 "PO-Revision-Date: 2022-04-15 05:05+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -177,37 +177,37 @@ msgstr ""
 "Verschenken Sie zu Weihnachten GCompris an Ihre Kinder. Es ist kostenlos und "
 "wird ihnen stundenlangen Lernspaß bereiten."
 
-#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Herunterladen"
 
-#: template/base.html:56 template/donate.html:3 template/donate.html:8
+#: template/base.html:72 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Spenden"
 
-#: template/base.html:57 template/screenshots.html:3
+#: template/base.html:73 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Bildschirmfotos"
 
-#: template/base.html:58 template/schools.html:3 template/schools.html:8
+#: template/base.html:74 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Schulen"
 
-#: template/base.html:59
+#: template/base.html:75
 msgid "Manual"
 msgstr "Handbuch"
 
-#: template/base.html:60
+#: template/base.html:76
 msgid "Contribute"
 msgstr "Mitwirken"
 
-#: template/base.html:91
+#: template/base.html:107
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:96
+#: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""

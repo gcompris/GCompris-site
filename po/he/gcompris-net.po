@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-05 00:48+0000\n"
+"POT-Creation-Date: 2022-10-17 00:50+0000\n"
 "PO-Revision-Date: 2022-06-28 22:05+0200\n"
 "Last-Translator: ami.g <amihaygal@gmail.com>\n"
 "Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
@@ -158,37 +158,37 @@ msgstr ""
 "לחג המולד, תוכל להציע את Gcompris לילדיך, זה חופשי וייתן להם/ן שעות של כיף "
 "חינוכי."
 
-#: template/base.html:55 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "הורדה"
 
-#: template/base.html:56 template/donate.html:3 template/donate.html:8
+#: template/base.html:72 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "לתרום"
 
-#: template/base.html:57 template/screenshots.html:3
+#: template/base.html:73 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "צילומי מסך"
 
-#: template/base.html:58 template/schools.html:3 template/schools.html:8
+#: template/base.html:74 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "בתי ספר"
 
-#: template/base.html:59
+#: template/base.html:75
 msgid "Manual"
 msgstr "מדריך"
 
-#: template/base.html:60
+#: template/base.html:76
 msgid "Contribute"
 msgstr "לתרום"
 
-#: template/base.html:91
+#: template/base.html:107
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "האתר עודכן לאחרונה בתאריך %(revision_date)s."
 
-#: template/base.html:96
+#: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "האתר תורגם ע\"י %(translators_names)s."
