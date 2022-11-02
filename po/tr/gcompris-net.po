@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-17 00:50+0000\n"
-"PO-Revision-Date: 2022-10-31 21:38+0300\n"
+"PO-Revision-Date: 2022-11-01 13:43+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -140,7 +140,7 @@ msgstr ""
 #. paragraph
 msgctxt "20220413.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny,"
+msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"
 
 #: gcompris.py:290
 msgid ""
@@ -276,18 +276,20 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
+"GCompris'i <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">Microsoft Store</a>'dan indirebilirsiniz."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr ""
+msgstr "Microsoft Store, Windows 10 gerektirir."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr ""
+msgstr "Kurucuyu, aşağıdaki bağlantılardan da indirebilirsiniz."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
-msgstr ""
+msgstr "Sistem gereksinimleri: OpenGL 2 desteği içeren Windows 7, 8 veya 10."
 
 #: template/downloads.html:29
 msgid ""
@@ -295,6 +297,9 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
+"Not: Sisteminizde OpenGL 2 desteği yoksa veya düzgün çalışmıyorsa "
+"GCompris'i, OpenGL kullanmayan yazılım dokuması kipinde başlatın (Başlat "
+"menüsünden \"GCompris (Güvenli Kip)\")."
 
 #: template/downloads.html:30
 msgid ""
@@ -302,6 +307,9 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
+"İlla da Windows XP altında çalışan bir sürüme gereksiniminiz varsa veya "
+"sisteminiz yeni sürümü desteklemiyorsa GCompris 15.10 sürümünün kurucusunu "
+"kullanabilirsiniz."
 
 #: template/downloads.html:34
 msgid ""
@@ -309,14 +317,17 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
+"Eski sürümdeki tüm etkinlikleri etkinleştirmek için, uygulamayı "
+"başlattığınızda CODE sözcüğünü içeren girdi kutusundaki 200202 kodunu "
+"kullanabilirsiniz."
 
 #: template/downloads.html:44
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr ""
+msgstr "Android sürümü, Google Play Store'da dağıtılır."
 
 #: template/downloads.html:52
 msgid ""
@@ -324,18 +335,24 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
+"Google Play Store'daki sürüm, hem 32 bit hem 64 bit Android sürümlerini "
+"destekler. Uygun sürüm otomatik olarak indirilir ve kurulur."
 
 #: template/downloads.html:54
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr ""
+"GCompris, aynı zamanda Özgür ve Açık Kaynaklı Android uygulama deposu olan F-"
+"Droid'den de dağıtılır."
 
 #: template/downloads.html:59
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
+"Ek olarak, aygıtınıza el ile kurmak için web sitemizden apk dosyasını "
+"doğrudan indirebilirsiniz."
 
 #: template/downloads.html:64
 msgid ""
@@ -343,6 +360,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
+"Android 2.3-4.0 sürümleri için son uyumlu sürüm <a href= \"https://gcompris."
+"net/download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-"
+"dl-0.81.apk\">GCompris 0.81</a>'dir."
 
 #: template/downloads.html:75
 msgid "macOS"
@@ -350,11 +370,11 @@ msgstr "macOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr ""
+msgstr "macOS sürümünü aşağıdaki bağlantıdan edinebilirsiniz."
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr ""
+msgstr "macOS 10.13 üzerinde yapılıp sınanmıştır."
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
@@ -365,34 +385,44 @@ msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
+"Dağıtımınızın güncel GCompris için bir paket sağlayıp sağlamadığını "
+"denetleyebilirsiniz."
 
 #: template/downloads.html:98
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
+"Ayrıca, GNU/Linux için hepsi içinde paketler de sunuyoruz. Herhangi güncel "
+"bir dağıtımda sorunsuz çalışır."
 
 #: template/downloads.html:98
 msgid "System requirements:"
-msgstr ""
+msgstr "Sistem gereksinimleri:"
 
 #: template/downloads.html:103 template/downloads.html:130
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
+"Kullanmak için, indirdiğiniz klasörde bir uçbirim açın ve aşağıdaki "
+"komutları çalıştırın:"
 
 #: template/downloads.html:108 template/downloads.html:135
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
+"Sonrasında lisansı okuyun veya atlamak için q'ya basın, sorulara yes ile "
+"evet deyin ve yazılım kurucunun yanı başındaki bir klasöre kurulacaktır."
 
 #: template/downloads.html:109 template/downloads.html:136
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
+"Son olarak, GCompris'i başlatmak için yeni klasöre gidin ve bin klasöründeki "
+"gcompris-qt.sh dosyasına çift tıklayın."
 
 #: template/downloads.html:110
 msgid ""
@@ -402,6 +432,11 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
+"Not: Sisteminizde OpenGL 2 desteği yoksa veya düzgün çalışmıyorsa gcompris-"
+"qt.sh betiğinin yanına '--software-renderer' argümanını ekleyin. Başka bir "
+"yol olarak, yapılandırma dosyasını düzenleyin (~/.config/gcompris-qt/"
+"gcompris-qt.conf içinde): 'renderer=auto' satırını bulun ve 'auto'yu "
+"'software' ile değiştirip dosyayı kaydedin."
 
 #: template/downloads.html:111
 msgid ""
@@ -409,50 +444,57 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
+"Alternatif olarak, GCompris'i <a href=\"https://flathub.org/apps/details/org."
+"kde.gcompris\">Flathub</a>'dan veya <a href=\"https://snapcraft.io/gcompris"
+"\">Snap Store</a>'dan indirebilirsiniz."
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
-msgstr ""
+msgstr "Raspberry Pi"
 
 #: template/downloads.html:126
 msgid "We provide a standalone package for Raspberry Pi."
-msgstr ""
+msgstr "Raspberry Pi için özel bir paket sunuyoruz."
 
 #: template/downloads.html:126
 msgid "It was tested only on Raspberry Pi 3."
-msgstr ""
+msgstr "Yalnızca Raspberry Pi 3 üzerinde sınanmıştır."
 
 #: template/downloads.html:146
 msgid "Source code"
-msgstr ""
+msgstr "Kaynak kodu"
 
 #: template/downloads.html:150
 msgid "The source code is available under the AGPLv3 license."
-msgstr ""
+msgstr "Kaynak kodu, AGPLv3 lisansı altında kullanılabilir."
 
 #: template/downloads.html:163
 msgid "SHA-256 and GPG"
-msgstr ""
+msgstr "SHA-256 ve GPG"
 
 #: template/downloads.html:167
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
+"İndirmelerinizin bütünlüğünü denetlemek için dosyanın indirme URL'lerinin "
+"sonuna '.sha256' ekleyerek özgün SHA-256 sağlamasını alabilirsiniz."
 
 #: template/downloads.html:168
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: "
 msgstr ""
+"Kaynak tarball'ları ve Linux kurucuları, Timothée Giet tarafından sağlanan "
+"GPG anahtarı ile imzalanmıştır (genel anahtar: "
 
 #: template/downloads.html:170
 msgid "sig files:"
-msgstr ""
+msgstr "sig dosyaları:"
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
-msgstr ""
+msgstr "GCompris Eğitim Yazılımı"
 
 #: template/index.html:55
 msgid "Download GCompris"
@@ -460,89 +502,93 @@ msgstr "GCompris'i İndir"
 
 #: template/index.html:58
 msgid "Latest news"
-msgstr ""
+msgstr "Son haberler"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr ""
+msgstr "Tıkla veya dokun"
 
 #: template/index.html:97
 msgid "Identify colors"
-msgstr ""
+msgstr "Renkleri tanımla"
 
 #: template/index.html:103
 msgid "Learn clock"
-msgstr ""
+msgstr "Saati öğren"
 
 #: template/index.html:109
 msgid "Keyboard training"
-msgstr ""
+msgstr "Klavye antrenmanı"
 
 #: template/index.html:115
 msgid "Learn additions"
-msgstr ""
+msgstr "Eklemeleri öğren"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr ""
+msgstr "Su çevrimini keşfet"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr ""
+msgstr "Arkadaşına karşı satranç oyna"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr ""
+msgstr "Bir küçük harfe tıkla"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr ""
+msgstr "Tüm ekran görüntülerini gör"
 
 #: template/index.html:153
 msgid ""
 "GCompris is a high quality educational software suite, including a large "
 "number of activities for children aged 2 to 10."
 msgstr ""
+"GCompris, 2-10 yaş arası çocuklar için çok sayıda etkinlik içeren, yüksek "
+"kaliteli bir eğitim yazılımı paketidir."
 
 #: template/index.html:154
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
 msgstr ""
+"Kimi etkinlikler oyuna yöneliktir; ancak yine de eğitime katkıda bulunur."
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
-msgstr ""
+msgstr "Aşağıda örneklerle etkinlik kategorilerinin bir listesine bakın:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr ""
+msgstr "bilgisayar keşfi: klavye, fare, dokunmatik ekran..."
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr ""
+msgstr "okuma: harfler, sözcükler, okuma pratiği, metin yazma..."
 
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
 msgstr ""
+"aritmetik: sayılar, işlemler, tablo belleği, sayma, çift giriş tablosu..."
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr ""
+msgstr "bilim: kanal kilidi, su çevrimi, yenilenebilir enerji..."
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr ""
+msgstr "coğrafya: ülkeler, bölgeler, kültürler..."
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr ""
+msgstr "oyunlar: satranç, bellek, top hizalama, adam asmaca, üç taş..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr ""
+msgstr "diğer: renkler, şekiller, Braille, zamanı söyleme..."
 
 #: template/index.html:165
 msgid ""
@@ -551,12 +597,18 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
+"Şu anda, GCompris 100'den fazla etkinlik sunar ve bir çoğu da geliştirme "
+"aşamasındadır. GCompris özgür yazılımdır, gereksinimlerinize göre "
+"değiştirebilir, iyileştirebilir ve dünyanın her yanındaki çocuklarla "
+"paylaşabilirsiniz."
 
 #: template/index.html:166
 msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
+"GCompris projesi <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
+"kde.org/\">KDE topluluğu</a> tarafından barındırılır ve geliştirilir."
 
 #: template/news.html:3 template/news.html:8 template/newsall.html:3
 #: template/newsall.html:8 template/singlenews.html:3
@@ -575,6 +627,10 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
+"GCompris, sınıfta veya sınıf dışında alıştırmalar sağlayan bir e-öğrenme "
+"aracıdır. GNU Genel Kamu Lisansı altında dağıtılan bir Özgür Yazılım'dır. "
+"Birden çok platformda çalışır (GNU/Linux, macOS, Windows, Android) ve düşük "
+"kapasiteli bilgisayarlarda da kullanılabilir."
 
 #: template/schools.html:14
 msgid ""
@@ -582,41 +638,49 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
+"GCompris, dünyanın her bir yanındaki okullarda 20 yıldan beridir var ve ana "
+"pedagojik alanlardaki 150'den fazla etkinliği sunar. Bunlardan bazıları:"
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr ""
+msgstr "Bilgisayar kullanmayı öğrenme"
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
+"Harfleri, sözcükleri ve sözcük kümelerini öğrenme etkinlikleriyle okuma "
+"pratiği"
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr ""
+"Saymayı, aritmetiği, ölçümleri ve yapbozları öğrenerek matematik yetkinliği "
+"kazanma"
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr ""
+msgstr "Dünyayı mantık, sanat, ve müzik ile keşfetme"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
-msgstr ""
+msgstr "Bilim ve insanlığı deney, tarih ve coğrafyayı öğrenerek keşfetme"
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
-msgstr ""
+msgstr "Masa oyunlarıyla stratejik düşünme yetisi kazanma"
 
 #: template/schools.html:24
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
+"GCompris bir internet bağlantısı gerektirmez, hiçbir verinizi toplamaz ve "
+"AB'nin Genel Veri Koruma Regülasyonu ile tümüyle uyumludur."
 
 #: template/schools.html:26
 msgid ""
@@ -628,6 +692,14 @@ msgid ""
 "children who can only read numbers or make it harder for children who can "
 "read both numbers and words."
 msgstr ""
+"GCompris 1.0, eğitimcilerin her çocuğun becerisine göre etkinlik düzeyini "
+"seçmesine olanak tanır. Örneğin, çocukların sayıları alıştırmasını sağlayan "
+"bir etkinlik, daha yüksek ve daha zor sayıları daha sonraki bir aşamaya "
+"bırakarak hangi sayılarla çalışabileceklerini seçebilirsiniz. Ya da çocuğun "
+"resimleri kronolojik olarak sıralamak zorunda olduğu bir etkinlikte, "
+"yalnızca sayıları okuyabilen çocuklar için etkinliğe puan verebilir veya hem "
+"sayıları hem de sözcükleri okuyabilen çocuklar için etkinlikleri "
+"zorlaştırabilirsiniz."
 
 #: template/schools.html:29
 msgid ""
@@ -635,6 +707,10 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
+"Bu derecelendirme işlevi, öğrencilere matematik, dil, bilim ve beşeri "
+"bilimler uygulamaları için eğitim alıştırmaları önermenize olanak tanır. "
+"Ayrıca problem çözme becerilerini geliştirmek için stratejik oyunlar "
+"oynayabilecekler."
 
 #: template/schools.html:31
 msgid ""
@@ -642,6 +718,9 @@ msgid ""
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
 msgstr ""
+"Sağlam bir pedagojik arka plan sağlamak için, GCompris etkinliklerinin "
+"düzeyleri, Fransızca öğretmenlerinin sınıfta ne öğretmesi gerektiğini "
+"tanımlayan Fransız ilkokul müfredatına dayanmaktadır."
 
 #: template/screenshot.html:33
 msgid "Description:"
