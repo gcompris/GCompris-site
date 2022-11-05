@@ -1,0 +1,11 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 2.3 Çıktı' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris360.png' class='col-xs-12 col-md-4' alt='gcompris 2.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris360.png')"/>
+
+<p>Bugün, GCompris sürüm 2.3'ü yayımlıyoruz.</p>
+<p>2.2 sürümünün 3 etkinliği bozduğunu ayrımladığımızdan ("Abece sıralaması", "Tek ve çift sayılar" ve "Sıralı sayılar"), bu sürümü biraz hızlandırmaya karar verdik.</p>
+<p>Bu yeni sürüm için olan GNU/Linux, Windows, Raspberry Pi ve macOS paketlerini <a href="https://gcompris.net/downloads{{ suffix }}.html">indirme sayfasında</a> bulabilirsiniz. Bu güncelleme kısa süre içinde Google Play Store, F-Droid deposu ve Microsoft Store'da da yerini alacak.</p>
+<p>Herkese teşekkürler!<br/>Timothée ve Johnny,</p>
+{% endblock %}
