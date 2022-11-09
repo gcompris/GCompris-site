@@ -1,6 +1,7 @@
 <?php
 $Destination['en'] = '-en';
 $Destination['be'] = '-be';
+$Destination['br'] = '-br';
 $Destination['bg'] = '-bg';
 $Destination['ca'] = '-ca';
 $Destination['cs'] = '-cs';
@@ -8,23 +9,38 @@ $Destination['da'] = '-da';
 $Destination['de'] = '-de';
 $Destination['el'] = '-el';
 $Destination['es'] = '-es';
+$Destination['et'] = '-et';
+$Destination['eu'] = '-eu';
+$Destination['fi'] = '-fi';
 $Destination['fr'] = '-fr';
 $Destination['gd'] = '-gd';
 $Destination['gl'] = '-gl';
+$Destination['he'] = '-he';
 $Destination['hu'] = '-hu';
+$Destination['id'] = '-id';
+$Destination['it'] = '-it';
+$Destination['ko'] = '-ko';
 $Destination['lt'] = '-lt';
 $Destination['lv'] = '-lv';
+$Destination['mk'] = '-mk';
+$Destination['ml'] = '-ml';
+$Destination['nl'] = '-nl';
 $Destination['nn'] = '-nn';
 $Destination['pl'] = '-pl';
 $Destination['pt'] = '-pt';
 $Destination['pt-br'] = '-pt_BR';
+$Destination['ro'] = '-ro';
 $Destination['ru'] = '-ru';
 $Destination['sk'] = '-sk';
 $Destination['sl'] = '-sl';
+$Destination['sq'] = '-sq';
 $Destination['sr'] = '-sr';
 $Destination['sv'] = '-sv';
 $Destination['ta'] = '-ta';
+$Destination['tr'] = '-tr';
 $Destination['th'] = '-th';
+$Destination['uk'] = '-uk';
+$Destination['zh-cn'] = '-zh_CN';
 $Destination['zh-tw'] = '-zh_TW';
 
 /*
