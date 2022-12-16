@@ -1,5 +1,5 @@
 
-VERSION = 2.4
+VERSION = 3.0
 
 # Don't forget to also update index.php and gcompris.py when updating this list
 ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr gd gl he hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
@@ -60,8 +60,8 @@ update: downloadGComprisSrc
 	  outTsFile="$$translationFolder/gcompris_qt.ts"; \
 	  outQmFile="$$translationFolder/gcompris_qt.qm"; \
 	  mkdir -p $$translationFolder; \
-	  if [ -f "$(GCOMPRIS_DIR)/po/gcompris_$$lang.po" ]; then \
-		  msgattrib --no-obsolete $(GCOMPRIS_DIR)/po/gcompris_$$lang.po -o $$outTsFile; \
+	  if [ -f "$(GCOMPRIS_DIR)/poqm/$$lang/gcompris_qt.po" ]; then \
+		  msgattrib --no-obsolete $(GCOMPRIS_DIR)/poqm/$$lang/gcompris_qt.po -o $$outTsFile; \
 		  lconvert -if po -of ts -i $$outTsFile -o $$outTsFile; \
 		  lrelease -compress -nounfinished $$outTsFile -qm $$outQmFile; \
 	  fi; \
