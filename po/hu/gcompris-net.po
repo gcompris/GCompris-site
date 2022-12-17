@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-10-17 00:50+0000\n"
-"PO-Revision-Date: 2022-04-11 19:24+0200\n"
+"PO-Revision-Date: 2022-12-17 09:24+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -156,14 +156,8 @@ msgid "Your names"
 msgstr "Lipták István"
 
 #: gcompris.py:396
-#, fuzzy
-#| msgid ""
-#| "For Christmas, offer GCompris to your children. It's free and will give "
-#| "them hours of educational fun."
 msgid "For Christmas, offer GCompris to your children."
-msgstr ""
-"Adj GCompris-t karácsonyra a gyerekeidnek! Ingyenes és több óra hosszányi "
-"játszva szórakozást kínál."
+msgstr "Adj GCompris-t karácsonyra a gyerekeidnek! "
 
 #: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
@@ -536,7 +530,7 @@ msgstr "Sakkozz egy barátod ellen!"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr "Kattints egy  kisbetűre!"
+msgstr "Kattints egy kisbetűre!"
 
 #: template/index.html:147
 msgid "View all screenshots"
@@ -747,7 +741,7 @@ msgstr "Köszönet:"
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr ""
+msgstr "Válassz kategóriát!"
 
 #: template/screenshots.html:38
 msgid "All"
@@ -755,35 +749,35 @@ msgstr "Összes"
 
 #: template/screenshots.html:39
 msgid "Computer"
-msgstr ""
+msgstr "Számítógépek"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr ""
+msgstr "Felfedezés"
 
 #: template/screenshots.html:41
 msgid "Sciences"
-msgstr ""
+msgstr "Tudomány"
 
 #: template/screenshots.html:42
 msgid "Fun"
-msgstr ""
+msgstr "Szórakozás"
 
 #: template/screenshots.html:43
 msgid "Mathematics"
-msgstr ""
+msgstr "Matematika"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr ""
+msgstr "Puzzle"
 
 #: template/screenshots.html:45
 msgid "Reading"
-msgstr ""
+msgstr "Olvasás"
 
 #: template/screenshots.html:46
 msgid "Strategy"
-msgstr ""
+msgstr "Stratégia"
 
 #~ msgid "Version %(version)s"
 #~ msgstr "Verzió %(version)s"
