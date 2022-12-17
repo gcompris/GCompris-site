@@ -2,7 +2,7 @@
 VERSION = 2.4
 
 # Don't forget to also update index.php and gcompris.py when updating this list
-ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr gd gl he hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
+ALL_LINGUAS = be br ca ca@valencia de el es et eu fi fr gd gl he hr hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
 #ALL_LINGUAS = fr
 
 GCOMPRIS_DIR="gcompris-qt-$(VERSION)"
