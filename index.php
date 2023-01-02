@@ -16,6 +16,7 @@ $Destination['fr'] = '-fr';
 $Destination['gd'] = '-gd';
 $Destination['gl'] = '-gl';
 $Destination['he'] = '-he';
+$Destination['hr'] = '-hr';
 $Destination['hu'] = '-hu';
 $Destination['id'] = '-id';
 $Destination['it'] = '-it';
