@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-01 01:04+0000\n"
-"PO-Revision-Date: 2022-04-12 13:23+0100\n"
+"PO-Revision-Date: 2022-12-22 17:19+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. news title
 msgctxt "20220227.html"
@@ -156,14 +156,8 @@ msgid "Your names"
 msgstr "Envel Kervoas"
 
 #: gcompris.py:397
-#, fuzzy
-#| msgid ""
-#| "For Christmas, offer GCompris to your children. It's free and will give "
-#| "them hours of educational fun."
 msgid "For Christmas, offer GCompris to your children."
-msgstr ""
-"Profit GCompris d'ho pugale da Nedeleg. Digoust eo hag ur bern eurvezhioù "
-"kelennadel plijus vo evite."
+msgstr "Profit GCompris d'ho pugale da Nedeleg."
 
 #: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
@@ -761,7 +755,7 @@ msgstr "Trugarekaat :"
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr ""
+msgstr "Dibab ur rummad"
 
 #: template/screenshots.html:38
 msgid "All"
@@ -769,35 +763,35 @@ msgstr "Pep tra"
 
 #: template/screenshots.html:39
 msgid "Computer"
-msgstr ""
+msgstr "Urzhiataer"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr ""
+msgstr "Dizoleiñ"
 
 #: template/screenshots.html:41
 msgid "Sciences"
-msgstr ""
+msgstr "Skiantoù"
 
 #: template/screenshots.html:42
 msgid "Fun"
-msgstr ""
+msgstr "Plijadur"
 
 #: template/screenshots.html:43
 msgid "Mathematics"
-msgstr ""
+msgstr "Matematik"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr ""
+msgstr "Divinatez"
 
 #: template/screenshots.html:45
 msgid "Reading"
-msgstr ""
+msgstr "Lenn"
 
 #: template/screenshots.html:46
 msgid "Strategy"
-msgstr ""
+msgstr "Strategiezh"
 
 #~ msgid "Version %(version)s"
 #~ msgstr "Stumm %(version)s"
