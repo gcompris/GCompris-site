@@ -5,13 +5,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # pan93412 <pan93412@gmail.com>, 2018, 2019.
 # Timo <animtim@gmail.com>, 2020.
+# Franklin Weng <franklin@goodhorse.idv.tw>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-01 01:04+0000\n"
-"PO-Revision-Date: 2020-03-17 00:10+0100\n"
-"Last-Translator: Timo <animtim@gmail.com>\n"
+"PO-Revision-Date: 2023-01-03 15:19+0800\n"
+"Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +20,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #. news title
 msgctxt "20220227.html"
 msgid "Release GCompris 2.3"
-msgstr ""
+msgstr "釋出 GCompris 2.3"
 
 #. paragraph
 msgctxt "20220227.html"
 msgid "Today we are releasing GCompris version 2.3."
-msgstr ""
+msgstr "我們今天將釋出 GCompris 2.3 版。"
 
 #. paragraph
 msgctxt "20220227.html"
@@ -39,6 +40,8 @@ msgid ""
 "\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
 "release."
 msgstr ""
+"因為我們發現 2.2 版中有三個活動有問題（「字母順序」、「偶數與奇數」與「依照順"
+"序的數字」），我們決定盡快修正並釋出新版。"
 
 #. paragraph
 msgctxt "20220227.html"
@@ -48,28 +51,31 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
+"您可以在<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下載"
+"頁面</a>中找到 GNU/Linux、Windows、樹莓派與 macOS 上的新版本。這次更新也會盡"
+"快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
 
 #. paragraph
 msgctxt "20220227.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "感謝您的支持。<br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20220413.html"
 msgid "Release GCompris 2.4"
-msgstr ""
+msgstr "釋出 GCompris 2.4"
 
 #. paragraph
 msgctxt "20220413.html"
 msgid "Today we are releasing GCompris version 2.4."
-msgstr ""
+msgstr "我們今天將釋出 GCompris 2.4 版。"
 
 #. paragraph
 msgctxt "20220413.html"
 msgid ""
 "We optimized the size of all the packages for all platforms and of the "
 "external word images set (~30% smaller)."
-msgstr ""
+msgstr "我們最佳化了所有平台上所有套件以及外部單字圖集的大小（縮小了 30%）。"
 
 #. paragraph
 msgctxt "20220413.html"
@@ -78,13 +84,15 @@ msgid ""
 "you should go to the configuration and click on \\\"Download full word image "
 "set\\\"."
 msgstr ""
+"如果您關閉自動下載，並且想要擁有完整的圖集，您要到設定頁按下「下載完整單字圖"
+"集」鍵。"
 
 #. paragraph
 msgctxt "20220413.html"
 msgid ""
 "The text \\\"Full word image set is installed\\\" is displayed below when "
 "you have the latest version."
-msgstr ""
+msgstr "當您下載完最新版本的圖集後，會出現「完整單字圖集已安裝」的字樣。"
 
 #. paragraph
 msgctxt "20220413.html"
@@ -93,18 +101,20 @@ msgid ""
 "and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
 "Aiswarya Kaitheri Kandoth."
 msgstr ""
+"Norwegian Nynorsk 介紹的語音檔由 Karl Ove Hufthammer 與 Øystein Steffensen-"
+"Alværvik 加入。 Malayalam 語音檔由 Aiswarya Kaitheri Kandoth 所完成。"
 
 #. paragraph
 msgctxt "20220413.html"
 msgid "Many images have been updated for several activities."
-msgstr ""
+msgstr "部份活動有許多圖像更新。"
 
 #. paragraph
 msgctxt "20220413.html"
 msgid ""
 "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
 "associations activities."
-msgstr ""
+msgstr "我們也修正了某些在再生能源、水循環與邏輯活動中的問題。"
 
 #. paragraph
 msgctxt "20220413.html"
@@ -114,26 +124,29 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
+"您可以在<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下載"
+"頁面</a>中找到 GNU/Linux、Windows、樹莓派與 macOS 上的新版本。這次更新也會盡"
+"快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
 
 #. paragraph
 msgctxt "20220413.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "感謝您的支持。<br/>Timothée & Johnny"
 
 #: gcompris.py:291
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
-msgstr ""
+msgstr "這個軟體是 GNU 套件，以 GNU Affero General Public License 授權釋出。"
 
 #: gcompris.py:292
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Franklin Weng"
 
 #: gcompris.py:397
 msgid "For Christmas, offer GCompris to your children."
-msgstr ""
+msgstr "在聖誕節時，把 GCompris 當聖誕禮物送給您的小孩吧。"
 
 #: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
@@ -146,15 +159,15 @@ msgstr "捐助"
 #: template/base.html:73 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
-msgstr "螢幕擷取"
+msgstr "截圖"
 
 #: template/base.html:74 template/schools.html:3 template/schools.html:8
 msgid "Schools"
-msgstr ""
+msgstr "學校"
 
 #: template/base.html:75
 msgid "Manual"
-msgstr "說明"
+msgstr "手冊"
 
 #: template/base.html:76
 msgid "Contribute"
@@ -163,69 +176,66 @@ msgstr "貢獻"
 #: template/base.html:107
 #, python-format
 msgid "Site last updated the %(revision_date)s."
-msgstr ""
+msgstr "網站上次更新於 %(revision_date)s 。"
 
 #: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr ""
+msgstr "網站翻譯者：%(translators_names)s。"
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
-msgstr ""
+msgstr "聖誕節的 GCompris"
 
 #: template/christmas.html:15
 msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
+"在聖誕節時，把 GCompris 當聖誕禮物送給您的小孩吧。它可以免費下載，並給他們一"
+"段有教育意義的歡樂時光。"
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr ""
+msgstr "到我們的下載頁面下載 GCompris"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr ""
+msgstr "從 Play 商店取得 GCompris"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr ""
+msgstr "從 Windows 商店取得 GCompris"
 
 #: template/donate.html:13
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
-msgstr ""
+msgstr "您、您的小孩或您的學校會喜歡 GCompris 的。您可以捐款來支持這個專案。"
 
 #: template/donate.html:14
 msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
-msgstr ""
+msgstr "開發軟體需要很多時間，也需要硬體與其他的資源。"
 
 #: template/donate.html:16
 msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
-msgstr ""
+msgstr "如果您願意固定支持 GCompirs 的開發，請到 Patreon 支持 GCompris："
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
-msgstr ""
+msgstr "到 Patron 支持我們"
 
 #: template/donate.html:21
-#, fuzzy
-#| msgid ""
-#| "You can donate the amount of your choice by clicking on the button below:"
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "您能按底下按鈕來捐助所選金額："
+msgstr "您也可以指定部份金額支持 KDE："
 
 #: template/donate.html:22
-#, fuzzy
-#| msgid "Donate"
 msgid "Donate to KDE"
-msgstr "捐助"
+msgstr "捐款給 KDE"
 
 #: template/donate.html:24
 msgid "Thanks for supporting Free Software in education."
@@ -233,35 +243,35 @@ msgstr "感謝您支持教育領域的自由軟體。"
 
 #: template/donate.html:27
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: template/donate.html:30
-#, fuzzy
-#| msgid "Thanks for supporting Free Software in education."
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr "感謝您支持教育領域的自由軟體。"
+msgstr "感謝所有在 Patreon 上支持 GCompris 的人！"
 
 #: template/downloads.html:16
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: template/downloads.html:20
 msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
+"您可以從 <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">Windows 商店</a> 下載 GCompris。"
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr ""
+msgstr "注意：Windows 商店至少需要使用 Windows 10 以上的版本。"
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr ""
+msgstr "您也可以從以下的連結下載安裝檔。"
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
-msgstr ""
+msgstr "系統需求：Windows 7, 8, 10 以上，有 OpenGL 2 支援。"
 
 #: template/downloads.html:29
 msgid ""
@@ -269,6 +279,8 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
+"注意：如果您的系統沒有 OpenGL 2 支援，或無法正常運作，請在開始選單中使用 "
+"GCompris（安全模式）來啟動。"
 
 #: template/downloads.html:30
 msgid ""
@@ -276,6 +288,8 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
+"如果您真的需要在 Windows XP 上執行，或是您的系統不支援最新版本，您可以使用舊"
+"的 GCompris 15.10 版本的安裝檔。"
 
 #: template/downloads.html:34
 msgid ""
@@ -283,14 +297,16 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
+"要在此舊版本上玩所有的活動，您可以在啟動 GCompirs 時在有 CODE 的輸入框中輸入 "
+"200202。"
 
 #: template/downloads.html:44
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr ""
+msgstr "Android 版本是透過 Play 商店散布的。"
 
 #: template/downloads.html:52
 msgid ""
@@ -298,18 +314,20 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
+"我們支援 32 位元與 64 位元的 Play 商店。它會自動根據您的 Android 作業系統來下"
+"載適當的版本。"
 
 #: template/downloads.html:54
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
-msgstr ""
+msgstr "GCompris 也可以從 F-Droid 上下載。"
 
 #: template/downloads.html:59
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
-msgstr ""
+msgstr "您也可以從我們的網站上手動下載 apk 版本到您的裝置上安裝。"
 
 #: template/downloads.html:64
 msgid ""
@@ -317,56 +335,62 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
+"若您的 Android 版本是 2.3 到 4.0 版，最新相容的版本是 <a href= \"https://"
+"gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-"
+"armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>。"
 
 #: template/downloads.html:75
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr ""
+msgstr "您可以從以下的連結下載 macOS 版。"
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr ""
+msgstr "在 macOS 10.13 上編譯並測試。"
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
-msgstr ""
+msgstr "GNU/Linux"
 
 #: template/downloads.html:97
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
-msgstr ""
+msgstr "您可以看看您的 Linux 系統套件庫中是否有最新版的 GCompris。"
 
 #: template/downloads.html:98
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
+"我們也提供 GNU/Linux 上的獨立套件。它應該可以在任何一種 Linux 套件上執行。"
 
 #: template/downloads.html:98
 msgid "System requirements:"
-msgstr ""
+msgstr "系統需求："
 
 #: template/downloads.html:103 template/downloads.html:130
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
-msgstr ""
+msgstr "開啟終端機，並進入您下載安裝檔的資料夾後，執行以下指令："
 
 #: template/downloads.html:108 template/downloads.html:135
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
+"然後閱讀授權條款，或是按 Q 跳過，輸入 yes，軟體就會安裝在跟安裝檔同一層的新資"
+"料夾中。"
 
 #: template/downloads.html:109 template/downloads.html:136
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
-msgstr ""
+msgstr "要啟動 Gcompris ，進入新安裝的資料夾，雙擊 gcompris-qt.sh 即可。"
 
 #: template/downloads.html:110
 msgid ""
@@ -376,6 +400,10 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
+"注意：如果您的系統沒有 OpenGL 2 支援，或是無法正常運作，請在 gcompris-qt.sh "
+"檔案的最後一行加上 \"--software-renderer\" 。另一種方式是編輯設定檔（在 ~/."
+"config/gcompris-qt/gcompris-qt.conf 中）：找到這一行：\"renderer=auto\" ，把 "
+"auto 換成 software 並儲存。"
 
 #: template/downloads.html:111
 msgid ""
@@ -383,46 +411,53 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
+"另外，您也可以透過 <a href=\"https://flathub.org/apps/details/org.kde."
+"gcompris\">Flathub</a> 或 <a href=\"https://snapcraft.io/gcompris\">Snap "
+"store</a> 來安裝。"
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
-msgstr ""
+msgstr "樹莓派"
 
 #: template/downloads.html:126
 msgid "We provide a standalone package for Raspberry Pi."
-msgstr ""
+msgstr "我們提供在樹莓派上的獨立運作套件。"
 
 #: template/downloads.html:126
 msgid "It was tested only on Raspberry Pi 3."
-msgstr ""
+msgstr "它只在樹莓派 3 上測試過。"
 
 #: template/downloads.html:146
 msgid "Source code"
-msgstr ""
+msgstr "程式源碼"
 
 #: template/downloads.html:150
 msgid "The source code is available under the AGPLv3 license."
-msgstr ""
+msgstr "程式源碼套過 AGPLv3 授權釋出。"
 
 #: template/downloads.html:163
 msgid "SHA-256 and GPG"
-msgstr ""
+msgstr "SHA-256 與 GPG"
 
 #: template/downloads.html:167
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
+"要檢查您下載檔案的完整性，您可以在下載連結的後面加上 \".sha256\" 下載 "
+"SHA-256 簽章檔來比對。"
 
 #: template/downloads.html:168
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: "
 msgstr ""
+"程式源碼的 tarball 壓縮檔以及 Linux 安裝檔都已由 Timothée Giet 的 GPG 金鑰簽"
+"署過（他的公開金鑰為："
 
 #: template/downloads.html:170
 msgid "sig files:"
-msgstr ""
+msgstr "簽章檔："
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -438,45 +473,47 @@ msgstr "最新消息"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr ""
+msgstr "點擊或觸碰"
 
 #: template/index.html:97
 msgid "Identify colors"
-msgstr ""
+msgstr "相同的顏色"
 
 #: template/index.html:103
 msgid "Learn clock"
-msgstr ""
+msgstr "學習時鐘"
 
 #: template/index.html:109
 msgid "Keyboard training"
-msgstr ""
+msgstr "鍵盤訓練"
 
 #: template/index.html:115
 msgid "Learn additions"
-msgstr ""
+msgstr "學習加法"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr ""
+msgstr "探索水循環"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr ""
+msgstr "與朋友一起下棋"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr ""
+msgstr "點擊小寫字母"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr "觀看所有螢幕擷取"
+msgstr "觀看所有螢幕截圖"
 
 #: template/index.html:153
 msgid ""
 "GCompris is a high quality educational software suite, including a large "
 "number of activities for children aged 2 to 10."
 msgstr ""
+"GCompris 是一款高品質的教育軟體套件，裡面包含了許多適合 2 到 10 歲孩子們的活"
+"動。"
 
 #: template/index.html:154
 msgid ""
@@ -486,37 +523,37 @@ msgstr "有些活動為遊戲導向，但仍然有教育功能。"
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
-msgstr ""
+msgstr "這裡是活動類別與一些範例："
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr ""
+msgstr "探索電腦：鍵盤、滑鼠、觸控螢幕等等..."
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr ""
+msgstr "閱讀：字母、單字、閱讀練習、打字等等..."
 
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr ""
+msgstr "數學運算：數字、運算符、計數等等..."
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr ""
+msgstr "科學：運河閘門、水循環、再生能源等等..."
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr ""
+msgstr "地理：國家、區域、文化等等..."
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr ""
+msgstr "遊戲：棋類、記憶遊戲、四子棋、井字遊戲等等..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr ""
+msgstr "其他：顏色、形狀、點字系統、學習看時鐘等等..."
 
 #: template/index.html:165
 msgid ""
@@ -525,22 +562,26 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
+"目前 GCompris 有超過 100 種遊戲，並且持續開發中。GCompris 是一套自由軟體，您"
+"可以依照自己的需求做調整、改進並與各地的孩子們分享。"
 
 #: template/index.html:166
 msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
+"GCompris 專案目前由 <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
+"kde.org/\">KDE 社群</a>維護、開發。"
 
 #: template/news.html:3 template/news.html:8 template/newsall.html:3
 #: template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
 msgid "News"
-msgstr ""
+msgstr "最新消息"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
-msgstr "全部消息"
+msgstr "所有消息"
 
 #: template/schools.html:13
 msgid ""
@@ -549,6 +590,9 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
+"GCompris 是一套數位學習工具，提供教室內外的各種領域的訓練。它是自由軟體，以 "
+"GNU GPL 授權釋出。它支援多種平台（GNU/Linux、Windows、Android、macOS 等），也"
+"可以在低階的電腦上運作。"
 
 #: template/schools.html:14
 msgid ""
@@ -556,41 +600,45 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
+"GCompris 在世界各地的學校被廣泛使用已經有 20 多年的歷史，並提供涵蓋主要教學領"
+"域的 150 多項活動，包括："
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr ""
+msgstr "學習如何使用電腦"
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
-msgstr ""
+msgstr "練習閱讀、學習字母、單字與詞彙集"
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
-msgstr ""
+msgstr "透過練習計數、數學運算、測量與解謎等來熟悉數學"
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr ""
+msgstr "透過邏輯、藝術與音樂來探索世界"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
-msgstr ""
+msgstr "透過實驗、歷史與地理來探索科學與人文"
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
-msgstr ""
+msgstr "透過遊戲來發展策略思維"
 
 #: template/schools.html:24
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
+"GCompris 不需要網際網路連線也可以玩，不會收集任何資料，並且嚴格遵循歐盟的通用"
+"資料保護規範（GDPR）。"
 
 #: template/schools.html:26
 msgid ""
@@ -602,6 +650,10 @@ msgid ""
 "children who can only read numbers or make it harder for children who can "
 "read both numbers and words."
 msgstr ""
+"GCompris 1.0 讓教育工作者可以根據每個孩子的技能選擇活動的困難度。例如，在讓孩"
+"子練習數字的活動中，您可以選擇他們可以使用的數字，將更高、更難的數字留給後面"
+"的關卡。或者在孩子必須按時間順序排列圖片的活動中，您可以為只能閱讀數字的孩子"
+"對活動進行評分，或者讓既能閱讀數字又能閱讀單詞的孩子進行較困難的關卡。"
 
 #: template/schools.html:29
 msgid ""
@@ -609,6 +661,8 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
+"這個評分功能能讓您針對學生程度提出不同的訓練計畫，讓學生們練習數學、語言、科"
+"學和人文學科。他們也能透過思考玩遊戲的策略來訓練他們解決問題的能力。"
 
 #: template/schools.html:31
 msgid ""
@@ -616,6 +670,8 @@ msgid ""
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
 msgstr ""
+"為了提供紮實的教學背景，GCompris 的活動級別以法國小學課程為基礎，該課程定義了"
+"法國教師必須在課堂上教授的內容。"
 
 #: template/screenshot.html:33
 msgid "Description:"
@@ -637,47 +693,47 @@ msgstr "說明："
 #. activity thanks to
 #: template/screenshot.html:48
 msgid "Credit:"
-msgstr "鳴謝："
+msgstr "謝誌："
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr ""
+msgstr "請選擇一個類別"
 
 #: template/screenshots.html:38
 msgid "All"
-msgstr ""
+msgstr "全部"
 
 #: template/screenshots.html:39
 msgid "Computer"
-msgstr ""
+msgstr "電腦"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr ""
+msgstr "探索"
 
 #: template/screenshots.html:41
 msgid "Sciences"
-msgstr ""
+msgstr "科學"
 
 #: template/screenshots.html:42
 msgid "Fun"
-msgstr ""
+msgstr "遊戲"
 
 #: template/screenshots.html:43
 msgid "Mathematics"
-msgstr ""
+msgstr "數學"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr ""
+msgstr "謎題"
 
 #: template/screenshots.html:45
 msgid "Reading"
-msgstr ""
+msgstr "閱讀"
 
 #: template/screenshots.html:46
 msgid "Strategy"
-msgstr ""
+msgstr "策略"
 
 #~ msgid "Version %(version)s"
 #~ msgstr "版本 %(version)s"
