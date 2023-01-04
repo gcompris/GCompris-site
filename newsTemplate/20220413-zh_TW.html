@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = '釋出 GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>我們今天將釋出 GCompris 2.4 版。</p>
+<p>我們最佳化了所有平台上所有套件以及外部單字圖集的大小（縮小了 30%）。</p>
+<p>如果您關閉自動下載，並且想要擁有完整的圖集，您要到設定頁按下「下載完整單字圖集」鍵。</p>
+<p>當您下載完最新版本的圖集後，會出現「完整單字圖集已安裝」的字樣。</p>
+<p>Norwegian Nynorsk 介紹的語音檔由 Karl Ove Hufthammer 與 Øystein Steffensen-Alværvik 加入。 Malayalam 語音檔由 Aiswarya Kaitheri Kandoth 所完成。</p>
+<p>部份活動有許多圖像更新。</p>
+<p>我們也修正了某些在再生能源、水循環與邏輯活動中的問題。</p>
+<p>您可以在<a href="https://gcompris.net/downloads{{ suffix }}.html">下載頁面</a>中找到 GNU/Linux、Windows、樹莓派與 macOS 上的新版本。這次更新也會盡快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。</p>
+<p>感謝您的支持。<br/>Timothée & Johnny</p>
+{% endblock %}
