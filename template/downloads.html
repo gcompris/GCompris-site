@@ -165,7 +165,7 @@ chmod u+x gcompris-qt-{{ version }}-Raspberry.sh
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
 	      <p>{% trans %}To check the integrity of your downloads, you can get the original SHA-256 hash of the files by adding ".sha256" at the end of their download url.{% endtrans %}</p>
-	      <p>{% trans %}The source tarball and the Linux installers are signed with the GPG key from Timothée Giet (public key: {% endtrans %}<a href="https://collaborate.kde.org/s/8GpWjyHg5xBTQFS">0x63d7264c05687d7e.asc</a>)</p>
+	      <p>{% trans %}The source tarball and the Linux installers are signed with the GPG key from Timothée Giet (public key: {{ public_gpg_key }}){% endtrans %}</p>
 <pre>
 {% trans %}sig files:{% endtrans %}
 

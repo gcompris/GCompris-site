@@ -290,6 +290,7 @@ templateVars = {
     "manual": getManual(),
     "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License."),
     "translators_names": t.pgettext("NAME OF TRANSLATORS", "Your names"),
+    "public_gpg_key": '<a href="https://collaborate.kde.org/s/8GpWjyHg5xBTQFS">0x63d7264c05687d7e.asc</a>',
     "feed": []
     }
 
