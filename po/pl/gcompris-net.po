@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2022-06-05 11:42+0200\n"
 "Last-Translator: Grzegorz Koryga <<rehork@tutamail.com>>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -161,7 +161,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Łukasz Wojniłowicz, Grzegorz Koryga"
 
-#: gcompris.py:397
+#: gcompris.py:398
 #, fuzzy
 #| msgid ""
 #| "For Christmas, offer GCompris to your children. It's free and will give "
@@ -493,9 +493,13 @@ msgstr ""
 "dodając \".sha256\" na końcu adresu do ich pobrania."
 
 #: template/downloads.html:168
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: "
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Paczka ze źródłami oraz instalatory Linuksa są podpisane kluczem GPG od "
 "Timothée Giet (klucz publiczny: "

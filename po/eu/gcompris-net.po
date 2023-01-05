@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2022-09-05 07:29+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -159,7 +159,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Iñigo Salvador Azurmendi"
 
-#: gcompris.py:397
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Gabonetarako, eskaini GCompris zure haurrei."
 
@@ -488,9 +488,13 @@ msgstr ""
 "hash lor dezakezu haien zama-jaisteko url bukaeran \".sha256\" gehituta."
 
 #: template/downloads.html:168
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: "
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Sorburuen «tarball»a eta Linux instalatzailea Timothée Giet-en GPG "
 "gakoarekin sinatuta daude (gako publikoa: "

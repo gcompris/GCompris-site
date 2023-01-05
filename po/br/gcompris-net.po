@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2022-12-22 17:19+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
@@ -155,7 +155,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Envel Kervoas"
 
-#: gcompris.py:397
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Profit GCompris d'ho pugale da Nedeleg."
 
@@ -483,9 +483,13 @@ msgstr ""
 "restrou hash SHA-256 en ur ouzhpennañ \".sha256\" e fin hoc'h URL pellgargañ."
 
 #: template/downloads.html:168
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: "
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Ar vammenn tarball hag ar meziantoù staliañ Linux zo sinet dindan an "
 "alc'hwez GPG, gant Timothée Giet (alc'hwez foran :"

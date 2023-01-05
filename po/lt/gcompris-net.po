@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2022-08-21 19:36+0300\n"
 "Last-Translator: Rolandas Jakštys <rolasorama@gmail.com>\n"
 "Language-Team: lt <komp_lt@konferencijos.lt>\n"
@@ -160,7 +160,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Jonas Jakštys, Bernardas Liukaitis"
 
-#: gcompris.py:397
+#: gcompris.py:398
 #, fuzzy
 #| msgid ""
 #| "For Christmas, offer GCompris to your children. It's free and will give "
@@ -493,9 +493,13 @@ msgstr ""
 "SHA-256, jų atsisiuntimo URL pabaigoje pridėdami „.sha256“."
 
 #: template/downloads.html:168
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: "
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Pirminio programos teksto archyvas ir „Linux“ diegimo programos pasirašyti "
 "GPG raktu priklausančiu Timothée Giet (viešas raktas: "

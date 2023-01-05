@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2022-12-17 09:24+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -155,7 +155,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Lipták István"
 
-#: gcompris.py:397
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Adj GCompris-t karácsonyra a gyerekeidnek! "
 
@@ -477,9 +477,13 @@ msgstr ""
 "sha256\" parancsot a letöltési url végére írva."
 
 #: template/downloads.html:168
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: "
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "A forrás tarball és a Linux telepítők GPG kulccsal vannak ellátva Timothée "
 "Giet (publikus kulcs: "

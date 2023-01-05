@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2021-12-14 23:11+0100\n"
 "Last-Translator: Aiswarya Kaitheri Kandoth <aiswaryakk29@gmail.com>\n"
 "Language-Team: Malayalam <kde-i18n-doc@kde.org>\n"
@@ -169,7 +169,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: gcompris.py:397
+#: gcompris.py:398
 #, fuzzy
 #| msgid ""
 #| "For Christmas, offer GCompris to your children. It's free and will give "
@@ -517,9 +517,13 @@ msgid ""
 msgstr ""
 
 #: template/downloads.html:168
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: "
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "സോഴ്സ് ടാർബോളും ലിനക്സ് ഇൻസ്റ്റാളറുകളും GPG കീ ഉപയോഗിച്ച് ടിമോത്തെ ജിയറ്റ് ഒപ്പു വെച്ചിരിക്കുന്നു "
 "(പബ്ലിക് കീ:"
