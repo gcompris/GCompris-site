@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PROJECT project.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-12-11 14:10+0300\n"
+"PO-Revision-Date: 2023-01-05 22:00+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -481,16 +481,13 @@ msgstr ""
 "sonuna '.sha256' ekleyerek özgün SHA-256 sağlamasını alabilirsiniz."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Kaynak tarball'ları ve Linux kurucuları, Timothée Giet tarafından sağlanan "
-"GPG anahtarı ile imzalanmıştır (genel anahtar: "
+"GPG anahtarı ile imzalanmıştır (genel anahtar: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

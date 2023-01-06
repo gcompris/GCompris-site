@@ -496,16 +496,13 @@ msgid ""
 msgstr ""
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Lähtekoodi pakitud fail ja Linuxi paigaldamisprogrammid on allkirjastatud "
-"Timothée Giet' GPG võtmega (avalik võti: "
+"Timothée Giet' GPG võtmega (avalik võti: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

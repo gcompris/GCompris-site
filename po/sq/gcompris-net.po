@@ -494,16 +494,13 @@ msgstr ""
 "përkatëse të shkarkimit."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Paketa <em>tarball</em> e burimit dhe instaluesit për Linux janë nënshkruar "
-"me kyçin GPG nga Timothée Giet (kyç publik: "
+"me kyçin GPG nga Timothée Giet (kyç publik: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

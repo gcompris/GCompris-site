@@ -1,16 +1,16 @@
 # Translation template for gcompris-net.po to Euskara/Basque (eu).
-# Copyright (C) 2019-2022, This file is copyright:
+# Copyright (C) 2019-2023 This file is copyright:
 # This file is distributed under the same license as the websites-gcompris-net project.
 # KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2019, 2020, 2021, 2022.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-09-05 07:29+0200\n"
+"PO-Revision-Date: 2023-01-05 21:30+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #. news title
 msgctxt "20220227.html"
@@ -488,16 +488,13 @@ msgstr ""
 "hash lor dezakezu haien zama-jaisteko url bukaeran \".sha256\" gehituta."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Sorburuen «tarball»a eta Linux instalatzailea Timothée Giet-en GPG "
-"gakoarekin sinatuta daude (gako publikoa: "
+"Sorburuen «tar» fitxategia eta Linux instalatzailea Timothée Giet-en GPG "
+"gakoarekin sinatuta daude (gako publikoa: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

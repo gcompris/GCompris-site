@@ -4,13 +4,13 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017, 2018, 2019, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-09-05 08:30+0300\n"
+"PO-Revision-Date: 2023-01-05 08:44+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -500,16 +500,13 @@ msgstr ""
 "отримання образу."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Архів tar із початковим кодом і пакунки для встановлення у Linux підписано "
-"ключем GPG, який належить Timothée Giet (відкритий ключ: "
+"ключем GPG, який належить Timothée Giet (відкритий ключ: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

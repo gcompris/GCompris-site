@@ -4,13 +4,13 @@
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # Eloy <ecuadra@eloihr.net>, 2017.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2017, 2019, 2020, 2021, 2022.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2017, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-09-07 22:26+0200\n"
+"PO-Revision-Date: 2023-01-05 03:22+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 # news title
 #. news title
@@ -493,16 +493,13 @@ msgstr ""
 "de su URL de descarga."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "El tarbal con el código fuente y los instaladores para Linux están firmados "
-"con la clave GPG de Timothée Giet (clave pública: "
+"con la clave GPG de Timothée Giet (clave pública: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

@@ -4,13 +4,13 @@
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2014.
-# Freek de Kruijf <freekdekruijf@kde.nl>, 2017, 2018, 2019, 2020, 2021, 2022.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-09-05 12:47+0200\n"
+"PO-Revision-Date: 2023-01-05 22:33+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 # news title
 #. news title
@@ -497,16 +497,14 @@ msgstr ""
 "eind van hun download url."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "De tarball met broncode en de installatieprogramma's voor Linux zijn "
 "ondertekent met de GPG-sleutel van Timothée Giet (publieke sleutel: "
+"%(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

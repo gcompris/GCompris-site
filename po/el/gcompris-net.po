@@ -502,16 +502,13 @@ msgstr ""
 "τους."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Το πηγαίο αρχείο και οι εγκαταστάτες Linux έχουν υπογραφεί με κλειδί GPG από "
-"τον Timothée Giet (public key: "
+"τον Timothée Giet (public key: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

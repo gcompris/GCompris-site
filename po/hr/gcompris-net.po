@@ -484,16 +484,13 @@ msgstr ""
 "preuzimanje."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Izvorni tarball i programi za instalaciju Linuxa potpisani su GPG ključem od "
-"Timothée Giet (javni ključ: "
+"Timothée Giet (javni ključ: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
