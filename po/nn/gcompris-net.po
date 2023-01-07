@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-01 01:04+0000\n"
+"POT-Creation-Date: 2023-01-05 00:52+0000\n"
 "PO-Revision-Date: 2022-09-11 19:45+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -157,7 +157,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Karl Ove Hufthammer"
 
-#: gcompris.py:397
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Korfor ikkje visa barna dine GCompris i jula?"
 
@@ -485,12 +485,11 @@ msgstr ""
 "ei fil som inneheld rett sjekksum."
 
 #: template/downloads.html:168
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
-"Timothée Giet (public key: "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Arkivfilene med kjeldekoden og Linux-installerings­programmet er signerte med "
-"GPG-nøkkelen til Timothée Giet (offentlegnøkkel: "
 
 #: template/downloads.html:170
 msgid "sig files:"
