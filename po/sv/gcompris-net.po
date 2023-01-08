@@ -488,16 +488,13 @@ msgstr ""
 "nerladdningswebbadresser."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Källkodsarkivet och Linux-installationerna är signerade med GPG-nyckeln från "
-"Timothée Giet (öppen nyckel: "
+"Timothée Giet (öppen nyckel: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
