@@ -1,13 +1,13 @@
 # Translation of gcompris-net to Norwegian Nynorsk
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-# Karl Ove Hufthammer <karl@huftis.org>, 2017, 2018, 2020, 2021, 2022.
+# Karl Ove Hufthammer <karl@huftis.org>, 2017, 2018, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-09-11 19:45+0200\n"
+"PO-Revision-Date: 2023-01-08 11:24+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.08.1\n"
+"X-Generator: Lokalize 22.12.0\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -490,6 +490,8 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
+"Arkivfilene med kjeldekoden og Linux-installerings­programmet er signerte "
+"med GPG-nøkkelen til Timothée Giet (offentlegnøkkel: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

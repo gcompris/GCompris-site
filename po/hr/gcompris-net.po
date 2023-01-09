@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-12-17 21:55+0100\n"
+"PO-Revision-Date: 2023-01-04 20:30+0100\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
 "Language: hr\n"
@@ -28,7 +28,7 @@ msgstr "Izdanje GCompris 2.3"
 #. paragraph
 msgctxt "20220227.html"
 msgid "Today we are releasing GCompris version 2.3."
-msgstr "Danas objavljujemo GCompris verziju 2.3."
+msgstr "Danas smo objavili GCompris verziju 2.3."
 
 #. paragraph
 msgctxt "20220227.html"
@@ -39,9 +39,9 @@ msgid ""
 "release."
 msgstr ""
 "Kako smo primijetili da je verzija 2.2 isporučena s greškom koja je "
-"onemogućila 3 aktivnosti (\\\"Slijed abecede\\\", \\\"Parni i neparni brojevi"
-"\\\" i \\\"Brojevi po redu\\\"), odlučili smo to brzo popraviti s novim "
-"izdanjem."
+"onemogućila tri aktivnosti (\\\"Abecedni redoslijed\\\", \\\"Parni i neparni "
+"brojevi\\\" i \\\"Brojevi redom\\\"), odlučili smo brzo objaviti novo "
+"izdanje."
 
 #. paragraph
 msgctxt "20220227.html"
@@ -51,10 +51,10 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
-"Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možete "
+"Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možeš "
 "pronaći na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
 "\">stranici za preuzimanje</ a>. Ovo će ažuriranje uskoro biti dostupno u "
-"Android Play trgovini, F-Droid repozitoriju i Windows trgovini."
+"Google Play trgovini, F-Droid repozitoriju i na Microsoft Store."
 
 #. paragraph
 msgctxt "20220227.html"
@@ -69,7 +69,7 @@ msgstr "Izdanje GCompris 2.4"
 #. paragraph
 msgctxt "20220413.html"
 msgid "Today we are releasing GCompris version 2.4."
-msgstr "Danas objavljujemo GCompris verziju 2.4."
+msgstr "Danas smo objavili GCompris verziju 2.4."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -77,8 +77,8 @@ msgid ""
 "We optimized the size of all the packages for all platforms and of the "
 "external word images set (~30% smaller)."
 msgstr ""
-"Optimizirali smo veličinu svih paketa za sve platforme i vanjski skup slika "
-"riječi (~30% manje)."
+"Optimizirali smo veličinu svih paketa na svim platformama i vanjski skup "
+"slika riječi (~30% manje)."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -87,9 +87,9 @@ msgid ""
 "you should go to the configuration and click on \\\"Download full word image "
 "set\\\"."
 msgstr ""
-"Ako ste onemogućili automatsko preuzimanje i želite imati kompletne slike, "
-"trebali biste otići na konfiguraciju i kliknuti na \\\"Preuzmi cjeloviti "
-"skup slika\\\"."
+"Ako je onemogućeno automatsko preuzimanje a želiš imati komplet svih slika, "
+"otiđi na konfiguraciju i klikni na \\\"Preuzmi cjeloviti slikovni rječnik\\"
+"\"."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -97,8 +97,8 @@ msgid ""
 "The text \\\"Full word image set is installed\\\" is displayed below when "
 "you have the latest version."
 msgstr ""
-"Tekst \\\"Cjeloviti komplet slika je instaliran\\\" prikazan je ispod kada "
-"imate najnoviju verziju."
+"Tekst \\\"Instaliran je cjelovit slikovni rječnik\\\" biti će prikazan ispod "
+"kada koristiš najnoviju verziju."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -114,7 +114,7 @@ msgstr ""
 #. paragraph
 msgctxt "20220413.html"
 msgid "Many images have been updated for several activities."
-msgstr "Mnogo slika je ažurirano za razne aktivnosti."
+msgstr "Mnogo slika je ažurirano za potrebe raznih aktivnosti."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -122,8 +122,8 @@ msgid ""
 "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
 "associations activities."
 msgstr ""
-"Također smo popravili nekoliko grešaka u aktivnostima obnovljive energije, "
-"vodenog ciklusa i logičkih udruga."
+"Također smo popravili nekoliko grešaka u aktivnostima vezanim za obnovljivu "
+"energiju, ciklus vode i logiku."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -133,10 +133,10 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
-"Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možete "
+"Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možeš "
 "pronaći na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
 "\">stranici za preuzimanje</ a>. Ovo će ažuriranje uskoro biti dostupno u "
-"Android Play trgovini, F-Droid repozitoriju i Windows trgovini."
+"Google Play trgovini, F-Droid repozitoriju i na Microsoft Store."
 
 #. paragraph
 msgctxt "20220413.html"
@@ -158,15 +158,15 @@ msgstr "Igor Dobrača"
 
 #: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
-msgstr "Za Božić svojoj djeci ponudite GCompris."
+msgstr "Za Božić svojoj djeci predstavi GCompris."
 
 #: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
-msgstr "Preuzimanje"
+msgstr "Preuzimanja"
 
 #: template/base.html:72 template/donate.html:3 template/donate.html:8
 msgid "Donate"
-msgstr "Donirajte"
+msgstr "Doniraj"
 
 #: template/base.html:73 template/screenshots.html:3
 #: template/screenshots.html:30
@@ -179,11 +179,11 @@ msgstr "Škole"
 
 #: template/base.html:75
 msgid "Manual"
-msgstr "Priručnik"
+msgstr "Upute"
 
 #: template/base.html:76
 msgid "Contribute"
-msgstr "Doprinesite"
+msgstr "Doprinesi"
 
 #: template/base.html:107
 #, python-format
@@ -193,7 +193,7 @@ msgstr "Stranica je zadnji put ažurirana %(revision_date)s."
 #: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr "Stranicu preveo: %(translators_names)s."
+msgstr "Prijevod web sjedišta: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
@@ -204,27 +204,27 @@ msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
-"Za Božić svojoj djeci ponudite GCompris. Besplatan je i pružit će im sate "
+"Za Božić svojoj djeci predstavi GCompris. Besplatan je i pružit će im sate "
 "obrazovne zabave."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr "Nabavite GCompris s naše stranice za preuzimanje"
+msgstr "Preuzmi GCompris s naše stranice za preuzimanje"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr "Nabavite GCompris iz Trgovine Play"
+msgstr "Preuzmi GCompris iz Google Play trgovine"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr "Nabavite GCompris iz Windows trgovine"
+msgstr "Preuzmi GCompris iz Microsoft Store"
 
 #: template/donate.html:13
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"Vi, Vaša djeca ili Vaša škola volite GCompris. Projekt možete podržati "
+"Ti, tvoja djeca ili škola rado koristite GCompris. Projekt možeš podržati "
 "donacijom."
 
 #: template/donate.html:14
@@ -232,8 +232,8 @@ msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
 msgstr ""
-"Razvoj softvera zahtijeva puno vremena, potreban je hardver i drugi zahtjevi "
-"koji imaju cijenu."
+"Razvoj softvera je dugotrajan proces, potreban je hardver ali i drugi "
+"zahtjevi koji imaju svoju cijenu."
 
 #: template/donate.html:16
 msgid ""
@@ -245,11 +245,11 @@ msgstr ""
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
-msgstr "Postanite pokrovitelj"
+msgstr "Postani naš sponzor"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "Također, možete donirati željeni iznos za KDE:"
+msgstr "Također, možeš donirati željeni iznos za KDE:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
@@ -257,7 +257,7 @@ msgstr "Doniraj KDE"
 
 #: template/donate.html:24
 msgid "Thanks for supporting Free Software in education."
-msgstr "Hvala što podržavate besplatni softver u obrazovanju."
+msgstr "Hvala što podržavaš besplatni obrazovni softver."
 
 #: template/donate.html:27
 msgid "Patreon"
@@ -276,16 +276,16 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
-"GCompris možete instalirati <a href=\"https://www.microsoft.com/en-us/store/"
-"p/gcompris/9pgxjtcxn8qm\">iz Windows trgovine</a>."
+"GCompris možeš instalirati iz <a href=\"https://www.microsoft.com/en-us/"
+"store/p/gcompris/9pgxjtcxn8qm\">Microsoft Store</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr "Napomena: Windows Store zahtijeva Windows 10."
+msgstr "Napomena: Microsoft Store zahtijeva Windows 10."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr "Inače, instalacijski program možete preuzeti s donjih poveznica."
+msgstr "Inače, instalacijski program možeš preuzeti s donjih poveznica."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
@@ -297,8 +297,8 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
-"Napomena: Ako vaš sustav nema podršku za OpenGL 2 ili ako ne radi ispravno, "
-"upotrijebite unos GCompris (siguran način rada) u početnom izborniku za "
+"Napomena: Ako tvoj sustav nema podršku za OpenGL 2 ili ako ne radi ispravno, "
+"upotrijebi unos GCompris (siguran način rada) u početnom izborniku za "
 "pokretanje GComprisa sa softverskim načinom iscrtavanja koji ne koristi "
 "OpenGL."
 
@@ -308,8 +308,8 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
-"Ako vam stvarno treba verzija koja radi na Windows XP-u ili ako vaš sustav "
-"ne podržava novu verziju, možete koristiti zadnji instalacijski program iz "
+"Ako ti stvarno treba verzija koja radi na Windows XP-u ili ako tvoj sustav "
+"ne podržava novu verziju, možeš koristiti zadnji instalacijski program iz "
 "starog GComprisa 15.10."
 
 #: template/downloads.html:34
@@ -318,9 +318,9 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
-"Kako biste omogućili sve aktivnosti u ovoj staroj verziji, možete "
-"upotrijebiti šifru 200202 u okviru za unos koji sadrži riječ ŠIFRA prilikom "
-"pokretanja aplikacije."
+"Kako bi omogućio sve aktivnosti u ovoj staroj verziji, možeš upotrijebiti "
+"šifru 200202 u okviru za unos koji sadrži riječ CODE prilikom pokretanja "
+"aplikacije."
 
 #: template/downloads.html:44
 msgid "Android"
@@ -328,7 +328,7 @@ msgstr "Android"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr "Verzija za Android distribuira se u Trgovini Play."
+msgstr "Verzija za Android distribuira se u Google Play trgovini."
 
 #: template/downloads.html:52
 msgid ""
@@ -336,8 +336,9 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
-"Podržavamo i 32-bitni i 64-bitni android iz Trgovine Play. Odgovarajuća "
-"verzija automatski se preuzima ovisno o vašem operativnom sustavu Android."
+"Podržavamo i 32-bitni i 64-bitni android iz Google Play trgovine. "
+"Odgovarajuća verzija automatski se preuzima ovisno o operativnom sustavu "
+"Android koji koristiš."
 
 #: template/downloads.html:54
 msgid ""
@@ -352,8 +353,8 @@ msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
-"Također možete izravno preuzeti apk s naše web stranice kako biste ga ručno "
-"instalirali na svoj uređaj."
+"Također možeš izravno preuzeti apk s naše web stranice kako bi ga ručno "
+"instalirao na svoj uređaj."
 
 #: template/downloads.html:64
 msgid ""
@@ -371,7 +372,7 @@ msgstr "macOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr "Inačicu za macOS možete preuzeti na donjoj poveznici."
+msgstr "Inačicu za macOS možeš preuzeti na donjoj poveznici."
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
@@ -386,7 +387,7 @@ msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
-"Možete provjeriti nudi li vaša distribucija paket za najnoviju verziju "
+"Možeš provjeriti nudi li tvoja distribucija paket za najnoviju verziju "
 "GComprisa."
 
 #: template/downloads.html:98
@@ -406,25 +407,25 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
-"Da biste ga koristili, otvorite terminal u mapi u kojoj ste preuzeli "
-"instalacijski program i pokrenite ove naredbe:"
+"Da bi ga koristili, otvori terminal u mapi u kojoj si preuzeo instalacijski "
+"program i pokreni ove naredbe:"
 
 #: template/downloads.html:108 template/downloads.html:135
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
-"Zatim pročitajte licencu ili pritisnite q da je preskočite, odgovorite "
-"potvrdno na pitanja i softver će se instalirati u novu mapu pored "
-"instalacijskog programa."
+"Zatim pročitaj licencu ili pritisni q da je preskočiš, odgovori potvrdno na "
+"pitanja i softver će se instalirati u novu mapu pored instalacijskog "
+"programa."
 
 #: template/downloads.html:109 template/downloads.html:136
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"Na kraju, da biste pokrenuli gcompris, idite u novu mapu, u bin, i dvaput "
-"kliknite na gcompris-qt.sh."
+"Na kraju, da bi pokrenuo gcompris, idi u novu mapu, u bin, i dvaput klikni "
+"na gcompris-qt.sh."
 
 #: template/downloads.html:110
 msgid ""
@@ -434,11 +435,11 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
-"Napomena: Ako vaš sustav nema podršku za OpenGL 2 ili ako ne radi kako "
-"treba, dodajte opciju \"--software-renderer\" na kraju posljednjeg retka "
-"skripte gcompris-qt.sh. Drugi način je urediti konfiguracijsku datoteku (u "
-"~/.config/gcompris-qt/gcompris-qt.conf): pronaći redak renderer=auto, "
-"zamijeniti auto softverom i spremiti datoteku."
+"Napomena: Ako tvoj sustav nema podršku za OpenGL 2 ili ako ne radi kako "
+"treba, dodaj opciju \"--software-renderer\" na kraju posljednjeg retka "
+"skripte gcompris-qt.sh. Alternativno, uredi konfiguracijsku datoteku (u ~/."
+"config/gcompris-qt/gcompris-qt.conf): pronađi redak renderer=auto, "
+"zamijeniti riječ \"auto\" sa \"software\" i spremi datoteku."
 
 #: template/downloads.html:111
 msgid ""
@@ -446,7 +447,7 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
-"Alternativno, možete instalirati GCompris s <a href=\"https://flathub.org/"
+"Alternativno, možeš instalirati GCompris s <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathuba</a> ili s <a href=\"https://"
 "snapcraft. io/gcompris\">Snap trgovine</a>."
 
@@ -479,9 +480,8 @@ msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
-"Da biste provjerili integritet svojih preuzimanja, možete dobiti izvorni "
-"SHA-256 hash datoteka dodavanjem \".sha256\" na kraj URL-a za njihovo "
-"preuzimanje."
+"Da bi provjerio integritet preuzimanja, možeš dobiti izvorni SHA-256 hash "
+"datoteku dodavanjem \".sha256\" na kraj URL-a za preuzimanje."
 
 #: template/downloads.html:168
 #, python-format
@@ -502,47 +502,47 @@ msgstr "Obrazovni softver GCompris"
 
 #: template/index.html:55
 msgid "Download GCompris"
-msgstr "Preuzmite GCompris"
+msgstr "Preuzmi GCompris"
 
 #: template/index.html:58
 msgid "Latest news"
-msgstr "Zadnje novosti"
+msgstr "Aktualne novosti"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr "Pritisni ili dodirni"
+msgstr "Klikni ili dodirni"
 
 #: template/index.html:97
 msgid "Identify colors"
-msgstr "Prepoznajte boje"
+msgstr "Prepoznaj boje"
 
 #: template/index.html:103
 msgid "Learn clock"
-msgstr "Naučite koristiti sat"
+msgstr "Nauči koristiti sat"
 
 #: template/index.html:109
 msgid "Keyboard training"
-msgstr "Obuka za tipkovnicu"
+msgstr "Vježbe na tipkovnici"
 
 #: template/index.html:115
 msgid "Learn additions"
-msgstr "Naučite zbrajanje"
+msgstr "Nauči zbrajati"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr "Otkrijte ciklus vode"
+msgstr "Otkrij ciklus vode"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr "Igrajte šah protiv svog prijatelja"
+msgstr "Igraj šah protiv svog prijatelja"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr "Kliknite na malo slovo"
+msgstr "Klikni na malo slovo"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr "Pogledajte sve snimke zaslona"
+msgstr "Pogledaj sve snimke zaslona"
 
 #: template/index.html:153
 msgid ""
@@ -556,7 +556,7 @@ msgstr ""
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr "Neke od aktivnosti su orijentirane na igru, ali su ipak edukativne."
+msgstr "Neke aktivnosti su orijentirane na igru, ali su ipak obrazovne."
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
@@ -564,7 +564,7 @@ msgstr "Evo popisa kategorija aktivnosti s nekoliko primjera:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr "otkrivanje računala: tipkovnica, miš, zaslon osjetljiv na dodir ..."
+msgstr "upoznavanje računala: tipkovnica, miš, zaslon osjetljiv na dodir ..."
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
@@ -580,19 +580,19 @@ msgstr ""
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr "znanost: brane, vodeni ciklus, obnovljivi izvori energije..."
+msgstr "znanost: sustav brana, ciklus vode, obnovljivi izvori energije..."
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr "geografija: zemlje, regije, kultura..."
+msgstr "geografija: države, regije, kultura..."
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "igre: šah, memory, align 4, vješala, tic-tac-toe..."
+msgstr "igre: šah, igra pamćenja, poravnaj 4, vješala, tic-tac-toe..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr "ostalo: boje, oblici, Brailleovo pismo, naučite odrediti vrijeme ..."
+msgstr "ostalo: boje, oblici, Brailleovo pismo, nauči odrediti vrijeme ..."
 
 #: template/index.html:165
 msgid ""
@@ -601,9 +601,9 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
-"Trenutačno GCompris nudi više od 100 aktivnosti, ali još ih se razvija. "
-"GCompris je besplatan softver, što znači da ga možete prilagoditi svojim "
-"potrebama, poboljšati i što je najvažnije podijeliti s djecom posvuda."
+"Trenutačno GCompris nudi više od 100 aktivnosti, ali i dalje razvijamo nove. "
+"GCompris je besplatan softver, što znači da ga možeš prilagoditi svojim "
+"potrebama, poboljšati i, što je najvažnije, djeca ga mogu koristiti posvuda."
 
 #: template/index.html:166
 msgid ""
@@ -630,10 +630,10 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
-"GCompris je alat za e-učenje za pružanje vježbi unutar i izvan učionice. To "
-"je besplatni softver objavljen pod GNU Općom javnom licencom. "
-"Multiplatformski je (GNU/Linux, Windows, Android, macOS) i može raditi na "
-"računalima male snage."
+"GCompris je alat za e-učenje za vježbanje unutar ali i izvan učionice. To je "
+"besplatni softver objavljen pod GNU Općom javnom licencom. Multiplatformski "
+"je (GNU/Linux, Windows, Android, macOS) i može raditi na računalima male "
+"snage."
 
 #: template/schools.html:14
 msgid ""
@@ -646,33 +646,33 @@ msgstr ""
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr "Naučite koristiti računalo"
+msgstr "Nauči koristiti računalo"
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
-"Vježbanje čitanja s aktivnostima za učenje slova, riječi i leksičkih skupova"
+"Vježbaj čitanje s aktivnostima za učenje slova, riječi i leksičkih skupova"
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr ""
-"Stjecanje vještine u matematici vježbanjem numeriranja, aritmetike, mjera i "
-"zagonetki"
+"Stjecanje vještine u matematici vježbanjem prebrojavanja, aritmetike, mjera "
+"i zagonetki"
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr "Otkrivanje svijeta kroz logiku, umjetnost i glazbu"
+msgstr "Istraži svijet kroz logiku, umjetnost i glazbu"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr ""
-"Istraživanje znanosti i humanističkih znanosti kroz eksperimentiranje, "
-"povijest i geografiju"
+"Istraživanje prirodnih i humanističkih znanosti kroz eksperimente, povijest "
+"i geografiju"
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
@@ -698,10 +698,10 @@ msgid ""
 msgstr ""
 "GCompris 1.0 omogućuje nastavnicima odabir razine aktivnosti prema vještini "
 "svakog djeteta. Na primjer, u aktivnosti koja djeci omogućuje vježbanje "
-"brojeva, možete odabrati s kojim brojevima mogu raditi, ostavljajući veće i "
-"teže brojeve za kasniju fazu. Ili u aktivnosti u kojoj dijete mora poredati "
-"slike kronološki, možete ocijeniti aktivnost za djecu koja mogu čitati samo "
-"brojeve ili otežati djecu koja mogu čitati i brojeve i riječi."
+"brojeva, moguće je odabrati s kojim brojevima mogu vježbati, ostavljajući "
+"veće i teže brojeve za kasniju fazu. Ili u aktivnosti gdje dijete treba "
+"poredati slike kronološki, moguće je ocijeniti aktivnost za djecu koja mogu "
+"čitati samo brojeve ili otežati djeci koja znaju čitati brojeve i riječi."
 
 #: template/schools.html:29
 msgid ""
@@ -709,10 +709,9 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
-"Ova funkcija ocjenjivanja omogućuje vam da učenicima predložite vježbe za "
-"vježbanje matematike, jezika, prirodnih i humanističkih znanosti. Također će "
-"moći igrati strateške igre kako bi uvježbali svoje vještine rješavanja "
-"problema."
+"Ova funkcija ocjenjivanja omogućuje da učenicima predložiš vježbe iz "
+"matematike, jezika, prirodnih i humanističkih znanosti. Također će moći "
+"igrati strateške igre kako bi uvježbali svoje vještine rješavanja problema."
 
 #: template/schools.html:31
 msgid ""
@@ -721,7 +720,7 @@ msgid ""
 "what French teachers must teach in class."
 msgstr ""
 "Kako bi pružili solidnu pedagošku pozadinu, GCompris razine aktivnosti "
-"temeljene su na francuskom osnovnoškolskom kurikulumu, koji definira što "
+"temelji na francuskom osnovnoškolskom kurikulumu, koji definira što "
 "francuski profesori moraju poučavati u nastavi."
 
 #: template/screenshot.html:33
@@ -739,16 +738,16 @@ msgstr "Cilj:"
 #. activity handbook
 #: template/screenshot.html:44
 msgid "Manual:"
-msgstr "Priručnik:"
+msgstr "Uputa:"
 
 #. activity thanks to
 #: template/screenshot.html:48
 msgid "Credit:"
-msgstr "Zasluge:"
+msgstr "Zahvala:"
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr "Odaberite kategoriju"
+msgstr "Odaberi kategoriju"
 
 #: template/screenshots.html:38
 msgid "All"
@@ -760,7 +759,7 @@ msgstr "Računalo"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr "Otkriže"
+msgstr "Istraživanje"
 
 #: template/screenshots.html:41
 msgid "Sciences"
@@ -776,7 +775,7 @@ msgstr "Matematika"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr "Puzzle"
+msgstr "Slagalice"
 
 #: template/screenshots.html:45
 msgid "Reading"
@@ -790,6 +789,10 @@ msgstr "Strategija"
 #~ msgstr "Version %(version)s"
 
 #, fuzzy
+#~| msgctxt "20220121.html"
+#~| msgid ""
+#~| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#~| "2.1."
 #~ msgctxt "20220224.html"
 #~ msgid ""
 #~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
@@ -798,6 +801,10 @@ msgstr "Strategija"
 #~ "2.1."
 
 #, fuzzy
+#~| msgctxt "20220121.html"
+#~| msgid ""
+#~| "This is a maintenance release, so every GNU/Linux distribution shipping "
+#~| "2.0 should update to 2.1."
 #~ msgctxt "20220224.html"
 #~ msgid ""
 #~ "This is a maintenance release, so every GNU/Linux distribution shipping "
@@ -807,26 +814,41 @@ msgstr "Strategija"
 #~ "2.0 should update to 2.1."
 
 #, fuzzy
+#~| msgctxt "20220121.html"
+#~| msgid "Here is a summary of included changes:"
 #~ msgctxt "20220224.html"
 #~ msgid "Here is a summary of included changes:"
 #~ msgstr "Here is a summary of included changes:"
 
 #, fuzzy
+#~| msgctxt "20211217.html"
+#~| msgid "... and many more little fixes and improvements."
 #~ msgctxt "20220224.html"
 #~ msgid "Many other little fixes and improvements."
 #~ msgstr "... and many more little fixes and improvements."
 
 #, fuzzy
+#~| msgctxt "20220121.html"
+#~| msgid "On the translation side:"
 #~ msgctxt "20220224.html"
 #~ msgid "On the translation side:"
 #~ msgstr "On the translation side:"
 
 #, fuzzy
+#~| msgctxt "20220121.html"
+#~| msgid "Breton and Macedonian have been completed."
 #~ msgctxt "20220224.html"
 #~ msgid "Russian translation has been completed."
 #~ msgstr "Breton and Macedonian have been completed."
 
 #, fuzzy
+#~| msgctxt "20220121.html"
+#~| msgid ""
+#~| "You can find packages of this new version for GNU/Linux, Windows and\\n "
+#~| "macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+#~| "\\\">download page</a>. This update will be available soon in the "
+#~| "Android Play store, the F-Droid repository and the Windows store. The "
+#~| "package for Raspberry Pi will also be available soon."
 #~ msgctxt "20220224.html"
 #~ msgid ""
 #~ "You can find packages of this new version for GNU/Linux, Windows and\\n "
