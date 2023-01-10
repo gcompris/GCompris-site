@@ -13,7 +13,7 @@
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Windows{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}Windows{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -41,7 +41,7 @@
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Android{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}Android{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -72,7 +72,7 @@
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}macOS{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}macOS{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -90,7 +90,7 @@
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}GNU/Linux{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}GNU/Linux{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -101,7 +101,7 @@
 • <a href="https://download.kde.org/stable/gcompris/qt/linux/gcompris-qt-{{ version }}-Linux32.sh">GCompris {{ version }}-Linux 32bit</a>
 </pre>
           <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands:{% endtrans %}</p>
-<pre>
+<pre dir="ltr">
 chmod u+x gcompris-qt-{{ version }}-Linux64.sh
 ./gcompris-qt-{{ version }}-Linux64.sh
 </pre>
@@ -119,7 +119,7 @@ chmod u+x gcompris-qt-{{ version }}-Linux64.sh
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Raspberry Pi{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}Raspberry Pi{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -128,7 +128,7 @@ chmod u+x gcompris-qt-{{ version }}-Linux64.sh
 • <a href="https://download.kde.org/stable/gcompris/qt/raspberrypi/gcompris-qt-{{ version }}-Raspberry.sh">GCompris {{ version }}-Raspberry Pi 3</a>
 </pre>
           <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands:{% endtrans %}</p>
-<pre>
+<pre dir="ltr">
 chmod u+x gcompris-qt-{{ version }}-Raspberry.sh
 ./gcompris-qt-{{ version }}-Raspberry.sh
 </pre>
@@ -143,7 +143,7 @@ chmod u+x gcompris-qt-{{ version }}-Raspberry.sh
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}Source code{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}Source code{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
@@ -160,7 +160,7 @@ chmod u+x gcompris-qt-{{ version }}-Raspberry.sh
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
 	    <div>
-	      <div class="newstitle" style="float: left; text-align: left;">{% trans %}SHA-256 and GPG{% endtrans %}</div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}SHA-256 and GPG{% endtrans %}</div>
 	    </div>
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
