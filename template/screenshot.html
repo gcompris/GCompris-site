@@ -1,4 +1,4 @@
-<div id="{{ screenshot.name }}" class=".screenshotCard" data-section="{{ screenshot.section }}">
+<div class=".screenshotCard" data-section="{{ screenshot.section }}">
     <div class="col-xs-12 news">
     <div class="screenshotContainer" style="position: relative;">
       <div style="float: right;">
@@ -6,7 +6,7 @@
 	  <span class="glyphicon glyphicon-share"></span>
 	</a>
       </div>
-        <div class="newstitle screenshotInfo">{{ screenshot.title }}</div>
+        <div id="{{ screenshot.name }}" class="newstitle screenshotInfo">{{ screenshot.title }}</div>
         <div class='screenshotLeftSide'>
         {% if screenshot.icon %}
             {% if screenshot.name != 'root' %}
