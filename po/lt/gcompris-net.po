@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-08-21 19:36+0300\n"
-"Last-Translator: Rolandas Jakštys <rolasorama@gmail.com>\n"
+"PO-Revision-Date: 2023-01-08 22:08+0200\n"
+"Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: lt <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. news title
@@ -161,14 +161,8 @@ msgid "Your names"
 msgstr "Jonas Jakštys, Bernardas Liukaitis"
 
 #: gcompris.py:398
-#, fuzzy
-#| msgid ""
-#| "For Christmas, offer GCompris to your children. It's free and will give "
-#| "them hours of educational fun."
 msgid "For Christmas, offer GCompris to your children."
-msgstr ""
-"Kalėdoms pasiūlykite „GCompris“ savo vaikams. Tai puiki nemokama edukacinė "
-"pramoga."
+msgstr "Kalėdoms pasiūlykite „GCompris“ savo vaikams."
 
 #: template/base.html:71 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
@@ -493,16 +487,13 @@ msgstr ""
 "SHA-256, jų atsisiuntimo URL pabaigoje pridėdami „.sha256“."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Pirminio programos teksto archyvas ir „Linux“ diegimo programos pasirašyti "
-"GPG raktu priklausančiu Timothée Giet (viešas raktas: "
+"GPG raktu priklausančiu Timothée Giet (viešas raktas: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"

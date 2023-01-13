@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2023-01-02 07:12\n"
+"PO-Revision-Date: 2023-01-12 10:32\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -427,14 +427,11 @@ msgid ""
 msgstr ""
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
-msgstr "源代码 tar 包和 Linux 安装程序由 Timothee Giet 的 GPG 密钥签名(公钥： "
+msgstr ""
 
 #: template/downloads.html:170
 msgid "sig files:"
