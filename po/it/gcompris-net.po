@@ -1,16 +1,16 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-#
 # Paolo Gibellini <p.gibellini@gmail.com>, 2014.
 # Valter Mura <valtermura@gmail.com>, 2017, 2019.
-# Vincenzo Reale <smart2128vr@gmail.com>, 2017, 2018, 2019, 2020, 2021, 2022.
+# Vincenzo Reale <smart2128vr@gmail.com>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
 # Timothée Giet <animtim@gmail.com>, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-05 00:52+0000\n"
-"PO-Revision-Date: 2022-09-06 10:01+0200\n"
+"PO-Revision-Date: 2023-01-06 10:27+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #. news title
 msgctxt "20220227.html"
@@ -488,16 +488,13 @@ msgstr ""
 "scaricamento."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "L'archivio dei sorgenti e i file di installazione Linux sono firmati con la "
-"chiave GPG da Timothée Giet (chiave pubblica: "
+"chiave GPG da Timothée Giet (chiave pubblica: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
