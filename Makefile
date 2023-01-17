@@ -39,14 +39,14 @@ downloadGComprisSrc:
 	fi;
 
 all: $(HTML) mobile-privacy-policy.html
-	PYTHONPATH="./$(GCOMPRIS_DIR)/tools/python" ./gcompris.py $(VERSION) en "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
+	PYTHONPATH="${PYTHONPATH}:./$(GCOMPRIS_DIR)/tools/python" ./gcompris.py $(VERSION) en "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
 
 mobile-privacy-policy.html: template/mobile-privacy-policy.html
 	cp $< $@
 
 index-%.html: $(sources)
 	lang=`echo $@ | sed 's/index-\([^.]*\).html/\1/g'`; \
-	PYTHONPATH="./$(GCOMPRIS_DIR)/tools/python" ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
+	PYTHONPATH="${PYTHONPATH}:./$(GCOMPRIS_DIR)/tools/python" ./gcompris.py $(VERSION) $$lang "$(ALL_LINGUAS)" $(GCOMPRIS_DIR); \
 
 #
 # Run it to update the translation.
