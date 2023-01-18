@@ -1,0 +1,17 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Astăzi lansăm GCompris versiunea 2.4</p>
+<p>Am optimizat mărimea tuturor pachetelor, pentru toate platformele și pentru setul extern de imagini ilustrate (acum sunt cam cu 30% mai mici)</p>
+<p>Dacă ați dezactivat descărcarea automată și vreți să aveți setul complet de imagini ilustrate, trebuie să mergeți la configurație și să faceți clic pe "Descarcă setul complet de imagini ilustrate".</p>
+<p>Se afișează dedesubt "Setul complet de imagini ilustrate este instalat" , atunci când aveți instalată cea mai recentă versiune.</p>
+<p>Au fost adăugate vocile introductive pentru norvegiană Nynorsk, de către Karl Ove Hufthammer și Øystein Steffensen-Alværvik. Vocile pentru Malayalam au fost completate de Aiswarya Kaitheri Kandoth.</p>
+<p>Multe imagini au fost actualizate pentru mai multe activități.</p>
+<p>De asemenea, am remediat mai multe erori în activitățile Energia Regenerabilă, Ciclul Apei și Asocieri Logice.</p>
+<p>Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, Raspberry Pi și macOS în <a href="https://gcompris.net/downloads{{ suffix }}.html">pagina de descărcare</a>. Această actualizare va fi disponibilă în curând în Magazinul Play Android, depozitul F-Droid și Windows Magazin.</p>
+<p>Vă mulțumim tuturor,<br/>
+Timothée & Johnny</p>
+{% endblock %}
