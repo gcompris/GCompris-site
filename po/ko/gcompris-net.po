@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-05 00:52+0000\n"
+"POT-Creation-Date: 2023-01-18 01:01+0000\n"
 "PO-Revision-Date: 2021-05-22 20:58+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -18,57 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 20.12.3\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Release GCompris 1.1"
-msgctxt "20220227.html"
-msgid "Release GCompris 2.3"
-msgstr "GCompris 1.1 출시"
-
-#. paragraph
-msgctxt "20220227.html"
-msgid "Today we are releasing GCompris version 2.3."
-msgstr ""
-
-#. paragraph
-msgctxt "20220227.html"
-msgid ""
-"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
-"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
-"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
-"release."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows and "
-#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-#| "\">download page</a>. This update will be available soon in the Android "
-#| "Play store, the F-Droid repository and the Windows store. The package for "
-#| "Raspberry Pi will also be available soon."
-msgctxt "20220227.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니다. "
-"이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows 스토어에"
-"도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입니다."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
-msgctxt "20220227.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
 
 #. news title
 #, fuzzy
@@ -154,6 +103,191 @@ msgstr ""
 #| msgctxt "20210321.html"
 #| msgid "Thank you all, <br/>\\nTimothée & Johnny"
 msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Release GCompris 1.1"
+msgctxt "20230118.html"
+msgid "Release GCompris 3.0"
+msgstr "GCompris 1.1 출시"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#| "1.1."
+msgctxt "20230118.html"
+msgid "We are pleased to announce the release of GCompris version 3.0."
+msgstr "안녕하세요,<br />\\nGCompris 버전 1.1의 출시를 알립니다!"
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "It contains 182 activities, including 8 new ones:"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
+"left and right clicks."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Create the fractions\\\", represent decimal quantities with some pie "
+"or rectangle charts."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Find the fractions\\\", it's the other way: write the fraction "
+"represented by the pie or rectangle chart."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"With \\\"Discover the International Morse code\\\", learn how to communicate "
+"with the International Morse code."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Compare numbers\\\", learn how to compare number values using "
+"comparison symbols."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
+"ten's complement."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
+"using ten's complement."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
+"ten's complement."
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "We've added 2 new command line options:"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid "list all the available activities (-l or --list-activities)"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid " directly start a specific activity (--launch activityName)"
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid ""
+#| "This new version includes updated translation for several languages, and "
+#| "a few bug fixes."
+msgctxt "20230118.html"
+msgid "This version also contains several improvements and bug fixes."
+msgstr ""
+"이 새 버전에는 여러 언어 번역 업데이트와 몇 가지 버그 수정이 포함되어 있습니"
+"다."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
+#| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
+#| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
+#| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
+#| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
+#| "Ukrainian."
+msgctxt "20230118.html"
+msgid ""
+"On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
+"translated: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan "
+"(Valencian), Chinese Traditional, Croatian, Dutch, Estonian, French, Greek, "
+"Hebrew, Hungarian, Italian, Lithuanian, Malayalam, Norwegian Nynorsk, "
+"Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
+"are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
+"Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
+"(95%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
+msgstr ""
+"이제 다음 27개 언어를 완벽하게 지원합니다: 갈리시아어, 그리스어, 네덜란드어, "
+"러시아어, 루마니아어, 마케도니아어, 말라얄람어, 바스크어, 발렌시아 카탈루냐"
+"어, 벨라루스어, 브라질 포르투갈어, 브르타뉴어, 스웨덴어, 스페인어, 슬로베니아"
+"어, 알바니아어, 영국 영어, 우크라이나어, 이탈리아어, 인도네시아어, 중국어 번"
+"체, 카탈루냐어, 터키어, 포르투갈어, 폴란드어, 프랑스어, 헝가리어, 히브리어."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"A special note about Ukrainian voices which have been added thanks to the "
+"organization \\\"Save the Children\\\" who funded the recording. They "
+"installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
+"Digital learning Centers and other safe spaces for children in Ukraine."
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "Croatian voices have also been recorded by a contributor."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows and "
+#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#| "\">download page</a>. This update will be available soon in the Android "
+#| "Play store, the F-Droid repository and the Windows store. The package for "
+#| "Raspberry Pi will also be available soon."
+msgctxt "20230118.html"
+msgid ""
+"As usual you can find packages of this new version for GNU/Linux, Windows, "
+"Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니다. "
+"이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows 스토어에"
+"도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입니다."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"For packagers of GNU/Linux distributions, note that we have a new dependency "
+"on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
+"We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
 
@@ -787,16 +921,6 @@ msgstr ""
 #, fuzzy
 #~| msgctxt "20210321.html"
 #~| msgid ""
-#~| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#~| "1.1."
-#~ msgctxt "20220224.html"
-#~ msgid ""
-#~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
-#~ msgstr "안녕하세요,<br />\\nGCompris 버전 1.1의 출시를 알립니다!"
-
-#, fuzzy
-#~| msgctxt "20210321.html"
-#~| msgid ""
 #~| "This is a maintenance release, so every GNU/Linux distribution shipping "
 #~| "1.0 should update to 1.1."
 #~ msgctxt "20220224.html"
@@ -913,33 +1037,6 @@ msgstr ""
 #~ "다. 이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows "
 #~ "스토어에도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입"
 #~ "니다."
-
-#, fuzzy
-#~| msgctxt "20210321.html"
-#~| msgid ""
-#~| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
-#~| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
-#~| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
-#~| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
-#~| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
-#~| "Ukrainian."
-#~ msgctxt "20211217.html"
-#~ msgid ""
-#~ "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#~ "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#~ "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#~ "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#~ "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#~ "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#~ "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#~ "(76%) and Russian (76%))."
-#~ msgstr ""
-#~ "이제 다음 27개 언어를 완벽하게 지원합니다: 갈리시아어, 그리스어, 네덜란드"
-#~ "어, 러시아어, 루마니아어, 마케도니아어, 말라얄람어, 바스크어, 발렌시아 카"
-#~ "탈루냐어, 벨라루스어, 브라질 포르투갈어, 브르타뉴어, 스웨덴어, 스페인어, "
-#~ "슬로베니아어, 알바니아어, 영국 영어, 우크라이나어, 이탈리아어, 인도네시아"
-#~ "어, 중국어 번체, 카탈루냐어, 터키어, 포르투갈어, 폴란드어, 프랑스어, 헝가"
-#~ "리어, 히브리어."
 
 #, fuzzy
 #~| msgctxt "20210321.html"
@@ -1269,14 +1366,6 @@ msgstr ""
 
 #~ msgid "Buying the Windows or MacOSX version"
 #~ msgstr "Windows 또는 MacOSX 버전 구입"
-
-#~ msgctxt "20190303.html"
-#~ msgid ""
-#~ "This new version includes updated translation for several languages, and "
-#~ "a few bug fixes."
-#~ msgstr ""
-#~ "이 새 버전에는 여러 언어 번역 업데이트와 몇 가지 버그 수정이 포함되어 있습"
-#~ "니다."
 
 #~ msgctxt "20190303.html"
 #~ msgid "Translations that received a big update:"

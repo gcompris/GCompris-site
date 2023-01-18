@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-05 00:52+0000\n"
+"POT-Creation-Date: 2023-01-18 01:01+0000\n"
 "PO-Revision-Date: 2020-01-05 18:30+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -18,61 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.08.3\n"
-
-# news title
-#. news title
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Release GCompris 0.96"
-msgctxt "20220227.html"
-msgid "Release GCompris 2.3"
-msgstr "Publicado GCompris 0.96"
-
-#. paragraph
-msgctxt "20220227.html"
-msgid "Today we are releasing GCompris version 2.3."
-msgstr ""
-
-#. paragraph
-msgctxt "20220227.html"
-msgid ""
-"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
-"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
-"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
-"release."
-msgstr ""
-
-# paragraph
-#. paragraph
-#, fuzzy
-#| msgctxt "20181220.html"
-#| msgid ""
-#| "You can find packages of this new version for Linux and Windows on the "
-#| "download page. This update will also be available in a few days on the "
-#| "Android and Windows store. For Raspberry Pi, we'll provide an installer "
-#| "in the beginning of 2019. The updated versions for MacOS and iOS are "
-#| "still not available, we hope to be able to release those during next year."
-msgctxt "20220227.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Podes atopar paquetes desta nova versión para Linux e Windows na páxina de "
-"descargas. Esta actualización tamén estará dispoñíbel nuns días nas tendas "
-"de Android e Windows. Para Raspberry Pi forneceremos un instalador a comezos "
-"de 2019. As versións actualizadas para MacOS e iOS aínda non están "
-"dispoñíbeis, esperamos poder publicalas durante o vindeiro ano."
-
-# paragraph
-#. paragraph
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
-msgctxt "20220227.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Grazas a todos, <br/>\\nTimothée e Johnny"
 
 # news title
 #. news title
@@ -159,6 +104,196 @@ msgstr ""
 #| msgctxt "20190303.html"
 #| msgid "Thank you all, <br/>\\nTimothée & Johnny"
 msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Grazas a todos, <br/>\\nTimothée e Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Release GCompris 0.96"
+msgctxt "20230118.html"
+msgid "Release GCompris 3.0"
+msgstr "Publicado GCompris 0.96"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid ""
+#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#| "0.96."
+msgctxt "20230118.html"
+msgid "We are pleased to announce the release of GCompris version 3.0."
+msgstr ""
+"Ola,<br />\\nComprácenos anunciar a publicación da versión 0.96 de GCompris."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "It contains 182 activities, including 8 new ones:"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
+"left and right clicks."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Create the fractions\\\", represent decimal quantities with some pie "
+"or rectangle charts."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Find the fractions\\\", it's the other way: write the fraction "
+"represented by the pie or rectangle chart."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"With \\\"Discover the International Morse code\\\", learn how to communicate "
+"with the International Morse code."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Compare numbers\\\", learn how to compare number values using "
+"comparison symbols."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
+"ten's complement."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
+"using ten's complement."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
+"ten's complement."
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "We've added 2 new command line options:"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid "list all the available activities (-l or --list-activities)"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid " directly start a specific activity (--launch activityName)"
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid ""
+#| "This new version includes updated translation for several languages, and "
+#| "a few bug fixes."
+msgctxt "20230118.html"
+msgid "This version also contains several improvements and bug fixes."
+msgstr ""
+"Esta nova versión inclúe actualizacións nas traducións de varios idiomas, e "
+"algunhas correccións de fallos."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid ""
+#| "This means we have now 19 languages fully supported: British English, "
+#| "Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese "
+#| "Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, "
+#| "Italian, Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian."
+msgctxt "20230118.html"
+msgid ""
+"On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
+"translated: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan "
+"(Valencian), Chinese Traditional, Croatian, Dutch, Estonian, French, Greek, "
+"Hebrew, Hungarian, Italian, Lithuanian, Malayalam, Norwegian Nynorsk, "
+"Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
+"are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
+"Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
+"(95%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
+msgstr ""
+"Isto significa que agora 19 idiomas con traducións completas: bretón, "
+"catalán, chinés tradicional, francés, galego, grego, húngaro, indonesio, "
+"inglés británico, italiano, malaialam, neerlandés, polaco, portugués, "
+"portugués do Brasil, romanés, sueco, ucraíno e valenciano."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"A special note about Ukrainian voices which have been added thanks to the "
+"organization \\\"Save the Children\\\" who funded the recording. They "
+"installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
+"Digital learning Centers and other safe spaces for children in Ukraine."
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "Croatian voices have also been recorded by a contributor."
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20181220.html"
+#| msgid ""
+#| "You can find packages of this new version for Linux and Windows on the "
+#| "download page. This update will also be available in a few days on the "
+#| "Android and Windows store. For Raspberry Pi, we'll provide an installer "
+#| "in the beginning of 2019. The updated versions for MacOS and iOS are "
+#| "still not available, we hope to be able to release those during next year."
+msgctxt "20230118.html"
+msgid ""
+"As usual you can find packages of this new version for GNU/Linux, Windows, "
+"Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Podes atopar paquetes desta nova versión para Linux e Windows na páxina de "
+"descargas. Esta actualización tamén estará dispoñíbel nuns días nas tendas "
+"de Android e Windows. Para Raspberry Pi forneceremos un instalador a comezos "
+"de 2019. As versións actualizadas para MacOS e iOS aínda non están "
+"dispoñíbeis, esperamos poder publicalas durante o vindeiro ano."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"For packagers of GNU/Linux distributions, note that we have a new dependency "
+"on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
+"We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazas a todos, <br/>\\nTimothée e Johnny"
 
@@ -808,19 +943,6 @@ msgstr ""
 
 # paragraph
 #, fuzzy
-#~| msgctxt "20190303.html"
-#~| msgid ""
-#~| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#~| "0.96."
-#~ msgctxt "20220224.html"
-#~ msgid ""
-#~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
-#~ msgstr ""
-#~ "Ola,<br />\\nComprácenos anunciar a publicación da versión 0.96 de "
-#~ "GCompris."
-
-# paragraph
-#, fuzzy
 #~| msgctxt "20180516.html"
 #~| msgid "Every GNU/Linux distribution shipping 0.90 should update to 0.91."
 #~ msgctxt "20220224.html"
@@ -920,30 +1042,6 @@ msgstr ""
 #~ msgctxt "20211217.html"
 #~ msgid "Improved activities:"
 #~ msgstr "Actividades:"
-
-# paragraph
-#, fuzzy
-#~| msgctxt "20190303.html"
-#~| msgid ""
-#~| "This means we have now 19 languages fully supported: British English, "
-#~| "Brazilian Portuguese, Breton, Catalan, Catalan (Valencian), Chinese "
-#~| "Traditional, Dutch, French, Galician, Greek, Hungarian, Indonesian, "
-#~| "Italian, Malayalam, Polish, Portuguese, Romanian, Swedish, Ukrainian."
-#~ msgctxt "20211217.html"
-#~ msgid ""
-#~ "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#~ "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#~ "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#~ "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#~ "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#~ "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#~ "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#~ "(76%) and Russian (76%))."
-#~ msgstr ""
-#~ "Isto significa que agora 19 idiomas con traducións completas: bretón, "
-#~ "catalán, chinés tradicional, francés, galego, grego, húngaro, indonesio, "
-#~ "inglés británico, italiano, malaialam, neerlandés, polaco, portugués, "
-#~ "portugués do Brasil, romanés, sueco, ucraíno e valenciano."
 
 # paragraph
 #, fuzzy
@@ -1289,15 +1387,6 @@ msgstr ""
 
 #~ msgid "Buying the Windows or MacOSX version"
 #~ msgstr "Compras a versión de Windows ou MacOSX"
-
-# paragraph
-#~ msgctxt "20190303.html"
-#~ msgid ""
-#~ "This new version includes updated translation for several languages, and "
-#~ "a few bug fixes."
-#~ msgstr ""
-#~ "Esta nova versión inclúe actualizacións nas traducións de varios idiomas, "
-#~ "e algunhas correccións de fallos."
 
 # paragraph
 #~ msgctxt "20190303.html"

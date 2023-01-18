@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-05 00:52+0000\n"
+"POT-Creation-Date: 2023-01-18 01:01+0000\n"
 "PO-Revision-Date: 2022-12-22 17:19+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
@@ -18,46 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
-
-#. news title
-msgctxt "20220227.html"
-msgid "Release GCompris 2.3"
-msgstr "GCompris stumm 2.3"
-
-#. paragraph
-msgctxt "20220227.html"
-msgid "Today we are releasing GCompris version 2.3."
-msgstr "Hiziv e kinnigomp stumm 2.3 GCompris."
-
-#. paragraph
-msgctxt "20220227.html"
-msgid ""
-"As we noticed that version 2.2 had been shipped with a bug that broke 3 "
-"activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
-"\"Numbers in order\\\"), we decided to fix it quickly with a new maintenance "
-"release."
-msgstr ""
-"Goude bezañ dizoloet ur fazi a freuze 3 obererezh hon eus dibabet mennañ "
-"buan anezhañ ha kinnig dres ur c'hempenn nevez."
-
-#. paragraph
-msgctxt "20220227.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
-"Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
-"outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid "
-"hag er Windows store."
-
-#. paragraph
-msgctxt "20220227.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Trugarez d'an holl, <br/>\\nTimothée & Johnny"
 
 #. news title
 msgctxt "20220413.html"
@@ -139,6 +99,186 @@ msgstr ""
 
 #. paragraph
 msgctxt "20220413.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Trugarez d'an holl, <br/>\\nTimothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20220227.html"
+#| msgid "Release GCompris 2.3"
+msgctxt "20230118.html"
+msgid "Release GCompris 3.0"
+msgstr "GCompris stumm 2.3"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220224.html"
+#| msgid ""
+#| "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
+msgctxt "20230118.html"
+msgid "We are pleased to announce the release of GCompris version 3.0."
+msgstr ""
+"Salud d'an holl,<br />\\nPlijet omp o kemenn stumm nevez  GCompris 2.2."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "It contains 182 activities, including 8 new ones:"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
+"left and right clicks."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Create the fractions\\\", represent decimal quantities with some pie "
+"or rectangle charts."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Find the fractions\\\", it's the other way: write the fraction "
+"represented by the pie or rectangle chart."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"With \\\"Discover the International Morse code\\\", learn how to communicate "
+"with the International Morse code."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Compare numbers\\\", learn how to compare number values using "
+"comparison symbols."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
+"ten's complement."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
+"using ten's complement."
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
+"ten's complement."
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "We've added 2 new command line options:"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid "list all the available activities (-l or --list-activities)"
+msgstr ""
+
+#. list item
+msgctxt "20230118.html"
+msgid " directly start a specific activity (--launch activityName)"
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "This version also contains several improvements and bug fixes."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
+#| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
+#| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
+#| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
+#| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
+#| "Ukrainian."
+msgctxt "20230118.html"
+msgid ""
+"On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
+"translated: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan "
+"(Valencian), Chinese Traditional, Croatian, Dutch, Estonian, French, Greek, "
+"Hebrew, Hungarian, Italian, Lithuanian, Malayalam, Norwegian Nynorsk, "
+"Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
+"are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
+"Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
+"(95%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
+msgstr ""
+"Evit ar pezh a sell ouzh an troidigezhioù, setu bremañ 27 yezh klok "
+"evidomp : albaneg, belaruseg, brezhoneg, euskareg, galisianeg, galleg, "
+"gresianeg, hebraeg, hollandeg, hungarek, indonezianeg, italianeg, katalaneg, "
+"katalaneg Bro-Valensia, makedoneg, malayameg, poloneg, portugaleg, "
+"portugaleg Bro-Vrazil, roumaneg, ruseg, sloveneg, saozneg Bro-Saoz, sinaeg "
+"hengounel,  svedeg, turkeg hag ukraineg."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"A special note about Ukrainian voices which have been added thanks to the "
+"organization \\\"Save the Children\\\" who funded the recording. They "
+"installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
+"Digital learning Centers and other safe spaces for children in Ukraine."
+msgstr ""
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "Croatian voices have also been recorded by a contributor."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220227.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230118.html"
+msgid ""
+"As usual you can find packages of this new version for GNU/Linux, Windows, "
+"Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
+"Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
+"outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid "
+"hag er Windows store."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"For packagers of GNU/Linux distributions, note that we have a new dependency "
+"on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
+"We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220227.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>\\nTimothée & Johnny"
 
@@ -794,14 +934,22 @@ msgstr "Lenn"
 msgid "Strategy"
 msgstr "Strategiezh"
 
+#~ msgctxt "20220227.html"
+#~ msgid "Today we are releasing GCompris version 2.3."
+#~ msgstr "Hiziv e kinnigomp stumm 2.3 GCompris."
+
+#~ msgctxt "20220227.html"
+#~ msgid ""
+#~ "As we noticed that version 2.2 had been shipped with a bug that broke 3 "
+#~ "activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
+#~ "\"Numbers in order\\\"), we decided to fix it quickly with a new "
+#~ "maintenance release."
+#~ msgstr ""
+#~ "Goude bezañ dizoloet ur fazi a freuze 3 obererezh hon eus dibabet mennañ "
+#~ "buan anezhañ ha kinnig dres ur c'hempenn nevez."
+
 #~ msgid "Version %(version)s"
 #~ msgstr "Stumm %(version)s"
-
-#~ msgctxt "20220224.html"
-#~ msgid ""
-#~ "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
-#~ msgstr ""
-#~ "Salud d'an holl,<br />\\nPlijet omp o kemenn stumm nevez  GCompris 2.2."
 
 #~ msgctxt "20220224.html"
 #~ msgid ""
@@ -977,33 +1125,6 @@ msgstr "Strategiezh"
 #~ msgctxt "20211217.html"
 #~ msgid "New activities:"
 #~ msgstr "Ar stumm nevez-mañ a ro bod da 2 obererezh nevez :"
-
-#, fuzzy
-#~| msgctxt "20210321.html"
-#~| msgid ""
-#~| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
-#~| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
-#~| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
-#~| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
-#~| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
-#~| "Ukrainian."
-#~ msgctxt "20211217.html"
-#~ msgid ""
-#~ "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#~ "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#~ "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#~ "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#~ "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#~ "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#~ "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#~ "(76%) and Russian (76%))."
-#~ msgstr ""
-#~ "Evit ar pezh a sell ouzh an troidigezhioù, setu bremañ 27 yezh klok "
-#~ "evidomp : albaneg, belaruseg, brezhoneg, euskareg, galisianeg, galleg, "
-#~ "gresianeg, hebraeg, hollandeg, hungarek, indonezianeg, italianeg, "
-#~ "katalaneg, katalaneg Bro-Valensia, makedoneg, malayameg, poloneg, "
-#~ "portugaleg, portugaleg Bro-Vrazil, roumaneg, ruseg, sloveneg, saozneg Bro-"
-#~ "Saoz, sinaeg hengounel,  svedeg, turkeg hag ukraineg."
 
 #, fuzzy
 #~| msgctxt "20210321.html"
