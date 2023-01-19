@@ -1,0 +1,37 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Z veseljem objavljamo izdajo GCompris različice 3.0.</p>
+<p>Vsebuje 182 dejavnosti, od tega 8 novih:</p>
+<ul>
+<li class="puce">"Vaja klikanja z miško" je vaja uporabe miške z levimi in desnimi kliki.</li>
+<li class="puce">"Ustvarjanje ulomkov", predstavlja decimalne vrednosti s krožnimi in kvadratnimi diagrami.</li>
+<li class="puce">"Najdite ulomke" je obratno; napišite ulomek, ki je predstavljen s krožnim ali kvadratnim diagramom.</li>
+<li class="puce">Z "Okrivanjem mednarodne Morsejeve kode", se naučite komuniciranja z mednarodno Morsejevo kodo.</li>
+<li class="puce">V "Primerjajte števila\ se naučite primerjati številske vrednost z uporabo simbolov za primerjave.</li>
+<li class="puce">"Najdite dopolnilo števila deset" je enostavna vaja, da se naučite koncepta dopolnila števila deset.</li>
+<li class="puce">V "Premenjavi dopolnila števila deset" premenjate števila tako, da optimizirate seštevanje z uporabo dopolnil števila deset.</li>
+<li class="puce">V "Uporabi dopolnil števila deset" razbijete seštevanje tako, da ga optimizirate z uporabo dopolnil števila deset.</li>
+</ul>
+<br/>
+<p>Dodali smo 2 možnosti pri ukazni vrstici:</p>
+<ul>
+<li class="puce">Seznam vseh razpoložljivih dejavnosti (-l ali -list-activities)</li>
+<li class="puce">Neposredno zaženi določeno dejavnost (--launch imeDejavnosti)</li>
+</ul>
+<br/>
+<p>Ta različica vsebuje tudi veliko izboljšav in popravkov napak.</p>
+<br/>
+<p>Na prevodni strani  GCompris 3.0 vsebuje 36 jezikov. 25 je v celoti prevedeno: (azerbajdžansko, baskovsko, bretonsko, britansko angleško, katalonsko, katalonsko (Valencia), tradicionalno kitajsko, hrvaško, nizozemsko, estonsko, francosko, grško, hebrejsko, madžarsko, italijansko, litovsko, malajalam, norveško Nynorsk, poljskp, portugalsko, romunsko, rusko, slovensko, špansko, ukrajinsko). 11 jezikov je delno prevedenp: (albansko (99%), belorusko (83%), brazilsko portugalsko (94%), češko (82%), finsko (94%), nemško (91%), indonezijsko (99%), makedonsko (94%), slovaško (77%), švedsko (94%) in turško (71%)).</p>
+<p>Posebna omemba o ukrajinskih glasovih, ki so bili dodani zahvaljujoč organizaciji  "Save the Children", ki je financirala snemanje. Oni so tudi namestili GCompris na 8000 tablic in 1000 prenosnikov in jih poslali na digitalne centre za učenje in druge varne prostore za otroke v Ukrajini.</p>
+<p>Sodelavec je posnel tudi hrvaške glasove.</p>
+<br/>
+<p>KO ponavadi pakete te nove različice najdete za GNU/Linux, Windows, Raspbery Pi in MacOS najdete na
+<a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in skladišču za Windows.</p>
+<p>Za pripravljalce paketov distribucij GNU/Linux upoštevajte, da imamo novo odvisnost v vtičniku QtCharts QML in da je najstarejša potrebna različica Qt5 je zdaj 5.12. Zamenjali smo tudi rabo iz QtQuick.Controls 1 na QtQuick.Controls 2.</p>
+<p>Hvala vsem,<br/>
+Timothée in Johnny</p>
+{% endblock %}
