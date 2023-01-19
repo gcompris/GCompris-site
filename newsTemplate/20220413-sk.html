@@ -1,0 +1,16 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Vydanie GCompris 2.4' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.4.png' class='col-xs-12 col-md-4' alt='gcompris 2.4' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.4.png')"/>
+
+<p>Dnes vydávame GCompris vo verzii 2.4.</p>
+<p>Optimalizovali sme veľkosť všetkých balíčkov pre všetky platformy a sád obrázkov externých slov (~30% zmenšenie).</p>
+<p>Ak ste si vypli automatické sťahovanie a chcete mať úplnú sadu obrázkov, mali by ste vojsť do konfigurácie a kliknúť na "Stiahnuť úplnú sadu obrázkov slov".</p>
+<p>Ak máte najnovšiu verziu, dole sa zobrazí text "Úplná sada obrázkov slov je nainštalovaná".</p>
+<p>Karl Ove Hufthammer a Øystein Steffensen-Alværvik pridali hlasy v Nórskom (Nynórskom) jazyku. Aiswarya Kaitheri Kandoth dokončila hlasy v Indickom jazyku Malayalam.</p>
+<p>Bolo aktualizovaných mnoho obrázkov viacerých aktivít.</p>
+<p>Tiež sme opravili zopár chýb v aktivitách Obnoviteľná energia, Vodný cyklus a Logické asociácie.</p>
+<p>Nové verzie balíčkov pre GNU/Linux, Windows, Raspberry Pi a macOS, nájdete na <a href="https://gcompris.net/downloads{{ suffix }}.html">stránke sťahovania</a>. Táto aktuálizácia bude čoskoro dostupná aj v Androidovom obchode Play, v repozitári F-Droidu a v obchode Windows.</p>
+<p>Vďaka Vám všetkým! <br/>Timothée & Johnny</p>
+{% endblock %}
