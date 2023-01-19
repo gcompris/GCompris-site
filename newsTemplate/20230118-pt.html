@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Hoje anunciamos o lançamento do GCompris na versão 3.0.</p>
+<p>Contém 182 actividades, incluindo 8 novas:</p>
+<ul>
+<li class="puce">O "Treino dos botões do rato" é um exercício para praticar com um rato, usando os botões esquerdo e direito do mesmo.</li>
+<li class="puce">Em "Criar as fracções", representar as quantidades decimais com alguns gráficos de fatias ou rectangulares.</li>
+<li class="puce">Em "Procurar as fracções", funciona no sentido inverso: escreva a fracção representada pelo gráfico de fatias ou do rectângulo.</li>
+<li class="puce">Com a actividade "Descobrir o código Morse internacional", aprenda a comunicar com o código internacional de Morse.</li>
+<li class="puce">Em "Comparar os números", aprenda como comparar valores numéricos com sinais de comparação.</li>
+<li class="puce">"Descobrir o complemento a dez" é uma actividade simples para aprender o conceito do complemento a dez.</li>
+<li class="puce">Em "Trocar o complemento a dez", troque os números numa soma para a optimizar com o complemento a dez.</li>
+<li class="puce">Em "Usar o complemento a dez", decompor uma adição para a optimizar com o complemento a dez.</li>
+</ul>
+<br/>
+<p>Foram adicionadas 2 novas opções da linha de comandos:</p>
+<ul>
+<li class="puce">apresentar todas as actividades disponíveis ('-l' ou ''--list-activities')</li>
+<li class="puce">iniciar directamente uma dada actividade (--launch nome-actividade)</li>
+</ul>
+<br/>
+<p>Esta versão também contém várias melhorias e correcções de erros.</p>
+<br/>
+<p>Do lado das traduções, o GCompris 3.0 contém 36 línguas. 25 estão completamente traduzidas: (Azerbaijano, Basco, Bretão, Inglês Britânico, Catalão, Catalão (Valenciano), Chinês Tradicional, Croata, Holandês, Estoniano, Francês, Grego, Hebraico, Húngaro, Italiano, Lituano, Malayalam, Norueguês Nynorsk, Polaco, Português, Romeno, Russo, Esloveno, Espanhol, Ucraniano). 11 estão parcialmente traduzidas: (Albanês (99%), Bielorrusso (83%), Português do Brasil (94%), Checo (82%), Finlandês (94%), Alemão (91%), Indonésio (95%), Macedónio (94%), Eslovaco (77%), Sueco (94%) e Turco (71%)).</p>
+<p>Uma nota especial sobre as vozes Ucranianas que foram adicionadas graças à organização "Save the Children" que financiou a gravação. Eles instalaram o GCompris em 8000 'tablets' e 1000 portáteis, enviando-os para centros de aprendizagem digital e para outros lugares seguros para crianças na Ucrânia.</p>
+<p>As vozes em croata foram também gravadas por um colaborador.</p>
+<br/>
+<p>Como de costume, poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS e Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de transferências</a>. Esta actualização também estará disponível em breve na loja Android Play, no repositório F-Droid e na loja do Windows.</p>
+<p>Para os criadores de pacotes de distribuições de GNU/Linux, lembre-se que temos uma nova dependência no módulo QML do QtCharts, sendo que a versão mínima obrigatória do Qt5 é agora a 5.12. Também migrámos do QtQuick.Controls 1 para o QtQuick.Controls 2.</p>
+<p>Obrigado a todos, <br/>Timothée & Johnny</p>
+{% endblock %}
