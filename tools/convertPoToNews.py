@@ -80,6 +80,18 @@ for currentNews in news:
     with open(news[currentNews]['originalFilename'], "r", encoding="utf-8") as originalFile:
         fileData = originalFile.read()
 
+    # Check first all the strings of the file are translated (po files may be out of sync)
+    allLines = re.findall("(?s)<p>(.*?)</p>|<li.*?>(.*?)</li>", fileData)
+    for line in allLines:
+        if line[0]: # paragraph
+            if not line[0] in news[currentNews]:
+                print("Skip news %s because %s not translated" % (currentNews, line[0]));
+                break;
+        elif line[1]: # list item
+            if not line[1] in news[currentNews]:
+                print("Skip news %s because %s not translated" % (currentNews, line[1]));
+                break;
+
     # Replace the target string
     for string in news[currentNews]:
         if 'title' == string:
