@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-18 01:01+0000\n"
-"PO-Revision-Date: 2023-01-05 08:44+0200\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"POT-Creation-Date: 2023-01-19 01:01+0000\n"
+"PO-Revision-Date: 2023-01-18 14:30+0200\n"
+"Last-Translator: Fracture dept <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -109,26 +109,19 @@ msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "Випуск GCompris 2.3"
+msgstr "Випуск GCompris 3.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220224.html"
-#| msgid ""
-#| "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr "Привіт,<br/>\\nМи раді оголосити про випуск GCompris версії 2.2."
+msgstr "Ми раді оголосити про випуск GCompris версії 3.0."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Містить 182 вправ, зокрема 8 нових:"
 
 #. list item
 msgctxt "20230118.html"
@@ -136,6 +129,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"«Навчання клацанню кнопками миші» — вправа для вивчення клацань лівою і "
+"правою кнопками миші."
 
 #. list item
 msgctxt "20230118.html"
@@ -143,6 +138,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"У вправі «Створення дробів» можна навчитися відтворювати десяткові дроби за "
+"допомогою частинок круга або прямокутника."
 
 #. list item
 msgctxt "20230118.html"
@@ -150,6 +147,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"У вправі «Знайдіть дріб» усе навпаки: треба записати десятковий дріб за "
+"часткою, яку показано як частину круга або прямокутника."
 
 #. list item
 msgctxt "20230118.html"
@@ -157,6 +156,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"У вправі «Вивчення міжнародної азбуки Морзе» ви зможете навчитися "
+"обмінюватися кодами міжнародної азбуки Морзе."
 
 #. list item
 msgctxt "20230118.html"
@@ -164,6 +165,8 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"У вправі «Порівняйте числа» можна навчитися порівнювати числові значення за "
+"допомогою символів порівняння."
 
 #. list item
 msgctxt "20230118.html"
@@ -171,6 +174,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"У вправі «Знайдіть доповнення до десяти» можна познайомитися із поняттям "
+"доповнення до десяти."
 
 #. list item
 msgctxt "20230118.html"
@@ -178,6 +183,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"У вправі «Обмін доповнень до десяти» треба переставити числа у дії з "
+"додавання для оптимізації з використанням доповнення до десяти."
 
 #. list item
 msgctxt "20230118.html"
@@ -185,48 +192,52 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"У вправі «Використання доповнення до десяти» треба розкласти дію додавання "
+"для оптимізації з використанням доповнення до десяти."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Нами додано 2 нових параметри командного рядка:"
 
 #. list item
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "list all the available activities (-l or --list-activities)"
 msgctxt "20230118.html"
-msgid "list all the available activities (-l or --list-activities)"
-msgstr ""
+msgid "List all the available activities (-l or --list-activities)"
+msgstr "показ усіх доступних вправ (-l або --list-activities)"
 
 #. list item
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid " directly start a specific activity (--launch activityName)"
 msgctxt "20230118.html"
-msgid " directly start a specific activity (--launch activityName)"
-msgstr ""
+msgid "Directly start a specific activity (--launch activityName)"
+msgstr " безпосередній запуск вказаної вправи (--launch назва_вправи)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid ""
-#| "This new version includes updated translation for several languages, and "
-#| "a few bug fixes."
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
 msgstr ""
-"У цій новій версії оновлено переклади декількома мовами та виправлено "
-"декілька вад."
+"У цій версії також можна скористатися декількома удосконаленнями та "
+"виправленнями вад."
 
 # paragraph
 #. paragraph
 #, fuzzy
-#| msgctxt "20211217.html"
+#| msgctxt "20230118.html"
 #| msgid ""
-#| "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#| "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#| "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#| "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#| "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#| "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#| "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#| "(76%) and Russian (76%))."
+#| "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
+#| "translated: (Azerbaijani, Basque, Breton, British English, Catalan, "
+#| "Catalan (Valencian), Chinese Traditional, Croatian, Dutch, Estonian, "
+#| "French, Greek, Hebrew, Hungarian, Italian, Lithuanian, Malayalam, "
+#| "Norwegian Nynorsk, Polish, Portuguese, Romanian, Russian, Slovenian, "
+#| "Spanish, Ukrainian). 11 are partially translated: (Albanian (99%), "
+#| "Belarusian (83%), Brazilian Portuguese (94%), Czech (82%), Finnish (94%), "
+#| "German (91%), Indonesian (95%), Macedonian (94%), Slovak (77%), Swedish "
+#| "(94%) and Turkish (71%))."
 msgctxt "20230118.html"
 msgid ""
 "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
@@ -236,18 +247,19 @@ msgid ""
 "Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
 "are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
-"(95%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
+"(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"Якщо говорити про переклади, до пакунків GCompis 2.0 включено 33 переклади. "
-"Повністю реалізовано підтримку 26 мов: азербайджанської, албанської, "
-"баскської, бразильської португальської, британської англійської, "
-"каталанської, каталанської (валенсійський діалект), традиційної китайської, "
-"нідерландської, естонської, фінської, французької, грецької, івриту, "
-"угорської, індонезійської, італійської, литовської, малаялам, польської, "
-"португальської, румунської, словенської, іспанської, шведської, турецької та "
-"української. Маємо також 7 часткових переклади: німецькою (96%), норвезькою "
-"(96%), білоруською (83%), македонською (82%), бретонською (80%), турецькою "
-"(76%) і російською (76%)."
+"Якщо говорити про переклади, до пакунків GCompis 3.0 включено 36 переклади. "
+"Повністю реалізовано підтримку 25 мов: азербайджанської, баскської, "
+"бретонської, британської англійської, каталанської, каталанської "
+"(валенсійський діалект), традиційної китайської, хорватської, "
+"нідерландської, естонської, французької, грецької, івриту, угорської, "
+"італійської, литовської, малаялам, норвезької, польської, португальської, "
+"російської, румунської, словенської, іспанської, турецької та української. "
+"Маємо також 11 часткових перекладів: албанською (99%), білоруською (83%), "
+"бразильською португальською (94%), чеською (82%), фінською (94%), німецькою "
+"(91%), індонезійською (95%), македонською (94%), словацькою (77%), шведською "
+"(94%) і турецькою (71%)."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -257,22 +269,18 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Особливе зауваження щодо озвучення українською, яке було додано завдяки "
+"організації \\\"Save the Children\\\", яка профінансувала запис. Вони "
+"встановили GCompris на 8000 планшетів та 1000 ноутбуків і надіслали їх у "
+"центри цифрового навчання та інші безпечні для дітей України місця."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "Учасником спільноти було записано озвучення для хорватської мови."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -281,10 +289,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та "
-"MacOS можна знайти на <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії "
-"з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows."
+"Як завжди, посилання на пакунки нової версії для GNU/Linux, Windows, "
+"Android, Raspberry Pi та MacOS можна знайти на <a href=\\\"https://gcompris."
+"net/downloads{{ suffix }}.html\\\">сторінці отримання пакунків</a>. Невдовзі "
+"пакунки оновленої версії також з'являться у крамниці Android Play, сховищі F-"
+"Droid та крамниці Windows."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -293,12 +302,13 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"Для пакувальників дистрибутивів GNU/Linux: зауважте, що у нас з'явилася нова "
+"залежність від додатка QtCharts QML, а мінімальну потрібну версію Qt5 "
+"піднято до 5.12. Ми також перейшли від використання QtQuick.Controls 1 до "
+"використання QtQuick.Controls 2."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
