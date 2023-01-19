@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Avui ens complau anunciar el llançament del GCompris versió 3.0.</p>
+<p>Conté 182 activitats, incloent-hi 8 de noves:</p>
+<ul>
+<li class="puce">«Entrena el clic del ratolí» és un exercici per a practicar l'ús d'un ratolí amb clic amb el botó dret i el botó esquerre.</li>
+<li class="puce">A «Crea les fraccions», es representen quantitats decimals amb diversos gràfics de pastís o rectangles.</li>
+<li class="puce">A «Troba les fraccions», és a la inversa: escriure la fracció representada per un diagrama de pastís o de rectangles.</li>
+<li class="puce">Amb «Descobreix el codi Morse internacional» s'aprèn com comunicar-se amb el codi Morse internacional.</li>
+<li class="puce">A «Compara els números» s'aprèn com comparar valors numèrics fent servir els símbols de comparació.</li>
+<li class="puce">«Troba els complements a deu» és un exercici senzill per aprendre el concepte de complement a deu.</li>
+<li class="puce">A «Intercanvia els complements a deu» cal intercanviar els nombres d'una suma per a optimitzar-la usant el complement a deu.</li>
+<li class="puce">A «Usa els complements a deu» cal descompondre una suma per a optimitzar-la usant el complement a deu.</li>
+</ul>
+<br/>
+<p>S'han afegit 2 opcions noves de la línia d'ordres:</p>
+<ul>
+<li class="puce">Llista totes les activitats disponibles (-l or --list-activities)</li>
+<li class="puce">Inicia directament una activitat específica (--launch nomActivitat)</li>
+</ul>
+<br/>
+<p>Aquesta versió també conté diverses millores i esmenes d'errors.</p>
+<br/>
+<p>Per la part de les traduccions, el GCompris 3.0 conté 36 llengües. 25 estan totalment traduïdes (àzeri, basc, bretó, anglès britànic, català, català (valencià), xinès tradicional, croat, neerlandès, francès, grec, hebreu, hongarès, italià, lituà, malaiàlam, noruec nynorsk, polonès, portuguès, romanès, rus, eslovè, espanyol, ucraïnès). 11 estan parcialment traduïts: (albanès (99%), bielorús (83%), portuguès brasiler (94%), txec (82%), finlandès (94%), alemany (91%), indonesi (99%), macedoni (94%), eslovac (77%), suec (94%) i turc (71%)).</p>
+<p>Una nota especial sobre les veus ucraïneses que s'han afegit gràcies a l'organització «Salva els infants» que va finançar l'enregistrament. Ells van instal·lar el GCompris en 8000 tauletes i 1000 portàtils, i els van enviar a centres d'aprenentatge digital i altres espais segurs per a nens a Ucraïna.</p>
+<p>Un col·laborador ha gravat també les veus croates.</p>
+<br/>
+<p>Com d'habitual, podeu trobar els paquets d'aquesta nova versió per al GNU/Linux, Windows, Android, Raspberry Pi i macOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització també estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+<p>Per als empaquetadors de distribucions GNU/Linux, cal tenir en compte que tenim una nova dependència del connector QML de QtCharts, i la versió mínima requerida de les Qt5 ara és la 5.12. També hem canviat l'ús dels QtQuick.Controls 1 a QtQuick.Controls 2.</p>
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+{% endblock %}
