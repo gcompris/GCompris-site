@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Jemi të gëzuar të njoftojmë hedhjen në qarkullim të versioni 3.0 të GCompris-së.</p>
+<p>Përmban 182 veprimtari, përfshi 8 të reja:</p>
+<ul>
+<li class="puce">“Stërvitje për klikim me miun” është një ushtrim për të praktikuar përdorimin e miut përmes klikimesh me të majtin dhe me të djathtin.</li>
+<li class="puce">Te “Krijoni thyesa”, formoni sasi dhjetore me disa grafikë qarkorë ose drejtkëndorë.</li>
+<li class="puce">Te “Njehsoni thyesat”, është e kundërta: shkruani thyesën e përfaqësuar nga grafika qarkore ose drejtkëndore.</li>
+<li class="puce">Me “Njihuni me kodin Ndërkombëtar Mors” mësoni se si të komunikoni përmes kodit Ndërkombëtar Mors.</li>
+<li class="puce">Te “Krahasoni numra” mësoni si të krahasoni vlera numrash duke përdorur simbole.</li>
+<li class="puce">“Gjeni plotësor të dhjetës” është një ushtrim i thjeshtë për të mësuar konceptin e plotësorit të dhjetës.</li>
+<li class="puce">Te “Këmbeni plotësor të dhjetës”, këmbeni numra të një mbledhjeje, për ta optimizuar, duke përdorur plotësor të dhjetës.</li>
+<li class="puce">Te “Përdorni plotësor të dhjetës”, shpërbëni një mbledhje për ta optimizuar, duke përdorur plotësor të dhjetës.</li>
+</ul>
+<br/>
+<p>Kemi shtuar 2 mundësi të reja rreshti urdhrash:</p>
+<ul>
+<li class="puce">Paraqitje e krejt veprimtarive të mundshme (-l ose --list-activities)</li>
+<li class="puce">Nisni drejtpërdrejt një veprimtari specifike (--launch emërVeprimtarie)</li>
+</ul>
+<br/>
+<p>Ky version përmban gjithashtu një numër përmirësimesh dhe ndreqjesh të metash.</p>
+<br/>
+<p>Për nga përkthimet, GCompris 3.0 përmban 36 gjuhë. 25 janë të përkthyera plotësisht: (azerbaixhanisht, baskisht, bretonisht, anglishte britanike, katalamisht, katalanisht (Valencie),kinezçe tradicionale, kroatisht, holandisht, estonisht, frëngjisht, greqisht, hebraisht, hungarisht, italisht, lituanisht, malajalamisht, norvegjishte Nynorsk, polonisht, portugalisht, rumanisht, rusisht, sllovenisht, spanjisht, ukrainisht). 11 janë pjesërisht të përkthyera: (shqip (99%), bjellorusisht (83%), portugalishte Brazili (94%), çekisht (82%), finlandisht (94%), gjermanisht (91%), indonezisht (99%), maqedonisht (94%), sllovakisht (77%), Suedisht (94%) dhe turqisht (71%)).</p>
+<p>Një shënim special mbi zërat e ukrainishtes të cilët u shtuan falë shoqatës “Save the Children” që financoi incizimin. Ata instaluan GCompris në 8000 tablete dhe 1000 portativë dhe i dërguan në qendra të nxëni dixhital dhe të tjera vende të parrezik për fëmijë në Ukrainë.</p>
+<p>Edhe për kroatishten u incizuan zëra nga një kontributor.</p>
+<br/>
+<p>Si zakonisht, te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së shpejti i passhëm edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows.</p>
+<p>Për paketues të shpërndarjeve GNU/Linux, mbani parasysh se kemi një varësi të re për shtojcën QtCharts QML dhe versioni minimum i domosdoshëm për Qt5 tani është 5.12. Kaluam gjithashtu nga përdorimi i QtQuick.Controls 1 në QtQuick.Controls 2.</p>
+<p>Faleminderit të tërëve, <br/>Timothée & Johnny</p>
+{% endblock %}
