@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-19 01:01+0000\n"
-"PO-Revision-Date: 2023-01-07 12:44+0100\n"
+"PO-Revision-Date: 2023-01-19 11:01+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Generated-By: Babel 1.3\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. news title
 msgctxt "20220413.html"
@@ -104,27 +104,19 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala vsem,<br/>Timothée in Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "Izdaja GCompris 2.3"
+msgstr "Izdaja GCompris 3.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220224.html"
-#| msgid ""
-#| "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr ""
-"Pozdravljeni,<br />\\nZ veseljem objavljamo izdajo GCompris različice 2.2."
+msgstr "Z veseljem objavljamo izdajo GCompris različice 3.0."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Vsebuje 182 dejavnosti, od tega 8 novih:"
 
 #. list item
 msgctxt "20230118.html"
@@ -132,6 +124,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"\\\"Vaja klikanja z miško\\\" je vaja uporabe miške z levimi in desnimi "
+"kliki."
 
 #. list item
 msgctxt "20230118.html"
@@ -139,6 +133,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"\\\"Ustvarjanje ulomkov\\\", predstavlja decimalne vrednosti s krožnimi in "
+"kvadratnimi diagrami."
 
 #. list item
 msgctxt "20230118.html"
@@ -146,6 +142,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"\\\"Najdite ulomke\\\" je obratno; napišite ulomek, ki je predstavljen s "
+"krožnim ali kvadratnim diagramom."
 
 #. list item
 msgctxt "20230118.html"
@@ -153,6 +151,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"Z \\\"Okrivanjem mednarodne Morsejeve kode\\\", se naučite komuniciranja z "
+"mednarodno Morsejevo kodo."
 
 #. list item
 msgctxt "20230118.html"
@@ -160,6 +160,8 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"V \\\"Primerjajte števila\\ se naučite primerjati številske vrednost z "
+"uporabo simbolov za primerjave."
 
 #. list item
 msgctxt "20230118.html"
@@ -167,6 +169,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"\\\"Najdite dopolnilo števila deset\\\" je enostavna vaja, da se naučite "
+"koncepta dopolnila števila deset."
 
 #. list item
 msgctxt "20230118.html"
@@ -174,6 +178,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"V \\\"Premenjavi dopolnila števila deset\\\" premenjate števila tako, da "
+"optimizirate seštevanje z uporabo dopolnil števila deset."
 
 #. list item
 msgctxt "20230118.html"
@@ -181,26 +187,28 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"V \\\"Uporabi dopolnil števila deset\\\" razbijete seštevanje tako, da ga "
+"optimizirate z uporabo dopolnil števila deset."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Dodali smo 2 možnosti pri ukazni vrstici:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "Seznam vseh razpoložljivih dejavnosti (-l ali -list-activities)"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "Neposredno zaženi določeno dejavnost (--launch imeDejavnosti)"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "Ta različica vsebuje tudi veliko izboljšav in popravkov napak."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -214,6 +222,15 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
+"Na prevodni strani  GCompris 3.0 vsebuje 36 jezikov. 25 je v celoti "
+"prevedeno: (azerbajdžansko, baskovsko, bretonsko, britansko angleško, "
+"katalonsko, katalonsko (Valencia), tradicionalno kitajsko, hrvaško, "
+"nizozemsko, estonsko, francosko, grško, hebrejsko, madžarsko, italijansko, "
+"litovsko, malajalam, norveško Nynorsk, poljskp, portugalsko, romunsko, "
+"rusko, slovensko, špansko, ukrajinsko). 11 jezikov je delno prevedenp: "
+"(albansko (99%), belorusko (83%), brazilsko portugalsko (94%), češko (82%), "
+"finsko (94%), nemško (91%), indonezijsko (99%), makedonsko (94%), slovaško "
+"(77%), švedsko (94%) in turško (71%))."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -223,21 +240,17 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Posebna omemba o ukrajinskih glasovih, ki so bili dodani zahvaljujoč "
+"organizaciji  \\\"Save the Children\\\", ki je financirala snemanje. Oni so "
+"tudi namestili GCompris na 8000 tablic in 1000 prenosnikov in jih poslali na "
+"digitalne centre za učenje in druge varne prostore za otroke v Ukrajini."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "Sodelavec je posnel tudi hrvaške glasove."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -246,10 +259,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Pakete te nove verzije lahko najdete za GNU/Linux, Windows, Raspbery Pi in "
-"MacOS na\\n<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini "
-"Android Play, skladišču F-Droid in trgovini za Windows."
+"KO ponavadi pakete te nove različice najdete za GNU/Linux, Windows, Raspbery "
+"Pi in MacOS najdete na\\n<a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">strani za prenos</a>. Ta posodobitev bo kmalu "
+"na voljo tudi v trgovini Android Play, skladišču F-Droid in skladišču za "
+"Windows."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -258,11 +272,12 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"Za pripravljalce paketov distribucij GNU/Linux upoštevajte, da imamo novo "
+"odvisnost v vtičniku QtCharts QML in da je najstarejša potrebna različica "
+"Qt5 je zdaj 5.12. Zamenjali smo tudi rabo iz QtQuick.Controls 1 na QtQuick."
+"Controls 2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala vsem,<br/>\\nTimothée in Johnny"

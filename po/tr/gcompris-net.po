@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-19 01:01+0000\n"
-"PO-Revision-Date: 2023-01-18 21:53+0300\n"
+"PO-Revision-Date: 2023-01-19 22:40+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -196,20 +196,14 @@ msgid "We've added 2 new command line options:"
 msgstr "İki yeni komut satırı seçeneği ekledik:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "list all the available activities (-l or --list-activities)"
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr "kullanılabilir tüm etkinlikleri listele (-l veya --list-activities)"
+msgstr "Kullanılabilir tüm etkinlikleri listele (-l veya --list-activities)"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid " directly start a specific activity (--launch activityName)"
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr "doğrudan belirli bir etkinliği başlat (--launch etkinlikAdı)"
+msgstr "Doğrudan belirli bir etkinliği başlat (--launch etkinlikAdı)"
 
 #. paragraph
 msgctxt "20230118.html"
@@ -217,18 +211,6 @@ msgid "This version also contains several improvements and bug fixes."
 msgstr "Bu sürüm ayrıca çeşitli iyileştirmeler ve hata düzeltmeleri içerir."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
-#| "translated: (Azerbaijani, Basque, Breton, British English, Catalan, "
-#| "Catalan (Valencian), Chinese Traditional, Croatian, Dutch, Estonian, "
-#| "French, Greek, Hebrew, Hungarian, Italian, Lithuanian, Malayalam, "
-#| "Norwegian Nynorsk, Polish, Portuguese, Romanian, Russian, Slovenian, "
-#| "Spanish, Ukrainian). 11 are partially translated: (Albanian (99%), "
-#| "Belarusian (83%), Brazilian Portuguese (94%), Czech (82%), Finnish (94%), "
-#| "German (91%), Indonesian (95%), Macedonian (94%), Slovak (77%), Swedish "
-#| "(94%) and Turkish (71%))."
 msgctxt "20230118.html"
 msgid ""
 "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
@@ -247,7 +229,7 @@ msgstr ""
 "Norveççesi, Lehçe, Portekizce, Romence, Rusça, Slovence, İspanyolca, "
 "Ukraynaca). 11 tanesi kısmen çevrilmiştir: (Arnavutça (%​99), Beyaz Rusça (%​"
 "83), Brezilya Portekizcesi (%​94), Çekçe (%​82), Fince (%​94), Almanca (%​91), "
-"Endonezyaca (%​95), Makedonca (%​94), Slovakça (%​77), İsveççe (%​94) ve Türkçe "
+"Endonezyaca (%​99), Makedonca (%​94), Slovakça (%​77), İsveççe (%​94) ve Türkçe "
 "(%​71)."
 
 #. paragraph
@@ -821,7 +803,7 @@ msgstr ""
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr "Dünyayı mantık, sanat, ve müzik ile keşfetme"
+msgstr "Dünyayı mantık, sanat ve müzik ile keşfetme"
 
 #: template/schools.html:20
 msgid ""

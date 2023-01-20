@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-19 01:01+0000\n"
-"PO-Revision-Date: 2023-01-09 18:45+0000\n"
+"PO-Revision-Date: 2023-01-19 02:48+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -29,7 +29,9 @@ msgstr ""
 "X-POFile-SpellExtra: CODE Patreon APK Ubuntu Touch msi AGPLv deimagens\n"
 "X-POFile-SpellExtra: Hufthammer Øystein Steffensen Alværvik Aiswarya\n"
 "X-POFile-SpellExtra: Kaitheri Kandoth Affero revisiondate translatorsnames\n"
-"X-POFile-SpellExtra: Flathub Snap SHA sha publicgpgkey\n"
+"X-POFile-SpellExtra: Flathub Snap SHA sha publicgpgkey list activities\n"
+"X-POFile-SpellExtra: launch Save the Children tablets QML QtCharts QtQuick\n"
+"X-POFile-SpellExtra: Controls\n"
 
 #. news title
 msgctxt "20220413.html"
@@ -116,25 +118,19 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todos, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "Lançamento do GCompris 2.3"
+msgstr "Lançamento do GCompris 3.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr "Hoje anunciamos o lançamento do GCompris na versão 2.3."
+msgstr "Hoje anunciamos o lançamento do GCompris na versão 3.0."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Contém 182 actividades, incluindo 8 novas:"
 
 #. list item
 msgctxt "20230118.html"
@@ -142,6 +138,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"O \\\"Treino dos botões do rato\\\" é um exercício para praticar com um "
+"rato, usando os botões esquerdo e direito do mesmo."
 
 #. list item
 msgctxt "20230118.html"
@@ -149,6 +147,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"Em \\\"Criar as fracções\", representar as quantidades decimais com alguns "
+"gráficos de fatias ou rectangulares."
 
 #. list item
 msgctxt "20230118.html"
@@ -156,6 +156,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"Em \\\"Procurar as fracções\\\", funciona no sentido inverso: escreva a "
+"fracção representada pelo gráfico de fatias ou do rectângulo."
 
 #. list item
 msgctxt "20230118.html"
@@ -163,6 +165,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"Com a actividade \\\"Descobrir o código Morse internacional\\\", aprenda a "
+"comunicar com o código internacional de Morse."
 
 #. list item
 msgctxt "20230118.html"
@@ -170,6 +174,8 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"Em \\\"Comparar os números\\\", aprenda como comparar valores numéricos com "
+"sinais de comparação."
 
 #. list item
 msgctxt "20230118.html"
@@ -177,6 +183,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"\\\"Descobrir o complemento a dez\\\" é uma actividade simples para aprender "
+"o conceito do complemento a dez."
 
 #. list item
 msgctxt "20230118.html"
@@ -184,6 +192,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"Em \\\"Trocar o complemento a dez\\\", troque os números numa soma para a "
+"optimizar com o complemento a dez."
 
 #. list item
 msgctxt "20230118.html"
@@ -191,26 +201,29 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"Em \\\"Usar o complemento a dez\\\", decompor uma adição para a optimizar "
+"com o complemento a dez."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Foram adicionadas 2 novas opções da linha de comandos:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
 msgstr ""
+"apresentar todas as actividades disponíveis ('-l' ou ''--list-activities')"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "iniciar directamente uma dada actividade (--launch nome-actividade)"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "Esta versão também contém várias melhorias e correcções de erros."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -224,6 +237,15 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
+"Do lado das traduções, o GCompris 3.0 contém 36 línguas. 25 estão "
+"completamente traduzidas: (Azerbaijano, Basco, Bretão, Inglês Britânico, "
+"Catalão, Catalão (Valenciano), Chinês Tradicional, Croata, Holandês, "
+"Estoniano, Francês, Grego, Hebraico, Húngaro, Italiano, Lituano, Malayalam, "
+"Norueguês Nynorsk, Polaco, Português, Romeno, Russo, Esloveno, Espanhol, "
+"Ucraniano). 11 estão parcialmente traduzidas: (Albanês (99%), Bielorrusso "
+"(83%), Português do Brasil (94%), Checo (82%), Finlandês (94%), Alemão "
+"(91%), Indonésio (95%), Macedónio (94%), Eslovaco (77%), Sueco (94%) e Turco "
+"(71%))."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -233,21 +255,18 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Uma nota especial sobre as vozes Ucranianas que foram adicionadas graças à "
+"organização \\\"Save the Children\\\" que financiou a gravação. Eles "
+"instalaram o GCompris em 8000 'tablets' e 1000 portáteis, enviando-os para "
+"centros de aprendizagem digital e para outros lugares seguros para crianças "
+"na Ucrânia."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "As vozes em croata foram também gravadas por um colaborador."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -256,11 +275,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS "
-"e Raspberry Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
-"\\\">página de transferências</a>. Esta actualização também estará "
-"disponível em breve na loja Android Play, no repositório F-Droid e na loja "
-"do Windows."
+"Como de costume, poderá encontrar pacotes desta nova versão para o GNU/"
+"Linux, Windows, MacOS e Raspberry Pi na <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">página de transferências</a>. Esta "
+"actualização também estará disponível em breve na loja Android Play, no "
+"repositório F-Droid e na loja do Windows."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -269,12 +288,13 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"Para os criadores de pacotes de distribuições de GNU/Linux, lembre-se que "
+"temos uma nova dependência no módulo QML do QtCharts, sendo que a versão "
+"mínima obrigatória do Qt5 é agora a 5.12. Também migrámos do QtQuick."
+"Controls 1 para o QtQuick.Controls 2."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todos, <br/>Timothée & Johnny"
@@ -931,15 +951,3 @@ msgstr "Leitura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estratégia"
-
-#~ msgctxt "20220227.html"
-#~ msgid ""
-#~ "As we noticed that version 2.2 had been shipped with a bug that broke 3 "
-#~ "activities (\\\"Alphabet sequence\\\", \\\"Even and odd numbers\\\" and \\"
-#~ "\"Numbers in order\\\"), we decided to fix it quickly with a new "
-#~ "maintenance release."
-#~ msgstr ""
-#~ "Como reparámos que a versão 2.2 foi lançada com um erro que danificou 3 "
-#~ "actividades (\\\"Sequência alfabética\\\", \\\"Números pares e ímpares\\"
-#~ "\" e \\\"Números por ordem\\\"), optámos por corrigi-la rapidamente com "
-#~ "uma nova versão de manutenção."
