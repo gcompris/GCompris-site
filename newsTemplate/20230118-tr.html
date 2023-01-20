@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.0 Çıktı' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>GCompris'in 3.0 sürümünün yayımlandığını duyurmaktan mutluluk duyuyoruz.</p>
+<p>8'i yeni olmak üzere 182 etkinlik içerir:</p>
+<ul>
+<li class="puce">"Fare tıklama alıştırması", sol ve sağ tıklamalarla fare kullanımını alıştırmak için bir alıştırmadır.</li>
+<li class="puce">"Kesirleri oluştur"da, bazı pasta veya dikdörtgen grafiklerle ondalık sayıları temsil edin.</li>
+<li class="puce">"Kesirleri bul"da, başka türlüdür: Pasta veya dikdörtgen grafik tarafından temsil edilen kesri yazın.</li>
+<li class="puce">"Uluslararası Mors kodunu keşfet" ile Uluslararası Mors koduyla nasıl iletişim kuracağınızı öğrenin.</li>
+<li class="puce">"Sayıları karşılaştır" bölümünde, karşılaştırma sembollerini kullanarak sayı değerlerinin nasıl karşılaştırılacağını öğrenin.</li>
+<li class="puce">"On'un tümleyenini bul", onların tümleyeni kavramını öğrenmek için basit bir alıştırmadır.</li>
+<li class="puce">"On'un tümleyenini değiştir" içinde, bir toplamanın sayılarını değiş tokuş ederek onu onun tümleyenini kullanarak eniyileyin.</li>
+<li class="puce">"On'un tümleyenini kullan" içinde, bir toplamayı onun tümleyenini kullanarak eniyilemek için ayrıştırın.</li>
+</ul>
+<br/>
+<p>İki yeni komut satırı seçeneği ekledik:</p>
+<ul>
+<li class="puce">Kullanılabilir tüm etkinlikleri listele (-l veya --list-activities)</li>
+<li class="puce">Doğrudan belirli bir etkinliği başlat (--launch etkinlikAdı)</li>
+</ul>
+<br/>
+<p>Bu sürüm ayrıca çeşitli iyileştirmeler ve hata düzeltmeleri içerir.</p>
+<br/>
+<p>Çeviri tarafında, GCompris 3.0 36 dil içerir. 25'i tümüyle çevrilmiştir: (Azerbaycanca, Baskça, Bretonca, İngiliz İngilizcesi, Katalanca, Katalanca (Valensiya), Geleneksel Çince, Hırvatça, Hollandaca, Estonca, Fransızca, Yunanca, İbranice, Macarca, İtalyanca, Litvanca, Malayalamca, Nynorsk Norveççesi, Lehçe, Portekizce, Romence, Rusça, Slovence, İspanyolca, Ukraynaca). 11 tanesi kısmen çevrilmiştir: (Arnavutça (%​99), Beyaz Rusça (%​83), Brezilya Portekizcesi (%​94), Çekçe (%​82), Fince (%​94), Almanca (%​91), Endonezyaca (%​99), Makedonca (%​94), Slovakça (%​77), İsveççe (%​94) ve Türkçe (%​71).</p>
+<p>Kaydı finanse eden "Save the Children" organizasyonu sayesinde eklenen Ukraynalı seslerle ilgili özel bir not. 8000 tablete ve 1000 dizüstü bilgisayara GCompris kurdular ve bunları Ukrayna'daki Sayısal Öğrenme Merkezlerine ve çocuklar için diğer güvenli alanlara gönderdiler.</p>
+<p>Hırvat sesleri de bir katılımcı tarafından kaydedildi.</p>
+<br/>
+<p>Bu yeni sürümün paketlerini <a href="https://gcompris.net/downloads{{ suffix }}.html">indirme sayfasında</a> GNU/Linux, Windows, Android, Raspberry Pi ve macOS için bulabilirsiniz. Bu güncelleme, kısa bir süre içinde Google Play Store, F-Droid deposu ve Microsoft Store'da da kullanılabilir olacaktır.</p>
+<p>GNU/Linux dağıtımlarının paketleyicileri için, QtCharts QML eklentisine yeni bir bağımlılığımız olduğunu ve Qt5'in minimum gerekli sürümünün artık 5.12 olduğunu unutmayın. Ayrıca QtQuick.Controls 1'i kullanmaktan QtQuick.Controls 2'ye geçtik.</p>
+<p>Herkese teşekkürler!<br/>Timothée ve Johnny</p>
+{% endblock %}
