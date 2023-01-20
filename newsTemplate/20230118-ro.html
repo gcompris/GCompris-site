@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Avem plăcerea să vă anunțăm lansarea versiunii GCompris  3.0.</p>
+<p>Ea conține 182 activități, dintre care 8 sunt noi:</p>
+<ul>
+<li class="puce">\„Exersarea clicului de maus\” este un exercițiu care se practică folosind un maus cu clicuri dreapta și stânga.</li>
+<li class="puce">În activitatea \„Creează fracțiile\”, se reprezintă fracții zecimale cu ajutorul unor diagrame circulare sau dreptunghiulare.</li>
+<li class="puce">În activitatea \„Găsește fracțiile\” este invers: trebuie scrise fracțiile reprezentate de diagrama circulară sau dreptunghiulară.</li>
+<li class="puce">Cu activitatea \„Descoperă Codul Internațional Morse\”, se învață cum se poate comunica prin Codul Internațional Morse.</li>
+<li class="puce">În activitatea \„Compară numere\”, se învață cum să se compare valorile numerice folosind simbolurile de comparație.</li>
+<li class="puce">"Găsește complementul lui zece" este un exercițiu simplu pentru învățarea conceptul de complement a lui zece.</li>
+<li class="puce">În "Schimbă complementul lui zece", se schimbă termenii unei adunări pentru a o optimiza, folosind complementul lui zece.</li>
+<li class="puce">În activitatea "Folosește complementul lui zece", se descompune o adunare pentru a o optimiza, folosind complementul lui 10.</li>
+</ul>
+<br/>
+<p>Am adăugat două opțiuni noi pentru linia de comandă:</p>
+<ul>
+<li class="puce">Listarea tuturor activităților disponibile (-l or --list-activities)</li>
+<li class="puce">Începerea directă a unei activități specifice (--launch NumeleActivității)</li>
+</ul>
+<br/>
+<p>Această versiune conține de asemenea câteva îmbunătățiri și erori de programare remediate.</p>
+<br/>
+<p>Pe partea de traducere, GCompris 3.0 conține 36 de limbi. 25 sunt complet traduse (azeră, bască, bretonă, catalană, catalană valenciană, chineză tradițională, croată, engleză britanică, estoniană, franceză, greacă, italiană, ivrit, lituaniană, maghiară, malayalam, norvegiană Nynorsk, olandeză, poloneză, portugheză, română, rusă, slovenă, spaniolă, ucrainiană). 11 sunt parțial traduse (albaneză (99%), belarusă (83%), portugheză braziliană (94%), cehă (82%), finlandeză (94%), germană (91%), indoneziană (99%), macedoniană (94%), slovacă (77%), suedeză (94%) și turcă (71%).</p>
+<p>O notă specială despre vocile pentru limba ucrainiană, care au fost adăugate mulțumită organizației "Salvați Copiii", care a finanțat înregistrarea. Ei au instalat apoi GCompris pe 8000 de tablete și 1000 de laptopuri, după care le-au trimis la Centrele de Învățare Digitală și alte spații sigure pentru copiii din Ucraina.</p>
+<p>Vocile în croată au fost de asemenea înregistrate de un contributor.</p>
+<br/>
+<p>Ca de obicei, puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, Raspberry Pi și macOS, în <a href="https://gcompris.net/downloads{{ suffix  }}.html">pagina de descărcare</a>. Această actualizare va fi de asemenea disponibilă în curând și în Magazin Play pentru Android, în registrul de aplicații F-Droid, respectiv în Windows Magazin.</p>
+<p>Pentru creatorii pachetelor de instalare pentru distribuțiile de GNU/Linux, țineți cont că avem noi dependențe la pluginul QtCharts QML, iar versiunea minimă cerută de Qt5 este acum 5.12. De asemenea, am trecut de la folosirea QtQuick.Controls 1 la QtQuick.Controls 2.</p>
+<p>Vă mulțumim tuturor,<br/>
+Timothée & Johnny</p>
+{% endblock %}
