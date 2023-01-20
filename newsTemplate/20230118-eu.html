@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.0 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Atseginez jakinarazten dugu GCompris 3.0 bertsioa argitaratu dela.</p>
+<p>182 jarduera ditu, haien artean 8 berri:</p>
+<ul>
+<li class="puce">"Saguaren klikarekin trebatzea" jarduera, sagua ezker eta eskuin klik eginez trebatzeko ariketa bat da.</li>
+<li class="puce">"Sortu zatikiak" jardueran, adierazi kopuru hamartarrak tarta edo laukizuzen grafiko batzuk erabiliz.</li>
+<li class="puce">"Aurkitu zatikiak" jardueran, alderantzizkoa da: idatzi tarta edo laukizuzen grafikoek adierazten duten zatikia.</li>
+<li class="puce">"Ezagutu Nazioarteko Morse kodea" jarduerarekin, ikasi nazioarteko Morse kodea erabiliz komunikatzen.</li>
+<li class="puce">"Konparatu zenbakiak" jardueran, ikasi, konparazio ikurrak erabiliz, zenbakizko balioak alderatzen.</li>
+<li class="puce">"Aurkitu hamarrerako osagarria" jarduera, hamarrerako osagarria kontzeptua ikasteko ariketa erraz bat da.</li>
+<li class="puce">"Trukatu hamarrerako osagarria" jardueran, trukatu batuketa bateko zenbakiak, hamarreko osagarria erabiliz hura optimizatzeko.</li>
+<li class="puce">"Erabili hamarrerako osagarria" jardueran, deskonposatu batuketa bat, hamarrerako osagarria erabiliz hura optimizatzeko.</li>
+</ul>
+<br/>
+<p>Komando-lerroko 2 aukera berri gehitu ditugu:</p>
+<ul>
+<li class="puce">Zerrendatu jarduera erabilgarri guztiak (-l edo --list-activities)</li>
+<li class="puce">Zuzenean jarduera jakin bat abiatu (--launch jardueraIzena)</li>
+</ul>
+<br/>
+<p>Bertsio honek hainbat hobekuntza eta akats konponketa ere baditu.</p>
+<br/>
+<p>Itzulpenei dagokionez, GCompris 3.0  36 hizkuntza ditu. 25etan osorik itzulita dago : (azerbaijanera, bretoiera, Britainiako ingelesa, errumaniera, errusiera, esloveniera, estoniera, euskara, frantsesa, gaztelania, greziera, hebreera, hungariera, italiera, katalana, katalana (valentziera), kroaziera, lituaniera, malabarera, nederlandera, norvegiera Nynorsk, poloniera, portugesa, txinera tradizionala, ukrainera). 11 daude hein batean itzulita: (albaniera (%99), alemana (%91), bielorrusiera (%83), Brasilgo portugesa (%94), eslovakiera (%77), finlandiera/suomiera (%94), indonesiera (%99), mazedoniera (%94), suediera (%94), turkiera (%71), txekiera (%82)).</p>
+<p>Ohar berezi bat ukrainerako ahotsei buruz, gehitu egin dira, "Save the Children" erakundeak haiek grabatzea finantzatu duelako. GCompris 8000 tableta eta 1000 magalekotan instalatu, eta Ikasketa Gune Digitaletara eta Ukrainako haurrentzako beste toki seguru batzuetara bidali dira.</p>
+<p>Kolaboratzaile batek kroazierarako ahotsak ere grabatu ditu.</p>
+<br/>
+<p>Ohi bezala, <a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a> bertsio berri honen GNU/Linux, Windows, Android, Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+<p>GNU/Linux banaketetako paketatzaileentzako, kontuan izan «QtCharts QML» pluginarekiko mendekotasun berri bat dugula, eta «Qt5»ekiko eskatutako gutxieneko bertsioa, orain, 5.12 dela. Gainera, «QtQuick.Controls» 1etik «QtQuick.Controls» 2ra ere iragan gara.</p>
+<p>Eskerrik asko guztiei, <br/>Timothée eta Johnny</p>
+{% endblock %}
