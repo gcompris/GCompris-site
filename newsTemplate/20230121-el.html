@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Κυκλοφορία της έκδοσης 3.1 του GCompris.' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Σήμερα κυκλοφορούμε την έκδοση 3.1 του GCompris.</p>
+<p>Καθώς παρατηρήσαμε ότι η έκδοση 3.0 περιείχε ένα κρίσιμο σφάλμα στη νέα δραστηριότητα "Συσκευή σύγκρισης", αποφασίσαμε να κυκλοφορήσουμε γρήγορα την έκδοση 3.1 για να διορθώσουμε το πρόβλημα.</p>
+<p>Περιέχει επίσης μικρές ενημερώσεις στις μεταφράσεις.</p>
+<p>Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, Windows, Raspberry Pi και MacOS στη <a href="https://gcompris.net/downloads{{ suffix }}.html">σελίδα λήψεων</a>. Αυτή η ενημέρωση θα είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid και στο Windows Store.</p>
+<p>Σας ευχαριστούμε, <br/>Timothée & Johnny</p>
+{% endblock %}
