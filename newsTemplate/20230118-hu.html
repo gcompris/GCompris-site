@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.0-ás verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Örömmel jelentjük be a GCompris 3.0-s változatát.</p>
+<p>182 tevékenység, köztük 8 új:</p>
+<ul>
+<li class="puce">Az "Egérkattintás feljesztése" feladat segítségével az egérkezelést gyakorlhatjuk jobb-ball kattingatással.</li>
+<li class="puce">A "Törtek készítése",  használata közben piték és négyzetek segítik a törtszámok megértését.</li>
+<li class="puce">A "Találd meg a törtet", feladat az előző fordítottja: ahol a megadott törtrész képe alapján kell kitalálni annak értékét.</li>
+<li class="puce">A "Morze-abc felfedezése", gyakolrat segítségével elsajátítható a Morze kóddal történő kommunikáció.</li>
+<li class="puce">A "Számok összehasonlítása", gyakorlat megtanítja a számok értékét, összehasonlítás segítségével.</li>
+<li class="puce">"A tíz bontása" egy egyszerű feladat, melyben megtanulható a tíz bontása.</li>
+<li class="puce">A "Tíz bontása zárójellel", feladatban megtanulhatjuk a zárójeles műveleteket is bontás közben.</li>
+<li class="puce">A "Tíz bontott alakjának használata", feladatnála a bontásokat, számtani műveleteken keresztül ismerhetjük meg.</li>
+</ul>
+<br/>
+<p>Két parancssori beállítással is bővítettünk melyek:</p>
+<ul>
+<li class="puce">Az összes elérhető feladat listázása (-l vagy --list-activities)</li>
+<li class="puce">Egy feladat közvetlen idítása (--launch activityName)</li>
+</ul>
+<br/>
+<p>Ez a verzió ugyancsak számos javításon és fejlesztésen esett át.</p>
+<br/>
+<p>Fordítás szempontjából a GCompris 3.0 36 nyelven érhető el ebből. 25 nyelven teljesen honosított: (Azerbajdzsáni, Albán, Baszk, Brazil-portugál, Brit-angol Holland, Észt, Finn, Francia, Görög, Héber,Holland, Indonéz, Katalán, Lengyel, Litván, Magyar, Maláj,Olasz, Portugál, Román, Ukrán, Spanyol, Svéd, Szlovén, Ukrán, Velencei-katalán). 11 nyelven pedig nem teljesen: ((Albán (99%),Belorusz (83%), Brazil Portugál (94%), Cseh (82%), Finn (94%), Indonéz (99%), Macedón (94%), Német (91%), Svéd (94%) Szlovák (77%) Török (71%)).</p>
+<p>Különleges megjegyzés az ukrán hang tekintetében, melyet a  "Save the Children" alapítványí segítségével építettünk a programba, akik anyagilag finanszírozták annak felvételét. Programunkat 8000 tabletre és 1000 laptopra telepítették fel, melyeket ezután elküldtek Digitális tanulási központokba és egyéb biztonságos helyekre az ukrán gyerekek számára szerte az országban.</p>
+<p>Horvát hangfájlok is kerüpltek a programba, egy hozzájárulásnak köszönhetően.</p>
+<br/>
+<p>Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és MacOS csomagjai a, <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows store-ba is.</p>
+<p>A GNU/Linux dissztribúciós  csomagok tekintetében, megjegyezzük, hogy mostantól a program a QtCharts QML plugint támogatja, és a Qt5 minimálisan szükséges verziószáma mostantól 5.12. A QtQuick-et is elhagytuk.A Controls 1-et a  QtQuick.Controls 2 váltotta.</p>
+<p>Mindenkinek köszönjük, <br/>Timothée és Johnny</p>
+{% endblock %}
