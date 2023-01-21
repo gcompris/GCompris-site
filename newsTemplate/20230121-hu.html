@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.1-es verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Bemutatjuk a GCompris 3.1-es verzióját.</p>
+<p>Ahogy észrevettük, a 3.0 változat egy kritikus hibát is tartalmazott az új "Komparátor" alkalmazásban, ezért úgy döntöttük egy gyors 3.1-es javító kiadással orvosoljuk azt.</p>
+<p>Amely ugyancsak tartalmaz némi fordítási javítást is.</p>
+<p>Az új verzió GNU/Linux, Windows, Android, Raspberry Pi és MacOS csomagjai a, <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows store-ba is </p>
+<p>Mindenkinek köszönjük, <br/>Timothée és Johnny</p>
+{% endblock %}
