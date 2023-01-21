@@ -23,6 +23,8 @@ from ApplicationInfo import ApplicationInfo
 from PyQt5.QtCore import QCoreApplication, QUrl, QTranslator
 from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
 
+from bs4 import BeautifulSoup
+import html
 import htmlmin
 
 reload(sys)
@@ -335,16 +337,20 @@ for filename in sorted(filenames, reverse=True):
     rgx = re.compile('set title = [\'"](?P<name>[^{}]+)[\'"]')
     variable_names = {match.group('name') for match in rgx.finditer(lines)}
 
-    dateRFC822 = utils.formatdate(time.mktime(datetime.datetime.strptime(templateVars['newsDate'], "%Y-%m-%d").timetuple()))
-    currentFeed = {"dateRFC822": dateRFC822, "date": templateVars['newsDate'], "title": next(iter(variable_names))}
-
-    templateVars["feed"].append(currentFeed)
-
     templateNewsSingle = templateEnv.get_template("template/singlenews.html")
     outputNewsSingleText = templateNewsSingle.render(templateVars)
 
+    minifiedHtml = htmlmin.minify(outputNewsSingleText);
     with codecs.open('news/' + templateVars['newsDate'] + suffix + '.html', 'w', encoding='utf8') as f:
-        f.write(htmlmin.minify(outputNewsSingleText))
+        f.write(minifiedHtml)
+
+    soup = BeautifulSoup(minifiedHtml, "html.parser")
+    newsContent = soup.find_all("div", class_="newscontent")[0]
+    newsContent = html.escape(str(newsContent))
+    dateRFC822 = utils.formatdate(time.mktime(datetime.datetime.strptime(templateVars['newsDate'], "%Y-%m-%d").timetuple()))
+    currentFeed = {"dateRFC822": dateRFC822, "date": templateVars['newsDate'], "title": next(iter(variable_names)), "description": newsContent}
+
+    templateVars["feed"].append(currentFeed)
 
 #
 # Get the board list and make some adaptations

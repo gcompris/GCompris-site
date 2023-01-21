@@ -10,6 +10,7 @@
      <title>{{ entry.title }}</title>
      <link>https://www.gcompris.net/newsall-{{ locale }}.html#{{ entry.date }}</link>
      <guid>https://www.gcompris.net/newsall-{{ locale }}.html#{{ entry.date }}</guid>
+     <description>{{ entry.description }}</description>
      <pubDate>{{ entry.dateRFC822 }}</pubDate>
    </item>
    {% endfor %}
