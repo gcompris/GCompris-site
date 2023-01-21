@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.1 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Gaurkoan GCompris 3.1 bertsioa argitaratzen dugu.</p>
+<p>3.0 bertsioak "Konparatzailea" jardueran errore kritiko bat zuela ohartuta, arazoa konpontzeko 3.1 mantentze argitalpena azkar kaleratzea erabaki dugu.</p>
+<p>Itzulpenetan eguneratze gutxi batzuk ere baditu.</p>
+<p><a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a> bertsio berri honen GNU/Linux, Windows, Android, Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+<p>Eskerrik asko guztiei, <br/>Timothée eta Johnny</p>
+{% endblock %}
