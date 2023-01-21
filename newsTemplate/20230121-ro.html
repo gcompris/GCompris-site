@@ -1,0 +1,13 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Astăzi lansăm GCompris versiunea 3.1.</p>
+<p>De cum am observat că versiunea 3.0 conține o eroare de programare critică în noua activitate „Compară numere”, am decis să lansăm cât mai rapid această versiune 3.1, de mentenanță, pentru a remedia problema.</p>
+<p>Ea conține de asemenea și o mică actualizare a traducerii.</p>
+<p>Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, Raspberry Pi și macOS în <a href="https://gcompris.net/downloads{{ suffix }}.html">pagina de descărcare</a>. Această actualizare va fi disponibilă în curând în Magazinul Play Android, depozitul F-Droid și Windows Magazin.</p>
+<p>Vă mulțumim tuturor,<br/>
+Timothée & Johnny</p>
+{% endblock %}
