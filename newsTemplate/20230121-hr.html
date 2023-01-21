@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Danas smo objavili GCompris verziju 3.1.</p>
+<p>Obzirom smo primijetili kako verzija 3.0 sadrži kritičnu pogrešku u novoj aktivnosti "Usporednik", odlučili smo izdati nadogradnju u vidu verzije 3.1 kako bismo riješili problem.</p>
+<p>Također sadrži par ažuriranja prijevoda.</p>
+<p>Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možeš pronaći na <a href="https://gcompris.net/downloads{{ suffix }}.html">stranici za preuzimanje</ a>. Ovo će ažuriranje uskoro biti dostupno u Google Play trgovini, F-Droid repozitoriju i na Microsoft Store.</p>
+<p>Hvala svima, <br/>Timothée & Johnny</p>
+{% endblock %}
