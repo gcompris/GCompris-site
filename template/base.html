@@ -68,6 +68,7 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
 	<ul class="nav navbar-nav">
 	  <li class="{% if page == 'index' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}index{{ suffix }}.html">GCompris</a></li>
+	  <li class="{% if page == 'news' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}news{{ suffix }}.html">{% trans %}News{% endtrans %}</a></li>
 	  <li class="{% if page == 'downloads' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}downloads{{ suffix }}.html">{% trans %}Download{% endtrans %}</a></li>
 	  <li class="{% if page == 'donate' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}donate{{ suffix }}.html">{% trans %}Donate{% endtrans %}</a></li>
 	  <li class="{% if page == 'screenshots' %}active{% else %}non-active{% endif %}"><a href="{{ rootFolder }}screenshots{{ suffix }}.html">{% trans %}Screenshots{% endtrans %}</a></li>
