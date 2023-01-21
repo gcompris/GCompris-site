@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
 "PO-Revision-Date: 2023-01-19 18:04+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -20,92 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 22.12.1\n"
-
-# news title
-#. news title
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "Uitgave GCompris 2.4"
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
-msgstr "Vandaag geven we GCompris versie 2.4 vrij."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
-msgstr ""
-"We hebben de grootte van alle pakketten voor alle platformen geoptimaliseerd "
-"en van de externe set woordafbeeldingen (~30% kleiner)."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
-msgstr ""
-"Als u de automatische download hebt uitgeschakeld en de volledige set "
-"afbeeldingen wilt hebben, zou u moeten gaan naar de configuratie en klikken "
-"op \\\"Volledige set woordafbeeldingen downloaden\\\"."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-"De tekst \\\"Volledige set woordafbeeldingen is geïnstalleerd\\\" wordt "
-"onder getoond wanneer u de laatste versie hebt."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-"Noors Nynorsk introductiestemmen zijn toegevoegd door Karl Ove Hufthammer en "
-"Øystein Steffensen-Alværvik. Stemmen voor Malayalam zijn voltooid door "
-"Aiswarya Kaitheri Kandoth."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "Veel illustraties zijn bijgewerkt voor verschillende activiteiten."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-"We hebben ook een paar bugs in activiteiten Hernieuwbare energie, "
-"Watercyclus en Logische associaties gerepareerd."
-
-# paragraph
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows, "
-"Raspberry Pi en MacOS vinden op de <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">downloadpagina</a>. Deze opwaardering zal "
-"spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte "
-"en Windows store."
-
-# paragraph
-#. paragraph
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
 # news title
 #. news title
@@ -292,6 +206,68 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "Uitgave GCompris 3.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "Vandaag geven we GCompris versie 2.4 vrij."
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows, "
+"Raspberry Pi en MacOS vinden op de <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">downloadpagina</a>. Deze opwaardering zal "
+"spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte "
+"en Windows store."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
@@ -949,6 +925,59 @@ msgstr "Lezen"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
+
+# news title
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "Uitgave GCompris 2.4"
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We optimized the size of all the packages for all platforms and of the "
+#~ "external word images set (~30% smaller)."
+#~ msgstr ""
+#~ "We hebben de grootte van alle pakketten voor alle platformen "
+#~ "geoptimaliseerd en van de externe set woordafbeeldingen (~30% kleiner)."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "If you disabled the automatic download and want to have the full images "
+#~ "set, you should go to the configuration and click on \\\"Download full "
+#~ "word image set\\\"."
+#~ msgstr ""
+#~ "Als u de automatische download hebt uitgeschakeld en de volledige set "
+#~ "afbeeldingen wilt hebben, zou u moeten gaan naar de configuratie en "
+#~ "klikken op \\\"Volledige set woordafbeeldingen downloaden\\\"."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "The text \\\"Full word image set is installed\\\" is displayed below when "
+#~ "you have the latest version."
+#~ msgstr ""
+#~ "De tekst \\\"Volledige set woordafbeeldingen is geïnstalleerd\\\" wordt "
+#~ "onder getoond wanneer u de laatste versie hebt."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "Norwegian Nynorsk introduction voices have been added by Karl Ove "
+#~ "Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been "
+#~ "completed by Aiswarya Kaitheri Kandoth."
+#~ msgstr ""
+#~ "Noors Nynorsk introductiestemmen zijn toegevoegd door Karl Ove Hufthammer "
+#~ "en Øystein Steffensen-Alværvik. Stemmen voor Malayalam zijn voltooid door "
+#~ "Aiswarya Kaitheri Kandoth."
+
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "Veel illustraties zijn bijgewerkt voor verschillende activiteiten."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+#~ "associations activities."
+#~ msgstr ""
+#~ "We hebben ook een paar bugs in activiteiten Hernieuwbare energie, "
+#~ "Watercyclus en Logische associaties gerepareerd."
 
 #~ msgctxt "20220227.html"
 #~ msgid "Today we are releasing GCompris version 2.3."

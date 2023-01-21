@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
 "PO-Revision-Date: 2023-01-19 11:45+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
@@ -18,88 +18,6 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#. news title
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "Hedhje në qarkullim e GCompris 2.4"
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
-msgstr "Sot hedhim në qarkullim GCompris version 2.4."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
-msgstr ""
-"Optimizuam madhësinë e krejt paketave për krejt platformat dhe të grupit të "
-"jashtëm të figurave për fjalët (~30% më pak)."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
-msgstr ""
-"Nëse çaktivizuat shkarkimin e automatizuar dhe doni të keni grupin e plotë "
-"të figurave, duhet të kaloni te formësimi dhe të klikoni mbi “Shkarko grupin "
-"e plotë të figurave për fjalët”."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-"Nën të shfaqet teksti “Grupi i plotë i figurave për fjalët është i "
-"instaluar”, kur keni versionin më të ri."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-"U shtuan zërat e hyrjes për norvegjishte Nynorsk nga Karl Ove Hufthammer dhe "
-"Øystein Steffensen-Alværvik. Zërat e malajalamases u plotësuan nga Aiswarya "
-"Kaitheri Kandoth."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "Për disa veprimtari janë përditësuar mjaft figura."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-"Ndreqëm gjithashtu pak të meta te veprimtaritë “Energji e Rinovueshme”, "
-"“Cikël Ujor” dhe “Përshoqërime Logjike”."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
-"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
-"Windows, Raspberry Pi dhe macOS. Ky përditësim do të jetë së shpejti i "
-"passhëm edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230118.html"
@@ -283,6 +201,64 @@ msgstr ""
 
 #. paragraph
 msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "Hedhje në qarkullim e GCompris 3.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "Sot hedhim në qarkullim GCompris version 2.4."
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
+"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"Windows, Raspberry Pi dhe macOS. Ky përditësim do të jetë së shpejti i "
+"passhëm edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
@@ -941,6 +917,58 @@ msgstr "Lexim"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategji"
+
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "Hedhje në qarkullim e GCompris 2.4"
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We optimized the size of all the packages for all platforms and of the "
+#~ "external word images set (~30% smaller)."
+#~ msgstr ""
+#~ "Optimizuam madhësinë e krejt paketave për krejt platformat dhe të grupit "
+#~ "të jashtëm të figurave për fjalët (~30% më pak)."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "If you disabled the automatic download and want to have the full images "
+#~ "set, you should go to the configuration and click on \\\"Download full "
+#~ "word image set\\\"."
+#~ msgstr ""
+#~ "Nëse çaktivizuat shkarkimin e automatizuar dhe doni të keni grupin e "
+#~ "plotë të figurave, duhet të kaloni te formësimi dhe të klikoni mbi "
+#~ "“Shkarko grupin e plotë të figurave për fjalët”."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "The text \\\"Full word image set is installed\\\" is displayed below when "
+#~ "you have the latest version."
+#~ msgstr ""
+#~ "Nën të shfaqet teksti “Grupi i plotë i figurave për fjalët është i "
+#~ "instaluar”, kur keni versionin më të ri."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "Norwegian Nynorsk introduction voices have been added by Karl Ove "
+#~ "Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been "
+#~ "completed by Aiswarya Kaitheri Kandoth."
+#~ msgstr ""
+#~ "U shtuan zërat e hyrjes për norvegjishte Nynorsk nga Karl Ove Hufthammer "
+#~ "dhe Øystein Steffensen-Alværvik. Zërat e malajalamases u plotësuan nga "
+#~ "Aiswarya Kaitheri Kandoth."
+
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "Për disa veprimtari janë përditësuar mjaft figura."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+#~ "associations activities."
+#~ msgstr ""
+#~ "Ndreqëm gjithashtu pak të meta te veprimtaritë “Energji e Rinovueshme”, "
+#~ "“Cikël Ujor” dhe “Përshoqërime Logjike”."
 
 #~ msgctxt "20220227.html"
 #~ msgid ""

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
-"PO-Revision-Date: 2023-01-06 10:27+0100\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
+"PO-Revision-Date: 2023-01-20 16:17+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -18,74 +18,229 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #. news title
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "Versione GCompris 2.4"
+msgctxt "20230118.html"
+msgid "Release GCompris 3.0"
+msgstr "Versione GCompris 3.0"
 
 #. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230118.html"
+msgid "We are pleased to announce the release of GCompris version 3.0."
+msgstr ""
+"Abbiamo il piacere di annunciare il rilascio della versione 3.0 di GCompris."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "It contains 182 activities, including 8 new ones:"
+msgstr "Contiene 182 attività, di cui 8 nuove:"
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
+"left and right clicks."
+msgstr ""
+"\\«Esercitazione del clic con il mouse\\» è un esercizio per esercitarsi con "
+"il clic sinistro e destro del mouse."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Create the fractions\\\", represent decimal quantities with some pie "
+"or rectangle charts."
+msgstr ""
+"In \\«Crea le frazioni\\», rappresenta le quantità decimali con alcuni "
+"grafici a torta o rettangolari."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Find the fractions\\\", it's the other way: write the fraction "
+"represented by the pie or rectangle chart."
+msgstr ""
+"In \\«Trova le frazioni\\», è il contrario: scrivi la frazione rappresentato "
+"dal grafico a torta o rettangolare."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"With \\\"Discover the International Morse code\\\", learn how to communicate "
+"with the International Morse code."
+msgstr ""
+"Con \\«Scopri il codice Morse internazionale\\», impara a comunicare con il "
+"codice Morse internazionale."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Compare numbers\\\", learn how to compare number values using "
+"comparison symbols."
+msgstr ""
+"In \\«Confronta numeri\\», scopri come confrontare i valori numerici usando "
+"i simboli di confronto."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
+"ten's complement."
+msgstr ""
+"\\«Trova il complemento a dieci\\» è un semplice esercizio per imparare il "
+"concetto di complemento a dieci."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
+"using ten's complement."
+msgstr ""
+"In \\«Scambia il complemento a dieci\\», scambia i numeri di un'addizione "
+"per ottimizzarla utilizzando il complemento a dieci."
+
+#. list item
+msgctxt "20230118.html"
+msgid ""
+"In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
+"ten's complement."
+msgstr ""
+"In \\«Usa il complemento a dieci\\», scomponi un'addizione per ottimizzarla "
+"usando il complemento a dieci."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "We've added 2 new command line options:"
+msgstr "Abbiamo aggiunto 2 nuove opzioni della riga di comando:"
+
+#. list item
+msgctxt "20230118.html"
+msgid "List all the available activities (-l or --list-activities)"
+msgstr "Elencare tutte le attività disponibili (-l o --list-activities)"
+
+#. list item
+msgctxt "20230118.html"
+msgid "Directly start a specific activity (--launch activityName)"
+msgstr "Avviare direttamente un'attività specifica (--launch nomeAttività)"
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "This version also contains several improvements and bug fixes."
+msgstr ""
+"Questa versione contiene anche diversi miglioramenti e correzioni di bug."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
+"translated: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan "
+"(Valencian), Chinese Traditional, Croatian, Dutch, Estonian, French, Greek, "
+"Hebrew, Hungarian, Italian, Lithuanian, Malayalam, Norwegian Nynorsk, "
+"Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
+"are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
+"Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
+"(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
+msgstr ""
+"Per quanto riguarda le traduzioni, GCompris 3.0 contiene 36 lingue. 25 sono "
+"completamente tradotte: (azero, basco, bretone, inglese britannico, "
+"catalano, catalano (valenziano), cinese tradizionale, croato, olandese, "
+"estone, francese, greco, ebraico, ungherese, italiano, lituano, malayalam, "
+"norvegese nynorsk, polacco, portoghese, rumeno, russo, sloveno, spagnolo, "
+"ucraino). 11 sono parzialmente tradotte: (albanese (99%), bielorusso (83%), "
+"portoghese brasiliano (94%), ceco (82%), finlandese (94%), tedesco (91%), "
+"indonesiano (99%), macedone (94%), slovacco (77%), svedese (94%) e turco "
+"(71%))."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"A special note about Ukrainian voices which have been added thanks to the "
+"organization \\\"Save the Children\\\" who funded the recording. They "
+"installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
+"Digital learning Centers and other safe spaces for children in Ukraine."
+msgstr ""
+"Una nota speciale sulle voci ucraine che sono state aggiunte grazie "
+"all'organizzazione \\«Save the Children\\» che ha finanziato la "
+"registrazione. Hanno installato GCompris su 8000 tablet e 1000 laptop e li "
+"hanno inviati ai centri di apprendimento digitale e ad altri spazi sicuri "
+"per i bambini in Ucraina."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "Croatian voices have also been recorded by a contributor."
+msgstr "Anche le voci croate sono state registrate da un collaboratore."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"As usual you can find packages of this new version for GNU/Linux, Windows, "
+"Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Come al solito, puoi trovare i pacchetti di questa nuova versione per GNU/"
+"Linux, Windows, Android, Raspberry Pi e macOS sulla <a href=\\\"https://"
+"gcompris.net/downloads{{ suffix }}.html\\\">pagina Scarica</a>. Questo "
+"aggiornamento sarà inoltre disponibile presto nel Play Store di Android, nel "
+"deposito di F-Droid e nel Windows Store."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid ""
+"For packagers of GNU/Linux distributions, note that we have a new dependency "
+"on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
+"We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
+msgstr ""
+"Per i pacchettizzatori delle distribuzioni GNU/Linux, si noti che abbiamo "
+"una nuova dipendenza dal plugin QML di QtCharts e la versione minima "
+"richiesta di Qt5 è ora la 5.12. Siamo anche passati dall'uso di QtQuick."
+"Controls 1 a QtQuick.Controls 2."
+
+#. paragraph
+msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Grazie a tutti, <br/>Timothée e Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "Versione GCompris 3.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
 msgstr "Oggi rilasciamo GCompris versione 2.4."
 
 #. paragraph
-msgctxt "20220413.html"
+msgctxt "20230121.html"
 msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
 msgstr ""
-"Abbiamo ottimizzato le dimensioni di tutti i pacchetti per tutte le "
-"piattaforme e dell'insieme di immagini di parole esterne (~30% più piccole)."
 
 #. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
 msgstr ""
-"Se hai disabilitato lo scaricamento automatico e desideri avere le immagini "
-"complete impostate, dovresti andare alla configurazione e fare clic su \\"
-"\"Scarica insieme di immagini di parole complete\\\"."
 
 #. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-"Il testo \\\"L'insieme di immagini per parole complete è installato\\\" "
-"viene visualizzato di seguito quando si dispone dell'ultima versione."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-"Le voci di introduzione del norvegese Nynorsk sono state aggiunte da Karl "
-"Ove Hufthammer e Øystein Steffensen-Alværvik. Le voci malayalam sono state "
-"completate da Aiswarya Kaitheri Kandoth."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "Molte immagini sono state aggiornate per diverse attività."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-"Abbiamo anche corretto alcuni bug nelle attività Energie rinnovabili, Ciclo "
-"dell'acqua e Associazioni logiche."
-
-#. paragraph
-msgctxt "20220413.html"
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
 "Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
@@ -99,199 +254,10 @@ msgstr ""
 "Droid e nel Windows Store."
 
 #. paragraph
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Grazie a tutti, <br/>Timothée e Johnny"
-
-#. news title
 #, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
-msgctxt "20230118.html"
-msgid "Release GCompris 3.0"
-msgstr "Versione GCompris 2.3"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20220224.html"
-#| msgid ""
-#| "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
-msgctxt "20230118.html"
-msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr ""
-"Ciao,<br />\\nAbbiamo il piacere di annunciare il rilascio della versione "
-"2.2 di GCompris."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
-"left and right clicks."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Create the fractions\\\", represent decimal quantities with some pie "
-"or rectangle charts."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Find the fractions\\\", it's the other way: write the fraction "
-"represented by the pie or rectangle chart."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"With \\\"Discover the International Morse code\\\", learn how to communicate "
-"with the International Morse code."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Compare numbers\\\", learn how to compare number values using "
-"comparison symbols."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
-"ten's complement."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
-"using ten's complement."
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
-"ten's complement."
-msgstr ""
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "We've added 2 new command line options:"
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
-
-#. list item
-msgctxt "20230118.html"
-msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid ""
-#| "This new version includes updated translation for several languages, and "
-#| "a few bug fixes."
-msgctxt "20230118.html"
-msgid "This version also contains several improvements and bug fixes."
-msgstr ""
-"Questa versione include la traduzione aggiornata per diverse lingue e alcune "
-"correzioni di errori."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20211217.html"
-#| msgid ""
-#| "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#| "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#| "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#| "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#| "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#| "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#| "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#| "(76%) and Russian (76%))."
-msgctxt "20230118.html"
-msgid ""
-"On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
-"translated: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan "
-"(Valencian), Chinese Traditional, Croatian, Dutch, Estonian, French, Greek, "
-"Hebrew, Hungarian, Italian, Lithuanian, Malayalam, Norwegian Nynorsk, "
-"Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
-"are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
-"Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
-"(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
-msgstr ""
-"Per quanto riguarda le traduzioni, GCompris 2.0 si presenta con 33 lingue. "
-"26 sono completamente tradotte: (albanese, basco, portoghese brasiliano, "
-"inglese britannico, catalano, catalano (valenziano), cinese tradizionale, "
-"olandese, estone, finlandese, francese, greco, ebraico, ungherese, "
-"indonesiano, italiano, lituano, malayalam, polacco, portoghese, rumeno, "
-"russo, sloveno, spagnolo, svedese, turco, ucraino). 7 sono parzialmente "
-"tradotte: (tedesco (96%), norvegese nynorsk (96%), bielorusso (83%), "
-"macedone (82%), bretone (80%), turco (76%) e russo (76%))."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid ""
-"A special note about Ukrainian voices which have been added thanks to the "
-"organization \\\"Save the Children\\\" who funded the recording. They "
-"installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
-"Digital learning Centers and other safe spaces for children in Ukraine."
-msgstr ""
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
-msgctxt "20230118.html"
-msgid ""
-"As usual you can find packages of this new version for GNU/Linux, Windows, "
-"Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Puoi trovare i pacchetti di questa nuova versione per GNU/Linux, Windows, "
-"Android, Raspberry Pi e macOS sulla <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">pagina Scarica</a>. Questo aggiornamento sarà "
-"inoltre disponibile presto nel Play Store di Android, nel deposito di F-"
-"Droid e nel Windows Store."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid ""
-"For packagers of GNU/Linux distributions, note that we have a new dependency "
-"on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
-"We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
+#| msgctxt "20220413.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
-msgctxt "20230118.html"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazie a tutti, <br/>Timothée e Johnny"
 
@@ -952,6 +918,59 @@ msgstr "Lettura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategia"
+
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "Versione GCompris 2.4"
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We optimized the size of all the packages for all platforms and of the "
+#~ "external word images set (~30% smaller)."
+#~ msgstr ""
+#~ "Abbiamo ottimizzato le dimensioni di tutti i pacchetti per tutte le "
+#~ "piattaforme e dell'insieme di immagini di parole esterne (~30% più "
+#~ "piccole)."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "If you disabled the automatic download and want to have the full images "
+#~ "set, you should go to the configuration and click on \\\"Download full "
+#~ "word image set\\\"."
+#~ msgstr ""
+#~ "Se hai disabilitato lo scaricamento automatico e desideri avere le "
+#~ "immagini complete impostate, dovresti andare alla configurazione e fare "
+#~ "clic su \\\"Scarica insieme di immagini di parole complete\\\"."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "The text \\\"Full word image set is installed\\\" is displayed below when "
+#~ "you have the latest version."
+#~ msgstr ""
+#~ "Il testo \\\"L'insieme di immagini per parole complete è installato\\\" "
+#~ "viene visualizzato di seguito quando si dispone dell'ultima versione."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "Norwegian Nynorsk introduction voices have been added by Karl Ove "
+#~ "Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been "
+#~ "completed by Aiswarya Kaitheri Kandoth."
+#~ msgstr ""
+#~ "Le voci di introduzione del norvegese Nynorsk sono state aggiunte da Karl "
+#~ "Ove Hufthammer e Øystein Steffensen-Alværvik. Le voci malayalam sono "
+#~ "state completate da Aiswarya Kaitheri Kandoth."
+
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "Molte immagini sono state aggiornate per diverse attività."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+#~ "associations activities."
+#~ msgstr ""
+#~ "Abbiamo anche corretto alcuni bug nelle attività Energie rinnovabili, "
+#~ "Ciclo dell'acqua e Associazioni logiche."
 
 #~ msgctxt "20220227.html"
 #~ msgid "Today we are releasing GCompris version 2.3."

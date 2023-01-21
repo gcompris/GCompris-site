@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
 "PO-Revision-Date: 2021-05-22 20:58+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -18,93 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 20.12.3\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Release GCompris 1.1"
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "GCompris 1.1 출시"
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
-msgstr ""
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
-msgstr ""
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
-msgstr ""
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Graphics have been updated for 21 activities."
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "활동 21개의 그래픽을 업데이트했습니다."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows and "
-#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-#| "\">download page</a>. This update will be available soon in the Android "
-#| "Play store, the F-Droid repository and the Windows store. The package for "
-#| "Raspberry Pi will also be available soon."
-msgctxt "20220413.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니다. "
-"이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows 스토어에"
-"도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입니다."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
 
 #. news title
 #, fuzzy
@@ -288,6 +201,66 @@ msgstr ""
 #| msgctxt "20210321.html"
 #| msgid "Thank you all, <br/>\\nTimothée & Johnny"
 msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Release GCompris 1.1"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "GCompris 1.1 출시"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#| "1.1."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "안녕하세요,<br />\\nGCompris 버전 1.1의 출시를 알립니다!"
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows and "
+#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#| "\">download page</a>. This update will be available soon in the Android "
+#| "Play store, the F-Droid repository and the Windows store. The package for "
+#| "Raspberry Pi will also be available soon."
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"GNU/리눅스, Windows, macOS용 패키지를 <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">다운로드 페이지</a>에서 확인할 수 있습니다. "
+"이 업데이트는 조만간 안드로이드 Play 스토어, F-Droid 저장소, Windows 스토어에"
+"도 업로드됩니-다. 라즈베리 파이용 설치 도구는 조만간 제공될 예정입니다."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "모두에게 감사드립니다. <br/>\\nTimothée & Johnny"
 
@@ -914,6 +887,20 @@ msgstr ""
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "Release GCompris 1.1"
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "GCompris 1.1 출시"
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid "Graphics have been updated for 21 activities."
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "활동 21개의 그래픽을 업데이트했습니다."
 
 #~ msgid "Version %(version)s"
 #~ msgstr "버전 %(version)s"

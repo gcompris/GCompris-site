@@ -10,10 +10,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
-"PO-Revision-Date: 2023-01-19 16:03+0100\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
+"PO-Revision-Date: 2023-01-20 14:10+0100\n"
 "Last-Translator: Miroslav Ďurian <aasami@gmail.com>\n"
-"Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
+"Language-Team:  kde-sk\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,88 +23,6 @@ msgstr ""
 "X-Generator: Lokalize 22.12.0\n"
 
 #. news title
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "Vydanie GCompris 2.4"
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
-msgstr "Dnes vydávame GCompris vo verzii 2.4."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
-msgstr ""
-"Optimalizovali sme veľkosť všetkých balíčkov pre všetky platformy a sád "
-"obrázkov externých slov (~30% zmenšenie)."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
-msgstr ""
-"Ak ste si vypli automatické sťahovanie a chcete mať úplnú sadu obrázkov, "
-"mali by ste vojsť do konfigurácie a kliknúť na \\\"Stiahnuť úplnú sadu "
-"obrázkov slov\\\"."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-"Ak máte najnovšiu verziu, dole sa zobrazí text \\\"Úplná sada obrázkov slov "
-"je nainštalovaná\\\"."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-"Karl Ove Hufthammer a Øystein Steffensen-Alværvik pridali hlasy v Nórskom "
-"(Nynórskom) jazyku. Aiswarya Kaitheri Kandoth dokončila hlasy v Indickom "
-"jazyku Malayalam."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "Bolo aktualizovaných mnoho obrázkov viacerých aktivít."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-"Tiež sme opravili zopár chýb v aktivitách Obnoviteľná energia, Vodný cyklus "
-"a Logické asociácie."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Nové verzie balíčkov pre GNU/Linux, Windows, Raspberry Pi a macOS, nájdete "
-"na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">stránke "
-"sťahovania</a>. Táto aktuálizácia bude čoskoro dostupná aj v Androidovom "
-"obchode Play, v repozitári F-Droidu a v obchode Windows."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Vďaka Vám všetkým! <br/>Timothée & Johnny"
-
-#. news title
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
 msgstr "Vydanie GCompris 3.0"
@@ -112,7 +30,7 @@ msgstr "Vydanie GCompris 3.0"
 #. paragraph
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr "S potešením oznamujeme výdanie GComprisu vo verzii 3.0."
+msgstr "S potešením oznamujeme vydanie GComprisu vo verzii 3.0."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -161,7 +79,7 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
-"V \\\"Porovnať číska\\\", sa naučíte porovnávať číselné hodnoty s použitím "
+"V \\\"Porovnať čísla\\\", sa naučíte porovnávať číselné hodnoty s použitím "
 "porovnávacích znakov."
 
 #. list item
@@ -170,8 +88,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
-"\\\" Nájdi doplnok desiatky\\\" je jednoduché cvičenie na výuku pojmu "
-"doplnok desiatky."
+"\\\"Nájdi doplnok desiatky\\\" je jednoduché cvičenie na výuku pojmu doplnok "
+"desiatky."
 
 #. list item
 msgctxt "20230118.html"
@@ -223,15 +141,15 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"Čo sa týk prekladov, GCompris 3.0 obsahuje 36 jazykov. 25 je plne "
+"Čo sa týka prekladov, GCompris 3.0 obsahuje 36 jazykov. 25 je plne "
 "preložených: (Azerbajdžansky, Baskicky, Bretónsky, Britská angličtina, "
 "Estónsky, Francúzsky, Grécky, Hebrejsky, Holadnsky, Chorvátsky, Katalánsky, "
 "Katalánsky (Valencia), Litovsky, Maďarsky, Malayalamsky, Nórsky (Nynórčina), "
 "Poľsky, Portugalsky, Rumunsky, Rusky, Slovinsky, Španielsky, Taliansky, "
-"Tradičná čínština, Ukrainsky). 11 je čiastočne preložených: (Albánsky (99%), "
-"Bielorusky (83%), Brazílska Portugalčina (94%), Česky (82%), Fínsky (94%), "
-"Indonézsky (99%), Macedónsky (94%), Nemecky (91%), Slovensky (77%), Švédsky "
-"(94%) a Turecky (71%))."
+"Tradičná čínština, Ukrainsky). 11 jazykov je čiastočne preložených: "
+"(Albánsky (99%), Bielorusky (83%), Brazílska Portugalčina (94%), Česky "
+"(82%), Fínsky (94%), Indonézsky (99%), Macedónsky (94%), Nemecky (91%), "
+"Slovensky (77%), Švédsky (94%) a Turecky (71%))."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -241,10 +159,10 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
-"Osobitnú poznámku si zaslúžia hlasy v Ukrajinskom jazyku, ktoré mohli byť "
-"pridané vďaka organizácii \\\"Save the Children\\\", ktorá zadotovala ich "
+"Osobitnú poznámku si zaslúžia hlasy v Ukrajinskom jazyku, ktoré sa podarilo "
+"pridať vďaka organizácii \\\"Save the Children\\\",  ktorá dotovala ich "
 "nahrávanie. Nainštalovali GCompris na 8000 tabletov a 1000 notebookov, a "
-"poslali ich do Digitálnych vzdelávacích stredísk a ďaľších bezpečných "
+"poslali ich do Digitálnych vzdelávacích stredísk a ďalších bezpečných "
 "prostredí pre deti na Ukraine."
 
 #. paragraph
@@ -264,8 +182,8 @@ msgstr ""
 "Ako obvykle, možete nájsť balíčky v tejto novej verzii pre GNU/Linux, "
 "Windows, Android, Raspberry Pi a macOS na <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">stránke sťahovania</a>. Táto aktuálizácia "
-"bude čoskoro dostupná aj v Androidovom obchode Play, v repozitári F-Droidu a "
-"v obchode Windows."
+"bude čoskoro dostupná aj v Androidovom Obchode Play, v repozitári F-Droidu a "
+"v Obchode Windows."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -281,6 +199,64 @@ msgstr ""
 
 #. paragraph
 msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Vďaka Vám všetkým! <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "Vydanie GCompris 3.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "Dnes vydávame GCompris vo verzii 2.4."
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Nové verzie balíčkov pre GNU/Linux, Windows, Raspberry Pi a macOS, nájdete "
+"na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">stránke "
+"sťahovania</a>. Táto aktuálizácia bude čoskoro dostupná aj v Androidovom "
+"Obchode Play, v repozitári F-Droidu a v Obchode Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Vďaka Vám všetkým! <br/>Timothée & Johnny"
 
@@ -334,7 +310,7 @@ msgstr "Posledná úprava stránky %(revision_date)s."
 #: template/base.html:112
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr "Stránku preložil: %(translators_names)s."
+msgstr "Stránku preložil: %(translators_names)s"
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
@@ -345,6 +321,8 @@ msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
+"Na Vianoce, ponúknite GCompris svojim deťom. Je zadarmo a poskytne im hodiny "
+"vzdelávania a zábavy."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
@@ -352,43 +330,35 @@ msgstr "Získajte GCompris z našej stránky pre stiahnutie"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr "Získaj GCompris z obchodu Play"
+msgstr "Získaj GCompris z Obchodu Play"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
 msgstr "Získaj GCompris z obchodu Windows"
 
 #: template/donate.html:13
-#, fuzzy
-#| msgid ""
-#| "You, your children, your classroom love GCompris. You have now the "
-#| "opportunity to help this project."
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
 "Vy, vaše deti, vaši spolužiaci majú radi GCompris. Teraz máte možnosť pomôcť "
-"tomuto projektu."
+"tomuto projektu svojim darom."
 
 #: template/donate.html:14
-#, fuzzy
-#| msgid ""
-#| "Developing software takes a lot of time, it needs hardware, it implies "
-#| "moving to promote the project. Said simply, I need your help to continue "
-#| "my investment in this project."
 msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
 msgstr ""
-"Vývoj softvéru zaberá veľa času, potrebuje hardvér. Povedané jednoducho, "
-"potrebujem vašu pomoc aby som pokračoval v mojej investícii do tohto "
-"projektu."
+"Vývoj softvéru zaberá veľa času, je na to potrebný hardvér a iné požiadavky, "
+"čo niečo stoja."
 
 #: template/donate.html:16
 msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
 msgstr ""
+"Ak chcete podporiť vývoj programu GCompris udržateľným spôsobom, prosím "
+"staňte sa patrónom GCompris na Patreone:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
@@ -423,6 +393,8 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
+"Možete nainštalovať GCompris <a href=\"https://www.microsoft.com/en-us/store/"
+"p/gcompris/9pgxjtcxn8qm\">z Obchodu Windows</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
@@ -430,11 +402,11 @@ msgstr "Poznámka: Obchod Windows vyžaduje Windows 10."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr ""
+msgstr "Alebo, môžete stiahnuť inštalátor z nižšie uvedených odkazov."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
-msgstr ""
+msgstr "Požiadavky na systém: Windows 7, 8 alebo 10 s podporou OpenGL 2."
 
 #: template/downloads.html:29
 msgid ""
@@ -442,6 +414,10 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
+"Poznámka: Ak Váš systém nepodporuje OpenGL 2 alebo v ňom nefunguje správne, "
+"prosím použite voľbu (Bezpečný režim) v štartovacom menu Windows pre "
+"spustenie GCompris v režime so softvérovým vykresľovaním, ktorý nepoužíva "
+"OpenGL."
 
 #: template/downloads.html:30
 msgid ""
@@ -449,6 +425,8 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
+"Ak vážne potrebujete ešte verziu, ktorá beží na Windows XP, alebo Váš systém "
+"nepodporuje novú verziu, môžete predchádzajúci inštalátor z Gcompris 15.10."
 
 #: template/downloads.html:34
 msgid ""
@@ -456,6 +434,8 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
+"Aby ste mali prístup k všetkým aktivitám v tejto starej verzii, použite kód "
+"200202 v políčku, ktoré obsahuje slovo CODE, keď spustíte aplikáciu."
 
 #: template/downloads.html:44
 msgid "Android"
@@ -463,7 +443,7 @@ msgstr "Android"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr ""
+msgstr "Verzia pre Android je šírená cez Obchod Play"
 
 #: template/downloads.html:52
 msgid ""
@@ -471,18 +451,24 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
+"Podporujeme 32bit aj 64bit architektúry v Obchode Play. Príslušné verzie sú "
+"zvolené automaticky v závislosti od Vášho operačného systému Android."
 
 #: template/downloads.html:54
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr ""
+"GCompris je tiež dostupný v F-Droide, čo je repozitár voľne dostupných "
+"aplikácií s otvoreným zdrojovým kódom pre Android."
 
 #: template/downloads.html:59
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
+"Pre ručnú inštaláciu na Vaše zariadenie je možné tiež stiahnuť si priamo apk "
+"súbor z našej stránky."
 
 #: template/downloads.html:64
 msgid ""
@@ -490,6 +476,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
+"Pre zariadenia s Androidom 2.3 až 4.0 je posledná kompatibilná verzia <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
 #: template/downloads.html:75
 msgid "macOS"
@@ -512,12 +501,16 @@ msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
+"Môžete skontrolovať či vaša distribúcia poskytuje balíček GCompris v "
+"najnovšej verzii."
 
 #: template/downloads.html:98
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
+"Tiež poskytujeme jednotlivé balíčky pre GNU/Linux. Tie by mali fungovať na "
+"akejkoľvek dnešnej distribúcii."
 
 #: template/downloads.html:98
 msgid "System requirements:"
@@ -528,18 +521,24 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
+"Aby ste ho mohli použiť, otvorte terminál a v priečinku, do ktorého ste "
+"stiahli inštalátor spustite tieto príkazy:"
 
 #: template/downloads.html:108 template/downloads.html:135
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
+"Potom si prečítajte licenciu alebo ju tlačidlom q preskočte. Na otázky "
+"odpovedzte áno a softvér sa nainštaluje do nového priečinka k inštalátoru."
 
 #: template/downloads.html:109 template/downloads.html:136
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
+"Napokon, pre spustenie GComprisu, vstúpte do novo vytvoreného priečinka, kde "
+"v podpriečinku bin stačí kliknúť na gcompris-qt.sh."
 
 #: template/downloads.html:110
 msgid ""
@@ -549,6 +548,11 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
+"Poznámka: Ak Váš systém nepodporuje OpenGL 2 alebo v ňom nefunguje správne, "
+"prosím pridajte voľbu \"--software-renderer\" na koniec posledného riadku v "
+"skripte gcompris-qt.sh. Iný spôsob je upraviť konfiguračný súbor (v ~/."
+"config/gcompris-qt/gcompris-qt.conf): nájdite riadok renderer=auto,  "
+"namiesto auto, napíšte software a uložte súbor."
 
 #: template/downloads.html:111
 msgid ""
@@ -556,6 +560,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
+"Druhá možnosť je nainštalovať GCompris z <a href=\"https://flathub.org/apps/"
+"details/org.kde.gcompris\">Flathubu</a> alebo zo <a href=\"https://snapcraft."
+"io/gcompris\">Obchodu Snap</a>."
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
@@ -586,6 +593,8 @@ msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
+"Pre kontrolu celistvosti stiahnutého súboru môžete získať pôvodný SHA-256 "
+"hash súboru, pridaním \".sha256\" na koniec URL pre stiahnutie daného súboru."
 
 #: template/downloads.html:168
 #, python-format
@@ -593,6 +602,8 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
+"Zdrojový TAR balíček a inštalátory pre Linux sú podpísané GPG kľúčom "
+"Timothée Giet (public key: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
@@ -663,35 +674,25 @@ msgstr ""
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
-msgstr ""
+msgstr "Tu je zoznam kategórií aktivít aj s niektorými príkladmi:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
 msgstr "objavovanie počítača: klávesnica, myš, dotyková obrazovka, ..."
 
 #: template/index.html:158
-#, fuzzy
-#| msgid "reading: reading practice"
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr "čítanie: precvičovanie čítania"
+msgstr "čítanie: písmená, slová, precvičovanie čítania, písanie textu, ..."
 
 #: template/index.html:159
-#, fuzzy
-#| msgid ""
-#| "arithmetic: table memory, enumeration, double entry table, mirror "
-#| "image, ..."
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr "aritmetický: malá násobilka, počítanie, zrkadlenie, ..."
+msgstr "aritmetika: malá násobilka, počítanie, zrkadlenie, ..."
 
 #: template/index.html:160
-#, fuzzy
-#| msgid ""
-#| "science: the canal lock, the water cycle, the submarine, electric "
-#| "simulation ..."
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr "veda: priehrada, vodný cyklus, ponorka, elektrická simulácia ..."
+msgstr "veda: priehrada, vodný cyklus, obnoviteľná energia, ..."
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
@@ -703,15 +704,9 @@ msgstr "hry: šach, pexeso, zoraď 4, obesenec, piškvorky, ..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr ""
+msgstr " a iné: farby, tvary, Morzeovka, poznávanie hodín, ..."
 
 #: template/index.html:165
-#, fuzzy
-#| msgid ""
-#| "Currently GCompris offers in excess of 100 activities and more are being "
-#| "developed. GCompris is free software, that means that you can adapt it to "
-#| "your own needs, improve it and, most importantly, share it with children "
-#| "everywhere."
 msgid ""
 "Currently GCompris offers more than 100 activities, and more are being "
 "developed. GCompris is free software, it means that you can adapt it to your "
@@ -720,14 +715,16 @@ msgid ""
 msgstr ""
 "Momentálne GCompris ponúka prístup k stovke aktivít a ďalšie sú práve vo "
 "vývoji. GCompris je slobodný softvér, čo znamená, že si ho môžete "
-"prispôsobiť podľa vlastných potrieb, vylepšiť ho a hľavne, zdielať ho s "
-"deťmi všade na svete."
+"prispôsobiť vlastným potrebám, vylepšiť si ho a hlavne, zdielať ho s deťmi "
+"nech sú kdekoľvek."
 
 #: template/index.html:166
 msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
+"Projekt GCompris je hostovaný a vyvýjaný <a target=\"_blank\" rel=\"noopener"
+"\" href=\"https://www.kde.org/\">komunitour KDE</a>."
 
 #: template/news.html:3 template/news.html:8 template/newsall.html:3
 #: template/newsall.html:8 template/singlenews.html:3
@@ -746,6 +743,10 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
+"GCompris je nástroj na elektronické vzdelávanie, ktorý poskytuje cvičenia na "
+"nácvik v rámci vyučovacích hodín aj mimo nich. Je to slobodný softvér "
+"vydávaný pod Všeobecnou verejnou licenciou GNU - AGPL. Je multi-platfomový "
+"(GNU/Linux, Windows, Androdid, macOS), a beží aj na slabých počítačoch."
 
 #: template/schools.html:14
 msgid ""
@@ -753,31 +754,39 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
+"GCompris je dostupný už vyše 20 rokov v školách po celom svete a ponúka viac "
+"ako 150 aktivít, ktoré pokrývajú hlavné pedagogické domény, vrátane:"
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr "Výuka ako používať počítač"
+msgstr "Výučba práce na počítači"
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
+"Precvičovanie čítania s aktivitami na oboznamovanie sa s písmenami, slovami "
+"a inými lexikálnymi jednotkami."
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr ""
+"Získavanie matematických zručností pri nácviku zobrazenia čísel, aritmetiky, "
+"merných jednotiek a hlavolamov."
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr ""
+msgstr "Objavovanie sveta prostredníctvom logiky, umenia a hudby"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr ""
+"Objavovanie prírodných a humanitných vied prostredníctvom experimentov, úloh "
+"z dejepisu či geografie."
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
@@ -788,6 +797,8 @@ msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
+"GCompris nie je závislý na pripojení do internetu, nezbiera žiadne údaje a "
+"tak presne dodržiava Európske GDPR."
 
 #: template/schools.html:26
 msgid ""
@@ -799,6 +810,12 @@ msgid ""
 "children who can only read numbers or make it harder for children who can "
 "read both numbers and words."
 msgstr ""
+"Gcompris 1.0 umožňuje vyučujúcim zvoliť úroveň aktivít podľa zručností "
+"každého dieťaťa. Napríklad v aktivite, ktorá deti oboznamuje s číslami "
+"môžete vybrať, s akými číslami môžu pracovať a nechať vyššie a náročnejšie "
+"čísla na neskôr. Alebo v aktivite pri ktorej má dieťa chronologicky zoradiť "
+"obrázky, môžete zotriediť aktivity podľa ročníka pre deti, ktoré poznajú "
+"čísla, alebo ich sťažiť pre tie, ktoré vedia aj čítať."
 
 #: template/schools.html:29
 msgid ""
@@ -806,6 +823,10 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
+"Tieto odstupňované aktivity umožňujú navrhnúť cvičenia pre rôzne ročníky "
+"žiakov pre nácvik matematiky, jazyka, spoznávanie humanitných a prírodných "
+"vied. Tiež si budú môcť zahrať rôzne strategické hry pre rozvoj zručnosti "
+"riešenia problémov."
 
 #: template/schools.html:31
 msgid ""
@@ -813,6 +834,9 @@ msgid ""
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
 msgstr ""
+"Aby bolo zabezpečené spoľahlivé pedagogické pozadie, úrovne aktivít v "
+"GCompris sú založené na študijných plánoch pre Francúzske základné školy, "
+"ktoré určujú čo musia pedagógovia vo Francúzsku učiť v triedach."
 
 #: template/screenshot.html:33
 msgid "Description:"
@@ -875,6 +899,58 @@ msgstr "Čítanie"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Stratégia"
+
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "Vydanie GCompris 2.4"
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We optimized the size of all the packages for all platforms and of the "
+#~ "external word images set (~30% smaller)."
+#~ msgstr ""
+#~ "Optimalizovali sme veľkosť všetkých balíčkov pre všetky platformy a sád "
+#~ "obrázkov externých slov (~30% zmenšenie)."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "If you disabled the automatic download and want to have the full images "
+#~ "set, you should go to the configuration and click on \\\"Download full "
+#~ "word image set\\\"."
+#~ msgstr ""
+#~ "Ak ste si vypli automatické sťahovanie a chcete mať úplnú sadu obrázkov, "
+#~ "mali by ste vojsť do konfigurácie a kliknúť na \\\"Stiahnuť úplnú sadu "
+#~ "obrázkov slov\\\"."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "The text \\\"Full word image set is installed\\\" is displayed below when "
+#~ "you have the latest version."
+#~ msgstr ""
+#~ "Ak máte najnovšiu verziu, dole sa zobrazí text \\\"Úplná sada obrázkov "
+#~ "slov je nainštalovaná\\\"."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "Norwegian Nynorsk introduction voices have been added by Karl Ove "
+#~ "Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been "
+#~ "completed by Aiswarya Kaitheri Kandoth."
+#~ msgstr ""
+#~ "Karl Ove Hufthammer a Øystein Steffensen-Alværvik pridali hlasy v Nórskom "
+#~ "(Nynórskom) jazyku. Aiswarya Kaitheri Kandoth dokončila hlasy v Indickom "
+#~ "jazyku Malayalam."
+
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "Bolo aktualizovaných mnoho obrázkov viacerých aktivít."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+#~ "associations activities."
+#~ msgstr ""
+#~ "Tiež sme opravili zopár chýb v aktivitách Obnoviteľná energia, Vodný "
+#~ "cyklus a Logické asociácie."
 
 #~ msgid "Version %(version)s"
 #~ msgstr "Verzia %(version)s"

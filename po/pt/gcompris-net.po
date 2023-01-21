@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
 "PO-Revision-Date: 2023-01-19 02:48+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -32,90 +32,6 @@ msgstr ""
 "X-POFile-SpellExtra: Flathub Snap SHA sha publicgpgkey list activities\n"
 "X-POFile-SpellExtra: launch Save the Children tablets QML QtCharts QtQuick\n"
 "X-POFile-SpellExtra: Controls\n"
-
-#. news title
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "Lançamento do GCompris 2.4"
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
-msgstr "Hoje anunciamos o lançamento do GCompris na versão 2.4."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
-msgstr ""
-"Optimizámos o tamanho de todos os pacotes para todas as plataformas e do "
-"conjunto de imagens externas das palavras (~30% mais pequenos)."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
-msgstr ""
-"Se desactivou a transferência automática e deseja ter o conjunto deimagens "
-"completo, deverá ir à configuração e carregar no botão \"Transferir o "
-"conjunto completo de imagens das palavras\"."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-"O texto \\\"O conjunto completo de imagens das palavras está instalado\\\" "
-"aparece em baixo quando tiver a última versão."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-"As vozes introdutórias em Norueguês Nynorsk foram adicionadas por Karl Ove "
-"Hufthammer e Øystein Steffensen-Alværvik. As vozes em Malayalam foram "
-"concluídas por Aiswarya Kaitheri Kandoth."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "Foram actualizadas muitas imagens para diversas actividades."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-"Também corrigimos alguns erros nas actividades de energias renováveis, ciclo "
-"da água e associações lógicas."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS "
-"e Raspberry Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
-"\\\">página de transferências</a>. Esta actualização também estará "
-"disponível em breve na loja Android Play, no repositório F-Droid e na loja "
-"do Windows."
-
-# paragraph
-#. paragraph
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Obrigado a todos, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230118.html"
@@ -296,6 +212,66 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Obrigado a todos, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "Lançamento do GCompris 3.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "Hoje anunciamos o lançamento do GCompris na versão 2.4."
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Poderá encontrar pacotes desta nova versão para o GNU/Linux, Windows, MacOS "
+"e Raspberry Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">página de transferências</a>. Esta actualização também estará "
+"disponível em breve na loja Android Play, no repositório F-Droid e na loja "
+"do Windows."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todos, <br/>Timothée & Johnny"
 
@@ -951,3 +927,55 @@ msgstr "Leitura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estratégia"
+
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "Lançamento do GCompris 2.4"
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We optimized the size of all the packages for all platforms and of the "
+#~ "external word images set (~30% smaller)."
+#~ msgstr ""
+#~ "Optimizámos o tamanho de todos os pacotes para todas as plataformas e do "
+#~ "conjunto de imagens externas das palavras (~30% mais pequenos)."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "If you disabled the automatic download and want to have the full images "
+#~ "set, you should go to the configuration and click on \\\"Download full "
+#~ "word image set\\\"."
+#~ msgstr ""
+#~ "Se desactivou a transferência automática e deseja ter o conjunto "
+#~ "deimagens completo, deverá ir à configuração e carregar no botão "
+#~ "\"Transferir o conjunto completo de imagens das palavras\"."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "The text \\\"Full word image set is installed\\\" is displayed below when "
+#~ "you have the latest version."
+#~ msgstr ""
+#~ "O texto \\\"O conjunto completo de imagens das palavras está instalado\\"
+#~ "\" aparece em baixo quando tiver a última versão."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "Norwegian Nynorsk introduction voices have been added by Karl Ove "
+#~ "Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been "
+#~ "completed by Aiswarya Kaitheri Kandoth."
+#~ msgstr ""
+#~ "As vozes introdutórias em Norueguês Nynorsk foram adicionadas por Karl "
+#~ "Ove Hufthammer e Øystein Steffensen-Alværvik. As vozes em Malayalam foram "
+#~ "concluídas por Aiswarya Kaitheri Kandoth."
+
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "Foram actualizadas muitas imagens para diversas actividades."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+#~ "associations activities."
+#~ msgstr ""
+#~ "Também corrigimos alguns erros nas actividades de energias renováveis, "
+#~ "ciclo da água e associações lógicas."

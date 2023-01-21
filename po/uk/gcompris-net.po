@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-19 01:01+0000\n"
+"POT-Creation-Date: 2023-01-21 01:02+0000\n"
 "PO-Revision-Date: 2023-01-19 09:27+0200\n"
 "Last-Translator: Fracture dept <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -21,91 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
-
-# news title
-#. news title
-msgctxt "20220413.html"
-msgid "Release GCompris 2.4"
-msgstr "Випуск GCompris 2.4"
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Today we are releasing GCompris version 2.4."
-msgstr "Сьогодні нами випущено GCompris версії 2.4."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We optimized the size of all the packages for all platforms and of the "
-"external word images set (~30% smaller)."
-msgstr ""
-"Ми оптимізували розмір пакунків та зовнішнього набору зображень для усіх "
-"платформ (приблизно на 30%)."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"If you disabled the automatic download and want to have the full images set, "
-"you should go to the configuration and click on \\\"Download full word image "
-"set\\\"."
-msgstr ""
-"Якщо ви вимкнули автоматичне отримання даних і хочете встановити повний "
-"набір зображень, вам слід перейти до налаштувань програми і натиснути кнопку "
-"«Отримати повний набір зображень»."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"The text \\\"Full word image set is installed\\\" is displayed below when "
-"you have the latest version."
-msgstr ""
-"Якщо ви користуєтеся найсвіжішою версією, програма покаже повідомлення "
-"«Повний набір зображень для слів встановлено»."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"Norwegian Nynorsk introduction voices have been added by Karl Ove Hufthammer "
-"and Øystein Steffensen-Alværvik. Malayalam voices have been completed by "
-"Aiswarya Kaitheri Kandoth."
-msgstr ""
-"Додано вступне озвучення норвезькою мовою від Karl Ove Hufthammer і Øystein "
-"Steffensen-Alværvik. Завершено озвучення мовою малаялам. Автор — Aiswarya "
-"Kaitheri Kandoth."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid "Many images have been updated for several activities."
-msgstr "Для декількох вправ оновлено багато зображень."
-
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
-"associations activities."
-msgstr ""
-"Крім того, нами виправлено вади у вправах із відновлювальної енергії, оберту "
-"води у природі та логічних зв'язків."
-
-# paragraph
-#. paragraph
-msgctxt "20220413.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та "
-"MacOS можна знайти на <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії "
-"з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows."
-
-# paragraph
-#. paragraph
-msgctxt "20220413.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
 # news title
 #. news title
@@ -292,6 +207,67 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20230118.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "Випуск GCompris 3.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Today we are releasing GCompris version 2.4."
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "Сьогодні нами випущено GCompris версії 2.4."
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та "
+"MacOS можна знайти на <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії "
+"з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
@@ -956,6 +932,59 @@ msgstr "Читання"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Стратегія"
+
+# news title
+#~ msgctxt "20220413.html"
+#~ msgid "Release GCompris 2.4"
+#~ msgstr "Випуск GCompris 2.4"
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We optimized the size of all the packages for all platforms and of the "
+#~ "external word images set (~30% smaller)."
+#~ msgstr ""
+#~ "Ми оптимізували розмір пакунків та зовнішнього набору зображень для усіх "
+#~ "платформ (приблизно на 30%)."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "If you disabled the automatic download and want to have the full images "
+#~ "set, you should go to the configuration and click on \\\"Download full "
+#~ "word image set\\\"."
+#~ msgstr ""
+#~ "Якщо ви вимкнули автоматичне отримання даних і хочете встановити повний "
+#~ "набір зображень, вам слід перейти до налаштувань програми і натиснути "
+#~ "кнопку «Отримати повний набір зображень»."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "The text \\\"Full word image set is installed\\\" is displayed below when "
+#~ "you have the latest version."
+#~ msgstr ""
+#~ "Якщо ви користуєтеся найсвіжішою версією, програма покаже повідомлення "
+#~ "«Повний набір зображень для слів встановлено»."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "Norwegian Nynorsk introduction voices have been added by Karl Ove "
+#~ "Hufthammer and Øystein Steffensen-Alværvik. Malayalam voices have been "
+#~ "completed by Aiswarya Kaitheri Kandoth."
+#~ msgstr ""
+#~ "Додано вступне озвучення норвезькою мовою від Karl Ove Hufthammer і "
+#~ "Øystein Steffensen-Alværvik. Завершено озвучення мовою малаялам. Автор — "
+#~ "Aiswarya Kaitheri Kandoth."
+
+#~ msgctxt "20220413.html"
+#~ msgid "Many images have been updated for several activities."
+#~ msgstr "Для декількох вправ оновлено багато зображень."
+
+#~ msgctxt "20220413.html"
+#~ msgid ""
+#~ "We have also fixed a few bugs in Renewable energy, Watercycle and Logical "
+#~ "associations activities."
+#~ msgstr ""
+#~ "Крім того, нами виправлено вади у вправах із відновлювальної енергії, "
+#~ "оберту води у природі та логічних зв'язків."
 
 #~ msgctxt "20220227.html"
 #~ msgid "Today we are releasing GCompris version 2.3."
