@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Avui fem el llançament del GCompris versió 3.1.</p>
+<p>Com que ens vam adonar que la versió 3.0 contenia un error crític en la activitat nova «Comparador», hem decidit distribuir ràpidament aquesta versió de manteniment 3.1 per a solucionar el problema.</p>
+<p>També conté petites actualitzacions de les traduccions.</p>
+<p>Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Raspberry Pi i macOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+{% endblock %}
