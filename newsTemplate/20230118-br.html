@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stumm 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Salud d'an holl, Plijet omp o kemenn stumm nevez  GCompris 3.0.</p>
+<p>Bez' ez eus 182 obererezh, en o zouez 8 nevez:</p>
+<ul>
+<li class="puce">"Pleustriñ gant al logodenn" a servijout da bleustriñ war an implij eus al logodenn gant klikoù kleiz ha dehou.</li>
+<li class="puce">E-barzh "Krou ar c'hevrennoù" ez eztaoler kementadoù dekredel gant un dartezenn pe un skouergorneg.</li>
+<li class="puce">E-barzh "Kav ar c'hevrennoù" e reer ar c'hontrol: skrivañ ar gevrenn eztaolet gant un dartezenn pe ur skouergorneg.</li>
+<li class="puce">Gant  "Dizolo kod etrevroadel Morse\ e tesker penaos kehentiñ gant kod etrevroadel Morse.</li>
+<li class="puce">E-barzh "Keñveriañ niveroù" e tesker penaos keñveriañ talvoudoù an niveroù gant arouezioù keñveriañ.</li>
+<li class="puce">"Kav ar glokadenn d'ober dek" a zo ur boelladenn evit deskiñ ober gant meizad ar glokadenn d'ober dek.</li>
+<li class="puce">E-barzh  "Eskemm klokadennoù evit dek" ez eskemmer niveroù ur sammadenn a-benn implijout gwelloc'h ar glokadenn d'ober dek.</li>
+<li class="puce">E-barzh  "Ober gant ur glokadenn d'ober dek" e tesker ober gant ar glokadenn da zek evit gwellaat urzh an niveroù en ur jedadenn.</li>
+</ul>
+<br/>
+<p>Ouzhpennet hon eus 2 urzh-dibab nevez:</p>
+<ul>
+<li class="puce">Roll an holl obererezhioù a zo deus oute (-l or --list-activities)</li>
+<li class="puce">Kregiñ diouzhtu gant un obererezh resis (--launch activityName)</li>
+</ul>
+<br/>
+<p>Ur stumm-mañ a zo ennañ meur a welladenn hag a gudennoù reizhet.</p>
+<br/>
+<p>Evit ar pezh a sell ouzh an troidigezhioù, setu bremañ 36 yezh gant GCompris 3.0, 25 anezhe troet penn-da-benn: (azerbaidjaneg, brezhoneg, estoneg, euskareg, galleg, gresianeg, hebraeg, hollandeg, hungarek, italianeg, katalaneg, katalaneg Bro-Valensia, kroateg, lituaneg, malayameg, norvegeg Nynorsk, poloneg, portugaleg, roumaneg, ruseg, saozneg Bro-Saoz, sinaeg hengounel,  sloveneg, spagnoleg  hag ukraineg). 11 a zo damdroet: (alamaneg (91%) , albaneg (99%), belaruseg (83%), finneg (94%),  indonezeg (99%), makedoneg (94%), portugaleg Bro-Vrazil (94%), slovakeg (77%), svedeg (94%), tchekeg (82%) ha turkeg (71%).</p>
+<p>Ur gerig ispisial diwar-benn ar mouezhioù ukraineg, bet ouzhpennet a-drugarez d'an aozadur "Save the Children", paeet ganti an enrollañ. Staliet zo bet ganti GCompris war 8000 tabletezenn ha 1000 urzhiataer-hezoug, ha kaset anezhe d'ar c'hreizennoù deskiñ niverel ha da lec'hioù goudoret all evit ar vugale en Ukraina.</p>
+<p>Mouezhioù kroateg a zo bet enrollet gant ur perzhiad.</p>
+<br/>
+<p>Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, Android, Raspberry Pi ha MacOS war ar <a href="https://gcompris.net/downloads{{ suffix }}.html">bajenn bellgargañ</a>. An hizivaat a vo deus outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid hag er Windows store.</p>
+<p>Evezhiadenn evit an holl bakadourien oc'h ober war-dro an dasparzhoù GNU/Linux: un dalc'h nevez diwar on QtCharts QML, plugin, hag ar stumm disterañ rekis evit Qt5 a zo bremañ 5.12. Tremenet omp ivez eus QtQuick.Controls 1 da QtQuick.Controls 2.</p>
+<p>Trugarez d'an holl, <br/>Timothée & Johnny</p>
+{% endblock %}
