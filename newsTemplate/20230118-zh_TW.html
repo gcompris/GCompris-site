@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = '釋出 GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>我們今天將釋出 GCompris 3.0 版。</p>
+<p>裡面總共有 182 個活動，包含 8 個新活動：</p>
+<ul>
+<li class="puce">「滑鼠點擊訓練」可以用來練習點擊滑鼠左鍵與右鍵。</li>
+<li class="puce">「建立分數」透過圓餅或矩形來練習小數與分數的概念。</li>
+<li class="puce">「找出分數」透過觀察圓餅或矩形來寫下表示的分數。</li>
+<li class="puce">「了解國際摩斯電碼」學習如何透過摩斯電碼來溝通。</li>
+<li class="puce">「比較數字」透過比較符號來學習比較數字。</li>
+<li class="puce">「找出十的補數」是一個簡單的活動，練習十的補數的概念。</li>
+<li class="puce">「交換十的補數」透過加法的交換律來快速計算加法。</li>
+<li class="puce">「使用十的補數」透過分解十的補數來快速計算加法。</li>
+</ul>
+<br/>
+<p>我們加入了兩個命令列參數：</p>
+<ul>
+<li class="puce">列出所有可用的活動（-l 或 --list-activities）</li>
+<li class="puce">直接開始指定的活動（--launch 活動名稱）</li>
+</ul>
+<br/>
+<p>這個版本也包含了一些改進與錯誤修正。</p>
+<br/>
+<p>GCompris 3.0 包括 36 種語言，其中 25 種已全部翻譯完成，包括正體中文翻譯。11 種為部份完成。</p>
+<p>其中烏克蘭的語音檔是由「拯救孩童」（Save the Children）組織所贊助錄音。他們在超過 8000 台平板與 1000 台筆記型電腦上安裝了 GCompris，並送到數位學習中心（Digital Learning Centers）與其他安全的地方給烏克蘭的孩童。</p>
+<p>克羅埃西亞的語音也由一位熱心貢獻者提供。</p>
+<br/>
+<p>依照慣例，您可以在<a href="https://gcompris.net/downloads{{ suffix }}.html">下載頁面</a>中找到 GNU/Linux、Windows、Android、樹莓派與 macOS 上的新版本。這次更新也會盡快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。</p>
+<p>GNU/Linux 套件的打包者請留意，我們新加了對 QtCharts QML plugin 的相依性，Qt5 版本需要在 5.12 以上。我們也已經從 QtQuick.Controls 1 移到了 QtQuick.Controls 2。</p>
+<p>感謝您的支持。<br/>Timothée & Johnny</p>
+{% endblock %}
