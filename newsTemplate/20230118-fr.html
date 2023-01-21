@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 3.0 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Nous sommes heureux de vous annoncer la publication de la version 3.0 de GCompris.</p>
+<p>Cette version contient 182 activités, dont 8 nouvelles :</p>
+<ul>
+<li class="puce">« Entraînement aux clics de la souris » est un exercice pour s'entraîner à différentier les clics droit et gauche de la souris.</li>
+<li class="puce">Dans « Représente les fractions », il faut sélectionner le bon nombre de parts pour que la fraction numérique corresponde à la fraction représentée.</li>
+<li class="puce">Dans « Trouve les fractions », c'est le contraire : il faut écrire la fraction représentée sous forme numérique.</li>
+<li class="puce">Dans « Découvre le code Morse international », nous apprenons à communiquer en utilisant le code Morse international.</li>
+<li class="puce">Dans « Compare les nombres », nous apprenons à comparer les valeurs des nombres en utilisant les symboles de comparaison.</li>
+<li class="puce">« Trouve le complément à 10 », permet sous la forme d'un exercice simple de découvrir la notion de complément à 10.</li>
+<li class="puce">Dans « Permute pour obtenir des compléments à 10 », permute les nombres d'une addition afin de pouvoir utiliser la technique du complément à 10.</li>
+<li class="puce">Dans « Utilise les compléments à 10 », décompose les additions pour pouvoir utiliser la technique du complément à 10.</li>
+</ul>
+<br/>
+<p>Nous avons rajouté 2 nouvelles options pour la ligne de commande :</p>
+<ul>
+<li class="puce">Lister l'ensemble des activités disponibles (-l ou --list-activities)</li>
+<li class="puce">Démarrer directement sur une activité spécifique (--launch <nom de l'activité>)</li>
+</ul>
+<br/>
+<p>Cette version contient aussi de nombreuses améliorations et corrections de bogues.</p>
+<br/>
+<p>Concernant les traductions, GCompris 3.0 prend en charge 36 langues, dont 25 langues sont totalement traduites : azerbaïdjanais, basque, breton, anglais britannique, catalan, catalan (valencien), chinois traditionnel, croate, néerlandais, estonien, français, grec, hébreu, hongrois, italien, lituanien, malayalam, norvégien Nynorsk, polonais, portugais, roumain, russe, slovène, espagnol et ukrainien. 11 langues sont partiellement traduites : albanais (99 %), bélarusse (83 %), brésilien portugais (94 %), tchèque (82 %), finnois (94 %), allemand (94 %), indonésien (99 %), macédonien (94 %), slovaque (77 %), suédois (94 %) et turc (76 %).</p>
+<p>Nous aimerions attirer l'attention sur le fait les voix ukrainiennes qui ont été ajoutées grâce à l'organisation « Save the Children » qui a financé l'enregistrement. « Save the Children » a installé GCompris sur 8000 tablettes et 1000 ordinateurs portables, et les ont envoyés dans des centres d'apprentissage numérique et autres espaces sécurisés pour les enfants en Ukraine.</p>
+<p>Les voix en croate ont été enregistrées et ajoutées par un contributeur.</p>
+<br/>
+<p>Comme d'habitude, vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, Windows, Android, Raspberry Pi et MacOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible très bientôt dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt F-Droid.</p>
+<p>Pour les personnes créant les paquets pour les distributions GNU/Linux, nous avons une nouvelle dépendance sur le plugin QML QtCharts et la version minimale requise de Qt est la 5.12. Nous avons aussi migré de la version QtQuick.Controls 1 vers la version QtQuick.Controls 2.</p>
+<p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+{% endblock %}
