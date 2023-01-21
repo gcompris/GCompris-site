@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Danes izdajamo GCompris verzija 3.1</p>
+<p>Ko smo zaznali, da različica 3.0 vsebuje kritično napako v novi dejavnosti "Primerjalnik", smo se odločili za hitro izdajo vzdrževalne različice 3.1  s popravkom te napake.</p>
+<p>Vsebuje tudi majhno posodobitev prevoda.</p>
+<p>Pakete te nove verzije lahko najdete za GNU/Linux, Windows, Raspbery Pi in MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in trgovini za Windows.</p>
+<p>Hvala vsem,<br/>Timothée in Johnny</p>
+{% endblock %}
