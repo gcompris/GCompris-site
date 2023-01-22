@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2022-12-17 09:24+0100\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-21 11:01+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -19,27 +19,19 @@ msgstr ""
 "X-Generator: Poedit 3.0\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "GCompris 2.3-as verzió"
+msgstr "GCompris 3.0-ás verzió"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#| "1.1."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr "Üdv!<br />\\nÖrömmel jelentjük be a  GCompris  1.1-es változatát."
+msgstr "Örömmel jelentjük be a GCompris 3.0-s változatát."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "182 tevékenység, köztük 8 új:"
 
 #. list item
 msgctxt "20230118.html"
@@ -47,6 +39,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"Az \\\"Egérkattintás feljesztése\\\" feladat segítségével az egérkezelést "
+"gyakorlhatjuk jobb-ball kattingatással."
 
 #. list item
 msgctxt "20230118.html"
@@ -54,6 +48,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"A \\\"Törtek készítése\\\",  használata közben piték és négyzetek segítik a "
+"törtszámok megértését."
 
 #. list item
 msgctxt "20230118.html"
@@ -61,6 +57,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"A \\\"Találd meg a törtet\\\", feladat az előző fordítottja: ahol a megadott "
+"törtrész képe alapján kell kitalálni annak értékét."
 
 #. list item
 msgctxt "20230118.html"
@@ -68,6 +66,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"A \\\"Morze-abc felfedezése\\\", gyakolrat segítségével elsajátítható a "
+"Morze kóddal történő kommunikáció."
 
 #. list item
 msgctxt "20230118.html"
@@ -75,6 +75,8 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"A \\\"Számok összehasonlítása\\\", gyakorlat megtanítja a számok értékét, "
+"összehasonlítás segítségével."
 
 #. list item
 msgctxt "20230118.html"
@@ -82,6 +84,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"\\\"A tíz bontása\\\" egy egyszerű feladat, melyben megtanulható a tíz "
+"bontása."
 
 #. list item
 msgctxt "20230118.html"
@@ -89,6 +93,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"A \\\"Tíz bontása zárójellel\\\", feladatban megtanulhatjuk a zárójeles "
+"műveleteket is bontás közben."
 
 #. list item
 msgctxt "20230118.html"
@@ -96,39 +102,30 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"A \\\"Tíz bontott alakjának használata\\\", feladatnála a bontásokat, "
+"számtani műveleteken keresztül ismerhetjük meg."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Két parancssori beállítással is bővítettünk melyek:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "Az összes elérhető feladat listázása (-l vagy --list-activities)"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "Egy feladat közvetlen idítása (--launch activityName)"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "Ez a verzió ugyancsak számos javításon és fejlesztésen esett át."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20211217.html"
-#| msgid ""
-#| "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#| "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#| "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#| "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#| "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#| "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#| "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#| "(76%) and Russian (76%))."
 msgctxt "20230118.html"
 msgid ""
 "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
@@ -140,13 +137,13 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"A GCompris 2.0  33 nyelven érhető el ebből. 26 nyelven teljesen honosított: "
-"(Azerbajdzsáni, Albán, Baszk, Brazil-portugál, Brit-angol Holland, Észt, "
-"Finn, Francia, Görög, Héber,Holland, Indonéz, Katalán, Lengyel, Litván, "
-"Magyar, Maláj,Olasz, Portugál, Román, Spanyol, Svéd, Szlovén, Ukrán, "
-"Velencei-katalán). 7 nyelven pedig nem teljesen: (Német (96%), Norvég "
-"Nynorski (96%), Belorusz (83%), Macedón (82%), Breton (80%), Török (76%) és "
-"Orosz (76%))."
+"Fordítás szempontjából a GCompris 3.0 36 nyelven érhető el ebből. 25 nyelven "
+"teljesen honosított: (Azerbajdzsáni, Albán, Baszk, Brazil-portugál, Brit-"
+"angol Holland, Észt, Finn, Francia, Görög, Héber,Holland, Indonéz, Katalán, "
+"Lengyel, Litván, Magyar, Maláj,Olasz, Portugál, Román, Ukrán, Spanyol, Svéd, "
+"Szlovén, Ukrán, Velencei-katalán). 11 nyelven pedig nem teljesen: ((Albán "
+"(99%),Belorusz (83%), Brazil Portugál (94%), Cseh (82%), Finn (94%), Indonéz "
+"(99%), Macedón (94%), Német (91%), Svéd (94%) Szlovák (77%) Török (71%))."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -156,21 +153,19 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Különleges megjegyzés az ukrán hang tekintetében, melyet a  \\\"Save the "
+"Children\\\" alapítványí segítségével építettünk a programba, akik anyagilag "
+"finanszírozták annak felvételét. Programunkat 8000 tabletre és 1000 laptopra "
+"telepítették fel, melyeket ezután elküldtek Digitális tanulási központokba "
+"és egyéb biztonságos helyekre az ukrán gyerekek számára szerte az országban."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
 msgstr ""
+"Horvát hangfájlok is kerüpltek a programba, egy hozzájárulásnak köszönhetően."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -179,11 +174,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Az új verzió GNU/Linux, Windows, Android, Raspberry Pi  és MacOS csomagjai "
-"a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">letöltési "
-"oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play "
-"Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows "
-"store-ba is. "
+"Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
+"MacOS csomagjai a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+"érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
+"illetve a Windows store-ba is."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -192,30 +187,25 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"A GNU/Linux dissztribúciós  csomagok tekintetében, megjegyezzük, hogy "
+"mostantól a program a QtCharts QML plugint támogatja, és a Qt5 minimálisan "
+"szükséges verziószáma mostantól 5.12. A QtQuick-et is elhagytuk.A Controls 1-"
+"et a  QtQuick.Controls 2 váltotta."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Mindenkinek köszönjük, <br/>\\nTimothée és Johnny"
+msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "GCompris 2.3-as verzió"
+msgstr "GCompris 3.1-es verzió"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Bemutatjuk  a GCompris 2.4-es verzióját."
+msgstr "Bemutatjuk a GCompris 3.1-es verzióját."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -224,21 +214,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Ahogy észrevettük, a 3.0 változat egy kritikus hibát is tartalmazott az új \\"
+"\"Komparátor\\\" alkalmazásban, ezért úgy döntöttük egy gyors 3.1-es javító "
+"kiadással orvosoljuk azt."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Amely ugyancsak tartalmaz némi fordítási javítást is."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -246,21 +231,18 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
-"Az új verzió GNU/Linux, Windows, Android, Raspberry Pi  és MacOS csomagjai "
-"a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">letöltési "
+"Az új verzió GNU/Linux, Windows, Android, Raspberry Pi és MacOS csomagjai a, "
+"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">letöltési "
 "oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play "
 "Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows "
-"store-ba is. "
+"store-ba is "
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Mindenkinek köszönjük, <br/>\\nTimothée és Johnny"
+msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -268,46 +250,52 @@ msgstr ""
 "Ez a szoftver a GNU csomagot használja, és a GNU Affero General Public "
 "License. alatt fut."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Lipták István"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
-msgstr "Adj GCompris-t karácsonyra a gyerekeidnek! "
+msgstr "Adj GCompris-t karácsonyra a gyerekeidnek!"
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Hírek"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Letöltés"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Adományoz"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Pillanatképek"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Iskolák"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Kézikönyv"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Hozzájárul"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Az oldal utoljára firssítve  %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Az oldalt fordította: %(translators_names)s."
@@ -727,12 +715,6 @@ msgstr ""
 "A GCompris projectet <a target=\"_blank\" rel=\"noopener\" href=\"https://"
 "www.kde.org/\">a KDE közösség fejleszti</a>."
 
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Hírek"
-
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
 msgstr "Az összes hír"
@@ -842,7 +824,7 @@ msgstr "Leírás:"
 
 #: template/screenshot.html:36
 msgid "Prerequisite:"
-msgstr "Előfeltétel"
+msgstr "Előzetes tudás:"
 
 #: template/screenshot.html:40
 msgid "Goal:"

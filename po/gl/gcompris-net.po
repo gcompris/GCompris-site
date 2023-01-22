@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
 "PO-Revision-Date: 2020-01-05 18:30+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -275,55 +275,63 @@ msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazas a todos, <br/>\\nTimothée e Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr ""
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+#, fuzzy
+#| msgid "News"
+msgid "News"
+msgstr "Noticia"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Descargar"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Doar"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Imaxes"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 #, fuzzy
 #| msgid "Schools"
 msgid "Schools"
 msgstr "Escolas"
 
-#: template/base.html:75
+#: template/base.html:76
 #, fuzzy
 msgid "Manual"
 msgstr "Manual"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Contribuír"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""
@@ -766,14 +774,6 @@ msgid ""
 msgstr ""
 "O proxecto GCompris está aloxado e desenvolvido pola <a target=\"_blank\" "
 "rel=\"noopener\" href=\"https://www.kde.org/\">comunidade KDE</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-#, fuzzy
-#| msgid "News"
-msgid "News"
-msgstr "Noticia"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

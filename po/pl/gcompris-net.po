@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
 "PO-Revision-Date: 2022-06-05 11:42+0200\n"
 "Last-Translator: Grzegorz Koryga <<rehork@tutamail.com>>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -265,7 +265,7 @@ msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dziękujemy wam wszystkim, <br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -273,12 +273,12 @@ msgstr ""
 "To oprogramowanie jest pakietem GNU i jest rozpowszechniane na zasadach "
 "Powszechnej Licencji Publicznej GNU Affero."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Łukasz Wojniłowicz, Grzegorz Koryga"
 
-#: gcompris.py:398
+#: gcompris.py:404
 #, fuzzy
 #| msgid ""
 #| "For Christmas, offer GCompris to your children. It's free and will give "
@@ -288,37 +288,43 @@ msgstr ""
 "Na Święta, zaoferuj GCompris swojemu dziecku. Jest darmowy i daje im godziny "
 "edukacyjnej zabawy."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Wieści"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Pobieranie"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Darowizna"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Zrzuty ekranu"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Szkoły"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Podręcznik"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Współtworzenie"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Witryna zaktualizowana: %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Strona przetłumaczona przez: %(translators_names)s."
@@ -742,12 +748,6 @@ msgid ""
 msgstr ""
 "Projekt GCompris jest rozpowszechniany i rozwijany przez  <a target=\"_blank"
 "\" rel=\"noopener\" href=\"https://www.kde.org/\">Społeczność KDE</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Wieści"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

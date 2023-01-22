@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2023-01-19 16:02+0200\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-21 21:31+0200\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -211,20 +211,14 @@ msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "Κυκλοφορία της έκδοσης 3.0 του GCompris."
+msgstr "Κυκλοφορία της έκδοσης 3.1 του GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Σήμερα ξεκινά η κυκλοφορία της έκδοσης 2.4 του GCompris."
+msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.1 του GCompris."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -233,21 +227,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Καθώς παρατηρήσαμε ότι η έκδοση 3.0 περιείχε ένα κρίσιμο σφάλμα στη νέα "
+"δραστηριότητα \\\"Συσκευή σύγκρισης\\\", αποφασίσαμε να κυκλοφορήσουμε "
+"γρήγορα την έκδοση 3.1 για να διορθώσουμε το πρόβλημα."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Περιέχει επίσης μικρές ενημερώσεις στις μεταφράσεις."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -263,14 +252,11 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Σας ευχαριστούμε, <br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -278,46 +264,52 @@ msgstr ""
 "Αυτό το λογισμικό είναι ένα πακέτο GNU και κυκλοφορεί με την άδεια GNU "
 "Affero General Public License."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Γιάννης Κασκαμανίδης"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Προσφέρετε το GCompris στα παιδιά σας ως δώρο για τα Χριστούγεννα."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Νέα"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Λήψη"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Δωρεά"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Στιγμιότυπα οθόνης"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Σχολεία"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Οδηγός"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Συνεισφορά"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Ο ιστότοπος ενημερώθηκε τελευταία φορά στις %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Ο ιστότοπος μεταφράστηκε από τον/τους: %(translators_names)s."
@@ -750,12 +742,6 @@ msgid ""
 msgstr ""
 "Το έργο GCompris αναπτύσσεται και φιλοξενείται από την <a target=\"_blank\" "
 "rel=\"noopener\" href=\"https://www.kde.org/\">κοινότητα KDE</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Νέα"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

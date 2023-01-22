@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2023-01-19 18:04+0100\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-21 11:50+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -211,20 +211,14 @@ msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "Uitgave GCompris 3.0"
+msgstr "Uitgave GCompris 3.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Vandaag geven we GCompris versie 2.4 vrij."
+msgstr "Vandaag geven we GCompris versie 3.1 uit."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -233,22 +227,17 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Omdat we gemerkt hebben dat versie 3.0 een kritische bug bevat in de nieuwe "
+"activiteit \\\"Vergelijken\\\", hebben we besloten om snel deze 3.1 "
+"onderhoudsuitgave te bieden om het probleem te repareren."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Het bevat ook enkele bijgewerkte vertalingen."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -264,14 +253,11 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -279,46 +265,52 @@ msgstr ""
 "Deze software is een GNU pakket en is uitgegeven onder de GNU Affero General "
 "Public License."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Freek de Kruijf - t/m 2022"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Voor de Kerst, biedt GCompris aan aan uw kinderen."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Nieuws"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Downloaden"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Doneren"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Schermafdrukken"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Scholen"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Handmatig"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Bijdragen"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Site laatst bijgewerkt de %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Site vertaald door: %(translators_names)s."
@@ -749,12 +741,6 @@ msgid ""
 msgstr ""
 "De GCompris project wordt gehost en ontwikkeld door <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">de KDE gemeenschap</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Nieuws"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

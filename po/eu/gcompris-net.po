@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2023-01-20 21:05+0100\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-21 08:46+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -202,20 +202,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "GCompris 3.0 argitaratzea"
+msgstr "GCompris 3.1 argitaratzea"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Gaurkoan GCompris 2.4 bertsioa argitaratzen dugu."
+msgstr "Gaurkoan GCompris 3.1 bertsioa argitaratzen dugu."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -224,21 +218,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"3.0 bertsioak \\\"Konparatzailea\\\" jardueran errore kritiko bat zuela "
+"ohartuta, arazoa konpontzeko 3.1 mantentze argitalpena azkar kaleratzea "
+"erabaki dugu."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Itzulpenetan eguneratze gutxi batzuk ere baditu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -246,21 +235,18 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
-"Bertsio berri honen paketeak aurki ditzakezu GNU/Linux, Windows, Android, "
-"Raspberry Pi eta MacOSrako, <a href=\\\"https://gcompris.net/downloads "
-"{{ suffix }}.html\\\">zama-jaisteko orrian</a>. Eguneratze hau laster egongo "
-"da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
-"saltokian."
+"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
+"jaisteko orrian</a> bertsio berri honen GNU/Linux, Windows, Android, "
+"Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster "
+"egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta "
+"Windows saltokian."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -268,46 +254,52 @@ msgstr ""
 "Software hau GNU pakete bat da eta GNU Affero Lizentzia Publiko Orokorraren "
 "pean argitaratzen da."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Iñigo Salvador Azurmendi"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Gabonetarako, eskaini GCompris zure haurrei."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Albisteak"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Zama-jaitsi"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Egin dohaintza"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Pantaila-argazkiak"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Ikastetxeak"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Eskuliburua"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Lagundu"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Lekuaren azken eguneratzea, %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Lekuaren itzultzaileak: %(translators_names)s."
@@ -733,12 +725,6 @@ msgid ""
 msgstr ""
 "GCompris proiektua <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
 "kde.org/\">KDE komunitateak</a> ostatzen eta garatzen du."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Albisteak"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2023-01-19 22:40+0300\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-21 04:59+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -43,7 +43,7 @@ msgid ""
 "left and right clicks."
 msgstr ""
 "\\\"Fare tıklama alıştırması\\\", sol ve sağ tıklamalarla fare kullanımını "
-"alıştırmak için bir alıştırmadır."
+"öğretmek için bir alıştırmadır."
 
 #. list item
 msgctxt "20230118.html"
@@ -60,7 +60,7 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
-"\\\"Kesirleri bul\\\"da, başka türlüdür: Pasta veya dikdörtgen grafik "
+"\\\"Kesirleri bul\\\"da, tam tersidir: Pasta veya dikdörtgen grafik "
 "tarafından temsil edilen kesri yazın."
 
 #. list item
@@ -201,20 +201,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "GCompris 3.0 Çıktı"
+msgstr "GCompris 3.1 Çıktı"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Bugün, GCompris sürüm 2.4'ü yayımlıyoruz."
+msgstr "Bugün, GCompris'in 3.1 sürümünü yayımlıyoruz."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -223,21 +217,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"3.0 sürümünde çıkan \\\"Karşılaştırıcı\\\" etkinliğinde kritik bir hata "
+"bulduğumuzdan dolayı, bu hatayı düzelten 3.1 sürümünü hızlıca çıkarmaya "
+"karar verdik."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Aynı zamanda birkaç çeviri güncellemesi de içerir."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -247,18 +236,15 @@ msgid ""
 msgstr ""
 "Bu yeni sürüm için olan GNU/Linux, Windows, Raspberry Pi ve macOS "
 "paketlerini <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">indirme sayfasında</a> bulabilirsiniz. Bu güncelleme kısa süre içinde "
-"Google Play Store, F-Droid deposu ve Microsoft Store'da da yerini alacak."
+"\">download page</a> bulabilirsiniz. Bu güncelleme kısa süre içinde Google "
+"Play Store, F-Droid deposu ve Microsoft Store'da da yerini alacak."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -266,46 +252,52 @@ msgstr ""
 "Bu yazılım bir GNU Paketi'dir ve GNU Affero Genel Kamu Lisansı altında "
 "yayımlanmıştır."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Emir SARI"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Noel için çocuklarınıza GCompris'i gösterin."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Haberler"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "İndir"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Bağış Yap"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Ekran Görüntüleri"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Okullar"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Kılavuz"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Katkıda Bulun"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Site, en son %(revision_date)s tarihinde güncellenmiştir."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "%(translators_names)s tarafından Türkçeye çevrilmiştir."
@@ -726,12 +718,6 @@ msgid ""
 msgstr ""
 "GCompris projesi <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
 "kde.org/\">KDE topluluğu</a> tarafından barındırılır ve geliştirilir."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Haberler"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

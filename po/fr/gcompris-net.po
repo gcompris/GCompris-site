@@ -4,13 +4,13 @@
 # Johnny Jazeix <jazeix@gmail.com>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
 # Simon Depiets <sdepiets@gmail.com>, 2018.
 # Timo <animtim@gmail.com>, 2019, 2020, 2022.
-# charruau <echarruau@gmail.com>, 2019, 2021.
+# charruau <echarruau@gmail.com>, 2019, 2021, 3034.
 # Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
 "PO-Revision-Date: 2023-01-07 07:25+0200\n"
 "Last-Translator: Johnny Jazeix <jazeix@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -49,8 +49,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
-"\\\"Entraînement aux clics de la souris\\\" est un exercice pour s'entraîner "
-"à différentier les clics droit et gauche de la souris."
+"« Entraînement aux clics de la souris » est un exercice pour s'entraîner à "
+"différentier les clics droit et gauche de la souris."
 
 #. list item
 msgctxt "20230118.html"
@@ -58,8 +58,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
-"Dans \\\"Écris les fractions\\\", il faut représenter des quantités de façon "
-"équitable dans des disques ou des carrés."
+"Dans « Représente les fractions », il faut sélectionner le bon nombre de "
+"parts pour que la fraction numérique corresponde à la fraction représentée."
 
 #. list item
 msgctxt "20230118.html"
@@ -67,8 +67,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
-"Dans \\\"Trouve les fractions\\\", c'est le contraire : il faut écrire la "
-"fraction représentée dans un carré ou un disque."
+"Dans « Trouve les fractions », c'est le contraire : il faut écrire la "
+"fraction représentée sous forme numérique."
 
 #. list item
 msgctxt "20230118.html"
@@ -76,8 +76,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
-"Dans \\\"Découvre le code Morse international\\\", nous apprenons à "
-"communiquer en utilisant le code Morse international."
+"Dans « Découvre le code Morse international », nous apprenons à communiquer "
+"en utilisant le code Morse international."
 
 #. list item
 msgctxt "20230118.html"
@@ -85,7 +85,7 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
-"Dans \\\"Compare les nombres\\\", nous apprenons à comparer les valeurs des "
+"Dans « Compare les nombres », nous apprenons à comparer les valeurs des "
 "nombres en utilisant les symboles de comparaison."
 
 #. list item
@@ -94,6 +94,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"« Trouve le complément à 10 », permet sous la forme d'un exercice simple de "
+"découvrir la notion de complément à 10."
 
 #. list item
 msgctxt "20230118.html"
@@ -101,6 +103,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"Dans « Permute pour obtenir des compléments à 10 », permute les nombres "
+"d'une addition afin de pouvoir utiliser la technique du complément à 10."
 
 #. list item
 msgctxt "20230118.html"
@@ -108,6 +112,8 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"Dans « Utilise les compléments à 10 », décompose les additions pour pouvoir "
+"utiliser la technique du complément à 10."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -163,6 +169,12 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Nous aimerions attirer l'attention sur le fait les voix ukrainiennes qui ont "
+"été ajoutées grâce à l'organisation « Save the Children » qui a financé "
+"l'enregistrement. « Save the Children » a installé GCompris sur 8000 "
+"tablettes et 1000 ordinateurs portables, et les ont envoyés dans des centres "
+"d'apprentissage numérique et autres espaces sécurisés pour les enfants en "
+"Ukraine."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -204,20 +216,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "Version 3.0 de GCompris"
+msgstr "Version 3.1 de GCompris"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Nous publions aujourd'hui la version 2.4 de GCompris."
+msgstr "Nous publions aujourd'hui la version 3.1 de GCompris."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -226,21 +232,17 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Nous avons découvert un problème critique dans l'activité « Compare les "
+"nombres » donc nous avons décidé de réaliser cette version de maintenance "
+"3.1 immédiatement pour corriger ce problème."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
 msgstr ""
+"Cette version contient aussi quelques améliorations dans la traduction."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -255,14 +257,11 @@ msgstr ""
 "et « Windows », ainsi dans le dépôt F-Droid."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -270,46 +269,52 @@ msgstr ""
 "Ce logiciel est sous la forme d'un paquet « GNU ». Il est publié sous la "
 "licence « GNU Affero GPL »."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Xavier Besnard, Emmanuel Charruau, Timothée Giet, Johnny Jazeix"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Pour Noël, offrez GCompris à vos enfants."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Nouvelles"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Télécharger"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Donation"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Captures d'écran"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Écoles"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Manuel"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Dernière mise à jour du site le %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Site traduit par : %(translators_names)s."
@@ -738,12 +743,6 @@ msgid ""
 msgstr ""
 "Le projet GCompris est hébergé et développé par <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">la communauté KDE</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Nouvelles"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

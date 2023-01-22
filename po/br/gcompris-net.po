@@ -3,13 +3,13 @@
 #
 #
 # Alan Monfort <alan.monfort@free.fr>, 2007-2011.
-# KERVOAS <envelkervoas@free.fr>, 2019, 2020, 2021, 2022.
+# KERVOAS <envelkervoas@free.fr>, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2022-12-22 17:19+0100\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-21 15:15+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -20,27 +20,19 @@ msgstr ""
 "X-Generator: Lokalize 21.12.3\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "GCompris stumm 2.3"
+msgstr "GCompris stumm 3.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220224.html"
-#| msgid ""
-#| "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr ""
-"Salud d'an holl,<br />\\nPlijet omp o kemenn stumm nevez  GCompris 2.2."
+msgstr "Salud d'an holl, Plijet omp o kemenn stumm nevez  GCompris 3.0."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Bez' ez eus 182 obererezh, en o zouez 8 nevez:"
 
 #. list item
 msgctxt "20230118.html"
@@ -48,6 +40,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"\\\"Pleustriñ gant al logodenn\\\" a servijout da bleustriñ war an implij "
+"eus al logodenn gant klikoù kleiz ha dehou."
 
 #. list item
 msgctxt "20230118.html"
@@ -55,6 +49,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"E-barzh \\\"Krou ar c'hevrennoù\\\" ez eztaoler kementadoù dekredel gant un "
+"dartezenn pe un skouergorneg."
 
 #. list item
 msgctxt "20230118.html"
@@ -62,6 +58,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"E-barzh \\\"Kav ar c'hevrennoù\\\" e reer ar c'hontrol: skrivañ ar gevrenn "
+"eztaolet gant un dartezenn pe ur skouergorneg."
 
 #. list item
 msgctxt "20230118.html"
@@ -69,6 +67,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"Gant  \\\"Dizolo kod etrevroadel Morse\\ e tesker penaos kehentiñ gant kod "
+"etrevroadel Morse."
 
 #. list item
 msgctxt "20230118.html"
@@ -76,6 +76,8 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"E-barzh \\\"Keñveriañ niveroù\\\" e tesker penaos keñveriañ talvoudoù an "
+"niveroù gant arouezioù keñveriañ."
 
 #. list item
 msgctxt "20230118.html"
@@ -83,6 +85,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"\\\"Kav ar glokadenn d'ober dek\\\" a zo ur boelladenn evit deskiñ ober gant "
+"meizad ar glokadenn d'ober dek."
 
 #. list item
 msgctxt "20230118.html"
@@ -90,6 +94,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"E-barzh  \\\"Eskemm klokadennoù evit dek\\\" ez eskemmer niveroù ur "
+"sammadenn a-benn implijout gwelloc'h ar glokadenn d'ober dek."
 
 #. list item
 msgctxt "20230118.html"
@@ -97,37 +103,30 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"E-barzh  \\\"Ober gant ur glokadenn d'ober dek\\\" e tesker ober gant ar "
+"glokadenn da zek evit gwellaat urzh an niveroù en ur jedadenn."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Ouzhpennet hon eus 2 urzh-dibab nevez:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "Roll an holl obererezhioù a zo deus oute (-l or --list-activities)"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "Kregiñ diouzhtu gant un obererezh resis (--launch activityName)"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "Ur stumm-mañ a zo ennañ meur a welladenn hag a gudennoù reizhet."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
-#| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
-#| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
-#| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
-#| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
-#| "Ukrainian."
 msgctxt "20230118.html"
 msgid ""
 "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
@@ -139,12 +138,15 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"Evit ar pezh a sell ouzh an troidigezhioù, setu bremañ 27 yezh klok "
-"evidomp : albaneg, belaruseg, brezhoneg, euskareg, galisianeg, galleg, "
-"gresianeg, hebraeg, hollandeg, hungarek, indonezianeg, italianeg, katalaneg, "
-"katalaneg Bro-Valensia, makedoneg, malayameg, poloneg, portugaleg, "
-"portugaleg Bro-Vrazil, roumaneg, ruseg, sloveneg, saozneg Bro-Saoz, sinaeg "
-"hengounel,  svedeg, turkeg hag ukraineg."
+"Evit ar pezh a sell ouzh an troidigezhioù, setu bremañ 36 yezh gant GCompris "
+"3.0, 25 anezhe troet penn-da-benn: (azerbaidjaneg, brezhoneg, estoneg, "
+"euskareg, galleg, gresianeg, hebraeg, hollandeg, hungarek, italianeg, "
+"katalaneg, katalaneg Bro-Valensia, kroateg, lituaneg, malayameg, norvegeg "
+"Nynorsk, poloneg, portugaleg, roumaneg, ruseg, saozneg Bro-Saoz, sinaeg "
+"hengounel,  sloveneg, spagnoleg  hag ukraineg). 11 a zo damdroet: (alamaneg "
+"(91%) , albaneg (99%), belaruseg (83%), finneg (94%),  indonezeg (99%), "
+"makedoneg (94%), portugaleg Bro-Vrazil (94%), slovakeg (77%), svedeg (94%), "
+"tchekeg (82%) ha turkeg (71%)."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -154,21 +156,18 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Ur gerig ispisial diwar-benn ar mouezhioù ukraineg, bet ouzhpennet a-"
+"drugarez d'an aozadur \\\"Save the Children\\\", paeet ganti an enrollañ. "
+"Staliet zo bet ganti GCompris war 8000 tabletezenn ha 1000 urzhiataer-"
+"hezoug, ha kaset anezhe d'ar c'hreizennoù deskiñ niverel ha da lec'hioù "
+"goudoret all evit ar vugale en Ukraina."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "Mouezhioù kroateg a zo bet enrollet gant ur perzhiad."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -178,7 +177,7 @@ msgid ""
 "Windows store."
 msgstr ""
 "Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
-"Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
+"Android, Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
 "outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid "
 "hag er Windows store."
@@ -190,30 +189,25 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"Evezhiadenn evit an holl bakadourien oc'h ober war-dro an dasparzhoù GNU/"
+"Linux: un dalc'h nevez diwar on QtCharts QML, plugin, hag ar stumm disterañ "
+"rekis evit Qt5 a zo bremañ 5.12. Tremenet omp ivez eus QtQuick.Controls 1 da "
+"QtQuick.Controls 2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Trugarez d'an holl, <br/>\\nTimothée & Johnny"
+msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "GCompris stumm 2.3"
+msgstr "GCompris stumm 3.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Hiziv e kinnigomp stumm 2.4 GCompris."
+msgstr "Hiziv e kinnigomp stumm 3.1 GCompris."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -222,21 +216,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"P'hon eus merzet e oa ur gudenn a-bouez gant ar stumm 3.0 en obererezh "
+"nevez  \\\"Keñveriañ\\\", hon eus dibabet kas buan ar c'hempenn nevez 3.1 "
+"d'ar jeu."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Bez' ez eus ivez un toullad adnevesaat evit an troidigezhioù. "
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -251,14 +240,11 @@ msgstr ""
 "hag er Windows store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Trugarez d'an holl, <br/>\\nTimothée & Johnny"
+msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -266,46 +252,52 @@ msgstr ""
 "Ur pakad GNU eo ar meziant-mañ ha kinniget dindan an aotre publik GNU Affero "
 "General."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Envel Kervoas"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Profit GCompris d'ho pugale da Nedeleg."
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Keleier"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Pellgargañ Gcompris"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Reiñ"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Skrammadoù"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Skolioù"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Dornlevr"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Kemer perzh"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Adnevezadur diwezhañ al lec'hienn: %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Lec'hienn troet gant: %(translators_names)s."
@@ -732,12 +724,6 @@ msgid ""
 msgstr ""
 "Raktres GCompris zo herberc'hiet ha diorroet gant <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\"> kumuniezh KDE</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Keleier"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"

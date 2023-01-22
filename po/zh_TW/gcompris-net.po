@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
 "PO-Revision-Date: 2023-01-03 15:19+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -23,101 +23,95 @@ msgstr ""
 "X-Generator: Lokalize 22.12.0\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "釋出 GCompris 2.3"
+msgstr "釋出 GCompris 3.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr "我們今天將釋出 GCompris 2.3 版。"
+msgstr "我們今天將釋出 GCompris 3.0 版。"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "裡面總共有 182 個活動，包含 8 個新活動："
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
-msgstr ""
+msgstr "「滑鼠點擊訓練」可以用來練習點擊滑鼠左鍵與右鍵。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
-msgstr ""
+msgstr "「建立分數」透過圓餅或矩形來練習小數與分數的概念。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
-msgstr ""
+msgstr "「找出分數」透過觀察圓餅或矩形來寫下表示的分數。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
-msgstr ""
+msgstr "「了解國際摩斯電碼」學習如何透過摩斯電碼來溝通。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
-msgstr ""
+msgstr "「比較數字」透過比較符號來學習比較數字。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
-msgstr ""
+msgstr "「找出十的補數」是一個簡單的活動，練習十的補數的概念。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
-msgstr ""
+msgstr "「交換十的補數」透過加法的交換律來快速計算加法。"
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
-msgstr ""
+msgstr "「使用十的補數」透過分解十的補數來快速計算加法。"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "我們加入了兩個命令列參數："
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "列出所有可用的活動（-l 或 --list-activities）"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "直接開始指定的活動（--launch 活動名稱）"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "這個版本也包含了一些改進與錯誤修正。"
 
 #. paragraph
 msgctxt "20230118.html"
@@ -131,6 +125,8 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
+"GCompris 3.0 包括 36 種語言，其中 25 種已全部翻譯完成，包括正體中文翻譯。11 "
+"種為部份完成。"
 
 #. paragraph
 msgctxt "20230118.html"
@@ -140,21 +136,16 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"其中烏克蘭的語音檔是由「拯救孩童」（Save the Children）組織所贊助錄音。他們在"
+"超過 8000 台平板與 1000 台筆記型電腦上安裝了 GCompris，並送到數位學習中心"
+"（Digital Learning Centers）與其他安全的地方給烏克蘭的孩童。"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "克羅埃西亞的語音也由一位熱心貢獻者提供。"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -163,9 +154,9 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"您可以在<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下載"
-"頁面</a>中找到 GNU/Linux、Windows、樹莓派與 macOS 上的新版本。這次更新也會盡"
-"快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
+"依照慣例，您可以在<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">下載頁面</a>中找到 GNU/Linux、Windows、Android、樹莓派與 macOS 上的新版"
+"本。這次更新也會盡快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
 
 #. paragraph
 msgctxt "20230118.html"
@@ -174,30 +165,24 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"GNU/Linux 套件的打包者請留意，我們新加了對 QtCharts QML plugin 的相依性，Qt5 "
+"版本需要在 5.12 以上。我們也已經從 QtQuick.Controls 1 移到了 QtQuick."
+"Controls 2。"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "感謝您的支持。<br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "釋出 GCompris 2.3"
+msgstr "釋出 GCompris 3.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "我們今天將釋出 GCompris 2.4 版。"
+msgstr "我們今天將釋出 GCompris 3.1 版。"
 
 #. paragraph
 msgctxt "20230121.html"
@@ -206,21 +191,15 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"因為我們發現 3.0 版的新活動「比較器」裡有一個嚴重的錯誤，我們決定快速釋出 "
+"3.1 版來修正這個問題。"
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "另外也做了一些翻譯的更新。"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -233,59 +212,62 @@ msgstr ""
 "快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "感謝您的支持。<br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr "這個軟體是 GNU 套件，以 GNU Affero General Public License 授權釋出。"
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Franklin Weng"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "在聖誕節時，把 GCompris 當聖誕禮物送給您的小孩吧。"
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "最新消息"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "下載"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "捐助"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "截圖"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "學校"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "手冊"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "貢獻"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "網站上次更新於 %(revision_date)s 。"
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "網站翻譯者：%(translators_names)s。"
@@ -555,16 +537,13 @@ msgstr ""
 "SHA-256 簽章檔來比對。"
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "程式源碼的 tarball 壓縮檔以及 Linux 安裝檔都已由 Timothée Giet 的 GPG 金鑰簽"
-"署過 (他的公開金鑰為："
+"署過（他的公開金鑰為：%(public_gpg_key)s）"
 
 #: template/downloads.html:170
 msgid "sig files:"
@@ -683,12 +662,6 @@ msgid ""
 msgstr ""
 "GCompris 專案目前由 <a target=\"_blank\" rel=\"noopener\" href=\"https://www."
 "kde.org/\">KDE 社群</a>維護、開發。"
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "最新消息"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
