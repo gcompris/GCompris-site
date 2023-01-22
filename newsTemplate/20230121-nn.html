@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.1 er ute' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>I dag gjev me ut GCompris versjon 3.1.</p>
+<p>Me oppdaga at versjon 3.0 hadde ein alvorleg feil i den nye aktivieten «Samanlikna tal», og me har derfor skunda oss med å gje ut versjon 3.1, som rettar denne feilen.</p>
+<p>Denne versjonen inneheld òg oppdaterte omsetjingar.</p>
+<p>Du finn pakkar for denne nye versjonen for GNU/Linux, Windows Raspberry Pi og macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android Play Store, i F-Droid og på Windows Store.</p>
+<p>Takk, alle saman!<br/>Timothée & Johnny</p>
+{% endblock %}
