@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.1 Çıktı' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Bugün, GCompris'in 3.1 sürümünü yayımlıyoruz.</p>
+<p>3.0 sürümünde çıkan "Karşılaştırıcı" etkinliğinde kritik bir hata bulduğumuzdan dolayı, bu hatayı düzelten 3.1 sürümünü hızlıca çıkarmaya karar verdik.</p>
+<p>Aynı zamanda birkaç çeviri güncellemesi de içerir.</p>
+<p>Bu yeni sürüm için olan GNU/Linux, Windows, Raspberry Pi ve macOS paketlerini <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a> bulabilirsiniz. Bu güncelleme kısa süre içinde Google Play Store, F-Droid deposu ve Microsoft Store'da da yerini alacak.</p>
+<p>Herkese teşekkürler!<br/>Timothée ve Johnny</p>
+{% endblock %}
