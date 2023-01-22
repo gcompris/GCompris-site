@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.0 er ute' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Me er glade for å kunngjera at GCompris versjon 3.0 no er ute.</p>
+<p>Denne versjonen inneheld 182 aktivitetar, og 8 av desse er heilt nye:</p>
+<ul>
+<li class="puce">I «Museklikk-øving» skal ein øva på å venstre- og høgreklikka med musa.</li>
+<li class="puce">I «Teikn brøken» skal ein øva på å framstilla brøkar som kake- og kvadratdiagram.</li>
+<li class="puce">I «Skriv brøken» gjer ein det motsette – skriv ned brøken som kake- og firkant­diagramma representerer.</li>
+<li class="puce">I «Lær morse­alfabetet» lærer ein å kommunisera med det internasjonale morsealfabetet.</li>
+<li class="puce">I «Samanlikna tal» lærer ein å bruka &lt;, &rt; og = for å samanlikna tal.</li>
+<li class="puce">«Finn tiarkomplement» er ein enkel aktivitet der ein lærer kva tiarkomplement er for noko.</li>
+<li class="puce">I «Byt tiarkomplement» skal ein byta om på tal for å laga enklare reknestykke ved hjelp av tiarkomplement.</li>
+<li class="puce">I «Bruk tiarkomplement» skal ein dela opp reknestykke ved bruk av tiarkomplement.</li>
+</ul>
+<br/>
+<p>Me har òg lagt til to nye kommandolinjeval:</p>
+<ul>
+<li class="puce">Vis oversikt over alle aktivitetane («-l» eller «--list-activities»)</li>
+<li class="puce">Start ein aktivitet direkte («--launch namn_på_aktivitet»)</li>
+</ul>
+<br/>
+<p>Denne versjonen har òg fleire forbetringar og feilfiksar.</p>
+<br/>
+<p>GCompris 3.0 er no omsett til 36 språk. Det er 100 % omsett til desse 25 språka: aserbajdsjansk, baskisk, bretonsk, britisk engelsk, katalansk, Valencia-katalansk, kinesisk (tradisjonell), kroatisk, nederlandsk, estisk, fransk, gresk, hebraisk, ungarsk, italiensk, litauisk, malayisk, nynorsk, polsk, portugisisk, rumensk, russisk, slovensk, spansk og ukrainsk. Og det er delvis omsett til desse 11 språka: albansk (99 %), belarusisk (83 %), Brasil-portugisisk (94 %), tsjekkisk (82 %), finsk (94 %), tysk (91 %), indonesisk (99 %), makedonsk (94 %), slovakisk (77 %), svensk (94 %) og tyrkisk (71 %).</p>
+<p>Ein merknad om talefilene for ukrainsk: Desse har blitt til takka vera organisasjonen «Redd barna», som har finansiert lydopptaka. Dei har òg installert GCompris på 8 000 nettbrett og 1 000 berbare maskiner, og har sendt desse til digitale lærings­senter og andre trygge stadar for barn i Ukraina.</p>
+<p>Ein bidragsytar har òg laga talefiler for kroatisk.</p>
+<br/>
+<p>Du finn som vanleg pakkar for denne nye versjonen for GNU/Linux, Windows, Android, Raspberry Pi og macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android Play Store, i F-Droid og på Windows Store.</p>
+<p>Dei som lagar pakkar for GNU/Linux-distribusjonar, bør spesielt merka seg at me har ein ny avhengnad, på QML-biblioteket QtChart. Og lågaste støtta versjon av Qt er no Qt 5.12. Me har i tillegg gått over frå QtQuick.Controls 1 til QtQuick.Controls 2.</p>
+<p>Takk, alle saman!<br/>Timothée & Johnny</p>
+{% endblock %}
