@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Vandaag geven we GCompris versie 3.1 uit.</p>
+<p>Omdat we gemerkt hebben dat versie 3.0 een kritische bug bevat in de nieuwe activiteit "Vergelijken", hebben we besloten om snel deze 3.1 onderhoudsuitgave te bieden om het probleem te repareren.</p>
+<p>Het bevat ook enkele bijgewerkte vertalingen.</p>
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows, Raspberry Pi en MacOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store.</p>
+<p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+{% endblock %}
