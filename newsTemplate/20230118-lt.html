@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.0 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Džiaugiamės galėdami paskelbti GCompris 3.0 versijos leidimą.</p>
+<p>Jame yra 182 pamokėlės, įskaitant 8 naujas:</p>
+<ul>
+<li class="puce">Pelės klavišų naudojimo praktika. Treniruotis dirbti su pele, naudoti kairį ir dešinį jos klavišus.</li>
+<li class="puce">Sukurk trupmenas. Mokomasi atvaizduoti dešimtainius skaičius skritulinių arba stačiakampių diagramų pagalba.</li>
+<li class="puce">Surask trupmenas. Priešingai: parašyk trupmeną, pavaizduotą skritulinėje arba stačiakampėje diagramoje.</li>
+<li class="puce">Atrask Morzės abėcėlę. Išmoksi bendrauti naudodamas tarptautinę Morzės abėcėlę.</li>
+<li class="puce">Palygink skaičius. Lyginamos skaičių reikšmės naudojant palyginimo ženklus.</li>
+<li class="puce">Rask dešimties dėmenį. Paprastas pratimas, skirtas išmokti dešimties papildinio sąvoką.</li>
+<li class="puce">Apkeisk dešimties dėmenis. Sukeisk sudėties dėmenis, ir legviau suskaičiuok reiškinį.</li>
+<li class="puce">Naudok dešimties dėmenis. Išskaidyk dėmenis ir lengviau suskaičiuok sumą.</li>
+</ul>
+<br/>
+<p>Pridėjome 2 naujas komandinės eilutės parinktis:</p>
+<ul>
+<li class="puce">Parodyti visas galimas pamokėles (-l arba --list-activities)</li>
+<li class="puce">Paleidžiant <i>GCompris</i> iš karto pradėti konkrečią pamokėlę (--launch <i>pamokėlės pavadinimas</i>)</li>
+</ul>
+<br/>
+<p>Šioje versijoje taip pat yra keletas patobulinimų ir klaidų pataisymų.</p>
+<br/>
+<p>Gcompris 3.0 palaiko 36-ias kalbas. Į 25-ias išverstas pilnai: (azerbaidžaniečių, baskų, bretonų, britų anglų, danų, estų, graikų, hebrajų, ispanų, italų, katalonų, katalonų (Valensijos), kinų tradicinę, kroatų, lenkų, lietuvių, malajų, norvegų (nynorsk), portugalų, prancūzų, rumunų, rusų, slovėnų, ukrainiečių, vengrų).Į 11-a kalbų išverstas dalinai: (albanų (99%), baltarusių (83%), brazilų (portugalų) (94%), čekų (82%), indoneziečių (99%), makedoniečių (94%), slovakų (77%), suomių (94%), švedų (94%), turkų(71%) ir vokiečių (91%).</p>
+<p>Speciali pastaba apie įgarsinimą ukrainiečių kalba, kuris buvo padarytas dėka organizacijos „Gelbėkit vaikus“, finansavusios įrašą. Organizacija įdiegė į GCompris 8000 planšetinių kompiuterių ir 1000 nešiojamųjų kompiuterių ir išsiuntė juos į skaitmeninio mokymosi centrus ir kitas saugias vaikams skirtas vietas Ukrainoje.</p>
+<p>Kroatiškai įgarsino taip pat mūsų bendruomenės narys.</p>
+<br/>
+<p>Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+<p>GNU/Linux sistemų paketų kūrėjams: prisidėjo papildoma QtCharts QML priklausomybė, ir dabartinė mažiausia palaikoma Qt5 versija yra 5.12. Taip pat perėjome iš QtQuick.Controls 1 į QtQuick.Controls 2.</p>
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+{% endblock %}
