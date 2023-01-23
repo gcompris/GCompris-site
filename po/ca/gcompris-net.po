@@ -3,15 +3,15 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015, 2017, 2018, 2019, 2020, 2021, 2022.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
 # Josep M. Ferrer <txemaq@gmail.com>, 2017, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-22 01:02+0000\n"
-"PO-Revision-Date: 2023-01-21 12:59+0100\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2023-01-22 18:39+0100\n"
+"Last-Translator: Antoni Bella <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Kate 22.08.3\n"
 
 #. news title
 msgctxt "20230118.html"
@@ -116,7 +116,7 @@ msgstr "S'han afegit 2 opcions noves de la línia d'ordres:"
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr "Llista totes les activitats disponibles (-l or --list-activities)"
+msgstr "Llista totes les activitats disponibles (-l o --list-activities)"
 
 #. list item
 msgctxt "20230118.html"
@@ -218,8 +218,8 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
-"Com que ens vam adonar que la versió 3.0 contenia un error crític en la "
-"activitat nova «Comparador», hem decidit distribuir ràpidament aquesta "
+"Com que ens vam adonar que la versió 3.0 contenia un error crític en "
+"l'activitat nova «Comparador», hem decidit distribuir ràpidament aquesta "
 "versió de manteniment 3.1 per a solucionar el problema."
 
 #. paragraph
@@ -395,7 +395,7 @@ msgstr "Nota: la Windows Store requereix el Windows 10."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr "Podeu baixar l'instal·lador des dels següents enllaços."
+msgstr "Podeu baixar l'instal·lador des dels enllaços següents."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
@@ -419,7 +419,7 @@ msgid ""
 "GCompris 15.10."
 msgstr ""
 "Si realment us cal una versió que s'executi sobre Windows XP, o si el vostre "
-"sistema no admet la nova versió, podeu utilitzar l'últim instal·lador de "
+"sistema no admet la versió nova, podeu utilitzar l'últim instal·lador de "
 "l'antic GCompris 15.10."
 
 #: template/downloads.html:34

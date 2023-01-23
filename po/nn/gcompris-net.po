@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-21 01:02+0000\n"
-"PO-Revision-Date: 2023-01-08 11:24+0100\n"
+"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"PO-Revision-Date: 2023-01-22 14:21+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 22.12.1\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -24,17 +24,17 @@ msgstr ""
 #. news title
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr ""
+msgstr "GCompris 3.0 er ute"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr ""
+msgstr "Me er glade for å kunngjera at GCompris versjon 3.0 no er ute."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Denne versjonen inneheld 182 aktivitetar, og 8 av desse er heilt nye:"
 
 #. list item
 msgctxt "20230118.html"
@@ -42,6 +42,7 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"I «Museklikk-øving» skal ein øva på å venstre- og høgreklikka med musa."
 
 #. list item
 msgctxt "20230118.html"
@@ -49,6 +50,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"I «Teikn brøken» skal ein øva på å framstilla brøkar som kake- og "
+"kvadratdiagram."
 
 #. list item
 msgctxt "20230118.html"
@@ -56,6 +59,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"I «Skriv brøken» gjer ein det motsette – skriv ned brøken som kake- og "
+"firkant­diagramma representerer."
 
 #. list item
 msgctxt "20230118.html"
@@ -63,6 +68,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"I «Lær morse­alfabetet» lærer ein å kommunisera med det internasjonale "
+"morsealfabetet."
 
 #. list item
 msgctxt "20230118.html"
@@ -70,6 +77,7 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"I «Samanlikna tal» lærer ein å bruka &lt;, &gt; og = for å samanlikna tal."
 
 #. list item
 msgctxt "20230118.html"
@@ -77,6 +85,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"«Finn tiarkomplement» er ein enkel aktivitet der ein lærer kva "
+"tiarkomplement er for noko."
 
 #. list item
 msgctxt "20230118.html"
@@ -84,6 +94,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"I «Byt tiarkomplement» skal ein byta om på tal for å laga enklare "
+"reknestykke ved hjelp av tiarkomplement."
 
 #. list item
 msgctxt "20230118.html"
@@ -91,26 +103,28 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"I «Bruk tiarkomplement» skal ein dela opp reknestykke ved bruk av "
+"tiarkomplement."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Me har òg lagt til to nye kommandolinjeval:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "Vis oversikt over alle aktivitetane («-l» eller «--list-activities»)"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "Start ein aktivitet direkte («--launch namn_på_aktivitet»)"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "Denne versjonen har òg fleire forbetringar og feilfiksar."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -124,6 +138,14 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
+"GCompris 3.0 er no omsett til 36 språk. Det er 100 % omsett til desse 25: "
+"aserbajdsjansk, baskisk, bretonsk, britisk engelsk, katalansk, Valencia-"
+"katalansk, kinesisk (tradisjonell), kroatisk, nederlandsk, estisk, fransk, "
+"gresk, hebraisk, ungarsk, italiensk, litauisk, malayisk, nynorsk, polsk, "
+"portugisisk, rumensk, russisk, slovensk, spansk og ukrainsk. Og det er "
+"delvis omsett til desse 11: albansk (99 %), belarusisk (83 %), Brasil-"
+"portugisisk (94 %), tsjekkisk (82 %), finsk (94 %), tysk (91 %), indonesisk "
+"(99 %), makedonsk (94 %), slovakisk (77 %), svensk (94 %) og tyrkisk (71 %)."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -133,11 +155,16 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Ein merknad om talefilene for ukrainsk: Desse har blitt til takka vera "
+"organisasjonen «Redd barna», som har finansiert lydopptaka. Dei har òg "
+"installert GCompris på 8 000 nettbrett og 1 000 berbare maskiner, og har "
+"sendt desse til digitale lærings­senter og andre trygge stadar for barn i "
+"Ukraina."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "Ein bidragsytar har òg laga talefiler for kroatisk."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -148,6 +175,10 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
+"Du finn som vanleg pakkar for denne nye versjonen for GNU/Linux, Windows, "
+"Android, Raspberry Pi og macOS på <a href=\\\"https://gcompris.net/downloads{"
+"{ suffix }}.html\\\">nedlastings­sida</a>. Oppdateringa er òg snart "
+"tilgjengeleg på Android Play Store, i F-Droid og på Windows Store."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -156,21 +187,25 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"Dei som lagar pakkar for GNU/Linux-distribusjonar, bør spesielt merka seg at "
+"me har ein ny avhengnad, på QML-biblioteket QtChart. Og lågaste støtta "
+"versjon av Qt er no Qt 5.12. Me har i tillegg gått over frå QtQuick."
+"Controls 1 til QtQuick.Controls 2."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr ""
+msgstr "GCompris 3.1 er ute"
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr ""
+msgstr "I dag gjev me ut GCompris versjon 3.1."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -179,12 +214,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Me oppdaga at versjon 3.0 hadde ein alvorleg feil i den nye aktivieten "
+"«Samanlikna tal», og me har derfor skunda oss med å gje ut versjon 3.1, som "
+"rettar denne feilen."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Denne versjonen inneheld òg oppdaterte omsetjingar."
 
+# Unødvendig å ha med «for denne nye versjonen», då det står i setninga rett før.
 #. paragraph
 msgctxt "20230121.html"
 msgid ""
@@ -193,13 +232,17 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
+"Du finn pakkar for GNU/Linux, Windows Raspberry Pi og macOS på <a "
+"href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på "
+"Android Play Store, i F-Droid og på Windows Store."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
-#: gcompris.py:291
+#: gcompris.py:293
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -207,46 +250,52 @@ msgstr ""
 "GCompris er ein GNU-pakke og tilgjengeleg under GNU Affero General Public "
 "License."
 
-#: gcompris.py:292
+#: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Karl Ove Hufthammer"
 
-#: gcompris.py:398
+#: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Korfor ikkje visa barna dine GCompris i jula?"
 
-#: template/base.html:71 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Nyheiter"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Last ned"
 
-#: template/base.html:72 template/donate.html:3 template/donate.html:8
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Gje penge­gåve"
 
-#: template/base.html:73 template/screenshots.html:3
+#: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Skjerm­bilete"
 
-#: template/base.html:74 template/schools.html:3 template/schools.html:8
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Skular"
 
-#: template/base.html:75
+#: template/base.html:76
 msgid "Manual"
 msgstr "Bruks­rettleiing"
 
-#: template/base.html:76
+#: template/base.html:77
 msgid "Contribute"
 msgstr "Bidra"
 
-#: template/base.html:107
+#: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Nettstaden vart sist oppdatert %(revision_date)s."
 
-#: template/base.html:112
+#: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Nettstaden er omsett av: %(translators_names)s."
@@ -562,7 +611,7 @@ msgstr "Last ned GCompris"
 
 #: template/index.html:58
 msgid "Latest news"
-msgstr "Siste nyheiter"
+msgstr "Siste nytt"
 
 #: template/index.html:91
 msgid "Click or tap"
@@ -666,12 +715,6 @@ msgid ""
 msgstr ""
 "GCompris-prosjektet vert utvikla av <a target=\"_blank\" rel=\"noopener\" "
 "href=\"https://www.kde.org/\">KDE-fellesskapet</a>."
-
-#: template/news.html:3 template/news.html:8 template/newsall.html:3
-#: template/newsall.html:8 template/singlenews.html:3
-#: template/singlenews.html:9
-msgid "News"
-msgstr "Nyheiter"
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
