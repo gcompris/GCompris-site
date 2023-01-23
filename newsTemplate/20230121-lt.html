@@ -1,0 +1,12 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.1 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris720.png' class='col-xs-12 col-md-4' alt='gcompris 3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris720.png')"/>
+
+<p>Šiandien išleidžiame GCompris 3.1 versiją.</p>
+<p>Pastebėję, kad 3.0 versijoje yra kritinė naujos „Palygink skaičius“ pamokėlės klaida, nusprendėme greitai sukurti šią, 3.1 versiją, kad išspręstume problemą.</p>
+<p>Jame taip pat yra nedidelis vertimo atnaujinimas.</p>
+<p>Šios versijos paketus GNU/Linux, Windows, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+{% endblock %}
