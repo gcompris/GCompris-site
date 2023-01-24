@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-22 01:02+0000\n"
-"PO-Revision-Date: 2023-01-08 22:08+0200\n"
+"PO-Revision-Date: 2023-01-22 09:08+0200\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: lt <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
@@ -22,27 +22,19 @@ msgstr ""
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "GCompris 2.3 leidimas"
+msgstr "GCompris 3.0 leidimas"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220224.html"
-#| msgid ""
-#| "Hi,<br/>\\nWe are pleased to announce the release of GCompris version 2.2."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr ""
-"Sveiki,<br />\\nDžiaugiamės galėdami paskelbti GCompris 2.2 versijos leidimą."
+msgstr "Džiaugiamės galėdami paskelbti GCompris 3.0 versijos leidimą."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Jame yra 182 pamokėlės, įskaitant 8 naujas:"
 
 #. list item
 msgctxt "20230118.html"
@@ -50,6 +42,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"Pelės klavišų naudojimo praktika. Treniruotis dirbti su pele, naudoti kairį "
+"ir dešinį jos klavišus."
 
 #. list item
 msgctxt "20230118.html"
@@ -57,6 +51,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"Sukurk trupmenas. Mokomasi atvaizduoti dešimtainius skaičius skritulinių "
+"arba stačiakampių diagramų pagalba."
 
 #. list item
 msgctxt "20230118.html"
@@ -64,6 +60,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"Surask trupmenas. Priešingai: parašyk trupmeną, pavaizduotą skritulinėje "
+"arba stačiakampėje diagramoje."
 
 #. list item
 msgctxt "20230118.html"
@@ -71,6 +69,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"Atrask Morzės abėcėlę. Išmoksi bendrauti naudodamas tarptautinę Morzės "
+"abėcėlę."
 
 #. list item
 msgctxt "20230118.html"
@@ -78,6 +78,7 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"Palygink skaičius. Lyginamos skaičių reikšmės naudojant palyginimo ženklus."
 
 #. list item
 msgctxt "20230118.html"
@@ -85,6 +86,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"Rask dešimties dėmenį. Paprastas pratimas, skirtas išmokti dešimties "
+"papildinio sąvoką."
 
 #. list item
 msgctxt "20230118.html"
@@ -92,6 +95,8 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"Apkeisk dešimties dėmenis. Sukeisk sudėties dėmenis, ir legviau suskaičiuok "
+"reiškinį."
 
 #. list item
 msgctxt "20230118.html"
@@ -99,40 +104,32 @@ msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
 msgstr ""
+"Naudok dešimties dėmenis. Išskaidyk dėmenis ir lengviau suskaičiuok sumą."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Pridėjome 2 naujas komandinės eilutės parinktis:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "Parodyti visas galimas pamokėles (-l arba --list-activities)"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
 msgstr ""
+"Paleidžiant <i>GCompris</i> iš karto pradėti konkrečią pamokėlę (--launch "
+"<i>pamokėlės pavadinimas</i>)"
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
-msgstr ""
+msgstr "Šioje versijoje taip pat yra keletas patobulinimų ir klaidų pataisymų."
 
 # Sąrašas pateiktas abėcėlės tvarka - dėl to vertimo eilės tvarka nesutampa su šaltiniu.
 #. paragraph
-#, fuzzy
-#| msgctxt "20211217.html"
-#| msgid ""
-#| "On the translation side, GCompris 2.0 contains 33 languages. 26 are fully "
-#| "translated: (Azerbaijani, Albanian, Basque, Brazilian Portuguese, British "
-#| "English, Catalan, Catalan (Valencian), Chinese Traditional, Dutch, "
-#| "Estonian, Finnish, French, Greek, Hebrew, Hungarian, Indonesian, Italian, "
-#| "Lithuanian, Malayalam, Polish, Portuguese, Romanian, Slovenian, Spanish, "
-#| "Swedish, Ukrainian). 7 are partially translated: (German (96%), Norwegian "
-#| "Nynorsk (96%), Belarusian (83%), Macedonian (82%), Breton (80%), Turkish "
-#| "(76%) and Russian (76%))."
 msgctxt "20230118.html"
 msgid ""
 "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
@@ -144,13 +141,14 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"Gcompris 2.0 jau palaiko 33-is kalbas. Į 26-ias išverstas pilnai: (albanų, "
-"azerbaidžaniečių, baskų, brazilų portugalų, britų anglų, danų, estų, graikų, "
-"hebrajų, indoneziečių, ispanų, italų, katalonų, katalonų (Valensijos), kinų "
-"tradicinę, lenkų, lietuvių, malajų, portugalų, prancūzų, rumunų, slovėnų, "
-"suomių, švedų, ukrainiečių, vengrų ).Į 7-ias kalbas išverstas dalinai: "
-"(vokiečių (96%), norvegų nynorsk (96%), baltarusių (83%), Makedoniečių "
-"(82%), bretonų (80%), turkų (76%) ir rusų (76%))."
+"Gcompris 3.0 palaiko 36-ias kalbas. Į 25-ias išverstas pilnai: "
+"(azerbaidžaniečių, baskų, bretonų, britų anglų, danų, estų, graikų, hebrajų, "
+"ispanų, italų, katalonų, katalonų (Valensijos), kinų tradicinę, kroatų, "
+"lenkų, lietuvių, malajų, norvegų (nynorsk), portugalų, prancūzų, rumunų, "
+"rusų, slovėnų, ukrainiečių, vengrų).Į 11-a kalbų išverstas dalinai: (albanų "
+"(99%), baltarusių (83%), brazilų (portugalų) (94%), čekų (82%), indoneziečių "
+"(99%), makedoniečių (94%), slovakų (77%), suomių (94%), švedų (94%), "
+"turkų(71%) ir vokiečių (91%)."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -160,21 +158,18 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Speciali pastaba apie įgarsinimą ukrainiečių kalba, kuris buvo padarytas "
+"dėka organizacijos „Gelbėkit vaikus“, finansavusios įrašą. Organizacija "
+"įdiegė į GCompris 8000 planšetinių kompiuterių ir 1000 nešiojamųjų "
+"kompiuterių ir išsiuntė juos į skaitmeninio mokymosi centrus ir kitas "
+"saugias vaikams skirtas vietas Ukrainoje."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "Kroatiškai įgarsino taip pat mūsų bendruomenės narys."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -183,11 +178,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Šios versijos paketus GNU/Linux, Windows, Raspberry Pi ir MacOS platformoms "
-"galite rasti <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai "
-"bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows "
-"parduotuvėje."
+"Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS "
+"platformoms galite rasti <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. "
+"Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-"
+"Droid saugykloje ir Windows parduotuvėje."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -196,31 +191,25 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"GNU/Linux sistemų paketų kūrėjams: prisidėjo papildoma QtCharts QML "
+"priklausomybė, ir dabartinė mažiausia palaikoma Qt5 versija yra 5.12. Taip "
+"pat perėjome iš QtQuick.Controls 1 į QtQuick.Controls 2."
 
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Nuoširdžiai dėkojame, <br/>\\nTimothée ir Johnny"
+msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "GCompris 2.3 leidimas"
+msgstr "GCompris 3.1 leidimas"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Today we are releasing GCompris version 2.4."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Šiandien išleidžiame GCompris 2.4 versiją."
+msgstr "Šiandien išleidžiame GCompris 3.1 versiją."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -229,21 +218,16 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Pastebėję, kad 3.0 versijoje yra kritinė naujos „Palygink skaičius“ "
+"pamokėlės klaida, nusprendėme greitai sukurti šią, 3.1 versiją, kad "
+"išspręstume problemą."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "Jame taip pat yra nedidelis vertimo atnaujinimas."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -259,12 +243,9 @@ msgstr ""
 
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Nuoširdžiai dėkojame, <br/>\\nTimothée ir Johnny"
+msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #: gcompris.py:293
 msgid ""
@@ -916,7 +897,7 @@ msgstr "Skaitymas"
 
 #: template/screenshots.html:46
 msgid "Strategy"
-msgstr "Strateginiai  žaidimai"
+msgstr "Strateginiai žaidimai"
 
 #~ msgctxt "20220413.html"
 #~ msgid "Release GCompris 2.4"
@@ -1014,7 +995,7 @@ msgstr "Strateginiai  žaidimai"
 
 #~ msgctxt "20220224.html"
 #~ msgid "New images in Tangram activity."
-#~ msgstr "Nauji  paveikslėlia tangram pamokėlėje"
+#~ msgstr "Nauji paveikslėlia tangram pamokėlėje"
 
 #~ msgctxt "20220224.html"
 #~ msgid ""
@@ -1101,7 +1082,7 @@ msgstr "Strateginiai  žaidimai"
 #~ "tablets which do not have it and fail to download data (https://bugs.kde."
 #~ "org/show_bug.cgi?id=447572)."
 #~ msgstr ""
-#~ "Paruoštas  SSL sertifikatas senesniems „Android“ telefonams / "
+#~ "Paruoštas SSL sertifikatas senesniems „Android“ telefonams / "
 #~ "planšetiniams kompiuteriams, kuriuose jo nėra ir nepavyksta atsisiųsti "
 #~ "duomenų, (https://bugs.kde.org/show_bug.cgi?id=447572)."
 
