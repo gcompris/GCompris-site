@@ -33,6 +33,7 @@ RewriteRule ^/?mediawiki-1.31.0/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/(
 RewriteRule \.git /404.html [L]
 RewriteRule ^-ar-$ /index-en.html [R=permanent,L]
 RewriteRule ^-br-$ /index-fr.html [R=permanent,L]
+RewriteRule ^-cs-$ /index-cs.html [R=permanent,L]
 RewriteRule ^-da-$ /index-da.html [R=permanent,L]
 RewriteRule ^-de-$ /index-de.html [R=permanent,L]
 RewriteRule ^-el-$ /index-el.html [R=permanent,L]
