@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-22 01:02+0000\n"
 "PO-Revision-Date: 2022-04-15 05:05+0200\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Last-Translator: Lars Vogdt <lars@linux-schulserver.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,29 +23,21 @@ msgstr ""
 "X-Generator: Lokalize 21.12.3\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230118.html"
 msgid "Release GCompris 3.0"
-msgstr "Veröffentlichung GCompris 2.3"
+msgstr "Veröffentlichung GCompris 3.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#| "1.1."
 msgctxt "20230118.html"
 msgid "We are pleased to announce the release of GCompris version 3.0."
 msgstr ""
-"Hallo,<br />\\nwir freuen uns, die Veröffentlichung der Version 1.1 von "
+"Hallo,<br />\\nwir freuen uns, die Veröffentlichung der Version 3.0 von "
 "GCompris bekannt zu geben."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "It contains 182 activities, including 8 new ones:"
-msgstr ""
+msgstr "Es enthält 182 Aktivitäten, davon 8 neue:"
 
 #. list item
 msgctxt "20230118.html"
@@ -53,6 +45,8 @@ msgid ""
 "\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
 "left and right clicks."
 msgstr ""
+"\\\"Maus-Klick Training\\\" hilft dabei, die Benutzung der linken und "
+"rechten Maustaste zu trainieren."
 
 #. list item
 msgctxt "20230118.html"
@@ -60,6 +54,8 @@ msgid ""
 "In \\\"Create the fractions\\\", represent decimal quantities with some pie "
 "or rectangle charts."
 msgstr ""
+"In \\\"Brüche erstellen\\\" müssen Dezimalzahlen mit Torten- oder Rechteck-"
+"Diagrammen dargestellt werden."
 
 #. list item
 msgctxt "20230118.html"
@@ -67,6 +63,8 @@ msgid ""
 "In \\\"Find the fractions\\\", it's the other way: write the fraction "
 "represented by the pie or rectangle chart."
 msgstr ""
+"Bei \\\"Finde die Brüche\\\" ist es umgekehrt: schreibe den Bruch, welcher "
+"durch das Torten- oder Rechteckdiagramm dargestellt wird."
 
 #. list item
 msgctxt "20230118.html"
@@ -74,6 +72,8 @@ msgid ""
 "With \\\"Discover the International Morse code\\\", learn how to communicate "
 "with the International Morse code."
 msgstr ""
+"In \\\"Erforsche den internationalen Morse Code\\\" lernst du, wie man mit "
+"dem Internaltionalen Morse Code kommuniziert."
 
 #. list item
 msgctxt "20230118.html"
@@ -81,6 +81,8 @@ msgid ""
 "In \\\"Compare numbers\\\", learn how to compare number values using "
 "comparison symbols."
 msgstr ""
+"In \\\"Vergleiche Zahlen\\\" werden Zahlenwerte durch Vergleichssymbole "
+"miteinander verglichen."
 
 #. list item
 msgctxt "20230118.html"
@@ -88,6 +90,8 @@ msgid ""
 "\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
 "ten's complement."
 msgstr ""
+"\\\"Finde Zehnerkomplemente\\\" ist eine einfach Übung, um das Konzept von "
+"Zehnerkomplementen zu verstehen."
 
 #. list item
 msgctxt "20230118.html"
@@ -95,35 +99,33 @@ msgid ""
 "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
 "using ten's complement."
 msgstr ""
+"In \\\"Zehnerkomplemente vertauschen\\\" müssen Zahlen einer Addition "
+"vertauscht werden, um sie - unter Verwendung des Zehnerkomplements - zu "
+"optimieren."
 
 #. list item
 msgctxt "20230118.html"
 msgid ""
 "In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
 "ten's complement."
-msgstr ""
+msgstr "Zerlege in \\\"Zehnerkomplemente verwenden\\\" eine Addition."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "We've added 2 new command line options:"
-msgstr ""
+msgstr "Wir haben zwei neue Kommandozeilen-Optionen hinzugefügt:"
 
 #. list item
 msgctxt "20230118.html"
 msgid "List all the available activities (-l or --list-activities)"
-msgstr ""
+msgstr "Alle verfügbaren Aktivitäten auflisten (-l oder --list-activities)"
 
 #. list item
 msgctxt "20230118.html"
 msgid "Directly start a specific activity (--launch activityName)"
-msgstr ""
+msgstr "Eine spezifische Aktivität direkt starten (--launch NameDerAktivität)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid ""
-#| "This new version includes updated translation for several languages, and "
-#| "a few bug fixes."
 msgctxt "20230118.html"
 msgid "This version also contains several improvements and bug fixes."
 msgstr ""
@@ -131,15 +133,6 @@ msgstr ""
 "Sprachen und ein paar Fehlerkorrekturen."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "We have now 27 languages fully supported: Albanian, Basque, Belarusian, "
-#| "Brazilian Portuguese, Breton, British English, Catalan, Catalan "
-#| "(Valencian), Chinese Traditional, Dutch, French, Greek, Hebrew, "
-#| "Hungarian, Indonesian, Italian, Macedonian, Malayalam, Polish, "
-#| "Portuguese, Romanian, Russian, Slovenian, Spanish, Swedish, Turkish and "
-#| "Ukrainian."
 msgctxt "20230118.html"
 msgid ""
 "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
@@ -151,7 +144,7 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"Jetzt werden 27 Sprachen vollständig unterstützt: Albanisch, Baskisch, "
+"Jetzt werden 36 Sprachen vollständig unterstützt: Albanisch, Baskisch, "
 "Weißrussisch, Brasilianisches Portugiesisch, Bretonisch, Britisches "
 "Englisch, Katalanisch, Katalanisch (Valencianisch), Chinesisch traditionell, "
 "Niederländisch, Französisch, Griechisch, Hebräisch, Ungarisch, Indonesisch, "
@@ -166,21 +159,18 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
+"Ein besonderer Hinweis zu den Ukrainischen Stimmen, die dank der "
+"Organisation \\\"Save the Children\\\" hinzugefügt werden konnten, welche "
+"die Aufnahmen finanziert hat. Diese hat außerdem GCompris auf 8000 Tablets "
+"und 1000 Laptops installiert und sie an digitale Lernzentren und andere, "
+"sichere Räume und Organisationen für Kinder in der Ukraine geschickt."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
+msgstr "Kroatische Stimmen wurden auch von einem Mitwirkendem aufgenommen."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows and "
-#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-#| "\">download page</a>. This update will be available soon in the Android "
-#| "Play store, the F-Droid repository and the Windows store. The package for "
-#| "Raspberry Pi will also be available soon."
 msgctxt "20230118.html"
 msgid ""
 "As usual you can find packages of this new version for GNU/Linux, Windows, "
@@ -189,11 +179,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Sie finden Pakete dieser neuen Version für GNU/Linux, Windows und MacOS auf "
-"der <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">Download-"
-"Seite</a>. Diese Aktualisierung wird in Kürze im Android Play Store, im F-"
-"Droid-Repository und im Windows Store verfügbar sein. Das Paket für "
-"Raspberry Pi wird ebenfalls bald verfügbar sein."
+"Sie finden Pakete dieser neuen Version für GNU/Linux, Windows, Android, "
+"Raspberry Pi und MacOS auf der <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">Download-Seite</a>. Diese Aktualisierung wird "
+"in Kürze auch im Android Play Store, im F-Droid-Repository und im Windows "
+"Store verfügbar sein."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -202,30 +192,25 @@ msgid ""
 "on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
 "We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
 msgstr ""
+"Für Packagers von GNU/Linux Distributionen noch der Hinweis, dass wir eine "
+"neue Abhängigkeit auf das \\\"QtCharts QML plugin\\\" haben und das die "
+"minimale QT5 Version nun 5.12 ist. Außerdem wurde von QtQuick.Controls 1 "
+"nach QtQuick.Controls 2 migriert."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230118.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dank an alle, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Release GCompris 2.3"
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr "Veröffentlichung GCompris 2.3"
+msgstr "Veröffentlichung GCompris 3.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr "Heute veröffentlichen wir GCompris Version 2.3."
+msgstr "Heute veröffentlichen wir GCompris Version 3.1."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -234,21 +219,17 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"Leider bemerkten wir einen kritischen Bug im der neuen \\\"Komparator\\\" "
+"Aktivität. Deshalb haben wir uns entschlossen, schnell ein Maintenance "
+"Release zu veröffentlichen, um den Fehler zu beheben."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
 msgstr ""
+"Die neue Version enthält auch einige, kleine Updates bei den Übersetzungen."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows and "
-#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-#| "\">download page</a>. This update will be available soon in the Android "
-#| "Play store, the F-Droid repository and the Windows store. The package for "
-#| "Raspberry Pi will also be available soon."
 msgctxt "20230121.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -256,16 +237,13 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
-"Sie finden Pakete dieser neuen Version für GNU/Linux, Windows und MacOS auf "
-"der <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">Download-"
-"Seite</a>. Diese Aktualisierung wird in Kürze im Android Play Store, im F-"
-"Droid-Repository und im Windows Store verfügbar sein. Das Paket für "
-"Raspberry Pi wird ebenfalls bald verfügbar sein."
+"Sie finden Pakete dieser neuen Version für GNU/Linux, Windows, Android, "
+"Raspberry Pi und MacOS auf der <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">Download-Seite</a>. Diese Aktualisierung wird "
+"in Kürze auch im Android Play Store, im F-Droid-Repository und im Windows "
+"Store verfügbar sein."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220224.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dank an alle, <br/>Timothée & Johnny"
@@ -275,17 +253,15 @@ msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
+"Diese Software ist ein GNU-Paket und wird unter der GNU Affero General "
+"Public Lizenz veröffentlicht."
 
 #: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Lars Vogdt"
 
 #: gcompris.py:404
-#, fuzzy
-#| msgid ""
-#| "For Christmas, offer GCompris to your children. It's free and will give "
-#| "them hours of educational fun."
 msgid "For Christmas, offer GCompris to your children."
 msgstr ""
 "Verschenken Sie zu Weihnachten GCompris an Ihre Kinder. Es ist kostenlos und "
@@ -325,12 +301,12 @@ msgstr "Mitwirken"
 #: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
-msgstr ""
+msgstr "Seite wurde zuletzt am %(revision_date)s aktualisiert."
 
 #: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr ""
+msgstr "Seite wurde übersetzt von: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
@@ -370,7 +346,7 @@ msgid ""
 "requirements that have a cost."
 msgstr ""
 "Die Entwicklung von Software braucht viel Zeit, sie benötigt Hardware und "
-"andere Anforderungen, die mit Kosten verbunden sind."
+"andere Mittel, die mit Kosten verbunden sind."
 
 #: template/donate.html:16
 msgid ""
@@ -386,7 +362,7 @@ msgstr "Ein Gönner werden"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "Außerdem können Sie einen beliebigen Betrag an KDE  spenden:"
+msgstr "Außerdem können Sie einen beliebigen Betrag an KDE spenden:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
@@ -402,7 +378,7 @@ msgstr "Patreon"
 
 #: template/donate.html:30
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr "Danke für die Unterstützung von GCompris auf Patreon."
+msgstr "Danke für die Unterstützung von GCompris auf Patreon!"
 
 #: template/downloads.html:16
 msgid "Windows"
@@ -413,17 +389,19 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
-"Sie können GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
-"gcompris/9pgxjtcxn8qm\">aus dem Windows Store</a> installieren."
+"Sie können GCompris <a href=\"https://apps.microsoft.com/de-de/store/detail/"
+"gcompris/9PGXJTCXN8QM\">aus dem Windows Store</a> installieren."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr "Hinweis: Für die Nutzung des Windows Store benötigen Sie Windows."
+msgstr ""
+"Hinweis: Für die Nutzung des Windows Store benötigen Sie mindestens Windows "
+"10."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
 msgstr ""
-"Alternativ können Sie das Installationsprogramm mit den folgenden "
+"Alternativ können Sie das Installationsprogramm von den folgenden "
 "Verknüpfungen herunterladen."
 
 #: template/downloads.html:24
@@ -502,18 +480,21 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
+"Für Android Geräte mit Version 2.3 bis 4.0 ist die letzte Kompatible Version "
+"<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
 #: template/downloads.html:75
 msgid "macOS"
-msgstr "macOS"
+msgstr "MacOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr "Sie die Version für macOS mit der folgenden Verknüpfung herunterladen."
+msgstr "Sie können die Version für MacOS unter folgendem Link herunterladen:"
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr "Erstellt und getestet auf macOS 10.13."
+msgstr "Erstellt und getestet auf MacOS 10.13."
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
@@ -561,7 +542,7 @@ msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"Gehen Sie anschließend in den neuen Ordner, in bin und klicken Sie doppelt "
+"Gehen Sie anschließend in den neuen Ordner, in bin/ und klicken Sie doppelt "
 "auf gcompris-qt.sh, um gcompris zu starten."
 
 #: template/downloads.html:110
@@ -585,6 +566,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
+"Alternativ können Sie GCompris von <a href=\"https://flathub.org/apps/"
+"details/org.kde.gcompris\">Flathub</a> oder vom <a href=\"https://snapcraft."
+"io/gcompris\">Snap store</a> installieren."
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
@@ -607,28 +591,27 @@ msgid "The source code is available under the AGPLv3 license."
 msgstr "Der Quelltext ist unter der Lizenz AGPLv3 verfügbar."
 
 #: template/downloads.html:163
-#, fuzzy
-#| msgid "MD5 and GPG"
 msgid "SHA-256 and GPG"
-msgstr "MD5 und GPG"
+msgstr "SHA-256 und GPG"
 
 #: template/downloads.html:167
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
+"Um die Integrität Ihres Downloads zu überprüfen, können Sie den original "
+"SHA-256 Checksumme der Datei herunterladen, indem sie \".sha256\" am Ende "
+"der Download-URL anhängen."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: "
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Der Quell-tarball und die Linux-Installationsdatei sind mit dem GPG-"
-"Schlüssel von Timothée Giet signiert (öffentlicher Schlüssel:"
+"Schlüssel von Timothée Giet signiert (öffentlicher Schlüssel: "
+"%(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
@@ -648,35 +631,35 @@ msgstr "Neueste Nachrichten"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr ""
+msgstr "Klicken oder Tippen"
 
 #: template/index.html:97
 msgid "Identify colors"
-msgstr ""
+msgstr "Farben identifizieren"
 
 #: template/index.html:103
 msgid "Learn clock"
-msgstr ""
+msgstr "Uhr lernen"
 
 #: template/index.html:109
 msgid "Keyboard training"
-msgstr ""
+msgstr "Keyboard training"
 
 #: template/index.html:115
 msgid "Learn additions"
-msgstr ""
+msgstr "Addition lernen"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr ""
+msgstr "Entdecke den Wasserkreislauf"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr ""
+msgstr "Spiele Schach gegen einen Freund"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr ""
+msgstr "Klicke auf einen Kleinbuchstaben"
 
 #: template/index.html:147
 msgid "View all screenshots"
@@ -833,7 +816,7 @@ msgid ""
 "children who can only read numbers or make it harder for children who can "
 "read both numbers and words."
 msgstr ""
-"Mit GCompris 1.0 können Pädagogen das Niveau der Aktivitäten entsprechend "
+"Seit GCompris 1.0 können Pädagogen das Niveau der Aktivitäten entsprechend "
 "der Fähigkeiten des jeweiligen Kindes auswählen. Zum Beispiel können Sie bei "
 "einer Aktivität, mit der die Kinder Zahlen üben, auswählen, mit welchen "
 "Zahlen sie arbeiten können und höhere und schwierigere Zahlen für eine "
@@ -887,7 +870,7 @@ msgstr "Danksagung:"
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr ""
+msgstr "Kategorie wählen"
 
 #: template/screenshots.html:38
 msgid "All"
@@ -895,35 +878,35 @@ msgstr "Alle"
 
 #: template/screenshots.html:39
 msgid "Computer"
-msgstr ""
+msgstr "Computer"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr ""
+msgstr "Entdeckung"
 
 #: template/screenshots.html:41
 msgid "Sciences"
-msgstr ""
+msgstr "Wissenschaft"
 
 #: template/screenshots.html:42
 msgid "Fun"
-msgstr ""
+msgstr "Spaß"
 
 #: template/screenshots.html:43
 msgid "Mathematics"
-msgstr ""
+msgstr "Mathematik"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr ""
+msgstr "Puzzle"
 
 #: template/screenshots.html:45
 msgid "Reading"
-msgstr ""
+msgstr "Lesen"
 
 #: template/screenshots.html:46
 msgid "Strategy"
-msgstr ""
+msgstr "Strategie"
 
 #~ msgctxt "20220413.html"
 #~ msgid "Release GCompris 2.4"
