@@ -1,0 +1,35 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Rilis GCompris 3.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.0.png' class='col-xs-12 col-md-4' alt='gcompris 3.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.0.png')"/>
+
+<p>Dengan suka cita kami mengumumkan peluncuran GCompris versi 3.0.</p>
+<p>Di dalamnya terdapat 182 aktivitas, termasuk 8 aktivitas baru:</p>
+<ul>
+<li class="puce">”Latihan klik mouse” adalah latihan untuk berlatih menggunakan mouse dengan klik kiri dan kanan.</li>
+<li class="puce">Dalam ”Buat pecahan”, nyatakan besaran desimal dengan bagan pai atau persegi panjang.</li>
+<li class="puce">Dalam ”Cari pecahan”, caranya lain: tulis pecahan yang diwakili oleh bagan pai atau persegi panjang.</li>
+<li class="puce">Dengan ”Temukan kode Morse Internasional”, pelajari cara berkomunikasi dengan kode Morse Internasional.</li>
+<li class="puce">Di ”Bandingkan angka”, pelajari cara membandingkan nilai angka menggunakan simbol perbandingan.</li>
+<li class="puce">”Menemukan komplemen sepuluh” adalah latihan sederhana untuk mempelajari konsep komplemen sepuluh.</li>
+<li class="puce">Dalam ”Tukar komplemen sepuluh”, tukar angka dari sebuah penjumlahan untuk mengoptimalkannya menggunakan komplemen sepuluh.</li>
+<li class="puce">Dalam ”Gunakan komplemen sepuluh”, uraikan tambahan untuk mengoptimalkannya menggunakan komplemen sepuluh.</li>
+</ul>
+<br/>
+<p>Kami telah menambahkan 2 opsi baris perintah baru:</p>
+<ul>
+<li class="puce">Buat daftar semua aktivitas yang tersedia (-l atau —list-activities)</li>
+<li class="puce">Langsung memulai aktivitas tertentu (—launch activityName)</li>
+</ul>
+<br/>
+<p>Versi ini juga berisi beberapa perbaikan dan perbaikan bug.</p>
+<br/>
+<p>Di sisi terjemahan, GCompris 3.0 berisi 36 bahasa. 25 diterjemahkan sepenuhnya: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan (Valencian), Cina Tradisional, Kroasia, Belanda, Estonia, Prancis, Yunani, Ibrani, Hongaria, Italia, Lituania, Malayalam, Nynorsk Norwegia, Polandia, Portugis, Rumania, Rusia, Slovenia, Spanyol, Ukraina). 11 diterjemahkan sebagian: (Albania (99%), Belarusia (83%), Portugis Brasil (94%), Ceko (82%), Finlandia (94%), Jerman (91%), Indonesia (99%), Makedonia (94%), Slowakia (77%), Swedia (94%) dan Turki (71%)).</p>
+<p>Sebuah catatan khusus tentang suara Ukraina yang telah ditambahkan berkat organisasi ”Save the Children” yang mendanai rekaman tersebut. Mereka memasang GCompris di 8000 tablet dan 1000 laptop, dan mengirimkannya ke Pusat Pembelajaran Digital dan ruang aman lainnya untuk anak-anak di Ukraina.</p>
+<p>Suara Kroasia juga telah direkam oleh seorang kontributor.</p>
+<br/>
+<p>Seperti biasa, Anda dapat menemukan paket versi baru ini untuk GNU/Linux, Windows, Android, Raspberry Pi, dan macOS di <a href="https://gcompris.net/downloads{{ suffix }}.html"> halaman unduh</a>. Pembaruan ini juga akan segera tersedia di Android Play store, repositori F-Droid, dan Windows store.</p>
+<p>Untuk pemaket distribusi GNU/Linux, perhatikan bahwa kami memiliki ketergantungan baru pada plugin QtCharts QML, dan versi minimum Qt5 yang diperlukan sekarang adalah 5.12. Kami juga berpindah dari menggunakan QtQuick.Controls 1 ke QtQuick.Controls 2.</p>
+<p>Terima kasih semuanya, <br/>Timothée & Johnny</p>
+{% endblock %}
