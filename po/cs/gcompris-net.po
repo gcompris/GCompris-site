@@ -4,14 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # Vít Pelčák <vit@pelcak.org>, 2017, 2018, 2019, 2020.
 # Vit Pelcak <vit@pelcak.org>, 2021, 2022, 2023.
+# Jan Papez (honyczek) <honyczek@centrum.cz>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-01-22 01:02+0000\n"
-"PO-Revision-Date: 2023-02-03 13:42+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2023-03-17 23:58+0100\n"
+"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.12.1\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. news title
 msgctxt "20230118.html"
@@ -140,7 +141,7 @@ msgid ""
 "Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
 "(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
 msgstr ""
-"Na straně překladů, GCompris 3.0 obsahuje 36 jazyků. 25 jich je plně "
+"Z hlediska překladů GCompris 3.0 obsahuje 36 jazyků. 25 jich je plně "
 "přeloženo: (Ázerbájdžánština, Baskičtina, Bretonština, Britská angličtina, "
 "Katalánština, Katalánština (Valencijská), Tradiční čínština, Chorvatština, "
 "Nizozemština, Estonština, Francouzština, Řečtina, Hebrejština, Maďarština, "
@@ -159,15 +160,15 @@ msgid ""
 "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
 "Digital learning Centers and other safe spaces for children in Ukraine."
 msgstr ""
-"Zvláštní upozornění na Ukrajinské hlasy, které byly přidány díky organizaci "
-"\\\"Save the Children\\\", která financovala nahrávání. Nainstalovali "
-"GCompris na 8000 tabletů a 1000 notebooků a poslali je do center digitálního "
-"učení a dalších bezpečných míst pro děti z Ukrajiny."
+"Zvlášť upozorňujeme na Ukrajinské hlasy, které byly přidány díky organizaci "
+"\\\"Save the Children\\\", která financovala jejich nahrávání. Tato "
+"organizace nainstalovala GCompris na 8000 tabletů a 1000 notebooků a poslala "
+"je do center digitálního učení a dalších bezpečných míst pro děti z Ukrajiny."
 
 #. paragraph
 msgctxt "20230118.html"
 msgid "Croatian voices have also been recorded by a contributor."
-msgstr "Chorvatské hlasy byly také nahrány jedním z přispěvatelů."
+msgstr "Také byly jedním z přispěvatelů nahrány Chorvatské hlasy."
 
 #. paragraph
 msgctxt "20230118.html"
@@ -256,7 +257,7 @@ msgstr ""
 #: gcompris.py:294
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Vít Pelčák, Jan Papež"
 
 #: gcompris.py:404
 msgid "For Christmas, offer GCompris to your children."
@@ -279,7 +280,7 @@ msgstr "Darovat"
 #: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
-msgstr "Obrázky"
+msgstr "Snímky obrazovky"
 
 #: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
@@ -287,11 +288,11 @@ msgstr "Školy"
 
 #: template/base.html:76
 msgid "Manual"
-msgstr "Ručně"
+msgstr "Návod"
 
 #: template/base.html:77
 msgid "Contribute"
-msgstr "Přispět"
+msgstr "Zapojit se"
 
 #: template/base.html:108
 #, python-format
@@ -301,7 +302,7 @@ msgstr "Stránka byla naposledy aktualizována %(revision_date)s."
 #: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr "Stránka byla přeložena: %(translators_names)s."
+msgstr "Stránku přeložili: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
@@ -377,7 +378,7 @@ msgstr "Díky všem kdo podporují GCompris na Patreonu!"
 
 #: template/downloads.html:16
 msgid "Windows"
-msgstr "Okna"
+msgstr "Windows"
 
 #: template/downloads.html:20
 msgid ""
@@ -385,7 +386,7 @@ msgid ""
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
 "GCompris můžete nainstalovat <a href=\"https://www.microsoft.com/en-us/store/"
-"p/gcompris/9pgxjtcxn8qm\">obchodu Windows Store</a>."
+"p/gcompris/9pgxjtcxn8qm\">z obchodu Windows Store</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
@@ -451,7 +452,7 @@ msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr ""
-"GCompris je také dostupný v F-Droidu, aplikačního repozitáře Svobodného "
+"GCompris je také dostupný v F-Droidu, aplikačním repozitáři Svobodného "
 "softwaru s otevřeným kódem pro Android."
 
 #: template/downloads.html:59
@@ -493,7 +494,7 @@ msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
-"Můžete zkontrolovat, zda vaše distribuce poskytuje balíček s nejnovější "
+"Můžete si zkontrolovat, zda vaše distribuce poskytuje balíček s nejnovější "
 "verzí GComprisu."
 
 #: template/downloads.html:98
@@ -649,7 +650,7 @@ msgstr "Klikni na malé písmeno"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr "Zobrazit všechny screenshoty"
+msgstr "Zobrazit všechny snímky obrazovky"
 
 #: template/index.html:153
 msgid ""
@@ -657,13 +658,14 @@ msgid ""
 "number of activities for children aged 2 to 10."
 msgstr ""
 "GCompris je vysoce kvalitní vzdělávací softwarový balík, skládající se z "
-"mnoha aktivit pro děti ve věku 2-10."
+"mnoha aktivit pro děti ve věku 2-10 let."
 
 #: template/index.html:154
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr "Některé aktivity jsou orientovány hra, ale přesto stále poučné."
+msgstr ""
+"Některé aktivity jsou orientovány na hru, ale přesto jsou stále poučné."
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
@@ -709,9 +711,9 @@ msgid ""
 "everywhere."
 msgstr ""
 "V současné době GCompris nabízí více než 100 aktivit a další se připravují. "
-"GCompris je svobodný software, což znamená, že můžete přizpůsobit svým "
-"vlastním potřebám, zlepšit a co je nejdůležitější, je sdílet s dětmi po "
-"celém světě."
+"GCompris je svobodný software, což znamená, že si jej můžete přizpůsobit "
+"svým vlastním potřebám, zlepšovat jej a co je nejdůležitější sdílet s dětmi "
+"po celém světě."
 
 #: template/index.html:166
 msgid ""
@@ -732,7 +734,7 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
-"GCompris je e-learningový nástroj, který poskytuje procvičování příkladůve "
+"GCompris je e-learningový nástroj, který poskytuje procvičování příkladů ve "
 "školní třídě i mimo ni. Je to Svobodný software vydaný pod licencí GNU "
 "General Public License. Je multiplatformní (GNU/Linux, Windows, Android, "
 "macOS) a umí běžet na počítačích s nízkým výkonem."
@@ -748,7 +750,7 @@ msgstr ""
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr "Výuka jak používat počítač"
+msgstr "Výuky jak používat počítač"
 
 #: template/schools.html:17
 msgid ""
@@ -784,7 +786,7 @@ msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
-"GCompris nevyžaduje internetové spojení, neshromažďuje žádná data a tak "
+"GCompris nevyžaduje internetové připojení, neshromažďuje žádná data a tak "
 "přísně vyhovuje evropskému nařízení pro ochranu dat (GDPR)."
 
 #: template/schools.html:26
@@ -839,7 +841,7 @@ msgstr "Cíl:"
 #. activity handbook
 #: template/screenshot.html:44
 msgid "Manual:"
-msgstr "Příručka:"
+msgstr "Návod:"
 
 #. activity thanks to
 #: template/screenshot.html:48
