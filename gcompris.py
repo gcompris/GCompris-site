@@ -79,47 +79,70 @@ def formatDate(date):
 #
 def getLocaleName(locale):
     result = locale
-    locales = {
-        'en_GB': 'UK English', 'en_US': 'American English',
-        'bg': u'български', 'br': 'Brezhoneg',
-        'be': u'Беларуская', 'ca': u'Català',
-        'ca@valencia': u'Català (Valencian)',
-        'cs': u'Česká', 'da': 'Dansk',
-        'de': 'Deutsch', 'el': u'Ελληνικά',
-        'es': u'Español', 'et': 'Eesti',
-        'eu': 'Euskara', 'fi': 'Suomi',
-        'fr': u'Français', 'ga': 'Gaeilge',
-        'gd': u'Gàidhlig', 'gl': 'Galego',
-        'he': u'עברית',
-        'hi': u'हिन्दी','hr:': 'Hrvatski',
-        'hu': 'Magyar',
-        'id': 'Indonesia', 'it': 'Italiano',
-        'ko': u'한국어',
-        'lt': u'Lietuvių', 'lv': u'Latviešu',
-        'mk': u'Македонски',
-        'ml': u'മലയാളം', 'nl': 'Nederlands',
-        'nn': 'Norsk (nynorsk)', 'pl': 'Polski',
-        'pt': u'Português', 'pt_BR': u'Português do Brasil',
-        'ro': u'Română', 'ruU': u'Русский',
-        'sk': u'Slovenský', 'sl': 'Slovenski',
-        'sq': u'Shqip',
-        'sr': u'црногорски jeзик', 'sv': 'Svenska',
-        'ta': u'தமிழ்', 'th': u'ไทย',
-        'tr': u'Türkçe', 'uk': u'українська',
-        'zh_CN': u'中文（简体）', 'zh_TW': u'繁體中文'
-    }
 
-    if locale in locales:
-        result = locales[locale]
+    if locale in gcomprisLocales:
+        result = gcomprisLocales[locale]["original"]
     else: # take the first key that starts with locale
-        for loc in locales:
-            if loc.startswith(locale):
-                result = locales[loc]
+        for loc in gcomprisLocales:
+            if loc["original"].startswith(locale):
+                result = gcomprisLocales[loc]["original"]
                 continue
     return result
 
 # Set the default locale
 setLocale(locale)
+
+gcomprisLocales = {
+    "en_GB": {"original": u"UK English", "translated": t.pgettext("language name, item list", "UK English")},
+    "en_US": {"original": u"American English", "translated": t.pgettext("language name, item list", "American English")},
+    "az": {"original": u"Azərbaycanca", "translated": t.pgettext("language name, item list", "Azerbaijani")},
+    "bg": {"original": u"български", "translated": t.pgettext("language name, item list", "Bulgarian")},
+    "br": {"original": u"Brezhoneg", "translated": t.pgettext("language name, item list", "Breton")},
+    "be": {"original": u"Беларуская", "translated": t.pgettext("language name, item list", "Belarusian")},
+    "ca": {"original": u"Català", "translated": t.pgettext("language name, item list", "Catalan")},
+    "ca@valencia": {"original": u"Català (Valencian)", "translated": t.pgettext("language name, item list", "Catalan (Valencian)")},
+    "cs": {"original": u"Česká", "translated": t.pgettext("language name, item list", "Czech")},
+    "da": {"original": u"Dansk", "translated": t.pgettext("language name, item list", "Danish")},
+    "de": {"original": u"Deutsch", "translated": t.pgettext("language name, item list", "German")},
+    "el": {"original": u"Ελληνικά", "translated": t.pgettext("language name, item list", "Greek")},
+    "es": {"original": u"Español", "translated": t.pgettext("language name, item list", "Spanish")},
+    "et": {"original": u"Eesti", "translated": t.pgettext("language name, item list", "Estonian")},
+    "eu": {"original": u"Euskara", "translated": t.pgettext("language name, item list", "Basque")},
+    "fi": {"original": u"Suomi", "translated": t.pgettext("language name, item list", "Finnish")},
+    "fr": {"original": u"Français", "translated": t.pgettext("language name, item list", "French")},
+    "ga": {"original": u"Gaeilge", "translated": t.pgettext("language name, item list", "Irish")},
+    "gd": {"original": u"Gàidhlig", "translated": t.pgettext("language name, item list", "Scottish Gaelic")},
+    "gl": {"original": u"Galego", "translated": t.pgettext("language name, item list", "Galician")},
+    "he": {"original": u"עברית", "translated": t.pgettext("language name, item list", "Hebrew")},
+    "hi": {"original": u"हिन्दी", "translated": t.pgettext("language name, item list", "Hindi")},
+    "hr": {"original": u"Hrvatski", "translated": t.pgettext("language name, item list", "Croatian")},
+    "hu": {"original": u"Magyar", "translated": t.pgettext("language name, item list", "Hungarian")},
+    "id": {"original": u"Indonesia", "translated": t.pgettext("language name, item list", "Indonesian")},
+    "it": {"original": u"Italiano", "translated": t.pgettext("language name, item list", "Italian")},
+    "ko": {"original": u"한국어", "translated": t.pgettext("language name, item list", "Korean")},
+    "lt": {"original": u"Lietuvių", "translated": t.pgettext("language name, item list", "Lithuanian")},
+    "lv": {"original": u"Latviešu", "translated": t.pgettext("language name, item list", "Latvian")},
+    "mk": {"original": u"Македонски", "translated": t.pgettext("language name, item list", "Macedonian")},
+    "ml": {"original": u"മലയാളം", "translated": t.pgettext("language name, item list", "Malayalam")},
+    "nl": {"original": u"Nederlands", "translated": t.pgettext("language name, item list", "Dutch")},
+    "nn": {"original": u"Norsk (nynorsk)", "translated": t.pgettext("language name, item list", "Norwegian Nynorsk")},
+    "pl": {"original": u"Polski", "translated": t.pgettext("language name, item list", "Polish")},
+    "pt": {"original": u"Português", "translated": t.pgettext("language name, item list", "Portuguese")},
+    "pt_BR": {"original": u"Português do Brasil", "translated": t.pgettext("language name, item list", "Brazilian Protuguese")},
+    "ro": {"original": u"Română", "translated": t.pgettext("language name, item list", "Romanian")},
+    "ru": {"original": u"Русский", "translated": t.pgettext("language name, item list", "Russian")},
+    "sk": {"original": u"Slovenský", "translated": t.pgettext("language name, item list", "Slovak")},
+    "sl": {"original": u"Slovenski", "translated": t.pgettext("language name, item list", "Slovenian")},
+    "sq": {"original": u"Shqip", "translated": t.pgettext("language name, item list", "Albanian")},
+    "sr": {"original": u"црногорски jeзик", "translated": t.pgettext("language name, item list", "Serbian")},
+    "sv": {"original": u"Svenska", "translated": t.pgettext("language name, item list", "Swedish")},
+    "ta": {"original": u"தமிழ்", "translated": t.pgettext("language name, item list", "Tamil")},
+    "th": {"original": u"ไทย", "translated": t.pgettext("language name, item list", "Thai")},
+    "tr": {"original": u"Türkçe", "translated": t.pgettext("language name, item list", "Turkish")},
+    "uk": {"original": u"українська", "translated": t.pgettext("language name, item list", "Ukrainian")},
+    "zh_CN": {"original": u"中文（简体）", "translated": t.pgettext("language name, item list", "Chinese Simplified")},
+    "zh_TW": {"original": u"繁體中文", "translated": t.pgettext("language name, item list", "Chinese Traditional")}
+}
 
 #
 # Create locales [ [ locale, language ], ...]
@@ -129,7 +152,7 @@ language = ""
 for loca in localelist.split():
     # We want each country in its own language
     setLocale(loca)
-    lang = _(getLocaleName( loca ))
+    lang = getLocaleName( loca )
     locales.append( [loca, lang] )
     if locale == loca:
         language = lang
@@ -321,14 +344,35 @@ for filename in os.listdir("newsTemplate"):
         if not filename_noext in filenames:
             filenames[filename_noext] = filename
 
+# This is to be filled for each news using the script tools/getStatusTranslations.py
+translationStatus = {
+    "20230329.html" : {
+        "fullyTranslated": ['br', 'ca', 'ca@valencia', 'en_GB', 'es', 'eu', 'fr', 'hr', 'it', 'lt', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk', 'zh_TW'],
+        "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['el', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ml', 99], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
+    }
+};
+    
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
     templateOneNews = templateEnv.get_template("newsTemplate/" + filename)
     templateVars['newsDate'] = formatDate(filename)
     templateVars['fileName'] = filename
+    # Remove locale to get the status
+    newsStatus = filename
+    try:
+        (dat, loc) = filename.split('-')
+        newsStatus = dat + ".html"
+    except:
+        newsStatus = filename
+
+    if newsStatus in translationStatus:
+        fullLanguageTranslations = [gcomprisLocales[locale]["translated"] for locale in translationStatus[newsStatus]["fullyTranslated"]]
+        partialLanguageTranslations = list(map(lambda x: [gcomprisLocales[x[0]]["translated"], x[1]], translationStatus[newsStatus]["partiallyTranslated"]))
+        templateVars["fullyTranslatedLocales"] = fullLanguageTranslations
+        templateVars["partiallyTranslatedLocales"] = partialLanguageTranslations
+
     templateVars["single_news"] = templateOneNews.render(templateVars)
     templateVars["news"].append(templateOneNews.render(templateVars))
-
     # read file to get the title, not sure if it is doable using jinja
     lines = ""
     with open ("newsTemplate/" + filename, 'rt') as in_file:
