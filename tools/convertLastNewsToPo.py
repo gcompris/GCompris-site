@@ -58,7 +58,12 @@ for newsFileName in lastNews:
             contextEntry = polib.POEntry(msgid=polib.escape(line[0]), comment='paragraph', msgctxt=newsFileName)
             potFile.append(contextEntry)
         elif line[1]: # list item
-            contextEntry = polib.POEntry(msgid=polib.escape(line[1]), comment='list item', msgctxt=newsFileName)
+            if line[1] == "{{ oneLocale }}":
+                contextEntry = polib.POEntry(msgid=polib.escape(line[1]), comment='Keep this string as this, it corresponds to the language name', msgctxt=newsFileName)
+            if line[1] == "{{ oneLocale }} ({{ oneStatus }}%)":
+                contextEntry = polib.POEntry(msgid=polib.escape(line[1]), comment='The arguments are the language name and its percentage of completion. Keep the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the % and/or reverse the order if needed for your locale.', msgctxt=newsFileName)
+            else:
+                contextEntry = polib.POEntry(msgid=polib.escape(line[1]), comment='list item', msgctxt=newsFileName)
             potFile.append(contextEntry)
 
 # saving the created po file
