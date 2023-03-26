@@ -66,10 +66,10 @@ app.installTranslator(translator)
 # Load the proper locale catalog
 _ = None
 t = None
-def set_locale(locale):
+def set_locale(locale_name):
     global _
     global t
-    t = gettext.translation('gcompris', 'po', languages=[locale], fallback=True)
+    t = gettext.translation('gcompris', 'po', languages=[locale_name], fallback=True)
     _ = t.gettext
 
 def format_date(date):
