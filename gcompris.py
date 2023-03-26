@@ -75,19 +75,6 @@ def set_locale(locale_name):
 def format_date(date):
     return date[0:4] + '-' + date[4:6] + '-' + date[6:8]
 
-#
-# Parse the config.c file in GCompris source code to get
-# the name of the given locale.
-#
-def get_locale_name(locale_name):
-    result = locale_name
-
-    if locale_name in gcomprisLocales:
-        result = gcomprisLocales[locale_name]["original"]
-    else:
-        raise ValueError(f"{locale_name} is not defined in the GCompris supported locales")
-    return result
-
 # Set the default locale
 set_locale(locale)
 
@@ -147,25 +134,15 @@ gcomprisLocales = {
 # Create locales [ [ locale, language ], ...]
 #
 locales = []
-language = ""
 for loca in localelist.split():
-    # We want each country in its own language
-    set_locale(loca)
-    lang = get_locale_name(loca)
+    lang = gcomprisLocales[loca]["original"]
     locales.append([loca, lang])
-    if locale == loca:
-        language = lang
-
 # Add en_US manually
-set_locale("en")
-locales.append(['en', get_locale_name('en_US')])
-if language == '':
-    language = 'English'
-
-# Back to the default locale
-set_locale(locale)
-
+locales.append(['en', gcomprisLocales['en_US']["original"]])
 locales = sorted(locales, key=lambda t: t[1])
+
+# Special case for en
+language = gcomprisLocales[locale]["original"] if locale in gcomprisLocales else 'English'
 
 suffix = '-' + locale
 
@@ -294,7 +271,6 @@ filenames = {}
 for filename in os.listdir("newsTemplate"):
     if not filename.endswith(".html"):
         continue
-
     # If a news is found with a -<LOCALE> suffix before .html
     # It supercede a news without a such suffix (english one).
     filename_noext = filename.split('.')[0]
