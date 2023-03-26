@@ -335,7 +335,7 @@ for filename in os.listdir("newsTemplate"):
         (dat, loc) = filename_noext.split('-')
         if locale == loc:
             filenames[dat] = filename
-    except:
+    except ValueError:
         if not filename_noext in filenames:
             filenames[filename_noext] = filename
 
@@ -357,7 +357,7 @@ for filename in sorted(filenames, reverse=True):
     try:
         (dat, loc) = filename.split('-')
         newsStatus = dat + ".html"
-    except:
+    except ValueError:
         newsStatus = filename
 
     if newsStatus in translationStatus:
