@@ -38,8 +38,8 @@ if potFilename == '':
 
 for newsFileName in lastNews:
     print("working on", newsFolder+newsFileName)
-    file = open(newsFolder+newsFileName, encoding='utf-8')
-    fileContent = file.read()
+    with open(newsFolder+newsFileName, encoding='utf-8') as file:
+        fileContent = file.read()
 
     # get the title separately
     newsTitle = re.search("{% set title = '(.+?)' %}", fileContent).group(1)
