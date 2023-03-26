@@ -8,8 +8,8 @@
 
 import os
 import re
-import polib
 import sys
+import polib
 
 newsCount = -1
 if len(sys.argv) > 1:

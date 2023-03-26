@@ -8,9 +8,8 @@
 #   SPDX-License-Identifier: GPL-3.0-or-later
 
 import os
-import polib
 import sys
-
+import polib
 
 if len(sys.argv) < 2:
     print('Usage : python3 getStatusTranslations.py gcomprisPath')

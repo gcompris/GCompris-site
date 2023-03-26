@@ -8,8 +8,8 @@
 
 import os
 import re
-import polib
 import sys
+import polib
 
 if len(sys.argv) < 3:
     print('Usage : python3 convertPoToNews.py locale file.po.')

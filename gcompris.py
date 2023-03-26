@@ -10,22 +10,24 @@
 import codecs
 import os
 import sys
-import jinja2
 import time
 import datetime
 import re
 import gettext
 from email import utils
 from importlib import reload
+import html
+
+import htmlmin
 
 from ActivityInfo import ActivityInfo
 from ApplicationInfo import ApplicationInfo
 from PyQt5.QtCore import QCoreApplication, QUrl, QTranslator
 from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
 
+import jinja2
+
 from bs4 import BeautifulSoup
-import html
-import htmlmin
 
 reload(sys)
 
