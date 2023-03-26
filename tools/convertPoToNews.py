@@ -67,7 +67,7 @@ for entry in poFile:
         currentNews[polib.unescape(entry.msgid)] = polib.unescape(entry.msgstr)
 
     news[newsFilename] = currentNews
-# for all news we have in the pot file, we create the corresponding html 
+# for all news we have in the pot file, we create the corresponding html
 # translated file
 for currentNews in news:
     if not 'title' in news[currentNews] or news[currentNews]['title'] == "":

@@ -186,12 +186,9 @@ def getManual():
     if locale in manuals:
         return manuals[locale]
     return manuals['en']
-    
-    
-    
+
 descriptions = []
 
-    
 def getBoards():
     '''create a list of activity infos as found in GCompris ActivityInfo.qml'''
 
@@ -207,7 +204,7 @@ def getBoards():
         if activity == 'template' or \
            not os.path.isdir(activity_dir + "/" + activity):
             continue
-        
+
         try:
             component.loadUrl(QUrl(activity_dir + "/" + activity + "/ActivityInfo.qml"))
             activityInfo = component.create()
@@ -239,11 +236,11 @@ def getBoards():
             if name != "menu":
                 icon = activityInfo.property('icon').split('/')[1]
 
-            infos = {'description':description, 
-                     'name':name, 
-                     'title':title, 
+            infos = {'description':description,
+                     'name':name,
+                     'title':title,
                      'credit':credit,
-                     'goal':goal, 
+                     'goal':goal,
                      'section':section,
                      'author':author,
                      'manual':manual,
@@ -251,11 +248,11 @@ def getBoards():
                      'type':category,
                      'prerequisite':prerequisite,
                      'icon':icon}
-            descriptions.append(infos)    
+            descriptions.append(infos)
 
         except IOError as e:
             pass
-    
+
     return descriptions
 
 # /a/b /a => 1 0
@@ -351,7 +348,7 @@ translationStatus = {
         "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['el', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ml', 99], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
     }
 };
-    
+ 
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
     templateOneNews = templateEnv.get_template("newsTemplate/" + filename)
