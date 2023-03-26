@@ -66,20 +66,20 @@ app.installTranslator(translator)
 # Load the proper locale catalog
 _ = None
 t = None
-def setLocale(locale):
+def set_locale(locale):
     global _
     global t
     t = gettext.translation('gcompris', 'po', languages=[locale], fallback=True)
     _ = t.gettext
 
-def formatDate(date):
+def format_date(date):
     return date[0:4] + '-' + date[4:6] + '-' + date[6:8]
 
 #
 # Parse the config.c file in GCompris source code to get
 # the name of the given locale.
 #
-def getLocaleName(locale):
+def get_locale_name(locale):
     result = locale
 
     if locale in gcomprisLocales:
@@ -92,7 +92,7 @@ def getLocaleName(locale):
     return result
 
 # Set the default locale
-setLocale(locale)
+set_locale(locale)
 
 gcomprisLocales = {
     "en_GB": {"original": "UK English", "translated": t.pgettext("language name, item list", "UK English")},
@@ -153,20 +153,20 @@ locales = []
 language = ""
 for loca in localelist.split():
     # We want each country in its own language
-    setLocale(loca)
-    lang = getLocaleName( loca )
+    set_locale(loca)
+    lang = get_locale_name( loca )
     locales.append( [loca, lang] )
     if locale == loca:
         language = lang
 
 # Add en_US manually
-setLocale("en")
-locales.append( ['en', _(getLocaleName( 'en_US'))] )
+set_locale("en")
+locales.append( ['en', _(get_locale_name( 'en_US'))] )
 if language == '':
     language = 'English'
 
 # Back to the default locale
-setLocale(locale)
+set_locale(locale)
 
 locales = sorted(locales, key=lambda t: t[1])
 
@@ -175,7 +175,7 @@ suffix = '-' + locale
 #
 # We don't have a translation of each manual. If we have it
 # we return it else we return the english one
-def getManual():
+def get_manual():
     manuals = {
         'en': 'wiki/Manual',
         'fr': 'wiki/Manuel',
@@ -191,7 +191,7 @@ def getManual():
 
 descriptions = []
 
-def getBoards():
+def get_boards():
     '''create a list of activity infos as found in GCompris ActivityInfo.qml'''
 
     # create qml engine to read the files
@@ -209,34 +209,34 @@ def getBoards():
 
         try:
             component.loadUrl(QUrl(activity_dir + "/" + activity + "/ActivityInfo.qml"))
-            activityInfo = component.create()
-            if activityInfo is None:
+            activity_info = component.create()
+            if activity_info is None:
                 # Print all errors that occurred.
                 for error in component.errors():
                     print(error.toString())
                 sys.exit(-1)
             # ignore disabled activities
-            if not activityInfo.property('enabled'):
-                print("Disabling", activityInfo.property('name'))
+            if not activity_info.property('enabled'):
+                print("Disabling", activity_info.property('name'))
                 continue
-            description = activityInfo.property('description').replace('\n', '<br/>')
-            name = activityInfo.property('name').split('/')[0]
-            title = activityInfo.property('title')
-            credit = activityInfo.property('credit').replace('\n', '<br/>')
-            goal = activityInfo.property('goal').replace('\n', '<br/>')
-            section = activityInfo.property('section')
-            author = activityInfo.property('author')
+            description = activity_info.property('description').replace('\n', '<br/>')
+            name = activity_info.property('name').split('/')[0]
+            title = activity_info.property('title')
+            credit = activity_info.property('credit').replace('\n', '<br/>')
+            goal = activity_info.property('goal').replace('\n', '<br/>')
+            section = activity_info.property('section')
+            author = activity_info.property('author')
             if 'Timothée Giet' in author or author == "":
                 author = re.sub("&lt;.*?&gt;", "", author)
             else:
                 author = re.sub("&lt;.*?&gt;", "", author)+(' & Timothée Giet')
 
-            manual = activityInfo.property('manual').replace('\n', '<br/>')
-            difficulty = activityInfo.property('difficulty')
-            category = activityInfo.property('category')
-            prerequisite = activityInfo.property('prerequisite').replace('\n', '<br/>')
+            manual = activity_info.property('manual').replace('\n', '<br/>')
+            difficulty = activity_info.property('difficulty')
+            category = activity_info.property('category')
+            prerequisite = activity_info.property('prerequisite').replace('\n', '<br/>')
             if name != "menu":
-                icon = activityInfo.property('icon').split('/')[1]
+                icon = activity_info.property('icon').split('/')[1]
 
             infos = {'description':description,
                      'name':name,
@@ -266,7 +266,7 @@ def getBoards():
 #
 # Return (open, close)
 #
-def sectionDiff(old, new):
+def section_diff(old, new):
     if old == new:
         return (0, 0)
 
@@ -310,7 +310,7 @@ templateVars = {
     "single_news": [],
     "screenshots": [],
     "locales": locales,
-    "manual": getManual(),
+    "manual": get_manual(),
     "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License."),
     "translators_names": t.pgettext("NAME OF TRANSLATORS", "Your names"),
     "public_gpg_key": '<a href="https://collaborate.kde.org/s/8GpWjyHg5xBTQFS">0x63d7264c05687d7e.asc</a>',
@@ -353,7 +353,7 @@ translationStatus = {
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
     templateOneNews = templateEnv.get_template("newsTemplate/" + filename)
-    templateVars['newsDate'] = formatDate(filename)
+    templateVars['newsDate'] = format_date(filename)
     templateVars['fileName'] = filename
     # Remove locale to get the status
     newsStatus = filename
@@ -397,7 +397,7 @@ for filename in sorted(filenames, reverse=True):
 #
 # Get the board list and make some adaptations
 #
-boards = getBoards()
+boards = get_boards()
 
 for screenshot in boards:
     if screenshot['name'] == 'menu':
@@ -432,7 +432,7 @@ for screenshot in boards:
     templateVars["screenshot"] = screenshot
     templateVars["screenshots"].append(templateScreenshot.render(templateVars))
 
-(opens, closes) = sectionDiff(previousSection, '')
+(opens, closes) = section_diff(previousSection, '')
 templateVars["screenshots"].append("</div>" * closes)
 
 templateFeedAll = templateEnv.get_template("template/feed.xml")
