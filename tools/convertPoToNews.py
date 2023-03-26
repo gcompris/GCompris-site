@@ -67,17 +67,18 @@ for entry in poFile:
         currentNews[polib.unescape(entry.msgid)] = polib.unescape(entry.msgstr)
 
     news[newsFilename] = currentNews
+
 # for all news we have in the pot file, we create the corresponding html
 # translated file
-for currentNews in news:
-    if not 'title' in news[currentNews] or news[currentNews]['title'] == "":
-        print("Skip news", currentNews)
+for currentKey, currentNews in news.items():
+    if not 'title' in currentNews or currentNews['title'] == "":
+        print("Skip news", currentKey)
         continue
 
-    print("Creating", currentNews)
+    print("Creating", currentKey)
 
     # Read in the file
-    with open(news[currentNews]['originalFilename'], "r", encoding="utf-8") as originalFile:
+    with open(currentNews['originalFilename'], "r", encoding="utf-8") as originalFile:
         fileData = originalFile.read()
 
     # Check first all the strings of the file are translated (po files may be out of sync)
@@ -85,28 +86,28 @@ for currentNews in news:
     allLines = re.findall("(?s)<p>(.*?)</p>|<li.*?>(.*?)</li>", fileData)
     for line in allLines:
         if line[0]: # paragraph
-            if not line[0] in news[currentNews]:
-                print(f"Skip news {currentNews} because {line[0]} not translated")
+            if not line[0] in currentNews:
+                print(f"Skip news {currentKey} because {line[0]} not translated")
                 isFullyTranslated = False
                 break
         elif line[1]: # list item
-            if not line[1] in news[currentNews]:
-                print(f"Skip news {currentNews} because {line[1]} not translated")
+            if not line[1] in currentNews:
+                print(f"Skip news {currentKey} because {line[1]} not translated")
                 isFullyTranslated = False
                 break
     if not isFullyTranslated:
         continue
 
     # Replace the target string
-    for string in news[currentNews]:
+    for string in currentNews:
         if 'title' == string:
             matches = re.findall(r"{% set title = '(.+?)' %}", fileData)
             for m in matches:
-                fileData = fileData.replace('\'%s\'' % m.replace("'", "\\'"), repr(news[currentNews][string]))
+                fileData = fileData.replace('\'%s\'' % m.replace("'", "\\'"), repr(currentNews[string]))
             continue
         # We only want to replace the first occurence of the string
-        fileData = fileData.replace(string, news[currentNews][string], 1)
+        fileData = fileData.replace(string, currentNews[string], 1)
 
     # Write the file out again
-    with open(currentNews, 'w', encoding='utf8') as file:
+    with open(currentKey, 'w', encoding='utf8') as file:
         file.write(fileData)
