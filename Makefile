@@ -9,6 +9,14 @@ GCOMPRIS_DIR="gcompris-qt-$(VERSION)"
 
 HTML := $(ALL_LINGUAS:%=index-%.html)
 
+LCONVERT := $(shell { command -v lconvert || command -v lconvert-qt5 || command -v lconvert-qt6; } 2>/dev/null)
+%.LCONVERT: %
+	$(LCONVERT) $< >$@
+
+LRELEASE := $(shell { command -v lrelease || command -v lrelease-qt5 || command -v lrelease-qt6; } 2>/dev/null)
+%.LRELEASE: %
+	$(LRELEASE) $< >$@
+
 sources = \
 	gcompris.py \
 	template/base.html \
@@ -62,8 +70,8 @@ update: downloadGComprisSrc
 	  mkdir -p $$translationFolder; \
 	  if [ -f "$(GCOMPRIS_DIR)/poqm/$$lang/gcompris_qt.po" ]; then \
 		  msgattrib --no-obsolete $(GCOMPRIS_DIR)/poqm/$$lang/gcompris_qt.po -o $$outTsFile; \
-		  lconvert -if po -of ts -i $$outTsFile -o $$outTsFile; \
-		  lrelease -compress -nounfinished $$outTsFile -qm $$outQmFile; \
+		  ${LCONVERT} -if po -of ts -i $$outTsFile -o $$outTsFile; \
+		  ${LRELEASE} -compress -nounfinished $$outTsFile -qm $$outQmFile; \
 	  fi; \
 	done; \
 	for lang in $$linguas; do \
