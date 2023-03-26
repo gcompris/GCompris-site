@@ -79,16 +79,13 @@ def format_date(date):
 # Parse the config.c file in GCompris source code to get
 # the name of the given locale.
 #
-def get_locale_name(locale):
-    result = locale
+def get_locale_name(locale_name):
+    result = locale_name
 
-    if locale in gcomprisLocales:
-        result = gcomprisLocales[locale]["original"]
-    else: # take the first key that starts with locale
-        for loc in gcomprisLocales:
-            if loc["original"].startswith(locale):
-                result = gcomprisLocales[loc]["original"]
-                continue
+    if locale_name in gcomprisLocales:
+        result = gcomprisLocales[locale_name]["original"]
+    else:
+        raise ValueError(f"{locale_name} is not defined in the GCompris supported locales")
     return result
 
 # Set the default locale
