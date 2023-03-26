@@ -643,7 +643,10 @@ msgid ""
 msgstr ""
 
 #: template/downloads.html:168
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
