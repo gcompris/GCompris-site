@@ -36,5 +36,5 @@ for root, dirs, files in os.walk(os.path.join(gcomprisPath, "poqm")):
                 partiallyTranslated.append([lang, translated])
 fullyTranslated.sort()
 partiallyTranslated.sort()
-print('"fullyTranslated": {},'.format(fullyTranslated))
-print('"partiallyTranslated": {}'.format(partiallyTranslated))
+print(f'"fullyTranslated": {fullyTranslated},')
+print(f'"partiallyTranslated": {partiallyTranslated}')
