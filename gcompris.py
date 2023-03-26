@@ -214,7 +214,7 @@ def getBoards():
                 # Print all errors that occurred.
                 for error in component.errors():
                     print(error.toString())
-                exit(-1)
+                sys.exit(-1)
             # ignore disabled activities
             if not activityInfo.property('enabled'):
                 print("Disabling", activityInfo.property('name'))
