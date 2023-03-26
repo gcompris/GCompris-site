@@ -195,8 +195,8 @@ def getBoards():
     # create qml engine to read the files
     engine = QQmlEngine()
     component = QQmlComponent(engine)
-    qmlRegisterSingletonType(ApplicationInfo, "GCompris", 1, 0, "ApplicationInfo", ApplicationInfo.createSingleton);
-    qmlRegisterType(ActivityInfo, "GCompris", 1, 0, "ActivityInfo");
+    qmlRegisterSingletonType(ApplicationInfo, "GCompris", 1, 0, "ApplicationInfo", ApplicationInfo.createSingleton)
+    qmlRegisterType(ActivityInfo, "GCompris", 1, 0, "ActivityInfo")
 
     activity_dir = gcomprisdir + "/src/activities"
     for activity in os.listdir(activity_dir):
@@ -347,8 +347,8 @@ translationStatus = {
         "fullyTranslated": ['br', 'ca', 'ca@valencia', 'en_GB', 'es', 'eu', 'fr', 'hr', 'it', 'lt', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk', 'zh_TW'],
         "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['el', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ml', 99], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
     }
-};
- 
+}
+
 for filename in sorted(filenames, reverse=True):
     filename = filenames[filename]
     templateOneNews = templateEnv.get_template("newsTemplate/" + filename)
@@ -381,7 +381,7 @@ for filename in sorted(filenames, reverse=True):
     templateNewsSingle = templateEnv.get_template("template/singlenews.html")
     outputNewsSingleText = templateNewsSingle.render(templateVars)
 
-    minifiedHtml = htmlmin.minify(outputNewsSingleText);
+    minifiedHtml = htmlmin.minify(outputNewsSingleText)
     with codecs.open('news/' + templateVars['newsDate'] + suffix + '.html', 'w', encoding='utf8') as f:
         f.write(minifiedHtml)
 
@@ -442,14 +442,14 @@ with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
 
 for f in ["christmas", "schools", "donate", "downloads", "index", "screenshots", "news", "newsall"]:
     if f == "christmas":
-        templateVars["ogDescription"] = _("For Christmas, offer GCompris to your children.");
-        templateVars["ogImage"] = "https://gcompris.net/images/gcompris-christmas.png";
-        templateVars["ogType"] = "article";
+        templateVars["ogDescription"] = _("For Christmas, offer GCompris to your children.")
+        templateVars["ogImage"] = "https://gcompris.net/images/gcompris-christmas.png"
+        templateVars["ogType"] = "article"
     else:
         # If empty, it will take the page title by default
-        templateVars["ogDescription"] = "";
-        templateVars["ogImage"] = "https://gcompris.net/images/gcompris.png";
-        templateVars["ogType"] = "website";
+        templateVars["ogDescription"] = ""
+        templateVars["ogImage"] = "https://gcompris.net/images/gcompris.png"
+        templateVars["ogType"] = "website"
 
     template = templateEnv.get_template(os.path.join("template/", f + ".html"))
     outputText = template.render(templateVars)
