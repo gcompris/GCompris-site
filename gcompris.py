@@ -252,7 +252,7 @@ def getBoards():
                      'icon':icon}
             descriptions.append(infos)
 
-        except IOError as e:
+        except IOError:
             pass
 
     return descriptions
