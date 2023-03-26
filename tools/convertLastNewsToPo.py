@@ -16,9 +16,9 @@ if len(sys.argv) > 1:
     newsCount = -int(sys.argv[1])
 print("Fetching last", -newsCount, "news")
 
-newsFolder="newsTemplate/"
+newsFolder = "newsTemplate/"
 # get all the news in news folder and only get the last N ones that are not translated
-lastNews = [news for news in sorted(os.listdir(newsFolder)) if not "-" in news and "html" in news][newsCount:]
+lastNews = [news for news in sorted(os.listdir(newsFolder)) if "-" not in news and "html" in news][newsCount:]
 
 # directly append to $podir/gcompris-net.pot if it exists, else create a new
 # pot file
@@ -46,8 +46,8 @@ for newsFileName in lastNews:
     # Eval in case there is a \' in the title string to unescape
     newsTitle = eval("'%s'" % (newsTitle,))
 
-    #catch all <p>: (?s)<p>(.*?)</p> in group 0
-    #catch all li: <li.*?>(.*?)</li> in group 1
+    # Catch all <p>: (?s)<p>(.*?)</p> in group 0
+    # Catch all li: <li.*?>(.*?)</li> in group 1
     allLines = re.findall("(?s)<p>(.*?)</p>|<li.*?>(.*?)</li>", fileContent)
 
     titleEntry = polib.POEntry(msgid=polib.escape(newsTitle), comment='news title', msgctxt=newsFileName)

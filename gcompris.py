@@ -151,14 +151,14 @@ language = ""
 for loca in localelist.split():
     # We want each country in its own language
     set_locale(loca)
-    lang = get_locale_name( loca )
-    locales.append( [loca, lang] )
+    lang = get_locale_name(loca)
+    locales.append([loca, lang])
     if locale == loca:
         language = lang
 
 # Add en_US manually
 set_locale("en")
-locales.append( ['en', _(get_locale_name( 'en_US'))] )
+locales.append(['en', get_locale_name('en_US')])
 if language == '':
     language = 'English'
 
@@ -235,18 +235,18 @@ def get_boards():
             if name != "menu":
                 icon = activity_info.property('icon').split('/')[1]
 
-            infos = {'description':description,
-                     'name':name,
-                     'title':title,
-                     'credit':credit,
-                     'goal':goal,
-                     'section':section,
-                     'author':author,
-                     'manual':manual,
-                     'difficulty':difficulty,
-                     'type':category,
-                     'prerequisite':prerequisite,
-                     'icon':icon}
+            infos = {'description': description,
+                     'name': name,
+                     'title': title,
+                     'credit': credit,
+                     'goal': goal,
+                     'section': section,
+                     'author': author,
+                     'manual': manual,
+                     'difficulty': difficulty,
+                     'type': category,
+                     'prerequisite': prerequisite,
+                     'icon': icon}
             descriptions.append(infos)
 
         except IOError:
@@ -254,53 +254,20 @@ def get_boards():
 
     return descriptions
 
-# /a/b /a => 1 0
-# /a/b /c => 2 1
-# /a/b /a/b => 0 0
-# /a '' =>  1 0
-# /a/b/c/d /a/b/e/f => 2 2
-# /a /a/b/c => 0 2
-#
-# Return (open, close)
-#
-def section_diff(old, new):
-    if old == new:
-        return (0, 0)
-
-    olds = old.split("/")
-    news = new.split("/")
-
-    closes = 0
-    opens = 0
-
-    for i in range(0, max(len(olds), len(news)) ):
-        try:
-            if olds[i] == news[i]:
-                continue
-            closes += 1
-            opens += 1
-        except:
-            if len(olds) > i:
-                closes += 1
-            else:
-                opens += 1
-
-    return (opens, closes)
-
-templateLoader = jinja2.FileSystemLoader( searchpath="." )
-templateEnv = jinja2.Environment( loader=templateLoader,
-                                  extensions=['jinja2.ext.i18n'],
-                                  trim_blocks=True,
-                                  lstrip_blocks=True)
+templateLoader = jinja2.FileSystemLoader(searchpath=".")
+templateEnv = jinja2.Environment(loader=templateLoader,
+                                 extensions=['jinja2.ext.i18n'],
+                                 trim_blocks=True,
+                                 lstrip_blocks=True)
 templateEnv.install_gettext_callables(t.gettext, t.ngettext, newstyle=True, pgettext=t.pgettext)
 
 # Specify any input variables to the template as a dictionary.
 templateVars = {
-    "locale" : locale,
-    "direction" : "rtl" if locale == "he" else "ltr",
-    "suffix" : suffix,
-    "language" : language,
-    "revision_date" : today.strftime("%Y-%m-%d"),
+    "locale": locale,
+    "direction": "rtl" if locale == "he" else "ltr",
+    "suffix": suffix,
+    "language": language,
+    "revision_date": today.strftime("%Y-%m-%d"),
     "current_year": today.strftime("%Y"),
     "version": version,
     "news": [],
@@ -336,12 +303,12 @@ for filename in os.listdir("newsTemplate"):
         if locale == loc:
             filenames[dat] = filename
     except ValueError:
-        if not filename_noext in filenames:
+        if filename_noext not in filenames:
             filenames[filename_noext] = filename
 
 # This is to be filled for each news using the script tools/getStatusTranslations.py
 translationStatus = {
-    "20230329.html" : {
+    "20230329.html": {
         "fullyTranslated": ['br', 'ca', 'ca@valencia', 'en_GB', 'es', 'eu', 'fr', 'hr', 'it', 'lt', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk', 'zh_TW'],
         "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['el', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ml', 99], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
     }
@@ -370,7 +337,7 @@ for filename in sorted(filenames, reverse=True):
     templateVars["news"].append(templateOneNews.render(templateVars))
     # read file to get the title, not sure if it is doable using jinja
     lines = ""
-    with open ("newsTemplate/" + filename, 'rt', encoding='utf8') as in_file:
+    with open("newsTemplate/" + filename, 'rt', encoding='utf8') as in_file:
         for line in in_file:
             lines += line.rstrip('\n')
     rgx = re.compile('set title = [\'"](?P<name>[^{}]+)[\'"]')
@@ -420,7 +387,6 @@ for i in range(0, len(boards)):
 # Now process the board list
 #
 templateScreenshot = templateEnv.get_template("template/screenshot.html")
-previousSection = ''
 
 for screenshot in boards:
     if screenshot['section'] == '/experimental' or screenshot['name'] == 'experimental':
@@ -428,9 +394,6 @@ for screenshot in boards:
 
     templateVars["screenshot"] = screenshot
     templateVars["screenshots"].append(templateScreenshot.render(templateVars))
-
-(opens, closes) = section_diff(previousSection, '')
-templateVars["screenshots"].append("</div>" * closes)
 
 templateFeedAll = templateEnv.get_template("template/feed.xml")
 outputFeedAllText = templateFeedAll.render(templateVars)

@@ -16,7 +16,7 @@ if len(sys.argv) < 3:
     sys.exit(1)
 
 locale = sys.argv[1]
-poFilename=sys.argv[2]
+poFilename = sys.argv[2]
 if not os.path.isfile(poFilename):
     print(poFilename, "does not exist, we cannot create news files for", locale)
     sys.exit(1)
@@ -71,7 +71,7 @@ for entry in poFile:
 # for all news we have in the pot file, we create the corresponding html
 # translated file
 for currentKey, currentNews in news.items():
-    if not 'title' in currentNews or currentNews['title'] == "":
+    if 'title' not in currentNews or currentNews['title'] == "":
         print("Skip news", currentKey)
         continue
 
