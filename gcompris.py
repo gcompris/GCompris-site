@@ -374,7 +374,7 @@ for filename in sorted(filenames, reverse=True):
     templateVars["news"].append(templateOneNews.render(templateVars))
     # read file to get the title, not sure if it is doable using jinja
     lines = ""
-    with open ("newsTemplate/" + filename, 'rt') as in_file:
+    with open ("newsTemplate/" + filename, 'rt', encoding='utf8') as in_file:
         for line in in_file:
             lines += line.rstrip('\n')
     rgx = re.compile('set title = [\'"](?P<name>[^{}]+)[\'"]')

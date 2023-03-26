@@ -109,5 +109,5 @@ for currentNews in news:
             fileData = fileData.replace(string, news[currentNews][string], 1)
 
     # Write the file out again
-    with open(currentNews, 'w') as file:
+    with open(currentNews, 'w', encoding='utf8') as file:
         file.write(fileData)
