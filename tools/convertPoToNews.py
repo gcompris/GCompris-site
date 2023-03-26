@@ -104,9 +104,8 @@ for currentNews in news:
             for m in matches:
                 fileData = fileData.replace('\'%s\'' % m.replace("'", "\\'"), repr(news[currentNews][string]))
             continue
-        else:
-            # We only want to replace the first occurence of the string
-            fileData = fileData.replace(string, news[currentNews][string], 1)
+        # We only want to replace the first occurence of the string
+        fileData = fileData.replace(string, news[currentNews][string], 1)
 
     # Write the file out again
     with open(currentNews, 'w', encoding='utf8') as file:

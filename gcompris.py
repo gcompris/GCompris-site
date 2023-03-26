@@ -280,9 +280,8 @@ def sectionDiff(old, new):
         try:
             if olds[i] == news[i]:
                 continue
-            else:
-                closes += 1
-                opens += 1
+            closes += 1
+            opens += 1
         except:
             if len(olds) > i:
                 closes += 1
