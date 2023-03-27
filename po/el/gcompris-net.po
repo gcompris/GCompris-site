@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-01-22 01:02+0000\n"
+"POT-Creation-Date: 2023-03-27 00:53+0000\n"
 "PO-Revision-Date: 2023-01-21 21:31+0200\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -21,193 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 3.2.2\n"
-
-# news title
-#. news title
-msgctxt "20230118.html"
-msgid "Release GCompris 3.0"
-msgstr "Κυκλοφορία της έκδοσης 3.0 του GCompris."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "We are pleased to announce the release of GCompris version 3.0."
-msgstr ""
-"Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την έκδοση 3.0 του GCompris."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "It contains 182 activities, including 8 new ones:"
-msgstr "Περιλαμβάνει 182 δραστηριότητες, μεταξύ αυτών και 8 νέες:"
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"\\\"Mouse click training\\\" is an exercise to practice using a mouse with "
-"left and right clicks."
-msgstr ""
-"Η δραστηριότητα \\\"Εξάσκηση στο ποντίκι\\\" είναι μια άσκηση για τη χρήση "
-"του ποντικιού με αριστερό και δεξί κλικ."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Create the fractions\\\", represent decimal quantities with some pie "
-"or rectangle charts."
-msgstr ""
-"Η δραστηριότητα \\\"Δημιουργώ τα κλάσματα\\\" αναπαριστά δεκαδικούς αριθμούς "
-"σε σχήματα πίτας ή ορθογωνίου."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Find the fractions\\\", it's the other way: write the fraction "
-"represented by the pie or rectangle chart."
-msgstr ""
-"Η δραστηριότητα \\\"Βρίσκω τα κλάσματα\\\" είναι το αντίθετο: γράψτε το "
-"κλάσμα που αναπαριστά η πίτα ή το ορθογώνιο."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"With \\\"Discover the International Morse code\\\", learn how to communicate "
-"with the International Morse code."
-msgstr ""
-"Με τον \\\"Κώδικας Μορς\\\" μαθαίνετε να επικοινωνείτε με έναν κώδικα που "
-"είχε διεθνή ακτινοβολία."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Compare numbers\\\", learn how to compare number values using "
-"comparison symbols."
-msgstr ""
-"Στη δραστηριότητα \\\"Συγκρίνω αριθμούς\\\" μαθαίνετε να συγκρίνετε αριθμούς "
-"και να χρησιμοποιείται τα σχετικά σύμβολα."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"\\\"Find ten's complement\\\" is a simple exercise to learn the concept of "
-"ten's complement."
-msgstr ""
-"Η \\\"Βρες το συμπλήρωμα του 10\\\" είναι μια απλή δραστηριότητα για την "
-"εκμάθηση των συμπληρωμάτων του 10."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize it "
-"using ten's complement."
-msgstr ""
-"Στη δραστηριότητα \\\"Αντάλλαξε το συμπλήρωμα του 10\\\" ανταλλάσσεις "
-"αριθμούς για να δημιουργήσεις ζεύγη αριθμών με άθροισμα το δέκα."
-
-#. list item
-msgctxt "20230118.html"
-msgid ""
-"In \\\"Use ten's complement\\\", decompose an addition to optimize it using "
-"ten's complement."
-msgstr ""
-"Στη δραστηριότητα \\\"Χρησιμοποιώ το συμπλήρωμα του 10\\\" χρησιμοποιώ το "
-"συμπλήρωμα του 10 για να απλοποιήσω πρόσθεση."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "We've added 2 new command line options:"
-msgstr "Έχουμε προσθέσεις 2 νέες επιλογές για τη γραμμή εντολών:"
-
-#. list item
-msgctxt "20230118.html"
-msgid "List all the available activities (-l or --list-activities)"
-msgstr "Λίστα όλων των διαθέσιμων δραστηριοτήτων (-l or --list-activities)"
-
-#. list item
-msgctxt "20230118.html"
-msgid "Directly start a specific activity (--launch activityName)"
-msgstr "Άμεση εκκίνηση συγκεκριμένης δραστηριότητας (--launch activityName)"
-
-# paragraph
-#. paragraph
-msgctxt "20230118.html"
-msgid "This version also contains several improvements and bug fixes."
-msgstr ""
-"Η νέα έκδοση περιλαμβάνει επίσης πολλές βελτιώσεις και διορθώσεις σφαλμάτων."
-
-# paragraph
-#. paragraph
-msgctxt "20230118.html"
-msgid ""
-"On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
-"translated: (Azerbaijani, Basque, Breton, British English, Catalan, Catalan "
-"(Valencian), Chinese Traditional, Croatian, Dutch, Estonian, French, Greek, "
-"Hebrew, Hungarian, Italian, Lithuanian, Malayalam, Norwegian Nynorsk, "
-"Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Ukrainian). 11 "
-"are partially translated: (Albanian (99%), Belarusian (83%), Brazilian "
-"Portuguese (94%), Czech (82%), Finnish (94%), German (91%), Indonesian "
-"(99%), Macedonian (94%), Slovak (77%), Swedish (94%) and Turkish (71%))."
-msgstr ""
-"Στον τομέα των μεταφράσεων, το GCompris 3.0 διαθέτει 36 γλώσσες. Οι 25 από "
-"αυτές είναι πλήρως μεταφρασμένες: Αζέρικα, Βασκικά, Βρετανικά Αγγλικά, "
-"Καταλανικά, Καταλανικά Βαλένθιας, Παραδοσιακά Κινέζικα, Κροατικά, Ολλανδικά, "
-"Εσθονικά, Γαλλικά, Ελληνικά, Εβραϊκά, Ουγγρικά, Ιταλικά, Λιθουανικά, "
-"Μαλαγιάλαμ, Νέα Νορβηγικά, Πολωνικά, Πορτογαλικά, Ρουμανικά, Ρωσικά, "
-"Σλοβένικα, Ισπανικά, Ουκρανικά. Οι 11 από αυτές είναι μερικώς μεταφρασμένες: "
-"Αλβανικά (99%), Λευκορωσικά (83%), Πορτογαλικά Βραζιλίας (94%), Τσέχικα "
-"(82%), Φινλανδικά (94%), Γερμανικά (91%), Ινδονησιακά (99%), Μακεδονικά "
-"(94%), Σλοβάκικα (77%), Σουηδικά (94%) και Τουρκικά (71%)."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid ""
-"A special note about Ukrainian voices which have been added thanks to the "
-"organization \\\"Save the Children\\\" who funded the recording. They "
-"installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
-"Digital learning Centers and other safe spaces for children in Ukraine."
-msgstr ""
-"Μια ειδική σημείωση για τους ήχους της ουκρανικής γλώσσας που προστέθηκαν "
-"χάρη στον οργανισμό \\\"Save the Children\\\", ο οποίος χρηματοδότησε την "
-"ηχογράφηση. Εγκατέστησαν το GCompris σε 8000 tablet και 1000 φορητούς "
-"υπολογιστές και τα έστειλαν σε Ψηφιακά Εκπαιδευτικά Κέντρα και άλλους "
-"ασφαλείς χώρους για παιδιά στην Ουκρανία."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid "Croatian voices have also been recorded by a contributor."
-msgstr ""
-"Ήχοι της κροατικής γλώσσας έχουν επίσης ηχογραφηθεί από έναν συνεργάτη."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid ""
-"As usual you can find packages of this new version for GNU/Linux, Windows, "
-"Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, "
-"Windows, Android, Raspberry Pi και MacOS στη <a href=\\\"https://gcompris."
-"net/downloads{{ suffix }}.html\\\">σελίδα λήξεων</a>. Αυτή η ενημέρωση θα "
-"είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid και "
-"στο Windows Store."
-
-#. paragraph
-msgctxt "20230118.html"
-msgid ""
-"For packagers of GNU/Linux distributions, note that we have a new dependency "
-"on QtCharts QML plugin, and the minimum required version of Qt5 is now 5.12. "
-"We also moved from using QtQuick.Controls 1 to QtQuick.Controls 2."
-msgstr ""
-"Για συσκευαστές διανομών GNU/Linux, σημειώστε ότι έχουμε μια νέα εξάρτηση "
-"στο πρόσθετο QtCharts QML και η ελάχιστη απαιτούμενη έκδοση του Qt5 είναι "
-"τώρα η 5.12. Επίσης, μετακινηθήκαμε από τη χρήση του QtQuick.Controls 1 στο "
-"QtQuick.Controls 2."
-
-# paragraph
-#. paragraph
-msgctxt "20230118.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
 
 # news title
 #. news title
@@ -256,7 +69,351 @@ msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Σας ευχαριστούμε, <br/>Timothée & Johnny"
 
-#: gcompris.py:293
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Release GCompris 3.0"
+msgctxt "20230329.html"
+msgid "Release GCompris 3.2"
+msgstr "Κυκλοφορία της έκδοσης 3.0 του GCompris."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Today we are releasing GCompris version 3.1."
+msgctxt "20230329.html"
+msgid "Today we are releasing GCompris version 3.2."
+msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.1 του GCompris."
+
+#. paragraph
+msgctxt "20230329.html"
+msgid ""
+"This new version contains some bug fixes on multiple activities such as \\"
+"\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
+"and music activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid ""
+"It also contains new graphics for all memory activities and for \\\"Baby "
+"puzzle\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid ""
+"A new command-line argument (--difficulty {value|min-max}) has been added "
+"which allows users to force the difficulty filter at a given value or range."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "The Andika font has been updated to its latest version (6.200)."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+msgctxt "20230329.html"
+msgid "{{ oneLocale }}"
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20230329.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230329.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
+
+#: gcompris.py:82
+msgctxt "language name, item list"
+msgid "UK English"
+msgstr ""
+
+#: gcompris.py:83
+msgctxt "language name, item list"
+msgid "American English"
+msgstr ""
+
+#: gcompris.py:84
+msgctxt "language name, item list"
+msgid "Azerbaijani"
+msgstr ""
+
+#: gcompris.py:85
+msgctxt "language name, item list"
+msgid "Bulgarian"
+msgstr ""
+
+# list item
+#: gcompris.py:86
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Breton (100%)"
+msgctxt "language name, item list"
+msgid "Breton"
+msgstr "Βρετονικά (100%)"
+
+#: gcompris.py:87
+msgctxt "language name, item list"
+msgid "Belarusian"
+msgstr ""
+
+#: gcompris.py:88
+msgctxt "language name, item list"
+msgid "Catalan"
+msgstr ""
+
+#: gcompris.py:89
+msgctxt "language name, item list"
+msgid "Catalan (Valencian)"
+msgstr ""
+
+#: gcompris.py:90
+msgctxt "language name, item list"
+msgid "Czech"
+msgstr ""
+
+#: gcompris.py:91
+msgctxt "language name, item list"
+msgid "Danish"
+msgstr ""
+
+#: gcompris.py:92
+msgctxt "language name, item list"
+msgid "German"
+msgstr ""
+
+#: gcompris.py:93
+msgctxt "language name, item list"
+msgid "Greek"
+msgstr ""
+
+#: gcompris.py:94
+msgctxt "language name, item list"
+msgid "Spanish"
+msgstr ""
+
+#: gcompris.py:95
+msgctxt "language name, item list"
+msgid "Estonian"
+msgstr ""
+
+#: gcompris.py:96
+msgctxt "language name, item list"
+msgid "Basque"
+msgstr ""
+
+# list item
+#: gcompris.py:97
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Finnish (90%)"
+msgctxt "language name, item list"
+msgid "Finnish"
+msgstr "Φινλανδικά (100%)"
+
+#: gcompris.py:98
+msgctxt "language name, item list"
+msgid "French"
+msgstr ""
+
+#: gcompris.py:99
+msgctxt "language name, item list"
+msgid "Irish"
+msgstr ""
+
+#: gcompris.py:100
+msgctxt "language name, item list"
+msgid "Scottish Gaelic"
+msgstr ""
+
+#: gcompris.py:101
+msgctxt "language name, item list"
+msgid "Galician"
+msgstr ""
+
+#: gcompris.py:102
+msgctxt "language name, item list"
+msgid "Hebrew"
+msgstr ""
+
+#: gcompris.py:103
+msgctxt "language name, item list"
+msgid "Hindi"
+msgstr ""
+
+#: gcompris.py:104
+msgctxt "language name, item list"
+msgid "Croatian"
+msgstr ""
+
+#: gcompris.py:105
+msgctxt "language name, item list"
+msgid "Hungarian"
+msgstr ""
+
+# list item
+#: gcompris.py:106
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Indonesian (100%)"
+msgctxt "language name, item list"
+msgid "Indonesian"
+msgstr "Ινδονησιακά (100%)"
+
+#: gcompris.py:107
+msgctxt "language name, item list"
+msgid "Italian"
+msgstr ""
+
+#: gcompris.py:108
+msgctxt "language name, item list"
+msgid "Korean"
+msgstr ""
+
+#: gcompris.py:109
+msgctxt "language name, item list"
+msgid "Lithuanian"
+msgstr ""
+
+#: gcompris.py:110
+msgctxt "language name, item list"
+msgid "Latvian"
+msgstr ""
+
+#: gcompris.py:111
+msgctxt "language name, item list"
+msgid "Macedonian"
+msgstr ""
+
+#: gcompris.py:112
+msgctxt "language name, item list"
+msgid "Malayalam"
+msgstr ""
+
+#: gcompris.py:113
+msgctxt "language name, item list"
+msgid "Dutch"
+msgstr ""
+
+# list item
+#: gcompris.py:114
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Norwegian Nynorsk (97%)"
+msgctxt "language name, item list"
+msgid "Norwegian Nynorsk"
+msgstr "Νέα Νορβηγικά (97%)"
+
+# list item
+#: gcompris.py:115
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Polish (100%)"
+msgctxt "language name, item list"
+msgid "Polish"
+msgstr "Πολωνικά (100%)"
+
+#: gcompris.py:116
+msgctxt "language name, item list"
+msgid "Portuguese"
+msgstr ""
+
+# list item
+#: gcompris.py:117
+#, fuzzy
+#| msgctxt "20190303.html"
+#| msgid "Brazilian Portuguese (100%)"
+msgctxt "language name, item list"
+msgid "Brazilian Protuguese"
+msgstr "Βραζιλιάνικα Πορτογαλικά (100%)"
+
+#: gcompris.py:118
+msgctxt "language name, item list"
+msgid "Romanian"
+msgstr ""
+
+#: gcompris.py:119
+msgctxt "language name, item list"
+msgid "Russian"
+msgstr ""
+
+#: gcompris.py:120
+msgctxt "language name, item list"
+msgid "Slovak"
+msgstr ""
+
+#: gcompris.py:121
+msgctxt "language name, item list"
+msgid "Slovenian"
+msgstr ""
+
+#: gcompris.py:122
+msgctxt "language name, item list"
+msgid "Albanian"
+msgstr ""
+
+#: gcompris.py:123
+msgctxt "language name, item list"
+msgid "Serbian"
+msgstr ""
+
+#: gcompris.py:124
+msgctxt "language name, item list"
+msgid "Swedish"
+msgstr ""
+
+#: gcompris.py:125
+msgctxt "language name, item list"
+msgid "Tamil"
+msgstr ""
+
+#: gcompris.py:126
+msgctxt "language name, item list"
+msgid "Thai"
+msgstr ""
+
+#: gcompris.py:127
+msgctxt "language name, item list"
+msgid "Turkish"
+msgstr ""
+
+#: gcompris.py:128
+msgctxt "language name, item list"
+msgid "Ukrainian"
+msgstr ""
+
+#: gcompris.py:129
+msgctxt "language name, item list"
+msgid "Chinese Simplified"
+msgstr ""
+
+#: gcompris.py:130
+msgctxt "language name, item list"
+msgid "Chinese Traditional"
+msgstr ""
+
+#: gcompris.py:255
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -264,12 +421,12 @@ msgstr ""
 "Αυτό το λογισμικό είναι ένα πακέτο GNU και κυκλοφορεί με την άδεια GNU "
 "Affero General Public License."
 
-#: gcompris.py:294
+#: gcompris.py:256
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Γιάννης Κασκαμανίδης"
 
-#: gcompris.py:404
+#: gcompris.py:382
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Προσφέρετε το GCompris στα παιδιά σας ως δώρο για τα Χριστούγεννα."
 
@@ -915,6 +1072,166 @@ msgstr "Ανάγνωση"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Στατηγική"
+
+#~ msgctxt "20230118.html"
+#~ msgid "We are pleased to announce the release of GCompris version 3.0."
+#~ msgstr ""
+#~ "Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την έκδοση 3.0 του GCompris."
+
+#~ msgctxt "20230118.html"
+#~ msgid "It contains 182 activities, including 8 new ones:"
+#~ msgstr "Περιλαμβάνει 182 δραστηριότητες, μεταξύ αυτών και 8 νέες:"
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "\\\"Mouse click training\\\" is an exercise to practice using a mouse "
+#~ "with left and right clicks."
+#~ msgstr ""
+#~ "Η δραστηριότητα \\\"Εξάσκηση στο ποντίκι\\\" είναι μια άσκηση για τη "
+#~ "χρήση του ποντικιού με αριστερό και δεξί κλικ."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "In \\\"Create the fractions\\\", represent decimal quantities with some "
+#~ "pie or rectangle charts."
+#~ msgstr ""
+#~ "Η δραστηριότητα \\\"Δημιουργώ τα κλάσματα\\\" αναπαριστά δεκαδικούς "
+#~ "αριθμούς σε σχήματα πίτας ή ορθογωνίου."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "In \\\"Find the fractions\\\", it's the other way: write the fraction "
+#~ "represented by the pie or rectangle chart."
+#~ msgstr ""
+#~ "Η δραστηριότητα \\\"Βρίσκω τα κλάσματα\\\" είναι το αντίθετο: γράψτε το "
+#~ "κλάσμα που αναπαριστά η πίτα ή το ορθογώνιο."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "With \\\"Discover the International Morse code\\\", learn how to "
+#~ "communicate with the International Morse code."
+#~ msgstr ""
+#~ "Με τον \\\"Κώδικας Μορς\\\" μαθαίνετε να επικοινωνείτε με έναν κώδικα που "
+#~ "είχε διεθνή ακτινοβολία."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "In \\\"Compare numbers\\\", learn how to compare number values using "
+#~ "comparison symbols."
+#~ msgstr ""
+#~ "Στη δραστηριότητα \\\"Συγκρίνω αριθμούς\\\" μαθαίνετε να συγκρίνετε "
+#~ "αριθμούς και να χρησιμοποιείται τα σχετικά σύμβολα."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "\\\"Find ten's complement\\\" is a simple exercise to learn the concept "
+#~ "of ten's complement."
+#~ msgstr ""
+#~ "Η \\\"Βρες το συμπλήρωμα του 10\\\" είναι μια απλή δραστηριότητα για την "
+#~ "εκμάθηση των συμπληρωμάτων του 10."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize "
+#~ "it using ten's complement."
+#~ msgstr ""
+#~ "Στη δραστηριότητα \\\"Αντάλλαξε το συμπλήρωμα του 10\\\" ανταλλάσσεις "
+#~ "αριθμούς για να δημιουργήσεις ζεύγη αριθμών με άθροισμα το δέκα."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "In \\\"Use ten's complement\\\", decompose an addition to optimize it "
+#~ "using ten's complement."
+#~ msgstr ""
+#~ "Στη δραστηριότητα \\\"Χρησιμοποιώ το συμπλήρωμα του 10\\\" χρησιμοποιώ το "
+#~ "συμπλήρωμα του 10 για να απλοποιήσω πρόσθεση."
+
+#~ msgctxt "20230118.html"
+#~ msgid "We've added 2 new command line options:"
+#~ msgstr "Έχουμε προσθέσεις 2 νέες επιλογές για τη γραμμή εντολών:"
+
+#~ msgctxt "20230118.html"
+#~ msgid "List all the available activities (-l or --list-activities)"
+#~ msgstr "Λίστα όλων των διαθέσιμων δραστηριοτήτων (-l or --list-activities)"
+
+#~ msgctxt "20230118.html"
+#~ msgid "Directly start a specific activity (--launch activityName)"
+#~ msgstr "Άμεση εκκίνηση συγκεκριμένης δραστηριότητας (--launch activityName)"
+
+# paragraph
+#~ msgctxt "20230118.html"
+#~ msgid "This version also contains several improvements and bug fixes."
+#~ msgstr ""
+#~ "Η νέα έκδοση περιλαμβάνει επίσης πολλές βελτιώσεις και διορθώσεις "
+#~ "σφαλμάτων."
+
+# paragraph
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
+#~ "translated: (Azerbaijani, Basque, Breton, British English, Catalan, "
+#~ "Catalan (Valencian), Chinese Traditional, Croatian, Dutch, Estonian, "
+#~ "French, Greek, Hebrew, Hungarian, Italian, Lithuanian, Malayalam, "
+#~ "Norwegian Nynorsk, Polish, Portuguese, Romanian, Russian, Slovenian, "
+#~ "Spanish, Ukrainian). 11 are partially translated: (Albanian (99%), "
+#~ "Belarusian (83%), Brazilian Portuguese (94%), Czech (82%), Finnish (94%), "
+#~ "German (91%), Indonesian (99%), Macedonian (94%), Slovak (77%), Swedish "
+#~ "(94%) and Turkish (71%))."
+#~ msgstr ""
+#~ "Στον τομέα των μεταφράσεων, το GCompris 3.0 διαθέτει 36 γλώσσες. Οι 25 "
+#~ "από αυτές είναι πλήρως μεταφρασμένες: Αζέρικα, Βασκικά, Βρετανικά "
+#~ "Αγγλικά, Καταλανικά, Καταλανικά Βαλένθιας, Παραδοσιακά Κινέζικα, "
+#~ "Κροατικά, Ολλανδικά, Εσθονικά, Γαλλικά, Ελληνικά, Εβραϊκά, Ουγγρικά, "
+#~ "Ιταλικά, Λιθουανικά, Μαλαγιάλαμ, Νέα Νορβηγικά, Πολωνικά, Πορτογαλικά, "
+#~ "Ρουμανικά, Ρωσικά, Σλοβένικα, Ισπανικά, Ουκρανικά. Οι 11 από αυτές είναι "
+#~ "μερικώς μεταφρασμένες: Αλβανικά (99%), Λευκορωσικά (83%), Πορτογαλικά "
+#~ "Βραζιλίας (94%), Τσέχικα (82%), Φινλανδικά (94%), Γερμανικά (91%), "
+#~ "Ινδονησιακά (99%), Μακεδονικά (94%), Σλοβάκικα (77%), Σουηδικά (94%) και "
+#~ "Τουρκικά (71%)."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "A special note about Ukrainian voices which have been added thanks to the "
+#~ "organization \\\"Save the Children\\\" who funded the recording. They "
+#~ "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
+#~ "Digital learning Centers and other safe spaces for children in Ukraine."
+#~ msgstr ""
+#~ "Μια ειδική σημείωση για τους ήχους της ουκρανικής γλώσσας που προστέθηκαν "
+#~ "χάρη στον οργανισμό \\\"Save the Children\\\", ο οποίος χρηματοδότησε την "
+#~ "ηχογράφηση. Εγκατέστησαν το GCompris σε 8000 tablet και 1000 φορητούς "
+#~ "υπολογιστές και τα έστειλαν σε Ψηφιακά Εκπαιδευτικά Κέντρα και άλλους "
+#~ "ασφαλείς χώρους για παιδιά στην Ουκρανία."
+
+#~ msgctxt "20230118.html"
+#~ msgid "Croatian voices have also been recorded by a contributor."
+#~ msgstr ""
+#~ "Ήχοι της κροατικής γλώσσας έχουν επίσης ηχογραφηθεί από έναν συνεργάτη."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "As usual you can find packages of this new version for GNU/Linux, "
+#~ "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
+#~ "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
+#~ "update will also be available soon in the Android Play store, the F-Droid "
+#~ "repository and the Windows store."
+#~ msgstr ""
+#~ "Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, "
+#~ "Windows, Android, Raspberry Pi και MacOS στη <a href=\\\"https://gcompris."
+#~ "net/downloads{{ suffix }}.html\\\">σελίδα λήξεων</a>. Αυτή η ενημέρωση θα "
+#~ "είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid "
+#~ "και στο Windows Store."
+
+#~ msgctxt "20230118.html"
+#~ msgid ""
+#~ "For packagers of GNU/Linux distributions, note that we have a new "
+#~ "dependency on QtCharts QML plugin, and the minimum required version of "
+#~ "Qt5 is now 5.12. We also moved from using QtQuick.Controls 1 to QtQuick."
+#~ "Controls 2."
+#~ msgstr ""
+#~ "Για συσκευαστές διανομών GNU/Linux, σημειώστε ότι έχουμε μια νέα εξάρτηση "
+#~ "στο πρόσθετο QtCharts QML και η ελάχιστη απαιτούμενη έκδοση του Qt5 είναι "
+#~ "τώρα η 5.12. Επίσης, μετακινηθήκαμε από τη χρήση του QtQuick.Controls 1 "
+#~ "στο QtQuick.Controls 2."
 
 # news title
 #~ msgctxt "20220413.html"
@@ -1952,36 +2269,6 @@ msgstr "Στατηγική"
 #~ msgctxt "20190303.html"
 #~ msgid "Translations that received a big update:"
 #~ msgstr "Γλώσσες που μεγάλη μεταφραστική ενημέρωση:"
-
-# list item
-#~ msgctxt "20190303.html"
-#~ msgid "Brazilian Portuguese (100%)"
-#~ msgstr "Βραζιλιάνικα Πορτογαλικά (100%)"
-
-# list item
-#~ msgctxt "20190303.html"
-#~ msgid "Breton (100%)"
-#~ msgstr "Βρετονικά (100%)"
-
-# list item
-#~ msgctxt "20190303.html"
-#~ msgid "Finnish (90%)"
-#~ msgstr "Φινλανδικά (100%)"
-
-# list item
-#~ msgctxt "20190303.html"
-#~ msgid "Indonesian (100%)"
-#~ msgstr "Ινδονησιακά (100%)"
-
-# list item
-#~ msgctxt "20190303.html"
-#~ msgid "Norwegian Nynorsk (97%)"
-#~ msgstr "Νέα Νορβηγικά (97%)"
-
-# list item
-#~ msgctxt "20190303.html"
-#~ msgid "Polish (100%)"
-#~ msgstr "Πολωνικά (100%)"
 
 # paragraph
 #~ msgctxt "20190303.html"
