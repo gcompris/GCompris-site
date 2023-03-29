@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Avui fem el llançament del GCompris versió 3.2.</p>
+<p>Aquesta versió nova conté algunes correccions d'errors en algunes activitats com ara «Descobreix el codi Morse internacional», «Controla la mànega» i activitats musicals.</p>
+<p>També conté gràfics nous per a totes les activitats de memòria i per a «Trencaclosques de nadó».</p>
+<p>S'ha afegit un argument nou de la línia d'ordres (--difficulty {valor|mín.-màx.}) que permet als usuaris forçar el filtre de dificultat amb un valor indicat o un interval.</p>
+<p>El tipus de lletra Andika s'ha actualitzat a la seva darrera versió (6.200).</p>
+
+<p>Està traduït completament als idiomes següents:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>També està traduït parcialment als idiomes següents:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+
+{% endblock %}
