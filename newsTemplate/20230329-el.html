@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Κυκλοφορία της έκδοσης 3.2 του GCompris.' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Σήμερα κυκλοφορούμε την έκδοση 3.2 του GCompris.</p>
+<p>Αυτή η νέα έκδοση περιέχει ορισμένες διορθώσεις σφαλμάτων σε πολλές δραστηριότητες όπως "Κώδικας Μορς", "Σβήνω τη φωτιά" και σε μουσικές δραστηριότητες.</p>
+<p>Περιέχει επίσης νέα γραφικά για όλες τις δραστηριότητες μνήμης και για το "Βρεφικό παζλ".</p>
+<p>Προστέθηκε ένα νέο όρισμα γραμμής εντολών (--difficulty {value|min-max}) που επιτρέπει στους χρήστες να επιβάλλουν το φίλτρο δυσκολίας σε μια δεδομένη τιμή ή εύρος τιμών.</p>
+<p>Η γραμματοσειρά Andika έχει ενημερωθεί στην τελευταία της έκδοση (6.200).</p>
+
+<p>Είναι πλήρως μεταφρασμένο στις ακόλουθες γλώσσες:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Έχει επίσης μεταφραστεί εν μέρει στις ακόλουθες γλώσσες:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Σας ευχαριστούμε όλους, <br/>Timothée & Johnny</p>
+
+{% endblock %}
