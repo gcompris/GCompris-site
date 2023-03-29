@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Astăzi lansăm GCompris versiunea 3.2.</p>
+<p>Această nouă versiune conține câteva erori remediate la mai multe activități, cum ar fi „Descoperă Codul Morse Internațional” , „Controlează furtunul” și activitățile muzicale.</p>
+<p>De asemenea conține o grafică nouă pentru toate activitățile de memorie și pentru „Puzzle de jucărie”.</p>
+<p>S-a adăugat un nou argument pentru linia de comandă (--difficulty {value|min-max}) , care le permite utilizatorilor să forțeze filtrul de dificultate la o valoare sau un interval dat.</p>
+<p>Fontul Andika a fost actualizat la cea mai recentă versiune a lui (6.200).</p>
+
+<p>Este complet tradus în următoarele limbi:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Este de asemenea parțial tradus în următoarele limbi:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Vă mulțumim tuturor, <br/>Timothée & Johnny</p>
+
+{% endblock %}
