@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Vandaag geven we GCompris versie 3.2 uit.</p>
+<p>Deze nieuwe versie bevat enige reparaties van bugs op meerdere activiteiten zoals "Ontdek de internationale Morse-code", "Bestuur de tuinslang" en muziekactiviteiten.</p>
+<p>Het bevat ook nieuwe plaatjes voor alle geheugenactiviteiten en voor "Babypuzzel".</p>
+<p>Een nieuw argument op de opdrachtregel (--difficulty {waarde|min-max}) is toegevoegd die gebruikers biedt het afdwingen van het moeilijkheidsfilter op een gegeven waarde of reeks.</p>
+<p>Het lettertype Andika is bijgewerkt tot zijn laatste versie (6.200).</p>
+
+<p>Het is volledig vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Het is ook gedeeltelijk vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+
+{% endblock %}
