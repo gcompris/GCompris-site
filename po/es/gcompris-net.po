@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-27 00:53+0000\n"
-"PO-Revision-Date: 2023-03-27 21:22+0200\n"
+"PO-Revision-Date: 2023-03-28 13:19+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -418,11 +418,11 @@ msgstr "Noticias"
 
 #: template/base.html:72 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
-msgstr "Descargar"
+msgstr "Descarga"
 
 #: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
-msgstr "Donar"
+msgstr "Donaciones"
 
 #: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
@@ -439,7 +439,7 @@ msgstr "Manual"
 
 #: template/base.html:77
 msgid "Contribute"
-msgstr "Contribuir"
+msgstr "Colaborar"
 
 #: template/base.html:108
 #, python-format
@@ -501,7 +501,7 @@ msgstr ""
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
-msgstr "Convertirse en patrocinador"
+msgstr "Conviértase en patrocinador"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
@@ -513,7 +513,7 @@ msgstr "Hacer una donación a KDE"
 
 #: template/donate.html:24
 msgid "Thanks for supporting Free Software in education."
-msgstr "Gracias por apoyar al software libre en la educación."
+msgstr "Gracias por apoyar el software libre en la educación."
 
 #: template/donate.html:27
 msgid "Patreon"
@@ -521,7 +521,7 @@ msgstr "Patreon"
 
 #: template/donate.html:30
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr "¡Gracias a todos por apoyar al GCompris en Patreon!"
+msgstr "¡Gracias a todos por apoyar a GCompris en Patreon!"
 
 #: template/downloads.html:16
 msgid "Windows"
@@ -542,7 +542,7 @@ msgstr "Nota: la Windows Store necesita Windows 10."
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
 msgstr ""
-"En caso contrario, puede descargar el instalador de los enlaces inferiores."
+"En caso contrario, puede descargar el instalador con los enlaces siguientes."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
@@ -555,7 +555,7 @@ msgid ""
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
 "Nota: Si su sistema no permite usar OpenGL 2 o si no funciona correctamente "
-"en él, use la entrada «GCompris (modo seguro)» del menú de inicio para "
+"con él, use la entrada «GCompris (modo seguro)» del menú de inicio para "
 "lanzar GCompris con renderización por software, que no usa OpenGL."
 
 #: template/downloads.html:30
@@ -564,7 +564,7 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
-"Si realmente necesita una versión que se puede ejecutar en Windows XP o si "
+"Si realmente necesita una versión que se pueda ejecutar en Windows XP o si "
 "su sistema no permite usar la nueva versión, puede usar el último instalador "
 "para la versión antigua de GCompris 15.10."
 
@@ -574,9 +574,9 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
-"Para activar todas las actividades en esta versión antigua, puede usar el "
-"código 200202 en el cuadro de entrada que contiene la palabra «Código» tras "
-"iniciar la aplicación."
+"Para activar todas las actividades de esta versión antigua, use el código "
+"200202 en el cuadro de entrada que contiene la palabra «Código» tras iniciar "
+"la aplicación."
 
 #: template/downloads.html:44
 msgid "Android"
@@ -592,9 +592,9 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
-"Damos soporte a las versiones de 32 y 64 bits de la Play Store. La versión "
-"adecuada se descarga automáticamente según la versión de su sistema "
-"operativo Android."
+"Proporcionamos asistencia para las versiones de 32 y 64 bits de la Play "
+"Store. La versión adecuada se descarga automáticamente según la versión de "
+"su sistema operativo Android."
 
 #: template/downloads.html:54
 msgid ""
@@ -602,7 +602,7 @@ msgid ""
 "app repository."
 msgstr ""
 "GCompris también está disponible en F-Droid, el repositorio de aplicaciones "
-"de Android libres y de código abierto."
+"para Android libres y de código abierto."
 
 #: template/downloads.html:59
 msgid ""
@@ -663,7 +663,7 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
-"Para usarlos, abra una terminal en la carpeta donde haya descargado el "
+"Para usarlo, abra una terminal en la carpeta donde haya descargado el "
 "instalador y ejecute las siguientes órdenes:"
 
 #: template/downloads.html:108 template/downloads.html:135
@@ -692,10 +692,11 @@ msgid ""
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
 "Nota: Si su sistema no permite usar OpenGL 2 o si no funciona correctamente "
-"en él, añada la opción «--software-renderer» al final de la última línea del "
-"script «gcompris-qt.sh». Otro modo consiste en editar el archivo de "
-"configuración (en ~/.config/gcompris-qt/gcompris-qt.conf): busque la línea "
-"«renderer=auto», sustituya «auto» con «software» y guarde el archivo."
+"con él, añada la opción «--software-renderer» al final de la última línea "
+"del script «gcompris-qt.sh». Otra posible solución consiste en editar el "
+"archivo de configuración (en ~/.config/gcompris-qt/gcompris-qt.conf): busque "
+"la línea «renderer=auto», sustituya «auto» con «software» y guarde el "
+"archivo."
 
 #: template/downloads.html:111
 msgid ""
@@ -746,12 +747,13 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"El tarbal con el código fuente y los instaladores para Linux están firmados "
-"con la clave GPG de Timothée Giet (clave pública: %(public_gpg_key)s)"
+"El <em>tarball</em> con el código fuente y los instaladores para Linux están "
+"firmados con la clave GPG de Timothée Giet (clave pública: "
+"%(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
-msgstr "archivos de firma:"
+msgstr "Archivos de firma:"
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -851,7 +853,7 @@ msgstr ""
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr "Otros: colores, formas, alfabeto Braille, aprender a decir la hora..."
+msgstr "Otros: colores, formas, alfabeto braille, aprender a decir la hora..."
 
 #: template/index.html:165
 msgid ""
@@ -886,8 +888,8 @@ msgid ""
 msgstr ""
 "GCompris es una herramienta de educación en línea que proporciona ejercicios "
 "de aprendizaje dentro y fuera del aula. Se trata de un software libre "
-"publicado bajo la «Licencia pública general de la GNU». Es multiplataforma "
-"(GNU/Linux, Windows, Android y macOS) y se puede ejecutar en equipos de baja "
+"publicado bajo la «Licencia pública general de GNU». Es multiplataforma (GNU/"
+"Linux, Windows, Android y macOS) y se puede ejecutar en equipos de baja "
 "potencia."
 
 #: template/schools.html:14
@@ -902,14 +904,14 @@ msgstr ""
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr "Aprender a usar una computadora"
+msgstr "Aprender a usar una computadora."
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Practicar la lectura con actividades para aprender las letras, palabras y "
-"conjuntos léxicos"
+"conjuntos léxicos."
 
 #: template/schools.html:18
 msgid ""
@@ -917,11 +919,11 @@ msgid ""
 "and puzzles"
 msgstr ""
 "Dominar las matemáticas practicando con la numeración, la aritmética, con "
-"medidas y con rompecabezas"
+"medidas y con rompecabezas."
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr "Descubrir el mundo mediante lógica, las artes y la música"
+msgstr "Descubrir el mundo mediante la lógica, las artes y la música."
 
 #: template/schools.html:20
 msgid ""
@@ -929,11 +931,11 @@ msgid ""
 "geography"
 msgstr ""
 "Explorar la ciencia y las humanidades a través de la experimentación, la "
-"historia y la geografía"
+"historia y la geografía."
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
-msgstr "Desarrollar un pensamiento estratégico con juegos de tablero"
+msgstr "Desarrollar un pensamiento estratégico con juegos de tablero."
 
 #: template/schools.html:24
 msgid ""
@@ -959,9 +961,9 @@ msgstr ""
 "que permite que los niños practiquen con números, se pueden seleccionar los "
 "números con los que trabajar, dejando los números más altos y más difíciles "
 "para una etapa posterior. O, en un actividad en la que se deben ordenar "
-"imágenes cronológicamente, se puede graduar la dicha actividad para niños "
-"que solo saben leer números o hacerla más complicada para niños que saben "
-"leer tanto números como palabras."
+"imágenes cronológicamente, se puede graduar dicha actividad para niños que "
+"solo saben leer números o hacerla más complicada para niños que saben leer "
+"tanto números como palabras."
 
 #: template/schools.html:29
 msgid ""
