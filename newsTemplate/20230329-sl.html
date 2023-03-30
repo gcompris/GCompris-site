@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Danes izdajamo GCompris verzija 3.2.</p>
+<p>Ta različica vsebuje popravke napak v več dejavnostih kot so "Raziskovanje Morsejeve kode", "Upravljaj gumijasto cev" in glasbene dejavnosti.</p>
+<p>Vsebuje tudi novo grafiko za vse spominske dejavnosti in za "Otroške sestavljanke".</p>
+<p>Dodan je bil nov argument v ukazni vrstici  (--difficulty {value|min-max}), ki dovoljuje uporabnikom uporabiti filter težavnosti za določeno vrednost ali obseg vrednosti.</p>
+<p>Pisava Andika je bila posodobljena na zadnjo različico (6.200).</p>
+
+<p>Je popolnoma prevedena v naslednje jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Je tudi delno prevedena v naslednje jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Hvala vsem,<br/>Timothée in Johnny</p>
+
+{% endblock %}
