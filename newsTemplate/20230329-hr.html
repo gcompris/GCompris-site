@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Danas smo objavili GCompris verziju 3.2.</p>
+<p>Ova nova verzija sadrži neke ispravke grešaka u višestrukim aktivnostima kao što su "Upoznaj međunarodni Morseov kod", "Kontroliraj vatrogasni šmrk" i glazbene aktivnosti.</p>
+<p>Također sadrži nove vizualne elemente za sve aktivnosti "Dječje slagalice".</p>
+<p>Dodan je novi argument naredbenog retka (--difficulty {value|min-max}) koji korisnicima omogućuje postavljanje razine težine na zadanu vrijednost ili raspon.</p>
+<p>Font Andika je ažuriran na najnoviju verziju (6.200).</p>
+
+<p>U potpunosti je preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Također je djelomično preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Hvala svima, <br/>Timothée & Johnny</p>
+
+{% endblock %}
