@@ -285,8 +285,8 @@ for filename in os.listdir("newsTemplate"):
 # This is to be filled for each news using the script tools/getStatusTranslations.py
 translationStatus = {
     "20230329.html": {
-        "fullyTranslated": ['br', 'ca', 'ca@valencia', 'en_GB', 'es', 'eu', 'fr', 'hr', 'it', 'lt', 'ml', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk', 'zh_TW'],
-        "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['el', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
+        "fullyTranslated": ['br', 'ca', 'ca@valencia', 'el', 'en_GB', 'es', 'eu', 'fr', 'hr', 'it', 'lt', 'ml', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk', 'zh_TW'],
+        "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
     }
 }
 
