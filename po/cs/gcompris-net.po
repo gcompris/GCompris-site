@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-27 00:53+0000\n"
-"PO-Revision-Date: 2023-03-17 23:58+0100\n"
-"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
+"PO-Revision-Date: 2023-03-29 16:22+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #. news title
 msgctxt "20230121.html"
@@ -67,20 +67,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230329.html"
 msgid "Release GCompris 3.2"
-msgstr "Vydání GCompris 3.0"
+msgstr "Vydání GCompris 3.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230329.html"
 msgid "Today we are releasing GCompris version 3.2."
-msgstr "Dnes vydáváme GCompris verze 3.1."
+msgstr "Dnes vydáváme GCompris verze 3.2."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -132,9 +126,6 @@ msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
@@ -142,247 +133,247 @@ msgstr "Díky všem, <br/>Timothée & Johnny"
 #: gcompris.py:82
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "Britská Angličtina"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "Americká angličtina"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Ázerbájdžánština"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulharština"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr ""
+msgstr "Bretonština"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr ""
+msgstr "Běloruština"
 
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr ""
+msgstr "Katalánština"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "Katalánština (Valencie)"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr ""
+msgstr "Čeština"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "Dánština"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "German"
-msgstr ""
+msgstr "Němčina"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr ""
+msgstr "Řečtina"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr ""
+msgstr "Španělština"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr ""
+msgstr "Estonština"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr ""
+msgstr "Baskičtina"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr ""
+msgstr "Finština"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "French"
-msgstr ""
+msgstr "Francouzština"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr ""
+msgstr "Irština"
 
 #: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Skotská gaelština"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr ""
+msgstr "Galicijština"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebrejština"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr ""
+msgstr "Hindština"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr ""
+msgstr "Chorvatština"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr ""
+msgstr "Maďarština"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonéština"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Italian"
-msgstr ""
+msgstr "Italština"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr ""
+msgstr "Korejština"
 
 #: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litevština"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr ""
+msgstr "Lotyština"
 
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Macedonian"
-msgstr ""
+msgstr "Makedonština"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Dutch"
-msgstr ""
+msgstr "Holandština"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Norský Nynorsk"
 
 #: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Polish"
-msgstr ""
+msgstr "Polština"
 
 #: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugalština"
 
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Brazilian Protuguese"
-msgstr ""
+msgstr "Brazilská potugalština"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Romanian"
-msgstr ""
+msgstr "Rumunština"
 
 #: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Russian"
-msgstr ""
+msgstr "Ruština"
 
 #: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Slovak"
-msgstr ""
+msgstr "Slovenština"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovinština"
 
 #: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Albanian"
-msgstr ""
+msgstr "Albánština"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr ""
+msgstr "Srbština"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Swedish"
-msgstr ""
+msgstr "Švédština"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr ""
+msgstr "Tamilština"
 
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr ""
+msgstr "Thajština"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Turkish"
-msgstr ""
+msgstr "Turečtina"
 
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrajinština"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Zjednodušená čínština"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Tradiční čínština"
 
 #: gcompris.py:255
 msgid ""
@@ -1025,157 +1016,3 @@ msgstr "Čtení"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
-
-#~ msgctxt "20230118.html"
-#~ msgid "We are pleased to announce the release of GCompris version 3.0."
-#~ msgstr "Jsme rádi, že vám můžeme oznámit vydání GCompris verze 3.0."
-
-#~ msgctxt "20230118.html"
-#~ msgid "It contains 182 activities, including 8 new ones:"
-#~ msgstr "Obsahuje 182 aktivit, včetně 8 nových:"
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "\\\"Mouse click training\\\" is an exercise to practice using a mouse "
-#~ "with left and right clicks."
-#~ msgstr ""
-#~ "\\\"Učení kliknutí myší\\\" je aktivita pro procvičování používání myši s "
-#~ "levými a pravými kliknutími."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "In \\\"Create the fractions\\\", represent decimal quantities with some "
-#~ "pie or rectangle charts."
-#~ msgstr ""
-#~ "Ve \\\"Vytváření zlomků\\\", vyjadřuj desetinné počty s pomocí koláčových "
-#~ "nebo obdélníkových grafů."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "In \\\"Find the fractions\\\", it's the other way: write the fraction "
-#~ "represented by the pie or rectangle chart."
-#~ msgstr ""
-#~ "V \\\"Najdi zlomky\\\" jde o opačný způsob: napiš zlomek vyjádřený "
-#~ "koláčovým nebo obdélníkovým grafem."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "With \\\"Discover the International Morse code\\\", learn how to "
-#~ "communicate with the International Morse code."
-#~ msgstr ""
-#~ "S \\\"Objev mezinárodní Morseovu abecedu\\\" se nauč jak komunikovat "
-#~ "pomocí mezinárodní Morseovy abecedy."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "In \\\"Compare numbers\\\", learn how to compare number values using "
-#~ "comparison symbols."
-#~ msgstr ""
-#~ "V \\\"Porovnej čísla\\\" se nauč jak porovnávat číselné hodnoty pomocí "
-#~ "porovnávacích symbolů."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "\\\"Find ten's complement\\\" is a simple exercise to learn the concept "
-#~ "of ten's complement."
-#~ msgstr ""
-#~ "\\\"Najdi desítkový doplněk\\\" je jednoduché cvičení pro učení se "
-#~ "konceptu desítkového doplňku."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "In \\\"Swap ten's complement\\\", swap numbers of an addition to optimize "
-#~ "it using ten's complement."
-#~ msgstr ""
-#~ "V \\\"Vyměň desítkový doplněk\\\" vyměňuj čísla ve sčítání a přizpůsob je "
-#~ "pro použití desítkového doplňku."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "In \\\"Use ten's complement\\\", decompose an addition to optimize it "
-#~ "using ten's complement."
-#~ msgstr ""
-#~ "V \\\"Použij desítkový doplněk\\\" rozlož sčítání a přizpůsob je pro "
-#~ "použití desítkového doplňku."
-
-#~ msgctxt "20230118.html"
-#~ msgid "We've added 2 new command line options:"
-#~ msgstr "Přidali jsme 2 nové volby příkazového řádku:"
-
-#~ msgctxt "20230118.html"
-#~ msgid "List all the available activities (-l or --list-activities)"
-#~ msgstr "Vypiš všechny dostupné aktivity (-l nebo --list-activities)"
-
-#~ msgctxt "20230118.html"
-#~ msgid "Directly start a specific activity (--launch activityName)"
-#~ msgstr "Spusť přímo zadanou aktivitu (--launch nazevAktivity)"
-
-#~ msgctxt "20230118.html"
-#~ msgid "This version also contains several improvements and bug fixes."
-#~ msgstr "Tato verze také obsahuje několik vylepšení a oprav chyb."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "On the translation side, GCompris 3.0 contains 36 languages. 25 are fully "
-#~ "translated: (Azerbaijani, Basque, Breton, British English, Catalan, "
-#~ "Catalan (Valencian), Chinese Traditional, Croatian, Dutch, Estonian, "
-#~ "French, Greek, Hebrew, Hungarian, Italian, Lithuanian, Malayalam, "
-#~ "Norwegian Nynorsk, Polish, Portuguese, Romanian, Russian, Slovenian, "
-#~ "Spanish, Ukrainian). 11 are partially translated: (Albanian (99%), "
-#~ "Belarusian (83%), Brazilian Portuguese (94%), Czech (82%), Finnish (94%), "
-#~ "German (91%), Indonesian (99%), Macedonian (94%), Slovak (77%), Swedish "
-#~ "(94%) and Turkish (71%))."
-#~ msgstr ""
-#~ "Z hlediska překladů GCompris 3.0 obsahuje 36 jazyků. 25 jich je plně "
-#~ "přeloženo: (Ázerbájdžánština, Baskičtina, Bretonština, Britská "
-#~ "angličtina, Katalánština, Katalánština (Valencijská), Tradiční čínština, "
-#~ "Chorvatština, Nizozemština, Estonština, Francouzština, Řečtina, "
-#~ "Hebrejština, Maďarština, Italština, Litevština, Malajálamština, Norština "
-#~ "Nynorsk, Polština, Portugalština, Rumunština, Ruština, Slovinština, "
-#~ "Španělština, Ukrajinština). 11 je přeloženo částečně: (Albánština (99%), "
-#~ "Běloruština (83%), Brazilská portugalština (94%), Čeština (82%), Finština "
-#~ "(94%), Němčina (91%), Indonéština (99%), Makedonština (94%), Slovenština "
-#~ "(77%), Švédština (94%) a Turečtina (71%))."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "A special note about Ukrainian voices which have been added thanks to the "
-#~ "organization \\\"Save the Children\\\" who funded the recording. They "
-#~ "installed GCompris on 8000 tablets and 1000 laptops, and sent them to "
-#~ "Digital learning Centers and other safe spaces for children in Ukraine."
-#~ msgstr ""
-#~ "Zvlášť upozorňujeme na Ukrajinské hlasy, které byly přidány díky "
-#~ "organizaci \\\"Save the Children\\\", která financovala jejich nahrávání. "
-#~ "Tato organizace nainstalovala GCompris na 8000 tabletů a 1000 notebooků a "
-#~ "poslala je do center digitálního učení a dalších bezpečných míst pro děti "
-#~ "z Ukrajiny."
-
-#~ msgctxt "20230118.html"
-#~ msgid "Croatian voices have also been recorded by a contributor."
-#~ msgstr "Také byly jedním z přispěvatelů nahrány Chorvatské hlasy."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "As usual you can find packages of this new version for GNU/Linux, "
-#~ "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#~ "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#~ "update will also be available soon in the Android Play store, the F-Droid "
-#~ "repository and the Windows store."
-#~ msgstr ""
-#~ "Jako obvykle můžete najít balíčky této nové verze pro GNU/Linux, Windows, "
-#~ "Android, Raspberry Pi a macOS na <a href=\\\"https://gcompris.net/"
-#~ "downloads{{ suffix }}.html\\\">stránce stahování</a>. Tato aktualizace "
-#~ "také bude brzy dostupná v obchodě Android Play, repozitáři F-Droidu a "
-#~ "obchodu Windows Store."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "For packagers of GNU/Linux distributions, note that we have a new "
-#~ "dependency on QtCharts QML plugin, and the minimum required version of "
-#~ "Qt5 is now 5.12. We also moved from using QtQuick.Controls 1 to QtQuick."
-#~ "Controls 2."
-#~ msgstr ""
-#~ "Pro tvůrce distribučních balíčků GNU/Linuxu upozorňujeme, že máme novou "
-#~ "závislost na zásuvném modulu QtCharts QML a minimální požadovaná verze "
-#~ "Qt5 je nyní 5.12. Také jsme místo QtQuick.Controls 1 přešli na QtQuick."
-#~ "Controls 2."
