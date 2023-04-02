@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-03-27 00:53+0000\n"
-"PO-Revision-Date: 2023-01-21 11:53+0200\n"
+"PO-Revision-Date: 2023-04-01 20:06+0300\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
 "Language: sq\n"
@@ -43,7 +43,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr "Ai përmban gjithashtu disa përditësime të vockla përkthimesh"
+msgstr "Ai përmban gjithashtu disa përditësime të vockla përkthimesh."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -64,20 +64,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230329.html"
 msgid "Release GCompris 3.2"
-msgstr "Hedhje në qarkullim e GCompris 3.0"
+msgstr "Hedhje në qarkullim e GCompris 3.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230329.html"
 msgid "Today we are releasing GCompris version 3.2."
-msgstr "Sot hedhim në qarkullim GCompris version 3.1."
+msgstr "Sot hedhim në qarkullim GCompris version 3.2."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -86,6 +80,9 @@ msgid ""
 "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
 "and music activities."
 msgstr ""
+"Ky version i ri përmban disa ndreqje të metash në një numër veprimtarish, të "
+"tilla si “Njihuni me kodin Ndërkombëtar Mors”, “Kontrolloni tubacionin” dhe "
+"veprimtari muzikore."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -93,6 +90,8 @@ msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
 msgstr ""
+"Përmban gjithashtu elementë të rinj grafikë për krejt veprimtaritë për "
+"kujtesën dhe për “Baby puzzle”."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -100,38 +99,40 @@ msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
 "which allows users to force the difficulty filter at a given value or range."
 msgstr ""
+"Është shtuar një argument i ri për rresht urdhrash (--difficulty {value|min-"
+"max}) që u lejon përdoruesve të aplikojnë detyrimisht për filtrin e "
+"vështirësisë një vlerë apo një interval të dhënë."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
 msgstr ""
+"Lloji Andika i shkronjave është përditësuar me versionin e tij më të ri "
+"(6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Është i përkthyer plotësisht në gjuhët vijuese:"
 
 #. list item
 msgctxt "20230329.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
@@ -139,247 +140,247 @@ msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 #: gcompris.py:82
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "Anglishte Britanike"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "Anglishte Amerikane"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Azerbajxhanase"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bullgarisht"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr ""
+msgstr "Bretonisht"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr ""
+msgstr "Bjellorusisht"
 
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanisht"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "Katalanisht (Valencie)"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr ""
+msgstr "Çekisht"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "Danisht"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "German"
-msgstr ""
+msgstr "Gjermanisht"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr ""
+msgstr "Greqisht"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr ""
+msgstr "Spanjisht"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr ""
+msgstr "Estonisht"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr ""
+msgstr "Baskisht"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr ""
+msgstr "Finlandisht"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "French"
-msgstr ""
+msgstr "Frëngjisht"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr ""
+msgstr "Irlandisht"
 
 #: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Galike Skoceze"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr ""
+msgstr "Galicisht"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebraisht"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr ""
+msgstr "Indiane"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr ""
+msgstr "Kroatisht"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr ""
+msgstr "Hungarisht"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonezisht"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Italian"
-msgstr ""
+msgstr "Italisht"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr ""
+msgstr "Koreane"
 
 #: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Lituanisht"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr ""
+msgstr "Letonisht"
 
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Macedonian"
-msgstr ""
+msgstr "Maqedonisht"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Malayalam"
-msgstr ""
+msgstr "Malajalamisht"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Dutch"
-msgstr ""
+msgstr "Holandisht"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Norvegjishte Nynorsk"
 
 #: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Polish"
-msgstr ""
+msgstr "Polonisht"
 
 #: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugalisht"
 
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Brazilian Protuguese"
-msgstr ""
+msgstr "Portugalishte Brazili"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Romanian"
-msgstr ""
+msgstr "Rumanisht"
 
 #: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Russian"
-msgstr ""
+msgstr "Rusisht"
 
 #: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Slovak"
-msgstr ""
+msgstr "Sllovakisht"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Slovenian"
-msgstr ""
+msgstr "Sllovenisht"
 
 #: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Albanian"
-msgstr ""
+msgstr "Shqip"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr ""
+msgstr "Serbisht"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Swedish"
-msgstr ""
+msgstr "Suedisht"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr ""
+msgstr "Tamilisht"
 
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr ""
+msgstr "Tajlandisht"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Turkish"
-msgstr ""
+msgstr "Turqisht"
 
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrainase"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Kineze e Thjeshtuar"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Kineze Tradicionale"
 
 #: gcompris.py:255
 msgid ""
@@ -1027,7 +1028,7 @@ msgstr "Matematikë"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr ""
+msgstr "Puzzle"
 
 #: template/screenshots.html:45
 msgid "Reading"
