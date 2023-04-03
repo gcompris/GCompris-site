@@ -242,7 +242,7 @@ templateEnv.install_gettext_callables(t.gettext, t.ngettext, newstyle=True, pget
 # Specify any input variables to the template as a dictionary.
 templateVars = {
     "locale": locale,
-    "direction": "rtl" if locale == "he" else "ltr",
+    "direction": "rtl" if locale in ("ar", "he") else "ltr",
     "suffix": suffix,
     "language": language,
     "revision_date": today.strftime("%Y-%m-%d"),
