@@ -81,6 +81,7 @@ set_locale(locale)
 gcomprisLocales = {
     "en_GB": {"original": "UK English", "translated": t.pgettext("language name, item list", "UK English")},
     "en_US": {"original": "American English", "translated": t.pgettext("language name, item list", "American English")},
+    "ar": {"original": "العربية", "translated": t.pgettext("language name, item list", "Arabic")},
     "az": {"original": "Azərbaycanca", "translated": t.pgettext("language name, item list", "Azerbaijani")},
     "bg": {"original": "български", "translated": t.pgettext("language name, item list", "Bulgarian")},
     "br": {"original": "Brezhoneg", "translated": t.pgettext("language name, item list", "Breton")},

@@ -1,5 +1,6 @@
 <?php
 $Destination['en'] = '-en';
+$Destination['ar'] = '-ar';
 $Destination['be'] = '-be';
 $Destination['br'] = '-br';
 // $Destination['bg'] = '-bg';
