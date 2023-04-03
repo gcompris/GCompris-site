@@ -115,7 +115,7 @@ gcomprisLocales = {
     "nn": {"original": "Norsk (nynorsk)", "translated": t.pgettext("language name, item list", "Norwegian Nynorsk")},
     "pl": {"original": "Polski", "translated": t.pgettext("language name, item list", "Polish")},
     "pt": {"original": "Português", "translated": t.pgettext("language name, item list", "Portuguese")},
-    "pt_BR": {"original": "Português do Brasil", "translated": t.pgettext("language name, item list", "Brazilian Protuguese")},
+    "pt_BR": {"original": "Português do Brasil", "translated": t.pgettext("language name, item list", "Brazilian Portuguese")},
     "ro": {"original": "Română", "translated": t.pgettext("language name, item list", "Romanian")},
     "ru": {"original": "Русский", "translated": t.pgettext("language name, item list", "Russian")},
     "sk": {"original": "Slovenský", "translated": t.pgettext("language name, item list", "Slovak")},
