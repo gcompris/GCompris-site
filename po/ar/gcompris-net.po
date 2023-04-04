@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-27 00:53+0000\n"
-"PO-Revision-Date: 2023-04-02 23:48+0400\n"
+"POT-Creation-Date: 2023-04-04 00:51+0000\n"
+"PO-Revision-Date: 2023-04-03 06:55+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -24,12 +24,12 @@ msgstr ""
 #. news title
 msgctxt "20230121.html"
 msgid "Release GCompris 3.1"
-msgstr ""
+msgstr "إصدار \"فهمت\" 3.1"
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "Today we are releasing GCompris version 3.1."
-msgstr ""
+msgstr "اليوم أطلقنا إصدار \"فهمت\" 3.1."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -38,11 +38,13 @@ msgid ""
 "\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
 "release to fix the issue."
 msgstr ""
+"لقد لاحظنا أن الإصدار 3.0 فيه خطأ فادح في الإصدار الجديد لنشاط\\\"المقارنة\\"
+"\"، قررنا إطلاق النسخة 3.1 بسرعة لحل المشكلة."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "It also contains some little translation update."
-msgstr ""
+msgstr "كما أن فيها تحديثات بسيطة للترجمة."
 
 #. paragraph
 msgctxt "20230121.html"
@@ -52,21 +54,25 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
+"يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري اي وماك-أوس "
+"على <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">صفحة "
+"التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-Droid "
+"ومتجر وندوز."
 
 #. paragraph
 msgctxt "20230121.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "شكر جزيل للجميع, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230329.html"
 msgid "Release GCompris 3.2"
-msgstr ""
+msgstr "الإصدار \"فهمت\" 3.2"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "Today we are releasing GCompris version 3.2."
-msgstr ""
+msgstr "اليوم أطلقنا الإصدار \"فهمت\" 3.2."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -75,13 +81,15 @@ msgid ""
 "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
 "and music activities."
 msgstr ""
+"يصحح الإصدار الجديد بعض الثغرات في بعض الأنشطة مثل: \\\"اكتشف شفرة مورس\\\"، "
+"\\\"تحكم في خرطوم الماء\\\"ونشاطات الموسيقى."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
-msgstr ""
+msgstr "فيه صور جديدة ورسوم لكل نشاطات الذاكرة و \\\"أحجية الصغار\\\"."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -89,298 +97,308 @@ msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
 "which allows users to force the difficulty filter at a given value or range."
 msgstr ""
+"أضيف معامل جديد لسطر الأوامر(--difficulty {value|min-max}) يسمح للمستخدمين "
+"بضبط مرشّح الصعوبة إلى قيمة معينة أو مجال."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
+msgstr "حُدّثت خطّ Andika إلى آخر إصدار له(6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "تُرجم بالكامل للغات التالية:"
 
 #. list item
 msgctxt "20230329.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "تمت ترجمته جزئيا باللغات التالية:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "شكرا لكم جميعًا, <br/>Timothée & Johnny"
 
 #: gcompris.py:82
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "الإنجليزية بريطانية"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "American English"
-msgstr "إنجليزية أمريكية"
+msgstr "الإنجليزية الأمريكية"
 
 #: gcompris.py:84
+msgctxt "language name, item list"
+msgid "Arabic"
+msgstr ""
+
+#: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Azerbaijani"
 msgstr "الأذربيجانية"
 
-#: gcompris.py:85
+#: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Bulgarian"
 msgstr "البلغارية"
 
-#: gcompris.py:86
+#: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Breton"
 msgstr "البريتونية"
 
-#: gcompris.py:87
+#: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Belarusian"
 msgstr "البيلاروسيّة"
 
-#: gcompris.py:88
+#: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Catalan"
 msgstr "الكاتالانيّة"
 
-#: gcompris.py:89
+#: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
 msgstr "الكاتاﻻنية (فالينسيا)"
 
-#: gcompris.py:90
+#: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Czech"
 msgstr "التشيكية"
 
-#: gcompris.py:91
+#: gcompris.py:92
 msgctxt "language name, item list"
 msgid "Danish"
 msgstr "الدنماركية"
 
-#: gcompris.py:92
+#: gcompris.py:93
 msgctxt "language name, item list"
 msgid "German"
 msgstr "الألمانية"
 
-#: gcompris.py:93
+#: gcompris.py:94
 msgctxt "language name, item list"
 msgid "Greek"
 msgstr "اليونانية"
 
-#: gcompris.py:94
+#: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Spanish"
 msgstr "الإسبانيّة"
 
-#: gcompris.py:95
+#: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Estonian"
 msgstr "الإستونية"
 
-#: gcompris.py:96
+#: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Basque"
 msgstr "الباسكيّة"
 
-#: gcompris.py:97
+#: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Finnish"
 msgstr "الفنلنديّة"
 
-#: gcompris.py:98
+#: gcompris.py:99
 msgctxt "language name, item list"
 msgid "French"
 msgstr "الفرنسيّة"
 
-#: gcompris.py:99
+#: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Irish"
 msgstr "الإيرلنديّة"
 
-#: gcompris.py:100
+#: gcompris.py:101
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
 msgstr "الجالية اﻻسكوتلندية"
 
-#: gcompris.py:101
+#: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Galician"
 msgstr "الجليقيّة"
 
-#: gcompris.py:102
+#: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Hebrew"
 msgstr "العبرية"
 
-#: gcompris.py:103
+#: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Hindi"
 msgstr "الهندية"
 
-#: gcompris.py:104
+#: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Croatian"
 msgstr "الكرواتية"
 
-#: gcompris.py:105
+#: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hungarian"
 msgstr "المجرية"
 
-#: gcompris.py:106
+#: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Indonesian"
 msgstr "الإندونيسيّة"
 
-#: gcompris.py:107
+#: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Italian"
 msgstr "الإيطالية"
 
-#: gcompris.py:108
+#: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Korean"
 msgstr "الكورية"
 
-#: gcompris.py:109
+#: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Lithuanian"
 msgstr "الليتوانيّة"
 
-#: gcompris.py:110
+#: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Latvian"
 msgstr "اللاتفية"
 
-#: gcompris.py:111
+#: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Macedonian"
 msgstr "المقدونية"
 
-#: gcompris.py:112
+#: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Malayalam"
 msgstr "المالايالامية"
 
-#: gcompris.py:113
+#: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Dutch"
 msgstr "الهولندية"
 
-#: gcompris.py:114
+#: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
 msgstr "النرويجية النينورسكية"
 
-#: gcompris.py:115
+#: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Polish"
 msgstr "البولنديّة"
 
-#: gcompris.py:116
+#: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Portuguese"
 msgstr "البرتغالية"
 
-#: gcompris.py:117
+#: gcompris.py:118
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Brazilian Protuguese"
 msgctxt "language name, item list"
-msgid "Brazilian Protuguese"
+msgid "Brazilian Portuguese"
 msgstr "الرتغالية البرازيلة"
 
-#: gcompris.py:118
+#: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Romanian"
 msgstr "الرومانية"
 
-#: gcompris.py:119
+#: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Russian"
 msgstr "الروسية"
 
-#: gcompris.py:120
+#: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "السلوفاكية"
 
-#: gcompris.py:121
+#: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "السلوفينية"
 
-#: gcompris.py:122
+#: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "الألبانية"
 
-#: gcompris.py:123
+#: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "الصّربيّة"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "السويدية"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "التاميلية"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "التايلاندية"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "التركية"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "الأوكرانية"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "الصينية المبسّطة"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "الصينية التقليدية"
 
-#: gcompris.py:255
+#: gcompris.py:256
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
-msgstr ""
+msgstr "هذا البرنامج حزمة غنو صدر تحت ترخيص GNU Affero العام."
 
-#: gcompris.py:256
+#: gcompris.py:257
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "زايد السعيدي"
+msgstr "زايد السعيدي,د.طه زروقي"
 
-#: gcompris.py:382
+#: gcompris.py:383
 msgid "For Christmas, offer GCompris to your children."
-msgstr ""
+msgstr "في الأعياد، اهدِ\"فهمت\" لأطفالك."
 
 #: template/base.html:71 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
@@ -403,7 +421,7 @@ msgstr "اللقطات"
 
 #: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
-msgstr ""
+msgstr "المدارس"
 
 #: template/base.html:76
 msgid "Manual"
@@ -416,60 +434,66 @@ msgstr "ساهم"
 #: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
-msgstr ""
+msgstr "آخر تحديث للموقع في %(revision_date)s."
 
 #: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr ""
+msgstr "ترجم الموقع :%(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
-msgstr ""
+msgstr "برنامج \"فهمت\" في  الأعياد"
 
 #: template/christmas.html:15
 msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
+"في الأعياد، اعرض\"فهمت\" لأطفالك. إنه مجاني وسيوفر لهم ساعات من المرح "
+"التعليمي."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr ""
+msgstr "نزّل \"فهمت\" من صفحة التنزيل"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr ""
+msgstr "نزّّل \"فهمت\" من متجر Play"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr ""
+msgstr "نزّّل \"فهمت\" من متجر وندوز"
 
 #: template/donate.html:13
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
-msgstr ""
+msgstr "إذا أعجبك \"فهمت\" أو أعجب أطفالك أو مدرستك، ادعم المشروع بتبرّع."
 
 #: template/donate.html:14
 msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
 msgstr ""
+"يستغرق تطوير البرامج الكثير من الوقت، ويحتاج إلى أجهزة ومتطلبات أخرى لها "
+"تكلفة."
 
 #: template/donate.html:16
 msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
 msgstr ""
+"إذا كنت ترغب في دعم تطوير \"فهمت\" بطريقة مستدامة،من فضلك كن أحد رعاة \"فهمت"
+"\" على Patreon:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
-msgstr ""
+msgstr "أصبح من رعاة Patron"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr ""
+msgstr "أيضًا، تبرع لكيدي بما تجود به نفسك:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
@@ -477,7 +501,7 @@ msgstr "تبرع لكِيدِي"
 
 #: template/donate.html:24
 msgid "Thanks for supporting Free Software in education."
-msgstr ""
+msgstr "شكرا لدعمك البرمجيات الحرة في التعليم."
 
 #: template/donate.html:27
 msgid "Patreon"
@@ -485,7 +509,7 @@ msgstr "باتريون"
 
 #: template/donate.html:30
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr ""
+msgstr "شكرًا لكل من يدعم \"فهمت\" على Patreon!"
 
 #: template/downloads.html:16
 msgid "Windows"
@@ -496,18 +520,20 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
+"نزّل \"فهمت\" <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">من متجر وندوز</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr ""
+msgstr "ملاحظة: يتطلب متجر ويندوز نظام التشغيل ويندوز 10."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr ""
+msgstr "عدا ذلك ، يمكنك تنزيل برنامج التثبيت من الروابط أدناه."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
-msgstr ""
+msgstr "متطلبات النظام: ويندوز 7 أو 8 أو 10 مع دعم أوبن جي ال 2."
 
 #: template/downloads.html:29
 msgid ""
@@ -515,6 +541,9 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
+"ملاحظة: إذا كان نظامك لا يدعم OpenGL2 أو لا يعمل بشكل صحيح، فالرجاء استخدام  "
+"مدخل \"فهمت\" (الوضع الآمن) في قائمة البدء لتشغيل \"فهمت\" مع وضع عرض "
+"البرنامج الذي لا يستخدم OpenGL."
 
 #: template/downloads.html:30
 msgid ""
@@ -522,6 +551,8 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
+"إذا كنت حقًا بحاجة إلى إصدار يعمل على نظام التشغيل Windows XP، أو إذا كان "
+"نظامك لا يدعم الإصدار الجديد، فاستخدم آخر نسخة من \"فهمت\" 15.10 القديم."
 
 #: template/downloads.html:34
 msgid ""
@@ -529,6 +560,8 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
+"لتمكين جميع الأنشطة في هذا الإصدار القديم، استخدم الكود \"200202\" في مربع "
+"الإدخال الذي يحتوي على الكلمة CODE عند بدء تشغيل التطبيق."
 
 #: template/downloads.html:44
 msgid "Android"
@@ -536,7 +569,7 @@ msgstr "أندوريد"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr ""
+msgstr "يتم توزيع إصدار أندرويد في متجر Play."
 
 #: template/downloads.html:52
 msgid ""
@@ -544,18 +577,24 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
+"نحن ندعم كلاً من نظام التشغيل أندرويد 32بت و 64 بت من متجر Play. سيُنزّل "
+"الإصدار المناسب تلقائيًا اعتمادًا على نظامك أندرويد الخاص بك."
 
 #: template/downloads.html:54
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr ""
+"يتوفر \"فهمت\" أيضًا في F-Droid، وهو مستودع تطبيقات أندرويد مجاني مفتوح "
+"المصدر."
 
 #: template/downloads.html:59
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
+"يمكنك أيضًا تنزيل ملف apk مباشرة من موقعنا على الإنترنت لتثبيته يدويًا على "
+"جهازك."
 
 #: template/downloads.html:64
 msgid ""
@@ -563,6 +602,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
+"بالنسبة للأجهزة التي تعمل بنظام أندرويد 2.3 إلى 4.0 ، فإن آخر إصدار متوافق "
+"هو <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
+"release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
 #: template/downloads.html:75
 msgid "macOS"
@@ -570,27 +612,27 @@ msgstr "ماك اوس"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr ""
+msgstr "يمكنك الحصول على إصدار ماك أوس من الرابط أدناه."
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr ""
+msgstr "تم تصميمه واختباره على نظام التشغيل macOS 10.13."
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
-msgstr ""
+msgstr "غنو/لينكس"
 
 #: template/downloads.html:97
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
-msgstr ""
+msgstr "تحقّق مما إذا كانت توزيعتك توفّر حزمة لأحدث إصدار من \"فهمت\"."
 
 #: template/downloads.html:98
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
-msgstr ""
+msgstr "نوفر أيضًا حزمًا مستقلة لـ غنو/لينكس، يُفترض أن تعمل على أي توزيعة حديثة."
 
 #: template/downloads.html:98
 msgid "System requirements:"
@@ -601,18 +643,23 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
+"لاستخدامه ، افتح طرفية في المجلد حيث نزلت برنامج التثبيت ونفّذ هذه الأوامر:"
 
 #: template/downloads.html:108 template/downloads.html:135
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
+"ثم اقرأ الترخيص أو اضغط على q لتخطيها، وأجب بنعم على الأسئلة، وسيثبّت "
+"البرنامج في مجلد جديد بجوار برنامج التثبيت."
 
 #: template/downloads.html:109 template/downloads.html:136
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
+"أخيرًا ، لبدء تشغيل \"فهمت\"، انتقل إلى المجلد الجديد، في bin، وانقر نقرًا "
+"مزدوجًا على gcompris-qt.sh."
 
 #: template/downloads.html:110
 msgid ""
@@ -622,6 +669,11 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
+"ملاحظة: إذا كان نظامك لا يدعم OpenGL2 أو لا يعمل بشكل صحيح، فاستخدم الخيار  "
+"\"--software-renderer\" في الطرفية في نهاية الأمر   gcompris-qt.sh. أو "
+"بطريقة أخرى، حرّر ملف الإعدادات  (في ~/.config/gcomprs-qt/gcompris-qt.conf): "
+"ابحث عن السطرline renderer=auto , استبدل كلمة auto بكلمة software واحفظ "
+"الملف."
 
 #: template/downloads.html:111
 msgid ""
@@ -629,6 +681,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
+"بدلاً عن ذلك، ثبّت \"فهمت\" من <a href=\"https://flathub.org/apps/details/org."
+"kde.gcompris\">Flathub</a> أو من  <a href=\"https://snapcraft.io/gcompris"
+"\">Snap store</a>."
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
@@ -636,11 +691,11 @@ msgstr "راسبيري باي"
 
 #: template/downloads.html:126
 msgid "We provide a standalone package for Raspberry Pi."
-msgstr ""
+msgstr "نحن نقدم حزمة قائمة بذاتها لـ Raspberry Pi."
 
 #: template/downloads.html:126
 msgid "It was tested only on Raspberry Pi 3."
-msgstr ""
+msgstr "تم اختباره فقط على Raspberry Pi 3."
 
 #: template/downloads.html:146
 msgid "Source code"
@@ -648,17 +703,19 @@ msgstr "الشيفرة المصدرية"
 
 #: template/downloads.html:150
 msgid "The source code is available under the AGPLv3 license."
-msgstr ""
+msgstr "شفرة المصدر متاحة بموجب ترخيص AGPLv3."
 
 #: template/downloads.html:163
 msgid "SHA-256 and GPG"
-msgstr ""
+msgstr "SHA-256 و GPG"
 
 #: template/downloads.html:167
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
+"للتحقق من سلامة تنزيلاتك، احصل على رمز SHA-256 الأصلي للملفات بإضافة \"."
+"sha256\" في نهاية عنوان رابط التنزيل."
 
 #: template/downloads.html:168
 #, python-format
@@ -666,18 +723,20 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
+"يتم توقيع ملف أرشيف المصدر ومُثبتات لينكس باستخدام مفتاح GPG من Timothée Giet "
+"(public key: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
-msgstr ""
+msgstr "ملفات التوقيع:"
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
-msgstr ""
+msgstr "برنامج \"فهمت\" التعليمي"
 
 #: template/index.html:55
 msgid "Download GCompris"
-msgstr ""
+msgstr "تنزيل \"فهمت\""
 
 #: template/index.html:58
 msgid "Latest news"
@@ -705,7 +764,7 @@ msgstr "تعلّم عملية الجّمع"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr ""
+msgstr "اكتشف دورة الماء"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
@@ -717,7 +776,7 @@ msgstr "انقر الحرف الصّغير"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr ""
+msgstr "شاهد كل لقطات الشاشة"
 
 #: template/index.html:153
 msgid ""
@@ -735,37 +794,37 @@ msgstr "بعض الأنشطة هدفها الترفيه، ولكنّها -مع �
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
-msgstr ""
+msgstr "فيما يلي قائمة بفئات الأنشطة مع بعض الأمثلة:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr ""
+msgstr "اكتشاف الحاسوب: لوحة المفاتيح والفأرة وشاشة اللمس ..."
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr ""
+msgstr "القراءة: الحروف، الكلمات، تدرب على القراءة، كتابة النص ..."
 
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr ""
+msgstr "الحساب: الأعداد، العمليات، حفظ الجداول، العد ..."
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr ""
+msgstr "العلم: قفل القناة، دورة المياه، الطاقة المتجددة ..."
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr ""
+msgstr "الجغرافيا: البلدان والمناطق والثقافة ..."
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr ""
+msgstr "الألعاب: الشطرنج، الذاكرة، محاذاة 4، المشنوق، تيك تاك تو ..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr ""
+msgstr "أخرى: الألوان ، الأشكال ، برايل ، تعلم معرفة الوقت ..."
 
 #: template/index.html:165
 msgid ""
@@ -774,16 +833,21 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
+"تقدم \"فهمت\" حاليًا أكثر من 100 نشاط، ويجري تطوير المزيد. \"فهمت\" هو برنامج "
+"حرّ وهذا يعني أنه يمكنك تكييفه مع احتياجاتك الخاصة، وتحسينه، والأهم من ذلك "
+"مشاركته مع الأطفال في كل مكان."
 
 #: template/index.html:166
 msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
+"مشروع \"فهمت\" مطوّر ومستضاف من <a target=\"_blank\" rel=\"noopener\" href="
+"\"https://www.kde.org/\">مجتمع كيدي</a>."
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
-msgstr ""
+msgstr "جميع الأخبار"
 
 #: template/schools.html:13
 msgid ""
@@ -792,6 +856,10 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
+"برنامج \"فهمت\" هو أداة تعلم إلكتروني لتوفير تمارين تدريبية داخل الفصول "
+"الدراسية وخارجها. إنه برنامج حر صادر برخصة رخصة جنو العمومية العامة. إنه "
+"متعدد المنصات (لينكس، وندوز، ماك-أوس، أندرويد) و يشتغل على أجهزة الحاسوب "
+"الضعيفة."
 
 #: template/schools.html:14
 msgid ""
@@ -799,41 +867,46 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
+"ينتشر برنامج \"فهمت\" منذ أكثر من عشرين عامًا في المدارس في أنحاء العالم "
+"ويقدم أكثر من 150 نشاطًا تغطي المجالات التربوية الرئيسية، تشمل:"
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr ""
+msgstr "تعلم كيفية استخدام الحاسوب"
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
-msgstr ""
+msgstr "التدرب على القراءة بأنشطة لتعلم الحروف والكلمات والمجموعات المعجمية"
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr ""
+"اكتساب الكفاءة في الرياضيات من خلال ممارسة العد والحساب والقياسات والألغاز"
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr ""
+msgstr "اكتشاف العالم من خلال المنطق والفنون والموسيقى"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
-msgstr ""
+msgstr "استكشاف العلوم والعلوم الإنسانية من خلال التجريب والتاريخ والجغرافيا"
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
-msgstr ""
+msgstr "تنمية التفكير الاستراتيجي بألعاب الألواح"
 
 #: template/schools.html:24
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
+"لا تتطلب \"فهمت\" اتصالاً بالإنترنت، ولا تجمع أي بيانات، وبالتالي فهي تلتزم "
+"بشكل صارم باللوائح العامة لحماية البيانات في الاتحاد الأوروبي."
 
 #: template/schools.html:26
 msgid ""
@@ -845,6 +918,12 @@ msgid ""
 "children who can only read numbers or make it harder for children who can "
 "read both numbers and words."
 msgstr ""
+"يتيح \"فهمت\" 1.0 للمعلمين تحديد مستوى الأنشطة وفقًا لمهارة كل طفل. على سبيل "
+"المثال، في نشاط يتيح للأطفال التمرنّ على الأعداد، يمكنك تحديد الأعداد التي "
+"يمكنهم العمل بها، وترك أعداد أكبر أصعبة لمرحلة لاحقة. أو في نشاط على الطفل "
+"فيه ترتيب الصور ترتيبًا زمنيًا، يمكنك تصنيف النشاط للأطفال الذين يمكنهم قراءة "
+"الأعداد فقط أو جعل الأمر أكثر صعوبة بالنسبة للأطفال القادرين على قراءة "
+"الأعداد والكلمات معًا."
 
 #: template/schools.html:29
 msgid ""
@@ -852,6 +931,9 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
+"تتيح لك نظام الدرجات هذه اقتراح تمارين للتلاميذ لممارسة الرياضيات واللغة "
+"والعلوم والعلوم الإنسانية. سيكونون قادرين أيضًا على لعب ألعاب استراتيجية "
+"لتحسين مهاراتهم في حل المشكلات."
 
 #: template/schools.html:31
 msgid ""
@@ -859,6 +941,9 @@ msgid ""
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
 msgstr ""
+"لتوفير خلفية تربوية قوية، استندت مستويات أنشطة \"فهمت\" إلى منهج المدرسة "
+"الابتدائية الفرنسية، الذي يحدد ما يجب على المعلمين الفرنسيين تدريسه في "
+"الفصول الدراسية."
 
 #: template/screenshot.html:33
 msgid "Description:"
