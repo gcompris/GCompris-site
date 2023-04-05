@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.2 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Šiandien išleidžiame GCompris 3.2 versiją.</p>
+<p>Šioje naujoje versijoje ištaisyta keletas klaidų pamokėlėse „Atrask Morzės abėcėlę“, „Valdyk gaisrininko žarną“ ir muzikos pamokėlėse.</p>
+<p>Taip pat atnaujinti paveikslėliai atminties lavinimo pamokėlėse ir „Vaikiškoje dėlionėje“.</p>
+<p>Pridėtas naujas komandinės eilutės argumentas (--difficulty {value|min-max}), leidžiantis pasirinkti tik tam tikro sudėtingumo lygio (konkrečios reikšmės arba intervalo) pamokėles.</p>
+<p>„Andika“ šriftas atnaujintas į naujausią versiją (6.200).</p>
+
+<p>Jis visiškai išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Jis taip pat iš dalies išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+
+{% endblock %}
