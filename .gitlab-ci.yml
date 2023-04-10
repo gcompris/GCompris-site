@@ -1,6 +1,6 @@
 suse_tumbleweed_qt515:
   stage: build
-  image: kdeorg/ci-suse-qt515:latest
+  image: invent-registry.kde.org/sysadmin/ci-images/suse-qt515:latest
   tags:
     - Linux
   variables:
