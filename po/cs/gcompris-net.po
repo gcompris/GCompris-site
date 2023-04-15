@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-04-04 00:51+0000\n"
-"PO-Revision-Date: 2023-03-29 16:22+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2023-04-05 22:45+0200\n"
+"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #. news title
 msgctxt "20230121.html"
@@ -83,6 +83,9 @@ msgid ""
 "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
 "and music activities."
 msgstr ""
+"Tato nová verze obsahuje opravy chyb ve více aktivitách, jako jsou \\"
+"\"Objevuj mezinárodní Morseovu abecedu\\\", \\\"Ovládej hadici\\\" a hudební "
+"aktivity."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -90,6 +93,7 @@ msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
 msgstr ""
+"Také obsahuje novou grafiku pro všechna pexesa a pro \\\"Dětské puzzle\\\"."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -97,33 +101,36 @@ msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
 "which allows users to force the difficulty filter at a given value or range."
 msgstr ""
+"Byl přidán nový argument příkazové řádky (--difficulty {hodnota|minimum-"
+"maximum}), který uživatelům umožňuje vynutit filtr obtížnosti na danou "
+"hodnotu či rozsah."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
+msgstr "Font Andika byl aktualizován na nejnovější verzi (6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Je plně přeloženo v následujících jazycích:"
 
 #. list item
 msgctxt "20230329.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Také je částečně přeloženo do následujících jazyků:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
 msgctxt "20230329.html"
@@ -143,7 +150,7 @@ msgstr "Americká angličtina"
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabština"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
@@ -313,7 +320,7 @@ msgstr "Portugalština"
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brazilská portugalština"
 
 #: gcompris.py:119
 msgctxt "language name, item list"
