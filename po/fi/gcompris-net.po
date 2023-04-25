@@ -1,0 +1,928 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# Tommi Nieminen <translator@legisign.org>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-04-04 00:51+0000\n"
+"PO-Revision-Date: 2023-04-20 17:37+0300\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.12.3\n"
+
+#. news title
+msgctxt "20230121.html"
+msgid "Release GCompris 3.1"
+msgstr "GCompris 3.1 -julkaisu"
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "Today we are releasing GCompris version 3.1."
+msgstr "Tänään julkistamme GComprisin version 3.1."
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"As we noticed that version 3.0 contained a critical bug in the new \\"
+"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
+"release to fix the issue."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "It also contains some little translation update."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+
+#. paragraph
+msgctxt "20230121.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Kiitokset kaikille,<br/>Timothée ja Johnny"
+
+#. news title
+msgctxt "20230329.html"
+msgid "Release GCompris 3.2"
+msgstr "GCompris 3.2 -julkaisu"
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "Today we are releasing GCompris version 3.2."
+msgstr "Tänään julkistamme GComprisin version 3.2."
+
+#. paragraph
+msgctxt "20230329.html"
+msgid ""
+"This new version contains some bug fixes on multiple activities such as \\"
+"\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
+"and music activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid ""
+"It also contains new graphics for all memory activities and for \\\"Baby "
+"puzzle\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid ""
+"A new command-line argument (--difficulty {value|min-max}) has been added "
+"which allows users to force the difficulty filter at a given value or range."
+msgstr ""
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "The Andika font has been updated to its latest version (6.200)."
+msgstr "Andika-fontti on päivitetty viimeisimpään versioonsa (6.200)."
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Se on käännetty täydellisesti seuraaville kielille:"
+
+#. list item
+msgctxt "20230329.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Osittain se on käännetty myös seuraaville:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20230329.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
+
+#. paragraph
+msgctxt "20230329.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Kiitokset kaikille,<br/>Timothée ja Johnny"
+
+#: gcompris.py:82
+msgctxt "language name, item list"
+msgid "UK English"
+msgstr "brittienglanti"
+
+#: gcompris.py:83
+msgctxt "language name, item list"
+msgid "American English"
+msgstr "amerikanenglanti"
+
+#: gcompris.py:84
+msgctxt "language name, item list"
+msgid "Arabic"
+msgstr "arabia"
+
+#: gcompris.py:85
+msgctxt "language name, item list"
+msgid "Azerbaijani"
+msgstr "azeri"
+
+#: gcompris.py:86
+msgctxt "language name, item list"
+msgid "Bulgarian"
+msgstr "bulgaria"
+
+#: gcompris.py:87
+msgctxt "language name, item list"
+msgid "Breton"
+msgstr "bretoni"
+
+#: gcompris.py:88
+msgctxt "language name, item list"
+msgid "Belarusian"
+msgstr "valkovenäjä"
+
+#: gcompris.py:89
+msgctxt "language name, item list"
+msgid "Catalan"
+msgstr "katalaani"
+
+#: gcompris.py:90
+msgctxt "language name, item list"
+msgid "Catalan (Valencian)"
+msgstr "katalaani (Valencia)"
+
+#: gcompris.py:91
+msgctxt "language name, item list"
+msgid "Czech"
+msgstr "tšekki"
+
+#: gcompris.py:92
+msgctxt "language name, item list"
+msgid "Danish"
+msgstr "tanska"
+
+#: gcompris.py:93
+msgctxt "language name, item list"
+msgid "German"
+msgstr "saksa"
+
+#: gcompris.py:94
+msgctxt "language name, item list"
+msgid "Greek"
+msgstr "kreikka"
+
+#: gcompris.py:95
+msgctxt "language name, item list"
+msgid "Spanish"
+msgstr "espanja"
+
+#: gcompris.py:96
+msgctxt "language name, item list"
+msgid "Estonian"
+msgstr "viro"
+
+#: gcompris.py:97
+msgctxt "language name, item list"
+msgid "Basque"
+msgstr "baski"
+
+#: gcompris.py:98
+msgctxt "language name, item list"
+msgid "Finnish"
+msgstr "suomi"
+
+#: gcompris.py:99
+msgctxt "language name, item list"
+msgid "French"
+msgstr "ranska"
+
+#: gcompris.py:100
+msgctxt "language name, item list"
+msgid "Irish"
+msgstr "Iiri"
+
+#: gcompris.py:101
+msgctxt "language name, item list"
+msgid "Scottish Gaelic"
+msgstr "skotlanningaeli"
+
+#: gcompris.py:102
+msgctxt "language name, item list"
+msgid "Galician"
+msgstr "galicia"
+
+#: gcompris.py:103
+msgctxt "language name, item list"
+msgid "Hebrew"
+msgstr "heprea"
+
+#: gcompris.py:104
+msgctxt "language name, item list"
+msgid "Hindi"
+msgstr "hindi"
+
+#: gcompris.py:105
+msgctxt "language name, item list"
+msgid "Croatian"
+msgstr "kroatia"
+
+#: gcompris.py:106
+msgctxt "language name, item list"
+msgid "Hungarian"
+msgstr "unkari"
+
+#: gcompris.py:107
+msgctxt "language name, item list"
+msgid "Indonesian"
+msgstr "indonesia"
+
+#: gcompris.py:108
+msgctxt "language name, item list"
+msgid "Italian"
+msgstr "italia"
+
+#: gcompris.py:109
+msgctxt "language name, item list"
+msgid "Korean"
+msgstr "korea"
+
+#: gcompris.py:110
+msgctxt "language name, item list"
+msgid "Lithuanian"
+msgstr "liettua"
+
+#: gcompris.py:111
+msgctxt "language name, item list"
+msgid "Latvian"
+msgstr "latvia"
+
+#: gcompris.py:112
+msgctxt "language name, item list"
+msgid "Macedonian"
+msgstr "makedonia"
+
+#: gcompris.py:113
+msgctxt "language name, item list"
+msgid "Malayalam"
+msgstr "malajalam"
+
+#: gcompris.py:114
+msgctxt "language name, item list"
+msgid "Dutch"
+msgstr "hollanti"
+
+#: gcompris.py:115
+msgctxt "language name, item list"
+msgid "Norwegian Nynorsk"
+msgstr "Norjan nynorsk"
+
+#: gcompris.py:116
+msgctxt "language name, item list"
+msgid "Polish"
+msgstr "puola"
+
+#: gcompris.py:117
+msgctxt "language name, item list"
+msgid "Portuguese"
+msgstr "portugali"
+
+#: gcompris.py:118
+msgctxt "language name, item list"
+msgid "Brazilian Portuguese"
+msgstr "brasilianportugali"
+
+#: gcompris.py:119
+msgctxt "language name, item list"
+msgid "Romanian"
+msgstr "romania"
+
+#: gcompris.py:120
+msgctxt "language name, item list"
+msgid "Russian"
+msgstr "venäjä"
+
+#: gcompris.py:121
+msgctxt "language name, item list"
+msgid "Slovak"
+msgstr "slovakki"
+
+#: gcompris.py:122
+msgctxt "language name, item list"
+msgid "Slovenian"
+msgstr "sloveeni"
+
+#: gcompris.py:123
+msgctxt "language name, item list"
+msgid "Albanian"
+msgstr "albania"
+
+#: gcompris.py:124
+msgctxt "language name, item list"
+msgid "Serbian"
+msgstr "serbia"
+
+#: gcompris.py:125
+msgctxt "language name, item list"
+msgid "Swedish"
+msgstr "ruotsi"
+
+#: gcompris.py:126
+msgctxt "language name, item list"
+msgid "Tamil"
+msgstr "tamili"
+
+#: gcompris.py:127
+msgctxt "language name, item list"
+msgid "Thai"
+msgstr "thai"
+
+#: gcompris.py:128
+msgctxt "language name, item list"
+msgid "Turkish"
+msgstr "turkki"
+
+#: gcompris.py:129
+msgctxt "language name, item list"
+msgid "Ukrainian"
+msgstr "ukraina"
+
+#: gcompris.py:130
+msgctxt "language name, item list"
+msgid "Chinese Simplified"
+msgstr "kiina (yksinkertaistettu)"
+
+#: gcompris.py:131
+msgctxt "language name, item list"
+msgid "Chinese Traditional"
+msgstr "kiina (perinteinen)"
+
+#: gcompris.py:256
+msgid ""
+"This software is a GNU Package and is released under the GNU Affero General "
+"Public License."
+msgstr ""
+"Ohjelma on GNU-paketti ja julkaistu GNU Affero Generic Public -lisenssillä."
+
+#: gcompris.py:257
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Tommi Nieminen"
+
+#: gcompris.py:383
+msgid "For Christmas, offer GCompris to your children."
+msgstr "Tarjoa jouluksi lapsillesi GComprisia."
+
+#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
+#: template/singlenews.html:9
+msgid "News"
+msgstr "Uutiset"
+
+#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
+msgid "Download"
+msgstr "Lataa"
+
+#: template/base.html:73 template/donate.html:3 template/donate.html:8
+msgid "Donate"
+msgstr "Lahjoita"
+
+#: template/base.html:74 template/screenshots.html:3
+#: template/screenshots.html:30
+msgid "Screenshots"
+msgstr "Ruutukaappaukset"
+
+#: template/base.html:75 template/schools.html:3 template/schools.html:8
+msgid "Schools"
+msgstr "Koulut"
+
+#: template/base.html:76
+msgid "Manual"
+msgstr ""
+
+#: template/base.html:77
+msgid "Contribute"
+msgstr "Avusta"
+
+#: template/base.html:108
+#, python-format
+msgid "Site last updated the %(revision_date)s."
+msgstr "Sivuston viimeisin päivitys %(revision_date)s."
+
+# HUOM! Tämä pitää päivittää, kun kääntäjiä tulee lisää: kääntänyt → kääntäneet
+#: template/base.html:113
+#, python-format
+msgid "Site translated by: %(translators_names)s."
+msgstr "Sivuston kääntänyt: %(translators_names)s."
+
+#: template/christmas.html:3 template/christmas.html:10
+msgid "GCompris for Christmas"
+msgstr "GCompris jouluksi"
+
+#: template/christmas.html:15
+msgid ""
+"For Christmas, offer GCompris to your children. It's free and will give them "
+"hours of educational fun."
+msgstr ""
+"Tarjoa jouluksi lapsillesi GComprisia. Se on ilmainen ja tarjoaa heille "
+"tuntikausiksi opettavaista hauskanpitoa."
+
+#: template/christmas.html:16
+msgid "Get GCompris from our Download page"
+msgstr "Hanki GCompris lataussivulta"
+
+#: template/christmas.html:17
+msgid "Get GCompris from the Play Store"
+msgstr "Hanki GCompris Play-kaupasta"
+
+#: template/christmas.html:18
+msgid "Get GCompris from the Windows Store"
+msgstr "Hanki GCompris Windows-kaupasta"
+
+#: template/donate.html:13
+msgid ""
+"You, your children or your school love GCompris. You can support the project "
+"with a donation."
+msgstr ""
+
+#: template/donate.html:14
+msgid ""
+"Developing software takes a lot of time, it needs hardware, and other "
+"requirements that have a cost."
+msgstr ""
+
+#: template/donate.html:16
+msgid ""
+"If you want to support the development of GCompris in a sustainable way, "
+"please become a patron of GCompris on Patreon:"
+msgstr ""
+
+#: template/donate.html:18 template/downloads.html:10 template/index.html:150
+msgid "Become a Patron"
+msgstr ""
+
+#: template/donate.html:21
+msgid "Also, you can donate the amount of your choice to KDE:"
+msgstr ""
+
+#: template/donate.html:22
+msgid "Donate to KDE"
+msgstr "Lahjoita KDE:lle"
+
+#: template/donate.html:24
+msgid "Thanks for supporting Free Software in education."
+msgstr ""
+
+#: template/donate.html:27
+msgid "Patreon"
+msgstr "Patreon"
+
+#: template/donate.html:30
+msgid "Thanks to everyone supporting GCompris on Patreon!"
+msgstr ""
+
+#: template/downloads.html:16
+msgid "Windows"
+msgstr "Windows"
+
+#: template/downloads.html:20
+msgid ""
+"You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
+msgstr ""
+
+#: template/downloads.html:21
+msgid "Note: the Windows Store requires Windows 10."
+msgstr "Huomaa: Windows-kauppa vaatii Windows 10:tä."
+
+#: template/downloads.html:23
+msgid "Else, you can download the installer from the links below."
+msgstr ""
+
+#: template/downloads.html:24
+msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgstr ""
+
+#: template/downloads.html:29
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please use the entry GCompris (Safe Mode) in the start menu to "
+"launch GCompris with the software rendering mode which doesn't use OpenGL."
+msgstr ""
+
+#: template/downloads.html:30
+msgid ""
+"If you really need a version that runs on Windows XP, or if your system "
+"doesn't support the new version, you can use the last installer from the old "
+"GCompris 15.10."
+msgstr ""
+
+#: template/downloads.html:34
+msgid ""
+"To enable all the activities in this old version, you can use the code "
+"200202 in the entry box that contains the word CODE when you start the "
+"application."
+msgstr ""
+
+#: template/downloads.html:44
+msgid "Android"
+msgstr "Android"
+
+#: template/downloads.html:48
+msgid "The version for Android is distributed in the Play Store."
+msgstr ""
+
+#: template/downloads.html:52
+msgid ""
+"We support both android 32bit and 64bit from the Play Store. The appropriate "
+"version is downloaded automatically depending on your Android operating "
+"system."
+msgstr ""
+
+#: template/downloads.html:54
+msgid ""
+"GCompris is also available from F-Droid, the Free and Open Source Android "
+"app repository."
+msgstr ""
+
+#: template/downloads.html:59
+msgid ""
+"You can also directly download the apk from our website to install it "
+"manually on your device."
+msgstr ""
+
+#: template/downloads.html:64
+msgid ""
+"For devices running Android 2.3 to 4.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgstr ""
+
+#: template/downloads.html:75
+msgid "macOS"
+msgstr "macOS"
+
+#: template/downloads.html:79
+msgid "You can get the macOS version from the link below."
+msgstr "macOS-version voi noutaa alla olevasta linkistä."
+
+#: template/downloads.html:80
+msgid "Built and tested on macOS 10.13."
+msgstr "Koostettu ja testattu macOS 10.13:ssa."
+
+#: template/downloads.html:93
+msgid "GNU/Linux"
+msgstr "GNU/Linux"
+
+#: template/downloads.html:97
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+
+#: template/downloads.html:98
+msgid ""
+"We also provide standalone packages for GNU/Linux. They should work on any "
+"recent distribution."
+msgstr ""
+
+#: template/downloads.html:98
+msgid "System requirements:"
+msgstr "Järjestelmävaatimukset:"
+
+#: template/downloads.html:103 template/downloads.html:130
+msgid ""
+"To use it, open a terminal in the folder where you downloaded the installer "
+"and run these commands:"
+msgstr ""
+
+#: template/downloads.html:108 template/downloads.html:135
+msgid ""
+"Then read the license or press q to skip it, answer yes to the questions, "
+"and the software will be installed in a new folder next to the installer."
+msgstr ""
+
+#: template/downloads.html:109 template/downloads.html:136
+msgid ""
+"Finally, to launch gcompris, go in the new folder, in bin, and double-click "
+"on gcompris-qt.sh."
+msgstr ""
+
+#: template/downloads.html:110
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+
+#: template/downloads.html:111
+msgid ""
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
+msgstr ""
+
+#: template/downloads.html:122
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#: template/downloads.html:126
+msgid "We provide a standalone package for Raspberry Pi."
+msgstr ""
+
+#: template/downloads.html:126
+msgid "It was tested only on Raspberry Pi 3."
+msgstr ""
+
+#: template/downloads.html:146
+msgid "Source code"
+msgstr "Lähdekoodi"
+
+#: template/downloads.html:150
+msgid "The source code is available under the AGPLv3 license."
+msgstr ""
+
+#: template/downloads.html:163
+msgid "SHA-256 and GPG"
+msgstr ""
+
+#: template/downloads.html:167
+msgid ""
+"To check the integrity of your downloads, you can get the original SHA-256 "
+"hash of the files by adding \".sha256\" at the end of their download url."
+msgstr ""
+
+#: template/downloads.html:168
+#, python-format
+msgid ""
+"The source tarball and the Linux installers are signed with the GPG key from "
+"Timothée Giet (public key: %(public_gpg_key)s)"
+msgstr ""
+
+#: template/downloads.html:170
+msgid "sig files:"
+msgstr ""
+
+#: template/index.html:3
+msgid "GCompris Educational Software"
+msgstr ""
+
+#: template/index.html:55
+msgid "Download GCompris"
+msgstr ""
+
+#: template/index.html:58
+msgid "Latest news"
+msgstr "Viimeisimmät uutiset"
+
+#: template/index.html:91
+msgid "Click or tap"
+msgstr "Napsauta tai napauta"
+
+#: template/index.html:97
+msgid "Identify colors"
+msgstr "Tunnista värit"
+
+#: template/index.html:103
+msgid "Learn clock"
+msgstr "Opi kello"
+
+#: template/index.html:109
+msgid "Keyboard training"
+msgstr "Harjoittele näppäimistöä"
+
+#: template/index.html:115
+msgid "Learn additions"
+msgstr "Opi yhteenlaskuja"
+
+#: template/index.html:121
+msgid "Discover the watercycle"
+msgstr "Opi veden kierto"
+
+#: template/index.html:127
+msgid "Play chess against your friend"
+msgstr "Pelaa šakkia kaveria vastaan"
+
+#: template/index.html:133
+msgid "Click on a lowercase letter"
+msgstr "Napsauta kirjainta"
+
+#: template/index.html:147
+msgid "View all screenshots"
+msgstr "Näytä kaikki ruutukaappaukset"
+
+#: template/index.html:153
+msgid ""
+"GCompris is a high quality educational software suite, including a large "
+"number of activities for children aged 2 to 10."
+msgstr ""
+
+#: template/index.html:154
+msgid ""
+"Some of the activities are game orientated, but nonetheless still "
+"educational."
+msgstr "Jotkin toiminnoista ovat pelimäisiä mutta silti opettavaisia."
+
+#: template/index.html:155
+msgid "Here is the list of activity categories with some examples:"
+msgstr ""
+
+#: template/index.html:157
+msgid "computer discovery: keyboard, mouse, touchscreen ..."
+msgstr ""
+
+#: template/index.html:158
+msgid "reading: letters, words, reading practice, typing text ..."
+msgstr ""
+
+#: template/index.html:159
+msgid ""
+"arithmetic: numbers, operations, table memory, enumeration, double entry "
+"table ..."
+msgstr ""
+
+#: template/index.html:160
+msgid "science: the canal lock, the water cycle, renewable energy ..."
+msgstr ""
+
+#: template/index.html:161
+msgid "geography: countries, regions, culture ..."
+msgstr ""
+
+#: template/index.html:162
+msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
+msgstr ""
+
+#: template/index.html:163
+msgid "other: colors, shapes, Braille, learn to tell time ..."
+msgstr ""
+
+#: template/index.html:165
+msgid ""
+"Currently GCompris offers more than 100 activities, and more are being "
+"developed. GCompris is free software, it means that you can adapt it to your "
+"own needs, improve it, and most importantly share it with children "
+"everywhere."
+msgstr ""
+
+#: template/index.html:166
+msgid ""
+"The GCompris project is hosted and developed by <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
+msgstr ""
+
+#: template/news.html:14 template/singlenews.html:13
+msgid "All the news"
+msgstr ""
+
+#: template/schools.html:13
+msgid ""
+"GCompris is an e-learning tool to provide training exercises within and "
+"outside the classroom. It is a Free Software released under the GNU General "
+"Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
+"and can run on low power computers."
+msgstr ""
+
+#: template/schools.html:14
+msgid ""
+"GCompris has been present for over twenty years in schools worldwide and "
+"offers more than 150 activities covering the main pedagogical domains, "
+"including:"
+msgstr ""
+
+#: template/schools.html:16
+msgid "Learning how to use a computer"
+msgstr ""
+
+#: template/schools.html:17
+msgid ""
+"Practising reading with activities to learn letters, words and lexical sets"
+msgstr ""
+
+#: template/schools.html:18
+msgid ""
+"Acquiring proficiency in math by practising numeration, arithmetic, measures "
+"and puzzles"
+msgstr ""
+
+#: template/schools.html:19
+msgid "Discovering the world through logic, the arts and music"
+msgstr ""
+
+#: template/schools.html:20
+msgid ""
+"Exploring science and humanities through experimentation, history and "
+"geography"
+msgstr ""
+
+#: template/schools.html:21
+msgid "Developing strategic thinking with board games"
+msgstr ""
+
+#: template/schools.html:24
+msgid ""
+"GCompris does not require an Internet connection, does not collect any data, "
+"and so strictly complies with the EU's General Data Protection Regulation."
+msgstr ""
+
+#: template/schools.html:26
+msgid ""
+"GCompris 1.0 lets educators select the level of activities according to the "
+"skill of each child. For example, in an activity that lets children practice "
+"numbers, you can select what numbers they can work with, leaving higher and "
+"more difficult numbers for a later stage. Or in an activity in which the "
+"child has to order pictures chronologically, you can grade the activity for "
+"children who can only read numbers or make it harder for children who can "
+"read both numbers and words."
+msgstr ""
+
+#: template/schools.html:29
+msgid ""
+"This grading functionality allows you to propose training exercises to "
+"pupils to practice mathematics, language, science and humanities. They will "
+"also be able to play strategic games to train their problem-solving skills."
+msgstr ""
+
+#: template/schools.html:31
+msgid ""
+"To provide a solid pedagogical background, GCompris levels of activities "
+"have been based on the French elementary school curriculum, which defines "
+"what French teachers must teach in class."
+msgstr ""
+
+#: template/screenshot.html:33
+msgid "Description:"
+msgstr "Kuvaus:"
+
+#: template/screenshot.html:36
+msgid "Prerequisite:"
+msgstr "Ennakkovaatimus:"
+
+#: template/screenshot.html:40
+msgid "Goal:"
+msgstr "Päämäärä:"
+
+#. activity handbook
+#: template/screenshot.html:44
+msgid "Manual:"
+msgstr "Käsikirja:"
+
+#. activity thanks to
+#: template/screenshot.html:48
+msgid "Credit:"
+msgstr "Kiitokset:"
+
+#: template/screenshots.html:36
+msgid "Select a category"
+msgstr "Valitse luokka"
+
+#: template/screenshots.html:38
+msgid "All"
+msgstr "Kaikki"
+
+#: template/screenshots.html:39
+msgid "Computer"
+msgstr "Tietokone"
+
+#: template/screenshots.html:40
+msgid "Discovery"
+msgstr ""
+
+#: template/screenshots.html:41
+msgid "Sciences"
+msgstr "Tiede"
+
+#: template/screenshots.html:42
+msgid "Fun"
+msgstr "Hupi"
+
+#: template/screenshots.html:43
+msgid "Mathematics"
+msgstr "Matematiikka"
+
+#: template/screenshots.html:44
+msgid "Puzzle"
+msgstr "Pulma"
+
+#: template/screenshots.html:45
+msgid "Reading"
+msgstr "Lukeminen"
+
+#: template/screenshots.html:46
+msgid "Strategy"
+msgstr "Strategia"
