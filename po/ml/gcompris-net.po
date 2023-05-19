@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-04 00:51+0000\n"
+"POT-Creation-Date: 2023-05-19 00:49+0000\n"
 "PO-Revision-Date: 2021-12-14 23:11+0100\n"
 "Last-Translator: Aiswarya Kaitheri Kandoth <aiswaryakk29@gmail.com>\n"
 "Language-Team: Malayalam <kde-i18n-doc@kde.org>\n"
@@ -19,68 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 20.12.0\n"
 "X-Qt-Contexts: true\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Release GCompris 1.1"
-msgctxt "20230121.html"
-msgid "Release GCompris 3.1"
-msgstr "ജികോംപ്രി 1.1-ന്റെ പ്രകാശനം"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#| "1.1."
-msgctxt "20230121.html"
-msgid "Today we are releasing GCompris version 3.1."
-msgstr ""
-"നമസ്കാരം,<br />\\nജികോംപ്രി പതിപ്പ് 1.1 പ്രകാശനം ചെയ്യുന്ന വിവരം ഞങ്ങൾ സസന്തേഷം "
-"അറിയിക്കുന്നു."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"As we noticed that version 3.0 contained a critical bug in the new \\"
-"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
-"release to fix the issue."
-msgstr ""
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "It also contains some little translation update."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows and "
-#| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-#| "\">download page</a>. This update will be available soon in the Android "
-#| "Play store, the F-Droid repository and the Windows store. The package for "
-#| "Raspberry Pi will also be available soon."
-msgctxt "20230121.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"ഈ പുതിയ പതിപ്പിനായുള്ള ഗ്നു/ലിനക്സ്, വിൻഡോസ്, മാക്ഒയെസ് പാക്കേജുകൾക്ക് <a href=\\\"https://"
-"gcompris.net/downloads{{ suffix }}.html\\\">ഡൗൺലോഡ് പേജിൽ</a> നോക്കുക. ഈ അപ്ഡേറ്റ് "
-"ആൻഡ്രോയ്ഡ് പ്ലേ സ്റ്റോറിലും എഫ്-ഡ്രോയ്സ് റെപ്പോസിറ്ററിയിലും വിൻഡോസ് സ്റ്റോറിലും ഉടൻ തന്നെ "
-"ലഭ്യമാകും. റാസ്ബെറി പൈ പാക്കേജും ഉടൻ തന്നെ ലഭ്യമാകും."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
-msgctxt "20230121.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "എല്ലാവർക്കും നന്ദി, <br/>\\nടിമോത്തെ & ജോന്നി"
 
 #. news title
 #, fuzzy
@@ -156,6 +94,81 @@ msgstr ""
 #| msgctxt "20210321.html"
 #| msgid "Thank you all, <br/>\\nTimothée & Johnny"
 msgctxt "20230329.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "എല്ലാവർക്കും നന്ദി, <br/>\\nടിമോത്തെ & ജോന്നി"
+
+#. news title
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Release GCompris 1.1"
+msgctxt "20230606.html"
+msgid "Release GCompris 3.3"
+msgstr "ജികോംപ്രി 1.1-ന്റെ പ്രകാശനം"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#| "1.1."
+msgctxt "20230606.html"
+msgid "Today we are releasing GCompris version 3.3."
+msgstr ""
+"നമസ്കാരം,<br />\\nജികോംപ്രി പതിപ്പ് 1.1 പ്രകാശനം ചെയ്യുന്ന വിവരം ഞങ്ങൾ സസന്തേഷം "
+"അറിയിക്കുന്നു."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"This version adds translations for 2 more languages: Arabic and Esperanto."
+msgstr ""
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
+"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"Some improvements of keyboard handling (shortcuts, focus...) have been done "
+"on several activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20230606.html"
+msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgstr ""
+
+#. paragraph
+msgctxt "20230606.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+msgctxt "20230606.html"
+msgid "{{ oneLocale }}"
+msgstr ""
+
+#. paragraph
+msgctxt "20230606.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20230606.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "എല്ലാവർക്കും നന്ദി, <br/>\\nടിമോത്തെ & ജോന്നി"
 
@@ -1086,6 +1099,27 @@ msgstr ""
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "20210321.html"
+#~| msgid ""
+#~| "You can find packages of this new version for GNU/Linux, Windows and "
+#~| "MacOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+#~| "\\\">download page</a>. This update will be available soon in the "
+#~| "Android Play store, the F-Droid repository and the Windows store. The "
+#~| "package for Raspberry Pi will also be available soon."
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "ഈ പുതിയ പതിപ്പിനായുള്ള ഗ്നു/ലിനക്സ്, വിൻഡോസ്, മാക്ഒയെസ് പാക്കേജുകൾക്ക് <a href=\\"
+#~ "\"https://gcompris.net/downloads{{ suffix }}.html\\\">ഡൗൺലോഡ് പേജിൽ</a> "
+#~ "നോക്കുക. ഈ അപ്ഡേറ്റ് ആൻഡ്രോയ്ഡ് പ്ലേ സ്റ്റോറിലും എഫ്-ഡ്രോയ്സ് റെപ്പോസിറ്ററിയിലും വിൻഡോസ് "
+#~ "സ്റ്റോറിലും ഉടൻ തന്നെ ലഭ്യമാകും. റാസ്ബെറി പൈ പാക്കേജും ഉടൻ തന്നെ ലഭ്യമാകും."
 
 #, fuzzy
 #~| msgctxt "20210321.html"

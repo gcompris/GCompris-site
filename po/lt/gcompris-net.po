@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-04 00:51+0000\n"
+"POT-Creation-Date: 2023-05-19 00:49+0000\n"
 "PO-Revision-Date: 2023-04-04 14:36+0300\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: lt <komp_lt@konferencijos.lt>\n"
@@ -20,52 +20,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-
-#. news title
-msgctxt "20230121.html"
-msgid "Release GCompris 3.1"
-msgstr "GCompris 3.1 leidimas"
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "Today we are releasing GCompris version 3.1."
-msgstr "Šiandien išleidžiame GCompris 3.1 versiją."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"As we noticed that version 3.0 contained a critical bug in the new \\"
-"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
-"release to fix the issue."
-msgstr ""
-"Pastebėję, kad 3.0 versijoje yra kritinė naujos „Palygink skaičius“ "
-"pamokėlės klaida, nusprendėme greitai sukurti šią, 3.1 versiją, kad "
-"išspręstume problemą."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "It also contains some little translation update."
-msgstr "Jame taip pat yra nedidelis vertimo atnaujinimas."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Šios versijos paketus GNU/Linux, Windows, Raspberry Pi ir MacOS platformoms "
-"galite rasti <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai "
-"bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows "
-"parduotuvėje."
-
-# Šiais laikais vardų lietuvinti labai nereikia.
-#. paragraph
-msgctxt "20230121.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
 msgctxt "20230329.html"
@@ -136,6 +90,105 @@ msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
 msgctxt "20230329.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Release GCompris 3.1"
+msgctxt "20230606.html"
+msgid "Release GCompris 3.3"
+msgstr "GCompris 3.1 leidimas"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Today we are releasing GCompris version 3.1."
+msgctxt "20230606.html"
+msgid "Today we are releasing GCompris version 3.3."
+msgstr "Šiandien išleidžiame GCompris 3.1 versiją."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"This version adds translations for 2 more languages: Arabic and Esperanto."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid ""
+#| "This new version contains some bug fixes on multiple activities such as \\"
+#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
+#| "\" and music activities."
+msgctxt "20230606.html"
+msgid ""
+"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
+"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
+msgstr ""
+"Šioje naujoje versijoje ištaisyta keletas klaidų pamokėlėse „Atrask Morzės "
+"abėcėlę“, „Valdyk gaisrininko žarną“ ir muzikos pamokėlėse."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"Some improvements of keyboard handling (shortcuts, focus...) have been done "
+"on several activities."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid ""
+#| "It also contains new graphics for all memory activities and for \\\"Baby "
+#| "puzzle\\\"."
+msgctxt "20230606.html"
+msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgstr ""
+"Taip pat atnaujinti paveikslėliai atminties lavinimo pamokėlėse ir "
+"„Vaikiškoje dėlionėje“."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20230606.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Jis visiškai išverstas į šias kalbas:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20230606.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20230606.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20230606.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+# Šiais laikais vardų lietuvinti labai nereikia.
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
@@ -1040,6 +1093,34 @@ msgstr "Skaitymas"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strateginiai žaidimai"
+
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "As we noticed that version 3.0 contained a critical bug in the new \\"
+#~ "\"Comparator\\\" activity, we decided to quickly ship this 3.1 "
+#~ "maintenance release to fix the issue."
+#~ msgstr ""
+#~ "Pastebėję, kad 3.0 versijoje yra kritinė naujos „Palygink skaičius“ "
+#~ "pamokėlės klaida, nusprendėme greitai sukurti šią, 3.1 versiją, kad "
+#~ "išspręstume problemą."
+
+#~ msgctxt "20230121.html"
+#~ msgid "It also contains some little translation update."
+#~ msgstr "Jame taip pat yra nedidelis vertimo atnaujinimas."
+
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Šios versijos paketus GNU/Linux, Windows, Raspberry Pi ir MacOS "
+#~ "platformoms galite rasti <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> "
+#~ "puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play "
+#~ "parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje."
 
 #~ msgctxt "20230118.html"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."

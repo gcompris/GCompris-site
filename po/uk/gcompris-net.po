@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-04 00:51+0000\n"
+"POT-Creation-Date: 2023-05-19 00:49+0000\n"
 "PO-Revision-Date: 2023-04-04 17:03+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -21,53 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 20.12.0\n"
-
-# news title
-#. news title
-msgctxt "20230121.html"
-msgid "Release GCompris 3.1"
-msgstr "Випуск GCompris 3.1"
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "Today we are releasing GCompris version 3.1."
-msgstr "Сьогодні нами випущено GCompris версії 3.1."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"As we noticed that version 3.0 contained a critical bug in the new \\"
-"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
-"release to fix the issue."
-msgstr ""
-"Оскільки ми виявили, у версії 3.0 була критична вада у новій вправі "
-"«Порівняння», ми вирішили швидко випустити цей проміжний випуск 3.1 для "
-"виправлення вади."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "It also contains some little translation update."
-msgstr "Також включено незначні оновлення перекладу."
-
-# paragraph
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та "
-"MacOS можна знайти на <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії "
-"з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows."
-
-# paragraph
-#. paragraph
-msgctxt "20230121.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
 # news title
 #. news title
@@ -139,6 +92,106 @@ msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 # paragraph
 #. paragraph
 msgctxt "20230329.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Release GCompris 3.1"
+msgctxt "20230606.html"
+msgid "Release GCompris 3.3"
+msgstr "Випуск GCompris 3.1"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Today we are releasing GCompris version 3.1."
+msgctxt "20230606.html"
+msgid "Today we are releasing GCompris version 3.3."
+msgstr "Сьогодні нами випущено GCompris версії 3.1."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"This version adds translations for 2 more languages: Arabic and Esperanto."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid ""
+#| "This new version contains some bug fixes on multiple activities such as \\"
+#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
+#| "\" and music activities."
+msgctxt "20230606.html"
+msgid ""
+"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
+"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
+msgstr ""
+"У цій новій версії виправлено декілька вад у вправах, зокрема «Вивчення "
+"міжнародної азбуки Морзе», «Керування шлангами» та музичних вправах."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"Some improvements of keyboard handling (shortcuts, focus...) have been done "
+"on several activities."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid ""
+#| "It also contains new graphics for all memory activities and for \\\"Baby "
+#| "puzzle\\\"."
+msgctxt "20230606.html"
+msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgstr ""
+"У ній також реалізовано нову графіку усіх вправ на пам'ять і вправи «Дитяча "
+"головоломка»."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20230606.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Повністю перекладено такими мовами:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20230606.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20230606.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Також частково перекладено такими мовами:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20230606.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
@@ -1059,6 +1112,35 @@ msgstr "Читання"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Стратегія"
+
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "As we noticed that version 3.0 contained a critical bug in the new \\"
+#~ "\"Comparator\\\" activity, we decided to quickly ship this 3.1 "
+#~ "maintenance release to fix the issue."
+#~ msgstr ""
+#~ "Оскільки ми виявили, у версії 3.0 була критична вада у новій вправі "
+#~ "«Порівняння», ми вирішили швидко випустити цей проміжний випуск 3.1 для "
+#~ "виправлення вади."
+
+#~ msgctxt "20230121.html"
+#~ msgid "It also contains some little translation update."
+#~ msgstr "Також включено незначні оновлення перекладу."
+
+# paragraph
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та "
+#~ "MacOS можна знайти на <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">сторінці отримання пакунків</a>. Невдовзі "
+#~ "пакунки оновленої версії з'являться у крамниці Android Play, сховищі F-"
+#~ "Droid та крамниці Windows."
 
 #~ msgctxt "20230118.html"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."

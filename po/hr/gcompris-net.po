@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-04 00:51+0000\n"
+"POT-Creation-Date: 2023-05-19 00:49+0000\n"
 "PO-Revision-Date: 2023-03-30 19:13+0200\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -19,50 +19,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 3.2.2\n"
-
-#. news title
-msgctxt "20230121.html"
-msgid "Release GCompris 3.1"
-msgstr "Izdanje GCompris 3.1"
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "Today we are releasing GCompris version 3.1."
-msgstr "Danas smo objavili GCompris verziju 3.1."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"As we noticed that version 3.0 contained a critical bug in the new \\"
-"\"Comparator\\\" activity, we decided to quickly ship this 3.1 maintenance "
-"release to fix the issue."
-msgstr ""
-"Obzirom smo primijetili kako verzija 3.0 sadrži kritičnu pogrešku u novoj "
-"aktivnosti \\\"Usporednik\\\", odlučili smo izdati nadogradnju u vidu "
-"verzije 3.1 kako bismo riješili problem."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "It also contains some little translation update."
-msgstr "Također sadrži par ažuriranja prijevoda."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možeš "
-"pronaći na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">stranici za preuzimanje</ a>. Ovo će ažuriranje uskoro biti dostupno u "
-"Google Play trgovini, F-Droid repozitoriju i na Microsoft Store."
-
-#. paragraph
-msgctxt "20230121.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Hvala svima, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230329.html"
@@ -133,6 +89,105 @@ msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20230329.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Hvala svima, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Release GCompris 3.1"
+msgctxt "20230606.html"
+msgid "Release GCompris 3.3"
+msgstr "Izdanje GCompris 3.1"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Today we are releasing GCompris version 3.1."
+msgctxt "20230606.html"
+msgid "Today we are releasing GCompris version 3.3."
+msgstr "Danas smo objavili GCompris verziju 3.1."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"This version adds translations for 2 more languages: Arabic and Esperanto."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid ""
+#| "This new version contains some bug fixes on multiple activities such as \\"
+#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
+#| "\" and music activities."
+msgctxt "20230606.html"
+msgid ""
+"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
+"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
+msgstr ""
+"Ova nova verzija sadrži neke ispravke grešaka u višestrukim aktivnostima kao "
+"što su \\\"Upoznaj međunarodni Morseov kod\\\", \\\"Kontroliraj vatrogasni "
+"šmrk\\\" i glazbene aktivnosti."
+
+#. paragraph
+msgctxt "20230606.html"
+msgid ""
+"Some improvements of keyboard handling (shortcuts, focus...) have been done "
+"on several activities."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid ""
+#| "It also contains new graphics for all memory activities and for \\\"Baby "
+#| "puzzle\\\"."
+msgctxt "20230606.html"
+msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgstr ""
+"Također sadrži nove vizualne elemente za sve aktivnosti \\\"Dječje slagalice"
+"\\\"."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20230606.html"
+msgid "It is fully translated in the following languages:"
+msgstr "U potpunosti je preveden na sljedeće jezike:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20230606.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20230606.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Također je djelomično preveden na sljedeće jezike:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20230606.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala svima, <br/>Timothée & Johnny"
 
@@ -1027,6 +1082,33 @@ msgstr "Čitanje"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategija"
+
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "As we noticed that version 3.0 contained a critical bug in the new \\"
+#~ "\"Comparator\\\" activity, we decided to quickly ship this 3.1 "
+#~ "maintenance release to fix the issue."
+#~ msgstr ""
+#~ "Obzirom smo primijetili kako verzija 3.0 sadrži kritičnu pogrešku u novoj "
+#~ "aktivnosti \\\"Usporednik\\\", odlučili smo izdati nadogradnju u vidu "
+#~ "verzije 3.1 kako bismo riješili problem."
+
+#~ msgctxt "20230121.html"
+#~ msgid "It also contains some little translation update."
+#~ msgstr "Također sadrži par ažuriranja prijevoda."
+
+#~ msgctxt "20230121.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možeš "
+#~ "pronaći na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">stranici za preuzimanje</ a>. Ovo će ažuriranje uskoro biti dostupno u "
+#~ "Google Play trgovini, F-Droid repozitoriju i na Microsoft Store."
 
 #~ msgctxt "20230118.html"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."
