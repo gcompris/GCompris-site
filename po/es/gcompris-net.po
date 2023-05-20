@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-19 00:49+0000\n"
-"PO-Revision-Date: 2023-04-04 05:26+0200\n"
+"POT-Creation-Date: 2023-05-20 00:49+0000\n"
+"PO-Revision-Date: 2023-05-19 10:16+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.03.80\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 # news title
 #. news title
@@ -97,42 +97,31 @@ msgstr "Gracias a todos, <br/>Timothée y Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Lanzamiento de GCompris 3.1"
+msgstr "Lanzamiento de GCompris 3.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Hoy hemos publicado GCompris versión 3.1."
+msgstr "Hoy hemos publicado GCompris versión 3.3."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Esta versión añade traducciones para dos idiomas más: árabe y esperanto."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Esta nueva versión contiene algunas correcciones de errores en varias "
-"actividades, como «Descubre el código morse internacional», «Controla la "
-"manguera» y las actividades musicales."
+"Contiene correcciones de fallos en varias actividades, como «Codificación de "
+"ruta», «Letra en cada palabra», «Haz que la pelota vaya a Tux» y "
+"«Composición para piano»."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -140,39 +129,25 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Se han realizado algunas mejoras en el manejo del teclado (accesos rápidos, "
+"foco, etc.) en algunas actividades."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
-"También contiene nuevos gráficos para todas las actividades de memoria y "
-"para «Puzle para niños»."
+msgstr "También contiene nuevos gráficos y mejoras en «Cazador de fotos»."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Está completamente traducido a los siguientes idiomas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "También está parcialmente traducido a los siguientes idiomas:"
@@ -180,18 +155,34 @@ msgstr "También está parcialmente traducido a los siguientes idiomas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
-# paragraph
 #. paragraph
 #, fuzzy
 #| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230606.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows, "
+"Raspberry Pi y MacOS en la <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">página de descargas</a>. Esta actualización "
+"estará disponible en breve en la Play Store de Android, el repositorio F-"
+"Droid y en la Windows Store."
+
+# paragraph
+#. paragraph
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gracias a todos, <br/>Timothée y Johnny"
@@ -1121,20 +1112,6 @@ msgstr "Estrategia"
 #~ msgctxt "20230121.html"
 #~ msgid "It also contains some little translation update."
 #~ msgstr "También contiene alguna pequeña mejora en las traducciones."
-
-#~ msgctxt "20230121.html"
-#~ msgid ""
-#~ "You can find packages of this new version for GNU/Linux, Windows, "
-#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#~ "available soon in the Android Play store, the F-Droid repository and the "
-#~ "Windows store."
-#~ msgstr ""
-#~ "Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows, "
-#~ "Raspberry Pi y MacOS en la <a href=\\\"https://gcompris.net/"
-#~ "downloads{{ suffix }}.html\\\">página de descargas</a>. Esta "
-#~ "actualización estará disponible en breve en la Play Store de Android, el "
-#~ "repositorio F-Droid y en la Windows Store."
 
 #~ msgctxt "20230118.html"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."

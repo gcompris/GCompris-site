@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-19 00:49+0000\n"
+"POT-Creation-Date: 2023-05-20 00:49+0000\n"
 "PO-Revision-Date: 2023-02-28 21:08+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -155,6 +155,28 @@ msgstr ""
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }}"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20230121.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20230606.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
+"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">download page</a>. This update will be available soon in the "
+"Android Play store, the F-Droid repository and the Windows store."
+msgstr ""
+"Du hittar paket av den nya versionen för GNU/Linux, Windows, Raspberry Pi "
+"och macOS på <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">nerladdningssidan</a>. Uppdateringen kommer snart att vara tillgänglig i "
+"Android Play Store, F-Droid arkivet och Windows Store."
 
 # paragraph
 #. paragraph
@@ -1064,20 +1086,6 @@ msgstr "Läsning"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategi"
-
-# paragraph
-#~ msgctxt "20230121.html"
-#~ msgid ""
-#~ "You can find packages of this new version for GNU/Linux, Windows, "
-#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#~ "available soon in the Android Play store, the F-Droid repository and the "
-#~ "Windows store."
-#~ msgstr ""
-#~ "Du hittar paket av den nya versionen för GNU/Linux, Windows, Raspberry Pi "
-#~ "och macOS på <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-#~ "\">nerladdningssidan</a>. Uppdateringen kommer snart att vara tillgänglig "
-#~ "i Android Play Store, F-Droid arkivet och Windows Store."
 
 #~ msgctxt "20230118.html"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."
