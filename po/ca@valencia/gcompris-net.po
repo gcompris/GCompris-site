@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-20 00:49+0000\n"
-"PO-Revision-Date: 2023-04-04 08:29+0100\n"
+"PO-Revision-Date: 2023-05-20 10:02+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -97,42 +97,30 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Llançament de GCompris 3.1"
+msgstr "Llançament de GCompris 3.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Hui fem el llançament de GCompris versió 3.1."
+msgstr "Hui fem el llançament de GCompris versió 3.3."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Esta versió afig les traduccions de dos idiomes més: l'àrab i l'esperanto."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Esta versió nova conté algunes correccions d'errors en algunes activitats "
-"com ara «Descobrix el codi Morse internacional», «Controla la mànega» i "
-"activitats musicals."
+"Conté correccions d'errors en múltiples activitats com «Codificació de "
+"camí», «Lletra en una paraula», «Agafar la bola» i «Composició per a piano»."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -140,39 +128,25 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"S'han fet algunes millores en la gestió del teclat (dreceres, focus...) en "
+"diverses activitats."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
-"També conté gràfics nous per a totes les activitats de memòria i per a "
-"«Trencaclosques de nadó»."
+msgstr "També conté gràfics nous i millores a «Caçador de fotografies»."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Està traduït completament als idiomes següents:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "També està traduït parcialment als idiomes següents:"
@@ -180,22 +154,11 @@ msgstr "També està traduït parcialment als idiomes següents:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -210,9 +173,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"
@@ -1119,17 +1079,3 @@ msgstr "Lectura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estratègia"
-
-#~ msgctxt "20230121.html"
-#~ msgid ""
-#~ "As we noticed that version 3.0 contained a critical bug in the new \\"
-#~ "\"Comparator\\\" activity, we decided to quickly ship this 3.1 "
-#~ "maintenance release to fix the issue."
-#~ msgstr ""
-#~ "Com que ens vam adonar que la versió 3.0 contenia un error crític en "
-#~ "l'activitat nova «Comparador», hem decidit distribuir ràpidament esta "
-#~ "versió de manteniment 3.1 per a solucionar el problema."
-
-#~ msgctxt "20230121.html"
-#~ msgid "It also contains some little translation update."
-#~ msgstr "També conté xicotetes actualitzacions de les traduccions."
