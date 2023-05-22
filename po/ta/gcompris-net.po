@@ -1,22 +1,24 @@
 # Tamil translations for PROJECT.
 # Copyright (C) 2013 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# Kishore G <kishore96@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-20 00:49+0000\n"
-"PO-Revision-Date: 2013-09-12 17:42+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: ta <LL@li.org>\n"
+"PO-Revision-Date: 2023-05-21 15:11+0530\n"
+"Last-Translator: Kishore G <kishore96@gmail.com>\n"
+"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -58,29 +60,29 @@ msgstr ""
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "பின்வரும் மொழிகளுக்கு முழுதாக மொழிபெயர்க்கப்பட்டுள்ளது:"
 
 #. list item
 msgctxt "20230329.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "பின்வரும் மொழிகளுக்கு பகுதியளவு மொழிபெயர்க்கப்பட்டுள்ளது:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "அனைவருக்கும் நன்றிகூறி, <br/>டிமொதி & ஜான்னி"
 
 #. news title
 msgctxt "20230606.html"
@@ -120,24 +122,24 @@ msgstr ""
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "பின்வரும் மொழிகளுக்கு முழுதாக மொழிபெயர்க்கப்பட்டுள்ளது:"
 
 #. list item
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "பின்வரும் மொழிகளுக்கு பகுதியளவு மொழிபெயர்க்கப்பட்டுள்ளது:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20230606.html"
@@ -147,11 +149,15 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
+"லினக்ஸ், விண்டோஸ், ஆண்ட்ராய்டு, Raspberry Pi, மற்றும் macOS தளங்களுக்கான இந்த புதிய "
+"பதிப்பின் தொகுப்புகளை <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">பதிவிறக்கப் பக்கத்தில்</a> பெறலாம். ஆண்ட்ராய்டு பிளே கிடங்கில், F-Droid "
+"கிடங்கில், மற்றும் விண்டோஸ் கிடங்கில் இந்த பதிப்பு கூடிய விரைவில் கிடைக்கும்."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "அனைவருக்கும் நன்றிகூறி, <br/>டிமொதி & ஜான்னி"
 
 #: gcompris.py:82
 msgctxt "language name, item list"
@@ -412,7 +418,7 @@ msgstr ""
 #: gcompris.py:257
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "கோ. கிஷோர்"
 
 #: gcompris.py:383
 msgid "For Christmas, offer GCompris to your children."
@@ -422,46 +428,42 @@ msgstr ""
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
 msgid "News"
-msgstr "செய்தி"
+msgstr "செய்திகள்"
 
 #: template/base.html:72 template/downloads.html:3 template/downloads.html:8
-#, fuzzy
-#| msgid "Download GCompris"
 msgid "Download"
-msgstr "GCompris பதிவிறக்க"
+msgstr "பதிவிறக்கம்"
 
 #: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
-msgstr "இனாமாக அளி"
+msgstr "நன்கொடை"
 
 #: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
-msgstr "திரைக்காட்சிகளுடன்"
+msgstr "திரைப்பிடிப்புகள்"
 
 #: template/base.html:75 template/schools.html:3 template/schools.html:8
 msgid "Schools"
-msgstr ""
+msgstr "பள்ளிகள்"
 
 #: template/base.html:76
-#, fuzzy
-#| msgid "Manual:"
 msgid "Manual"
-msgstr "கைமுறை:"
+msgstr "கையேடு"
 
 #: template/base.html:77
 msgid "Contribute"
-msgstr "பங்களிக்க"
+msgstr "பங்களிப்பது"
 
 #: template/base.html:108
 #, python-format
 msgid "Site last updated the %(revision_date)s."
-msgstr ""
+msgstr "இணையதளம் கடைசியாக மாற்றப்பட்டது: %(revision_date)s."
 
 #: template/base.html:113
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr ""
+msgstr "இணையதளத்தை மொழிபெயர்த்தோர்: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
@@ -553,7 +555,7 @@ msgstr "கல்வி இலவச மென்பொருள் உங்
 
 #: template/downloads.html:16
 msgid "Windows"
-msgstr ""
+msgstr "விண்டோஸ்"
 
 #: template/downloads.html:20
 msgid ""
@@ -596,7 +598,7 @@ msgstr ""
 
 #: template/downloads.html:44
 msgid "Android"
-msgstr ""
+msgstr "ஆண்ட்ராய்டு"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
@@ -642,7 +644,7 @@ msgstr ""
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
-msgstr ""
+msgstr "லினக்ஸ்"
 
 #: template/downloads.html:97
 msgid ""
