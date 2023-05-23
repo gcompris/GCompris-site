@@ -98,42 +98,30 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Version 3.1 de GCompris"
+msgstr "Version 3.3 de GCompris"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Nous publions aujourd'hui la version 3.1 de GCompris."
+msgstr "Nous publions aujourd'hui la version 3.3 de GCompris."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
+msgstr "Cette version ajoute deux nouvelles langues : l'arabe et l'espéranto."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
 "Cette version contient des corrections dans plusieurs activités dont "
-"« Découvre le code Morse international », « Contrôle l'écoulement d'un "
-"tuyau » et les activités musicales."
+"« Encode le chemin », « Lettre dans quel mot », « Envoie la balle à Tux » et "
+"« Composition pour piano »."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -141,39 +129,27 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Plusieurs améliorations pour mieux gérer la navigation au clavier "
+"(raccourcis, focus...) ont été rajoutées."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
-"Elle contient aussi de nouvelles images pour toutes les activités de mémoire "
-"et le « Tangram basique »."
+"Elle contient aussi de nouvelles images pour l'activité « Trouve les "
+"différences »."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Cette version est entièrement traduite dans ces langues :"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Elle est partiellement traduite dans ces langues :"
@@ -181,22 +157,11 @@ msgstr "Elle est partiellement traduite dans ces langues :"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -211,9 +176,6 @@ msgstr ""
 "et « Windows », ainsi dans le dépôt F-Droid."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
