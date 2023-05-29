@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.2 er ute' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>I dag gjev me ut GCompris versjon 3.2.</p>
+<p>Denne versjonen inneheld feilrettingar i aktivitetane «Lær morse­alfabetet», «Sløkk brannen» og i fleire musikk­aktivitetar.</p>
+<p>Det er òg laga nye teikningar til alle biletlotto-aktivitetane og til «Babypuslespel»-aktiviteten.</p>
+<p>I tillegg finst det eit nytt kommandolinje­val («--difficulty {verdi|min-maks}) du kan bruka til å velja vanske­grad direkte eller til å avgrensa vanske­graden til eit visst intervall.</p>
+<p>Og til slutt er Andika-skrifta oppdatert til nyaste versjon (6.200).</p>
+
+<p>Programmet er fullstendig omsett til desse språka:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Det er òg delvis omsett til desse språka:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Takk, alle saman!<br/>Timothée & Johnny</p>
+
+{% endblock %}
