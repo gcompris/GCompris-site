@@ -1,5 +1,5 @@
 
-VERSION = 3.2
+VERSION = 3.3
 
 # Don't forget to also update index.php and gcompris.py when updating this list
 ALL_LINGUAS = ar be br ca ca@valencia cs de el es et eu fi fr gd gl he hr hu id it ko lt mk ml nl nn pl pt pt_BR ro ru sk sl sq sv tr uk zh_CN zh_TW
