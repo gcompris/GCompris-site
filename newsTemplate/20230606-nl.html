@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 3.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Vandaag geven we GCompris versie 3.3 uit.</p>
+<p>Deze versie voegt vertalingen voor 2 extra talen toe: Arabisch en Esperanto.</p>
+<p>Het bevat enige reparaties van bugs op meerdere activiteiten zoals "Codering van pad", "Letter in woord", "Bal vangen" en "Pianocompositie".</p>
+<p>Enige verbeteringen voor behandeling van het toetsenbord (sneltoetsen, focus...) is uitgevoerd op verschillende activiteiten.</p>
+<p>Het bevat ook nieuwe illustraties en verbeteringen voor "Fotojager".</p>
+
+<p>Het is volledig vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Het is ook gedeeltelijk vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>U kunt de pakketten van deze nieuwe versie voor GNU/Linux, Windows, Raspberry Pi en MacOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store.</p>
+
+<p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+
+{% endblock %}
