@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Випуск GCompris 3.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Сьогодні нами випущено GCompris версії 3.3.</p>
+<p>У цій версії додано переклади ще 2 мовами: арабською та есперанто.</p>
+<p>Реалізовано виправлення вад у декількох вправах, зокрема «Кодування шляху», «Літера у слові», «Впіймати кульку» і «Композиція піаніно».</p>
+<p>Деякі удосконалення у роботі з клавіатурою (скорочення, фокусування…) для декількох вправ.</p>
+<p>Також реалізовано нову графіку та удосконалення у вправі «Мисливець за фотографіями».</p>
+
+<p>Повністю перекладено такими мовами:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Також частково перекладено такими мовами:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Посилання на пакунки нової версії для GNU/Linux, Windows, Raspberry Pi та MacOS можна знайти на <a href="https://gcompris.net/downloads{{ suffix }}.html">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows.</p>
+
+<p>Дякуємо вам усім, <br/>Timothée і Johnny</p>
+
+{% endblock %}
