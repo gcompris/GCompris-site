@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.3 er ute' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>I dag gjev me ut GCompris versjon 3.3.</p>
+<p>Denne versjonen er omsett til to nye språk, arabisk og esperanto.</p>
+<p>Han har òg feilrettingar for aktivitetane «Sti-koding», «Bokstav i kva ord», «Send ballen til Tux» og «Komponering for piano».</p>
+<p>I fleire aktivitetar er navigering via tastaturet forbetra.</p>
+<p>Og det er laga nye teikningar til «Fotojakt»-aktiviteten.</p>
+
+<p>Programmet er fullstendig omsett til desse språka:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Det er òg delvis omsett til desse språka:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Du finn pakkar for GNU/Linux, Windows Raspberry Pi og macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på Android Play Store, i F-Droid og på Windows Store.</p>
+
+<p>Takk, alle saman!<br/>Timothée & Johnny</p>
+
+{% endblock %}
