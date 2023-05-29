@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 3.3 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Nous publions aujourd'hui la version 3.3 de GCompris.</p>
+<p>Cette version ajoute deux nouvelles langues : l'arabe et l'espéranto.</p>
+<p>Cette version contient des corrections dans plusieurs activités dont « Encode le chemin », « Lettre dans quel mot », « Envoie la balle à Tux » et « Composition pour piano ».</p>
+<p>Plusieurs améliorations pour mieux gérer la navigation au clavier (raccourcis, focus...) ont été rajoutées.</p>
+<p>Elle contient aussi de nouvelles images pour l'activité « Trouve les différences ».</p>
+
+<p>Cette version est entièrement traduite dans ces langues :</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Elle est partiellement traduite dans ces langues :</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, Windows, Raspberry Pi et MacOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible très bientôt dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt F-Droid.</p>
+
+<p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+
+{% endblock %}
