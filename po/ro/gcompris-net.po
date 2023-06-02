@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-20 00:49+0000\n"
-"PO-Revision-Date: 2023-03-27 23:36+0200\n"
+"PO-Revision-Date: 2023-06-01 17:55+0200\n"
 "Last-Translator: Horia PELLE <horricane@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
 "Language: ro\n"
@@ -97,42 +97,31 @@ msgstr "Vă mulțumim tuturor, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Versiunea GCompris 3.1"
+msgstr "Versiunea GCompris 3.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Astăzi lansăm GCompris versiunea 3.1."
+msgstr "Astăzi lansăm GCompris versiunea 3.3."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Această versiune adaugă traduceri pentru încă două limbi: arabă și esperanto."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Această nouă versiune conține câteva erori remediate la mai multe "
-"activități, cum ar fi „Descoperă Codul Morse Internațional” , „Controlează "
-"furtunul” și activitățile muzicale."
+"Ea conține corecții de erori de programare pentru mai  multe activități, cum "
+"ar fi: „Codarea traseului”, „În ce cuvinte apare litera”, „Fă să ajungă "
+"mingea la Tux” și „Compoziție la pian”."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -140,39 +129,27 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Au fost aduse câteva îmbunătățiri ale manevrării tastaturii (scurtături, "
+"focalizare...), la mai multe activități."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
-"De asemenea conține o grafică nouă pentru toate activitățile de memorie și "
-"pentru „Puzzle de jucărie”."
+"De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea "
+"„Vânătorul de fotografii”."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Este complet tradus în următoarele limbi:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Este de asemenea parțial tradus în următoarele limbi:"
@@ -180,23 +157,12 @@ msgstr "Este de asemenea parțial tradus în următoarele limbi:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -212,9 +178,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
@@ -232,7 +195,7 @@ msgstr "Engleză americană"
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabă"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
@@ -759,7 +722,7 @@ msgid ""
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
 "Citiți apoi licența sau apăsați q pentru a sări peste acest pas, răspundeți "
-"cu da la înrebări, și pachetul software va fi instalat într-un nou director "
+"cu da la întrebări, și pachetul software va fi instalat într-un nou director "
 "din interiorul locației pachetului de instalare."
 
 #: template/downloads.html:109 template/downloads.html:136
