@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stumm 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Hiziv e kinnigomp stumm 3.2 GCompris.</p>
+<p>Ar stumm nevez-mañ a zo ennañ meur a reizhad evit obererezhioù a bep seurt evel  "Dizolo kod etrevroadel Morse", "Mestroni an duellenn" hag obererezhioù sonerezh.</p>
+<p>Bez' ez eus ennañ ivez skeudennoù nevez evit an holl obererezhioù memor hag evit  "Miltamm ar babigoù".</p>
+<p>Urzh-linenn nevez-ouzhpennet  (--diaester {talvoud|izelañ-uhelañ}) evit ma c'hello an implijerien dibab gant ul live diaester resis pa fello dezhe.</p>
+<p>An doare-skrivañ Andika zo bet adnevesaet d'e stumm nevesañ (6.200).</p>
+
+<p>Troidigezhioù klok evit ar yezhoù-mañ:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Troidigezhioù diglok evit ar yezhoù-se ivez: </p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Trugarez d'an holl, <br/>Timothée & Johnny</p>
+
+{% endblock %}
