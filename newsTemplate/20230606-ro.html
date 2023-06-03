@@ -1,0 +1,32 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Versiunea GCompris 3.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Astăzi lansăm GCompris versiunea 3.3.</p>
+<p>Această versiune adaugă traduceri pentru încă două limbi: arabă și esperanto.</p>
+<p>Ea conține corecții de erori de programare pentru mai  multe activități, cum ar fi: „Codarea traseului”, „În ce cuvinte apare litera”, „Fă să ajungă mingea la Tux” și „Compoziție la pian”.</p>
+<p>Au fost aduse câteva îmbunătățiri ale manevrării tastaturii (scurtături, focalizare...), la mai multe activități.</p>
+<p>De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea „Vânătorul de fotografii”.</p>
+
+<p>Este complet tradus în următoarele limbi:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Este de asemenea parțial tradus în următoarele limbi:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, Raspberry Pi și macOS în <a href="https://gcompris.net/downloads{{ suffix }}.html">pagina de descărcare</a>. Această actualizare va fi disponibilă în curând în Magazinul Play Android, depozitul F-Droid și Windows Magazin.</p>
+
+<p>Vă mulțumim tuturor,<br/>
+Timothée & Johnny</p>
+
+{% endblock %}
