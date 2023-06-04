@@ -14,6 +14,7 @@ import time
 import datetime
 import re
 import gettext
+import requests
 from email import utils
 from importlib import reload
 import html
@@ -151,18 +152,10 @@ suffix = '-' + locale
 # We don't have a translation of each manual. If we have it
 # we return it else we return the english one
 def get_manual():
-    manuals = {
-        'en': 'wiki/Manual',
-        'fr': 'wiki/Manuel',
-        'de': 'wiki/Benutzerhandbuch',
-        'es': 'wiki/Manual_es',
-        'pt_BR': 'wiki/Manual_pt-BR',
-        'he': 'wiki/מדריך_למשתמש',
-        'ru': 'wiki/Руководство'
-        }
-    if locale in manuals:
-        return manuals[locale]
-    return manuals['en']
+    r = requests.head('https://docs.kde.org/trunk5/' + locale + '/gcompris/gcompris/index.html')
+    if r.ok:
+        return locale
+    return 'en'
 
 descriptions = []
 
