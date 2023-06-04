@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-05-20 00:49+0000\n"
-"PO-Revision-Date: 2023-04-09 18:51+0200\n"
+"PO-Revision-Date: 2023-06-03 07:10+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -94,42 +94,32 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "GCompris 3.1 argitaratzea"
+msgstr "GCompris 3.3 argitaratzea"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Gaurkoan GCompris 3.1 bertsioa argitaratzen dugu."
+msgstr "Gaurkoan GCompris 3.3 bertsioa argitaratzen dugu."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Bertsio honek beste bi hizkuntzetarako itzulpenak gehitzen ditu: Arabiera "
+"eta Esperantoa."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Bertsio berri honek hainbat jardueratan akatsak zuzendu ditu, hala nola\\"
-"\"Ezagutu Nazioarteko Morse kodea\\\", \\\"Kontrolatu mahuka\\\" eta musika "
-"jardueretan."
+"Hainbat jardueratan akatsak zuzendu ditu, hala nola\\\"Ibilbidea kodetzea\\"
+"\", \\\"Letra hitzean\\\", \\\"Bola harrapatzea\\\" eta \\\"Pianorako "
+"konposizioa\\\".jardueretan."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -137,62 +127,38 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Hainbat jardueratan teklatua maneiatzeko hobekuntza batzuk egin dira "
+"(lasterbideak, fokua...)."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
-"\\\"Haurrentzako buruhaustekoa\\\" eta oroimen-jarduera guztietarako grafiko "
-"berriak ere baditu."
+"\\\"Argazki ehiztaria\\\" jardueran ere grafiko berriak eta hobekuntzak ditu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Osorik itzulita dago ondoko hizkuntzetan:"
+msgstr "Ondoko hizkuntzatan osorik itzulita dago:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Hein batean ere itzulita dago ondoko hizkuntzetan:"
+msgstr "Ondoko hizkuntzatan hein batean ere itzulita dago:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} (%{{ oneStatus }})"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -201,15 +167,12 @@ msgid ""
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
 "<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
-"jaisteko orrian</a> bertsio berri honen GNU/Linux, Windows, Android, "
+"jaisteko orrian</a> bertsio berri honetarako GNU/Linux, Windows, Android, "
 "Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster "
 "egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta "
 "Windows saltokian."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
