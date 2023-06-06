@@ -93,6 +93,7 @@ gcomprisLocales = {
     "da": {"original": "Dansk", "translated": t.pgettext("language name, item list", "Danish")},
     "de": {"original": "Deutsch", "translated": t.pgettext("language name, item list", "German")},
     "el": {"original": "Ελληνικά", "translated": t.pgettext("language name, item list", "Greek")},
+    "eo": {"original": "Esperanto", "translated": t.pgettext("language name, item list", "Esperanto")},
     "es": {"original": "Español", "translated": t.pgettext("language name, item list", "Spanish")},
     "et": {"original": "Eesti", "translated": t.pgettext("language name, item list", "Estonian")},
     "eu": {"original": "Euskara", "translated": t.pgettext("language name, item list", "Basque")},
@@ -281,6 +282,11 @@ translationStatus = {
     "20230329.html": {
         "fullyTranslated": ['br', 'ca', 'ca@valencia', 'el', 'en_GB', 'es', 'eu', 'fr', 'hr', 'it', 'lt', 'ml', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk', 'zh_TW'],
         "partiallyTranslated": [['az', 99], ['be', 79], ['cs', 88], ['de', 99], ['et', 99], ['fi', 94], ['he', 99], ['hu', 99], ['id', 99], ['mk', 94], ['ru', 99], ['sk', 77], ['sq', 99], ['sv', 98]]
+    },
+    "20230606.html": {
+        "fullyTranslated": ['ar', 'az', 'br', 'ca', 'ca@valencia', 'el', 'en_GB', 'es', 'eu', 'fr', 'hr', 'id', 'it', 'lt', 'ml', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk'],
+        "partiallyTranslated": [['be', 79], ['cs', 88], ['de', 99], ['eo', 99], ['et', 99], ['fi', 98], ['he', 99], ['hu', 99], ['mk', 94], ['ru', 99], ['sk', 87], ['sq', 99], ['sv', 98], ['zh_TW', 99]]
+
     }
 }
 
