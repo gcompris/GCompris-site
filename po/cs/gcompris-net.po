@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-05 00:49+0000\n"
-"PO-Revision-Date: 2023-04-05 22:45+0200\n"
-"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
+"POT-Creation-Date: 2023-06-07 00:52+0000\n"
+"PO-Revision-Date: 2023-06-05 12:02+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 23.04.1\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -94,20 +94,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Vydání GCompris 3.1"
+msgstr "Vydání GCompris 3.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Dnes vydáváme GCompris verze 3.1."
+msgstr "Dnes vydáváme GCompris verze 3.3."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -116,20 +110,11 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Tato nová verze obsahuje opravy chyb ve více aktivitách, jako jsou \\"
-"\"Objevuj mezinárodní Morseovu abecedu\\\", \\\"Ovládej hadici\\\" a hudební "
-"aktivity."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -139,59 +124,33 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
-"Také obsahuje novou grafiku pro všechna pexesa a pro \\\"Dětské puzzle\\\"."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Je plně přeloženo v následujících jazycích:"
+msgstr ""
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Také je částečně přeloženo do následujících jazyků:"
+msgstr ""
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -205,9 +164,6 @@ msgstr ""
 "Android Play, repozitáři F-Droidu a v obchodě Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
@@ -279,190 +235,195 @@ msgstr "Řečtina"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
+msgid "Esperanto"
+msgstr ""
+
+#: gcompris.py:97
+msgctxt "language name, item list"
 msgid "Spanish"
 msgstr "Španělština"
 
-#: gcompris.py:97
+#: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Estonian"
 msgstr "Estonština"
 
-#: gcompris.py:98
+#: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Basque"
 msgstr "Baskičtina"
 
-#: gcompris.py:99
+#: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Finnish"
 msgstr "Finština"
 
-#: gcompris.py:100
+#: gcompris.py:101
 msgctxt "language name, item list"
 msgid "French"
 msgstr "Francouzština"
 
-#: gcompris.py:101
+#: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Irish"
 msgstr "Irština"
 
-#: gcompris.py:102
+#: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
 msgstr "Skotská gaelština"
 
-#: gcompris.py:103
+#: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
 msgstr "Galicijština"
 
-#: gcompris.py:104
+#: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hebrew"
 msgstr "Hebrejština"
 
-#: gcompris.py:105
+#: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hindi"
 msgstr "Hindština"
 
-#: gcompris.py:106
+#: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Croatian"
 msgstr "Chorvatština"
 
-#: gcompris.py:107
+#: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Hungarian"
 msgstr "Maďarština"
 
-#: gcompris.py:108
+#: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Indonesian"
 msgstr "Indonéština"
 
-#: gcompris.py:109
+#: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Italian"
 msgstr "Italština"
 
-#: gcompris.py:110
+#: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Korean"
 msgstr "Korejština"
 
-#: gcompris.py:111
+#: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Lithuanian"
 msgstr "Litevština"
 
-#: gcompris.py:112
+#: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Latvian"
 msgstr "Lotyština"
 
-#: gcompris.py:113
+#: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Macedonian"
 msgstr "Makedonština"
 
-#: gcompris.py:114
+#: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Malayalam"
 msgstr "Malayalam"
 
-#: gcompris.py:115
+#: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Dutch"
 msgstr "Holandština"
 
-#: gcompris.py:116
+#: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
 msgstr "Norský Nynorsk"
 
-#: gcompris.py:117
+#: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Polish"
 msgstr "Polština"
 
-#: gcompris.py:118
+#: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Portuguese"
 msgstr "Portugalština"
 
-#: gcompris.py:119
+#: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
 msgstr "Brazilská portugalština"
 
-#: gcompris.py:120
+#: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Romanian"
 msgstr "Rumunština"
 
-#: gcompris.py:121
+#: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Russian"
 msgstr "Ruština"
 
-#: gcompris.py:122
+#: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "Slovenština"
 
-#: gcompris.py:123
+#: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "Slovinština"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "Albánština"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "Srbština"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "Švédština"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "Tamilština"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "Thajština"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "Turečtina"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "Ukrajinština"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "Zjednodušená čínština"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Tradiční čínština"
 
-#: gcompris.py:249
+#: gcompris.py:250
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -470,12 +431,12 @@ msgstr ""
 "Tento software je balíkem GNU a je vydán pod licencí GNU Affero General "
 "Public License."
 
-#: gcompris.py:250
+#: gcompris.py:251
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Vít Pelčák, Jan Papež"
 
-#: gcompris.py:376
+#: gcompris.py:382
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Na Vánoce nabídněte GCompris vašim dětem."
 
@@ -1103,17 +1064,3 @@ msgstr "Čtení"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
-
-#~ msgctxt "20230121.html"
-#~ msgid ""
-#~ "As we noticed that version 3.0 contained a critical bug in the new \\"
-#~ "\"Comparator\\\" activity, we decided to quickly ship this 3.1 "
-#~ "maintenance release to fix the issue."
-#~ msgstr ""
-#~ "Protože jsme zjistili, že verze 3.0 obsahovala kritickou chybu v nové "
-#~ "aktivitě \\\"Porovnávač\\\", rozhodli jsme se rychle vydat toto údržbové "
-#~ "vydání 3.1, abychom tuto chybu opravili."
-
-#~ msgctxt "20230121.html"
-#~ msgid "It also contains some little translation update."
-#~ msgstr "Také obsahuje nějakou menší aktualizaci překladu."
