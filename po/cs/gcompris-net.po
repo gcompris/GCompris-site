@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-07 00:52+0000\n"
-"PO-Revision-Date: 2023-06-07 12:02+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2023-06-08 22:17+0200\n"
+"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -107,7 +107,7 @@ msgstr "Dnes vydáváme GCompris verze 3.3."
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
+msgstr "Do této verze přibyly další dva jazyky: Arabština a Esperanto."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -115,6 +115,9 @@ msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
+"Obsahuje opravy chyb na několika aktivitách jako jsou \\\"Kódování cesty\\"
+"\", \\\"V jakém slově je písmeno\\\", \\\"Hoď Tuxovi míč\\\" a \\\"Skládej "
+"na pianu\\\"."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -122,16 +125,18 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"V několika aktivitách bylo vylepšeno ovládání klávesnicí (klávesové zkratky, "
+"zaměření, ...)."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
+msgstr "Také zahrnuje novou grafiku a vylepšení v \\\"Lovci fotografií\\\"."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Je plně přeloženo v následujících jazycích:"
 
 #. list item
 msgctxt "20230606.html"
@@ -141,7 +146,7 @@ msgstr "{{ oneLocale }}"
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Také je částečně přeloženo do následujících jazyků:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
