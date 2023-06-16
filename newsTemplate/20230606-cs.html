@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Vydání GCompris 3.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Dnes vydáváme GCompris verze 3.3.</p>
+<p>Do této verze přibyly další dva jazyky: Arabština a Esperanto.</p>
+<p>Obsahuje opravy chyb na několika aktivitách jako jsou "Kódování cesty", "V jakém slově je písmeno", "Hoď Tuxovi míč" a "Skládej na pianu".</p>
+<p>V několika aktivitách bylo vylepšeno ovládání klávesnicí (klávesové zkratky, zaměření, ...).</p>
+<p>Také zahrnuje novou grafiku a vylepšení v "Lovci fotografií".</p>
+
+<p>Je plně přeloženo v následujících jazycích:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Také je částečně přeloženo do následujících jazyků:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Můžete nalézt balíčky této nové verze pro GNU/Linux, Windows, Raspberry Pi a macOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě Android Play, repozitáři F-Droidu a v obchodě Windows Store.</p>
+
+<p>Díky všem, <br/>Timothée & Johnny</p>
+
+{% endblock %}
