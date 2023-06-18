@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-06-07 00:52+0000\n"
-"PO-Revision-Date: 2023-05-22 14:01\n"
+"PO-Revision-Date: 2023-06-17 04:12\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -26,7 +26,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230329.html"
 msgid "Today we are releasing GCompris version 3.2."
-msgstr ""
+msgstr "今天，我们发布了GCompris 3.2版本。"
 
 #. paragraph
 msgctxt "20230329.html"
@@ -35,13 +35,15 @@ msgid ""
 "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
 "and music activities."
 msgstr ""
+"这个新版本包含了对多种活动的一些错误修复，如“发现国际Morse代码”“控制主机-管"
+"道”和音乐活动。"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
-msgstr ""
+msgstr "它还包含所有记忆活动和“婴儿拼图”的新图形。"
 
 #. paragraph
 msgctxt "20230329.html"
@@ -49,16 +51,18 @@ msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
 "which allows users to force the difficulty filter at a given value or range."
 msgstr ""
+"一个新的命令行参数 (--difficult {value|min-max}) 已被添加，允许用户强制给定困"
+"难过滤器的值或范围。"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
+msgstr "Andika 字体已更新到最新版本 (6.200)。"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "它完全译成以下语言："
 
 #. list item
 msgctxt "20230329.html"
@@ -68,7 +72,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "它还被部分翻译成以下语言："
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
@@ -80,7 +84,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "感谢大家，<br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230606.html"
@@ -90,13 +94,13 @@ msgstr ""
 #. paragraph
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr ""
+msgstr "今天，我们发布了GCompris 3.3版本。"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
+msgstr "这个版本增加了另外两个语言的翻译：阿拉伯语和埃斯佩兰托语。"
 
 #. paragraph
 msgctxt "20230606.html"
@@ -104,23 +108,25 @@ msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
+"它包含对多个活动的错误修复，如“路径编码”， “文字中的字"
+"母”，“Ballcatch”和“Piano composition”。"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
-msgstr ""
+msgstr "在几项活动方面对键盘处理作了一些改进 (快捷键、焦点...)。"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
+msgstr "在“照片猎人”上包含新的图形和改进。"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "它完全译成以下语言："
 
 #. list item
 msgctxt "20230606.html"
@@ -130,7 +136,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "它还被部分翻译成以下语言："
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
@@ -147,146 +153,149 @@ msgid ""
 "html\\\">download page</a>. This update will be available soon in the "
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
+"您可以在 <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下载"
+"页</a> 找到这个新版本的 GNU/Linux、Windows、Raspberry Pi 和 macOS 的包。此更"
+"新将很快在 Android Play 商店、F-Droid 仓库和 Windows 商店中提供。"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "感谢大家，<br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "英式英语"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "美式英语"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "阿拉伯语"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "阿塞拜疆文"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "保加利亚文"
 
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr ""
+msgstr "布列塔尼语"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr ""
+msgstr "白俄罗斯语"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr ""
+msgstr "加泰罗尼亚文"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "加泰罗尼亚语 (巴伦西亚)"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr ""
+msgstr "捷克文"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "丹麦文"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "German"
-msgstr ""
+msgstr "德语"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr ""
+msgstr "希腊语"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "世界语"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr ""
+msgstr "西班牙文"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr ""
+msgstr "爱沙尼亚文"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr ""
+msgstr "巴斯克文"
 
 #: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr ""
+msgstr "芬兰文"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "French"
-msgstr ""
+msgstr "法语"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr ""
+msgstr "爱尔兰语"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "苏格兰盖尔语"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr ""
+msgstr "加利西亚语"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr ""
+msgstr "希伯来语"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr ""
+msgstr "印地语"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr ""
+msgstr "克罗地亚语"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr ""
+msgstr "匈牙利语"
 
 #: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr ""
+msgstr "印度尼西亚语"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
