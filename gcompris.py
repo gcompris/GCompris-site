@@ -377,7 +377,7 @@ outputFeedAllText = templateFeedAll.render(templateVars)
 with codecs.open('feed' + suffix + '.xml', 'w', encoding='utf8') as f:
     f.write(outputFeedAllText)
 
-for f in ["christmas", "schools", "donate", "downloads", "index", "screenshots", "news", "newsall"]:
+for f in ["christmas", "schools", "donate", "downloads", "index", "screenshots", "news", "newsall", "faq"]:
     if f == "christmas":
         templateVars["ogDescription"] = _("For Christmas, offer GCompris to your children.")
         templateVars["ogImage"] = "https://gcompris.net/images/gcompris-christmas.png"

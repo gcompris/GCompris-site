@@ -23,6 +23,7 @@ sources = \
 	template/christmas.html \
 	template/donate.html \
 	template/downloads.html \
+	template/faq.html \
 	template/index.html \
 	template/news.html \
 	template/newsall.html \
@@ -35,6 +36,7 @@ sources = \
 i18_sources = template/base.html \
 	template/donate.html \
 	template/downloads.html \
+	template/faq.html \
 	template/index.html \
 	template/screenshot.html \
 	template/schools.html

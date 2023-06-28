@@ -1,0 +1,79 @@
+{% extends "template/base.html" %}
+{% set page = 'faq' %}
+{% set title = _('FAQ - GCompris') %}
+{% block content %}
+<div>
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+          <h1 class="bigtitle2">{% trans %}Frequently Asked Questions{% endtrans %}</h1>
+    <div class="col-xs-12 col-md-12">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+        <div>
+            <div class="newstitle" id="external_assets" ><a href= "#external_assets">{% trans %}Why are some assets not contained in the software itself?{% endtrans %}</a></div>
+	        <p>{% trans %}Including the voices for all languages would make the installer way too heavy and most users are only interested in the voices for their language. Also the extra images and background music take relatively lot of space while not being required to use the software. So to minimize the base installer size we decided to not include those and let users download them from the software if they want to.{% endtrans %}</p>
+	        <p>{% trans %}If you don't want the software to download anything automatically, you can disable the option "Enable automatic downloads/updates of sound files" in the main configuration page.{% endtrans %}</p>
+	        <br/>
+            <div class="newstitle" id="assets_download" ><a href= "#assets_download">{% trans %}How can I manually download and install the extra assets?{% endtrans %}</a></div>
+	        <p>{% trans %}You can download the extra assets from this link:{% endtrans %}</p>
+	        <pre>
+https://cdn.kde.org/gcompris/data2/
+</pre>
+	        <p>{% trans %}IMPORTANT: in the following instructions, replace "-codecName" with "-mp3" for Windows systems, or "-ogg" for Linux or Android systems, or "-aac" for macOS systems. Also, replace "-localeCode" with the code of your locale.{% endtrans %}</p>
+	        <p>{% trans %}For the background music, you need to go in the folder named "backgroundMusic" and download those 2 files:{% endtrans %}</p>
+	        <pre>
+Contents
+backgroundMusic-codecName.rcc
+</pre>
+	        <p>{% trans %}Then copy those 2 files in a folder named "backgroundMusic" in the cache folder of the application.{% endtrans %}</p>
+            <p>{% trans %}For the voices, you need to go in the folder named "voices-codecName" and download those 2 files:{% endtrans %}</p>
+	        <pre>
+Contents
+voices-localeCode.rcc
+</pre>
+            <p>{% trans %}Then copy those 2 files in a folder named "voices-codecName" in the cache folder of the application.{% endtrans %}</p>
+            <p>{% trans %}For the images, you need to go in the folder named "words" and download those 2 files:{% endtrans %}</p>
+	        <pre>
+Contents
+words-webp.rcc
+</pre>
+            <p>{% trans %}Then copy those 2 files in a folder named "words" in the cache folder of the application.{% endtrans %}</p>
+            <p>{% trans %}The path to the cache folder is different depending on the operating system.{% endtrans %}</p>
+            <p>{% trans %}Path on Windows:{% endtrans %}</p>
+	        <pre>
+C:\Users\Username\AppData\Local\KDE\GCompris\cache\data2\
+</pre>
+            <p>{% trans %}Path on Linux:{% endtrans %}</p>
+	        <pre>
+/home/userName/.cache/KDE/gcompris-qt/data2/
+</pre>
+            <p>{% trans %}Path on Android (you need to have root access to edit this folder):{% endtrans %}</p>
+	        <pre>
+/data/data/net.gcompris.full/data2/
+</pre>
+            <p>{% trans %}Path on macOS:{% endtrans %}</p>
+	        <pre>
+~/Library/Caches/KDE/gcompris-qt/data2/
+</pre>
+	        <br/>
+            <div class="newstitle" id="package" ><a href= "#package">{% trans %}Is GCompris a GNU package or a KDE package?{% endtrans %}</a></div>
+	        <p>{% trans %}It is both. From the beginning, GCompris has always been and still is a GNU package. Since 2014 it is maintained by the KDE community.{% endtrans %}</p>
+	        <br/>
+            <div class="newstitle" id="license" ><a href= "#license">{% trans %}Does this software depend on non-free packages or content?{% endtrans %}</a></div>
+	        <p>{% trans %}All the content and dependencies are under licenses compatible with the AGPLv3 license.{% endtrans %}</p>
+	        <br/>
+            <div class="newstitle" id="ios" ><a href= "#ios">{% trans %}Why is it not available for iOS?{% endtrans %}</a></div>
+	        <p>{% trans %}The requirements to build and publish software for iOS are not compatible with the GPLv3 and AGPLv3 licenses used by this software.{% endtrans %}</p>
+	        <br/>
+            <div class="newstitle" id="fireos" ><a href= "#fireos">{% trans %}Why is it not available on the amazon store?{% endtrans %}</a></div>
+	        <p>{% trans %}For android we already publish on the Play store and F-Droid, publishing on all the stores would require too much work. If you are using a Fire tablet, you can directly install the latest apk from our website, and use a third party launcher to access the application from a child profile.{% endtrans %}</p>
+	        <br/>
+	        <br/><br/>
+	      </div>
+	    </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+{% endblock %} 
