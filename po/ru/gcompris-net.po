@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-07 00:52+0000\n"
+"POT-Creation-Date: 2023-07-02 00:51+0000\n"
 "PO-Revision-Date: 2020-03-17 00:07+0100\n"
 "Last-Translator: Timo <animtim@gmail.com>\n"
 "Language-Team: Russian <kde-i18n-doc@kde.org>\n"
@@ -477,15 +477,19 @@ msgid "Manual"
 msgstr "Руководство"
 
 #: template/base.html:77
+msgid "FAQ"
+msgstr ""
+
+#: template/base.html:78
 msgid "Contribute"
 msgstr "Содействовать"
 
-#: template/base.html:108
+#: template/base.html:109
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:113
+#: template/base.html:114
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""
@@ -796,6 +800,152 @@ msgstr ""
 
 #: template/downloads.html:170
 msgid "sig files:"
+msgstr ""
+
+#: template/faq.html:3
+msgid "FAQ - GCompris"
+msgstr ""
+
+#: template/faq.html:8
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: template/faq.html:13
+msgid "Why are some assets not contained in the software itself?"
+msgstr ""
+
+#: template/faq.html:14
+msgid ""
+"Including the voices for all languages would make the installer way too "
+"heavy and most users are only interested in the voices for their language. "
+"Also the extra images and background music take relatively lot of space "
+"while not being required to use the software. So to minimize the base "
+"installer size we decided to not include those and let users download them "
+"from the software if they want to."
+msgstr ""
+
+#: template/faq.html:15
+msgid ""
+"If you don't want the software to download anything automatically, you can "
+"disable the option \"Enable automatic downloads/updates of sound files\" in "
+"the main configuration page."
+msgstr ""
+
+#: template/faq.html:17
+msgid "How can I manually download and install the extra assets?"
+msgstr ""
+
+#: template/faq.html:18
+msgid "You can download the extra assets from this link:"
+msgstr ""
+
+#: template/faq.html:22
+msgid ""
+"IMPORTANT: in the following instructions, replace \"-codecName\" with \"-"
+"mp3\" for Windows systems, or \"-ogg\" for Linux or Android systems, or \"-"
+"aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
+"locale."
+msgstr ""
+
+#: template/faq.html:23
+msgid ""
+"For the background music, you need to go in the folder named "
+"\"backgroundMusic\" and download those 2 files:"
+msgstr ""
+
+#: template/faq.html:28
+msgid ""
+"Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
+"folder of the application."
+msgstr ""
+
+#: template/faq.html:29
+msgid ""
+"For the voices, you need to go in the folder named \"voices-codecName\" and "
+"download those 2 files:"
+msgstr ""
+
+#: template/faq.html:34
+msgid ""
+"Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
+"folder of the application."
+msgstr ""
+
+#: template/faq.html:35
+msgid ""
+"For the images, you need to go in the folder named \"words\" and download "
+"those 2 files:"
+msgstr ""
+
+#: template/faq.html:40
+msgid ""
+"Then copy those 2 files in a folder named \"words\" in the cache folder of "
+"the application."
+msgstr ""
+
+#: template/faq.html:41
+msgid ""
+"The path to the cache folder is different depending on the operating system."
+msgstr ""
+
+#: template/faq.html:42
+#, fuzzy
+#| msgid "Windows"
+msgid "Path on Windows:"
+msgstr "Windows"
+
+#: template/faq.html:46
+msgid "Path on Linux:"
+msgstr ""
+
+#: template/faq.html:50
+msgid "Path on Android (you need to have root access to edit this folder):"
+msgstr ""
+
+#: template/faq.html:54
+msgid "Path on macOS:"
+msgstr ""
+
+#: template/faq.html:59
+msgid "Is GCompris a GNU package or a KDE package?"
+msgstr ""
+
+#: template/faq.html:60
+msgid ""
+"It is both. From the beginning, GCompris has always been and still is a GNU "
+"package. Since 2014 it is maintained by the KDE community."
+msgstr ""
+
+#: template/faq.html:62
+msgid "Does this software depend on non-free packages or content?"
+msgstr ""
+
+#: template/faq.html:63
+msgid ""
+"All the content and dependencies are under licenses compatible with the "
+"AGPLv3 license."
+msgstr ""
+
+#: template/faq.html:65
+msgid "Why is it not available for iOS?"
+msgstr ""
+
+#: template/faq.html:66
+msgid ""
+"The requirements to build and publish software for iOS are not compatible "
+"with the GPLv3 and AGPLv3 licenses used by this software."
+msgstr ""
+
+#: template/faq.html:68
+msgid "Why is it not available on the amazon store?"
+msgstr ""
+
+#: template/faq.html:69
+msgid ""
+"For android we already publish on the Play store and F-Droid, publishing on "
+"all the stores would require too much work. If you are using a Fire tablet, "
+"you can directly install the latest apk from our website, and use a third "
+"party launcher to access the application from a child profile."
 msgstr ""
 
 #: template/index.html:3
