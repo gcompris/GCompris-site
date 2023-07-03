@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-06-07 10:34+0200\n"
+"PO-Revision-Date: 2023-07-02 18:40+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.04.2\n"
 
 # news title
 #. news title
@@ -488,7 +488,7 @@ msgstr "Handmatig"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -812,15 +812,15 @@ msgstr "sig-bestanden:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "FAQ - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Veel gestelde vragen"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Waarom zitten sommige gegevens niet in de software zelf?"
 
 #: template/faq.html:14
 msgid ""
@@ -841,15 +841,11 @@ msgstr ""
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Hoe kan ik handmatig de extra gegevens downloaden en installeren?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr ""
-"Anders kunt u het installatieprogramma downloaden via de onderstaande "
-"koppelingen."
+msgstr "U kunt de extra gegevens downloaden via deze koppeling:"
 
 #: template/faq.html:22
 msgid ""
@@ -864,6 +860,8 @@ msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Voor de achtergrondmuziek moet u in de map genaamd \"backgroundMusic\" "
+"kijken en die 2 bestanden downloaden:"
 
 #: template/faq.html:28
 msgid ""
@@ -901,10 +899,8 @@ msgid ""
 msgstr ""
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Pad naar Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"

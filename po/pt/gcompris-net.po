@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-06-09 23:18+0100\n"
+"PO-Revision-Date: 2023-07-03 01:04+0100\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -1240,7 +1240,7 @@ msgstr "Manual"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -1564,7 +1564,7 @@ msgstr ""
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Perguntas Mais Frequentes"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
@@ -1592,10 +1592,8 @@ msgid "How can I manually download and install the extra assets?"
 msgstr ""
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "Em alternativa, poderá obter o instalador nas ligações abaixo."
+msgstr "Poderá obter os conteúdos extra nesta ligação:"
 
 #: template/faq.html:22
 msgid ""
@@ -1647,10 +1645,8 @@ msgid ""
 msgstr ""
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Localização no Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
