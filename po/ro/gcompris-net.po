@@ -1,16 +1,16 @@
 # Translations template for PROJECT.
 # Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Horia PELLE <horricane@gmail.com>, 2017, 2018, 2019.
-# Timo <animtim@gmail.com>, 2020.
 #
+# Horia PELLE <horricane@gmail.com>, 2017, 2018, 2019, 2023.
+# Timo <animtim@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2020-03-17 00:05+0100\n"
-"Last-Translator: Timo <animtim@gmail.com>\n"
+"PO-Revision-Date: 2023-06-01 17:55+0200\n"
+"Last-Translator: Horia PELLE <horricane@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -18,31 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20230329.html"
 msgid "Release GCompris 3.2"
 msgstr "Versiunea GCompris 3.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20230329.html"
 msgid "Today we are releasing GCompris version 3.2."
 msgstr "Astăzi lansăm GCompris versiunea 3.2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230329.html"
 msgid ""
 "This new version contains some bug fixes on multiple activities such as \\"
@@ -54,11 +43,6 @@ msgstr ""
 "furtunul” și activitățile muzicale."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230329.html"
 msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
@@ -68,12 +52,6 @@ msgstr ""
 "pentru „Puzzle de jucărie”."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "A new command-line argument (--difficulty {value|min-max}) has been added "
-#| "which allows users to force the difficulty filter at a given value or "
-#| "range."
 msgctxt "20230329.html"
 msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
@@ -84,34 +62,22 @@ msgstr ""
 "o valoare sau un interval dat."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "The Andika font has been updated to its latest version (6.200)."
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
 msgstr ""
 "Fontul Andika a fost actualizat la cea mai recentă versiune a lui (6.200)."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Este complet tradus în următoarele limbi:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230329.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Este de asemenea parțial tradus în următoarele limbi:"
@@ -119,44 +85,28 @@ msgstr "Este de asemenea parțial tradus în următoarele limbi:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Vă mulțumim tuturor, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Release GCompris 3.3"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
 msgstr "Versiunea GCompris 3.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Today we are releasing GCompris version 3.3."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
 msgstr "Astăzi lansăm GCompris versiunea 3.3."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
@@ -164,12 +114,6 @@ msgstr ""
 "Această versiune adaugă traduceri pentru încă două limbi: arabă și esperanto."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
-#| "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
-#| "\"."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
@@ -180,11 +124,6 @@ msgstr ""
 "mingea la Tux” și „Compoziție la pian”."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "Some improvements of keyboard handling (shortcuts, focus...) have been "
-#| "done on several activities."
 msgctxt "20230606.html"
 msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
@@ -194,10 +133,6 @@ msgstr ""
 "focalizare...), la mai multe activități."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
@@ -205,25 +140,16 @@ msgstr ""
 "„Vânătorul de fotografii”."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Este complet tradus în următoarele limbi:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Este de asemenea parțial tradus în următoarele limbi:"
@@ -231,23 +157,12 @@ msgstr "Este de asemenea parțial tradus în următoarele limbi:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -263,114 +178,72 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
 
 #: gcompris.py:83
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "UK English"
 msgctxt "language name, item list"
 msgid "UK English"
 msgstr "Engleză britanică"
 
 #: gcompris.py:84
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "American English"
 msgctxt "language name, item list"
 msgid "American English"
 msgstr "Engleză americană"
 
 #: gcompris.py:85
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Arabic"
 msgctxt "language name, item list"
 msgid "Arabic"
 msgstr "Arabă"
 
 #: gcompris.py:86
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Azerbaijani"
 msgctxt "language name, item list"
 msgid "Azerbaijani"
 msgstr "Azeră"
 
 #: gcompris.py:87
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Bulgarian"
 msgctxt "language name, item list"
 msgid "Bulgarian"
 msgstr "Bulgară"
 
 # list item
 #: gcompris.py:88
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Breton"
 msgctxt "language name, item list"
 msgid "Breton"
 msgstr "Bretonă"
 
 #: gcompris.py:89
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Belarusian"
 msgctxt "language name, item list"
 msgid "Belarusian"
 msgstr "Bielorusă"
 
 #: gcompris.py:90
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Catalan"
 msgctxt "language name, item list"
 msgid "Catalan"
 msgstr "Catalană"
 
 #: gcompris.py:91
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Catalan (Valencian)"
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
 msgstr "Catalană (valenciană)"
 
 #: gcompris.py:92
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Czech"
 msgctxt "language name, item list"
 msgid "Czech"
 msgstr "Cehă"
 
 #: gcompris.py:93
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Danish"
 msgctxt "language name, item list"
 msgid "Danish"
 msgstr "Daneză"
 
 #: gcompris.py:94
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "German"
 msgctxt "language name, item list"
 msgid "German"
 msgstr "Germană"
 
 #: gcompris.py:95
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Greek"
 msgctxt "language name, item list"
 msgid "Greek"
 msgstr "Greacă"
@@ -381,311 +254,196 @@ msgid "Esperanto"
 msgstr ""
 
 #: gcompris.py:97
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Spanish"
 msgctxt "language name, item list"
 msgid "Spanish"
 msgstr "Spaniolă"
 
 #: gcompris.py:98
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Estonian"
 msgctxt "language name, item list"
 msgid "Estonian"
 msgstr "Estoniană"
 
 #: gcompris.py:99
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Basque"
 msgctxt "language name, item list"
 msgid "Basque"
 msgstr "Bască"
 
 # list item
 #: gcompris.py:100
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Finnish"
 msgctxt "language name, item list"
 msgid "Finnish"
 msgstr "Finlandeză"
 
 #: gcompris.py:101
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "French"
 msgctxt "language name, item list"
 msgid "French"
 msgstr "Franceză"
 
 #: gcompris.py:102
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Irish"
 msgctxt "language name, item list"
 msgid "Irish"
 msgstr "Irlandeză"
 
 #: gcompris.py:103
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Scottish Gaelic"
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
 msgstr "Galeză scoțiană"
 
 #: gcompris.py:104
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Galician"
 msgctxt "language name, item list"
 msgid "Galician"
 msgstr "Galiciană"
 
 #: gcompris.py:105
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Hebrew"
 msgctxt "language name, item list"
 msgid "Hebrew"
 msgstr "Ebraică"
 
 #: gcompris.py:106
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Hindi"
 msgctxt "language name, item list"
 msgid "Hindi"
 msgstr "Hindi"
 
 #: gcompris.py:107
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Croatian"
 msgctxt "language name, item list"
 msgid "Croatian"
 msgstr "Croată"
 
 #: gcompris.py:108
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Hungarian"
 msgctxt "language name, item list"
 msgid "Hungarian"
 msgstr "Maghiară"
 
 # list item
 #: gcompris.py:109
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Indonesian"
 msgctxt "language name, item list"
 msgid "Indonesian"
 msgstr "Indoneziană"
 
 #: gcompris.py:110
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Italian"
 msgctxt "language name, item list"
 msgid "Italian"
 msgstr "Italiană"
 
 #: gcompris.py:111
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Korean"
 msgctxt "language name, item list"
 msgid "Korean"
 msgstr "Coreeană"
 
 #: gcompris.py:112
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Lithuanian"
 msgctxt "language name, item list"
 msgid "Lithuanian"
 msgstr "Lituaniană"
 
 #: gcompris.py:113
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Latvian"
 msgctxt "language name, item list"
 msgid "Latvian"
 msgstr "Letonă"
 
 #: gcompris.py:114
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Macedonian"
 msgctxt "language name, item list"
 msgid "Macedonian"
 msgstr "Macedoneană"
 
 #: gcompris.py:115
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Malayalam"
 msgctxt "language name, item list"
 msgid "Malayalam"
 msgstr "Malaieză"
 
 #: gcompris.py:116
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Dutch"
 msgctxt "language name, item list"
 msgid "Dutch"
 msgstr "Olandeză"
 
 # list item
 #: gcompris.py:117
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Norwegian Nynorsk"
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
 msgstr "Norvegiană Nynorsk"
 
 # list item
 #: gcompris.py:118
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Polish"
 msgctxt "language name, item list"
 msgid "Polish"
 msgstr "Poloneză"
 
 #: gcompris.py:119
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Portuguese"
 msgctxt "language name, item list"
 msgid "Portuguese"
 msgstr "Portugheză"
 
 # list item
 #: gcompris.py:120
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Brazilian Portuguese"
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
 msgstr "Portugheza braziliană"
 
 #: gcompris.py:121
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Romanian"
 msgctxt "language name, item list"
 msgid "Romanian"
 msgstr "Română"
 
 #: gcompris.py:122
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Russian"
 msgctxt "language name, item list"
 msgid "Russian"
 msgstr "Rusă"
 
 #: gcompris.py:123
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Slovak"
 msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "Slovacă"
 
 #: gcompris.py:124
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Slovenian"
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "Slovenă"
 
 #: gcompris.py:125
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Albanian"
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "Albaneză"
 
 #: gcompris.py:126
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Serbian"
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "Sârbă"
 
 #: gcompris.py:127
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Swedish"
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "Suedeză"
 
 #: gcompris.py:128
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Tamil"
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "Tamil"
 
 #: gcompris.py:129
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Thai"
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "Thailandeză"
 
 #: gcompris.py:130
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Turkish"
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "Turcă"
 
 #: gcompris.py:131
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Ukrainian"
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "Ucrainiană"
 
 #: gcompris.py:132
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Chinese Simplified"
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "Chineză simplificată"
 
 #: gcompris.py:133
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Chinese Traditional"
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Chineză tradițională"
 
 #: gcompris.py:250
-#, fuzzy
-#| msgid ""
-#| "This software is a GNU Package and is released under the GNU Affero "
-#| "General Public License."
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -694,24 +452,17 @@ msgstr ""
 "GNU Affero."
 
 #: gcompris.py:251
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Numele voastre"
 
 #: gcompris.py:382
-#, fuzzy
-#| msgid "For Christmas, offer GCompris to your children."
 msgid "For Christmas, offer GCompris to your children."
 msgstr "De Crăciun, oferiți-le copiilor dumneavoastră GCompris."
 
 #: template/base.html:71 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
-#, fuzzy
-#| msgid "News"
 msgid "News"
 msgstr "Noutăți"
 
@@ -729,8 +480,6 @@ msgid "Screenshots"
 msgstr "Capturi de ecran"
 
 #: template/base.html:75 template/schools.html:3 template/schools.html:8
-#, fuzzy
-#| msgid "Schools"
 msgid "Schools"
 msgstr "Școli"
 
@@ -747,28 +496,20 @@ msgid "Contribute"
 msgstr "Contribuie"
 
 #: template/base.html:109
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Site actualizat ultima dată în %(revision_date)s."
 
 #: template/base.html:114
-#, fuzzy, python-format
-#| msgid "Site translated by: %(translators_names)s."
+#, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Site tradus de %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
-#, fuzzy
-#| msgid "GCompris for Christmas"
 msgid "GCompris for Christmas"
 msgstr "GCompris de Crăciun"
 
 #: template/christmas.html:15
-#, fuzzy
-#| msgid ""
-#| "For Christmas, offer GCompris to your children. It's free and will give "
-#| "them hours of educational fun."
 msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
@@ -777,20 +518,14 @@ msgstr ""
 "de amuzament educațional."
 
 #: template/christmas.html:16
-#, fuzzy
-#| msgid "Get GCompris from our Download page"
 msgid "Get GCompris from our Download page"
 msgstr "Ia GCompris din pagina noastră de descărcare"
 
 #: template/christmas.html:17
-#, fuzzy
-#| msgid "Get GCompris from the Play Store"
 msgid "Get GCompris from the Play Store"
 msgstr "Ia GCompris din Magazin Play"
 
 #: template/christmas.html:18
-#, fuzzy
-#| msgid "Get GCompris from the Windows Store"
 msgid "Get GCompris from the Windows Store"
 msgstr "Ia GCompris din Windows Magazin."
 
@@ -803,10 +538,6 @@ msgstr ""
 "GCompris. Puteți sprijini acest proiect cu o donație."
 
 #: template/donate.html:14
-#, fuzzy
-#| msgid ""
-#| "Developing software takes a lot of time, it needs hardware, and other "
-#| "requirements that have a cost."
 msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
@@ -815,10 +546,6 @@ msgstr ""
 "și alte lucruri care implică costuri."
 
 #: template/donate.html:16
-#, fuzzy
-#| msgid ""
-#| "If you want to support the development of GCompris in a sustainable way, "
-#| "please become a patron of GCompris on Patreon:"
 msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
@@ -827,20 +554,14 @@ msgstr ""
 "rugăm să deveniți un susținător al GCompris pe Patreon:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
-#, fuzzy
-#| msgid "Become a Patron"
 msgid "Become a Patron"
 msgstr "Devino un susținător"
 
 #: template/donate.html:21
-#, fuzzy
-#| msgid "Also, you can donate the amount of your choice to KDE:"
 msgid "Also, you can donate the amount of your choice to KDE:"
 msgstr "De asemenea, puteți dona o sumă la alegerea dvs. pentru KDE:"
 
 #: template/donate.html:22
-#, fuzzy
-#| msgid "Donate to KDE"
 msgid "Donate to KDE"
 msgstr "Donează la KDE"
 
@@ -850,14 +571,10 @@ msgstr ""
 "Vă mulțumim pentru sprijinirea produselor software educaționale gratuite."
 
 #: template/donate.html:27
-#, fuzzy
-#| msgid "Patreon"
 msgid "Patreon"
 msgstr "Patreon"
 
 #: template/donate.html:30
-#, fuzzy
-#| msgid "Thanks to everyone supporting GCompris on Patreon!"
 msgid "Thanks to everyone supporting GCompris on Patreon!"
 msgstr "Vă mulțumim tuturor acelora care sprijină GCompris pe Patreon!"
 
@@ -866,10 +583,6 @@ msgid "Windows"
 msgstr "Windows"
 
 #: template/downloads.html:20
-#, fuzzy
-#| msgid ""
-#| "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/"
-#| "p/gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
@@ -882,8 +595,6 @@ msgid "Note: the Windows Store requires Windows 10."
 msgstr "Notă: Windows Store necesită Windows 10."
 
 #: template/downloads.html:23
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "Else, you can download the installer from the links below."
 msgstr ""
 "O altă variantă este să descărcați programul de instalare din linkurile de "
@@ -916,11 +627,6 @@ msgstr ""
 "installer din vechiul GCompris Gtk v15.10."
 
 #: template/downloads.html:34
-#, fuzzy
-#| msgid ""
-#| "To enable all the activities in this old version, you can use the code "
-#| "200202 in the entry box that contains the word CODE when you start the "
-#| "application."
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -935,8 +641,6 @@ msgid "Android"
 msgstr "Android"
 
 #: template/downloads.html:48
-#, fuzzy
-#| msgid "The version for Android is distributed in the Play Store."
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Versiunea pentru Android este distribuită în Magazin Google Play."
 
@@ -951,10 +655,6 @@ msgstr ""
 "automat, în funcție de sistemul dvs. de operare Android."
 
 #: template/downloads.html:54
-#, fuzzy
-#| msgid ""
-#| "GCompris is also available from F-Droid, the Free and Open Source Android "
-#| "app repository."
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -963,10 +663,6 @@ msgstr ""
 "aplicații Android gratuite și din sursă deschisă."
 
 #: template/downloads.html:59
-#, fuzzy
-#| msgid ""
-#| "You can also directly download the apk from our website to install it "
-#| "manually on your device."
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -975,11 +671,6 @@ msgstr ""
 "a-l instala manual pe dispozitivul dumneavoastră."
 
 #: template/downloads.html:64
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -995,8 +686,6 @@ msgid "macOS"
 msgstr "macOS"
 
 #: template/downloads.html:79
-#, fuzzy
-#| msgid "You can get the macOS version from the link below."
 msgid "You can get the macOS version from the link below."
 msgstr "Puteți obține versiunea pentru MacOS din linkul de mai jos."
 
@@ -1009,10 +698,6 @@ msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
 #: template/downloads.html:97
-#, fuzzy
-#| msgid ""
-#| "You can check if your distribution provides a package for the latest "
-#| "version of GCompris."
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -1021,10 +706,6 @@ msgstr ""
 "versiune de GCompris."
 
 #: template/downloads.html:98
-#, fuzzy
-#| msgid ""
-#| "We also provide standalone packages for GNU/Linux. They should work on "
-#| "any recent distribution."
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -1033,8 +714,6 @@ msgstr ""
 "Linux. Ele ar trebui să funcționeze pe orice distribuție recentă de Linux."
 
 #: template/downloads.html:98
-#, fuzzy
-#| msgid "System requirements:"
 msgid "System requirements:"
 msgstr "Cerințe de sistem:"
 
@@ -1052,7 +731,7 @@ msgid ""
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
 "Citiți apoi licența sau apăsați q pentru a sări peste acest pas, răspundeți "
-"cu da la înrebări, și pachetul software va fi instalat într-un nou director "
+"cu da la întrebări, și pachetul software va fi instalat într-un nou director "
 "din interiorul locației pachetului de instalare."
 
 #: template/downloads.html:109 template/downloads.html:136
@@ -1079,11 +758,6 @@ msgstr ""
 "fișierul."
 
 #: template/downloads.html:111
-#, fuzzy
-#| msgid ""
-#| "Alternatively, you can install GCompris from <a href=\"https://flathub."
-#| "org/apps/details/org.kde.gcompris\">Flathub</a> or from the <a href="
-#| "\"https://snapcraft.io/gcompris\">Snap store</a>."
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -1110,23 +784,14 @@ msgid "Source code"
 msgstr "Codul sursă"
 
 #: template/downloads.html:150
-#, fuzzy
-#| msgid "The source code is available under the AGPLv3 license."
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Codul sursă este disponibil sub licența AGPLv3."
 
 #: template/downloads.html:163
-#, fuzzy
-#| msgid "SHA-256 and GPG"
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 și GPG"
 
 #: template/downloads.html:167
-#, fuzzy
-#| msgid ""
-#| "To check the integrity of your downloads, you can get the original "
-#| "SHA-256 hash of the files by adding \".sha256\" at the end of their "
-#| "download url."
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -1136,10 +801,7 @@ msgstr ""
 "de descărcare."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
@@ -1314,50 +976,34 @@ msgid "Latest news"
 msgstr "Ultimele noutăți"
 
 #: template/index.html:91
-#, fuzzy
-#| msgid "Click or tap"
 msgid "Click or tap"
 msgstr "Clic sau bătaie cu degetul"
 
 #: template/index.html:97
-#, fuzzy
-#| msgid "Identify colors"
 msgid "Identify colors"
 msgstr "Identifică culorile"
 
 #: template/index.html:103
-#, fuzzy
-#| msgid "Learn clock"
 msgid "Learn clock"
 msgstr "Învață ceasul"
 
 #: template/index.html:109
-#, fuzzy
-#| msgid "Keyboard training"
 msgid "Keyboard training"
 msgstr "Cunoașterea tastaturii"
 
 #: template/index.html:115
-#, fuzzy
-#| msgid "Learn additions"
 msgid "Learn additions"
 msgstr "Învață adunările"
 
 #: template/index.html:121
-#, fuzzy
-#| msgid "Discover the watercycle"
 msgid "Discover the watercycle"
 msgstr "Descoperă ciclul apei"
 
 #: template/index.html:127
-#, fuzzy
-#| msgid "Play chess against your friend"
 msgid "Play chess against your friend"
 msgstr "Joacă șah contra unui prieten"
 
 #: template/index.html:133
-#, fuzzy
-#| msgid "Click on a lowercase letter"
 msgid "Click on a lowercase letter"
 msgstr "Clic pe o literă mică"
 
@@ -1453,12 +1099,6 @@ msgid "All the news"
 msgstr "Toate noutățile"
 
 #: template/schools.html:13
-#, fuzzy
-#| msgid ""
-#| "GCompris is an e-learning tool to provide training exercises within and "
-#| "outside the classroom. It is a Free Software released under the GNU "
-#| "General Public License. It is multiplatform (GNU/Linux, Windows, Android, "
-#| "macOS), and can run on low power computers."
 msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
@@ -1471,11 +1111,6 @@ msgstr ""
 "Android, macOS), și poate rula pe calculatoare de putere mică."
 
 #: template/schools.html:14
-#, fuzzy
-#| msgid ""
-#| "GCompris has been present for over twenty years in schools worldwide and "
-#| "offers more than 150 activities covering the main pedagogical domains, "
-#| "including:"
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1486,16 +1121,10 @@ msgstr ""
 "domenii pedagogice, incluzând:"
 
 #: template/schools.html:16
-#, fuzzy
-#| msgid "Learning how to use a computer"
 msgid "Learning how to use a computer"
 msgstr "Învățarea operării unui calculator"
 
 #: template/schools.html:17
-#, fuzzy
-#| msgid ""
-#| "Practising reading with activities to learn letters, words and lexical "
-#| "sets"
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
@@ -1503,10 +1132,6 @@ msgstr ""
 "a seturilor lexicale"
 
 #: template/schools.html:18
-#, fuzzy
-#| msgid ""
-#| "Acquiring proficiency in math by practising numeration, arithmetic, "
-#| "measures and puzzles"
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1515,16 +1140,10 @@ msgstr ""
 "aritmeticii, măsurătorilor și puzzle-lurilor."
 
 #: template/schools.html:19
-#, fuzzy
-#| msgid "Discovering the world through logic, the arts and music"
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Descoperirea lumii prin logică, arte și muzică"
 
 #: template/schools.html:20
-#, fuzzy
-#| msgid ""
-#| "Exploring science and humanities through experimentation, history and "
-#| "geography"
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1533,17 +1152,10 @@ msgstr ""
 "geografie"
 
 #: template/schools.html:21
-#, fuzzy
-#| msgid "Developing strategic thinking with board games"
 msgid "Developing strategic thinking with board games"
 msgstr "Dezvoltarea gândirii strategice prin jocuri de strategie"
 
 #: template/schools.html:24
-#, fuzzy
-#| msgid ""
-#| "GCompris does not require an Internet connection, does not collect any "
-#| "data, and so strictly complies with the EU's General Data Protection "
-#| "Regulation."
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1553,15 +1165,6 @@ msgstr ""
 "Protecție a Datelor (GDPR)."
 
 #: template/schools.html:26
-#, fuzzy
-#| msgid ""
-#| "GCompris 1.0 lets educators select the level of activities according to "
-#| "the skill of each child. For example, in an activity that lets children "
-#| "practice numbers, you can select what numbers they can work with, leaving "
-#| "higher and more difficult numbers for a later stage. Or in an activity in "
-#| "which the child has to order pictures chronologically, you can grade the "
-#| "activity for children who can only read numbers or make it harder for "
-#| "children who can read both numbers and words."
 msgid ""
 "GCompris 1.0 lets educators select the level of activities according to the "
 "skill of each child. For example, in an activity that lets children practice "
@@ -1581,12 +1184,6 @@ msgstr ""
 "numere cât și cuvinte."
 
 #: template/schools.html:29
-#, fuzzy
-#| msgid ""
-#| "This grading functionality allows you to propose training exercises to "
-#| "pupils to practice mathematics, language, science and humanities. They "
-#| "will also be able to play strategic games to train their problem-solving "
-#| "skills."
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1598,11 +1195,6 @@ msgstr ""
 "problemelor."
 
 #: template/schools.html:31
-#, fuzzy
-#| msgid ""
-#| "To provide a solid pedagogical background, GCompris levels of activities "
-#| "have been based on the French elementary school curriculum, which defines "
-#| "what French teachers must teach in class."
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
@@ -1635,8 +1227,6 @@ msgid "Credit:"
 msgstr "Credit:"
 
 #: template/screenshots.html:36
-#, fuzzy
-#| msgid "Select a category"
 msgid "Select a category"
 msgstr "Selectează o categorie"
 
@@ -1645,50 +1235,34 @@ msgid "All"
 msgstr "Toate"
 
 #: template/screenshots.html:39
-#, fuzzy
-#| msgid "Computer"
 msgid "Computer"
 msgstr "Calculator"
 
 #: template/screenshots.html:40
-#, fuzzy
-#| msgid "Discovery"
 msgid "Discovery"
 msgstr "Descoperire"
 
 #: template/screenshots.html:41
-#, fuzzy
-#| msgid "Sciences"
 msgid "Sciences"
 msgstr "Știință"
 
 #: template/screenshots.html:42
-#, fuzzy
-#| msgid "Fun"
 msgid "Fun"
 msgstr "Amuzament"
 
 #: template/screenshots.html:43
-#, fuzzy
-#| msgid "Mathematics"
 msgid "Mathematics"
 msgstr "Matematică"
 
 #: template/screenshots.html:44
-#, fuzzy
-#| msgid "Puzzle"
 msgid "Puzzle"
 msgstr "Puzzle"
 
 #: template/screenshots.html:45
-#, fuzzy
-#| msgid "Reading"
 msgid "Reading"
 msgstr "Citire"
 
 #: template/screenshots.html:46
-#, fuzzy
-#| msgid "Strategy"
 msgid "Strategy"
 msgstr "Strategie"
 

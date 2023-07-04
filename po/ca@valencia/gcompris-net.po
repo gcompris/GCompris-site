@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-06-07 11:10+0200\n"
+"PO-Revision-Date: 2023-07-02 10:45+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.1\n"
+"Generated-By: Babel 1.3\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -478,7 +478,7 @@ msgstr "Manual"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "PMF"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -798,15 +798,15 @@ msgstr "Fitxers de signatura:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "PMF - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Preguntes més freqüents"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Per què alguns recursos no estan continguts en el propi programari?"
 
 #: template/faq.html:14
 msgid ""
@@ -817,6 +817,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Inclou les veus per a tots els idiomes faria que l'instal·lador fora massa "
+"pesat i la majoria dels usuaris només estan interessats en les veus del seu "
+"idioma. A més, les imatges addicionals i la música de fons prenen "
+"relativament molt espai tot i que no es requerix per a utilitzar el "
+"programari. Per a minimitzar la mida de l'instal·lador base, decidim no "
+"incloure'ls i permetre que els usuaris els baixen des del programari si ho "
+"volen."
 
 #: template/faq.html:15
 msgid ""
@@ -824,16 +831,17 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Si no voleu que el programari baixe res automàticament, podeu desactivar "
+"l'opció «Habilita les baixades/actualitzacions automàtiques dels fitxers de "
+"so» en la pàgina principal de configuració."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Com puc descarregar i instal·lar manualment els recursos addicionals?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "Podeu baixar l'instal·lador des dels enllaços següents."
+msgstr "Podeu baixar els recursos addicionals des d'este enllaç:"
 
 #: template/faq.html:22
 msgid ""
@@ -842,99 +850,123 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"IMPORTANT: en les instruccions següents, substituïu «-codecName» per «-mp3» "
+"en els sistemes Windows, o «-ogg» en els sistemes Linux o Android, o «-aac» "
+"en els sistemes macOS. A més, substituïu «-localeCode» pel codi de la vostra "
+"configuració regional."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Per a la música de fons, cal anar fins a la carpeta anomenada "
+"«backgroundMusic» i descarregar estos 2 fitxers:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Després copieu estos 2 fitxers en una carpeta anomenada «backgroundMusic» a "
+"la carpeta de la memòria cau de l'aplicació."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Per a les veus, cal anar fins a la carpeta anomenada «voices-codecName» i "
+"descarregar estos 2 fitxers:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Després copieu estos 2 fitxers en una carpeta anomenada «voices-codecName» a "
+"la carpeta de la memòria cau de l'aplicació."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Per a les imatges, cal anar fins a la carpeta anomenada «words» i "
+"descarregar estos 2 fitxers:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"A continuació, copieu estos 2 fitxers en una carpeta anomenada «words» a la "
+"carpeta de la memòria cau de l'aplicació."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"El camí cap a la carpeta de la memòria cau és diferent segons el sistema "
+"operatiu."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Camí a Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Camí a Linux:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Camí a Android (cal tindre accés d'administrador per a editar esta carpeta):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Camí a macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "GCompris és un paquet de GNU o un paquet de KDE?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"És ambdues coses. Des del principi, GCompris sempre ha sigut i continua sent "
+"un paquet de GNU. Des de 2014 és mantingut per la comunitat KDE."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Depén este programari de paquets o continguts no lliures?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Tots els continguts i dependències estan amb llicències compatibles amb la "
+"llicència AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Per què no està disponible per a iOS?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Els requisits per a construir i publicar programari per a iOS no són "
+"compatibles amb les llicències GPLv3 i AGPLv3 utilitzades per este "
+"programari."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Per què no està disponible a la botiga d'Amazon?"
 
 #: template/faq.html:69
 msgid ""
@@ -943,6 +975,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Per a Android ja el publiquem a la Play Store i a l'F-Droid, la publicació a "
+"totes les botigues requeriria massa faena. Si utilitzeu una tauleta Fire, "
+"podeu instal·lar directament l'última «apk» des del nostre lloc web, i "
+"utilitzar un iniciador de tercers per a accedir a l'aplicació des d'un "
+"perfil fill."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
