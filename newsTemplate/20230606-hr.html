@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 3.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Danas smo objavili GCompris verziju 3.3.</p>
+<p>Ova verzija sadrži prijevode za još dva jezika: arapski i esperanto.</p>
+<p>Ova nova verzija sadrži ispravke grešaka u raznim aktivnostima kao što su "Kodiranje putanje", "Slovo u riječi", "Uhvati loptu" i "Klavirska kompozicija".</p>
+<p>Neka poboljšanja rukovanja tipkovnicom (prečaci, fokus...) napravljena su na nekoliko aktivnosti.</p>
+<p>Također sadrži nove vizualne elemente i nadogradnju za aktivnost "Lovac na fotografije".</p>
+
+<p>U potpunosti je preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Također je djelomično preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Pakete ove nove verzije za GNU/Linux, Windows, Raspberry Pi i macOS možeš pronaći na <a href="https://gcompris.net/downloads{{ suffix }}.html">stranici za preuzimanje</ a>. Ažuriranje će također uskoro biti dostupno u Google Play trgovini, F-Droid repozitoriju i na Microsoft Store.</p>
+
+<p>Hvala svima, <br/>Timothée & Johnny</p>
+
+{% endblock %}
