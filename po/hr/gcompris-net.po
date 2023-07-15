@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-07-08 20:01+0200\n"
+"PO-Revision-Date: 2023-07-14 09:32+0200\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
 "Language: hr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -38,8 +38,8 @@ msgid ""
 "and music activities."
 msgstr ""
 "Ova nova verzija sadrži neke ispravke grešaka u višestrukim aktivnostima kao "
-"što su \\\"Upoznaj međunarodni Morseov kod\\\", \\\"Kontroliraj vatrogasni "
-"šmrk\\\" i glazbene aktivnosti."
+"što su \\\"Upoznaj Morseov kôd\\\", \\\"Kontroliraj vatrogasni šmrk\\\" i "
+"glazbene aktivnosti."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -47,8 +47,8 @@ msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
 msgstr ""
-"Također sadrži nove vizualne elemente za sve aktivnosti \\\"Dječje slagalice"
-"\\\"."
+"Također sadrži nove vizualne elemente za sve igre pamćenja i \\\"Slagalicu "
+"za bebe\\\"."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -115,7 +115,7 @@ msgid ""
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
 "Ova nova verzija sadrži ispravke grešaka u raznim aktivnostima kao što su \\"
-"\"Kodiranje putanje\\\", \\\"Slovo u riječi\\\", \\\"Uhvati loptu\\\" i \\"
+"\"Definiraj put\\\", \\\"Slovo u riječi\\\", \\\"Baci loptu Tuxu\\\" i \\"
 "\"Klavirska kompozicija\\\"."
 
 #. paragraph
@@ -131,8 +131,8 @@ msgstr ""
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
-"Također sadrži nove vizualne elemente i nadogradnju za aktivnost \\\"Lovac "
-"na fotografije\\\"."
+"Također sadrži nove vizualne elemente i nadogradnju za aktivnost \\\"Pronađi "
+"razlike\\\"."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -177,67 +177,67 @@ msgstr "Hvala svima, <br/>Timothée & Johnny"
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr "Britanski engleski"
+msgstr "britanski engleski"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr "Američki engleski"
+msgstr "američki engleski"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr "Arapski"
+msgstr "arapski"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr "Azerbajdžanski"
+msgstr "azerbajdžanski"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr "Bugarski"
+msgstr "bugarski"
 
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr "Bretonski"
+msgstr "bretonski"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr "Bjeloruski"
+msgstr "bjeloruski"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr "Katalonski"
+msgstr "katalonski"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr "Katalonski (Valencijski)"
+msgstr "katalonski (valencijski)"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr "Češki"
+msgstr "češki"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr "Danski"
+msgstr "danski"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "German"
-msgstr "Njemački"
+msgstr "njemački"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr "Grčki"
+msgstr "grčki"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
@@ -247,187 +247,187 @@ msgstr ""
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr "Španjolski"
+msgstr "španjolski"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr "Estonski"
+msgstr "estonski"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr "Baskijski"
+msgstr "baskijski"
 
 #: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr "Finski"
+msgstr "finski"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "French"
-msgstr "Francuski"
+msgstr "francuski"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr "Irski"
+msgstr "irski"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr "Škotski galski"
+msgstr "škotski galski"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr "Galicijski"
+msgstr "galicijski"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr "Hebrejski"
+msgstr "hebrejski"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr "Hindi"
+msgstr "hindi"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr "Hrvatski"
+msgstr "hrvatski"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr "Mađarski"
+msgstr "mađarski"
 
 #: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr "Indonezijski"
+msgstr "indonezijski"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Italian"
-msgstr "Talijanski"
+msgstr "talijanski"
 
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr "Korejski"
+msgstr "korejski"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Lithuanian"
-msgstr "Litvanski"
+msgstr "litvanski"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr "Latvijski"
+msgstr "latvijski"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Macedonian"
-msgstr "Makedonski"
+msgstr "makedonski"
 
 #: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Malayalam"
-msgstr "Malajalamski"
+msgstr "malajalamski"
 
 #: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Dutch"
-msgstr "Nizozemski"
+msgstr "nizozemski"
 
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr "Norveški (Nynorsk)"
+msgstr "norveški (Nynorsk)"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Polish"
-msgstr "Poljski"
+msgstr "poljski"
 
 #: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Portuguese"
-msgstr "Portugalski"
+msgstr "portugalski"
 
 #: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
-msgstr "Portugalski (Brazilski)"
+msgstr "portugalski (Brazil)"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Romanian"
-msgstr "Rumunjski"
+msgstr "rumunjski"
 
 #: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Russian"
-msgstr "Ruski"
+msgstr "ruski"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Slovak"
-msgstr "Slovački"
+msgstr "slovački"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Slovenian"
-msgstr "Slovenski"
+msgstr "slovenski"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Albanian"
-msgstr "Albanski"
+msgstr "albanski"
 
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr "Srpski"
+msgstr "srpski"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Swedish"
-msgstr "Švedski"
+msgstr "švedski"
 
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr "Tamil"
+msgstr "tamil"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr "Tajlandski"
+msgstr "tajlandski"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Turkish"
-msgstr "Turski"
+msgstr "turski"
 
 #: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr "Ukrajinski"
+msgstr "ukrajinski"
 
 #: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
-msgstr "Kineski (pojednostavljen)"
+msgstr "kineski (pojednostavljen)"
 
 #: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr "Kineski (tradicionalni)"
+msgstr "kineski (tradicionalni)"
 
 #: gcompris.py:250
 msgid ""
@@ -444,7 +444,8 @@ msgstr "Igor Dobrača"
 
 #: gcompris.py:382
 msgid "For Christmas, offer GCompris to your children."
-msgstr "Za Božić svojoj djeci predstavi GCompris."
+msgstr ""
+"Iznenadi svoju djecu izvanrednim poklonom za Božić - predstavi im GCompris."
 
 #: template/base.html:71 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
@@ -493,15 +494,15 @@ msgstr "Prijevod web sjedišta: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
-msgstr "GCompris za Božić"
+msgstr "Pokloni GCompris za Božić"
 
 #: template/christmas.html:15
 msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
-"Za Božić svojoj djeci predstavi GCompris. Besplatan je i pružit će im sate "
-"obrazovne zabave."
+"Iznenadi svoju djecu izvanrednim poklonom za Božić - predstavi im GCompris. "
+"Besplatan je i pružit će im sate učenja na zabavan način."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
@@ -520,8 +521,8 @@ msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"Ti, tvoja djeca ili škola rado koristite GCompris. Projekt možeš podržati "
-"donacijom."
+"Vjerujemo kako ti, tvoja djeca ili škola rado koristite GCompris. Ovaj "
+"projekt možeš podržati donacijom."
 
 #: template/donate.html:14
 msgid ""
@@ -594,9 +595,8 @@ msgid ""
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
 "Napomena: Ako tvoj sustav nema podršku za OpenGL 2 ili ako ne radi ispravno, "
-"upotrijebi unos GCompris (siguran način rada) u početnom izborniku za "
-"pokretanje GComprisa sa softverskim načinom iscrtavanja koji ne koristi "
-"OpenGL."
+"upotrijebi GCompris (siguran način rada) u početnom izborniku za pokretanje "
+"GComprisa sa softverskim načinom iscrtavanja koji ne koristi OpenGL."
 
 #: template/downloads.html:30
 msgid ""
@@ -615,7 +615,7 @@ msgid ""
 "application."
 msgstr ""
 "Kako bi omogućio sve aktivnosti u ovoj staroj verziji, možeš upotrijebiti "
-"šifru 200202 u okviru za unos koji sadrži riječ CODE prilikom pokretanja "
+"šifru 200202 u polju za unos koji sadrži riječ CODE prilikom pokretanja "
 "aplikacije."
 
 #: template/downloads.html:44
@@ -642,7 +642,7 @@ msgid ""
 "app repository."
 msgstr ""
 "GCompris je također dostupan na F-Droidu, repozitoriju besplatnih Android "
-"aplikacija otvorenog koda."
+"aplikacija otvorenog kôda."
 
 #: template/downloads.html:59
 msgid ""
@@ -703,7 +703,7 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
-"Da bi ga koristili, otvori terminal u mapi u kojoj si preuzeo instalacijski "
+"Da bi ga koristio, otvori terminal u mapi u kojoj si preuzeo instalacijski "
 "program i pokreni ove naredbe:"
 
 #: template/downloads.html:108 template/downloads.html:135
@@ -720,8 +720,8 @@ msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"Na kraju, da bi pokrenuo gcompris, idi u novu mapu, u bin, i dvaput klikni "
-"na gcompris-qt.sh."
+"Na kraju, da bi pokrenuo gcompris, idi u mapu bin unutar novokreirane mape, "
+"i dvaput klikni na gcompris-qt.sh."
 
 #: template/downloads.html:110
 msgid ""
@@ -744,7 +744,7 @@ msgid ""
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
 "Alternativno, možeš instalirati GCompris s <a href=\"https://flathub.org/"
-"apps/details/org.kde.gcompris\">Flathuba</a> ili s <a href=\"https://"
+"apps/details/org.kde.gcompris\">Flathuba</a> ili iz <a href=\"https://"
 "snapcraft. io/gcompris\">Snap trgovine</a>."
 
 #: template/downloads.html:122
@@ -761,11 +761,11 @@ msgstr "Testiran je samo na Raspberry Pi 3."
 
 #: template/downloads.html:146
 msgid "Source code"
-msgstr "Izvorni kod"
+msgstr "Izvorni kôd"
 
 #: template/downloads.html:150
 msgid "The source code is available under the AGPLv3 license."
-msgstr "Izvorni kod je dostupan pod licencom AGPLv3."
+msgstr "Izvorni kôd je dostupan pod licencom AGPLv3."
 
 #: template/downloads.html:163
 msgid "SHA-256 and GPG"
@@ -776,8 +776,8 @@ msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
-"Da bi provjerio integritet preuzimanja, možeš dobiti izvorni SHA-256 hash "
-"datoteku dodavanjem \".sha256\" na kraj URL-a za preuzimanje."
+"Da bi provjerio integritet preuzetih datoteka, možeš preuzeti izvornu "
+"SHA-256 hash datoteku dodavanjem \".sha256\" na kraj URL-a za preuzimanje."
 
 #: template/downloads.html:168
 #, python-format
@@ -785,7 +785,7 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Izvorni tarball i programi za instalaciju Linuxa potpisani su GPG ključem od "
+"Izvorni tarball i Linux instalacijski programi potpisani su GPG ključem od "
 "Timothée Giet (javni ključ: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
@@ -966,7 +966,7 @@ msgstr "Nauči koristiti sat"
 
 #: template/index.html:109
 msgid "Keyboard training"
-msgstr "Vježbe na tipkovnici"
+msgstr "Vježbaj koristiti tipkovnicu"
 
 #: template/index.html:115
 msgid "Learn additions"
@@ -1008,7 +1008,7 @@ msgstr "Evo popisa kategorija aktivnosti s nekoliko primjera:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr "upoznavanje računala: tipkovnica, miš, zaslon osjetljiv na dodir ..."
+msgstr "upoznaj računalo: tipkovnica, miš, zaslon osjetljiv na dodir ..."
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
@@ -1032,7 +1032,7 @@ msgstr "geografija: države, regije, kultura..."
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "igre: šah, igra pamćenja, poravnaj 4, vješala, tic-tac-toe..."
+msgstr "igre: šah, igre pamćenja, 4 u nizu, vješala, križić-kružić..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
@@ -1047,7 +1047,7 @@ msgid ""
 msgstr ""
 "Trenutačno GCompris nudi više od 100 aktivnosti, ali i dalje razvijamo nove. "
 "GCompris je besplatan softver, što znači da ga možeš prilagoditi svojim "
-"potrebama, poboljšati i, što je najvažnije, djeca ga mogu koristiti posvuda."
+"potrebama, poboljšati i, što je najvažnije, djeca ga mogu svugdje koristiti."
 
 #: template/index.html:166
 msgid ""
@@ -1068,10 +1068,10 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
-"GCompris je alat za e-učenje za vježbanje unutar ali i izvan učionice. To je "
-"besplatni softver objavljen pod GNU Općom javnom licencom. Multiplatformski "
-"je (GNU/Linux, Windows, Android, macOS) i može raditi na računalima male "
-"snage."
+"GCompris je alat za e-učenje s raznolikim aktivnostima za vježbanje unutar "
+"ali i izvan učionice. To je besplatni softver objavljen pod GNU Općom javnom "
+"licencom. Multiplatformski je (GNU/Linux, Windows, Android, macOS) i može "
+"raditi na računalima male snage."
 
 #: template/schools.html:14
 msgid ""
@@ -1084,37 +1084,37 @@ msgstr ""
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
-msgstr "Nauči koristiti računalo"
+msgstr "učenje korištenja računala"
 
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
-"Vježbaj čitanje s aktivnostima za učenje slova, riječi i leksičkih skupova"
+"vježbanje čitanje s aktivnostima za učenje slova, riječi i leksičkih skupova"
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr ""
-"Stjecanje vještine u matematici vježbanjem prebrojavanja, aritmetike, mjera "
-"i zagonetki"
+"stjecanje vještina u matematici vježbanjem prebrojavanja, aritmetike, "
+"mjerenjem i uz razne slagalice"
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr "Istraži svijet kroz logiku, umjetnost i glazbu"
+msgstr "istraživanje svijeta kroz logiku, glazbenu i likovnu umjetnost"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr ""
-"Istraživanje prirodnih i humanističkih znanosti kroz eksperimente, povijest "
+"istraživanje prirodnih i humanističkih znanosti kroz eksperimente, povijest "
 "i geografiju"
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
-msgstr "Razvijanje strateškog razmišljanja uz društvene igre"
+msgstr "razvijanje strateškog razmišljanja uz društvene igre"
 
 #: template/schools.html:24
 msgid ""
@@ -1147,9 +1147,9 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
-"Ova funkcija ocjenjivanja omogućuje da učenicima predložiš vježbe iz "
-"matematike, jezika, prirodnih i humanističkih znanosti. Također će moći "
-"igrati strateške igre kako bi uvježbali svoje vještine rješavanja problema."
+"Funkcija ocjenjivanja omogućuje da učenicima predložiš vježbe iz matematike, "
+"jezika, prirodnih i humanističkih znanosti. Također će moći igrati strateške "
+"igre kako bi uvježbali svoje vještine rješavanja problema."
 
 #: template/schools.html:31
 msgid ""
@@ -1159,7 +1159,7 @@ msgid ""
 msgstr ""
 "Kako bi pružili solidnu pedagošku pozadinu, GCompris razine aktivnosti "
 "temelji na francuskom osnovnoškolskom kurikulumu, koji definira što "
-"francuski profesori moraju poučavati u nastavi."
+"francuski učitelji trebaju poučavati u nastavi."
 
 #: template/screenshot.html:33
 msgid "Description:"
@@ -1197,11 +1197,11 @@ msgstr "Računalo"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr "Istraživanje"
+msgstr "Otkrića"
 
 #: template/screenshots.html:41
 msgid "Sciences"
-msgstr "Znanosti"
+msgstr "Znanost"
 
 #: template/screenshots.html:42
 msgid "Fun"

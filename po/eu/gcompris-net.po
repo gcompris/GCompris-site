@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-06-03 07:10+0200\n"
+"PO-Revision-Date: 2023-07-14 22:27+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -245,7 +245,7 @@ msgstr "Grekoa"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperantoa"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -478,7 +478,7 @@ msgstr "Eskuliburua"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "MEG"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -798,15 +798,15 @@ msgstr "sinadura fitxategiak:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "MEG - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Maiz egindako galderak - Galdera ohikoenak"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Zergatik ez daude aktibo batzuk softwarean bertan?"
 
 #: template/faq.html:14
 msgid ""
@@ -817,6 +817,12 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Hizkuntza guztietako ahotsak gehituta, instalatzailea pisutsuegia izango "
+"litzateke, eta erabiltzaile gehienek bere hizkuntzako ahotsak baino ez "
+"dituzte nahi izaten. Irudi gehigarriak eta atzeko planoko musikak leku asko "
+"behar du, eta ez dira beharrezkoak softwarea erabiltzeko. Instalatzeko "
+"oinarriaren neurria txikitzeko, haiek ez gehitzea erabaki genuen, "
+"erabiltzaileei, hala nahi badute, softwaretik zama-jaisteko aukera utziz."
 
 #: template/faq.html:15
 msgid ""
@@ -824,16 +830,17 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Softwareak automatikoki ezer zama-jaitsi dezan nahi ez baduzu, "
+"konfiguratzeko orri nagusiko \"Gaitu zama-jaiste automatikoak/soinu "
+"fitxategiak eguneratzea\" aukera ezgaitu dezakezu."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Nola zama-jaitsi eta instala ditzaket aktibo gehigarriak?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "Bestela, instalatzailea zama-jaitsi dezakezu azpiko esteketatik."
+msgstr "Aktibo gehigarriak esteka honetatik zama-jaitsi ditzakezu:"
 
 #: template/faq.html:22
 msgid ""
@@ -842,99 +849,122 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"GARRANTZITSUA: ondoko jarraibideetan, ordeztu \"-codecName\" eta ipini \"-"
+"mp3\" Windows sistemetan, edo \"-ogg\" Linux edo Android sistemetan, edo \"-"
+"aac\" macOS sistemetan. Gainera, ordeztu \"-localeCode\" zure tokiko "
+"(«locale») kodearekin."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Atzeko planoko musikarako, \"backgroundMusic\" izeneko karpetara joan behar "
+"duzu eta 2 fitxategi horiek zama-jaitsi behar dituzu: "
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Ondoren kopiatu 2 fitxategi horiek, aplikazioaren cache karpetan, "
+"\"backgroundMusic\" izeneko karpeta batean."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Ahotsetarako, \"voices-codecName\" izeneko karpetara joan behar duzu eta 2 "
+"fitxategi horiek zama-jaitsi behar dituzu:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Ondoren kopiatu 2 fitxategi horiek, aplikazioaren cache karpetan, \"voices-"
+"codecName\" izeneko karpeta batean."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Irudientzat, \"words\" izeneko karpetara joan behar duzu eta 2 fitxategi "
+"horiek zama-jaitsi behar dituzu:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Ondoren, kopiatu 2 fitxategi horiek aplikazioaren cache karpetan, \"words\" "
+"izeneko karpeta batean."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"Sistema eragilearen arabera, cache karpetarako bide-izena ezberdina da."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Windows-eko bide-izena:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Linux-eko bide-izena:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Android-eko bide-izena (superrerabiltzailearen sarbidea izan behar duzu "
+"karpeta hori editatzeko):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "macOS-ko bide-izena:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "GCompris zer da, GNU pakete bat edo KDE pakete bat?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Biak dira. Hasieratik, GCompris beti izan da eta oraindik da GNU pakete bat. "
+"2014tik KDE Komunitateak mantentzen du."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Software hau askea ez den pakete edo edukien mende dago?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Eduki eta mendekotasun guztiak AGPLv3 lizentziarekin bateragarriak diren "
+"lizentzien pean daude."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Zergatik ez dago eskuragarri iOS-erako?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"iOS-rako softwarea eraikitzeko eta argitaratzeko eskakizunak ez dira "
+"bateragarriak software honek erabiltzen dituen GPLv3 eta AGPLv3 lizentziekin."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Zergatik ez dago eskuragarri amazon saltokian?"
 
 #: template/faq.html:69
 msgid ""
@@ -943,6 +973,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Android-erako dagoeneko Play saltokian eta «F-Droid»en argitaratzen dugu, "
+"saltoki/biltegi guztietan argitaratzeak lan gehiegi eskatuko luke. Fire "
+"tableta bat erabiltzen baduzu, zuzenean instala dezakezu apk berriena gure "
+"webgunetik, eta hirugarrenen abiarazle bat erabil dezakezu haur profil "
+"batetik aplikazioa atzitzeko."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
