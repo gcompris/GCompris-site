@@ -1,0 +1,33 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 2.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.1-small.png' class='col-xs-12 col-md-4' alt='gcompris 2.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.1.png')"/>
+
+<p>Bok,<br />
+zadovoljstvo nam je najaviti izdanje GCompris u verziji 2.1.</p>
+<p>Ovo izdanje usmjereno je na održavanje, pa bi svaku GNU/Linux distribuciju 2.0 trebao ažurirati na 2.1.</p>
+<p>Najvažnija promjena je da bi preuzimanja dodataka na nekim starijim verzijama Androida sada trebaju ponovno raditi.</p>
+<p>Ovdje je sažetak uključenih promjena:</p>
+
+<ul>
+<li class="puce">Omogućen SSL certifikat za preuzimanje dodataka kod starijih Android telefona i tableta (https://bugs.kde.org/show_bug.cgi?id=447572).</li>
+<li class="puce">Poboljšana grafika za aktivnosti Održavanje ravnoteže i Dvaput dodirni ili klikni.</li>
+<li class="puce">Ispravljena greška kod obrnutog brojanja gdje nakon što je riba napravila jedan okret, nije bilo moguće pobijediti čak ni pri unosu dobrog rezultata.</li>
+<li class="puce">Ispravljeno zamrzavanje aktivnosti Nauči decimalne brojeve prilikom promjene razina.</li>
+<li class="puce">Podebljane oznake za korištenje tipkovnice na aktivnosti definiranja puta.</li>
+<li class="puce">Ispravljen prikaz popisa aktivnosti koje nije bilo vidljivo kada se pomakneš do kraja popisa.</li>
+<li class="puce">U sustavu Windows uklonjeno zamućenje na HiDPI zaslonima nakon instalacije GComprisa.</li>
+</ul>
+<br/>
+<p>Noviteti u prijevodima:</p>
+<ul>
+<li class="puce">Bretkonski i makedonski su dovršeni.</li>
+<li class="puce">Češki je sada djelomično preveden, prijevod je iznad 80%.</li>
+</ul>
+<br/>
+<p>Pakete ove nove verzije za GNU/Linux, Windows i 
+macOS nalaze se na stranici <a href="https://gcompris.net/downloads{{ suffix }}.html">Preuzimanja</a>. Ovo će ažuriranje uskoro biti dostupno u Android Play trgovini, F-Droid repozitoriju i Windows trgovini. Uskoro će biti dostupan i paket za Raspberry Pi.</p>
+ <p>Hvala svima, <br/>Timothée i Johnny</p>
+ {% endblock %} 
+
