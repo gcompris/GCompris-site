@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 2.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r2.2.png' class='col-xs-12 col-md-4' alt='gcompris 2.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r2.2.png')"/>
+
+<p>Bok,<br />
+zadovoljstvo nam je najaviti izdanje GCompris u verziji 2.2.</p>
+<p>Ovo izdanje usmjereno je na održavanje, pa bi svaku GNU/Linux distribuciju 2.0 i 2.1 trebalo ažurirati na 2.2.</p>
+<p>Ovdje je sažetak uključenih promjena:</p>
+
+<ul>
+<li class="puce">Dodane nove slike i ispravljeno puno sitnih problema u aktivnostima ciklusa vode i obnovljive energije.</li>
+<li class="puce">Nove slike u aktivnosti Tangram.</li>
+<li class="puce">Bolji redoslijed slova na virtualnoj tipkovnici (slijedi lokalizaciju postavljenu u GComprisu).</li>
+<li class="puce">Ispravljeno rušenje aplikacije na Android uređajima kad se pokrene aktivnost Održavanje ravnoteže.</li>
+<li class="puce">Mnogi drugi sitni ispravci i poboljšanja.</li>
+</ul>
+<br/>
+<p>Noviteti u prijevodima:</p>
+<ul>
+<li class="puce">Russian translation has been completed.</li>
+<li class="puce">Dodani su novi glasovi za norveški nynorsk (osim uvodnih glasova).</li>
+</ul>
+<br/>
+<p>Pakete ove nove verzije za GNU/Linux, Windows i
+ macOS nalaze se na stranici <a href="https://gcompris.net/downloads{{ suffix }}.html">Preuzimanja</a>. Ovo će ažuriranje uskoro biti dostupno u Android Play trgovini, F-Droid repozitoriju i Windows trgovini. Uskoro će biti dostupan i paket za Raspberry Pi.</p>
+ <p>Hvala svima, <br/>Timothée & Johnny</p>
+ {% endblock %} 
