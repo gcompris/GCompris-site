@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 3.2-es verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Bemutatjuk a GCompris 3.2-es verzióját.</p>
+<p>Ezen új verzió több tevékenység hibáinak javítását tartalmazza mint például  "A nemzetközi Morze-kód felfedezése", "Irányítsd a csővezetéket" és több zenei tevékenyégét is.</p>
+<p>A memória alapú tevékenységekhez is tartalmaz frissített grtafikát  és a  "Baba puzzle"-hez is.</p>
+<p>Új parancssori kifejezés (--difficulty {value|min-max}) került implementálásra melynek segítségével manuálisan állítható egy aktivitás nehézségi szintje.</p>
+<p>Az Andika betűtípus is a legehtő legfrissebb a programban (6.200).</p>
+
+<p>A program teljesen lokalizált az alábbi nyelveken:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Részben pedig az alábbi nyelveken használhható:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Mindenkinek köszönjük, <br/>Timothée és Johnny</p>
+
+{% endblock %}
