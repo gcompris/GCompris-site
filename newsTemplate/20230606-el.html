@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Κυκλοφορία της έκδοσης 3.3 του GCompris.' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Σήμερα κυκλοφορούμε την έκδοση 3.3 του GCompris.</p>
+<p>Σε αυτή την έκδοση έχουν προστεθεί μεταφράσεις δύο ακόμη γλωσσών: Αραβικών και Εσπεράντο.</p>
+<p>Περιέχει διορθώσεις σφαλμάτων σε πολλές δραστηριότητες όπως: "Κωδικοποίηση διαδρομής", "Πού είναι το γράμμα;" και "Σύνθεση στο πιάνο".</p>
+<p>Έχουν γίνει κάποιες βελτιώσεις στον χειρισμό του πληκτρολογίου (συντομεύσεις, εστίαση...) σε αρκετές δραστηριότητες.</p>
+<p>Περιέχει επίσης νέα γραφικά και βελτιώσεις για τη δραστηριότητα "Ανιχνευτής εικόνων".</p>
+
+<p>Είναι πλήρως μεταφρασμένο στις ακόλουθες γλώσσες:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Έχει επίσης μεταφραστεί εν μέρει στις ακόλουθες γλώσσες:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, Windows, Raspberry Pi και MacOS στη σελίδα λήψεων <a href="https://gcompris.net/downloads{{ suffix }}.html"></a>. Αυτή η ενημέρωση θα είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid και στο Windows Store.</p>
+
+<p>Σας ευχαριστούμε, <br/>Timothée & Johnny</p>
+
+{% endblock %}
