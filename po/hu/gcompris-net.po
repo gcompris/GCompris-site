@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-01-21 11:01+0100\n"
+"PO-Revision-Date: 2023-07-18 13:06+0200\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -19,20 +19,14 @@ msgstr ""
 "X-Generator: Poedit 3.0\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Release GCompris 3.0"
 msgctxt "20230329.html"
 msgid "Release GCompris 3.2"
-msgstr "GCompris 3.0-ás verzió"
+msgstr "GCompris 3.2-es verzió"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230329.html"
 msgid "Today we are releasing GCompris version 3.2."
-msgstr "Bemutatjuk a GCompris 3.1-es verzióját."
+msgstr "Bemutatjuk a GCompris 3.2-es verzióját."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -41,6 +35,9 @@ msgid ""
 "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
 "and music activities."
 msgstr ""
+"Ezen új verzió több tevékenység hibáinak javítását tartalmazza mint például  "
+"\\\"A nemzetközi Morze-kód felfedezése\\\", \\\"Irányítsd a csővezetéket\\\" "
+"és több zenei tevékenyégét is."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -48,6 +45,8 @@ msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
 msgstr ""
+"A memória alapú tevékenységekhez is tartalmaz frissített grtafikát  és a  \\"
+"\"Baba puzzle\\\"-hez is."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -55,63 +54,58 @@ msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
 "which allows users to force the difficulty filter at a given value or range."
 msgstr ""
+"Új parancssori kifejezés (--difficulty {value|min-max}) került "
+"implementálásra melynek segítségével manuálisan állítható egy aktivitás "
+"nehézségi szintje."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
+msgstr "Az Andika betűtípus is a legehtő legfrissebb a programban (6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "A program teljesen lokalizált az alábbi nyelveken:"
 
 #. list item
 msgctxt "20230329.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Részben pedig az alábbi nyelveken használhható:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230329.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "GCompris 3.1-es verzió"
+msgstr "GCompris 3.3-es verzió"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Bemutatjuk a GCompris 3.1-es verzióját."
+msgstr "Bemutatjuk a GCompris 3.3-es verzióját."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Az aktuális verzióban két újabb nyelv került bevezetésre: arab és eszperantó."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -119,6 +113,9 @@ msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
+"Olyan tevékenységekhez tartalmaz hibajavításokat mint\\\"Mintakövetés\\\", \\"
+"\"Betűk szavakkal\\\", \\\"Kapd el a labdát\\\" és a \\\"Játssz a zongorán\\"
+"\"."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -126,43 +123,37 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Több tevékenységben a billentyűzet kezelése is fejlődött  (gyorsparancsok, "
+"fókusz...)."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
+msgstr "Új grafikát is kapott a hibajavítások mellett a  \\\"Fotóvadász\\\"."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
 
 #. list item
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Részben pedig azu alábbi nyelveken érhető el:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -177,9 +168,6 @@ msgstr ""
 "store-ba is "
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
@@ -187,257 +175,257 @@ msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "angol (brit)"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "angol (USA-beli)"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "arab"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "azerbajdzsáni"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "bolgár"
 
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr ""
+msgstr "bretoni"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr ""
+msgstr "fehérorosz"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr ""
+msgstr "katalán"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "velencei-katalán"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr ""
+msgstr "cseh"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "dán"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "German"
-msgstr ""
+msgstr "német"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr ""
+msgstr "görög"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "eszperantó"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr ""
+msgstr "spanyol"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr ""
+msgstr "észt"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr ""
+msgstr "baszk"
 
 #: gcompris.py:100
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr ""
+msgstr "finn"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "French"
-msgstr ""
+msgstr "francia"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr ""
+msgstr "ír"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "skóciai kelta"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr ""
+msgstr "gall"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr ""
+msgstr "héber"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr ""
+msgstr "hindi"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr ""
+msgstr "horvát"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr ""
+msgstr "magyar"
 
 #: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr ""
+msgstr "indonéz"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Italian"
-msgstr ""
+msgstr "olasz"
 
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr ""
+msgstr "koreai"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Lithuanian"
-msgstr ""
+msgstr "litván"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr ""
+msgstr "lett"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Macedonian"
-msgstr ""
+msgstr "mecedón"
 
 #: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Malayalam"
-msgstr ""
+msgstr "maláj"
 
 #: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Dutch"
-msgstr ""
+msgstr "holland"
 
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "nynorsk"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Polish"
-msgstr ""
+msgstr "lengyel"
 
 #: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Portuguese"
-msgstr ""
+msgstr "portugál"
 
 #: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "brazil portugál"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Romanian"
-msgstr ""
+msgstr "román"
 
 #: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Russian"
-msgstr ""
+msgstr "orosz"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Slovak"
-msgstr ""
+msgstr "szlovák"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Slovenian"
-msgstr ""
+msgstr "szlovén"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Albanian"
-msgstr ""
+msgstr "albán"
 
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr ""
+msgstr "szerb"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Swedish"
-msgstr ""
+msgstr "svéd"
 
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr ""
+msgstr "tamil"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr ""
+msgstr "thai"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Turkish"
-msgstr ""
+msgstr "török"
 
 #: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr ""
+msgstr "urkán"
 
 #: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "kínai (egyszerűsített)"
 
 #: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "kínai (tradícionális)"
 
 #: gcompris.py:250
 msgid ""
@@ -485,7 +473,7 @@ msgstr "Kézikönyv"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "GYIK"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -798,15 +786,15 @@ msgstr "sig fileok:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "GYIK - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Gyakran Ismételt Kérdések"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Miért nem tartalmaz egyes részeket a program önmaga?"
 
 #: template/faq.html:14
 msgid ""
@@ -817,6 +805,12 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Ha minden hangot tartalmazna a telepítőcsomag, annak mérete sokkal nagyobb "
+"lenne. A felhasználók úgyis csak a saját nyelvi készletüket töltik le "
+"általában. A plussz képek és háttérzenék relatíve sok helyet foglalnak, "
+"ugyanakkor nem szükségesek a szoftver használatához. Az alap telepítőkészlet "
+"méretének csökkentése érdekében úgy döntöttük kihagyjuk ezeket, és a "
+"felhasználókra bízzuk ezek közül mit töltenek le utlólag."
 
 #: template/faq.html:15
 msgid ""
@@ -824,16 +818,18 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Ha nem szeretnéd, hogy a program automatikusan minden letöltsön, "
+"kikapcsolhatod az alábbi opciót \"Hangfájlok automatikus letöltése/frissítése"
+"\" a beállítások menü főablakában."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Hogyan tudom kézzel letölteni a plusz tartalmakat?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "De a telepítő az alábbi linkeken is elérhető."
+msgstr ""
+"De a telepítő által nem tartalmaott részek az alábbi linkeken is elérhetők:"
 
 #: template/faq.html:22
 msgid ""
@@ -842,99 +838,121 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"FIGYELEM: a következő lépésekben, helyettesítsd a \"-codecName\"paramétert "
+"\"-mp3\" -mal Windows rendszereken, vagy \"-ogg\"-vel Linux és vagy Android "
+"rendszerek esetén, vagy \"-aac\"-vel  ha macOS-t használsz. Szintén cseréld "
+"le a \"-localeCode\" paramétert a saját nyelved kódjával."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"A háttérzenéhez, keresd meg a \"backgroundMusic\" mappát és and töltsd le az "
+"alábbi 2 file-t:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Majd a letöltött 2 file-t másold egy \"backgroundMusic\" nevű mappába a "
+"program cache mappáján belül."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"A hangokhoz, navigálj az alábbi mappába \"voices-codecName\" és töltsd le az "
+"alábbi 2 file-t:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Majd másold a 2 file-t a \"voices-codecName\"  nevű mappába a programon "
+"cache mappáján belül."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"A képekhez, navigálj a \"words\"  mappába és töltsd le az alábbi 2 file-t:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Majd másold a 2 file-t in egy \"words\"  nevű mappába a program könyvtárán "
+"belül található cache mappába."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"A cache mappa útvonala az általad használt operációs rendszertől függően "
+"eltérő."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Űtvonal Windows esetén"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Útvonal Linux esetén:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Útvonal Android esetén (root jogra van szükséged az adott mappa "
+"szerkesztéséhez):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Útvonal maxOS esetén:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "A GCompris a GNU vagy a KDE csomag része?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Mindkettő. A GCompris kezdetektől fogva a  GNU csomag része. 2014-től pedig "
+"a KDE közösség tartja karban."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Függ-e a szoftver a nem ingyenes csomagoktól vagy tartalmaktól?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"A teljes tartalom és a kapcsolódó tartalmak az  AGPLv3 licensz alá esnek."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Miért nem érhető el iOS alatt?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"A iOS kiadáshoz szükséges követelmények nem kompatibilisek aGPLv3 és AGPLv3 "
+"licenszekkel melyeket ezen szoftver használ."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Miért nem eérlhető az amazon store-ban?"
 
 #: template/faq.html:69
 msgid ""
@@ -943,6 +961,10 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Androidra elérhető az alkalmazás a Play store-ból illetve az F-Droid-ról is, "
+"a többi áruházban való terjesztés túl sok munkába kerülne. Ha Fire tabletet "
+"használsz, telepítsd a legfrissebb apk-t az oldalunkról, és használj egy "
+"külsős launcher-t hogy gyerek prlolfilról is elérd az alkalmazást."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"

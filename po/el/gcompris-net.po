@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-03-28 21:07+0300\n"
+"PO-Revision-Date: 2023-07-18 17:28+0300\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 
 # news title
 #. news title
@@ -99,42 +99,32 @@ msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Κυκλοφορία της έκδοσης 3.1 του GCompris."
+msgstr "Κυκλοφορία της έκδοσης 3.3 του GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.1 του GCompris."
+msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.3 του GCompris."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Σε αυτή την έκδοση έχουν προστεθεί μεταφράσεις δύο ακόμη γλωσσών: Αραβικών "
+"και Εσπεράντο."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "This new version contains some bug fixes on multiple activities such as \\"
-#| "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#| "\" and music activities."
 msgctxt "20230606.html"
 msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Αυτή η νέα έκδοση περιέχει ορισμένες διορθώσεις σφαλμάτων σε πολλές "
-"δραστηριότητες όπως \\\"Κώδικας Μορς\\\", \\\"Σβήνω τη φωτιά\\\" και σε "
-"μουσικές δραστηριότητες."
+"Περιέχει διορθώσεις σφαλμάτων σε πολλές δραστηριότητες όπως: \\"
+"\"Κωδικοποίηση διαδρομής\\\", \\\"Πού είναι το γράμμα;\\\" και \\\"Σύνθεση "
+"στο πιάνο\\\"."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -142,39 +132,27 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Έχουν γίνει κάποιες βελτιώσεις στον χειρισμό του πληκτρολογίου "
+"(συντομεύσεις, εστίαση...) σε αρκετές δραστηριότητες."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid ""
-#| "It also contains new graphics for all memory activities and for \\\"Baby "
-#| "puzzle\\\"."
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgstr ""
-"Περιέχει επίσης νέα γραφικά για όλες τις δραστηριότητες μνήμης και για το \\"
-"\"Βρεφικό παζλ\\\"."
+"Περιέχει επίσης νέα γραφικά και βελτιώσεις για τη δραστηριότητα \\"
+"\"Ανιχνευτής εικόνων\\\"."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Είναι πλήρως μεταφρασμένο στις ακόλουθες γλώσσες:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Έχει επίσης μεταφραστεί εν μέρει στις ακόλουθες γλώσσες:"
@@ -182,22 +160,11 @@ msgstr "Έχει επίσης μεταφραστεί εν μέρει στις α
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -206,16 +173,13 @@ msgid ""
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
 "Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, "
-"Windows, Raspberry Pi και MacOS στη <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">σελίδα λήψεων</a>. Αυτή η ενημέρωση θα είναι "
+"Windows, Raspberry Pi και MacOS στη σελίδα λήψεων <a href=\\\"https://"
+"gcompris.net/downloads{{ suffix }}.html\\\"></a>. Αυτή η ενημέρωση θα είναι "
 "σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid και στο "
 "Windows Store."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Σας ευχαριστούμε, <br/>Timothée & Johnny"
@@ -233,7 +197,7 @@ msgstr "Αγγλικά ΗΠΑ"
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Αραβικά"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
@@ -289,7 +253,7 @@ msgstr "Ελληνικά"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Εσπεράντο"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -527,7 +491,7 @@ msgstr "Οδηγός"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "Συνήθεις ερωτήσεις"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -849,15 +813,15 @@ msgstr "αρχεία sig:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "Συνήθεις ερωτήσεις - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Συνήθεις ερωτήσεις"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Γιατί ορισμένα στοιχεία δεν περιέχονται στο ίδιο το λογισμικό;"
 
 #: template/faq.html:14
 msgid ""
@@ -868,6 +832,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Η συμπερίληψη των φωνών για όλες τις γλώσσες θα έκανε το πρόγραμμα "
+"εγκατάστασης πολύ μεγάλο, ενώ κάθε χρήστης ενδιαφέρεται για τις φωνές της "
+"δικής του γλώσσας. Επίσης, οι επιπλέον εικόνες και η μουσική υπόκρουση "
+"καταλαμβάνουν σχετικά πολύ χώρο, ενώ δεν είναι απαραίτητα για τη χρήση του "
+"λογισμικού. Έτσι, για να ελαχιστοποιήσουμε το μέγεθος του βασικού "
+"προγράμματος εγκατάστασης, αποφασίσαμε να μην τα συμπεριλάβουμε και να "
+"επιτρέψουμε στους χρήστες να τα κατεβάσουν εάν το θέλουν."
 
 #: template/faq.html:15
 msgid ""
@@ -875,18 +846,18 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Εάν δεν θέλετε το λογισμικό να μην κάνει αυτόματες λήψεις, μπορείτε να "
+"απενεργοποιήσετε την επιλογή \"Ενεργοποίηση αυτόματης λήψης/ενημέρωσης "
+"αρχείων ήχου\" στην κύρια σελίδα διαμόρφωσης."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
 msgstr ""
+"Πώς μπορώ να κατεβάσω και να εγκαταστήσω μη αυτόματα τα επιπλέον στοιχεία;"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr ""
-"Διαφορετικά, μπορείς να κάνεις λήψη του προγράμματος εγκατάστασης από τους "
-"παρακάτω δεσμούς."
+msgstr "Μπορείς να κατεβάσεις τα επιπλέον στοιχεία από αυτόν τον σύνδεσμο:"
 
 #: template/faq.html:22
 msgid ""
@@ -895,99 +866,126 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"ΣΗΜΑΝΤΙΚΟ: στις ακόλουθες οδηγίες, αντικαταστήστε το \"-codecName\" με το \"-"
+"mp3\" για συστήματα Windows, ή το \"-ogg\" για συστήματα Linux ή Android, ή "
+"\"-aac\" για συστήματα macOS. Επίσης, αντικαταστήστε το \"-localeCode\" με "
+"τον κωδικό της δικής σας γλώσσας."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Για τη μουσική υπόκρουση, πρέπει να μεταβείτε στο φάκελο με το όνομα "
+"\"backgroundMusic\" και να κάνετε λήψη αυτών των 2 αρχείων:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Στη συνέχεια, αντιγράψτε αυτά τα 2 αρχεία σε έναν φάκελο με το όνομα "
+"\"backgroundMusic\" στον φάκελο της προσωρινής μνήμης της εφαρμογής."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Για τις φωνές, πρέπει να μεταβείτε στον φάκελο με το όνομα \"voices-codecName"
+"\" και να κάνετε λήψη αυτών των 2 αρχείων:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Στη συνέχεια, αντιγράψτε αυτά τα 2 αρχεία σε έναν φάκελο με το όνομα "
+"\"voices-codecName\" στον φάκελο προσωρινής μνήμης της εφαρμογής."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Για τις εικόνες, πρέπει να μεταβείτε στον φάκελο με το όνομα \"words\" και "
+"να κάνετε λήψη αυτών των 2 αρχείων:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Στη συνέχεια, αντιγράψτε αυτά τα 2 αρχεία σε έναν φάκελο με το όνομα \"words"
+"\" στον φάκελο της προσωρινής μνήμης της εφαρμογής."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"Η διαδρομή προς το φάκελο της προσωρινής μνήμης είναι διαφορετική ανάλογα με "
+"το λειτουργικό σύστημα."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Διαδρομή στα Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Διαδρομή στα Linux:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Διαδρομή στο Android (πρέπει να έχετε πρόσβαση root για να επεξεργαστείτε "
+"αυτόν τον φάκελο):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Διαδρομή στα macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Το GCompris είναι πακέτο GNU ή KDE;"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Είναι και τα δύο. Από την αρχή, το GCompris ήταν πάντα και εξακολουθεί να "
+"είναι ένα πακέτο GNU. Από το 2014 υποστηρίζεται και από την κοινότητα του "
+"KDE."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
 msgstr ""
+"Αυτό το λογισμικό εξαρτάται από πακέτα ή περιεχόμενο που δεν είναι δωρεάν;"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Όλο το περιεχόμενο και οι εξαρτήσεις υπόκεινται σε άδειες συμβατές με την "
+"άδεια AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Γιατί δεν είναι διαθέσιμο για iOS;"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Οι απαιτήσεις για τη δημιουργία και τη δημοσίευση λογισμικού για iOS δεν "
+"είναι συμβατές με τις άδειες χρήσης GPLv3 και AGPLv3 που χρησιμοποιούνται "
+"από αυτό το λογισμικό."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Γιατί δεν είναι διαθέσιμο στο amazon store;"
 
 #: template/faq.html:69
 msgid ""
@@ -996,6 +994,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Για το android δημοσιεύουμε ήδη στο Play store και στο F-Droid. Η δημοσίευση "
+"σε όλα τα καταστήματα θα απαιτούσε πάρα πολλή δουλειά. Εάν χρησιμοποιείτε "
+"τάμπλετ Fire, μπορείτε να εγκαταστήσετε απευθείας το πιο πρόσφατο apk από "
+"τον ιστότοπό μας και να χρησιμοποιήσετε ένα πρόγραμμα εκκίνησης τρίτου "
+"μέρους για πρόσβαση στην εφαρμογή από ένα παιδικό προφίλ."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
