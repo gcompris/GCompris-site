@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-05-31 13:47+0200\n"
+"PO-Revision-Date: 2023-07-19 18:17+0200\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -242,7 +242,7 @@ msgstr "Gresianeg"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanteg"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -475,7 +475,7 @@ msgstr "Dornlevr"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -794,15 +794,15 @@ msgstr "Restroù sig :"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "FAQ-GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Goulennoù savet alies"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Perak n'eus ket perzhioù 'zo  er meziant end-eeun?"
 
 #: template/faq.html:14
 msgid ""
@@ -813,6 +813,12 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Reiñ ar mouezhioù evit an holl yezhoù a  lakje ar stalier da vezañ re ponner "
+"hag an darn vrasañ eus an implijerien zo dreist-holl dedennet gant o yezh "
+"hepken. Ar skeudennoù hag ar sonerezh a-dreñv a gemer ur bern plas hep kaout "
+"ezhomm dioute evit implijout ar meziant. A-benn skañvaat  pouez diazez ar "
+"stalier hon eus dibabet chom hep enlakaat reoù 'zo ha lezel an implijerien "
+"da bellgargañ  pep tra evel ma karont."
 
 #: template/faq.html:15
 msgid ""
@@ -820,17 +826,18 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Ma ne fell ket deoc'h e pellgargfe ar meiziant pep tra en un doare emgefreek "
+"e c'hellit disober an dibab \"Gwiriañ ar pellgargañ/adnevesaat otomatik evit "
+"ar restroù son\"  e-barzh pajenn ar c'hefluniañ pennañ."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
 msgstr ""
+"Penaos e c'hellan pellgargañ ha staliañ ma-unan  ar perzhioù ouzhpennet?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr ""
-"Mod all e c'hallit pellgargañ ar meziant staliañ gant al liammoù amañ-dindan."
+msgstr "Bez'e c'hallit pellgargañ ar perzhioù ouzhpennet gant al liamm-mañ."
 
 #: template/faq.html:22
 msgid ""
@@ -839,99 +846,122 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"POUEZUS: en alioù da heul, e-lec'h ober gant \"-codecName\", lakit   \"-"
+"mp3\" evit reizhiadoù Windows pe \"-ogg\" evit  reizhadoù Linux pe Android, "
+"pe c'hoazh \"-aac\" evit reizhadoù macOS. Hag e-lec'h ober gant \"-localeCode"
+"\", grit ivez gant hini ho korn-bro."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Evit  ar sonerezh a-dreñv, e ranker mont er penn-restr anvet "
+"\"backgroundMusic\" ha  pellgargañ an 2 restr-mañ:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Goude e ranker kopiañ an 2 restr-se en ur penn-restr anvet \"backgroundMusic"
+"\" e-barzh penn-restr kuzh an arload."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Evit ar mouezhioù e ranker  mont er penn-restr anvet \"voices-codecName\" ha "
+"pellgargañ an 2 restr-mañ:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Goude e ranker kopiañ an 2 restr-se en ur penn-restr anvet \"voices-codecName"
+"\" e-barzh penn-restr kuzh an arload."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Evit ar skeudennoù e ranker  mont er penn-restr anvet \"words\" ha "
+"pellgargañ an 2 restr-mañ:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Goude e ranker kopiañ an 2 restr-se en ur penn-restr anvet \"words\" e-barzh "
+"penn-restr kuzh an arload."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"An hent betek ar penn-restr kuzhet zo disheñvel hervez ar reizhiad o treiñ."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Hent evit Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Hent evit Linux:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Hent evit Android (ezhomm zo da  gaout  mont-tre ar wrizienn evit embann ar "
+"penn-restr-mañ):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Hent evit macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Ur pakad GNU pe ar pakad KDE eo GCompris?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"An daou war an dro. Abaoe ar penn-kentañ eo bet atav hag ez eo c'hoazh "
+"GCompris ur pakad GNU. Abaoe 2014 e vez meret gant kumuniezh KDE."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Hag-eñ en deus ezhomm ar meziant-mañ eus pakadoù pe danvez nann-dieub?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Pep danvez ha pakad-ret zo  dindan aotreegezhioù  a zalc'h ouzh an aotregezh "
+"AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Perak n'eus ket anezhañ dindan iOS?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"An ezhommoù evit sevel hag embann meziantoù evit iOS ne zoujont ket ouzh an "
+"aotreegezhioù GPLv3 ha AGPLv3 implijet gant ar meziant-mañ."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Perak n'eus  ket anezhañ diwar stal amazon?"
 
 #: template/faq.html:69
 msgid ""
@@ -940,6 +970,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Evit android e vez embannet ganeomp  er Play Store hag F-Droid, embann en "
+"holl stalioù a roje re a labour. Ma  vez implijet un dabletezenn Fire "
+"ganeoc'h e c'hellit staliañ end-eeun an apk nevesañ diwar ho lec'hienn-"
+"genrouedad hag ober gant ul loc'her  emren a-benn kaout an arload diwar "
+"profil ur bugel"
 
 #: template/index.html:3
 msgid "GCompris Educational Software"

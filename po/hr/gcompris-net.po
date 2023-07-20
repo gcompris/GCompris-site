@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-07-14 09:32+0200\n"
+"PO-Revision-Date: 2023-07-18 12:17+0200\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
 "Language: hr\n"
@@ -242,7 +242,7 @@ msgstr "grčki"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "esperanto"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -476,7 +476,7 @@ msgstr "Upute"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "ČPP"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -794,15 +794,15 @@ msgstr "sig datoteke:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "ČPP - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Često postavljena pitanja"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Zašto neki dodaci nisu sadržani u samom softveru?"
 
 #: template/faq.html:14
 msgid ""
@@ -813,6 +813,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Uključivanje zvučnih zapisa za sve jezike učinilo bi instalacijski program "
+"prevelikim a većinu korisnika zanimaju samo zvučni zapisi za jezik kojim se "
+"služe. Također, dodatne slike i pozadinska glazba zauzimaju relativno puno "
+"prostora, a nisu potrebni za korištenje softvera. Dakle, kako bismo smanjili "
+"veličinu osnovnog programa za instalaciju, odlučili smo navedene dodatke ne "
+"uključiti u softver već ostaviti mogućnost korisnicima da ih preuzmu ako to "
+"žele."
 
 #: template/faq.html:15
 msgid ""
@@ -820,16 +827,17 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Ako ne želiš da softver preuzima bilo što automatski, možeš isključiti "
+"opciju \"Omogući automatsko preuzimanje/ažuriranje zvučnih zapisa\" na "
+"glavnoj konfiguracijskoj stranici."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Kako mogu ručno preuzeti i instalirati dodatke?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "Inače, instalacijski program možeš preuzeti s donjih poveznica."
+msgstr "Dodatke možeš preuzeti s ove poveznice:"
 
 #: template/faq.html:22
 msgid ""
@@ -838,99 +846,120 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"VAŽNO: u sljedećim uputama zamijeni \"-codecName\" s \"-mp3\" za Windows "
+"sustave ili \"-ogg\" za Linux ili Android sustave ili \"-aac\" za macOS "
+"sustave. Također, zamijeni \"-localeCode\" kodom tvog jezika."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Za pozadinsku glazbu moraš otići u mapu pod nazivom \"backgroundMusic\" i "
+"preuzeti sljedeće dvije datoteke:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Zatim kopiraš te dvije datoteke u mapu pod nazivom \"backgroundMusic\" u "
+"mapi predmemorije aplikacije."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Za glasove moraš otići u mapu pod nazivom \"voices-codecName\" i preuzeti "
+"sljedeće dvije datoteke:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Zatim kopiraj te dvije datoteke u mapu pod nazivom \"voices-codecName\" u "
+"mapi predmemorije aplikacije."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Za slike moraš otići u mapu pod nazivom \"words\" i preuzeti sljedeće dvije "
+"datoteke:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Zatim kopiraj te dvije datoteke u mapu pod nazivom \"words\" u mapi "
+"predmemorije aplikacije."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"Putanja do mape predmemorije razlikuje se ovisno o operativnom sustavu."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Putanja na Windowsima:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Putanja na Linuxu:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Putanja na Androidu (trebaš imati root pristup za uređivanje navedene mape):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Putanja na macOSu:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Je li GCompris GNU paket ili KDE paket?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Oboje. Od početka je GCompris uvijek bio i još uvijek jest GNU paket. Od "
+"2014. održava ga KDE zajednica."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Ovisi li ovaj softver o naplatnim paketima ili sadržajima?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Sav sadržaj i ostali popratni sadržaj su pod licencama kompatibilnim s "
+"licencom AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Zašto nije dostupan za iOS?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Zahtjevi za izradu i objavljivanje softvera za iOS nisu kompatibilni s GPLv3 "
+"i AGPLv3 licencama koje koristi ovaj softver."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Zašto nije dostupan u Amazon trgovini?"
 
 #: template/faq.html:69
 msgid ""
@@ -939,6 +968,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Za Android već objavljujemo na platformi Google Play i F-Droid, dok "
+"objavljivanje na svim ostalim trgovinama zahtijevalo bi previše angažmana. "
+"Ako koristiš Fire tablet, možeš izravno instalirati najnoviji apk s naše web "
+"stranice i koristiti pokretač treće strane za pristup aplikaciji iz dječjeg "
+"profila."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1090,7 +1124,7 @@ msgstr "učenje korištenja računala"
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
-"vježbanje čitanje s aktivnostima za učenje slova, riječi i leksičkih skupova"
+"vježbanje čitanja s aktivnostima za učenje slova, riječi i leksičkih skupova"
 
 #: template/schools.html:18
 msgid ""
