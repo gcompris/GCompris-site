@@ -481,7 +481,7 @@ msgstr "Manuel"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -805,15 +805,17 @@ msgstr "Fichiers sig :"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "FAQ - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Foire aux questions"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
 msgstr ""
+"Pourquoi certaines ressources ne sont-elles pas contenues directement "
+"l'installeur ?"
 
 #: template/faq.html:14
 msgid ""
@@ -824,6 +826,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Inclure les voix de toutes les langues rendrait l'installeur beaucoup trop "
+"lourd et la plupart des utilisateurs ne sont intéressés que par les voix de "
+"leur langue. De plus, les images et les musiques de fond supplémentaires "
+"prennent relativement beaucoup d'espace alors qu'elles ne sont pas "
+"nécessaires à l'utilisation du logiciel. Pour réduire la taille de "
+"l'installateur, nous avons donc décidé de ne pas les inclure et de laisser "
+"les utilisateurs les télécharger à partir du logiciel s'ils le souhaitent."
 
 #: template/faq.html:15
 msgid ""
@@ -831,17 +840,21 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Si vous ne souhaitez pas que le logiciel télécharge automatiquement ces "
+"ressources supplémentaires, vous pouvez désactiver l'option « Télécharger "
+"automatiquement les fichiers de sons » dans la page de configuration "
+"principale."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
 msgstr ""
+"Comment puis-je télécharger et installer manuellement les ressources "
+"supplémentaires ?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
 msgstr ""
-"Sinon, vous pouvez télécharger les installateurs à partir des liens dessous."
+"Vous pouvez télécharger les ressources supplémentaires à partir de ce lien :"
 
 #: template/faq.html:22
 msgid ""
@@ -850,99 +863,122 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"IMPORTANT : dans les instructions suivantes, remplacez « -codecName » par « -"
+"mp3 » pour les systèmes Windows, « -ogg » pour les systèmes Linux ou "
+"Android, ou « -aac » pour les systèmes macOS. Remplacez également « -"
+"localeCode » par le code de votre locale."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Pour les musiques de fond, vous devez aller dans le dossier nommé "
+"« backgroundMusic » et télécharger ces 2 fichiers :"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Copiez ensuite ces 2 fichiers dans un dossier nommé « backgroundMusic »  "
+"dans le dossier de cache de l'application."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Pour les voix, allez dans le dossier nommé « voices-codecName » et "
+"télécharger ces 2 fichiers :"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Copiez ensuite ces 2 fichiers dans un dossier nommé « voices-codecName » "
+"dans le dossier de cache de l'application."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Pour les images, allez dans le dossier nommé « words » et télécharger ces 2 "
+"fichiers :"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Copiez ensuite ces 2 fichiers dans un dossier nommé « words » dans le "
+"dossier de cache de l'application."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"L'emplacement du dossier de cache diffère selon votre système d'exploitation."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Emplacement pour Windows :"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Emplacement pour Linux :"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Emplacement pour Android (vous devez avoir les droits root pour éditer ce "
+"dossier) :"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Emplacement pour macOS :"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "GCompris est-il un logiciel GNU ou un logiciel KDE ?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Les deux ! Depuis sa création, GCompris a toujours été et est toujours un "
+"logiciel GNU. Depuis 2014, il est maintenu par la communauté KDE."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Ce logiciel dépend-il de paquets ou de contenus non libres ?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Tout le contenu et les dépendances sont sous des licences compatibles avec "
+"la licence AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Pourquoi GCompris n'est-il pas disponible pour iOS ?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Les conditions requises pour créer et publier un logiciel pour iOS ne sont "
+"pas compatibles avec les licences GPLv3 et AGPLv3 utilisées par ce logiciel."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Pourquoi n'est-il pas disponible sur la boutique amazon ?"
 
 #: template/faq.html:69
 msgid ""
@@ -951,6 +987,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Pour android nous publions déjà sur les boutiques « Android Play » et F-"
+"Droid, publier dans toutes les boutiques demanderait trop de travail. Si "
+"vous utilisez une tablette Fire, vous pouvez directement installer la "
+"dernière version de l'apk depuis notre site web, et utiliser un lanceur "
+"tiers pour accéder à l'application depuis un profil enfant."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
