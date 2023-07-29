@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-07-03 11:59+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2023-07-26 22:45+0200\n"
+"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.04.2\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -792,7 +792,7 @@ msgstr "sig soubory:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "Často kladené dotazy - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
@@ -800,7 +800,7 @@ msgstr "Často kladené dotazy"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Proč nejsou některé doplňky součástí samotného softwaru?"
 
 #: template/faq.html:14
 msgid ""
@@ -811,6 +811,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Zahrnutím hlasů pro všechny jazyky bychom udělali instalátor příliš velkým a "
+"zároveň většinu uživatelů zajímají jen hlasy v jejich jazyce. Také "
+"nadbytečné obrázky a hudba na pozadí zabírají relativně dost místa, ačkoliv "
+"nejsou pro používání tohoto softwaru nezbytné. Abychom zmenšili velikost "
+"základního instalátoru, rozhodli jsme se tyto součásti do něj nezahrnovat a "
+"jejich stažení necháváme na uživateli, pokud si to přeje, přímo v tomto "
+"softwaru."
 
 #: template/faq.html:15
 msgid ""
@@ -818,10 +825,13 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Pokud nechcete, aby tento software cokoliv automaticky stahoval, můžete na "
+"hlavní stránce konfigurace zakázat volbu \"Povolit automatické stahování/"
+"aktualizace zvukových souborů\"."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr "Jak mohu ručně stáhnout a nainstalovat extra doplnky?"
+msgstr "Jak mohu ručně stáhnout a nainstalovat extra doplňky?"
 
 #: template/faq.html:18
 msgid "You can download the extra assets from this link:"
@@ -834,47 +844,64 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"DŮLEŽITÉ: v následujících instrukcích nahraďte \"-codecName\" podle vašeho "
+"operačního systému: pro Windows použijte \"-mp3\", pro Linux a Android \"-ogg"
+"\" nebo pro macOS \"-aac\". Také nahraďte \"-localeCode\" kódem vaší "
+"lokalizace."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Pro hudbu na pozadí potřebujete přejít do složky pojmenované "
+"\"backgroundMusic\" a stáhnout tyto 2 soubory:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Pak tyto 2 soubory zkopírujte do složky \"backgroundMusic\" v aplikační "
+"složce cache."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Pro hlasy je nutné přejít do složky pojmenované \"voices-codecName\" a "
+"stáhnout tyto 2 soubory:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Pak tyto 2 soubory zkopírujte do složky \"voices-codecName\" v aplikační "
+"složce cache."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Pro obrázky je nutné přejít do složky pojmenované \"words\" a stáhnout tyto "
+"2 soubory:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Pak tyto 2 soubory zkopírujte do složky \"words\" v aplikační složce cache."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"Cesta k aplikační složce cache se liší v závislosti na daném operačním "
+"systému."
 
 #: template/faq.html:42
 msgid "Path on Windows:"
@@ -886,7 +913,7 @@ msgstr "Cesta v Linuxu:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
-msgstr ""
+msgstr "Cesta na Androidu (pro úpravu tohoto adresáře potřebujete práva root):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
@@ -894,23 +921,27 @@ msgstr "Cesta v macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Je GCompris balíček GNU nebo balíček KDE?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Je to obojí. Od začátku GCompris byl a stále je balíčkem GNU. Od roku 2014 "
+"je udržován komunitou KDE."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Závisí tento software na nějakých nesvobodných balíčcích nebo obsahu?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Veškerý obsah a závislosti jsou kryty licencemi, které jsou v souladu s "
+"licencí AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
@@ -921,6 +952,8 @@ msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Požadavky na sestavení a publikování softwaru pro iOS nejsou v souladu s "
+"licencemi GPLv3 a AGPLv3, jež jsou použity v tomto softwaru."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
@@ -933,6 +966,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Pro Android již publikujeme v Obchodě Play a F-Droidu, publikování na všech "
+"obchodech by vyžadovalo příliš mnoho práce. Pokud užíváte tablet Fire, "
+"můžete software nainstalovat přímo z nejnovějšího apk, který najdete na "
+"našich webových stránkách, a použít spouštěč třetí strany pro přístup k "
+"aplikaci z dětského profilu."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"

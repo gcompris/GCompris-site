@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-05-28 16:22+0200\n"
+"PO-Revision-Date: 2023-07-28 19:53+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.04.1\n"
+"X-Generator: Lokalize 23.04.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -237,7 +237,7 @@ msgstr "Gresk"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -468,9 +468,10 @@ msgstr "Skular"
 msgid "Manual"
 msgstr "Bruks­rettleiing"
 
+# OSS = ofte stilte spørsmål
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "OSS"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -515,7 +516,7 @@ msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"Kanskje du, barna dine eller skulen din elskar GCompris? Du kan no støtta "
+"Kanskje du, barna dine eller skulen din elskar GCompris? De kan no støtta "
 "oss med ei pengegåve."
 
 #: template/donate.html:14
@@ -789,15 +790,17 @@ msgstr "Signaturfiler:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "Ofte stilt spørsmål – GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Ofte stilte spørsmål"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
 msgstr ""
+"Korfor følgjer ikkje alle ressursane (bileta/lydklippa/musikken) med "
+"programmet?"
 
 #: template/faq.html:14
 msgid ""
@@ -808,6 +811,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Viss me hadde teke med talefiler for alle språka som er støtta, hadde "
+"installasjons­programmet teke opp altfor stor plass. Og dei fleste brukarane "
+"er berre interesserte i talestøtte for morsmålet sitt. Dei ekstra bileta og "
+"bakgrunns­musikken tek òg opp mykje plass, men er ikkje nødvendige for å "
+"kunna bruka GCompris. For å minimera storleiken på installasjons­programmet "
+"har me derfor valt å ikkje ta med desse, men heller la brukarane lasta dei "
+"ned direkte frå programmet om ønskjeleg."
 
 #: template/faq.html:15
 msgid ""
@@ -815,14 +825,16 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Viss du ikkje vil at programmet skal lasta ned noko automatisk, kan slå av "
+"«Last automatisk ned / oppdater lydfiler» i innstillingane."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Korleis kan eg manuelt lasta ned og installera tilleggsressursane?"
 
 #: template/faq.html:18
 msgid "You can download the extra assets from this link:"
-msgstr ""
+msgstr "Du finn alle tilleggs­ressursane her:"
 
 #: template/faq.html:22
 msgid ""
@@ -831,97 +843,115 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"VIKTIG: I rettleinga nedanfor må du byta ut «-codecName» med «-mp3» for "
+"Windows-system, «-ogg» for Linux- og Android-system og «-aac» for macOS-"
+"system. Byt òg ut «-localeCode» med rett språkkode."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"For bakgrunnsmusikken må du gå til mappa «backgroundMusic» og lasta ned "
+"desse to filene:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Kopier så filene til mappa «backgroundMusic» i cache-mappa til GCompris."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"For talefilene må du gå til mappa «voices-codecName» og lasta ned desse to "
+"filene:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Kopier så filene til mappa «voices-codecName» i cache-mappa til GCompris."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"For talefilene må du gå til mappa «words» og lasta ned desse to filene:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
-msgstr ""
+msgstr "Kopier så filene til mappa «words» i cache-mappa til GCompris."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
-msgstr ""
+msgstr "Plasseringa til cache-mappa er forskjellig på ulike operativsystem."
 
 #: template/faq.html:42
 msgid "Path on Windows:"
-msgstr ""
+msgstr "Plassering på Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Plassering på Linux:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Plassering på Android (du treng rot-tilgang for å kunna gjera endringa i "
+"mappa):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Plassering på macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Er GCompris ein GNU-pakke eller ein KDE-pakke?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Begge delar. Heilt frå starten av har GCompris vore ein GNU-pakke – og er "
+"det enno. Sidan 2014 har programmet vore utvikla av KDE-fellesskapet."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Er programmet avhengig av ikkje-frie pakkar/innhald?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Alt innhaldet og avhengnadar er tilgjengeleg under lisensar kompatible med "
+"AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Korfor er ikkje programmet tilgjengeleg på iOS?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Krava for å byggja og offentleggjera appar for iOS er ikkje kompatible med "
+"GPLv3- og AGPLv3-lisensane som GCompris brukar."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Korfor er ikkje programmet tilgjengeleg i Amazon sin appbutikk?"
 
 #: template/faq.html:69
 msgid ""
@@ -930,6 +960,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"For Android er programmet alt tilgjengeleg på Google Play Store og F-Droid, "
+"og det er for mykje arbeid å gjera det tilgjengeleg i andre appbutikkar. Men "
+"viss du brukar eit Fire-nettbrett, kan du installera den nyaste .apk-fila "
+"frå denne sida og bruka ein tredjeparts appstartar for å køyra programmet i "
+"barneprofilar."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1003,13 +1038,14 @@ msgstr "Lær datamaskinbruk: tastatur, mus, peikeskjerm, …"
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr "Lesing: bokstavar, ord, leseøvingar, tekstskriving …"
+msgstr "Lesing: bokstavar, ord, leseøvingar, tekstskriving, …"
 
+# Endra rekkjefølgja til ei meir naturleg ei på norsk.
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr "Rekning: tal, operatorar, gongetabellen, teljing, …"
+msgstr "Rekning: tal, teljing, operatorar, gongetabellen, …"
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
@@ -1017,11 +1053,12 @@ msgstr "Vitskap: kanalsluse, vasskrinsløpet, fornybar energi, …"
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr "Geografi: land, fylke, kulturar …"
+msgstr "Geografi: land, fylke, kulturar, …"
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "Spel: sjakk, hugsespel, bondesjakk, fire på rad, ordgjetteleik, …"
+msgstr ""
+"Spel: sjakk, bilet- og lydlotto, bondesjakk, fire på rad, ordgjetteleik, …"
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
@@ -1060,7 +1097,7 @@ msgstr ""
 "GCompris er eit e-læringsverktøy med ulike øvingar for både skulen og heime. "
 "Det er fri programvare tilgjengeleg under lisensen GNU General Public "
 "License. Programmet køyrer på fleire plattformer (GNU/Linux, Windows, "
-"Android og macOS), og det verkar òg bra på gamle /mindre kraftige "
+"Android og macOS), og det verkar òg bra på gamle / mindre kraftige "
 "datamaskiner."
 
 #: template/schools.html:14
