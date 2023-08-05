@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-02-28 21:08+0100\n"
+"PO-Revision-Date: 2023-08-04 16:09+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -88,20 +88,14 @@ msgstr "Tack allesamman, <br/>Timothée och Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Release GCompris 3.1"
 msgctxt "20230606.html"
 msgid "Release GCompris 3.3"
-msgstr "Utgivning av GCompris 3.1"
+msgstr "Utgivning av GCompris 3.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Today we are releasing GCompris version 3.1."
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Idag ger vi ut GCompris version 3.1."
+msgstr "Idag ger vi ut GCompris version 3.3."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -134,9 +128,6 @@ msgid "It is fully translated in the following languages:"
 msgstr ""
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
@@ -149,23 +140,12 @@ msgstr ""
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20230606.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }}"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20230606.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Raspberry "
@@ -180,9 +160,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Tack allesamman, <br/>Timothée och Johnny"
@@ -379,9 +356,6 @@ msgstr "Portugisiska"
 
 # list item
 #: gcompris.py:120
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Brazilian Protuguese"
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
 msgstr "Brasiliansk portugisiska"
@@ -846,10 +820,9 @@ msgid "How can I manually download and install the extra assets?"
 msgstr ""
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "Annars kan du ladda ner installationsverktyget från länken nedan."
+msgstr ""
+"Du kan ladda ner den senast tillgängliga versionen från den här länken:"
 
 #: template/faq.html:22
 msgid ""
@@ -901,10 +874,8 @@ msgid ""
 msgstr ""
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Sökväg på Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
