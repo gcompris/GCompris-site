@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-07-02 00:51+0000\n"
-"PO-Revision-Date: 2023-08-04 16:09+0200\n"
+"PO-Revision-Date: 2023-08-05 08:47+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -38,6 +38,9 @@ msgid ""
 "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
 "and music activities."
 msgstr ""
+"Den här nya versionen innehåller några felrättningar av flera aktiviteter "
+"som \"Upptäck den internationella Morsekoden\", \"Styr slangen\" och "
+"musikaktiviteter."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -45,6 +48,8 @@ msgid ""
 "It also contains new graphics for all memory activities and for \\\"Baby "
 "puzzle\\\"."
 msgstr ""
+"Den innehåller också ny grafik för alla minnesaktiviteter och för "
+"\"Bebispussel\"."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -52,16 +57,19 @@ msgid ""
 "A new command-line argument (--difficulty {value|min-max}) has been added "
 "which allows users to force the difficulty filter at a given value or range."
 msgstr ""
+"Ett nytt kommandoradsargument (--difficulty {värde|min-max}) har lagts till "
+"som tillåter användare att låsa svårighetsfiltret till ett givet värde eller "
+"intervall."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
+msgstr "Teckensnittet Andika har uppdaterats till senaste version (6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Det är fullständigt översatt på följande språk:"
 
 #. list item
 msgctxt "20230329.html"
@@ -71,14 +79,14 @@ msgstr "{{ oneLocale }}"
 #. paragraph
 msgctxt "20230329.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Det är också delvis översatt på följande språk:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20230329.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
@@ -102,6 +110,8 @@ msgctxt "20230606.html"
 msgid ""
 "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgstr ""
+"Versionen lägger till översättningar för ytterligare två språk: arabiska och "
+"esperanto."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -109,6 +119,8 @@ msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
+"Det innehåller felrättningar för flera aktiviteter såsom \"Vägkodning\", "
+"\"Bokstav i ord\", \"Fånga boll\" och \"Pianokomposition\"."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -116,16 +128,18 @@ msgid ""
 "Some improvements of keyboard handling (shortcuts, focus...) have been done "
 "on several activities."
 msgstr ""
+"Vissa förbättringar av tangentbordshantering (genvägar, fokus ...) har "
+"gjorts i flera aktiviteter."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
+msgstr "Den innehåller också ny grafik och förbättringar i \"Fotojägare\"."
 
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Det är fullständigt översatt på följande språk:"
 
 #. list item
 msgctxt "20230606.html"
@@ -135,7 +149,7 @@ msgstr "{{ oneLocale }}"
 #. paragraph
 msgctxt "20230606.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Det är också delvis översatt på följande språk:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
@@ -172,12 +186,12 @@ msgstr "Brittisk engelska"
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "Amerikansk engelska"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabiska"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
@@ -187,7 +201,7 @@ msgstr "Azerbajdzjanska"
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulgariska"
 
 # list item
 #: gcompris.py:88
@@ -218,7 +232,7 @@ msgstr "Tjeckiska"
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "Danska"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
@@ -233,7 +247,7 @@ msgstr "Grekiska"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -269,7 +283,7 @@ msgstr "Iriska"
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Skotsk gäliska"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
@@ -310,7 +324,7 @@ msgstr "Italienska"
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr ""
+msgstr "Koreanska"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
@@ -320,7 +334,7 @@ msgstr "Litauiska"
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr ""
+msgstr "Lettiska"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
@@ -388,7 +402,7 @@ msgstr "Albanska"
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr ""
+msgstr "Serbiska"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
@@ -398,12 +412,12 @@ msgstr "Svenska"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr ""
+msgstr "Tamilska"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr ""
+msgstr "Thailändska"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
@@ -471,7 +485,7 @@ msgstr "Handbok"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "Vanliga frågor"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -788,15 +802,15 @@ msgstr "sig-filer:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "Vanliga frågor - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Vanliga frågor"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Varför ingår inte vissa tillgångar i själva programvaran?"
 
 #: template/faq.html:14
 msgid ""
@@ -807,6 +821,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Att inkludera rösterna för alla språk skulle göra installationsprogrammet "
+"alldeles för stort och de flesta användare är bara intresserade av rösterna "
+"för sitt eget språk. Även de extra bilderna och bakgrundsmusiken tar "
+"relativt mycket utrymme samtidigt som de inte krävs för att använda "
+"programvaran. Så för att minimera storleken på basinstallationsprogrammet "
+"beslutade vi att inte inkludera dem och låta användare ladda ner dem från "
+"programvaran om de vill."
 
 #: template/faq.html:15
 msgid ""
@@ -814,10 +835,13 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Om du inte vill att programvaran ska ladda ner något automatiskt kan du "
+"inaktivera alternativet \"Aktivera automatiska nerladdningar och "
+"uppladdningar av ljudfiler\" på huvudinställningssidan."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Hur kan man manuellt ladda ner och installera de extra tillgångarna?"
 
 #: template/faq.html:18
 msgid "You can download the extra assets from this link:"
@@ -831,47 +855,62 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"VIKTIGT: I följande instruktioner, ersätt \"-codecName\" med \"-mp3\" för "
+"Windows-system, eller \"-ogg\" för Linux- eller Android-system, eller \"-aac"
+"\" för macOS-system. Byt också ut \"-localeCode\" mot koden för ditt språk."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"För bakgrundsmusiken måste du gå in i mappen som heter \"backgroundMusic\" "
+"och ladda ner följande två filer:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Kopiera sedan de två filerna till en katalog som heter \"backgroundMusic\" i "
+"programmets cachekatalog."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"För röster måste du gå till katalogen som heter \"voices-codecName\" och "
+"ladda ner följande två filer:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Kopiera sedan de två filerna till en katalog som heter \"voices-codecName\" "
+"i programmets cachekatalog."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"För bilderna måste du gå till katalogen som heter \"words\" och ladda ner "
+"följande två filer:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Kopiera sedan de två filerna till en katalog som heter \"words\" i "
+"programmets cachekatalog."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
-msgstr ""
+msgstr "Sökvägen till cachekatalogen är olika beroende på operativsystem."
 
 #: template/faq.html:42
 msgid "Path on Windows:"
@@ -879,49 +918,57 @@ msgstr "Sökväg på Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Sökväg på Linux:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Sökväg på Android (du måste ha åtkomst som systemadministratör för att "
+"redigera katalogen):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Sökväg på macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Är GCompris ett GNU-paket eller ett KDE-paket?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Det är både ock. Från början har GCompris alltid varit och är fortfarande "
+"ett GNU-paket. Sedan 2014 underhålls det av KDE-gemenskapen."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Beror programvaran på icke-fria paket eller innehåll?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Allt innehåll och alla beroenden är under licenser som är kompatibla med "
+"AGPLv3-licensen."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Varför är det inte tillgänglig för iOS?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Kraven för att bygga och publicera programvara för iOS är inte kompatibla "
+"med GPLv3- och AGPLv3-licenserna som används av denna programvara."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Varför är det inte tillgänglig på Amazons butik?"
 
 #: template/faq.html:69
 msgid ""
@@ -930,6 +977,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"För Android publicerar vi redan på Play Store och F-Droid. Att publicera i "
+"alla butiker skulle kräva för mycket arbete. Om du använder en Fire "
+"läsplatta kan du installera den senaste apk-versionen direkt från vår "
+"webbplats och använda ett startprogram från tredje part för att komma åt "
+"applikationen från en barnprofil."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
