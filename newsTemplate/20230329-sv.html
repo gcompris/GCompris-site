@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Idag ger vi ut GCompris version 3.2.</p>
+<p>Den här nya versionen innehåller några felrättningar av flera aktiviteter som "Upptäck den internationella Morsekoden", "Styr slangen" och musikaktiviteter.</p>
+<p>Den innehåller också ny grafik för alla minnesaktiviteter och för "Bebispussel".</p>
+<p>Ett nytt kommandoradsargument (--difficulty {värde|min-max}) har lagts till som tillåter användare att låsa svårighetsfiltret till ett givet värde eller intervall.</p>
+<p>Teckensnittet Andika har uppdaterats till senaste version (6.200).</p>
+
+<p>Det är fullständigt översatt på följande språk:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Det är också delvis översatt på följande språk:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+
+{% endblock %}
