@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-08-10 00:49+0000\n"
-"PO-Revision-Date: 2023-08-10 18:42+0200\n"
+"PO-Revision-Date: 2023-08-22 22:10+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -468,10 +468,10 @@ msgstr "Skular"
 msgid "Manual"
 msgstr "Bruks­rettleiing"
 
-# OSS = ofte stilte spørsmål
+# OSS (ofte stilte spørsmål) vert for kryptisk. Og det er plass i menyen til den lange versjonen her.
 #: template/base.html:77
 msgid "FAQ"
-msgstr "OSS"
+msgstr "Spørsmål og svar"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -790,16 +790,16 @@ msgstr "Signaturfiler:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr "Ofte stilt spørsmål – GCompris"
+msgstr "Spørsmål og svar – GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr "Ofte stilte spørsmål"
+msgstr "Spørsmål og svar"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
 msgstr ""
-"Korfor følgjer ikkje alle ressursane (bileta/lydklippa/musikken) med "
+"Korfor følgjer ikkje alle ressursane (talefiler/bilete/musikk) med i "
 "programmet?"
 
 #: template/faq.html:14
@@ -881,8 +881,7 @@ msgstr ""
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
-msgstr ""
-"For talefilene må du gå til mappa «words» og lasta ned desse to filene:"
+msgstr "For bileta må du gå til mappa «words» og lasta ned desse to filene:"
 
 #: template/faq.html:40
 msgid ""
@@ -934,8 +933,8 @@ msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
-"Alt innhaldet og avhengnadar er tilgjengeleg under lisensar kompatible med "
-"AGPLv3."
+"Alt innhaldet og alle avhengnadar er tilgjengelege under lisensar kompatible "
+"med AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
@@ -947,7 +946,7 @@ msgid ""
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
 "Krava for å byggja og offentleggjera appar for iOS er ikkje kompatible med "
-"GPLv3- og AGPLv3-lisensane som GCompris brukar."
+"lisensane som GCompris brukar, GPLv3 og AGPLv3."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
