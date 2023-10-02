@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-08-10 00:49+0000\n"
-"PO-Revision-Date: 2023-08-10 19:01+0200\n"
+"PO-Revision-Date: 2023-10-01 17:52+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -65,8 +65,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
-"El tipus de lletra Andika s'ha actualitzat a la seva darrera versió (6.200)."
+msgstr "La lletra Andika s'ha actualitzat a la seva darrera versió (6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -825,7 +824,7 @@ msgstr ""
 "massa pesat i la majoria dels usuaris només estan interessats en les veus de "
 "la seva llengua. A més, les imatges addicionals i la música de fons prenen "
 "relativament molt espai tot i que no es requereix per a utilitzar el "
-"programari. Per minimitzar la mida de l'instal·lador base, decidim no "
+"programari. Per a minimitzar la mida de l'instal·lador base, decidim no "
 "incloure'ls i permetre que els usuaris els baixin del programari si ho volen."
 
 #: template/faq.html:15
@@ -964,7 +963,7 @@ msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
-"Els requisits per construir i publicar programari per a l'iOS no són "
+"Els requisits per a construir i publicar programari per a l'iOS no són "
 "compatibles amb les llicències GPLv3 i AGPLv3 utilitzades per aquest "
 "programari."
 
@@ -982,8 +981,8 @@ msgstr ""
 "Per a l'Android ja el publiquem a la Play Store i a l'F-Droid, la publicació "
 "a totes les botigues requeriria massa feina. Si utilitzeu una tauleta Fire, "
 "podeu instal·lar directament l'última «apk» des del nostre lloc web, i "
-"utilitzar un llançador de tercers per accedir a l'aplicació des d'un perfil "
-"fill."
+"utilitzar un llançador de tercers per a accedir a l'aplicació des d'un "
+"perfil fill."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1078,7 +1077,7 @@ msgstr "geografia: països, regions, cultura..."
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "jocs: escacs, memòria, connecta 4, el penjat, tres en ratlla..."
+msgstr "jocs: escacs, memòria, connecta'n 4, el penjat, tres en ratlla..."
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
