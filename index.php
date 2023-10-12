@@ -9,6 +9,7 @@ $Destination['cs'] = '-cs';
 // $Destination['da'] = '-da';
 $Destination['de'] = '-de';
 $Destination['el'] = '-el';
+$Destination['eo'] = '-eo';
 $Destination['es'] = '-es';
 $Destination['et'] = '-et';
 $Destination['eu'] = '-eu';
