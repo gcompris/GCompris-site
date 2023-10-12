@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Eldono GCompris 3.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.2.png' class='col-xs-12 col-md-4' alt='gcompris 3.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.2.png')"/>
+
+<p>Hodiaŭ ni publikigas GCompris version 3.2.</p>
+<p>Ĉi tiu nova versio enhavas iujn cimojn pri multoblaj agadoj kiel "Malkovru la Internacian Morsan kodon", "Regi la hoso-tubon" kaj muzikajn agadojn.</p>
+<p>Ĝi ankaŭ enhavas novajn grafikaĵojn por ĉiuj memoraj agadoj kaj por "Beba enigmo".</p>
+<p>Nova komandlinia argumento (--difficulty {valoro|min-max}) estis aldonita, kiu permesas al uzantoj devigi la malfacilecfiltrilon je difinita valoro aŭ intervalo.</p>
+<p>La tiparo Andika estis ĝisdatigita al sia plej nova versio (6.200).</p>
+
+<p>Ĝi estas plene tradukita en la jenajn lingvojn:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Ĝi ankaŭ estas parte tradukita en la sekvajn lingvojn:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Dankon al ĉiuj, <br/>Timothée & Johnny</p>
+
+{% endblock %}
