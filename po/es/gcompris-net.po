@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PROJECT project.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-# Eloy <ecuadra@eloihr.net>, 2017.
+# SPDX-FileCopyrightText: 2017, 2023 Eloy <ecuadra@eloihr.net>
 # Eloy Cuadra <ecuadra@eloihr.net>, 2017, 2019, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-08-10 00:49+0000\n"
-"PO-Revision-Date: 2023-08-13 00:37+0200\n"
+"PO-Revision-Date: 2023-10-17 21:55+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.2\n"
 
 # news title
 #. news title
@@ -469,7 +469,7 @@ msgstr "Descarga"
 
 #: template/base.html:73 template/donate.html:3 template/donate.html:8
 msgid "Donate"
-msgstr "Donaciones"
+msgstr "Hacer un donativo"
 
 #: template/base.html:74 template/screenshots.html:3
 #: template/screenshots.html:30
@@ -532,7 +532,7 @@ msgid ""
 "with a donation."
 msgstr ""
 "Si a usted, a sus hijos o a sus alumnos les gusta GCompris, puede apoyar el "
-"proyecto mediante una donación."
+"proyecto mediante un donativo."
 
 #: template/donate.html:14
 msgid ""
@@ -556,11 +556,11 @@ msgstr "Conviértase en patrocinador"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "Además, puede donar la cantidad que decida a KDE:"
+msgstr "Además, puede hacer un donativo de la cantidad que decida a KDE:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
-msgstr "Hacer una donación a KDE"
+msgstr "Hacer un donativo a KDE"
 
 #: template/donate.html:24
 msgid "Thanks for supporting Free Software in education."
