@@ -5,15 +5,15 @@
 # Simon Depiets <sdepiets@gmail.com>, 2018.
 # Timo <animtim@gmail.com>, 2019, 2020, 2022.
 # charruau <echarruau@gmail.com>, 2019, 2021, 3034.
-# Xavier Besnard <xavier.besnard@neuf.fr>, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023 Xavier Besnard <xavier.besnard@neuf.fr>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-08-10 00:49+0000\n"
-"PO-Revision-Date: 2023-01-07 07:25+0200\n"
-"Last-Translator: Johnny Jazeix <jazeix@gmail.com>\n"
-"Language-Team: French <kde-francophone@kde.org>\n"
+"PO-Revision-Date: 2023-11-02 20:56+0100\n"
+"Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 "X-Environment: kde\n"
 "X-Accelerator-Marker: \n"
 "X-Text-Markup: html\n"
-"X-Generator: Lokalize 22.08.0\n"
+"X-Generator: Lokalize 23.08.2\n"
 "X-Qt-Contexts: true\n"
 
 #. news title
@@ -68,7 +68,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230329.html"
 msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr "La police Andika a été mise à jour à sa dernière version (6.200)."
+msgstr "La police « Andika » a été mise à jour à sa dernière version (6.200)."
 
 #. paragraph
 msgctxt "20230329.html"
@@ -213,7 +213,7 @@ msgstr "Breton"
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr "Bélarusse"
+msgstr "Biélorusse"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
@@ -672,15 +672,15 @@ msgstr ""
 
 #: template/downloads.html:75
 msgid "macOS"
-msgstr "macOS"
+msgstr "MacOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr "Vous pouvez télécharger la version macOS à partir du lien dessous."
+msgstr "Vous pouvez télécharger la version MacOS à partir du lien dessous."
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr "Construit et testé sous macOS 10.13."
+msgstr "Construit et testé sous MacOS 10.13."
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
@@ -728,8 +728,9 @@ msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"Enfin, pour lancer gcompris, allez dans le nouveau dossier puis dans bin/, "
-"et double-cliquez sur le fichier gcompris-qt.sh."
+"Enfin, pour lancer l'application « gcompris », veuillez aller dans le "
+"nouveau dossier puis dans le dossier « bin/ » et faites un double clic sur "
+"le fichier « gcompris-qt.sh »."
 
 #: template/downloads.html:110
 msgid ""
@@ -796,8 +797,8 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Le tarball des sources et les installateurs Linux sont signés avec la clé "
-"GPG de Timothée Giet (clé publique : %(public_gpg_key)s)"
+"Le fichier d'archives des sources et les installateurs Linux sont signés "
+"avec la clé « GPG » de Timothée Giet (Clé publique : %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
@@ -865,7 +866,7 @@ msgid ""
 msgstr ""
 "IMPORTANT : dans les instructions suivantes, remplacez « -codecName » par « -"
 "mp3 » pour les systèmes Windows, « -ogg » pour les systèmes Linux ou "
-"Android, ou « -aac » pour les systèmes macOS. Remplacez également « -"
+"Android, ou « -aac » pour les systèmes MacOS. Remplacez également « -"
 "localeCode » par le code de votre locale."
 
 #: template/faq.html:23
@@ -938,7 +939,7 @@ msgstr ""
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr "Emplacement pour macOS :"
+msgstr "Emplacement pour MacOS :"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
@@ -978,7 +979,7 @@ msgstr ""
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr "Pourquoi n'est-il pas disponible sur la boutique amazon ?"
+msgstr "Pourquoi n'est-il pas disponible sur la boutique Amazon ?"
 
 #: template/faq.html:69
 msgid ""
@@ -987,11 +988,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
-"Pour android nous publions déjà sur les boutiques « Android Play » et F-"
+"Pour Android nous publions déjà sur les boutiques « Android Play » et F-"
 "Droid, publier dans toutes les boutiques demanderait trop de travail. Si "
 "vous utilisez une tablette Fire, vous pouvez directement installer la "
-"dernière version de l'apk depuis notre site web, et utiliser un lanceur "
-"tiers pour accéder à l'application depuis un profil enfant."
+"dernière version du logiciel « apk » depuis notre site Internet et utiliser "
+"un lanceur tiers pour accéder à l'application depuis un profil fils."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
