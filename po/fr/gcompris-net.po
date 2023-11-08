@@ -170,7 +170,7 @@ msgid ""
 "Android Play store, the F-Droid repository and the Windows store."
 msgstr ""
 "Vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, "
-"Windows, Raspberry Pi et MacOS sur la <a href=\\\"https://gcompris.net/"
+"Windows, Raspberry Pi et macOS sur la <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">page de téléchargement</a>. Cette version "
 "sera également disponible très bientôt dans les boutiques « Android Play » "
 "et « Windows », ainsi dans le dépôt F-Droid."
@@ -672,15 +672,15 @@ msgstr ""
 
 #: template/downloads.html:75
 msgid "macOS"
-msgstr "MacOS"
+msgstr "macOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr "Vous pouvez télécharger la version MacOS à partir du lien dessous."
+msgstr "Vous pouvez télécharger la version macOS à partir du lien dessous."
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr "Construit et testé sous MacOS 10.13."
+msgstr "Construit et testé sous macOS 10.13."
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
@@ -797,8 +797,8 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Le fichier d'archives des sources et les installateurs Linux sont signés "
-"avec la clé « GPG » de Timothée Giet (Clé publique : %(public_gpg_key)s)"
+"Le fichier d'archive des sources et les installateurs Linux sont signés avec "
+"la clé « GPG » de Timothée Giet (Clé publique : %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
@@ -866,7 +866,7 @@ msgid ""
 msgstr ""
 "IMPORTANT : dans les instructions suivantes, remplacez « -codecName » par « -"
 "mp3 » pour les systèmes Windows, « -ogg » pour les systèmes Linux ou "
-"Android, ou « -aac » pour les systèmes MacOS. Remplacez également « -"
+"Android, ou « -aac » pour les systèmes macOS. Remplacez également « -"
 "localeCode » par le code de votre locale."
 
 #: template/faq.html:23
@@ -939,7 +939,7 @@ msgstr ""
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr "Emplacement pour MacOS :"
+msgstr "Emplacement pour macOS :"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
@@ -992,7 +992,7 @@ msgstr ""
 "Droid, publier dans toutes les boutiques demanderait trop de travail. Si "
 "vous utilisez une tablette Fire, vous pouvez directement installer la "
 "dernière version du logiciel « apk » depuis notre site Internet et utiliser "
-"un lanceur tiers pour accéder à l'application depuis un profil fils."
+"un lanceur tiers pour accéder à l'application depuis un profil enfant."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1127,7 +1127,7 @@ msgstr ""
 "GCompris est un outil d'enseignement électronique fournissant des exercices "
 "d'entraînement à l'intérieur ou l'extérieur de la classe. C'est un logiciel "
 "libre, publié sous la licence « GNU General Public License ». Il est multi-"
-"plate-forme (GNU/Linux, Windows, Android, MacOS) et peut être lancé sur des "
+"plate-forme (GNU/Linux, Windows, Android, macOS) et peut être lancé sur des "
 "ordinateurs à faible puissance."
 
 #: template/schools.html:14
