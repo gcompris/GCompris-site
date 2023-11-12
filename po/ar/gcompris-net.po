@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PROJECT project.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2023.
+# SPDX-FileCopyrightText: 2023 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-11-05 12:42+0000\n"
-"PO-Revision-Date: 2023-06-08 10:49+0400\n"
+"PO-Revision-Date: 2023-11-11 21:44+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #. news title
 msgctxt "20230329.html"
@@ -467,7 +467,7 @@ msgstr "الدليل"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "الأسئلة المتكررة"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -774,15 +774,15 @@ msgstr "ملفات التوقيع:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "أسئلة فهمت المتكررة"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "الأسئلة المتكررة"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "لماذا بعض الموارد غير مضمنة في التطبيق؟"
 
 #: template/faq.html:14
 msgid ""
@@ -793,6 +793,11 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"إن تضمين الأصوات لجميع اللغات قد يجعل عملية التثبيت ثقيلة للغاية، ويهتم معظم "
+"المستخدمين فقط بالأصوات الخاصة بلغتهم.كما تشغل الصور الإضافية وموسيقى "
+"الخلفية مساحة كبيرة نسبيًا رغم أن البرنامج بدونها. لذا، ولتقليل حجم أداة "
+"التثبيت الأساسية، قررنا عدم تضمينها والسماح للمستخدمين بتنزيلها من البرنامج "
+"إذا أرادوا ذلك."
 
 #: template/faq.html:15
 msgid ""
@@ -800,16 +805,16 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"إذا كنت لا تريد أن يقوم البرنامج بتنزيل أي شيء تلقائيًا، فيمكنك تعطيل الخيار "
+"\"مكن التنزيلات/التحديثات التلقائية لملفات الصوت\" في صفحة الضبط الرئيسة."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "كيف يمكنني تنزيل الموارد الإضافية وتثبيتها يدويًا؟"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr "عدا ذلك ، يمكنك تنزيل برنامج التثبيت من الروابط أدناه."
+msgstr "يمكنك تنزيل الموارد الإضافية من هذا الرابط:"
 
 #: template/faq.html:22
 msgid ""
@@ -861,32 +866,32 @@ msgid ""
 msgstr ""
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "النوافذ"
+msgstr "المسار في ويندوز:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "المسار في لينكس:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
-msgstr ""
+msgstr "المسار في أندرويد (أنت بحاجة إلى صلاحية الجذر لتحرر هذا المجلد):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "المسار في ماك أوس:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "هل فهمت حزمة غنو أو حزمة كيدي؟"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"هو كلاهما. منذ البداية، كان فهمت دائمًا ولا يزال حزمة غنو. ومنذ عام 2014 يطور "
+"من قبل مجتمع كيدي."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
@@ -900,7 +905,7 @@ msgstr ""
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "لماذا لا يتوفر على أي أو أس؟"
 
 #: template/faq.html:66
 msgid ""
@@ -1099,15 +1104,6 @@ msgstr ""
 "بشكل صارم باللوائح العامة لحماية البيانات في الاتحاد الأوروبي."
 
 #: template/schools.html:26
-#, fuzzy
-#| msgid ""
-#| "GCompris 1.0 lets educators select the level of activities according to "
-#| "the skill of each child. For example, in an activity that lets children "
-#| "practice numbers, you can select what numbers they can work with, leaving "
-#| "higher and more difficult numbers for a later stage. Or in an activity in "
-#| "which the child has to order pictures chronologically, you can grade the "
-#| "activity for children who can only read numbers or make it harder for "
-#| "children who can read both numbers and words."
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1117,12 +1113,12 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
-"يتيح \"فهمت\" 1.0 للمعلمين تحديد مستوى الأنشطة وفقًا لمهارة كل طفل. على سبيل "
-"المثال، في نشاط يتيح للأطفال التمرنّ على الأعداد، يمكنك تحديد الأعداد التي "
-"يمكنهم العمل بها، وترك أعداد أكبر أصعبة لمرحلة لاحقة. أو في نشاط على الطفل "
-"فيه ترتيب الصور ترتيبًا زمنيًا، يمكنك تصنيف النشاط للأطفال الذين يمكنهم قراءة "
-"الأعداد فقط أو جعل الأمر أكثر صعوبة بالنسبة للأطفال القادرين على قراءة "
-"الأعداد والكلمات معًا."
+"يتيح \"فهمت\" منذ الإصدار 1.0 للمعلمين تحديد مستوى الأنشطة وفقًا لمهارة كل "
+"طفل. على سبيل المثال، في نشاط يتيح للأطفال التمرنّ على الأعداد، يمكنك تحديد "
+"الأعداد التي يمكنهم العمل بها، وترك أعداد أكبر أصعبة لمرحلة لاحقة. أو في "
+"نشاط على الطفل فيه ترتيب الصور ترتيبًا زمنيًا، يمكنك تصنيف النشاط للأطفال "
+"الذين يمكنهم قراءة الأعداد فقط أو جعل الأمر أكثر صعوبة بالنسبة للأطفال "
+"القادرين على قراءة الأعداد والكلمات معًا."
 
 #: template/schools.html:29
 msgid ""
