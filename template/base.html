@@ -7,8 +7,8 @@
     <meta name="keywords" content="free educational software gnu gpl education game children kid logiciel libre educatif education apprentissage informatique ordinateur computer keyboard mouse learning skills mathematique enfant math electricity teaching"/>
     <meta name="description" content="educational software gcompris. Logiciel educatif gcompris"/>
     <meta name="author" content="Timothée Giet"/>
-    <link href="{{ rootFolder }}js/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="{{ rootFolder }}gcompris.css?version=20230203" />
+    <link href="{{ rootFolder }}js/bootstrap/css/bootstrap.min.css?version=20240103" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ rootFolder }}gcompris.css?version=20240103" />
     <link rel="icon" TYPE="image/png" href="{{ rootFolder }}favicon.png"/>
     <meta property="og:title" content="{{title}}" />
     <meta property="og:type" content="{{ogType}}" />
@@ -86,6 +86,9 @@
 	      {% endfor %}
             </ul>
 	  </li>
+	  <li>
+            <a id="madeByKDE" href="https://kde.org/" target="_blank" rel="noreferrer noopener" aria-label="made by KDE" style="padding-bottom: 10px"><img alt="KDE logo" src="{{ rootFolder }}kde-logo.svg" height="24" loading="lazy"> Made by KDE</a>
+	  </li>
 	</ul>
       </div><!-- /.navbar-collapse -->
     </nav>
@@ -102,7 +105,7 @@
     </svg>
     <hr class="footer-top"/>
     <footer class="bs-footer">
-      <div class="footer"><a href="https://kde.org/"><img alt="KDE" src="{{ rootFolder }}kde-logo-white.svg" height="32" loading="lazy"></a>
+      <div class="footer"><a href="https://kde.org/" target="_blank" rel="noreferrer noopener"><img alt="KDE" src="{{ rootFolder }}kde-logo-white.svg" height="32" loading="lazy"></a>
         <br/><br/>
         Copyright 2000-{{ current_year }} <a href="mailto:support@gcompris.net">Timothée Giet and others</a>.
         <br/>

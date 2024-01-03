@@ -271,6 +271,13 @@ h2 {
   height: 48px;
 }
 
+#makedByKDE:link,
+#madeByKDE:visited,
+#madeByKDE:hover,
+#madeByKDE:active {
+  color: #777;
+}
+
 .indexProjectImg {
     float: right;
     padding: 3px 0 3px 0;
