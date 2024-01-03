@@ -271,7 +271,11 @@ h2 {
   height: 48px;
 }
 
-#makedByKDE:link,
+#madeByKDE {
+  float: right;
+}
+
+#madeByKDE:link,
 #madeByKDE:visited,
 #madeByKDE:hover,
 #madeByKDE:active {
