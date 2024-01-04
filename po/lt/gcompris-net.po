@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-01 00:43+0000\n"
+"POT-Creation-Date: 2024-01-04 00:43+0000\n"
 "PO-Revision-Date: 2023-07-21 20:42+0300\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: lt <komp_lt@konferencijos.lt>\n"
@@ -483,12 +483,12 @@ msgstr "DUK"
 msgid "Contribute"
 msgstr "Prisidėti"
 
-#: template/base.html:109
+#: template/base.html:112
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Svetainė atnaujinta: %(revision_date)s."
 
-#: template/base.html:114
+#: template/base.html:117
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Svetainę išvertė: %(translators_names)s."

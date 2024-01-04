@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-01 00:43+0000\n"
+"POT-Creation-Date: 2024-01-04 00:43+0000\n"
 "PO-Revision-Date: 2023-04-20 17:37+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -481,13 +481,13 @@ msgstr ""
 msgid "Contribute"
 msgstr "Avusta"
 
-#: template/base.html:109
+#: template/base.html:112
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Sivuston viimeisin päivitys %(revision_date)s."
 
 # HUOM! Tämä pitää päivittää, kun kääntäjiä tulee lisää: kääntänyt → kääntäneet
-#: template/base.html:114
+#: template/base.html:117
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Sivuston kääntänyt: %(translators_names)s."

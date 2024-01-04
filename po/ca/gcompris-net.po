@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-01 00:43+0000\n"
+"POT-Creation-Date: 2024-01-04 00:43+0000\n"
 "PO-Revision-Date: 2023-10-01 17:52+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -485,12 +485,12 @@ msgstr "PMF"
 msgid "Contribute"
 msgstr "Col·labora"
 
-#: template/base.html:109
+#: template/base.html:112
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Darrera actualització del lloc el %(revision_date)s."
 
-#: template/base.html:114
+#: template/base.html:117
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Lloc traduït per: %(translators_names)s."

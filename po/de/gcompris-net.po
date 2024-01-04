@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-01 00:43+0000\n"
+"POT-Creation-Date: 2024-01-04 00:43+0000\n"
 "PO-Revision-Date: 2022-04-15 05:05+0200\n"
 "Last-Translator: Lars Vogdt <lars@linux-schulserver.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -515,12 +515,12 @@ msgstr ""
 msgid "Contribute"
 msgstr "Mitwirken"
 
-#: template/base.html:109
+#: template/base.html:112
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Seite wurde zuletzt am %(revision_date)s aktualisiert."
 
-#: template/base.html:114
+#: template/base.html:117
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Seite wurde übersetzt von: %(translators_names)s."

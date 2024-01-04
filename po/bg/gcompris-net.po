@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-01 00:43+0000\n"
+"POT-Creation-Date: 2024-01-04 00:43+0000\n"
 "PO-Revision-Date: 2017-05-03 11:20+0300\n"
 "Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -459,12 +459,12 @@ msgstr ""
 msgid "Contribute"
 msgstr "Дарение"
 
-#: template/base.html:109
+#: template/base.html:112
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:114
+#: template/base.html:117
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""
