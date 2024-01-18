@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-16 01:39+0000\n"
+"POT-Creation-Date: 2024-01-18 01:38+0000\n"
 "PO-Revision-Date: 2023-11-02 20:56+0100\n"
 "Last-Translator: Xavier BESNARD <xavier.besnard@neuf.fr>\n"
 "Language-Team: fr\n"
@@ -25,77 +25,6 @@ msgstr ""
 "X-Text-Markup: html\n"
 "X-Generator: Lokalize 23.08.2\n"
 "X-Qt-Contexts: true\n"
-
-#. news title
-msgctxt "20230329.html"
-msgid "Release GCompris 3.2"
-msgstr "Version 3.2 de GCompris"
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "Today we are releasing GCompris version 3.2."
-msgstr "Nous publions aujourd'hui la version 3.2 de GCompris."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid ""
-"This new version contains some bug fixes on multiple activities such as \\"
-"\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
-"and music activities."
-msgstr ""
-"Cette version contient des corrections dans plusieurs activités dont "
-"« Découvre le code Morse international », « Contrôle l'écoulement d'un "
-"tuyau » et les activités musicales."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid ""
-"It also contains new graphics for all memory activities and for \\\"Baby "
-"puzzle\\\"."
-msgstr ""
-"Elle contient aussi de nouvelles images pour toutes les activités de mémoire "
-"et le « Tangram basique »."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid ""
-"A new command-line argument (--difficulty {value|min-max}) has been added "
-"which allows users to force the difficulty filter at a given value or range."
-msgstr ""
-"Une nouvelle option en ligne de commande (--difficulty {value|min-max}) a "
-"été rajoutée. Elle permet de spécifier à quelle difficulté lancer GCompris."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr "La police « Andika » a été mise à jour à sa dernière version (6.200)."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Cette version est entièrement traduite dans ces langues :"
-
-#. list item
-msgctxt "20230329.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Elle est partiellement traduite dans ces langues :"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230329.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20230606.html"
@@ -177,6 +106,179 @@ msgstr ""
 
 #. paragraph
 msgctxt "20230606.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Release GCompris 3.2"
+msgctxt "20240221.html"
+msgid "Release GCompris 4.0"
+msgstr "Version 3.2 de GCompris"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Today we are releasing GCompris version 3.2."
+msgctxt "20240221.html"
+msgid "Today we are releasing GCompris version 4.0."
+msgstr "Nous publions aujourd'hui la version 3.2 de GCompris."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240221.html"
+msgid ""
+"This version adds translations for 3 more languages: Bulgarian, Galician and "
+"Swahili."
+msgstr "Cette version ajoute deux nouvelles langues : l'arabe et l'espéranto."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "It contains 182 activities, including 8 new ones:"
+msgctxt "20240221.html"
+msgid "It contains 190 activities, including 8 new ones:"
+msgstr "Cette version contient 182 activités, dont 8 nouvelles :"
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Grammar classes\\\" is an activity to learn to identify words "
+"grammatical classes, one class at a time."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+"classes requested for each sentence."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+"with numbers according to specific rules."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
+"number 24!"
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Read a graduated line\\\" is an activity where you need to find a value "
+"represented on a graduated line."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"In \\\"Use a graduated line\\\", place the given value on the graduated line."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+"given sequence."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgctxt "20240221.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Elle contient aussi de nouvelles images pour l'activité « Trouve les "
+"différences »."
+
+#. paragraph
+msgctxt "20240221.html"
+msgid ""
+"One major milestone has been reached with this version: after almost 9 years "
+"of work, the task of reworking all the graphics to fit the guidelins has "
+"been completed!"
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240221.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Cette version est entièrement traduite dans ces langues :"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240221.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240221.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Elle est partiellement traduite dans ces langues :"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240221.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid ""
+#| "As usual you can find packages of this new version for GNU/Linux, "
+#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
+#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
+#| "update will also be available soon in the Android Play store, the F-Droid "
+#| "repository and the Windows store."
+msgctxt "20240221.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Comme d'habitude, vous pouvez trouver les paquets de cette nouvelle version "
+"pour GNU / Linux, Windows, Android, Raspberry Pi et MacOS sur la <a href=\\"
+"\"https://gcompris.net/downloads{{ suffix }}.html\\\">page de "
+"téléchargement</a>. Cette version sera également disponible très bientôt "
+"dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt F-"
+"Droid."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
@@ -1294,6 +1396,39 @@ msgstr "Lecture"
 msgid "Strategy"
 msgstr "Stratégie"
 
+#~ msgctxt "20230329.html"
+#~ msgid ""
+#~ "This new version contains some bug fixes on multiple activities such as \\"
+#~ "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
+#~ "\" and music activities."
+#~ msgstr ""
+#~ "Cette version contient des corrections dans plusieurs activités dont "
+#~ "« Découvre le code Morse international », « Contrôle l'écoulement d'un "
+#~ "tuyau » et les activités musicales."
+
+#~ msgctxt "20230329.html"
+#~ msgid ""
+#~ "It also contains new graphics for all memory activities and for \\\"Baby "
+#~ "puzzle\\\"."
+#~ msgstr ""
+#~ "Elle contient aussi de nouvelles images pour toutes les activités de "
+#~ "mémoire et le « Tangram basique »."
+
+#~ msgctxt "20230329.html"
+#~ msgid ""
+#~ "A new command-line argument (--difficulty {value|min-max}) has been added "
+#~ "which allows users to force the difficulty filter at a given value or "
+#~ "range."
+#~ msgstr ""
+#~ "Une nouvelle option en ligne de commande (--difficulty {value|min-max}) a "
+#~ "été rajoutée. Elle permet de spécifier à quelle difficulté lancer "
+#~ "GCompris."
+
+#~ msgctxt "20230329.html"
+#~ msgid "The Andika font has been updated to its latest version (6.200)."
+#~ msgstr ""
+#~ "La police « Andika » a été mise à jour à sa dernière version (6.200)."
+
 #~ msgctxt "20230121.html"
 #~ msgid ""
 #~ "As we noticed that version 3.0 contained a critical bug in the new \\"
@@ -1314,10 +1449,6 @@ msgstr "Stratégie"
 #~ msgstr ""
 #~ "Nous sommes heureux de vous annoncer la publication de la version 3.0 de "
 #~ "GCompris."
-
-#~ msgctxt "20230118.html"
-#~ msgid "It contains 182 activities, including 8 new ones:"
-#~ msgstr "Cette version contient 182 activités, dont 8 nouvelles :"
 
 #~ msgctxt "20230118.html"
 #~ msgid ""
@@ -1445,21 +1576,6 @@ msgstr "Stratégie"
 #~ msgid "Croatian voices have also been recorded by a contributor."
 #~ msgstr ""
 #~ "Les voix en croate ont été enregistrées et ajoutées par un contributeur."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "As usual you can find packages of this new version for GNU/Linux, "
-#~ "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#~ "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#~ "update will also be available soon in the Android Play store, the F-Droid "
-#~ "repository and the Windows store."
-#~ msgstr ""
-#~ "Comme d'habitude, vous pouvez trouver les paquets de cette nouvelle "
-#~ "version pour GNU / Linux, Windows, Android, Raspberry Pi et MacOS sur la "
-#~ "<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">page de "
-#~ "téléchargement</a>. Cette version sera également disponible très bientôt "
-#~ "dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt F-"
-#~ "Droid."
 
 #~ msgctxt "20230118.html"
 #~ msgid ""

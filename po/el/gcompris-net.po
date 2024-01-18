@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-16 01:39+0000\n"
+"POT-Creation-Date: 2024-01-18 01:38+0000\n"
 "PO-Revision-Date: 2023-07-18 17:28+0300\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -21,81 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 3.3.2\n"
-
-# news title
-#. news title
-msgctxt "20230329.html"
-msgid "Release GCompris 3.2"
-msgstr "Κυκλοφορία της έκδοσης 3.2 του GCompris."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "Today we are releasing GCompris version 3.2."
-msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.2 του GCompris."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid ""
-"This new version contains some bug fixes on multiple activities such as \\"
-"\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\\" "
-"and music activities."
-msgstr ""
-"Αυτή η νέα έκδοση περιέχει ορισμένες διορθώσεις σφαλμάτων σε πολλές "
-"δραστηριότητες όπως \\\"Κώδικας Μορς\\\", \\\"Σβήνω τη φωτιά\\\" και σε "
-"μουσικές δραστηριότητες."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid ""
-"It also contains new graphics for all memory activities and for \\\"Baby "
-"puzzle\\\"."
-msgstr ""
-"Περιέχει επίσης νέα γραφικά για όλες τις δραστηριότητες μνήμης και για το \\"
-"\"Βρεφικό παζλ\\\"."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid ""
-"A new command-line argument (--difficulty {value|min-max}) has been added "
-"which allows users to force the difficulty filter at a given value or range."
-msgstr ""
-"Προστέθηκε ένα νέο όρισμα γραμμής εντολών (--difficulty {value|min-max}) που "
-"επιτρέπει στους χρήστες να επιβάλλουν το φίλτρο δυσκολίας σε μια δεδομένη "
-"τιμή ή εύρος τιμών."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "The Andika font has been updated to its latest version (6.200)."
-msgstr ""
-"Η γραμματοσειρά Andika έχει ενημερωθεί στην τελευταία της έκδοση (6.200)."
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Είναι πλήρως μεταφρασμένο στις ακόλουθες γλώσσες:"
-
-#. list item
-msgctxt "20230329.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230329.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Έχει επίσης μεταφραστεί εν μέρει στις ακόλουθες γλώσσες:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230329.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-# paragraph
-#. paragraph
-msgctxt "20230329.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
 
 # news title
 #. news title
@@ -183,6 +108,182 @@ msgstr ""
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Σας ευχαριστούμε, <br/>Timothée & Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Release GCompris 3.2"
+msgctxt "20240221.html"
+msgid "Release GCompris 4.0"
+msgstr "Κυκλοφορία της έκδοσης 3.2 του GCompris."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Today we are releasing GCompris version 3.2."
+msgctxt "20240221.html"
+msgid "Today we are releasing GCompris version 4.0."
+msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.2 του GCompris."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240221.html"
+msgid ""
+"This version adds translations for 3 more languages: Bulgarian, Galician and "
+"Swahili."
+msgstr ""
+"Σε αυτή την έκδοση έχουν προστεθεί μεταφράσεις δύο ακόμη γλωσσών: Αραβικών "
+"και Εσπεράντο."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid "It contains 182 activities, including 8 new ones:"
+msgctxt "20240221.html"
+msgid "It contains 190 activities, including 8 new ones:"
+msgstr "Περιλαμβάνει 182 δραστηριότητες, μεταξύ αυτών και 8 νέες:"
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Grammar classes\\\" is an activity to learn to identify words "
+"grammatical classes, one class at a time."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+"classes requested for each sentence."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+"with numbers according to specific rules."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
+"number 24!"
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"\\\"Read a graduated line\\\" is an activity where you need to find a value "
+"represented on a graduated line."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"In \\\"Use a graduated line\\\", place the given value on the graduated line."
+msgstr ""
+
+#. list item
+msgctxt "20240221.html"
+msgid ""
+"In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+"given sequence."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgctxt "20240221.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Περιέχει επίσης νέα γραφικά και βελτιώσεις για τη δραστηριότητα \\"
+"\"Ανιχνευτής εικόνων\\\"."
+
+#. paragraph
+msgctxt "20240221.html"
+msgid ""
+"One major milestone has been reached with this version: after almost 9 years "
+"of work, the task of reworking all the graphics to fit the guidelins has "
+"been completed!"
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240221.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Είναι πλήρως μεταφρασμένο στις ακόλουθες γλώσσες:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240221.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240221.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Έχει επίσης μεταφραστεί εν μέρει στις ακόλουθες γλώσσες:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240221.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid ""
+#| "As usual you can find packages of this new version for GNU/Linux, "
+#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
+#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
+#| "update will also be available soon in the Android Play store, the F-Droid "
+#| "repository and the Windows store."
+msgctxt "20240221.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, "
+"Windows, Android, Raspberry Pi και MacOS στη <a href=\\\"https://gcompris."
+"net/downloads{{ suffix }}.html\\\">σελίδα λήξεων</a>. Αυτή η ενημέρωση θα "
+"είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid και "
+"στο Windows Store."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240221.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1312,6 +1413,39 @@ msgstr "Ανάγνωση"
 msgid "Strategy"
 msgstr "Στατηγική"
 
+#~ msgctxt "20230329.html"
+#~ msgid ""
+#~ "This new version contains some bug fixes on multiple activities such as \\"
+#~ "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
+#~ "\" and music activities."
+#~ msgstr ""
+#~ "Αυτή η νέα έκδοση περιέχει ορισμένες διορθώσεις σφαλμάτων σε πολλές "
+#~ "δραστηριότητες όπως \\\"Κώδικας Μορς\\\", \\\"Σβήνω τη φωτιά\\\" και σε "
+#~ "μουσικές δραστηριότητες."
+
+#~ msgctxt "20230329.html"
+#~ msgid ""
+#~ "It also contains new graphics for all memory activities and for \\\"Baby "
+#~ "puzzle\\\"."
+#~ msgstr ""
+#~ "Περιέχει επίσης νέα γραφικά για όλες τις δραστηριότητες μνήμης και για το "
+#~ "\\\"Βρεφικό παζλ\\\"."
+
+#~ msgctxt "20230329.html"
+#~ msgid ""
+#~ "A new command-line argument (--difficulty {value|min-max}) has been added "
+#~ "which allows users to force the difficulty filter at a given value or "
+#~ "range."
+#~ msgstr ""
+#~ "Προστέθηκε ένα νέο όρισμα γραμμής εντολών (--difficulty {value|min-max}) "
+#~ "που επιτρέπει στους χρήστες να επιβάλλουν το φίλτρο δυσκολίας σε μια "
+#~ "δεδομένη τιμή ή εύρος τιμών."
+
+#~ msgctxt "20230329.html"
+#~ msgid "The Andika font has been updated to its latest version (6.200)."
+#~ msgstr ""
+#~ "Η γραμματοσειρά Andika έχει ενημερωθεί στην τελευταία της έκδοση (6.200)."
+
 #~ msgctxt "20230121.html"
 #~ msgid ""
 #~ "As we noticed that version 3.0 contained a critical bug in the new \\"
@@ -1330,10 +1464,6 @@ msgstr "Στατηγική"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."
 #~ msgstr ""
 #~ "Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την έκδοση 3.0 του GCompris."
-
-#~ msgctxt "20230118.html"
-#~ msgid "It contains 182 activities, including 8 new ones:"
-#~ msgstr "Περιλαμβάνει 182 δραστηριότητες, μεταξύ αυτών και 8 νέες:"
 
 #~ msgctxt "20230118.html"
 #~ msgid ""
@@ -1459,20 +1589,6 @@ msgstr "Στατηγική"
 #~ msgid "Croatian voices have also been recorded by a contributor."
 #~ msgstr ""
 #~ "Ήχοι της κροατικής γλώσσας έχουν επίσης ηχογραφηθεί από έναν συνεργάτη."
-
-#~ msgctxt "20230118.html"
-#~ msgid ""
-#~ "As usual you can find packages of this new version for GNU/Linux, "
-#~ "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#~ "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#~ "update will also be available soon in the Android Play store, the F-Droid "
-#~ "repository and the Windows store."
-#~ msgstr ""
-#~ "Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, "
-#~ "Windows, Android, Raspberry Pi και MacOS στη <a href=\\\"https://gcompris."
-#~ "net/downloads{{ suffix }}.html\\\">σελίδα λήξεων</a>. Αυτή η ενημέρωση θα "
-#~ "είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid "
-#~ "και στο Windows Store."
 
 #~ msgctxt "20230118.html"
 #~ msgid ""
