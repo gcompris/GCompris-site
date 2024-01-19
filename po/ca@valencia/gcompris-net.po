@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-18 01:38+0000\n"
-"PO-Revision-Date: 2024-01-16 17:37+0100\n"
+"POT-Creation-Date: 2024-01-19 01:42+0000\n"
+"PO-Revision-Date: 2024-01-18 15:16+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -103,37 +103,28 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "Llançament de GCompris 3.2"
+msgstr "Llançament de GCompris 4.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Hui fem el llançament de GCompris versió 3.2."
+msgstr "Hui fem el llançament de GCompris versió 4.0."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Esta versió afig les traduccions de dos idiomes més: l'àrab i l'esperanto."
+"Esta versió afig les traduccions de tres idiomes més: búlgar, gallec i "
+"suahili."
 
 #. paragraph
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr ""
+msgstr "Conté 190 activitats, incloent-hi 8 de noves:"
 
 #. list item
 msgctxt "20240221.html"
@@ -141,6 +132,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"«Classes gramaticals» és una activitat per a aprendre a identificar les "
+"classes gramaticals de paraules, una classe a la vegada."
 
 #. list item
 msgctxt "20240221.html"
@@ -148,6 +141,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"«Anàlisi gramatical» és similar a l'anterior, però amb diverses classes "
+"demanades per a cada frase."
 
 #. list item
 msgctxt "20240221.html"
@@ -155,6 +150,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"«Calcudoku» és un joc d'aritmètica on l'objectiu és emplenar una quadrícula "
+"amb números segons regles específiques."
 
 #. list item
 msgctxt "20240221.html"
@@ -162,11 +159,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Amb «Endevina 24», utilitzant els 4 números donats i els operadors, trobeu "
+"el número 24!"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "En «Fris», reproduïu i completeu els diferents frisos."
 
 #. list item
 msgctxt "20240221.html"
@@ -174,12 +173,15 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"«Llig una línia graduada» és una activitat on cal trobar un valor "
+"representat en una línia graduada."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"En «Usa una línia graduada», situeu el valor indicat en una línia graduada."
 
 #. list item
 msgctxt "20240221.html"
@@ -187,44 +189,43 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
 "given sequence."
 msgstr ""
+"En «Nombres adjacents», apreneu quins nombres venen abans o després de la "
+"seqüència indicada."
+
+#. paragraph
+msgctxt "20240221.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Conté correccions d'errors i millores gràfiques en múltiples activitats."
 
 #. paragraph
 #, fuzzy
-#| msgctxt "20230606.html"
+#| msgctxt "20240221.html"
 #| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "També conté gràfics nous i millores a «Caçador de fotografies»."
-
-#. paragraph
+#| "One major milestone has been reached with this version: after almost 9 "
+#| "years of work, the task of reworking all the graphics to fit the "
+#| "guidelins has been completed!"
 msgctxt "20240221.html"
 msgid ""
 "One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelins has "
+"of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Amb esta versió s'ha aconseguit una fita important: després de quasi 9 anys "
+"de treball, s'ha completat la tasca de reelaborar tots els gràfics per a "
+"ajustar-los a les directrius!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Està traduït completament als idiomes següents:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "També està traduït parcialment als idiomes següents:"
@@ -232,22 +233,11 @@ msgstr "També està traduït parcialment als idiomes següents:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -256,16 +246,14 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Trobareu els paquets d'esta nova versió per a GNU/Linux, Windows, Raspberry "
-"Pi i macOS a la <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">pàgina de baixades</a>. Esta actualització estarà disponible prompte en "
-"la botiga Android Play, el repositori de F-Droid i en la botiga de Windows."
+"Trobareu els paquets d'esta nova versió per a GNU/Linux, Windows, Android, "
+"Raspberry Pi i macOS a la <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">pàgina de baixades</a>. Esta actualització "
+"també estarà disponible prompte en la botiga Android Play, el repositori de "
+"F-Droid i en la botiga de Windows."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"
@@ -1371,36 +1359,3 @@ msgstr "Lectura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estratègia"
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "This new version contains some bug fixes on multiple activities such as \\"
-#~ "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#~ "\" and music activities."
-#~ msgstr ""
-#~ "Esta versió nova conté algunes correccions d'errors en algunes activitats "
-#~ "com ara «Descobrix el codi Morse internacional», «Controla la mànega» i "
-#~ "activitats musicals."
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "It also contains new graphics for all memory activities and for \\\"Baby "
-#~ "puzzle\\\"."
-#~ msgstr ""
-#~ "També conté gràfics nous per a totes les activitats de memòria i per a "
-#~ "«Trencaclosques de nadó»."
-
-# skip-rule: t-pu_sp
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "A new command-line argument (--difficulty {value|min-max}) has been added "
-#~ "which allows users to force the difficulty filter at a given value or "
-#~ "range."
-#~ msgstr ""
-#~ "S'ha afegit un argument nou de la línia d'ordres (--difficulty {valor|"
-#~ "mín.-màx.}) que permet als usuaris forçar el filtre de dificultat amb un "
-#~ "valor indicat o un interval."
-
-#~ msgctxt "20230329.html"
-#~ msgid "The Andika font has been updated to its latest version (6.200)."
-#~ msgstr "La lletra Andika s'ha actualitzat a la seua última versió (6.200)."
