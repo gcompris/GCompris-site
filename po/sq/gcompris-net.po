@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-19 01:42+0000\n"
-"PO-Revision-Date: 2023-12-11 17:08+0200\n"
+"POT-Creation-Date: 2024-01-21 01:38+0000\n"
+"PO-Revision-Date: 2024-01-20 13:02+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
 "Language: sq\n"
@@ -102,40 +102,28 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "Hedhje në qarkullim e GCompris 3.2"
+msgstr "Hedhje në qarkullim 4.0 e GCompris-së"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Sot hedhim në qarkullim GCompris version 3.2."
+msgstr "Sot hedhim në qarkullim GCompris version 4.0."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Ky version shton përkthime për 2 gjuhë më tepër: arabisht dhe esperanto."
+"Ky version shton përkthime për 3 gjuhë më tepër: bullgarisht, galicisht dhe "
+"suahili."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "It contains 182 activities, including 8 new ones:"
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Përmban 182 veprimtari, përfshi 8 të reja:"
+msgstr "Përmban 190 veprimtari, përfshi 8 të reja:"
 
 #. list item
 msgctxt "20240221.html"
@@ -143,6 +131,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"“Klasa gramatikore” është një veprimtari për të mësuar si të identifikohem "
+"klasa gramatikore fjalësh, një klasë në herë."
 
 #. list item
 msgctxt "20240221.html"
@@ -150,6 +140,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"“Analizë gramatikore” është e ngjashme me të mëparshmen, por me disa klasa "
+"gramatikore për çdo togfjalësh."
 
 #. list item
 msgctxt "20240221.html"
@@ -157,6 +149,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"“Calcudoku” është lojë aritmetikore ku qëllimi është të plotësohet një "
+"rrjetë me numra, sipas rregullash të caktuara."
 
 #. list item
 msgctxt "20240221.html"
@@ -164,11 +158,12 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Me “Guess 24”, duke përdorur 4 numrat e dhënë dhe veprimet, gjeni numrin !"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "Në “Bordurë riprodhoni dhe plotësoni bordura të ndryshme."
 
 #. list item
 msgctxt "20240221.html"
@@ -176,30 +171,36 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"“Lexoni një shkallë” është një veprimtari në të cilën gjeni një vlerë të "
+"dhënë një një vijë të shkallëzuar."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"Te “Përdorni një vijë të shkallëzuar”, vendosni te vija e shkallëzuar një "
+"vlerë të dhënë."
 
 #. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+#| "given sequence."
 msgctxt "20240221.html"
 msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"Në “Numra ngjitur”, mësoni cilët numra vijnë para ose pas një vargu të dhënë."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Përmban gjithashtu elementë të rinj grafikë dhe përmirësime te “Gjuetar "
-"fotosh”."
+"Përmban gjithashtu ndreqje të metash dhe përmirësime elementësh grafikë në "
+"shumë veprimtari."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -208,27 +209,21 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Me këtë version është arritur një piketë e rëndësishme: pas 9 vjetësh punë, "
+"hapi i ripunimit të krejt elementëve grafikë, për t’i përputhur me "
+"udhëzimet, është plotësuar!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Është i përkthyer plotësisht në gjuhët vijuese:"
+msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
@@ -236,22 +231,11 @@ msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -260,16 +244,13 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Si zakonisht, te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
-"\\\">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për "
-"GNU/Linux, Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të "
-"jetë së shpejti i passhëm edhe te shitorja Android Play, depoja F-Droid dhe "
-"shitorja Windows."
+"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
+"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
+"shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
+"Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
@@ -500,9 +481,12 @@ msgid "Swedish"
 msgstr "Suedisht"
 
 #: gcompris.py:128
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Kiswahili"
 msgctxt "language name, item list"
-msgid "Kiswahili"
-msgstr ""
+msgid "Swahili"
+msgstr "Kisuahili"
 
 #: gcompris.py:129
 msgctxt "language name, item list"

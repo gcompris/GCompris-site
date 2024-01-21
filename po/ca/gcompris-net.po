@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-19 01:42+0000\n"
+"POT-Creation-Date: 2024-01-21 01:38+0000\n"
 "PO-Revision-Date: 2024-01-19 12:16+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -186,9 +186,14 @@ msgstr ""
 "A «Usa una línia graduada», situeu el valor indicat en una línia graduada."
 
 #. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+#| "given sequence."
 msgctxt "20240221.html"
 msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
 "A «Nombres adjacents», apreneu quins nombres venen abans o després de la "
@@ -480,8 +485,11 @@ msgid "Swedish"
 msgstr "Suec"
 
 #: gcompris.py:128
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Kiswahili"
 msgctxt "language name, item list"
-msgid "Kiswahili"
+msgid "Swahili"
 msgstr "Kiswahili"
 
 #: gcompris.py:129

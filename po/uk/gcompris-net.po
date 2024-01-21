@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-19 01:42+0000\n"
+"POT-Creation-Date: 2024-01-21 01:38+0000\n"
 "PO-Revision-Date: 2024-01-19 08:36+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -190,9 +190,14 @@ msgstr ""
 "на каліброваній лінії."
 
 #. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+#| "given sequence."
 msgctxt "20240221.html"
 msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
 "У вправі «Сусідні числа» ви вивчите числа, які йдуть до або після вказаної "
@@ -491,8 +496,11 @@ msgid "Swedish"
 msgstr "Шведська"
 
 #: gcompris.py:128
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Kiswahili"
 msgctxt "language name, item list"
-msgid "Kiswahili"
+msgid "Swahili"
 msgstr "Кісуахілі"
 
 #: gcompris.py:129

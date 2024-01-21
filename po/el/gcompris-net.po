@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-19 01:42+0000\n"
-"PO-Revision-Date: 2023-07-18 17:28+0300\n"
+"POT-Creation-Date: 2024-01-21 01:38+0000\n"
+"PO-Revision-Date: 2024-01-20 19:27+0200\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
 "Language: el\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 # news title
 #. news title
@@ -111,41 +111,28 @@ msgstr "Σας ευχαριστούμε, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "Κυκλοφορία της έκδοσης 3.2 του GCompris."
+msgstr "Κυκλοφορία της έκδοσης 4.0 του GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Σήμερα κυκλοφορούμε την έκδοση 3.2 του GCompris."
+msgstr "Σήμερα κυκλοφορούμε την έκδοση 4.0 του GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Σε αυτή την έκδοση έχουν προστεθεί μεταφράσεις δύο ακόμη γλωσσών: Αραβικών "
-"και Εσπεράντο."
+"Σε αυτή την έκδοση έχουν προστεθεί μεταφράσεις τριών ακόμη γλωσσών: "
+"Βουλγαρικά, Γαλικιανά και Σουαχίλι."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "It contains 182 activities, including 8 new ones:"
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Περιλαμβάνει 182 δραστηριότητες, μεταξύ αυτών και 8 νέες:"
+msgstr "Περιλαμβάνει 190 δραστηριότητες, μεταξύ αυτών και 8 νέες:"
 
 #. list item
 msgctxt "20240221.html"
@@ -153,6 +140,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"Στη δραστηριότητα \\\"Τα μέρη του λόγου 1\\\" σε κάθε πρόταση που "
+"εμφανίζεται θα μάθεις να αναγνωρίζεις ένα μέρος του λόγου."
 
 #. list item
 msgctxt "20240221.html"
@@ -160,6 +149,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"Η δραστηριότητα \\\"Μέρη του λόγου 2\\\" είναι παρόμοια με την προηγούμενη, "
+"αλλά για κάθε πρόταση ζητούνται περισσότερα μέρη του λόγου."
 
 #. list item
 msgctxt "20240221.html"
@@ -167,6 +158,9 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"Η δραστηριότητα \\\"Calcudoku\\\" είναι ένα αριθμητικό παιχνίδι στο οποίο θα "
+"πρέπει να συμπληρώσεις με αριθμούς ένα πλέγμα, σύμφωνα με συγκεκριμένους "
+"κανόνες."
 
 #. list item
 msgctxt "20240221.html"
@@ -174,11 +168,15 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Στη δραστηριότητα \\\"Μάντεψε 24\\\", χρησιμοποιείς τέσσερις αριθμούς και "
+"πράξεις για να βρεις τον αριθμό 24."
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
 msgstr ""
+"Στη δραστηριότητα \\\"Διακοσμητική ταινία\\\", αναπαράγεις και συμπληρώνεις "
+"διαφορετικές διακοσμητικές ταινίες."
 
 #. list item
 msgctxt "20240221.html"
@@ -186,30 +184,37 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"Η \\\"Ανάγνωση αριθμογραμμής\\\" είναι μια δραστηριότητα στην οποία θα "
+"πρέπει να βρίσκεις κάθε φορά έναν αριθμό πάνω σε μια αριθμογραμμή."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"Στη δραστηριότητα \\\"Χρήση αριθμογραμμής\\\", τοποθετείς μια δεδομένη τιμή "
+"στην αριθμογραμμή."
 
 #. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+#| "given sequence."
 msgctxt "20240221.html"
 msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before of after the "
+"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"Στη δραστηριότητα \\\"Γειτονικοί αριθμοί\\\", θα μάθεις ποιοι αριθμοί "
+"βρίσκονται πριν και μετά σε μια δεδομένα ακολουθία αριθμών."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Περιέχει επίσης νέα γραφικά και βελτιώσεις για τη δραστηριότητα \\"
-"\"Ανιχνευτής εικόνων\\\"."
+"Περιέχει επίσης διορθώσεις σφαλμάτων και βελτιώσεις στα γραφικά πολλών "
+"δραστηριοτήτων."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -218,27 +223,21 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Ένας σημαντικός στόχος επιτεύχθηκε με αυτήν την έκδοση: μετά από σχεδόν 9 "
+"χρόνια δουλειάς, ολοκληρώθηκε η επανεπεξεργασία όλων των γραφικών ώστε να "
+"ταιριάζουν με τις οδηγίες!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Είναι πλήρως μεταφρασμένο στις ακόλουθες γλώσσες:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Έχει επίσης μεταφραστεί εν μέρει στις ακόλουθες γλώσσες:"
@@ -246,22 +245,11 @@ msgstr "Έχει επίσης μεταφραστεί εν μέρει στις α
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -272,18 +260,15 @@ msgid ""
 msgstr ""
 "Όπως συνήθως, θα βρείτε τα πακέτα αυτής της νέας έκδοσης για GNU/Linux, "
 "Windows, Android, Raspberry Pi και MacOS στη <a href=\\\"https://gcompris."
-"net/downloads{{ suffix }}.html\\\">σελίδα λήξεων</a>. Αυτή η ενημέρωση θα "
+"net/downloads{{ suffix }}.html\\\">σελίδα λήψεων</a>. Αυτή η ενημέρωση θα "
 "είναι σύντομα διαθέσιμη στο Android Play store, στο αποθετήριο F-Droid και "
 "στο Windows Store."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Σας ευχαριστούμε όλους, <br/>Timothée & Johnny"
+msgstr "Σας ευχαριστούμε, <br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -517,9 +502,12 @@ msgid "Swedish"
 msgstr "Σουηδικά"
 
 #: gcompris.py:128
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Kiswahili"
 msgctxt "language name, item list"
-msgid "Kiswahili"
-msgstr ""
+msgid "Swahili"
+msgstr "Κισουαχίλι"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -1303,15 +1291,6 @@ msgstr ""
 "Δεδομένων."
 
 #: template/schools.html:26
-#, fuzzy
-#| msgid ""
-#| "GCompris 1.0 lets educators select the level of activities according to "
-#| "the skill of each child. For example, in an activity that lets children "
-#| "practice numbers, you can select what numbers they can work with, leaving "
-#| "higher and more difficult numbers for a later stage. Or in an activity in "
-#| "which the child has to order pictures chronologically, you can grade the "
-#| "activity for children who can only read numbers or make it harder for "
-#| "children who can read both numbers and words."
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1321,7 +1300,7 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
-"Το GCompris 1.0 επιτρέπει στους εκπαιδευτικούς να επιλέξουν επίπεδο "
+"Το GCompris 4.0 επιτρέπει στους εκπαιδευτικούς να επιλέξουν επίπεδο "
 "δραστηριοτήτων σύμφωνα με τις ικανότητες και τις γνώσεις του κάθε παιδιού. "
 "Για παράδειγμα, σε μια δραστηριότητα εξάσκησης στους αριθμούς, υπάρχει "
 "δυνατότητα επιλογής των αριθμών με τους οποίους θα δουλέψει το παιδί, "
