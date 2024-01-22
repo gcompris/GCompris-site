@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2023-07-18 13:06+0200\n"
+"PO-Revision-Date: 2024-01-21 13:55+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -101,40 +101,28 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "GCompris 3.2-es verzió"
+msgstr "GCompris 4.0-s verzió"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Bemutatjuk a GCompris 3.2-es verzióját."
+msgstr "Bemutatjuk a GCompris 4.0-ás verzióját."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Az aktuális verzióban két újabb nyelv került bevezetésre: arab és eszperantó."
+"Az aktuális verzióban három újabb nyelv került bevezetésre: bolgár, galíciai "
+"és szuahéli."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "It contains 182 activities, including 8 new ones:"
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "182 tevékenység, köztük 8 új:"
+msgstr "190 tevékenységet tartalmaz, köztük 8 újat:"
 
 #. list item
 msgctxt "20240221.html"
@@ -142,6 +130,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"\\\"A szófajok\\\" egy olyan tevékenység, amellyel megtanulhatjuk "
+"azonosítani a mondat részeit, szófajonként."
 
 #. list item
 msgctxt "20240221.html"
@@ -149,6 +139,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"\\\"Nyelvtani elemzés\\\" hasonló az előzőhöz, de itt tobb szófajt kell "
+"meghatározni."
 
 #. list item
 msgctxt "20240221.html"
@@ -156,6 +148,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"A \\\"Calcudoku\\\" egy olyan számtani játék, amelyben a cél az, hogy egy "
+"rácsot számokkal töltsünk ki meghatározott szabályok szerint."
 
 #. list item
 msgctxt "20240221.html"
@@ -163,11 +157,15 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"A \\\"Legyen 24\\\" segítségével, a 4 megadott szám és az műveletek "
+"segítségével kell megtalálni a 24-es számot!"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
 msgstr ""
+"A \\\"Sorminták\\\" feladatban külömféle mintákat kell folytatnunk a "
+"megadott szempontok szerint."
 
 #. list item
 msgctxt "20240221.html"
@@ -175,12 +173,16 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"\\\"Olvass le egy számot\\\" egy olyan feladat, amelyben meg kell találnod "
+"egy számegyenesen ábrázolt értéket."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"A \\\"Szakasz használata\\\" feladatban el kell helyezni egy megadott "
+"értéket egy a számegyenesen."
 
 #. list item
 msgctxt "20240221.html"
@@ -188,15 +190,15 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"A \\\"Számszomszédok\\\" során megtudhatja, hogy mely számok következnek az "
+"adott sorozat előtt vagy után."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Új grafikát is kapott a hibajavítások mellett a  \\\"Fotóvadász\\\"."
+msgstr ""
+"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
+"vonatkozóan."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -205,27 +207,20 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Ezzel a verzióval egy fontos mérföldkőhöz érkeztünk: közel 9 évnyi munka "
+"után befejeződött az összes grafika átdolgozása az irányelveknek megfelelően!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
 msgstr "A program teljesen lokalizált az alábbi nyelveken:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Részben pedig az alábbi nyelveken használhható:"
@@ -233,22 +228,11 @@ msgstr "Részben pedig az alábbi nyelveken használhható:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -264,9 +248,6 @@ msgstr ""
 "illetve a Windows store-ba is."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
@@ -499,7 +480,7 @@ msgstr "svéd"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Szuahéli"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -1255,15 +1236,6 @@ msgstr ""
 "felhasználóktól, és megfelel az EU adatvédelmi irányelveinek."
 
 #: template/schools.html:26
-#, fuzzy
-#| msgid ""
-#| "GCompris 1.0 lets educators select the level of activities according to "
-#| "the skill of each child. For example, in an activity that lets children "
-#| "practice numbers, you can select what numbers they can work with, leaving "
-#| "higher and more difficult numbers for a later stage. Or in an activity in "
-#| "which the child has to order pictures chronologically, you can grade the "
-#| "activity for children who can only read numbers or make it harder for "
-#| "children who can read both numbers and words."
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1273,13 +1245,15 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
-"A GComprisban az oktatók kiválaszthatják a feladatok nehézségi szintejit, a "
-"gyemekekhez igazítva. Például: a számfelismerési feladatok egyikében, "
-"kiválasztahtó melyik számokkal szeretnék gyakorolni, ezáltal a nehezebb "
-"feladatok későbbre halaszthatóak. Egy másik feladatban ahol kronológiai "
-"sorrendbe kell a képeket rendezni, a feladat differnciálható külön azoknak "
-"akik csak a számképeket ismerik illetve azok közt akik már a számokon kívül "
-"a betűket is ismerik."
+"Az 1.0-s verzió óta a GCompris lehetővé teszi a pedagógusok számára, hogy az "
+"egyes gyermekek képességeinek megfelelően válasszák ki a tevékenységek "
+"szintjét. Például egy olyan tevékenységnél, amellyel a gyerekek a számokat "
+"gyakorolhatják, kiválaszthatja, hogy milyen számokkal dolgozhatnak, a "
+"magasabb és nehezebb számokat egy későbbi szakaszra hagyva. Vagy egy olyan "
+"tevékenységben, amelyben a gyermeknek időrendbe kell rendeznie a képeket, a "
+"tevékenységet osztályozhatja olyan gyermekek számára, akik csak számokat "
+"tudnak olvasni, vagy nehezebbé teheti olyan gyermekek számára, akik számokat "
+"és szavakat is tudnak olvasni."
 
 #: template/schools.html:29
 msgid ""
