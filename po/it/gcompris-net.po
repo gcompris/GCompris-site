@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Paolo Gibellini <p.gibellini@gmail.com>, 2014.
 # Valter Mura <valtermura@gmail.com>, 2017, 2019.
-# Vincenzo Reale <smart2128vr@gmail.com>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Vincenzo Reale <smart2128vr@gmail.com>
 # Timothée Giet <animtim@gmail.com>, 2022.
 #
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2023-08-11 14:46+0200\n"
+"PO-Revision-Date: 2024-01-22 09:59+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #. news title
 msgctxt "20230606.html"
@@ -102,40 +102,28 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazie a tutti, <br/>Timothée e Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "Versione GCompris 3.2"
+msgstr "Versione GCompris 4.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Oggi rilasciamo GCompris versione 3.2."
+msgstr "Oggi rilasciamo GCompris versione 4.0."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Questa versione aggiunge traduzioni per altre 2 lingue: arabo ed esperanto."
+"Questa versione aggiunge traduzioni per altre 3 lingue: bulgaro, galiziano e "
+"swahili."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "It contains 182 activities, including 8 new ones:"
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Contiene 182 attività, di cui 8 nuove:"
+msgstr "Contiene 190 attività, di cui 8 nuove:"
 
 #. list item
 msgctxt "20240221.html"
@@ -143,6 +131,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"\\«Classi di grammatica\\» è un'attività per imparare a identificare le "
+"parole in classi grammaticali, una classe alla volta."
 
 #. list item
 msgctxt "20240221.html"
@@ -150,6 +140,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"\\«Analisi grammaticale\\» è simile alla precedente, ma con diverse classi "
+"richieste per ogni frase."
 
 #. list item
 msgctxt "20240221.html"
@@ -157,6 +149,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"\\«Calcudoku\\» è un gioco di aritmetica in cui l'obiettivo è riempire una "
+"griglia di numeri secondo regole specifiche."
 
 #. list item
 msgctxt "20240221.html"
@@ -164,11 +158,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Con \\«Indovina 24\\», utilizzando i 4 numeri indicati e gli operatori, "
+"trova il numero 24!"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "In \\«Fregio\\», riproduci e completa i diversi fregi."
 
 #. list item
 msgctxt "20240221.html"
@@ -176,12 +172,16 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"\\«Leggi una linea graduata\\» è un'attività in cui devi trovare un valore "
+"rappresentato su una linea graduata."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"In \\«Utilizza una linea graduata\\», posiziona il valore indicato sulla "
+"linea graduata."
 
 #. list item
 msgctxt "20240221.html"
@@ -189,15 +189,14 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"In \\«Numeri adiacenti\\», scopri quali numeri vengono prima e dopo la "
+"sequenza data."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Contiene anche nuova grafica e miglioramenti su «Cacciatore di foto»."
+msgstr ""
+"Contiene correzioni di bug e miglioramenti grafici su diverse attività."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -206,27 +205,21 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Con questa versione è stato raggiunto un traguardo importante: dopo quasi 9 "
+"anni di lavoro, il compito di rielaborare tutta la grafica per adattarla "
+"alle linee guida è stato completato!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
 msgstr "È completamente tradotto nelle seguenti lingue:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "È anche parzialmente tradotto nelle seguenti lingue:"
@@ -234,22 +227,11 @@ msgstr "È anche parzialmente tradotto nelle seguenti lingue:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -265,9 +247,6 @@ msgstr ""
 "deposito di F-Droid e nel Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazie a tutti, <br/>Timothée e Johnny"
@@ -500,7 +479,7 @@ msgstr "Svedese"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
