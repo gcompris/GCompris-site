@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2024-01-20 01:55+0100\n"
+"PO-Revision-Date: 2024-01-30 20:44+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -145,6 +145,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"«Análisis gramatical» es similar a la actividad anterior, pero con varias "
+"clases solicitadas para cada frase."
 
 #. list item
 msgctxt "20240221.html"
@@ -152,6 +154,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"«Calcudoku» es un juego de aritmética donde el objetivo es rellenar una "
+"cuadrícula con números siguiendo ciertas reglas."
 
 #. list item
 msgctxt "20240221.html"
@@ -159,11 +163,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"En «Adivina 24», usa los 4 números que se dan y los operadores para "
+"encontrar el número 24."
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "En «Friso», reproduce y completa los diferentes frisos."
 
 #. list item
 msgctxt "20240221.html"
@@ -171,12 +177,16 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"«Lee una línea graduada» es una actividad donde debes encontrar un valor que "
+"se representa en una línea graduada."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"En «Usa una línea graduada», coloca el valor que se indica en la línea "
+"graduada."
 
 #. list item
 msgctxt "20240221.html"
@@ -184,6 +194,8 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"En «Números adyacentes», aprende los números que preceden o siguen a una "
+"secuencia determinada."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -198,6 +210,9 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Se ha alcanzado un objetivo importante con esta versión: tras casi 9 años de "
+"trabajo, se ha completado la tarea de actualizar todos los gráficos para que "
+"se ajusten a las directrices."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -474,9 +489,6 @@ msgid "Swedish"
 msgstr "sueco"
 
 #: gcompris.py:128
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Kiswahili"
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr "suajili"
