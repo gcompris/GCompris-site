@@ -5,15 +5,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2016.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
-# Frederico Gonçalves Guimarães <frederico@teia.bio.br>, 2019, 2020, 2021, 2022, 2023.
+# Frederico Gonçalves Guimarães <frederico@teia.bio.br>, 2019, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2023-06-07 10:50-0300\n"
-"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"PO-Revision-Date: 2024-01-31 22:01-0300\n"
+"Last-Translator: Frederico Goncalves Guimaraes <frederico@teia.bio.br>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -108,39 +108,28 @@ msgstr "Obrigado a todo mundo, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "Lançamento do GCompris 3.2"
+msgstr "Lançamento do GCompris 4.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Hoje estamos lançando a versão 3.2 do GCompris."
+msgstr "Hoje estamos lançando a versão 4.0 do GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
-msgstr "Esta versão adiciona traduções para mais 2 idiomas: árabe e esperanto."
+msgstr ""
+"Esta versão adiciona traduções para mais 3 idiomas:: búlgaro, galego e "
+"suaíli."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "It contains 182 activities, including 8 new ones:"
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Ela contém 182 atividades, incluindo 8 novas:"
+msgstr "Ela contém 190 atividades, incluindo 8 novas:"
 
 #. list item
 msgctxt "20240221.html"
@@ -148,6 +137,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"\\\"Classes gramaticais\\\" é uma atividade para aprender a identificar "
+"classes gramaticais de palavras, uma classe de cada vez."
 
 #. list item
 msgctxt "20240221.html"
@@ -155,6 +146,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"\\\"Análise gramatical\\\" é similar à anterior, mas com várias classes "
+"solicitadas para cada sentença."
 
 #. list item
 msgctxt "20240221.html"
@@ -162,6 +155,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"\\\"Calcudoku\\\" é um jogo de aritmética, onde o objetivo é preencher uma "
+"grade com números, de acordo com regras específicas."
 
 #. list item
 msgctxt "20240221.html"
@@ -169,11 +164,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Com o \\\"Chegue ao 24\\\", usando quatro números e operadores fornecidos , "
+"você deve chegar ao número 24 como resultado."
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "No \\\"Friso\\\", reproduza e complete diferentes tipos de frisos."
 
 #. list item
 msgctxt "20240221.html"
@@ -181,12 +178,16 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"\\\"Leia a reta numérica\\\" é uma atividade onde você precisa encontrar um "
+"valor representado em uma reta numérica."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"Já em \\\"Use a reta numérica\\\", posicione o valor fornecido em uma reta "
+"numérica."
 
 #. list item
 msgctxt "20240221.html"
@@ -194,16 +195,15 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"Com os \\\"Números adjacentes\\\", aprenda qual número vem antes ou depois "
+"de uma sequência determinada."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Também contém novas imagens e melhorias para \\\"Investigador de fotos\\\"."
+"Ela também contém correções de erros e melhorias gráficas em várias "
+"atividades."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -212,27 +212,21 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Um grande marco foi atingido com esta versão: após quase 9 anos de trabalho, "
+"a tarefa de retrabalhar todas as imagens para atingir as nossas diretrizes "
+"foi completada!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ele foi totalmente traduzido para os seguintes idiomas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
@@ -240,22 +234,11 @@ msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -264,17 +247,13 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Como sempre, você pode encontrar os pacotes desta nova versão para GNU/"
-"Linux, Windows e MacOS na <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">página de downloads</a>. Esta atualização "
-"também estará disponível em breve na Play Store do Android, no repositório F-"
-"Droid e na Windows Store."
+"Você encontra os pacotes desta nova versão para GNU/Linux, Windows e MacOS "
+"na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">página de "
+"downloads</a>. Esta atualização também estará disponível em breve na Play "
+"Store do Android, no repositório F-Droid e na Windows Store."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todo mundo, <br/>Timothée & Johnny"
@@ -513,7 +492,7 @@ msgstr "Sueco"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Suaíli"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -591,7 +570,7 @@ msgstr "Manual"
 
 #: template/base.html:77
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:78
 msgid "Contribute"
@@ -913,15 +892,16 @@ msgstr "arquivos sig:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "FAQ - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Perguntas frequentes"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
 msgstr ""
+"Porque alguns componentes não estão contidos dentro do próprio software?"
 
 #: template/faq.html:14
 msgid ""
@@ -932,6 +912,12 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Incluir as vozes de todos os idiomas tornaria o instalador muito pesado e a "
+"maioria das pessoas está interessada apenas nas vozes de seu idioma. Além "
+"disso, as imagens extras e a música de fundo ocupam um espaço relativamente "
+"grande, embora não sejam necessários para o uso do software. Então, para "
+"reduzir o tamanho do instalador básico, decidimos não incluí-los e permitir "
+"que os usuários os baixem dentro do software, se assim o desejarem."
 
 #: template/faq.html:15
 msgid ""
@@ -939,17 +925,17 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
+"Se não quiser que o software faça download de nada automaticamente, você "
+"pode desativar a opção \"Habilitar downloads/atualizações automáticos de "
+"arquivos de som\" na página de configurações."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Como eu posso baixar e instalar manualmente os recursos extras?"
 
 #: template/faq.html:18
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr ""
-"Também é possível fazer o download do instalador a partir dos links abaixo."
+msgstr "Você pode baixar os recursos extras a partir deste link:"
 
 #: template/faq.html:22
 msgid ""
@@ -958,99 +944,121 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"IMPORTANTE: nas instruções a seguir, substitua \"-codecName\" por \"-mp3\" "
+"para sistemas Windows, ou \"-ogg\" para sistemas Linux ou Android, ou \"-aac"
+"\" para sistemas macOS. Além disso, substitua \"-localeCode\" pelo código de "
+"sua localidade."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Para a música de fundo, entre na pasta chamada \"backgroundMusic\" e baixe "
+"esses dois arquivos:"
 
 #: template/faq.html:28
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Depois, copie esses dois arquivos para uma pasta \"backgroundMusic\", na "
+"pasta de cache do aplicativo."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Para as vozes, entre na pasta chamada \"voices-codecName\"  e baixe esses "
+"dois arquivos:"
 
 #: template/faq.html:34
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Depois, copie esses dois arquivos para uma pasta \"voices-codecName\", na "
+"pasta de cache do aplicativo."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Para as imagens, entre na pasta chamada \"words\"  e baixe esses dois "
+"arquivos:"
 
 #: template/faq.html:40
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Depois, copie esses dois arquivos para uma pasta \"words\", na pasta de "
+"cache do aplicativo."
 
 #: template/faq.html:41
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"O caminho da pasta de cache é diferente, dependendo do sistema operacional."
 
 #: template/faq.html:42
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Caminho no Windows:"
 
 #: template/faq.html:46
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Caminho no GNU/Linux:"
 
 #: template/faq.html:50
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Caminho no Android (você precisa ter acesso de root para editar esta pasta):"
 
 #: template/faq.html:54
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Caminho no macOS:"
 
 #: template/faq.html:59
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "O GCompris é um pacote GNU ou um pacote KDE?"
 
 #: template/faq.html:60
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"É ambos. Desde a sua origem, o GCompris sempre foi, e continua sendo um "
+"pacote GNU. Desde 2014, ele é mantido pela comunidade KDE."
 
 #: template/faq.html:62
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Este software depende de algum pacote ou conteúdo não livre?"
 
 #: template/faq.html:63
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Todo o conteúdo e suas dependências estão sob licenças compatíveis com a "
+"AGPLv3."
 
 #: template/faq.html:65
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Por que ele não está disponível para iOS?"
 
 #: template/faq.html:66
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"As exigências para construir e publicar softwares para o iOS não são "
+"compatíveis com as licenças GPLv3 e AGPLv3, util zadas neste software."
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Por que ele não está disponível na Amazon Store?"
 
 #: template/faq.html:69
 msgid ""
@@ -1059,6 +1067,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Para o Android, nós já publicamos na Play Store e no F-Droid. Publicar em "
+"todas as lojas exigiria muito trabalho. Se você estiver usando um tablet "
+"Fire, poderá instalar diretamente o apk mais recente de nosso site e usar um "
+"lançador de terceiros para para acessar o aplicativo a partir de um perfil "
+"infantil."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1252,15 +1265,6 @@ msgstr ""
 "portanto cumpre estritamente a regulação GDPR da Europa."
 
 #: template/schools.html:26
-#, fuzzy
-#| msgid ""
-#| "GCompris 1.0 lets educators select the level of activities according to "
-#| "the skill of each child. For example, in an activity that lets children "
-#| "practice numbers, you can select what numbers they can work with, leaving "
-#| "higher and more difficult numbers for a later stage. Or in an activity in "
-#| "which the child has to order pictures chronologically, you can grade the "
-#| "activity for children who can only read numbers or make it harder for "
-#| "children who can read both numbers and words."
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1270,14 +1274,14 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
-"O GCompris 1.0 permite que os educadores selecionem o nível de atividades de "
-"acordo com as habilidades de cada criança. Por exemplo, em uma atividade que "
-"trabalhe com números, você pode selecionar quais os números com os quais "
-"eles irão trabalhar, deixando aqueles maiores e mais difíceis para uma etapa "
-"posterior. Ou em uma atividade em que a criança tem que ordenar fotos "
-"cronologicamente, você pode configurar a atividade para crianças que só "
-"conseguem ler números ou dificultá-la, para aquelas crianças que conseguem "
-"ler tanto números quanto palavras."
+"Desde a versão 1.0, o GCompris permite que os educadores selecionem o nível "
+"de atividades de acordo com as habilidades de cada criança. Por exemplo, em "
+"uma atividade que trabalhe com números, você pode selecionar quais os "
+"números com os quais eles irão trabalhar, deixando aqueles maiores e mais "
+"difíceis para uma etapa posterior. Ou em uma atividade em que a criança tem "
+"que ordenar fotos cronologicamente, você pode configurar a atividade para "
+"crianças que só conseguem ler números ou dificultá-la, para aquelas crianças "
+"que conseguem ler tanto números quanto palavras."
 
 #: template/schools.html:29
 msgid ""
