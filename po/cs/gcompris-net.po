@@ -4,14 +4,14 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # Vít Pelčák <vit@pelcak.org>, 2017, 2018, 2019, 2020.
 # Vit Pelcak <vit@pelcak.org>, 2021, 2022, 2023.
-# Jan Papez (honyczek) <honyczek@centrum.cz>, 2023.
+# Jan Papez (honyczek) <honyczek@centrum.cz>, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2023-08-12 10:17+0200\n"
+"PO-Revision-Date: 2024-02-08 21:36+0100\n"
 "Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -103,31 +103,21 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "Vydání GCompris 3.2"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Dnes vydáváme GCompris verze 3.2."
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
-msgstr "Do této verze přibyly další dva jazyky: Arabština a Esperanto."
+msgstr ""
 
 #. paragraph
 msgctxt "20240221.html"
@@ -188,13 +178,9 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Také zahrnuje novou grafiku a vylepšení v \\\"Lovci fotografií\\\"."
+msgstr ""
 
 #. paragraph
 msgctxt "20240221.html"
@@ -205,48 +191,28 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Je plně přeloženo v následujících jazycích:"
+msgstr ""
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Také je částečně přeloženo do následujících jazyků:"
+msgstr ""
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -255,18 +221,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Můžete nalézt balíčky této nové verze pro GNU/Linux, Windows, Raspberry Pi a "
-"macOS na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě "
-"Android Play, repozitáři F-Droidu a v obchodě Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Díky všem, <br/>Timothée & Johnny"
+msgstr ""
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -496,7 +455,7 @@ msgstr "Švédština"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Svahilština"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -1355,35 +1314,3 @@ msgstr "Čtení"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "This new version contains some bug fixes on multiple activities such as \\"
-#~ "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#~ "\" and music activities."
-#~ msgstr ""
-#~ "Tato nová verze obsahuje opravy chyb ve více aktivitách, jako jsou \\"
-#~ "\"Objevuj mezinárodní Morseovu abecedu\\\", \\\"Ovládej hadici\\\" a "
-#~ "hudební aktivity."
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "It also contains new graphics for all memory activities and for \\\"Baby "
-#~ "puzzle\\\"."
-#~ msgstr ""
-#~ "Také obsahuje novou grafiku pro všechna pexesa a pro \\\"Dětské puzzle\\"
-#~ "\"."
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "A new command-line argument (--difficulty {value|min-max}) has been added "
-#~ "which allows users to force the difficulty filter at a given value or "
-#~ "range."
-#~ msgstr ""
-#~ "Byl přidán nový argument příkazové řádky (--difficulty {hodnota|minimum-"
-#~ "maximum}), který uživatelům umožňuje vynutit filtr obtížnosti na danou "
-#~ "hodnotu či rozsah."
-
-#~ msgctxt "20230329.html"
-#~ msgid "The Andika font has been updated to its latest version (6.200)."
-#~ msgstr "Font Andika byl aktualizován na nejnovější verzi (6.200)."
