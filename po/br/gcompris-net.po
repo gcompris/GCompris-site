@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2024-01-01 18:16+0100\n"
+"PO-Revision-Date: 2024-02-10 11:08+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -104,41 +104,28 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Release GCompris 3.2"
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr "GCompris stumm 3.2"
+msgstr "GCompris stumm 4.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Today we are releasing GCompris version 3.2."
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Hiziv e kinnigomp stumm 3.2 GCompris."
+msgstr "Hiziv e kinnigomp stumm 4.0 GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240221.html"
 msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Kinnig a ra ar stumm-mañ troidigezhioù an div yezh-mañ ouzhpenn: Arabeg hag "
-"Esperanto."
+"Kinnig a ra ar stumm-mañ troidigezhioù an teir yezh-mañ ouzhpenn: Bulgareg, "
+"Galizeg ha Swahili."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "It contains 182 activities, including 8 new ones:"
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Bez' ez eus 182 obererezh, en o zouez 8 nevez:"
+msgstr "Bez' ez eus 190 obererezh, en o zouez 8 nevez:"
 
 #. list item
 msgctxt "20240221.html"
@@ -146,6 +133,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"\\\"Rummadoù yezhadurel\\\" zo un obererezh evit deskiñ dielfennañ rummadoù "
+"yezhadurel ar gerioù, a rummad da rummad."
 
 #. list item
 msgctxt "20240221.html"
@@ -153,6 +142,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"\\\"Dielfennañ yezhadurel\\\" zo heñvel ouzh an obererezh kent, met gant "
+"meur a rummad da zielfennañ en ur frazenn."
 
 #. list item
 msgctxt "20240221.html"
@@ -160,6 +151,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"\\\"Calcudoku\\\" zo ur c'hoari niveroniel ma ranker leuniañ ur gael gant "
+"niveroù hervez reolennoù resis."
 
 #. list item
 msgctxt "20240221.html"
@@ -167,11 +160,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Gant \\\"Divin 24\\\", oc'h implijout ar pevar niver roet hag an arouezioù "
+"jediñ, kav an niver 24!"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "En obererezh \\\"Frizenn\\\", adsav ha klok frizennoù a bep seurt."
 
 #. list item
 msgctxt "20240221.html"
@@ -179,12 +174,16 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
+"\\\"Lenn ul linenn dereziet\\\" zo un obererezh ma rankez kavout un talvoud "
+"diskouezet war ul linenn dereziet."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"En obererezh \\\"Implij ul linenn dereziet\\\", plas an talvoud kinniget war "
+"al linenn dereziet."
 
 #. list item
 msgctxt "20240221.html"
@@ -192,17 +191,14 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
+"En obererezh \\\"Niveroù stok\\\", desk peseurt niveroù a zo warlerc'h pe a-"
+"raok an heuliadoù kinniget."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Bez' ez eus ivez skeudennoù ha gwelladennoù en obererezh  \\\"Chaseour foto\\"
-"\"."
+"Bez' ez eus  meur a fazi reizhet ha gwelladennoù grafek e meur a obererezh."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -211,50 +207,33 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
+"Ur sapre hent a zo bet kaset da benn gant ar stumm-mañ: goude 9 bloaz "
+"labour, setu peurechuet adkempenn an holl skeudennaouañ hervez ar sturioù "
+"dibabet."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Troidigezhioù klok evit ar yezhoù-mañ:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Troidigezhioù diglok evit ar yezhoù-se ivez: "
+msgstr "Troidigezhioù diglok evit ar yezhoù-se: "
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }}"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240221.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -270,9 +249,6 @@ msgstr ""
 "hag er Windows store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230329.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
@@ -505,7 +481,7 @@ msgstr "Svedeg"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -1164,7 +1140,7 @@ msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
 msgstr ""
-"jediñ : niveroù, jedadurioù, taolennoù eñvoriñ, an niveriñ, taolennoù daou "
+"jediñ : niveroù, jedadurioù, taolennoù eñvoriñ, niveriñ, taolennoù daou "
 "du ..."
 
 #: template/index.html:160
@@ -1219,7 +1195,7 @@ msgid ""
 msgstr ""
 "Ur benveg kelennadel niverel eo GCompris evit kinnig poelladennoù pleustriñ "
 "e diabarzh ar skol kenkoulz hag en diavaez. Ur meziant digor pourchaset "
-"dindan aotregezh publik hollek GNU an hini eo. Kerzhout a ra gant meur a "
+"dindan aotreegezh publik hollek GNU an hini eo. Kerzhout a ra gant meur a "
 "reizhiad (GNU/Linux, Windows, Android, macOS) ha war urzhiataerioù izel o "
 "nerzh zoken."
 
@@ -1289,7 +1265,7 @@ msgstr ""
 "Abaoe ar stumm 1.0 e ro GCompris an tu d'an desaverien da zibab live an "
 "obererezhioù hervez barregezh pep bugel. Da skouer, evit un obererezh o "
 "lakaat ar vugale da bleustriñ war an niveroù, e c'haller dibab peseurt "
-"niveroù implijapl gante, o lezel niveroù uhel ha diaes da vezañ implijet "
+"niveroù ober gante, o lezel niveroù uhel ha diaes da vezañ implijet "
 "diwezhatoc'h. Pe evit un obererezh lec'h ma rank ur bugel urzhiañ skeudennoù "
 "hervez red an amzer e c'haller dibab al live evit bugale gouest da lenn "
 "niveroù hepken pe diaesaat an traoù evit bugale gouest da lenn niveroù "
