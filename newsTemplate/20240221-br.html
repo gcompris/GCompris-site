@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stumm 4.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Hiziv e kinnigomp stumm 4.0 GCompris.</p>
+<p>Kinnig a ra ar stumm-mañ troidigezhioù an teir yezh-mañ ouzhpenn: Bulgareg, Galizeg ha Swahili.</p>
+<p>Bez' ez eus 190 obererezh, en o zouez 8 nevez:</p>
+<ul>
+<li class="puce">"Rummadoù yezhadurel" zo un obererezh evit deskiñ dielfennañ rummadoù yezhadurel ar gerioù, a rummad da rummad.</li>
+<li class="puce">"Dielfennañ yezhadurel" zo heñvel ouzh an obererezh kent, met gant meur a rummad da zielfennañ en ur frazenn.</li>
+<li class="puce">"Calcudoku" zo ur c'hoari niveroniel ma ranker leuniañ ur gael gant niveroù hervez reolennoù resis.</li>
+<li class="puce">Gant "Divin 24", oc'h implijout ar pevar niver roet hag an arouezioù jediñ, kav an niver 24!</li>
+<li class="puce">En obererezh "Frizenn", adsav ha klok frizennoù a bep seurt.</li>
+<li class="puce">"Lenn ul linenn dereziet" zo un obererezh ma rankez kavout un talvoud diskouezet war ul linenn dereziet.</li>
+<li class="puce">En obererezh "Implij ul linenn dereziet", plas an talvoud kinniget war al linenn dereziet.</li>
+<li class="puce">En obererezh "Niveroù stok", desk peseurt niveroù a zo warlerc'h pe a-raok an heuliadoù kinniget.</li>
+</ul>
+<br/>
+<p>Bez' ez eus  meur a fazi reizhet ha gwelladennoù grafek e meur a obererezh.</p>
+<p>Ur sapre hent a zo bet kaset da benn gant ar stumm-mañ: goude 9 bloaz labour, setu peurechuet adkempenn an holl skeudennaouañ hervez ar sturioù dibabet.</p>
+
+<p>Troidigezhioù klok evit ar yezhoù-mañ:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Troidigezhioù diglok evit ar yezhoù-se: </p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, Android, Raspberry Pi ha MacOS war ar <a href="https://gcompris.net/downloads{{ suffix }}.html">bajenn bellgargañ</a>. An hizivaat a vo deus outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid hag er Windows store.</p>
+
+<p>Trugarez d'an holl, <br/>Timothée & Johnny</p>
+
+{% endblock %}
