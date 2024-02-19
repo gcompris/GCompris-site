@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 4.0 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Nous publions aujourd'hui la version 4.0 de GCompris.</p>
+<p>Cette version ajoute trois nouvelles langues : le bulgare, le galicien et le swahili.</p>
+<p>Cette version contient 190 activités, dont 8 nouvelles :</p>
+<ul>
+<li class="puce">« Classes grammaticales » est une activité pour apprendre à identifier les classes grammaticales des mots, une classe à la fois.</li>
+<li class="puce">« Analyse grammaticale » est similaire à la précédente, mais avec plusieurs classes demandées pour chaque phrase.</li>
+<li class="puce">« Calcudoku » est un jeu d'arithmétique où l'objectif est de remplir une grille de nombres à partir de règles spécifiques.</li>
+<li class="puce">Avec « Trouve 24 », en utilisant les 4 nombres fournis et les opérateurs, trouve le nombre 24 !</li>
+<li class="puce">Dans « La frise », reproduis et complète les différentes frises.</li>
+<li class="puce">« Repérage sur ligne graduée » est une activité où tu dois trouver une valeur représentée sur une ligne graduée.</li>
+<li class="puce">Dans « Trouve le nombre sur une ligne graduée », place la valeur donnée sur la ligne graduée.</li>
+<li class="puce">Dans « Trouve les nombres adjacents », trouve quels nombres sont placés avant, au milieu ou après la séquence donnée.</li>
+</ul>
+<br/>
+<p>Elle ajoute des nouvelles images et corrections de bogues dans de nombreuses activités.</p>
+<p>Une importante étape a été atteinte dans cette version : après près de 9 ans de travaux, la tâche d'harmoniser les graphismes de toutes les applications en suivant les règles de GCompris a été finie !</p>
+
+<p>Cette version est entièrement traduite dans ces langues :</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Elle est partiellement traduite dans ces langues :</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, Windows, Android, Raspberry Pi et macOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible très bientôt dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt F-Droid.</p>
+
+<p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+
+{% endblock %}
