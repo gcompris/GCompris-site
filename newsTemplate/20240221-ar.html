@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'الإصدار "فهمت" 4.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>اليوم أطلقنا إصدار "فهمت" 4.0.</p>
+<p>يضيف هذا الإصدار ترجمات لثلاث لغات أخرى: البلغارية والجاليكية والسواحلية.</p>
+<p>تحوي على ١٩٠ نشاطاً منها ٨ أنشطة جديدة:</p>
+<ul>
+<li class="puce">"فئات نحوية" نشاطٌ لتعلّم على أنواع الكلمات نحويا، فئة واحدة في المرة الواحدة.</li>
+<li class="puce">"تحليل نحوي" تشبه السابق، لكن فئات نحوية أكثر متوفرة لكل جملة.</li>
+<li class="puce">"Calcudoku" لعبة حسابية تهدف إلى ملء شبكة بأعداد حسب قواعد معينة.</li>
+<li class="puce">في "خمّن 24"، استعمل 4 أعداد معطاة و عوامل حسابية لإيجاد الناتج 24!</li>
+<li class="puce">في "زخرفة"، تنسخ زخرفات مختلفة أو تكملها.</li>
+<li class="puce">"قراءة المستقيم المُدرّج", نشاطٌ لتعلم قراءة القيم على مستقيم مُدرّج.</li>
+<li class="puce">في "استعمال المستقيم المُدرّج", ضع القيم على مستقيم مُدرّج.</li>
+<li class="puce">في الأعداد المتجاورةفي "الأعداد المتجاورة", تعلم ما الأعداد التي تأتي قبل سلسلة معينة أو بعدها.</li>
+</ul>
+<br/>
+<p>فيه صور جديدة ورسوم  وتحسينات لعدة أنشطة.</p>
+<p>لقد وصلنا إلى إنجاز رئيسي في هذا الإصدار: بعد ما يقرب من 9 سنوات من العمل، أنهينا مهمة إعادة رسم جميع الرسومات لتتناسب مع الإرشادات!</p>
+
+<p>تُرجم بالكامل للغات التالية:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>تُرجم جزئيا باللغات التالية:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}٪)</li>
+  {% endfor %}
+</ul>
+
+<p>يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري اي وماك-أوس وأندرويدعلى <a href="https://gcompris.net/downloads{{ suffix }}.html">صفحة التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-Droid ومتجر وندوز.</p>
+
+<p>شكر جزيل للجميع, <br/>Timothée & Johnny</p>
+
+{% endblock %}
