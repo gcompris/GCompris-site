@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 4.0-s verzió' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Bemutatjuk a GCompris 4.0-ás verzióját.</p>
+<p>Az aktuális verzióban három újabb nyelv került bevezetésre: bolgár, galíciai és szuahéli.</p>
+<p>190 tevékenységet tartalmaz, köztük 8 újat:</p>
+<ul>
+<li class="puce">"A szófajok" egy olyan tevékenység, amellyel megtanulhatjuk azonosítani a mondat részeit, szófajonként.</li>
+<li class="puce">"Nyelvtani elemzés" hasonló az előzőhöz, de itt tobb szófajt kell meghatározni.</li>
+<li class="puce">A "Calcudoku" egy olyan számtani játék, amelyben a cél az, hogy egy rácsot számokkal töltsünk ki meghatározott szabályok szerint.</li>
+<li class="puce">A "Legyen 24" segítségével, a 4 megadott szám és az műveletek segítségével kell megtalálni a 24-es számot!</li>
+<li class="puce">A "Sorminták" feladatban külömféle mintákat kell folytatnunk a megadott szempontok szerint.</li>
+<li class="puce">"Olvass le egy számot" egy olyan feladat, amelyben meg kell találnod egy számegyenesen ábrázolt értéket.</li>
+<li class="puce">A "Szakasz használata" feladatban el kell helyezni egy megadott értéket egy a számegyenesen.</li>
+<li class="puce">A "Számszomszédok" során megtudhatja, hogy mely számok következnek az adott sorozat előtt vagy után.</li>
+</ul>
+<br/>
+<p>Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre vonatkozóan.</p>
+<p>Ezzel a verzióval egy fontos mérföldkőhöz érkeztünk: közel 9 évnyi munka után befejeződött az összes grafika átdolgozása az irányelveknek megfelelően!</p>
+
+<p>A program teljesen lokalizált az alábbi nyelveken:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Részben pedig az alábbi nyelveken használhható:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és MacOS csomagjai a, <a href="https://gcompris.net/downloads{{ suffix }}.html">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows store-ba is.</p>
+
+<p>Mindenkinek köszönjük, <br/>Timothée és Johnny</p>
+
+{% endblock %}
