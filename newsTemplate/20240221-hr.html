@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 4.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Danas smo objavili GCompris verziju 4.0.</p>
+<p>Ova verzija dodaje prijevode za još tri jezika: bugarski, galicijski i svahili.</p>
+<p>Sadrži 190 aktivnosti, uključujući 8 novih:</p>
+<ul>
+<li class="puce">"Nastava gramatike" je aktivnost uči prepoznati svaku pojedinačnu vrstu riječi.</li>
+<li class="puce">"Gramatička analiza" slična je prethodnoj aktivnosti, ali svaki zadatak sadrži više vrsta riječi.</li>
+<li class="puce">"Kalkudoku" je aritmetička igra u kojoj je cilj ispuniti rešetku brojevima prema određenim pravilima.</li>
+<li class="puce">Uz "Pogodi 24", koristeći 4 zadana broja i operatore dođite do broja 24!</li>
+<li class="puce">U aktivnosti "Niz" reproduciraj i dovrši različite nizove.</li>
+<li class="puce">"Očitaj brojevnu crtu" aktivnost je u kojoj trebaš pronaći vrijednost prikazanu na brojevnoj crti.</li>
+<li class="puce">U aktivnosti "Koristi brojevnu crtu" postavi zadanu vrijednost na brojevnu crtu.</li>
+<li class="puce">Kroz aktivnost "Susjedni brojevi" nauči koji brojevi dolaze prije ili nakon zadanog slijeda.</li>
+</ul>
+<br/>
+<p>Sadrži ispravke pogrešaka i grafička poboljšanja na više aktivnosti.</p>
+<p>S ovom verzijom dostignut je značajan cilj: nakon gotovo 9 godina rada prerađene su sve sličice prema zadanim smjernicama!</p>
+
+<p>U potpunosti je preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Također je djelomično preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, Android, Raspberry Pi i macOS na <a href="https://gcompris.net/downloads{{ suffix }}.html"> stranici za preuzimanje</a>. Ovo ažuriranje će također uskoro biti dostupno u Android Play trgovini, F-Droid repozitoriju i Windows trgovini.</p>
+
+<p>Hvala svima, <br/>Timothée & Johnny</p>
+
+{% endblock %}
