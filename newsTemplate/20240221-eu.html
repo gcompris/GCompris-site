@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 4.0 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Gaurkoan GCompris 4.0 bertsioa argitaratzen dugu.</p>
+<p>Bertsio honek hiru hizkuntza gehiagorako itzulpenak gehitzen ditu: bulgariera, galiziera eta swahilia.</p>
+<p>190 jarduera ditu, haien artean 8 berri:</p>
+<ul>
+<li class="puce">"Gramatika klaseak" hitzak gramatika klaseak identifikatzen ikasteko jarduera bat da, aldiko klase bat.</li>
+<li class="puce">"Gramatika azterketa" aurrekoaren antzekoa da, baina perpaus bakoitzerako hainbat klase eskatuko dira.</li>
+<li class="puce">"Kalkudoku" joko aritmetiko bat da, arau jakin batzuk jarraituz sareta bat zenbakiz betetzea helburu duena.</li>
+<li class="puce">"Igarri 24"rekin, emandako 4 zenbakiak eta eragileak erabiliz, 24 zenbakia aurkitu behar duzu!</li>
+<li class="puce">"Friso"an, friso ezberdinen kopia egin eta osatu.</li>
+<li class="puce">"Irakurri graduatutako lerro bat" graduatutako lerro batean ordezkatutako balio bat aurkitu behar den jarduera bat da.</li>
+<li class="puce">"Erabili graduatutako lerro bat\ jardueran", ipini emandako balioa graduatutako lerroan.</li>
+<li class="puce">"Aldameneko zenbakiak" jardueran, ikasi emandako sekuentziaren aurretik edo ondoren doazen zenbakiak.</li>
+</ul>
+<br/>
+<p>Akats konponketak eta grafikoen hobekuntzak ditu jarduera askotan.</p>
+<p>Bertsio honekin mugarri garrantzitsu bat lortu da: ia 9 urteko lanaren ondoren, osatu da grafiko guztiak gidalerroekin bat etortzeko haiek birlantzeko ataza!</p>
+
+<p>Ondoko hizkuntzetan osorik itzulita dago:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Hein batean, ondoko hizkuntza hauetan ere itzulita dago:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p><a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a> bertsio berri honetako GNU/Linux, Windows, Android, Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+
+<p>Eskerrik asko guztioi, <br/>Timothée eta Johnny</p>
+
+{% endblock %}
