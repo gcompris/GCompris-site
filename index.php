@@ -39,6 +39,7 @@ $Destination['sl'] = '-sl';
 $Destination['sq'] = '-sq';
 // $Destination['sr'] = '-sr';
 $Destination['sv'] = '-sv';
+$Destination['sw'] = '-sw';
 // $Destination['ta'] = '-ta';
 $Destination['tr'] = '-tr';
 // $Destination['th'] = '-th';
