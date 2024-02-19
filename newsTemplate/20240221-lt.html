@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 4.0 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Šiandien išleidžiame GCompris 4.0 versiją.</p>
+<p>Pridėti vertimai dar į tris kalbas: bulgarų, galų ir suahilių.</p>
+<p>Jame yra 190 pamokėlių, įskaitant 8 naujas:</p>
+<ul>
+<li class="puce">Kalbos dalys. Pamokėlė, skirta išmokti kalbos dalis po vieną kalbos dalį vienu metu.</li>
+<li class="puce">Kalbos dalių analizė. Panaši į pamokėlę „Kalbos dalys“, tik čia jau visiems sakinio žodžiams priskiriamos kalbos dalis.</li>
+<li class="puce">Calcudoku. Aritmetinis žaidimas su tikslu užpildyti skaičių lentelę pagal tam tikras taisykles.</li>
+<li class="puce">Gauk 24. Iš keturių skaičių ir duotų matematinių veiksmų reikia gauti 24.</li>
+<li class="puce">Ornamentas. Atkurk ir pabaik užpildyti ornamentus!</li>
+<li class="puce">Pažink skalę. Rask reikšmę, kuri atitinka žymą skalėje.</li>
+<li class="puce">Naudok skalę. Pažymėk duotą skaičių skalėje.</li>
+<li class="puce">Gretimi skaičiai. Išmok, kurie skaičiai eina prieš ar po duotos sekos.</li>
+</ul>
+<br/>
+<p>Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje paveikslėlius.
+Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse.</p>
+<p>Su šia versija buvo pasiektas vienas svarbus įvykis: po beveik 9 metų darbo misija perdaryti visą grafiką, kad ji atitiktų šiandienos reikalavimus, buvo įvykdyta!</p>
+
+<p>Jis visiškai išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Jis taip pat iš dalies išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+
+{% endblock %}
