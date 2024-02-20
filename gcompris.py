@@ -287,8 +287,11 @@ translationStatus = {
     "20230606.html": {
         "fullyTranslated": ['ar', 'az', 'br', 'ca', 'ca@valencia', 'el', 'en_GB', 'es', 'eu', 'fr', 'hr', 'id', 'it', 'lt', 'ml', 'nl', 'nn', 'pl', 'pt', 'pt_BR', 'ro', 'sl', 'tr', 'uk'],
         "partiallyTranslated": [['be', 79], ['cs', 88], ['de', 99], ['eo', 99], ['et', 99], ['fi', 98], ['he', 99], ['hu', 99], ['mk', 94], ['ru', 99], ['sk', 87], ['sq', 99], ['sv', 98], ['zh_TW', 99]]
-
-    }
+    },
+    "20240221.html": {
+        "fullyTranslated": ['ar', 'bg', 'br', 'ca', 'ca@valencia', 'el', 'es', 'eu', 'fr', 'gl', 'hr', 'hu', 'it', 'lt', 'ml', 'nl', 'pl', 'pt_BR', 'ro', 'sl', 'tr', 'uk'],
+        "partiallyTranslated": [['az', 97], ['be', 86], ['cs', 94], ['de', 95], ['en_GB', 95], ['eo', 99], ['et', 95], ['fi', 94], ['he', 95], ['id', 95], ['mk', 90], ['nn', 95], ['pt', 95], ['ru', 95], ['sk', 83], ['sq', 99], ['sv', 95], ['sw', 99], ['zh_TW', 95]]
+    },
 }
 
 for filename in sorted(filenames, reverse=True):
