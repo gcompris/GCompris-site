@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Vydání GCompris 4.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Dnes vydáváme GCompris verze 4.0.</p>
+<p>Do této verze přibyly další tři jazyky: bulharština, galícijština a svahilština.</p>
+<p>Obsahuje 190 aktivit, včetně 8 nových:</p>
+<ul>
+<li class="puce">"Slovní druhy" je aktivitou, která pomáhá se naučit rozlišovat slovní druhy, a to po jednom.</li>
+<li class="puce">"Určování slovních druhů" je podobné předchozí aktivitě, ale s tím, že je pro každou větu vyžadováno určit více slovních druhů.</li>
+<li class="puce">"Počtodoku" je aritmetickou hrou, ve které je cílem vyplnění mřížky zadanými čísly podle zvláštních pravidel.</li>
+<li class="puce">"Uhádni 24" je hříčkou 4 zadaných čísel a početních operátorů, díky nimž je možné vypočítat číslo 24!</li>
+<li class="puce">"Řada" dává za úkol zopakovat a doplnit různé řady značek.</li>
+<li class="puce">"Čtení číselné osy" je aktivitou, ve které je nutné najít hodnotu, zobrazenou na číselné ose.</li>
+<li class="puce">"Používání číselné osy" naopak vyžaduje umístění zadané hodnoty na číselnou osu.</li>
+<li class="puce">"Následující čísla" učí, která čísla patří před a která za zadané pořadí čísel.</li>
+</ul>
+<br/>
+<p>Obsahuje opravy chyb a grafická vylepšení ve vícero aktivitách.</p>
+<p>Touto verzí byl dosažen jeden velký milník: po téměř 9 letech byla dokončena práce na úkolu přepracování veškeré grafiky, aby odpovídala nastaveným pravidlům!</p>
+
+<p>Je plně přeloženo v následujících jazycích:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Také je částečně přeloženo do následujících jazyků:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android, Raspberry Pi a macOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě Android Play, repozitáři F-Droidu a obchodu Windows Store.</p>
+
+<p>Díky všem, <br/>Timothée & Johnny</p>
+
+{% endblock %}
