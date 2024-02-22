@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-01-21 01:38+0000\n"
-"PO-Revision-Date: 2024-01-21 15:04+0300\n"
+"POT-Creation-Date: 2024-02-22 01:38+0000\n"
+"PO-Revision-Date: 2024-02-21 22:11+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #. news title
 msgctxt "20230606.html"
@@ -28,7 +28,7 @@ msgstr "GCompris 3.3 Çıktı"
 #. paragraph
 msgctxt "20230606.html"
 msgid "Today we are releasing GCompris version 3.3."
-msgstr "Bugün, GCompris'in 3.3 sürümünü yayımlıyoruz."
+msgstr "Bugün, GCompris’in 3.3 sürümünü yayımlıyoruz."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -42,9 +42,8 @@ msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Bu yeni sürüm; \\\"Yol bulma\\\", \\\"Hangi sözcükteki harf\\\", \\\"Top "
-"yakalama\\\" ve \\\"Piyano kompozisyonu\\\"gibi birçok etkinlik için hata "
-"düzeltmeleri içeriyor."
+"Bu yeni sürüm; “Yol bulma”, “Hangi sözcükteki harf”, “Top yakalama” ve "
+"“Piyano kompozisyonu” gibi birçok etkinlik için hata düzeltmeleri içeriyor."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -57,7 +56,7 @@ msgstr ""
 #. paragraph
 msgctxt "20230606.html"
 msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr "Ayrıca \\\"Fotoğraf avcısı\\\" etkinliği için yeni grafikler var."
+msgstr "Ayrıca “Fotoğraf avcısı” etkinliği için yeni grafikler var."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -92,7 +91,7 @@ msgstr ""
 "Bu yeni sürüm için olan GNU/Linux, Windows, Raspberry Pi ve macOS "
 "paketlerini <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
 "\">indirme sayfasında</a> bulabilirsiniz. Bu güncelleme kısa süre içinde "
-"Google Play Store, F-Droid deposu ve Microsoft Store'da da yerini alacak."
+"Google Play Store, F-Droid deposu ve Microsoft Store’da da yerini alacak."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -107,7 +106,7 @@ msgstr "GCompris 4.0 Çıktı"
 #. paragraph
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr "Bugün, GCompris'in 4.0 sürümünü yayımlıyoruz."
+msgstr "Bugün, GCompris’in 4.0 sürümünü yayımlıyoruz."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -115,12 +114,12 @@ msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
-"Bu sürüm, ü dil için daha çeviriler ekler: Bulgarca, Galiçyaca ve Suahili."
+"Bu sürüm, üç dil için daha çeviriler ekler: Bulgarca, Galiçyaca ve Suahili."
 
 #. paragraph
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr "8'i yeni olmak üzere 190 etkinlik içerir:"
+msgstr "8’i yeni olmak üzere 190 etkinlik içerir:"
 
 #. list item
 msgctxt "20240221.html"
@@ -128,8 +127,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
-"\\\"Dilbilgisi sınıflandırmaları\\\", sözcüklerin türlerini tanımlamak için "
-"bir etkinliktir."
+"“Dilbilgisi sınıflandırmaları”, sözcüklerin türlerini tanımlamak için bir "
+"etkinliktir."
 
 #. list item
 msgctxt "20240221.html"
@@ -137,8 +136,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
-"\\\"Dilbilgisi çözümlemesi\\\", bir öncekine benzerdir; ancak her bir tümce "
-"için birden çok sınıf tanımlamanız istenir."
+"“Dilbilgisi çözümlemesi”, bir öncekine benzerdir; ancak her bir tümce için "
+"birden çok sınıf tanımlamanız istenir."
 
 #. list item
 msgctxt "20240221.html"
@@ -146,7 +145,7 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
-"\\\"Hesapdoku\\\", bir ızgarayı belirli kurallara göre sayılarla doldurmanız "
+"“Hesapdoku”, bir ızgarayı belirli kurallara göre sayılarla doldurmanız "
 "istenen bir aritmetik oyundur."
 
 #. list item
@@ -155,13 +154,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
-"\\\"24'ü Bul\\\" ile, verilen dört sayıyı ve işleçleri kullanarak 24 "
-"sayısına ulaşın!"
+"“24’ü Bul” ile, verilen dört sayıyı ve işleçleri kullanarak 24 sayısına "
+"ulaşın!"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr "\\\"Friz\\\" oyununda, çeşitli frizleri yeniden oluşturup tamamlayın."
+msgstr "“Friz” oyununda, çeşitli frizleri yeniden oluşturup tamamlayın."
 
 #. list item
 msgctxt "20240221.html"
@@ -169,16 +168,16 @@ msgid ""
 "\\\"Read a graduated line\\\" is an activity where you need to find a value "
 "represented on a graduated line."
 msgstr ""
-"\\\"Dereceli bir çizgi oku\\\", dereceli bir çizgideki değeri bulmanız "
-"gereken bir etkinliktir."
+"“Dereceli bir çizgi oku”, dereceli bir çizgideki değeri bulmanız gereken bir "
+"etkinliktir."
 
 #. list item
 msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
-"\\\"Dereceli bir çizgi kullan\\\" ile, verilen değeri dereceli bir çizgi "
-"üzerine yerleştirin."
+"“Dereceli bir çizgi kullan” ile, verilen değeri dereceli bir çizgi üzerine "
+"yerleştirin."
 
 #. list item
 msgctxt "20240221.html"
@@ -186,7 +185,7 @@ msgid ""
 "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
 "given sequence."
 msgstr ""
-"\\\"Bitişik sayıları bul\\\" ile, verilen diziden önce veya sonra hangi "
+"“Bitişik sayıları bul” ile, verilen diziden önce veya sonra hangi "
 "numaraların geldiğini öğrenin."
 
 #. paragraph
@@ -202,7 +201,7 @@ msgid ""
 "of work, the task of reworking all the graphics to fit the guidelines has "
 "been completed!"
 msgstr ""
-"Bu sürümle önemli bir dönüm noktasına ulaşıldı: neredeyse 9 yıllık "
+"Bu sürümle önemli bir dönüm noktasına ulaşıldı: Neredeyse 9 yıllık "
 "çalışmanın ardından, tüm grafiklerin kılavuzlara uyacak şekilde yeniden "
 "işlenmesi görevi tamamlandı!"
 
@@ -240,7 +239,7 @@ msgstr ""
 "Bu yeni sürümün paketlerini <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">indirme sayfasında</a> GNU/Linux, Windows, "
 "Android, Raspberry Pi ve macOS için bulabilirsiniz. Bu güncelleme, kısa bir "
-"süre içinde Google Play Store, F-Droid deposu ve Microsoft Store'da da "
+"süre içinde Google Play Store, F-Droid deposu ve Microsoft Store’da da "
 "kullanılabilir olacaktır."
 
 #. paragraph
@@ -513,7 +512,7 @@ msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
-"Bu yazılım bir GNU Paketi'dir ve GNU Affero Genel Kamu Lisansı altında "
+"Bu yazılım bir GNU Paketi’dir ve GNU Affero Genel Kamu Lisansı altında "
 "yayımlanmıştır."
 
 #: gcompris.py:252
@@ -521,9 +520,9 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Emir SARI"
 
-#: gcompris.py:383
+#: gcompris.py:386
 msgid "For Christmas, offer GCompris to your children."
-msgstr "Noel için çocuklarınıza GCompris'i gösterin."
+msgstr "Noel için çocuklarınıza GCompris’i gösterin."
 
 #: template/base.html:71 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
@@ -579,27 +578,27 @@ msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
-"Noel için çocuklarınıza GCompris'i gösterin. Ücretsizdir ve onlara uzun "
+"Noel için çocuklarınıza GCompris’i gösterin. Ücretsizdir ve onlara uzun "
 "saatler boyu eğlendirecektir."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr "GCompris'i, indirme sayfamızdan edinin"
+msgstr "GCompris’i, indirme sayfamızdan edinin"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr "GCompris'i, Google Play Store'dan edinin"
+msgstr "GCompris’i, Google Play Store’dan edinin"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr "GCompris'i, Microsoft Store'dan edinin"
+msgstr "GCompris’i, Microsoft Store’dan edinin"
 
 #: template/donate.html:13
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"Siz, sizin çocuklarınız veya okulunuz GCompris'e bayılacak. Projeyi, bir "
+"Siz, sizin çocuklarınız veya okulunuz GCompris’e bayılacak. Projeyi, bir "
 "bağışla destekleyebilirsiniz."
 
 #: template/donate.html:14
@@ -615,7 +614,7 @@ msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
 msgstr ""
-"GCompris'in geliştirmesini sürdürülebilir bir biçimde desteklemek "
+"GCompris’in geliştirmesini sürdürülebilir bir biçimde desteklemek "
 "istiyorsanız Patreon üzerinde bir GCompris düzenli bağışçısı olun:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
@@ -625,15 +624,15 @@ msgstr "Bir Düzenli Bağışçı Ol"
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
 msgstr ""
-"Ayrıca, kendinizin belirleyeceği bir tutarı KDE'ye bağışta bulunabilirsiniz:"
+"Ayrıca, kendinizin belirleyeceği bir tutarı KDE’ye bağışta bulunabilirsiniz:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
-msgstr "KDE'ye Bağışta Bulun"
+msgstr "KDE’ye Bağışta Bulun"
 
 #: template/donate.html:24
 msgid "Thanks for supporting Free Software in education."
-msgstr "Eğitim alanında Özgür Yazılım'ları desteklediğiniz için teşekkürler."
+msgstr "Eğitim alanında Özgür Yazılım’ları desteklediğiniz için teşekkürler."
 
 #: template/donate.html:27
 msgid "Patreon"
@@ -641,7 +640,7 @@ msgstr "Patreon"
 
 #: template/donate.html:30
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr "GCompris'i Patreon üzerinde destekleyen herkese teşekkürler!"
+msgstr "GCompris’i Patreon üzerinde destekleyen herkese teşekkürler!"
 
 #: template/downloads.html:16
 msgid "Windows"
@@ -652,8 +651,8 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
-"GCompris'i <a href=\"https://www.microsoft.com/en-us/store/p/"
-"gcompris/9pgxjtcxn8qm\">Microsoft Store</a>'dan indirebilirsiniz."
+"GCompris’i <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">Microsoft Store</a>’dan indirebilirsiniz."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
@@ -674,8 +673,8 @@ msgid ""
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
 "Not: Sisteminizde OpenGL 2 desteği yoksa veya düzgün çalışmıyorsa "
-"GCompris'i, OpenGL kullanmayan yazılım sunumu kipinde başlatın (Başlat "
-"menüsünden \"GCompris (Güvenli Kip)\")."
+"GCompris’i, OpenGL kullanmayan yazılım sunumu kipinde başlatın (Başlat "
+"menüsünden “GCompris (Güvenli Kip)”)."
 
 #: template/downloads.html:30
 msgid ""
@@ -703,7 +702,7 @@ msgstr "Android"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr "Android sürümü, Google Play Store'da dağıtılır."
+msgstr "Android sürümü, Google Play Store’da dağıtılır."
 
 #: template/downloads.html:52
 msgid ""
@@ -711,7 +710,7 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
-"Google Play Store'daki sürüm, hem 32 bit hem 64 bit Android sürümlerini "
+"Google Play Store’daki sürüm, hem 32 bit hem 64 bit Android sürümlerini "
 "destekler. Uygun sürüm otomatik olarak indirilir ve kurulur."
 
 #: template/downloads.html:54
@@ -720,7 +719,7 @@ msgid ""
 "app repository."
 msgstr ""
 "GCompris, aynı zamanda Özgür ve Açık Kaynaklı Android uygulama deposu olan F-"
-"Droid'den de dağıtılır."
+"Droid’den de dağıtılır."
 
 #: template/downloads.html:59
 msgid ""
@@ -736,9 +735,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
-"Android 2.3-4.0 sürümleri için son uyumlu sürüm <a href= \"https://gcompris."
+"Android 2.3–4.0 sürümleri için son uyumlu sürüm <a href= \"https://gcompris."
 "net/download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-"
-"dl-0.81.apk\">GCompris 0.81</a>'dir."
+"dl-0.81.apk\">GCompris 0.81</a>’dir."
 
 #: template/downloads.html:75
 msgid "macOS"
@@ -789,7 +788,7 @@ msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
-"Sonrasında lisansı okuyun veya atlamak için q'ya basın, sorulara yes ile "
+"Sonrasında lisansı okuyun veya atlamak için q’ya basın, sorulara yes ile "
 "evet deyin ve yazılım kurucunun yanı başındaki bir klasöre kurulacaktır."
 
 #: template/downloads.html:109 template/downloads.html:136
@@ -797,7 +796,7 @@ msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"Son olarak, GCompris'i başlatmak için yeni klasöre gidin ve bin klasöründeki "
+"Son olarak, GCompris’i başlatmak için yeni klasöre gidin ve bin klasöründeki "
 "gcompris-qt.sh dosyasına çift tıklayın."
 
 #: template/downloads.html:110
@@ -809,10 +808,10 @@ msgid ""
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
 "Not: Sisteminizde OpenGL 2 desteği yoksa veya düzgün çalışmıyorsa gcompris-"
-"qt.sh betiğinin yanına '--software-renderer' argümanını ekleyin. Başka bir "
+"qt.sh betiğinin yanına ‘--software-renderer’ argümanını ekleyin. Başka bir "
 "yol olarak, yapılandırma dosyasını düzenleyin (~/.config/gcompris-qt/"
-"gcompris-qt.conf içinde): 'renderer=auto' satırını bulun ve 'auto'yu "
-"'software' ile değiştirip dosyayı kaydedin."
+"gcompris-qt.conf içinde): ‘renderer=auto’ satırını bulun ve ‘auto’yu "
+"‘software’ ile değiştirip dosyayı kaydedin."
 
 #: template/downloads.html:111
 msgid ""
@@ -820,9 +819,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
-"Alternatif olarak, GCompris'i <a href=\"https://flathub.org/apps/details/org."
-"kde.gcompris\">Flathub</a>'dan veya <a href=\"https://snapcraft.io/gcompris"
-"\">Snap Store</a>'dan indirebilirsiniz."
+"Alternatif olarak, GCompris’i <a href=\"https://flathub.org/apps/details/org."
+"kde.gcompris\">Flathub</a>’dan veya <a href=\"https://snapcraft.io/gcompris"
+"\">Snap Store</a>’dan indirebilirsiniz."
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
@@ -846,15 +845,15 @@ msgstr "Kaynak kodu, AGPLv3 lisansı altında kullanılabilir."
 
 #: template/downloads.html:163
 msgid "SHA-256 and GPG"
-msgstr "SHA-256 ve GPG"
+msgstr "SHA–256 ve GPG"
 
 #: template/downloads.html:167
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
-"İndirmelerinizin bütünlüğünü denetlemek için dosyanın indirme URL'lerinin "
-"sonuna '.sha256' ekleyerek özgün SHA-256 sağlamasını alabilirsiniz."
+"İndirmelerinizin bütünlüğünü denetlemek için dosyanın indirme URL’lerinin "
+"sonuna ‘.sha256' ekleyerek özgün SHA–256 sağlamasını alabilirsiniz."
 
 #: template/downloads.html:168
 #, python-format
@@ -862,7 +861,7 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Kaynak tarball'ları ve Linux kurucuları, Timothée Giet tarafından sağlanan "
+"Kaynak tarball’ları ve Linux kurucuları, Timothée Giet tarafından sağlanan "
 "GPG anahtarı ile imzalanmıştır (genel anahtar: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
@@ -871,7 +870,7 @@ msgstr "sig dosyaları:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr "SSS - GCompris"
+msgstr "SSS — GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
@@ -903,8 +902,8 @@ msgid ""
 "the main configuration page."
 msgstr ""
 "Yazılımın kendiliğinden bir şey indirmesini istemiyorsanız ana yapılandırma "
-"sayfasında \"Ses dosyalarının otomatik indirilmesini/güncellenmesini "
-"etkinleştir\" seçeneğini devre dışı bırakın."
+"sayfasında “Ses dosyalarının otomatik indirilmesini/güncellenmesini "
+"etkinleştir” seçeneğini devre dışı bırakın."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
@@ -921,16 +920,16 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
-"ÖNEMLİ: Aşağıdaki yönergelerde, \"-codecName\"i Windows sistemlerde \"-mp3\" "
-"veya Linux/Android sistemlerde \"-ogg\" ile, macOS sistemlerde ise \"-aac\" "
-"ile değiştirin. Ayrıca \"-localeCode\"u yerel dil kodunuz yapın."
+"ÖNEMLİ: Aşağıdaki yönergelerde, ‘-codecName’i Windows sistemlerde ‘-mp3’ "
+"veya Linux/Android sistemlerde ‘-ogg’ ile, macOS sistemlerde ise ‘-aac’ ile "
+"değiştirin. Ayrıca ‘-localeCode’u yerel dil kodunuz yapın."
 
 #: template/faq.html:23
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
-"Arka plan müziği için \"backgroundMusic\" adlı klasöre gitmeniz ve şu iki "
+"Arka plan müziği için ‘backgroundMusic’ adlı klasöre gitmeniz ve şu iki "
 "dosyayı indirmeniz gerekir:"
 
 #: template/faq.html:28
@@ -938,15 +937,15 @@ msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
-"Sonrasında bu iki dosyayı, uygulamanın önbellek klasöründe \"backgroundMusic"
-"\" adlı bir klasöre koymalısınız."
+"Sonrasında bu iki dosyayı, uygulamanın önbellek klasöründe ‘backgroundMusic’ "
+"adlı bir klasöre koymalısınız."
 
 #: template/faq.html:29
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
-"Sesler için \"voices-codecName\" adlı klasöre gitmeniz ve şu iki dosyayı "
+"Sesler için ‘voices-codecName’ adlı klasöre gitmeniz ve şu iki dosyayı "
 "indirmeniz gerekir:"
 
 #: template/faq.html:34
@@ -954,15 +953,15 @@ msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
-"Sonrasında bu iki dosyayı, uygulamanın önbellek klasöründe \"voices-codecName"
-"\" adlı bir klasöre koymalısınız."
+"Sonrasında bu iki dosyayı, uygulamanın önbellek klasöründe ‘voices-"
+"codecName’ adlı bir klasöre koymalısınız."
 
 #: template/faq.html:35
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
-"Görseller için \"words\" adlı klasöre gitmeniz ve şu iki dosyayı indirmeniz "
+"Görseller için ‘words’ adlı klasöre gitmeniz ve şu iki dosyayı indirmeniz "
 "gerekir:"
 
 #: template/faq.html:40
@@ -970,8 +969,8 @@ msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
-"Sonrasında bu iki dosyayı, uygulamanın önbellek klasöründe \"words\" adlı "
-"bir klasöre koymalısınız."
+"Sonrasında bu iki dosyayı, uygulamanın önbellek klasöründe ‘words’ adlı bir "
+"klasöre koymalısınız."
 
 #: template/faq.html:41
 msgid ""
@@ -1033,7 +1032,7 @@ msgstr ""
 
 #: template/faq.html:68
 msgid "Why is it not available on the amazon store?"
-msgstr "Amazon Store'da neden yok?"
+msgstr "Amazon Store’da neden yok?"
 
 #: template/faq.html:69
 msgid ""
@@ -1042,9 +1041,9 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
-"Android için zaten Play store ve F-Droid'de yayımlıyoruz, tüm mağazalarda "
+"Android için zaten Play store ve F-Droid’de yayımlıyoruz, tüm mağazalarda "
 "yayınlamak çok fazla iş gerektiriyor. Bir Fire tablet kullanıyorsanız "
-"doğrudan web sitemizden en son apk'yi yükleyebilir ve uygulamaya bir çocuk "
+"doğrudan web sitemizden en son apk’yi yükleyebilir ve uygulamaya bir çocuk "
 "profilinden erişmek için üçüncü parti bir başlatıcı kullanabilirsiniz."
 
 #: template/index.html:3
@@ -1053,7 +1052,7 @@ msgstr "GCompris Eğitim Yazılımı"
 
 #: template/index.html:55
 msgid "Download GCompris"
-msgstr "GCompris'i İndir"
+msgstr "GCompris’i İndir"
 
 #: template/index.html:58
 msgid "Latest news"
@@ -1100,7 +1099,7 @@ msgid ""
 "GCompris is a high quality educational software suite, including a large "
 "number of activities for children aged 2 to 10."
 msgstr ""
-"GCompris, 2-10 yaş arası çocuklar için çok sayıda etkinlik içeren, yüksek "
+"GCompris, 2–10 yaş arası çocuklar için çok sayıda etkinlik içeren, yüksek "
 "kaliteli bir eğitim yazılımı paketidir."
 
 #: template/index.html:154
@@ -1116,34 +1115,34 @@ msgstr "Aşağıda örneklerle etkinlik kategorilerinin bir listesine bakın:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr "bilgisayar keşfi: klavye, fare, dokunmatik ekran..."
+msgstr "bilgisayar keşfi: klavye, fare, dokunmatik ekran…"
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr "okuma: harfler, sözcükler, okuma pratiği, metin yazma..."
+msgstr "okuma: harfler, sözcükler, okuma pratiği, metin yazma…"
 
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
 msgstr ""
-"aritmetik: sayılar, işlemler, tablo belleği, sayma, çift giriş tablosu..."
+"aritmetik: sayılar, işlemler, tablo belleği, sayma, çift giriş tablosu…"
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr "bilim: kanal kilidi, su çevrimi, yenilenebilir enerji..."
+msgstr "bilim: kanal kilidi, su çevrimi, yenilenebilir enerji…"
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr "coğrafya: ülkeler, bölgeler, kültürler..."
+msgstr "coğrafya: ülkeler, bölgeler, kültürler…"
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "oyunlar: satranç, bellek, top hizalama, adam asmaca, üç taş..."
+msgstr "oyunlar: satranç, bellek, top hizalama, adam asmaca, üç taş…"
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr "diğer: renkler, şekiller, Braille, zamanı söyleme..."
+msgstr "diğer: renkler, şekiller, Braille, zamanı söyleme…"
 
 #: template/index.html:165
 msgid ""
@@ -1152,7 +1151,7 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
-"Şu anda, GCompris 100'den fazla etkinlik sunar ve birçoğu da geliştirme "
+"Şu anda, GCompris 100’den fazla etkinlik sunar ve birçoğu da geliştirme "
 "aşamasındadır. GCompris özgür yazılımdır, gereksinimlerinize göre "
 "değiştirebilir, iyileştirebilir ve dünyanın her yanındaki çocuklarla "
 "paylaşabilirsiniz."
@@ -1177,7 +1176,7 @@ msgid ""
 "and can run on low power computers."
 msgstr ""
 "GCompris, sınıfta veya sınıf dışında alıştırmalar sağlayan bir e-öğrenme "
-"aracıdır. GNU Genel Kamu Lisansı altında dağıtılan bir Özgür Yazılım'dır. "
+"aracıdır. GNU Genel Kamu Lisansı altında dağıtılan bir Özgür Yazılım’dır. "
 "Birden çok platformda çalışır (GNU/Linux, macOS, Windows, Android) ve düşük "
 "kapasiteli bilgisayarlarda da kullanılabilir."
 
@@ -1188,7 +1187,7 @@ msgid ""
 "including:"
 msgstr ""
 "GCompris, dünyanın her bir yanındaki okullarda 20 yıldan beridir var ve ana "
-"pedagojik alanlardaki 150'den fazla etkinliği sunar. Bunlardan bazıları:"
+"pedagojik alanlardaki 150’den fazla etkinliği sunar. Bunlardan bazıları:"
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
@@ -1229,7 +1228,7 @@ msgid ""
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
 "GCompris bir internet bağlantısı gerektirmez, hiçbir verinizi toplamaz ve "
-"AB'nin Genel Veri Koruma Regülasyonu ile tümüyle uyumludur."
+"AB’nin Genel Veri Koruma Regülasyonu ile tümüyle uyumludur."
 
 #: template/schools.html:26
 msgid ""
