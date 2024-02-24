@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Toa GCompris 3.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r3.3.png' class='col-xs-12 col-md-4' alt='gcompris 3.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r3.3.png')"/>
+
+<p>Leo tunatoa toleo la GCompris 3.3.</p>
+<p>Toleo hili linaongeza tafsiri kwa lugha 2 zaidi: Kiarabu na Kiesperanto.</p>
+<p>Ina urekebishaji wa hitilafu kwenye shughuli nyingi kama vile "usimbaji wa njia", "Herufi katika neno", "Ballcatch" na "utunzi wa piano".</p>
+<p>Baadhi ya maboresho ya utunzaji wa kibodi (njia za mkato, umakini...) yamefanywa kwenye shughuli kadhaa.</p>
+<p>Pia ina michoro na uboreshaji mpya kwenye "Mwindaji wa Picha".</p>
+
+<p>Imetafsiriwa kikamilifu katika lugha zifuatazo:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Pia imetafsiriwa kwa kiasi katika lugha zifuatazo:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, Raspberry Pi na macOS kwenye <a href="https://gcompris.net/downloads{{ suffix }}.html">ukurasa wa upakuaji</a> . Sasisho hili litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid na duka la Windows.</p>
+
+<p>Asanteni nyote,<br/> Timothy &amp; Johnny</p>
+
+{% endblock %}
