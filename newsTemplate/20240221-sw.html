@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Toa GCompris 4.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Leo tunatoa toleo la GCompris 4.0.</p>
+<p>Toleo hili linaongeza tafsiri kwa lugha 3 zaidi: Kibulgaria, Kigalisia na Kiswahili.</p>
+<p>Ina shughuli 190, ikiwa ni pamoja na 8 mpya:</p>
+<ul>
+<li class="puce">"Madarasa ya sarufi" ni shughuli ya kujifunza kutambua maneno madarasa ya kisarufi, darasa moja kwa wakati mmoja.</li>
+<li class="puce">"Uchambuzi wa sarufi" ni sawa na ule uliopita, lakini kwa madarasa kadhaa yaliyoombwa kwa kila sentensi.</li>
+<li class="puce">"Calcudoku" ni mchezo wa hesabu ambapo lengo ni kujaza gridi ya taifa kwa nambari kulingana na sheria mahususi.</li>
+<li class="puce">Na "Nadhani 24", kwa kutumia nambari 4 zilizotolewa na waendeshaji, pata nambari 24!</li>
+<li class="puce">Katika "Frieze", zalisha tena na ukamilishe vikaanga tofauti.</li>
+<li class="puce">"Soma mstari uliohitimu" ni shughuli ambapo unahitaji kupata thamani iliyowakilishwa kwenye mstari uliohitimu.</li>
+<li class="puce">Katika "Tumia mstari uliohitimu", weka thamani uliyopewa kwenye mstari uliohitimu.</li>
+<li class="puce">Katika "Nambari zilizo karibu", jifunze ni nambari zipi zinazokuja kabla au baada ya mfuatano uliotolewa.</li>
+</ul>
+<br/>
+<p>Ina marekebisho ya hitilafu na uboreshaji wa michoro kwenye shughuli nyingi.</p>
+<p>Hatua moja kuu imefikiwa na toleo hili: baada ya karibu miaka 9 ya kazi, kazi ya kurekebisha picha zote ili kupatana na miongozo imekamilika!</p>
+
+<p>Imetafsiriwa kikamilifu katika lugha zifuatazo:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Pia imetafsiriwa kwa kiasi katika lugha zifuatazo:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, Android, Raspberry Pi na macOS kwenye <a href="https://gcompris.net/downloads{{ suffix }}.html">ukurasa wa upakuaji</a> . Sasisho hili pia litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid na duka la Windows.</p>
+
+<p>Asanteni nyote,<br/> Timothy &amp; Johnny</p>
+
+{% endblock %}
