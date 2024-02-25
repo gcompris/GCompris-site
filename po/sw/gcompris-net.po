@@ -93,9 +93,6 @@ msgstr ""
 "duka la Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Thank you all, <br/>TimothÃ©e & Johnny"
 msgctxt "20230606.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
@@ -245,9 +242,6 @@ msgstr ""
 "duka la Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>TimothÃ©e & Johnny"
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
@@ -862,16 +856,13 @@ msgstr ""
 "SHA-256 ya faili kwa kuongeza \".sha256\" mwishoni mwa url yao ya upakuaji."
 
 #: template/downloads.html:168
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from TimothÃ©e Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Chanzo cha tarball na visakinishaji vya Linux vimetiwa saini kwa ufunguo wa "
-"GPG kutoka TimothÃ©e Giet (ufunguo wa umma: %(public_gpg_key)s)"
+"GPG kutoka Timothée Giet (ufunguo wa umma: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
