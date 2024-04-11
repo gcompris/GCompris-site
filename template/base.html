@@ -27,8 +27,13 @@
     <script src="{{ rootFolder }}js/jquery/jquery.slim.min.js"></script>
     <script src="{{ rootFolder }}js/bootstrap/js/bootstrap.min.js"></script>
 
+    {# In download page, we may have an anchor so we try to keep it if we change language in this page. Most of the cases, there should not be one. #}
     <script type="text/javascript">
-      var pagePath = window.location.href.replace("{{ suffix }}.html", "");
+      var re = /{{ suffix }}.html(.*)/;
+      var match = window.location.href.match(re);
+      var pagePath = window.location.href.replace(match[0], "");
+      var anchor = match[1];
+      if(!anchor) anchor = "";
     </script>
 
     <title>{{title}}</title>
@@ -82,7 +87,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ language }} <b class="caret"></b></a>
             <ul class="dropdown-menu">
 	      {% for suffix, language in locales %}
-                <li><a href="{{page}}-{{ suffix }}.html" onclick="location.href=pagePath+'-{{ suffix }}.html';return false;">{{ language }}</a></li>
+                <li><a href="{{page}}-{{ suffix }}.html" onclick="location.href=pagePath+'-{{ suffix }}.html'+anchor;return false;">{{ language }}</a></li>
 	      {% endfor %}
             </ul>
 	  </li>
