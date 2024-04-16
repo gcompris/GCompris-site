@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 01:38+0000\n"
+"POT-Creation-Date: 2024-04-16 01:50+0000\n"
 "PO-Revision-Date: 2023-04-20 17:37+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -533,48 +533,48 @@ msgstr "Tommi Nieminen"
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Tarjoa jouluksi lapsillesi GComprisia."
 
-#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/base.html:76 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
 msgid "News"
 msgstr "Uutiset"
 
-#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:77 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Lataa"
 
-#: template/base.html:73 template/donate.html:3 template/donate.html:8
+#: template/base.html:78 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Lahjoita"
 
-#: template/base.html:74 template/screenshots.html:3
+#: template/base.html:79 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Ruutukaappaukset"
 
-#: template/base.html:75 template/schools.html:3 template/schools.html:8
+#: template/base.html:80 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Koulut"
 
-#: template/base.html:76
+#: template/base.html:81
 msgid "Manual"
 msgstr ""
 
-#: template/base.html:77
+#: template/base.html:82
 msgid "FAQ"
 msgstr ""
 
-#: template/base.html:78
+#: template/base.html:83
 msgid "Contribute"
 msgstr "Avusta"
 
-#: template/base.html:112
+#: template/base.html:117
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Sivuston viimeisin päivitys %(revision_date)s."
 
 # HUOM! Tämä pitää päivittää, kun kääntäjiä tulee lisää: kääntänyt → kääntäneet
-#: template/base.html:117
+#: template/base.html:122
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Sivuston kääntänyt: %(translators_names)s."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 01:38+0000\n"
+"POT-Creation-Date: 2024-04-16 01:50+0000\n"
 "PO-Revision-Date: 2021-12-16 11:16+0200\n"
 "Last-Translator: Tõnis Piirits <tonis.piirits@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -548,47 +548,47 @@ msgstr ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 
-#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/base.html:76 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
 msgid "News"
 msgstr "Uudised"
 
-#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:77 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Allalaadimine"
 
-#: template/base.html:73 template/donate.html:3 template/donate.html:8
+#: template/base.html:78 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Annetamine"
 
-#: template/base.html:74 template/screenshots.html:3
+#: template/base.html:79 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Ekraanipildid"
 
-#: template/base.html:75 template/schools.html:3 template/schools.html:8
+#: template/base.html:80 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Koolid"
 
-#: template/base.html:76
+#: template/base.html:81
 msgid "Manual"
 msgstr "Käsiraamat"
 
-#: template/base.html:77
+#: template/base.html:82
 msgid "FAQ"
 msgstr ""
 
-#: template/base.html:78
+#: template/base.html:83
 msgid "Contribute"
 msgstr "Kaastöö"
 
-#: template/base.html:112
+#: template/base.html:117
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr ""
 
-#: template/base.html:117
+#: template/base.html:122
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr ""

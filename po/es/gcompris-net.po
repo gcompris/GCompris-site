@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 01:38+0000\n"
+"POT-Creation-Date: 2024-04-16 01:50+0000\n"
 "PO-Revision-Date: 2024-01-30 20:44+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -540,47 +540,47 @@ msgstr "Eloy Cuadra"
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Para Navidad, ofrézcale GCompris a sus hijos."
 
-#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/base.html:76 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
 msgid "News"
 msgstr "Noticias"
 
-#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:77 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Descarga"
 
-#: template/base.html:73 template/donate.html:3 template/donate.html:8
+#: template/base.html:78 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Hacer un donativo"
 
-#: template/base.html:74 template/screenshots.html:3
+#: template/base.html:79 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Capturas de pantalla"
 
-#: template/base.html:75 template/schools.html:3 template/schools.html:8
+#: template/base.html:80 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Colegios"
 
-#: template/base.html:76
+#: template/base.html:81
 msgid "Manual"
 msgstr "Manual"
 
-#: template/base.html:77
+#: template/base.html:82
 msgid "FAQ"
 msgstr "Preguntas frecuentes"
 
-#: template/base.html:78
+#: template/base.html:83
 msgid "Contribute"
 msgstr "Colaborar"
 
-#: template/base.html:112
+#: template/base.html:117
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Sitio actualizado por última vez el %(revision_date)s."
 
-#: template/base.html:117
+#: template/base.html:122
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Sitio traducido por: %(translators_names)s."

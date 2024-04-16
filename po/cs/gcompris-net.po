@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-22 01:38+0000\n"
+"POT-Creation-Date: 2024-04-16 01:50+0000\n"
 "PO-Revision-Date: 2024-02-20 22:29+0100\n"
 "Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -528,47 +528,47 @@ msgstr "Vít Pelčák, Jan Papež"
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Na Vánoce nabídněte GCompris vašim dětem."
 
-#: template/base.html:71 template/news.html:3 template/news.html:8
+#: template/base.html:76 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
 #: template/singlenews.html:9
 msgid "News"
 msgstr "Novinky"
 
-#: template/base.html:72 template/downloads.html:3 template/downloads.html:8
+#: template/base.html:77 template/downloads.html:3 template/downloads.html:8
 msgid "Download"
 msgstr "Stáhnout"
 
-#: template/base.html:73 template/donate.html:3 template/donate.html:8
+#: template/base.html:78 template/donate.html:3 template/donate.html:8
 msgid "Donate"
 msgstr "Darovat"
 
-#: template/base.html:74 template/screenshots.html:3
+#: template/base.html:79 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
 msgstr "Snímky obrazovky"
 
-#: template/base.html:75 template/schools.html:3 template/schools.html:8
+#: template/base.html:80 template/schools.html:3 template/schools.html:8
 msgid "Schools"
 msgstr "Školy"
 
-#: template/base.html:76
+#: template/base.html:81
 msgid "Manual"
 msgstr "Návod"
 
-#: template/base.html:77
+#: template/base.html:82
 msgid "FAQ"
 msgstr "Často kladené dotazy"
 
-#: template/base.html:78
+#: template/base.html:83
 msgid "Contribute"
 msgstr "Zapojit se"
 
-#: template/base.html:112
+#: template/base.html:117
 #, python-format
 msgid "Site last updated the %(revision_date)s."
 msgstr "Stránka byla naposledy aktualizována %(revision_date)s."
 
-#: template/base.html:117
+#: template/base.html:122
 #, python-format
 msgid "Site translated by: %(translators_names)s."
 msgstr "Stránku přeložili: %(translators_names)s."
