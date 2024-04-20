@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-16 01:50+0000\n"
-"PO-Revision-Date: 2024-01-30 15:42+0100\n"
+"PO-Revision-Date: 2024-04-19 22:04+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -284,10 +284,11 @@ msgctxt "language name, item list"
 msgid "Breton"
 msgstr "Bretó"
 
+# skip-rule: iso_639-Belarusian
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr "Bielorús"
+msgstr "Belarús"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
@@ -1357,36 +1358,3 @@ msgstr "Lectura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estratègia"
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "This new version contains some bug fixes on multiple activities such as \\"
-#~ "\"Discover the International Morse code\\\", \\\"Control the hose-pipe\\"
-#~ "\" and music activities."
-#~ msgstr ""
-#~ "Aquesta versió nova conté algunes correccions d'errors en algunes "
-#~ "activitats com ara «Descobreix el codi Morse internacional», «Controla la "
-#~ "mànega» i activitats musicals."
-
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "It also contains new graphics for all memory activities and for \\\"Baby "
-#~ "puzzle\\\"."
-#~ msgstr ""
-#~ "També conté gràfics nous per a totes les activitats de memòria i per a "
-#~ "«Trencaclosques de nadó»."
-
-# skip-rule: t-pu_sp
-#~ msgctxt "20230329.html"
-#~ msgid ""
-#~ "A new command-line argument (--difficulty {value|min-max}) has been added "
-#~ "which allows users to force the difficulty filter at a given value or "
-#~ "range."
-#~ msgstr ""
-#~ "S'ha afegit un argument nou de la línia d'ordres (--difficulty {valor|"
-#~ "mín.-màx.}) que permet als usuaris forçar el filtre de dificultat amb un "
-#~ "valor indicat o un interval."
-
-#~ msgctxt "20230329.html"
-#~ msgid "The Andika font has been updated to its latest version (6.200)."
-#~ msgstr "La lletra Andika s'ha actualitzat a la seva darrera versió (6.200)."
