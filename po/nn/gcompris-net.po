@@ -1,13 +1,12 @@
 # Translation of gcompris-net to Norwegian Nynorsk
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-# Karl Ove Hufthammer <karl@huftis.org>, 2017, 2018, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-16 01:50+0000\n"
-"PO-Revision-Date: 2023-08-22 22:10+0200\n"
+"PO-Revision-Date: 2024-04-21 12:12+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -16,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 24.02.2\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -101,12 +100,12 @@ msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 #. news title
 msgctxt "20240221.html"
 msgid "Release GCompris 4.0"
-msgstr ""
+msgstr "GCompris 4.0 er ute"
 
 #. paragraph
 msgctxt "20240221.html"
 msgid "Today we are releasing GCompris version 4.0."
-msgstr ""
+msgstr "I dag gjev me ut GCompris versjon 4.0."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -114,11 +113,12 @@ msgid ""
 "This version adds translations for 3 more languages: Bulgarian, Galician and "
 "Swahili."
 msgstr ""
+"Denne versjonen er omsett til tre nye språk, bulgarsk, galisisk og swahili."
 
 #. paragraph
 msgctxt "20240221.html"
 msgid "It contains 190 activities, including 8 new ones:"
-msgstr ""
+msgstr "Denne versjonen inneheld 190 aktivitetar, og 8 av desse er heilt nye:"
 
 #. list item
 msgctxt "20240221.html"
@@ -189,24 +189,24 @@ msgstr ""
 #. paragraph
 msgctxt "20240221.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Programmet er fullstendig omsett til desse språka:"
 
 #. list item
 msgctxt "20240221.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20240221.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Det er òg delvis omsett til desse språka:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20240221.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
 msgctxt "20240221.html"
@@ -217,11 +217,15 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
+"Du finn pakkar for denne nye versjonen for GNU/Linux, Windows, Android, "
+"Raspberry Pi og macOS på <a href=\\\"https://gcompris.net/downloads{{ suffix "
+"}}.html\\\">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på "
+"Android Play Store, i F-Droid og på Windows Store."
 
 #. paragraph
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -451,7 +455,7 @@ msgstr "Svensk"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
