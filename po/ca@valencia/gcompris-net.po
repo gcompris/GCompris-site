@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-04-16 01:50+0000\n"
-"PO-Revision-Date: 2024-01-30 15:42+0100\n"
+"PO-Revision-Date: 2024-04-19 22:04+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -44,8 +44,8 @@ msgid ""
 "It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
 "\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
 msgstr ""
-"Conté correccions d'errors en múltiples activitats com «Codificació de "
-"camí», «Lletra en una paraula», «Agafar la bola» i «Composició per a piano»."
+"Conté esmenes d'errors en múltiples activitats com «Codificació de camí», "
+"«Lletra en una paraula», «Agafar la bola» i «Composició per a piano»."
 
 #. paragraph
 msgctxt "20230606.html"
@@ -195,8 +195,7 @@ msgstr ""
 #. paragraph
 msgctxt "20240221.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Conté correccions d'errors i millores gràfiques en múltiples activitats."
+msgstr "Conté esmenes d'errors i millores gràfiques en múltiples activitats."
 
 #. paragraph
 msgctxt "20240221.html"
@@ -282,10 +281,11 @@ msgctxt "language name, item list"
 msgid "Breton"
 msgstr "Bretó"
 
+# skip-rule: iso_639-Belarusian
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr "Bielorús"
+msgstr "Belarús"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
@@ -911,7 +911,7 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of sound files\" in "
 "the main configuration page."
 msgstr ""
-"Si no voleu que el programari baixe res automàticament, podeu desseleccionar "
+"Si no voleu que el programari baixe res automàticament, podeu desmmarcar "
 "l'opció «Habilita les baixades o actualitzacions automàtiques dels fitxers "
 "de so» en la pàgina principal de configuració."
 
