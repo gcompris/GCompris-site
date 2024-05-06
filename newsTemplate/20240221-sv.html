@@ -1,0 +1,42 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 4.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.0.png' class='col-xs-12 col-md-4' alt='gcompris 4.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.0.png')"/>
+
+<p>Idag ger vi ut GCompris version 4.0.</p>
+<p>Versionen lägger till översättningar för ytterligare tre språk: bulgariska, galiciska och swahili.</p>
+<p>Den innehåller 190 aktiviteter, inklusive 8 nya:</p>
+<ul>
+<li class="puce">"Ordklasser" är en aktivitet för att lära sig identifiera ordklasser, en ordklass åt gången.</li>
+<li class="puce">"Grammatikanalys" liknar den föregående, men med flera begärda ordklasser för varje mening.</li>
+<li class="puce">"Kalkudoku" är ett aritmetiskt spel där målet är att fylla i ett rutnät med tal enligt specifika regler.</li>
+<li class="puce">Räkna ut talet 24 med "Gissa 24", genom att använda de fyra givna talen och räknesätten.</li>
+<li class="puce">Reproducera och färdigställ de olika friserna i I "Fris".</li>
+<li class="puce">"Läs av en graderad linje" är en aktivitet där man måste finna ett värde som representeras på en graderad linje.</li>
+<li class="puce">Placera det givna värdet på en graderad linje i "Använd en graderad linje".</li>
+<li class="puce">Lär dig vilka tal som kommer före eller efter den givna följden i "Intilliggande tal".</li>
+</ul>
+<br/>
+<p>Den innehåller felrättningar och grafikförbättringar för flera aktiviteter.</p>
+<p>En viktig milstolpe har uppnåtts med den här versionen: efter nästan nio års arbete, är uppgiften att arbeta om all grafik för att följa riktlinjerna slutförd!</p>
+
+<p>Den är fullständigt översatt på följande språk:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Den är också delvis översatt på följande språk:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Du kan hitta paket av den nya versionen för GNU/Linux, Windows, Android, Raspberry Pi och macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer också snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+
+{% endblock %}
