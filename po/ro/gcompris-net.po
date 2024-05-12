@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-16 01:50+0000\n"
+"POT-Creation-Date: 2024-05-12 01:58+0000\n"
 "PO-Revision-Date: 2023-06-01 17:55+0200\n"
 "Last-Translator: Horia PELLE <horricane@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
@@ -19,93 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
 "X-Generator: Lokalize 2.0\n"
-
-# news title
-#. news title
-msgctxt "20230606.html"
-msgid "Release GCompris 3.3"
-msgstr "Versiunea GCompris 3.3"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Today we are releasing GCompris version 3.3."
-msgstr "Astăzi lansăm GCompris versiunea 3.3."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
-"Această versiune adaugă traduceri pentru încă două limbi: arabă și esperanto."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
-"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
-msgstr ""
-"Ea conține corecții de erori de programare pentru mai  multe activități, cum "
-"ar fi: „Codarea traseului”, „În ce cuvinte apare litera”, „Fă să ajungă "
-"mingea la Tux” și „Compoziție la pian”."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"Some improvements of keyboard handling (shortcuts, focus...) have been done "
-"on several activities."
-msgstr ""
-"Au fost aduse câteva îmbunătățiri ale manevrării tastaturii (scurtături, "
-"focalizare...), la mai multe activități."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
-"De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea "
-"„Vânătorul de fotografii”."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Este complet tradus în următoarele limbi:"
-
-#. list item
-msgctxt "20230606.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Este de asemenea parțial tradus în următoarele limbi:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230606.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-# paragraph
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, "
-"Raspberry Pi și macOS în <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">pagina de descărcare</a>. Această actualizare "
-"va fi disponibilă în curând în Magazinul Play Android, depozitul F-Droid și "
-"Windows Magazin."
-
-# paragraph
-#. paragraph
-msgctxt "20230606.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
 
 # news title
 #. news title
@@ -283,6 +196,102 @@ msgstr ""
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Vă mulțumim tuturor, <br/>Timothée & Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Release GCompris 3.2"
+msgctxt "20240523.html"
+msgid "Release GCompris 4.1"
+msgstr "Versiunea GCompris 3.2"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230329.html"
+#| msgid "Today we are releasing GCompris version 3.2."
+msgctxt "20240523.html"
+msgid "Today we are releasing GCompris version 4.1."
+msgstr "Astăzi lansăm GCompris versiunea 3.2."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgctxt "20240523.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea "
+"„Vânătorul de fotografii”."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Este complet tradus în următoarele limbi:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Este de asemenea parțial tradus în următoarele limbi:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid ""
+#| "As usual you can find packages of this new version for GNU/Linux, "
+#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
+#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
+#| "update will also be available soon in the Android Play store, the F-Droid "
+#| "repository and the Windows store."
+msgctxt "20240523.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Ca de obicei, puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, "
+"Windows, Raspberry Pi și macOS, în <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix  }}.html\\\">pagina de descărcare</a>. Această "
+"actualizare va fi de asemenea disponibilă în curând și în Magazin Play "
+"pentru Android, în registrul de aplicații F-Droid, respectiv în Windows "
+"Magazin."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1381,6 +1390,62 @@ msgstr "Citire"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
+
+# news title
+#~ msgctxt "20230606.html"
+#~ msgid "Release GCompris 3.3"
+#~ msgstr "Versiunea GCompris 3.3"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Today we are releasing GCompris version 3.3."
+#~ msgstr "Astăzi lansăm GCompris versiunea 3.3."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
+#~ msgstr ""
+#~ "Această versiune adaugă traduceri pentru încă două limbi: arabă și "
+#~ "esperanto."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
+#~ "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
+#~ "\"."
+#~ msgstr ""
+#~ "Ea conține corecții de erori de programare pentru mai  multe activități, "
+#~ "cum ar fi: „Codarea traseului”, „În ce cuvinte apare litera”, „Fă să "
+#~ "ajungă mingea la Tux” și „Compoziție la pian”."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "Some improvements of keyboard handling (shortcuts, focus...) have been "
+#~ "done on several activities."
+#~ msgstr ""
+#~ "Au fost aduse câteva îmbunătățiri ale manevrării tastaturii (scurtături, "
+#~ "focalizare...), la mai multe activități."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+#~ msgstr ""
+#~ "De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea "
+#~ "„Vânătorul de fotografii”."
+
+# paragraph
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, "
+#~ "Raspberry Pi și macOS în <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">pagina de descărcare</a>. Această "
+#~ "actualizare va fi disponibilă în curând în Magazinul Play Android, "
+#~ "depozitul F-Droid și Windows Magazin."
 
 #~ msgctxt "20230329.html"
 #~ msgid ""

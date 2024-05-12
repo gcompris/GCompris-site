@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-16 01:50+0000\n"
+"POT-Creation-Date: 2024-05-12 01:58+0000\n"
 "PO-Revision-Date: 2024-02-14 11:55+0300\n"
 "Last-Translator: Godlove Kyando <godlove.kyando@tie.go.tz>\n"
 "Language-Team: Swahili <kde-l10n-sw@kde.org>\n"
@@ -14,88 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.2\n"
-
-#. news title
-msgctxt "20230606.html"
-msgid "Release GCompris 3.3"
-msgstr "Toa GCompris 3.3"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Today we are releasing GCompris version 3.3."
-msgstr "Leo tunatoa toleo la GCompris 3.3."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
-"Toleo hili linaongeza tafsiri kwa lugha 2 zaidi: Kiarabu na Kiesperanto."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
-"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
-msgstr ""
-"Ina urekebishaji wa hitilafu kwenye shughuli nyingi kama vile \\\"usimbaji "
-"wa njia\\\", \\\"Herufi katika neno\\\", \\\"Ballcatch\\\" na \\\"utunzi wa "
-"piano\\\"."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"Some improvements of keyboard handling (shortcuts, focus...) have been done "
-"on several activities."
-msgstr ""
-"Baadhi ya maboresho ya utunzaji wa kibodi (njia za mkato, umakini...) "
-"yamefanywa kwenye shughuli kadhaa."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr "Pia ina michoro na uboreshaji mpya kwenye \\\"Mwindaji wa Picha\\\"."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Imetafsiriwa kikamilifu katika lugha zifuatazo:"
-
-#. list item
-msgctxt "20230606.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Pia imetafsiriwa kwa kiasi katika lugha zifuatazo:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230606.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, "
-"Raspberry Pi na macOS kwenye <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">ukurasa wa upakuaji</a> . Sasisho hili "
-"litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid na "
-"duka la Windows."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
 
 #. news title
 msgctxt "20240221.html"
@@ -243,6 +161,97 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240221.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240523.html"
+msgid "Release GCompris 4.1"
+msgstr "Toa GCompris 4.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240523.html"
+msgid "Today we are releasing GCompris version 4.1."
+msgstr "Leo tunatoa toleo la GCompris 4.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240523.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Ina marekebisho ya hitilafu na uboreshaji wa michoro kwenye shughuli nyingi."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Imetafsiriwa kikamilifu katika lugha zifuatazo:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Pia imetafsiriwa kwa kiasi katika lugha zifuatazo:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240523.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, "
+"Android, Raspberry Pi na macOS kwenye <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">ukurasa wa upakuaji</a> . Sasisho hili pia "
+"litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid na "
+"duka la Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
 
@@ -1335,6 +1344,58 @@ msgstr "Kusoma."
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Mkakati"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Release GCompris 3.3"
+#~ msgstr "Toa GCompris 3.3"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Today we are releasing GCompris version 3.3."
+#~ msgstr "Leo tunatoa toleo la GCompris 3.3."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
+#~ msgstr ""
+#~ "Toleo hili linaongeza tafsiri kwa lugha 2 zaidi: Kiarabu na Kiesperanto."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
+#~ "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
+#~ "\"."
+#~ msgstr ""
+#~ "Ina urekebishaji wa hitilafu kwenye shughuli nyingi kama vile \\"
+#~ "\"usimbaji wa njia\\\", \\\"Herufi katika neno\\\", \\\"Ballcatch\\\" na "
+#~ "\\\"utunzi wa piano\\\"."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "Some improvements of keyboard handling (shortcuts, focus...) have been "
+#~ "done on several activities."
+#~ msgstr ""
+#~ "Baadhi ya maboresho ya utunzaji wa kibodi (njia za mkato, umakini...) "
+#~ "yamefanywa kwenye shughuli kadhaa."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+#~ msgstr ""
+#~ "Pia ina michoro na uboreshaji mpya kwenye \\\"Mwindaji wa Picha\\\"."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, "
+#~ "Raspberry Pi na macOS kwenye <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">ukurasa wa upakuaji</a> . Sasisho hili "
+#~ "litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid "
+#~ "na duka la Windows."
 
 #~ msgctxt "20230118.html"
 #~ msgid "We are pleased to announce the release of GCompris version 3.0."

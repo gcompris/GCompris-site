@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-16 01:50+0000\n"
+"POT-Creation-Date: 2024-05-12 01:58+0000\n"
 "PO-Revision-Date: 2024-01-21 13:55+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -17,88 +17,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Loco-Parser: loco_parse_po\n"
 "X-Generator: Poedit 3.0\n"
-
-#. news title
-msgctxt "20230606.html"
-msgid "Release GCompris 3.3"
-msgstr "GCompris 3.3-es verzió"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Today we are releasing GCompris version 3.3."
-msgstr "Bemutatjuk a GCompris 3.3-es verzióját."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
-"Az aktuális verzióban két újabb nyelv került bevezetésre: arab és eszperantó."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
-"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
-msgstr ""
-"Olyan tevékenységekhez tartalmaz hibajavításokat mint\\\"Mintakövetés\\\", \\"
-"\"Betűk szavakkal\\\", \\\"Kapd el a labdát\\\" és a \\\"Játssz a zongorán\\"
-"\"."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"Some improvements of keyboard handling (shortcuts, focus...) have been done "
-"on several activities."
-msgstr ""
-"Több tevékenységben a billentyűzet kezelése is fejlődött  (gyorsparancsok, "
-"fókusz...)."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr "Új grafikát is kapott a hibajavítások mellett a  \\\"Fotóvadász\\\"."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is fully translated in the following languages:"
-msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
-
-#. list item
-msgctxt "20230606.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Részben pedig azu alábbi nyelveken érhető el:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230606.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Az új verzió GNU/Linux, Windows, Android, Raspberry Pi és MacOS csomagjai a, "
-"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">letöltési "
-"oldalon keresztül érhetőek el</a>. A frissítés hamarosan érkezik a Play "
-"Áruházba illetve a Windows store-on keresztül az F-droidra illetve a Windows "
-"store-ba is "
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
 msgctxt "20240221.html"
@@ -249,6 +167,98 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240221.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240523.html"
+msgid "Release GCompris 4.1"
+msgstr "GCompris 4.0-s verzió"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240523.html"
+msgid "Today we are releasing GCompris version 4.1."
+msgstr "Bemutatjuk a GCompris 4.0-ás verzióját."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240523.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
+"vonatkozóan."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is fully translated in the following languages:"
+msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Részben pedig azu alábbi nyelveken érhető el:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240523.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
+"MacOS csomagjai a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+"érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
+"illetve a Windows store-ba is."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
@@ -1337,6 +1347,59 @@ msgstr "Olvasás"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Stratégia"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Release GCompris 3.3"
+#~ msgstr "GCompris 3.3-es verzió"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Today we are releasing GCompris version 3.3."
+#~ msgstr "Bemutatjuk a GCompris 3.3-es verzióját."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
+#~ msgstr ""
+#~ "Az aktuális verzióban két újabb nyelv került bevezetésre: arab és "
+#~ "eszperantó."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
+#~ "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
+#~ "\"."
+#~ msgstr ""
+#~ "Olyan tevékenységekhez tartalmaz hibajavításokat mint\\\"Mintakövetés\\"
+#~ "\", \\\"Betűk szavakkal\\\", \\\"Kapd el a labdát\\\" és a \\\"Játssz a "
+#~ "zongorán\\\"."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "Some improvements of keyboard handling (shortcuts, focus...) have been "
+#~ "done on several activities."
+#~ msgstr ""
+#~ "Több tevékenységben a billentyűzet kezelése is fejlődött  "
+#~ "(gyorsparancsok, fókusz...)."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+#~ msgstr ""
+#~ "Új grafikát is kapott a hibajavítások mellett a  \\\"Fotóvadász\\\"."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Az új verzió GNU/Linux, Windows, Android, Raspberry Pi és MacOS csomagjai "
+#~ "a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+#~ "\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+#~ "érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
+#~ "illetve a Windows store-ba is "
 
 #~ msgctxt "20230329.html"
 #~ msgid ""

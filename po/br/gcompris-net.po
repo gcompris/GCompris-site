@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-16 01:50+0000\n"
+"POT-Creation-Date: 2024-05-12 01:58+0000\n"
 "PO-Revision-Date: 2024-02-10 11:08+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
@@ -18,90 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
-
-#. news title
-msgctxt "20230606.html"
-msgid "Release GCompris 3.3"
-msgstr "GCompris stumm 3.3"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Today we are releasing GCompris version 3.3."
-msgstr "Hiziv e kinnigomp stumm 3.3 GCompris."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr ""
-"Kinnig a ra ar stumm-mañ troidigezhioù an div yezh-mañ ouzhpenn: Arabeg hag "
-"Esperanto."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
-"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
-msgstr ""
-"Meur a fazi reizhet evit obererezhioù liesseurt evel  \\\"Kodiñ an hent\\\", "
-"\\\"Lizherenn er ger\\\", \\\"Tap ar vell\\\" and \\\"Sonaozouriezh piano\\"
-"\"."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"Some improvements of keyboard handling (shortcuts, focus...) have been done "
-"on several activities."
-msgstr ""
-"Gwellaet eo bet un tammig an ober gant ar c'hlavier (lankañ, pishaat...)."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr ""
-"Bez' ez eus ivez skeudennoù ha gwelladennoù en obererezh  \\\"Chaseour foto\\"
-"\"."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Troet eo bet penn-da-benn evit ar yezhoù-mañ:"
-
-#. list item
-msgctxt "20230606.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Troidigezh diglok evit ar yezhoù-se:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230606.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
-"Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
-"outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid "
-"hag er Windows store."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240221.html"
@@ -250,6 +166,97 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240221.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240523.html"
+msgid "Release GCompris 4.1"
+msgstr "GCompris stumm 4.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240523.html"
+msgid "Today we are releasing GCompris version 4.1."
+msgstr "Hiziv e kinnigomp stumm 4.0 GCompris."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240523.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Bez' ez eus  meur a fazi reizhet ha gwelladennoù grafek e meur a obererezh."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Troet eo bet penn-da-benn evit ar yezhoù-mañ:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Troidigezh diglok evit ar yezhoù-se:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240523.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
+"Android, Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
+"outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-Droid "
+"hag er Windows store."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
@@ -1353,6 +1360,59 @@ msgstr "Lenn"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategiezh"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Release GCompris 3.3"
+#~ msgstr "GCompris stumm 3.3"
+
+#~ msgctxt "20230606.html"
+#~ msgid "Today we are releasing GCompris version 3.3."
+#~ msgstr "Hiziv e kinnigomp stumm 3.3 GCompris."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
+#~ msgstr ""
+#~ "Kinnig a ra ar stumm-mañ troidigezhioù an div yezh-mañ ouzhpenn: Arabeg "
+#~ "hag Esperanto."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
+#~ "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
+#~ "\"."
+#~ msgstr ""
+#~ "Meur a fazi reizhet evit obererezhioù liesseurt evel  \\\"Kodiñ an hent\\"
+#~ "\", \\\"Lizherenn er ger\\\", \\\"Tap ar vell\\\" and \\\"Sonaozouriezh "
+#~ "piano\\\"."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "Some improvements of keyboard handling (shortcuts, focus...) have been "
+#~ "done on several activities."
+#~ msgstr ""
+#~ "Gwellaet eo bet un tammig an ober gant ar c'hlavier (lankañ, pishaat...)."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+#~ msgstr ""
+#~ "Bez' ez eus ivez skeudennoù ha gwelladennoù en obererezh  \\\"Chaseour "
+#~ "foto\\\"."
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, "
+#~ "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#~ "available soon in the Android Play store, the F-Droid repository and the "
+#~ "Windows store."
+#~ msgstr ""
+#~ "Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, "
+#~ "Windows, Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo "
+#~ "deus outañ a-benn nebeut en Android Play store, an dastumlec'h arloadoù F-"
+#~ "Droid hag er Windows store."
 
 #~ msgctxt "20230329.html"
 #~ msgid ""

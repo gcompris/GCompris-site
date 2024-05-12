@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-16 01:50+0000\n"
+"POT-Creation-Date: 2024-05-12 01:58+0000\n"
 "PO-Revision-Date: 2024-04-22 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -17,82 +17,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/websites-gcompris-net/gcompris-net.pot\n"
 "X-Crowdin-File-ID: 8136\n"
-
-#. news title
-msgctxt "20230606.html"
-msgid "Release GCompris 3.3"
-msgstr ""
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Today we are releasing GCompris version 3.3."
-msgstr "今天，我们发布了GCompris 3.3版本。"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr "这个版本增加了另外两个语言的翻译：阿拉伯语和埃斯佩兰托语。"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
-"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
-msgstr ""
-"它包含对多个活动的错误修复，如“路径编码”， “文字中的字"
-"母”，“Ballcatch”和“Piano composition”。"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"Some improvements of keyboard handling (shortcuts, focus...) have been done "
-"on several activities."
-msgstr "在几项活动方面对键盘处理作了一些改进 (快捷键、焦点...)。"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr "在“照片猎人”上包含新的图形和改进。"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is fully translated in the following languages:"
-msgstr "它完全译成以下语言："
-
-#. list item
-msgctxt "20230606.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "它还被部分翻译成以下语言："
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230606.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"您可以在 <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下载"
-"页</a> 找到这个新版本的 GNU/Linux、Windows、Raspberry Pi 和 macOS 的包。此更"
-"新将很快在 Android Play 商店、F-Droid 仓库和 Windows 商店中提供。"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "感谢大家，<br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240221.html"
@@ -218,6 +142,91 @@ msgstr ""
 msgctxt "20240221.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr ""
+
+#. news title
+msgctxt "20240523.html"
+msgid "Release GCompris 4.1"
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "Today we are releasing GCompris version 3.3."
+msgctxt "20240523.html"
+msgid "Today we are releasing GCompris version 4.1."
+msgstr "今天，我们发布了GCompris 3.3版本。"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
+msgctxt "20240523.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr "在“照片猎人”上包含新的图形和改进。"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is fully translated in the following languages:"
+msgstr "它完全译成以下语言："
+
+#. list item
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240523.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "它还被部分翻译成以下语言："
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240523.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
+#| "available soon in the Android Play store, the F-Droid repository and the "
+#| "Windows store."
+msgctxt "20240523.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"您可以在 <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下载"
+"页</a> 找到这个新版本的 GNU/Linux、Windows、Raspberry Pi 和 macOS 的包。此更"
+"新将很快在 Android Play 商店、F-Droid 仓库和 Windows 商店中提供。"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "感谢大家，<br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1218,3 +1227,23 @@ msgstr ""
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr ""
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
+#~ msgstr "这个版本增加了另外两个语言的翻译：阿拉伯语和埃斯佩兰托语。"
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
+#~ "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
+#~ "\"."
+#~ msgstr ""
+#~ "它包含对多个活动的错误修复，如“路径编码”， “文字中的字"
+#~ "母”，“Ballcatch”和“Piano composition”。"
+
+#~ msgctxt "20230606.html"
+#~ msgid ""
+#~ "Some improvements of keyboard handling (shortcuts, focus...) have been "
+#~ "done on several activities."
+#~ msgstr "在几项活动方面对键盘处理作了一些改进 (快捷键、焦点...)。"
