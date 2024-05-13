@@ -149,65 +149,38 @@ msgid "Release GCompris 4.1"
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Today we are releasing GCompris version 3.3."
 msgctxt "20240523.html"
 msgid "Today we are releasing GCompris version 4.1."
-msgstr "今天，我们发布了GCompris 3.3版本。"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240523.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "在“照片猎人”上包含新的图形和改进。"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240523.html"
 msgid "It is fully translated in the following languages:"
-msgstr "它完全译成以下语言："
+msgstr ""
 
 #. list item
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240523.html"
 msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240523.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "它还被部分翻译成以下语言："
+msgstr ""
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240523.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will be "
-#| "available soon in the Android Play store, the F-Droid repository and the "
-#| "Windows store."
 msgctxt "20240523.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -216,17 +189,11 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"您可以在 <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">下载"
-"页</a> 找到这个新版本的 GNU/Linux、Windows、Raspberry Pi 和 macOS 的包。此更"
-"新将很快在 Android Play 商店、F-Droid 仓库和 Windows 商店中提供。"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "感谢大家，<br/>Timothée & Johnny"
+msgstr ""
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1227,23 +1194,3 @@ msgstr ""
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr ""
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr "这个版本增加了另外两个语言的翻译：阿拉伯语和埃斯佩兰托语。"
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "It contains bug fixes on multiple activities such as \\\"Path encoding\\"
-#~ "\", \\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\"
-#~ "\"."
-#~ msgstr ""
-#~ "它包含对多个活动的错误修复，如“路径编码”， “文字中的字"
-#~ "母”，“Ballcatch”和“Piano composition”。"
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "Some improvements of keyboard handling (shortcuts, focus...) have been "
-#~ "done on several activities."
-#~ msgstr "在几项活动方面对键盘处理作了一些改进 (快捷键、焦点...)。"
