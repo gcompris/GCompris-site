@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-04-16 01:50+0000\n"
+"POT-Creation-Date: 2024-05-12 01:58+0000\n"
 "PO-Revision-Date: 2024-04-21 12:12+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -19,83 +19,6 @@ msgstr ""
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-
-#. news title
-msgctxt "20230606.html"
-msgid "Release GCompris 3.3"
-msgstr "GCompris 3.3 er ute"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Today we are releasing GCompris version 3.3."
-msgstr "I dag gjev me ut GCompris versjon 3.3."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"This version adds translations for 2 more languages: Arabic and Esperanto."
-msgstr "Denne versjonen er omsett til to nye språk, arabisk og esperanto."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"It contains bug fixes on multiple activities such as \\\"Path encoding\\\", "
-"\\\"Letter in word\\\", \\\"Ballcatch\\\" and \\\"Piano composition\\\"."
-msgstr ""
-"Han har òg feilrettingar for aktivitetane «Sti-koding», «Bokstav i kva ord», "
-"«Send ballen til Tux» og «Komponering for piano»."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"Some improvements of keyboard handling (shortcuts, focus...) have been done "
-"on several activities."
-msgstr "I fleire aktivitetar er navigering via tastaturet forbetra."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
-msgstr "Og det er laga nye teikningar til «Fotojakt»-aktiviteten."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Programmet er fullstendig omsett til desse språka:"
-
-#. list item
-msgctxt "20230606.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Det er òg delvis omsett til desse språka:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20230606.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
-
-#. paragraph
-msgctxt "20230606.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Raspberry "
-"Pi and macOS on the <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">download page</a>. This update will be available soon in the "
-"Android Play store, the F-Droid repository and the Windows store."
-msgstr ""
-"Du finn pakkar for GNU/Linux, Windows Raspberry Pi og macOS på <a href=\\"
-"\"https://gcompris.net/downloads{{ suffix }}.html\\\">nedlastings­sida</a>. "
-"Oppdateringa er òg snart tilgjengeleg på Android Play Store, i F-Droid og på "
-"Windows Store."
-
-#. paragraph
-msgctxt "20230606.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240221.html"
@@ -218,12 +141,68 @@ msgid ""
 "Windows store."
 msgstr ""
 "Du finn pakkar for denne nye versjonen for GNU/Linux, Windows, Android, "
-"Raspberry Pi og macOS på <a href=\\\"https://gcompris.net/downloads{{ suffix "
-"}}.html\\\">nedlastings­sida</a>. Oppdateringa er òg snart tilgjengeleg på "
-"Android Play Store, i F-Droid og på Windows Store."
+"Raspberry Pi og macOS på <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">nedlastings­sida</a>. Oppdateringa er òg snart "
+"tilgjengeleg på Android Play Store, i F-Droid og på Windows Store."
 
 #. paragraph
 msgctxt "20240221.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Takk, alle saman!<br/>Timothée & Johnny"
+
+#. news title
+msgctxt "20240523.html"
+msgid "Release GCompris 4.1"
+msgstr "GCompris 4.1 er ute"
+
+#. paragraph
+msgctxt "20240523.html"
+msgid "Today we are releasing GCompris version 4.1."
+msgstr "I dag gjev me ut GCompris versjon 4.1."
+
+#. paragraph
+msgctxt "20240523.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20240523.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Programmet er fullstendig omsett til desse språka:"
+
+#. list item
+msgctxt "20240523.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+msgctxt "20240523.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Det er òg delvis omsett til desse språka:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20240523.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
+
+#. paragraph
+msgctxt "20240523.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Du finn pakkar for denne nye versjonen for GNU/Linux, Windows, Android, "
+"Raspberry Pi og macOS på <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">nedlastings­sida</a>. Oppdateringa er òg snart "
+"tilgjengeleg på Android Play Store, i F-Droid og på Windows Store."
+
+#. paragraph
+msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
