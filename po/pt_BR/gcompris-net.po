@@ -11,9 +11,9 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-12 01:58+0000\n"
-"PO-Revision-Date: 2024-01-31 22:01-0300\n"
+"PO-Revision-Date: 2024-05-16 20:56-0300\n"
 "Last-Translator: Frederico Goncalves Guimaraes <frederico@teia.bio.br>\n"
-"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -176,52 +176,32 @@ msgstr "Obrigado a todo mundo, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240523.html"
 msgid "Release GCompris 4.1"
-msgstr "Lançamento do GCompris 4.0"
+msgstr "Lançamento do GCompris 4.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240523.html"
 msgid "Today we are releasing GCompris version 4.1."
-msgstr "Hoje estamos lançando a versão 4.0 do GCompris."
+msgstr "Hoje estamos lançando a versão 4.1 do GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240523.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Ela também contém correções de erros e melhorias gráficas em várias "
-"atividades."
+"Ela contém correções de erros e melhorias gráficas em várias atividades."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240523.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ele foi totalmente traduzido para os seguintes idiomas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240523.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240523.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
@@ -229,22 +209,11 @@ msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240523.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240523.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -253,16 +222,14 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Você encontra os pacotes desta nova versão para GNU/Linux, Windows e MacOS "
-"na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">página de "
-"downloads</a>. Esta atualização também estará disponível em breve na Play "
-"Store do Android, no repositório F-Droid e na Windows Store."
+"Você encontra os pacotes desta nova versão para GNU/Linux, Windows, Android, "
+"Raspberry Pi e MacOS na <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">página de downloads</a>. Esta atualização "
+"também estará disponível em breve na Play Store do Android, no repositório F-"
+"Droid e na Windows Store."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todo mundo, <br/>Timothée & Johnny"
