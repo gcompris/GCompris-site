@@ -2,8 +2,8 @@
 $Destination['en'] = '-en';
 $Destination['ar'] = '-ar';
 $Destination['be'] = '-be';
+$Destination['bg'] = '-bg';
 $Destination['br'] = '-br';
-// $Destination['bg'] = '-bg';
 $Destination['ca'] = '-ca';
 $Destination['cs'] = '-cs';
 // $Destination['da'] = '-da';
