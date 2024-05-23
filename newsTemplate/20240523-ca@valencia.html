@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament de GCompris 4.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.1.png' class='col-xs-12 col-md-4' alt='gcompris 4.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.1.png')"/>
+
+<p>Hui fem el llançament de GCompris versió 4.1.</p>
+<p>Conté esmenes d'errors i millores gràfiques en múltiples activitats.</p>
+
+<p>Està traduït completament als idiomes següents:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>També està traduït parcialment als idiomes següents:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Trobareu els paquets d'esta nova versió per a GNU/Linux, Windows, Android, Raspberry Pi i macOS a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Esta actualització també estarà disponible prompte en la botiga Android Play, el repositori de F-Droid i en la botiga de Windows.</p>
+
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+
+{% endblock %}
