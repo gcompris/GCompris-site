@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 4.1 leidimas' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.1.png' class='col-xs-12 col-md-4' alt='gcompris 4.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.1.png')"/>
+
+<p>Šiandien išleidžiame GCompris 4.1 versiją.</p>
+<p>Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje paveikslėlius.
+Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse.</p>
+
+<p>Jis visiškai išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Jis taip pat iš dalies išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+
+{% endblock %}
