@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 4.1 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.1.png' class='col-xs-12 col-md-4' alt='gcompris 4.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.1.png')"/>
+
+<p>Gaurkoan GCompris 4.1 bertsioa argitaratzen dugu.</p>
+<p>Jarduera askorako akats konponketak eta grafikoen hobekuntzak ditu.</p>
+
+<p>Ondoko hizkuntzatan osorik itzulita dago:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Ondoko hizkuntzatan hein batean ere itzulita dago:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} (%{{ oneStatus }})</li>
+  {% endfor %}
+</ul>
+
+<p><a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a> bertsio berri honetarako GNU/Linux, Windows, Android, Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+
+<p>Eskerrik asko guztiei, <br/>Timothée eta Johnny</p>
+
+{% endblock %}
