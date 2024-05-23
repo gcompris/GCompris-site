@@ -15,45 +15,47 @@
 	        <p>{% trans %}If you don't want the software to download anything automatically, you can disable the option "Enable automatic downloads/updates of sound files" in the main configuration page.{% endtrans %}</p>
 	        <br/>
             <div class="newstitle" id="assets_download" ><a href= "#assets_download">{% trans %}How can I manually download and install the extra assets?{% endtrans %}</a></div>
+	        <p>{% trans %}IMPORTANT: for GCompris versions older than 4.0, you need to replace "data3" with "data2" in all instructions below.{% endtrans %}</p>
+	        <p>{% trans %}IMPORTANT: from GCompris version 4.0, we added the date of the last update in the .rcc filenames. So you need to look in the "Contents" files what is the name of the latest one before downloading it. For example:{% endtrans %} backgroundMusic-ogg-2024-03-19-11-10-30.rcc . {% trans %}For older versions, the filenames don't contain the date. Example:{% endtrans %} backgroundMusic-ogg.rcc</p>
+	        {% trans %}IMPORTANT: in the following instructions, replace "-codecName" with "-mp3" for Windows systems, or "-ogg" for Linux or Android systems, or "-aac" for macOS systems. Also, replace "-localeCode" with the code of your locale.{% endtrans %} {% trans %}And as explained above, from GCompris version 4.0, replace "-date" with the date you found in the "Contents" file; for older versions, remove the "-date" part.{% endtrans %}</p>
 	        <p>{% trans %}You can download the extra assets from this link:{% endtrans %}</p>
 	        <pre>
-https://cdn.kde.org/gcompris/data2/
+https://cdn.kde.org/gcompris/data3/
 </pre>
-	        <p>{% trans %}IMPORTANT: in the following instructions, replace "-codecName" with "-mp3" for Windows systems, or "-ogg" for Linux or Android systems, or "-aac" for macOS systems. Also, replace "-localeCode" with the code of your locale.{% endtrans %}</p>
 	        <p>{% trans %}For the background music, you need to go in the folder named "backgroundMusic" and download those 2 files:{% endtrans %}</p>
 	        <pre>
 Contents
-backgroundMusic-codecName.rcc
+backgroundMusic-codecName-date.rcc
 </pre>
 	        <p>{% trans %}Then copy those 2 files in a folder named "backgroundMusic" in the cache folder of the application.{% endtrans %}</p>
             <p>{% trans %}For the voices, you need to go in the folder named "voices-codecName" and download those 2 files:{% endtrans %}</p>
 	        <pre>
 Contents
-voices-localeCode.rcc
+voices-localeCode-date.rcc
 </pre>
             <p>{% trans %}Then copy those 2 files in a folder named "voices-codecName" in the cache folder of the application.{% endtrans %}</p>
             <p>{% trans %}For the images, you need to go in the folder named "words" and download those 2 files:{% endtrans %}</p>
 	        <pre>
 Contents
-words-webp.rcc
+words-webp-date.rcc
 </pre>
             <p>{% trans %}Then copy those 2 files in a folder named "words" in the cache folder of the application.{% endtrans %}</p>
             <p>{% trans %}The path to the cache folder is different depending on the operating system.{% endtrans %}</p>
             <p>{% trans %}Path on Windows:{% endtrans %}</p>
 	        <pre>
-C:\Users\Username\AppData\Local\KDE\GCompris\cache\data2\
+C:\Users\Username\AppData\Local\KDE\GCompris\cache\data3\
 </pre>
             <p>{% trans %}Path on Linux:{% endtrans %}</p>
 	        <pre>
-/home/userName/.cache/KDE/gcompris-qt/data2/
+/home/userName/.cache/KDE/gcompris-qt/data3/
 </pre>
             <p>{% trans %}Path on Android (you need to have root access to edit this folder):{% endtrans %}</p>
 	        <pre>
-/data/data/net.gcompris.full/data2/
+/data/data/net.gcompris.full/data3/
 </pre>
             <p>{% trans %}Path on macOS:{% endtrans %}</p>
 	        <pre>
-~/Library/Caches/KDE/gcompris-qt/data2/
+~/Library/Caches/KDE/gcompris-qt/data3/
 </pre>
 	        <br/>
             <div class="newstitle" id="package" ><a href= "#package">{% trans %}Is GCompris a GNU package or a KDE package?{% endtrans %}</a></div>
