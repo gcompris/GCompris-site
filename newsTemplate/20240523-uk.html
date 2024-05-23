@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Випуск GCompris 4.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.1.png' class='col-xs-12 col-md-4' alt='gcompris 4.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.1.png')"/>
+
+<p>Сьогодні нами випущено GCompris версії 4.1.</p>
+<p>Виправлено вади та удосконалено графіку у декількох вправах.</p>
+
+<p>Повністю перекладено такими мовами:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Також частково перекладено такими мовами:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Посилання на пакунки нової версії для GNU/Linux, Windows, Android, Raspberry Pi та MacOS можна знайти на <a href="https://gcompris.net/downloads{{ suffix }}.html">сторінці отримання пакунків</a>. Невдовзі пакунки оновленої версії також з'являться у крамниці Android Play, сховищі F-Droid та крамниці Windows.</p>
+
+<p>Дякуємо вам усім, <br/>Timothée і Johnny</p>
+
+{% endblock %}
