@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Eldono GCompris 4.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.1.png' class='col-xs-12 col-md-4' alt='gcompris 4.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.1.png')"/>
+
+<p>Hodiaŭ ni publikigas GCompris version 4.1.</p>
+<p>Ĝi enhavas cimkorektojn kaj grafikaĵajn plibonigojn en pluraj aktivecoj.</p>
+
+<p>Ĝi estas plene tradukita en la jenajn lingvojn:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Ĝi ankaŭ estas parte tradukita en la sekvajn lingvojn:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Vi povas trovi pakaĵojn de ĉi tiu nova versio por GNU/Linukso, Vindozo, Android, Raspberry Pi kaj macOS ĉe la <a href="https://gcompris.net/downloads{{ suffix }}.html">elŝuta paĝo</a>. Ĉi tiu ĝisdatigo estos disponebla baldaŭ en la Android Play-butiko, la F-Droid-deponejo kaj la Vindoza vendejo.</p>
+
+<p>Dankon al ĉiuj, <br/>Timothée & Johnny</p>
+
+{% endblock %}
