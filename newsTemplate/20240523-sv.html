@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 4.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.1.png' class='col-xs-12 col-md-4' alt='gcompris 4.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.1.png')"/>
+
+<p>Idag ger vi ut GCompris version 4.1.</p>
+<p>Den innehåller felrättningar och grafikförbättringar för flera aktiviteter.</p>
+
+<p>Den är fullständigt översatt på följande språk:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Den är också delvis översatt på följande språk:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Du kan hitta paket av den nya versionen för GNU/Linux, Windows, Android, Raspberry Pi och macOS på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer också snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+
+{% endblock %}
