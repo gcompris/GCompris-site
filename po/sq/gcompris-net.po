@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-12 01:58+0000\n"
+"POT-Creation-Date: 2024-05-24 01:50+0000\n"
 "PO-Revision-Date: 2024-01-20 14:28+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
@@ -505,7 +505,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Besnik Bleta"
 
-#: gcompris.py:386
+#: gcompris.py:390
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Ofrojuni fëmijëve tuaj GCompris-në për Krishtlindje."
 
@@ -902,10 +902,23 @@ msgid "How can I manually download and install the extra assets?"
 msgstr "Si mund t’i shkarkoj dhe instaloj dorazi elementë shtesë?"
 
 #: template/faq.html:18
-msgid "You can download the extra assets from this link:"
-msgstr "Burimet shtesë mund t’i shkarkoni nga kjo lidhje:"
+msgid ""
+"IMPORTANT: for GCompris versions older than 4.0, you need to replace "
+"\"data3\" with \"data2\" in all instructions below."
+msgstr ""
 
-#: template/faq.html:22
+#: template/faq.html:19
+msgid ""
+"IMPORTANT: from GCompris version 4.0, we added the date of the last update "
+"in the .rcc filenames. So you need to look in the \"Contents\" files what is "
+"the name of the latest one before downloading it. For example:"
+msgstr ""
+
+#: template/faq.html:19
+msgid "For older versions, the filenames don't contain the date. Example:"
+msgstr ""
+
+#: template/faq.html:20
 msgid ""
 "IMPORTANT: in the following instructions, replace \"-codecName\" with \"-"
 "mp3\" for Windows systems, or \"-ogg\" for Linux or Android systems, or \"-"
@@ -916,7 +929,18 @@ msgstr ""
 "sisteme Windows, ose “-ogg” për sisteme Linux ose Android, ose “-aac” për "
 "sisteme macOS. Tjetër, zëvendësoni “-localeCode” me kodin e vendores tuaj."
 
-#: template/faq.html:23
+#: template/faq.html:20
+msgid ""
+"And as explained above, from GCompris version 4.0, replace \"-date\" with "
+"the date you found in the \"Contents\" file; for older versions, remove the "
+"\"-date\" part."
+msgstr ""
+
+#: template/faq.html:21
+msgid "You can download the extra assets from this link:"
+msgstr "Burimet shtesë mund t’i shkarkoni nga kjo lidhje:"
+
+#: template/faq.html:25
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
@@ -924,7 +948,7 @@ msgstr ""
 "Për muzikë sfond, duhet të kaloni te dosja e quajtur “backgroundMusic” dhe "
 "të shkarkoni këto 2 kartela:"
 
-#: template/faq.html:28
+#: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
@@ -932,7 +956,7 @@ msgstr ""
 "Mandej kopjojini këto 2 kartela te dosja e quajtur “backgroundMusic” \" te "
 "dosja fshehtinë e aplikacionit."
 
-#: template/faq.html:29
+#: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
@@ -940,7 +964,7 @@ msgstr ""
 "Për zërat, duhet të kaloni te një dosje e quajtur “voices-codecName” dhe të "
 "shkarkoni këto 2 kartela:"
 
-#: template/faq.html:34
+#: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
@@ -948,7 +972,7 @@ msgstr ""
 "Mandej kopjojini këto 2 kartela te një dosje e quajtur “voices-codecName” te "
 "dosja fshehtinë e aplikacionit."
 
-#: template/faq.html:35
+#: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
@@ -956,7 +980,7 @@ msgstr ""
 "Për figurat, duhet të kaloni te dosja e quajtur “fjalë” dhe të shkarkoni "
 "këto 2 kartela:"
 
-#: template/faq.html:40
+#: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
@@ -964,35 +988,35 @@ msgstr ""
 "Mandej kopjojini këto 2 kartela te një dosje e quajtur “words” te dosja "
 "fshehtinë e aplikacionit."
 
-#: template/faq.html:41
+#: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
 "Shtegu për te dosja fshehtinë është i ndryshëm, varet nga sistemi operativ."
 
-#: template/faq.html:42
+#: template/faq.html:44
 msgid "Path on Windows:"
 msgstr "Shteg në Windows:"
 
-#: template/faq.html:46
+#: template/faq.html:48
 msgid "Path on Linux:"
 msgstr "Shteg në Linux:"
 
-#: template/faq.html:50
+#: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
 "Shteg në Android (që të përpunoni këtë dosje, lypset të keni hyrje si "
 "rrënjë):"
 
-#: template/faq.html:54
+#: template/faq.html:56
 msgid "Path on macOS:"
 msgstr "Shteg në macOS:"
 
-#: template/faq.html:59
+#: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
 msgstr "GCompris-i është paketë GNU, apo paketë KDE?"
 
-#: template/faq.html:60
+#: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
@@ -1000,11 +1024,11 @@ msgstr ""
 "Është të dyja. Që në fillimet, GCompris ka qenë përherë dhe është ende një "
 "paketë GNU. Që nga 2014-a mirëmbahet nga bashkësia KDE."
 
-#: template/faq.html:62
+#: template/faq.html:64
 msgid "Does this software depend on non-free packages or content?"
 msgstr "A varet ky <em>software</em> nga paketa ose lëndë jo e lirë?"
 
-#: template/faq.html:63
+#: template/faq.html:65
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1012,11 +1036,11 @@ msgstr ""
 "Krejt lënda dhe varësitë gjenden nën licenca të përputhshme me licencën "
 "AGPLv3."
 
-#: template/faq.html:65
+#: template/faq.html:67
 msgid "Why is it not available for iOS?"
 msgstr "Pse s’mund të kihet për iOS?"
 
-#: template/faq.html:66
+#: template/faq.html:68
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1025,11 +1049,11 @@ msgstr ""
 "të përputhshme me licencat GPLv3 dhe AGPLv3 të përdorura nga ky "
 "<em>software</em>."
 
-#: template/faq.html:68
+#: template/faq.html:70
 msgid "Why is it not available on the amazon store?"
 msgstr "Pse nuk mund të kihet nga shitore Amazon?"
 
-#: template/faq.html:69
+#: template/faq.html:71
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

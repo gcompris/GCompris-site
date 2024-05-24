@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-12 01:58+0000\n"
+"POT-Creation-Date: 2024-05-24 01:50+0000\n"
 "PO-Revision-Date: 2024-05-12 09:29+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -504,7 +504,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Equip de traducció de KDE al català"
 
-#: gcompris.py:386
+#: gcompris.py:390
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Per Nadal, oferiu el GCompris als vostres fills."
 
@@ -900,10 +900,23 @@ msgid "How can I manually download and install the extra assets?"
 msgstr "Com puc descarregar i instal·lar manualment els recursos addicionals?"
 
 #: template/faq.html:18
-msgid "You can download the extra assets from this link:"
-msgstr "Podeu baixar els recursos extres des d'aquest enllaç:"
+msgid ""
+"IMPORTANT: for GCompris versions older than 4.0, you need to replace "
+"\"data3\" with \"data2\" in all instructions below."
+msgstr ""
 
-#: template/faq.html:22
+#: template/faq.html:19
+msgid ""
+"IMPORTANT: from GCompris version 4.0, we added the date of the last update "
+"in the .rcc filenames. So you need to look in the \"Contents\" files what is "
+"the name of the latest one before downloading it. For example:"
+msgstr ""
+
+#: template/faq.html:19
+msgid "For older versions, the filenames don't contain the date. Example:"
+msgstr ""
+
+#: template/faq.html:20
 msgid ""
 "IMPORTANT: in the following instructions, replace \"-codecName\" with \"-"
 "mp3\" for Windows systems, or \"-ogg\" for Linux or Android systems, or \"-"
@@ -915,7 +928,18 @@ msgstr ""
 "sistemes macOS. A més, substituïu «-localeCode» pel codi de la vostra "
 "configuració regional."
 
-#: template/faq.html:23
+#: template/faq.html:20
+msgid ""
+"And as explained above, from GCompris version 4.0, replace \"-date\" with "
+"the date you found in the \"Contents\" file; for older versions, remove the "
+"\"-date\" part."
+msgstr ""
+
+#: template/faq.html:21
+msgid "You can download the extra assets from this link:"
+msgstr "Podeu baixar els recursos extres des d'aquest enllaç:"
+
+#: template/faq.html:25
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
@@ -923,7 +947,7 @@ msgstr ""
 "Per a la música de fons, cal anar a la carpeta anomenada «backgroundMusic» i "
 "descarregar aquests 2 fitxers:"
 
-#: template/faq.html:28
+#: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
@@ -931,7 +955,7 @@ msgstr ""
 "Després copieu aquests 2 fitxers en una carpeta anomenada «backgroundMusic» "
 "a la carpeta de la memòria cau de l'aplicació."
 
-#: template/faq.html:29
+#: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
@@ -939,7 +963,7 @@ msgstr ""
 "Per a les veus, cal anar a la carpeta anomenada «voices-codecName» i "
 "descarregar aquests 2 fitxers:"
 
-#: template/faq.html:34
+#: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
@@ -947,7 +971,7 @@ msgstr ""
 "Després copieu aquests 2 fitxers en una carpeta anomenada «voices-codecName» "
 "a la carpeta de la memòria cau de l'aplicació."
 
-#: template/faq.html:35
+#: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
@@ -955,7 +979,7 @@ msgstr ""
 "Per a les imatges, cal anar a la carpeta anomenada «words» i descarregar "
 "aquests 2 fitxers:"
 
-#: template/faq.html:40
+#: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
@@ -963,36 +987,36 @@ msgstr ""
 "A continuació, copieu aquests 2 fitxers en una carpeta anomenada «words» a "
 "la carpeta de la memòria cau de l'aplicació."
 
-#: template/faq.html:41
+#: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
 "El camí a la carpeta de la memòria cau és diferent segons el sistema "
 "operatiu."
 
-#: template/faq.html:42
+#: template/faq.html:44
 msgid "Path on Windows:"
 msgstr "Camí en el Windows:"
 
-#: template/faq.html:46
+#: template/faq.html:48
 msgid "Path on Linux:"
 msgstr "Camí en el Linux:"
 
-#: template/faq.html:50
+#: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
 "Camí en l'Android (cal tenir accés d'administrador per a editar aquesta "
 "carpeta):"
 
-#: template/faq.html:54
+#: template/faq.html:56
 msgid "Path on macOS:"
 msgstr "Camí en el macOS:"
 
-#: template/faq.html:59
+#: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
 msgstr "El GCompris és un paquet de GNU o un paquet de KDE?"
 
-#: template/faq.html:60
+#: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
@@ -1000,11 +1024,11 @@ msgstr ""
 "Són les dues coses. Des del principi, el GCompris sempre ha estat i continua "
 "sent un paquet de GNU. Des de 2014 és mantingut per la comunitat KDE."
 
-#: template/faq.html:62
+#: template/faq.html:64
 msgid "Does this software depend on non-free packages or content?"
 msgstr "Depèn aquest programari de paquets o continguts no lliures?"
 
-#: template/faq.html:63
+#: template/faq.html:65
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1012,11 +1036,11 @@ msgstr ""
 "Tots els continguts i dependències estan amb llicències compatibles amb la "
 "llicència AGPLv3."
 
-#: template/faq.html:65
+#: template/faq.html:67
 msgid "Why is it not available for iOS?"
 msgstr "Per què no està disponible per a l'iOS?"
 
-#: template/faq.html:66
+#: template/faq.html:68
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1025,11 +1049,11 @@ msgstr ""
 "compatibles amb les llicències GPLv3 i AGPLv3 utilitzades per aquest "
 "programari."
 
-#: template/faq.html:68
+#: template/faq.html:70
 msgid "Why is it not available on the amazon store?"
 msgstr "Per què no està disponible a la botiga d'Amazon?"
 
-#: template/faq.html:69
+#: template/faq.html:71
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "
