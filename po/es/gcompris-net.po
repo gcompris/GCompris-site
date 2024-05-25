@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
-"PO-Revision-Date: 2024-05-12 15:16+0200\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"PO-Revision-Date: 2024-05-25 00:13+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -913,6 +913,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"IMPORTANTE: Para las versiones de GCompris anteriores a 4.0 debe sustituir "
+"«data3» con «data2» en todas las instrucciones siguientes."
 
 #: template/faq.html:19
 msgid ""
@@ -920,10 +922,16 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"IMPORTANTE: A partir de GCompris versión 4.0, hemos añadido la fecha de la "
+"última actualización en los nombres de los archivos .rcc. Así, debe "
+"comprobar en los archivos «Contents» cuál es el nombre del último antes de "
+"descargarlo. Por ejemplo:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
 msgstr ""
+"Para las versiones anteriores, los nombres de los archivos no contienen la "
+"fecha. Por ejemplo:"
 
 #: template/faq.html:20
 msgid ""
@@ -943,6 +951,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Como se ha explicado antes, a partir de GCompris versión 4.0, sustituya «-"
+"fecha» con la fecha que puede encontrar en el archivo «Contents». Para las "
+"versiones anteriores, elimine la parte de la «-fecha»."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1031,10 +1042,22 @@ msgstr ""
 "un paquete de GNU. Desde 2014 lo mantiene la comunidad KDE."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "¿Por qué no está disponible para iOS?"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "¿Depende este software de paquetes o contenido no libre?"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1042,11 +1065,11 @@ msgstr ""
 "Todo el contenido y las dependencias están bajo licencias compatibles con la "
 "licencia AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "¿Por qué no está disponible para iOS?"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1054,11 +1077,11 @@ msgstr ""
 "Los requisitos para compilar y publicar software para iOS no son compatibles "
 "con las licencias GPLv3 y AGPLv3 que usa este software."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "¿Por qué no está disponible en la tienda de Amazon?"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

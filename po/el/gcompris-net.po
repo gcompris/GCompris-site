@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2024-01-20 19:27+0200\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -1042,11 +1042,23 @@ msgstr ""
 "KDE."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "Γιατί δεν είναι διαθέσιμο για iOS;"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr ""
 "Αυτό το λογισμικό εξαρτάται από πακέτα ή περιεχόμενο που δεν είναι δωρεάν;"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1054,11 +1066,11 @@ msgstr ""
 "Όλο το περιεχόμενο και οι εξαρτήσεις υπόκεινται σε άδειες συμβατές με την "
 "άδεια AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Γιατί δεν είναι διαθέσιμο για iOS;"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1067,11 +1079,11 @@ msgstr ""
 "είναι συμβατές με τις άδειες χρήσης GPLv3 και AGPLv3 που χρησιμοποιούνται "
 "από αυτό το λογισμικό."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Γιατί δεν είναι διαθέσιμο στο amazon store;"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

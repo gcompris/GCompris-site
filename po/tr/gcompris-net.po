@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
-"PO-Revision-Date: 2024-05-12 15:17+0300\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"PO-Revision-Date: 2024-05-24 06:09+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -894,6 +894,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"ÖNEMLİ: 4.0 öncesi sürümler için aşağıdaki yönergelerde “data3” yazan "
+"yerleri “data2” ile değiştirmeniz gerekir."
 
 #: template/faq.html:19
 msgid ""
@@ -901,10 +903,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"ÖNEMLİ: GCompris 4.0 sürümü için .rcc dosya adlarına son güncelleme tarihini "
+"ekledik. Bu yüzden indirmeden önce “Contents” içindeki dosyalara bakmanız "
+"gerekir. Örneğin:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "Eski sürümlerde dosya adlarında tarih yoktur. Örneğin:"
 
 #: template/faq.html:20
 msgid ""
@@ -923,6 +928,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Ayrıca yukarıda açıklandığı üzere, GCompris 4.0 sürümünden itibaren “-date” "
+"kısmını “Contents” dosyasında bulduğunuz tarih ile değiştirin. Önceki "
+"sürümler için “-date” kısmını kaldırın."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1012,21 +1020,33 @@ msgstr ""
 "öyle. 2014 yılından bu yana ise KDE topluluğu tarafından barındırılıyor."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "Neden iOS için yok?"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr ""
 "Bu yazılım özgür olmayan paketler veya içeriğin kullanımını gerektiriyor mu?"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr "Tüm içerik ve bağımlılıkları AGPLv3 lisansı ile uyumludur."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Neden iOS için yok?"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1034,11 +1054,11 @@ msgstr ""
 "iOS için yazılım yapım ve yayım gereksinimleri, bu yazılım tarafından "
 "kullanılan GPLv3 ve AGPLv3 lisansları ile uyumlu değil."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Amazon Store’da neden yok?"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.70\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2020-03-16 23:52+0100\n"
 "Last-Translator: Timo <animtim@gmail.com>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -929,30 +929,40 @@ msgid ""
 msgstr ""
 
 #: template/faq.html:64
-msgid "Does this software depend on non-free packages or content?"
+msgid "Why is it called GCompris?"
 msgstr ""
 
 #: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
+msgid "Does this software depend on non-free packages or content?"
+msgstr ""
+
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr ""
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr ""
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
-"PO-Revision-Date: 2024-05-12 06:33+0200\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"PO-Revision-Date: 2024-05-24 06:32+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Generated-By: Babel 1.3\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #. news title
 msgctxt "20240221.html"
@@ -893,6 +893,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"POMEMBNO: za GCompris različice starejše od 4.0, morate v vseh navodilih "
+"spodaj zamenjati \"data3\" z \"data2\"."
 
 #: template/faq.html:19
 msgid ""
@@ -900,10 +902,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"POMEMBNO: od GCompris različice 4.0 smo v imena datotek .rcc dodali datum "
+"zadnje posodobitve. Zato morate v datotekah \"Contents\" pogledati, kako se "
+"imenuje najnovejša, preden jo prenesete. Na primer:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "Pri starejših različicah imena datotek ne vsebujejo datuma. primer:"
 
 #: template/faq.html:20
 msgid ""
@@ -922,6 +927,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"In kot je razloženo zgoraj, iz GCompris različice 4.0 zamenjajte \"-datum\" "
+"z datumom, ki ste ga našli v datoteki \"Contents\"; za starejše različice "
+"odstranite del \"-datum\"."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1009,21 +1017,33 @@ msgstr ""
 "2014 ga vzdržuje skupnost KDE."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "Zakaj ni na voljo za iOS?"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "Ali je ta programska oprema odvisna od neprostih paketov ali vsebine?"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
 "Vsa vsebina in odvisnosti so pod licencami, združljivimi z licenco AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Zakaj ni na voljo za iOS?"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1031,11 +1051,11 @@ msgstr ""
 "Zahteve za izdelavo in objavo programske opreme za iOS niso združljive z "
 "licencama GPLv3 in AGPLv3, ki ju uporablja ta programska oprema."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Zakaj ni na voljo v trgovini Amazon?"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

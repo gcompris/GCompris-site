@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2024-05-12 12:12+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -1022,10 +1022,22 @@ msgstr ""
 "pacchetto GNU. Dal 2014 è gestito dalla comunità KDE."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "Perché non è disponibile per iOS?"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "Questo software dipende da pacchetti o contenuti non liberi?"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1033,11 +1045,11 @@ msgstr ""
 "Tutti i contenuti e le dipendenze sono soggetti a licenze compatibili con la "
 "licenza AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Perché non è disponibile per iOS?"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1045,11 +1057,11 @@ msgstr ""
 "I requisiti per creare e pubblicare software per iOS non sono compatibili "
 "con le licenze GPLv3 e AGPLv3 utilizzate da questo software."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Perché non è disponibile sullo store di Amazon?"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

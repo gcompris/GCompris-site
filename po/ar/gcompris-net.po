@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2024-01-23 22:44+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -982,20 +982,32 @@ msgstr ""
 "من قبل مجتمع كيدي."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "لماذا لا يتوفر على أي أو أس؟"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "هل يعتمد هذا البرنامج على حزم أو محتوى غير مجاني؟"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr "جميع المحتويات والتبعيات تخضع لتراخيص متوافقة مع ترخيص AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "لماذا لا يتوفر على أي أو أس؟"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1003,11 +1015,11 @@ msgstr ""
 "لا تتوافق متطلبات إنشاء البرامج لنظام iOS ونشرها مع تراخيص GPLv3 وAGPLv3 "
 "التي يستخدمها هذا البرنامج."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "لماذا لا يتوفر في متجر أمازون؟"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

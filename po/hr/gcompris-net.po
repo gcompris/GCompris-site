@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2024-01-21 18:37+0100\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -1014,10 +1014,22 @@ msgstr ""
 "2014. održava ga KDE zajednica."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "Zašto nije dostupan za iOS?"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "Ovisi li ovaj softver o naplatnim paketima ili sadržajima?"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1025,11 +1037,11 @@ msgstr ""
 "Sav sadržaj i ostali popratni sadržaj su pod licencama kompatibilnim s "
 "licencom AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Zašto nije dostupan za iOS?"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1037,11 +1049,11 @@ msgstr ""
 "Zahtjevi za izradu i objavljivanje softvera za iOS nisu kompatibilni s GPLv3 "
 "i AGPLv3 licencama koje koristi ovaj softver."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Zašto nije dostupan u Amazon trgovini?"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

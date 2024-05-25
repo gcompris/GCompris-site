@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-24 01:50+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2024-02-14 11:55+0300\n"
 "Last-Translator: Godlove Kyando <godlove.kyando@tie.go.tz>\n"
 "Language-Team: Swahili <kde-l10n-sw@kde.org>\n"
@@ -1009,10 +1009,22 @@ msgstr ""
 "Tangu 2014 inadumishwa na jumuiya ya KDE."
 
 #: template/faq.html:64
+#, fuzzy
+#| msgid "Why is it not available for iOS?"
+msgid "Why is it called GCompris?"
+msgstr "Kwa nini haipatikani kwa iOS?"
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "Je, programu hii inategemea vifurushi au maudhui yasiyo ya bure?"
 
-#: template/faq.html:65
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1020,11 +1032,11 @@ msgstr ""
 "Maudhui yote na vitegemezi viko chini ya leseni zinazooana na leseni ya "
 "AGPLv3."
 
-#: template/faq.html:67
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Kwa nini haipatikani kwa iOS?"
 
-#: template/faq.html:68
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1032,11 +1044,11 @@ msgstr ""
 "Masharti ya kuunda na kuchapisha programu ya iOS hayaoani na leseni za GPLv3 "
 "na AGPLv3 zinazotumiwa na programu hii."
 
-#: template/faq.html:70
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Kwa nini haipatikani kwenye duka la amazon?"
 
-#: template/faq.html:71
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "
