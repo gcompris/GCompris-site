@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-25 01:49+0000\n"
-"PO-Revision-Date: 2024-05-12 06:31+0200\n"
+"PO-Revision-Date: 2024-05-25 11:10+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -909,6 +909,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"VIKTIGT: För GCompris versioner äldre än 4.måste \"data3\" ersättas med "
+"\"data2\" i alla instruktioner nedan."
 
 #: template/faq.html:19
 msgid ""
@@ -916,10 +918,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"VIKTIGT: Från GCompris version 4.0 har vi lagt till datum för senaste "
+"uppdatering i .rcc-filnamnen. Så man måste titta i \"Contents\"-filerna för "
+"att se namnet på den senaste innan den laddas ner. Exempelvis:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "För äldre versioner, innehåller inte filnamnen datumet. Exempelvis:"
 
 #: template/faq.html:20
 msgid ""
@@ -938,6 +943,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Och som förklarades ovan, från GCompris version 4.0, ersätt \"-date\" med "
+"datumet som hittades i\"Contents\"-filen, för äldre versioner, ta bort \"-"
+"date\"-delen."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1028,16 +1036,16 @@ msgstr ""
 "ett GNU-paket. Sedan 2014 underhålls det av KDE-gemenskapen."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Varför är det inte tillgänglig för iOS?"
+msgstr "Varför heter det GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Namnet GCompris låter som \"J'ai compris\" på franska, vilket betyder \"Jag "
+"har förstått\" på svenska. Dessutom står G för GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
