@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-12 01:58+0000\n"
+"POT-Creation-Date: 2024-05-25 01:49+0000\n"
 "PO-Revision-Date: 2024-04-21 12:12+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -152,16 +152,12 @@ msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
 #. news title
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Release GCompris 4.1"
 msgctxt "20240523.html"
 msgid "Release GCompris 4.1"
 msgstr "GCompris 4.1 er ute"
 
 #. paragraph
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Today we are releasing GCompris version 4.1."
 msgctxt "20240523.html"
 msgid "Today we are releasing GCompris version 4.1."
 msgstr "I dag gjev me ut GCompris versjon 4.1."
@@ -173,24 +169,18 @@ msgstr ""
 
 #. paragraph
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240523.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Programmet er fullstendig omsett til desse språka:"
 
 #. list item
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240523.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240523.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Det er òg delvis omsett til desse språka:"
@@ -199,21 +189,12 @@ msgstr "Det er òg delvis omsett til desse språka:"
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240523.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240523.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -229,8 +210,6 @@ msgstr ""
 
 #. paragraph
 #, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Takk, alle saman!<br/>Timothée & Johnny"
@@ -508,7 +487,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Karl Ove Hufthammer"
 
-#: gcompris.py:386
+#: gcompris.py:390
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Korfor ikkje visa barna dine GCompris i jula?"
 
@@ -904,10 +883,23 @@ msgid "How can I manually download and install the extra assets?"
 msgstr "Korleis kan eg manuelt lasta ned og installera tilleggsressursane?"
 
 #: template/faq.html:18
-msgid "You can download the extra assets from this link:"
-msgstr "Du finn alle tilleggs­ressursane her:"
+msgid ""
+"IMPORTANT: for GCompris versions older than 4.0, you need to replace "
+"\"data3\" with \"data2\" in all instructions below."
+msgstr ""
 
-#: template/faq.html:22
+#: template/faq.html:19
+msgid ""
+"IMPORTANT: from GCompris version 4.0, we added the date of the last update "
+"in the .rcc filenames. So you need to look in the \"Contents\" files what is "
+"the name of the latest one before downloading it. For example:"
+msgstr ""
+
+#: template/faq.html:19
+msgid "For older versions, the filenames don't contain the date. Example:"
+msgstr ""
+
+#: template/faq.html:20
 msgid ""
 "IMPORTANT: in the following instructions, replace \"-codecName\" with \"-"
 "mp3\" for Windows systems, or \"-ogg\" for Linux or Android systems, or \"-"
@@ -918,7 +910,18 @@ msgstr ""
 "Windows-system, «-ogg» for Linux- og Android-system og «-aac» for macOS-"
 "system. Byt òg ut «-localeCode» med rett språkkode."
 
-#: template/faq.html:23
+#: template/faq.html:20
+msgid ""
+"And as explained above, from GCompris version 4.0, replace \"-date\" with "
+"the date you found in the \"Contents\" file; for older versions, remove the "
+"\"-date\" part."
+msgstr ""
+
+#: template/faq.html:21
+msgid "You can download the extra assets from this link:"
+msgstr "Du finn alle tilleggs­ressursane her:"
+
+#: template/faq.html:25
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
@@ -926,14 +929,14 @@ msgstr ""
 "For bakgrunnsmusikken må du gå til mappa «backgroundMusic» og lasta ned "
 "desse to filene:"
 
-#: template/faq.html:28
+#: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
 "Kopier så filene til mappa «backgroundMusic» i cache-mappa til GCompris."
 
-#: template/faq.html:29
+#: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
@@ -941,53 +944,53 @@ msgstr ""
 "For talefilene må du gå til mappa «voices-codecName» og lasta ned desse to "
 "filene:"
 
-#: template/faq.html:34
+#: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
 "Kopier så filene til mappa «voices-codecName» i cache-mappa til GCompris."
 
-#: template/faq.html:35
+#: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr "For bileta må du gå til mappa «words» og lasta ned desse to filene:"
 
-#: template/faq.html:40
+#: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr "Kopier så filene til mappa «words» i cache-mappa til GCompris."
 
-#: template/faq.html:41
+#: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr "Plasseringa til cache-mappa er forskjellig på ulike operativsystem."
 
-#: template/faq.html:42
+#: template/faq.html:44
 msgid "Path on Windows:"
 msgstr "Plassering på Windows:"
 
-#: template/faq.html:46
+#: template/faq.html:48
 msgid "Path on Linux:"
 msgstr "Plassering på Linux:"
 
-#: template/faq.html:50
+#: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
 "Plassering på Android (du treng rot-tilgang for å kunna gjera endringa i "
 "mappa):"
 
-#: template/faq.html:54
+#: template/faq.html:56
 msgid "Path on macOS:"
 msgstr "Plassering på macOS:"
 
-#: template/faq.html:59
+#: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
 msgstr "Er GCompris ein GNU-pakke eller ein KDE-pakke?"
 
-#: template/faq.html:60
+#: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
@@ -995,11 +998,21 @@ msgstr ""
 "Begge delar. Heilt frå starten av har GCompris vore ein GNU-pakke – og er "
 "det enno. Sidan 2014 har programmet vore utvikla av KDE-fellesskapet."
 
-#: template/faq.html:62
+#: template/faq.html:64
+msgid "Why is it called GCompris?"
+msgstr ""
+
+#: template/faq.html:65
+msgid ""
+"The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
+"understand\" in English. Also, the G stands for GNU."
+msgstr ""
+
+#: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
 msgstr "Er programmet avhengig av ikkje-frie pakkar/innhald?"
 
-#: template/faq.html:63
+#: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
@@ -1007,11 +1020,11 @@ msgstr ""
 "Alt innhaldet og alle avhengnadar er tilgjengelege under lisensar kompatible "
 "med AGPLv3."
 
-#: template/faq.html:65
+#: template/faq.html:70
 msgid "Why is it not available for iOS?"
 msgstr "Korfor er ikkje programmet tilgjengeleg på iOS?"
 
-#: template/faq.html:66
+#: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
@@ -1019,11 +1032,11 @@ msgstr ""
 "Krava for å byggja og offentleggjera appar for iOS er ikkje kompatible med "
 "lisensane som GCompris brukar, GPLv3 og AGPLv3."
 
-#: template/faq.html:68
+#: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
 msgstr "Korfor er ikkje programmet tilgjengeleg i Amazon sin appbutikk?"
 
-#: template/faq.html:69
+#: template/faq.html:74
 msgid ""
 "For android we already publish on the Play store and F-Droid, publishing on "
 "all the stores would require too much work. If you are using a Fire tablet, "

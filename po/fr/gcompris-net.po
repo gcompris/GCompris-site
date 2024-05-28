@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-25 01:49+0000\n"
-"PO-Revision-Date: 2024-05-25 11:36+0200\n"
+"PO-Revision-Date: 2024-05-26 09:22+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -1052,16 +1052,17 @@ msgstr ""
 "logiciel GNU. Depuis 2014, il est maintenu par la communauté KDE."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Pourquoi GCompris n'est-il pas disponible pour iOS ?"
+msgstr "Pourquoi cette suite logicielle s'appelle GCompris ?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Le nom « GCompris » évoque la sonorité « J’ai compris » en français, ce qui "
+"signifie « je comprends » en anglais. De plus, la lettre « G » rappelle "
+"l'acronyme « GNU »."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
