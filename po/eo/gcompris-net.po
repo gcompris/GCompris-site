@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-25 01:49+0000\n"
-"PO-Revision-Date: 2024-05-12 23:22+0100\n"
+"PO-Revision-Date: 2024-05-29 23:46+0200\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -49,6 +49,8 @@ msgid ""
 "\\\"Grammar classes\\\" is an activity to learn to identify words "
 "grammatical classes, one class at a time."
 msgstr ""
+"\\\"Gramatik-klasoj\\\" estas aktiveco por lerni identigi gramatikajn "
+"klasojn de vortoj, ĉiun klason unuope."
 
 #. list item
 msgctxt "20240221.html"
@@ -56,6 +58,8 @@ msgid ""
 "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
 "classes requested for each sentence."
 msgstr ""
+"\\\"Gramatik-analizo\\\" estas simila al la antaŭa, sed kun pluraj klasoj "
+"alpetitaj po ĉiu frazo."
 
 #. list item
 msgctxt "20240221.html"
@@ -63,6 +67,8 @@ msgid ""
 "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
 "with numbers according to specific rules."
 msgstr ""
+"\\\"Kalkudoku\\\" estas aritmetika ludo, en kiu la celo estas plenigi kradon "
+"per numeroj laŭ specifaj reguloj."
 
 #. list item
 msgctxt "20240221.html"
@@ -70,11 +76,13 @@ msgid ""
 "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
 "number 24!"
 msgstr ""
+"Kun \\\"Diveni 24\\\", uzante la 4 donitajn nombrojn kaj la operatoron, "
+"trovu la nombron 24!"
 
 #. list item
 msgctxt "20240221.html"
 msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
+msgstr "En \\\"Frieze\\\", reproduktu kaj kompletigu la diversajn frisojn."
 
 #. list item
 msgctxt "20240221.html"
@@ -88,6 +96,8 @@ msgctxt "20240221.html"
 msgid ""
 "In \\\"Use a graduated line\\\", place the given value on the graduated line."
 msgstr ""
+"En \\\"Uzi gradigitan linion\\\", lokigu la donitan valoron sur la gradigita "
+"linio."
 
 #. list item
 msgctxt "20240221.html"
@@ -895,6 +905,7 @@ msgstr ""
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
 msgstr ""
+"Por pli malnovaj versioj, la dosiernomo ne enhavas la daton. Ekzemplo: "
 
 #: template/faq.html:20
 msgid ""
@@ -1004,16 +1015,16 @@ msgstr ""
 "pakaĵo. Ekde 2014 ĝi estas prizorgata de la KDE-komunumo."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Kial ĝi ne haveblas por iOS?"
+msgstr "Kial ĝi nomiĝas GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"La nomo GCompris sonas kiel \"J'ai compris\" en la franca, kio signifas \"Mi "
+"komprenis\" en la esperanta. Plue, la G mallongigas GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
