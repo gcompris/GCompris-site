@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-25 01:49+0000\n"
-"PO-Revision-Date: 2024-05-18 12:50+0200\n"
+"PO-Revision-Date: 2024-06-04 14:18+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -898,6 +898,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"ВАЖНО: за версии на GCompris, по-стари от 4.0, трябва да замените \"data3\" "
+"с \"data2\" във всички инструкции по-долу."
 
 #: template/faq.html:19
 msgid ""
@@ -905,10 +907,14 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"ВАЖНО: от GCompris версия 4.0 нагоре добавихме датата на последната "
+"актуализация в имената на файловете .rcc. Така че трябва да погледнете във "
+"файловете \"Съдържание\" как се казва най-новият, преди да го изтеглите. "
+"Например:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "За по-стари версии имената на файловете не съдържат дата. Пример:"
 
 #: template/faq.html:20
 msgid ""
@@ -927,6 +933,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"И както е обяснено по-горе, от GCompris версия 4.0, заменете \"-date\" с "
+"датата, която сте намерили във файла \"Contents\"; за по-стари версии "
+"премахнете частта \"-date\"."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1016,16 +1025,16 @@ msgstr ""
 "2014 г. се поддържа от общността на KDE."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Защо не е наличен за iOS?"
+msgstr "Защо програмата се казва GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Името GCompris звучи като \"J'ai compris\" на френски, което означава "
+"\"Азразбирам\". Освен това G означава GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
