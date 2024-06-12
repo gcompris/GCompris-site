@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2024-02-16 23:33+0200\n"
 "Last-Translator: Bernardas Liukaitis <BernardasL@protonmail.com>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -539,8 +539,9 @@ msgid "Contribute"
 msgstr "Prisidėti"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "Svetainė atnaujinta: %(revision_date)s."
 
 #: template/base.html:122
@@ -877,10 +878,15 @@ msgstr ""
 "jie nori."
 
 #: template/faq.html:15
+#, fuzzy
+#| msgid ""
+#| "If you don't want the software to download anything automatically, you "
+#| "can disable the option \"Enable automatic downloads/updates of sound files"
+#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 "Jei norite, kad programinė įranga nieko nesiųstų automatiškai, pagrindiniame "
 "nustatymų puslapyje išjunkite parinktį „Leisti automatinius garsinių failų "

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2024-02-14 11:55+0300\n"
 "Last-Translator: Godlove Kyando <godlove.kyando@tie.go.tz>\n"
 "Language-Team: Swahili <kde-l10n-sw@kde.org>\n"
@@ -535,8 +535,9 @@ msgid "Contribute"
 msgstr "Changia"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "Tovuti ilisasisha mara ya mwisho %(revision_date)s."
 
 #: template/base.html:122
@@ -873,10 +874,15 @@ msgstr ""
 "ikiwa wanataka."
 
 #: template/faq.html:15
+#, fuzzy
+#| msgid ""
+#| "If you don't want the software to download anything automatically, you "
+#| "can disable the option \"Enable automatic downloads/updates of sound files"
+#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 "Ikiwa hutaki programu kupakua chochote kiotomatiki, unaweza kuzima chaguo "
 "\"Wezesha upakuaji wa kiotomatiki / sasisho za faili za sauti\" katika "

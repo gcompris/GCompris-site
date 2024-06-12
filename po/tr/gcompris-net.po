@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2024-05-25 12:39+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -540,8 +540,9 @@ msgid "Contribute"
 msgstr "Katkıda Bulun"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "Site, en son %(revision_date)s tarihinde güncellendi."
 
 #: template/base.html:122
@@ -876,10 +877,15 @@ msgstr ""
 "tutmak için bunları isteğe bağlı indirmeler olarak sunuyoruz."
 
 #: template/faq.html:15
+#, fuzzy
+#| msgid ""
+#| "If you don't want the software to download anything automatically, you "
+#| "can disable the option \"Enable automatic downloads/updates of sound files"
+#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 "Yazılımın kendiliğinden bir şey indirmesini istemiyorsanız ana yapılandırma "
 "sayfasında “Ses dosyalarının otomatik indirilmesini/güncellenmesini "

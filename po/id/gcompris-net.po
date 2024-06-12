@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2023-02-13 12:24+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -556,8 +556,9 @@ msgid "Contribute"
 msgstr "Kontribusi"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "Situs terakhir memperbarui %(revision_date)s."
 
 #: template/base.html:122
@@ -890,8 +891,8 @@ msgstr ""
 #: template/faq.html:15
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 
 #: template/faq.html:17

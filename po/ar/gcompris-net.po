@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2024-01-23 22:44+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -524,8 +524,9 @@ msgid "Contribute"
 msgstr "ساهم"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "آخر تحديث للموقع في %(revision_date)s."
 
 #: template/base.html:122
@@ -850,10 +851,15 @@ msgstr ""
 "إذا أرادوا ذلك."
 
 #: template/faq.html:15
+#, fuzzy
+#| msgid ""
+#| "If you don't want the software to download anything automatically, you "
+#| "can disable the option \"Enable automatic downloads/updates of sound files"
+#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 "إذا كنت لا تريد أن يقوم البرنامج بتنزيل أي شيء تلقائيًا، فيمكنك تعطيل الخيار "
 "\"مكن التنزيلات/التحديثات التلقائية لملفات الصوت\" في صفحة الضبط الرئيسة."

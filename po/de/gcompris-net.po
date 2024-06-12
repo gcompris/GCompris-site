@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2022-04-15 05:05+0200\n"
 "Last-Translator: Lars Vogdt <lars@linux-schulserver.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -579,8 +579,9 @@ msgid "Contribute"
 msgstr "Mitwirken"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "Seite wurde zuletzt am %(revision_date)s aktualisiert."
 
 #: template/base.html:122
@@ -922,8 +923,8 @@ msgstr ""
 #: template/faq.html:15
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 
 #: template/faq.html:17

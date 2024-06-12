@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2024-05-25 08:18+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -537,8 +537,9 @@ msgid "Contribute"
 msgstr "Prispevaj"
 
 #: template/base.html:117
-#, python-format
-msgid "Site last updated the %(revision_date)s."
+#, fuzzy, python-format
+#| msgid "Site last updated the %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
 msgstr "Zadnja posodobitev spletnega mesta %(revision_date)s."
 
 #: template/base.html:122
@@ -875,10 +876,15 @@ msgstr ""
 "to želijo."
 
 #: template/faq.html:15
+#, fuzzy
+#| msgid ""
+#| "If you don't want the software to download anything automatically, you "
+#| "can disable the option \"Enable automatic downloads/updates of sound files"
+#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
 "Če ne želite, da programska oprema samodejno prenese karkoli, lahko na "
 "glavni konfiguracijski strani onemogočite možnost »Omogoči samodejne prenose/"
