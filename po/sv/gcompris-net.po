@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-05-25 11:10+0200\n"
+"PO-Revision-Date: 2024-06-12 20:51+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -553,8 +553,7 @@ msgid "Contribute"
 msgstr "Bidra"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Platsen senast uppdaterad %(revision_date)s."
 
@@ -892,11 +891,6 @@ msgstr ""
 "programvaran om de vill."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
@@ -904,7 +898,7 @@ msgid ""
 msgstr ""
 "Om du inte vill att programvaran ska ladda ner något automatiskt kan du "
 "inaktivera alternativet \"Aktivera automatiska nerladdningar och "
-"uppladdningar av ljudfiler\" på huvudinställningssidan."
+"uppladdningar av externa tillgångar\" på huvudinställningssidan."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"

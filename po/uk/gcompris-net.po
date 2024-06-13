@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-05-25 08:23+0300\n"
+"PO-Revision-Date: 2024-06-12 18:49+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -554,8 +554,7 @@ msgid "Contribute"
 msgstr "Участь у проєкті"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Сайт востаннє оновлено %(revision_date)s."
 
@@ -904,19 +903,14 @@ msgstr ""
 "змогу отримати їх з самої програми, якщо виникне потреба."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
 "Якщо ви не хочете, щоб програма щось завантажувала автоматично, ви можете "
-"зняти позначку з пункту «Увімкнути автоматичне отримання/оновлення звукових "
-"файлів» на основній сторінці налаштовування."
+"зняти позначку з пункту «Увімкнути автоматичне отримання/оновлення зовнішніх "
+"даних» на основній сторінці налаштовування."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"

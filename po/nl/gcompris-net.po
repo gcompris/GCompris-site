@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-05-25 10:58+0200\n"
+"PO-Revision-Date: 2024-06-12 10:18+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 # news title
 #. news title
@@ -556,10 +556,9 @@ msgid "Contribute"
 msgstr "Bijdragen"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
-msgstr "Site laatst bijgewerkt de %(revision_date)s."
+msgstr "Site laatst bijgewerkt op %(revision_date)s."
 
 #: template/base.html:122
 #, python-format
@@ -902,19 +901,14 @@ msgstr ""
 "software als ze dat willen."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
 "Als u niet wilt dat de software iets automatisch download, dan kunt u de "
-"optie \"Automatisch downloaden/bijwerken van geluidsbestanden inschakelen\" "
-"in de hoofdconfiguratiepagina uitschakelen."
+"optie \"Automatisch downloaden/bijwerken van externe bezittingen inschakelen"
+"\" in de hoofdconfiguratiepagina uitschakelen."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"

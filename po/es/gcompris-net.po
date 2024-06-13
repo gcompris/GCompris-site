@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-05-26 02:04+0200\n"
+"PO-Revision-Date: 2024-06-12 12:39+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.0\n"
 
 # news title
 #. news title
@@ -552,8 +552,7 @@ msgid "Contribute"
 msgstr "Colaborar"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Sitio actualizado por última vez el %(revision_date)s."
 
@@ -896,19 +895,14 @@ msgstr ""
 "así lo desean."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
 "Si no desea que el programa descargue todo automáticamente, puede desactivar "
-"la opción «Activar descargas/actualizaciones automáticas de los archivos de "
-"sonido» en la página de configuración principal."
+"la opción «Activar descargas/actualizaciones automáticas de activos "
+"externos» en la página de configuración principal."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
