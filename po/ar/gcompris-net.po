@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-01-23 22:44+0400\n"
+"PO-Revision-Date: 2024-06-13 09:49+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #. news title
 msgctxt "20240221.html"
@@ -524,8 +525,7 @@ msgid "Contribute"
 msgstr "ساهم"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "آخر تحديث للموقع في %(revision_date)s."
 
@@ -851,18 +851,14 @@ msgstr ""
 "إذا أرادوا ذلك."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
 "إذا كنت لا تريد أن يقوم البرنامج بتنزيل أي شيء تلقائيًا، فيمكنك تعطيل الخيار "
-"\"مكن التنزيلات/التحديثات التلقائية لملفات الصوت\" في صفحة الضبط الرئيسة."
+"\"مكن التنزيلات/التحديثات التلقائية لملفات الأصول الخارجية\" في صفحة الضبط "
+"الرئيسة."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
@@ -873,6 +869,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"هام: بالنسبة لإصدارات فهمت الأقدم من 4.0، تحتاج إلى استبدال \"data3\" بـ "
+"\"data2\" في جميع التعليمات أدناه."
 
 #: template/faq.html:19
 msgid ""
@@ -880,10 +878,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"هام: من الإصدار 4.0 من فهمت أضفنا تاريخ آخر تحديث في أسماء ملفات .rcc. لذلك "
+"عليك أن تبحث في ملفات \"Contents\" عن اسم أحدث ملف قبل تنزيله. على سبيل "
+"المثال:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "بالنسبة للإصدارات الأقدم، لا تحتوي أسماء الملفات على التاريخ. مثال:"
 
 #: template/faq.html:20
 msgid ""
@@ -902,6 +903,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"وكما هو موضح أعلاه، من الإصدار 4.0 من فهمت استبدل \"-date\" بالتاريخ الذي "
+"وجدته في ملف \"Contents\"؛ بالنسبة للإصدارات الأقدم، قم بإزالة الجزء \"-date"
+"\"."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -986,16 +990,16 @@ msgstr ""
 "من قبل مجتمع كيدي."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "لماذا لا يتوفر على أي أو أس؟"
+msgstr "لماذا يطلق عليه GCompris؟"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"يبدو اسم GCompris  (فهمت باللغة العربية) مثل \"J'ai compris\" بالفرنسية، وهو "
+"ما يعني \"أفهم\" باللغة الإنجليزية. أيضًا، يشير حرف G إلى GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"

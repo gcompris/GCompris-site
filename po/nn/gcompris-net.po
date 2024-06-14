@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-25 01:49+0000\n"
+"POT-Creation-Date: 2024-06-12 01:50+0000\n"
 "PO-Revision-Date: 2024-04-21 12:12+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -529,8 +529,8 @@ msgstr "Bidra"
 
 #: template/base.html:117
 #, python-format
-msgid "Site last updated the %(revision_date)s."
-msgstr "Nettstaden vart sist oppdatert %(revision_date)s."
+msgid "Site last updated on %(revision_date)s."
+msgstr ""
 
 #: template/base.html:122
 #, python-format
@@ -872,11 +872,9 @@ msgstr ""
 #: template/faq.html:15
 msgid ""
 "If you don't want the software to download anything automatically, you can "
-"disable the option \"Enable automatic downloads/updates of sound files\" in "
-"the main configuration page."
+"disable the option \"Enable automatic downloads/updates of external assets\" "
+"in the main configuration page."
 msgstr ""
-"Viss du ikkje vil at programmet skal lasta ned noko automatisk, kan slå av "
-"«Last automatisk ned / oppdater lydfiler» i innstillingane."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
