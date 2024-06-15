@@ -549,8 +549,7 @@ msgid "Contribute"
 msgstr "Contribuer"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Dernière mise à jour du site le %(revision_date)s."
 
@@ -898,11 +897,6 @@ msgstr ""
 "les utilisateurs les télécharger à partir du logiciel s'ils le souhaitent."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
@@ -910,8 +904,8 @@ msgid ""
 msgstr ""
 "Si vous ne souhaitez pas que le logiciel télécharge automatiquement ces "
 "ressources supplémentaires, vous pouvez désactiver l'option « Télécharger "
-"automatiquement les fichiers de sons » dans la page de configuration "
-"principale."
+"automatiquement les fichiers de données externes » dans la page de "
+"configuration principale."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
