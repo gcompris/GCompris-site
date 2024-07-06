@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-05-12 18:46+0200\n"
+"PO-Revision-Date: 2024-07-05 23:43+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #. news title
 msgctxt "20240221.html"
@@ -540,10 +540,9 @@ msgid "Contribute"
 msgstr "Lagundu"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
-msgstr "Lekuaren azken eguneratzea, %(revision_date)s."
+msgstr "Gunearen azken eguneratzea, %(revision_date)s."
 
 #: template/base.html:122
 #, python-format
@@ -881,19 +880,14 @@ msgstr ""
 "erabiltzaileei, hala nahi badute, softwaretik zama-jaisteko aukera utziz."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
-"Softwareak automatikoki ezer zama-jaitsi dezan nahi ez baduzu, "
-"konfiguratzeko orri nagusiko \"Gaitu zama-jaiste automatikoak/soinu "
-"fitxategiak eguneratzea\" aukera ezgaitu dezakezu."
+"Softwareak ezer automatikoki zama-jaistea nahi ez baduzu, konfiguratzeko "
+"orri nagusiko \"Gaitu kanpoko aktiboen zama-jaiste/eguneratze automatikoak\" "
+"aukera ezgaitu dezakezu."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
@@ -904,6 +898,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"GARRANTZITSUA: GCompris-en 4.0 baino bertsio zaharragoetarako, beheko "
+"jarraibide guztietarako \"data3\" \"data2\"-rekin ordezkatu behar duzu."
 
 #: template/faq.html:19
 msgid ""
@@ -911,10 +907,14 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"GARRANTZITSUA: GCompris-en 4.0 bertsiotik, .rcc fitxategietan, azken "
+"eguneratzearen data gehitu dugu. Beraz, \"Contents\" fitxategietan "
+"azkenekoaren izena zein den begiratu behar duzu hura zama-jaitsi aurreti. "
+"Adibidez:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "Bertsio zaharragoetan, fitxategi-izenek ez dute data. Adibidez:"
 
 #: template/faq.html:20
 msgid ""
@@ -934,6 +934,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Eta gorago azaldu bezala, GCompris-en 4.0 bertsiotik, ordeztu \"-date\" "
+"\"Contents\" fitxategian aurkitu duzun datarekin; bertsio zaharragoetan, "
+"kendu \"-date\" zatia."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1024,16 +1027,16 @@ msgstr ""
 "2014tik KDE Komunitateak mantentzen du."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Zergatik ez dago eskuragarri iOS-erako?"
+msgstr "Zergatik du GCompris izena?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"GCompris izenaren soinuak frantseseko \"J'ai compris\"ren antzeko soinua du, "
+"\"Ulertu dut\" esan nahi duena. Gainera, G-k GNU ordezkatzen du."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
