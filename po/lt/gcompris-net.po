@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-12 01:50+0000\n"
-"PO-Revision-Date: 2024-02-16 23:33+0200\n"
-"Last-Translator: Bernardas Liukaitis <BernardasL@protonmail.com>\n"
+"PO-Revision-Date: 2024-07-28 11:09+0300\n"
+"Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -901,6 +901,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"SVARBU: senesnėse nei 4.0 GCompris versijose visose žemiau pateiktose "
+"instrukcijose „data3“ reikia pakeisti „data2“."
 
 #: template/faq.html:19
 msgid ""
@@ -908,10 +910,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"SVARBU: nuo 4.0 versijos GCompris į .rcc failų pavadinimus įtraukėme "
+"paskutinio atnaujinimo datą. Taigi prieš atsisiųsdami turite pažiūrėti "
+"„Contents“ failuose, koks yra naujausio failo pavadinimas. Pavyzdžiui:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "Senesnėse versijose failų pavadinimuose nėra datos. Pavyzdys:"
 
 #: template/faq.html:20
 msgid ""
@@ -931,6 +936,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Kaip paaiškinta aukščiau, nuo GCompris 4.0 versijos pakeiskite \"-date\" "
+"data, kuri nurodyta faile \"Contents\"; senesnėse versijose pašalinkite dalį "
+"„-date“."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1020,16 +1028,16 @@ msgstr ""
 "jį prižiūri KDE bendruomenė."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Kodėl ji nepasiekiama iOS?"
+msgstr "Kodėl pavadinimas „GCompris“?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Pavadinimas GCompris prancūziškai skamba kaip „Dži compri“, lietuviškai tai "
+"reiškia „suprantu“. Be to, G reiškia GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
