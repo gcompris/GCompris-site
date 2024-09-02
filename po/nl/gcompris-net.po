@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-06-12 10:18+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -20,160 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 24.05.0\n"
-
-# news title
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "Uitgave GCompris 4.0"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "Vandaag geven we GCompris versie 4.0 uit."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr ""
-"Deze versie voegt vertalingen voor 3 extra talen toe: Bulgaars, Gallisch en "
-"Swahili."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Het bevat 190 activiteiten, inclusief 8 nieuwe:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"\\\"Grammatica klassen\\\" is een activiteit om grammaticale klassen van "
-"woorden te identificeren, één klasse tegelijk."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr ""
-"\\\"Grammatica analyse\\\" is gelijk aan de eerdere, maar met verschillende "
-"klassen voor elke zin gevraagd."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"\\\"Calcudoku\\\" is een rekenspel waar het doel is om een raster te vullen "
-"met getallen volgens specifieke regels."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"Met \\\"Raad 24\\\", gebruikt de 4 gegeven getallen en de operators, om op "
-"het getal 24 uit te komen!"
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr "In \\\"Fries\\\", reproduceer en voltooi de verschillende friezen."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr ""
-"\\\"Een schaalverdeling lezen\\\" is een activiteit waar een waarde moet "
-"vinden weergegeven op een schaalverdeling."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr ""
-"In \\\"Een schaalverdeling gebruiken\\\", plaats de gegeven waarde op de "
-"schaalverdeling."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr ""
-"In \\\"Bijbehorende getallen\\\", leren welke getallen er komen voor of na "
-"de gegeven reeks."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Het bevat reparaties van bugs, verbeterde illustraties en meerdere "
-"activiteiten."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"Een belangrijke mijlpaal is bereikt met deze versie: na bijna 9 jaar werk is "
-"de taak van het herzien van alle illustraties om te passen binnen de "
-"richtlijnen voltooid!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Het is volledig vertaald in de volgende talen:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Het is ook gedeeltelijk vertaald in de volgende talen:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-# paragraph
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"U kunt pakketten van deze nieuwe versie voor GNU/Linux, Windows, Android, "
-"Raspberry Pi en MacOS vinden op de <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">downloadpagina</a>. Deze opwaardering zal ook "
-"spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte "
-"en Windows store."
-
-# paragraph
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
 # news title
 #. news title
@@ -234,6 +80,111 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "Uitgave GCompris 4.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "Vandaag geven we GCompris versie 4.0 uit."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Het bevat reparaties van bugs, verbeterde illustraties en meerdere "
+"activiteiten."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr ""
+"Deze versie voegt vertalingen voor 2 extra talen toe: Arabisch en Esperanto."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Het is volledig vertaald in de volgende talen:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Het is ook gedeeltelijk vertaald in de volgende talen:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"U kunt pakketten van deze nieuwe versie voor GNU/Linux, Windows, Android, "
+"Raspberry Pi en MacOS vinden op de <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">downloadpagina</a>. Deze opwaardering zal ook "
+"spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte "
+"en Windows store."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
@@ -1392,6 +1343,88 @@ msgstr "Lezen"
 msgid "Strategy"
 msgstr "Strategie"
 
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~ "and Swahili."
+#~ msgstr ""
+#~ "Deze versie voegt vertalingen voor 3 extra talen toe: Bulgaars, Gallisch "
+#~ "en Swahili."
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "Het bevat 190 activiteiten, inclusief 8 nieuwe:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "\\\"Grammatica klassen\\\" is een activiteit om grammaticale klassen van "
+#~ "woorden te identificeren, één klasse tegelijk."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "\\\"Grammatica analyse\\\" is gelijk aan de eerdere, maar met "
+#~ "verschillende klassen voor elke zin gevraagd."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "\\\"Calcudoku\\\" is een rekenspel waar het doel is om een raster te "
+#~ "vullen met getallen volgens specifieke regels."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "Met \\\"Raad 24\\\", gebruikt de 4 gegeven getallen en de operators, om "
+#~ "op het getal 24 uit te komen!"
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr "In \\\"Fries\\\", reproduceer en voltooi de verschillende friezen."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr ""
+#~ "\\\"Een schaalverdeling lezen\\\" is een activiteit waar een waarde moet "
+#~ "vinden weergegeven op een schaalverdeling."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr ""
+#~ "In \\\"Een schaalverdeling gebruiken\\\", plaats de gegeven waarde op de "
+#~ "schaalverdeling."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "In \\\"Bijbehorende getallen\\\", leren welke getallen er komen voor of "
+#~ "na de gegeven reeks."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "Een belangrijke mijlpaal is bereikt met deze versie: na bijna 9 jaar werk "
+#~ "is de taak van het herzien van alle illustraties om te passen binnen de "
+#~ "richtlijnen voltooid!"
+
 # news title
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
@@ -1400,13 +1433,6 @@ msgstr "Strategie"
 #~ msgctxt "20230606.html"
 #~ msgid "Today we are releasing GCompris version 3.3."
 #~ msgstr "Vandaag geven we GCompris versie 3.3 uit."
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr ""
-#~ "Deze versie voegt vertalingen voor 2 extra talen toe: Arabisch en "
-#~ "Esperanto."
 
 #~ msgctxt "20230606.html"
 #~ msgid ""

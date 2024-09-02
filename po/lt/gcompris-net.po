@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-07-28 11:09+0300\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -20,150 +20,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "GCompris 4.0 leidimas"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "Šiandien išleidžiame GCompris 4.0 versiją."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr "Pridėti vertimai dar į tris kalbas: bulgarų, galų ir suahilių."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Jame yra 190 pamokėlių, įskaitant 8 naujas:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"Kalbos dalys. Pamokėlė, skirta išmokti kalbos dalis po vieną kalbos dalį "
-"vienu metu."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr ""
-"Kalbos dalių analizė. Panaši į pamokėlę „Kalbos dalys“, tik čia jau visiems "
-"sakinio žodžiams priskiriamos kalbos dalis."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"Calcudoku. Aritmetinis žaidimas su tikslu užpildyti skaičių lentelę pagal "
-"tam tikras taisykles."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"Gauk 24. Iš keturių skaičių ir duotų matematinių veiksmų reikia gauti 24."
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr "Ornamentas. Atkurk ir pabaik užpildyti ornamentus!"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr "Pažink skalę. Rask reikšmę, kuri atitinka žymą skalėje."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr "Naudok skalę. Pažymėk duotą skaičių skalėje."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr "Gretimi skaičiai. Išmok, kurie skaičiai eina prieš ar po duotos sekos."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje "
-"paveikslėlius.\n"
-"Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"Su šia versija buvo pasiektas vienas svarbus įvykis: po beveik 9 metų darbo "
-"misija perdaryti visą grafiką, kad ji atitiktų šiandienos reikalavimus, buvo "
-"įvykdyta!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Jis visiškai išverstas į šias kalbas:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS "
-"platformoms galite rasti <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. "
-"Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-"
-"Droid saugykloje ir Windows parduotuvėje."
-
-# Šiais laikais vardų lietuvinti labai nereikia.
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
 msgctxt "20240523.html"
@@ -223,6 +79,109 @@ msgstr ""
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
 msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "GCompris 4.0 leidimas"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "Šiandien išleidžiame GCompris 4.0 versiją."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje "
+"paveikslėlius.\n"
+"Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr "Pridėti vertimai  į arabų ir esperanto kalbas."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Jis visiškai išverstas į šias kalbas:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS "
+"platformoms galite rasti <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. "
+"Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-"
+"Droid saugykloje ir Windows parduotuvėje."
+
+# Šiais laikais vardų lietuvinti labai nereikia.
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
@@ -1373,6 +1332,80 @@ msgstr "Skaitymas"
 msgid "Strategy"
 msgstr "Strateginiai žaidimai"
 
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~ "and Swahili."
+#~ msgstr "Pridėti vertimai dar į tris kalbas: bulgarų, galų ir suahilių."
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "Jame yra 190 pamokėlių, įskaitant 8 naujas:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "Kalbos dalys. Pamokėlė, skirta išmokti kalbos dalis po vieną kalbos dalį "
+#~ "vienu metu."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "Kalbos dalių analizė. Panaši į pamokėlę „Kalbos dalys“, tik čia jau "
+#~ "visiems sakinio žodžiams priskiriamos kalbos dalis."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "Calcudoku. Aritmetinis žaidimas su tikslu užpildyti skaičių lentelę pagal "
+#~ "tam tikras taisykles."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "Gauk 24. Iš keturių skaičių ir duotų matematinių veiksmų reikia gauti 24."
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr "Ornamentas. Atkurk ir pabaik užpildyti ornamentus!"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr "Pažink skalę. Rask reikšmę, kuri atitinka žymą skalėje."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr "Naudok skalę. Pažymėk duotą skaičių skalėje."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "Gretimi skaičiai. Išmok, kurie skaičiai eina prieš ar po duotos sekos."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "Su šia versija buvo pasiektas vienas svarbus įvykis: po beveik 9 metų "
+#~ "darbo misija perdaryti visą grafiką, kad ji atitiktų šiandienos "
+#~ "reikalavimus, buvo įvykdyta!"
+
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
 #~ msgstr "GCompris 3.3 leidimas"
@@ -1380,11 +1413,6 @@ msgstr "Strateginiai žaidimai"
 #~ msgctxt "20230606.html"
 #~ msgid "Today we are releasing GCompris version 3.3."
 #~ msgstr "Šiandien išleidžiame GCompris 3.3 versiją."
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr "Pridėti vertimai  į arabų ir esperanto kalbas."
 
 #~ msgctxt "20230606.html"
 #~ msgid ""

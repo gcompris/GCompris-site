@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-06-27 19:07+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -17,157 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 24.05.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "Издание 4.0 на GCompris"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "Днес пускаме GCompris версия 4.0."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr ""
-"Тази версия добавя преводи за още 3 езика: български, галисийски и суахили."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Съдържа 190 дейности, включително 8 нови:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"\\\"Курсове по граматика\\\" е занимание, с което се научавате да определяте "
-"граматичните класове на думите, на един път по един клас."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr ""
-"\\\"Граматически анализ\\\" е подобно на предишното занимание, но за всяко "
-"изречение се изискват няколко класа."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"\\\"Калкудоку\\\" е аритметична игра, в която целта е да се попълни решетка "
-"с числа по определени правила."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"В \\\"Познай 24\\\" като използвате 4-те дадени числа и операторите, трябва "
-"да намерете числото 24!"
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
-"Във \\\"Фриз\\\" трябва да възпроизвеждате и завършвате различни видове "
-"фризове."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr ""
-"\\\"Разчитане на линийка\\\"е занимание, при което трябва да намерите "
-"стойност, изобразена на линийка."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr ""
-"В \\\"Използване на линийка\\\" трябва да поставите дадена стойност върху "
-"линийка."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr ""
-"В \\\"Съседни числа\\\" научете, кои числа се намират преди или след "
-"дадената последователност."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Тя съдържа корекции на грешки и графични подобрения за множество дейности."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"С тази версия беше постигнат един важен крайъгълен камък: след почти 9 "
-"години работа, задачата за преработка на всички графики, за да отговарят на "
-"препоръките, беше завършена!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Тя е напълно преведена на следните езици:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Също така е частично преведен на следните езици:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Можете да намерите пакети от тази нова версия за GNU/Linux, Windows, "
-"Android, Raspberry Pi и macOS на <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. Тази актуализация също ще "
-"бъде налична скоро в магазините на Android Play и Windows, както на "
-"хранилището на F-Droid."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Благодаря на всички, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240523.html"
@@ -224,6 +73,108 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Благодаря на всички, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "Издание 4.0 на GCompris"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "Днес пускаме GCompris версия 4.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Тя съдържа корекции на грешки и графични подобрения за множество дейности."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "This version adds translations for 3 more languages: Bulgarian, Galician "
+#| "and Swahili."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr ""
+"Тази версия добавя преводи за още 3 езика: български, галисийски и суахили."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Тя е напълно преведена на следните езици:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Също така е частично преведен на следните езици:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Можете да намерите пакети от тази нова версия за GNU/Linux, Windows, "
+"Android, Raspberry Pi и macOS на <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Тази актуализация също ще "
+"бъде налична скоро в магазините на Android Play и Windows, както на "
+"хранилището на F-Droid."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Благодаря на всички, <br/>Timothée & Johnny"
 
@@ -1363,3 +1314,79 @@ msgstr "Четене"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Стратегия"
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "Съдържа 190 дейности, включително 8 нови:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "\\\"Курсове по граматика\\\" е занимание, с което се научавате да "
+#~ "определяте граматичните класове на думите, на един път по един клас."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "\\\"Граматически анализ\\\" е подобно на предишното занимание, но за "
+#~ "всяко изречение се изискват няколко класа."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "\\\"Калкудоку\\\" е аритметична игра, в която целта е да се попълни "
+#~ "решетка с числа по определени правила."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "В \\\"Познай 24\\\" като използвате 4-те дадени числа и операторите, "
+#~ "трябва да намерете числото 24!"
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr ""
+#~ "Във \\\"Фриз\\\" трябва да възпроизвеждате и завършвате различни видове "
+#~ "фризове."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr ""
+#~ "\\\"Разчитане на линийка\\\"е занимание, при което трябва да намерите "
+#~ "стойност, изобразена на линийка."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr ""
+#~ "В \\\"Използване на линийка\\\" трябва да поставите дадена стойност върху "
+#~ "линийка."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "В \\\"Съседни числа\\\" научете, кои числа се намират преди или след "
+#~ "дадената последователност."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "С тази версия беше постигнат един важен крайъгълен камък: след почти 9 "
+#~ "години работа, задачата за преработка на всички графики, за да отговарят "
+#~ "на препоръките, беше завършена!"

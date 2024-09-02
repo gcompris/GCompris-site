@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-06-13 09:49+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -19,144 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Lokalize 23.08.5\n"
-
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "الإصدار \"فهمت\" 4.0"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "اليوم أطلقنا إصدار \"فهمت\" 4.0."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr ""
-"يضيف هذا الإصدار ترجمات لثلاث لغات أخرى: البلغارية والجاليكية والسواحلية."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "تحوي على ١٩٠ نشاطاً منها ٨ أنشطة جديدة:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"\\\"فئات نحوية\\\" نشاطٌ لتعلّم على أنواع الكلمات نحويا، فئة واحدة في المرة "
-"الواحدة."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr "\\\"تحليل نحوي\\\" تشبه السابق، لكن فئات نحوية أكثر متوفرة لكل جملة."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"\\\"Calcudoku\\\" لعبة حسابية تهدف إلى ملء شبكة بأعداد حسب قواعد معينة."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"في \\\"خمّن 24\\\"، استعمل 4 أعداد معطاة و عوامل حسابية لإيجاد الناتج 24!"
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr "في \\\"زخرفة\\\"، تنسخ زخرفات مختلفة أو تكملها."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr "\\\"قراءة المستقيم المُدرّج\\\", نشاطٌ لتعلم قراءة القيم على مستقيم مُدرّج."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr "في \\\"استعمال المستقيم المُدرّج\\\", ضع القيم على مستقيم مُدرّج."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr ""
-"في الأعداد المتجاورةفي \\\"الأعداد المتجاورة\\\", تعلم ما الأعداد التي تأتي "
-"قبل سلسلة معينة أو بعدها."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "فيه صور جديدة ورسوم  وتحسينات لعدة أنشطة."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"لقد وصلنا إلى إنجاز رئيسي في هذا الإصدار: بعد ما يقرب من 9 سنوات من العمل، "
-"أنهينا مهمة إعادة رسم جميع الرسومات لتتناسب مع الإرشادات!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "تُرجم بالكامل للغات التالية:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "تُرجم جزئيا باللغات التالية:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}٪)"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري اي وماك-أوس "
-"وأندرويدعلى <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">صفحة التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-"
-"Droid ومتجر وندوز."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "شكر جزيل للجميع, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240523.html"
@@ -211,6 +73,104 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "شكر جزيل للجميع, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "الإصدار \"فهمت\" 4.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "اليوم أطلقنا إصدار \"فهمت\" 4.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr "فيه صور جديدة ورسوم  وتحسينات لعدة أنشطة."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr "يحوي هذا الإصدار على ترجمة للغتين إضافيتين: العربية و اسبرانتو."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "تُرجم بالكامل للغات التالية:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "تُرجم جزئيا باللغات التالية:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}٪)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري اي وماك-أوس "
+"وأندرويدعلى <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">صفحة التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-"
+"Droid ومتجر وندوز."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "شكر جزيل للجميع, <br/>Timothée & Johnny"
 
@@ -1316,6 +1276,80 @@ msgstr "القراءة"
 msgid "Strategy"
 msgstr "الاستراتيجيات"
 
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~ "and Swahili."
+#~ msgstr ""
+#~ "يضيف هذا الإصدار ترجمات لثلاث لغات أخرى: البلغارية والجاليكية والسواحلية."
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "تحوي على ١٩٠ نشاطاً منها ٨ أنشطة جديدة:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "\\\"فئات نحوية\\\" نشاطٌ لتعلّم على أنواع الكلمات نحويا، فئة واحدة في المرة "
+#~ "الواحدة."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "\\\"تحليل نحوي\\\" تشبه السابق، لكن فئات نحوية أكثر متوفرة لكل جملة."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "\\\"Calcudoku\\\" لعبة حسابية تهدف إلى ملء شبكة بأعداد حسب قواعد معينة."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "في \\\"خمّن 24\\\"، استعمل 4 أعداد معطاة و عوامل حسابية لإيجاد الناتج 24!"
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr "في \\\"زخرفة\\\"، تنسخ زخرفات مختلفة أو تكملها."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr ""
+#~ "\\\"قراءة المستقيم المُدرّج\\\", نشاطٌ لتعلم قراءة القيم على مستقيم مُدرّج."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr "في \\\"استعمال المستقيم المُدرّج\\\", ضع القيم على مستقيم مُدرّج."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "في الأعداد المتجاورةفي \\\"الأعداد المتجاورة\\\", تعلم ما الأعداد التي "
+#~ "تأتي قبل سلسلة معينة أو بعدها."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "لقد وصلنا إلى إنجاز رئيسي في هذا الإصدار: بعد ما يقرب من 9 سنوات من "
+#~ "العمل، أنهينا مهمة إعادة رسم جميع الرسومات لتتناسب مع الإرشادات!"
+
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
 #~ msgstr "الإصدار \"فهمت\" 3.3"
@@ -1323,11 +1357,6 @@ msgstr "الاستراتيجيات"
 #~ msgctxt "20230606.html"
 #~ msgid "Today we are releasing GCompris version 3.3."
 #~ msgstr "اليوم أطلقنا إصدار \"فهمت\" 3.3."
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr "يحوي هذا الإصدار على ترجمة للغتين إضافيتين: العربية و اسبرانتو."
 
 #~ msgctxt "20230606.html"
 #~ msgid ""

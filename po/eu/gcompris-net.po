@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-07-05 23:43+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -20,155 +20,6 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 24.05.2\n"
-
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "GCompris 4.0 argitaratzea"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "Gaurkoan GCompris 4.0 bertsioa argitaratzen dugu."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr ""
-"Bertsio honek hiru hizkuntza gehiagorako itzulpenak gehitzen ditu: "
-"bulgariera, galiziera eta swahilia."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "190 jarduera ditu, haien artean 8 berri:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"\\\"Gramatika klaseak\\\" hitzak gramatika klaseak identifikatzen ikasteko "
-"jarduera bat da, aldiko klase bat."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr ""
-"\\\"Gramatika azterketa\\\" aurrekoaren antzekoa da, baina perpaus "
-"bakoitzerako hainbat klase eskatuko dira."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"\\\"Kalkudoku\\\" joko aritmetiko bat da, arau jakin batzuk jarraituz sareta "
-"bat zenbakiz betetzea helburu duena."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"\\\"Igarri 24\\\"rekin, emandako 4 zenbakiak eta eragileak erabiliz, 24 "
-"zenbakia aurkitu behar duzu!"
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr "\\\"Friso\\\"an, friso ezberdinen kopia egin eta osatu."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr ""
-"\\\"Irakurri graduatutako lerro bat\\\" graduatutako lerro batean "
-"ordezkatutako balio bat aurkitu behar den jarduera bat da."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr ""
-"\\\"Erabili graduatutako lerro bat\\ jardueran\", ipini emandako balioa "
-"graduatutako lerroan."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr ""
-"\\\"Aldameneko zenbakiak\\\" jardueran, ikasi emandako sekuentziaren "
-"aurretik edo ondoren doazen zenbakiak."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Akats konponketak eta grafikoen hobekuntzak ditu jarduera askotan."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"Bertsio honekin mugarri garrantzitsu bat lortu da: ia 9 urteko lanaren "
-"ondoren, osatu da grafiko guztiak gidalerroekin bat etortzeko haiek "
-"birlantzeko ataza!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Ondoko hizkuntzetan osorik itzulita dago:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Hein batean, ondoko hizkuntza hauetan ere itzulita dago:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
-"jaisteko orrian</a> bertsio berri honetako GNU/Linux, Windows, Android, "
-"Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster "
-"egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta "
-"Windows saltokian."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
 
 #. news title
 msgctxt "20240523.html"
@@ -226,6 +77,107 @@ msgstr ""
 msgctxt "20240523.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "GCompris 4.0 argitaratzea"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "Gaurkoan GCompris 4.0 bertsioa argitaratzen dugu."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr "Akats konponketak eta grafikoen hobekuntzak ditu jarduera askotan."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr ""
+"Bertsio honek beste bi hizkuntzetarako itzulpenak gehitzen ditu: Arabiera "
+"eta Esperantoa."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Ondoko hizkuntzetan osorik itzulita dago:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Hein batean, ondoko hizkuntza hauetan ere itzulita dago:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
+"jaisteko orrian</a> bertsio berri honetako GNU/Linux, Windows, Android, "
+"Raspberry Pi eta MacOS-rako paketeak aurki ditzakezu. Eguneratze hau laster "
+"egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta "
+"Windows saltokian."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1371,6 +1323,88 @@ msgstr "Irakurketa"
 msgid "Strategy"
 msgstr "Estrategia"
 
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~ "and Swahili."
+#~ msgstr ""
+#~ "Bertsio honek hiru hizkuntza gehiagorako itzulpenak gehitzen ditu: "
+#~ "bulgariera, galiziera eta swahilia."
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "190 jarduera ditu, haien artean 8 berri:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "\\\"Gramatika klaseak\\\" hitzak gramatika klaseak identifikatzen "
+#~ "ikasteko jarduera bat da, aldiko klase bat."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "\\\"Gramatika azterketa\\\" aurrekoaren antzekoa da, baina perpaus "
+#~ "bakoitzerako hainbat klase eskatuko dira."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "\\\"Kalkudoku\\\" joko aritmetiko bat da, arau jakin batzuk jarraituz "
+#~ "sareta bat zenbakiz betetzea helburu duena."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "\\\"Igarri 24\\\"rekin, emandako 4 zenbakiak eta eragileak erabiliz, 24 "
+#~ "zenbakia aurkitu behar duzu!"
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr "\\\"Friso\\\"an, friso ezberdinen kopia egin eta osatu."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr ""
+#~ "\\\"Irakurri graduatutako lerro bat\\\" graduatutako lerro batean "
+#~ "ordezkatutako balio bat aurkitu behar den jarduera bat da."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr ""
+#~ "\\\"Erabili graduatutako lerro bat\\ jardueran\", ipini emandako balioa "
+#~ "graduatutako lerroan."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "\\\"Aldameneko zenbakiak\\\" jardueran, ikasi emandako sekuentziaren "
+#~ "aurretik edo ondoren doazen zenbakiak."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "Bertsio honekin mugarri garrantzitsu bat lortu da: ia 9 urteko lanaren "
+#~ "ondoren, osatu da grafiko guztiak gidalerroekin bat etortzeko haiek "
+#~ "birlantzeko ataza!"
+
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
 #~ msgstr "GCompris 3.3 argitaratzea"
@@ -1378,13 +1412,6 @@ msgstr "Estrategia"
 #~ msgctxt "20230606.html"
 #~ msgid "Today we are releasing GCompris version 3.3."
 #~ msgstr "Gaurkoan GCompris 3.3 bertsioa argitaratzen dugu."
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr ""
-#~ "Bertsio honek beste bi hizkuntzetarako itzulpenak gehitzen ditu: Arabiera "
-#~ "eta Esperantoa."
 
 #~ msgctxt "20230606.html"
 #~ msgid ""

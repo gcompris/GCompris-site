@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-01-21 13:55+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -17,158 +17,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Loco-Parser: loco_parse_po\n"
 "X-Generator: Poedit 3.0\n"
-
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "GCompris 4.0-s verzió"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "Bemutatjuk a GCompris 4.0-ás verzióját."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr ""
-"Az aktuális verzióban három újabb nyelv került bevezetésre: bolgár, galíciai "
-"és szuahéli."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "190 tevékenységet tartalmaz, köztük 8 újat:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"\\\"A szófajok\\\" egy olyan tevékenység, amellyel megtanulhatjuk "
-"azonosítani a mondat részeit, szófajonként."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr ""
-"\\\"Nyelvtani elemzés\\\" hasonló az előzőhöz, de itt tobb szófajt kell "
-"meghatározni."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"A \\\"Calcudoku\\\" egy olyan számtani játék, amelyben a cél az, hogy egy "
-"rácsot számokkal töltsünk ki meghatározott szabályok szerint."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"A \\\"Legyen 24\\\" segítségével, a 4 megadott szám és az műveletek "
-"segítségével kell megtalálni a 24-es számot!"
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr ""
-"A \\\"Sorminták\\\" feladatban külömféle mintákat kell folytatnunk a "
-"megadott szempontok szerint."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr ""
-"\\\"Olvass le egy számot\\\" egy olyan feladat, amelyben meg kell találnod "
-"egy számegyenesen ábrázolt értéket."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr ""
-"A \\\"Szakasz használata\\\" feladatban el kell helyezni egy megadott "
-"értéket egy a számegyenesen."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr ""
-"A \\\"Számszomszédok\\\" során megtudhatja, hogy mely számok következnek az "
-"adott sorozat előtt vagy után."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
-"vonatkozóan."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"Ezzel a verzióval egy fontos mérföldkőhöz érkeztünk: közel 9 évnyi munka "
-"után befejeződött az összes grafika átdolgozása az irányelveknek megfelelően!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "A program teljesen lokalizált az alábbi nyelveken:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Részben pedig az alábbi nyelveken használhható:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
-"MacOS csomagjai a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
-"érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
-"illetve a Windows store-ba is."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
 msgctxt "20240523.html"
@@ -226,6 +74,108 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "GCompris 4.0-s verzió"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "Bemutatjuk a GCompris 4.0-ás verzióját."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
+"vonatkozóan."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr ""
+"Az aktuális verzióban két újabb nyelv került bevezetésre: arab és eszperantó."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "A program teljesen lokalizált az alábbi nyelveken:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Részben pedig az alábbi nyelveken használhható:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
+"MacOS csomagjai a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+"érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
+"illetve a Windows store-ba is."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
@@ -1357,6 +1307,90 @@ msgstr "Olvasás"
 msgid "Strategy"
 msgstr "Stratégia"
 
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~ "and Swahili."
+#~ msgstr ""
+#~ "Az aktuális verzióban három újabb nyelv került bevezetésre: bolgár, "
+#~ "galíciai és szuahéli."
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "190 tevékenységet tartalmaz, köztük 8 újat:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "\\\"A szófajok\\\" egy olyan tevékenység, amellyel megtanulhatjuk "
+#~ "azonosítani a mondat részeit, szófajonként."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "\\\"Nyelvtani elemzés\\\" hasonló az előzőhöz, de itt tobb szófajt kell "
+#~ "meghatározni."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "A \\\"Calcudoku\\\" egy olyan számtani játék, amelyben a cél az, hogy egy "
+#~ "rácsot számokkal töltsünk ki meghatározott szabályok szerint."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "A \\\"Legyen 24\\\" segítségével, a 4 megadott szám és az műveletek "
+#~ "segítségével kell megtalálni a 24-es számot!"
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr ""
+#~ "A \\\"Sorminták\\\" feladatban külömféle mintákat kell folytatnunk a "
+#~ "megadott szempontok szerint."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr ""
+#~ "\\\"Olvass le egy számot\\\" egy olyan feladat, amelyben meg kell "
+#~ "találnod egy számegyenesen ábrázolt értéket."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr ""
+#~ "A \\\"Szakasz használata\\\" feladatban el kell helyezni egy megadott "
+#~ "értéket egy a számegyenesen."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "A \\\"Számszomszédok\\\" során megtudhatja, hogy mely számok következnek "
+#~ "az adott sorozat előtt vagy után."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "Ezzel a verzióval egy fontos mérföldkőhöz érkeztünk: közel 9 évnyi munka "
+#~ "után befejeződött az összes grafika átdolgozása az irányelveknek "
+#~ "megfelelően!"
+
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
 #~ msgstr "GCompris 3.3-es verzió"
@@ -1364,13 +1398,6 @@ msgstr "Stratégia"
 #~ msgctxt "20230606.html"
 #~ msgid "Today we are releasing GCompris version 3.3."
 #~ msgstr "Bemutatjuk a GCompris 3.3-es verzióját."
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr ""
-#~ "Az aktuális verzióban két újabb nyelv került bevezetésre: arab és "
-#~ "eszperantó."
 
 #~ msgctxt "20230606.html"
 #~ msgid ""

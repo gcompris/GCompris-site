@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-06-12 01:50+0000\n"
+"POT-Creation-Date: 2024-09-02 01:48+0000\n"
 "PO-Revision-Date: 2024-02-14 11:55+0300\n"
 "Last-Translator: Godlove Kyando <godlove.kyando@tie.go.tz>\n"
 "Language-Team: Swahili <kde-l10n-sw@kde.org>\n"
@@ -14,155 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.2\n"
-
-#. news title
-msgctxt "20240221.html"
-msgid "Release GCompris 4.0"
-msgstr "Toa GCompris 4.0"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Today we are releasing GCompris version 4.0."
-msgstr "Leo tunatoa toleo la GCompris 4.0."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"This version adds translations for 3 more languages: Bulgarian, Galician and "
-"Swahili."
-msgstr ""
-"Toleo hili linaongeza tafsiri kwa lugha 3 zaidi: Kibulgaria, Kigalisia na "
-"Kiswahili."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains 190 activities, including 8 new ones:"
-msgstr "Ina shughuli 190, ikiwa ni pamoja na 8 mpya:"
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar classes\\\" is an activity to learn to identify words "
-"grammatical classes, one class at a time."
-msgstr ""
-"\\\"Madarasa ya sarufi\\\" ni shughuli ya kujifunza kutambua maneno madarasa "
-"ya kisarufi, darasa moja kwa wakati mmoja."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-"classes requested for each sentence."
-msgstr ""
-"\\\"Uchambuzi wa sarufi\\\" ni sawa na ule uliopita, lakini kwa madarasa "
-"kadhaa yaliyoombwa kwa kila sentensi."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-"with numbers according to specific rules."
-msgstr ""
-"\\\"Calcudoku\\\" ni mchezo wa hesabu ambapo lengo ni kujaza gridi ya taifa "
-"kwa nambari kulingana na sheria mahususi."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"With \\\"Guess 24\\\", using the 4 given numbers and the operators, find the "
-"number 24!"
-msgstr ""
-"Na \\\"Nadhani 24\\\", kwa kutumia nambari 4 zilizotolewa na waendeshaji, "
-"pata nambari 24!"
-
-#. list item
-msgctxt "20240221.html"
-msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-msgstr "Katika \\\"Frieze\\\", zalisha tena na ukamilishe vikaanga tofauti."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"\\\"Read a graduated line\\\" is an activity where you need to find a value "
-"represented on a graduated line."
-msgstr ""
-"\\\"Soma mstari uliohitimu\\\" ni shughuli ambapo unahitaji kupata thamani "
-"iliyowakilishwa kwenye mstari uliohitimu."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Use a graduated line\\\", place the given value on the graduated line."
-msgstr ""
-"Katika \\\"Tumia mstari uliohitimu\\\", weka thamani uliyopewa kwenye mstari "
-"uliohitimu."
-
-#. list item
-msgctxt "20240221.html"
-msgid ""
-"In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-"given sequence."
-msgstr ""
-"Katika \\\"Nambari zilizo karibu\\\", jifunze ni nambari zipi zinazokuja "
-"kabla au baada ya mfuatano uliotolewa."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Ina marekebisho ya hitilafu na uboreshaji wa michoro kwenye shughuli nyingi."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"One major milestone has been reached with this version: after almost 9 years "
-"of work, the task of reworking all the graphics to fit the guidelines has "
-"been completed!"
-msgstr ""
-"Hatua moja kuu imefikiwa na toleo hili: baada ya karibu miaka 9 ya kazi, "
-"kazi ya kurekebisha picha zote ili kupatana na miongozo imekamilika!"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Imetafsiriwa kikamilifu katika lugha zifuatazo:"
-
-#. list item
-msgctxt "20240221.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Pia imetafsiriwa kwa kiasi katika lugha zifuatazo:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240221.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240221.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, "
-"Android, Raspberry Pi na macOS kwenye <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">ukurasa wa upakuaji</a> . Sasisho hili pia "
-"litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid na "
-"duka la Windows."
-
-#. paragraph
-msgctxt "20240221.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
 
 #. news title
 msgctxt "20240523.html"
@@ -219,6 +70,107 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240523.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Release GCompris 4.0"
+msgctxt "20240920.html"
+msgid "Release GCompris 4.2"
+msgstr "Toa GCompris 4.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20240920.html"
+msgid "Today we are releasing GCompris version 4.2."
+msgstr "Leo tunatoa toleo la GCompris 4.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20240920.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Ina marekebisho ya hitilafu na uboreshaji wa michoro kwenye shughuli nyingi."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230606.html"
+#| msgid ""
+#| "This version adds translations for 2 more languages: Arabic and Esperanto."
+msgctxt "20240920.html"
+msgid "This version adds translation for Latvian."
+msgstr ""
+"Toleo hili linaongeza tafsiri kwa lugha 2 zaidi: Kiarabu na Kiesperanto."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Imetafsiriwa kikamilifu katika lugha zifuatazo:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20240920.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Pia imetafsiriwa kwa kiasi katika lugha zifuatazo:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20240920.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20240920.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Unaweza kupata vifurushi vya toleo hili jipya la GNU/Linux, Windows, "
+"Android, Raspberry Pi na macOS kwenye <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">ukurasa wa upakuaji</a> . Sasisho hili pia "
+"litapatikana hivi karibuni katika Duka la Android Play, hazina ya F-Droid na "
+"duka la Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Asanteni nyote,<br/> Timothy &amp; Johnny"
 
@@ -1354,6 +1306,87 @@ msgstr "Kusoma."
 msgid "Strategy"
 msgstr "Mkakati"
 
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~ "and Swahili."
+#~ msgstr ""
+#~ "Toleo hili linaongeza tafsiri kwa lugha 3 zaidi: Kibulgaria, Kigalisia na "
+#~ "Kiswahili."
+
+#~ msgctxt "20240221.html"
+#~ msgid "It contains 190 activities, including 8 new ones:"
+#~ msgstr "Ina shughuli 190, ikiwa ni pamoja na 8 mpya:"
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
+#~ "grammatical classes, one class at a time."
+#~ msgstr ""
+#~ "\\\"Madarasa ya sarufi\\\" ni shughuli ya kujifunza kutambua maneno "
+#~ "madarasa ya kisarufi, darasa moja kwa wakati mmoja."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
+#~ "classes requested for each sentence."
+#~ msgstr ""
+#~ "\\\"Uchambuzi wa sarufi\\\" ni sawa na ule uliopita, lakini kwa madarasa "
+#~ "kadhaa yaliyoombwa kwa kila sentensi."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
+#~ "with numbers according to specific rules."
+#~ msgstr ""
+#~ "\\\"Calcudoku\\\" ni mchezo wa hesabu ambapo lengo ni kujaza gridi ya "
+#~ "taifa kwa nambari kulingana na sheria mahususi."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
+#~ "the number 24!"
+#~ msgstr ""
+#~ "Na \\\"Nadhani 24\\\", kwa kutumia nambari 4 zilizotolewa na waendeshaji, "
+#~ "pata nambari 24!"
+
+#~ msgctxt "20240221.html"
+#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
+#~ msgstr "Katika \\\"Frieze\\\", zalisha tena na ukamilishe vikaanga tofauti."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
+#~ "value represented on a graduated line."
+#~ msgstr ""
+#~ "\\\"Soma mstari uliohitimu\\\" ni shughuli ambapo unahitaji kupata "
+#~ "thamani iliyowakilishwa kwenye mstari uliohitimu."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
+#~ "line."
+#~ msgstr ""
+#~ "Katika \\\"Tumia mstari uliohitimu\\\", weka thamani uliyopewa kwenye "
+#~ "mstari uliohitimu."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
+#~ "given sequence."
+#~ msgstr ""
+#~ "Katika \\\"Nambari zilizo karibu\\\", jifunze ni nambari zipi zinazokuja "
+#~ "kabla au baada ya mfuatano uliotolewa."
+
+#~ msgctxt "20240221.html"
+#~ msgid ""
+#~ "One major milestone has been reached with this version: after almost 9 "
+#~ "years of work, the task of reworking all the graphics to fit the "
+#~ "guidelines has been completed!"
+#~ msgstr ""
+#~ "Hatua moja kuu imefikiwa na toleo hili: baada ya karibu miaka 9 ya kazi, "
+#~ "kazi ya kurekebisha picha zote ili kupatana na miongozo imekamilika!"
+
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
 #~ msgstr "Toa GCompris 3.3"
@@ -1361,12 +1394,6 @@ msgstr "Mkakati"
 #~ msgctxt "20230606.html"
 #~ msgid "Today we are releasing GCompris version 3.3."
 #~ msgstr "Leo tunatoa toleo la GCompris 3.3."
-
-#~ msgctxt "20230606.html"
-#~ msgid ""
-#~ "This version adds translations for 2 more languages: Arabic and Esperanto."
-#~ msgstr ""
-#~ "Toleo hili linaongeza tafsiri kwa lugha 2 zaidi: Kiarabu na Kiesperanto."
 
 #~ msgctxt "20230606.html"
 #~ msgid ""
