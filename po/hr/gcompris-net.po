@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-02 01:48+0000\n"
-"PO-Revision-Date: 2024-01-21 18:37+0100\n"
+"PO-Revision-Date: 2024-09-02 14:59+0200\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
 "Language: hr\n"
@@ -78,59 +78,36 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala svima, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "Izdanje GCompris 4.0"
+msgstr "Izdanje GCompris 4.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Danas smo objavili GCompris verziju 4.0."
+msgstr "Danas smo objavili GCompris verziju 4.2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Sadrži ispravke pogrešaka i grafička poboljšanja na više aktivnosti."
+msgstr "Sadrži ispravke pogrešaka i grafička poboljšanja više aktivnosti."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr "Ova verzija sadrži prijevode za još dva jezika: arapski i esperanto."
+msgstr "Ova verzija sadrži prijevod za latvijski jezik."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
 msgstr "U potpunosti je preveden na sljedeće jezike:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Također je djelomično preveden na sljedeće jezike:"
@@ -138,22 +115,11 @@ msgstr "Također je djelomično preveden na sljedeće jezike:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -164,14 +130,11 @@ msgid ""
 msgstr ""
 "Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, "
 "Android, Raspberry Pi i macOS na <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\"> stranici za preuzimanje</a>. Ovo ažuriranje "
+"downloads{{ suffix }}.html\\\">stranici za preuzimanje</a>. Ovo ažuriranje "
 "će također uskoro biti dostupno u Android Play trgovini, F-Droid "
 "repozitoriju i Windows trgovini."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala svima, <br/>Timothée & Johnny"
@@ -490,8 +453,7 @@ msgid "Contribute"
 msgstr "Doprinesi"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Stranica je zadnji put ažurirana %(revision_date)s."
 
@@ -830,11 +792,6 @@ msgstr ""
 "žele."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
@@ -971,10 +928,8 @@ msgstr ""
 "2014. održava ga KDE zajednica."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Zašto nije dostupan za iOS?"
+msgstr "Otkud naziv GCompris?"
 
 #: template/faq.html:65
 msgid ""

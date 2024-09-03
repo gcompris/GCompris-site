@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-02 01:48+0000\n"
-"PO-Revision-Date: 2024-05-14 18:30+0200\n"
+"PO-Revision-Date: 2024-09-02 17:14+0200\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -33,7 +33,7 @@ msgstr "Hiziv e kinnigomp stumm 4.1 GCompris."
 msgctxt "20240523.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Bez' ez eus  meur a fazi bet reizhet ha gwelladennoù grafek e meur a "
+"Bez' ez eus meur a fazi bet reizhet ha gwelladennoù grafek e meur a "
 "obererezh."
 
 #. paragraph
@@ -79,85 +79,49 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "GCompris stumm 4.0"
+msgstr "GCompris stumm 4.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Hiziv e kinnigomp stumm 4.0 GCompris."
+msgstr "Hiziv e kinnigomp stumm 4.2 GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Bez' ez eus  meur a fazi reizhet ha gwelladennoù grafek e meur a obererezh."
+"Bez' ez eus meur a dra reizhet ha gwelladennoù grafek e meur a obererezh."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr ""
-"Kinnig a ra ar stumm-mañ troidigezhioù an div yezh-mañ ouzhpenn: Arabeg hag "
-"Esperanto."
+msgstr "Kinnig a ra ar stumm-mañ troidigezh al Latveg."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Troidigezhioù klok evit ar yezhoù-mañ:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Troidigezhioù diglok evit ar yezhoù-se: "
+msgstr "Bez' ez eus ivez troidigezhioù diglok evit ar yezhoù-se: "
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -173,9 +137,6 @@ msgstr ""
 "hag er Windows store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
@@ -493,8 +454,7 @@ msgid "Contribute"
 msgstr "Kemer perzh"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Adnevezadur diwezhañ al lec'hienn: %(revision_date)s."
 
@@ -833,11 +793,6 @@ msgstr ""
 "da bellgargañ  pep tra evel ma karont."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
@@ -857,6 +812,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"POUEZUS: evit stummoù GCompris koshoc'h eget 4.0 e ranker ober gant "
+"\"data2\" e-lec'h \"data3\" en holl urzhioù amañ-dindan."
 
 #: template/faq.html:19
 msgid ""
@@ -864,10 +821,15 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"POUEZUS: adalek ar stumm 4.0 eus GCompris e vez  ouzhpennet ganeomp an _ "
+"diwezhañ e-barzh anvioù ar restroù  .rcc. Neuze e ranker sell ouzh anv ar "
+"stumm nevesañ er restroù \"Contents\"  a-raok pellgargañ anezhañ. Da skouer:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
 msgstr ""
+"Evit ar stummoù koshañ n'ez eus deiziad ebet e-barzh anvioù ar restroù. Da "
+"skouer:"
 
 #: template/faq.html:20
 msgid ""
@@ -887,6 +849,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Evel displeget a-raok, evit ar stumm 4.0 eus GCompris e ranker ober gant an "
+"deiziad kavet er restr \"Contents\" e-lec'h ober gant \"-date\"; evit ar "
+"stummoù koshañ, eo dav lemel an tamm anvet \"-date\""
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -977,16 +942,16 @@ msgstr ""
 "GCompris ur pakad GNU. Abaoe 2014 e vez meret gant kumuniezh KDE."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Perak n'eus ket anezhañ dindan iOS?"
+msgstr "Perak eo vez graet gant an anv GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"An anv GCompris a son evel \"J'ai compris\" e galleg flour, ar pezh a sinifi "
+"kement ha \"Komprenet em eus\" e Brezhoneg. Hag ar G a denn da GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
