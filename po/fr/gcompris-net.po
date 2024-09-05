@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-02 01:48+0000\n"
-"PO-Revision-Date: 2024-08-16 14:22+0200\n"
+"PO-Revision-Date: 2024-09-03 07:26+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -86,84 +86,50 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "Version 4.0 de GCompris"
+msgstr "Version 4.2 de GCompris"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Nous publions aujourd'hui la version 4.0 de GCompris."
+msgstr "Nous publions aujourd'hui la version 4.2 de GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Elle ajoute des nouvelles images et corrections de bogues dans de nombreuses "
-"activités."
+"Elle contient des corrections de bogues et des améliorations graphiques dans "
+"de nombreuses activités."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr "Cette version ajoute deux nouvelles langues : l'arabe et l'espéranto."
+msgstr "Cette version intègre la traduction pour le letton."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Cette version est entièrement traduite dans ces langues :"
+msgstr "Elle est entièrement traduite dans les langues suivantes :"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Elle est partiellement traduite dans ces langues :"
+msgstr "Elle est partiellement traduite dans les langues suivantes :"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -176,12 +142,9 @@ msgstr ""
 "Windows, Android, Raspberry Pi et macOS sur la <a href=\\\"https://gcompris."
 "net/downloads{{ suffix }}.html\\\">page de téléchargement</a>. Cette version "
 "sera également disponible très bientôt dans les boutiques « Android Play » "
-"et « Windows », ainsi dans le dépôt F-Droid."
+"et « Windows », ainsi dans le dépôt de F-Droid."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
