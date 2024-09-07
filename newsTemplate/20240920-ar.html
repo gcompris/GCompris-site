@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'الإصدار "فهمت" 4.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.2.png' class='col-xs-12 col-md-4' alt='gcompris 4.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.2.png')"/>
+
+<p>اليوم أطلقنا إصدار "فهمت" 4.2.</p>
+<p>فيه صور جديدة ورسوم  وتحسينات لعدة أنشطة.</p>
+<p>يضيف هذا الإصدار ترجمة اللاتفية</p>
+
+<p>تُرجم بالكامل للغات التالية:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>تُرجم جزئيا باللغات التالية:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري اي وماك-أوس وأندرويدعلى <a href="https://gcompris.net/downloads{{ suffix }}.html">صفحة التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-Droid ومتجر وندوز.</p>
+
+<p>شكر جزيل للجميع, <br/>Timothée & Johnny</p>
+
+{% endblock %}
