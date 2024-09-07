@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 4.2 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.2.png' class='col-xs-12 col-md-4' alt='gcompris 4.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.2.png')"/>
+
+<p>Nous publions aujourd'hui la version 4.2 de GCompris.</p>
+<p>Elle contient des corrections de bogues et des améliorations graphiques dans de nombreuses activités.</p>
+<p>Cette version intègre la traduction pour le letton.</p>
+
+<p>Elle est entièrement traduite dans les langues suivantes :</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Elle est partiellement traduite dans les langues suivantes :</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, Windows, Android, Raspberry Pi et macOS sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible très bientôt dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt de F-Droid.</p>
+
+<p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+
+{% endblock %}
