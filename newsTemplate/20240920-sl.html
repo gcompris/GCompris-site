@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 4.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.2.png' class='col-xs-12 col-md-4' alt='gcompris 4.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.2.png')"/>
+
+<p>Danes izdajamo GCompris verzijo 4.2.</p>
+<p>Vsebuje popravke napak in grafične izboljšave pri več dejavnostih.</p>
+<p>Ta verzija dodaja prevod v latvijščino.</p>
+
+<p>Je popolnoma prevedena v naslednje jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Je tudi delno prevedena v naslednje jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Pakete te nove različice lahko najdete za GNU/Linux, Windows, Android, Raspbery Pi in MacOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in skladišču za Windows.</p>
+
+<p>Hvala vsem,<br/>Timothée in Johnny</p>
+
+{% endblock %}
