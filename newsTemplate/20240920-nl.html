@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 4.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.2.png' class='col-xs-12 col-md-4' alt='gcompris 4.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.2.png')"/>
+
+<p>Vandaag geven we GCompris versie 4.2 uit.</p>
+<p>Het bevat reparaties van bugs, verbeterde illustraties en meerdere activiteiten.</p>
+<p>Deze versie voegt vertaling voor Lets toe.</p>
+
+<p>Het is volledig vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Het is ook gedeeltelijk vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>U kunt pakketten van deze nieuwe versie voor GNU/Linux, Windows, Android, Raspberry Pi en MacOS vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal ook spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store.</p>
+
+<p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+
+{% endblock %}
