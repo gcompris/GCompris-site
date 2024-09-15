@@ -154,7 +154,7 @@ suffix = '-' + locale
 # We don't have a translation of each manual. If we have it
 # we return it else we return the english one
 def get_manual():
-    r = requests.head('https://docs.kde.org/trunk5/' + locale + '/gcompris/gcompris/index.html')
+    r = requests.head('https://gcompris.net/docbook/stable5/' + locale + '/index.html')
     if r.ok:
         return locale
     return 'en'
