@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-02 01:48+0000\n"
-"PO-Revision-Date: 2024-06-13 15:54+0200\n"
+"PO-Revision-Date: 2024-09-11 16:52+0200\n"
 "Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -71,7 +71,7 @@ msgstr ""
 "Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android, "
 "Raspberry Pi a macOS na <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">stránce stahování</a>. Tato aktualizace také "
-"bude brzy dostupná v obchodě Android Play, repozitáři F-Droidu a obchodu "
+"bude brzy dostupná v obchodě Google Play, repozitáři F-Droidu a obchodu "
 "Windows Store."
 
 #. paragraph
@@ -80,62 +80,36 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "Vydání GCompris 4.0"
+msgstr "Vydání GCompris 4.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Dnes vydáváme GCompris verze 4.0."
+msgstr "Dnes vydáváme GCompris verze 4.2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr "Obsahuje opravy chyb a grafická vylepšení ve vícero aktivitách."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr ""
-"Do této verze přibyly další tři jazyky: bulharština, galícijština a "
-"svahilština."
+msgstr "Přidán překlad pro lotyštinu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Je plně přeloženo v následujících jazycích:"
+msgstr "Je plně přeloženo do následujících jazyků:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Také je částečně přeloženo do následujících jazyků:"
@@ -143,22 +117,11 @@ msgstr "Také je částečně přeloženo do následujících jazyků:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -170,13 +133,10 @@ msgstr ""
 "Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android, "
 "Raspberry Pi a macOS na <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">stránce stahování</a>. Tato aktualizace také "
-"bude brzy dostupná v obchodě Android Play, repozitáři F-Droidu a obchodu "
+"bude brzy dostupná v obchodě Google Play, repozitáři F-Droidu a obchodu "
 "Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
@@ -1313,77 +1273,3 @@ msgstr "Čtení"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
-
-#~ msgctxt "20240221.html"
-#~ msgid "It contains 190 activities, including 8 new ones:"
-#~ msgstr "Obsahuje 190 aktivit, včetně 8 nových:"
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
-#~ "grammatical classes, one class at a time."
-#~ msgstr ""
-#~ "\\\"Slovní druhy\\\" je aktivitou, která pomáhá se naučit rozlišovat "
-#~ "slovní druhy, a to po jednom."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-#~ "classes requested for each sentence."
-#~ msgstr ""
-#~ "\\\"Určování slovních druhů\\\" je podobné předchozí aktivitě, ale s tím, "
-#~ "že je pro každou větu vyžadováno určit více slovních druhů."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-#~ "with numbers according to specific rules."
-#~ msgstr ""
-#~ "\\\"Počtodoku\\\" je aritmetickou hrou, ve které je cílem vyplnění mřížky "
-#~ "zadanými čísly podle zvláštních pravidel."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
-#~ "the number 24!"
-#~ msgstr ""
-#~ "\\\"Uhádni 24\\\" je hříčkou 4 zadaných čísel a početních operátorů, díky "
-#~ "nimž je možné vypočítat číslo 24!"
-
-#~ msgctxt "20240221.html"
-#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-#~ msgstr "\\\"Řada\\\" dává za úkol zopakovat a doplnit různé řady značek."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Read a graduated line\\\" is an activity where you need to find a "
-#~ "value represented on a graduated line."
-#~ msgstr ""
-#~ "\\\"Čtení číselné osy\\\" je aktivitou, ve které je nutné najít hodnotu, "
-#~ "zobrazenou na číselné ose."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
-#~ "line."
-#~ msgstr ""
-#~ "\\\"Používání číselné osy\\\" naopak vyžaduje umístění zadané hodnoty na "
-#~ "číselnou osu."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-#~ "given sequence."
-#~ msgstr ""
-#~ "\\\"Následující čísla\\\" učí, která čísla patří před a která za zadané "
-#~ "pořadí čísel."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "One major milestone has been reached with this version: after almost 9 "
-#~ "years of work, the task of reworking all the graphics to fit the "
-#~ "guidelines has been completed!"
-#~ msgstr ""
-#~ "Touto verzí byl dosažen jeden velký milník: po téměř 9 letech byla "
-#~ "dokončena práce na úkolu přepracování veškeré grafiky, aby odpovídala "
-#~ "nastaveným pravidlům!"
