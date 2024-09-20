@@ -2,14 +2,14 @@
 # Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 #
-# Horia PELLE <horricane@gmail.com>, 2017, 2018, 2019, 2023.
+# Horia PELLE <horricane@gmail.com>, 2017, 2018, 2019, 2023, 2024.
 # Timo <animtim@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-02 01:48+0000\n"
-"PO-Revision-Date: 2023-06-01 17:55+0200\n"
+"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"PO-Revision-Date: 2024-09-19 09:57+0200\n"
 "Last-Translator: Horia PELLE <horricane@gmail.com>\n"
 "Language-Team: Romanian <kde-i18n-doc@kde.org>\n"
 "Language: ro\n"
@@ -32,15 +32,10 @@ msgid "Today we are releasing GCompris version 4.1."
 msgstr "Astăzi lansăm GCompris versiunea 4.1."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240523.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea "
-"„Vânătorul de fotografii”."
+"Conține corecții de erori și îmbunătățiri grafice la mai multe activități."
 
 #. paragraph
 msgctxt "20240523.html"
@@ -66,14 +61,6 @@ msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240523.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -82,8 +69,8 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Ca de obicei, puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, "
-"Windows, Raspberry Pi și macOS, în <a href=\\\"https://gcompris.net/"
+"Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, "
+"Raspberry Pi și macOS, în <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix  }}.html\\\">pagina de descărcare</a>. Această "
 "actualizare va fi de asemenea disponibilă în curând și în Magazin Play "
 "pentru Android, în registrul de aplicații F-Droid, respectiv în Windows "
@@ -97,62 +84,38 @@ msgstr "Vă mulțumim tuturor,<br/>\\nTimothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "Versiunea GCompris 4.0"
+msgstr "Versiunea GCompris 4.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Astăzi lansăm GCompris versiunea 4.0."
+msgstr "Astăzi lansăm GCompris versiunea 4.2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "It also contains new graphics and improvements on \\\"Photo hunter\\\"."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"De asemenea, conține o grafică nouă și  îmbunătățiri pentru activitatea "
-"„Vânătorul de fotografii”."
+"De asemenea, conține o corecții de erori și îmbunătății grafice pentru "
+"multiple activități."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr ""
-"Această versiune adaugă traduceri pentru încă două limbi: arabă și esperanto."
+msgstr "Această versiune adaugă traducerea pentru limba letonă."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Este complet tradus în următoarele limbi:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Este de asemenea parțial tradus în următoarele limbi:"
@@ -160,23 +123,12 @@ msgstr "Este de asemenea parțial tradus în următoarele limbi:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -185,8 +137,8 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Ca de obicei, puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, "
-"Windows, Raspberry Pi și macOS, în <a href=\\\"https://gcompris.net/"
+"Puteți găsi pachete ale acestei noi versiuni pentru GNU/Linux, Windows, "
+"Android, Raspberry Pi și macOS, în <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix  }}.html\\\">pagina de descărcare</a>. Această "
 "actualizare va fi de asemenea disponibilă în curând și în Magazin Play "
 "pentru Android, în registrul de aplicații F-Droid, respectiv în Windows "
@@ -194,9 +146,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Vă mulțumim tuturor, <br/>Timothée & Johnny"
@@ -270,7 +219,7 @@ msgstr "Greacă"
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
@@ -435,7 +384,7 @@ msgstr "Suedeză"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -480,7 +429,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Numele voastre"
 
-#: gcompris.py:390
+#: gcompris.py:394
 msgid "For Christmas, offer GCompris to your children."
 msgstr "De Crăciun, oferiți-le copiilor dumneavoastră GCompris."
 
@@ -513,15 +462,14 @@ msgstr "Manual"
 
 #: template/base.html:82
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:83
 msgid "Contribute"
 msgstr "Contribuie"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Site actualizat ultima dată în %(revision_date)s."
 
@@ -840,15 +788,16 @@ msgstr "fișiere sig:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "FAQ - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Întrebări care apar des"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
 msgstr ""
+"De ce unele componente nu sunt înglobate în direct în pachetul software?"
 
 #: template/faq.html:14
 msgid ""
@@ -859,6 +808,13 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Includerea vocilor pentru toate limbile ar face pachetul de instalare mult "
+"prea voluminos, iar majoritatea utilizatorilor sunt interesați doar de "
+"vocile pentru limbile lor. De asemenea, imaginile suplimentare și muzica de "
+"fundal au o dimensiune destul de mare, și nu sunt neapărat necesare pentru "
+"rularea programului. Pentru a minimiza deci dimensiunea pachetului de "
+"instalare de bază, am decis să nu le includem și să lăsăm utilizatorii să le "
+"descarce din program, dacă își doresc asta."
 
 #: template/faq.html:15
 msgid ""
@@ -866,16 +822,21 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
+"Dacă nu doriți ca programul să descarce ceva în mod automat, puteți "
+"dezactiva opțiunea „Activează descărcările automate/actualizările "
+"elementelor externe” în pagina principală de configurare."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Cum pot descărca și instala manual componentele suplimentare?"
 
 #: template/faq.html:18
 msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"IMPORTANT: pentru versiunile de GCompris mai vechi decât 4.0, trebuie să "
+"înlocuiți „data3” cu „data2” în toate instrucțiunile de mai jos."
 
 #: template/faq.html:19
 msgid ""
@@ -883,10 +844,14 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"IMPORTANT: începând de la versiunea de GCompris 4.0, am adăugat data ultimei "
+"actualizări în numele fișiereler .rcc.  Va trebui deci să vă uitați în "
+"fișierele „Contents” care este numele celui mai recent înainte de a începe "
+"descărcarea. De exemplu:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "La versiunile mai vechi,  numele de fișiere nu conțin data. Exemplu:"
 
 #: template/faq.html:20
 msgid ""
@@ -895,6 +860,10 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"IMPORTANT: în instrucțiunile următoare, înlocuiți „codecName” cu „-mp3” "
+"pentru sistemele Windows, sau „-ogg” pentru sistemele Linux sau Android, sau "
+"cu „-aac” pentru sistemele macOS. De asemenea, înlocuiți „-localeCode” cu "
+"codul dvs. local."
 
 #: template/faq.html:20
 msgid ""
@@ -902,117 +871,137 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"După cum este explicat mai sus,  începând de la versiunea 4.0 de GCompris, "
+"înlocuiți „-date” cu data găsită în fișierul „Contents” ; la versiunile mai "
+"vechi, înlăturați partea „-date”."
 
 #: template/faq.html:21
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the extra assets from this link:"
-msgstr ""
-"O altă variantă este să descărcați programul de instalare din linkurile de "
-"mai jos."
+msgstr "Puteți descărca componentele suplimentare din acest link:"
 
 #: template/faq.html:25
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Pentru muzica de fundal, trebuie să mergeți în folderul numit "
+"„backgroundMusic” și să descărcați aceste două fișiere:"
 
 #: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Copiați apoi aceste două fișiere într-un folder numit „backgroundMusic”, în "
+"folderul cache al aplicației."
 
 #: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Pentru voci, trebuie să mergeți în folderul numit „voices-codecName” și să "
+"descărcați aceste două fișiere:"
 
 #: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Apoi copiați aceste două fișiere într-un folder numit „voices-codecName” , "
+"în folderul cache al aplicației."
 
 #: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Pentru imagini, trebuie să mergeți în folderul numit „words” și să "
+"descărcați aceste două fișiere:"
 
 #: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Copiați apoi aceste două fișiere într-un folder numit „words” , în folderul "
+"cache al aplicației."
 
 #: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
-msgstr ""
+msgstr "Calea către folderul cache diferă în funcție de sistemul de operare."
 
 #: template/faq.html:44
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Calea în Windows:"
 
 #: template/faq.html:48
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Calea în Linux:"
 
 #: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Calea pe Android (trebuie să aveți acces la root pentru a edita acest "
+"folder):"
 
 #: template/faq.html:56
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Calea pe macOS:"
 
 #: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Este GCompris un pachet GNU sau unul KDE?"
 
 #: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Este atât un pachet GNU cât și unul KDE. GCompris a fost dintotdeauna, de la "
+"început, și încă este un pachet GNU. Din 2014, el este menținut de "
+"comunitatea KDE."
 
 #: template/faq.html:64
 msgid "Why is it called GCompris?"
-msgstr ""
+msgstr "De ce se numește GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"GCompris pronunțat în engleză sună asemănător cu „J'ai compris” din "
+"franceză, care înseamnă „înțeleg”. De asemenea, G vine de la GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Depinde acest software de pachete sau conținut care nu sunt gratuite?"
 
 #: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Tot conținutul și dependențele sunt sub licențe compatibile cu licența "
+"AGPLv3."
 
 #: template/faq.html:70
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "De ce nu este disponibil pentru iOS?"
 
 #: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Cerințele pentru producerea și publicarea de software pentru iOS nu sunt "
+"compatibile cu licențele GPLv3 și AGPLv3 , utilizate de acest software."
 
 #: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "De ce nu este disponibil pe Amazon Store?"
 
 #: template/faq.html:74
 msgid ""
@@ -1021,6 +1010,11 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Pentru Android noi l-am publicat deja pe Magazin Play și pe F-Droid, "
+"publicarea pe toate canalele ar necesita prea multă muncă. Dacă utilizați o "
+"tabletă Fire, puteți instala direct ultimul fișier apk de pe saitul nostru, "
+"și să utilizați un lansator provenit dintr-o terță parte pentru a accesa "
+"aplicația dintr-un profil de copil."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1224,15 +1218,6 @@ msgstr ""
 "Protecție a Datelor (GDPR)."
 
 #: template/schools.html:26
-#, fuzzy
-#| msgid ""
-#| "GCompris 1.0 lets educators select the level of activities according to "
-#| "the skill of each child. For example, in an activity that lets children "
-#| "practice numbers, you can select what numbers they can work with, leaving "
-#| "higher and more difficult numbers for a later stage. Or in an activity in "
-#| "which the child has to order pictures chronologically, you can grade the "
-#| "activity for children who can only read numbers or make it harder for "
-#| "children who can read both numbers and words."
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1242,14 +1227,14 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
-"GCompris 1.0 permite educatorilor să selecteze nivelul de dificultate al "
-"activităților în funcție de nivelul fiecărui copil. De exemplu, în "
-"activitatea de practicare a numerației, se pot selecta numerele cu care "
-"lucrează copilul, lăsând numerele mari sau mai dificile pentru stadiile "
-"următoare. Sau, în activitatea în care copilul trebuie să ordoneze "
-"cronologic imaginile, se poate grada nivelul pentru copii care pot citi doar "
-"numere, sau se poate crește dificultatea, pentru copiii care pot citi atât "
-"numere cât și cuvinte."
+"Începând de la versiunea 1.0, GCompris permite educatorilor să selecteze "
+"nivelul de dificultate al activităților în funcție de nivelul fiecărui "
+"copil. De exemplu, în activitatea de practicare a numerației, se pot selecta "
+"numerele cu care lucrează copilul, lăsând numerele mari sau mai dificile "
+"pentru stadiile următoare. Sau, în activitatea în care copilul trebuie să "
+"ordoneze cronologic imaginile, se poate grada nivelul pentru copii care pot "
+"citi doar numere, sau se poate crește dificultatea, pentru copiii care pot "
+"citi atât numere cât și cuvinte."
 
 #: template/schools.html:29
 msgid ""

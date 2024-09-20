@@ -1,12 +1,12 @@
 # István Lipták <elistvan@gmail.com>, 2019.
-# Kristof Kiszel <kiszel.kristof@gmail.com>, 2021.
+# SPDX-FileCopyrightText: 2021, 2024 Kristof Kiszel <kiszel.kristof@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-02 01:48+0000\n"
-"PO-Revision-Date: 2024-01-21 13:55+0100\n"
-"Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
+"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"PO-Revision-Date: 2024-09-19 14:07+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -16,17 +16,17 @@ msgstr ""
 "X-Loco-Source-Locale: hu_HU\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Loco-Parser: loco_parse_po\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Lokalize 24.08.0\n"
 
 #. news title
 msgctxt "20240523.html"
 msgid "Release GCompris 4.1"
-msgstr "GCompris 4.1-s verzió"
+msgstr "GCompris 4.1-es kiadás"
 
 #. paragraph
 msgctxt "20240523.html"
 msgid "Today we are releasing GCompris version 4.1."
-msgstr "Bemutatjuk a GCompris 4.1-ás verzióját."
+msgstr "Bemutatjuk a GCompris 4.1-es verzióját."
 
 #. paragraph
 msgctxt "20240523.html"
@@ -48,7 +48,7 @@ msgstr "{{ oneLocale }}"
 #. paragraph
 msgctxt "20240523.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Részben pedig azu alábbi nyelveken érhető el:"
+msgstr "Részben pedig az alábbi nyelveken érhető el:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
@@ -67,10 +67,9 @@ msgid ""
 "Windows store."
 msgstr ""
 "Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
-"MacOS csomagjai a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
-"érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
-"illetve a Windows store-ba is."
+"macOS csomagjai a <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+"érkezik a Play Áruházba, az F-Droidba és a Windows Store-ba is."
 
 #. paragraph
 msgctxt "20240523.html"
@@ -78,26 +77,16 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "GCompris 4.0-s verzió"
+msgstr "GCompris 4.2-es kiadás"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Bemutatjuk a GCompris 4.0-ás verzióját."
+msgstr "Ma adjuk ki a GCompris 4.2-es verzióját."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
@@ -105,58 +94,33 @@ msgstr ""
 "vonatkozóan."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr ""
-"Az aktuális verzióban két újabb nyelv került bevezetésre: arab és eszperantó."
+msgstr "Ez a verzió hozzáadja a lett nyelvi támogatást."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
-msgstr "A program teljesen lokalizált az alábbi nyelveken:"
+msgstr "A program az alábbi nyelveken rendelkezik teljes fordítással:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Részben pedig az alábbi nyelveken használhható:"
+msgstr "Részben pedig az alábbi nyelveken érhető el:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -166,15 +130,11 @@ msgid ""
 "Windows store."
 msgstr ""
 "Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
-"MacOS csomagjai a, <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
-"érkezik a Play Áruházba illetve a Windows store-on keresztül az F-droidra "
-"illetve a Windows store-ba is."
+"macOS csomagjai a <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+"érkezik a Play Áruházba, az F-Droid tárolóba és a Windows Store-ba is."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
@@ -187,7 +147,7 @@ msgstr "angol (brit)"
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr "angol (USA-beli)"
+msgstr "angol (amerikai)"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
@@ -197,7 +157,7 @@ msgstr "arab"
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr "azerbajdzsáni"
+msgstr "azeri"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
@@ -207,7 +167,7 @@ msgstr "bolgár"
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr "bretoni"
+msgstr "breton"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
@@ -222,7 +182,7 @@ msgstr "katalán"
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr "velencei-katalán"
+msgstr "katalán (valenciai)"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
@@ -282,12 +242,12 @@ msgstr "ír"
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr "skóciai kelta"
+msgstr "skót gael"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr "gall"
+msgstr "galíciai"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
@@ -352,7 +312,7 @@ msgstr "holland"
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr "nynorsk"
+msgstr "norvég nynorsk"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
@@ -367,7 +327,7 @@ msgstr "portugál"
 #: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
-msgstr "brazil portugál"
+msgstr "brazíliai portugál"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
@@ -407,7 +367,7 @@ msgstr "svéd"
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr "Szuahéli"
+msgstr "szuahéli"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
@@ -427,7 +387,7 @@ msgstr "török"
 #: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr "urkán"
+msgstr "ukrán"
 
 #: gcompris.py:133
 msgctxt "language name, item list"
@@ -437,24 +397,24 @@ msgstr "kínai (egyszerűsített)"
 #: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr "kínai (tradícionális)"
+msgstr "kínai (hagyományos)"
 
 #: gcompris.py:251
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
-"Ez a szoftver a GNU csomagot használja, és a GNU Affero General Public "
-"License. alatt fut."
+"Ez a szoftver egy GNU csomag, és a GNU Affero General Public License alatt "
+"kerül kiadásra."
 
 #: gcompris.py:252
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Lipták István"
+msgstr "Lipták István,Meskó Balázs"
 
-#: gcompris.py:390
+#: gcompris.py:394
 msgid "For Christmas, offer GCompris to your children."
-msgstr "Adj GCompris-t karácsonyra a gyerekeidnek!"
+msgstr "Karácsonyra adjon GComprist a gyerekeinek."
 
 #: template/base.html:76 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
@@ -468,12 +428,12 @@ msgstr "Letöltés"
 
 #: template/base.html:78 template/donate.html:3 template/donate.html:8
 msgid "Donate"
-msgstr "Adományoz"
+msgstr "Adományozás"
 
 #: template/base.html:79 template/screenshots.html:3
 #: template/screenshots.html:30
 msgid "Screenshots"
-msgstr "Pillanatképek"
+msgstr "Képernyőképek"
 
 #: template/base.html:80 template/schools.html:3 template/schools.html:8
 msgid "Schools"
@@ -489,18 +449,17 @@ msgstr "GYIK"
 
 #: template/base.html:83
 msgid "Contribute"
-msgstr "Hozzájárul"
+msgstr "Közreműködés"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
-msgstr "Az oldal utoljára firssítve  %(revision_date)s."
+msgstr "Legutóbbi oldalfrissítés: %(revision_date)s."
 
 #: template/base.html:122
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr "Az oldalt fordította: %(translators_names)s."
+msgstr "Az oldalt fordították: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
@@ -511,35 +470,35 @@ msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
-"Adj GCompris-t karácsonyra a gyerekeidnek! Ingyenes és több óra hosszányi "
-"játszva szórakozást kínál."
+"Adjon GComprist karácsonyra a gyerekeinek. Ingyenes és több órányi játékos "
+"szórakozást kínál."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr "A GCompris letöltése a weboldalunkról"
+msgstr "A GCompris beszerzése a letöltési oldalunkról"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr "GCompris letöltése a Play Áruházból"
+msgstr "A GCompris beszerzése a Play Áruházból"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr "GCompris beszerzése a Windows Store-ból"
+msgstr "A GCompris beszerzése a Windows Store-ból"
 
 #: template/donate.html:13
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"Ha te, a gyereked, vagy az osztályod kedveli a GCompris-t, támogathatjátok a "
-"projektet."
+"Ha Ön, a gyereke, vagy az osztálya kedveli a GComprist, akkor adományozással "
+"támogathatják a projektet."
 
 #: template/donate.html:14
 msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
 msgstr ""
-"A szoftverfejlesztés sok idő, hardver és más forrásokat is igényel melyek "
+"A szoftverfejlesztés sok időt, hardvert és más forrásokat igényel, melyek "
 "költségesek."
 
 #: template/donate.html:16
@@ -547,16 +506,16 @@ msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
 msgstr ""
-"Ha szeretnék a GComrpis fejlesztését támogatni, örülünk a Patronon keresztül "
-"támogatud munkánkat:"
+"Ha fenntartható módon szeretné támogatni a GCompris fejlesztését, akkor "
+"legyen a GCompris támogatója a Patreonon:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
-msgstr "Támogass a Patreonon!"
+msgstr "Támogatás a Patreonon"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "Bármekkora összeg adományozható a KDE-nek is:"
+msgstr "Tetszőleges összeget adományozhat a KDE-nek is:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
@@ -568,11 +527,11 @@ msgstr "Köszönjük, hogy támogatja a szabad szoftvereket az oktatásban."
 
 #: template/donate.html:27
 msgid "Patreon"
-msgstr "Támogatás Patreonon"
+msgstr "Patreon"
 
 #: template/donate.html:30
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr "Köszönjük, hogy támogat a Patreonon keresztül!"
+msgstr "Köszönjük mindenkinek, aki támogatja a GComprist a Patreonon!"
 
 #: template/downloads.html:16
 msgid "Windows"
@@ -583,17 +542,16 @@ msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
-"A GCompris eléérhető a <a href=\"https://www.microsoft.com/en-us/store/p/"
+"A GCompris telepíthető a <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">Windows Store-ból is</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr ""
-"Megjegyzés: A Windows Store megnyitásához  Windows 10 rendszerre van szükség."
+msgstr "Megjegyzés: a Windows Store megnyitásához Windows 10 szükséges."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr "De a telepítő az alábbi linkeken is elérhető."
+msgstr "Egyébként a telepítőt az alábbi hivatkozásokkal is letöltheti."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
@@ -605,9 +563,10 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgstr ""
-"Ha a rendszered nem támogatja az OpenGL 2-t vagy nem működik rendesen  "
-"használd a GCompris (Csökkentett módban)-t az indítóképernyőn, a GCompris "
-"Szoftver rendetring módban való indításához"
+"Megjegyzés: Ha a rendszere nem támogatja az OpenGL 2-t, vagy nem működik "
+"megfelelően, akkor használja a GCompris (csökkentett mód) lehetőséget az "
+"indítóképernyőn, a GCompris szoftveres megjelenítési módban való "
+"indításához, az nem használ OpenGL-t."
 
 #: template/downloads.html:30
 msgid ""
@@ -615,8 +574,9 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
-"Ha szükséged van egy olyan változatra ami Windows XP-n fut, és a rendszered "
-"nem támogatja az új verziót, használd a legutóbbi 15.10-es telepítőt."
+"Ha mindenképp olyan változatra van szüksége, amely fut Windows XP-n, és a "
+"rendszere nem támogatja az új verziót, akkor használja a legutolsó 15.10-es "
+"telepítőt."
 
 #: template/downloads.html:34
 msgid ""
@@ -624,8 +584,8 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
-"Ha aktiválni akarjuk az összes feladatot a régi változatban, használjuk a "
-"202002 kódot a KÓD nevű beviteli mezőben, indításkor."
+"Hogy aktiválja az összes tevékenységet a régi verzióban, az alkalmazás "
+"indításkor használja a 200202 kódot a KÓD nevű beviteli mezőben."
 
 #: template/downloads.html:44
 msgid "Android"
@@ -633,7 +593,7 @@ msgstr "Android"
 
 #: template/downloads.html:48
 msgid "The version for Android is distributed in the Play Store."
-msgstr "Az android változat a Play Áruházon keresztül érhető el."
+msgstr "Az androidos változat a Play Áruházon keresztül érhető el."
 
 #: template/downloads.html:52
 msgid ""
@@ -641,24 +601,24 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
-"A 32 és a 64 bites android rendszert is támogatjuk a Play Áruházon "
-"keresztül. Automatikusan a rendszerednek megfelelő változat kerül letöltésre."
+"A 32 és a 64 bites Androidot is támogatjuk a Play Áruházon keresztül. "
+"Automatikusan a rendszerének megfelelő változat kerül letöltésre."
 
 #: template/downloads.html:54
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr ""
-"A teljes változat az F-Droid-on az ingyenes és nyílt forráskódú android "
-"programok gyűjteménmyében is elérhető."
+"A teljes változat az F-Droidban, a szabad és nyílt forráskódú androidos "
+"programok gyűjteményében is elérhető."
 
 #: template/downloads.html:59
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
-"Az alkalmazás apk fileja a weboldalunkról is letölthető, és a készülékre "
-"telepíthető."
+"Közvetlenül letöltheti az alkalmazás APK-fájlját is a weboldalunkról, és "
+"kézileg telepítheti az eszközére."
 
 #: template/downloads.html:64
 msgid ""
@@ -666,9 +626,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
-"Android 2.3 és 4.0-t futattó eszközökre, az utolsó működő változat <a href= "
-"\"https://gcompris.net/download/qt/android/GCompris-Android-release-signed-"
-"aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+"Az Android 2.3-at és 4.0-t futtató eszközökre az utolsó működő változat a <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
 #: template/downloads.html:75
 msgid "macOS"
@@ -676,11 +636,11 @@ msgstr "macOS"
 
 #: template/downloads.html:79
 msgid "You can get the macOS version from the link below."
-msgstr "A macOS változat az alábbi linken érhető el."
+msgstr "A macOS változat az alábbi hivatkozással érhető el."
 
 #: template/downloads.html:80
 msgid "Built and tested on macOS 10.13."
-msgstr "macOS 10.13-on készítve és tesztelve."
+msgstr "macOS 10.13-on összeállítva és tesztelve."
 
 #: template/downloads.html:93
 msgid "GNU/Linux"
@@ -691,14 +651,15 @@ msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
-"Ellenőrizheted, hogy a te disztíbúciódra elérhhető-e a legfrisebb GCompris."
+"Ellenőrizheti, hogy a disztribúciójára elérhető-e a legfrissebb GCompris."
 
 #: template/downloads.html:98
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
-"Külön csomagunk van GNU/Linux-ra. Ezek bármely disztibúció alatt működnek."
+"Különálló csomagunk is van GNU/Linuxhoz. Ezeknek tetszőleges friss "
+"disztribúció alatt működnie kellene."
 
 #: template/downloads.html:98
 msgid "System requirements:"
@@ -709,24 +670,24 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
-"Használatához, nyiss egy terminál ablakot ott, ahol a telepítő van majd "
-"futtasd az alábbi utasításokat:"
+"A használatához nyisson egy terminál ablakot ott, ahol a telepítő található, "
+"majd futtassa ezeket a parancsokat:"
 
 #: template/downloads.html:108 template/downloads.html:135
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
-"Majd olvasd el a licenszt vagy a q gombbal hagyd ki, a kérdésekre válaszolj "
-"igennel, és a szoftver a telepítő melletti mappába fog települni."
+"Majd olvassa el a licencet vagy hagyja ki a q gombbal, válaszoljon igennel a "
+"kérdésekre, és a szoftver a telepítő melletti mappába fog települni."
 
 #: template/downloads.html:109 template/downloads.html:136
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"Végezetül, a gcompris indításához menj az új mappába, keress egy bin-t, majd "
-"kattints duplán a  gcompris-qt.sh-ra."
+"Végül, a gcompris indításához ugorjon az új mappába, majd a bin alatt "
+"kattintson duplán a gcompris-qt.sh fájlra."
 
 #: template/downloads.html:110
 msgid ""
@@ -736,11 +697,12 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
-"Megjegyzés: Ha a rendszered nem támogatja az OpenGL 2-t vagy nem megfelelően "
-"működik, indításnál használd a  \"--software-renderer\"  kapcsolót a "
-"gcompris-qt.sh szkript utolsó sorában. A konfigurációs fájl másik lehetséges "
-"szerkesztési módja (a ~/.config/gcompris-qt/gcompris-qt.conf): keresd meg a  "
-"renderer=auto sort , majd cseréld az auto szót software-re és mentsd el."
+"Megjegyzés: Ha a rendszere nem támogatja az OpenGL 2-t, vagy nem megfelelően "
+"működik, indításnál használja a „--software-renderer” kapcsolót a gcompris-"
+"qt.sh parancsfájl utolsó sorában. A másik módszer a konfigurációs fájl "
+"szerkesztése (itt: ~/.config/gcompris-qt/gcompris-qt.conf): keresse meg a "
+"renderer=auto sort, majd cserélje az auto szót arra, hogy software, és "
+"mentse el a fájlt."
 
 #: template/downloads.html:111
 msgid ""
@@ -749,8 +711,8 @@ msgid ""
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
 "A GCompris a <a href=\"https://flathub.org/apps/details/org.kde.gcompris"
-"\">Flathub</a>-ról is telepíthető avagy a <a href=\"https://snapcraft.io/"
-"gcompris\">Snap store-ból</a>."
+"\">Flathubról</a> vagy a <a href=\"https://snapcraft.io/gcompris\">Snap "
+"Store-ból</a> is telepíthető."
 
 #: template/downloads.html:122
 msgid "Raspberry Pi"
@@ -762,7 +724,7 @@ msgstr "Egy különálló csomagot készítettünk a Raspberry Pi-hoz is."
 
 #: template/downloads.html:126
 msgid "It was tested only on Raspberry Pi 3."
-msgstr "Raspberry Pi 3-on teszteltük."
+msgstr "Csak Raspberry Pi 3-on teszteltük."
 
 #: template/downloads.html:146
 msgid "Source code"
@@ -781,8 +743,9 @@ msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
-"A letöltés utáni hibaellenőrzéshez használja az eredetil SHA-256 hash-t a \"."
-"sha256\" parancsot a letöltési url végére írva."
+"A letöltés utáni hibaellenőrzéshez használja a fájlok eredeti SHA-256 "
+"ujjlenyomatát úgy, hogy a letöltési hivatkozások végéhez hozzáírja, hogy „."
+"sha256”."
 
 #: template/downloads.html:168
 #, python-format
@@ -790,16 +753,16 @@ msgid ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"A forrás tarball és a Linux telepítők GPG kulccsal vannak ellátva Timothée "
-"Giet (publikus kulcs: %(public_gpg_key)s)"
+"A forrás tarball és a linuxos telepítők Timothée Giet GPG kulcsával vannak "
+"ellátva (publikus kulcs: %(public_gpg_key)s)"
 
 #: template/downloads.html:170
 msgid "sig files:"
-msgstr "sig fileok:"
+msgstr "aláírásfájlok:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr "GYIK - GCompris"
+msgstr "GYIK – GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
@@ -807,7 +770,7 @@ msgstr "Gyakran Ismételt Kérdések"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr "Miért nem tartalmaz egyes részeket a program önmaga?"
+msgstr "Miért nem tartalmaz minden erőforrást a program maga?"
 
 #: template/faq.html:14
 msgid ""
@@ -818,37 +781,34 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
-"Ha minden hangot tartalmazna a telepítőcsomag, annak mérete sokkal nagyobb "
-"lenne. A felhasználók úgyis csak a saját nyelvi készletüket töltik le "
-"általában. A plussz képek és háttérzenék relatíve sok helyet foglalnak, "
+"Ha minden hangot tartalmazna a telepítőcsomag, akkor annak mérete sokkal "
+"nagyobb lenne. A felhasználók általában úgyis csak a saját nyelvi csomagukat "
+"töltik le. A további képek és háttérzenék relatíve sok helyet foglalnak, "
 "ugyanakkor nem szükségesek a szoftver használatához. Az alap telepítőkészlet "
-"méretének csökkentése érdekében úgy döntöttük kihagyjuk ezeket, és a "
-"felhasználókra bízzuk ezek közül mit töltenek le utlólag."
+"méretének csökkentése érdekében úgy döntöttük, hogy kihagyjuk ezeket, és a "
+"felhasználókra bízzuk, hogy ezek közül mit töltenek le utólag."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
-"Ha nem szeretnéd, hogy a program automatikusan minden letöltsön, "
-"kikapcsolhatod az alábbi opciót \"Hangfájlok automatikus letöltése/frissítése"
-"\" a beállítások menü főablakában."
+"Ha nem szeretné, hogy a program automatikusan mindent letöltsön, "
+"kikapcsolhatja a „Hangfájlok automatikus letöltése/frissítése” lehetőséget a "
+"fő beállítóoldalon."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr "Hogyan tudom kézzel letölteni a plusz tartalmakat?"
+msgstr "Hogyan lehet kézileg letölteni a további erőforrásokat?"
 
 #: template/faq.html:18
 msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"FONTOS: a GCompris 4.0-s verziójánál régebbi verziók esetén az alábbi "
+"utasításokban a „data3”-at le kell cserélnie „data2”-re."
 
 #: template/faq.html:19
 msgid ""
@@ -856,10 +816,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"FONTOS: a GCompris 4.0-s verziójától kezdve hozzáadtuk a legutóbbi frissítés "
+"dátumát az .rcc fájlnevekhez. Így a letöltés előtt meg kell néznie a "
+"„Contents” fájlokban, hogy melyik a legfrissebb. Például:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "A régebbi verzióknál a fájlnevek nem tartalmazzák a dátumot. Például:"
 
 #: template/faq.html:20
 msgid ""
@@ -868,10 +831,10 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
-"FIGYELEM: a következő lépésekben, helyettesítsd a \"-codecName\"paramétert "
-"\"-mp3\" -mal Windows rendszereken, vagy \"-ogg\"-vel Linux és vagy Android "
-"rendszerek esetén, vagy \"-aac\"-vel  ha macOS-t használsz. Szintén cseréld "
-"le a \"-localeCode\" paramétert a saját nyelved kódjával."
+"FIGYELEM: a következő lépésekben, cserélje le a „-codecName” kapcsolót az „-"
+"mp3” kapcsolóra Windows rendszerek esetén, az „-ogg” kapcsolóra Linux és "
+"Android rendszerek esetén, vagy az „-aac” kapcsolóra macOS rendszer esetén. "
+"Szintén cserélje le a „-localeCode” paramétert a saját nyelvkódjára."
 
 #: template/faq.html:20
 msgid ""
@@ -879,69 +842,71 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Ahogy fentebb elmagyaráztuk, a GCompris 4.0-s verziójától kezdve cserélje le "
+"a „-date” részt a „Contents” fájlban található dátumra; régebbi verziók "
+"esetén távolítsa el a „-date” részt."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
 msgstr ""
-"De a telepítő által nem tartalmaott részek az alábbi linkeken is elérhetők:"
+"A telepítő által nem tartalmazott részeket ezzel a hivatkozással töltheti le:"
 
 #: template/faq.html:25
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
-"A háttérzenéhez, keresd meg a \"backgroundMusic\" mappát és and töltsd le az "
-"alábbi 2 file-t:"
+"A háttérzenéhez be kell lépnie a „backgroundMusic” mappába, és le kell "
+"töltenie azt a 2 fájt:"
 
 #: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
-"Majd a letöltött 2 file-t másold egy \"backgroundMusic\" nevű mappába a "
-"program cache mappáján belül."
+"Majd másolja azt a 2 fájlt egy „backgroundMusic” nevű mappába, az alkalmazás "
+"„cache” mappájába."
 
 #: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
-"A hangokhoz, navigálj az alábbi mappába \"voices-codecName\" és töltsd le az "
-"alábbi 2 file-t:"
+"A hangokhoz be kell lépnie a „voices-codecName” mappába, és le kell töltenie "
+"azt a 2 fájlt:"
 
 #: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
-"Majd másold a 2 file-t a \"voices-codecName\"  nevű mappába a programon "
-"cache mappáján belül."
+"Majd másold azt a 2 fájlt egy „voices-codecName” nevű mappába, az alkalmazás "
+"„cache” mappájába."
 
 #: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
-"A képekhez, navigálj a \"words\"  mappába és töltsd le az alábbi 2 file-t:"
+"A képekhez be kell lépnie a „words\" mappába és le kell töltenie azt a 2 "
+"fájlt:"
 
 #: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
-"Majd másold a 2 file-t in egy \"words\"  nevű mappába a program könyvtárán "
-"belül található cache mappába."
+"Majd másolja azt a 2 fájlt egy „words” nevű mappába, az alkalmazás „cache” "
+"mappájába."
 
 #: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
-msgstr ""
-"A cache mappa útvonala az általad használt operációs rendszertől függően "
-"eltérő."
+msgstr "A „cache” mappa útvonala a használt operációs rendszertől függ."
 
 #: template/faq.html:44
 msgid "Path on Windows:"
-msgstr "Űtvonal Windows esetén"
+msgstr "Útvonal Windows esetén:"
 
 #: template/faq.html:48
 msgid "Path on Linux:"
@@ -949,9 +914,7 @@ msgstr "Útvonal Linux esetén:"
 
 #: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
-msgstr ""
-"Útvonal Android esetén (root jogra van szükséged az adott mappa "
-"szerkesztéséhez):"
+msgstr "Útvonal Android esetén (root jog szükséges a mappa szerkesztéséhez):"
 
 #: template/faq.html:56
 msgid "Path on macOS:"
@@ -959,54 +922,55 @@ msgstr "Útvonal maxOS esetén:"
 
 #: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr "A GCompris a GNU vagy a KDE csomag része?"
+msgstr "A GCompris egy GNU vagy KDE csomag?"
 
 #: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
-"Mindkettő. A GCompris kezdetektől fogva a  GNU csomag része. 2014-től pedig "
-"a KDE közösség tartja karban."
+"Mindkettő. A GCompris kezdetektől fogva egy GNU csomag 2014-től a KDE "
+"közösség tartja karban."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Miért nem érhető el iOS alatt?"
+msgstr "Miért GCompris a neve?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"A GCompris úgy hangzik mint a francia „J'ai compris”, amely azt jelenti "
+"magyarul, hogy „Értem”. Továbbá a G a GNU rövidítése."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
-msgstr "Függ-e a szoftver a nem ingyenes csomagoktól vagy tartalmaktól?"
+msgstr "Függ-e a szoftver nem szabad csomagoktól vagy tartalmaktól?"
 
 #: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
-"A teljes tartalom és a kapcsolódó tartalmak az  AGPLv3 licensz alá esnek."
+"Az összes tartalom és függőség AGPLv3 licenccel kompatibilis licenc alatt "
+"érhető el."
 
 #: template/faq.html:70
 msgid "Why is it not available for iOS?"
-msgstr "Miért nem érhető el iOS alatt?"
+msgstr "Miért nem érhető el iOS-re?"
 
 #: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
-"A iOS kiadáshoz szükséges követelmények nem kompatibilisek aGPLv3 és AGPLv3 "
-"licenszekkel melyeket ezen szoftver használ."
+"A iOS kiadáshoz szükséges követelmények nem kompatibilisek a GPLv3 és AGPLv3 "
+"licencekkel, melyeket ez a szoftver használ."
 
 #: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
-msgstr "Miért nem eérlhető az amazon store-ban?"
+msgstr "Miért nem érhető el az Amazon Store-ban?"
 
 #: template/faq.html:74
 msgid ""
@@ -1015,14 +979,15 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
-"Androidra elérhető az alkalmazás a Play store-ból illetve az F-Droid-ról is, "
-"a többi áruházban való terjesztés túl sok munkába kerülne. Ha Fire tabletet "
-"használsz, telepítsd a legfrissebb apk-t az oldalunkról, és használj egy "
-"külsős launcher-t hogy gyerek prlolfilról is elérd az alkalmazást."
+"Androidra az alkalmazást a Play Árhuházban és az F-Droidon tesszük közzé, a "
+"többi áruházban való terjesztés túl sok munkába kerülne. Ha Fire tabletet "
+"használ, telepítse a legfrissebb APK-t az oldalunkról, és használjon egy "
+"harmadik féltől származó indítót, hogy gyerekprofilból is elérhető legyen az "
+"alkalmazás."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
-msgstr "GCompris Oktatási szoftverek"
+msgstr "GCompris oktatási szoftverek"
 
 #: template/index.html:55
 msgid "Download GCompris"
@@ -1034,7 +999,7 @@ msgstr "Legfrissebb hírek"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr "Kattints vagy koppints!"
+msgstr "Kattintás vagy koppintás"
 
 #: template/index.html:97
 msgid "Identify colors"
@@ -1042,7 +1007,7 @@ msgstr "Színek felismerése"
 
 #: template/index.html:103
 msgid "Learn clock"
-msgstr "Ismerd meg az órát!"
+msgstr "Az óra megismerése"
 
 #: template/index.html:109
 msgid "Keyboard training"
@@ -1050,15 +1015,15 @@ msgstr "Gépelés gyakolrása"
 
 #: template/index.html:115
 msgid "Learn additions"
-msgstr "Összeadás gyakolrása"
+msgstr "Összeadás gyakorlása"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr "Ismerd meg a víz körforgását!"
+msgstr "A víz körforgásának felfedezése"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr "Sakkozz egy barátod ellen!"
+msgstr "Sakk egy barát ellen"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
@@ -1066,7 +1031,7 @@ msgstr "Kattints egy kisbetűre!"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr "Az összes screenshot megtekintése"
+msgstr "Összes képernyőkép megtekintése"
 
 #: template/index.html:153
 msgid ""
@@ -1080,45 +1045,41 @@ msgstr ""
 msgid ""
 "Some of the activities are game orientated, but nonetheless still "
 "educational."
-msgstr "Bár egyes tevékenységek játék orientáltak, mégis oktató jellegűek."
+msgstr "Bár az egyes tevékenységek játékorientáltak, mégis oktató jellegűek."
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
-msgstr "Az alábbiakban néhány kategória és tevékenység példaképpen:"
+msgstr "Példaképpen itt egy lista néhány tevékenységkategóriával:"
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr ""
-"számítógép felfedezése : a billentyűzet, egér, különféle egér "
-"érintőképernyő, ..."
+msgstr "számítógép felfedezése: billentyűzet, egér, érintőképernyők…"
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr "olvasás : számok, betűk, olvasási gyakorlatok, gépelés ..."
+msgstr "olvasás: betűk, szavak, olvasási gyakorlatok, gépelés…"
 
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr "számtan : számok, műveletek, memória, tükörkép ..."
+msgstr "számtan: számok, műveletek, memória, tükörkép…"
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr ""
-"tudomány : a zsilip, a víz körforgása, a tengeralattjáró, elektromos "
-"szimuláció ..."
+msgstr "tudomány: zsilip, víz körforgása, megújuló energia…"
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr "földrajz: országok, régiók, kultúra. .."
+msgstr "földrajz: országok, régiók, kultúra…"
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "játékok : sakk, memória, Connect 4, Oware, sudoku ..."
+msgstr "játékok: sakk, memória, 4 egy sorban, akasztófa, amőba…"
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr "továbbá: színek formák, Braille, az óra felismerése és tanulása"
+msgstr "egyebek: színek, formák, Braille, az óra felismerése…"
 
 #: template/index.html:165
 msgid ""
@@ -1127,22 +1088,22 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
-"Jelenleg GCompris több mint 100 tevékenységet kínál és folyamatosan "
-"fejlődik.  A GCompris szabad szoftver, ami azt jelenti, hogy a saját "
-"szükségleteinkre alakítható, fejleszthető, és ami a legfontosabb, "
-"megosztható a gyerekekkel."
+"Jelenleg a GCompris több mint 100 tevékenységet kínál, és folyamatosan "
+"fejlődik. A GCompris szabad szoftver, ami azt jelenti, hogy a saját "
+"szükségleteire alakítható, fejleszthető, és ami a legfontosabb, megosztható "
+"a gyerekekkel."
 
 #: template/index.html:166
 msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
-"A GCompris projectet <a target=\"_blank\" rel=\"noopener\" href=\"https://"
-"www.kde.org/\">a KDE közösség fejleszti</a>."
+"A GCompris projektet <a target=\"_blank\" rel=\"noopener\" href=\"https://"
+"www.kde.org/\">a KDE közösség</a> biztosítja és fejleszti."
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
-msgstr "Az összes hír"
+msgstr "Összes hír"
 
 #: template/schools.html:13
 msgid ""
@@ -1151,10 +1112,10 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
-"A Gcompris egy e-learning eszköz, mely segíti a tantermen kívüli oktatást. A "
-"GNU szabad licensz keretében elérhető ingyenes szoftver. Több plattformon "
-"elérhető (GNU/Linux, Windows, Android, macOS) és régebbi számítógépeken is "
-"működik."
+"A GCompris egy e-learning eszköz, mely segíti a tantermen belüli és kívüli "
+"oktatást. A GNU General Public License alatt elérhető szabad szoftver. Több "
+"platformon is elérhető (GNU/Linux, Windows, Android, macOS), és régebbi "
+"számítógépeken is működik."
 
 #: template/schools.html:14
 msgid ""
@@ -1162,8 +1123,8 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
-"A GCOmpros tönn mint 20 év van jelen az iskolákban világszerte, és több mint "
-"150 tevékenységet kínál az alábbi pedagógiai területek szerint:"
+"A GCompris több mint 20 éve van jelen az iskolákban világszerte, és több "
+"mint 150 tevékenységet kínál az alábbi pedagógiai területek szerint:"
 
 #: template/schools.html:16
 msgid "Learning how to use a computer"
@@ -1172,25 +1133,25 @@ msgstr "A számítógéphasználat megismerése"
 #: template/schools.html:17
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
-msgstr "Olvasástanulás, betűtaulás, szavak és a lexikai kifejezések tanulása"
+msgstr "Olvasástanulás betűk, szavak és a lexikai kifejezések tanulásával"
 
 #: template/schools.html:18
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
-msgstr "Matematikai jártasság a számtan, mérés, kiegészítés területén"
+msgstr "Matematikai jártasság szerzése a számtan, mérés és fejtörők területén"
 
 #: template/schools.html:19
 msgid "Discovering the world through logic, the arts and music"
-msgstr "A világ felfedezése logika, zene és a művészetek segítségével"
+msgstr "A világ felfedezése a logika, a zene és a művészetek segítségével"
 
 #: template/schools.html:20
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr ""
-"A humán és reál tudományok felfedezése a történelem, földrajz és kíséletek "
-"segítségével"
+"A humán és reál tudományok felfedezése kísérletezés, a történelem és a "
+"földrajz segítségével"
 
 #: template/schools.html:21
 msgid "Developing strategic thinking with board games"
@@ -1201,8 +1162,8 @@ msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
-"A GCompris nem igényel internetkapcsolatot, nem gyűjt adatokat a "
-"felhasználóktól, és megfelel az EU adatvédelmi irányelveinek."
+"A GCompris nem igényel internetkapcsolatot, nem gyűjt semmilyen adatot, és "
+"így szigorúan megfelel az EU általános adatvédelmi szabályozásának (GDPR)."
 
 #: template/schools.html:26
 msgid ""
@@ -1231,8 +1192,8 @@ msgid ""
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
 "Ez az osztályozási rendszer lehetőséget ad arra, hogy a diákok "
-"gyakorolhassák a matematikát, a nyelveket, a természettudományos tárgyakat "
-"vagy a hmán tudományokat. A logikai játékok a problémamegoldó képességüket "
+"gyakorolhassák a matematikát, a nyelveket, a természettudományos vagy a "
+"humán tudományokat. A logikai játékok a problémamegoldó képességüket is "
 "fejlesztik."
 
 #: template/schools.html:31
@@ -1242,8 +1203,8 @@ msgid ""
 "what French teachers must teach in class."
 msgstr ""
 "A megfelelő pedagógiai alapként, a GCompris szintjei a francia általános "
-"iskolai tantervet veszik alapul, amely meghatározza a francia tanárok számra "
-"mit kell oktatniuk a gyerekeknek."
+"iskolai tantervet veszik alapul, amely meghatározza a francia tanárok "
+"számára, hogy mit kell oktatniuk a gyerekeknek."
 
 #: template/screenshot.html:33
 msgid "Description:"
@@ -1269,7 +1230,7 @@ msgstr "Köszönet:"
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr "Válassz kategóriát!"
+msgstr "Kategória kiválasztása"
 
 #: template/screenshots.html:38
 msgid "All"
@@ -1297,7 +1258,7 @@ msgstr "Matematika"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr "Puzzle"
+msgstr "Fejtörő"
 
 #: template/screenshots.html:45
 msgid "Reading"
