@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-20 01:57+0000\n"
-"PO-Revision-Date: 2024-07-05 23:43+0200\n"
+"PO-Revision-Date: 2024-09-28 14:58+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.05.2\n"
+"X-Generator: Lokalize 24.08.1\n"
 
 #. news title
 msgctxt "20240523.html"
@@ -79,84 +79,48 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "GCompris 4.0 argitaratzea"
+msgstr "GCompris 4.2 argitaratzea"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Gaurkoan GCompris 4.0 bertsioa argitaratzen dugu."
+msgstr "Gaurkoan GCompris 4.2 bertsioa argitaratzen dugu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Akats konponketak eta grafikoen hobekuntzak ditu jarduera askotan."
+msgstr "Jarduera askorako akats konponketak eta grafikoen hobekuntzak ditu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr ""
-"Bertsio honek beste bi hizkuntzetarako itzulpenak gehitzen ditu: Arabiera "
-"eta Esperantoa."
+msgstr "Bertsio honek letonieraren itzulpenak gehitzen ditu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ondoko hizkuntzetan osorik itzulita dago:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Hein batean, ondoko hizkuntza hauetan ere itzulita dago:"
+msgstr "Ondoko hizkuntza hauetan ere, hein batean, itzulita dago:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} (%{{ oneStatus }})"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -172,9 +136,6 @@ msgstr ""
 "Windows saltokian."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
