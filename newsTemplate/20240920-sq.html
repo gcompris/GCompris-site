@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris-së 4.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.2.png' class='col-xs-12 col-md-4' alt='gcompris 4.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.2.png')"/>
+
+<p>Sot hedhim në qarkullim GCompris version 4.2.</p>
+<p>Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë veprimtari.</p>
+<p>Ky version shton përkthim për letonishten.</p>
+
+<p>Është plotësisht i përkthyer në gjuhët vijuese:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows.</p>
+
+<p>Faleminderit të tërëve, <br/>Timothée & Johnny</p>
+
+{% endblock %}
