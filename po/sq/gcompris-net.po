@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-09-20 01:57+0000\n"
-"PO-Revision-Date: 2024-01-20 14:28+0200\n"
+"PO-Revision-Date: 2024-10-03 11:59+0300\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
 "Language: sq\n"
@@ -79,62 +79,38 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20240920.html"
 msgid "Release GCompris 4.2"
-msgstr "Hedhje në qarkullim 4.0 e GCompris-së"
+msgstr "Hedhje në qarkullim e GCompris-së 4.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20240920.html"
 msgid "Today we are releasing GCompris version 4.2."
-msgstr "Sot hedhim në qarkullim GCompris version 4.0."
+msgstr "Sot hedhim në qarkullim GCompris version 4.2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20240920.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Përmban gjithashtu ndreqje të metash dhe përmirësime elementësh grafikë në "
-"shumë veprimtari."
+"Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë "
+"veprimtari."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
 msgctxt "20240920.html"
 msgid "This version adds translation for Latvian."
-msgstr ""
-"Ky version shton përkthime për 2 gjuhë më tepër: arabisht dhe esperanto."
+msgstr "Ky version shton përkthim për letonishten."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20240920.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
@@ -142,22 +118,11 @@ msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20240920.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20240920.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -173,9 +138,6 @@ msgstr ""
 "Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20240920.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
@@ -493,8 +455,7 @@ msgid "Contribute"
 msgstr "Jepni Ndihmesë"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Sajt i përditësuar së fundi më %(revision_date)s."
 
@@ -837,19 +798,14 @@ msgstr ""
 "t’ua lëmë përdoruesve t’i shkarkojnë, nëse duan."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
 "Nëse s’doni që software-i të shkarkojë automatikisht gjithçka, mund të "
-"çaktivizoni mundësinë “Aktivizo shkarkime/përditësime automatike të "
-"kartelave zanore”, që nga faqja kryesore e formësimit."
+"çaktivizoni mundësinë “Aktivizo shkarkime/përditësime automatike të burimeve "
+"të jashtme”, që nga faqja kryesore e formësimit."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
@@ -860,6 +816,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"E RËNDËSISHME: për versione GCompris më të vjetër se 4.0, është e nevojshme "
+"të zëvendësoni “data3” me “data2” në krejt udhëzimet më poshtë."
 
 #: template/faq.html:19
 msgid ""
@@ -867,10 +825,15 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"E RËNDËSISHME: nga GCompris version 4.0 e tutje kemi shtuar datën e "
+"përditësimit të fundit, te emra kartelash .rcc. Pra, lypset të shihni te "
+"kartela “Lëndë” se cili është emri i më të resë, para se ta shkarkoni. Për "
+"shembull:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
 msgstr ""
+"Për versione më të vjetër, emrat e kartelave s’përmbajnë datën. Shembull:"
 
 #: template/faq.html:20
 msgid ""
@@ -889,6 +852,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Dhe, siç shpjegohet më sipër, nga versioni GCompris 4.0 e tutje, zëvendësoni "
+"“-date” me datën që gjetët te kartela “Lëndë”; për versione më të vjetër "
+"hiqeni pjesën “-date”."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -979,16 +945,16 @@ msgstr ""
 "paketë GNU. Që nga 2014-a mirëmbahet nga bashkësia KDE."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Pse s’mund të kihet për iOS?"
+msgstr "Pse quhet GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Emri GCompris në frëngjisht tingëllon si “Zhe kompri”, që në shqip do të "
+"thotë “E kuptova”. Ve kësaj, G është për GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
