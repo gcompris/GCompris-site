@@ -1,0 +1,29 @@
+{% extends "template/onenews.html" %}
+{% set title = 'השקת ג׳יקומפרי 4.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r4.2.png' class='col-xs-12 col-md-4' alt='gcompris 4.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r4.2.png')"/>
+
+<p>היום אנו משיקים את גרסה 4.2 של ג׳יקומפרי.</p>
+<p>מכילה תיקוני תקלות ושיפורים גרפיים במגוון פעילויות.</p>
+<p>הגרסה הזאת מוסיפה תרגום ללטבית.</p>
+
+<p>מתורגמת במלואה לשפות הבאות:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>היא גם מתורגמת חלקית גם לשפות הבאות:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>אפשר למצוא חבילות לגרסה החדשה הזאת לגנו/לינוקס, Windows,‏ Android, Raspberry Pi ו־macOS ב<a href="https://gcompris.net/downloads{{ suffix }}.html">עמוד ההורדות</a>. העדכון הזה יהיה זמין בקרוב ב־Play Store של Android, במאגר F-Droid ובחנות Windows.</p>
+
+<p>תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי</p>
+
+{% endblock %}
