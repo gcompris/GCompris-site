@@ -299,6 +299,10 @@ translationStatus = {
     "20240920.html": {
         "fullyTranslated": ['ar', 'bg', 'br', 'ca', 'ca@valencia', 'el', 'en_GB', 'eo', 'es', 'eu', 'fr', 'gl', 'hr', 'hu', 'id', 'it', 'lt', 'lv', 'ml', 'nl', 'nn', 'pl', 'pt_BR', 'ro', 'ru', 'sl', 'sq', 'sv', 'sw', 'tr', 'uk'],
         "partiallyTranslated": [['az', 97], ['be', 87], ['cs', 97], ['de', 96], ['et', 96], ['fi', 95], ['he', 96], ['mk', 90], ['pt', 96], ['sk', 84], ['zh_TW', 96]]
+    },
+    "20241129.html": {
+        "fullyTranslated": ['ar', 'bg', 'br', 'ca', 'ca@valencia', 'el', 'en_GB', 'eo', 'es', 'eu', 'fr', 'gl', 'hr', 'hu', 'id', 'it', 'lt', 'lv', 'ml', 'nl', 'nn', 'pl', 'pt_BR', 'ro', 'ru', 'sl', 'sq', 'sv', 'sw', 'tr', 'uk'],
+        "partiallyTranslated": [['az', 97], ['be', 87], ['cs', 97], ['de', 96], ['et', 96], ['fi', 95], ['he', 96], ['mk', 90], ['pt', 96], ['sk', 84], ['zh_TW', 96]]
     }
 }
 
