@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"POT-Creation-Date: 2024-11-29 01:57+0000\n"
 "PO-Revision-Date: 2024-09-02 12:19+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -20,68 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 24.08.0\n"
-
-# news title
-#. news title
-msgctxt "20240523.html"
-msgid "Release GCompris 4.1"
-msgstr "Uitgave GCompris 4.1"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Today we are releasing GCompris version 4.1."
-msgstr "Vandaag geven we GCompris versie 4.0 uit."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Het bevat reparaties van bugs, verbeterde illustraties en meerdere "
-"activiteiten."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Het is volledig vertaald in de volgende talen:"
-
-#. list item
-msgctxt "20240523.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Het is ook gedeeltelijk vertaald in de volgende talen:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240523.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-# paragraph
-#. paragraph
-msgctxt "20240523.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"U kunt pakketten van deze nieuwe versie voor GNU/Linux, Windows, Android, "
-"Raspberry Pi en MacOS vinden op de <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">downloadpagina</a>. Deze opwaardering zal ook "
-"spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte "
-"en Windows store."
-
-# paragraph
-#. paragraph
-msgctxt "20240523.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
 # news title
 #. news title
@@ -147,6 +85,101 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Release GCompris 4.1"
+msgctxt "20241129.html"
+msgid "Release GCompris 4.3"
+msgstr "Uitgave GCompris 4.1"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Today we are releasing GCompris version 4.1."
+msgctxt "20241129.html"
+msgid "Today we are releasing GCompris version 4.3."
+msgstr "Vandaag geven we GCompris versie 4.0 uit."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20241129.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Het bevat reparaties van bugs, verbeterde illustraties en meerdere "
+"activiteiten."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Het is volledig vertaald in de volgende talen:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Het is ook gedeeltelijk vertaald in de volgende talen:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20241129.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"U kunt pakketten van deze nieuwe versie voor GNU/Linux, Windows, Android, "
+"Raspberry Pi en MacOS vinden op de <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">downloadpagina</a>. Deze opwaardering zal ook "
+"spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte "
+"en Windows store."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Allen hartelijk dank, <br/>Timothée & Johnny"
 
@@ -429,7 +462,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Freek de Kruijf - t/m 2022"
 
-#: gcompris.py:394
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Voor de Kerst, biedt GCompris aan aan uw kinderen."
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"POT-Creation-Date: 2024-11-29 01:57+0000\n"
 "PO-Revision-Date: 2024-09-02 17:14+0200\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
@@ -18,65 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
-
-#. news title
-msgctxt "20240523.html"
-msgid "Release GCompris 4.1"
-msgstr "GCompris stumm 4.1"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Today we are releasing GCompris version 4.1."
-msgstr "Hiziv e kinnigomp stumm 4.1 GCompris."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Bez' ez eus meur a fazi bet reizhet ha gwelladennoù grafek e meur a "
-"obererezh."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Troet eo bet penn-da-benn evit ar yezhoù-mañ:"
-
-#. list item
-msgctxt "20240523.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Troidigezh diglok evit ar yezhoù-se:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240523.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
-"Android, Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
-"outañ a-benn nebeut en Android Play store, en dastumlec'h arloadoù F-Droid "
-"hag er Windows store."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240920.html"
@@ -138,6 +79,98 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Release GCompris 4.1"
+msgctxt "20241129.html"
+msgid "Release GCompris 4.3"
+msgstr "GCompris stumm 4.1"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Today we are releasing GCompris version 4.1."
+msgctxt "20241129.html"
+msgid "Today we are releasing GCompris version 4.3."
+msgstr "Hiziv e kinnigomp stumm 4.1 GCompris."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20241129.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Bez' ez eus meur a fazi bet reizhet ha gwelladennoù grafek e meur a "
+"obererezh."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Troet eo bet penn-da-benn evit ar yezhoù-mañ:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Troidigezh diglok evit ar yezhoù-se:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20241129.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
+"Android, Raspberry Pi ha MacOS war ar <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
+"outañ a-benn nebeut en Android Play store, en dastumlec'h arloadoù F-Droid "
+"hag er Windows store."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
@@ -414,7 +447,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Envel Kervoas"
 
-#: gcompris.py:394
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Profit GCompris d'ho pugale da Nedeleg."
 

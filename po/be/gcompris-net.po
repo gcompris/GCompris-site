@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.70\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"POT-Creation-Date: 2024-11-29 01:57+0000\n"
 "PO-Revision-Date: 2020-03-16 23:52+0100\n"
 "Last-Translator: Timo <animtim@gmail.com>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -21,58 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n"
 "%100>=11 && n%100<=14 ? 2 : 3);\n"
-
-#. news title
-msgctxt "20240523.html"
-msgid "Release GCompris 4.1"
-msgstr ""
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Today we are releasing GCompris version 4.1."
-msgstr ""
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is fully translated in the following languages:"
-msgstr ""
-
-#. list item
-msgctxt "20240523.html"
-msgid "{{ oneLocale }}"
-msgstr ""
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is also partially translated in the following languages:"
-msgstr ""
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240523.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
-
-#. paragraph
-msgctxt "20240523.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
 
 #. news title
 msgctxt "20240920.html"
@@ -128,6 +76,58 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr ""
+
+#. news title
+msgctxt "20241129.html"
+msgid "Release GCompris 4.3"
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "Today we are releasing GCompris version 4.3."
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+msgctxt "20241129.html"
+msgid "{{ oneLocale }}"
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20241129.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr ""
 
@@ -402,7 +402,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: gcompris.py:394
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr ""
 

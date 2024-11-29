@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"POT-Creation-Date: 2024-11-29 01:57+0000\n"
 "PO-Revision-Date: 2024-09-19 14:07+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -17,64 +17,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Loco-Parser: loco_parse_po\n"
 "X-Generator: Lokalize 24.08.0\n"
-
-#. news title
-msgctxt "20240523.html"
-msgid "Release GCompris 4.1"
-msgstr "GCompris 4.1-es kiadás"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Today we are releasing GCompris version 4.1."
-msgstr "Bemutatjuk a GCompris 4.1-es verzióját."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
-"vonatkozóan."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is fully translated in the following languages:"
-msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
-
-#. list item
-msgctxt "20240523.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Részben pedig az alábbi nyelveken érhető el:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240523.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
-"macOS csomagjai a <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
-"\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
-"érkezik a Play Áruházba, az F-Droidba és a Windows Store-ba is."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
 msgctxt "20240920.html"
@@ -136,6 +78,97 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Release GCompris 4.1"
+msgctxt "20241129.html"
+msgid "Release GCompris 4.3"
+msgstr "GCompris 4.1-es kiadás"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Today we are releasing GCompris version 4.1."
+msgctxt "20241129.html"
+msgid "Today we are releasing GCompris version 4.3."
+msgstr "Bemutatjuk a GCompris 4.1-es verzióját."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20241129.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
+"vonatkozóan."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is fully translated in the following languages:"
+msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Részben pedig az alábbi nyelveken érhető el:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20241129.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Szokás szerint az új verzió GNU/Linux, Windows, Android, Raspberry Pi és "
+"macOS csomagjai a <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">letöltési oldalon keresztül érhetőek el</a>. A frissítés hamarosan "
+"érkezik a Play Áruházba, az F-Droidba és a Windows Store-ba is."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
@@ -412,7 +445,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Lipták István,Meskó Balázs"
 
-#: gcompris.py:394
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Karácsonyra adjon GComprist a gyerekeinek."
 

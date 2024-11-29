@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"POT-Creation-Date: 2024-11-29 01:57+0000\n"
 "PO-Revision-Date: 2024-10-03 11:59+0300\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
@@ -18,65 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 3.2.2\n"
-
-#. news title
-msgctxt "20240523.html"
-msgid "Release GCompris 4.1"
-msgstr "Hedhje në qarkullim 4.1 e GCompris-së"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Today we are releasing GCompris version 4.1."
-msgstr "Sot hedhim në qarkullim GCompris version 4.1."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Përmban gjithashtu ndreqje të metash dhe përmirësime elementësh grafikë në "
-"shumë veprimtari."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Është i përkthyer plotësisht në gjuhët vijuese:"
-
-#. list item
-msgctxt "20240523.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240523.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240523.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
-"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
-"Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
-"shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
-"Windows."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240920.html"
@@ -139,6 +80,98 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Release GCompris 4.1"
+msgctxt "20241129.html"
+msgid "Release GCompris 4.3"
+msgstr "Hedhje në qarkullim 4.1 e GCompris-së"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Today we are releasing GCompris version 4.1."
+msgctxt "20241129.html"
+msgid "Today we are releasing GCompris version 4.3."
+msgstr "Sot hedhim në qarkullim GCompris version 4.1."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20241129.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Përmban gjithashtu ndreqje të metash dhe përmirësime elementësh grafikë në "
+"shumë veprimtari."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Është i përkthyer plotësisht në gjuhët vijuese:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20241129.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20241129.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20241129.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
+"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
+"shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
+"Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240523.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
@@ -415,7 +448,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Besnik Bleta"
 
-#: gcompris.py:394
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Ofrojuni fëmijëve tuaj GCompris-në për Krishtlindje."
 
