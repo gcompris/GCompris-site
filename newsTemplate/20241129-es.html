@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 4.3' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris-winter.png' class='col-xs-12 col-md-4' alt='gcompris 4.3' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris-winter.png')"/>
+
+<p>Hoy hemos publicado GCompris versión 4.3.</p>
+<p>Contiene correcciones de fallos y mejoras gráficas en varias actividades.</p>
+
+<p>Está completamente traducido a los siguientes idiomas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>También está parcialmente traducido a los siguientes idiomas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows, Android, Raspberry Pi y macOS en la <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. Esta actualización también estará disponible en breve en la Play Store de Android, el repositorio F-Droid y la Windows Store.</p>
+
+<p>Gracias a todos, <br/>Timothée y Johnny</p>
+
+{% endblock %}
