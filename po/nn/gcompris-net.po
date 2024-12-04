@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-09-20 01:57+0000\n"
+"POT-Creation-Date: 2024-11-29 01:57+0000\n"
 "PO-Revision-Date: 2024-08-01 15:57+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -19,70 +19,6 @@ msgstr ""
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
-
-#. news title
-#, fuzzy
-msgctxt "20240523.html"
-msgid "Release GCompris 4.1"
-msgstr "GCompris 4.1 er ute"
-
-#. paragraph
-#, fuzzy
-msgctxt "20240523.html"
-msgid "Today we are releasing GCompris version 4.1."
-msgstr "I dag gjev me ut GCompris versjon 4.1."
-
-#. paragraph
-msgctxt "20240523.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-msgctxt "20240523.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Programmet er fullstendig omsett til desse språka:"
-
-#. list item
-#, fuzzy
-msgctxt "20240523.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-#, fuzzy
-msgctxt "20240523.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Det er òg delvis omsett til desse språka:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-#, fuzzy
-msgctxt "20240523.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
-
-#. paragraph
-#, fuzzy
-msgctxt "20240523.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Du finn pakkar for denne nye versjonen for GNU/Linux, Windows, Android, "
-"Raspberry Pi og macOS på <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">nedlastings­sida</a>. Oppdateringa er òg snart "
-"tilgjengeleg på Android Play Store, i F-Droid og på Windows Store."
-
-#. paragraph
-#, fuzzy
-msgctxt "20240523.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Takk, alle saman!<br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20240920.html"
@@ -138,6 +74,58 @@ msgstr ""
 
 #. paragraph
 msgctxt "20240920.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr ""
+
+#. news title
+msgctxt "20241129.html"
+msgid "Release GCompris 4.3"
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "Today we are releasing GCompris version 4.3."
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+msgctxt "20241129.html"
+msgid "{{ oneLocale }}"
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20241129.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+
+#. paragraph
+msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr ""
 
@@ -414,7 +402,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Karl Ove Hufthammer"
 
-#: gcompris.py:394
+#: gcompris.py:398
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Korfor ikkje visa barna dine GCompris i jula?"
 
