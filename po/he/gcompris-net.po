@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-11-29 01:57+0000\n"
-"PO-Revision-Date: 2024-10-16 15:30+0300\n"
+"PO-Revision-Date: 2024-12-06 08:32+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-"X-Generator: Lokalize 24.08.1\n"
+"X-Generator: Lokalize 24.08.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -80,50 +80,31 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Release GCompris 4.1"
 msgctxt "20241129.html"
 msgid "Release GCompris 4.3"
-msgstr "השקת ג׳יקומפרי 4.1"
+msgstr "השקת ג׳יקומפרי 4.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Today we are releasing GCompris version 4.1."
 msgctxt "20241129.html"
 msgid "Today we are releasing GCompris version 4.3."
-msgstr "היום אנו משיקים את גרסה 4.1 של ג׳יקומפרי."
+msgstr "היום אנו משיקים את גרסה 4.3 של ג׳יקומפרי."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20241129.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr "מכילה תיקוני תקלות ושיפורים גרפיים במגוון פעילויות."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is fully translated in the following languages:"
 msgstr "מתורגמת במלואה לשפות הבאות:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
@@ -131,22 +112,11 @@ msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20241129.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -155,15 +125,12 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"כרגיל, ניתן למצוא חבילות של הגרסה החדשה הזו לגנוּ/לינוּקס, חלונות, MacOS "
-"ורספברי פאי ב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">דף ההורדות</a>. עדכון זה יהיה זמין בקרוב בחנות Play של אנדרואיד, המאגרים "
-"של F-Droid והחנות של חלונות/Windows."
+"ניתן למצוא חבילות של הגרסה החדשה הזו לגנוּ/לינוּקס, חלונות, MacOS ורספברי פאי "
+"ב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">דף ההורדות</"
+"a>. עדכון זה יהיה זמין בקרוב בחנות Play של Android, המאגרים של F-Droid "
+"והחנות של חלונות/Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
