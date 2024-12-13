@@ -1,0 +1,41 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Release GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Today we are releasing GCompris version 25.0.</p>
+<p>It contains 195 activities, including 5 new ones:</p>
+<ul>
+<li class="puce">"Sketch" is an activity for free drawing with multiple tools to let children explore their creativityx.</li>
+<li class="puce">"Calculate with ten's complement" is the continuation of the existing ten's complement activities. This one helps the children to swap the numbers to easily compute a sum.</li>
+<li class="puce">"Vertical addition" is an activity to write an addition and solve it.</li>
+<li class="puce">"Vertical subtraction", is similar to the addition activity but for subtraction with the borrowing by regrouping method.</li>
+<li class="puce">"Vertical subtraction (compensation)", is similar to the subtraction one with the borrowing by compensation method.</li>
+</ul>
+<br/>
+<p>It contains bug fixes and graphics improvements on multiple activities.</p>
+<p>With the help of teachers, we rewrote all the activities description to be clearer.</p>
+<p>When we switch language in the menu, the new language will be applied directly, without having to restart GCompris.</p>
+<p>On the technical size, it is also the first release using Qt6.</p>
+<p>We have also defaulted the graphical renderer to direct3d11 on Windows.</p>
+
+<p>It is fully translated in the following languages:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>It is also partially translated in the following languages:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>You can find packages of this new version for GNU/Linux, Windows, Android, Raspberry Pi and macOS on the <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. This update will also be available soon in the Android Play store, the F-Droid repository and the Windows store.</p>
+
+<p>Thank you all, <br/>Timothée & Johnny</p>
+
+{% endblock %}
