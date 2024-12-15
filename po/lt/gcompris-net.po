@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 01:57+0000\n"
+"POT-Creation-Date: 2024-12-15 02:34+0000\n"
 "PO-Revision-Date: 2024-07-28 11:09+0300\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -20,109 +20,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
-msgctxt "20240920.html"
-msgid "Release GCompris 4.2"
-msgstr "GCompris 4.0 leidimas"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
-msgctxt "20240920.html"
-msgid "Today we are releasing GCompris version 4.2."
-msgstr "Šiandien išleidžiame GCompris 4.0 versiją."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
-msgctxt "20240920.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje "
-"paveikslėlius.\n"
-"Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
-msgctxt "20240920.html"
-msgid "This version adds translation for Latvian."
-msgstr "Pridėti vertimai  į arabų ir esperanto kalbas."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
-msgctxt "20240920.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Jis visiškai išverstas į šias kalbas:"
-
-#. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
-msgctxt "20240920.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
-msgctxt "20240920.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgctxt "20240920.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
-msgctxt "20240920.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS "
-"platformoms galite rasti <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. "
-"Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-"
-"Droid saugykloje ir Windows parduotuvėje."
-
-# Šiais laikais vardų lietuvinti labai nereikia.
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
-msgctxt "20240920.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
 #, fuzzy
@@ -215,6 +112,176 @@ msgstr ""
 #| msgctxt "20240523.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Release GCompris 2.4"
+msgctxt "20250130.html"
+msgid "Release GCompris 25.0"
+msgstr "GCompris 2.4 leidimas"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20220227.html"
+#| msgid "Today we are releasing GCompris version 2.3."
+msgctxt "20250130.html"
+msgid "Today we are releasing GCompris version 25.0."
+msgstr "Šiandien išleidžiame GCompris 2.3 versiją."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"As you can see, we are now basing the major version number on the release "
+"year. This makes sense as we are doing one major version per year. It is "
+"also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It contains 190 activities, including 8 new ones:"
+msgctxt "20250130.html"
+msgid "This new version contains 195 activities, including 5 new ones:"
+msgstr "Jame yra 190 pamokėlių, įskaitant 8 naujas:"
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
+"children explore their creativity."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
+"ten's complement activities. This one helps the children to swap the numbers "
+"to easily compute a sum."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+"subtraction with the borrowing by regrouping method."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
+"one with the borrowing by compensation method."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20250130.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje "
+"paveikslėlius.\n"
+"Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"With the help of teachers, we rewrote a big part of the activities "
+"description to be clearer."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"When we switch language in the menu, the new language is now applied "
+"directly, without having to restart GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "On the technical side, it is also the first release using Qt6."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"We have also set the graphical renderer to direct3d11 by default on Windows."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Jis visiškai išverstas į šias kalbas:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20250130.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS "
+"platformoms galite rasti <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. "
+"Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-"
+"Droid saugykloje ir Windows parduotuvėje."
+
+# Šiais laikais vardų lietuvinti labai nereikia.
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
@@ -634,20 +701,33 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Kitu atveju, galite atsisiųsti diegimo programą iš nuorodų žemiau."
 
 #: template/downloads.html:24
-msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: Windows 10 or 11."
 msgstr "Reikalaujama sistema: Windows 7, 8 ar 10 su OpenGL 2 palaikymu."
 
-#: template/downloads.html:29
+#: template/downloads.html:28
+#, fuzzy
+#| msgid ""
+#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
+#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
+#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-"launch GCompris with the software rendering mode which doesn't use OpenGL."
+"launch GCompris with the software rendering mode."
 msgstr ""
 "Pastaba: Jei Jūsų sistema neturi OpenGL 2 palaikymo ar jis neveikia "
 "normaliai, prašome pasirinkti saugų paleidimo režimą „GCompris“ pradžios "
 "meniu ir paleisti „GCompris“ perteikimo režime, kuris nenaudoja OpenGL."
 
-#: template/downloads.html:30
+#: template/downloads.html:29
+msgid ""
+"The last version available for Windows 7 and 8 can be downloaded from the "
+"link below."
+msgstr ""
+
+#: template/downloads.html:34
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -657,7 +737,7 @@ msgstr ""
 "naujos versijos, Jūs galite naudoti paskutinę diegimo programą iš senos "
 "„GCompris“ 15.10 versijos."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -666,15 +746,15 @@ msgstr ""
 "Norėdami aktyvuoti visas pamokėles šioje senoje versijoje, po programos "
 "paleidimo atsiradusiame langelyje su žodžiu „CODE“ įveskite 200202."
 
-#: template/downloads.html:44
+#: template/downloads.html:48
 msgid "Android"
 msgstr "„Android“"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
 msgstr "„Android“ versija platinama „Play“ parduotuvėje."
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -684,7 +764,7 @@ msgstr ""
 "Tinkama versija atsiunčiama automatiškai, priklausomai nuo Jūsų „Android“ "
 "operacinės sistemos."
 
-#: template/downloads.html:54
+#: template/downloads.html:58
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -692,7 +772,7 @@ msgstr ""
 "„GCompris“ galima atsisiųsti ir iš „F-Droid“ - laisvos ir atviro kodo "
 "„Android“ programėlių saugyklos."
 
-#: template/downloads.html:59
+#: template/downloads.html:63
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -700,7 +780,23 @@ msgstr ""
 "Jūs taip pat galite atsisiųsti apk paketą tiesiogiai iš mūsų tinklapio ir "
 "įsidiegti programėlę rankiniu būdu."
 
-#: template/downloads.html:64
+#: template/downloads.html:68
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgid ""
+"For devices running Android 4.1 to 8.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+msgstr ""
+"Įrenginiams, kuriuose veikia 2.3–4.0 versijos „Android“, paskutinė "
+"suderinama versija yra <a href= \"https://gcompris.net/download/qt/android/"
+"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81. apk\">GCompris "
+"0.81</a>."
+
+#: template/downloads.html:69
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -711,23 +807,31 @@ msgstr ""
 "GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81. apk\">GCompris "
 "0.81</a>."
 
-#: template/downloads.html:75
+#: template/downloads.html:80
 msgid "macOS"
 msgstr "„macOS“"
 
-#: template/downloads.html:79
-msgid "You can get the macOS version from the link below."
-msgstr "Jūs galite gauti „macOS“ versiją paspaudę nuorodą žemiau."
+#: template/downloads.html:84
+msgid ""
+"The latest version is not yet available on macOS due to lack of "
+"infrastructure to build and test it."
+msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:85
+#, fuzzy
+#| msgid "Else, you can download the installer from the links below."
+msgid "You can download the last version available macOS from the link below."
+msgstr "Kitu atveju, galite atsisiųsti diegimo programą iš nuorodų žemiau."
+
+#: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
 msgstr "Sukurta ir išbandyta ant „macOS“ 10.13."
 
-#: template/downloads.html:93
+#: template/downloads.html:99
 msgid "GNU/Linux"
 msgstr "„GNU/Linux“"
 
-#: template/downloads.html:97
+#: template/downloads.html:103
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -735,7 +839,7 @@ msgstr ""
 "Jūs galite patikrinti, ar Jūsų platinimasis paketas siūlo naujausią "
 "„GCompris“ versiją."
 
-#: template/downloads.html:98
+#: template/downloads.html:104
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -743,11 +847,11 @@ msgstr ""
 "Mes taip pat teikiame autonominius „GNU/Linux“ paketus. Jie turėtų veikti "
 "bet kurioje nesenoje sistemoje."
 
-#: template/downloads.html:98
-msgid "System requirements:"
-msgstr "Sistemos reikalavimai:"
+#: template/downloads.html:104
+msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgstr ""
 
-#: template/downloads.html:103 template/downloads.html:130
+#: template/downloads.html:108 template/downloads.html:144
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -755,7 +859,7 @@ msgstr ""
 "Norėdami įdiegti, atidarykite terminalą aplanke į kurį atsisiuntėte diegimo "
 "programą ir paleiskite šias komandas:"
 
-#: template/downloads.html:108 template/downloads.html:135
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -764,7 +868,7 @@ msgstr ""
 "atsakykite į visus klausimus „taip“ ir programa bus įdiegta naujame aplanke "
 "šalia diegimo programos."
 
-#: template/downloads.html:109 template/downloads.html:136
+#: template/downloads.html:114 template/downloads.html:150
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -772,7 +876,7 @@ msgstr ""
 "Galiausiai, norėdami paleisti „GCompris“, naujajame aplanke nueikite į „bin“ "
 "direktoriją ir dukart spustelėkite ant gcompris-qt.sh programos."
 
-#: template/downloads.html:110
+#: template/downloads.html:115
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -786,7 +890,7 @@ msgstr ""
 "qt/gcompris-qt.conf): čia raskite eilutę „renderer=auto“, pakeiskite joje "
 "„auto“ į „software“ ir išsaugokite failą."
 
-#: template/downloads.html:111
+#: template/downloads.html:116
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -796,31 +900,51 @@ msgstr ""
 "org.kde.gcompris\">Flathub</a> arba iš <a href=\"https://snapcraft. io/"
 "gcompris\">Snap parduotuvė</a>."
 
-#: template/downloads.html:122
+#: template/downloads.html:117
+msgid ""
+"The last version available for 32bit Linux distributions can be downloaded "
+"from the following link."
+msgstr ""
+
+#: template/downloads.html:117
+msgid ""
+"System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
+msgstr ""
+
+#: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "„Raspberry Pi“"
 
-#: template/downloads.html:126
-msgid "We provide a standalone package for Raspberry Pi."
+#: template/downloads.html:135
+#, fuzzy
+#| msgid "We provide a standalone package for Raspberry Pi."
+msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Mes pateikiame autonominį paketą „Raspberry Pi“ sistemai."
 
-#: template/downloads.html:126
+#: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Jis buvo testuotas tik ant „Raspberry Pi“ 3."
 
-#: template/downloads.html:146
+#: template/downloads.html:139
+msgid ""
+"The last version available for 32bit is the version 4.3 at the following "
+"link:"
+msgstr ""
+
+#: template/downloads.html:160
 msgid "Source code"
 msgstr "Pirminis programos tekstas"
 
-#: template/downloads.html:150
+#: template/downloads.html:164
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Pirminis programos tekstas yra prieinamas pagal AGPLv3 licenciją."
 
-#: template/downloads.html:163
+#: template/downloads.html:177
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 ir GPG"
 
-#: template/downloads.html:167
+#: template/downloads.html:181
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -828,16 +952,19 @@ msgstr ""
 "Kad patikrinti atsisiuntimų vientisumą, galite gauti originalią failų maišą "
 "SHA-256, jų atsisiuntimo URL pabaigoje pridėdami „.sha256“."
 
-#: template/downloads.html:168
-#, python-format
+#: template/downloads.html:182
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
-"The source tarball and the Linux installers are signed with the GPG key from "
+"The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Pirminio programos teksto archyvas ir „Linux“ diegimo programos pasirašyti "
 "GPG raktu priklausančiu Timothée Giet (viešas raktas: %(public_gpg_key)s)"
 
-#: template/downloads.html:170
+#: template/downloads.html:184
 msgid "sig files:"
 msgstr "parašo failai:"
 
@@ -1365,15 +1492,40 @@ msgstr "Skaitymas"
 msgid "Strategy"
 msgstr "Strateginiai žaidimai"
 
+#, fuzzy
+#~| msgctxt "20240221.html"
+#~| msgid "Release GCompris 4.0"
+#~ msgctxt "20240920.html"
+#~ msgid "Release GCompris 4.2"
+#~ msgstr "GCompris 4.0 leidimas"
+
+#, fuzzy
+#~| msgctxt "20240221.html"
+#~| msgid "Today we are releasing GCompris version 4.0."
+#~ msgctxt "20240920.html"
+#~ msgid "Today we are releasing GCompris version 4.2."
+#~ msgstr "Šiandien išleidžiame GCompris 4.0 versiją."
+
+#, fuzzy
+#~| msgctxt "20230606.html"
+#~| msgid ""
+#~| "This version adds translations for 2 more languages: Arabic and "
+#~| "Esperanto."
+#~ msgctxt "20240920.html"
+#~ msgid "This version adds translation for Latvian."
+#~ msgstr "Pridėti vertimai  į arabų ir esperanto kalbas."
+
+#~ msgid "You can get the macOS version from the link below."
+#~ msgstr "Jūs galite gauti „macOS“ versiją paspaudę nuorodą žemiau."
+
+#~ msgid "System requirements:"
+#~ msgstr "Sistemos reikalavimai:"
+
 #~ msgctxt "20240221.html"
 #~ msgid ""
 #~ "This version adds translations for 3 more languages: Bulgarian, Galician "
 #~ "and Swahili."
 #~ msgstr "Pridėti vertimai dar į tris kalbas: bulgarų, galų ir suahilių."
-
-#~ msgctxt "20240221.html"
-#~ msgid "It contains 190 activities, including 8 new ones:"
-#~ msgstr "Jame yra 190 pamokėlių, įskaitant 8 naujas:"
 
 #~ msgctxt "20240221.html"
 #~ msgid ""
@@ -1667,10 +1819,6 @@ msgstr "Strateginiai žaidimai"
 #~ "Taip pat perėjome iš QtQuick.Controls 1 į QtQuick.Controls 2."
 
 #~ msgctxt "20220413.html"
-#~ msgid "Release GCompris 2.4"
-#~ msgstr "GCompris 2.4 leidimas"
-
-#~ msgctxt "20220413.html"
 #~ msgid ""
 #~ "We optimized the size of all the packages for all platforms and of the "
 #~ "external word images set (~30% smaller)."
@@ -1716,10 +1864,6 @@ msgstr "Strateginiai žaidimai"
 #~ msgstr ""
 #~ "Taip pat ištaisėme keletą klaidų atsinaujinančios energijos, vandens "
 #~ "ciklų ir loginių asociacijų pamokėlėse."
-
-#~ msgctxt "20220227.html"
-#~ msgid "Today we are releasing GCompris version 2.3."
-#~ msgstr "Šiandien išleidžiame GCompris 2.3 versiją."
 
 #~ msgctxt "20220227.html"
 #~ msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 01:57+0000\n"
+"POT-Creation-Date: 2024-12-15 02:34+0000\n"
 "PO-Revision-Date: 2024-10-03 11:59+0300\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
@@ -18,70 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 3.2.2\n"
-
-#. news title
-msgctxt "20240920.html"
-msgid "Release GCompris 4.2"
-msgstr "Hedhje në qarkullim e GCompris-së 4.2"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "Today we are releasing GCompris version 4.2."
-msgstr "Sot hedhim në qarkullim GCompris version 4.2."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë "
-"veprimtari."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "This version adds translation for Latvian."
-msgstr "Ky version shton përkthim për letonishten."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
-
-#. list item
-msgctxt "20240920.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240920.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
-"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
-"Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
-"shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
-"Windows."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
 #, fuzzy
@@ -172,6 +108,174 @@ msgstr ""
 #| msgctxt "20240523.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Release GCompris 2.4"
+msgctxt "20250130.html"
+msgid "Release GCompris 25.0"
+msgstr "Hedhje në qarkullim e GCompris 2.4"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "Today we are releasing GCompris version 4.2."
+msgctxt "20250130.html"
+msgid "Today we are releasing GCompris version 25.0."
+msgstr "Sot hedhim në qarkullim GCompris version 4.2."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"As you can see, we are now basing the major version number on the release "
+"year. This makes sense as we are doing one major version per year. It is "
+"also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It contains 190 activities, including 8 new ones:"
+msgctxt "20250130.html"
+msgid "This new version contains 195 activities, including 5 new ones:"
+msgstr "Përmban 190 veprimtari, përfshi 8 të reja:"
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
+"children explore their creativity."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
+"ten's complement activities. This one helps the children to swap the numbers "
+"to easily compute a sum."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+"subtraction with the borrowing by regrouping method."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
+"one with the borrowing by compensation method."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20250130.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+"Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë "
+"veprimtari."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"With the help of teachers, we rewrote a big part of the activities "
+"description to be clearer."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"When we switch language in the menu, the new language is now applied "
+"directly, without having to restart GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "On the technical side, it is also the first release using Qt6."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"We have also set the graphical renderer to direct3d11 by default on Windows."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20250130.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
+"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
+"shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
+"Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
@@ -590,22 +694,35 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Ndryshe, mund të shkarkoni instaluesin që nga lidhjet më poshtë."
 
 #: template/downloads.html:24
-msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: Windows 10 or 11."
 msgstr ""
 "Domosdoshmëri sistemi: Windows 7, 8 ose 10, me mbulim të OpenGL 2-shit."
 
-#: template/downloads.html:29
+#: template/downloads.html:28
+#, fuzzy
+#| msgid ""
+#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
+#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
+#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-"launch GCompris with the software rendering mode which doesn't use OpenGL."
+"launch GCompris with the software rendering mode."
 msgstr ""
 "Shënim: Nëse sistemi juaj nuk ka mbulim për OpenGL 2, ose nuk funksionon si "
 "duhet, ju lutemi, përdorni zërin GCompris (Safe Mode) te menuja e nisjes, "
 "për ta nisur GCompris-in nën mënyrën “software rendering”, e cila s’përdor "
 "OpenGL."
 
-#: template/downloads.html:30
+#: template/downloads.html:29
+msgid ""
+"The last version available for Windows 7 and 8 can be downloaded from the "
+"link below."
+msgstr ""
+
+#: template/downloads.html:34
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -615,7 +732,7 @@ msgstr ""
 "juaj s’e mbulon versionin e ri, mund të përdorni instaluesin e fundit prej "
 "GCompris 15.10 të dikurshëm."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -625,15 +742,15 @@ msgstr ""
 "përdorni kodin 200202 te kuadrati që përmban fjalën CODE, kur nisni "
 "aplikacionin."
 
-#: template/downloads.html:44
+#: template/downloads.html:48
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Versioni për Android shpërndahet përmes Play Store."
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -643,7 +760,7 @@ msgstr ""
 "Versioni i duhur shkarkohet automatikisht, në varësi të sistemit tuaj "
 "operativ Android."
 
-#: template/downloads.html:54
+#: template/downloads.html:58
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -651,7 +768,7 @@ msgstr ""
 "GCompris mund të merret edhe prej F-Droid, depoja për aplikacione Android të "
 "Lira dhe me Burim të Hapur."
 
-#: template/downloads.html:59
+#: template/downloads.html:63
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -659,7 +776,23 @@ msgstr ""
 "Mundeni edhe të shkarkoni drejtpërsëdrejti apk-në që nga sajti ynë, për ta "
 "instaluar dorazi në pajisjen tuaj."
 
-#: template/downloads.html:64
+#: template/downloads.html:68
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgid ""
+"For devices running Android 4.1 to 8.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+msgstr ""
+"Për pajisje që xhirojnë Android 2.3 deri në 4.0, versioni i fundit i "
+"përputhshëm është <a href= \"https://gcompris.net/download/qt/android/"
+"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
+"0.81</a>."
+
+#: template/downloads.html:69
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -670,23 +803,31 @@ msgstr ""
 "GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
 "0.81</a>."
 
-#: template/downloads.html:75
+#: template/downloads.html:80
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:79
-msgid "You can get the macOS version from the link below."
-msgstr "Versionin për macOS mund ta merrni prej lidhjes më poshtë."
+#: template/downloads.html:84
+msgid ""
+"The latest version is not yet available on macOS due to lack of "
+"infrastructure to build and test it."
+msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:85
+#, fuzzy
+#| msgid "Else, you can download the installer from the links below."
+msgid "You can download the last version available macOS from the link below."
+msgstr "Ndryshe, mund të shkarkoni instaluesin që nga lidhjet më poshtë."
+
+#: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
 msgstr "Montuar dhe provuar në macOS 10.13."
 
-#: template/downloads.html:93
+#: template/downloads.html:99
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:97
+#: template/downloads.html:103
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -694,7 +835,7 @@ msgstr ""
 "Mund të kontrolloni nëse shpërndarja juaj jep një paketë për versionin më të "
 "ri të GCompris-së."
 
-#: template/downloads.html:98
+#: template/downloads.html:104
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -702,11 +843,11 @@ msgstr ""
 "Furnizojmë paketa të pavarura për GNU/Linux. Do të duhej të funksiononin në "
 "çfarëdo shpërndarje të freskët."
 
-#: template/downloads.html:98
-msgid "System requirements:"
-msgstr "Domosdoshmëri sistemi:"
+#: template/downloads.html:104
+msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgstr ""
 
-#: template/downloads.html:103 template/downloads.html:130
+#: template/downloads.html:108 template/downloads.html:144
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -714,7 +855,7 @@ msgstr ""
 "Për ta përdorur, hapni një terminal, kaloni te dosja ku shkarkuat "
 "instaluesin dhe xhironi këto urdhra:"
 
-#: template/downloads.html:108 template/downloads.html:135
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -723,7 +864,7 @@ msgstr ""
 "pyetjeve, dhe software-i do të instalohet në një dosje të re në krah të "
 "instaluesit."
 
-#: template/downloads.html:109 template/downloads.html:136
+#: template/downloads.html:114 template/downloads.html:150
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -731,7 +872,7 @@ msgstr ""
 "Më në fund, që të nisni GCompris, kaloni te dosja e re, në bin, dhe "
 "dyklikoni mbi compris-qt.sh."
 
-#: template/downloads.html:110
+#: template/downloads.html:115
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -746,7 +887,7 @@ msgstr ""
 "qt.conf): gjeni rreshtin renderer=auto , zëvendësoni “auto” me "
 "“software” (pa thonjëzat) dhe ruajeni kartelën."
 
-#: template/downloads.html:111
+#: template/downloads.html:116
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -756,31 +897,51 @@ msgstr ""
 "apps/details/org.kde.gcompris\">Flathub</a>, ose nga <a href=\"https://"
 "snapcraft.io/gcompris\">shitorja e Snap-it</a>."
 
-#: template/downloads.html:122
+#: template/downloads.html:117
+msgid ""
+"The last version available for 32bit Linux distributions can be downloaded "
+"from the following link."
+msgstr ""
+
+#: template/downloads.html:117
+msgid ""
+"System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
+msgstr ""
+
+#: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:126
-msgid "We provide a standalone package for Raspberry Pi."
+#: template/downloads.html:135
+#, fuzzy
+#| msgid "We provide a standalone package for Raspberry Pi."
+msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Japim një paketë më vete për Raspberry Pi."
 
-#: template/downloads.html:126
+#: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Qe testuar vetëm me Raspberry Pi 3."
 
-#: template/downloads.html:146
+#: template/downloads.html:139
+msgid ""
+"The last version available for 32bit is the version 4.3 at the following "
+"link:"
+msgstr ""
+
+#: template/downloads.html:160
 msgid "Source code"
 msgstr "Kod burim"
 
-#: template/downloads.html:150
+#: template/downloads.html:164
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Kodi burim është i passhëm sipas licencës GPLv3."
 
-#: template/downloads.html:163
+#: template/downloads.html:177
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 dhe GPG"
 
-#: template/downloads.html:167
+#: template/downloads.html:181
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -789,16 +950,19 @@ msgstr ""
 "origjinal SHA-256 të kartelave duke shtuar “.sha256” në fund të URL-së "
 "përkatëse të shkarkimit."
 
-#: template/downloads.html:168
-#, python-format
+#: template/downloads.html:182
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
-"The source tarball and the Linux installers are signed with the GPG key from "
+"The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Paketa <em>tarball</em> e burimit dhe instaluesit për Linux janë nënshkruar "
 "me kyçin GPG nga Timothée Giet (kyç publik: %(public_gpg_key)s)"
 
-#: template/downloads.html:170
+#: template/downloads.html:184
 msgid "sig files:"
 msgstr "kartela nënshkrimesh:"
 
@@ -1324,6 +1488,20 @@ msgstr "Lexim"
 msgid "Strategy"
 msgstr "Strategji"
 
+#~ msgctxt "20240920.html"
+#~ msgid "Release GCompris 4.2"
+#~ msgstr "Hedhje në qarkullim e GCompris-së 4.2"
+
+#~ msgctxt "20240920.html"
+#~ msgid "This version adds translation for Latvian."
+#~ msgstr "Ky version shton përkthim për letonishten."
+
+#~ msgid "You can get the macOS version from the link below."
+#~ msgstr "Versionin për macOS mund ta merrni prej lidhjes më poshtë."
+
+#~ msgid "System requirements:"
+#~ msgstr "Domosdoshmëri sistemi:"
+
 #~ msgctxt "20240221.html"
 #~ msgid ""
 #~ "This version adds translations for 3 more languages: Bulgarian, Galician "
@@ -1331,10 +1509,6 @@ msgstr "Strategji"
 #~ msgstr ""
 #~ "Ky version shton përkthime për 3 gjuhë më tepër: bullgarisht, galicisht "
 #~ "dhe suahili."
-
-#~ msgctxt "20240221.html"
-#~ msgid "It contains 190 activities, including 8 new ones:"
-#~ msgstr "Përmban 190 veprimtari, përfshi 8 të reja:"
 
 #~ msgctxt "20240221.html"
 #~ msgid ""
@@ -1644,10 +1818,6 @@ msgstr "Strategji"
 #~ "varësi të re për shtojcën QtCharts QML dhe versioni minimum i domosdoshëm "
 #~ "për Qt5 tani është 5.12. Kaluam gjithashtu nga përdorimi i QtQuick."
 #~ "Controls 1 në QtQuick.Controls 2."
-
-#~ msgctxt "20220413.html"
-#~ msgid "Release GCompris 2.4"
-#~ msgstr "Hedhje në qarkullim e GCompris 2.4"
 
 #~ msgctxt "20220413.html"
 #~ msgid ""

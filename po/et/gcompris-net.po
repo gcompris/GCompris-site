@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 01:57+0000\n"
+"POT-Creation-Date: 2024-12-15 02:34+0000\n"
 "PO-Revision-Date: 2021-12-16 11:16+0200\n"
 "Last-Translator: Tõnis Piirits <tonis.piirits@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -20,88 +20,6 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.0\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20211217.html"
-#| msgid "Release GCompris 2.0"
-msgctxt "20240920.html"
-msgid "Release GCompris 4.2"
-msgstr "GComprise väljalase 2.0"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid ""
-#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#| "1.1."
-msgctxt "20240920.html"
-msgid "Today we are releasing GCompris version 4.2."
-msgstr ""
-"Hei,<br />\\nMeil on suur rõõm teada anda, et GComprise 1.1 on lõpuks "
-"saadaval."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "This version adds translation for Latvian."
-msgstr ""
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is fully translated in the following languages:"
-msgstr ""
-
-#. list item
-msgctxt "20240920.html"
-msgid "{{ oneLocale }}"
-msgstr ""
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is also partially translated in the following languages:"
-msgstr ""
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240920.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20211217.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
-msgctxt "20240920.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Nagu tavaliselt, leiate selle uue versiooni paketid GNU/Linuxi, Windowsi, "
-"Androidi, Raspberry Pi ja macOS-i jaoks saidilt <a href=\\\"https://gcompris."
-"net/downloads{{ suffix }}.html\\\"> allalaadimisleht</a>. See värskendus on "
-"peagi saadaval ka Android Play poes, F-Droidi hoidlas ja Windowsi poes."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20210321.html"
-#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
-msgctxt "20240920.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Täname teid kõiki, <br/>\\nTimothée ja Johnny"
 
 #. news title
 #, fuzzy
@@ -177,6 +95,156 @@ msgstr ""
 #| msgctxt "20210321.html"
 #| msgid "Thank you all, <br/>\\nTimothée & Johnny"
 msgctxt "20241129.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Täname teid kõiki, <br/>\\nTimothée ja Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20211217.html"
+#| msgid "Release GCompris 2.0"
+msgctxt "20250130.html"
+msgid "Release GCompris 25.0"
+msgstr "GComprise väljalase 2.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid ""
+#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
+#| "1.1."
+msgctxt "20250130.html"
+msgid "Today we are releasing GCompris version 25.0."
+msgstr ""
+"Hei,<br />\\nMeil on suur rõõm teada anda, et GComprise 1.1 on lõpuks "
+"saadaval."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"As you can see, we are now basing the major version number on the release "
+"year. This makes sense as we are doing one major version per year. It is "
+"also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "This new version contains 195 activities, including 5 new ones:"
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
+"children explore their creativity."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
+"ten's complement activities. This one helps the children to swap the numbers "
+"to easily compute a sum."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+"subtraction with the borrowing by regrouping method."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
+"one with the borrowing by compensation method."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"With the help of teachers, we rewrote a big part of the activities "
+"description to be clearer."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"When we switch language in the menu, the new language is now applied "
+"directly, without having to restart GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "On the technical side, it is also the first release using Qt6."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"We have also set the graphical renderer to direct3d11 by default on Windows."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid "{{ oneLocale }}"
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20250130.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20211217.html"
+#| msgid ""
+#| "As usual you can find packages of this new version for GNU/Linux, "
+#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
+#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
+#| "update will also be available soon in the Android Play store, the F-Droid "
+#| "repository and the Windows store."
+msgctxt "20250130.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Nagu tavaliselt, leiate selle uue versiooni paketid GNU/Linuxi, Windowsi, "
+"Androidi, Raspberry Pi ja macOS-i jaoks saidilt <a href=\\\"https://gcompris."
+"net/downloads{{ suffix }}.html\\\"> allalaadimisleht</a>. See värskendus on "
+"peagi saadaval ka Android Play poes, F-Droidi hoidlas ja Windowsi poes."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Thank you all, <br/>\\nTimothée & Johnny"
+msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Täname teid kõiki, <br/>\\nTimothée ja Johnny"
 
@@ -599,20 +667,33 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Samuti võib paigaldusprogrammi alla laadida allpool toodud linkidelt."
 
 #: template/downloads.html:24
-msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: Windows 10 or 11."
 msgstr "Nõuded süsteemile: Windows 7, 8 või 10 OpenGL 2 toetusega."
 
-#: template/downloads.html:29
+#: template/downloads.html:28
+#, fuzzy
+#| msgid ""
+#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
+#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
+#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-"launch GCompris with the software rendering mode which doesn't use OpenGL."
+"launch GCompris with the software rendering mode."
 msgstr ""
 "Märkus: kui sinu süsteem ei toeta OpenGL 2 või ei tööta see korralikult, "
 "kasuta palun avamenüüs kirjet GCompris (turvaline režiim), et käivitada "
 "GCompris sellises tarkvara renderdamisrežiimis, mis ei kasuta OpenGL-i."
 
-#: template/downloads.html:30
+#: template/downloads.html:29
+msgid ""
+"The last version available for Windows 7 and 8 can be downloaded from the "
+"link below."
+msgstr ""
+
+#: template/downloads.html:34
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -622,7 +703,7 @@ msgstr ""
 "sinu süsteem ei toeta uut versiooni, võid kasutada vana GCompris 15.10 "
 "viimast paigaldajat."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -631,15 +712,15 @@ msgstr ""
 "Kõigi tegevuste lubamiseks selles vanas versioonis võid tarvitada koodi "
 "200202 sisendkastis, mis rakenduse käivitamisel sisaldab sõna CODE."
 
-#: template/downloads.html:44
+#: template/downloads.html:48
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Androidi versiooni levitab Play pood."
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -649,7 +730,7 @@ msgstr ""
 "versioon laaditakse alla automaatselt vastavalt sinu Androidi "
 "operatsioonisüsteemile."
 
-#: template/downloads.html:54
+#: template/downloads.html:58
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -657,7 +738,7 @@ msgstr ""
 "GCompris on samuti saadaval vabas ja avatud lähtekoodiga Androidi rakenduste "
 "hoidlas F-Droid."
 
-#: template/downloads.html:59
+#: template/downloads.html:63
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -665,30 +746,45 @@ msgstr ""
 "Apk saate otse alla laadida ka meie veebisaidilt, et see oma seadmesse "
 "käsitsi installida."
 
-#: template/downloads.html:64
+#: template/downloads.html:68
+msgid ""
+"For devices running Android 4.1 to 8.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+msgstr ""
+
+#: template/downloads.html:69
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
 
-#: template/downloads.html:75
+#: template/downloads.html:80
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:79
-msgid "You can get the macOS version from the link below."
-msgstr "Samuti võib macOSi versiooni saada allpool toodud lingilt."
+#: template/downloads.html:84
+msgid ""
+"The latest version is not yet available on macOS due to lack of "
+"infrastructure to build and test it."
+msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:85
+#, fuzzy
+#| msgid "Else, you can download the installer from the links below."
+msgid "You can download the last version available macOS from the link below."
+msgstr "Samuti võib paigaldusprogrammi alla laadida allpool toodud linkidelt."
+
+#: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
 msgstr "Ehitatud ja testitud macOS 10.13 peal."
 
-#: template/downloads.html:93
+#: template/downloads.html:99
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:97
+#: template/downloads.html:103
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -696,7 +792,7 @@ msgstr ""
 "Saate kontrollida, kas teie distribuutor pakub paketti GComprise uusima "
 "versiooni jaoks."
 
-#: template/downloads.html:98
+#: template/downloads.html:104
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -704,11 +800,11 @@ msgstr ""
 "Pakume ka eraldiseisvaid pakette GNU/Linuxi jaoks. Nad peaksid töötama mis "
 "tahes hiljutiseväljalaskega."
 
-#: template/downloads.html:98
-msgid "System requirements:"
-msgstr "Nõuded süsteemile:"
+#: template/downloads.html:104
+msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgstr ""
 
-#: template/downloads.html:103 template/downloads.html:130
+#: template/downloads.html:108 template/downloads.html:144
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -716,7 +812,7 @@ msgstr ""
 "Selleks ava terminal kataloogiga, kuhu laadisid alla paigaldusprogrammi, ja "
 "anna käsud:"
 
-#: template/downloads.html:108 template/downloads.html:135
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -725,7 +821,7 @@ msgstr ""
 "küsimustele \"jah\" ning tarkvara paigaldataksegi uude kataloogi "
 "paigaldusprogrammi kõrvale."
 
-#: template/downloads.html:109 template/downloads.html:136
+#: template/downloads.html:114 template/downloads.html:150
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -733,7 +829,7 @@ msgstr ""
 "Lõpuks mine GComprise käivitamiseks uude kataloogi ja tee topeltklõps failil "
 "gcompris-qt.sh."
 
-#: template/downloads.html:110
+#: template/downloads.html:115
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -747,55 +843,78 @@ msgstr ""
 "gcompris-qt.conf): leia seal rida renderer=auto, kirjuta auto asemele "
 "software ja salvesta fail."
 
-#: template/downloads.html:111
+#: template/downloads.html:116
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
 
-#: template/downloads.html:122
+#: template/downloads.html:117
+msgid ""
+"The last version available for 32bit Linux distributions can be downloaded "
+"from the following link."
+msgstr ""
+
+#: template/downloads.html:117
+msgid ""
+"System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
+msgstr ""
+
+#: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:126
-msgid "We provide a standalone package for Raspberry Pi."
+#: template/downloads.html:135
+#, fuzzy
+#| msgid "We provide a standalone package for Raspberry Pi."
+msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Me pakume autonoomset paketti Raspberry Pile."
 
-#: template/downloads.html:126
+#: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Seda on testitud ainult Raspberry Pi 3 peal."
 
-#: template/downloads.html:146
+#: template/downloads.html:139
+msgid ""
+"The last version available for 32bit is the version 4.3 at the following "
+"link:"
+msgstr ""
+
+#: template/downloads.html:160
 msgid "Source code"
 msgstr "Lähtekood"
 
-#: template/downloads.html:150
+#: template/downloads.html:164
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Lähtekood on saadaval AGPLv3 litsentsi alusel."
 
-#: template/downloads.html:163
+#: template/downloads.html:177
 #, fuzzy
 #| msgid "MD5 and GPG"
 msgid "SHA-256 and GPG"
 msgstr "MD5 ja GPG"
 
-#: template/downloads.html:167
+#: template/downloads.html:181
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
 
-#: template/downloads.html:168
-#, python-format
+#: template/downloads.html:182
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
-"The source tarball and the Linux installers are signed with the GPG key from "
+"The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Lähtekoodi pakitud fail ja Linuxi paigaldamisprogrammid on allkirjastatud "
 "Timothée Giet' GPG võtmega (avalik võti: %(public_gpg_key)s)"
 
-#: template/downloads.html:170
+#: template/downloads.html:184
 msgid "sig files:"
 msgstr "allkirjafailid:"
 
@@ -1278,6 +1397,19 @@ msgstr ""
 #, fuzzy
 #~| msgctxt "20211217.html"
 #~| msgid "Release GCompris 2.0"
+#~ msgctxt "20240920.html"
+#~ msgid "Release GCompris 4.2"
+#~ msgstr "GComprise väljalase 2.0"
+
+#~ msgid "You can get the macOS version from the link below."
+#~ msgstr "Samuti võib macOSi versiooni saada allpool toodud lingilt."
+
+#~ msgid "System requirements:"
+#~ msgstr "Nõuded süsteemile:"
+
+#, fuzzy
+#~| msgctxt "20211217.html"
+#~| msgid "Release GCompris 2.0"
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
 #~ msgstr "GComprise väljalase 2.0"
@@ -1357,13 +1489,6 @@ msgstr ""
 #~ "ukraina). 7 on osaliselt tõlgitud: (saksa (96%), norra nynorsk (96%), "
 #~ "valgevene (83%), makedoonia (82%), bretooni (80%), türgi (76%) ja vene "
 #~ "(76%)."
-
-#, fuzzy
-#~| msgctxt "20211217.html"
-#~| msgid "Release GCompris 2.0"
-#~ msgctxt "20220413.html"
-#~ msgid "Release GCompris 2.4"
-#~ msgstr "GComprise väljalase 2.0"
 
 #, fuzzy
 #~| msgctxt "20210321.html"

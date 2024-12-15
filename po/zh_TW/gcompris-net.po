@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 01:57+0000\n"
+"POT-Creation-Date: 2024-12-15 02:34+0000\n"
 "PO-Revision-Date: 2024-05-08 13:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -22,93 +22,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 24.04.70\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
-msgctxt "20240920.html"
-msgid "Release GCompris 4.2"
-msgstr "釋出 GCompris 4.0"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
-msgctxt "20240920.html"
-msgid "Today we are releasing GCompris version 4.2."
-msgstr "我們今天釋出 GCompris 4.0 版。"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20230606.html"
-#| msgid ""
-#| "This version adds translations for 2 more languages: Arabic and Esperanto."
-msgctxt "20240920.html"
-msgid "This version adds translation for Latvian."
-msgstr "這個版本新增另外兩個語言的翻譯：阿拉伯語和世界語。"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is fully translated in the following languages:"
-msgstr ""
-
-#. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
-msgctxt "20240920.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is also partially translated in the following languages:"
-msgstr ""
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
-msgctxt "20240920.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid ""
-#| "As usual you can find packages of this new version for GNU/Linux, "
-#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
-#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
-#| "update will also be available soon in the Android Play store, the F-Droid "
-#| "repository and the Windows store."
-msgctxt "20240920.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"依照慣例，您可以在<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
-"\\\">下載頁面</a>中找到 GNU/Linux、Windows、Android、樹莓派與 macOS 上的新版"
-"本。這次更新也會盡快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
-msgctxt "20240920.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "感謝您的支持。<br/>Timothée & Johnny"
 
 #. news title
 #, fuzzy
@@ -185,6 +98,160 @@ msgstr ""
 #| msgctxt "20240523.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "感謝您的支持。<br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20220413.html"
+#| msgid "Release GCompris 2.4"
+msgctxt "20250130.html"
+msgid "Release GCompris 25.0"
+msgstr "釋出 GCompris 2.4"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20250130.html"
+msgid "Today we are releasing GCompris version 25.0."
+msgstr "我們今天釋出 GCompris 4.0 版。"
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"As you can see, we are now basing the major version number on the release "
+"year. This makes sense as we are doing one major version per year. It is "
+"also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It contains 190 activities, including 8 new ones:"
+msgctxt "20250130.html"
+msgid "This new version contains 195 activities, including 5 new ones:"
+msgstr "裡面總共有 190 個活動，包含 8 個新活動："
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
+"children explore their creativity."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
+"ten's complement activities. This one helps the children to swap the numbers "
+"to easily compute a sum."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+"subtraction with the borrowing by regrouping method."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
+"one with the borrowing by compensation method."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"With the help of teachers, we rewrote a big part of the activities "
+"description to be clearer."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"When we switch language in the menu, the new language is now applied "
+"directly, without having to restart GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "On the technical side, it is also the first release using Qt6."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"We have also set the graphical renderer to direct3d11 by default on Windows."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20230118.html"
+#| msgid ""
+#| "As usual you can find packages of this new version for GNU/Linux, "
+#| "Windows, Android, Raspberry Pi and macOS on the <a href=\\\"https://"
+#| "gcompris.net/downloads{{ suffix }}.html\\\">download page</a>. This "
+#| "update will also be available soon in the Android Play store, the F-Droid "
+#| "repository and the Windows store."
+msgctxt "20250130.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"依照慣例，您可以在<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">下載頁面</a>中找到 GNU/Linux、Windows、Android、樹莓派與 macOS 上的新版"
+"本。這次更新也會盡快推到 Android Play 商店、F-Droid 套件庫與 Windows 商店中。"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "感謝您的支持。<br/>Timothée & Johnny"
 
@@ -596,19 +663,32 @@ msgid "Else, you can download the installer from the links below."
 msgstr "您也可以從以下的連結下載安裝檔。"
 
 #: template/downloads.html:24
-msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: Windows 10 or 11."
 msgstr "系統需求：Windows 7, 8, 10 以上，有 OpenGL 2 支援。"
 
-#: template/downloads.html:29
+#: template/downloads.html:28
+#, fuzzy
+#| msgid ""
+#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
+#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
+#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-"launch GCompris with the software rendering mode which doesn't use OpenGL."
+"launch GCompris with the software rendering mode."
 msgstr ""
 "注意：如果您的系統沒有 OpenGL 2 支援，或無法正常運作，請在開始選單中使用 "
 "GCompris（安全模式）來啟動。"
 
-#: template/downloads.html:30
+#: template/downloads.html:29
+msgid ""
+"The last version available for Windows 7 and 8 can be downloaded from the "
+"link below."
+msgstr ""
+
+#: template/downloads.html:34
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -617,7 +697,7 @@ msgstr ""
 "如果您真的需要在 Windows XP 上執行，或是您的系統不支援最新版本，您可以使用舊"
 "的 GCompris 15.10 版本的安裝檔。"
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -626,15 +706,15 @@ msgstr ""
 "要在此舊版本上玩所有的活動，您可以在啟動 GCompirs 時在有 CODE 的輸入框中輸入 "
 "200202。"
 
-#: template/downloads.html:44
+#: template/downloads.html:48
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Android 版本是透過 Play 商店散布的。"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -643,19 +723,34 @@ msgstr ""
 "我們支援 32 位元與 64 位元的 Play 商店。它會自動根據您的 Android 作業系統來下"
 "載適當的版本。"
 
-#: template/downloads.html:54
+#: template/downloads.html:58
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr "GCompris 也可以從 F-Droid 上下載。"
 
-#: template/downloads.html:59
+#: template/downloads.html:63
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr "您也可以從我們的網站上手動下載 apk 版本到您的裝置上安裝。"
 
-#: template/downloads.html:64
+#: template/downloads.html:68
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgid ""
+"For devices running Android 4.1 to 8.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+msgstr ""
+"若您的 Android 版本是 2.3 到 4.0 版，最新相容的版本是 <a href= \"https://"
+"gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-"
+"armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>。"
+
+#: template/downloads.html:69
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -665,46 +760,54 @@ msgstr ""
 "gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-"
 "armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>。"
 
-#: template/downloads.html:75
+#: template/downloads.html:80
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:79
-msgid "You can get the macOS version from the link below."
-msgstr "您可以從以下的連結下載 macOS 版。"
+#: template/downloads.html:84
+msgid ""
+"The latest version is not yet available on macOS due to lack of "
+"infrastructure to build and test it."
+msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:85
+#, fuzzy
+#| msgid "Else, you can download the installer from the links below."
+msgid "You can download the last version available macOS from the link below."
+msgstr "您也可以從以下的連結下載安裝檔。"
+
+#: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
 msgstr "在 macOS 10.13 上編譯並測試。"
 
-#: template/downloads.html:93
+#: template/downloads.html:99
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:97
+#: template/downloads.html:103
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr "您可以看看您的 Linux 系統套件庫中是否有最新版的 GCompris。"
 
-#: template/downloads.html:98
+#: template/downloads.html:104
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
 "我們也提供 GNU/Linux 上的獨立套件。它應該可以在任何一種 Linux 套件上執行。"
 
-#: template/downloads.html:98
-msgid "System requirements:"
-msgstr "系統需求："
+#: template/downloads.html:104
+msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgstr ""
 
-#: template/downloads.html:103 template/downloads.html:130
+#: template/downloads.html:108 template/downloads.html:144
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr "開啟終端機，並進入您下載安裝檔的資料夾後，執行以下指令："
 
-#: template/downloads.html:108 template/downloads.html:135
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -712,13 +815,13 @@ msgstr ""
 "然後閱讀授權條款，或是按 Q 跳過，輸入 yes，軟體就會安裝在跟安裝檔同一層的新資"
 "料夾中。"
 
-#: template/downloads.html:109 template/downloads.html:136
+#: template/downloads.html:114 template/downloads.html:150
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr "要啟動 Gcompris ，進入新安裝的資料夾，雙擊 gcompris-qt.sh 即可。"
 
-#: template/downloads.html:110
+#: template/downloads.html:115
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -731,7 +834,7 @@ msgstr ""
 "config/gcompris-qt/gcompris-qt.conf 中）：找到這一行：\"renderer=auto\" ，把 "
 "auto 換成 software 並儲存。"
 
-#: template/downloads.html:111
+#: template/downloads.html:116
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -741,31 +844,51 @@ msgstr ""
 "gcompris\">Flathub</a> 或 <a href=\"https://snapcraft.io/gcompris\">Snap "
 "store</a> 來安裝。"
 
-#: template/downloads.html:122
+#: template/downloads.html:117
+msgid ""
+"The last version available for 32bit Linux distributions can be downloaded "
+"from the following link."
+msgstr ""
+
+#: template/downloads.html:117
+msgid ""
+"System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
+msgstr ""
+
+#: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "樹莓派"
 
-#: template/downloads.html:126
-msgid "We provide a standalone package for Raspberry Pi."
+#: template/downloads.html:135
+#, fuzzy
+#| msgid "We provide a standalone package for Raspberry Pi."
+msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "我們提供在樹莓派上的獨立運作套件。"
 
-#: template/downloads.html:126
+#: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "它只在樹莓派 3 上測試過。"
 
-#: template/downloads.html:146
+#: template/downloads.html:139
+msgid ""
+"The last version available for 32bit is the version 4.3 at the following "
+"link:"
+msgstr ""
+
+#: template/downloads.html:160
 msgid "Source code"
 msgstr "程式源碼"
 
-#: template/downloads.html:150
+#: template/downloads.html:164
 msgid "The source code is available under the AGPLv3 license."
 msgstr "程式源碼以 AGPLv3 授權釋出。"
 
-#: template/downloads.html:163
+#: template/downloads.html:177
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 與 GPG"
 
-#: template/downloads.html:167
+#: template/downloads.html:181
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -773,16 +896,19 @@ msgstr ""
 "要檢查您下載檔案的完整性，您可以在下載連結的後面加上 \".sha256\" 下載 "
 "SHA-256 簽章檔來比對。"
 
-#: template/downloads.html:168
-#, python-format
+#: template/downloads.html:182
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
-"The source tarball and the Linux installers are signed with the GPG key from "
+"The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "程式源碼的 tarball 壓縮檔以及 Linux 安裝檔都已由 Timothée Giet 的 GPG 金鑰簽"
 "署過（他的公開金鑰為：%(public_gpg_key)s）"
 
-#: template/downloads.html:170
+#: template/downloads.html:184
 msgid "sig files:"
 msgstr "簽章檔："
 
@@ -1245,15 +1371,33 @@ msgstr "閱讀"
 msgid "Strategy"
 msgstr "策略"
 
+#, fuzzy
+#~| msgctxt "20240221.html"
+#~| msgid "Release GCompris 4.0"
+#~ msgctxt "20240920.html"
+#~ msgid "Release GCompris 4.2"
+#~ msgstr "釋出 GCompris 4.0"
+
+#, fuzzy
+#~| msgctxt "20230606.html"
+#~| msgid ""
+#~| "This version adds translations for 2 more languages: Arabic and "
+#~| "Esperanto."
+#~ msgctxt "20240920.html"
+#~ msgid "This version adds translation for Latvian."
+#~ msgstr "這個版本新增另外兩個語言的翻譯：阿拉伯語和世界語。"
+
+#~ msgid "You can get the macOS version from the link below."
+#~ msgstr "您可以從以下的連結下載 macOS 版。"
+
+#~ msgid "System requirements:"
+#~ msgstr "系統需求："
+
 #~ msgctxt "20240221.html"
 #~ msgid ""
 #~ "This version adds translations for 3 more languages: Bulgarian, Galician "
 #~ "and Swahili."
 #~ msgstr "這個版本新增三個語言的翻譯：保加利亞語、加利西亞語、斯瓦希里語"
-
-#~ msgctxt "20240221.html"
-#~ msgid "It contains 190 activities, including 8 new ones:"
-#~ msgstr "裡面總共有 190 個活動，包含 8 個新活動："
 
 #~ msgctxt "20230606.html"
 #~ msgid "Release GCompris 3.3"
@@ -1404,10 +1548,6 @@ msgstr "策略"
 #~ "GNU/Linux 套件的打包者請留意，我們新加了對 QtCharts QML plugin 的相依性，"
 #~ "Qt5 版本需要在 5.12 以上。我們也已經從 QtQuick.Controls 1 移到了 QtQuick."
 #~ "Controls 2。"
-
-#~ msgctxt "20220413.html"
-#~ msgid "Release GCompris 2.4"
-#~ msgstr "釋出 GCompris 2.4"
 
 #~ msgctxt "20220413.html"
 #~ msgid ""

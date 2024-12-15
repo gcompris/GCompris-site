@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 01:57+0000\n"
+"POT-Creation-Date: 2024-12-15 02:34+0000\n"
 "PO-Revision-Date: 2024-09-11 16:52+0200\n"
 "Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -21,68 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Lokalize 23.08.5\n"
-
-#. news title
-msgctxt "20240920.html"
-msgid "Release GCompris 4.2"
-msgstr "Vydání GCompris 4.2"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "Today we are releasing GCompris version 4.2."
-msgstr "Dnes vydáváme GCompris verze 4.2."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Obsahuje opravy chyb a grafická vylepšení ve vícero aktivitách."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "This version adds translation for Latvian."
-msgstr "Přidán překlad pro lotyštinu."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Je plně přeloženo do následujících jazyků:"
-
-#. list item
-msgctxt "20240920.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Také je částečně přeloženo do následujících jazyků:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20240920.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20240920.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android, "
-"Raspberry Pi a macOS na <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">stránce stahování</a>. Tato aktualizace také "
-"bude brzy dostupná v obchodě Google Play, repozitáři F-Droidu a obchodu "
-"Windows Store."
-
-#. paragraph
-msgctxt "20240920.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
 #, fuzzy
@@ -171,6 +109,169 @@ msgstr ""
 #| msgctxt "20240523.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Díky všem, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "Release GCompris 4.2"
+msgctxt "20250130.html"
+msgid "Release GCompris 25.0"
+msgstr "Vydání GCompris 4.2"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "Today we are releasing GCompris version 4.2."
+msgctxt "20250130.html"
+msgid "Today we are releasing GCompris version 25.0."
+msgstr "Dnes vydáváme GCompris verze 4.2."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"As you can see, we are now basing the major version number on the release "
+"year. This makes sense as we are doing one major version per year. It is "
+"also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "This new version contains 195 activities, including 5 new ones:"
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
+"children explore their creativity."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
+"ten's complement activities. This one helps the children to swap the numbers "
+"to easily compute a sum."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+"subtraction with the borrowing by regrouping method."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
+"one with the borrowing by compensation method."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20250130.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr "Obsahuje opravy chyb a grafická vylepšení ve vícero aktivitách."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"With the help of teachers, we rewrote a big part of the activities "
+"description to be clearer."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"When we switch language in the menu, the new language is now applied "
+"directly, without having to restart GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "On the technical side, it is also the first release using Qt6."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"We have also set the graphical renderer to direct3d11 by default on Windows."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Je plně přeloženo do následujících jazyků:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Také je částečně přeloženo do následujících jazyků:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20250130.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android, "
+"Raspberry Pi a macOS na <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">stránce stahování</a>. Tato aktualizace také "
+"bude brzy dostupná v obchodě Google Play, repozitáři F-Droidu a obchodu "
+"Windows Store."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
@@ -589,21 +690,34 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Nebo si můžete stáhnout instalátor pomocí odkazů níže."
 
 #: template/downloads.html:24
-msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: Windows 10 or 11."
 msgstr "Systémové požadavky: Windows 7, 8 nebo 10 s podporou OpenGL 2."
 
-#: template/downloads.html:29
+#: template/downloads.html:28
+#, fuzzy
+#| msgid ""
+#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
+#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
+#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-"launch GCompris with the software rendering mode which doesn't use OpenGL."
+"launch GCompris with the software rendering mode."
 msgstr ""
 "Upozornění: Pokud váš systém OpenGL 2 nepodporuje nebo OpenGL 2 nepracuje "
 "správně, použijte pro spuštění položku Nabídky Start s názvem GCompris "
 "(bezpečný režim), která aplikaci spustí se softwarovým režimem vykreslování, "
 "který nevyžaduje OpenGL."
 
-#: template/downloads.html:30
+#: template/downloads.html:29
+msgid ""
+"The last version available for Windows 7 and 8 can be downloaded from the "
+"link below."
+msgstr ""
+
+#: template/downloads.html:34
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -613,7 +727,7 @@ msgstr ""
 "systém nepodporuje novou verzi, můžete použít poslední instalátor ze starého "
 "GCompris 15.10."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -622,15 +736,15 @@ msgstr ""
 "Pro zapnutí všech aktivit v této staré verzi můžete při startu aplikace do "
 "vstupního pole s nápisem CODE vložit kód 200202."
 
-#: template/downloads.html:44
+#: template/downloads.html:48
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Verze pro Android je distribuována v Obchodu Play."
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -639,7 +753,7 @@ msgstr ""
 "V Obchodu Play podporujeme jak 32 bitový tak 64 bitový Android. Patřičná "
 "verze se stáhne podle vašeho operačního systému Android."
 
-#: template/downloads.html:54
+#: template/downloads.html:58
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -647,7 +761,7 @@ msgstr ""
 "GCompris je také dostupný v F-Droidu, aplikačním repozitáři Svobodného "
 "softwaru s otevřeným kódem pro Android."
 
-#: template/downloads.html:59
+#: template/downloads.html:63
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -655,7 +769,22 @@ msgstr ""
 "Také můžete z našich webových stránek přímo stáhnout soubor apk a ručně jej "
 "nainstalovat na vašem zařízení."
 
-#: template/downloads.html:64
+#: template/downloads.html:68
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgid ""
+"For devices running Android 4.1 to 8.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+msgstr ""
+"Pro zařízení se systémem Android 2.3 až 4.0 je poslední kompatibilní verzí "
+"<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+
+#: template/downloads.html:69
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -665,23 +794,31 @@ msgstr ""
 "<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:75
+#: template/downloads.html:80
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:79
-msgid "You can get the macOS version from the link below."
-msgstr "Z odkazu níže můžete také získat verzi pro macOS."
+#: template/downloads.html:84
+msgid ""
+"The latest version is not yet available on macOS due to lack of "
+"infrastructure to build and test it."
+msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:85
+#, fuzzy
+#| msgid "Else, you can download the installer from the links below."
+msgid "You can download the last version available macOS from the link below."
+msgstr "Nebo si můžete stáhnout instalátor pomocí odkazů níže."
+
+#: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
 msgstr "Sestaveno a otestováno na macOS 10.13."
 
-#: template/downloads.html:93
+#: template/downloads.html:99
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:97
+#: template/downloads.html:103
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -689,7 +826,7 @@ msgstr ""
 "Můžete si zkontrolovat, zda vaše distribuce poskytuje balíček s nejnovější "
 "verzí GComprisu."
 
-#: template/downloads.html:98
+#: template/downloads.html:104
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -697,11 +834,11 @@ msgstr ""
 "Také poskytujeme samostatné balíčky pro GNU/Linux. Měly by fungovat na každé "
 "současné distribuci."
 
-#: template/downloads.html:98
-msgid "System requirements:"
-msgstr "Systémové požadavky:"
+#: template/downloads.html:104
+msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgstr ""
 
-#: template/downloads.html:103 template/downloads.html:130
+#: template/downloads.html:108 template/downloads.html:144
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -709,7 +846,7 @@ msgstr ""
 "Pro jeho použití otevřete terminál v adresáři, kam jste stáhli instalátor, a "
 "spusťte tyto příkazy:"
 
-#: template/downloads.html:108 template/downloads.html:135
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -718,7 +855,7 @@ msgstr ""
 "na otázky ano (yes) a software bude nainstalován do nového adresáře vedle "
 "instalátoru."
 
-#: template/downloads.html:109 template/downloads.html:136
+#: template/downloads.html:114 template/downloads.html:150
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -726,7 +863,7 @@ msgstr ""
 "Nakonec pro spuštění GComprisu přejděte do nového adresáře, poté do bin a "
 "klepněte na gcompris-qt.sh."
 
-#: template/downloads.html:110
+#: template/downloads.html:115
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -740,7 +877,7 @@ msgstr ""
 "config/gcompris-qt/gcompris-qt.conf): najděte řádek renderer=auto,  nahraďte "
 "auto slovem software a uložte tento soubor."
 
-#: template/downloads.html:111
+#: template/downloads.html:116
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -750,31 +887,51 @@ msgstr ""
 "details/org.kde.gcompris\">Flathubu</a> nebo z <a href=\"https://snapcraft."
 "io/gcompris\">obchodu Snap</a>."
 
-#: template/downloads.html:122
+#: template/downloads.html:117
+msgid ""
+"The last version available for 32bit Linux distributions can be downloaded "
+"from the following link."
+msgstr ""
+
+#: template/downloads.html:117
+msgid ""
+"System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
+msgstr ""
+
+#: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:126
-msgid "We provide a standalone package for Raspberry Pi."
+#: template/downloads.html:135
+#, fuzzy
+#| msgid "We provide a standalone package for Raspberry Pi."
+msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Poskytujeme samostatný balíček pro Raspberry Pi."
 
-#: template/downloads.html:126
+#: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Byl otestován pouze na Raspberry Pi 3."
 
-#: template/downloads.html:146
+#: template/downloads.html:139
+msgid ""
+"The last version available for 32bit is the version 4.3 at the following "
+"link:"
+msgstr ""
+
+#: template/downloads.html:160
 msgid "Source code"
 msgstr "Zdrojový kód"
 
-#: template/downloads.html:150
+#: template/downloads.html:164
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Zdrojový kód je dostupný pod licencí AGPLv3."
 
-#: template/downloads.html:163
+#: template/downloads.html:177
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 a GPG"
 
-#: template/downloads.html:167
+#: template/downloads.html:181
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -783,16 +940,19 @@ msgstr ""
 "hash těchto souborů připojením řetězce \".sha256\" na konec jejich URL "
 "adresy ke stažení."
 
-#: template/downloads.html:168
-#, python-format
+#: template/downloads.html:182
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
-"The source tarball and the Linux installers are signed with the GPG key from "
+"The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "Zdrojový tarball a instalátor pro Linux jsou podepsány GPG klíčem od "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 
-#: template/downloads.html:170
+#: template/downloads.html:184
 msgid "sig files:"
 msgstr "sig soubory:"
 
@@ -1306,3 +1466,13 @@ msgstr "Čtení"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategie"
+
+#~ msgctxt "20240920.html"
+#~ msgid "This version adds translation for Latvian."
+#~ msgstr "Přidán překlad pro lotyštinu."
+
+#~ msgid "You can get the macOS version from the link below."
+#~ msgstr "Z odkazu níže můžete také získat verzi pro macOS."
+
+#~ msgid "System requirements:"
+#~ msgstr "Systémové požadavky:"

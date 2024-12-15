@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-29 01:57+0000\n"
+"POT-Creation-Date: 2024-12-15 02:34+0000\n"
 "PO-Revision-Date: 2024-06-06 12:09+0200\n"
 "Last-Translator: Aiswarya Kaitheri Kandoth <aiswaryakk29@gmail.com>\n"
 "Language-Team: Malayalam <kde-i18n-doc@kde.org>\n"
@@ -19,106 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.04.3\n"
 "X-Qt-Contexts: true\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
-msgctxt "20240920.html"
-msgid "Release GCompris 4.2"
-msgstr "ജികോംപ്രി 4.0-ന്റെ പ്രകാശനം"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
-msgctxt "20240920.html"
-msgid "Today we are releasing GCompris version 4.2."
-msgstr "ഇന്ന് ജികോംപ്രി പതിപ്പ് 4.0 പ്രകാശനം ചെയ്യുന്നു."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
-msgctxt "20240920.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "ഇതിൽ പല പ്രവർത്തനങ്ങൾക്കും ബഗ് ഫിക്സുകളും ഗ്രാഫിക്സ് മെച്ചപ്പെടുത്തലുകളും വരുത്തിയിട്ടുണ്ട്."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
-msgctxt "20240920.html"
-msgid "This version adds translation for Latvian."
-msgstr ""
-"ഈ പതിപ്പിൽ ബൾഗേറിയൻ, ഗലീഷ്യൻ, സ്വഹീലി എന്നീ മൂന്നു ഭാഷകൾക്കുകൂടി തർജ്ജിമകൾ ചേർക്കുന്നു."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
-msgctxt "20240920.html"
-msgid "It is fully translated in the following languages:"
-msgstr "ഈ പതിപ്പ് താഴെ കൊടുത്തിരിക്കുന്ന ഭാഷകളിൽ സമ്പൂർണമായും തർജ്ജിമ ചെയ്തിരിക്കുന്നു:"
-
-#. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
-msgctxt "20240920.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
-msgctxt "20240920.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "കൂടാതെ, താഴെ കൊടുത്തിരിക്കുന്ന ഭാഷകളിൽ ഭാഗികമായി തർജ്ജിമ ചെയ്തിരിക്കുന്നു:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgctxt "20240920.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
-msgctxt "20240920.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"ഈ പുതിയ പതിപ്പിനായുള്ള ഗ്നു/ലിനക്സ്, വിൻഡോസ്, ആൻഡ്രോയ്ഡ്, റാസ്ബെറി പൈ, മാക്ഒയെസ് പാക്കേജുകൾക്ക് "
-"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">ഡൗൺലോഡ് "
-"പേജിൽ</a> നോക്കുക. ഈ അപ്ഡേറ്റ് ആൻഡ്രോയ്ഡ് പ്ലേ സ്റ്റോറിലും എഫ്-ഡ്രോയ്സ് റെപ്പോസിറ്ററിയിലും "
-"വിൻഡോസ് സ്റ്റോറിലും ഉടൻ തന്നെ ലഭ്യമാകും."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
-msgctxt "20240920.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "എല്ലാവർക്കും നന്ദി, <br/>ടിമോത്തെ & ജോന്നി"
 
 #. news title
 #, fuzzy
@@ -206,6 +106,171 @@ msgstr ""
 #| msgctxt "20240523.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "എല്ലാവർക്കും നന്ദി, <br/>ടിമോത്തെ & ജോന്നി"
+
+#. news title
+#, fuzzy
+#| msgctxt "20210321.html"
+#| msgid "Release GCompris 1.1"
+msgctxt "20250130.html"
+msgid "Release GCompris 25.0"
+msgstr "ജികോംപ്രി 1.1-ന്റെ പ്രകാശനം"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Today we are releasing GCompris version 4.0."
+msgctxt "20250130.html"
+msgid "Today we are releasing GCompris version 25.0."
+msgstr "ഇന്ന് ജികോംപ്രി പതിപ്പ് 4.0 പ്രകാശനം ചെയ്യുന്നു."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"As you can see, we are now basing the major version number on the release "
+"year. This makes sense as we are doing one major version per year. It is "
+"also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It contains 190 activities, including 8 new ones:"
+msgctxt "20250130.html"
+msgid "This new version contains 195 activities, including 5 new ones:"
+msgstr "ഇതിൽ 8 പുതിയവയടക്കം, 190 പ്രവർത്തനങ്ങൾ ഉണ്ട്:"
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
+"children explore their creativity."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
+"ten's complement activities. This one helps the children to swap the numbers "
+"to easily compute a sum."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+"subtraction with the borrowing by regrouping method."
+msgstr ""
+
+#. list item
+msgctxt "20250130.html"
+msgid ""
+"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
+"one with the borrowing by compensation method."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20250130.html"
+msgid "It contains bug fixes and graphics improvements on multiple activities."
+msgstr "ഇതിൽ പല പ്രവർത്തനങ്ങൾക്കും ബഗ് ഫിക്സുകളും ഗ്രാഫിക്സ് മെച്ചപ്പെടുത്തലുകളും വരുത്തിയിട്ടുണ്ട്."
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"With the help of teachers, we rewrote a big part of the activities "
+"description to be clearer."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"When we switch language in the menu, the new language is now applied "
+"directly, without having to restart GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "On the technical side, it is also the first release using Qt6."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid ""
+"We have also set the graphical renderer to direct3d11 by default on Windows."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is fully translated in the following languages:"
+msgstr "ഈ പതിപ്പ് താഴെ കൊടുത്തിരിക്കുന്ന ഭാഷകളിൽ സമ്പൂർണമായും തർജ്ജിമ ചെയ്തിരിക്കുന്നു:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20250130.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "കൂടാതെ, താഴെ കൊടുത്തിരിക്കുന്ന ഭാഷകളിൽ ഭാഗികമായി തർജ്ജിമ ചെയ്തിരിക്കുന്നു:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20250130.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20250130.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"ഈ പുതിയ പതിപ്പിനായുള്ള ഗ്നു/ലിനക്സ്, വിൻഡോസ്, ആൻഡ്രോയ്ഡ്, റാസ്ബെറി പൈ, മാക്ഒയെസ് പാക്കേജുകൾക്ക് "
+"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">ഡൗൺലോഡ് "
+"പേജിൽ</a> നോക്കുക. ഈ അപ്ഡേറ്റ് ആൻഡ്രോയ്ഡ് പ്ലേ സ്റ്റോറിലും എഫ്-ഡ്രോയ്സ് റെപ്പോസിറ്ററിയിലും "
+"വിൻഡോസ് സ്റ്റോറിലും ഉടൻ തന്നെ ലഭ്യമാകും."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "എല്ലാവർക്കും നന്ദി, <br/>ടിമോത്തെ & ജോന്നി"
 
@@ -630,21 +695,34 @@ msgid "Else, you can download the installer from the links below."
 msgstr "അല്ലെങ്കിൽ, താഴെ കൊടുത്ത ലിങ്കുകളിൽ നിന്നും ഇൻസ്റ്റാളർ ഡൗൺലോഡ് ചെയ്യാവുന്നതാണ്."
 
 #: template/downloads.html:24
-msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: Windows 10 or 11."
 msgstr ""
 "സിസ്റ്റത്തിനു വേണ്ട സവിശേഷതകൾ: ഓപ്പൺജിഎൽ 2 സപ്പോർട്ടോടുകൂടിയ വിൻഡോസ് 7, 8 അല്ലെങ്കിൽ 10."
 
-#: template/downloads.html:29
+#: template/downloads.html:28
+#, fuzzy
+#| msgid ""
+#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
+#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
+#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-"launch GCompris with the software rendering mode which doesn't use OpenGL."
+"launch GCompris with the software rendering mode."
 msgstr ""
 "കുറിപ്പ്: താങ്കളുടെ സിസ്റ്റത്തിന് ഓപ്പൺജിഎൽ 2 സപ്പോർട്ടില്ല അല്ലെങ്കിൽ അത് കൃത്യമായി "
 "പ്രവർത്തിക്കുന്നില്ല എങ്കിൽ, ദയവായി സ്റ്റാർട്ട് മെനുവിലെ ജികോംപ്രി (സേഫ് മോഡ്) എന്ന എൻട്രി "
 "ഉപയോഗിച്ച് ഓപ്പൺജിഎൽ ഉപയോഗിക്കാത്ത സോഫ്റ്റ്‌വെയർ റെന്ററിങ് മോഡിൽ ജികോംപ്രി ലോഞ്ച് ചെയ്യുക."
 
-#: template/downloads.html:30
+#: template/downloads.html:29
+msgid ""
+"The last version available for Windows 7 and 8 can be downloaded from the "
+"link below."
+msgstr ""
+
+#: template/downloads.html:34
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -654,7 +732,7 @@ msgstr ""
 "സിസ്റ്റത്തിൽ സപ്പോർട്ട് ചെയ്യുന്നില്ലെങ്കിലോ പഴയ ജികോംപ്രി 15.10-ന്റെ അവസാനത്തെ ഇൻസ്റ്റാളർ "
 "ഉപയോഗിക്കാവുന്നതാണ്."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -663,11 +741,11 @@ msgstr ""
 "ഈ പഴയ പതിപ്പിൽ എല്ലാ പ്രവർത്തനങ്ങളും സാധ്യമാക്കാനായി, ആപ്ലിക്കേഷൻ തുടങ്ങുമ്പോൾ കോഡ് എന്ന "
 "വാക്കടങ്ങിയ പെട്ടിയിൽ 200202 എന്ന കോഡ് എന്റർ ചെയ്യുക."
 
-#: template/downloads.html:44
+#: template/downloads.html:48
 msgid "Android"
 msgstr "ആൻ‍ഡ്രോയ്ഡ്"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
 msgstr ""
 "ശ്രദ്ധിയ്ക്കുക: മലയാള ഭാഷയ്ക്ക്, ഡിഫോൾട്ടായുള്ള ഫോണ്ടായ \"Andika-R\" ഉപയോഗിക്കുമ്പോൾ ചില "
@@ -677,7 +755,7 @@ msgstr ""
 "ഫോണ്ട് ഇൻസ്റ്റാൾ ചെയ്താൽ മാത്രമേ അത് തെരഞ്ഞെടുക്കാൻ കഴിയൂ).<br/><br/>ആൻഡ്രോയ്ഡ് പതിപ്പ് പ്ലേ "
 "സ്റ്റോറിലും വിതരണം ചെയ്തിട്ടുണ്ട്."
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -687,7 +765,7 @@ msgstr ""
 "ഓപ്പറേറ്റിങ് സിസ്റ്റം ഏതാണെന്നതിനനുസരിച്ച് അനുയോജ്യമായ പതിപ്പ് ഓട്ടോമാറ്റിക്കായി ഡൗൺലോഡ് "
 "ചെയ്യപ്പെടും."
 
-#: template/downloads.html:54
+#: template/downloads.html:58
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -695,7 +773,7 @@ msgstr ""
 "ജികോംപ്രിയുടെ സമ്പൂർണ പതിപ്പ് സ്വതന്ത്രവും ഓപ്പൺ സോഴ്സുമായ ആൻഡ്രോയ്ഡ് ആപ്പുകളുടെ റെപ്പോസിറ്ററിയായ "
 "എഫ്-ഡ്രോയ്ഡിലും (F-Droid) ലഭ്യമാണ്."
 
-#: template/downloads.html:59
+#: template/downloads.html:63
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -703,7 +781,22 @@ msgstr ""
 "ഞങ്ങളുടെ വെബ്സൈറ്റിൽ നിന്നും നേരിട്ട് എപികെ ഡൗൺലോഡ് ചെയ്ത് മാന്വലായി താങ്കളുടെ ഫോണിൽ "
 "ഇൻസ്റ്റാൾ ചെയ്യുവാനും കഴിയും."
 
-#: template/downloads.html:64
+#: template/downloads.html:68
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+msgid ""
+"For devices running Android 4.1 to 8.0, the last compatible version is <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+msgstr ""
+"ആൻഡ്രോയ്ഡ് 2.3 മുതൽ 4.0 വരെയുള്ളതിൽ പ്രവർത്തിക്കുന്ന ഉപകരണങ്ങൾക്ക് അനുയോജ്യമായ പതിപ്പ് <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">ജികോംപ്രി 0.81</a> ആണ്."
+
+#: template/downloads.html:69
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -713,23 +806,31 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">ജികോംപ്രി 0.81</a> ആണ്."
 
-#: template/downloads.html:75
+#: template/downloads.html:80
 msgid "macOS"
 msgstr "മാക്ഒയെസ്"
 
-#: template/downloads.html:79
-msgid "You can get the macOS version from the link below."
-msgstr "താഴെ കൊടുത്ത ലിങ്കിൽനിന്നും മാക്ഒയെസ് പതിപ്പു ലഭിക്കുന്നതാണ്."
+#: template/downloads.html:84
+msgid ""
+"The latest version is not yet available on macOS due to lack of "
+"infrastructure to build and test it."
+msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:85
+#, fuzzy
+#| msgid "Else, you can download the installer from the links below."
+msgid "You can download the last version available macOS from the link below."
+msgstr "അല്ലെങ്കിൽ, താഴെ കൊടുത്ത ലിങ്കുകളിൽ നിന്നും ഇൻസ്റ്റാളർ ഡൗൺലോഡ് ചെയ്യാവുന്നതാണ്."
+
+#: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
 msgstr "മാക്ഒയെസ് 10.13-ൽ ബിൽഡും ടെസ്റ്റും ചെയ്തത്."
 
-#: template/downloads.html:93
+#: template/downloads.html:99
 msgid "GNU/Linux"
 msgstr "ഗ്നൂ/ലിനക്സ്"
 
-#: template/downloads.html:97
+#: template/downloads.html:103
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -737,7 +838,7 @@ msgstr ""
 "ജികോംപ്രിയുടെ ഏറ്റവും പുതിയ പതിപ്പിനായുള്ള പാക്കേജ് താങ്കളുടെ ഡിസ്ട്രിബ്യൂഷനിൽ ഉണ്ടോ എന്നത് "
 "താങ്കൾക്കു പരിശോധിക്കാവുന്നതാണ്."
 
-#: template/downloads.html:98
+#: template/downloads.html:104
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -750,11 +851,11 @@ msgstr ""
 "സ്വതന്ത്രമായ പാക്കേജുകളും ഞങ്ങൾ ലഭ്യമാക്കിയിട്ടുണ്ട്. സമീപകാലത്ത് പ്രകാശനം ചെയ്തിട്ടുള്ള ഏത് "
 "ഡിസ്ട്രിബ്യൂഷനിലും ഇത് പ്രവർത്തിക്കും."
 
-#: template/downloads.html:98
-msgid "System requirements:"
-msgstr "സിസ്റ്റത്തിനുവേണ്ട സവിശേഷതകൾ:"
+#: template/downloads.html:104
+msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgstr ""
 
-#: template/downloads.html:103 template/downloads.html:130
+#: template/downloads.html:108 template/downloads.html:144
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -762,7 +863,7 @@ msgstr ""
 "ഇതുപയോഗിക്കാൻ, താങ്കൾ ഇൻസ്റ്റാളർ ഡൗൺലോഡ് ചെയ്തിരിക്കുന്ന ഫോൾഡറിൽ ടെർമിനൽ തുറന്ന് ഈ "
 "കമാന്റുകൾ റൺ ചെയ്യുക:"
 
-#: template/downloads.html:108 template/downloads.html:135
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -770,7 +871,7 @@ msgstr ""
 "എന്നിട്ട് ലൈസൻസ് പേജ് വായിക്കാം അല്ലെങ്കിൽ q അമർത്തി അത് ഒഴിവാക്കാം, ചോദ്യങ്ങൾക്ക് yes എന്ന് "
 "ഉത്തരം നല്കിയാൽ ഇൻസ്റ്റാളറിനടുത്ത് മറ്റൊരു പുതിയ ഫോൾഡറിൽ സോഫ്റ്റ്‌വെയർ ഇൻസ്റ്റാൾ ചെയ്യപ്പെടും."
 
-#: template/downloads.html:109 template/downloads.html:136
+#: template/downloads.html:114 template/downloads.html:150
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -778,7 +879,7 @@ msgstr ""
 "അവസാനമായി, ജികോംപ്രി ലോഞ്ച് ചെയ്യുവാനായി പുതിയ ഫോൾഡറിൽ പോയി, bin-ൽ, gcompris-qt.sh-"
 "ൽ ഡബിൾ ക്ലിക്ക് ചെയ്യുക."
 
-#: template/downloads.html:110
+#: template/downloads.html:115
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -792,7 +893,7 @@ msgstr ""
 "എഡിറ്റ് ചെയ്യലാണ് (~/.config/gcompris-qt/gcompris-qt.conf ൽ): renderer=auto "
 "എന്നുള്ള വരി കണ്ടെത്തുക, auto എന്നുള്ള സ്ഥാനത്ത് software എന്നാക്കി ഫയൽ സേവ് ചെയ്യുക."
 
-#: template/downloads.html:111
+#: template/downloads.html:116
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -802,12 +903,26 @@ msgstr ""
 "ഹബിൽ</a> നിന്നോ <a href=\"https://snapcraft.io/gcompris\">സ്നാപ് സ്റ്റോറിൽ</a> "
 "നിന്നോ ജികോംപ്രി ഇൻസ്റ്റാൾ ചെയ്യാവുന്നതാണ്."
 
-#: template/downloads.html:122
+#: template/downloads.html:117
+msgid ""
+"The last version available for 32bit Linux distributions can be downloaded "
+"from the following link."
+msgstr ""
+
+#: template/downloads.html:117
+msgid ""
+"System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
+msgstr ""
+
+#: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "റാസ്ബെറി പൈ"
 
-#: template/downloads.html:126
-msgid "We provide a standalone package for Raspberry Pi."
+#: template/downloads.html:135
+#, fuzzy
+#| msgid "We provide a standalone package for Raspberry Pi."
+msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr ""
 "ശ്രദ്ധിയ്ക്കുക: മലയാള ഭാഷയ്ക്ക്, ഡിഫോൾട്ടായുള്ള ഫോണ്ടായ \"Andika-R\" ഉപയോഗിക്കുമ്പോൾ ചില "
 "പ്രശ്നങ്ങൾ ഞങ്ങളുടെ ശ്രദ്ധയിൽ പെട്ടിട്ടുണ്ട്. മലയാളം ഉപയോഗിക്കുന്നവർ ആപ്ലിക്കേഷൻ മെനുവിൽ നിന്നും "
@@ -816,23 +931,29 @@ msgstr ""
 "ഫോണ്ട് ഇൻസ്റ്റാൾ ചെയ്താൽ മാത്രമേ അത് തെരഞ്ഞെടുക്കാൻ കഴിയൂ).<br/><br/>റാസ്ബെറി പൈയ്ക്കു "
 "വേണ്ടി സ്വതന്ത്രമായ ഒരു പാക്കേജ് ഞങ്ങൾ ലഭ്യമാക്കിയിട്ടുണ്ട്."
 
-#: template/downloads.html:126
+#: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "ഇത് റാസ്ബെറി പൈ 3-ൽ മാത്രമേ ടെസ്റ്റു ചെയ്തിട്ടുള്ളു."
 
-#: template/downloads.html:146
+#: template/downloads.html:139
+msgid ""
+"The last version available for 32bit is the version 4.3 at the following "
+"link:"
+msgstr ""
+
+#: template/downloads.html:160
 msgid "Source code"
 msgstr "സോഴ്സ് കോഡ്"
 
-#: template/downloads.html:150
+#: template/downloads.html:164
 msgid "The source code is available under the AGPLv3 license."
 msgstr "എജിപിഎൽ വി3 ലൈസൻസിൽ സോഴ്സ് കോഡ് ലഭ്യമാണ്."
 
-#: template/downloads.html:163
+#: template/downloads.html:177
 msgid "SHA-256 and GPG"
 msgstr "SHA-256-ഉം GPG-യും"
 
-#: template/downloads.html:167
+#: template/downloads.html:181
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -840,16 +961,19 @@ msgstr ""
 "താങ്കളുടെ ഡൗൺലോഡുകളുടെ സമഗ്രത പരിശോധിക്കാൻ, ഡൗൺലോഡ് url-ന്റെ അവസാനം \".sha256\" "
 "ചേർത്ത് ഫയലുകളുടെ യഥാർത്ഥ SHA-256 ഹാഷ് താങ്കൾക്കു ലഭിക്കും."
 
-#: template/downloads.html:168
-#, python-format
+#: template/downloads.html:182
+#, fuzzy, python-format
+#| msgid ""
+#| "The source tarball and the Linux installers are signed with the GPG key "
+#| "from Timothée Giet (public key: %(public_gpg_key)s)"
 msgid ""
-"The source tarball and the Linux installers are signed with the GPG key from "
+"The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 "സോഴ്സ് ടാർബോളും ലിനക്സ് ഇൻസ്റ്റാളറുകളും GPG കീ ഉപയോഗിച്ച് ടിമോത്തെ ജിയറ്റ് ഒപ്പു വെച്ചിരിക്കുന്നു "
 "(പബ്ലിക് കീ: %(public_gpg_key)s)"
 
-#: template/downloads.html:170
+#: template/downloads.html:184
 msgid "sig files:"
 msgstr "സിഗ്നേച്ചർ ഫയലുകൾ:"
 
@@ -1360,9 +1484,28 @@ msgstr "വായന"
 msgid "Strategy"
 msgstr "തന്ത്രം"
 
-#~ msgctxt "20240221.html"
-#~ msgid "It contains 190 activities, including 8 new ones:"
-#~ msgstr "ഇതിൽ 8 പുതിയവയടക്കം, 190 പ്രവർത്തനങ്ങൾ ഉണ്ട്:"
+#, fuzzy
+#~| msgctxt "20240221.html"
+#~| msgid "Release GCompris 4.0"
+#~ msgctxt "20240920.html"
+#~ msgid "Release GCompris 4.2"
+#~ msgstr "ജികോംപ്രി 4.0-ന്റെ പ്രകാശനം"
+
+#, fuzzy
+#~| msgctxt "20240221.html"
+#~| msgid ""
+#~| "This version adds translations for 3 more languages: Bulgarian, Galician "
+#~| "and Swahili."
+#~ msgctxt "20240920.html"
+#~ msgid "This version adds translation for Latvian."
+#~ msgstr ""
+#~ "ഈ പതിപ്പിൽ ബൾഗേറിയൻ, ഗലീഷ്യൻ, സ്വഹീലി എന്നീ മൂന്നു ഭാഷകൾക്കുകൂടി തർജ്ജിമകൾ ചേർക്കുന്നു."
+
+#~ msgid "You can get the macOS version from the link below."
+#~ msgstr "താഴെ കൊടുത്ത ലിങ്കിൽനിന്നും മാക്ഒയെസ് പതിപ്പു ലഭിക്കുന്നതാണ്."
+
+#~ msgid "System requirements:"
+#~ msgstr "സിസ്റ്റത്തിനുവേണ്ട സവിശേഷതകൾ:"
 
 #~ msgctxt "20240221.html"
 #~ msgid ""
@@ -1523,13 +1666,6 @@ msgstr "തന്ത്രം"
 #~ "ട്രഡിഷണൽ ചൈനീസ്, ഡച്ച്, ഫ്രഞ്ച്, ഗ്രീക്ക്, ഹീബ്രു, ഹംഗേറിയൻ, ഇന്തോനേഷ്യൻ, ഇറ്റാലിയൻ, "
 #~ "മസെഡോണിയൻ, മലയാളം, പോളിഷ്, പോർച്ചുഗീസ്, റൊമേനിയൻ, റഷ്യൻ, സ്ലൊവേനിയൻ, സ്പാനിഷ്, "
 #~ "സ്വീഡിഷ്, തുർക്കിഷ്, ഉക്രേനിയൻ."
-
-#, fuzzy
-#~| msgctxt "20210321.html"
-#~| msgid "Release GCompris 1.1"
-#~ msgctxt "20220413.html"
-#~ msgid "Release GCompris 2.4"
-#~ msgstr "ജികോംപ്രി 1.1-ന്റെ പ്രകാശനം"
 
 #, fuzzy
 #~| msgctxt "20210321.html"
