@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-15 02:34+0000\n"
-"PO-Revision-Date: 2024-11-29 15:35+0200\n"
+"POT-Creation-Date: 2024-12-16 02:37+0000\n"
+"PO-Revision-Date: 2024-12-15 09:58+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -84,20 +84,14 @@ msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "Випуск GCompris 2.4"
+msgstr "Випуск GCompris 25.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Сьогодні нами випущено GCompris версії 2.3."
+msgstr "Сьогодні нами випущено GCompris версії 25.0."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -106,14 +100,26 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+"Як можна бачити, номером основної версії у новій системі нумерації є рік "
+"випуску. Це має сенс, оскільки ми створюємо одну основну версію на рік. "
+"Також це добра нагода, оскільки ми святкуємо 25 років GCompris."
 
 #. paragraph
 #, fuzzy
 #| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
+#| msgid ""
+#| "This version adds translations for 3 more languages: Bulgarian, Galician "
+#| "and Swahili."
+msgctxt "20250130.html"
+msgid "This version adds translation for one more language: Sanskrit."
+msgstr ""
+"У цій версії додано переклади ще 3 мовами: болгарською, галісійською та "
+"суахілі."
+
+#. paragraph
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Містить 190 вправ, зокрема 8 нових:"
+msgstr "Містить 195 вправ, зокрема 5 нових:"
 
 #. list item
 msgctxt "20250130.html"
@@ -121,6 +127,8 @@ msgid ""
 "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
 "children explore their creativity."
 msgstr ""
+"«Ескіз» — нова вправа для довільного малювання з декількома інструментами, "
+"які надають змогу дітям проявити творчі навички."
 
 #. list item
 msgctxt "20250130.html"
@@ -129,12 +137,16 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"«Обчислення доповнення до десяти» — продовження наявних вправ з доповнення "
+"до десяти. Ця вправа допоможе дітям вивчити переставляння чисел для "
+"спрощення отримання суми."
 
 #. list item
 msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
 msgstr ""
+"«Вертикальне додавання» — вправа на запис додавання та визначення результату."
 
 #. list item
 msgctxt "20250130.html"
@@ -142,6 +154,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"«Вертикальне віднімання» — подібна до додавання вправа, але із відніманням "
+"із використанням способу запозичення перегрупуванням. "
 
 #. list item
 msgctxt "20250130.html"
@@ -149,12 +163,10 @@ msgid ""
 "\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
 "one with the borrowing by compensation method."
 msgstr ""
+"«Вертикальне віднімання (компенсація)» — подібна до попередньої вправи "
+"вправа, але із відніманням із використанням способу запозичення компенсацією."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr "Виправлено вади та удосконалено графіку у декількох вправах."
@@ -165,6 +177,8 @@ msgid ""
 "With the help of teachers, we rewrote a big part of the activities "
 "description to be clearer."
 msgstr ""
+"Ми переписали значну частину описів вправ за порадами вчителів так, щоб ці "
+"пояснення стали зрозумілішими."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -172,38 +186,32 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
+"При перемиканні мови у меню нову мову буде застосовано одразу, без потреби у "
+"перезапуску GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "On the technical side, it is also the first release using Qt6."
-msgstr ""
+msgstr "З технічної точки зору, це перший випуск, у якому використано Qt6."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Також нами визначено типовим обробником зображення direct3d11 у Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Повністю перекладено такими мовами:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Також частково перекладено такими мовами:"
@@ -211,23 +219,12 @@ msgstr "Також частково перекладено такими мова
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -236,17 +233,14 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Посилання на пакунки нової версії для GNU/Linux, Windows, Android, Raspberry "
-"Pi та MacOS можна знайти на <a href=\\\"https://gcompris.net/"
+"Посилання на пакунки нової версії для GNU/Linux, Windows, Android та "
+"Raspberry можна знайти на <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">сторінці отримання пакунків</a>. Невдовзі "
 "пакунки оновленої версії також з'являться у крамниці Android Play, сховищі F-"
 "Droid та крамниці Windows."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
@@ -459,65 +453,70 @@ msgstr "Російська"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
+msgid "Sanskrit"
+msgstr ""
+
+#: gcompris.py:124
+msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "Словацька"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "Словенська"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "Албанська"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "Сербська"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "Шведська"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr "Суахілі"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "Тамільська"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "Тайська"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "Турецька"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "Українська"
 
-#: gcompris.py:133
+#: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "Китайська (спрощена)"
 
-#: gcompris.py:134
+#: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Китайська (традиційна)"
 
-#: gcompris.py:251
+#: gcompris.py:252
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -525,12 +524,12 @@ msgstr ""
 "Це програмне забезпечення є пакунком GNU. Його випущено за умов дотримання "
 "GNU Affero General Public License."
 
-#: gcompris.py:252
+#: gcompris.py:253
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Юрій Чорноіван"
 
-#: gcompris.py:398
+#: gcompris.py:399
 msgid "For Christmas, offer GCompris to your children."
 msgstr "У Різдво подаруйте вашим дітям GCompris."
 
@@ -678,32 +677,27 @@ msgstr ""
 "посиланнями."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "Вимоги до системи: Windows 7, 8 або 10 з підтримкою OpenGL 2."
+msgstr "Вимоги до системи: Windows 10 або 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Зауваження: якщо у вашій системі немає підтримки OpenGL 2 або якщо ця "
+"Зауваження: якщо у вашій системі немає підтримки Direct3D 11 або якщо ця "
 "бібліотека не працює належним чином, будь ласка, скористайтеся пунктом "
 "«GCompris (Безпечний режим)» у меню «Пуск» для запуску GCompris у режимі "
-"програмної обробки зображення, де не використовуються можливості OpenGL."
+"програмної обробки зображення."
 
 #: template/downloads.html:29
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"Останню доступну версію для Windows 7 і 8 можна отримати за наведеним нижче "
+"посиланням."
 
 #: template/downloads.html:34
 msgid ""
@@ -760,20 +754,15 @@ msgstr ""
 "його на ваш пристрій вручну."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Для пристроїв під керуванням версій Android від 2.3 до 4.0 останньою "
+"Для пристроїв під керуванням версій Android від 4.1 до 8.0 останньою "
 "сумісною версією є <a href= \"https://gcompris.net/download/qt/android/"
-"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
-"0.81</a>."
+"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris "
+"4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -795,14 +784,14 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"У macOS поки не можна скористатися найсвіжішою версією через брак "
+"інфраструктури для збирання та тестування програми."
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
-"Крім того, ви можете отримати пакунок для встановлення за наведеними нижче "
-"посиланнями."
+"Ви можете отримати найсвіжішу доступну на macOS версію за наведеним нижче "
+"посиланням."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -830,7 +819,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Вимоги до системи: ядро linux 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -887,22 +876,23 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Останню версію, доступну для 32-бітових дистрибутивів Linux можна отримати "
+"за наведеним нижче посиланням."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Вимоги до системи: ядро linux 3.10, glibc 2.17, pulseaudio, gstreamer 1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Нами надається самодостатній пакунок для Raspberry Pi."
+msgstr "Нами надається самодостатній пакунок для Raspberry Pi (64-бітовий)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -913,6 +903,8 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Останню версію, доступну для 32-бітових систем є версія 4.3 можна отримати "
+"за наведеним нижче посиланням:"
 
 #: template/downloads.html:160
 msgid "Source code"
@@ -936,10 +928,7 @@ msgstr ""
 "отримання образу."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
@@ -1491,14 +1480,6 @@ msgstr "Стратегія"
 
 #~ msgid "System requirements:"
 #~ msgstr "Вимоги до системи:"
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
-#~ "and Swahili."
-#~ msgstr ""
-#~ "У цій версії додано переклади ще 3 мовами: болгарською, галісійською та "
-#~ "суахілі."
 
 #~ msgctxt "20240221.html"
 #~ msgid ""

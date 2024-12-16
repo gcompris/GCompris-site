@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-15 02:34+0000\n"
+"POT-Creation-Date: 2024-12-16 02:37+0000\n"
 "PO-Revision-Date: 2024-12-06 08:32+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -97,6 +97,14 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240920.html"
+#| msgid "This version adds translation for Latvian."
+msgctxt "20250130.html"
+msgid "This version adds translation for one more language: Sanskrit."
+msgstr "הגרסה הזאת מוסיפה תרגום ללטבית."
 
 #. paragraph
 #, fuzzy
@@ -441,77 +449,82 @@ msgstr "רוסית"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
+msgid "Sanskrit"
+msgstr ""
+
+#: gcompris.py:124
+msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "סלובקית"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "סלובנית"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "אלבנית"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "סרבית"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "שוודית"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr "סוואהילי"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "טמילית"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "תאית"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "טורקית"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "אוקראינית"
 
-#: gcompris.py:133
+#: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "סינית מפושטת"
 
-#: gcompris.py:134
+#: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "סינית מסורתית"
 
-#: gcompris.py:251
+#: gcompris.py:252
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
 "תוכנה זו היא חבילת גנו והיא מופצת תחת רישיון גנו הציבורי הכללי של אפרו."
 
-#: gcompris.py:252
+#: gcompris.py:253
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "עמיחי גל - „מחשבים חופשיים בחינוך”, ירון שהרבני - ואחרים"
 
-#: gcompris.py:398
+#: gcompris.py:399
 msgid "For Christmas, offer GCompris to your children."
 msgstr "לראש השנה, אפשר להציע את ג׳יקומפרי לילדיך."
 
@@ -1406,10 +1419,6 @@ msgstr "אסטרטגיה"
 #~ msgctxt "20240920.html"
 #~ msgid "Today we are releasing GCompris version 4.2."
 #~ msgstr "היום אנו משיקים את גרסה 4.2 של ג׳יקומפרי."
-
-#~ msgctxt "20240920.html"
-#~ msgid "This version adds translation for Latvian."
-#~ msgstr "הגרסה הזאת מוסיפה תרגום ללטבית."
 
 #~ msgid "You can get the macOS version from the link below."
 #~ msgstr "אפשר להשיג את גירסת ה־macOS מהקישור למטה."

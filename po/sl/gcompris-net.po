@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-15 02:34+0000\n"
-"PO-Revision-Date: 2024-11-29 07:08+0100\n"
+"POT-Creation-Date: 2024-12-16 02:37+0000\n"
+"PO-Revision-Date: 2024-12-15 07:43+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -80,20 +80,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala vsem,<br/>Timothée in Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "Izdaja GCompris 2.4"
+msgstr "Izdaja GCompris 25.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Danes izdajamo GCompris verzija 2.3."
+msgstr "Danes izdajamo GCompris verzija 25.0"
 
 #. paragraph
 msgctxt "20250130.html"
@@ -102,14 +96,25 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+"Kot lahko vidite, številko glavne različice zdaj temeljimo na letu izdaje. "
+"To je smiselno, saj delamo eno večjo različico na leto. Prav tako je dobra "
+"priložnost, da to storimo zdaj, da proslavimo 25 let GComprisa."
 
 #. paragraph
 #, fuzzy
 #| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
+#| msgid ""
+#| "This version adds translations for 3 more languages: Bulgarian, Galician "
+#| "and Swahili."
+msgctxt "20250130.html"
+msgid "This version adds translation for one more language: Sanskrit."
+msgstr ""
+"Ta verzija dodaja prevode še za 3 jezike: bolgarsko, galicijsko in Svahili."
+
+#. paragraph
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Vsebuje 190 dejavnosti, od tega 8 novih:"
+msgstr "Ta nova različica vsebuje 195 dejavnosti, vključno s 5 novimi:"
 
 #. list item
 msgctxt "20250130.html"
@@ -117,6 +122,8 @@ msgid ""
 "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
 "children explore their creativity."
 msgstr ""
+"\\\"Skica\\\" je dejavnost za prosto risanje z več orodji, ki otrokom "
+"omogočajo raziskovanje njihove ustvarjalnosti."
 
 #. list item
 msgctxt "20250130.html"
@@ -125,12 +132,17 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"\\\"Računanje s komplementom desetic\\\" je nadaljevanje obstoječih "
+"dejavnosti komplementa desetic. Ta otrokom pomaga zamenjati številki in tako "
+"enostavno izračunati vsoto."
 
 #. list item
 msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
 msgstr ""
+"\\\"Navpično seštevanje\\\" je dejavnost za pisanje seštevka in njegovo "
+"reševanje."
 
 #. list item
 msgctxt "20250130.html"
@@ -138,6 +150,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"\\\"Navpično odštevanje\\\", je podobno dejavnosti seštevanja, vendar za "
+"odštevanje z izposojo z metodo ponovnega združevanja."
 
 #. list item
 msgctxt "20250130.html"
@@ -145,12 +159,10 @@ msgid ""
 "\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
 "one with the borrowing by compensation method."
 msgstr ""
+"\\\"Vertikalno odštevanje (kompenzacija)\\\", je podobno odštevanju pri "
+"metodi izposoje po kompenzaciji."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr "Vsebuje popravke napak in grafične izboljšave pri več dejavnostih."
@@ -161,6 +173,8 @@ msgid ""
 "With the help of teachers, we rewrote a big part of the activities "
 "description to be clearer."
 msgstr ""
+"Velik del opisa dejavnosti smo s pomočjo učiteljev prepisali, da bi bile "
+"bolj jasne."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -168,38 +182,33 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
+"Ko v meniju preklopimo jezik, se novi jezik zdaj uporabi neposredno, ne da "
+"bi morali ponovno zagnati GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "On the technical side, it is also the first release using Qt6."
-msgstr ""
+msgstr "S tehnične strani je to tudi prva izdaja, ki uporablja Qt6."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Prav tako smo v sistemu Windows privzeto nastavili grafični upodobilnik na "
+"direct3d11."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Je popolnoma prevedena v naslednje jezike:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Je tudi delno prevedena v naslednje jezike:"
@@ -207,22 +216,11 @@ msgstr "Je tudi delno prevedena v naslednje jezike:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -238,9 +236,6 @@ msgstr ""
 "Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala vsem,<br/>Timothée in Johnny"
@@ -447,65 +442,70 @@ msgstr "ruščina"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
+msgid "Sanskrit"
+msgstr ""
+
+#: gcompris.py:124
+msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "slovaščina"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "slovenščina"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "albanščina"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "srbščina"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "švedščina"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr "Svahili"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "tamilščina"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "tajščina"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "turščina"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "ukrajinščina"
 
-#: gcompris.py:133
+#: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "poenostavljena kitajščina"
 
-#: gcompris.py:134
+#: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "tradicionalna kitajščina"
 
-#: gcompris.py:251
+#: gcompris.py:252
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -513,12 +513,12 @@ msgstr ""
 "Ta programska oprema je paket GNU in je izdan pod splošnim javnim "
 "dovoljenjem GNU Affero GPL."
 
-#: gcompris.py:252
+#: gcompris.py:253
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Martin Srebotnjak"
 
-#: gcompris.py:398
+#: gcompris.py:399
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Ponudite vašim otrokom GCompris za božič."
 
@@ -660,31 +660,26 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Sicer, lahko prenesete namestitveni program iz spodnjih povezav."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "Sistemske zahteve: Windows 7, 8 ali 10 s podporo za OpenGL 2."
+msgstr "Sistemske zahteve: Windows 10 ali 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Opomba: Če vaš sistem nima podpore za OpenGL 2 ali če ne deluje pravilno, "
-"uporabite zagon GCompris (Varni način), tako da v začetnem meniju zaženete "
-"GCompris s programskim načinom upodabljanja, ki ne uporablja OpenGL."
+"Opomba: Če vaš sistem nima podpore za Direct3D 11 ali če ne deluje pravilno, "
+"uporabite vnos GCompris (varni način) v začetnem meniju, da zaženete "
+"GCompris z načinom programskega upodabljanja."
 
 #: template/downloads.html:29
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"Zadnjo različico, ki je na voljo za Windows 7 in 8, lahko prenesete s "
+"spodnje povezave."
 
 #: template/downloads.html:34
 msgid ""
@@ -739,19 +734,14 @@ msgstr ""
 "namestite na vašo napravo."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Za naprave, ki poganjajo Android 2.3 do 4.0, je zadnja ustrezna verzija <a "
+"Za naprave s sistemom Android 4.1 do 8.0 je zadnja združljiva različica <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+"signed-aligned-armeabi-v7a-dl-4.3. apk\">GCompris 4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -772,12 +762,13 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"Najnovejša različica še ni na voljo v sistemu macOS zaradi pomanjkanja "
+"infrastrukture za izdelavo in testiranje."
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
-msgstr "Sicer, lahko prenesete namestitveni program iz spodnjih povezav."
+msgstr ""
+"Zadnjo razpoložljivo različico za macOS lahko prenesete s spodnje povezave."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -805,7 +796,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Sistemske zahteve: jedro linux 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -861,22 +852,23 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Zadnjo različico, ki je na voljo za 32-bitne distribucije Linuxa, lahko "
+"prenesete z naslednje povezave."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Sistemske zahteve: jedro linux 3.10, glibc 2.17, pulseaudio, gstreamer 1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Nudimo samostojen paket za Raspberry Pi."
+msgstr "Ponujamo samostojni paket za Raspberry Pi (64-bit)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -887,6 +879,8 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Zadnja različica, ki je na voljo za 32bitov, je različica 4.3 na naslednji "
+"povezavi:"
 
 #: template/downloads.html:160
 msgid "Source code"
@@ -910,16 +904,13 @@ msgstr ""
 "naslova za prenos."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Izvorni tarball in namestitveni program Linuxa sta podpisana s ključem GPG "
-"osebe Timothée Giet (javni ključ: %(public_gpg_key)s)"
+"Izvorni arhiv tarball in namestitveni program za Linux sta podpisana s "
+"ključem GPG Timothée Giet (javni ključ: %(public_gpg_key)s)"
 
 #: template/downloads.html:184
 msgid "sig files:"
@@ -1451,14 +1442,6 @@ msgstr "Strategija"
 
 #~ msgid "System requirements:"
 #~ msgstr "Sistemske zahteve:"
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
-#~ "and Swahili."
-#~ msgstr ""
-#~ "Ta verzija dodaja prevode še za 3 jezike: bolgarsko, galicijsko in "
-#~ "Svahili."
 
 #~ msgctxt "20240221.html"
 #~ msgid ""

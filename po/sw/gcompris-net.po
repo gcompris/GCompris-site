@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-15 02:34+0000\n"
+"POT-Creation-Date: 2024-12-16 02:37+0000\n"
 "PO-Revision-Date: 2024-02-14 11:55+0300\n"
 "Last-Translator: Godlove Kyando <godlove.kyando@tie.go.tz>\n"
 "Language-Team: Swahili <kde-l10n-sw@kde.org>\n"
@@ -129,6 +129,18 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20240221.html"
+#| msgid ""
+#| "This version adds translations for 3 more languages: Bulgarian, Galician "
+#| "and Swahili."
+msgctxt "20250130.html"
+msgid "This version adds translation for one more language: Sanskrit."
+msgstr ""
+"Toleo hili linaongeza tafsiri kwa lugha 3 zaidi: Kibulgaria, Kigalisia na "
+"Kiswahili."
 
 #. paragraph
 #, fuzzy
@@ -475,65 +487,70 @@ msgstr "Kirusi"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
+msgid "Sanskrit"
+msgstr ""
+
+#: gcompris.py:124
+msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "Kislovaki"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "Kislovenia"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "Kialbania"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "Kiserbia"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "Kiswedi"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr "Kiswahili"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "Kitamili"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "Kithai"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "Kituruki"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "Kiukrania"
 
-#: gcompris.py:133
+#: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "Kichina Kilichorahisishwa"
 
-#: gcompris.py:134
+#: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Kichina cha Jadi"
 
-#: gcompris.py:251
+#: gcompris.py:252
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -541,12 +558,12 @@ msgstr ""
 "Programu hii ni Kifurushi cha GNU na inatolewa chini ya Leseni ya Umma ya "
 "GNU Affero."
 
-#: gcompris.py:252
+#: gcompris.py:253
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Majina yako"
 
-#: gcompris.py:398
+#: gcompris.py:399
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Kwa Krismasi, wape GCompris watoto wako."
 
@@ -1494,14 +1511,6 @@ msgstr "Mkakati"
 
 #~ msgid "System requirements:"
 #~ msgstr "Mahitaji ya Mfumo:"
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "This version adds translations for 3 more languages: Bulgarian, Galician "
-#~ "and Swahili."
-#~ msgstr ""
-#~ "Toleo hili linaongeza tafsiri kwa lugha 3 zaidi: Kibulgaria, Kigalisia na "
-#~ "Kiswahili."
 
 #~ msgctxt "20240221.html"
 #~ msgid ""

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-15 02:34+0000\n"
+"POT-Creation-Date: 2024-12-16 02:37+0000\n"
 "PO-Revision-Date: 2024-04-22 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -86,6 +86,11 @@ msgid ""
 "As you can see, we are now basing the major version number on the release "
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "This version adds translation for one more language: Sanskrit."
 msgstr ""
 
 #. paragraph
@@ -397,76 +402,81 @@ msgstr "俄语"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
+msgid "Sanskrit"
+msgstr ""
+
+#: gcompris.py:124
+msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "斯洛伐克语"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "斯洛文尼亚语"
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "阿尔巴尼亚语"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "塞尔维亚语"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "瑞典语"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr ""
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "泰米尔语"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "泰语"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "土耳其语"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "乌克兰语"
 
-#: gcompris.py:133
+#: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "中文（简体）"
 
-#: gcompris.py:134
+#: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "中文（繁体）"
 
-#: gcompris.py:251
+#: gcompris.py:252
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr "此软件是 GNU 软件包，在 GNU Affero 通用公共许可证下发布。"
 
-#: gcompris.py:252
+#: gcompris.py:253
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "KDE 中国, Dasferco"
 
-#: gcompris.py:398
+#: gcompris.py:399
 msgid "For Christmas, offer GCompris to your children."
 msgstr ""
 
@@ -604,24 +614,15 @@ msgid "Else, you can download the installer from the links below."
 msgstr "此外，您可以从下面的链接下载安装包。"
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "系统要求：Windows 7、8或10 与 OpenGL 2 支持。"
+msgstr ""
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"注意: 如果您的系统不支持 OpenGL 2 或者它工作不正常, 请使用开始菜单中的 "
-"GCompris (Safe Mode) 启动不使用 OpenGL 的软件渲染模式。"
 
 #: template/downloads.html:29
 msgid ""
@@ -701,10 +702,8 @@ msgid ""
 msgstr ""
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
-msgstr "此外，您可以从下面的链接下载安装包。"
+msgstr ""
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -789,10 +788,8 @@ msgid "Raspberry Pi"
 msgstr "树莓派"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "我们为树莓派提供了一个独立软件包。"
+msgstr ""
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -1276,9 +1273,3 @@ msgstr ""
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr ""
-
-#~ msgid "You can get the macOS version from the link below."
-#~ msgstr "您可以从下面的链接中获取 macOS 版本。"
-
-#~ msgid "System requirements:"
-#~ msgstr "系统需求："

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-12-15 02:34+0000\n"
+"POT-Creation-Date: 2024-12-16 02:37+0000\n"
 "PO-Revision-Date: 2022-09-18 12:08+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -115,6 +115,11 @@ msgid ""
 "As you can see, we are now basing the major version number on the release "
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
+msgstr ""
+
+#. paragraph
+msgctxt "20250130.html"
+msgid "This version adds translation for one more language: Sanskrit."
 msgstr ""
 
 #. paragraph
@@ -441,65 +446,70 @@ msgstr ""
 
 #: gcompris.py:123
 msgctxt "language name, item list"
-msgid "Slovak"
+msgid "Sanskrit"
 msgstr ""
 
 #: gcompris.py:124
 msgctxt "language name, item list"
-msgid "Slovenian"
+msgid "Slovak"
 msgstr ""
 
 #: gcompris.py:125
 msgctxt "language name, item list"
-msgid "Albanian"
+msgid "Slovenian"
 msgstr ""
 
 #: gcompris.py:126
 msgctxt "language name, item list"
-msgid "Serbian"
+msgid "Albanian"
 msgstr ""
 
 #: gcompris.py:127
 msgctxt "language name, item list"
-msgid "Swedish"
+msgid "Serbian"
 msgstr ""
 
 #: gcompris.py:128
 msgctxt "language name, item list"
-msgid "Swahili"
+msgid "Swedish"
 msgstr ""
 
 #: gcompris.py:129
 msgctxt "language name, item list"
-msgid "Tamil"
+msgid "Swahili"
 msgstr ""
 
 #: gcompris.py:130
 msgctxt "language name, item list"
-msgid "Thai"
+msgid "Tamil"
 msgstr ""
 
 #: gcompris.py:131
 msgctxt "language name, item list"
-msgid "Turkish"
+msgid "Thai"
 msgstr ""
 
 #: gcompris.py:132
 msgctxt "language name, item list"
-msgid "Ukrainian"
+msgid "Turkish"
 msgstr ""
 
 #: gcompris.py:133
 msgctxt "language name, item list"
-msgid "Chinese Simplified"
+msgid "Ukrainian"
 msgstr ""
 
 #: gcompris.py:134
 msgctxt "language name, item list"
+msgid "Chinese Simplified"
+msgstr ""
+
+#: gcompris.py:135
+msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr ""
 
-#: gcompris.py:251
+#: gcompris.py:252
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -507,12 +517,12 @@ msgstr ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 
-#: gcompris.py:252
+#: gcompris.py:253
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Steve Allewell"
 
-#: gcompris.py:398
+#: gcompris.py:399
 msgid "For Christmas, offer GCompris to your children."
 msgstr "For Christmas, offer GCompris to your children."
 
