@@ -4,13 +4,13 @@
 #
 # Andrej Mernik <andrejm@ubuntu.si>, 2014.
 # Timo <animtim@gmail.com>, 2020.
-# Matjaž Jeran <matjaz.jeran@amis.net>, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024 Matjaž Jeran <matjaz.jeran@amis.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-12-16 02:37+0000\n"
-"PO-Revision-Date: 2024-12-15 07:43+0100\n"
+"PO-Revision-Date: 2024-12-16 09:51+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "Generated-By: Babel 1.3\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 #. news title
 msgctxt "20241129.html"
@@ -87,7 +87,7 @@ msgstr "Izdaja GCompris 25.0"
 #. paragraph
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Danes izdajamo GCompris verzija 25.0"
+msgstr "Danes izdajamo GCompris verzija 25.0."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -101,15 +101,9 @@ msgstr ""
 "priložnost, da to storimo zdaj, da proslavimo 25 let GComprisa."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20250130.html"
 msgid "This version adds translation for one more language: Sanskrit."
-msgstr ""
-"Ta verzija dodaja prevode še za 3 jezike: bolgarsko, galicijsko in Svahili."
+msgstr "Ta verzija dodaja prevode še za en jezik: Sanskrit."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -443,7 +437,7 @@ msgstr "ruščina"
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskrit"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
