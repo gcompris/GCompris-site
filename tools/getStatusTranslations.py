@@ -11,8 +11,9 @@ import os
 import sys
 import polib
 
-from PyQt5.QtCore import QCoreApplication, QUrl
-from PyQt5.QtQml import QQmlComponent, QQmlEngine
+from PySide6 import QtCore, QtQml
+from PySide6.QtCore import QCoreApplication, QUrl
+from PySide6.QtQml import QQmlComponent, QQmlEngine
 
 if len(sys.argv) < 2:
     print('Usage : python3 getStatusTranslations.py gcomprisPath')
@@ -28,11 +29,17 @@ pathToLanguageList=os.path.join(gcomprisPath, "src/core/LanguageList.qml")
 app = QCoreApplication(sys.argv)
 engine = QQmlEngine()
 component = QQmlComponent(engine)
+# We need to rename qmldir to be able to load LanguageList.qml, else it does not
+# manage to load GCSingletonFontLoader.qml
+os.rename(os.path.join(gcomprisPath, "src/core/qmldir"), os.path.join(gcomprisPath, "src/core/qmldir.tmp"))
 try:
     component.loadUrl(QUrl(pathToLanguageList))
     languageListComponent = component.create()
 except IOError:
     pass
+# Don't forget to restore qmldir
+os.rename(os.path.join(gcomprisPath, "src/core/qmldir.tmp"), os.path.join(gcomprisPath, "src/core/qmldir"))
+
 supportedLanguageList = list(map(lambda element: element["locale"].replace(".UTF-8", ""), languageListComponent.property("languages").toVariant()))
 
 # Append short names

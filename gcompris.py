@@ -23,8 +23,8 @@ import htmlmin
 
 from ActivityInfo import ActivityInfo
 from ApplicationInfo import ApplicationInfo
-from PyQt5.QtCore import QCoreApplication, QUrl, QTranslator
-from PyQt5.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
+from PySide6.QtCore import QCoreApplication, QUrl, QTranslator
+from PySide6.QtQml import qmlRegisterType, qmlRegisterSingletonType, QQmlComponent, QQmlEngine
 
 import jinja2
 
