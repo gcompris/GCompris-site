@@ -19,7 +19,7 @@ KDE](https://invent.kde.org/websites/gcompris-net)
 * python 3.8
 * subversion
 * Jinja2
-* PyQt5 (QtCore and QtQml)
+* PySide6 (QtCore and QtQml)
 * htmlmin
 * beautifulsoup4
 
