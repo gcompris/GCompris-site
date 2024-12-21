@@ -86,20 +86,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "Version 2.4 de GCompris"
+msgstr "Version 25.0 de GCompris"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Nous publions aujourd'hui la version 2.3 de GCompris."
+msgstr "Nous publions aujourd'hui la version 25.0 de GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -110,24 +104,14 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20250130.html"
 msgid "This version adds translation for one more language: Sanskrit."
-msgstr ""
-"Cette version ajoute trois nouvelles langues : le bulgare, le galicien et le "
-"swahili."
+msgstr "Cette version ajoute une nouvelle langue : le sanskrit."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Cette version contient 190 activités, dont 8 nouvelles :"
+msgstr "Cette version contient 195 activités, dont 5 nouvelles :"
 
 #. list item
 msgctxt "20250130.html"
@@ -165,10 +149,6 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
@@ -181,6 +161,8 @@ msgid ""
 "With the help of teachers, we rewrote a big part of the activities "
 "description to be clearer."
 msgstr ""
+"Avec l'aide d'enseignants, nous avons réécrit une grande partie de la "
+"description des activités pour être plus clairs."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -188,38 +170,33 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
+"Lorsque vous changez la langue dans le menu, la nouvelle langue est "
+"maintenant directement appliquée, sans avoir à redémarrer GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "On the technical side, it is also the first release using Qt6."
-msgstr ""
+msgstr "Du côté technique, il s'agit de la première version utilisant Qt6."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Nous avons également défini le rendu graphique sur direct3d11 par défaut sur "
+"Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Elle est entièrement traduite dans les langues suivantes :"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Elle est partiellement traduite dans les langues suivantes :"
@@ -227,9 +204,6 @@ msgstr "Elle est partiellement traduite dans les langues suivantes :"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
@@ -258,9 +232,6 @@ msgstr ""
 "et « Windows », ainsi dans le dépôt de F-Droid."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
@@ -468,7 +439,7 @@ msgstr "Russe"
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskrit"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
@@ -686,12 +657,8 @@ msgstr ""
 "Sinon, vous pouvez télécharger les installateurs à partir des liens dessous."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr ""
-"Configuration requise : « Windows » 7, 8 ou 10 avec la gestion de « OpenGL "
-"2 »."
+msgstr "Configuration requise : Windows 10 ou 11."
 
 #: template/downloads.html:28
 #, fuzzy
@@ -713,6 +680,8 @@ msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"La dernière version disponible pour Windows 7 et 8 peut être téléchargée à "
+"partir du lien ci-dessous."
 
 #: template/downloads.html:34
 msgid ""
@@ -769,19 +738,14 @@ msgstr ""
 "notre site Internet et l'installer manuellement sur votre appareil."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Pour les appareils fonctionnant sous Android 2.3 à 4.0, la dernière version "
-"compatible est <a href=\"https://gcompris.net/download/qt/android/GCompris-"
-"Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+"Pour les appareils fonctionnant sous Android 4.1 à 8.0, la dernière version "
+"compatible est <a href= \"https://gcompris.net/download/qt/android/GCompris-"
+"Android-release-signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -802,13 +766,14 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"La dernière version n'est pas encore disponible sur macOS en raison du "
+"manque de matériel pour la créer et la tester."
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
-"Sinon, vous pouvez télécharger les installateurs à partir des liens dessous."
+"Vous pouvez télécharger la dernière version disponible pour macOS à partir "
+"du lien dessous."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -836,7 +801,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Configuration requise : noyau Linux 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -895,22 +860,25 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"La dernière version disponible pour les distributions Linux 32 bits peut "
+"être téléchargée à partir du lien suivant."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Configuration requise : noyau Linux 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Nous fournissons un paquet auto-extractible pour Raspberry Pi."
+msgstr ""
+"Nous fournissons un paquet auto-extractible pour Raspberry Pi (64 bits)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -921,6 +889,8 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"La dernière version disponible pour 32 bits est la version 4.3 sur le lien "
+"suivant :"
 
 #: template/downloads.html:160
 msgid "Source code"
@@ -944,16 +914,13 @@ msgstr ""
 "la fin de l'URL de téléchargement."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Le fichier d'archive des sources et les installateurs Linux sont signés avec "
-"la clé « GPG » de Timothée Giet (Clé publique : %(public_gpg_key)s)"
+"Le fichier d'archive des sources et l'installateur Linux sont signés avec la "
+"clé « GPG » de Timothée Giet (Clé publique : %(public_gpg_key)s)"
 
 #: template/downloads.html:184
 msgid "sig files:"
