@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-01 01:53+0000\n"
-"PO-Revision-Date: 2024-06-16 07:39+0200\n"
+"PO-Revision-Date: 2025-01-05 23:54+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -20,51 +20,32 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Release GCompris 4.1"
 msgctxt "20241129.html"
 msgid "Release GCompris 4.3"
-msgstr "Eldono GCompris 4.1"
+msgstr "Eldono GCompris 4.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Today we are releasing GCompris version 4.1."
 msgctxt "20241129.html"
 msgid "Today we are releasing GCompris version 4.3."
-msgstr "Hodiaŭ ni publikigas GCompris version 4.1."
+msgstr "Hodiaŭ ni publikigas GCompris version 4.3."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20241129.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
 "Ĝi enhavas cimkorektojn kaj grafikaĵajn plibonigojn en pluraj aktivecoj."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ĝi estas plene tradukita en la jenajn lingvojn:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Ĝi ankaŭ estas parte tradukita en la sekvajn lingvojn:"
@@ -72,22 +53,11 @@ msgstr "Ĝi ankaŭ estas parte tradukita en la sekvajn lingvojn:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20241129.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -98,33 +68,24 @@ msgid ""
 msgstr ""
 "Vi povas trovi pakaĵojn de ĉi tiu nova versio por GNU/Linukso, Vindozo, "
 "Android, Raspberry Pi kaj macOS ĉe la <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">elŝuta paĝo</a>. Ĉi tiu ĝisdatigo estos "
+"downloads{{ suffix }}.html\\\">elŝuta paĝo</a>. Ĉi tiu ĝisdatigo ankaŭ estos "
 "disponebla baldaŭ en la Android Play-butiko, la F-Droid-deponejo kaj la "
 "Vindoza vendejo."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dankon al ĉiuj, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Release GCompris 4.0"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "Eldono GCompris 4.0"
+msgstr "Eldono GCompris 25.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Today we are releasing GCompris version 4.0."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Hodiaŭ ni publikigas GCompris version 4.0."
+msgstr "Hodiaŭ ni publikigas GCompris version 25.0."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -135,24 +96,14 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20250130.html"
 msgid "This version adds translation for one more language: Sanskrit."
-msgstr ""
-"Ĉi tiu versio aldonas tradukojn por 3 pliaj lingvoj: la bulgaran, la galegan "
-"kaj la svahilan."
+msgstr "Ĉi tiu versio aldonas tradukon por unu plia lingvo: la sanskrita."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Ĝi enhavas 190 aktivejon, inkluzive 8 novajn:"
+msgstr "Ĉi nova versio enhavas 195 aktivejon, inkluzive 5 novajn:"
 
 #. list item
 msgctxt "20250130.html"
@@ -190,10 +141,6 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
@@ -225,25 +172,16 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ĝi estas plene tradukita en la jenajn lingvojn:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Ĝi ankaŭ estas parte tradukita en la sekvajn lingvojn:"
@@ -251,22 +189,11 @@ msgstr "Ĝi ankaŭ estas parte tradukita en la sekvajn lingvojn:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -282,9 +209,6 @@ msgstr ""
 "Vindoza vendejo."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dankon al ĉiuj, <br/>Timothée & Johnny"
@@ -709,25 +633,18 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Alie, vi povas elŝuti la instalilon de la subaj ligiloj."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "Sistempostuloj: Windows 7, 8 aŭ 10 kun OpenGL 2-subteno."
+msgstr "Sistempostuloj: Windows 10 aŭ 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Noto: Se via sistemo ne havas OpenGL 2-subtenon aŭ se ĝi ne funkcias ĝuste, "
-"bonvolu uzi la eniron GCompris (Sekura Reĝimo) en la startmenuo por lanĉi "
-"GCompris kun la programara bildiga reĝimo kiu ne uzas OpenGL."
+"Noto: Se via sistemo ne havas subtenon por Direct3D 11 aŭ se ĝi ne funkcias "
+"ĝuste, bonvolu uzi la eniron GCompris (Sekura Reĝimo) en la startmenuo por "
+"lanĉi GCompris kun la programara bildig-reĝimo."
 
 #: template/downloads.html:29
 msgid ""
@@ -789,19 +706,14 @@ msgstr ""
 "via aparato."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Por aparatoj kun Android 2.3 ĝis 4.0, la lasta kongrua versio estas <a href= "
+"Por aparatoj kun Android 4.1 ĝis 8.0, la lasta kongrua versio estas <a href= "
 "\"https://gcompris.net/download/qt/android/GCompris-Android-release-signed-"
-"aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+"aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -824,10 +736,9 @@ msgid ""
 msgstr ""
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
-msgstr "Alie, vi povas elŝuti la instalilon de la subaj ligiloj."
+msgstr ""
+"Vi povas elŝuti la lastan version disponeblan por macOS de la subaj ligiloj."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -923,10 +834,8 @@ msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Ni provizas memstaran pakon por Raspberry Pi."
+msgstr "Ni provizas memstaran pakon por Raspberry Pi (64-bita)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -960,15 +869,12 @@ msgstr ""
 "url."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"La fonto tarball kaj la Linuksaj instaliloj estas subskribitaj per la GPG-"
+"La fonta tarball kaj la Linuksaj instaliloj estas subskribitaj per la GPG-"
 "ŝlosilo de Timothée Giet (publika ŝlosilo: %(public_gpg_key)s)"
 
 #: template/downloads.html:184
@@ -1477,71 +1383,3 @@ msgstr "Legado"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategio"
-
-#~ msgid "You can get the macOS version from the link below."
-#~ msgstr "Vi povas akiri la macOS-version de la suba ligilo."
-
-#~ msgid "System requirements:"
-#~ msgstr "Sistemaj postuloj:"
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Grammar classes\\\" is an activity to learn to identify words "
-#~ "grammatical classes, one class at a time."
-#~ msgstr ""
-#~ "\\\"Gramatik-klasoj\\\" estas aktiveco por lerni identigi gramatikajn "
-#~ "klasojn de vortoj, ĉiun klason unuope."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Grammar analysis\\\" is similar to the previous one, but with several "
-#~ "classes requested for each sentence."
-#~ msgstr ""
-#~ "\\\"Gramatik-analizo\\\" estas simila al la antaŭa, sed kun pluraj klasoj "
-#~ "alpetitaj po ĉiu frazo."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "\\\"Calcudoku\\\" is an arithmetic game where the goal is to fill a grid "
-#~ "with numbers according to specific rules."
-#~ msgstr ""
-#~ "\\\"Kalkudoku\\\" estas aritmetika ludo, en kiu la celo estas plenigi "
-#~ "kradon per numeroj laŭ specifaj reguloj."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "With \\\"Guess 24\\\", using the 4 given numbers and the operators, find "
-#~ "the number 24!"
-#~ msgstr ""
-#~ "Kun \\\"Diveni 24\\\", uzante la 4 donitajn nombrojn kaj la operatoron, "
-#~ "trovu la nombron 24!"
-
-#~ msgctxt "20240221.html"
-#~ msgid "In \\\"Frieze\\\", reproduce and complete the different friezes."
-#~ msgstr "En \\\"Frieze\\\", reproduktu kaj kompletigu la diversajn frisojn."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "In \\\"Use a graduated line\\\", place the given value on the graduated "
-#~ "line."
-#~ msgstr ""
-#~ "En \\\"Uzi gradigitan linion\\\", lokigu la donitan valoron sur la "
-#~ "gradigita linio."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "In \\\"Adjacent numbers\\\", learn which numbers come before or after the "
-#~ "given sequence."
-#~ msgstr ""
-#~ "En \\\"Apudaj nombroj\\\", lernu kiuj numeroj venas antaŭ aŭ post la "
-#~ "donita sinsekvo."
-
-#~ msgctxt "20240221.html"
-#~ msgid ""
-#~ "One major milestone has been reached with this version: after almost 9 "
-#~ "years of work, the task of reworking all the graphics to fit the "
-#~ "guidelines has been completed!"
-#~ msgstr ""
-#~ "Unu grava mejloŝtono estis atingita en ĉi tiu versio: post preskaŭ 9 "
-#~ "jaroj de laboro, la tasko relabori ĉiujn grafikaĵojn por konveni la "
-#~ "gvidliniojn estis kompletigita!"
