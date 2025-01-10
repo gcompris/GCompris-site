@@ -5,13 +5,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # André Marcelo Alvarenga <alvarenga@kde.org>, 2016.
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
-# Frederico Gonçalves Guimarães <frederico@teia.bio.br>, 2019, 2020, 2021, 2022, 2023, 2024.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2023, 2024, 2025 Frederico Gonçalves Guimarães <frederico@teia.bio.br>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-01 01:53+0000\n"
-"PO-Revision-Date: 2024-05-16 20:56-0300\n"
+"PO-Revision-Date: 2025-01-09 16:35-0300\n"
 "Last-Translator: Frederico Goncalves Guimaraes <frederico@teia.bio.br>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -20,55 +20,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 24.12.0\n"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Release GCompris 4.1"
 msgctxt "20241129.html"
 msgid "Release GCompris 4.3"
-msgstr "Lançamento do GCompris 4.1"
+msgstr "Lançamento do GCompris 4.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Today we are releasing GCompris version 4.1."
 msgctxt "20241129.html"
 msgid "Today we are releasing GCompris version 4.3."
-msgstr "Hoje estamos lançando a versão 4.1 do GCompris."
+msgstr "Hoje estamos lançando a versão 4.3 do GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20241129.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
 "Ela contém correções de erros e melhorias gráficas em várias atividades."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ele foi totalmente traduzido para os seguintes idiomas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
@@ -76,22 +57,11 @@ msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20241129.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -103,34 +73,25 @@ msgstr ""
 "Você encontra os pacotes desta nova versão para GNU/Linux, Windows, Android, "
 "Raspberry Pi e MacOS na <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">página de downloads</a>. Esta atualização "
-"também estará disponível em breve na Play Store do Android, no repositório F-"
-"Droid e na Windows Store."
+"também estará disponível, em breve, na Play Store do Android, no repositório "
+"F-Droid e na Windows Store."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todo mundo, <br/>Timothée & Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "Lançamento do GCompris 2.4"
+msgstr "Lançamento do GCompris 25.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Hoje estamos lançando a versão 2.3 do GCompris."
+msgstr "Hoje estamos lançando a versão 25.0 do GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -139,26 +100,20 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+"Como vocês podem ver, agora estamos usando o ano de lançamento como o número "
+"da versão principal. Isso faz sentido diante do fato de que estamos lançando "
+"uma versão principal por ano. Isso também coincide com a celebração de 25 "
+"anos do GCompris!"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20250130.html"
 msgid "This version adds translation for one more language: Sanskrit."
-msgstr ""
-"Esta versão adiciona traduções para mais 3 idiomas:: búlgaro, galego e "
-"suaíli."
+msgstr "Esta versão adiciona a tradução para mais um idioma: sânscrito."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Ela contém 190 atividades, incluindo 8 novas:"
+msgstr "Esta nova versão contém 195 atividades, incluindo 5 novas:"
 
 #. list item
 msgctxt "20250130.html"
@@ -166,6 +121,8 @@ msgid ""
 "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
 "children explore their creativity."
 msgstr ""
+"\\\"Esboço\\\" é uma atividade para desenho livre, com múltiplas ferramentas "
+"para que as crianças possam explorar sua criatividade."
 
 #. list item
 msgctxt "20250130.html"
@@ -174,6 +131,9 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"\\\"Calcule com o complemento de dez\\\" é a continuação das atividades "
+"existentes de complemento de dez. Essa aqui ajuda as crianças a trocar os "
+"números para facilitar a realização da soma."
 
 #. list item
 msgctxt "20250130.html"
