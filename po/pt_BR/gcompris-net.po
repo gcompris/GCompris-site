@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-01 01:53+0000\n"
-"PO-Revision-Date: 2025-01-09 16:35-0300\n"
+"PO-Revision-Date: 2025-01-13 10:53-0300\n"
 "Last-Translator: Frederico Goncalves Guimaraes <frederico@teia.bio.br>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -140,6 +140,7 @@ msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
 msgstr ""
+"\\\"Adição vertical\\\" é uma atividade para escrever e solucionar adições."
 
 #. list item
 msgctxt "20250130.html"
@@ -147,6 +148,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"\\\"Subtração vertical\\\" é similar à atividade de adição, mas com "
+"subtrações usando o método de reagrupamento por empréstimo."
 
 #. list item
 msgctxt "20250130.html"
@@ -154,17 +157,14 @@ msgid ""
 "\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
 "one with the borrowing by compensation method."
 msgstr ""
+"\\\"Subtração vertical (compensação)\\\" é similar à atividade de subtração, "
+"mas com aqui usando o método de compensação por empréstimo."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Ela também contém correções de erros e melhorias gráficas em várias "
-"atividades."
+"Ela contém correções de erros e melhorias gráficas em várias atividades."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -172,6 +172,8 @@ msgid ""
 "With the help of teachers, we rewrote a big part of the activities "
 "description to be clearer."
 msgstr ""
+"Com a ajuda de professoras e professores, nós reescrevemos grande parte das "
+"descrições das atividades, para torná-las mais claras."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -179,61 +181,45 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
+"Quando é feita a alteração do idioma no menu, o novo idioma agora é aplicado "
+"diretamente, sem a necessidade de reiniciar o GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "On the technical side, it is also the first release using Qt6."
-msgstr ""
+msgstr "Na parte técnica, está é a primeira versão a usar Qt6."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Nós também definimos o renderizador gráfico direct3d11 como padrão no "
+"Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Ele foi totalmente traduzido para os seguintes idiomas:"
+msgstr "Ela foi totalmente traduzida para os seguintes idiomas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "E também foi parcialmente traduzido para os seguintes idiomas:"
+msgstr "E também foi parcialmente traduzida para os seguintes idiomas:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -242,16 +228,13 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Você encontra os pacotes desta nova versão para GNU/Linux, Windows e MacOS "
-"na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">página de "
-"downloads</a>. Esta atualização também estará disponível em breve na Play "
-"Store do Android, no repositório F-Droid e na Windows Store."
+"Você encontra os pacotes desta nova versão para GNU/Linux, Windows, Android "
+"e Raspberry Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">página de downloads</a>. Esta atualização também estará disponível, em "
+"breve, na Play Store do Android, no repositório F-Droid e na Windows Store."
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Obrigado a todo mundo, <br/>Timothée & Johnny"
@@ -465,7 +448,7 @@ msgstr "Russo"
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sânscrito"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
@@ -580,8 +563,7 @@ msgid "Contribute"
 msgstr "Contribuir"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Última atualização do site em %(revision_date)s."
 
@@ -684,32 +666,27 @@ msgstr ""
 "Também é possível fazer o download do instalador a partir dos links abaixo."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "Requisitos do sistema: Windows 7, 8 ou 10 com suporte ao OpenGL 2."
+msgstr "Requisitos do sistema: Windows 10 ou 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Nota: Caso o seu sistema não possua suporte ao OpenGL 2, ou ele não esteja "
-"funcionando adequadamente, por favor use a opção GCompris (Modo seguro) no "
-"menu de aplicações para abrir o GCompris no mode de renderização por "
-"software, que não usa o OpenGL."
+"Nota: Caso o seu sistema não possua suporte ao Direct3D 11, ou ele não "
+"esteja funcionando adequadamente, por favor use a opção GCompris (Modo "
+"seguro) no menu de aplicações para abrir o GCompris no modo de renderização "
+"por software."
 
 #: template/downloads.html:29
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"A última versão disponível para os Windows 7 e 8 pode ser baixada a partir "
+"do link abaixo."
 
 #: template/downloads.html:34
 msgid ""
@@ -766,19 +743,14 @@ msgstr ""
 "manualmente em seu dispositivo."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Para dispositivos rodando Android 2.3 a 4.0, a última versão compatível é a "
-"<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+"Para dispositivos rodando Android 4.1 a 8.0, a última versão compatível é a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -799,13 +771,14 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"A última versão ainda não está disponível para macOS devido à falta de "
+"infraestrutura para compilá-la e testá-la."
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
-"Também é possível fazer o download do instalador a partir dos links abaixo."
+"Você pode fazer o download da última versão disponível para macOS a partir "
+"do link abaixo."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -833,7 +806,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Requisitos do sistema: kernel Linux 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -890,22 +863,24 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"A última versão disponível para distribuições GNU/Linux de 32bit pode ser "
+"baixada a partir do link abaixo."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Requisitos do sistema: kernel Linux 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Fornecemos um pacote avulso para o Raspberry Pi."
+msgstr "Fornecemos um pacote avulso para o Raspberry Pi (64bit)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -916,6 +891,7 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"A última versão disponível para 32bit é a 4.3, a partir do link abaixo:"
 
 #: template/downloads.html:160
 msgid "Source code"
@@ -939,16 +915,13 @@ msgstr ""
 "download."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"O tarball com o código-fonte e os instaladores para GNU/Linux são assinados "
-"com a chave GPG de Timothée Giet (chave pública: %(public_gpg_key)s)"
+"O tarball com o código-fonte e o instalador para GNU/Linux são assinados com "
+"a chave GPG de Timothée Giet (chave pública: %(public_gpg_key)s)"
 
 #: template/downloads.html:184
 msgid "sig files:"
@@ -984,11 +957,6 @@ msgstr ""
 "que os usuários os baixem dentro do software, se assim o desejarem."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
@@ -996,7 +964,7 @@ msgid ""
 msgstr ""
 "Se não quiser que o software faça download de nada automaticamente, você "
 "pode desativar a opção \"Habilitar downloads/atualizações automáticos de "
-"arquivos de som\" na página de configurações."
+"recursos externos\" na página de configurações."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
@@ -1007,6 +975,8 @@ msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"IMPORTANTE: para as versões do GCompris anteriores à 4.0, você deve "
+"substituir \"data3\" por \"data2\" em todas as instruções abaixo."
 
 #: template/faq.html:19
 msgid ""
@@ -1014,10 +984,15 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"IMPORTANTE: a partir da versão 4.0 do GCompris, nós adicionamos a data da "
+"última atualização nos nomes dos arquivos .rcc. Por isso, é necessário olhar "
+"nos arquivos \"Contents\" qual é o nome do último, antes de fazer o "
+"download. Por exemplo:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
 msgstr ""
+"Para versões mais antigas, os nomes dos arquivos não contém a data. Exemplo:"
 
 #: template/faq.html:20
 msgid ""
@@ -1037,6 +1012,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"Como explicado acima, a partir da versão 4.0 do GCompreis, substitua \"-date"
+"\" pela data que você encontrou no arquivo \"Contents\"; para versões mais "
+"antigas, remova a parte \"-date\"."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -1126,16 +1104,17 @@ msgstr ""
 "pacote GNU. Desde 2014, ele é mantido pela comunidade KDE."
 
 #: template/faq.html:64
-#, fuzzy
-#| msgid "Why is it not available for iOS?"
 msgid "Why is it called GCompris?"
-msgstr "Por que ele não está disponível para iOS?"
+msgstr "Por que ele é chamado GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"O nome GCompris soa como a expressão \"j'ai compris\" em Francês, que pode "
+"ser traduzido para o português como \"eu compreendo\". Além disso, o G é uma "
+"referência a \"GNU\"."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
