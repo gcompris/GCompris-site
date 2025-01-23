@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-22 01:53+0000\n"
-"PO-Revision-Date: 2025-01-15 23:08+0100\n"
+"PO-Revision-Date: 2025-01-22 17:02+0100\n"
 "Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-cs@kde.org>\n"
 "Language: cs\n"
@@ -187,6 +187,7 @@ msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Také jsme na Windows nastavili výchozí grafický vykreslovač na direct3d11."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -673,6 +674,8 @@ msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"Poslední verze dostupná pro Windows 7 a 8 je k dispozici ke stažení na níže "
+"uvedeném odkazu."
 
 #: template/downloads.html:34
 msgid ""
@@ -755,6 +758,8 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"Nejnovější verze pro macOS ještě není dostupná z důvodu nedostatku "
+"infrastruktury pro jeho sestavení a otestování."
 
 #: template/downloads.html:85
 msgid "You can download the last version available macOS from the link below."
@@ -786,7 +791,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Systémové požadavky: jádro Linux 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -842,12 +847,15 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Poslední verze dostupná pro 32 bitové distribuce Linuxu je k dispozici ke "
+"stažení na níže uvedeném odkazu."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Systémové požadavky: jádro Linux 3.10, glibc 2.17, pulseaudio, gstreamer 1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
@@ -866,6 +874,8 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Poslední dostupná 32 bitová verze je 4.3 a je k dispozici ke stažení na "
+"tomto odkazu:"
 
 #: template/downloads.html:160
 msgid "Source code"

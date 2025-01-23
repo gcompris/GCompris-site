@@ -102,6 +102,10 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+"Comme vous pouvez le voir, nous synchronisons maintenant le numéro de "
+"version majeure sur l'année de sortie. Cela a du sens car nous faisons une "
+"version majeure par an. C'est aussi une bonne occasion de le faire "
+"maintenant pour célébrer les 25 ans de GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -119,6 +123,8 @@ msgid ""
 "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
 "children explore their creativity."
 msgstr ""
+"\\\"Croquis\\\" est une activité pour dessiner librement avec de multiples "
+"outils pour permettre aux enfants d'explorer leur créativité."
 
 #. list item
 msgctxt "20250130.html"
@@ -127,12 +133,17 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"\\\"Utilise les compléments à 10\\\" est la continuation des activités de "
+"complément à 10 existantes. Celle-ci aide les enfants à échanger les nombres "
+"pour calculer facilement une somme."
 
 #. list item
 msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
 msgstr ""
+"\\\"Addition verticale\\\" est une activité pour écrire une addition et la "
+"résoudre."
 
 #. list item
 msgctxt "20250130.html"
@@ -140,6 +151,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"\\\"Soustraction verticale\\\", est similaire à l'activité d'addition mais "
+"pour la soustraction avec la méthode de l'emprunt par regroupement."
 
 #. list item
 msgctxt "20250130.html"
@@ -147,6 +160,8 @@ msgid ""
 "\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
 "one with the borrowing by compensation method."
 msgstr ""
+"\\\"Soustraction verticale (méthode de l'emprunt par compensation)\\\", est "
+"similaire à celle dessus mais avec la méthode de l'emprunt par compensation."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -209,14 +224,6 @@ msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -226,8 +233,8 @@ msgid ""
 "Windows store."
 msgstr ""
 "Vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, "
-"Windows, Android, Raspberry Pi et macOS sur la <a href=\\\"https://gcompris."
-"net/downloads{{ suffix }}.html\\\">page de téléchargement</a>. Cette version "
+"Windows, Android et Raspberry Pi sur la <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">page de téléchargement</a>. Cette version "
 "sera également disponible très bientôt dans les boutiques « Android Play » "
 "et « Windows », ainsi dans le dépôt de F-Droid."
 
@@ -666,18 +673,13 @@ msgid "System requirements: Windows 10 or 11."
 msgstr "Configuration requise : Windows 10 ou 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Remarque : si votre système ne gère pas OpenGL 2 ou s'il ne fonctionne pas "
-"correctement, vous pouvez lancer GCompris à partir de l'entrée du menu "
+"Remarque : si votre système ne gère pas Direct3D 11 ou s'il ne fonctionne "
+"pas correctement, vous pouvez lancer GCompris à partir de l'entrée du menu "
 "« GCompris (Safe Mode) » qui utilise le rendu logiciel."
 
 #: template/downloads.html:29
