@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 25.0 Çıktı' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Bugün, GCompris’in 25.0 sürümünü yayımlıyoruz.</p>
+<p>Gördüğünüz gibi, şimdi ana sürüm numarasını yayım yılına dayandırıyoruz. Bu, yılda bir kez yayım yaptığımız için mantıklıdır. GCompris’in 25. yılını kutlamak de iyi bir fırsat.</p>
+<p>Bu sürüm, bir dil için daha çeviriler ekler: Sanskritçe.</p>
+<p>Bu yeni sürüm, 5’i yeni olmak üzere 195 etkinlik içerir:</p>
+<ul>
+<li class="puce">“Eskiz”, çocukların yaratıcılıklarını keşfetmelerine izin vermek için birden fazla araçla özgürce çizim yapmak için bir etkinliktir.</li>
+<li class="puce">“10’un tamamlayıcısı ile hesapla”, var olan 10’un tamamlayıcısı faaliyetlerinin süreğidir. Bu, çocukların bir toplamı kolayca hesaplamak için sayıları değiştirmelerine yardımcı olur.</li>
+<li class="puce">“Dikey toplama”, bir toplama yazmak ve çözmek için bir etkinliktir.</li>
+<li class="puce">“Dikey çıkarma”, bir çıkarma yazmak ve çözmek için bir etkinliktir.</li>
+<li class="puce">“Dikey çıkarma (dengeleyerek)”, dengeleme yöntemi ile ödünç alarak çıkarmaya benzerdir.</li>
+</ul>
+<br/>
+<p>Birden fazla etkinlikte hata düzeltmeleri ve grafik iyileştirmeleri içerir.</p>
+<p>Öğretmenlerin yardımıyla, etkinlik açıklamalarının büyük bir bölümünü daha net olacak biçimde yeniden yazdık.</p>
+<p>Menüdeki dili değiştirdiğimizde, GCompris’i yeniden başlatmak zorunda kalmadan yeni dil doğrudan uygulanır.</p>
+<p>Teknik taraftan bakacak olursak, aynı zamanda Qt6 kullanan ilk sürümdür.</p>
+<p>Ayrıca grafik sunucusunu Windows’ta öntanımlı olarak Direct3D 11 olarak ayarladık.</p>
+
+<p>GCompris çevirileri aşağıdaki diller için tamdır:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Aşağıdaki diller için çevirilerde eksikler vardır:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} (%{{ oneStatus }})</li>
+  {% endfor %}
+</ul>
+
+<p>Bu yeni sürümün paketlerini <a href="https://gcompris.net/downloads{{ suffix }}.html">indirme sayfasında</a> GNU/Linux, Windows, Android ve Raspberry Pi için bulabilirsiniz. Bu güncelleme, kısa bir süre içinde Google Play Store, F-Droid deposu ve Microsoft Store’da da kullanılabilir olacaktır.</p>
+
+<p>Herkese teşekkürler!<br/>Timothée ve Johnny</p>
+
+{% endblock %}
