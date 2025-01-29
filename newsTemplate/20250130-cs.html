@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Vydání GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Dnes vydáváme GCompris verze 25.0.</p>
+<p>Jak si můžete všimnout, my nyní zakládáme číslo větší verze na roku vydání. Toto dává smysl, protože vydáváme jednu větší verzi za rok. Také je to dobrá příležitost to udělat proto, abychom oslavili 25 let GComprisu.</p>
+<p>Do této verze přibyl další jazyk: sanskrt.</p>
+<p>Tato nová verze obsahuje 195 aktivit, včetně 5 nových:</p>
+<ul>
+<li class="puce">"Náčrt" je aktivita pro volné kreslení pomocí vícera nástrojů, aby děti mohly objevovat svou tvořivost.</li>
+<li class="puce">"Počítej s použitím desítkového doplňku" je pokračováním stávajících aktivit s desítkovým doplňkem. Tato pomáhá dětem jednoduše přehazovat čísla pro výpočet součtu.</li>
+<li class="puce">"Sčítání pod sebou" je aktivita pro zápis sčítání a jeho řešení.</li>
+<li class="puce">"Odčítání pod sebou" je podobné aktivitě se sčítáním, avšak pro odčítání s půjčováním přeskupovací metodou.</li>
+<li class="puce">"Odčítání pod sebou (kompenzační)" je podobné aktivitě se sčítáním, avšak pro odčítání s půjčováním kompenzační metodou.</li>
+</ul>
+<br/>
+<p>Obsahuje opravy chyb a grafická vylepšení ve vícero aktivitách.</p>
+<p>S pomocí učitelů jsme přepsali velkou část popisků aktivit, aby byly jasnější.</p>
+<p>Jakmile přepnete jazyk v nabídce, nový jazyk se rovnou uplatní bez nutnosti restartovat GCompris.</p>
+<p>Z technického pohledu je toto první vydání používající Qt6.</p>
+<p>Také jsme na Windows nastavili výchozí grafický vykreslovač na direct3d11.</p>
+
+<p>Je plně přeloženo do následujících jazyků:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Také je částečně přeloženo do následujících jazyků:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android, Raspberry Pi a macOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě Google Play, repozitáři F-Droidu a obchodu Windows Store.</p>
+
+<p>Díky všem, <br/>Timothée & Johnny</p>
+
+{% endblock %}
