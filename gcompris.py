@@ -305,6 +305,10 @@ translationStatus = {
     "20241129.html": {
         "fullyTranslated": ['ar', 'bg', 'br', 'ca', 'ca@valencia', 'el', 'en_GB', 'eo', 'es', 'eu', 'fr', 'gl', 'hr', 'hu', 'id', 'it', 'lt', 'lv', 'ml', 'nl', 'nn', 'pl', 'pt_BR', 'ro', 'ru', 'sl', 'sq', 'sv', 'sw', 'tr', 'uk'],
         "partiallyTranslated": [['az', 97], ['be', 87], ['cs', 97], ['de', 96], ['et', 96], ['fi', 95], ['he', 96], ['mk', 90], ['pt', 96], ['sk', 84], ['zh_TW', 96]]
+    },
+    "20250130.html": {
+        "fullyTranslated": ['ar', 'bg', 'br', 'ca', 'ca@valencia', 'el', 'es', 'eu', 'fr', 'gl', 'hr', 'hu', 'it', 'lv', 'ml', 'nl', 'pl', 'pt_BR', 'ro', 'sa', 'sl', 'sv', 'tr', 'uk'],
+        "partiallyTranslated": [['az', 90], ['be', 86], ['cs', 98], ['de', 88], ['en_GB', 99], ['eo', 99], ['et', 88], ['fi', 91], ['he', 96], ['id', 93], ['ka', 85], ['lt', 92], ['mk', 83], ['nn', 94], ['pt', 89], ['ru', 92], ['sk', 82], ['sq', 98], ['sw', 92], ['zh_TW', 88]]
     }
 }
 
