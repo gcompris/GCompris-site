@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 25.0 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Gaurkoan GCompris 25.0 bertsioa argitaratzen dugu.</p>
+<p>Ikus dezakezunez, orain, bertsioaren zenbaki nagusia argitalpen urtean oinarritzen dugu. Zentzuzkoa da, urtean argitalpen nagusi bat egiten baitugu. Gainera, GCompris-en 25 urteak ospatzeko ere aukera ona da.</p>
+<p>Bertsio honek beste hizkuntza baterako itzulpenak gehitzen ditu: sanskritoa.</p>
+<p>Bertsio berri honek 195 jarduera ditu, 5 berri haien artean:</p>
+<ul>
+<li class="puce">"Sketch" era askean marrazteko jarduera bat da, haurrek haien sormena esploratzeko tresna ugari dituena.</li>
+<li class="puce">"Kalkulatu hamarrerako osagarriarekin" aurrez zegoen hamarrerako osagarria jardueraren jarraipena da. Honek haurrei batuketa bat erraz kalkulatzeko zenbakiak trukatzen laguntzen die.</li>
+<li class="puce">"Batuketa bertikala" batuketa bat idatzi eta hura ebazteko jarduera bat da.</li>
+<li class="puce">"Kenketa bertikala", batzeko jardueraren antzekoa kenketarako, birtaldekatuz hartzeko metodoa erabiliz.</li>
+<li class="puce">"Kenketa bertikala (konpentsazioa)", birtaldekatuz hartzeko metodoa erabiltzen duen kenketaren antzekoa da.</li>
+</ul>
+<br/>
+<p>Jarduera askorako akats konponketak eta grafikoen hobekuntzak ditu.</p>
+<p>Irakasleen laguntzarekin, argiago egiteko, jardueren deskribapenen zati handi bat berridatzi dugu.</p>
+<p>Menuan hizkuntza aldatzen dugunean, orain, hizkuntza berri zuzenean aplikatzen da, GCompris berrabiarazi beharrik gabe.</p>
+<p>Alderdi teknikoan, Qt6 erabiltzen duen lehen bertsioa da.</p>
+<p>Errendatzaile grafikoa, Windows-en, era lehenetsian, direct3d11-ra ezarri dugu.</p>
+
+<p>Ondoko hizkuntzetan osorik itzulita dago:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Ondoko hizkuntza hauetan ere, hein batean, itzulita dago:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} (%{{ oneStatus }})</li>
+  {% endfor %}
+</ul>
+
+<p><a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a> bertsio berri honetako GNU/Linux, Windows, Android, eta Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian.</p>
+
+<p>Eskerrik asko guztioi, <br/>Timothée eta Johnny</p>
+
+{% endblock %}
