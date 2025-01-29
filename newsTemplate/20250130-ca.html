@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Avui fem el llançament del GCompris versió 25.0.</p>
+<p>Com poden veure, ara estem basant el número de versió principal en l'any de llançament. Això té sentit, ja que estem fent una versió important a l'any. També és una bona ocasió per a fer-ho ara per a celebrar els 25 anys del GCompris.</p>
+<p>Aquesta versió afegeix la traducció d'un idioma més: sànscrit.</p>
+<p>Aquesta versió nova conté 195 activitats, incloent-hi 5 de noves:</p>
+<ul>
+<li class="puce">«Esbós» és una activitat per a dibuixar lliurement amb diverses eines per a permetre als infants explorar la seva creativitat.</li>
+<li class="puce">«Calcula amb el complement a deu» és la continuació de les activitats existents de complement a deu. Aquesta ajuda els infants a intercanviar els números per a calcular fàcilment una suma.</li>
+<li class="puce">«Suma vertical» és una activitat per a escriure una suma i resoldre-la.</li>
+<li class="puce">«Resta vertical», és semblant a l'activitat de suma però amb la resta amb el mètode de portant-ne per reagrupament.</li>
+<li class="puce">«Resta vertical (compensació)», és semblant a la resta amb el mètode de portant-ne per compensació.</li>
+</ul>
+<br/>
+<p>Conté correccions d'errors i millores gràfiques en diverses activitats.</p>
+<p>Amb l'ajuda dels professors, hem reescrit una gran part de la descripció de les activitats perquè siguin més clares.</p>
+<p>Quan canviem d'idioma al menú, l'idioma nou s'aplica directament, sense haver de reiniciar el GCompris.</p>
+<p>En l'aspecte tècnic, també és el primer llançament amb les Qt6.</p>
+<p>També hem establert el renderitzador gràfic a «direct3d11» al Windows de manera predeterminada.</p>
+
+<p>Està traduït completament als idiomes següents:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>També està traduït parcialment als idiomes següents:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Android i Raspberry Pi a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització també estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+
+{% endblock %}
