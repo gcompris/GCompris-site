@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Danas smo objavili GCompris verziju 25.0.</p>
+<p>Kao što vidiš, sada temeljimo broj glavne verzije na godini izdanja. To ima smisla jer u pravilu godišnje objavljujemo jednu verziju. Također je dobra prilika da to učinimo sada u čast 25 godina GComprisa.</p>
+<p>Ova verzija sadrži prijevod za još jedan jezik: sanskrt.</p>
+<p>Sadrži 195 aktivnosti, uključujući 5 novih:</p>
+<ul>
+<li class="puce">"Sketch" je aktivnost slobodnog crtanja s različitim alatima koji omogućuju djeci da istražuju svoju kreativnost.</li>
+<li class="puce">"Računanje s komplementom desetice" je nastavak postojećih aktivnosti komplementa desetice. Ova aktivnost pomaže djeci da zamijene brojeve kako bi lakše izračunali zbroj.</li>
+<li class="puce">"Okomito zbrajanje" je aktivnost za pisanje i rješavanje zbrajanja.</li>
+<li class="puce">"Okomito oduzimanje", slično je aktivnosti zbrajanja, ali za oduzimanje s metodom posuđivanja pregrupiranjem.</li>
+<li class="puce">"Okomito oduzimanje (kompenzacija)", slično je oduzimanju no koristi metodu posuđivanja kompenzacijom.</li>
+</ul>
+<br/>
+<p>Sadrži ispravke pogrešaka i grafička poboljšanja više aktivnosti.</p>
+<p>Uz pomoć učitelja prepravili smo veliki dio opisa aktivnosti kako bi bile jasnije.</p>
+<p>Kada promijenite jezik u izborniku, novi jezik se sada primjenjuje izravno, bez ponovnog pokretanja GComprisa.</p>
+<p>S tehničke strane, u ovom izdanju koristimo Qt6.</p>
+<p>Također smo postavili grafički renderer na Direct3D 11 prema zadanim postavkama sustava Windows.</p>
+
+<p>U potpunosti je preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Također je djelomično preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, Android, Raspberry Pi i macOS na <a href="https://gcompris.net/downloads{{ suffix }}.html">stranici za preuzimanje</a>. Ovo ažuriranje će također uskoro biti dostupno u Android Play trgovini, F-Droid repozitoriju i Windows trgovini.</p>
+
+<p>Hvala svima, <br/>Timothée & Johnny</p>
+
+{% endblock %}
