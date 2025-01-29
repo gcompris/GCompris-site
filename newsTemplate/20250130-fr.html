@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Version 25.0 de GCompris' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Nous publions aujourd'hui la version 25.0 de GCompris.</p>
+<p>Comme vous pouvez le voir, nous synchronisons maintenant le numéro de version majeure sur l'année de sortie. Cela a du sens car nous faisons une version majeure par an. C'est aussi une bonne occasion de le faire maintenant pour célébrer les 25 ans de GCompris.</p>
+<p>Cette version ajoute une nouvelle langue : le sanskrit.</p>
+<p>Cette version contient 195 activités, dont 5 nouvelles :</p>
+<ul>
+<li class="puce">« Croquis » est une activité pour dessiner librement avec de multiples outils pour permettre aux enfants d'explorer leur créativité.</li>
+<li class="puce">« Utilise les compléments à 10 » est la continuation des activités de complément à 10 existantes. Celle-ci aide les enfants à échanger les nombres pour calculer facilement une somme.</li>
+<li class="puce">« Addition verticale » est une activité pour écrire une addition et la résoudre.</li>
+<li class="puce">« Soustraction verticale » est similaire à l'activité d'addition mais pour la soustraction avec la méthode de l'emprunt par regroupement.</li>
+<li class="puce">« Soustraction verticale (méthode de l'emprunt par compensation) » est similaire à celle dessus mais avec la méthode de l'emprunt par compensation.</li>
+</ul>
+<br/>
+<p>Elle contient des corrections de bogues et des améliorations graphiques dans de nombreuses activités.</p>
+<p>Avec l'aide d'enseignants, nous avons réécrit une grande partie de la description des activités pour être plus clairs.</p>
+<p>Lorsque vous changez la langue dans le menu, la nouvelle langue est maintenant directement appliquée, sans avoir à redémarrer GCompris.</p>
+<p>Du côté technique, il s'agit de la première version utilisant Qt6.</p>
+<p>Nous avons également défini le rendu graphique sur direct3d11 par défaut sur Windows.</p>
+
+<p>Elle est entièrement traduite dans les langues suivantes :</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Elle est partiellement traduite dans les langues suivantes :</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }} %)</li>
+  {% endfor %}
+</ul>
+
+<p>Vous pouvez trouver les paquets de cette nouvelle version pour GNU / Linux, Windows, Android et Raspberry Pi sur la <a href="https://gcompris.net/downloads{{ suffix }}.html">page de téléchargement</a>. Cette version sera également disponible très bientôt dans les boutiques « Android Play » et « Windows », ainsi dans le dépôt de F-Droid.</p>
+
+<p>Merci à vous tous et toutes, <br/>Timothée & Johnny</p>
+
+{% endblock %}
