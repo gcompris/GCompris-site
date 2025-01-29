@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Idag ger vi ut GCompris version 25.0.</p>
+<p>Som du kan se, baserar vi nu huvudversionsnumret på utgivningsåret. Det är vettigt eftersom vi gör en större version per år. Det är också ett bra tillfälle att göra det nu för att fira GCompris 25 år.</p>
+<p>Versionen lägger till översättningar för ytterligare ett språk: sanskrit.</p>
+<p>Den innehåller 195 aktiviteter, inklusive 5 nya:</p>
+<ul>
+<li class="puce">"Skiss" är en aktivitet för att rita fritt med flera verktyg för att låta barn utforska sin kreativitet.</li>
+<li class="puce">"Beräkna med tiokomplement" är fortsättningen på de befintliga aktiviteterna med tiokomplement. Den hjälper barn att byta siffror för att enkelt beräkna en summa.</li>
+<li class="puce">"Addition med uppställning" är en aktivitet för att skriva en addition och lösa den.</li>
+<li class="puce">"Subtraktion med uppställning" liknar additionsaktiviteten men för subtraktion med låna enligt omgrupperingsmetoden.</li>
+<li class="puce">"Subtraktion med uppställning (kompensation)", liknar den för subtraktion men med låna enligt kompensationsmetoden.</li>
+</ul>
+<br/>
+<p>Den innehåller felrättningar och grafikförbättringar för flera aktiviteter.</p>
+<p>Med hjälp av lärare skrev vi om en stor del av aktivitetsbeskrivningen för att bli tydligare.</p>
+<p>När vi byter språk i menyn används nu det nya språket direkt, utan att behöva starta om GCompris.</p>
+<p>På den tekniska sidan är det också den första utgåvan som använder Qt6.</p>
+<p>Vi har också ställt in den grafiska återgivningen till direct3d11 som standard på Windows.</p>
+
+<p>Den är fullständigt översatt på följande språk:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Den är också delvis översatt på följande språk:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Du kan hitta paket av den nya versionen för GNU/Linux, Windows, Android, och Raspberry Pi på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer också snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+
+{% endblock %}
