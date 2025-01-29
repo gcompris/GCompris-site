@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lanzamiento de GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Hoy hemos publicado GCompris versión 25.0.</p>
+<p>Como se puede ver, ahora basamos el número de versión principal en el año de lanzamiento. Esto tiene sentido, ya que hacemos una versión principal por año. También es una buena ocasión para hacerlo ahora que celebramos los 25 años de GCompris.</p>
+<p>Esta versión añade la traducción para un idioma más: sánscrito.</p>
+<p>Esta nueva versión contiene 195 actividades, incluidas 5 nuevas:</p>
+<ul>
+<li class="puce">«Sketch» es una actividad para dibujar libremente con múltiples herramientas para que los niños exploren su creatividad.</li>
+<li class="puce">«Calcular con complemento a diez» es la continuación de las actividades de complemento a diez existentes. Esta actividad ayuda a los niños a intercambiar los números para calcular una suma fácilmente.</li>
+<li class="puce">«Suma vertical» es una actividad para escribir una suma y resolverla.</li>
+<li class="puce">«Resta vertical» es similar a la actividad de suma, pero para la resta con el método de préstamo por reagrupamiento.</li>
+<li class="puce">«Resta vertical (compensación)» es similar a la resta con el método de préstamo por compensación.</li>
+</ul>
+<br/>
+<p>Contiene correcciones de fallos y mejoras gráficas en varias actividades.</p>
+<p>Con la ayuda de los profesores, reescribimos gran parte de las descripciones de las actividades para que sean más claras.</p>
+<p>Cuando cambiamos de idioma en el menú, ahora se aplica el nuevo idioma directamente, sin necesidad de reiniciar GCompris.</p>
+<p>Desde el punto de vista técnico, también es el primer lanzamiento que utiliza Qt6.</p>
+<p>También hemos configurado el renderizador gráfico a direct3d11 de forma predeterminada en Windows.</p>
+
+<p>Está completamente traducido a los siguientes idiomas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>También está parcialmente traducido a los siguientes idiomas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Puede encontrar paquetes de esta nueva versión para GNU/Linux, Windows, Android y Raspberry Pi en la <a href="https://gcompris.net/downloads{{ suffix }}.html">página de descargas</a>. Esta actualización también estará disponible en breve en la Play Store de Android, el repositorio F-Droid y la Windows Store.</p>
+
+<p>Gracias a todos, <br/>Timothée y Johnny</p>
+
+{% endblock %}
