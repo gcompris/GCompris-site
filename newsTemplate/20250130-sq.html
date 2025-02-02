@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris 25.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Sot hedhim në qarkullim GCompris version 25.0.</p>
+<p>Siç e shihni, tani e bazojmë numrin e versionit të rëndësishëm në vitin e hedhjes në qarkullim. Kjo ka kuptim, ngaqë po realizojmë një version të rëndësishëm në vit. Është gjithashtu një rast i mirë ta bëjmë tani, për të kremtuar 25-vjetorin e GCompris-së.</p>
+<p>Ky version shton përkthime për një gjuhë më tepër: sanskritisht.</p>
+<p>Ky version i ri përmban 195 veprimtari, përfshi 5 të reja:</p>
+<ul>
+<li class="puce">“Skicë” është një veprimtari për të vizatuar lirisht me mjete të shumta, për t’i lënë fëmijët të eksplorojnë frymën e tyre krijuese.</li>
+<li class="puce">“Llogaritni me plotësues të dhjetës” është vazhdimi i veprimtarive ekzistuese me plotësues të dhjetës. Kjo i ndihmon fëmijët të këmbejnë numra për të njehsuar kollaj një shumë.</li>
+<li class="puce">“Mbledhje vertikale” është një veprimtari për shkrimin e një mbledhjeje dhe kryer atë.</li>
+<li class="puce">“Zbritje vertikale” është e ngjashme me veprimtarinë e mbledhjes, por për zbritje, me metodën e marrjes hua përmes rigrupimit.</li>
+<li class="puce">“Zbritje vertikale (kompensim)” është e ngjashme me veprimtarinë e zbritjes, me metodën e marrjes hua përmes kompensimit.</li>
+</ul>
+<br/>
+<p>Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë veprimtari.</p>
+<p>Me ndihmën e mësuesve, rishkruam një pjesë të madhe të përshkrimit të veprimtarive, për të qenë më të qarta.</p>
+<p>Kur ndërroni gjuhën te menuja, tanimë gjuha e re vihet në punë drejtpërdrejt, pa u dashur të riniset GCompris-ja.</p>
+<p>Nga ana teknike, është gjithashtu hedhja e parë në qarkullim që përdor Qt6.</p>
+<p>Kemi vënë gjithashtu direct3d11-n si parazgjedhje për vizatuesin grafik në Windows.</p>
+
+<p>Është plotësisht i përkthyer në gjuhët vijuese:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimeve</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows, Android dhe Raspberry Pi. Ky përditësim do të jetë së shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows.</p>
+
+<p>Faleminderit të tërëve, <br/>Timothée & Johnny</p>
+
+{% endblock %}
