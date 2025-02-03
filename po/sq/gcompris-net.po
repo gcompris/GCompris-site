@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-31 01:56+0000\n"
-"PO-Revision-Date: 2024-10-03 11:59+0300\n"
+"PO-Revision-Date: 2025-02-02 21:30+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
 "Language: sq\n"
@@ -20,52 +20,33 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Release GCompris 4.1"
 msgctxt "20241129.html"
 msgid "Release GCompris 4.3"
-msgstr "Hedhje në qarkullim 4.1 e GCompris-së"
+msgstr "Hedhje në qarkullim 4.3 e GCompris-së"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Today we are releasing GCompris version 4.1."
 msgctxt "20241129.html"
 msgid "Today we are releasing GCompris version 4.3."
-msgstr "Sot hedhim në qarkullim GCompris version 4.1."
+msgstr "Sot hedhim në qarkullim GCompris version 4.3."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20241129.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
-"Përmban gjithashtu ndreqje të metash dhe përmirësime elementësh grafikë në "
-"shumë veprimtari."
+"Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë "
+"veprimtari."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Është i përkthyer plotësisht në gjuhët vijuese:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
@@ -73,22 +54,11 @@ msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20241129.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -98,34 +68,25 @@ msgid ""
 "Windows store."
 msgstr ""
 "Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
-"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"shkarkimeve</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
 "Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
 "shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
 "Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "Hedhje në qarkullim e GCompris 2.4"
+msgstr "Hedhje në qarkullim e GCompris 25.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "Today we are releasing GCompris version 4.2."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Sot hedhim në qarkullim GCompris version 4.2."
+msgstr "Sot hedhim në qarkullim GCompris version 25.0."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -134,26 +95,20 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+"Siç e shihni, tani e bazojmë numrin e versionit të rëndësishëm në vitin e "
+"hedhjes në qarkullim. Kjo ka kuptim, ngaqë po realizojmë një version të "
+"rëndësishëm në vit. Është gjithashtu një rast i mirë ta bëjmë tani, për të "
+"kremtuar 25-vjetorin e GCompris-së."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20250130.html"
 msgid "This version adds translation for one more language: Sanskrit."
-msgstr ""
-"Ky version shton përkthime për 3 gjuhë më tepër: bullgarisht, galicisht dhe "
-"suahili."
+msgstr "Ky version shton përkthime për një gjuhë më tepër: sanskritisht."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Përmban 190 veprimtari, përfshi 8 të reja:"
+msgstr "Ky version i ri përmban 195 veprimtari, përfshi 5 të reja:"
 
 #. list item
 msgctxt "20250130.html"
@@ -161,6 +116,8 @@ msgid ""
 "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
 "children explore their creativity."
 msgstr ""
+"“Skicë” është një veprimtari për të vizatuar lirisht me mjete të shumta, për "
+"t’i lënë fëmijët të eksplorojnë frymën e tyre krijuese."
 
 #. list item
 msgctxt "20250130.html"
@@ -169,12 +126,17 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"“Llogaritni me plotësues të dhjetës” është vazhdimi i veprimtarive "
+"ekzistuese me plotësues të dhjetës. Kjo i ndihmon fëmijët të këmbejnë numra "
+"për të njehsuar kollaj një shumë."
 
 #. list item
 msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
 msgstr ""
+"“Mbledhje vertikale” është një veprimtari për shkrimin e një mbledhjeje dhe "
+"kryer atë."
 
 #. list item
 msgctxt "20250130.html"
@@ -182,6 +144,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"“Zbritje vertikale” është e ngjashme me veprimtarinë e mbledhjes, por për "
+"zbritje, me metodën e marrjes hua përmes rigrupimit."
 
 #. list item
 msgctxt "20250130.html"
@@ -189,12 +153,10 @@ msgid ""
 "\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
 "one with the borrowing by compensation method."
 msgstr ""
+"“Zbritje vertikale (kompensim)” është e ngjashme me veprimtarinë e zbritjes, "
+"me metodën e marrjes hua përmes kompensimit."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
 msgstr ""
@@ -207,6 +169,8 @@ msgid ""
 "With the help of teachers, we rewrote a big part of the activities "
 "description to be clearer."
 msgstr ""
+"Me ndihmën e mësuesve, rishkruam një pjesë të madhe të përshkrimit të "
+"veprimtarive, për të qenë më të qarta."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -214,38 +178,34 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
+"Kur ndërroni gjuhën te menuja, tanimë gjuha e re vihet në punë "
+"drejtpërdrejt, pa u dashur të riniset GCompris-ja."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "On the technical side, it is also the first release using Qt6."
 msgstr ""
+"Nga ana teknike, është gjithashtu hedhja e parë në qarkullim që përdor Qt6."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Kemi vënë gjithashtu direct3d11-n si parazgjedhje për vizatuesin grafik në "
+"Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
@@ -253,22 +213,11 @@ msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -278,15 +227,11 @@ msgid ""
 "Windows store."
 msgstr ""
 "Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
-"shkarkimit</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
-"Windows, Android, Raspberry Pi dhe macOS. Ky përditësim do të jetë së "
-"shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja "
-"Windows."
+"shkarkimeve</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"Windows, Android dhe Raspberry Pi. Ky përditësim do të jetë së shpejti gati "
+"edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240920.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
@@ -499,7 +444,7 @@ msgstr "Rusisht"
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskritisht"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
@@ -716,33 +661,26 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Ndryshe, mund të shkarkoni instaluesin që nga lidhjet më poshtë."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr ""
-"Domosdoshmëri sistemi: Windows 7, 8 ose 10, me mbulim të OpenGL 2-shit."
+msgstr "Domosdoshmëri sistemi: Windows 10 ose 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Shënim: Nëse sistemi juaj nuk ka mbulim për OpenGL 2, ose nuk funksionon si "
+"Shënim: Nëse sistemi juaj s’ka mbulim për Direct3D 11, ose nuk funksionon si "
 "duhet, ju lutemi, përdorni zërin GCompris (Safe Mode) te menuja e nisjes, "
-"për ta nisur GCompris-in nën mënyrën “software rendering”, e cila s’përdor "
-"OpenGL."
+"për ta nisur GCompris-in nën mënyrën “software rendering”."
 
 #: template/downloads.html:29
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"Versioni i fundit i gatshëm për Windows 7 dhe 8 mund të shkarkohet nga "
+"lidhja më poshtë."
 
 #: template/downloads.html:34
 msgid ""
@@ -799,20 +737,15 @@ msgstr ""
 "instaluar dorazi në pajisjen tuaj."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Për pajisje që xhirojnë Android 2.3 deri në 4.0, versioni i fundit i "
+"Për pajisje që xhirojnë Android 4.1 deri në 8.0, versioni i fundit i "
 "përputhshëm është <a href= \"https://gcompris.net/download/qt/android/"
-"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
-"0.81</a>."
+"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris "
+"4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -834,12 +767,14 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"Versioni më i ri s’është ende gati për macOS, ngaqë mungon infrastruktura "
+"për ta montuar dhe provuar."
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
-msgstr "Ndryshe, mund të shkarkoni instaluesin që nga lidhjet më poshtë."
+msgstr ""
+"Mund të shkarkoni versionin e fundit të gatshëm për macOS që nga lidhja më "
+"poshtë."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -867,7 +802,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Domosdoshmëri sistemi: linux kernel 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -924,22 +859,24 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Versioni i fundit i gatshëm për shpërndarje Linux 32bit mund të shkarkohen "
+"nga lidhja vijuese."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Domosdoshmëri sistemi: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Japim një paketë më vete për Raspberry Pi."
+msgstr "Japim një paketë më vete për Raspberry Pi (64-bit)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -950,6 +887,7 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Versioni i fundit i gatshëm për 32bit është versioni 4.3, te lidhja vijuese:"
 
 #: template/downloads.html:160
 msgid "Source code"
@@ -973,15 +911,12 @@ msgstr ""
 "përkatëse të shkarkimit."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Paketa <em>tarball</em> e burimit dhe instaluesit për Linux janë nënshkruar "
+"Paketa <em>tarball</em> e burimit dhe instaluesi për Linux janë nënshkruar "
 "me kyçin GPG nga Timothée Giet (kyç publik: %(public_gpg_key)s)"
 
 #: template/downloads.html:184
