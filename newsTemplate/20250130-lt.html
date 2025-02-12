@@ -1,0 +1,43 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 25.0 versija' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.0.png' class='col-xs-12 col-md-4' alt='gcompris 25.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.0.png')"/>
+
+<p>Šiandien išleidžiame GCompris 25.0 versiją.</p>
+<p>Kaip matote, dabar didžiojo versijos numerio pagrindu naudojame išleidimo metus. Tai yra prasminga, nes kiekvienais metais išleidžiame vieną didžiąją versiją. Tai puiki proga paminėti GCompris 25 metų jubiliejų.</p>
+<p>Pridėtas vertimas į sanskrito kalbą.</p>
+<p>Jame 195 pamokėlės, įskaitant 5 naujas:</p>
+<ul>
+<li class="puce">Piešk eskizus – pamokėlė, leidžianti vaikams piešti įvairiais įrankiais ir tyrinėti savo kūrybiškumą.</li>
+<li class="puce">Skaičiuok sudarydamas dešimtį – esamų papildymo iki dešimties užduočių tęsinys. Ši užduotis padeda vaikams išmokti skaičiuojant sukeisti skaičius, kad lengviau apskaičiuoti sumą.</li>
+<li class="puce">Sudėtis stulpeliu – tai pamokėlė, kai sudėtis užrašoma stulpeliu ir išsprendžiama.</li>
+<li class="puce">Atimtis stulpeliu – pamokėlė, panaši į sudėties stulpeliu pamokėlę, tačiau skirta atimčiai, naudojant skolinimosi ir grupavimo metodą.</li>
+<li class="puce">Atimtis stulpeliu (pasiskolinant) – panašus į atimtį stulpeliu. tik „pasiskolinant“.</li>
+</ul>
+<br/>
+<p>Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse.</p>
+<p>Mokytojų padedami perrašėme didelę dalį pamokėlių aprašymų, kad jos būtų aiškesnės.</p>
+<p>Kai meniu pakeičiame kalbą, nauja kalba dabar įsijungia iš karto, nereikia iš naujo paleisti GCompris.</p>
+<p>Techniniu požiūriu, tai taip pat pirmas leidimas, naudojantis Qt6.</p>
+<p>Taip pat nustatėme, kad Windows sistemoje numatytasis vaizdo apdorojimo įrankis būtų direct3d11.</p>
+
+<p>Jis visiškai išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Jis taip pat iš dalies išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+
+{% endblock %}
