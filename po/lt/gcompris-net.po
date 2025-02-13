@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-31 01:56+0000\n"
-"PO-Revision-Date: 2024-07-28 11:09+0300\n"
+"PO-Revision-Date: 2025-02-08 22:16+0200\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
@@ -18,57 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Release GCompris 4.1"
 msgctxt "20241129.html"
 msgid "Release GCompris 4.3"
-msgstr "GCompris 4.1 leidimas"
+msgstr "GCompris 4.3 versija"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Today we are releasing GCompris version 4.1."
 msgctxt "20241129.html"
 msgid "Today we are releasing GCompris version 4.3."
-msgstr "Šiandien išleidžiame GCompris 4.1 versiją."
+msgstr "Šiandien išleidžiame GCompris 4.3 versiją."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20241129.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje "
-"paveikslėlius.\n"
-"Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
+msgstr "Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Jis visiškai išverstas į šias kalbas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20241129.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
@@ -76,22 +54,11 @@ msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20241129.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20241129.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -108,28 +75,19 @@ msgstr ""
 
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
-#, fuzzy
-#| msgctxt "20240523.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20241129.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20250130.html"
 msgid "Release GCompris 25.0"
-msgstr "GCompris 2.4 leidimas"
+msgstr "GCompris 25.0 versija"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20250130.html"
 msgid "Today we are releasing GCompris version 25.0."
-msgstr "Šiandien išleidžiame GCompris 2.3 versiją."
+msgstr "Šiandien išleidžiame GCompris 25.0 versiją."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -138,24 +96,19 @@ msgid ""
 "year. This makes sense as we are doing one major version per year. It is "
 "also a good occasion to do it now to celebrate the 25 years of GCompris."
 msgstr ""
+"Kaip matote, dabar didžiojo versijos numerio pagrindu naudojame išleidimo "
+"metus. Tai yra prasminga, nes kiekvienais metais išleidžiame vieną didžiąją "
+"versiją. Tai puiki proga paminėti GCompris 25 metų jubiliejų."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "This version adds translations for 3 more languages: Bulgarian, Galician "
-#| "and Swahili."
 msgctxt "20250130.html"
 msgid "This version adds translation for one more language: Sanskrit."
-msgstr "Pridėti vertimai dar į tris kalbas: bulgarų, galų ir suahilių."
+msgstr "Pridėtas vertimas į sanskrito kalbą."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It contains 190 activities, including 8 new ones:"
 msgctxt "20250130.html"
 msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Jame yra 190 pamokėlių, įskaitant 8 naujas:"
+msgstr "Jame 195 pamokėlės, įskaitant 5 naujas:"
 
 #. list item
 msgctxt "20250130.html"
@@ -163,6 +116,8 @@ msgid ""
 "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
 "children explore their creativity."
 msgstr ""
+"Piešk eskizus – pamokėlė, leidžianti vaikams piešti įvairiais įrankiais ir "
+"tyrinėti savo kūrybiškumą."
 
 #. list item
 msgctxt "20250130.html"
@@ -171,12 +126,17 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"Skaičiuok sudarydamas dešimtį – esamų papildymo iki dešimties užduočių "
+"tęsinys. Ši užduotis padeda vaikams išmokti skaičiuojant sukeisti skaičius, "
+"kad lengviau apskaičiuoti sumą."
 
 #. list item
 msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
 msgstr ""
+"Sudėtis stulpeliu – tai pamokėlė, kai sudėtis užrašoma stulpeliu ir "
+"išsprendžiama."
 
 #. list item
 msgctxt "20250130.html"
@@ -184,6 +144,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"Atimtis stulpeliu – pamokėlė, panaši į sudėties stulpeliu pamokėlę, tačiau "
+"skirta atimčiai, naudojant skolinimosi ir grupavimo metodą."
 
 #. list item
 msgctxt "20250130.html"
@@ -191,18 +153,13 @@ msgid ""
 "\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
 "one with the borrowing by compensation method."
 msgstr ""
+"Atimtis stulpeliu (pasiskolinant) – panašus į atimtį stulpeliu. tik "
+"„pasiskolinant“."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250130.html"
 msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Patobulinome pamokėlę „Nuotraukų medžioklė“ ir atnaujinome joje "
-"paveikslėlius.\n"
-"Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
+msgstr "Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -210,6 +167,8 @@ msgid ""
 "With the help of teachers, we rewrote a big part of the activities "
 "description to be clearer."
 msgstr ""
+"Mokytojų padedami perrašėme didelę dalį pamokėlių aprašymų, kad jos būtų "
+"aiškesnės."
 
 #. paragraph
 msgctxt "20250130.html"
@@ -217,38 +176,33 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
+"Kai meniu pakeičiame kalbą, nauja kalba dabar įsijungia iš karto, nereikia "
+"iš naujo paleisti GCompris."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "On the technical side, it is also the first release using Qt6."
-msgstr ""
+msgstr "Techniniu požiūriu, tai taip pat pirmas leidimas, naudojantis Qt6."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
+"Taip pat nustatėme, kad Windows sistemoje numatytasis vaizdo apdorojimo "
+"įrankis būtų direct3d11."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Jis visiškai išverstas į šias kalbas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
@@ -256,22 +210,11 @@ msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250130.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250130.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -288,9 +231,6 @@ msgstr ""
 
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
-#, fuzzy
-#| msgctxt "20240221.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250130.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
@@ -438,7 +378,7 @@ msgstr "Italų"
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "Kartvelų"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
@@ -503,7 +443,7 @@ msgstr "Rusų"
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskrito"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
@@ -618,8 +558,7 @@ msgid "Contribute"
 msgstr "Prisidėti"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Svetainė atnaujinta: %(revision_date)s."
 
@@ -721,31 +660,26 @@ msgid "Else, you can download the installer from the links below."
 msgstr "Kitu atveju, galite atsisiųsti diegimo programą iš nuorodų žemiau."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "Reikalaujama sistema: Windows 7, 8 ar 10 su OpenGL 2 palaikymu."
+msgstr "Sistemos reikalavimai: Windows 10 arba 11."
 
 #: template/downloads.html:28
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Pastaba: Jei Jūsų sistema neturi OpenGL 2 palaikymo ar jis neveikia "
-"normaliai, prašome pasirinkti saugų paleidimo režimą „GCompris“ pradžios "
-"meniu ir paleisti „GCompris“ perteikimo režime, kuris nenaudoja OpenGL."
+"Pastaba: Jei Jūsų sistema neturi Direct3D 11 palaikymo ar jis neveikia "
+"tinkamai, prašome pasirinkti „saugų paleidimo režimą“ GCompris pradžios "
+"meniu ir paleisti GCompris programinio atvaizdavimo režime."
 
 #: template/downloads.html:29
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"Paskutinę su Windows 7 ir Windows 8 suderinamą versiją galite atsisiųsti iš "
+"žemiau pateiktos nuorodos."
 
 #: template/downloads.html:34
 msgid ""
@@ -801,20 +735,15 @@ msgstr ""
 "įsidiegti programėlę rankiniu būdu."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"Įrenginiams, kuriuose veikia 2.3–4.0 versijos „Android“, paskutinė "
+"Įrenginiams, kuriuose veikia 4.1–8.0 versijos „Android“, paskutinė "
 "suderinama versija yra <a href= \"https://gcompris.net/download/qt/android/"
-"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81. apk\">GCompris "
-"0.81</a>."
+"GCompris-Android-release-signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris "
+"4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
@@ -829,19 +758,21 @@ msgstr ""
 
 #: template/downloads.html:80
 msgid "macOS"
-msgstr "„macOS“"
+msgstr "macOS"
 
 #: template/downloads.html:84
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"Naujausia versija, skirta macOS, nėra prieinama dėl infrastruktūros trūkumo "
+"jos kūrimui ir testavimui."
 
 #: template/downloads.html:85
-#, fuzzy
-#| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
-msgstr "Kitu atveju, galite atsisiųsti diegimo programą iš nuorodų žemiau."
+msgstr ""
+"Galite atsisiųsti naujausią prieinamą macOS versiją iš žemiau pateiktos "
+"nuorodos."
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
@@ -869,7 +800,7 @@ msgstr ""
 
 #: template/downloads.html:104
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Sistemos reikalavimai: linux kernel 4.18, glibc 2.28."
 
 #: template/downloads.html:108 template/downloads.html:144
 msgid ""
@@ -925,22 +856,24 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Paskutinę 32bit Linux distributyvams skirtą versiją galite atsisiųsti iš "
+"šios nuorodos."
 
 #: template/downloads.html:117
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Sistemos reikalavimai: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
 
 #: template/downloads.html:131
 msgid "Raspberry Pi"
 msgstr "„Raspberry Pi“"
 
 #: template/downloads.html:135
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Mes pateikiame autonominį paketą „Raspberry Pi“ sistemai."
+msgstr "Mes siūlome atskirą paketą „Raspberry Pi“ (64 bitų) platformai."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
@@ -951,6 +884,8 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Paskutinė 32bit skirta versija yra 4.3, ją galite atsisiųsti iš šios "
+"nuorodos:"
 
 #: template/downloads.html:160
 msgid "Source code"
@@ -973,16 +908,13 @@ msgstr ""
 "SHA-256, jų atsisiuntimo URL pabaigoje pridėdami „.sha256“."
 
 #: template/downloads.html:182
-#, fuzzy, python-format
-#| msgid ""
-#| "The source tarball and the Linux installers are signed with the GPG key "
-#| "from Timothée Giet (public key: %(public_gpg_key)s)"
+#, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
-"Pirminio programos teksto archyvas ir „Linux“ diegimo programos pasirašyti "
-"GPG raktu priklausančiu Timothée Giet (viešas raktas: %(public_gpg_key)s)"
+"Pirminis programos tekstas ir „Linux“ diegimo programos yra pasirašyti GPG "
+"raktu, priklausančiu Timothée Giet (viešas raktas: %(public_gpg_key)s)"
 
 #: template/downloads.html:184
 msgid "sig files:"
@@ -1017,19 +949,14 @@ msgstr ""
 "jie nori."
 
 #: template/faq.html:15
-#, fuzzy
-#| msgid ""
-#| "If you don't want the software to download anything automatically, you "
-#| "can disable the option \"Enable automatic downloads/updates of sound files"
-#| "\" in the main configuration page."
 msgid ""
 "If you don't want the software to download anything automatically, you can "
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
-"Jei norite, kad programinė įranga nieko nesiųstų automatiškai, pagrindiniame "
-"nustatymų puslapyje išjunkite parinktį „Leisti automatinius garsinių failų "
-"atsisiuntimus/atnaujinimus“."
+"Jei nenorite, kad programinė įranga automatiškai siųstųsi iš interneto, "
+"pagrindiniame nustatymų puslapyje išjunkite parinktį „Leisti automatinius "
+"išorinių išteklių atsisiuntimus/atnaujinimus“."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
