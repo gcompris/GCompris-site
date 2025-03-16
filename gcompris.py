@@ -14,11 +14,11 @@ import time
 import datetime
 import re
 import gettext
-import requests
 from email import utils
 from importlib import reload
 import html
 
+import requests
 import htmlmin
 
 from ActivityInfo import ActivityInfo
@@ -156,7 +156,7 @@ suffix = '-' + locale
 # We don't have a translation of each manual. If we have it
 # we return it else we return the english one
 def get_manual():
-    r = requests.head('https://gcompris.net/docbook/stable5/' + locale + '/index.html')
+    r = requests.head('https://gcompris.net/docbook/stable6/' + locale + '/index.html', timeout=5)
     if r.ok:
         return locale
     return 'en'
@@ -207,6 +207,7 @@ def get_boards():
             difficulty = activity_info.property('difficulty')
             category = activity_info.property('category')
             prerequisite = activity_info.property('prerequisite').replace('\n', '<br/>')
+            icon = ""
             if name != "menu":
                 icon = activity_info.property('icon').split('/')[1]
 
@@ -374,9 +375,9 @@ for screenshot in boards:
 boards = sorted(boards, key=lambda t: t['title'])
 
 # Move the menu in first position
-for i in range(0, len(boards)):
-    if boards[i]['name'] == 'root':
-        menuScreenshot = boards[i]
+for i, board in enumerate(boards):
+    if board['name'] == 'root':
+        menuScreenshot = board
         boards.pop(i)
         boards.insert(0, menuScreenshot)
         break
