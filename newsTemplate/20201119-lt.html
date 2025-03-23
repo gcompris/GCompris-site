@@ -1,0 +1,38 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 1.0 versija' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/gcompris-20years.png' class='col-xs-12 col-md-4' alt='gcompris banner' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/gcompris-20years.png')"/>
+
+<p>Sveiki,<br />
+Švęsdami „GCompris“ 20-metį, išleidžiame „GCompris“ 1.0 versiją.</p>
+<p>Šioje versijoje pristatome svarbią naujovę: nustatymų meniu su daugiau nei 50 pamokėlių pasirinkimu, leidžiančiu patogiau pasirinkti, ką galima išmokti pamokėlėse.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CAgIAIRxRE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Pridėjome 4 naujas pamokėles:</p>
+<li class="puce">Ilgai laukta analoginės elektros veikla, kurioje galima kurti ir modeliuoti elektros grandines.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8TbbVhdqZUw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Skaičių mokymasis ir dvi papildomos pamokėlės, skirtos jaunesniems vaikams, kad šie išmoktų sudėtį ir atimtį.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_xxA97bVLO8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdJbGiytyCg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Mano pirmoji klaviatūra, kurioje paspaudus klavišą ekrane rodomas simbolis ir atkuriamas garsas, jei jis egzistuoja.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-PdEtP3YqjQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<li class="puce">Gravitacijos pamokėlė, kuri pakeičia ankstesniąją, pateikiama aiškiau ir yra tikroviškesnė.</li><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiklpq8JldA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Naująją versiją, skirtą GNU/Linux, Windows, MacOS ir Raspberry Pi, galite atsisiųsti iš <a href="https://gcompris.net/downloads{{ suffix }}.html">atsisiuntimų puslapio</a>. Atnaujinimas netrukus bus prieinamas ir „Android Play“ parduotuvėje, F-Droid repozitorijoje bei „Windows Store“. Atkreipkite dėmesį, kad „MacOS“ paketas nėra patvirtintas.</p>
+<p>Balso įrašų statusą savo kalba galite patikrinti čia: <a href="https://gcompris.net/voicestats/">https://gcompris.net/voicestats/</a>. Jei norite prisidėti, galite savo balsu įrašyti trūkstamus įrašus.</p>
+
+<p>Vertimai:</p>
+<p>Pilnai palaikomos 22 kalbos:baskų, bretonų,  britų anglų, graikų, hebrajų, indoneziečių, ispanų, italų, katalonų, katalonų (Valensijos), kinų (tradicinė), lenkų, malajalių, olandų, portugalų, prancūzų, rumunų, slovėnų, švedų, turkų, ukrainiečių, vengrų.</p>
+<p>Iš dalies palaikomos 4 kalbos: baltarusių (85%), brazilų portugalų (92%), lietuvių (84%), vokiečių (89%).</p>
+
+<p>Geresnei vaikų patirčiai, įtraukėme tik tas kalbas, kurios išverstos bent 80%. Deja, dėl šios priežasties pašalinome  airių, estų, galisų, hindi, kinų (supaprastinta), makedonų, norvegų (Nynorsk), rusų, slovakų, suomių, škotų (gėlų) kalbų vertimus.</p>
+
+<p>Jei jūsų kalba yra dalinai palaikoma arba jos visai nėra, o jūs norite padėti – susisiekite su mumis (support@gcompris.net), ir mes jums suteiksime instrukcijas vertimui.</p>
+<p>Kitas būdas prisidėti – rašyti apie „GCompris“ savo bendruomenėje ir dalintis savo atsiliepimais.</p><br/>
+
+<p>Nuoširdžiai dėkojame,<br/>
+Timothée & Johnny</p>
+{% endblock %}
