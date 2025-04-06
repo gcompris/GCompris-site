@@ -39,7 +39,7 @@ msgstr "Conté esmenes d'errors i millores gràfiques en múltiples activitats."
 #. paragraph
 msgctxt "20241129.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Està traduït completament als idiomes següents:"
+msgstr "Està traduït completament en els idiomes següents:"
 
 #. list item
 msgctxt "20241129.html"
@@ -49,7 +49,7 @@ msgstr "{{ oneLocale }}"
 #. paragraph
 msgctxt "20241129.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "També està traduït parcialment als idiomes següents:"
+msgstr "També està traduït parcialment en els idiomes següents:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
@@ -68,7 +68,7 @@ msgid ""
 "Windows store."
 msgstr ""
 "Trobareu els paquets d'esta nova versió per a GNU/Linux, Windows, Android, "
-"Raspberry Pi i macOS a la <a href=\\\"https://gcompris.net/"
+"Raspberry Pi i macOS en la <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">pàgina de baixades</a>. Esta actualització "
 "també estarà disponible prompte en la botiga Android Play, el repositori de "
 "F-Droid i en la botiga de Windows."
@@ -176,7 +176,7 @@ msgid ""
 "When we switch language in the menu, the new language is now applied "
 "directly, without having to restart GCompris."
 msgstr ""
-"Quan canviem d'idioma al menú, l'idioma nou s'aplica directament, sense "
+"Quan canviem d'idioma en el menú, l'idioma nou s'aplica directament, sense "
 "haver de reiniciar GCompris."
 
 #. paragraph
@@ -189,13 +189,13 @@ msgctxt "20250130.html"
 msgid ""
 "We have also set the graphical renderer to direct3d11 by default on Windows."
 msgstr ""
-"També hem establit el renderitzador gràfic a «direct3d11» a Windows de "
+"També hem establit el renderitzador gràfic a «direct3d11» en Windows de "
 "manera predeterminada."
 
 #. paragraph
 msgctxt "20250130.html"
 msgid "It is fully translated in the following languages:"
-msgstr "Està traduït completament als idiomes següents:"
+msgstr "Està traduït completament en els idiomes següents:"
 
 #. list item
 msgctxt "20250130.html"
@@ -205,7 +205,7 @@ msgstr "{{ oneLocale }}"
 #. paragraph
 msgctxt "20250130.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "També està traduït parcialment als idiomes següents:"
+msgstr "També està traduït parcialment en els idiomes següents:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
@@ -224,8 +224,8 @@ msgid ""
 "Windows store."
 msgstr ""
 "Trobareu els paquets d'esta nova versió per a GNU/Linux, Windows, Android i "
-"Raspberry Pi a la <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
-"\\\">pàgina de baixades</a>. Esta actualització també estarà disponible "
+"Raspberry Pi en la <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">pàgina de baixades</a>. Esta actualització també estarà disponible "
 "prompte en la botiga Android Play, el repositori de F-Droid i en la botiga "
 "de Windows."
 
@@ -708,7 +708,7 @@ msgstr "Android"
 
 #: template/downloads.html:52
 msgid "The version for Android is distributed in the Play Store."
-msgstr "La versió per a Android es distribuïx a la Play Store."
+msgstr "La versió per a Android es distribuïx en la Play Store."
 
 #: template/downloads.html:56
 msgid ""
@@ -733,7 +733,7 @@ msgid ""
 "manually on your device."
 msgstr ""
 "També podeu descarregar directament l'apk des del nostre lloc web per a "
-"instal·lar-la de forma manual al dispositiu."
+"instal·lar-la de forma manual en el dispositiu."
 
 #: template/downloads.html:68
 msgid ""
@@ -775,7 +775,7 @@ msgstr ""
 
 #: template/downloads.html:86
 msgid "Built and tested on macOS 10.13."
-msgstr "Construïda i provada a macOS 10.13."
+msgstr "Construïda i provada en macOS 10.13."
 
 #: template/downloads.html:99
 msgid "GNU/Linux"
@@ -876,7 +876,7 @@ msgstr "Proporcionem un paquet independent per a Raspberry Pi (64 bits)."
 
 #: template/downloads.html:135
 msgid "It was tested only on Raspberry Pi 3."
-msgstr "Només s'ha provat a la Raspberry Pi 3."
+msgstr "Només s'ha provat en la Raspberry Pi 3."
 
 #: template/downloads.html:139
 msgid ""
@@ -957,7 +957,7 @@ msgid ""
 msgstr ""
 "Si no voleu que el programari baixe res automàticament, podeu desmmarcar "
 "l'opció «Habilita les baixades o actualitzacions automàtiques de recursos "
-"externs» a la pàgina principal de configuració."
+"externs» en la pàgina principal de configuració."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
@@ -1027,7 +1027,7 @@ msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
-"Després copieu estos 2 fitxers en una carpeta anomenada «backgroundMusic» a "
+"Després copieu estos 2 fitxers en una carpeta anomenada «backgroundMusic» en "
 "la carpeta de la memòria cau de l'aplicació."
 
 #: template/faq.html:31
@@ -1043,8 +1043,8 @@ msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
-"Després copieu estos 2 fitxers en una carpeta anomenada «voices-codecName» a "
-"la carpeta de la memòria cau de l'aplicació."
+"Després copieu estos 2 fitxers en una carpeta anomenada «voices-codecName» "
+"en la carpeta de la memòria cau de l'aplicació."
 
 #: template/faq.html:37
 msgid ""
@@ -1059,7 +1059,7 @@ msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
-"A continuació, copieu estos 2 fitxers en una carpeta anomenada «words» a la "
+"A continuació, copieu estos 2 fitxers en una carpeta anomenada «words» en la "
 "carpeta de la memòria cau de l'aplicació."
 
 #: template/faq.html:43
@@ -1107,8 +1107,8 @@ msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
-"El nom GCompris sona com «J'ai compris» en francés, que vol dir «ho entenc» "
-"en català. A més, la G hi és per GNU."
+"El nom GCompris sona com «J'ai compris» en francés, el qual vol dir «ho "
+"entenc» en català. A més, la G hi és per GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
@@ -1137,7 +1137,7 @@ msgstr ""
 
 #: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
-msgstr "Per què no està disponible a la botiga d'Amazon?"
+msgstr "Per què no està disponible en la botiga d'Amazon?"
 
 #: template/faq.html:74
 msgid ""
@@ -1146,8 +1146,8 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
-"Per a Android ja el publiquem a la Play Store i a l'F-Droid, la publicació a "
-"totes les botigues requeriria massa faena. Si utilitzeu una tauleta Fire, "
+"Per a Android ja el publiquem en la Play Store i en l'F-Droid, la publicació "
+"a totes les botigues requeriria massa faena. Si utilitzeu una tauleta Fire, "
 "podeu instal·lar directament l'última «apk» des del nostre lloc web, i "
 "utilitzar un iniciador de tercers per a accedir a l'aplicació des d'un "
 "perfil fill."
@@ -1269,8 +1269,8 @@ msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
-"El projecte GCompris està hostatjat i és desenvolupat per <a target=\"_blank"
-"\" rel=\"noopener\" href=\"https://www.kde.org/\">la comunitat KDE</a>."
+"El projecte GCompris s'allotja i és desenvolupat per <a target=\"_blank\" "
+"rel=\"noopener\" href=\"https://www.kde.org/\">la comunitat KDE</a>."
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
