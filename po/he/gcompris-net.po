@@ -1,13 +1,13 @@
 #
 # Amihay Gal <Amihaygal@gmail.com>, 2019.
 # ami.g <amihaygal@gmail.com>, 2020, 2022.
-# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2024, 2025 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-03-17 01:54+0000\n"
-"PO-Revision-Date: 2024-12-29 08:42+0200\n"
+"PO-Revision-Date: 2025-04-16 08:07+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-"X-Generator: Lokalize 24.12.0\n"
+"X-Generator: Lokalize 24.12.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -124,7 +124,7 @@ msgstr ""
 msgctxt "20250130.html"
 msgid ""
 "\\\"Vertical addition\\\" is an activity to write an addition and solve it."
-msgstr ""
+msgstr "\\„חיבור במאונך\\” היא פעילות במעונך לכתיבת חיבור ולפתירתו."
 
 #. list item
 msgctxt "20250130.html"
@@ -356,7 +356,7 @@ msgstr "איטלקית"
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "גאורגית"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
@@ -706,19 +706,14 @@ msgstr ""
 "אפשר גם להוריד ישירות חבילת apk מהאתר שלנו ולהתקין אותה ידנית על המכשיר שלך."
 
 #: template/downloads.html:68
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
-"הגרסה האחרונה התואמת מכשירי אנדרואיד מגרסאות 2.3 עד 4.0 היא <a href= "
+"הגרסה האחרונה התואמת מכשירי Android מגרסאות 4.1 עד 8.0 היא <a href= "
 "\"https://gcompris.net/download/qt/android/GCompris-Android-release-signed-"
-"aligned-armeabi-v7a-dl-0.81.apk\">ג׳יקומפרי 0.81</a>."
+"aligned-armeabi-v7a-dl-4.3.apk\">ג׳יקומפרי 4.3</a>."
 
 #: template/downloads.html:69
 msgid ""
