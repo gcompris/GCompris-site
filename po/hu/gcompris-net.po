@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-17 01:54+0000\n"
+"POT-Creation-Date: 2025-04-25 01:58+0000\n"
 "PO-Revision-Date: 2025-01-02 10:39+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -643,6 +643,10 @@ msgid "System requirements: Windows 10 or 11."
 msgstr "Rendszerkövetelmények: Windows 10 vagy 11."
 
 #: template/downloads.html:28
+msgid "We also provide an msi installer."
+msgstr ""
+
+#: template/downloads.html:32
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
@@ -653,13 +657,13 @@ msgstr ""
 "(Safe Mode) bejegyzését a GCompris szoftveres renderelési móddal történő "
 "elindításához."
 
-#: template/downloads.html:29
+#: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -669,7 +673,7 @@ msgstr ""
 "rendszere nem támogatja az új verziót, akkor használja a legutolsó 15.10-es "
 "telepítőt."
 
-#: template/downloads.html:38
+#: template/downloads.html:42
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -678,15 +682,15 @@ msgstr ""
 "Hogy aktiválja az összes tevékenységet a régi verzióban, az alkalmazás "
 "indításkor használja a 200202 kódot a KÓD nevű beviteli mezőben."
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Az androidos változat a Play Áruházon keresztül érhető el."
 
-#: template/downloads.html:56
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -695,7 +699,7 @@ msgstr ""
 "A 32 és a 64 bites Androidot is támogatjuk a Play Áruházon keresztül. "
 "Automatikusan a rendszerének megfelelő változat kerül letöltésre."
 
-#: template/downloads.html:58
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -703,7 +707,7 @@ msgstr ""
 "A teljes változat az F-Droidban, a szabad és nyílt forráskódú androidos "
 "programok gyűjteményében is elérhető."
 
-#: template/downloads.html:63
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -711,7 +715,7 @@ msgstr ""
 "Közvetlenül letöltheti az alkalmazás APK-fájlját is a weboldalunkról, és "
 "kézileg telepítheti az eszközére."
 
-#: template/downloads.html:68
+#: template/downloads.html:72
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -721,7 +725,7 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 
-#: template/downloads.html:69
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -731,36 +735,36 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:80
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:84
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:85
+#: template/downloads.html:89
 msgid "You can download the last version available macOS from the link below."
 msgstr "A legújabb MacOS telepítőt az alábbi hivatkozásokkal is letöltheti."
 
-#: template/downloads.html:86
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "macOS 10.13-on összeállítva és tesztelve."
 
-#: template/downloads.html:99
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:103
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
 "Ellenőrizheti, hogy a disztribúciójára elérhető-e a legfrissebb GCompris."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -768,11 +772,11 @@ msgstr ""
 "Különálló csomagunk is van GNU/Linuxhoz. Ezeknek tetszőleges friss "
 "disztribúció alatt működnie kellene."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:108 template/downloads.html:144
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -780,7 +784,7 @@ msgstr ""
 "A használatához nyisson egy terminál ablakot ott, ahol a telepítő található, "
 "majd futtassa ezeket a parancsokat:"
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -788,7 +792,7 @@ msgstr ""
 "Majd olvassa el a licencet vagy hagyja ki a q gombbal, válaszoljon igennel a "
 "kérdésekre, és a szoftver a telepítő melletti mappába fog települni."
 
-#: template/downloads.html:114 template/downloads.html:150
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -796,7 +800,7 @@ msgstr ""
 "Végül, a gcompris indításához ugorjon az új mappába, majd a bin alatt "
 "kattintson duplán a gcompris-qt.sh fájlra."
 
-#: template/downloads.html:115
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -811,7 +815,7 @@ msgstr ""
 "renderer=auto sort, majd cserélje az auto szót arra, hogy software, és "
 "mentse el a fájlt."
 
-#: template/downloads.html:116
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -821,49 +825,49 @@ msgstr ""
 "\">Flathubról</a> vagy a <a href=\"https://snapcraft.io/gcompris\">Snap "
 "Store-ból</a> is telepíthető."
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:131
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Egy különálló csomagot készítettünk a Raspberry Pi (64 bit)-hez is."
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Csak Raspberry Pi 3-on teszteltük."
 
-#: template/downloads.html:139
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:160
+#: template/downloads.html:164
 msgid "Source code"
 msgstr "Forráskód"
 
-#: template/downloads.html:164
+#: template/downloads.html:168
 msgid "The source code is available under the AGPLv3 license."
 msgstr "A forráskód AGPLv3 licensz alatt érhető el."
 
-#: template/downloads.html:177
+#: template/downloads.html:181
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 és GPG"
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -872,7 +876,7 @@ msgstr ""
 "ujjlenyomatát úgy, hogy a letöltési hivatkozások végéhez hozzáírja, hogy „."
 "sha256”."
 
-#: template/downloads.html:182
+#: template/downloads.html:186
 #, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
@@ -881,7 +885,7 @@ msgstr ""
 "A forrás tarball és a linuxos telepítők Timothée Giet GPG kulcsával vannak "
 "ellátva (publikus kulcs: %(public_gpg_key)s)"
 
-#: template/downloads.html:184
+#: template/downloads.html:188
 msgid "sig files:"
 msgstr "aláírásfájlok:"
 

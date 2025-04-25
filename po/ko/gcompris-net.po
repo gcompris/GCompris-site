@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-17 01:54+0000\n"
+"POT-Creation-Date: 2025-04-25 01:58+0000\n"
 "PO-Revision-Date: 2021-05-22 20:58+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -700,6 +700,10 @@ msgid "System requirements: Windows 10 or 11."
 msgstr "시스템 요구 사항: OpenGL 2 지원, Windows 7, 8, 10"
 
 #: template/downloads.html:28
+msgid "We also provide an msi installer."
+msgstr ""
+
+#: template/downloads.html:32
 #, fuzzy
 #| msgid ""
 #| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
@@ -714,13 +718,13 @@ msgstr ""
 "GCompris(안전 모드) 항목을 사용하여 OpenGL을 사용하지 않는 소프트웨어 렌더링 "
 "모드로 GCompris를 시작하십시오."
 
-#: template/downloads.html:29
+#: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -729,7 +733,7 @@ msgstr ""
 "Windows XP에서 실행되는 버전이 필요하거나 시스템이 새 버전을 지원하지 않는 경"
 "우 GCompris 15.10 버전을 설치할 수 있습니다."
 
-#: template/downloads.html:38
+#: template/downloads.html:42
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -738,15 +742,15 @@ msgstr ""
 "이 과거 버전에서 모든 활동을 활성화하려면 앱을 시작할 때 표시되는 CODE라는 단"
 "어가 있는 입력 상자에 200202를 입력하십시오."
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "Android"
 msgstr "안드로이드"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid "The version for Android is distributed in the Play Store."
 msgstr "안드로이드용 버전은 Play 스토어에서 배포합니다."
 
-#: template/downloads.html:56
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -755,7 +759,7 @@ msgstr ""
 "Play 스토어에서 안드로이드 32비트와 64비트를 모두 지원합니다. 안드로이드 운"
 "영 체제에 따라서 적합한 버전을 다운로드합니다."
 
-#: template/downloads.html:58
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -763,58 +767,58 @@ msgstr ""
 "GCompris는 자유 오픈 소스 안드로이드 앱 저장소인 F-Droid에서도 다운로드할 수 "
 "있습니다."
 
-#: template/downloads.html:63
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
 "웹사이트에서 APK 파일을 다운로드하여 장치에 수동으로 설치할 수도 있습니다."
 
-#: template/downloads.html:68
+#: template/downloads.html:72
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
 
-#: template/downloads.html:69
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:84
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:85
+#: template/downloads.html:89
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "또한 아래 링크에서 설치 도구를 다운로드할 수 있습니다."
 
-#: template/downloads.html:86
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "macOS 10.13에서 빌드 및 테스트되었습니다."
 
-#: template/downloads.html:99
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:103
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr "배포판에서 GCompris 최신 버전을 제공하는지 확인해 보십시오."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -822,11 +826,11 @@ msgstr ""
 "이외에도 GNU/Linux용 독립 실행형 패키지를 제공합니다. 대부분 배포판에서 작동"
 "합니다."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:108 template/downloads.html:144
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -834,7 +838,7 @@ msgstr ""
 "이 파일을 사용하려면 설치 프로그램을 다운로드한 폴더에서 터미널을 열고 다음 "
 "명령을 실행하십시오."
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -842,7 +846,7 @@ msgstr ""
 "그 후 라이선스를 읽거나 q 키를 눌러 건너뛴 다음, 질문에 yes라고 대답하면 소프"
 "트웨어가 설치 프로그램이 있는 폴더 아래의 새 폴더에 설치됩니다."
 
-#: template/downloads.html:114 template/downloads.html:150
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -850,7 +854,7 @@ msgstr ""
 "마지막으로, gcompris를 시작하려면 새로 생성된 폴더 아래 bin 폴더에 있는 "
 "gcompris-qt.sh를 두 번 클릭하십시오."
 
-#: template/downloads.html:115
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -863,66 +867,66 @@ msgstr ""
 "하십시오. 또 다른 방법은 설정 파일(~/.config/gcompris-qt/gcompris-qt.conf)을 "
 "편집하여 render=auto 줄을 render=sofware로 변경한 다음 저장하십시오."
 
-#: template/downloads.html:116
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:131
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "라즈베리 파이"
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "라즈베리 파이에서 실행 가능한 독립 실행형 패키지를 제공합니다."
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "라즈베리 파이 3에서만 테스트되었습니다."
 
-#: template/downloads.html:139
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:160
+#: template/downloads.html:164
 msgid "Source code"
 msgstr "소스 코드"
 
-#: template/downloads.html:164
+#: template/downloads.html:168
 msgid "The source code is available under the AGPLv3 license."
 msgstr "소스 코드는 AGPLv3 라이선스 하에 제공됩니다."
 
-#: template/downloads.html:177
+#: template/downloads.html:181
 #, fuzzy
 #| msgid "MD5 and GPG"
 msgid "SHA-256 and GPG"
 msgstr "MD5 및 GPG"
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
 
-#: template/downloads.html:182
+#: template/downloads.html:186
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -934,7 +938,7 @@ msgstr ""
 "소스 코드 TAR 압축 파일 및 Linux 설치 프로그램은 Timothée Giet의 GPG 키로 서"
 "명됩니다(공개 키: "
 
-#: template/downloads.html:184
+#: template/downloads.html:188
 msgid "sig files:"
 msgstr "sig 파일:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-17 01:54+0000\n"
+"POT-Creation-Date: 2025-04-25 01:58+0000\n"
 "PO-Revision-Date: 2025-01-31 12:18+0100\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -661,6 +661,10 @@ msgid "System requirements: Windows 10 or 11."
 msgstr "Системни изисквания: Windows 10 или 11."
 
 #: template/downloads.html:28
+msgid "We also provide an msi installer."
+msgstr ""
+
+#: template/downloads.html:32
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
@@ -671,7 +675,7 @@ msgstr ""
 "стартовото меню, за да стартирате GCompris със софтуерен режим на "
 "изобразяване."
 
-#: template/downloads.html:29
+#: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
@@ -679,7 +683,7 @@ msgstr ""
 "Последните версии за Windows 7 и 8 могат да бъдат свалени от връзките по-"
 "долу."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -689,7 +693,7 @@ msgstr ""
 "системата ви не поддържа новата версия, можете да използвате последната "
 "инсталационна програма от стария GCompris 15.10."
 
-#: template/downloads.html:38
+#: template/downloads.html:42
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -699,15 +703,15 @@ msgstr ""
 "кода 200202 в полето за въвеждане, което съдържа думата CODE, когато "
 "стартирате приложението."
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Версията за Android се разпространява в Play Store."
 
-#: template/downloads.html:56
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -717,7 +721,7 @@ msgstr ""
 "Подходящата версия се изтегля автоматично в зависимост от вашата версия на "
 "Android."
 
-#: template/downloads.html:58
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -725,7 +729,7 @@ msgstr ""
 "GCompris също се предлага от F-Droid, безплатното хранилище на приложения за "
 "Android с отворен код."
 
-#: template/downloads.html:63
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -733,7 +737,7 @@ msgstr ""
 "Можете също така директно да изтеглите apk от нашия уебсайт, за да го "
 "инсталирате ръчно на вашето устройство."
 
-#: template/downloads.html:68
+#: template/downloads.html:72
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -743,7 +747,7 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 
-#: template/downloads.html:69
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -753,11 +757,11 @@ msgstr ""
 "<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81 .apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:80
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:84
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
@@ -765,21 +769,21 @@ msgstr ""
 "Най-новата версия все още не е налична за macOS поради липса "
 "наинфраструктура за изграждане и тестване."
 
-#: template/downloads.html:85
+#: template/downloads.html:89
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
 "В противен случай можете да изтеглите последната версия за macOS от връзките "
 "по-долу."
 
-#: template/downloads.html:86
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "Създаден и тестван на macOS 10.13."
 
-#: template/downloads.html:99
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:103
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -787,7 +791,7 @@ msgstr ""
 "Можете да проверите дали вашата дистрибуция предоставя пакет за най-новата "
 "версия на GCompris."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -795,11 +799,11 @@ msgstr ""
 "Ние също така предоставяме самостоятелни пакети за GNU/Linux. Те трябва да "
 "работят върху всяко скорошно разпространение."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr "Системни изисквания: linux kernel 4.18, glibc 2.28."
 
-#: template/downloads.html:108 template/downloads.html:144
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -807,7 +811,7 @@ msgstr ""
 "За да го използвате, отворете терминал в папката, където сте изтеглили "
 "инсталатора, и изпълнете тези команди:"
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -816,7 +820,7 @@ msgstr ""
 "с \"да\" на въпросите и софтуерът ще бъде инсталиран в нова папка до "
 "инсталатора."
 
-#: template/downloads.html:114 template/downloads.html:150
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -824,7 +828,7 @@ msgstr ""
 "И накрая, за да стартирате gcompris, отидете в новата папка, в bin и "
 "щракнете двукратно върху gcompris-qt.sh."
 
-#: template/downloads.html:115
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -838,7 +842,7 @@ msgstr ""
 "~/.config/gcompris-qt/gcompris-qt.conf): намерете реда renderer=auto , "
 "заменете auto със software и запазете файла."
 
-#: template/downloads.html:116
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -848,7 +852,7 @@ msgstr ""
 "org/apps/details/org.kde.gcompris\">Flathub</a> или от <a href=\"https:/ /"
 "snapcraft.io/gcompris\">Snap store</a>."
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
@@ -856,7 +860,7 @@ msgstr ""
 "Последната версия за 32 битови дистрибуции на Linux може да се свали от "
 "долната връзка."
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
@@ -864,37 +868,37 @@ msgstr ""
 "Системни изисквания: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 
-#: template/downloads.html:131
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Предоставяме самостоятелен пакет за Raspberry Pi (64 бита)."
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Тестван е само на Raspberry Pi 3."
 
-#: template/downloads.html:139
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr "Последната версия за 32 бита е 4.3, налична в долната връзка:"
 
-#: template/downloads.html:160
+#: template/downloads.html:164
 msgid "Source code"
 msgstr "Изходен код"
 
-#: template/downloads.html:164
+#: template/downloads.html:168
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Изходният код е достъпен под лиценз AGPLv3."
 
-#: template/downloads.html:177
+#: template/downloads.html:181
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 и GPG"
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -903,7 +907,7 @@ msgstr ""
 "оригиналния SHA-256 хеш на файловете, като добавите \".sha256\" на края на "
 "адреса за сваляне."
 
-#: template/downloads.html:182
+#: template/downloads.html:186
 #, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
@@ -912,7 +916,7 @@ msgstr ""
 "Изходният архив и инсталаторите на Linux са подписани с GPG ключа от "
 "Timothée Giet (публичен ключ: %(public_gpg_key)s)"
 
-#: template/downloads.html:184
+#: template/downloads.html:188
 msgid "sig files:"
 msgstr "sig файлове:"
 

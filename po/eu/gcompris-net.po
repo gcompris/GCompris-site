@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-17 01:54+0000\n"
+"POT-Creation-Date: 2025-04-25 01:58+0000\n"
 "PO-Revision-Date: 2025-01-25 11:17+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -664,6 +664,10 @@ msgid "System requirements: Windows 10 or 11."
 msgstr "Sistema-eskakizunak: Windows 10 edo 11."
 
 #: template/downloads.html:28
+msgid "We also provide an msi installer."
+msgstr ""
+
+#: template/downloads.html:32
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
@@ -673,7 +677,7 @@ msgstr ""
 "ez badabil, mesedez, erabili hasera menuko \"GCompris (Modu segurua)\", "
 "GCompris, software bidez errendatzeko moduan jaurtitzeko."
 
-#: template/downloads.html:29
+#: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
@@ -681,7 +685,7 @@ msgstr ""
 "Windows 7 eta 8rako erabilgarri dagoen azken bertsioa beheko estekatik zama-"
 "jaitsi daiteke."
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -691,7 +695,7 @@ msgstr ""
 "sistemak ez badu bertsio berria onarten, GCompris 15.10 zaharreko "
 "instalatzailea erabil dezakezu."
 
-#: template/downloads.html:38
+#: template/downloads.html:42
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -700,15 +704,15 @@ msgstr ""
 "Bertsio zahar honetako jarduera guztiak gaitzeko, aplikazioa abiatzean "
 "200202 kodea erabil dezakezu KODEA hitza duen sarrerako laukian."
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Androiderako bertsioa Play dendaren bidez banatzen da."
 
-#: template/downloads.html:56
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -718,7 +722,7 @@ msgstr ""
 "Bertsio egokia automatikoki zama-jaisten da zure Android sistema-eragilearen "
 "arabera."
 
-#: template/downloads.html:58
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -726,7 +730,7 @@ msgstr ""
 "GCompris eskuragarri dago ere «F-Droid»etik, Androiderako aplikazio aske eta "
 "sorburu irekikoen gordetegia."
 
-#: template/downloads.html:63
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -734,7 +738,7 @@ msgstr ""
 "Eskuz instalatzeko, «apk», zuzenean gure webgunetik ere zama-jaisteko aukera "
 "duzu."
 
-#: template/downloads.html:68
+#: template/downloads.html:72
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -744,7 +748,7 @@ msgstr ""
 "bateragarria <a href= \"https://gcompris.net/download/qt/android/GCompris-"
 "Android-release-signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a> da."
 
-#: template/downloads.html:69
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -755,11 +759,11 @@ msgstr ""
 "Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a> "
 "da."
 
-#: template/downloads.html:80
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:84
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
@@ -767,21 +771,21 @@ msgstr ""
 "Bertsio berriena oraindik ez dago macOS-rako erabilgarri hura eraikitzeko "
 "eta probatzeko azpiegitura faltagatik."
 
-#: template/downloads.html:85
+#: template/downloads.html:89
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
 "macOS-rako erabilgarri dagoen azken bertsioa beheko estekatik zama-jaitsi "
 "dezakezu."
 
-#: template/downloads.html:86
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "macOS 10.13an eraikia eta probatua."
 
-#: template/downloads.html:99
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:103
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -789,7 +793,7 @@ msgstr ""
 "Zure banaketak GCompris-en azken bertsiorako paketerik eskaintzen duen "
 "egiaztatu dezakezu."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -797,11 +801,11 @@ msgstr ""
 "GNU/Linux-erako pakete autonomoak ere hornitzen ditugu. Berriki egindako "
 "banaketa guztietan ibili beharko lirateke."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr "Sistema-eskakizunak: linux muina 4.18, glibc 2.28."
 
-#: template/downloads.html:108 template/downloads.html:144
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -809,7 +813,7 @@ msgstr ""
 "Hori erabiltzeko, ireki terminal bat instalatzailea zama-jaitsi duzun "
 "karpetan eta exekutatu komando hauek:"
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -818,7 +822,7 @@ msgstr ""
 "erantzun, eta softwarea instalatzailearen ondoko karpeta berri batean "
 "instalatuko da."
 
-#: template/downloads.html:114 template/downloads.html:150
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -826,7 +830,7 @@ msgstr ""
 "Azkenik, gcompris jaurtitzeko, joan karpeta berrira, «bin»en, eta egin klik "
 "bikotza «gcompris-qt.sh» fitxategiari."
 
-#: template/downloads.html:115
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -840,7 +844,7 @@ msgstr ""
 "gcompris-qt/gcompris-qt.conf ) editatzea: bilatu  «renderer=auto» lerroa, "
 "ordezkatu «auto» «software» ipinita eta gorde fitxategia."
 
-#: template/downloads.html:116
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -850,7 +854,7 @@ msgstr ""
 "\">Flathub</a> edo <a href=\"https://snapcraft.io/gcompris\">Snap "
 "biltokitik</a> instala dezakezu."
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
@@ -858,44 +862,44 @@ msgstr ""
 "32biteko Linux banaketetarako erabilgarri dagoen bertsio berriena ondoko "
 "estekatik zama-jaitsi daiteke."
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 "Sistema-eskakizunak: linux muina 3.10, glibc 2.17, pulseaudio, gstreamer 1.0."
 
-#: template/downloads.html:131
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Raspberry Pi-rako (64bit) pakete autonomo bat hornitzen dugu."
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Raspberry P 3 bertsioan baino ez da probatu."
 
-#: template/downloads.html:139
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr "32biterako erabilgarri dagoen azken bertsioa 4.3 da, ondoko estekan:"
 
-#: template/downloads.html:160
+#: template/downloads.html:164
 msgid "Source code"
 msgstr "Sorburu kodea"
 
-#: template/downloads.html:164
+#: template/downloads.html:168
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Sorburu kodea erabilgarri dago GPLv3 lizentziapean."
 
-#: template/downloads.html:177
+#: template/downloads.html:181
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 eta GPG"
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -903,7 +907,7 @@ msgstr ""
 "Zure zama-jaitsitakoen osotasuna ikuskatzeko, fitxategien jatorrizko SHA-256 "
 "hash lor dezakezu haien zama-jaisteko url bukaeran \".sha256\" gehituta."
 
-#: template/downloads.html:182
+#: template/downloads.html:186
 #, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
@@ -912,7 +916,7 @@ msgstr ""
 "Sorburuen «tarball» eta Linux instalatzailea Timothée Giet-en GPG gakoarekin "
 "sinatuta daude (gako publikoa: %(public_gpg_key)s)"
 
-#: template/downloads.html:184
+#: template/downloads.html:188
 msgid "sig files:"
 msgstr "sinadura fitxategiak:"
 

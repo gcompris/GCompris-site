@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-17 01:54+0000\n"
+"POT-Creation-Date: 2025-04-25 01:58+0000\n"
 "PO-Revision-Date: 2024-04-22 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -623,19 +623,23 @@ msgid "System requirements: Windows 10 or 11."
 msgstr ""
 
 #: template/downloads.html:28
+msgid "We also provide an msi installer."
+msgstr ""
+
+#: template/downloads.html:32
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
 
-#: template/downloads.html:29
+#: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -644,7 +648,7 @@ msgstr ""
 "如果您确实需要一个运行于 Windows XP 的版本，或者如果您的系统不支持新版本， 您"
 "可以使用上一个版本的 GCompris 15.10 安装程序。"
 
-#: template/downloads.html:38
+#: template/downloads.html:42
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -653,15 +657,15 @@ msgstr ""
 "要启用此旧版本中的所有活动， 当您启动应用程序时，您可以在输入框中使用包含单词"
 "编码的代码 200202。"
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Android 版本通过 Play Store 发布。"
 
-#: template/downloads.html:56
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -670,78 +674,78 @@ msgstr ""
 "我们支持 Play 商店的 Android 32bit 和 64bit 两个版本。相关版本将根据您的 "
 "Android 操作系统自动下载。"
 
-#: template/downloads.html:58
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr "GCompris 也可从 F-Droid，一个免费和开源的 Android 应用程序仓库获取。"
 
-#: template/downloads.html:63
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr "您也可以直接从我们的网站下载 apk 安装包，手动在您的设备上安装。"
 
-#: template/downloads.html:68
+#: template/downloads.html:72
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgstr ""
 
-#: template/downloads.html:69
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
 
-#: template/downloads.html:80
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:84
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:85
+#: template/downloads.html:89
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
 
-#: template/downloads.html:86
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "已在 macOS 10.13 上构建和测试。"
 
-#: template/downloads.html:99
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:103
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr "您可以检查您的发行版是否为最新版本的 GCompris 提供了一个包。"
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
 "我们还为 GNU/Linux 提供单独的软件包，它们应该可以在最近的任何发行版上运行。"
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:108 template/downloads.html:144
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr "要使用它，请在你下载安装程序的文件夹中打开一个终端，并运行这些命令："
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -749,14 +753,14 @@ msgstr ""
 "然后阅读许可证或按 q 键跳过它，回答问题是。 软件将安装在安装程序旁边的新文件"
 "夹中。"
 
-#: template/downloads.html:114 template/downloads.html:150
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
 "最后，要启动 GCompris，请进入新文件夹中的 bin 文件夹，双击 gcompris-qt.sh。"
 
-#: template/downloads.html:115
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -769,69 +773,69 @@ msgstr ""
 "gcomb-qt/gcompos-qt.conf)：找到 \"renderer=auto\"，用 \"software\" 替换 "
 "\"auto\" 并保存文件。"
 
-#: template/downloads.html:116
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:131
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "树莓派"
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr ""
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "只在树莓派3上进行了测试。"
 
-#: template/downloads.html:139
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:160
+#: template/downloads.html:164
 msgid "Source code"
 msgstr "源代码"
 
-#: template/downloads.html:164
+#: template/downloads.html:168
 msgid "The source code is available under the AGPLv3 license."
 msgstr "源代码在 AGPLv3 许可下可用。"
 
-#: template/downloads.html:177
+#: template/downloads.html:181
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 和 GPG"
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
 
-#: template/downloads.html:182
+#: template/downloads.html:186
 #, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
 
-#: template/downloads.html:184
+#: template/downloads.html:188
 msgid "sig files:"
 msgstr "签名文件:"
 

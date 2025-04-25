@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-17 01:54+0000\n"
+"POT-Creation-Date: 2025-04-25 01:58+0000\n"
 "PO-Revision-Date: 2023-07-03 02:14+0100\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -1481,6 +1481,10 @@ msgid "System requirements: Windows 10 or 11."
 msgstr "Requisitos do sistema: Windows 7, 8 ou 10 com suporte para OpenGL 2."
 
 #: template/downloads.html:28
+msgid "We also provide an msi installer."
+msgstr ""
+
+#: template/downloads.html:32
 #, fuzzy
 #| msgid ""
 #| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
@@ -1496,13 +1500,13 @@ msgstr ""
 "para lançar o GCompris com o modo de desenho por software, que não usa o "
 "OpenGL."
 
-#: template/downloads.html:29
+#: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
 
-#: template/downloads.html:34
+#: template/downloads.html:38
 msgid ""
 "If you really need a version that runs on Windows XP, or if your system "
 "doesn't support the new version, you can use the last installer from the old "
@@ -1512,7 +1516,7 @@ msgstr ""
 "sistema não suportar a nova versão, poderá usar o último instalado da versão "
 "antiga do GCompris 15.10."
 
-#: template/downloads.html:38
+#: template/downloads.html:42
 msgid ""
 "To enable all the activities in this old version, you can use the code "
 "200202 in the entry box that contains the word CODE when you start the "
@@ -1521,15 +1525,15 @@ msgstr ""
 "Para activar todas as actividades nesta versão antiga, poderá usar o código "
 "200202 no campo que contém a palavra CODE quando iniciar a aplicação."
 
-#: template/downloads.html:48
+#: template/downloads.html:52
 msgid "Android"
 msgstr "Android"
 
-#: template/downloads.html:52
+#: template/downloads.html:56
 msgid "The version for Android is distributed in the Play Store."
 msgstr "A versão para o Android é distribuída na Play Store."
 
-#: template/downloads.html:56
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -1539,7 +1543,7 @@ msgstr ""
 "versão apropriada é transferida automaticamente, dependendo do seu sistema "
 "operativo Android."
 
-#: template/downloads.html:58
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -1547,7 +1551,7 @@ msgstr ""
 "O GCompris também está disponível no F-Droid, o repositório de aplicações "
 "Android livres e de código aberto."
 
-#: template/downloads.html:63
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -1555,7 +1559,7 @@ msgstr ""
 "Também pode obter directamente o APK da nossa página Web para o instalar "
 "manualmente no seu dispositivo."
 
-#: template/downloads.html:68
+#: template/downloads.html:72
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -1570,7 +1574,7 @@ msgstr ""
 "é a <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
 "release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:69
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -1580,31 +1584,31 @@ msgstr ""
 "é a <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
 "release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:80
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:84
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:85
+#: template/downloads.html:89
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "Em alternativa, poderá obter o instalador nas ligações abaixo."
 
-#: template/downloads.html:86
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "Compilado e testado no macOS 10.13."
 
-#: template/downloads.html:99
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:103
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -1612,7 +1616,7 @@ msgstr ""
 "Poderá verificar se a sua distribuição fornece um pacote com a última versão "
 "do GCompris."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -1620,11 +1624,11 @@ msgstr ""
 "Também oferecemos pacotes independentes para o GNU/Linux. Deverão funcionar "
 "com qualquer distribuição recente."
 
-#: template/downloads.html:104
+#: template/downloads.html:108
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:108 template/downloads.html:144
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -1632,7 +1636,7 @@ msgstr ""
 "Para o usar, abra um terminal na pasta de onde transferiu o instalador e "
 "execute estes comandos:"
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -1641,7 +1645,7 @@ msgstr ""
 "perguntas e depois a aplicação será instalada numa nova pasta próxima do "
 "instalador."
 
-#: template/downloads.html:114 template/downloads.html:150
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -1649,7 +1653,7 @@ msgstr ""
 "Finalmente, para lançar o Gcompris, vá à nova pasta em 'bin' e faça duplo-"
 "click no 'gcompris-qt.sh'."
 
-#: template/downloads.html:115
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -1664,7 +1668,7 @@ msgstr ""
 "descubra a linha 'renderer=auto', substitua 'auto' por 'software' e grave o "
 "ficheiro."
 
-#: template/downloads.html:116
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -1674,51 +1678,51 @@ msgstr ""
 "flathub.org/apps/details/org.kde.gcompris\">Flathub</a> ou da loja <a href="
 "\"https://snapcraft.io/gcompris\">Snap Store</a>."
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:117
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:131
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Oferecemos um pacote autónomo para o Raspberry Pi."
 
-#: template/downloads.html:135
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Foi testado apenas no Raspberry Pi 3."
 
-#: template/downloads.html:139
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:160
+#: template/downloads.html:164
 msgid "Source code"
 msgstr "Código-fonte"
 
-#: template/downloads.html:164
+#: template/downloads.html:168
 msgid "The source code is available under the AGPLv3 license."
 msgstr "O código-fonte está disponível segundo a licença AGPLv3."
 
-#: template/downloads.html:177
+#: template/downloads.html:181
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 e GPG"
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -1727,7 +1731,7 @@ msgstr ""
 "SHA-256 original dos ficheiros, adicionando para tal \".sha256\" no fim do "
 "URL da transferência."
 
-#: template/downloads.html:182
+#: template/downloads.html:186
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -1739,7 +1743,7 @@ msgstr ""
 "O pacote com o código e os instaladores para Linux estão assinados com a "
 "chave GPG de Timothée Giet (chave pública: %(public_gpg_key)s)"
 
-#: template/downloads.html:184
+#: template/downloads.html:188
 msgid "sig files:"
 msgstr "ficheiros 'sig':"
 
