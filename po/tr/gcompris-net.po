@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-28 01:59+0000\n"
-"PO-Revision-Date: 2025-04-25 09:30+0300\n"
+"PO-Revision-Date: 2025-04-28 10:37+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -174,51 +174,32 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Release GCompris 4.3"
 msgctxt "20250521.html"
 msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "GCompris 4.3 Çıktı"
+msgstr "GCompris 25.1 ve 4.3.1 Çıktı"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr "Bugün, GCompris’in 25.0 sürümünü yayımlıyoruz."
+msgstr "Bugün, GCompris’in 25.1 sürümünü yayımlıyoruz."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
 msgstr ""
 "Birden fazla etkinlikte hata düzeltmeleri ve grafik iyileştirmeleri içerir."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
 msgstr "GCompris çevirileri aşağıdaki diller için tamdır:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Aşağıdaki diller için çevirilerde eksikler vardır:"
@@ -226,22 +207,11 @@ msgstr "Aşağıdaki diller için çevirilerde eksikler vardır:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} (%{{ oneStatus }})"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250521.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -252,17 +222,14 @@ msgid ""
 msgstr ""
 "Bu yeni sürümün paketlerini <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">indirme sayfasında</a> GNU/Linux, Windows, "
-"Android, Raspberry Pi ve macOS için bulabilirsiniz. Bu güncelleme, kısa bir "
-"süre içinde Google Play Store, F-Droid deposu ve Microsoft Store’da "
+"Android ve Raspberry Pi için bulabilirsiniz. Bu güncelleme, kısa bir süre "
+"içinde Google Play Store, F-Droid deposu ve Microsoft Store’da "
 "kullanılabilir olacaktır."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Today we are releasing GCompris version 4.3."
 msgctxt "20250521.html"
 msgid "We are also releasing GCompris version 4.3.1."
-msgstr "Bugün, GCompris’in 4.3 sürümünü yayımlıyoruz."
+msgstr "Bugün ayrıca, GCompris’in 4.3.1 sürümünü de yayımlıyoruz."
 
 #. paragraph
 msgctxt "20250521.html"
@@ -270,11 +237,10 @@ msgid ""
 "This is a maintenance version for 32bit systems which only contains a few "
 "backported bug fixes."
 msgstr ""
+"Bu, 32 bit sistemler için geriye aktarılmış birkaç hata düzeltmesi içeren "
+"bir bakım sürümüdür."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250521.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"
