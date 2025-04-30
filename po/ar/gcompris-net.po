@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-28 01:59+0000\n"
-"PO-Revision-Date: 2025-04-28 17:20+0400\n"
+"PO-Revision-Date: 2025-04-29 15:35+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -175,42 +175,26 @@ msgid "Release GCompris 25.1 and 4.3.1"
 msgstr "الإصدار \"فهمت\" 4.3"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr "اليوم أطلقنا إصدار \"فهمت\" 25.0."
+msgstr "اليوم أطلقنا إصدار \"فهمت\" 25.1."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
 msgstr "فيه صور جديدة ورسوم  وتحسينات لعدة أنشطة."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
 msgstr "تُرجم بالكامل للغات التالية:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "تُرجم جزئيا باللغات التالية:"
@@ -218,22 +202,11 @@ msgstr "تُرجم جزئيا باللغات التالية:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250521.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -242,10 +215,10 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري اي وماك-أوس "
-"وأندرويدعلى <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">صفحة التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-"
-"Droid ومتجر وندوز."
+"يمكنك العثور على حزم هذا الإصدار الجديد لـ لينكس ووندوز وراسبيري وأندرويد "
+"على <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">صفحة "
+"التنزيل</a>. سيتوفر هذا التحديث قريبًا في متجر أندرويد بلاي ومستودع F-Droid "
+"ومتجر وندوز."
 
 #. paragraph
 #, fuzzy
