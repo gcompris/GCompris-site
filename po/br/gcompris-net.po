@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-28 01:59+0000\n"
-"PO-Revision-Date: 2025-01-05 18:05+0100\n"
+"PO-Revision-Date: 2025-05-08 15:49+0200\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -178,26 +178,16 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Release GCompris 4.3"
 msgctxt "20250521.html"
 msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "GCompris stumm 4.3"
+msgstr "GCompris stummoù 25.1 ha 4.3.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr "Hiziv e kinnigomp stumm 25.0 GCompris."
+msgstr "Hiziv e kinnigomp stumm 25.1 GCompris."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
 msgstr ""
@@ -205,25 +195,16 @@ msgstr ""
 "obererezh."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Troet eo bet penn-da-benn evit ar yezhoù-mañ:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Troidigezh diglok evit ar yezhoù-se:"
@@ -231,22 +212,11 @@ msgstr "Troidigezh diglok evit ar yezhoù-se:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250521.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -256,18 +226,15 @@ msgid ""
 "Windows store."
 msgstr ""
 "Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, "
-"Android, Raspberry Pi ha macOS war ar <a href=\\\"https://gcompris.net/"
+"Android, Raspberry Pi war ar <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">bajenn bellgargañ</a>. An hizivaat a vo deus "
 "outañ a-benn nebeut en Android Play store, en dastumlec'h arloadoù F-Droid "
 "hag er Windows store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Today we are releasing GCompris version 4.3."
 msgctxt "20250521.html"
 msgid "We are also releasing GCompris version 4.3.1."
-msgstr "Hiziv e kinnigomp stumm 4.3 GCompris."
+msgstr "Hiziv e kinnigomp stumm 4.3.1 GCompris."
 
 #. paragraph
 msgctxt "20250521.html"
@@ -275,11 +242,9 @@ msgid ""
 "This is a maintenance version for 32bit systems which only contains a few "
 "backported bug fixes."
 msgstr ""
+"Setu ar stumm evit ar reizhiadoù 32vit ennañ un nebeud reizhadurioù kilgaset."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250521.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
@@ -427,7 +392,7 @@ msgstr "Italianeg"
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "Jorjieg"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
@@ -715,7 +680,7 @@ msgstr "Ezhommoù ar reizhiad  : Windows 10 pe 11."
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "Kinnig a reomp ivez ur stalier msi."
 
 #: template/downloads.html:32
 msgid ""
