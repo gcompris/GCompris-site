@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-04-28 01:59+0000\n"
-"PO-Revision-Date: 2025-02-08 22:16+0200\n"
+"PO-Revision-Date: 2025-04-29 15:31+0300\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
@@ -178,50 +178,31 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Release GCompris 4.3"
 msgctxt "20250521.html"
 msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "GCompris 4.3 versija"
+msgstr "GCompris 25.1 ir 4.3.1 versijos"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr "Šiandien išleidžiame GCompris 25.0 versiją."
+msgstr "Šiandien išleidžiame GCompris 25.1 versiją."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
-msgstr "Ištaisėme klaidas ir patobulinome grafiką keliose pamokėlėse."
+msgstr "Ištaisėme klaidas ir patobulinome grafiką daugelyje pamokėlių."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Jis visiškai išverstas į šias kalbas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
@@ -229,22 +210,11 @@ msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250521.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -253,32 +223,26 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Šios versijos paketus GNU/Linux, Windows, Android, Raspberry Pi ir MacOS "
+"Šios versijos paketus GNU/Linux, Windows, Android ir Raspberry Pi "
 "platformoms galite rasti <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. "
-"Šis atnaujinimas greitai bus pasiekiamas ir Android Play parduotuvėje, F-"
-"Droid saugykloje ir Windows parduotuvėje."
+"downloads{{ suffix }}.html\\\">atsisiuntimo puslapyje</a>. Šis atnaujinimas "
+"netrukus bus pasiekiamas Android Play parduotuvėje, F-Droid saugykloje ir "
+"Windows parduotuvėje."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Today we are releasing GCompris version 4.3."
 msgctxt "20250521.html"
 msgid "We are also releasing GCompris version 4.3.1."
-msgstr "Šiandien išleidžiame GCompris 4.3 versiją."
+msgstr "Taip pat išleidžiame GCompris 4.3.1 versiją."
 
 #. paragraph
 msgctxt "20250521.html"
 msgid ""
 "This is a maintenance version for 32bit systems which only contains a few "
 "backported bug fixes."
-msgstr ""
+msgstr "Tai yra 32 bitų sistemos versija su keletu ištaisytų klaidų."
 
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250521.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
@@ -713,7 +677,7 @@ msgstr "Sistemos reikalavimai: Windows 10 arba 11."
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "Taip pat pateikiame MSI diegimo programą."
 
 #: template/downloads.html:32
 msgid ""
