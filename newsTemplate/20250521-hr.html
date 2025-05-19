@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdanje GCompris 25.1 i 4.3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Danas smo objavili GCompris verziju 25.1.</p>
+<p>Sadrži ispravke pogrešaka i grafička poboljšanja za više aktivnosti.</p>
+
+<p>U potpunosti je preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Također je djelomično preveden na sljedeće jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, Android i Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">stranici za preuzimanje</a>. Ovo ažuriranje će također uskoro biti dostupno u Android Play trgovini, F-Droid repozitoriju i Windows trgovini.</p>
+
+<p>Danas smo objavili GCompris verziju 4.3.1.</p>
+<p>Ovo verzija predstavlja održavanje za 32-bitne sustave i sadrži samo nekoliko ispravaka grešaka.</p>
+
+<p>Hvala svima, <br/>Timothée & Johnny</p>
+
+{% endblock %}
