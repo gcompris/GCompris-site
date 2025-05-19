@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 25.1 ir 4.3.1 versijos' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Šiandien išleidžiame GCompris 25.1 versiją.</p>
+<p>Ištaisėme klaidas ir patobulinome grafiką daugelyje pamokėlių.</p>
+
+<p>Jis visiškai išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Jis taip pat iš dalies išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Šios versijos paketus GNU/Linux, Windows, Android ir Raspberry Pi platformoms galite rasti <a href="https://gcompris.net/downloads{{ suffix }}.html">atsisiuntimo puslapyje</a>. Šis atnaujinimas netrukus bus pasiekiamas Android Play parduotuvėje, F-Droid saugykloje ir Windows parduotuvėje.</p>
+
+<p>Taip pat išleidžiame GCompris 4.3.1 versiją.</p>
+<p>Tai yra 32 bitų sistemos versija su keletu ištaisytų klaidų.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+
+{% endblock %}
