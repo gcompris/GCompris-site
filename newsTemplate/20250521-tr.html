@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 25.1 ve 4.3.1 Çıktı' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Bugün, GCompris’in 25.1 sürümünü yayımlıyoruz.</p>
+<p>Birden fazla etkinlikte hata düzeltmeleri ve grafik iyileştirmeleri içerir.</p>
+
+<p>GCompris çevirileri aşağıdaki diller için tamdır:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Aşağıdaki diller için çevirilerde eksikler vardır:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} (%{{ oneStatus }})</li>
+  {% endfor %}
+</ul>
+
+<p>Bu yeni sürümün paketlerini <a href="https://gcompris.net/downloads{{ suffix }}.html">indirme sayfasında</a> GNU/Linux, Windows, Android ve Raspberry Pi için bulabilirsiniz. Bu güncelleme, kısa bir süre içinde Google Play Store, F-Droid deposu ve Microsoft Store’da kullanılabilir olacaktır.</p>
+
+<p>Bugün ayrıca, GCompris’in 4.3.1 sürümünü de yayımlıyoruz.</p>
+<p>Bu, 32 bit sistemler için geriye aktarılmış birkaç hata düzeltmesi içeren bir bakım sürümüdür.</p>
+
+<p>Herkese teşekkürler!<br/>Timothée ve Johnny</p>
+
+{% endblock %}
