@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 25.1 i 4.3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Avui fem el llançament del GCompris versió 25.1.</p>
+<p>Conté correccions d'errors i millores gràfiques en moltes activitats.</p>
+
+<p>Està traduït completament als idiomes següents:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>També està traduït parcialment als idiomes següents:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Android i Raspberry Pi a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització també estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+
+<p>També fem el llançament del GCompris versió 4.3.1.</p>
+<p>Aquesta és una versió de manteniment per a sistemes de 32 bits que només conté algunes retroadaptacions de correccions d'errors.</p>
+
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+
+{% endblock %}
