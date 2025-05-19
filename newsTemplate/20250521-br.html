@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris stummoù 25.1 ha 4.3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Hiziv e kinnigomp stumm 25.1 GCompris.</p>
+<p>Bez' ez eus meur a fazi bet reizhet ha gwelladennoù grafek e meur a obererezh.</p>
+
+<p>Troet eo bet penn-da-benn evit ar yezhoù-mañ:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Troidigezh diglok evit ar yezhoù-se:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Bez' e c'hallit kavout pakadoù ar stumm nevez-mañ evit GNU/Linux, Windows, Android, Raspberry Pi war ar <a href="https://gcompris.net/downloads{{ suffix }}.html">bajenn bellgargañ</a>. An hizivaat a vo deus outañ a-benn nebeut en Android Play store, en dastumlec'h arloadoù F-Droid hag er Windows store.</p>
+
+<p>Hiziv e kinnigomp stumm 4.3.1 GCompris.</p>
+<p>Setu ar stumm evit ar reizhiadoù 32vit ennañ un nebeud reizhadurioù kilgaset.</p>
+
+<p>Trugarez d'an holl, <br/>Timothée & Johnny</p>
+
+{% endblock %}
