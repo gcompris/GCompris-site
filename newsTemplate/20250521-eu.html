@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 25.1 eta 4.3 argitaratzea' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Gaurkoan GCompris 25.1 bertsioa argitaratzen dugu.</p>
+<p>Hainbat jardueratarako akats konponketak eta grafikoen hobekuntzak ditu.</p>
+
+<p>Ondoko hizkuntzatan osorik itzulita dago:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Ondoko hizkuntzatan ere hein batean itzulita dago:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} (%{{ oneStatus }})</li>
+  {% endfor %}
+</ul>
+
+<p><a href="https://gcompris.net/downloads{{ suffix }}.html">zama-jaisteko orrian</a> bertsio berri honetarako GNU/Linux, Windows, Android, Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows saltokian ere.</p>
+
+<p>GCompris 4.3.1 bertsioa ere argitaratzen dugu.</p>
+<p>Hau 32 biteko sistemetarako mantentze bertsio bat da atzerantz eratorritako akatsen konponketa batzuk baino ez dituena.</p>
+
+<p>Eskerrik asko guztiei, <br/>Timothée eta Johnny</p>
+
+{% endblock %}
