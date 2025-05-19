@@ -169,8 +169,8 @@ def get_boards():
     # create qml engine to read the files
     engine = QQmlEngine()
     component = QQmlComponent(engine)
-    qmlRegisterSingletonType(ApplicationInfo, "GCompris", 1, 0, "ApplicationInfo", ApplicationInfo.createSingleton)
-    qmlRegisterType(ActivityInfo, "GCompris", 1, 0, "ActivityInfo")
+    qmlRegisterSingletonType(ApplicationInfo, "core", 1, 0, "ApplicationInfo", ApplicationInfo.createSingleton)
+    qmlRegisterType(ActivityInfo, "core", 1, 0, "ActivityInfo")
 
     activity_dir = gcomprisdir + "/src/activities"
     for activity in os.listdir(activity_dir):
