@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-28 01:59+0000\n"
+"POT-Creation-Date: 2025-05-22 02:03+0000\n"
 "PO-Revision-Date: 2025-04-28 11:25+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -545,7 +545,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Freek de Kruijf - t/m 2022"
 
-#: gcompris.py:405
+#: gcompris.py:409
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Voor de Kerst, biedt GCompris aan aan uw kinderen."
 
@@ -770,10 +770,15 @@ msgstr ""
 "op uw apparaat te installeren."
 
 #: template/downloads.html:72
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+"signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
 "Voor apparaten draaiend op Android 4.1 tot 8.0, is de laatste compatibele "
 "versie <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"

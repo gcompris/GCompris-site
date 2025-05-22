@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-28 01:59+0000\n"
+"POT-Creation-Date: 2025-05-22 02:03+0000\n"
 "PO-Revision-Date: 2025-05-18 19:15+0300\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -530,7 +530,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Jonas Jakštys, Bernardas Liukaitis"
 
-#: gcompris.py:405
+#: gcompris.py:409
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Kalėdoms pasiūlykite „GCompris“ savo vaikams."
 
@@ -751,10 +751,15 @@ msgstr ""
 "įsidiegti programėlę rankiniu būdu."
 
 #: template/downloads.html:72
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+"signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
 "Įrenginiams, kuriuose veikia 4.1–8.0 versijos „Android“, paskutinė "
 "suderinama versija yra <a href= \"https://gcompris.net/download/qt/android/"

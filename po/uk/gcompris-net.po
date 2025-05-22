@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-28 01:59+0000\n"
+"POT-Creation-Date: 2025-05-22 02:03+0000\n"
 "PO-Revision-Date: 2025-04-28 08:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -541,7 +541,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Юрій Чорноіван"
 
-#: gcompris.py:405
+#: gcompris.py:409
 msgid "For Christmas, offer GCompris to your children."
 msgstr "У Різдво подаруйте вашим дітям GCompris."
 
@@ -770,10 +770,15 @@ msgstr ""
 "його на ваш пристрій вручну."
 
 #: template/downloads.html:72
+#, fuzzy
+#| msgid ""
+#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
+#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+#| "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+"signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
 "Для пристроїв під керуванням версій Android від 4.1 до 8.0 останньою "
 "сумісною версією є <a href= \"https://gcompris.net/download/qt/android/"
