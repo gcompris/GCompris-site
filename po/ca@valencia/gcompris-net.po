@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-05-22 02:03+0000\n"
-"PO-Revision-Date: 2025-04-28 09:55+0200\n"
+"PO-Revision-Date: 2025-05-22 09:23+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -754,11 +754,6 @@ msgstr ""
 "instal·lar-la de forma manual en el dispositiu."
 
 #: template/downloads.html:72
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -766,7 +761,7 @@ msgid ""
 msgstr ""
 "Per als dispositius que tenen Android 4.1 fins al 8.0, l'última versió "
 "compatible és <a href= \"https://gcompris.net/download/qt/android/GCompris-"
-"Android-release-signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+"Android-release-signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 
 #: template/downloads.html:73
 msgid ""
@@ -847,7 +842,7 @@ msgid ""
 "on gcompris-qt.sh."
 msgstr ""
 "Finalment, per a iniciar «gcompris», aneu cap a la carpeta nova, dins de la "
-"carpeta «bin» i feu doble clic en «gcompris-qt.sh»."
+"carpeta «bin» i feu doble clic damunt «gcompris-qt.sh»."
 
 #: template/downloads.html:119
 msgid ""
@@ -1189,7 +1184,7 @@ msgstr "Últimes notícies"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr "Fes clic o toca"
+msgstr "Clica o toca"
 
 #: template/index.html:97
 msgid "Identify colors"
@@ -1217,7 +1212,7 @@ msgstr "Jugar als escacs contra un amic"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr "Fer clic en una lletra en minúscula"
+msgstr "Clicar damunt d'una lletra en minúscula"
 
 #: template/index.html:147
 msgid "View all screenshots"
