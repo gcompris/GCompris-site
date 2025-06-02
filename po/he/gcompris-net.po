@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-05-22 02:03+0000\n"
-"PO-Revision-Date: 2025-04-16 08:07+0300\n"
+"PO-Revision-Date: 2025-06-01 22:06+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.04.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -63,6 +63,8 @@ msgid ""
 "ten's complement activities. This one helps the children to swap the numbers "
 "to easily compute a sum."
 msgstr ""
+"\\„חישוב עם המשלים לעשר\\” הוא המשך של הפעילויות הקיימות של משלים לעשר. "
+"הפעילות הזאת מסייעת לילדים להחליף את המספרים בקלות ולחשב סכום."
 
 #. list item
 msgctxt "20250130.html"
@@ -76,6 +78,8 @@ msgid ""
 "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
 "subtraction with the borrowing by regrouping method."
 msgstr ""
+"\\„חיסור במאונך\\”, דומה לפעילות החיסור אבל לחיסור עם שיטת ההשאלה על ידי "
+"קיבוץ מחדש."
 
 #. list item
 msgctxt "20250130.html"
@@ -158,73 +162,43 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
 
 #. news title
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Release GCompris 4.3"
 msgctxt "20250521.html"
 msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "השקת ג׳יקומפרי 4.3"
+msgstr "השקת ג׳יקומפרי 4.3.1 ו־25.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr "היום אנו משיקים את גרסה 25.0 של ג׳יקומפרי."
+msgstr "היום אנו משיקים את גרסה 25.1 של ג׳יקומפרי."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
 msgstr "מכילה תיקוני תקלות ושיפורים גרפיים במגוון פעילויות."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
 msgstr "מתורגמת במלואה לשפות הבאות:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
+msgstr "היא גם מתורגמת חלקית לשפות הבאות:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250521.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -233,18 +207,15 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"ניתן למצוא חבילות של הגרסה החדשה הזו לגנוּ/לינוּקס, חלונות, MacOS ורספברי פאי "
-"ב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">דף ההורדות</"
-"a>. עדכון זה יהיה זמין בקרוב בחנות Play של Android, המאגרים של F-Droid "
-"והחנות של חלונות/Windows."
+"ניתן למצוא חבילות של הגרסה החדשה הזו לגנוּ/לינוּקס, חלונות, רספברי פאי ו־"
+"macOSב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">דף "
+"ההורדות</a>. עדכון זה יהיה זמין בקרוב בחנות Play של Android, המאגרים של F-"
+"Droid והחנות של חלונות/Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Today we are releasing GCompris version 4.3."
 msgctxt "20250521.html"
 msgid "We are also releasing GCompris version 4.3.1."
-msgstr "היום אנו משיקים את גרסה 4.3 של ג׳יקומפרי."
+msgstr "היום אנו משיקים את גרסה 4.3.1 של ג׳יקומפרי."
 
 #. paragraph
 msgctxt "20250521.html"
@@ -252,11 +223,10 @@ msgid ""
 "This is a maintenance version for 32bit systems which only contains a few "
 "backported bug fixes."
 msgstr ""
+"זאת גרסת תחזוקה למערכות 32 סיביות שמכילה רק מספר מצומצם של תיקוני תקלות שהיה "
+"חשוב להטמיע גם בגרסאות ישנות."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250521.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
@@ -688,7 +658,7 @@ msgstr "דרישות מערכת: חלונות/Windows‏ 10 או 11"
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "אנחנו מספקים גם התקנת msi."
 
 #: template/downloads.html:32
 msgid ""
@@ -758,11 +728,6 @@ msgstr ""
 "אפשר גם להוריד ישירות חבילת apk מהאתר שלנו ולהתקין אותה ידנית על המכשיר שלך."
 
 #: template/downloads.html:72
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -770,7 +735,7 @@ msgid ""
 msgstr ""
 "הגרסה האחרונה התואמת מכשירי Android מגרסאות 4.1 עד 8.0 היא <a href= "
 "\"https://gcompris.net/download/qt/android/GCompris-Android-release-signed-"
-"aligned-armeabi-v7a-dl-4.3.apk\">ג׳יקומפרי 4.3</a>."
+"aligned-armeabi-v7a-dl-4.3.1.apk\">ג׳יקומפרי 4.3.1</a>."
 
 #: template/downloads.html:73
 msgid ""
