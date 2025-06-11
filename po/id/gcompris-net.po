@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-22 02:03+0000\n"
+"POT-Creation-Date: 2025-06-11 02:09+0000\n"
 "PO-Revision-Date: 2023-02-13 12:24+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -747,7 +747,7 @@ msgstr "Android"
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Versi untuk Android didistribusikan di Play Store."
 
-#: template/downloads.html:60
+#: template/downloads.html:61
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -756,7 +756,7 @@ msgstr ""
 "Kami mendukung Android 32bit dan 64bit dari Play Store. Versi yang sesuai "
 "diunduh secara otomatis tergantung pada sistem operasi Android Anda."
 
-#: template/downloads.html:62
+#: template/downloads.html:63
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -764,7 +764,7 @@ msgstr ""
 "GCompris juga tersedia dari F-Droid, gudang aplikasi Android Gratis dan "
 "Sumber Terbuka."
 
-#: template/downloads.html:67
+#: template/downloads.html:68
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -772,7 +772,7 @@ msgstr ""
 "Anda juga dapat langsung mengunduh apk dari situs web kami untuk "
 "menginstalnya secara manual di perangkat Anda."
 
-#: template/downloads.html:72
+#: template/downloads.html:74
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -788,7 +788,7 @@ msgstr ""
 "GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
 "0.81</a>."
 
-#: template/downloads.html:73
+#: template/downloads.html:75
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -799,31 +799,31 @@ msgstr ""
 "GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris "
 "0.81</a>."
 
-#: template/downloads.html:84
+#: template/downloads.html:86
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:88
+#: template/downloads.html:90
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:89
+#: template/downloads.html:91
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "Selain itu, Anda dapat mengunduh penginstal dari tautan di bawah ini."
 
-#: template/downloads.html:90
+#: template/downloads.html:92
 msgid "Built and tested on macOS 10.13."
 msgstr "Dibangun dan diuji pada macOS 10.13."
 
-#: template/downloads.html:103
+#: template/downloads.html:105
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:107
+#: template/downloads.html:109
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -831,7 +831,7 @@ msgstr ""
 "Anda dapat memeriksa apakah distribusi Anda menyediakan paket untuk versi "
 "terbaru GCompris."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -839,11 +839,11 @@ msgstr ""
 "Kami juga menyediakan paket tersendiri untuk GNU/Linux. Mereka seharusnya "
 "berkerja pada distribusi terkini apa saja."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:112 template/downloads.html:148
+#: template/downloads.html:114 template/downloads.html:151
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -851,7 +851,7 @@ msgstr ""
 "Untuk menggunakannya, buka terminal di folder tempat di mana kamu mengunduh "
 "pemasang dan jalankan perintah ini:"
 
-#: template/downloads.html:117 template/downloads.html:153
+#: template/downloads.html:119 template/downloads.html:156
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -860,7 +860,7 @@ msgstr ""
 "pertanyaan, dan perangkat lunak akan diinstal di folder baru di sebelah "
 "pemasang."
 
-#: template/downloads.html:118 template/downloads.html:154
+#: template/downloads.html:120 template/downloads.html:157
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -868,7 +868,7 @@ msgstr ""
 "Teraqir, untuk meluncurkan gcompris, masuk ke folder baru, di bin, dan klik "
 "dua kali pada gcompris-qt.sh."
 
-#: template/downloads.html:119
+#: template/downloads.html:121
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -882,7 +882,7 @@ msgstr ""
 "file konfigurasi (dalam ~/.config/gcompris-qt/gcompris-qt.conf): temukan "
 "baris renderer=auto, ganti auto dengan software dan simpan file."
 
-#: template/downloads.html:120
+#: template/downloads.html:122
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -892,51 +892,51 @@ msgstr ""
 "org/apps/details/org.kde.gcompris\">Flathub</a> atau dari <a href=\"https://"
 "snapcraft.io/gcompris\">toko Snap</a>."
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:135
+#: template/downloads.html:137
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Kami menyediakan paket tersendiri untuk Raspberry Pi."
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Itu diuji hanya pada Raspberry Pi 3."
 
-#: template/downloads.html:143
+#: template/downloads.html:146
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:164
+#: template/downloads.html:167
 msgid "Source code"
 msgstr "Kode sumber"
 
-#: template/downloads.html:168
+#: template/downloads.html:171
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Kode sumber tersedia dibawah lisensi AGPLv3."
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 dan GPG"
 
-#: template/downloads.html:185
+#: template/downloads.html:189
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -944,7 +944,7 @@ msgstr ""
 "Untuk memeriksa integritas unduhan Anda, Anda bisa mendapatkan hash SHA-256 "
 "asli dari file dengan menambahkan \".sha256\" di akhir url unduhannya."
 
-#: template/downloads.html:186
+#: template/downloads.html:190
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -956,7 +956,7 @@ msgstr ""
 "Tarbal sumber dan penginstal Linux ditandatangani dengan kunci GPG dari "
 "Timothée Giet (kunci publik: %(public_gpg_key)s)"
 
-#: template/downloads.html:188
+#: template/downloads.html:193
 msgid "sig files:"
 msgstr "berkas sig:"
 

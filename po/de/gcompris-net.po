@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-22 02:03+0000\n"
+"POT-Creation-Date: 2025-06-11 02:09+0000\n"
 "PO-Revision-Date: 2022-04-15 05:05+0200\n"
 "Last-Translator: Lars Vogdt <lars@linux-schulserver.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -776,7 +776,7 @@ msgstr "Android"
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Die Version für Android wird im Play Store vertrieben."
 
-#: template/downloads.html:60
+#: template/downloads.html:61
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -786,7 +786,7 @@ msgstr ""
 "entsprechende Version wird abhängig von Ihrem Android-Betriebssystem "
 "automatisch heruntergeladen."
 
-#: template/downloads.html:62
+#: template/downloads.html:63
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -794,7 +794,7 @@ msgstr ""
 "Sie erhalten GCompris ebenfalls in F-Droid, dem Anwendungsarchiv für Freie- "
 "und Open-Source-Software."
 
-#: template/downloads.html:67
+#: template/downloads.html:68
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -802,7 +802,7 @@ msgstr ""
 "Sie können die apk-Datei auch direkt von unserer Webseite herunterladen, um "
 "sie manuell auf Ihrem Gerät zu installieren."
 
-#: template/downloads.html:72
+#: template/downloads.html:74
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -817,7 +817,7 @@ msgstr ""
 "<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:73
+#: template/downloads.html:75
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -827,17 +827,17 @@ msgstr ""
 "<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:84
+#: template/downloads.html:86
 msgid "macOS"
 msgstr "MacOS"
 
-#: template/downloads.html:88
+#: template/downloads.html:90
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:89
+#: template/downloads.html:91
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
@@ -845,15 +845,15 @@ msgstr ""
 "Alternativ können Sie das Installationsprogramm von den folgenden "
 "Verknüpfungen herunterladen."
 
-#: template/downloads.html:90
+#: template/downloads.html:92
 msgid "Built and tested on macOS 10.13."
 msgstr "Erstellt und getestet auf MacOS 10.13."
 
-#: template/downloads.html:103
+#: template/downloads.html:105
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:107
+#: template/downloads.html:109
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -861,7 +861,7 @@ msgstr ""
 "Sie können überprüfen, ob Ihre Distribution ein Paket für die neueste "
 "Version von GCompris enthält."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -869,11 +869,11 @@ msgstr ""
 "Wir bieten eigenständige Pakete für GNU/Linux. Sie sollten auf allen "
 "aktuellen Distributionen funktionieren."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:112 template/downloads.html:148
+#: template/downloads.html:114 template/downloads.html:151
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -881,7 +881,7 @@ msgstr ""
 "Um diese zu nutzen, öffnen Sie ein Terminal in dem Ordner, in den Sie die "
 "Installationsdatei heruntergeladen haben, und nutzen Sie diese Kommandos:"
 
-#: template/downloads.html:117 template/downloads.html:153
+#: template/downloads.html:119 template/downloads.html:156
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -890,7 +890,7 @@ msgstr ""
 "Sie die Fragen mit yes und die Software wird in einem neuen Ordner neben der "
 "Installationsdatei installiert."
 
-#: template/downloads.html:118 template/downloads.html:154
+#: template/downloads.html:120 template/downloads.html:157
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -898,7 +898,7 @@ msgstr ""
 "Gehen Sie anschließend in den neuen Ordner, in bin/ und klicken Sie doppelt "
 "auf gcompris-qt.sh, um gcompris zu starten."
 
-#: template/downloads.html:119
+#: template/downloads.html:121
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -913,7 +913,7 @@ msgstr ""
 "conf): Finden sie die Zeile renderer=auto , ersetzen Sie auto mit software "
 "und speichern Sie die Datei."
 
-#: template/downloads.html:120
+#: template/downloads.html:122
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -923,51 +923,51 @@ msgstr ""
 "details/org.kde.gcompris\">Flathub</a> oder vom <a href=\"https://snapcraft."
 "io/gcompris\">Snap store</a> installieren."
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:135
+#: template/downloads.html:137
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Wir bieten eigenständige Pakete für Raspberry Pi."
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Sie wurden nur auf dem Raspberry Pi 3 getestet."
 
-#: template/downloads.html:143
+#: template/downloads.html:146
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:164
+#: template/downloads.html:167
 msgid "Source code"
 msgstr "Quelltext"
 
-#: template/downloads.html:168
+#: template/downloads.html:171
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Der Quelltext ist unter der Lizenz AGPLv3 verfügbar."
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 und GPG"
 
-#: template/downloads.html:185
+#: template/downloads.html:189
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -976,7 +976,7 @@ msgstr ""
 "SHA-256 Checksumme der Datei herunterladen, indem sie \".sha256\" am Ende "
 "der Download-URL anhängen."
 
-#: template/downloads.html:186
+#: template/downloads.html:190
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -989,7 +989,7 @@ msgstr ""
 "Schlüssel von Timothée Giet signiert (öffentlicher Schlüssel: "
 "%(public_gpg_key)s)"
 
-#: template/downloads.html:188
+#: template/downloads.html:193
 msgid "sig files:"
 msgstr "Signatur-Dateien:"
 

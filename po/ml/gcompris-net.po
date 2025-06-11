@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-22 02:03+0000\n"
+"POT-Creation-Date: 2025-06-11 02:09+0000\n"
 "PO-Revision-Date: 2024-06-06 12:09+0200\n"
 "Last-Translator: Aiswarya Kaitheri Kandoth <aiswaryakk29@gmail.com>\n"
 "Language-Team: Malayalam <kde-i18n-doc@kde.org>\n"
@@ -795,7 +795,7 @@ msgstr ""
 "ഫോണ്ട് ഇൻസ്റ്റാൾ ചെയ്താൽ മാത്രമേ അത് തെരഞ്ഞെടുക്കാൻ കഴിയൂ).<br/><br/>ആൻഡ്രോയ്ഡ് പതിപ്പ് പ്ലേ "
 "സ്റ്റോറിലും വിതരണം ചെയ്തിട്ടുണ്ട്."
 
-#: template/downloads.html:60
+#: template/downloads.html:61
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -805,7 +805,7 @@ msgstr ""
 "ഓപ്പറേറ്റിങ് സിസ്റ്റം ഏതാണെന്നതിനനുസരിച്ച് അനുയോജ്യമായ പതിപ്പ് ഓട്ടോമാറ്റിക്കായി ഡൗൺലോഡ് "
 "ചെയ്യപ്പെടും."
 
-#: template/downloads.html:62
+#: template/downloads.html:63
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -813,7 +813,7 @@ msgstr ""
 "ജികോംപ്രിയുടെ സമ്പൂർണ പതിപ്പ് സ്വതന്ത്രവും ഓപ്പൺ സോഴ്സുമായ ആൻഡ്രോയ്ഡ് ആപ്പുകളുടെ റെപ്പോസിറ്ററിയായ "
 "എഫ്-ഡ്രോയ്ഡിലും (F-Droid) ലഭ്യമാണ്."
 
-#: template/downloads.html:67
+#: template/downloads.html:68
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -821,7 +821,7 @@ msgstr ""
 "ഞങ്ങളുടെ വെബ്സൈറ്റിൽ നിന്നും നേരിട്ട് എപികെ ഡൗൺലോഡ് ചെയ്ത് മാന്വലായി താങ്കളുടെ ഫോണിൽ "
 "ഇൻസ്റ്റാൾ ചെയ്യുവാനും കഴിയും."
 
-#: template/downloads.html:72
+#: template/downloads.html:74
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -836,7 +836,7 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">ജികോംപ്രി 0.81</a> ആണ്."
 
-#: template/downloads.html:73
+#: template/downloads.html:75
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -846,31 +846,31 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">ജികോംപ്രി 0.81</a> ആണ്."
 
-#: template/downloads.html:84
+#: template/downloads.html:86
 msgid "macOS"
 msgstr "മാക്ഒയെസ്"
 
-#: template/downloads.html:88
+#: template/downloads.html:90
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:89
+#: template/downloads.html:91
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "അല്ലെങ്കിൽ, താഴെ കൊടുത്ത ലിങ്കുകളിൽ നിന്നും ഇൻസ്റ്റാളർ ഡൗൺലോഡ് ചെയ്യാവുന്നതാണ്."
 
-#: template/downloads.html:90
+#: template/downloads.html:92
 msgid "Built and tested on macOS 10.13."
 msgstr "മാക്ഒയെസ് 10.13-ൽ ബിൽഡും ടെസ്റ്റും ചെയ്തത്."
 
-#: template/downloads.html:103
+#: template/downloads.html:105
 msgid "GNU/Linux"
 msgstr "ഗ്നൂ/ലിനക്സ്"
 
-#: template/downloads.html:107
+#: template/downloads.html:109
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -878,7 +878,7 @@ msgstr ""
 "ജികോംപ്രിയുടെ ഏറ്റവും പുതിയ പതിപ്പിനായുള്ള പാക്കേജ് താങ്കളുടെ ഡിസ്ട്രിബ്യൂഷനിൽ ഉണ്ടോ എന്നത് "
 "താങ്കൾക്കു പരിശോധിക്കാവുന്നതാണ്."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -891,11 +891,11 @@ msgstr ""
 "സ്വതന്ത്രമായ പാക്കേജുകളും ഞങ്ങൾ ലഭ്യമാക്കിയിട്ടുണ്ട്. സമീപകാലത്ത് പ്രകാശനം ചെയ്തിട്ടുള്ള ഏത് "
 "ഡിസ്ട്രിബ്യൂഷനിലും ഇത് പ്രവർത്തിക്കും."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:112 template/downloads.html:148
+#: template/downloads.html:114 template/downloads.html:151
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -903,7 +903,7 @@ msgstr ""
 "ഇതുപയോഗിക്കാൻ, താങ്കൾ ഇൻസ്റ്റാളർ ഡൗൺലോഡ് ചെയ്തിരിക്കുന്ന ഫോൾഡറിൽ ടെർമിനൽ തുറന്ന് ഈ "
 "കമാന്റുകൾ റൺ ചെയ്യുക:"
 
-#: template/downloads.html:117 template/downloads.html:153
+#: template/downloads.html:119 template/downloads.html:156
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -911,7 +911,7 @@ msgstr ""
 "എന്നിട്ട് ലൈസൻസ് പേജ് വായിക്കാം അല്ലെങ്കിൽ q അമർത്തി അത് ഒഴിവാക്കാം, ചോദ്യങ്ങൾക്ക് yes എന്ന് "
 "ഉത്തരം നല്കിയാൽ ഇൻസ്റ്റാളറിനടുത്ത് മറ്റൊരു പുതിയ ഫോൾഡറിൽ സോഫ്റ്റ്‌വെയർ ഇൻസ്റ്റാൾ ചെയ്യപ്പെടും."
 
-#: template/downloads.html:118 template/downloads.html:154
+#: template/downloads.html:120 template/downloads.html:157
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -919,7 +919,7 @@ msgstr ""
 "അവസാനമായി, ജികോംപ്രി ലോഞ്ച് ചെയ്യുവാനായി പുതിയ ഫോൾഡറിൽ പോയി, bin-ൽ, gcompris-qt.sh-"
 "ൽ ഡബിൾ ക്ലിക്ക് ചെയ്യുക."
 
-#: template/downloads.html:119
+#: template/downloads.html:121
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -933,7 +933,7 @@ msgstr ""
 "എഡിറ്റ് ചെയ്യലാണ് (~/.config/gcompris-qt/gcompris-qt.conf ൽ): renderer=auto "
 "എന്നുള്ള വരി കണ്ടെത്തുക, auto എന്നുള്ള സ്ഥാനത്ത് software എന്നാക്കി ഫയൽ സേവ് ചെയ്യുക."
 
-#: template/downloads.html:120
+#: template/downloads.html:122
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -943,23 +943,23 @@ msgstr ""
 "ഹബിൽ</a> നിന്നോ <a href=\"https://snapcraft.io/gcompris\">സ്നാപ് സ്റ്റോറിൽ</a> "
 "നിന്നോ ജികോംപ്രി ഇൻസ്റ്റാൾ ചെയ്യാവുന്നതാണ്."
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:135
+#: template/downloads.html:137
 msgid "Raspberry Pi"
 msgstr "റാസ്ബെറി പൈ"
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
@@ -971,29 +971,29 @@ msgstr ""
 "ഫോണ്ട് ഇൻസ്റ്റാൾ ചെയ്താൽ മാത്രമേ അത് തെരഞ്ഞെടുക്കാൻ കഴിയൂ).<br/><br/>റാസ്ബെറി പൈയ്ക്കു "
 "വേണ്ടി സ്വതന്ത്രമായ ഒരു പാക്കേജ് ഞങ്ങൾ ലഭ്യമാക്കിയിട്ടുണ്ട്."
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "ഇത് റാസ്ബെറി പൈ 3-ൽ മാത്രമേ ടെസ്റ്റു ചെയ്തിട്ടുള്ളു."
 
-#: template/downloads.html:143
+#: template/downloads.html:146
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:164
+#: template/downloads.html:167
 msgid "Source code"
 msgstr "സോഴ്സ് കോഡ്"
 
-#: template/downloads.html:168
+#: template/downloads.html:171
 msgid "The source code is available under the AGPLv3 license."
 msgstr "എജിപിഎൽ വി3 ലൈസൻസിൽ സോഴ്സ് കോഡ് ലഭ്യമാണ്."
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid "SHA-256 and GPG"
 msgstr "SHA-256-ഉം GPG-യും"
 
-#: template/downloads.html:185
+#: template/downloads.html:189
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -1001,7 +1001,7 @@ msgstr ""
 "താങ്കളുടെ ഡൗൺലോഡുകളുടെ സമഗ്രത പരിശോധിക്കാൻ, ഡൗൺലോഡ് url-ന്റെ അവസാനം \".sha256\" "
 "ചേർത്ത് ഫയലുകളുടെ യഥാർത്ഥ SHA-256 ഹാഷ് താങ്കൾക്കു ലഭിക്കും."
 
-#: template/downloads.html:186
+#: template/downloads.html:190
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -1013,7 +1013,7 @@ msgstr ""
 "സോഴ്സ് ടാർബോളും ലിനക്സ് ഇൻസ്റ്റാളറുകളും GPG കീ ഉപയോഗിച്ച് ടിമോത്തെ ജിയറ്റ് ഒപ്പു വെച്ചിരിക്കുന്നു "
 "(പബ്ലിക് കീ: %(public_gpg_key)s)"
 
-#: template/downloads.html:188
+#: template/downloads.html:193
 msgid "sig files:"
 msgstr "സിഗ്നേച്ചർ ഫയലുകൾ:"
 

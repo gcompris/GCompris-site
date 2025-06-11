@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-05-22 02:03+0000\n"
+"POT-Creation-Date: 2025-06-11 02:09+0000\n"
 "PO-Revision-Date: 2025-05-22 12:32+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -743,7 +743,7 @@ msgstr "Android"
 msgid "The version for Android is distributed in the Play Store."
 msgstr "De versie voor Android wordt gedistribueerd in de Play Store."
 
-#: template/downloads.html:60
+#: template/downloads.html:61
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -753,7 +753,7 @@ msgstr ""
 "toepassing zijnde versie wordt automatisch gedownload afhankelijk van uw "
 "Android besturingssysteem."
 
-#: template/downloads.html:62
+#: template/downloads.html:63
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -761,7 +761,7 @@ msgstr ""
 "GCompris is ook beschikbaar uit F-Droid, de vrije en opensource Android app "
 "opslagruimte."
 
-#: template/downloads.html:67
+#: template/downloads.html:68
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -769,7 +769,7 @@ msgstr ""
 "U kunt de toepassing ook direct downloaden van onze website om het handmatig "
 "op uw apparaat te installeren."
 
-#: template/downloads.html:72
+#: template/downloads.html:74
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -779,7 +779,7 @@ msgstr ""
 "versie <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
 "release-signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 
-#: template/downloads.html:73
+#: template/downloads.html:75
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -789,11 +789,11 @@ msgstr ""
 "versie <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
 "release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:84
+#: template/downloads.html:86
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:88
+#: template/downloads.html:90
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
@@ -801,21 +801,21 @@ msgstr ""
 "De laatste versie is nog niet beschikbaar op macOS vanwege gebrek aan "
 "infrastructuur om het te bouwen en te testen."
 
-#: template/downloads.html:89
+#: template/downloads.html:91
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
 "U kunt de laatste versie beschikbaar voor macOS met de onderstaande "
 "koppeling downloaden."
 
-#: template/downloads.html:90
+#: template/downloads.html:92
 msgid "Built and tested on macOS 10.13."
 msgstr "Gebouwd en getest op macOS 10.13."
 
-#: template/downloads.html:103
+#: template/downloads.html:105
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:107
+#: template/downloads.html:109
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -823,7 +823,7 @@ msgstr ""
 "U kunt controleren of uw distributie een pakket levert voor de laatste "
 "versie van GCompris."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -831,11 +831,11 @@ msgstr ""
 "We bieden ook alleenstaande pakketten voor GNU/Linux. Ze zouden moeten "
 "werken op elke recente distributie."
 
-#: template/downloads.html:108
+#: template/downloads.html:110
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr "Systeemvereisten: linux-kernel 4.18, glibc 2.28."
 
-#: template/downloads.html:112 template/downloads.html:148
+#: template/downloads.html:114 template/downloads.html:151
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -843,7 +843,7 @@ msgstr ""
 "Om het te gebruiken, open een terminal in de map waar u het "
 "installatieprogramma hebt gedownload en voer deze commando's uit:"
 
-#: template/downloads.html:117 template/downloads.html:153
+#: template/downloads.html:119 template/downloads.html:156
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -852,7 +852,7 @@ msgstr ""
 "op de vragen en de software zal geïnstalleerd worden in een nieuwe map naast "
 "het installatieprogramma."
 
-#: template/downloads.html:118 template/downloads.html:154
+#: template/downloads.html:120 template/downloads.html:157
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -860,7 +860,7 @@ msgstr ""
 "Tenslotte, om gcompris te starten, ga naar de nieuwe map, in bin, en dubbel-"
 "klik op gcompris-qt.sh."
 
-#: template/downloads.html:119
+#: template/downloads.html:121
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -875,7 +875,7 @@ msgstr ""
 "bewerken: zoek de regel renderer=auto , vervang auto door software en sla "
 "het bestand op."
 
-#: template/downloads.html:120
+#: template/downloads.html:122
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -885,7 +885,7 @@ msgstr ""
 "details/org.kde.gcompris\">Flathub</a> installeren of uit de <a href="
 "\"https://snapcraft.io/gcompris\">Snap store</a>."
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
@@ -893,26 +893,26 @@ msgstr ""
 "De laatste versie beschikbaar voor de 32-bits linux-distributie is te "
 "downloaden met de onderstaande koppeling."
 
-#: template/downloads.html:121
+#: template/downloads.html:123
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 "Systeemvereisten: linux-kernel 3.10, glibc 2.17, pulsaudio, gstreamer 1.0."
 
-#: template/downloads.html:135
+#: template/downloads.html:137
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "We leveren een alleenstaand pakket voor de Raspberry Pi (64 bits)."
 
-#: template/downloads.html:139
+#: template/downloads.html:141
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Het was alleen getest op Raspberry Pi 3."
 
-#: template/downloads.html:143
+#: template/downloads.html:146
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
@@ -920,19 +920,19 @@ msgstr ""
 "De laatste versie beschikbaar voor 32-bits is de versie 4.3 op de volgende "
 "koppeling:"
 
-#: template/downloads.html:164
+#: template/downloads.html:167
 msgid "Source code"
 msgstr "Broncode"
 
-#: template/downloads.html:168
+#: template/downloads.html:171
 msgid "The source code is available under the AGPLv3 license."
 msgstr "De broncode is beschikbaar onder de licentie AGPLv3."
 
-#: template/downloads.html:181
+#: template/downloads.html:185
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 en GPG"
 
-#: template/downloads.html:185
+#: template/downloads.html:189
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -941,7 +941,7 @@ msgstr ""
 "SHA-256 hash van de bestanden ophalen door \".sha256\" toe te voegen aan het "
 "eind van hun download url."
 
-#: template/downloads.html:186
+#: template/downloads.html:190
 #, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
@@ -951,7 +951,7 @@ msgstr ""
 "ondertekend met de GPG-sleutel van Timothée Giet (publieke sleutel: "
 "%(public_gpg_key)s)"
 
-#: template/downloads.html:188
+#: template/downloads.html:193
 msgid "sig files:"
 msgstr "sig-bestanden:"
 
