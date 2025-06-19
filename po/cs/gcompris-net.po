@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-11 02:09+0000\n"
-"PO-Revision-Date: 2025-01-22 17:02+0100\n"
+"PO-Revision-Date: 2025-06-16 18:59+0200\n"
 "Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
 "Language-Team: Czech <kde-i18n-cs@kde.org>\n"
 "Language: cs\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 25.03.70\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #. news title
 msgctxt "20250130.html"
@@ -177,39 +177,39 @@ msgstr "Díky všem, <br/>Timothée & Johnny"
 #. news title
 msgctxt "20250521.html"
 msgid "Release GCompris 25.1 and 4.3.1"
-msgstr ""
+msgstr "Vydání GCompris 25.1 a 4.3.1"
 
 #. paragraph
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr ""
+msgstr "Dnes vydáváme GCompris verze 25.1."
 
 #. paragraph
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
-msgstr ""
+msgstr "Obsahuje opravy chyb a grafická vylepšení v mnoha aktivitách."
 
 #. paragraph
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Je plně přeloženo do následujících jazyků:"
 
 #. list item
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Také je částečně přeloženo do následujících jazyků:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20250521.html"
@@ -220,11 +220,15 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
+"Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android a "
+"Raspberry Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě "
+"Google Play, repozitáři F-Droidu a obchodu Windows Store."
 
 #. paragraph
 msgctxt "20250521.html"
 msgid "We are also releasing GCompris version 4.3.1."
-msgstr ""
+msgstr "Dnes vydáváme GCompris verze 4.3.1."
 
 #. paragraph
 msgctxt "20250521.html"
@@ -232,11 +236,13 @@ msgid ""
 "This is a maintenance version for 32bit systems which only contains a few "
 "backported bug fixes."
 msgstr ""
+"Toto je údržbová verze pro 32 bitové systémy, která obsahuje pouze několik "
+"backportovaných oprav chyb."
 
 #. paragraph
 msgctxt "20250521.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -381,7 +387,7 @@ msgstr "Italština"
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "Gruzínský"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
@@ -668,7 +674,7 @@ msgstr "Systémové požadavky: Windows 10 nebo 11."
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "Také nabízíme instalátor msi."
 
 #: template/downloads.html:32
 msgid ""
@@ -741,11 +747,6 @@ msgstr ""
 "nainstalovat na vašem zařízení."
 
 #: template/downloads.html:74
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
