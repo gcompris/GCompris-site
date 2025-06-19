@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Vydání GCompris 25.1 a 4.3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Dnes vydáváme GCompris verze 25.1.</p>
+<p>Obsahuje opravy chyb a grafická vylepšení v mnoha aktivitách.</p>
+
+<p>Je plně přeloženo do následujících jazyků:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Také je částečně přeloženo do následujících jazyků:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android a Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě Google Play, repozitáři F-Droidu a obchodu Windows Store.</p>
+
+<p>Dnes vydáváme GCompris verze 4.3.1.</p>
+<p>Toto je údržbová verze pro 32 bitové systémy, která obsahuje pouze několik backportovaných oprav chyb.</p>
+
+<p>Díky všem, <br/>Timothée & Johnny</p>
+
+{% endblock %}
