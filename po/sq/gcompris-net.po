@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2025-02-02 21:30+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
@@ -1335,6 +1335,34 @@ msgstr "Krejt lajmet"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Italisht"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Lituanisht"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1346,7 +1374,7 @@ msgstr ""
 "Windows, Android, macOS), dhe mund të xhirojë në kompjuter jo shumë të "
 "fuqishëm."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1356,18 +1384,18 @@ msgstr ""
 "anembanë botës dhe ofron më shumë se 150 veprimtari, që mbulojnë fushat "
 "kryesore pedagogjike, përfshi:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "Mësoni si të përdorni një kompjuter"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Ushtrim në lexim me veprimtari për të mësuar shkronjat, fjalë dhe grupe "
 "leksikore"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1375,11 +1403,11 @@ msgstr ""
 "Fitim rrjedhshmërie në veprime matematike, duke praktikuar numërim, "
 "aritmetikë, njësi matëse dhe lojëra"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Njohje me botën përmes logjikës, arteve dhe muzikës"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1387,11 +1415,11 @@ msgstr ""
 "Eksplorim i shkencave ekzakte dhe atyre shoqërore, përmes eksperimentimit, "
 "historisë dhe gjeografisë"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "Zhvillim i të menduarit strategjik përmes lojërash me fusha"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1400,7 +1428,7 @@ msgstr ""
 "pajtohet fare strikt me Rregulloren e Përgjithshme të Mbrojtjes së të "
 "Dhënave të BE-së."
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1419,7 +1447,7 @@ msgstr ""
 "veprimtarinë për fëmijë që dinë të lexojnë vetëm numra, ose ta bëni më të "
 "vështirë, për fëmijë që dinë të lexojnë numra dhe fjalë."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1430,7 +1458,7 @@ msgstr ""
 "Ata do të jenë gjithashtu në gjendje të luajnë lojëra për të ushtruar "
 "aftësinë e tyre për zgjidhje problemesh."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

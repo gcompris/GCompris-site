@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2024-01-20 19:27+0200\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -1382,6 +1382,34 @@ msgstr "Όλα τα νέα"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Ιταλικά"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Λιθουανικά"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1393,7 +1421,7 @@ msgstr ""
 "Εκτελείται σε πολλά λειτουργικά συστήματα (GNU/Linux, Windows, Android, "
 "macOS), ακόμα και σε υπολογιστές με μικρή ισχύ (παλιούς)."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1403,18 +1431,18 @@ msgstr ""
 "παιδιά και σχολεία σε όλο τον κόσμο. Προσφέρει περισσότερες από 150 "
 "δραστηριότητες που καλύπτουν πολλές γνωστικές περιοχές. Περιλαμβάνει:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "Εκμάθηση χρήσης του υπολογιστή"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Εξάσκηση στην ανάγνωση με δραστηριότητες ανάγνωσης γραμμάτων, λέξεων και "
 "συνόλων λέξεων."
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1422,11 +1450,11 @@ msgstr ""
 "Απόκτηση προχωρημένων ικανοτήτων στα μαθηματικά με εξάσκηση στην αρίθμηση, "
 "τις πράξης, τις μετρήσεις και τα παζλ."
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Ανακάλυψη του κόσμου μέσω της λογικής, της τέχνης και της μουσικής."
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1434,11 +1462,11 @@ msgstr ""
 "Εξερεύνηση επιστημονικών πεδίων μέσω του πειραματισμού, της ιστορίας και της "
 "γεωγραφίας."
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "Ανάπτυξης στρατηγικής σκέψης με επιτραπέζια παιχνίδια."
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1447,7 +1475,7 @@ msgstr ""
 "και συμμορφώνεται πλήρως με τον Ευρωπαϊκό Γενικό Κανονισμό για την Προστασία "
 "Δεδομένων."
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1466,7 +1494,7 @@ msgstr ""
 "ρύθμισης για παιδιά που μπορούν να διαβάζουν μόνο αριθμούς, ή, για να γίνει "
 "δυσκολότερη, για παιδιά που διαβάζουν αριθμούς και λέξεις."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1477,7 +1505,7 @@ msgstr ""
 "ανθρωπιστικές). Θα μπορούν, επίσης, να παίξουν παιχνίδια στρατηγικής για να "
 "αναπτύξουν δεξιότητες στην επίλυση προβλημάτων."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2024-04-22 16:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -1149,6 +1149,34 @@ msgstr "所有新闻"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "意大利语"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "立陶宛语"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1158,7 +1186,7 @@ msgstr ""
 "发布的一个自由软件。 它是多平台 (GNU/Linux、Windows、Android、macOS) 的软件，"
 "可以在低性能电脑上运行。"
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1167,36 +1195,36 @@ msgstr ""
 "GCompris 二十多年来一直在世界各地的学校开展活动，开展了150多项涉及主要教学领"
 "域的活动，包括："
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "学习如何使用计算机"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr "以学习字母、单词和词汇集的活动进行阅读"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr "通过练习计算、算术、计数和拼图提高数学熟练度"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "通过逻辑、艺术和音乐探索世界"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr "通过实验、历史和地理探索科学和人文学"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "通过棋盘游戏开发战略思维。"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1204,7 +1232,7 @@ msgstr ""
 "GCompris 不需要互联网连接，不收集任何数据，因此严格遵守欧盟的《一般数据保护条"
 "例》(GDPR)。"
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1215,7 +1243,7 @@ msgid ""
 "harder for children who can read both numbers and words."
 msgstr ""
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1224,7 +1252,7 @@ msgstr ""
 "这个分级功能允许您向学生推荐培训练习，以练习数学、语言、科学和人文学。 他们还"
 "将能够玩战略游戏，训练他们解决问题的技能。"
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

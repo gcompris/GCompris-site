@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2025-01-05 23:54+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -1284,6 +1284,34 @@ msgstr "Ĉiuj novaĵoj"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Itala"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Litova"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1294,7 +1322,7 @@ msgstr ""
 "Publika Permesilo de GNU. Ĝi estas plurplatforma (GNU/Linukso, Vindozo, "
 "Android, macOS), kaj povas funkcii per malaltpotencaj komputiloj."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1303,18 +1331,18 @@ msgstr ""
 "GCompris ĉeestas dum pli ol dudek jaroj en lernejoj tutmonde kaj ofertas pli "
 "ol 150 agadojn kovrante la ĉefajn pedagogiajn domajnojn, inkluzive de:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "Lerni kiel uzi komputilon"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Praktikado de legado kun agadoj por lerni literojn, vortojn kaj leksikajn "
 "arojn"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1322,11 +1350,11 @@ msgstr ""
 "Akirante scipovon en matematiko per praktikado de numerado, aritmetiko, "
 "mezuroj kaj enigmoj"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Malkovrante la mondon per logiko, artoj kaj muziko"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1334,11 +1362,11 @@ msgstr ""
 "Esplorante sciencon kaj homsciencon per eksperimentado, historio kaj "
 "geografio"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "Disvolvante strategian pensadon per tabulludoj"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1346,7 +1374,7 @@ msgstr ""
 "GCompris ne postulas interretan konekton, ne kolektas datumojn, kaj do "
 "strikte plenumas la Ĝeneralan Regulon pri Protekto de Datumoj de EU."
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1364,7 +1392,7 @@ msgstr ""
 "infanoj, kiuj povas nur legi nombrojn aŭ malfaciligi ĝin por infanoj, kiuj "
 "povas legi kaj nombrojn kaj vortojn."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1374,7 +1402,7 @@ msgstr ""
 "praktiki matematikon, lingvon, sciencon kaj homsciencon. Ili ankaŭ povos "
 "ludi strategiajn ludojn por trejni siajn problemojn pri solvado."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

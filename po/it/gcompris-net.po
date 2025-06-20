@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2025-05-22 19:06+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -1302,6 +1302,34 @@ msgstr "Tutte le notizie"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Italiano"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Lituano"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1312,7 +1340,7 @@ msgstr ""
 "la GNU General Public License. È multipiattaforma (GNU/Linux, Windows, "
 "Android, macOS) e può essere eseguito su computer a bassa potenza."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1322,18 +1350,18 @@ msgstr ""
 "offre più di 150 attività che coprono i principali domini pedagogici, tra "
 "cui:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "Imparare a utilizzare un computer"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Esercitare la lettura con attività per imparare lettere, parole e insiemi "
 "lessicali"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1341,11 +1369,11 @@ msgstr ""
 "Acquisire competenza in matematica esercitando la numerazione, l'aritmetica, "
 "le misure e gli enigmi"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Alla scoperta del mondo attraverso la logica, le arti e la musica"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1353,11 +1381,11 @@ msgstr ""
 "Esplorare la scienza e le discipline umanistiche attraverso la "
 "sperimentazione, la storia e la geografia"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "Sviluppare il pensiero strategico con i giochi da tavolo"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1366,7 +1394,7 @@ msgstr ""
 "perciò strettamente conforme al regolamento generale sulla protezione dei "
 "dati dell'UE (GDPR)."
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1386,7 +1414,7 @@ msgstr ""
 "solo numeri o renderla più difficile per i bambini che sanno leggere sia "
 "numeri che parole."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1397,7 +1425,7 @@ msgstr ""
 "Saranno anche in grado di giocare a giochi strategici per allenare le loro "
 "capacità di risoluzione dei problemi."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

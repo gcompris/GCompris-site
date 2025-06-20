@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2024-09-02 18:23+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -1344,6 +1344,34 @@ msgstr "Visas ziņas"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Itāļu"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Lietuviešu"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1354,7 +1382,7 @@ msgstr ""
 "publisko licenci (GPL). „GCompris“ darbojas dažādās platformās („GNU/Linux“, "
 "„Windows“, „Android“, „MacOS“), kā arī darbojas uz mazāk jaudīgiem datoriem."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1364,18 +1392,18 @@ msgstr ""
 "piedāvā vairāk nekā 150 aktivitāšu no galvenajām pedagoģiskajām jomām, kuru "
 "starpā ir:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "Datora lietošanas apmācība"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Lasītprasmes attīstīšana ar aktivitātēm, kas ietver burtu, vārdu un leksikas "
 "kopu mācīšanos"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1383,11 +1411,11 @@ msgstr ""
 "Prasmju iegūšana matemātikā, mācoties skaitīt, aritmētiskās darbības, "
 "mērīšanu un uzdevumu risināšanu"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Pasaules atklāšana caur loģiku, mākslu un mūziku"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1395,11 +1423,11 @@ msgstr ""
 "Dabaszinību un humanitāro zinību izpēte caur eksperimentiem, vēsturi un "
 "ģeogrāfiju"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "Stratēģiskās domāšanas attīstīšana caur galda spēlēm"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1407,7 +1435,7 @@ msgstr ""
 "„GCompris“ nav nepieciešams interneta savienojums, tas nevāc nekādus datus "
 "un stingri ievēro ES Vispārējo datu aizsardzības regulu."
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1425,7 +1453,7 @@ msgstr ""
 "starp bērniem, kuri prot lasīt tikai skaitļus, un bērniem, kuri prot lasīt "
 "gan skaitļus, gan vārdus."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1435,7 +1463,7 @@ msgstr ""
 "valodu, dabaszinības un humanitārās zinības. Tāpat bērniem ir iespēja spēlēt "
 "stratēģiskas spēles, lai attīstītu problēmrisināšanas prasmes."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

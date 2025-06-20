@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2021-05-22 20:58+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -1262,6 +1262,28 @@ msgstr "모든 뉴스"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+msgid "Italy"
+msgstr ""
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+msgid "Lithuania"
+msgstr ""
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1272,7 +1294,7 @@ msgstr ""
 "안드로이드, macOS 등 다중 플랫폼을 지원하며 저사양 컴퓨터에서도 실행할 수 있"
 "습니다."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1281,36 +1303,36 @@ msgstr ""
 "GCompris는 전 세계의 학교에서 20년 이상 사용되어 왔으며 교육 관련 150가지 이"
 "상의 활동을 제공합니다:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "컴퓨터 사용법 익히기"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr "글자, 단어, 문장 읽기 연습"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr "숫자, 연산, 측정, 퍼즐을 통한 수학 익히기"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "논리, 예술, 음악으로 세상 탐험하기"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr "실험, 역사, 지리를 통해서 과학과 인문학 익히기"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "보드 게임으로 전략적으로 사고하기"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1318,7 +1340,7 @@ msgstr ""
 "GCompris는 인터넷에 연결되어 있지 않아도 작동하며, 데이터를 수집하지 않으므"
 "로 EU GDPR의 조건에 합치합니다."
 
-#: template/schools.html:26
+#: template/schools.html:34
 #, fuzzy
 #| msgid ""
 #| "GCompris 1.0 lets educators select the level of activities according to "
@@ -1343,7 +1365,7 @@ msgstr ""
 "자를 읽을 수 있는 어린이에게만 점수를 매기거나 숫자와 단어를 읽을 수 있는 어"
 "린이에게 더 어려운 문제를 출제하도록 설정할 수 있습니다."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1352,7 +1374,7 @@ msgstr ""
 "단계 기능을 사용하여 학생들이 수학, 언어, 과학, 인문학을 익힐 수 있는 연습을 "
 "조정할 수 있습니다. 전략 게임으로 문제 풀이 기법을 연습할 수 있습니다."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

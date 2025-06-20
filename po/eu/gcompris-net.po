@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2025-05-28 21:20+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -1290,6 +1290,34 @@ msgstr "Albiste guztiak"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Italiera"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Lituaniera"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1300,7 +1328,7 @@ msgstr ""
 "jaurtitako Software Askea da. Plataforma anitzekoa da (GNU/Linux, Windows, "
 "Android, macOS) eta potentzia txikiko ordenagailuetan ibil daiteke."
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1310,18 +1338,18 @@ msgstr ""
 "jarduera baino gehiago eskaintzen ditu arlo pedagogiko nagusiak betetzeko, "
 "besteak beste:"
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "Ordenagailu bat erabiltzen ikastea"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr ""
 "Letrak, hitzak eta multzo lexikoak ikasteko jarduerekin irakurketa "
 "praktikatzea"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
@@ -1329,11 +1357,11 @@ msgstr ""
 "Matematikan gaitasuna lortzea zenbakitzea, aritmetika, neurriak eta buru-"
 "hausgarriak praktikatuz"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "Mundua logikaren, arteen eta musikaren bidez ezagutzea"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
@@ -1341,11 +1369,11 @@ msgstr ""
 "Zientzia eta giza zientziak esperimentazioaren, historiaren eta geografiaren "
 "bidez esploratzea"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "Pentsamendu estrategikoa mahai-jokoekin garatzea"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1354,7 +1382,7 @@ msgstr ""
 "biltzen eta, beraz, zorrotz betetzen du EBeko Datuak Babesteko Erregelamendu "
 "Orokorra."
 
-#: template/schools.html:26
+#: template/schools.html:34
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1373,7 +1401,7 @@ msgstr ""
 "ditzaketen haurrentzako mailakatu dezakezu, edo zenbakiak eta hitzak irakur "
 "ditzaketen haurrentzat zailagoa egin."
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1384,7 +1412,7 @@ msgstr ""
 "aukera eskaintzen dizu. Problemak ebazteko trebetasunak lantzeko, "
 "estrategiazko jokoekin ere jolastu ahal izango dira."
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "

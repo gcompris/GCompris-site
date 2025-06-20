@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-11 02:09+0000\n"
+"POT-Creation-Date: 2025-06-20 01:58+0000\n"
 "PO-Revision-Date: 2024-05-08 13:02+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -1251,6 +1251,34 @@ msgstr "所有消息"
 
 #: template/schools.html:13
 msgid ""
+"GCompris is officially recommended for teachers in the following countries "
+"and states:"
+msgstr ""
+
+#: template/schools.html:15
+msgid "France"
+msgstr ""
+
+#: template/schools.html:16
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Italian"
+msgid "Italy"
+msgstr "義大利語"
+
+#: template/schools.html:17
+msgid "Kerala"
+msgstr ""
+
+#: template/schools.html:18
+#, fuzzy
+#| msgctxt "language name, item list"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "立陶宛語"
+
+#: template/schools.html:21
+msgid ""
 "GCompris is an e-learning tool to provide training exercises within and "
 "outside the classroom. It is a Free Software released under the GNU General "
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
@@ -1260,7 +1288,7 @@ msgstr ""
 "GNU GPL 授權釋出。它支援多種平台（GNU/Linux、Windows、Android、macOS 等），也"
 "可以在低階的電腦上運作。"
 
-#: template/schools.html:14
+#: template/schools.html:22
 msgid ""
 "GCompris has been present for over twenty years in schools worldwide and "
 "offers more than 150 activities covering the main pedagogical domains, "
@@ -1269,36 +1297,36 @@ msgstr ""
 "GCompris 在世界各地的學校被廣泛使用已經有 20 多年的歷史，並提供涵蓋主要教學領"
 "域的 150 多項活動，包括："
 
-#: template/schools.html:16
+#: template/schools.html:24
 msgid "Learning how to use a computer"
 msgstr "學習如何使用電腦"
 
-#: template/schools.html:17
+#: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
 msgstr "練習閱讀、學習字母、單字與詞彙集"
 
-#: template/schools.html:18
+#: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr "透過練習計數、數學運算、測量與解謎等來熟悉數學"
 
-#: template/schools.html:19
+#: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
 msgstr "透過邏輯、藝術與音樂來探索世界"
 
-#: template/schools.html:20
+#: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr "透過實驗、歷史與地理來探索科學與人文"
 
-#: template/schools.html:21
+#: template/schools.html:29
 msgid "Developing strategic thinking with board games"
 msgstr "透過遊戲來發展策略思維"
 
-#: template/schools.html:24
+#: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
@@ -1306,7 +1334,7 @@ msgstr ""
 "GCompris 不需要網際網路連線也可以玩，不會收集任何資料，並且嚴格遵循歐盟的通用"
 "資料保護規範（GDPR）。"
 
-#: template/schools.html:26
+#: template/schools.html:34
 #, fuzzy
 #| msgid ""
 #| "GCompris 1.0 lets educators select the level of activities according to "
@@ -1330,7 +1358,7 @@ msgstr ""
 "的關卡。或者在孩子必須按時間順序排列圖片的活動中，您可以為只能閱讀數字的孩子"
 "對活動進行評分，或者讓既能閱讀數字又能閱讀單詞的孩子進行較困難的關卡。"
 
-#: template/schools.html:29
+#: template/schools.html:37
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1339,7 +1367,7 @@ msgstr ""
 "這個評分功能能讓您針對學生程度提出不同的訓練計畫，讓學生們練習數學、語言、科"
 "學和人文學科。他們也能透過思考玩遊戲的策略來訓練他們解決問題的能力。"
 
-#: template/schools.html:31
+#: template/schools.html:39
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
