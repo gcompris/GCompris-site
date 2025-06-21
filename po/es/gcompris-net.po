@@ -5,10 +5,10 @@
 # SPDX-FileCopyrightText: 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: gcompris website\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-20 01:58+0000\n"
-"PO-Revision-Date: 2025-05-22 12:26+0100\n"
+"PO-Revision-Date: 2025-06-20 20:25+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 25.04.1\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 # news title
 #. news title
@@ -1306,28 +1306,24 @@ msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
 msgstr ""
+"GCompris está oficialmente recomendado para profesores en los siguientes "
+"países y estados:"
 
 #: template/schools.html:15
 msgid "France"
-msgstr ""
+msgstr "Francia"
 
 #: template/schools.html:16
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Italian"
 msgid "Italy"
-msgstr "italiano"
+msgstr "Italia"
 
 #: template/schools.html:17
 msgid "Kerala"
-msgstr ""
+msgstr "Kerala"
 
 #: template/schools.html:18
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Lithuanian"
 msgid "Lithuania"
-msgstr "lituano"
+msgstr "Lituania"
 
 #: template/schools.html:21
 msgid ""
