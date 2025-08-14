@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-20 01:58+0000\n"
-"PO-Revision-Date: 2025-08-09 16:10+0400\n"
+"PO-Revision-Date: 2025-08-13 21:16+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -653,7 +653,7 @@ msgstr "ملاحظة: يتطلب متجر ويندوز نظام التشغيل �
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr "عدا ذلك ، يمكنك تنزيل برنامج التثبيت من الروابط أدناه."
+msgstr "عدا ذلك، يمكنك تنزيل برنامج التثبيت من الروابط أدناه."
 
 #: template/downloads.html:24
 msgid "System requirements: Windows 10 or 11."
@@ -669,9 +669,9 @@ msgid ""
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"ملاحظة: إذا نظامك لا يدعم Direct3D 11 أو لا يعمل بشكل صحيح، فيرجى استخدام "
-"خيار GCompris (الوضع الآمن) في قائمة ابدأ لتشغيل GCompris باستخدام وضع عرض "
-"البرنامج."
+"ملاحظة: إذا نظامك لا يتعامل مع Direct3D 11 أو لا يعمل بشكل صحيح، فيرجى "
+"استخدام خيار GCompris (الوضع الآمن) في قائمة ابدأ لتشغيل GCompris باستخدام "
+"وضع عرض البرنامج."
 
 #: template/downloads.html:33
 msgid ""
@@ -688,7 +688,7 @@ msgid ""
 "GCompris 15.10."
 msgstr ""
 "إذا كنت حقًا بحاجة إلى إصدار يعمل على نظام التشغيل Windows XP، أو إذا كان "
-"نظامك لا يدعم الإصدار الجديد، فاستخدم آخر نسخة من \"فهمت\" 15.10 القديم."
+"نظامك لا يتيح تركيب الإصدار الجديد، فاستخدم مثبت \"فهمت\" 15.10 القديم."
 
 #: template/downloads.html:42
 msgid ""
@@ -713,7 +713,7 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
-"نحن ندعم كلاً من نظام التشغيل أندرويد 32بت و 64 بت من متجر Play. سيُنزّل "
+"نحن نوفر كلاً من نظام التشغيل أندرويد 32بت و 64 بت في متجر Play. سيُنزّل "
 "الإصدار المناسب آليًّا اعتمادًا على نظامك أندرويد الخاص بك."
 
 #: template/downloads.html:63
@@ -738,9 +738,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
-"بالنسبة للأجهزة التي تعمل بنظام أندرويد 4.1 إلى 8.0 ، فإن آخر إصدار متوافق "
-"هو <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
-"release-signed-aligned-armeabi-v7a-dl-4.3.1.apk\">فهمت 4.3.1</a>."
+"بالنسبة للأجهزة التي تعمل بنظام أندرويد 4.1 إلى 8.0، فإن آخر إصدار متوافق هو "
+"<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.1.apk\">فهمت 4.3.1</a>."
 
 #: template/downloads.html:75
 msgid ""
@@ -748,9 +748,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
-"بالنسبة للأجهزة التي تعمل بنظام أندرويد 2.3 إلى 4.0 ، فإن آخر إصدار متوافق "
-"هو <a href= \"https://gcompris.net/download/qt/android/GCompris-Android-"
-"release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
+"بالنسبة للأجهزة التي تعمل بنظام أندرويد 2.3 إلى 4.0، فإن آخر إصدار متوافق هو "
+"<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
 #: template/downloads.html:86
 msgid "macOS"
@@ -797,7 +797,7 @@ msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 msgstr ""
-"لاستخدامه ، افتح طرفية في المجلد حيث نزلت برنامج التثبيت ونفّذ هذه الأوامر:"
+"لاستخدامه، افتح طرفية في المجلد حيث نزلت برنامج التثبيت ونفّذ هذه الأوامر:"
 
 #: template/downloads.html:119 template/downloads.html:156
 msgid ""
@@ -812,7 +812,7 @@ msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"أخيرًا ، لبدء تشغيل \"فهمت\"، انتقل إلى المجلد الجديد، في bin، وانقر نقرًا "
+"أخيرًا، لبدء تشغيل \"فهمت\"، انتقل إلى المجلد الجديد، في bin، وانقر نقرًا "
 "مزدوجًا على gcompris-qt.sh."
 
 #: template/downloads.html:121
@@ -823,10 +823,10 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
-"ملاحظة: إذا كان نظامك لا يدعم OpenGL2 أو لا يعمل بشكل صحيح، فاستخدم الخيار  "
+"ملاحظة: إذا كان نظامك لا يوفر OpenGL2 أو لا يعمل بشكل صحيح، فاستخدم الخيار  "
 "\"--software-renderer\" في الطرفية في نهاية الأمر   gcompris-qt.sh. أو "
 "بطريقة أخرى، حرّر ملف الإعدادات  (في ~/.config/gcomprs-qt/gcompris-qt.conf): "
-"ابحث عن السطرline renderer=auto , استبدل كلمة auto بكلمة software واحفظ "
+"ابحث عن السطر line renderer=auto , استبدل كلمة auto بكلمة software واحفظ "
 "الملف."
 
 #: template/downloads.html:122
@@ -1214,7 +1214,7 @@ msgstr "الألعاب: الشطرنج، الذاكرة، محاذاة 4، ال�
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr "أخرى: الألوان ، الأشكال ، برايل ، تعلم معرفة الوقت ..."
+msgstr "أخرى: الألوان، الأشكال، برايل، تعلم معرفة الوقت ..."
 
 #: template/index.html:165
 msgid ""
