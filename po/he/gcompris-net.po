@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-20 01:58+0000\n"
-"PO-Revision-Date: 2025-07-16 15:20+0300\n"
+"PO-Revision-Date: 2025-08-29 12:55+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -210,7 +210,7 @@ msgid ""
 "Windows store."
 msgstr ""
 "ניתן למצוא חבילות של הגרסה החדשה הזו לגנוּ/לינוּקס, חלונות, רספברי פאי ו־"
-"macOSב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">דף "
+"macOSב־<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">עמוד "
 "ההורדות</a>. עדכון זה יהיה זמין בקרוב בחנות Play של Android, המאגרים של F-"
 "Droid והחנות של חלונות/Windows."
 
@@ -552,7 +552,7 @@ msgstr "שו״ת"
 
 #: template/base.html:83
 msgid "Contribute"
-msgstr "לתרום"
+msgstr "להתנדב"
 
 #: template/base.html:117
 #, python-format
@@ -566,35 +566,35 @@ msgstr "האתר תורגם ע״י %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
-msgstr "ג׳יקומפרי לחג המולד"
+msgstr "ג׳יקומפרי לראש השנה"
 
 #: template/christmas.html:15
 msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
-"לחג המולד, תוכל להציע את Gcompris לילדיך, זה חופשי וייתן להם/ן שעות של כיף "
-"חינוכי."
+"לראש השנה, אפשר להציע לילדיך להשתמש בג׳יקומפרי, זה חופשי ומספק שעות של הנאה "
+"חינוכית."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr "להוריד את ג'יקומפריס מדף ההורדות"
+msgstr "להוריד את ג׳יקומפרי מעמוד ההורדות"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr "להוריד את ג'יקומפריס מה־Play Store"
+msgstr "להוריד את ג׳יקומפרי מחנות Play"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr "להוריד את ג'יקומפריס מחנות של הווינדוז"
+msgstr "להוריד את ג׳יקומפרי מחנות Windows"
 
 #: template/donate.html:13
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"את/ה, ילדיך או בית הספר שלך אוהבים את GCompris. תוכל/י לתמוך בפרוייקט "
-"באמצעות תרומה."
+"את או אתה, ילדיך, ילדייף או בית הספר שלך אוהבים את ג׳יקומפרי. אפשר לתמוך "
+"במיזם כלכלית."
 
 #: template/donate.html:14
 msgid ""
@@ -607,8 +607,8 @@ msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
 msgstr ""
-"אם ברצונך לתמוך בפיתוח של GCompris באופן בר-קיימא, אנא הפוך/היפכי "
-"ל'פּטרוֹן' (מלווה) של GCompris ב־Patreon:"
+"כדי לתמוך בפיתוח של ג׳יקומפרי באופן רציף, נא להירשם כ‚פּטרוֹן’ (מלווה) של "
+"ג׳יקומפרי ב־Patreon:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
@@ -616,7 +616,7 @@ msgstr "להפוך לפּטרוֹן (מלווה קבוע)"
 
 #: template/donate.html:21
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "כמו-כן, ניתן לתרום סכום לפי ראות עיניך ל־KDE:"
+msgstr "כמו־כן, ניתן לתרום סכום לפי ראות עיניך ל־KDE:"
 
 #: template/donate.html:22
 msgid "Donate to KDE"
@@ -636,19 +636,19 @@ msgstr "תודות לכל המממנים שתומכות ותומכים בג׳י�
 
 #: template/downloads.html:16
 msgid "Windows"
-msgstr "חלונות"
+msgstr "חלונות/Windows"
 
 #: template/downloads.html:20
 msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
-"אפשר להתקין  <a href=\"https://www.microsoft.com/en-us/store/p/"
-"gcompris/9pgxjtcxn8qm\"> את GCompris מחנות האפליקציות של ווינדוס</a>."
+"אפשר להתקין את ג׳יקומפרי <a href=\"https://www.microsoft.com/en-us/store/p/"
+"gcompris/9pgxjtcxn8qm\">מחנות Windows</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
-msgstr "לתשומת לבך: חנות חלונות דורשת חלונות 10."
+msgstr "לתשומת לבך: חנות Windows דורשת Windows 10."
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
@@ -685,8 +685,8 @@ msgid ""
 "doesn't support the new version, you can use the last installer from the old "
 "GCompris 15.10."
 msgstr ""
-"אם באמת יש צורך בגרסה שעובדת על חלונות XP, או אם המערכת שלך אינה תומכת בגרסה "
-"החדשה, ניתן להשתמש בתוכנת ההתקנה האחרונה מג׳יקומפרי הישן, גרסה 15.10."
+"אם באמת יש צורך בגרסה שעובדת על Windows XP, או אם המערכת שלך אינה תומכת "
+"בגרסה החדשה, ניתן להשתמש בתוכנת ההתקנה האחרונה מג׳יקומפרי הישן, גרסה 15.10."
 
 #: template/downloads.html:42
 msgid ""
@@ -745,7 +745,7 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
-"הגרסה האחרונה התואמת מכשירי אנדרואיד מגרסאות 2.3 עד 4.0 היא <a href= "
+"הגרסה האחרונה התואמת מכשירי אנדרואיד/Android מגרסאות 2.3 עד 4.0 היא <a href= "
 "\"https://gcompris.net/download/qt/android/GCompris-Android-release-signed-"
 "aligned-armeabi-v7a-dl-0.81.apk\">ג׳יקומפרי 0.81</a>."
 
@@ -776,7 +776,7 @@ msgstr "גנוּ/לינוּקס GNU/Linux"
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
-msgstr "אפשר לבדוק אם ההפצה שלך מספקת את הגרסה האחרונה של ג׳יקומפרי."
+msgstr "אפשר לבדוק אם ההפצה שלך מספקת את הגרסה העדכנית ביותר של ג׳יקומפרי."
 
 #: template/downloads.html:110
 msgid ""
@@ -784,7 +784,7 @@ msgid ""
 "recent distribution."
 msgstr ""
 "אנו מספקים גם חבילות שעומדות בפני עצמן (standalone) ללינוקס/גנו. הן אמורות "
-"לעבוד על כל הפצה עכשוית."
+"לעבוד על כל הפצה עכשווית."
 
 #: template/downloads.html:110
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
@@ -803,7 +803,7 @@ msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 msgstr ""
-"אז לקרוא את הרשיון או ללחוץ q כדי לדלג עליו, לענות yes על השאלה, והתוכנה "
+"ואז לקרוא את הרשיון או ללחוץ על q כדי לדלג עליו, לענות yes על השאלה, והתוכנה "
 "תותקן בתיקייה חדשה ליד קובץ ההתקנה."
 
 #: template/downloads.html:120 template/downloads.html:157
@@ -811,8 +811,8 @@ msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
-"לבסוף, כדי להפעיל את GCompris, להיכנס לתיקייה החדשה, להיכנס לbin ולחיצה "
-"כפולה על gcompris-qt.sh."
+"לבסוף, כדי להפעיל את ג׳יקומפרי, להיכנס לתיקייה החדשה, להיכנס ל־bin וללחוץ "
+"לחיצה כפולה על gcompris-qt.sh."
 
 #: template/downloads.html:121
 msgid ""
@@ -822,11 +822,11 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
-"לתשומת ליבך: אם למערכת שלך אין OpenGL 2 או אם התוכנה אינה פועלת כראוי, נא "
-"להוסיף את האפשרות \"--software-renderer\" בסוף השורה האחרונה של הסקריפט "
-"gcompris-qt.sh. דרך נוספת היא לערוך את קובץ ההגדרות (בתוך ~/.config/gcompris-"
-"qt/gcompris-qt.conf): למצוא את השורה renderer=auto, להחליף \"auto\" ב "
-"\"software\" ולשמור את הקובץ."
+"לתשומת ליבך: אם במערכת שלך אין OpenGL 2 או אם התוכנה אינה פועלת כראוי, נא "
+"להוסיף את האפשרות „‎--software-renderer” בסוף השורה האחרונה של הסקריפט "
+"gcompris-qt.sh. דרך נוספת היא לערוך את קובץ ההגדרות (בתוך ‎~/.config/gcompris-"
+"qt/gcompris-qt.conf): למצוא את השורה renderer=auto, להחליף את „auto” ב־"
+"„software” ולשמור את הקובץ."
 
 #: template/downloads.html:122
 msgid ""
@@ -834,9 +834,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
-"לחילופין אפשר להתקין את ג'יקומפריס מ <a href=\"https://flathub.org/apps/"
-"details/org.kde.gcompris\">Flathub</a> או מ <a href=\"https://snapcraft.io/"
-"gcompris\">Snap store</a>."
+"לחילופין אפשר להתקין את ג׳יקומפרי מ־<a href=\"https://flathub.org/apps/"
+"details/org.kde.gcompris\">Flathub</a> או מ־<a href=\"https://snapcraft.io/"
+"gcompris\">חנות Snap</a>."
 
 #: template/downloads.html:123
 msgid ""
@@ -878,19 +878,19 @@ msgstr "קוד המקור"
 
 #: template/downloads.html:171
 msgid "The source code is available under the AGPLv3 license."
-msgstr "קוד המקור זמין תחת רשיון AGPLv3ְְְ."
+msgstr "קוד המקור זמין בכפוף לרשיון AGPLv3."
 
 #: template/downloads.html:185
 msgid "SHA-256 and GPG"
-msgstr "SHA-256 ו־GPG"
+msgstr "‏SHA-256 ו־GPG"
 
 #: template/downloads.html:189
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
-"כדי לבדוק את תקינות ההורדות שלך, אפשר להשיג את ההאש SHA-256 המקורי של הקבצים "
-"באמצעות הוספת \".sha256\" לסוף כתובת ה־url של ההורדה."
+"כדי לבדוק את תקינות ההורדות שלך, אפשר להשיג את גיבוב ה־SHA-256 המקורי של "
+"הקבצים באמצעות הוספת „‎.sha256” לסוף כתובת ההורדה."
 
 #: template/downloads.html:190
 #, python-format
@@ -1122,19 +1122,19 @@ msgstr ""
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
-msgstr "חבילת הלומדות GCompris"
+msgstr "חבילת הלומדות ג׳יקומפרי"
 
 #: template/index.html:55
 msgid "Download GCompris"
-msgstr "להוריד את GCompris"
+msgstr "להוריד את ג׳יקומפרי"
 
 #: template/index.html:58
 msgid "Latest news"
-msgstr "חדשות אחרונות"
+msgstr "חדשות עדכניות"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr "קליק או טאפ"
+msgstr "לחיצה או נקישה"
 
 #: template/index.html:97
 msgid "Identify colors"
@@ -1158,23 +1158,23 @@ msgstr "ללמוד על מחזור המים"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr "לשחק שח-מט נגד חבר/ה"
+msgstr "לשחק שח־מט נגד חבר/ה"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr "להקיש על האותיות הקטנות (Lowercase באנגלית)"
+msgstr "להקליד את האותיות הקטנות (Lowercase באנגלית)"
 
 #: template/index.html:147
 msgid "View all screenshots"
-msgstr "לצפות בכל צילומי המסך"
+msgstr "הצגת כל צילומי המסך"
 
 #: template/index.html:153
 msgid ""
 "GCompris is a high quality educational software suite, including a large "
 "number of activities for children aged 2 to 10."
 msgstr ""
-"חבילת הלומדות האיכותיות Gcompris כוללת מספר גדול של פעילויות לילדים וילדות "
-"בגילאי 2 עד 10."
+"חבילת הלומדות האיכותית ג׳יקומפרי כוללת מספר גדול של פעילויות לילדים וילדות "
+"בגילאי שנתיים עד 10."
 
 #: template/index.html:154
 msgid ""
@@ -1188,33 +1188,33 @@ msgstr "זו רשימה של סוגי פעילויות עם מספר דוגמא�
 
 #: template/index.html:157
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr "לגלות את המחשב: מקלדת, עכבר, מסך-מגע..."
+msgstr "לגלות את המחשב: מקלדת, עכבר, מסך מגע…"
 
 #: template/index.html:158
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr "קריאה: אותיות, מילים, אימוני קריאה, הקלדה של טקסט..."
+msgstr "קריאה: אותיות, מילים, אימוני קריאה, הקלדה של טקסט…"
 
 #: template/index.html:159
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr "חשבון: מספרים, סימנים, טבלת זיכרון, מניה, טבלה בהזנה כפולה..."
+msgstr "חשבון: מספרים, סימנים, טבלת זיכרון, מניה, טבלה בהזנה כפולה…"
 
 #: template/index.html:160
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr "מדעים: מנעול המים בתעלה, מחזור המים בטבע, אנרגיה מתחדשת..."
+msgstr "מדעים: מנעול מים בתעלה, מחזור המים בטבע, אנרגיה מתחדשת…"
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr "גאוגרפיה: מדינו, אזורים, תרבות..."
+msgstr "גאוגרפיה: מדינות, אזורים, תרבות…"
 
 #: template/index.html:162
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "משחקים: שחמט, זכרון, 4 בשורה, איש-תלוי, איקס עיגול..."
+msgstr "משחקים: שחמט, זכרון, 4 בשורה, איש תלוי, איקס עיגול…"
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr "אחרים: צבעים, צורות, בְּרָייל, לקרוא שעון..."
+msgstr "אחרים: צבעים, צורות, בְּרָייל, לקרוא שעון…"
 
 #: template/index.html:165
 msgid ""
@@ -1223,17 +1223,17 @@ msgid ""
 "own needs, improve it, and most importantly share it with children "
 "everywhere."
 msgstr ""
-"כרגע מציעה חבילת ג'יקומפריס יותר מ־100 פעילויות ונוספות נמצאות בפיתוח. "
-"ג'יקומפריס היא תוכנה חופשית, מה שאומר שאפשר לשנות אותה לפי הצרכים שלך, לשפר "
-"אותה, והכי חשוב, לחלוק אותה עם ילדים בכל מקום."
+"כרגע מציעה חבילת ג׳יקומפרי יותר מ־100 פעילויות ועוד כמה שנמצאות בפיתוח. "
+"ג׳יקומפרי היא תוכנה חופשית, מה שאומר שאפשר לשנות אותה לפי הצרכים שלך, לשפר "
+"אותה, והכי חשוב, לחלוק אותה עם ילדים בכל מקום בעולם."
 
 #: template/index.html:166
 msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
-"פרוייקט GCompris מתארח ומפותח ע\"י  <a target=\"_blank\" rel=\"noopener\" "
-"href=\"https://www.kde.org/\">קהילת </a>KDE."
+"מיזם ג׳יקומפרי מתארח ומפותח ע״י <a target=\"_blank\" rel=\"noopener\" href="
+"\"https://www.kde.org/\">קהילת </a>KDE."
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
@@ -1268,9 +1268,9 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
-"ג'יקומפריס הוא כלי למידה דיגיטאלי המספק פעילויות אימון בתוך ומחוץ לכיתה. "
-"זוהי תוכנה חופשית שמופצת תחת הרשיון של GNU לפלטפורמות מרובות (GNU/Linux, "
-"וינדוז, אנדרואיד, מקאוס) ומותאמת להפעלה על מחשבים חלשים."
+"ג׳יקומפרי הוא כלי למידה דיגיטלי המספק פעילויות אימון בתוך ומחוץ לכיתה. זו "
+"תוכנה חופשית שמופצת תחת הרשיון של גנו למגוון פלטפורמות (גנו/לינוקס, Windows,‏ "
+"Android,‏ macOS) ומותאמת להפעלה על מחשבים חלשים."
 
 #: template/schools.html:22
 msgid ""
@@ -1278,7 +1278,7 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
-"ג'יקומפריס קיימת מעל עשרים שנה בבתי ספר ברחבי העולם והיא מציעה יותר מ־150 "
+"ג׳יקומפרי קיימת מעל עשרים שנה בבתי ספר ברחבי העולם והיא מציעה יותר מ־150 "
 "פעילויות ברוב התחומים הפדגוגים, כולל:"
 
 #: template/schools.html:24
@@ -1288,7 +1288,7 @@ msgstr "ללמוד איך להשתמש במחשב"
 #: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
-msgstr "להתאמן בקריאה בפעילויות ללימוד אותיות, מילים ומצרפים לשוניים"
+msgstr "להתאמן בקריאה בפעילויות ללימוד אותיות, מילים וצירופים לשוניים"
 
 #: template/schools.html:26
 msgid ""
@@ -1298,25 +1298,25 @@ msgstr "להשיג שליטה במתמטיקה באמצעות אימון בספ�
 
 #: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
-msgstr "לגלות את העולם דרך הגיון, את האומנויות ואת המוזיקה"
+msgstr "לגלות את העולם דרך היגיון, אומנויות ומוזיקה"
 
 #: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
-msgstr "לגלות מדע והומניות דרך ניסויים, היסטוריה וגאוגרפיה"
+msgstr "לגלות מדע ואת מדעי החיים דרך ניסויים, היסטוריה וגאוגרפיה"
 
 #: template/schools.html:29
 msgid "Developing strategic thinking with board games"
-msgstr "לפתח חשיבה אסטרטגית במשחקי לוח"
+msgstr "לפתח חשיבה אסטרטגית בעזרת משחקי לוח"
 
 #: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
-"ג'יקומפריס אינה דורשת חיבור לאינטרנט ואינה אוספת כל מידע וכך עומדת בקפדנות "
-"בתקנות General Data Protection Regulation של האיחוד האירופי."
+"ג׳יקומפרי אינה דורשת חיבור לאינטרנט ואינה אוספת כל מידע וכך עומדת בקפדנות "
+"בתקנות הרגולציה הכללית להגנה על מידע (GDPR) של האיחוד האירופי."
 
 #: template/schools.html:34
 msgid ""
@@ -1328,12 +1328,11 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
-"מאז גרסה 1.0, ג׳יקומפרי 1.0 נותנת למחנכים/ות לבחור את רמת הפעילות לפי רמות "
+"מאז גרסה 1.0, ג׳יקומפרי 1.0 מספקת למחנכים/ות לבחור את רמת הפעילות לפי רמות "
 "התלמידים. לדוגמה, בפעילות שמאפשרת אימון במספרים, אפשר לבחור באילו מספרים "
-"יוכלו להשתמש ולהשאיר מספרים גבוהים וקשים יותר לשלב מאוחר. או בפעילות שבה "
-"צריך לסדר תמונות בסדר כרונולוגי, ניתן לדרג את הפעילויות לילדים/ות שרק "
-"יכולים/ות לקרוא מספרים או להפוך לקשה יותר לאלו שיודעים לקרוא גם מילים וגם "
-"מספרים."
+"ניתן להשתמש ולהשאיר מספרים גבוהים וקשים יותר לשלב מאוחר. או בפעילות שבה צריך "
+"לסדר תמונות בסדר כרונולוגי, ניתן לדרג את הפעילויות לילדים/ות שרק יכולים/ות "
+"לקרוא מספרים או להפוך לקשה יותר לאלו שיודעים לקרוא גם מילים וגם מספרים."
 
 #: template/schools.html:37
 msgid ""
@@ -1351,12 +1350,12 @@ msgid ""
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
 msgstr ""
-"כדי לספק רקע פדגוגי מוצק, הרמות של ג'קומפריס נבנו לפי תוכנית הלימודים של בית "
-"הספר היסודי בצרפת המגדירה מה מורים צרפתיים צריכים ללמד בכיתה."
+"כדי לספק רקע פדגוגי מוצק, הרמות של ג׳יקומפרי נבנו לפי תוכנית הלימודים של בתי "
+"הספר היסודיים בצרפת המגדירה מה מורים צרפתיים צריכים ללמד בכיתה."
 
 #: template/screenshot.html:33
 msgid "Description:"
-msgstr "תאור:"
+msgstr "תיאור:"
 
 #: template/screenshot.html:36
 msgid "Prerequisite:"
