@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-20 01:58+0000\n"
-"PO-Revision-Date: 2025-01-31 12:18+0100\n"
+"PO-Revision-Date: 2025-09-14 14:16+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 25.03.70\n"
+"X-Generator: Lokalize 25.07.70\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -176,51 +176,32 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Благодаря на всички, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Release GCompris 4.3"
 msgctxt "20250521.html"
 msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "Издание 4.3 на GCompris"
+msgstr "Издание GCompris 25.1 и 4.3.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20250521.html"
 msgid "Today we are releasing GCompris version 25.1."
-msgstr "Днес пускаме GCompris версия 25.0."
+msgstr "Днес пускаме GCompris версия 25.1."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20250521.html"
 msgid "It contains bug fixes and graphics improvements on many activities."
 msgstr ""
-"Тя съдържа корекции на грешки и графични подобрения на множество занимания."
+"Тя съдържа корекции на грешки и графични подобрения на редица занимания."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Тя е напълно преведена на следните езици:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20250521.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Също така е частично преведен на следните езици:"
@@ -228,22 +209,11 @@ msgstr "Също така е частично преведен на следни
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20250521.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20250521.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -252,19 +222,15 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Можете да намерите пакети от тази нова версия за GNU/Linux, Windows, "
-"Android, Raspberry Pi и macOS на <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. Тази актуализация също ще "
-"бъде налична скоро в магазините на Android Play, Windows, както и на "
-"хранилището на F-Droid."
+"Можете да намерите пакети от тази нова версия за GNU/Linux, Windows, Android "
+"и Raspberry Pi на <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html"
+"\\\">download page</a>. Тази актуализация също ще бъде налична скоро в "
+"магазините на Android Play, Windows, както и на хранилището на F-Droid."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Today we are releasing GCompris version 4.3."
 msgctxt "20250521.html"
 msgid "We are also releasing GCompris version 4.3.1."
-msgstr "Днес пускаме GCompris версия 4.3."
+msgstr "Пускаме и GCompris версия 4.3.1"
 
 #. paragraph
 msgctxt "20250521.html"
@@ -272,11 +238,10 @@ msgid ""
 "This is a maintenance version for 32bit systems which only contains a few "
 "backported bug fixes."
 msgstr ""
+"Това е поддържаща версия за 32-битови системи, която съдържа само няколко "
+"бекпортнати поправки на грешки."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250521.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Благодаря на всички, <br/>Timothée & Johnny"
@@ -710,7 +675,7 @@ msgstr "Системни изисквания: Windows 10 или 11."
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "Предоставяме и инсталационен файл msi."
 
 #: template/downloads.html:32
 msgid ""
@@ -786,19 +751,14 @@ msgstr ""
 "инсталирате ръчно на вашето устройство."
 
 #: template/downloads.html:74
-#, fuzzy
-#| msgid ""
-#| "For devices running Android 4.1 to 8.0, the last compatible version is <a "
-#| "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-#| "signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
 "За устройства, работещи с Android 4.1 до 8.0, последната съвместима версия е "
-"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
-"signed-aligned-armeabi-v7a-dl-4.3.apk\">GCompris 4.3</a>."
+"<a href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 
 #: template/downloads.html:75
 msgid ""
@@ -1325,29 +1285,23 @@ msgstr "Всички новини"
 msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
-msgstr ""
+msgstr "GCompris е официално препоръчан за учители в следните страни:"
 
 #: template/schools.html:15
 msgid "France"
-msgstr ""
+msgstr "Франция"
 
 #: template/schools.html:16
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Italian"
 msgid "Italy"
-msgstr "Италиански"
+msgstr "Италия"
 
 #: template/schools.html:17
 msgid "Kerala"
-msgstr ""
+msgstr "Керала"
 
 #: template/schools.html:18
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Lithuanian"
 msgid "Lithuania"
-msgstr "Литовски"
+msgstr "Литва"
 
 #: template/schools.html:21
 msgid ""
