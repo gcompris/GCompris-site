@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Издание GCompris 25.1 и 4.3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Днес пускаме GCompris версия 25.1.</p>
+<p>Тя съдържа корекции на грешки и графични подобрения на редица занимания.</p>
+
+<p>Тя е напълно преведена на следните езици:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Също така е частично преведен на следните езици:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Можете да намерите пакети от тази нова версия за GNU/Linux, Windows, Android и Raspberry Pi на <a href="https://gcompris.net/downloads{{ suffix }}.html">download page</a>. Тази актуализация също ще бъде налична скоро в магазините на Android Play, Windows, както и на хранилището на F-Droid.</p>
+
+<p>Пускаме и GCompris версия 4.3.1</p>
+<p>Това е поддържаща версия за 32-битови системи, която съдържа само няколко бекпортнати поправки на грешки.</p>
+
+<p>Благодаря на всички, <br/>Timothée & Johnny</p>
+
+{% endblock %}
