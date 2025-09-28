@@ -349,7 +349,7 @@ for filename in sorted(filenames, reverse=True):
     templateNewsSingle = templateEnv.get_template("template/singlenews.html")
     outputNewsSingleText = templateNewsSingle.render(templateVars)
 
-    minifiedHtml = htmlmin.minify(outputNewsSingleText)
+    minifiedHtml = htmlmin.minify(outputNewsSingleText, remove_comments=True)
     with codecs.open('news/' + templateVars['newsDate'] + suffix + '.html', 'w', encoding='utf8') as f:
         f.write(minifiedHtml)
 
