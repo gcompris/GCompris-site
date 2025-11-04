@@ -109,6 +109,7 @@ gcomprisLocales = {
     "id": {"original": "Indonesia", "translated": t.pgettext("language name, item list", "Indonesian")},
     "it": {"original": "Italiano", "translated": t.pgettext("language name, item list", "Italian")},
     "ka": {"original": "ქართული", "translated": t.pgettext("language name, item list", "Georgian")},
+    "kn": {"original": "ಕನ್ನಡ", "translated": t.pgettext("language name, item list", "Kannada")},
     "ko": {"original": "한국어", "translated": t.pgettext("language name, item list", "Korean")},
     "lt": {"original": "Lietuvių", "translated": t.pgettext("language name, item list", "Lithuanian")},
     "lv": {"original": "Latviešu", "translated": t.pgettext("language name, item list", "Latvian")},
