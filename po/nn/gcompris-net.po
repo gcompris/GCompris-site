@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-20 01:58+0000\n"
+"POT-Creation-Date: 2025-11-20 02:01+0000\n"
 "PO-Revision-Date: 2024-08-01 15:57+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -361,130 +361,135 @@ msgstr ""
 
 #: gcompris.py:112
 msgctxt "language name, item list"
+msgid "Kannada"
+msgstr ""
+
+#: gcompris.py:113
+msgctxt "language name, item list"
 msgid "Korean"
 msgstr "Koreansk"
 
-#: gcompris.py:113
+#: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Lithuanian"
 msgstr "Litauisk"
 
-#: gcompris.py:114
+#: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Latvian"
 msgstr "Latvisk"
 
-#: gcompris.py:115
+#: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Macedonian"
 msgstr "Makedonsk"
 
-#: gcompris.py:116
+#: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Malayalam"
 msgstr "Malayalam"
 
-#: gcompris.py:117
+#: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Dutch"
 msgstr "Nederlandsk"
 
-#: gcompris.py:118
+#: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
 msgstr "Norsk (nynorsk)"
 
-#: gcompris.py:119
+#: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Polish"
 msgstr "Polsk"
 
-#: gcompris.py:120
+#: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Portuguese"
 msgstr "Portugisisk"
 
-#: gcompris.py:121
+#: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
 msgstr "Portugisisk (Brasil)"
 
-#: gcompris.py:122
+#: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Romanian"
 msgstr "Rumensk"
 
-#: gcompris.py:123
+#: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Russian"
 msgstr "Russisk"
 
-#: gcompris.py:124
+#: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Sanskrit"
 msgstr ""
 
-#: gcompris.py:125
+#: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Slovak"
 msgstr "Slovakisk"
 
-#: gcompris.py:126
+#: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Slovenian"
 msgstr "Slovensk"
 
-#: gcompris.py:127
+#: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Albanian"
 msgstr "Albansk"
 
-#: gcompris.py:128
+#: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Serbian"
 msgstr "Serbisk"
 
-#: gcompris.py:129
+#: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Swedish"
 msgstr "Svensk"
 
-#: gcompris.py:130
+#: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Swahili"
 msgstr "Swahili"
 
-#: gcompris.py:131
+#: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Tamil"
 msgstr "Tamil"
 
-#: gcompris.py:132
+#: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Thai"
 msgstr "Thai"
 
-#: gcompris.py:133
+#: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Turkish"
 msgstr "Tyrkisk"
 
-#: gcompris.py:134
+#: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Ukrainian"
 msgstr "Ukrainsk"
 
-#: gcompris.py:135
+#: gcompris.py:136
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
 msgstr "Kinesisk (forenkla)"
 
-#: gcompris.py:136
+#: gcompris.py:137
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Kinesisk (tradisjonell)"
 
-#: gcompris.py:254
+#: gcompris.py:255
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -492,12 +497,12 @@ msgstr ""
 "GCompris er ein GNU-pakke og tilgjengeleg under GNU Affero General Public "
 "License."
 
-#: gcompris.py:255
+#: gcompris.py:256
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Karl Ove Hufthammer"
 
-#: gcompris.py:409
+#: gcompris.py:410
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Korfor ikkje visa barna dine GCompris i jula?"
 
@@ -807,9 +812,9 @@ msgid ""
 msgstr ""
 "Merk: Viss systemet ditt ikkje har støtte for OpenGL 2 eller støtta ikkje "
 "verkar, legg til valet «--software-renderer» på slutten av siste linje i "
-"skriptfila «gcompris-qt.sh». Ein annan måte er å redigera oppsett­fila (~/."
-"config/gcompris-qt/gcompris-qt.conf): Finn linja «renderer=auto», og byt ut "
-"«auto» med «software»."
+"skriptfila «gcompris-qt.sh». Ein annan måte er å redigera oppsett­fila "
+"(~/.config/gcompris-qt/gcompris-qt.conf): Finn linja «renderer=auto», og byt "
+"ut «auto» med «software»."
 
 #: template/downloads.html:122
 msgid ""
@@ -817,9 +822,9 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
-"Eit anna alternativ er å installera GCompris frå <a href=\"https://flathub."
-"org/apps/details/org.kde.gcompris\">Flathub</a> eller <a href=\"https://"
-"snapcraft.io/gcompris\">Snap store</a>."
+"Eit anna alternativ er å installera GCompris frå <a href=\"https://"
+"flathub.org/apps/details/org.kde.gcompris\">Flathub</a> eller <a "
+"href=\"https://snapcraft.io/gcompris\">Snap store</a>."
 
 #: template/downloads.html:123
 msgid ""
