@@ -66,10 +66,9 @@
 </pre>
           <br/>
           <p>{% trans %}You can also directly download the apk from our website to install it manually on your device.{% endtrans %}</p>
-<!-- TODO: remove .1 from links and text for next release! -->
 <pre>
-• <a href="https://download.kde.org/stable/gcompris/qt/android/GCompris-Android-release-signed-aligned-arm64-v8a-dl-{{ version }}.1.apk">GCompris {{ version }}.1 apk for Android 64bit</a>
-• <a href="https://download.kde.org/stable/gcompris/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-{{ version }}.1.apk">GCompris {{ version }}.1 apk for Android 32bit</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/android/GCompris-Android-release-signed-aligned-arm64-v8a-dl-{{ version }}.apk">GCompris {{ version }} apk for Android 64bit</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-{{ version }}.apk">GCompris {{ version }} apk for Android 32bit</a>
 </pre>
           <p>{% trans %}For devices running Android 4.1 to 8.0, the last compatible version is <a href= "https://gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-4.3.1.apk">GCompris 4.3.1</a>.{% endtrans %}</p>
           <p>{% trans %}For devices running Android 2.3 to 4.0, the last compatible version is <a href= "https://gcompris.net/download/qt/android/GCompris-Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk">GCompris 0.81</a>.{% endtrans %}</p>
@@ -139,9 +138,8 @@ chmod u+x gcompris-qt-{{ version }}-Linux64.sh
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
 	      <p>{% trans %}We provide a standalone package for Raspberry Pi (64bit).{% endtrans %} {% trans %}It was tested only on Raspberry Pi 3.{% endtrans %}</p>
-<!-- TODO: remove .1 from link and text for next release! -->
 <pre>
-• <a href="https://download.kde.org/stable/gcompris/qt/raspberrypi/gcompris-qt-{{ version }}.1-Raspberry64.sh">GCompris {{ version }}.1 - Raspberry Pi 3 64bit</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/raspberrypi/gcompris-qt-{{ version }}-Raspberry64.sh">GCompris {{ version }} - Raspberry Pi 3 64bit</a>
 </pre>
 	      <p>{% trans %}The last version available for 32bit is the version 4.3 at the following link:{% endtrans %}</p>
 <pre>
@@ -160,6 +158,25 @@ chmod u+x gcompris-qt-{{ version }}-Raspberry64.sh
 	</div>
       </div>
 
+            <div class="col-xs-12 col-md-12" id="gcompris-teachers">
+	<div class="row news">
+	  <div class="col-xs-12 col-md-12">
+	    <div>
+	      <div class="newstitle" style="float: {{ direction }}; text-align: {{ direction }};">{% trans %}GCompris-teachers{% endtrans %}</div>
+	    </div>
+	    <div style="clear: both;"></div>
+	    <div class="newscontent">
+	      <p>{% trans %}GCompris-teachers is the companion application for teachers to enhance their use of GCompris in their classroom. You can learn more about it from our <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">Schools page</a>. Note that to use it, you should use the same version of the main GCompris application.{% endtrans %}</p>
+		  <p>{% trans %}GCompris-teachers is available for GNU/Linux and Windows operating systems.{% endtrans %}</p>
+<pre>
+• <a href="https://download.kde.org/stable/gcompris/qt/linux/gcompris-teachers-{{ version }}-Linux64.sh">GCompris {{ version }} - Linux 64bit</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/windows/gcompris-teachers-{{ version }}-win64-gcc.exe">GCompris-teachers {{ version }} - Windows 64bit</a>
+</pre>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
       <div class="col-xs-12 col-md-12" id="source">
 	<div class="row news">
 	  <div class="col-xs-12 col-md-12">
@@ -169,9 +186,8 @@ chmod u+x gcompris-qt-{{ version }}-Raspberry64.sh
 	    <div style="clear: both;"></div>
 	    <div class="newscontent">
 	      <p>{% trans %}The source code is available under the AGPLv3 license.{% endtrans %}</p>
-<!-- TODO: remove .1 from link and text for next release! -->
 <pre>
-• <a href="https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-{{ version }}.1.tar.xz">GCompris {{ version }}.1 - source code</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-{{ version }}.tar.xz">GCompris {{ version }} - source code</a>
 </pre>
 	    </div>
 	  </div>
@@ -188,12 +204,12 @@ chmod u+x gcompris-qt-{{ version }}-Raspberry64.sh
 	    <div class="newscontent">
 	      <p>{% trans %}To check the integrity of your downloads, you can get the original SHA-256 hash of the files by adding ".sha256" at the end of their download url.{% endtrans %}</p>
 	      <p>{% trans %}The source tarball and the Linux installer are signed with the GPG key from Timothée Giet (public key: {{ public_gpg_key }}){% endtrans %}</p>
-<!-- TODO: remove .1 from link and text for next release! -->
 <pre>
 {% trans %}sig files:{% endtrans %}
 
-• <a href="https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-{{ version }}.1.tar.xz.sig">GCompris {{ version }}.1 - source code</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/src/gcompris-qt-{{ version }}.tar.xz.sig">GCompris {{ version }} - source code</a>
 • <a href="https://download.kde.org/stable/gcompris/qt/linux/gcompris-qt-{{ version }}-Linux64.sh.sig">GCompris {{ version }} - Linux 64bit</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/linux/gcompris-teachers-{{ version }}-Linux64.sh.sig">GCompris-teachers {{ version }} - Linux 64bit</a>
 </pre>
 	    </div>
 	  </div>
