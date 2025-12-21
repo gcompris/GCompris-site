@@ -157,10 +157,21 @@ suffix = '-' + locale
 # We don't have a translation of each manual. If we have it
 # we return it else we return the english one
 def get_manual():
-    r = requests.head('https://gcompris.net/docbook/stable6/' + locale + '/index.html', timeout=5)
+    link = f"https://docs.kde.org/stable6/{locale}/gcompris/gcompris/index.html"
+    r = requests.head(link, timeout=5)
+    if r.ok:
+        return link
+    return "https://docs.kde.org/stable6/en/gcompris/gcompris/index.html"
+
+#
+# We don't have a translation of each manual. If we have it
+# we return it else we return the english one
+def get_server_manual():
+    link = f"https://docs.kde.org/stable6/{locale}/gcompris-teachers-handbook/gcompris-teachers-handbook/index.html"
+    r = requests.head(link, timeout=5)
     if r.ok:
         return locale
-    return 'en'
+    return "https://docs.kde.org/stable6/en/gcompris-teachers-handbook/gcompris-teachers-handbook/index.html"
 
 descriptions = []
 
@@ -252,6 +263,7 @@ templateVars = {
     "screenshots": [],
     "locales": locales,
     "manual": get_manual(),
+    "server_manual": get_server_manual(),
     "license_info": _("This software is a GNU Package and is released under the GNU Affero General Public License."),
     "translators_names": t.pgettext("NAME OF TRANSLATORS", "Your names"),
     "public_gpg_key": '<a href="https://collaborate.kde.org/s/8GpWjyHg5xBTQFS">0x63d7264c05687d7e.asc</a>',
