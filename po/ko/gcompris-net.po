@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-20 02:01+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: 2021-05-22 20:58+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -557,18 +557,18 @@ msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr ""
 
-#: gcompris.py:255
+#: gcompris.py:267
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
 
-#: gcompris.py:256
+#: gcompris.py:268
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: gcompris.py:410
+#: gcompris.py:422
 #, fuzzy
 #| msgid ""
 #| "For Christmas, offer GCompris to your children. It's free and will give "
@@ -796,51 +796,51 @@ msgid ""
 msgstr ""
 "웹사이트에서 APK 파일을 다운로드하여 장치에 수동으로 설치할 수도 있습니다."
 
-#: template/downloads.html:74
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
 
-#: template/downloads.html:75
+#: template/downloads.html:74
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
 
-#: template/downloads.html:86
+#: template/downloads.html:85
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:90
+#: template/downloads.html:89
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:91
+#: template/downloads.html:90
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "또한 아래 링크에서 설치 도구를 다운로드할 수 있습니다."
 
-#: template/downloads.html:92
+#: template/downloads.html:91
 msgid "Built and tested on macOS 10.13."
 msgstr "macOS 10.13에서 빌드 및 테스트되었습니다."
 
-#: template/downloads.html:105
+#: template/downloads.html:104
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:109
+#: template/downloads.html:108
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr "배포판에서 GCompris 최신 버전을 제공하는지 확인해 보십시오."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -848,11 +848,11 @@ msgstr ""
 "이외에도 GNU/Linux용 독립 실행형 패키지를 제공합니다. 대부분 배포판에서 작동"
 "합니다."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:114 template/downloads.html:151
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -860,7 +860,7 @@ msgstr ""
 "이 파일을 사용하려면 설치 프로그램을 다운로드한 폴더에서 터미널을 열고 다음 "
 "명령을 실행하십시오."
 
-#: template/downloads.html:119 template/downloads.html:156
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -868,7 +868,7 @@ msgstr ""
 "그 후 라이선스를 읽거나 q 키를 눌러 건너뛴 다음, 질문에 yes라고 대답하면 소프"
 "트웨어가 설치 프로그램이 있는 폴더 아래의 새 폴더에 설치됩니다."
 
-#: template/downloads.html:120 template/downloads.html:157
+#: template/downloads.html:119 template/downloads.html:155
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -876,7 +876,7 @@ msgstr ""
 "마지막으로, gcompris를 시작하려면 새로 생성된 폴더 아래 bin 폴더에 있는 "
 "gcompris-qt.sh를 두 번 클릭하십시오."
 
-#: template/downloads.html:121
+#: template/downloads.html:120
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -889,66 +889,85 @@ msgstr ""
 "하십시오. 또 다른 방법은 설정 파일(~/.config/gcompris-qt/gcompris-qt.conf)을 "
 "편집하여 render=auto 줄을 render=sofware로 변경한 다음 저장하십시오."
 
-#: template/downloads.html:122
+#: template/downloads.html:121
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:137
+#: template/downloads.html:136
 msgid "Raspberry Pi"
 msgstr "라즈베리 파이"
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "라즈베리 파이에서 실행 가능한 독립 실행형 패키지를 제공합니다."
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "라즈베리 파이 3에서만 테스트되었습니다."
 
-#: template/downloads.html:146
+#: template/downloads.html:144
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:167
+#: template/downloads.html:165 template/schools.html:42
+msgid "GCompris-teachers"
+msgstr ""
+
+#: template/downloads.html:169
+#, python-format
+msgid ""
+"GCompris-teachers is the companion application for teachers to enhance their "
+"use of GCompris in their classroom. You can learn more about it from our <a "
+"href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers"
+"\">Schools page</a>. Note that to use it, you should use the same version of "
+"the main GCompris application."
+msgstr ""
+
+#: template/downloads.html:170
+msgid ""
+"GCompris-teachers is available for GNU/Linux and Windows operating systems."
+msgstr ""
+
+#: template/downloads.html:184
 msgid "Source code"
 msgstr "소스 코드"
 
-#: template/downloads.html:171
+#: template/downloads.html:188
 msgid "The source code is available under the AGPLv3 license."
 msgstr "소스 코드는 AGPLv3 라이선스 하에 제공됩니다."
 
-#: template/downloads.html:185
+#: template/downloads.html:201
 #, fuzzy
 #| msgid "MD5 and GPG"
 msgid "SHA-256 and GPG"
 msgstr "MD5 및 GPG"
 
-#: template/downloads.html:189
+#: template/downloads.html:205
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
 
-#: template/downloads.html:190
+#: template/downloads.html:206
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -960,7 +979,7 @@ msgstr ""
 "소스 코드 TAR 압축 파일 및 Linux 설치 프로그램은 Timothée Giet의 GPG 키로 서"
 "명됩니다(공개 키: "
 
-#: template/downloads.html:193
+#: template/downloads.html:208
 msgid "sig files:"
 msgstr "sig 파일:"
 
@@ -1346,6 +1365,10 @@ msgstr ""
 "로 EU GDPR의 조건에 합치합니다."
 
 #: template/schools.html:34
+msgid "Datasets"
+msgstr ""
+
+#: template/schools.html:35
 #, fuzzy
 #| msgid ""
 #| "GCompris 1.0 lets educators select the level of activities according to "
@@ -1370,7 +1393,7 @@ msgstr ""
 "자를 읽을 수 있는 어린이에게만 점수를 매기거나 숫자와 단어를 읽을 수 있는 어"
 "린이에게 더 어려운 문제를 출제하도록 설정할 수 있습니다."
 
-#: template/schools.html:37
+#: template/schools.html:38
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1379,7 +1402,7 @@ msgstr ""
 "단계 기능을 사용하여 학생들이 수학, 언어, 과학, 인문학을 익힐 수 있는 연습을 "
 "조정할 수 있습니다. 전략 게임으로 문제 풀이 기법을 연습할 수 있습니다."
 
-#: template/schools.html:39
+#: template/schools.html:40
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
@@ -1387,6 +1410,21 @@ msgid ""
 msgstr ""
 "GCompris 활동 단계는 유아 교육학적 근거에 따라 프랑스의 초등학교 교육 과정에 "
 "따라서 배정되었습니다."
+
+#: template/schools.html:43
+#, python-format
+msgid ""
+"GCompris-teachers is a companion application for teachers to enhance their "
+"use of GCompris in their classroom. It allows teachers to create customized "
+"datasets and receive pupils results for some activities. You can download it "
+"from our <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">Download page</a>, and find the manual to learn more about from "
+"the link below."
+msgstr ""
+
+#: template/schools.html:45
+msgid "GCompris-teachers manual"
+msgstr ""
 
 #: template/screenshot.html:33
 msgid "Description:"

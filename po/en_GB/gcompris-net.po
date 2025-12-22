@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-20 02:01+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: 2022-09-18 12:08+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -534,7 +534,7 @@ msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr ""
 
-#: gcompris.py:255
+#: gcompris.py:267
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -542,12 +542,12 @@ msgstr ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 
-#: gcompris.py:256
+#: gcompris.py:268
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Steve Allewell"
 
-#: gcompris.py:410
+#: gcompris.py:422
 msgid "For Christmas, offer GCompris to your children."
 msgstr "For Christmas, offer GCompris to your children."
 
@@ -774,7 +774,7 @@ msgstr ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 
-#: template/downloads.html:74
+#: template/downloads.html:73
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -789,7 +789,7 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:75
+#: template/downloads.html:74
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -799,51 +799,51 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:86
+#: template/downloads.html:85
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:90
+#: template/downloads.html:89
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:91
+#: template/downloads.html:90
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "Else, you can download the installer from the links below."
 
-#: template/downloads.html:92
+#: template/downloads.html:91
 msgid "Built and tested on macOS 10.13."
 msgstr "Built and tested on macOS 10.13."
 
-#: template/downloads.html:105
+#: template/downloads.html:104
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
+#: template/downloads.html:108
+msgid ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+msgstr ""
+"You can check if your distribution provides a package for the latest version "
+"of GCompris."
+
 #: template/downloads.html:109
 msgid ""
-"You can check if your distribution provides a package for the latest version "
-"of GCompris."
-msgstr ""
-"You can check if your distribution provides a package for the latest version "
-"of GCompris."
-
-#: template/downloads.html:110
-msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:114 template/downloads.html:151
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -851,7 +851,7 @@ msgstr ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
 
-#: template/downloads.html:119 template/downloads.html:156
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -859,83 +859,102 @@ msgstr ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
 
-#: template/downloads.html:120 template/downloads.html:157
+#: template/downloads.html:119 template/downloads.html:155
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
 msgstr ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
+
+#: template/downloads.html:120
+msgid ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
+msgstr ""
+"Note: If your system doesn't have OpenGL 2 support or if it's not working "
+"properly, please add the option \"--software-renderer\" at the end of the "
+"last line of the script gcompris-qt.sh. Another way is to edit the "
+"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
+"line renderer=auto , replace auto with software and save the file."
 
 #: template/downloads.html:121
 msgid ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
-"properly, please add the option \"--software-renderer\" at the end of the "
-"last line of the script gcompris-qt.sh. Another way is to edit the "
-"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
-"line renderer=auto , replace auto with software and save the file."
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
-"Note: If your system doesn't have OpenGL 2 support or if it's not working "
-"properly, please add the option \"--software-renderer\" at the end of the "
-"last line of the script gcompris-qt.sh. Another way is to edit the "
-"configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
-"line renderer=auto , replace auto with software and save the file."
+"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
 
 #: template/downloads.html:122
-msgid ""
-"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
-"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
-"snapcraft.io/gcompris\">Snap store</a>."
-msgstr ""
-"Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
-"apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
-"snapcraft.io/gcompris\">Snap store</a>."
-
-#: template/downloads.html:123
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:137
+#: template/downloads.html:136
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "We provide a stand-alone package for Raspberry Pi."
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "It was tested only on Raspberry Pi 3."
 
-#: template/downloads.html:146
+#: template/downloads.html:144
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:167
+#: template/downloads.html:165 template/schools.html:42
+msgid "GCompris-teachers"
+msgstr ""
+
+#: template/downloads.html:169
+#, python-format
+msgid ""
+"GCompris-teachers is the companion application for teachers to enhance their "
+"use of GCompris in their classroom. You can learn more about it from our <a "
+"href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers"
+"\">Schools page</a>. Note that to use it, you should use the same version of "
+"the main GCompris application."
+msgstr ""
+
+#: template/downloads.html:170
+msgid ""
+"GCompris-teachers is available for GNU/Linux and Windows operating systems."
+msgstr ""
+
+#: template/downloads.html:184
 msgid "Source code"
 msgstr "Source code"
 
-#: template/downloads.html:171
+#: template/downloads.html:188
 msgid "The source code is available under the AGPLv3 license."
 msgstr "The source code is available under the AGPLv3 license."
 
-#: template/downloads.html:185
+#: template/downloads.html:201
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 and GPG"
 
-#: template/downloads.html:189
+#: template/downloads.html:205
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -943,7 +962,7 @@ msgstr ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download URL."
 
-#: template/downloads.html:190
+#: template/downloads.html:206
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -955,7 +974,7 @@ msgstr ""
 "The source tarball and the Linux installers are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 
-#: template/downloads.html:193
+#: template/downloads.html:208
 msgid "sig files:"
 msgstr "sig files:"
 
@@ -1352,6 +1371,10 @@ msgstr ""
 "and so strictly complies with the EU's General Data Protection Regulation."
 
 #: template/schools.html:34
+msgid "Datasets"
+msgstr ""
+
+#: template/schools.html:35
 #, fuzzy
 #| msgid ""
 #| "GCompris 1.0 lets educators select the level of activities according to "
@@ -1378,7 +1401,7 @@ msgstr ""
 "children who can only read numbers or make it harder for children who can "
 "read both numbers and words."
 
-#: template/schools.html:37
+#: template/schools.html:38
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1388,7 +1411,7 @@ msgstr ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 
-#: template/schools.html:39
+#: template/schools.html:40
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
@@ -1397,6 +1420,21 @@ msgstr ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
+
+#: template/schools.html:43
+#, python-format
+msgid ""
+"GCompris-teachers is a companion application for teachers to enhance their "
+"use of GCompris in their classroom. It allows teachers to create customized "
+"datasets and receive pupils results for some activities. You can download it "
+"from our <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">Download page</a>, and find the manual to learn more about from "
+"the link below."
+msgstr ""
+
+#: template/schools.html:45
+msgid "GCompris-teachers manual"
+msgstr ""
 
 #: template/screenshot.html:33
 msgid "Description:"

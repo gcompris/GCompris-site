@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-20 02:01+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: 2023-03-29 11:43+0200\n"
 "Last-Translator: Miroslav Ďurian <aasami@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
@@ -579,7 +579,7 @@ msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Čínsky (Tradičná)"
 
-#: gcompris.py:255
+#: gcompris.py:267
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -587,12 +587,12 @@ msgstr ""
 "Tento softvér je balíček GNU a je vydaný pod licenciou GNU Affero General "
 "Public License."
 
-#: gcompris.py:256
+#: gcompris.py:268
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Miroslav Ďurian"
 
-#: gcompris.py:410
+#: gcompris.py:422
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Na vianoce, ponúknite GCompris Vašim deťom."
 
@@ -817,7 +817,7 @@ msgstr ""
 "Pre ručnú inštaláciu na Vaše zariadenie je možné tiež stiahnuť si priamo apk "
 "súbor z našej stránky."
 
-#: template/downloads.html:74
+#: template/downloads.html:73
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -832,7 +832,7 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:75
+#: template/downloads.html:74
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -842,31 +842,31 @@ msgstr ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:86
+#: template/downloads.html:85
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:90
+#: template/downloads.html:89
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:91
+#: template/downloads.html:90
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "Alebo, môžete stiahnuť inštalátor z nižšie uvedených odkazov."
 
-#: template/downloads.html:92
+#: template/downloads.html:91
 msgid "Built and tested on macOS 10.13."
 msgstr "Zostavene a vyskúšané na macOS 10.13."
 
-#: template/downloads.html:105
+#: template/downloads.html:104
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:109
+#: template/downloads.html:108
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -874,7 +874,7 @@ msgstr ""
 "Môžete skontrolovať či vaša distribúcia poskytuje balíček GCompris v "
 "najnovšej verzii."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -882,11 +882,11 @@ msgstr ""
 "Tiež poskytujeme jednotlivé balíčky pre GNU/Linux. Tie by mali fungovať na "
 "akejkoľvek dnešnej distribúcii."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr ""
 
-#: template/downloads.html:114 template/downloads.html:151
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -894,7 +894,7 @@ msgstr ""
 "Aby ste ho mohli použiť, otvorte terminál a v priečinku, do ktorého ste "
 "stiahli inštalátor spustite tieto príkazy:"
 
-#: template/downloads.html:119 template/downloads.html:156
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -902,7 +902,7 @@ msgstr ""
 "Potom si prečítajte licenciu alebo ju tlačidlom q preskočte. Na otázky "
 "odpovedzte áno a softvér sa nainštaluje do nového priečinka k inštalátoru."
 
-#: template/downloads.html:120 template/downloads.html:157
+#: template/downloads.html:119 template/downloads.html:155
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -910,7 +910,7 @@ msgstr ""
 "Napokon, pre spustenie GComprisu, vstúpte do novo vytvoreného priečinka, kde "
 "v podpriečinku bin stačí kliknúť na gcompris-qt.sh."
 
-#: template/downloads.html:121
+#: template/downloads.html:120
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -924,7 +924,7 @@ msgstr ""
 "config/gcompris-qt/gcompris-qt.conf): nájdite riadok renderer=auto,  "
 "namiesto auto, napíšte software a uložte súbor."
 
-#: template/downloads.html:122
+#: template/downloads.html:121
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -934,51 +934,70 @@ msgstr ""
 "details/org.kde.gcompris\">Flathubu</a> alebo zo <a href=\"https://snapcraft."
 "io/gcompris\">Obchodu Snap</a>."
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:137
+#: template/downloads.html:136
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Poskytujeme osobitný balíček pre Raspberry Pi."
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Bolo to odskúšané len na Raspberry Pi 3."
 
-#: template/downloads.html:146
+#: template/downloads.html:144
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:167
+#: template/downloads.html:165 template/schools.html:42
+msgid "GCompris-teachers"
+msgstr ""
+
+#: template/downloads.html:169
+#, python-format
+msgid ""
+"GCompris-teachers is the companion application for teachers to enhance their "
+"use of GCompris in their classroom. You can learn more about it from our <a "
+"href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers"
+"\">Schools page</a>. Note that to use it, you should use the same version of "
+"the main GCompris application."
+msgstr ""
+
+#: template/downloads.html:170
+msgid ""
+"GCompris-teachers is available for GNU/Linux and Windows operating systems."
+msgstr ""
+
+#: template/downloads.html:184
 msgid "Source code"
 msgstr "Zdrojový kód"
 
-#: template/downloads.html:171
+#: template/downloads.html:188
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Zdrojový kód je dostupný pod licenciou AGPLv3."
 
-#: template/downloads.html:185
+#: template/downloads.html:201
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 a GPG"
 
-#: template/downloads.html:189
+#: template/downloads.html:205
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -986,7 +1005,7 @@ msgstr ""
 "Pre kontrolu celistvosti stiahnutého súboru môžete získať pôvodný SHA-256 "
 "hash súboru, pridaním \".sha256\" na koniec URL pre stiahnutie daného súboru."
 
-#: template/downloads.html:190
+#: template/downloads.html:206
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -998,7 +1017,7 @@ msgstr ""
 "Zdrojový TAR balíček a inštalátory pre Linux sú podpísané GPG kľúčom "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 
-#: template/downloads.html:193
+#: template/downloads.html:208
 msgid "sig files:"
 msgstr "podpisové súbory:"
 
@@ -1398,6 +1417,10 @@ msgstr ""
 "tak presne dodržiava Európske GDPR."
 
 #: template/schools.html:34
+msgid "Datasets"
+msgstr ""
+
+#: template/schools.html:35
 #, fuzzy
 #| msgid ""
 #| "GCompris 1.0 lets educators select the level of activities according to "
@@ -1423,7 +1446,7 @@ msgstr ""
 "obrázky, môžete zotriediť aktivity podľa ročníka pre deti, ktoré poznajú "
 "čísla, alebo ich sťažiť pre tie, ktoré vedia aj čítať."
 
-#: template/schools.html:37
+#: template/schools.html:38
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1434,7 +1457,7 @@ msgstr ""
 "vied. Tiež si budú môcť zahrať rôzne strategické hry pre rozvoj zručnosti "
 "riešenia problémov."
 
-#: template/schools.html:39
+#: template/schools.html:40
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
@@ -1443,6 +1466,21 @@ msgstr ""
 "Aby bolo zabezpečené spoľahlivé pedagogické pozadie, úrovne aktivít v "
 "GCompris sú založené na študijných plánoch pre Francúzske základné školy, "
 "ktoré určujú čo musia pedagógovia vo Francúzsku učiť v triedach."
+
+#: template/schools.html:43
+#, python-format
+msgid ""
+"GCompris-teachers is a companion application for teachers to enhance their "
+"use of GCompris in their classroom. It allows teachers to create customized "
+"datasets and receive pupils results for some activities. You can download it "
+"from our <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">Download page</a>, and find the manual to learn more about from "
+"the link below."
+msgstr ""
+
+#: template/schools.html:45
+msgid "GCompris-teachers manual"
+msgstr ""
 
 #: template/screenshot.html:33
 msgid "Description:"

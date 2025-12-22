@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-20 02:01+0000\n"
+"POT-Creation-Date: 2025-12-22 02:01+0000\n"
 "PO-Revision-Date: 2025-11-20 12:42+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -525,7 +525,7 @@ msgctxt "language name, item list"
 msgid "Chinese Traditional"
 msgstr "Xinés tradicional"
 
-#: gcompris.py:255
+#: gcompris.py:267
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
@@ -533,12 +533,12 @@ msgstr ""
 "Este programari és un paquet GNU i es distribuïx d'acord amb els termes de "
 "la Llicència pública general GNU Affero."
 
-#: gcompris.py:256
+#: gcompris.py:268
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Equip de traducció de KDE al català (valencià)"
 
-#: gcompris.py:410
+#: gcompris.py:422
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Per Nadal, oferiu GCompris als vostres fills."
 
@@ -758,7 +758,7 @@ msgstr ""
 "També podeu descarregar directament l'apk des del nostre lloc web per a "
 "instal·lar-la de forma manual en el dispositiu."
 
-#: template/downloads.html:74
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 4.1 to 8.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -768,7 +768,7 @@ msgstr ""
 "compatible és <a href= \"https://gcompris.net/download/qt/android/GCompris-"
 "Android-release-signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 
-#: template/downloads.html:75
+#: template/downloads.html:74
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -778,11 +778,11 @@ msgstr ""
 "compatible és <a href= \"https://gcompris.net/download/qt/android/GCompris-"
 "Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
-#: template/downloads.html:86
+#: template/downloads.html:85
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:90
+#: template/downloads.html:89
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
@@ -790,21 +790,21 @@ msgstr ""
 "L'última versió encara no està disponible a macOS a causa de la falta "
 "d'infraestructura per a construir-la i provar-la."
 
-#: template/downloads.html:91
+#: template/downloads.html:90
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
 "Podeu descarregar l'última versió disponible de macOS des de l'enllaç "
 "següent."
 
-#: template/downloads.html:92
+#: template/downloads.html:91
 msgid "Built and tested on macOS 10.13."
 msgstr "Construïda i provada en macOS 10.13."
 
-#: template/downloads.html:105
+#: template/downloads.html:104
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:109
+#: template/downloads.html:108
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -812,7 +812,7 @@ msgstr ""
 "Podeu comprovar si la vostra distribució proporciona un paquet per a "
 "l'última versió de GCompris."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -820,11 +820,11 @@ msgstr ""
 "També proporcionem paquets independents per a GNU/Linux. Haurien de "
 "funcionar sobre qualsevol distribució recent."
 
-#: template/downloads.html:110
+#: template/downloads.html:109
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgstr "Requisits del sistema: nucli de Linux 4.18, «glibc» 2.28."
 
-#: template/downloads.html:114 template/downloads.html:151
+#: template/downloads.html:113 template/downloads.html:149
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -832,7 +832,7 @@ msgstr ""
 "Per a utilitzar-los, obriu una terminal en la carpeta on vau baixar "
 "l'instal·lador i executeu estes ordres:"
 
-#: template/downloads.html:119 template/downloads.html:156
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -841,7 +841,7 @@ msgstr ""
 "a les preguntes i el programari s'instal·larà en una carpeta nova al costat "
 "de l'instal·lador."
 
-#: template/downloads.html:120 template/downloads.html:157
+#: template/downloads.html:119 template/downloads.html:155
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -849,7 +849,7 @@ msgstr ""
 "Finalment, per a iniciar «gcompris», aneu cap a la carpeta nova, dins de la "
 "carpeta «bin» i feu doble clic damunt «gcompris-qt.sh»."
 
-#: template/downloads.html:121
+#: template/downloads.html:120
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -863,7 +863,7 @@ msgstr ""
 "config/gcompris-qt/gcompris-qt.conf): busqueu la línia «renderer=auto», "
 "substituïu «auto» per «software» i guardeu el fitxer."
 
-#: template/downloads.html:122
+#: template/downloads.html:121
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -873,7 +873,7 @@ msgstr ""
 "\"https://flathub.org/apps/details/org.kde.gcompris\">Flathub</a> o des de "
 "la <a href=\"https://snapcraft.io/gcompris\">Snap store</a>."
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
@@ -881,7 +881,7 @@ msgstr ""
 "L'última versió disponible per a distribucions Linux de 32 bits es pot "
 "descarregar des del següent enllaç."
 
-#: template/downloads.html:123
+#: template/downloads.html:122
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
@@ -889,38 +889,57 @@ msgstr ""
 "Requisits del sistema: nucli de Linux 3.10, «glibc» 2.17, «pulseaudio», "
 "«gstreamer» 1.0."
 
-#: template/downloads.html:137
+#: template/downloads.html:136
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Proporcionem un paquet independent per a Raspberry Pi (64 bits)."
 
-#: template/downloads.html:141
+#: template/downloads.html:140
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "Només s'ha provat en la Raspberry Pi 3."
 
-#: template/downloads.html:146
+#: template/downloads.html:144
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 "L'última versió disponible per a 32 bits és la versió 4.3 a l'enllaç següent:"
 
-#: template/downloads.html:167
+#: template/downloads.html:165 template/schools.html:42
+msgid "GCompris-teachers"
+msgstr ""
+
+#: template/downloads.html:169
+#, python-format
+msgid ""
+"GCompris-teachers is the companion application for teachers to enhance their "
+"use of GCompris in their classroom. You can learn more about it from our <a "
+"href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers"
+"\">Schools page</a>. Note that to use it, you should use the same version of "
+"the main GCompris application."
+msgstr ""
+
+#: template/downloads.html:170
+msgid ""
+"GCompris-teachers is available for GNU/Linux and Windows operating systems."
+msgstr ""
+
+#: template/downloads.html:184
 msgid "Source code"
 msgstr "Codi font"
 
-#: template/downloads.html:171
+#: template/downloads.html:188
 msgid "The source code is available under the AGPLv3 license."
 msgstr "El codi font està disponible d'acord amb la llicència AGPL versió 3."
 
-#: template/downloads.html:185
+#: template/downloads.html:201
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 i GPG"
 
-#: template/downloads.html:189
+#: template/downloads.html:205
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -930,7 +949,7 @@ msgstr ""
 "baixada."
 
 # skip-rule: t-par_obe_tan
-#: template/downloads.html:190
+#: template/downloads.html:206
 #, python-format
 msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
@@ -939,7 +958,7 @@ msgstr ""
 "L'arxiu tar amb les fonts i l'instal·lador de Linux està signat amb la clau "
 "GPG d'en Timothée Giet (clau pública: %(public_gpg_key)s)"
 
-#: template/downloads.html:193
+#: template/downloads.html:208
 msgid "sig files:"
 msgstr "Fitxers de signatura:"
 
@@ -1390,6 +1409,10 @@ msgstr ""
 "la UE."
 
 #: template/schools.html:34
+msgid "Datasets"
+msgstr ""
+
+#: template/schools.html:35
 msgid ""
 "Since the version 1.0, GCompris lets educators select the level of "
 "activities according to the skill of each child. For example, in an activity "
@@ -1408,7 +1431,7 @@ msgstr ""
 "l'activitat per als que només poden llegir nombres o fer-la més difícil per "
 "als que poden llegir tant nombres com paraules."
 
-#: template/schools.html:37
+#: template/schools.html:38
 msgid ""
 "This grading functionality allows you to propose training exercises to "
 "pupils to practice mathematics, language, science and humanities. They will "
@@ -1419,7 +1442,7 @@ msgstr ""
 "humanitats. També podran jugar a jocs d'estratègia per a entrenar les seues "
 "habilitats en la resolució de problemes."
 
-#: template/schools.html:39
+#: template/schools.html:40
 msgid ""
 "To provide a solid pedagogical background, GCompris levels of activities "
 "have been based on the French elementary school curriculum, which defines "
@@ -1429,6 +1452,21 @@ msgstr ""
 "activitats de GCompris s'han basat en el pla d'estudis de l'escola primària "
 "francesa, el qual definix el que han d'ensenyar a classe els professors "
 "francesos."
+
+#: template/schools.html:43
+#, python-format
+msgid ""
+"GCompris-teachers is a companion application for teachers to enhance their "
+"use of GCompris in their classroom. It allows teachers to create customized "
+"datasets and receive pupils results for some activities. You can download it "
+"from our <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">Download page</a>, and find the manual to learn more about from "
+"the link below."
+msgstr ""
+
+#: template/schools.html:45
+msgid "GCompris-teachers manual"
+msgstr ""
 
 #: template/screenshot.html:33
 msgid "Description:"
