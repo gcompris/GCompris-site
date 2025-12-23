@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-22 02:01+0000\n"
+"POT-Creation-Date: 2025-12-23 02:06+0000\n"
 "PO-Revision-Date: 2025-02-02 21:30+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <kde-i18n-doc@kde.org>\n"
@@ -18,164 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 3.2.2\n"
-
-#. news title
-msgctxt "20250130.html"
-msgid "Release GCompris 25.0"
-msgstr "Hedhje në qarkullim e GCompris 25.0"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "Today we are releasing GCompris version 25.0."
-msgstr "Sot hedhim në qarkullim GCompris version 25.0."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"As you can see, we are now basing the major version number on the release "
-"year. This makes sense as we are doing one major version per year. It is "
-"also a good occasion to do it now to celebrate the 25 years of GCompris."
-msgstr ""
-"Siç e shihni, tani e bazojmë numrin e versionit të rëndësishëm në vitin e "
-"hedhjes në qarkullim. Kjo ka kuptim, ngaqë po realizojmë një version të "
-"rëndësishëm në vit. Është gjithashtu një rast i mirë ta bëjmë tani, për të "
-"kremtuar 25-vjetorin e GCompris-së."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "This version adds translation for one more language: Sanskrit."
-msgstr "Ky version shton përkthime për një gjuhë më tepër: sanskritisht."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Ky version i ri përmban 195 veprimtari, përfshi 5 të reja:"
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
-"children explore their creativity."
-msgstr ""
-"“Skicë” është një veprimtari për të vizatuar lirisht me mjete të shumta, për "
-"t’i lënë fëmijët të eksplorojnë frymën e tyre krijuese."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
-"ten's complement activities. This one helps the children to swap the numbers "
-"to easily compute a sum."
-msgstr ""
-"“Llogaritni me plotësues të dhjetës” është vazhdimi i veprimtarive "
-"ekzistuese me plotësues të dhjetës. Kjo i ndihmon fëmijët të këmbejnë numra "
-"për të njehsuar kollaj një shumë."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
-msgstr ""
-"“Mbledhje vertikale” është një veprimtari për shkrimin e një mbledhjeje dhe "
-"kryer atë."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
-"subtraction with the borrowing by regrouping method."
-msgstr ""
-"“Zbritje vertikale” është e ngjashme me veprimtarinë e mbledhjes, por për "
-"zbritje, me metodën e marrjes hua përmes rigrupimit."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
-"one with the borrowing by compensation method."
-msgstr ""
-"“Zbritje vertikale (kompensim)” është e ngjashme me veprimtarinë e zbritjes, "
-"me metodën e marrjes hua përmes kompensimit."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr ""
-"Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë "
-"veprimtari."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"With the help of teachers, we rewrote a big part of the activities "
-"description to be clearer."
-msgstr ""
-"Me ndihmën e mësuesve, rishkruam një pjesë të madhe të përshkrimit të "
-"veprimtarive, për të qenë më të qarta."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"When we switch language in the menu, the new language is now applied "
-"directly, without having to restart GCompris."
-msgstr ""
-"Kur ndërroni gjuhën te menuja, tanimë gjuha e re vihet në punë "
-"drejtpërdrejt, pa u dashur të riniset GCompris-ja."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "On the technical side, it is also the first release using Qt6."
-msgstr ""
-"Nga ana teknike, është gjithashtu hedhja e parë në qarkullim që përdor Qt6."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"We have also set the graphical renderer to direct3d11 by default on Windows."
-msgstr ""
-"Kemi vënë gjithashtu direct3d11-n si parazgjedhje për vizatuesin grafik në "
-"Windows."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
-
-#. list item
-msgctxt "20250130.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20250130.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
-"shkarkimeve</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
-"Windows, Android dhe Raspberry Pi. Ky përditësim do të jetë së shpejti gati "
-"edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
 #. news title
 #, fuzzy
@@ -281,6 +123,137 @@ msgstr ""
 #| msgctxt "20241129.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20250521.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Release GCompris 25.0"
+msgctxt "20260204.html"
+msgid "Release GCompris 26.0"
+msgstr "Hedhje në qarkullim e GCompris 25.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Today we are releasing GCompris version 25.0."
+msgctxt "20260204.html"
+msgid "Today we are releasing GCompris version 26.0."
+msgstr "Sot hedhim në qarkullim GCompris version 25.0."
+
+#. paragraph
+msgctxt "20260204.html"
+msgid ""
+"We are also releasing the first official version of our companion tool for "
+"teachers: GCompris-teachers! You can find more information about it on the "
+"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
+"\">schools page</a>."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "This new version contains 195 activities, including 5 new ones:"
+msgctxt "20260204.html"
+msgid "This new version contains 197 activities, including 2 new ones:"
+msgstr "Ky version i ri përmban 195 veprimtari, përfshi 5 të reja:"
+
+#. list item
+msgctxt "20260204.html"
+msgid ""
+"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
+"cogwheel."
+msgstr ""
+
+#. list item
+msgctxt "20260204.html"
+msgid ""
+"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+"activity is hidden by default. It becomes visible after some datasets for it "
+"have been sent from GCompris-teachers."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20260204.html"
+msgid "It also contains bug fixes and improvements on multiple activities."
+msgstr ""
+"Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë "
+"veprimtari."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "This version adds translation for one more language: Sanskrit."
+msgctxt "20260204.html"
+msgid "We ship translations for two more languages: Kannada and Tamil."
+msgstr "Ky version shton përkthime për një gjuhë më tepër: sanskritisht."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260204.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Është plotësisht i përkthyer në gjuhët vijuese:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260204.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260204.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260204.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, Android "
+#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260204.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Te <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">faqja e "
+"shkarkimeve</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, "
+"Windows, Android dhe Raspberry Pi. Ky përditësim do të jetë së shpejti gati "
+"edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Faleminderit të tërëve, <br/>Timothée & Johnny"
 
@@ -1572,6 +1545,89 @@ msgstr "Lexim"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategji"
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "As you can see, we are now basing the major version number on the release "
+#~ "year. This makes sense as we are doing one major version per year. It is "
+#~ "also a good occasion to do it now to celebrate the 25 years of GCompris."
+#~ msgstr ""
+#~ "Siç e shihni, tani e bazojmë numrin e versionit të rëndësishëm në vitin e "
+#~ "hedhjes në qarkullim. Kjo ka kuptim, ngaqë po realizojmë një version të "
+#~ "rëndësishëm në vit. Është gjithashtu një rast i mirë ta bëjmë tani, për "
+#~ "të kremtuar 25-vjetorin e GCompris-së."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to "
+#~ "let children explore their creativity."
+#~ msgstr ""
+#~ "“Skicë” është një veprimtari për të vizatuar lirisht me mjete të shumta, "
+#~ "për t’i lënë fëmijët të eksplorojnë frymën e tyre krijuese."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Calculate with ten's complement\\\" is the continuation of the "
+#~ "existing ten's complement activities. This one helps the children to swap "
+#~ "the numbers to easily compute a sum."
+#~ msgstr ""
+#~ "“Llogaritni me plotësues të dhjetës” është vazhdimi i veprimtarive "
+#~ "ekzistuese me plotësues të dhjetës. Kjo i ndihmon fëmijët të këmbejnë "
+#~ "numra për të njehsuar kollaj një shumë."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical addition\\\" is an activity to write an addition and solve "
+#~ "it."
+#~ msgstr ""
+#~ "“Mbledhje vertikale” është një veprimtari për shkrimin e një mbledhjeje "
+#~ "dhe kryer atë."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+#~ "subtraction with the borrowing by regrouping method."
+#~ msgstr ""
+#~ "“Zbritje vertikale” është e ngjashme me veprimtarinë e mbledhjes, por për "
+#~ "zbritje, me metodën e marrjes hua përmes rigrupimit."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical subtraction (compensation)\\\", is similar to the "
+#~ "subtraction one with the borrowing by compensation method."
+#~ msgstr ""
+#~ "“Zbritje vertikale (kompensim)” është e ngjashme me veprimtarinë e "
+#~ "zbritjes, me metodën e marrjes hua përmes kompensimit."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "With the help of teachers, we rewrote a big part of the activities "
+#~ "description to be clearer."
+#~ msgstr ""
+#~ "Me ndihmën e mësuesve, rishkruam një pjesë të madhe të përshkrimit të "
+#~ "veprimtarive, për të qenë më të qarta."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "When we switch language in the menu, the new language is now applied "
+#~ "directly, without having to restart GCompris."
+#~ msgstr ""
+#~ "Kur ndërroni gjuhën te menuja, tanimë gjuha e re vihet në punë "
+#~ "drejtpërdrejt, pa u dashur të riniset GCompris-ja."
+
+#~ msgctxt "20250130.html"
+#~ msgid "On the technical side, it is also the first release using Qt6."
+#~ msgstr ""
+#~ "Nga ana teknike, është gjithashtu hedhja e parë në qarkullim që përdor "
+#~ "Qt6."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "We have also set the graphical renderer to direct3d11 by default on "
+#~ "Windows."
+#~ msgstr ""
+#~ "Kemi vënë gjithashtu direct3d11-n si parazgjedhje për vizatuesin grafik "
+#~ "në Windows."
 
 #~ msgctxt "20240920.html"
 #~ msgid "Release GCompris 4.2"

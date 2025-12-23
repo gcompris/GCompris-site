@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-22 02:01+0000\n"
+"POT-Creation-Date: 2025-12-23 02:06+0000\n"
 "PO-Revision-Date: 2025-04-28 16:57+0200\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -19,160 +19,6 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 3.6\n"
-
-#. news title
-msgctxt "20250130.html"
-msgid "Release GCompris 25.0"
-msgstr "Izdanje GCompris 25.0"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "Today we are releasing GCompris version 25.0."
-msgstr "Danas smo objavili GCompris verziju 25.0."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"As you can see, we are now basing the major version number on the release "
-"year. This makes sense as we are doing one major version per year. It is "
-"also a good occasion to do it now to celebrate the 25 years of GCompris."
-msgstr ""
-"Kao što vidiš, sada temeljimo broj glavne verzije na godini izdanja. To ima "
-"smisla jer u pravilu godišnje objavljujemo jednu verziju. Također je dobra "
-"prilika da to učinimo sada u čast 25 godina GComprisa."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "This version adds translation for one more language: Sanskrit."
-msgstr "Ova verzija sadrži prijevod za još jedan jezik: sanskrt."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "Sadrži 195 aktivnosti, uključujući 5 novih:"
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
-"children explore their creativity."
-msgstr ""
-"\\\"Sketch\\\" je aktivnost slobodnog crtanja s različitim alatima koji "
-"omogućuju djeci da istražuju svoju kreativnost."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
-"ten's complement activities. This one helps the children to swap the numbers "
-"to easily compute a sum."
-msgstr ""
-"\\\"Računanje s komplementom desetice\\\" je nastavak postojećih aktivnosti "
-"komplementa desetice. Ova aktivnost pomaže djeci da zamijene brojeve kako bi "
-"lakše izračunali zbroj."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
-msgstr ""
-"\\\"Okomito zbrajanje\\\" je aktivnost za pisanje i rješavanje zbrajanja."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
-"subtraction with the borrowing by regrouping method."
-msgstr ""
-"\\\"Okomito oduzimanje\\\", slično je aktivnosti zbrajanja, ali za "
-"oduzimanje s metodom posuđivanja pregrupiranjem."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
-"one with the borrowing by compensation method."
-msgstr ""
-"\\\"Okomito oduzimanje (kompenzacija)\\\", slično je oduzimanju no koristi "
-"metodu posuđivanja kompenzacijom."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "Sadrži ispravke pogrešaka i grafička poboljšanja više aktivnosti."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"With the help of teachers, we rewrote a big part of the activities "
-"description to be clearer."
-msgstr ""
-"Uz pomoć učitelja prepravili smo veliki dio opisa aktivnosti kako bi bile "
-"jasnije."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"When we switch language in the menu, the new language is now applied "
-"directly, without having to restart GCompris."
-msgstr ""
-"Kada promijenite jezik u izborniku, novi jezik se sada primjenjuje izravno, "
-"bez ponovnog pokretanja GComprisa."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "On the technical side, it is also the first release using Qt6."
-msgstr "S tehničke strane, u ovom izdanju koristimo Qt6."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"We have also set the graphical renderer to direct3d11 by default on Windows."
-msgstr ""
-"Također smo postavili grafički renderer na Direct3D 11 prema zadanim "
-"postavkama sustava Windows."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It is fully translated in the following languages:"
-msgstr "U potpunosti je preveden na sljedeće jezike:"
-
-#. list item
-msgctxt "20250130.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Također je djelomično preveden na sljedeće jezike:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20250130.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, "
-"Android, Raspberry Pi i macOS na <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">stranici za preuzimanje</a>. Ovo ažuriranje "
-"će također uskoro biti dostupno u Android Play trgovini, F-Droid "
-"repozitoriju i Windows trgovini."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Hvala svima, <br/>Timothée & Johnny"
 
 #. news title
 msgctxt "20250521.html"
@@ -242,6 +88,136 @@ msgstr ""
 
 #. paragraph
 msgctxt "20250521.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Hvala svima, <br/>Timothée & Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Release GCompris 25.0"
+msgctxt "20260204.html"
+msgid "Release GCompris 26.0"
+msgstr "Izdanje GCompris 25.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Today we are releasing GCompris version 25.0."
+msgctxt "20260204.html"
+msgid "Today we are releasing GCompris version 26.0."
+msgstr "Danas smo objavili GCompris verziju 25.0."
+
+#. paragraph
+msgctxt "20260204.html"
+msgid ""
+"We are also releasing the first official version of our companion tool for "
+"teachers: GCompris-teachers! You can find more information about it on the "
+"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
+"\">schools page</a>."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "This new version contains 195 activities, including 5 new ones:"
+msgctxt "20260204.html"
+msgid "This new version contains 197 activities, including 2 new ones:"
+msgstr "Sadrži 195 aktivnosti, uključujući 5 novih:"
+
+#. list item
+msgctxt "20260204.html"
+msgid ""
+"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
+"cogwheel."
+msgstr ""
+
+#. list item
+msgctxt "20260204.html"
+msgid ""
+"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+"activity is hidden by default. It becomes visible after some datasets for it "
+"have been sent from GCompris-teachers."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20260204.html"
+msgid "It also contains bug fixes and improvements on multiple activities."
+msgstr "Sadrži ispravke pogrešaka i grafička poboljšanja više aktivnosti."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "This version adds translation for one more language: Sanskrit."
+msgctxt "20260204.html"
+msgid "We ship translations for two more languages: Kannada and Tamil."
+msgstr "Ova verzija sadrži prijevod za još jedan jezik: sanskrt."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260204.html"
+msgid "It is fully translated in the following languages:"
+msgstr "U potpunosti je preveden na sljedeće jezike:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260204.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260204.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Također je djelomično preveden na sljedeće jezike:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260204.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, Android "
+#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260204.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, "
+"Android, Raspberry Pi i macOS na <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">stranici za preuzimanje</a>. Ovo ažuriranje "
+"će također uskoro biti dostupno u Android Play trgovini, F-Droid "
+"repozitoriju i Windows trgovini."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala svima, <br/>Timothée & Johnny"
 
@@ -1507,6 +1483,85 @@ msgstr "Čitanje"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Strategija"
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "As you can see, we are now basing the major version number on the release "
+#~ "year. This makes sense as we are doing one major version per year. It is "
+#~ "also a good occasion to do it now to celebrate the 25 years of GCompris."
+#~ msgstr ""
+#~ "Kao što vidiš, sada temeljimo broj glavne verzije na godini izdanja. To "
+#~ "ima smisla jer u pravilu godišnje objavljujemo jednu verziju. Također je "
+#~ "dobra prilika da to učinimo sada u čast 25 godina GComprisa."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to "
+#~ "let children explore their creativity."
+#~ msgstr ""
+#~ "\\\"Sketch\\\" je aktivnost slobodnog crtanja s različitim alatima koji "
+#~ "omogućuju djeci da istražuju svoju kreativnost."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Calculate with ten's complement\\\" is the continuation of the "
+#~ "existing ten's complement activities. This one helps the children to swap "
+#~ "the numbers to easily compute a sum."
+#~ msgstr ""
+#~ "\\\"Računanje s komplementom desetice\\\" je nastavak postojećih "
+#~ "aktivnosti komplementa desetice. Ova aktivnost pomaže djeci da zamijene "
+#~ "brojeve kako bi lakše izračunali zbroj."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical addition\\\" is an activity to write an addition and solve "
+#~ "it."
+#~ msgstr ""
+#~ "\\\"Okomito zbrajanje\\\" je aktivnost za pisanje i rješavanje zbrajanja."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+#~ "subtraction with the borrowing by regrouping method."
+#~ msgstr ""
+#~ "\\\"Okomito oduzimanje\\\", slično je aktivnosti zbrajanja, ali za "
+#~ "oduzimanje s metodom posuđivanja pregrupiranjem."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical subtraction (compensation)\\\", is similar to the "
+#~ "subtraction one with the borrowing by compensation method."
+#~ msgstr ""
+#~ "\\\"Okomito oduzimanje (kompenzacija)\\\", slično je oduzimanju no "
+#~ "koristi metodu posuđivanja kompenzacijom."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "With the help of teachers, we rewrote a big part of the activities "
+#~ "description to be clearer."
+#~ msgstr ""
+#~ "Uz pomoć učitelja prepravili smo veliki dio opisa aktivnosti kako bi bile "
+#~ "jasnije."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "When we switch language in the menu, the new language is now applied "
+#~ "directly, without having to restart GCompris."
+#~ msgstr ""
+#~ "Kada promijenite jezik u izborniku, novi jezik se sada primjenjuje "
+#~ "izravno, bez ponovnog pokretanja GComprisa."
+
+#~ msgctxt "20250130.html"
+#~ msgid "On the technical side, it is also the first release using Qt6."
+#~ msgstr "S tehničke strane, u ovom izdanju koristimo Qt6."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "We have also set the graphical renderer to direct3d11 by default on "
+#~ "Windows."
+#~ msgstr ""
+#~ "Također smo postavili grafički renderer na Direct3D 11 prema zadanim "
+#~ "postavkama sustava Windows."
 
 #~ msgctxt "20240920.html"
 #~ msgid "Release GCompris 4.2"

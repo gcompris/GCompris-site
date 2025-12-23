@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-22 02:01+0000\n"
+"POT-Creation-Date: 2025-12-23 02:06+0000\n"
 "PO-Revision-Date: 2025-11-20 18:28+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -17,151 +17,6 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 "X-Generator: Lokalize 25.08.3\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#. news title
-msgctxt "20250130.html"
-msgid "Release GCompris 25.0"
-msgstr "השקת ג׳יקומפרי 25.0"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "Today we are releasing GCompris version 25.0."
-msgstr "היום אנו משיקים את גרסה 25.0 של ג׳יקומפרי."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"As you can see, we are now basing the major version number on the release "
-"year. This makes sense as we are doing one major version per year. It is "
-"also a good occasion to do it now to celebrate the 25 years of GCompris."
-msgstr ""
-"כפי שניתן להבחין, מעתה אנו מבססים את מספר הגרסה העיקרי של שנת ההוצאה לאור. "
-"יש בזה היגיון מכיוון שאנו מוציאים גרסה עיקרית כל שנה. זאת גם הזדמנות פז "
-"לעשות זאת דווקא עכשיו כדי לחגוג 25 שנה לג׳יקומפרי."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "This version adds translation for one more language: Sanskrit."
-msgstr "הגרסה הזאת מוסיפה תרגום לשפה נוספת: סנסקריט."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "This new version contains 195 activities, including 5 new ones:"
-msgstr "הגרסה החדשה מכילה 195 פעילויות, כולל 5 חדשות:"
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Sketch\\\" is an activity for drawing freely with multiple tools to let "
-"children explore their creativity."
-msgstr ""
-"\\„איור\\” היא פעילות לאיור חופשי עם מגוון כלים כדי להעניק לילדים לחקור את "
-"היצירתיות שלהם."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Calculate with ten's complement\\\" is the continuation of the existing "
-"ten's complement activities. This one helps the children to swap the numbers "
-"to easily compute a sum."
-msgstr ""
-"\\„חישוב עם המשלים לעשר\\” הוא המשך של הפעילויות הקיימות של משלים לעשר. "
-"הפעילות הזאת מסייעת לילדים להחליף את המספרים בקלות ולחשב סכום."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical addition\\\" is an activity to write an addition and solve it."
-msgstr "\\„חיבור במאונך\\” היא פעילות במעונך לכתיבת חיבור ולפתירתו."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical subtraction\\\", is similar to the addition activity but for "
-"subtraction with the borrowing by regrouping method."
-msgstr ""
-"\\„חיסור במאונך\\”, דומה לפעילות החיסור אבל לחיסור עם שיטת ההשאלה על ידי "
-"קיבוץ מחדש."
-
-#. list item
-msgctxt "20250130.html"
-msgid ""
-"\\\"Vertical subtraction (compensation)\\\", is similar to the subtraction "
-"one with the borrowing by compensation method."
-msgstr "\\„חיסור במאונך (פריטה)\\”, דומה לחיסור אבל עם שיטת ההשאלה לפי פריטה."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It contains bug fixes and graphics improvements on multiple activities."
-msgstr "מכילה תיקוני תקלות ושיפורים גרפיים במגוון פעילויות."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"With the help of teachers, we rewrote a big part of the activities "
-"description to be clearer."
-msgstr ""
-"בעזרתם של מורים ומורות, שכתבנו חלקים נרחבים בתיאורי הפעילויות כדי שיהיו "
-"ברורים יותר."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"When we switch language in the menu, the new language is now applied "
-"directly, without having to restart GCompris."
-msgstr "החלפת השפה מהתפריט מתבצעת ישירות, ללא צורך בהפעלת ג׳יקומפרי מחדש."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "On the technical side, it is also the first release using Qt6."
-msgstr "מהפן הטכני, זאת גם המהדורה הראשונה שמשתמשת ב־Qt6."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"We have also set the graphical renderer to direct3d11 by default on Windows."
-msgstr "בחלונות/Windows הגדרנו את מעבד התצוגה ל־direct3d11 כברירת מחדל."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It is fully translated in the following languages:"
-msgstr "מתורגמת במלואה לשפות הבאות:"
-
-#. list item
-msgctxt "20250130.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20250130.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20250130.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"אפשר למצוא חבילות לגרסה החדשה הזאת לגנו/לינוקס, Windows,‏ Android, ו־"
-"Raspberry Pi ב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
-"\">עמוד ההורדות</a>. העדכון הזה יהיה זמין בקרוב ב־Play Store של Android, "
-"במאגר F-Droid ובחנות Windows."
-
-#. paragraph
-msgctxt "20250130.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
 
 #. news title
 msgctxt "20250521.html"
@@ -230,6 +85,135 @@ msgstr ""
 
 #. paragraph
 msgctxt "20250521.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
+
+#. news title
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Release GCompris 25.0"
+msgctxt "20260204.html"
+msgid "Release GCompris 26.0"
+msgstr "השקת ג׳יקומפרי 25.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Today we are releasing GCompris version 25.0."
+msgctxt "20260204.html"
+msgid "Today we are releasing GCompris version 26.0."
+msgstr "היום אנו משיקים את גרסה 25.0 של ג׳יקומפרי."
+
+#. paragraph
+msgctxt "20260204.html"
+msgid ""
+"We are also releasing the first official version of our companion tool for "
+"teachers: GCompris-teachers! You can find more information about it on the "
+"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
+"\">schools page</a>."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "This new version contains 195 activities, including 5 new ones:"
+msgctxt "20260204.html"
+msgid "This new version contains 197 activities, including 2 new ones:"
+msgstr "הגרסה החדשה מכילה 195 פעילויות, כולל 5 חדשות:"
+
+#. list item
+msgctxt "20260204.html"
+msgid ""
+"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
+"cogwheel."
+msgstr ""
+
+#. list item
+msgctxt "20260204.html"
+msgid ""
+"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+"activity is hidden by default. It becomes visible after some datasets for it "
+"have been sent from GCompris-teachers."
+msgstr ""
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20260204.html"
+msgid "It also contains bug fixes and improvements on multiple activities."
+msgstr "מכילה תיקוני תקלות ושיפורים גרפיים במגוון פעילויות."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "This version adds translation for one more language: Sanskrit."
+msgctxt "20260204.html"
+msgid "We ship translations for two more languages: Kannada and Tamil."
+msgstr "הגרסה הזאת מוסיפה תרגום לשפה נוספת: סנסקריט."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260204.html"
+msgid "It is fully translated in the following languages:"
+msgstr "מתורגמת במלואה לשפות הבאות:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260204.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260204.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260204.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, Android "
+#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#| "be available soon in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260204.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
+"available soon in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"אפשר למצוא חבילות לגרסה החדשה הזאת לגנו/לינוקס, Windows,‏ Android, ו־"
+"Raspberry Pi ב<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">עמוד ההורדות</a>. העדכון הזה יהיה זמין בקרוב ב־Play Store של Android, "
+"במאגר F-Droid ובחנות Windows."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
 
@@ -1457,6 +1441,78 @@ msgstr "קריאה"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "אסטרטגיה"
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "As you can see, we are now basing the major version number on the release "
+#~ "year. This makes sense as we are doing one major version per year. It is "
+#~ "also a good occasion to do it now to celebrate the 25 years of GCompris."
+#~ msgstr ""
+#~ "כפי שניתן להבחין, מעתה אנו מבססים את מספר הגרסה העיקרי של שנת ההוצאה "
+#~ "לאור. יש בזה היגיון מכיוון שאנו מוציאים גרסה עיקרית כל שנה. זאת גם "
+#~ "הזדמנות פז לעשות זאת דווקא עכשיו כדי לחגוג 25 שנה לג׳יקומפרי."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to "
+#~ "let children explore their creativity."
+#~ msgstr ""
+#~ "\\„איור\\” היא פעילות לאיור חופשי עם מגוון כלים כדי להעניק לילדים לחקור "
+#~ "את היצירתיות שלהם."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Calculate with ten's complement\\\" is the continuation of the "
+#~ "existing ten's complement activities. This one helps the children to swap "
+#~ "the numbers to easily compute a sum."
+#~ msgstr ""
+#~ "\\„חישוב עם המשלים לעשר\\” הוא המשך של הפעילויות הקיימות של משלים לעשר. "
+#~ "הפעילות הזאת מסייעת לילדים להחליף את המספרים בקלות ולחשב סכום."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical addition\\\" is an activity to write an addition and solve "
+#~ "it."
+#~ msgstr "\\„חיבור במאונך\\” היא פעילות במעונך לכתיבת חיבור ולפתירתו."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
+#~ "subtraction with the borrowing by regrouping method."
+#~ msgstr ""
+#~ "\\„חיסור במאונך\\”, דומה לפעילות החיסור אבל לחיסור עם שיטת ההשאלה על ידי "
+#~ "קיבוץ מחדש."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "\\\"Vertical subtraction (compensation)\\\", is similar to the "
+#~ "subtraction one with the borrowing by compensation method."
+#~ msgstr ""
+#~ "\\„חיסור במאונך (פריטה)\\”, דומה לחיסור אבל עם שיטת ההשאלה לפי פריטה."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "With the help of teachers, we rewrote a big part of the activities "
+#~ "description to be clearer."
+#~ msgstr ""
+#~ "בעזרתם של מורים ומורות, שכתבנו חלקים נרחבים בתיאורי הפעילויות כדי שיהיו "
+#~ "ברורים יותר."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "When we switch language in the menu, the new language is now applied "
+#~ "directly, without having to restart GCompris."
+#~ msgstr "החלפת השפה מהתפריט מתבצעת ישירות, ללא צורך בהפעלת ג׳יקומפרי מחדש."
+
+#~ msgctxt "20250130.html"
+#~ msgid "On the technical side, it is also the first release using Qt6."
+#~ msgstr "מהפן הטכני, זאת גם המהדורה הראשונה שמשתמשת ב־Qt6."
+
+#~ msgctxt "20250130.html"
+#~ msgid ""
+#~ "We have also set the graphical renderer to direct3d11 by default on "
+#~ "Windows."
+#~ msgstr "בחלונות/Windows הגדרנו את מעבד התצוגה ל־direct3d11 כברירת מחדל."
 
 #~ msgctxt "20240920.html"
 #~ msgid "Release GCompris 4.2"
