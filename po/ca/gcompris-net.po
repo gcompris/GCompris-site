@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-12-22 09:31+0100\n"
+"PO-Revision-Date: 2025-12-23 13:00+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -94,20 +94,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Llançament del GCompris 25.0"
+msgstr "Llançament del GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Avui fem el llançament del GCompris versió 25.0."
+msgstr "Avui fem el llançament del GCompris versió 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -117,14 +111,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"També llancem la primera versió oficial de la nostra eina d'acompanyament "
+"per al professorat: GCompris-teachers! Podeu trobar més informació sobre "
+"ella a la <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+"teachers\\\">pàgina d'escoles</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Aquesta versió nova conté 195 activitats, incloent-hi 5 de noves:"
+msgstr "Aquesta versió nova conté 197 activitats, incloent-hi 2 de noves:"
 
 #. list item
 msgctxt "20260204.html"
@@ -132,6 +127,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"«Rodes de dibuix» és una activitat per a dibuixar fent servir un engranatge "
+"girant en una roda dentada."
 
 #. list item
 msgctxt "20260204.html"
@@ -140,45 +137,33 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"«Preguntes d'elecció múltiple» és una activitat de PEM (MCQ en anglès). "
+"Tingueu en compte que aquesta activitat està oculta de manera "
+"predeterminada. Esdevé visible després d'enviar-hi alguns conjunts de dades "
+"des del GCompris-teachers."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr ""
-"Conté correccions d'errors i millores gràfiques en diverses activitats."
+msgstr "També conté correccions d'errors i millores en diverses activitats."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Aquesta versió afegeix la traducció d'un idioma més: sànscrit."
+msgstr ""
+"Distribuïm les traduccions de dues llengües més: el kanarès i el tàmil."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Està traduït completament als idiomes següents:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "També està traduït parcialment als idiomes següents:"
@@ -186,22 +171,11 @@ msgstr "També està traduït parcialment als idiomes següents:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -218,9 +192,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"

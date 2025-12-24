@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-12-22 14:46+0300\n"
+"PO-Revision-Date: 2025-12-23 12:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -93,20 +93,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "GCompris 25.0 Çıktı"
+msgstr "GCompris 26.0 Çıktı"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Bugün, GCompris’in 25.0 sürümünü yayımlıyoruz."
+msgstr "Bugün, GCompris’in 26.0 sürümünü yayımlıyoruz."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -116,14 +110,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Ayrıca bugün, öğretmenler için olan yardımcı aracımızın ilk resmî sürümünü "
+"yayımlıyoruz: GCompris-Teachers! Bununla ilgili daha fazla bilgiyi <a href=\\"
+"\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
+"\">Okullar</a> sayfasında bulabilirsiniz."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Bu yeni sürüm, 5’i yeni olmak üzere 195 etkinlik içerir:"
+msgstr "Bu yeni sürüm, 2’si yeni olmak üzere 197 etkinlik içerir:"
 
 #. list item
 msgctxt "20260204.html"
@@ -131,6 +126,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"“Çizim çarkı”, bir dişli çark içinde dönen bir dişli kullanılarak yapılan "
+"bir çizim etkinliğidir."
 
 #. list item
 msgctxt "20260204.html"
@@ -139,45 +136,32 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"“Çoktan seçmeli sorular” bir test etkinliğidir. Bu etkinliğin öntanımlı "
+"olarak gizli olduğunu unutmayın. GCompris-Teachers uygulamasından veri "
+"kümeleri gönderilmeye başlandıktan sonra görünür olur."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
 msgstr ""
-"Birden fazla etkinlikte hata düzeltmeleri ve grafik iyileştirmeleri içerir."
+"Ayrıca birden fazla etkinlikte hata düzeltmeleri ve iyileştirmeler içerir."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Bu sürüm, bir dil için daha çeviriler ekler: Sanskritçe."
+msgstr "Bu sürüm, bir iki yeni için çeviriler ekler: Kannadaca ve Tamilce."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "GCompris çevirileri aşağıdaki diller için tamdır:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Aşağıdaki diller için çevirilerde eksikler vardır:"
@@ -185,22 +169,11 @@ msgstr "Aşağıdaki diller için çevirilerde eksikler vardır:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} (%{{ oneStatus }})"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -216,9 +189,6 @@ msgstr ""
 "kullanılabilir olacaktır."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Herkese teşekkürler!<br/>Timothée ve Johnny"

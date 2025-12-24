@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-12-22 06:05+0100\n"
+"PO-Revision-Date: 2025-12-23 07:18+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -94,20 +94,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala vsem,<br/>Timothée in Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Izdaja GCompris 25.0"
+msgstr "Izdaja GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Danes izdajamo GCompris verzija 25.0."
+msgstr "Danes izdajamo GCompris verzijo 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -117,14 +111,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Izdajamo tudi prvo uradno različico našega spremljevalnega orodja za "
+"učitelje: GCompris-teachers! Več informacij o njem najdete na <a href=\\"
+"\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\\">strani "
+"šol</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Ta nova različica vsebuje 195 dejavnosti, vključno s 5 novimi:"
+msgstr "Ta nova različica vsebuje 197 dejavnosti, vključno z 2 novima:"
 
 #. list item
 msgctxt "20260204.html"
@@ -132,6 +127,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"\\\"Risanje s kolesi\\\" je dejavnost risanja z uporabo zobnika, ki se vrti "
+"v zobniku."
 
 #. list item
 msgctxt "20260204.html"
@@ -140,44 +137,32 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"\\\"Vprašanja z več izbirami\\\" je dejavnost z vprašanji z več možnimi "
+"odgovori. Upoštevajte, da je ta dejavnost privzeto skrita. Vidna postane, ko "
+"program GCompris-teachers pošlje nekaj naborov podatkov zanjo."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "Vsebuje popravke napak in grafične izboljšave pri več dejavnostih."
+msgstr ""
+"Vsebuje tudi popravke napak in grafične izboljšave pri več dejavnostih."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Ta verzija dodaja prevode še za en jezik: Sanskrit."
+msgstr "Dobavljamo prevode za še dva jezika: Kannada in tamilščino."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Je popolnoma prevedena v naslednje jezike:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Je tudi delno prevedena v naslednje jezike:"
@@ -185,22 +170,11 @@ msgstr "Je tudi delno prevedena v naslednje jezike:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -209,16 +183,12 @@ msgid ""
 "available soon in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
-"Pakete te nove različice lahko najdete za GNU/Linux, Windows, Android, "
-"Raspbery Pi in MacOS na <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">strani za prenos</a>. Ta posodobitev bo kmalu "
-"na voljo tudi v trgovini Android Play, skladišču F-Droid in skladišču za "
-"Windows."
+"Pakete te nove različice lahko najdete za GNU/Linux, Windows, Android in "
+"Raspbery Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini "
+"Android Play, skladišču F-Droid in skladišču za Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala vsem,<br/>Timothée in Johnny"
