@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-11-20 18:28+0200\n"
+"PO-Revision-Date: 2025-12-24 17:05+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. news title
@@ -89,20 +89,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "השקת ג׳יקומפרי 25.0"
+msgstr "השקת ג׳יקומפרי 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "היום אנו משיקים את גרסה 25.0 של ג׳יקומפרי."
+msgstr "היום אנו משיקים את גרסה 26.0 של ג׳יקומפרי."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -112,14 +106,14 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"אנחנו גם משיקים את הגרסה הרשמית הראשונה של כלי הליווי שלנו למורים: ג׳יקומפרי "
+"למורים! אפשר למצוא מידע נוסף עליו ב<a href=\\\"https://gcompris.net/"
+"schools{{ suffix }}.html#gcompris-teachers\\\">עמוד בתי הספר</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "הגרסה החדשה מכילה 195 פעילויות, כולל 5 חדשות:"
+msgstr "הגרסה החדשה מכילה 197 פעילויות, כולל 2 חדשות:"
 
 #. list item
 msgctxt "20260204.html"
@@ -127,6 +121,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"„גלגלי איור” היא פעילות איור שבה משתמשים בגלגלי שיניים שמסתובבים בתוך חישוק "
+"מקיף."
 
 #. list item
 msgctxt "20260204.html"
@@ -135,44 +131,31 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"שאלון ריבוי אפשרויות (מבחן אמריקאי) היא פעילות MCQ. נא לשים לב שהפעילות הזאת "
+"מוסתרת כברירת מחדל. היא מופיעה לאחר שכמה סדרות נתונים נוספו אליה דרך "
+"ג׳יקומפרי למורים."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "מכילה תיקוני תקלות ושיפורים גרפיים במגוון פעילויות."
+msgstr "מכילה גם תיקוני תקלות ושיפורים במגוון פעילויות."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "הגרסה הזאת מוסיפה תרגום לשפה נוספת: סנסקריט."
+msgstr "אנחנו משיקים תרגומים לשתי שפות חדשות: קאנדה וטמילית."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "מתורגמת במלואה לשפות הבאות:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
@@ -180,22 +163,11 @@ msgstr "היא גם מתורגמת חלקית גם לשפות הבאות:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -210,9 +182,6 @@ msgstr ""
 "במאגר F-Droid ובחנות Windows."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "תודה רבה לכולכם, <br/>טימות׳י וְז׳וֹנִי"
@@ -863,7 +832,7 @@ msgstr ""
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "ג׳יקומפרי למורים"
 
 #: template/downloads.html:169
 #, python-format
@@ -874,11 +843,15 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"ג׳יקומפרי למורים הוא היישום המלווה למורים כדי להעמיק את השימוש בג׳יקומפרי "
+"בכיתות שלהם. אפשר ללמוד עליו עוד דרך <a href=\"https://gcompris.net/schools"
+"%(suffix)s.html#gcompris-teachers\">עמוד בתי הספר שלנו</a>. נא לשים לב שכדי "
+"להשתמש בו, צריך להשתמש באותה הגרסה כמו היישום הראשי של ג׳יקומפרי."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
-msgstr ""
+msgstr "ג׳יקומפרי למורים זמינה למערכות ההפעלה גנו/לינוקס ו־Windows."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1328,7 +1301,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "סדרות נתונים"
 
 #: template/schools.html:35
 msgid ""
@@ -1375,10 +1348,15 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"ג׳יקומפרי למורים הוא יישום מלווה למורים כדי להעמיק את השימוש שלהם בג׳יקומפרי "
+"בכיתה שלהם. הוא מאפשר למורים ליצור סדרות נתונים מותאמות אישית ולקבל תוצאות "
+"של תלמידים בחלק מהפעילויות. אפשר להוריד אותו דרך <a href=\"https://gcompris."
+"net/downloads%(suffix)s.html#gcompris-teachers\">עמוד ההורדות</a> שלנו, "
+"ולמצוא את המדריך להסברים נוספים מהקישור להלן."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "מדריך של ג׳יקומפרי למורים"
 
 #: template/screenshot.html:33
 msgid "Description:"
