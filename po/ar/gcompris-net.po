@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-11-20 18:42+0400\n"
+"PO-Revision-Date: 2025-12-25 09:37+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -90,20 +90,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "شكر جزيل للجميع, <br/> تيموثي وجوني"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "الإصدار \"فهمت\" 25.0"
+msgstr "الإصدار \"فهمت\" 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "اليوم أطلقنا إصدار \"فهمت\" 25.0."
+msgstr "اليوم أطلقنا إصدار \"فهمت\" 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -113,21 +107,21 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"كما أننا بصدد إصدار النسخة الرسمية الأولى من أداتنا المرافقة للمعلمين: فهمت "
+"للمعلمين! يمكنك العثور على مزيد من المعلومات حولها على <a href=\\”https://"
+"gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\“>صفحة المدارس</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "تحوي على 195 نشاطاً منها 5 أنشطة جديدة:"
+msgstr "تحوي على 197 نشاطاً منها 2 أنشطة جديدة:"
 
 #. list item
 msgctxt "20260204.html"
 msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
-msgstr ""
+msgstr "”عجلات الرسم“ هي نشاط للرسم باستخدام ترس يدور في عجلة مسننة."
 
 #. list item
 msgctxt "20260204.html"
@@ -136,67 +130,43 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"”الأسئلة متعددة الخيارات“ هي نشاط اختبار متعدد الإجابات. لاحظ أن هذا النشاط "
+"مخفي بشكل مبدئي. يصبح مرئيًا بعد إرسال بعض مجموعات البيانات الخاصة به من "
+"برنامج فهمت للمعلمين."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "فيه تحسينات لرسومات والأخطاء لعدة أنشطة."
+msgstr "فيه تحسينات والأخطاء لعدة أنشطة."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "يضيف هذا الإصدار ترجمات للغة واحدة: السنسكريتية."
+msgstr "إضافة ترجمات: الكانادا والتاميلية."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "تُرجم بالكامل للغات التالية:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "تُرجم جزئيا لللغات الآتية:"
+msgstr "تُرجم جزئيا باللغات التالية:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -211,12 +181,9 @@ msgstr ""
 "Droid ومتجر وندوز."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "شكرًا جزيلًا للجميع, <br/>Timothée & Johnny"
+msgstr "شكر جزيل للجميع, <br/>Timothée & Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -861,7 +828,7 @@ msgstr "الإصدار الأخير المتوفر لنظام 32 بت هو ال�
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "فهمت للمعلمين"
 
 #: template/downloads.html:169
 #, python-format
@@ -872,11 +839,15 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"فهمت للمعلمين هو التطبيق المرافق للمعلمين لتعزيز استخدامهم لفهمت في فصولهم "
+"الدراسية. يمكنك معرفة المزيد عنه من <a href=\"https://gcompris.net/schools"
+"%(suffix)s.html#gcompris-teachers\">صفحة المدارس</a>. لاحظ أنه لاستخدامه، "
+"يجب عليك استخدام نفس إصدار تطبيق فهمت الرئيس."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
-msgstr ""
+msgstr "فهمت للمعلمين متاح لأنظمة التشغيل غنو/لينكس وويندوز."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1327,7 +1298,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "مجموعات البيانات"
 
 #: template/schools.html:35
 msgid ""
@@ -1376,10 +1347,15 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"فهمت للمعلمين هو تطبيق مصاحب للمعلمين لتعزيز استخدامهم لفهمت في فصولهم "
+"الدراسية. يتيح هذا التطبيق للمعلمين إنشاء مجموعات بيانات مخصصة والحصول على "
+"نتائج التلاميذ في بعض الأنشطة. يمكنك تنزيله من <a href=\"https://gcompris."
+"net/downloads%(suffix)s.html#gcompris-teachers\">صفحة التنزيل</a>، ويمكنك "
+"العثور على الدليل لمعرفة المزيد من خلال الرابط أدناه."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "دليل فهمت للمعلمين"
 
 #: template/screenshot.html:33
 msgid "Description:"

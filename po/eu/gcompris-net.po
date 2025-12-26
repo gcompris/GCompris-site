@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-06-21 11:47+0200\n"
+"PO-Revision-Date: 2025-12-25 20:57+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #. news title
 msgctxt "20250521.html"
@@ -94,20 +94,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "GCompris 25.0 argitaratzea"
+msgstr "GCompris 26.0 argitaratzea"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Gaurkoan GCompris 25.0 bertsioa argitaratzen dugu."
+msgstr "Gaurkoan GCompris 26.0 bertsioa argitaratzen dugu."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -119,12 +113,9 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Bertsio berri honek 195 jarduera ditu, 5 berri haien artean:"
+msgstr "Bertsio berri honek 197 jarduera ditu, 2 berri haien artean:"
 
 #. list item
 msgctxt "20260204.html"
@@ -142,53 +133,36 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "Jarduera askorako akats konponketak eta grafikoen hobekuntzak ditu."
+msgstr ""
+"Jarduera askotan akats konponketak eta hainbat jardueratan hobekuntzak ere "
+"baditu."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
 msgstr ""
-"Bertsio honek beste hizkuntza baterako itzulpenak gehitzen ditu: sanskritoa."
+"Bi hizkuntza gehiagorako itzulpenak kaleratzen ditugu: Kannada eta tamilera."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Ondoko hizkuntzetan osorik itzulita dago:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
-msgstr "Ondoko hizkuntza hauetan ere, hein batean, itzulita dago:"
+msgstr "Ondoko hizkuntzatan ere, hein batean, itzulita dago:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} (%{{ oneStatus }})"
@@ -217,9 +191,6 @@ msgstr ""
 "saltokian."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
@@ -372,7 +343,7 @@ msgstr "Georgiera"
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
@@ -885,7 +856,7 @@ msgstr "32biterako erabilgarri dagoen azken bertsioa 4.3 da, ondoko estekan:"
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -901,6 +872,8 @@ msgstr ""
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers GNU/Linux eta Windows sistema eragileetarako erabilgarri "
+"dago."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1379,7 +1352,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Datu-multzoak"
 
 #: template/schools.html:35
 msgid ""
@@ -1431,10 +1404,16 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers irakasleentzako aplikazio osagarri bat da, ikasgelan "
+"GComprisen erabilera hobetzeko. Irakasleei datu-multzo pertsonalizatuak "
+"sortzeko eta jarduera batzuetan ikasleen emaitzak jasotzeko aukera ematen "
+"die. <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">Zama-jaisteko</a> gure orrialdetik zama-jaitsi dezakezu, eta hari "
+"buruz gehiago jakiteko, eskuliburua beheko estekan aurkituko duzu."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "GCompris-teachers-en eskuliburua"
 
 #: template/screenshot.html:33
 msgid "Description:"
