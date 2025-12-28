@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-12-23 01:06+0100\n"
+"PO-Revision-Date: 2025-12-27 12:10+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -95,20 +95,14 @@ msgstr "Gracias a todos, <br/>Timothée y Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Lanzamiento de GCompris 25.0"
+msgstr "Lanzamiento de GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Hoy hemos publicado GCompris versión 25.0."
+msgstr "Hoy hemos publicado GCompris versión 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -118,14 +112,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"También publicamos la primera versión oficial de nuestra herramienta "
+"complementaria para profesores: GCompris-teachers. Puede encontrar más "
+"información sobre ella en la <a href=\\\"https://gcompris.net/"
+"schools{{ suffix }}.html#gcompris-teachers\\\">página de colegios</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Esta nueva versión contiene 195 actividades, incluidas 5 nuevas:"
+msgstr "Esta nueva versión contiene 197 actividades, incluidas 2 nuevas:"
 
 #. list item
 msgctxt "20260204.html"
@@ -133,6 +128,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"«Ruedas de dibujo» es una actividad para dibujar usando un engranaje que "
+"gira en una rueda dentada."
 
 #. list item
 msgctxt "20260204.html"
@@ -141,45 +138,32 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"«Preguntas de opción múltiple» es una actividad de preguntas de opción "
+"múltiple. Esta actividad está oculta por defecto. Se vuelve visible cuando "
+"GCompris-teachers envía algunos conjuntos de datos."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
 msgstr ""
-"Contiene correcciones de fallos y mejoras gráficas en varias actividades."
+"También contiene correcciones de fallos y mejoras en varias actividades."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Esta versión añade la traducción para un idioma más: sánscrito."
+msgstr "Enviamos traducciones a dos idiomas más: canarés y tamil."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Está completamente traducido a los siguientes idiomas:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "También está parcialmente traducido a los siguientes idiomas:"
@@ -187,22 +171,11 @@ msgstr "También está parcialmente traducido a los siguientes idiomas:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -219,9 +192,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gracias a todos, <br/>Timothée y Johnny"
@@ -1524,85 +1494,3 @@ msgstr "Lectura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estrategia"
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "As you can see, we are now basing the major version number on the release "
-#~ "year. This makes sense as we are doing one major version per year. It is "
-#~ "also a good occasion to do it now to celebrate the 25 years of GCompris."
-#~ msgstr ""
-#~ "Como se puede ver, ahora basamos el número de versión principal en el año "
-#~ "de lanzamiento. Esto tiene sentido, ya que hacemos una versión principal "
-#~ "por año. También es una buena ocasión para hacerlo ahora que celebramos "
-#~ "los 25 años de GCompris."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "\\\"Sketch\\\" is an activity for drawing freely with multiple tools to "
-#~ "let children explore their creativity."
-#~ msgstr ""
-#~ "«Sketch» es una actividad para dibujar libremente con múltiples "
-#~ "herramientas para que los niños exploren su creatividad."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "\\\"Calculate with ten's complement\\\" is the continuation of the "
-#~ "existing ten's complement activities. This one helps the children to swap "
-#~ "the numbers to easily compute a sum."
-#~ msgstr ""
-#~ "«Calcular con complemento a diez» es la continuación de las actividades "
-#~ "de complemento a diez existentes. Esta actividad ayuda a los niños a "
-#~ "intercambiar los números para calcular una suma fácilmente."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "\\\"Vertical addition\\\" is an activity to write an addition and solve "
-#~ "it."
-#~ msgstr ""
-#~ "«Suma vertical» es una actividad para escribir una suma y resolverla."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "\\\"Vertical subtraction\\\", is similar to the addition activity but for "
-#~ "subtraction with the borrowing by regrouping method."
-#~ msgstr ""
-#~ "«Resta vertical» es similar a la actividad de suma, pero para la resta "
-#~ "con el método de préstamo por reagrupamiento."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "\\\"Vertical subtraction (compensation)\\\", is similar to the "
-#~ "subtraction one with the borrowing by compensation method."
-#~ msgstr ""
-#~ "«Resta vertical (compensación)» es similar a la resta con el método de "
-#~ "préstamo por compensación."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "With the help of teachers, we rewrote a big part of the activities "
-#~ "description to be clearer."
-#~ msgstr ""
-#~ "Con la ayuda de los profesores, reescribimos gran parte de las "
-#~ "descripciones de las actividades para que sean más claras."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "When we switch language in the menu, the new language is now applied "
-#~ "directly, without having to restart GCompris."
-#~ msgstr ""
-#~ "Cuando cambiamos de idioma en el menú, ahora se aplica el nuevo idioma "
-#~ "directamente, sin necesidad de reiniciar GCompris."
-
-#~ msgctxt "20250130.html"
-#~ msgid "On the technical side, it is also the first release using Qt6."
-#~ msgstr ""
-#~ "Desde el punto de vista técnico, también es el primer lanzamiento que "
-#~ "utiliza Qt6."
-
-#~ msgctxt "20250130.html"
-#~ msgid ""
-#~ "We have also set the graphical renderer to direct3d11 by default on "
-#~ "Windows."
-#~ msgstr ""
-#~ "También hemos configurado el renderizador gráfico a direct3d11 de forma "
-#~ "predeterminada en Windows."
