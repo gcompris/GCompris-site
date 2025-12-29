@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: GCompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-23 02:06+0000\n"
-"PO-Revision-Date: 2025-04-28 16:57+0200\n"
-"Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
+"PO-Revision-Date: 2025-12-25 14:32+0100\n"
+"Last-Translator: Igor Dobrača <igor.dobraca@skole.hr>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 #. news title
 msgctxt "20250521.html"
@@ -92,20 +92,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala svima, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Izdanje GCompris 25.0"
+msgstr "Izdanje GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Danas smo objavili GCompris verziju 25.0."
+msgstr "Danas smo objavili GCompris verziju 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -115,14 +109,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Također objavljujemo prvu službenu verziju našeg dodatnog alata za učitelje: "
+"GCompris-teachers! Više informacija o alatu možete pronaći na stranici <a "
+"href=\"\\\"https://gcompris.net/schools{{\" suffix=\"\" }}.html#gcompris-"
+"teachers\\\"=\"\">Škole</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Sadrži 195 aktivnosti, uključujući 5 novih:"
+msgstr "Sadrži 197 aktivnosti, uključujući 2 nove:"
 
 #. list item
 msgctxt "20260204.html"
@@ -130,6 +125,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"\\\"Crtanje zupčanicima\\\" je aktivnost crtanja koristeći zupčanik koji se "
+"okreće unutar unutrašnjeg zupčanika."
 
 #. list item
 msgctxt "20260204.html"
@@ -138,44 +135,32 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"\\\"Pitanja s višestrukim izborom\\\" je aktivnost koja omogućuje višestruki "
+"izbor (MCQ). Napomena: ova aktivnost je skrivena. Aktivnost postaje vidljiva "
+"nakon što zaprimi skupove podataka poslane od strane aplikacije GCompris-"
+"teachers."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
 msgstr "Sadrži ispravke pogrešaka i grafička poboljšanja više aktivnosti."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Ova verzija sadrži prijevod za još jedan jezik: sanskrt."
+msgstr "Ova verzija sadrži prijevod za još dva jezika: kannada u tamil."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "U potpunosti je preveden na sljedeće jezike:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Također je djelomično preveden na sljedeće jezike:"
@@ -183,22 +168,11 @@ msgstr "Također je djelomično preveden na sljedeće jezike:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -208,15 +182,12 @@ msgid ""
 "Windows store."
 msgstr ""
 "Kao i obično, možete pronaći pakete nove verzije za GNU/Linux, Windows, "
-"Android, Raspberry Pi i macOS na <a href=\\\"https://gcompris.net/"
+"Android, Raspberry Pi na <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">stranici za preuzimanje</a>. Ovo ažuriranje "
 "će također uskoro biti dostupno u Android Play trgovini, F-Droid "
 "repozitoriju i Windows trgovini."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Hvala svima, <br/>Timothée & Johnny"
@@ -369,7 +340,7 @@ msgstr "Gruzijski"
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
@@ -878,7 +849,7 @@ msgstr "Zadnja verzija za 32bit je verzija 4.3 na sljedećoj poveznici:"
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -889,11 +860,17 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"GCompris-teachers je dodatna aplikacija za učitelje kako bi poboljšali "
+"mogućnosti korištenje GComprisa u svojoj učionici. Više o tome možete "
+"saznati na stranici <a href=\"https://gcompris.net/schools%(suffix)s."
+"html#gcompris-teachers\">Škole</a>. Imajte na umu da za korištenje trebate "
+"koristiti istovjetne verzije GCompris aplikacije."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-učitelje dostupan je za GNU/Linux i Windows operativne sustave."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1280,28 +1257,23 @@ msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
 msgstr ""
+"GCompris se službeno preporučuje učiteljima u sljedećim zemljama i državama:"
 
 #: template/schools.html:15
 msgid "France"
-msgstr ""
+msgstr "Francuska"
 
 #: template/schools.html:16
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Italian"
 msgid "Italy"
-msgstr "talijanski"
+msgstr "Italija"
 
 #: template/schools.html:17
 msgid "Kerala"
-msgstr ""
+msgstr "Kerala"
 
 #: template/schools.html:18
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Lithuanian"
 msgid "Lithuania"
-msgstr "litvanski"
+msgstr "Litva"
 
 #: template/schools.html:21
 msgid ""
@@ -1368,7 +1340,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Skupovi podataka"
 
 #: template/schools.html:35
 msgid ""
@@ -1417,10 +1389,16 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers je dodatna aplikacija za učitelje kako bi poboljšali "
+"mogućnosti korištenja GComprisa u svojoj učionici. Omogućuje učiteljima "
+"izradu prilagođenih skupova podataka i zaprimanje rezultata učenika za "
+"određene aktivnosti. Možete ga preuzeti s <a href=\"https://gcompris.net/"
+"downloads%(suffix)s.html#gcompris-teachers\">naše stranice za preuzimanje</"
+"a>, a priručnik s više informacija nalazi se na donjoj poveznici."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "GCompris-teachers priručnik"
 
 #: template/screenshot.html:33
 msgid "Description:"
