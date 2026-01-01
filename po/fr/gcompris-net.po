@@ -1,19 +1,19 @@
 # French (France) translations for PROJECT.
 # Copyright (C) 2013 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# Johnny Jazeix <jazeix@gmail.com>, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025.
 # Simon Depiets <sdepiets@gmail.com>, 2018.
 # Timo <animtim@gmail.com>, 2019, 2020, 2022.
 # charruau <echarruau@gmail.com>, 2019, 2021, 2024.
 # SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Johnny Jazeix <jazeix@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-23 02:06+0000\n"
+"POT-Creation-Date: 2026-01-01 02:00+0000\n"
 "PO-Revision-Date: 2025-12-23 08:44+0100\n"
-"Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: French <French <kde-francophone@kde.org>>\n"
+"Last-Translator: Johnny Jazeix <jazeix@gmail.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,20 +100,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Version 25.0 de GCompris"
+msgstr "Version 26.0 de GCompris"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Nous publions aujourd'hui la version 25.0 de GCompris."
+msgstr "Nous publions aujourd'hui la version 26.0 de GCompris."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -123,14 +117,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Nous sortons également la première version officiel de notre outil "
+"d'accompagnement des enseignants : GCompris-teachers ! Vous pouvez trouver "
+"plus d'information sur cet outil dans la page <a href=\\\"https://gcompris."
+"net/schools{{ suffix }}.html#gcompris-teachers\\\">Écoles</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Cette version contient 195 activités, dont 5 nouvelles :"
+msgstr "Cette version contient 197 activités, dont 2 nouvelles :"
 
 #. list item
 msgctxt "20260204.html"
@@ -148,44 +143,28 @@ msgid ""
 msgstr ""
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
 msgstr ""
-"Elle contient des corrections de bogues et des améliorations graphiques dans "
-"de nombreuses activités."
+"Elle contient des corrections de bogues et des améliorations dans de "
+"nombreuses activités."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Cette version ajoute une nouvelle langue : le sanskrit."
+msgstr "Cette version ajoute deux nouvelle langues : le Kannada et le Tamoul."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Elle est entièrement traduite dans les langues suivantes :"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Elle est partiellement traduite dans les langues suivantes :"
@@ -193,22 +172,11 @@ msgstr "Elle est partiellement traduite dans les langues suivantes :"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -224,9 +192,6 @@ msgstr ""
 "et « Windows », ainsi dans le dépôt de F-Droid."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Merci à vous tous et toutes, <br/>Timothée & Johnny"
@@ -785,7 +750,7 @@ msgstr "Construit et testé sous macOS 10.13."
 
 #: template/downloads.html:104
 msgid "GNU/Linux"
-msgstr "GNU/Linux"
+msgstr "GNU / Linux"
 
 #: template/downloads.html:108
 msgid ""
@@ -800,7 +765,7 @@ msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
-"Des paquets auto-extractibles pour GNU/Linux sont aussi fournis. Ils "
+"Des paquets auto-extractibles pour GNU / Linux sont aussi fournis. Ils "
 "devraient fonctionner sur n'importe quelle distribution récente."
 
 #: template/downloads.html:109
@@ -898,7 +863,7 @@ msgstr ""
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -914,6 +879,8 @@ msgstr ""
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers est disponible sur les systèmes d'exploitation GNU / Linux "
+"et Windows."
 
 #: template/downloads.html:184
 msgid "Source code"
