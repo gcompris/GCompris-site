@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Izdaja GCompris 26.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Danes izdajamo GCompris verzijo 26.0.</p>
+<p>Izdajamo tudi prvo uradno različico našega spremljevalnega orodja za učitelje: GCompris-teachers! Več informacij o njem najdete na <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">strani šol</a>.</p>
+<p>Ta nova različica vsebuje 197 dejavnosti, vključno z 2 novima:</p>
+<ul>
+<li class="puce">"Risanje s kolesi" je dejavnost risanja z uporabo zobnika, ki se vrti v zobniku.</li>
+<li class="puce">"Vprašanja z več izbirami" je dejavnost z vprašanji z več možnimi odgovori. Upoštevajte, da je ta dejavnost privzeto skrita. Vidna postane, ko program GCompris-teachers pošlje nekaj naborov podatkov zanjo.</li>
+</ul>
+<br/>
+<p>Vsebuje tudi popravke napak in grafične izboljšave pri več dejavnostih.</p>
+
+<p>Dobavljamo prevode za še dva jezika: Kannada in tamilščino.</p>
+<p>Je popolnoma prevedena v naslednje jezike:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Je tudi delno prevedena v naslednje jezike:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Pakete te nove različice lahko najdete za GNU/Linux, Windows, Android in Raspbery Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">strani za prenos</a>. Ta posodobitev bo kmalu na voljo tudi v trgovini Android Play, skladišču F-Droid in skladišču za Windows.</p>
+
+<p>Hvala vsem,<br/>Timothée in Johnny</p>
+
+{% endblock %}
