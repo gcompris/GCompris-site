@@ -31,10 +31,10 @@ ignoredNews = []
 for entry in poFile:
     originalNewsFilename = entry.msgctxt
 
-    if "fuzzy" in entry.flags:
+    if "fuzzy" in entry.flags or entry.obsolete:
         continue
 
-    if not originalNewsFilename or not originalNewsFilename.find('.html'):
+    if not originalNewsFilename or originalNewsFilename.find('.html') == -1:
         continue
     originalFilename = "newsTemplate/" + originalNewsFilename
     index = originalNewsFilename.find('.html')
