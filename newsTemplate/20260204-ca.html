@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Llançament del GCompris 26.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Avui fem el llançament del GCompris versió 26.0.</p>
+<p>També llancem la primera versió oficial de la nostra eina d'acompanyament per al professorat: GCompris-teachers! Podeu trobar més informació sobre ella a la <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">pàgina d'escoles</a>.</p>
+<p>Aquesta versió nova conté 197 activitats, incloent-hi 2 de noves:</p>
+<ul>
+<li class="puce">«Rodes de dibuix» és una activitat per a dibuixar fent servir un engranatge girant en una roda dentada.</li>
+<li class="puce">«Preguntes d'elecció múltiple» és una activitat de PEM (MCQ en anglès). Tingueu en compte que aquesta activitat està oculta de manera predeterminada. Esdevé visible després d'enviar-hi alguns conjunts de dades des del GCompris-teachers.</li>
+</ul>
+<br/>
+<p>També conté correccions d'errors i millores en diverses activitats.</p>
+
+<p>Distribuïm les traduccions de dues llengües més: el kanarès i el tàmil.</p>
+<p>Està traduït completament als idiomes següents:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>També està traduït parcialment als idiomes següents:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Android i Raspberry Pi a la <a href="https://gcompris.net/downloads{{ suffix }}.html">pàgina de baixades</a>. Aquesta actualització també estarà disponible aviat a la botiga Android Play, el repositori de F-Droid i a la botiga de Windows.</p>
+
+<p>Gràcies a tots, <br/>Timothée i Johnny</p>
+
+{% endblock %}
