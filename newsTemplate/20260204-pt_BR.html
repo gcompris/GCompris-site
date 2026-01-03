@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 26.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Hoje estamos lançando a versão 26.0 do GCompris.</p>
+<p>Também estamos lançando a primeira versão oficial de nossa ferramenta complementar para professores: GCompris-teachers! Você pode encontrar mais informações sobre ela na <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">página sobre escolas</a>.</p>
+<p>Esta nova versão contém 197 atividades, incluindo 2 novas:</p>
+<ul>
+<li class="puce">"Desenhar rodas" é uma atividade para desenhar usando uma engrenagem girando em uma roda dentada.</li>
+<li class="puce">"Questões de múltipla escolha" é uma atividade de múltipla escolha. Observe que esta atividade está oculta por padrão. Ela se torna visível depois que alguns conjuntos de dados para ela forem enviados pelos professores do GCompris.</li>
+</ul>
+<br/>
+<p>Ela contém correções de bugs e melhorias em várias atividades.</p>
+
+<p>Enviamos traduções para mais dois idiomas: canarês e tâmil.</p>
+<p>Ela foi totalmente traduzida para os seguintes idiomas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>E também foi parcialmente traduzida para os seguintes idiomas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Você encontra os pacotes desta nova versão para GNU/Linux, Windows, Android e Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de downloads</a>. Esta atualização também estará disponível, em breve, na Play Store do Android, no repositório F-Droid e na Windows Store.</p>
+
+<p>Obrigado a todo mundo, <br/>Timothée & Johnny</p>
+
+{% endblock %}
