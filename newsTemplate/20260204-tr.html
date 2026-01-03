@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 26.0 Çıktı' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Bugün, GCompris’in 26.0 sürümünü yayımlıyoruz.</p>
+<p>Ayrıca bugün, öğretmenler için olan yardımcı aracımızın ilk resmî sürümünü yayımlıyoruz: GCompris-Teachers! Bununla ilgili daha fazla bilgiyi <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">Okullar</a> sayfasında bulabilirsiniz.</p>
+<p>Bu yeni sürüm, 2’si yeni olmak üzere 197 etkinlik içerir:</p>
+<ul>
+<li class="puce">“Çizim çarkı”, bir dişli çark içinde dönen bir dişli kullanılarak yapılan bir çizim etkinliğidir.</li>
+<li class="puce">“Çoktan seçmeli sorular” bir test etkinliğidir. Bu etkinliğin öntanımlı olarak gizli olduğunu unutmayın. GCompris-Teachers uygulamasından veri kümeleri gönderilmeye başlandıktan sonra görünür olur.</li>
+</ul>
+<br/>
+<p>Ayrıca birden fazla etkinlikte hata düzeltmeleri ve iyileştirmeler içerir.</p>
+
+<p>Bu sürüm, bir iki yeni için çeviriler ekler: Kannadaca ve Tamilce.</p>
+<p>GCompris çevirileri aşağıdaki diller için tamdır:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Aşağıdaki diller için çevirilerde eksikler vardır:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} (%{{ oneStatus }})</li>
+  {% endfor %}
+</ul>
+
+<p>Bu yeni sürümün paketlerini <a href="https://gcompris.net/downloads{{ suffix }}.html">indirme sayfasında</a> GNU/Linux, Windows, Android ve Raspberry Pi için bulabilirsiniz. Bu güncelleme, kısa bir süre içinde Google Play Store, F-Droid deposu ve Microsoft Store’da da kullanılabilir olacaktır.</p>
+
+<p>Herkese teşekkürler!<br/>Timothée ve Johnny</p>
+
+{% endblock %}
