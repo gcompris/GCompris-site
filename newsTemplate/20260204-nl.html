@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Uitgave GCompris 26.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Vandaag geven we GCompris versie 26.0 uit.</p>
+<p>We geven ook de eerste officiële versie van onze bijbehorend hulpmiddel voor docenten uit: GCompris-docenten! U kunt meer informatie hierover vinden op de <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">scholenpagina</a>.</p>
+<p>Het nieuwe versie bevat 197 activiteiten, inclusief 2 nieuwe:</p>
+<ul>
+<li class="puce">"Wielen tekenen" is een activiteit voor tekenen met een tandwiel die draait in een raderwerk.</li>
+<li class="puce">"Meerkeuzevragen" is MCQ-activiteit. merk op dat deze activiteit standaard verborgen is. Het wordt zichtbaar nadat enige gegevenssets ervoor zijn verzonden door GCompris-docenten.</li>
+</ul>
+<br/>
+<p>Het bevat ook reparaties van bugs en verbeteringen op meerdere activiteiten.</p>
+
+<p>We bieden vertalingen voor twee extra talen: Kannada en Tamil.</p>
+<p>Het is volledig vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Het is ook gedeeltelijk vertaald in de volgende talen:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>U kunt pakketten van deze nieuwe versie voor GNU/Linux, Windows, Android, en Raspberry Pi vinden op de <a href="https://gcompris.net/downloads{{ suffix }}.html">downloadpagina</a>. Deze opwaardering zal ook spoedig beschikbaar zijn in de Android Play store, de F-Droid opslagruimte en Windows store.</p>
+
+<p>Allen hartelijk dank, <br/>Timothée & Johnny</p>
+
+{% endblock %}
