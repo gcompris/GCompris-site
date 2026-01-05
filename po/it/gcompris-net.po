@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-01-01 02:00+0000\n"
-"PO-Revision-Date: 2025-11-21 17:38+0100\n"
+"PO-Revision-Date: 2025-12-23 09:45+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #. news title
 msgctxt "20250521.html"
@@ -93,20 +93,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazie a tutti, <br/>Timothée e Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Versione GCompris 25.0"
+msgstr "Versione GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Oggi rilasciamo GCompris versione 25.0."
+msgstr "Oggi rilasciamo GCompris versione 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -116,14 +110,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Stiamo anche rilasciando la prima versione ufficiale del nostro strumento "
+"complementare per gli insegnanti: GCompris-teachers! Puoi trovare maggiori "
+"informazioni sulla <a href=\\\"https://gcompris.net/schools{{ suffix }}."
+"html#gcompris-teachers\\\">pagina dedicata alle scuole</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Questa nuova versione contiene 195 attività, di cui 5 nuove:"
+msgstr "Questa nuova versione contiene 197 attività, tra cui 2 nuove:"
 
 #. list item
 msgctxt "20260204.html"
@@ -131,6 +126,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"\\\"Ruote che disegnano\\\" è un'attività di disegno che utilizza un "
+"ingranaggio che ruota in unaruota dentata."
 
 #. list item
 msgctxt "20260204.html"
@@ -139,45 +136,32 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"«Domande a risposta multipla» è un'attività a scelta multipla. Si noti che "
+"questa attività è nascosta per impostazione predefinita. Diventa visibile "
+"dopo che alcuni insiemi di dati sono stati inviati da GCompris-teachers."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
 msgstr ""
-"Contiene correzioni di bug e miglioramenti grafici su diverse attività."
+"Contiene inoltre correzioni di bug e miglioramenti in numerose attività."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Questa versione aggiunge la traduzione per un'altra lingua: sanscrito."
+msgstr "Rilasciamo le traduzioni per altre due lingue: Kannada e Tamil."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "È completamente tradotto nelle seguenti lingue:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "È anche parzialmente tradotto nelle seguenti lingue:"
@@ -185,22 +169,11 @@ msgstr "È anche parzialmente tradotto nelle seguenti lingue:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -210,15 +183,12 @@ msgid ""
 "Windows store."
 msgstr ""
 "Puoi trovare i pacchetti di questa nuova versione per GNU/Linux, Windows, "
-"Android, Raspberry Pi e macOS sulla <a href=\\\"https://gcompris.net/"
+"Android, Raspberry Pi sulla <a href=\\\"https://gcompris.net/"
 "downloads{{ suffix }}.html\\\">pagina Scarica</a>. Questo aggiornamento sarà "
 "inoltre disponibile presto nel Play Store di Android, nel deposito di F-"
 "Droid e nel Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Grazie a tutti, <br/>Timothée e Johnny"
@@ -886,7 +856,7 @@ msgstr ""
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -897,11 +867,18 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"GCompris-teachers è l'applicazione complementare che consente agli "
+"insegnanti di migliorare l'uso di GCompris in classe. Puoi saperne di più "
+"consultando la nostra <a href=\"https://gcompris.net/schools%(suffix)s."
+"html#gcompris-teachers\">pagina dedicata alle scuole</a>. Nota: per "
+"utilizzarla, è necessario utilizzare la stessa versione dell'applicazione "
+"principale GCompris."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers è disponibile per i sistemi operativi GNU/Linux e Windows."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1389,7 +1366,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Insiemi di dati"
 
 #: template/schools.html:35
 msgid ""
@@ -1442,10 +1419,17 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers è un'applicazione complementare che consente agli "
+"insegnanti di migliorare l'uso di GCompris in classe. Permette agli "
+"insegnanti di creare insiemi di dati personalizzati e di ricevere i "
+"risultati degli studenti per alcune attività. È possibile scaricarla dalla "
+"nostra <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">pagina Scarica</a>, mentre il manuale per saperne di più è "
+"disponibile al collegamento sottostante."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "Manuale per l'insegnante di GCompris"
 
 #: template/screenshot.html:33
 msgid "Description:"
