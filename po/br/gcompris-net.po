@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-01-01 02:00+0000\n"
-"PO-Revision-Date: 2025-05-08 15:49+0200\n"
+"PO-Revision-Date: 2025-12-30 15:37+0100\n"
 "Last-Translator: Envel Kervoas <envelkervoas@free.fr>\n"
 "Language-Team: Breton <kde-i18n-doc@kde.org>\n"
 "Language: br\n"
@@ -92,20 +92,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Release GCompris 25.0"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "GCompris stumm 25.0"
+msgstr "GCompris stumm 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Hiziv e kinnigomp stumm 25.0 GCompris."
+msgstr "Hiziv e kinnigomp stumm 26.0 GCompris."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -115,14 +109,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Kinnig a reomp ivez kentañ stumm ofisiel hor benveg-sikour evit ar "
+"gelennerien:  GCompris-teachers! Titouroù ouzhpenn a vo kavet war <a href=\\"
+"\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\\"> "
+"pajenn ar skolioù</a>."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This new version contains 195 activities, including 5 new ones:"
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Bez' ez eus 195 obererezh, en o zouez 5 nevez:"
+msgstr "Bez' ez eus 197 obererezh, en o zouez 2 nevez:"
 
 #. list item
 msgctxt "20260204.html"
@@ -130,6 +125,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"Un obererezh evit tresañ oc'h implijout ur rod dantek e-barzh ur rodaoueg eo "
+"\\\"Drawing wheels\\\"."
 
 #. list item
 msgctxt "20260204.html"
@@ -138,45 +135,31 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"Un oberezhioù GLC (goulennoù lies-choaz) eo \\\"Multiple choice questions\\"
+"\". Taolit evezh e vez kuzhet an obererezh-mañ dre ziouer. Ne zeu war-wel "
+"nemet ur wech bet kaset roadennoù digant GCompris-teachers evit hen ober."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr ""
-"Bez' ez eus meur a dra reizhet ha gwelladennoù grafek e meur a obererezh."
+msgstr "Bez' ez eus meur a dra reizhet ha gwelladennoù e meur a obererezh."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "This version adds translation for one more language: Sanskrit."
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Kinnig a ra ar stumm-mañ troidigezhioù ur yezh ouzhpenn: Sañskriteg."
+msgstr "Kinnig a reomp troidigezhioù div yezh ouzhpenn: Kannadeg ha Tamileg."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Troidigezhioù klok evit ar yezhoù-mañ:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Bez' ez eus ivez troidigezhioù diglok evit ar yezhoù-se: "
@@ -184,22 +167,11 @@ msgstr "Bez' ez eus ivez troidigezhioù diglok evit ar yezhoù-se: "
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, Android "
-#| "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
-#| "be available soon in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -215,9 +187,6 @@ msgstr ""
 "hag er Windows store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Trugarez d'an holl, <br/>Timothée & Johnny"
@@ -370,7 +339,7 @@ msgstr "Jorjieg"
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Kannada"
-msgstr ""
+msgstr "Kannadeg"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
@@ -884,7 +853,7 @@ msgstr ""
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -895,11 +864,18 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"Arload sikour ar gelennerien eo GCompris-teachers a-benn gwellaat implijoù "
+"GCompris en o c'hlasoù. Bez' e c'heller pellgargañ anezhañ diwar hor  <a "
+"href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-teachers\"> "
+"Bajenn bellgargañ</a>, ha kavout an dornlevrioù a-benn gouzout hiroc'h diwar "
+"al liamm amañ-dindan."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers a zo deus outañ evit ar reizhadoù ha dasparzhioù GNU/Linux "
+"ha Windows."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1295,28 +1271,24 @@ msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
 msgstr ""
+"Aliet e vez ar gelennerien en un doare ofisiel da implijout GCompris er "
+"broioù ha stadoù-mañ:"
 
 #: template/schools.html:15
 msgid "France"
-msgstr ""
+msgstr "Bro-C'hall"
 
 #: template/schools.html:16
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Italian"
 msgid "Italy"
-msgstr "Italianeg"
+msgstr "Italia"
 
 #: template/schools.html:17
 msgid "Kerala"
-msgstr ""
+msgstr "Kerala"
 
 #: template/schools.html:18
-#, fuzzy
-#| msgctxt "language name, item list"
-#| msgid "Lithuanian"
 msgid "Lithuania"
-msgstr "Lituaneg"
+msgstr "Lituania"
 
 #: template/schools.html:21
 msgid ""
@@ -1386,7 +1358,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Roadennoù"
 
 #: template/schools.html:35
 msgid ""
@@ -1438,10 +1410,17 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"Un arload sikour eo GCompris-teachers evit ar gelennerien a-benn gwellaat "
+"implijoù GCompris en o c'hlasoù. Reiñ a ra an tu d'ar gelennerien sevel "
+"roadennoù personelaet ha resev disoc'hoù ar skolidi evit obererezhioù zo. "
+"Bez' e c'heller pellgargañ anezhañ diwar hor bajenn bellgargañ  <a href="
+"\"https://gcompris.net/downloads%(suffix)s.html#gcompris-teachers\">Download "
+"page</a>, ha kavout an dornlevrioù a-benn gouzout hiroc'h diwar al liamm "
+"amañ-dindan."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "Dornlevr GCompris-teachers"
 
 #: template/screenshot.html:33
 msgid "Description:"
