@@ -4,23 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2025 Vít Pelčák <vit@pelcak.org>
 # SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
-# SPDX-FileCopyrightText: 2024, 2025 Jan Papez (honyczek)
+# SPDX-FileCopyrightText: 2024, 2025, 2026 Jan Papez (honyczek)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-01-01 02:00+0000\n"
-"PO-Revision-Date: 2025-12-01 10:12+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2026-01-18 21:46+0100\n"
+"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
+"Language-Team: Czech <kde-i18n-cs@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #. news title
 msgctxt "20250521.html"
@@ -93,20 +93,14 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "Release GCompris 25.1 and 4.3.1"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Vydání GCompris 25.1 a 4.3.1"
+msgstr "Vydání GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "Today we are releasing GCompris version 25.1."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Dnes vydáváme GCompris verze 25.1."
+msgstr "Dnes vydáváme GCompris verze 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -116,11 +110,15 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Také vydáváme první oficiální verzi našeho doprovodného nástroje pro "
+"učitele: GCompris-teachers! Více informací najdete na stránce<a href=\\"
+"\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\\">Školy</"
+"a>."
 
 #. paragraph
 msgctxt "20260204.html"
 msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr ""
+msgstr "Tato nová verze obsahuje 197 aktivit, včetně 2 nových:"
 
 #. list item
 msgctxt "20260204.html"
@@ -128,6 +126,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"\\„Kreslící kolečka\\“ jsou aktivitou pro kreslení pomocí ozubeného kolečka "
+"otáčejícího se kolem pastorku."
 
 #. list item
 msgctxt "20260204.html"
@@ -136,40 +136,31 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"\\„Otázky s více volbami\\“ jsou aktivitou pro kvízy. Pozor, tato aktivita "
+"je ve výchozím stavu skrytá. Zobrazí se v případě, že jsou do ní z aplikace "
+"pro učitele GCompris-teachers zaslány soubory dat."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "It contains bug fixes and graphics improvements on many activities."
 msgctxt "20260204.html"
 msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "Obsahuje opravy chyb a grafická vylepšení v mnoha aktivitách."
+msgstr "Obsahuje opravy chyb a grafická vylepšení ve vícero aktivitách."
 
 #. paragraph
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr ""
+msgstr "Do této verze přibyly další dva jazyky: kannadština a tamilština."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Je plně přeloženo do následujících jazyků:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Také je částečně přeloženo do následujících jazyků:"
@@ -177,22 +168,11 @@ msgstr "Také je částečně přeloženo do následujících jazyků:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260204.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android "
@@ -202,14 +182,11 @@ msgid ""
 "Windows store."
 msgstr ""
 "Balíčky této nové verze můžete najít pro GNU/Linux, Windows, Android a "
-"Raspberry Pi na <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"Raspberry Pi <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
 "\">stránce stahování</a>. Tato aktualizace také bude brzy dostupná v obchodě "
 "Google Play, repozitáři F-Droidu a obchodu Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20250521.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
@@ -871,7 +848,7 @@ msgstr ""
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers pro učitele"
 
 #: template/downloads.html:169
 #, python-format
@@ -882,11 +859,18 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"GCompris-teachers je doprovodná aplikace pro učitele pro vylešení používání "
+"aplikace GCompris ve třídě. Více se můžete dozvědět na stránce <a href="
+"\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers\">Školy</a>. "
+"Berte na vědomí, že pro její použití je třeba mít stejnou verzi jako hlavní "
+"GCompris aplikace."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"Aplikace GCompris-teachers je dostupná pro operační systémy GNU/Linux a "
+"Windows."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -1359,7 +1343,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Soubory dat"
 
 #: template/schools.html:35
 msgid ""
@@ -1408,10 +1392,16 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers je doprovodnou aplikací pro učitele pro lepší použití "
+"GComprisu v jejich třídě. Učitelům umožňuje vytvořit upravené soubory dat a "
+"získávat výsledky od žáků z některých aktivit. Tuto aplikaci si můžete "
+"stáhnout na stránce <a href=\"https://gcompris.net/downloads%(suffix)s."
+"html#gcompris-teachers\">Stáhnout</a> a také tam níže naleznete návod, ze "
+"kterého se dozvíte více."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "Návod GCompris-teachers pro učitele"
 
 #: template/screenshot.html:33
 msgid "Description:"
