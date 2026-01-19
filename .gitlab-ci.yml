@@ -6,3 +6,5 @@ staticweb:
   interruptible: true
   script:
     - make clean update all
+    - ./tools/check_updated_news.sh
+    - git push -o ci.skip
