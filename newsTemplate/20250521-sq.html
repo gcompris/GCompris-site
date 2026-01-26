@@ -1,0 +1,31 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Hedhje në qarkullim e GCompris-së 25.1 dhe 4.3.1' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r25.1.png' class='col-xs-12 col-md-4' alt='gcompris 25.1 and 4.3.1' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r25.1.png')"/>
+
+<p>Sot hedhim në qarkullim GCompris version 25.1.</p>
+<p>Përmban ndreqje të metash dhe përmirësime elementësh grafikë në shumë veprimtari.</p>
+
+<p>Është i përkthyer plotësisht në gjuhët vijuese:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Gjithashtu është i përkthyer pjesërisht në gjuhët vijuese:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Te <a href="https://gcompris.net/downloads{{ suffix }}.html">faqja e shkarkimeve</a> mund të gjeni paketa të këtij versioni të ri për GNU/Linux, Windows, Android dhe Raspberry Pi. Ky përditësim do të jetë së shpejti gati edhe te shitorja Android Play, depoja F-Droid dhe shitorja Windows.</p>
+
+<p>Sot hedhim në qarkullim edhe GCompris version 4.3.1.</p>
+<p>Ky është një version mirëmbajtje për sisteme 32bit i cili përmban vetëm pak ndreqje të metash.</p>
+
+<p>Faleminderit të tërëve, <br/>Timothée & Johnny</p>
+
+{% endblock %}
