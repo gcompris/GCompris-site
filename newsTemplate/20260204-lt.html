@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'GCompris 26.0 versija' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Šiandien išleidžiame GCompris 26.0 versiją.</p>
+<p>Taip pat išleidžiame pirmąją oficialią mūsų pagalbinio įrankio mokytojams versiją – GCompris-mokytojams! Daugiau informacijos rasite <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">Mokyklų puslapyje</a>.</p>
+<p>Naujoje versijoje yra 197 pamokėlės, įskaitant 2 naujas:</p>
+<ul>
+<li class="puce">Piešimas krumpliaračiais – piešimas naudojant krumpliaratį, besisukantį kito krumpliaračio viduje.</li>
+<li class="puce">Klausimai su keliais galimais atsakymais – tai veikla su pasirenkamu atsakymu (MCQ). Atkreipkite dėmesį, kad ši veikla pagal numatytuosius nustatymus yra paslėpta. Ji tampa matoma tik tada, kai iš GCompris-mokytojams versijos jai yra išsiunčiami duomenų rinkiniai.</li>
+</ul>
+<br/>
+<p>Ištaisėme klaidas ir patobulinome kelias pamokėles.</p>
+
+<p>Pridėjome vertimą į kanadų ir Tamilų (Indija) kalbas.</p>
+<p>Jis visiškai išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Jis taip pat iš dalies išverstas į šias kalbas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Šios naujos versijos paketus, skirtus GNU/Linux, Windows, Android ir Raspberry Pi, rasite <a href="https://gcompris.net/downloads{{ suffix }}.html">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Atnaujinimas netrukus taip pat bus pasiekiamas „Android Play“, „F-Droid“ ir „Windows“ parduotuvėse.</p>
+
+<p>Nuoširdžiai dėkojame, <br/>Timothée ir Johnny</p>
+
+{% endblock %}
