@@ -157,11 +157,11 @@ suffix = '-' + locale
 # We don't have a translation of each manual. If we have it
 # we return it else we return the english one
 def get_manual():
-    link = f"https://docs.kde.org/stable6/{locale}/gcompris/gcompris/index.html"
+    link = f"https://docs.kde.org/stable_kf6/{locale}/gcompris/gcompris/index.html"
     r = requests.head(link, timeout=5)
     if r.ok:
         return link
-    return "https://docs.kde.org/stable6/en/gcompris/gcompris/index.html"
+    return "https://docs.kde.org/stable_kf6/en/gcompris/gcompris/index.html"
 
 #
 # We don't have a translation of each manual. If we have it
@@ -170,8 +170,8 @@ def get_server_manual():
     link = f"https://docs.kde.org/stable_kf6/{locale}/gcompris-teachers-handbook/gcompris-teachers-handbook/index.html"
     r = requests.head(link, timeout=5)
     if r.ok:
-        return locale
-    return "https://docs.kde.org/stable6/en/gcompris-teachers-handbook/gcompris-teachers-handbook/index.html"
+        return link
+    return "https://docs.kde.org/stable_kf6/en/gcompris-teachers-handbook/gcompris-teachers-handbook/index.html"
 
 descriptions = []
 
