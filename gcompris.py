@@ -188,6 +188,8 @@ def get_boards():
     for activity in os.listdir(activity_dir):
         # Skip unrelevant activities
         if activity == 'template' or \
+           activity == 'multiple_choice_questions' or \
+           activity == 'ordering_chronology' or \
            not os.path.isdir(activity_dir + "/" + activity):
             continue
 
