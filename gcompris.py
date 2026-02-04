@@ -132,7 +132,7 @@ gcomprisLocales = {
     "ta": {"original": "தமிழ்", "translated": t.pgettext("language name, item list", "Tamil")},
     "th": {"original": "ไทย", "translated": t.pgettext("language name, item list", "Thai")},
     "tr": {"original": "Türkçe", "translated": t.pgettext("language name, item list", "Turkish")},
-    "uk": {"original": "українська", "translated": t.pgettext("language name, item list", "Ukrainian")},
+    "uk": {"original": "Українська", "translated": t.pgettext("language name, item list", "Ukrainian")},
     "zh_CN": {"original": "中文（简体）", "translated": t.pgettext("language name, item list", "Chinese Simplified")},
     "zh_TW": {"original": "繁體中文", "translated": t.pgettext("language name, item list", "Chinese Traditional")}
 }
