@@ -49,7 +49,7 @@ fullyTranslated = []
 partiallyTranslated = []
 for root, dirs, files in os.walk(os.path.join(gcomprisPath, "poqm")):
     for name in files:
-        if name.endswith(".po"):
+        if name.startswith("gcompris_qt") and name.endswith(".po"):
             poFile = polib.pofile(os.path.join(root, name), encoding='utf-8')
             not_translated = len([e for e in poFile if not e.obsolete])
             translated = round(len(poFile.translated_entries()) * 100 / not_translated)
