@@ -133,6 +133,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"« Roues de dessin » est une activité d'art utilisant un engrenage dans une "
+"roue dentée pour tracer le dessin."
 
 #. list item
 msgctxt "20260204.html"
@@ -141,6 +143,9 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"« Questions à choix multiples » est une activité générique qui est cachée "
+"par défaut mais devient visible une fois que des jeux de données ont été "
+"envoyé depuis GCompris-teachers."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -874,6 +879,11 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"GCompris-teachers est une application pour les enseignants permettant "
+"d'améliorer l'utilisation de GCompris dans la classe. Vous pouvez apprendre "
+"plus depuis notre page <a href=\"https://gcompris.net/schools%(suffix)s."
+"html#gcompris-teachers\">Écoles</a>. Assurez-vous d'utiliser la même version "
+"de GCompris et GCompris-teachers lorsque vous utilisez les outils ensemble."
 
 #: template/downloads.html:170
 msgid ""
@@ -1372,7 +1382,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Jeux de données"
 
 #: template/schools.html:35
 msgid ""
@@ -1427,6 +1437,13 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers est une application pour les enseignants permettant "
+"d'améliorer l'utilisation de GCompris dans la classe. L'outil permet aux "
+"enseignants de créer des jeux de données spécifiques et de recevoir les "
+"résultats des élèves pour certaines activités. Vous pouvez le télécharger "
+"depuis <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">la page de Téléchargements</a>, et trouver le manuel "
+"d'utilisation dans le lien ci-dessous."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
