@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-05 02:08+0000\n"
+"POT-Creation-Date: 2026-03-07 02:08+0000\n"
 "PO-Revision-Date: 2025-01-02 10:39+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -17,113 +17,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Loco-Parser: loco_parse_po\n"
 "X-Generator: Poedit 3.0\n"
-
-#. news title
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Release GCompris 4.3"
-msgctxt "20250521.html"
-msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "GCompris 4.3-es kiadás"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20250130.html"
-#| msgid "Today we are releasing GCompris version 25.0."
-msgctxt "20250521.html"
-msgid "Today we are releasing GCompris version 25.1."
-msgstr "Bemutatjuk GCompris 25.0-s verzióját."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "It contains bug fixes and graphics improvements on multiple activities."
-msgctxt "20250521.html"
-msgid "It contains bug fixes and graphics improvements on many activities."
-msgstr ""
-"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
-"vonatkozóan."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is fully translated in the following languages:"
-msgctxt "20250521.html"
-msgid "It is fully translated in the following languages:"
-msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
-
-#. list item
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }}"
-msgctxt "20250521.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "It is also partially translated in the following languages:"
-msgctxt "20250521.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Részben pedig az alábbi nyelveken érhető el:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgctxt "20250521.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
-msgctxt "20250521.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
-"be available in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Az új verzió csomagjai GNU/Linux, Windows, Android és Raspberry Pi operációs "
-"rendszerekhez megtalálhatók a <a href=\\„https://gcompris.net/"
-"downloads{{ utótag }}.html\\”>letöltési oldalon</a>. Ez a frissítés "
-"hamarosan elérhető lesz az Android Play áruházban, az F-Droid tárolóban és a "
-"Windows áruházban is."
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Today we are releasing GCompris version 4.3."
-msgctxt "20250521.html"
-msgid "We are also releasing GCompris version 4.3.1."
-msgstr "Bemutatjuk a GCompris 4.3-as verzióját."
-
-#. paragraph
-msgctxt "20250521.html"
-msgid ""
-"This is a maintenance version for 32bit systems which only contains a few "
-"backported bug fixes."
-msgstr ""
-
-#. paragraph
-#, fuzzy
-#| msgctxt "20241129.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
-msgctxt "20250521.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
 #. news title
 #, fuzzy
@@ -254,6 +147,98 @@ msgstr ""
 #| msgctxt "20250130.html"
 #| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Release GCompris 25.0"
+msgctxt "20260311.html"
+msgid "Release GCompris 26.1"
+msgstr "GCompris 25.0-s verzió"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250130.html"
+#| msgid "Today we are releasing GCompris version 25.0."
+msgctxt "20260311.html"
+msgid "Today we are releasing GCompris version 26.1."
+msgstr "Bemutatjuk GCompris 25.0-s verzióját."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid ""
+#| "It contains bug fixes and graphics improvements on multiple activities."
+msgctxt "20260311.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr ""
+"Hibajavításokat és grafikai javításokat tartalmaz több tevékenységre "
+"vonatkozóan."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260311.html"
+msgid "It is fully translated in the following languages:"
+msgstr "A program az alábbi nyelveken érhető el teljes egészében:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260311.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260311.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Részben pedig az alábbi nyelveken érhető el:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260311.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, Raspberry Pi and macOS on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260311.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Az új verzió csomagjai GNU/Linux, Windows, Android és Raspberry Pi operációs "
+"rendszerekhez megtalálhatók a <a href=\\„https://gcompris.net/"
+"downloads{{ utótag }}.html\\”>letöltési oldalon</a>. Ez a frissítés "
+"hamarosan elérhető lesz az Android Play áruházban, az F-Droid tárolóban és a "
+"Windows áruházban is."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20241129.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260311.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Mindenkinek köszönjük, <br/>Timothée és Johnny"
 
@@ -1515,6 +1500,27 @@ msgstr "Olvasás"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Stratégia"
+
+#, fuzzy
+#~| msgctxt "20241129.html"
+#~| msgid "Release GCompris 4.3"
+#~ msgctxt "20250521.html"
+#~ msgid "Release GCompris 25.1 and 4.3.1"
+#~ msgstr "GCompris 4.3-es kiadás"
+
+#, fuzzy
+#~| msgctxt "20250130.html"
+#~| msgid "Today we are releasing GCompris version 25.0."
+#~ msgctxt "20250521.html"
+#~ msgid "Today we are releasing GCompris version 25.1."
+#~ msgstr "Bemutatjuk GCompris 25.0-s verzióját."
+
+#, fuzzy
+#~| msgctxt "20241129.html"
+#~| msgid "Today we are releasing GCompris version 4.3."
+#~ msgctxt "20250521.html"
+#~ msgid "We are also releasing GCompris version 4.3.1."
+#~ msgstr "Bemutatjuk a GCompris 4.3-as verzióját."
 
 #~ msgctxt "20240920.html"
 #~ msgid "Release GCompris 4.2"

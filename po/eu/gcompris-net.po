@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-05 02:08+0000\n"
+"POT-Creation-Date: 2026-03-07 02:08+0000\n"
 "PO-Revision-Date: 2025-12-27 09:59+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -20,78 +20,6 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 25.12.0\n"
-
-#. news title
-msgctxt "20250521.html"
-msgid "Release GCompris 25.1 and 4.3.1"
-msgstr "GCompris 25.1 eta 4.3 argitaratzea"
-
-#. paragraph
-msgctxt "20250521.html"
-msgid "Today we are releasing GCompris version 25.1."
-msgstr "Gaurkoan GCompris 25.1 bertsioa argitaratzen dugu."
-
-#. paragraph
-msgctxt "20250521.html"
-msgid "It contains bug fixes and graphics improvements on many activities."
-msgstr ""
-"Hainbat jardueratarako akats konponketak eta grafikoen hobekuntzak ditu."
-
-#. paragraph
-msgctxt "20250521.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Ondoko hizkuntzatan osorik itzulita dago:"
-
-#. list item
-msgctxt "20250521.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20250521.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Ondoko hizkuntzatan ere hein batean itzulita dago:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20250521.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} (%{{ oneStatus }})"
-
-#. paragraph
-msgctxt "20250521.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android, "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
-"be available in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
-"jaisteko orrian</a> bertsio berri honetarako GNU/Linux, Windows, Android, "
-"Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da "
-"eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
-"saltokian ere."
-
-#. paragraph
-msgctxt "20250521.html"
-msgid "We are also releasing GCompris version 4.3.1."
-msgstr "GCompris 4.3.1 bertsioa ere argitaratzen dugu."
-
-#. paragraph
-msgctxt "20250521.html"
-msgid ""
-"This is a maintenance version for 32bit systems which only contains a few "
-"backported bug fixes."
-msgstr ""
-"Hau 32 biteko sistemetarako mantentze bertsio bat da atzerantz eratorritako "
-"akatsen konponketa batzuk baino ez dituena."
-
-#. paragraph
-msgctxt "20250521.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
 #. news title
 msgctxt "20260204.html"
@@ -195,6 +123,96 @@ msgstr ""
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Release GCompris 26.0"
+msgctxt "20260311.html"
+msgid "Release GCompris 26.1"
+msgstr "GCompris 26.0 argitaratzea"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Today we are releasing GCompris version 26.0."
+msgctxt "20260311.html"
+msgid "Today we are releasing GCompris version 26.1."
+msgstr "Gaurkoan GCompris 26.0 bertsioa argitaratzen dugu."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid "It contains bug fixes and graphics improvements on many activities."
+msgctxt "20260311.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr ""
+"Hainbat jardueratarako akats konponketak eta grafikoen hobekuntzak ditu."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260311.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Ondoko hizkuntzatan osorik itzulita dago:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260311.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260311.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Ondoko hizkuntzatan ere hein batean itzulita dago:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260311.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} (%{{ oneStatus }})"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260311.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
+"jaisteko orrian</a> bertsio berri honetarako GNU/Linux, Windows, Android, "
+"Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da "
+"eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
+"saltokian ere."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20250521.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260311.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1482,6 +1500,26 @@ msgstr "Irakurketa"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estrategia"
+
+#~ msgctxt "20250521.html"
+#~ msgid "Release GCompris 25.1 and 4.3.1"
+#~ msgstr "GCompris 25.1 eta 4.3 argitaratzea"
+
+#~ msgctxt "20250521.html"
+#~ msgid "Today we are releasing GCompris version 25.1."
+#~ msgstr "Gaurkoan GCompris 25.1 bertsioa argitaratzen dugu."
+
+#~ msgctxt "20250521.html"
+#~ msgid "We are also releasing GCompris version 4.3.1."
+#~ msgstr "GCompris 4.3.1 bertsioa ere argitaratzen dugu."
+
+#~ msgctxt "20250521.html"
+#~ msgid ""
+#~ "This is a maintenance version for 32bit systems which only contains a few "
+#~ "backported bug fixes."
+#~ msgstr ""
+#~ "Hau 32 biteko sistemetarako mantentze bertsio bat da atzerantz "
+#~ "eratorritako akatsen konponketa batzuk baino ez dituena."
 
 #~ msgctxt "20250130.html"
 #~ msgid ""
