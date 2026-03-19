@@ -139,7 +139,7 @@ chmod u+x gcompris-qt-{{ version }}-Linux64.sh
 	    <div class="newscontent">
 	      <p>{% trans %}We provide a standalone package for Raspberry Pi (64bit).{% endtrans %} {% trans %}It was tested only on Raspberry Pi 3.{% endtrans %}</p>
 <pre>
-• <a href="https://download.kde.org/stable/gcompris/qt/raspberrypi/gcompris-qt-26.0-Raspberry64.sh">GCompris 26.0 - Raspberry Pi 3 64bit</a>
+• <a href="https://download.kde.org/stable/gcompris/qt/raspberrypi/gcompris-qt-{{ version }}-Raspberry64.sh">GCompris {{ version }} - Raspberry Pi 3 64bit</a>
 </pre>
 	      <p>{% trans %}The last version available for 32bit is the version 4.3 at the following link:{% endtrans %}</p>
 <pre>
@@ -148,8 +148,8 @@ chmod u+x gcompris-qt-{{ version }}-Linux64.sh
 
           <p>{% trans %}To use it, open a terminal in the folder where you downloaded the installer and run these commands:{% endtrans %}</p>
 <pre dir="ltr">
-chmod u+x gcompris-qt-26.0-Raspberry64.sh
-./gcompris-qt-26.0-Raspberry.sh
+chmod u+x gcompris-qt-{{ version }}-Raspberry64.sh
+./gcompris-qt-{{ version }}-Raspberry.sh
 </pre>
 	      <p>{% trans %}Then read the license or press q to skip it, answer yes to the questions, and the software will be installed in a new folder next to the installer.{% endtrans %}</p>
 	      <p>{% trans %}Finally, to launch gcompris, go in the new folder, in bin, and double-click on gcompris-qt.sh.{% endtrans %}</p>
