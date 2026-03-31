@@ -6,36 +6,31 @@
 # SPDX-FileCopyrightText: 2019 Daniel Schlep <info@danielschlep.de>
 # SPDX-FileCopyrightText: 2020 Timo <animtim@gmail.com>
 # SPDX-FileCopyrightText: 2020, 2022 Frederik Schwarzer <schwarzer@kde.org>
+# SPDX-FileCopyrightText: 2026 Alexander Becker <alex-at-kde-l10n-de@freenet.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-10 02:11+0000\n"
-"PO-Revision-Date: 2022-04-15 05:05+0200\n"
-"Last-Translator: Lars Vogdt <lars@linux-schulserver.de>\n"
+"PO-Revision-Date: 2026-03-26 20:28+0100\n"
+"Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20260204.html"
 msgid "Release GCompris 26.0"
-msgstr "Veröffentlichung GCompris 2.4"
+msgstr "Veröffentlichung GCompris 26.0"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20260204.html"
 msgid "Today we are releasing GCompris version 26.0."
-msgstr "Heute veröffentlichen wir GCompris Version 2.3."
+msgstr "Heute veröffentlichen wir GCompris Version 26.0."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -83,28 +78,29 @@ msgstr ""
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
 msgstr ""
+"Wir liefern Übersetzungen für zwei weitere Sprachen: Kannada und Tamil."
 
 #. paragraph
 msgctxt "20260204.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Es ist in die folgenden Sprachen vollständig übersetzt:"
 
 #. list item
 msgctxt "20260204.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20260204.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Es ist außerdem in die folgenden Sprachen teilweise übersetzt:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20260204.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
 #, fuzzy
@@ -130,28 +126,19 @@ msgstr ""
 "Store verfügbar sein."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230118.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260204.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dank an alle, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20220413.html"
-#| msgid "Release GCompris 2.4"
 msgctxt "20260311.html"
 msgid "Release GCompris 26.1"
-msgstr "Veröffentlichung GCompris 2.4"
+msgstr "Veröffentlichung GCompris 26.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20220227.html"
-#| msgid "Today we are releasing GCompris version 2.3."
 msgctxt "20260311.html"
 msgid "Today we are releasing GCompris version 26.1."
-msgstr "Heute veröffentlichen wir GCompris Version 2.3."
+msgstr "Heute veröffentlichen wir GCompris Version 26.1."
 
 #. paragraph
 #, fuzzy
@@ -166,24 +153,24 @@ msgstr ""
 #. paragraph
 msgctxt "20260311.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Es ist in die folgenden Sprachen vollständig übersetzt:"
 
 #. list item
 msgctxt "20260311.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20260311.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Es ist außerdem in die folgenden Sprachen teilweise übersetzt:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20260311.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }} %)"
 
 #. paragraph
 #, fuzzy
@@ -209,9 +196,6 @@ msgstr ""
 "Store verfügbar sein."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20230121.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260311.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Dank an alle, <br/>Timothée & Johnny"
@@ -219,295 +203,277 @@ msgstr "Dank an alle, <br/>Timothée & Johnny"
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "Englisch (GB)"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "Englisch (US)"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Aserbaidschanisch"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulgarisch"
 
 #: gcompris.py:88
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Breton (100%)"
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr "Bretonisch (100%)"
+msgstr "Bretonisch"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr ""
+msgstr "Belarussisch"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr ""
+msgstr "Katalanisch"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "Katalanisch (Valencianisch)"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr ""
+msgstr "Tschechisch"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "Dänisch"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr ""
+msgstr "Griechisch"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr ""
+msgstr "Spanisch"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr ""
+msgstr "Estnisch"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr ""
+msgstr "Baskisch"
 
 #: gcompris.py:100
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Finnish (90%)"
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr "Finnisch (90%)"
+msgstr "Finnisch"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr ""
+msgstr "Irisch"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Schottisch-Gälisch"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr ""
+msgstr "Galicisch"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebräisch"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr ""
+msgstr "Hindi"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr ""
+msgstr "Kroatisch"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr ""
+msgstr "Ungarisch"
 
 #: gcompris.py:109
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Indonesian (100%)"
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr "Indonesisch (100%)"
+msgstr "Indonesisch"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Italian"
-msgstr ""
+msgstr "Italienisch"
 
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "Georgisch"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr ""
+msgstr "Koreanisch"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litauisch"
 
 #: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr ""
+msgstr "Lettisch"
 
 #: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Macedonian"
-msgstr ""
+msgstr "Mazedonisch"
 
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Dutch"
-msgstr ""
+msgstr "Niederländisch"
 
 #: gcompris.py:119
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Norwegian Nynorsk (97%)"
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr "Norwegisches Nynorsk (97%)"
+msgstr "Norwegisch (Nynorsk)"
 
 #: gcompris.py:120
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Polish (100%)"
 msgctxt "language name, item list"
 msgid "Polish"
-msgstr "Polnisch (100%)"
+msgstr "Polnisch"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugiesisch"
 
 #: gcompris.py:122
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Brazilian Portuguese (100%)"
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
-msgstr "Brasilianisches Portugiesisch (100%)"
+msgstr "Brasilianisches Portugiesisch"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Romanian"
-msgstr ""
+msgstr "Rumänisch"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Russian"
-msgstr ""
+msgstr "Russisch"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskrit"
 
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Slovak"
-msgstr ""
+msgstr "Slowakisch"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Slovenian"
-msgstr ""
+msgstr "Slowenisch"
 
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Albanian"
-msgstr ""
+msgstr "Albanisch"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr ""
+msgstr "Serbisch"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Swedish"
-msgstr ""
+msgstr "Schwedisch"
 
 #: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 #: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr ""
+msgstr "Thailändisch"
 
 #: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Turkish"
-msgstr ""
+msgstr "Türkisch"
 
 #: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrainisch"
 
 #: gcompris.py:136
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Chinesisch (Kurzzeichen)"
 
 #: gcompris.py:137
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Chinesisch (Langzeichen)"
 
 #: gcompris.py:269
 msgid ""
@@ -557,15 +523,14 @@ msgstr "Handbuch"
 
 #: template/base.html:82
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: template/base.html:83
 msgid "Contribute"
 msgstr "Mitwirken"
 
 #: template/base.html:117
-#, fuzzy, python-format
-#| msgid "Site last updated the %(revision_date)s."
+#, python-format
 msgid "Site last updated on %(revision_date)s."
 msgstr "Seite wurde zuletzt am %(revision_date)s aktualisiert."
 
@@ -895,10 +860,8 @@ msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:140
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Wir bieten eigenständige Pakete für Raspberry Pi."
+msgstr "Wir bieten eigenständige Pakete für Raspberry Pi (64 Bit)."
 
 #: template/downloads.html:140
 msgid "It was tested only on Raspberry Pi 3."
@@ -912,7 +875,7 @@ msgstr ""
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -928,6 +891,7 @@ msgstr ""
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers ist für GNU/Linux- und Windows-Betriebssysteme verfügbar."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -969,11 +933,11 @@ msgstr "Signatur-Dateien:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "FAQ – GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Häufig gestellte Fragen"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
@@ -1279,22 +1243,24 @@ msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
 msgstr ""
+"GCompris wird für Lehrer in den folgenden Ländern und Bundesstaaten "
+"offiziell empfohlen:"
 
 #: template/schools.html:15
 msgid "France"
-msgstr ""
+msgstr "Frankreich"
 
 #: template/schools.html:16
 msgid "Italy"
-msgstr ""
+msgstr "Italien"
 
 #: template/schools.html:17
 msgid "Kerala"
-msgstr ""
+msgstr "Kerala"
 
 #: template/schools.html:18
 msgid "Lithuania"
-msgstr ""
+msgstr "Litauen"
 
 #: template/schools.html:21
 msgid ""
@@ -1364,7 +1330,7 @@ msgstr ""
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Datensätze"
 
 #: template/schools.html:35
 #, fuzzy
@@ -1428,7 +1394,7 @@ msgstr ""
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "Handbuch zu GCompris-teachers"
 
 #: template/screenshot.html:33
 msgid "Description:"
