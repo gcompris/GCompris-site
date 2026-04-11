@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-10 02:11+0000\n"
-"PO-Revision-Date: 2023-03-29 11:43+0200\n"
+"PO-Revision-Date: 2026-04-10 12:00+0200\n"
 "Last-Translator: Miroslav Ďurian <aasami@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
 "Language: sk\n"
@@ -40,6 +40,10 @@ msgid ""
 "<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
 "\">schools page</a>."
 msgstr ""
+"Tiež vydávame prvú oficiálnu verziu nášho sprievodného nástroja pre "
+"učiteľov: GCompris-teachers! Viac informácií nájdete na <a href=\\\"https://"
+"gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\\">stránke pre "
+"školy</a>."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -52,6 +56,8 @@ msgid ""
 "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
 "cogwheel."
 msgstr ""
+"\\\"Kreslenie kolieskami\\\" je aktivita na kreslenie pomocou ozubeného "
+"kolieska rotujúceho v ozubenom kolese."
 
 #. list item
 msgctxt "20260204.html"
@@ -60,6 +66,9 @@ msgid ""
 "activity is hidden by default. It becomes visible after some datasets for it "
 "have been sent from GCompris-teachers."
 msgstr ""
+"\\\"Otázky s výberom odpovede\\\" je aktivita s výberom z viacerých "
+"možností. Upozorňujeme, že táto aktivita je predvolene skrytá. Stane sa "
+"viditeľnou po odoslaní dátových sád z aplikácie GCompris-teachers."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -71,7 +80,7 @@ msgstr ""
 #. paragraph
 msgctxt "20260204.html"
 msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr ""
+msgstr "Dodávame preklady pre dva ďalšie jazyky: Kannadčinu a Tamilčinu."
 
 #. paragraph
 msgctxt "20260204.html"
@@ -187,7 +196,7 @@ msgstr "Anglicky (USA)"
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Arabsky"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
@@ -317,12 +326,12 @@ msgstr "Taliansky"
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "Gruzínsky"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Kannada"
-msgstr ""
+msgstr "Kannadsky"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
@@ -495,7 +504,7 @@ msgstr "Návod"
 
 #: template/base.html:82
 msgid "FAQ"
-msgstr ""
+msgstr "Často kladené otázky"
 
 #: template/base.html:83
 msgid "Contribute"
@@ -609,7 +618,7 @@ msgstr "Požiadavky na systém: Windows 7, 8 alebo 10 s podporou OpenGL 2."
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "Poskytujeme aj inštalátor msi."
 
 #: template/downloads.html:32
 msgid ""
@@ -627,6 +636,8 @@ msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
 msgstr ""
+"Poslednú dostupnú verziu pre Windows 7 a 8 je možné stiahnuť z nižšie "
+"uvedeného odkazu."
 
 #: template/downloads.html:38
 msgid ""
@@ -708,6 +719,8 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"Najnovšia verzia zatiaľ nie je dostupná na macOS z dôvodu chýbajúcej "
+"infraštruktúry na jej zostavenie a testovanie."
 
 #: template/downloads.html:90
 msgid "You can download the last version available macOS from the link below."
@@ -739,7 +752,7 @@ msgstr ""
 
 #: template/downloads.html:109
 msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+msgstr "Požiadavky na systém: linux kernel 4.18, glibc 2.28."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""
@@ -794,12 +807,16 @@ msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Posledná dostupná verzia pre 32-bitové distribúcie Linuxu sa dá stiahnuť z "
+"nasledujúceho odkazu."
 
 #: template/downloads.html:122
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Požiadavky na systém: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
+"1.0."
 
 #: template/downloads.html:136
 msgid "Raspberry Pi"
@@ -818,10 +835,11 @@ msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Posledná dostupná verzia pre 32-bit je verzia 4.3 na nasledujúcom odkaze:"
 
 #: template/downloads.html:165 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr "GCompris"
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:169
 #, python-format
@@ -832,11 +850,17 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"GCompris-teachers je sprievodná aplikácia pre učiteľov na zlepšenie "
+"využívania GCompris v ich triede. Viac sa o nej dozviete na našej <a href="
+"\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers\">stránke "
+"pre školy</a>. Upozorňujeme, že na jej použitie by ste mali používať rovnakú "
+"verziu hlavnej aplikácie GCompris."
 
 #: template/downloads.html:170
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers je dostupný pre operačné systémy GNU/Linux a Windows."
 
 #: template/downloads.html:184
 msgid "Source code"
@@ -873,15 +897,15 @@ msgstr "podpisové súbory:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "Často kladené otázky - GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Často kladené otázky"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Prečo nie sú niektoré súčasti obsiahnuté priamo v softvéri?"
 
 #: template/faq.html:14
 msgid ""
@@ -892,6 +916,12 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Zahrnutie hlasov pre všetky jazyky by spravilo inštalátor príliš veľký a "
+"väčšina používateľov sa zaujíma iba o hlasy vo svojom jazyku. Taktiež "
+"obrázky navyše a hudba na pozadí zaberajú pomerne veľa miesta, pričom nie sú "
+"na používanie softvéru potrebné. Preto sme sa na minimalizáciu veľkosti "
+"základného inštalátora rozhodli ich nezahrňovať a umožniť používateľom "
+"stiahnuť si ich zo softvéru, ak chcú."
 
 #: template/faq.html:15
 msgid ""
@@ -899,16 +929,21 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
+"Ak nechcete, aby softvér čokoľvek sťahoval automaticky, môžete vypnúť "
+"možnosť „Povoliť automatické sťahovanie/aktualizáciu externých súčastí\" na "
+"hlavnej konfiguračnej stránke."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Ako môžem manuálne stiahnuť a nainštalovať doplnkové súčasti?"
 
 #: template/faq.html:18
 msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"DÔLEŽITÉ: pre verzie GCompris staršie ako 4.0 musíte vo všetkých pokynoch "
+"nižšie nahradiť „data3\" za „data2\"."
 
 #: template/faq.html:19
 msgid ""
@@ -916,10 +951,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"DÔLEŽITÉ: od verzie GCompris 4.0 sme do názvov súborov .rcc pridali dátum "
+"poslednej aktualizácie. Preto musíte pred stiahnutím vyhľadať v súboroch "
+"„Contents\" názov najnovšieho súboru. Napríklad:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "Pre staršie verzie názvy súborov neobsahujú dátum. Príklad:"
 
 #: template/faq.html:20
 msgid ""
@@ -928,6 +966,10 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"DÔLEŽITÉ: v nasledujúcich pokynoch nahraďte „-codecName\" za „-mp3\" pre "
+"systémy Windows, alebo „-ogg\" pre systémy Linux alebo Android, alebo „-aac"
+"\" pre systémy macOS. Taktiež nahraďte „-localeCode\" kódom vášho miestneho "
+"nastavenia."
 
 #: template/faq.html:20
 msgid ""
@@ -935,6 +977,9 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"A ako bolo vysvetlené vyššie, od verzie GCompris 4.0 nahraďte „-date\" "
+"dátumom, ktorý ste našli v súbore „Contents\"; pre staršie verzie odstráňte "
+"časť „-date\"."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
@@ -945,101 +990,123 @@ msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Pre hudbu na pozadí musíte prejsť do priečinka s názvom „backgroundMusic\" a "
+"stiahnuť tieto 2 súbory:"
 
 #: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Potom skopírujte tieto 2 súbory do priečinka s názvom „backgroundMusic\" v "
+"priečinku vyrovnávacej pamäte aplikácie."
 
 #: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Pre hlasy musíte prejsť do priečinka s názvom „voices-codecName\" a stiahnuť "
+"tieto 2 súbory:"
 
 #: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Potom skopírujte tieto 2 súbory do priečinka s názvom „voices-codecName\" v "
+"priečinku vyrovnávacej pamäte aplikácie."
 
 #: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
 msgstr ""
+"Pre obrázky musíte prejsť do priečinka s názvom „words\" a stiahnuť tieto 2 "
+"súbory:"
 
 #: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Potom skopírujte tieto 2 súbory do priečinka s názvom „words\" v priečinku "
+"vyrovnávacej pamäte aplikácie."
 
 #: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
 msgstr ""
+"Cesta k priečinku vyrovnávacej pamäte sa líši podľa operačného systému."
 
 #: template/faq.html:44
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Cesta na Windows:"
 
 #: template/faq.html:48
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Cesta na Linuxe:"
 
 #: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
 msgstr ""
+"Cesta na Androide (na úpravu tohto priečinka potrebujete prístup root):"
 
 #: template/faq.html:56
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Cesta na macOS:"
 
 #: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "Je GCompris balíček GNU alebo KDE?"
 
 #: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"Je oboje. Od začiatku bol GCompris vždy a stále je balíčkom GNU. Od roku "
+"2014 ho udržiava komunita KDE."
 
 #: template/faq.html:64
 msgid "Why is it called GCompris?"
-msgstr ""
+msgstr "Prečo sa to volá GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Názov GCompris znie vo francúzštine ako „J'ai compris\", čo po slovensky "
+"znamená „Rozumiem\". G tiež znamená GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Závisí tento softvér od neslobodných balíčkov alebo obsahu?"
 
 #: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Všetok obsah a závislosti sú pod licenciami kompatibilnými s licenciou "
+"AGPLv3."
 
 #: template/faq.html:70
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Prečo nie je dostupný pre iOS?"
 
 #: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Požiadavky na zostavenie a publikovanie softvéru pre iOS nie sú kompatibilné "
+"s licenciami GPLv3 a AGPLv3, ktoré tento softvér používa."
 
 #: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Prečo nie je dostupný v obchode Amazon?"
 
 #: template/faq.html:74
 msgid ""
@@ -1048,6 +1115,10 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Pre Android už publikujeme v Obchode Play a na F-Droide, publikovanie vo "
+"všetkých obchodoch by vyžadovalo príliš veľa práce. Ak používate tablet "
+"Fire, môžete si priamo nainštalovať najnovší apk z našej webovej stránky a "
+"použiť spúšťač tretej strany na prístup k aplikácii z detského profilu."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1175,6 +1246,8 @@ msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
 msgstr ""
+"GCompris je oficiálne odporúčaný pre učiteľov v nasledujúcich krajinách a "
+"štátoch:"
 
 #: template/schools.html:15
 msgid "France"
@@ -1308,10 +1381,16 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers je sprievodná aplikácia pre učiteľov na zlepšenie "
+"využívania GCompris v ich triede. Umožňuje učiteľom vytvárať vlastné dátové "
+"sady a prijímať výsledky žiakov pre niektoré aktivity. Môžete si ju stiahnuť "
+"z našej <a href=\"https://gcompris.net/downloads%(suffix)s.html#gcompris-"
+"teachers\">stránky na stiahnutie</a> a nájsť príručku s ďalšími informáciami "
+"na odkaze nižšie."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "Príručka GCompris-teachers"
 
 #: template/screenshot.html:33
 msgid "Description:"
