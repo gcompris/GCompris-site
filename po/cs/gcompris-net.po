@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2025 Vít Pelčák <vit@pelcak.org>
 # SPDX-FileCopyrightText: 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <filipek.libor@protonmail.com>
 # SPDX-FileCopyrightText: 2024, 2025, 2026 Jan Papez (honyczek)
 #
 msgid ""
@@ -11,16 +12,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-10 02:11+0000\n"
-"PO-Revision-Date: 2026-02-24 22:42+0100\n"
-"Last-Translator: Jan Papez (honyczek) <honyczek@centrum.cz>\n"
-"Language-Team: Czech <kde-i18n-cs@kde.org>\n"
+"PO-Revision-Date: 2026-04-15 22:14+0200\n"
+"Last-Translator: Libor Filípek <filipek.libor@protonmail.com>\n"
+"Language-Team: \n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #. news title
 msgctxt "20260204.html"
@@ -122,49 +123,31 @@ msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
 
 #. news title
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "Release GCompris 26.1"
 msgctxt "20260311.html"
 msgid "Release GCompris 26.1"
 msgstr "Vydání GCompris 26.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "Today we are releasing GCompris version 26.1."
 msgctxt "20260311.html"
 msgid "Today we are releasing GCompris version 26.1."
 msgstr "Dnes vydáváme GCompris verze 26.1."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "It contains bug fixes and improvements on many activities."
 msgctxt "20260311.html"
 msgid "It contains bug fixes and improvements on many activities."
 msgstr "Obsahuje opravy chyb a grafická vylepšení v mnoha aktivitách."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260311.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Je plně přeloženo do následujících jazyků:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260311.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260311.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Také je částečně přeloženo do následujících jazyků:"
@@ -172,22 +155,11 @@ msgstr "Také je částečně přeloženo do následujících jazyků:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260311.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260311.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -202,9 +174,6 @@ msgstr ""
 "Google Play, repozitáři F-Droidu a obchodu Windows Store."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260311.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Díky všem, <br/>Timothée & Johnny"
