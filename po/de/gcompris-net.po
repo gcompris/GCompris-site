@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2026-03-26 20:28+0100\n"
 "Last-Translator: Alexander Becker <alex-at-kde-l10n-de@freenet.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -790,8 +790,11 @@ msgstr ""
 "aktuellen Distributionen funktionieren."
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
 msgstr ""
+"Systemanforderungen: Windows 7, 8 oder 10 mit Unterstützung für OpenGL 2."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""

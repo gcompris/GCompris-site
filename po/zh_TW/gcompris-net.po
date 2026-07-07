@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2025-07-03 23:22+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -789,8 +789,10 @@ msgstr ""
 "我們也提供 GNU/Linux 上的獨立套件。它應該可以在任何一種 Linux 套件上執行。"
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
+msgstr "系統需求：Windows 7, 8, 10 以上，有 OpenGL 2 支援。"
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""

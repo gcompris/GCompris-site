@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2023-02-13 12:24+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -792,8 +792,10 @@ msgstr ""
 "berkerja pada distribusi terkini apa saja."
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
+msgstr "Keperluan sistem: Windows 7, 8 atau 10 dengan dukungan OpenGL 2."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""

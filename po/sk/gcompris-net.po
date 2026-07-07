@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2026-04-10 12:00+0200\n"
 "Last-Translator: Miroslav Ďurian <aasami@gmail.com>\n"
 "Language-Team: Slovak <kde-i18n-doc@kde.org>\n"
@@ -751,7 +751,9 @@ msgstr ""
 "akejkoľvek dnešnej distribúcii."
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
+#, fuzzy
+#| msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
 msgstr "Požiadavky na systém: linux kernel 4.18, glibc 2.28."
 
 #: template/downloads.html:113 template/downloads.html:149

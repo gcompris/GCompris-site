@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2026-03-07 06:16+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -748,7 +748,9 @@ msgstr ""
 "sveži distribuciji."
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
+#, fuzzy
+#| msgid "System requirements: linux kernel 4.18, glibc 2.28."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
 msgstr "Sistemske zahteve: jedro linux 4.18, glibc 2.28."
 
 #: template/downloads.html:113 template/downloads.html:149

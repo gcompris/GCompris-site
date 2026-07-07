@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2024-01-20 19:27+0200\n"
 "Last-Translator: Yannis Kaskamanidis <kiolalis@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -845,8 +845,10 @@ msgstr ""
 "πρόσφατη διανομή."
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+#, fuzzy
+#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
+msgstr "Απαιτήσεις συστήματος: Windows 7, 8 ή 10 με υποστήριξη OpenGL 2."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""

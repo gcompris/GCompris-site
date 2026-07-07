@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-03-10 02:11+0000\n"
+"POT-Creation-Date: 2026-07-07 02:06+0000\n"
 "PO-Revision-Date: 2025-01-05 23:54+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -812,8 +812,10 @@ msgstr ""
 "iu lastatempa distribuo."
 
 #: template/downloads.html:109
-msgid "System requirements: linux kernel 4.18, glibc 2.28."
-msgstr ""
+#, fuzzy
+#| msgid "System requirements: Windows 10 or 11."
+msgid "System requirements: linux kernel 5.15, glibc 2.35."
+msgstr "Sistempostuloj: Windows 10 aŭ 11."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""
