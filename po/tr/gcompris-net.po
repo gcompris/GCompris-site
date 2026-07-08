@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PROJECT project.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025, 2026 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022-2026 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-07-07 02:06+0000\n"
-"PO-Revision-Date: 2026-03-07 13:08+0300\n"
+"PO-Revision-Date: 2026-07-07 08:34+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #. news title
 msgctxt "20260204.html"
@@ -750,10 +750,8 @@ msgstr ""
 "bir dağıtımda sorunsuz çalışır."
 
 #: template/downloads.html:109
-#, fuzzy
-#| msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgid "System requirements: linux kernel 5.15, glibc 2.35."
-msgstr "Sistem gereksinimleri: Linux 4.18, glibc 2.28."
+msgstr "Sistem gereksinimleri: Linux 5.15, glibc 2.35"
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""

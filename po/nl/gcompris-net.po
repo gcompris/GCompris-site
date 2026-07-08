@@ -4,13 +4,13 @@
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2014.
-# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2017-2026 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-07-07 02:06+0000\n"
-"PO-Revision-Date: 2026-03-07 23:18+0100\n"
+"PO-Revision-Date: 2026-07-07 15:36+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 # news title
 #. news title
@@ -766,10 +766,8 @@ msgstr ""
 "werken op elke recente distributie."
 
 #: template/downloads.html:109
-#, fuzzy
-#| msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgid "System requirements: linux kernel 5.15, glibc 2.35."
-msgstr "Systeemvereisten: linux-kernel 4.18, glibc 2.28."
+msgstr "Systeemvereisten: linux-kernel 5.15, glibc 2.35."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""

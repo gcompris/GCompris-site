@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-07-07 02:06+0000\n"
-"PO-Revision-Date: 2026-03-08 10:12+0400\n"
+"PO-Revision-Date: 2026-07-07 18:09+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -731,10 +731,8 @@ msgid ""
 msgstr "نوفر أيضًا حزمًا مستقلة لـ غنو/لينكس، يُفترض أن تعمل على أي توزيعة حديثة."
 
 #: template/downloads.html:109
-#, fuzzy
-#| msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgid "System requirements: linux kernel 5.15, glibc 2.35."
-msgstr "متطلبات النظام: linux kernel 4.18, glibc 2.28."
+msgstr "متطلبات النظام: linux kernel 5.15, glibc 2.35."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""
