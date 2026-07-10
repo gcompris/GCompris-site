@@ -4,14 +4,14 @@
 # Simon Depiets <sdepiets@gmail.com>, 2018.
 # Timo <animtim@gmail.com>, 2019, 2020, 2022.
 # charruau <echarruau@gmail.com>, 2019, 2021, 2024.
-# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2020-2026 Xavier Besnard <xavier.besnard@kde.org>
 # SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Johnny Jazeix <jazeix@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-07-07 02:06+0000\n"
-"PO-Revision-Date: 2026-04-19 08:45+0200\n"
+"PO-Revision-Date: 2026-07-08 08:46+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Accelerator-Marker: \n"
 "X-Environment: kde\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.3\n"
 "X-Qt-Contexts: true\n"
 "X-Text-Markup: html\n"
 
@@ -760,10 +760,8 @@ msgstr ""
 "devraient fonctionner sur n'importe quelle distribution récente."
 
 #: template/downloads.html:109
-#, fuzzy
-#| msgid "System requirements: linux kernel 4.18, glibc 2.28."
 msgid "System requirements: linux kernel 5.15, glibc 2.35."
-msgstr "Configuration requise : noyau Linux 4.18, glibc 2.28."
+msgstr "Configuration requise : noyau Linux 5.15, glibc 2.35."
 
 #: template/downloads.html:113 template/downloads.html:149
 msgid ""
