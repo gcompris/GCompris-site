@@ -1,0 +1,36 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Utgivning av GCompris 26.0' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.0.png' class='col-xs-12 col-md-4' alt='gcompris 26.0' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.0.png')"/>
+
+<p>Idag ger vi ut GCompris version 26.0.</p>
+<p>Vi ger också ut den första officiella versionen av vårt kompletterande verktyg för lärare: GCompris-teachers! Mer information om det finns på <a href="https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers">skolsidan</a>.</p>
+<p>Den nya versionen innehåller 197 aktiviteter, inklusive 2 nya:</p>
+<ul>
+<li class="puce">"Rita hjul" är en aktivitet för att rita med användning av drev som roterar i ett kugghjul.</li>
+<li class="puce">"Flervalsfrågor" is an MCQ-aktivitet. Observera att aktiviteten är normalt dold. Den blir synlig efter att vissa datauppsättningar för den har skickats från GCompris-teachers.</li>
+</ul>
+<br/>
+<p>Den innehåller felrättningar och förbättringar för flera aktiviteter.</p>
+
+<p>Vi levererar översättningar för ytterligare två språk: kanaresiska och tamil.</p>
+<p>Den är fullständigt översatt på följande språk:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Den är också delvis översatt på följande språk:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Du kan hitta paket av den nya versionen för GNU/Linux, Windows, Android, och Raspberry Pi på <a href="https://gcompris.net/downloads{{ suffix }}.html">nerladdningssidan</a>. Uppdateringen kommer också snart att vara tillgänglig i Android Play Store, F-Droid arkivet och Windows Store.</p>
+
+<p>Tack allesamman, <br/>Timothée och Johnny</p>
+
+{% endblock %}
