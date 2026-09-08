@@ -33,4 +33,11 @@ cd gcompris-net/screenshots_qt; ./small_middle_converter.sh; cd ..
 make clean update all
 ```
 
+To run inside a venv:
+```bash
+uv venv --python 3.12
+uv pip install -r requirements.txt
+make clean update all
+```
+
 The update target will get the GCompris corresponding tarball source version from https://gcompris.net/download/qt/src/ and uncompress it in the website folder if not already present.
