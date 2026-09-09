@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-07 02:06+0000\n"
+"POT-Creation-Date: 2026-09-09 02:26+0000\n"
 "PO-Revision-Date: 2026-08-17 10:32+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -20,109 +20,6 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 26.04.3\n"
-
-#. news title
-msgctxt "20260204.html"
-msgid "Release GCompris 26.0"
-msgstr "GCompris 26.0 argitaratzea"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Today we are releasing GCompris version 26.0."
-msgstr "Gaurkoan GCompris 26.0 bertsioa argitaratzen dugu."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"We are also releasing the first official version of our companion tool for "
-"teachers: GCompris-teachers! You can find more information about it on the "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">schools page</a>."
-msgstr ""
-"Irakasleentzako gure tresna osagarriaren aurreneko bertsio ofiziala ere "
-"kaleratzen dugu: GCompris-teachers! <a href=\\\"https://gcompris.net/"
-"schools{{ suffix }}.html#gcompris-teachers\\\">Ikastetxeak orrialdean</a> "
-"honi buruzko informazio gehiago aurkituko duzu."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Bertsio berri honek 197 jarduera ditu, 2 berri haien artean:"
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
-"cogwheel."
-msgstr ""
-"\\\"Marrazteko gurpilak\"\\ hortz dun gurpil batean biratzen duen engranaje "
-"bat erabiliz marrazteko jarduera bat da."
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
-"activity is hidden by default. It becomes visible after some datasets for it "
-"have been sent from GCompris-teachers."
-msgstr ""
-"\\\"Aukera anitzeko galderak\\\" MCQ jarduera bat da. Jakizu jarduera hau "
-"era lehenetsian ezkutuan dagoela. GCompris-teachers-etik harentzako datu-"
-"multzo batzuk bidali ondoren ikusgai jartzen da."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr ""
-"Jarduera askotan akats konponketak eta hainbat jardueratan hobekuntzak ere "
-"baditu."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr ""
-"Bi hizkuntza gehiagorako itzulpenak kaleratzen ditugu: Kannada eta tamilera."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Ondoko hizkuntzetan osorik itzulita dago:"
-
-#. list item
-msgctxt "20260204.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Ondoko hizkuntzatan ere, hein batean, itzulita dago:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20260204.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} (%{{ oneStatus }})"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
-"jaisteko orrialdean</a> bertsio berri honetako GNU/Linux, Windows, Android, "
-"eta Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo "
-"da eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
-"saltokian."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
 
 #. news title
 msgctxt "20260311.html"
@@ -180,6 +77,95 @@ msgstr ""
 msgctxt "20260311.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Eskerrik asko guztiei, <br/>Timothée eta Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Release GCompris 26.0"
+msgctxt "20260923.html"
+msgid "Release GCompris 26.2"
+msgstr "GCompris 26.0 argitaratzea"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Today we are releasing GCompris version 26.0."
+msgctxt "20260923.html"
+msgid "Today we are releasing GCompris version 26.2."
+msgstr "Gaurkoan GCompris 26.0 bertsioa argitaratzen dugu."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid "It contains bug fixes and improvements on many activities."
+msgctxt "20260923.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr "Akats konponketak eta hobekuntzak ditu jarduera askotan."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Ondoko hizkuntzetan osorik itzulita dago:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Ondoko hizkuntzatan ere, hein batean, itzulita dago:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} (%{{ oneStatus }})"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260923.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
+"jaisteko orrian</a> bertsio berri honetarako GNU/Linux, Windows, Android eta "
+"Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau laster egongo da "
+"eskuragarri Android Play saltokian, F-Droid gordetegian eta Windows "
+"saltokian ere."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260923.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Eskerrik asko guztioi, <br/>Timothée eta Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
@@ -1467,6 +1453,66 @@ msgstr "Irakurketa"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estrategia"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "We are also releasing the first official version of our companion tool "
+#~ "for teachers: GCompris-teachers! You can find more information about it "
+#~ "on the <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+#~ "teachers\\\">schools page</a>."
+#~ msgstr ""
+#~ "Irakasleentzako gure tresna osagarriaren aurreneko bertsio ofiziala ere "
+#~ "kaleratzen dugu: GCompris-teachers! <a href=\\\"https://gcompris.net/"
+#~ "schools{{ suffix }}.html#gcompris-teachers\\\">Ikastetxeak orrialdean</a> "
+#~ "honi buruzko informazio gehiago aurkituko duzu."
+
+#~ msgctxt "20260204.html"
+#~ msgid "This new version contains 197 activities, including 2 new ones:"
+#~ msgstr "Bertsio berri honek 197 jarduera ditu, 2 berri haien artean:"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating "
+#~ "in a cogwheel."
+#~ msgstr ""
+#~ "\\\"Marrazteko gurpilak\"\\ hortz dun gurpil batean biratzen duen "
+#~ "engranaje bat erabiliz marrazteko jarduera bat da."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+#~ "activity is hidden by default. It becomes visible after some datasets for "
+#~ "it have been sent from GCompris-teachers."
+#~ msgstr ""
+#~ "\\\"Aukera anitzeko galderak\\\" MCQ jarduera bat da. Jakizu jarduera hau "
+#~ "era lehenetsian ezkutuan dagoela. GCompris-teachers-etik harentzako datu-"
+#~ "multzo batzuk bidali ondoren ikusgai jartzen da."
+
+#~ msgctxt "20260204.html"
+#~ msgid "It also contains bug fixes and improvements on multiple activities."
+#~ msgstr ""
+#~ "Jarduera askotan akats konponketak eta hainbat jardueratan hobekuntzak "
+#~ "ere baditu."
+
+#~ msgctxt "20260204.html"
+#~ msgid "We ship translations for two more languages: Kannada and Tamil."
+#~ msgstr ""
+#~ "Bi hizkuntza gehiagorako itzulpenak kaleratzen ditugu: Kannada eta "
+#~ "tamilera."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, Android "
+#~ "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#~ "be available soon in the Android Play store, the F-Droid repository and "
+#~ "the Windows store."
+#~ msgstr ""
+#~ "<a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\\">zama-"
+#~ "jaisteko orrialdean</a> bertsio berri honetako GNU/Linux, Windows, "
+#~ "Android, eta Raspberry Pi-rako paketeak aurki ditzakezu. Eguneratze hau "
+#~ "laster egongo da eskuragarri Android Play saltokian, F-Droid gordetegian "
+#~ "eta Windows saltokian."
 
 #~ msgctxt "20250521.html"
 #~ msgid "Release GCompris 25.1 and 4.3.1"

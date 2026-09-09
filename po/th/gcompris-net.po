@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-07 02:06+0000\n"
+"POT-Creation-Date: 2026-09-09 02:26+0000\n"
 "PO-Revision-Date: 2013-09-12 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
@@ -17,92 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 0.9.6\n"
-
-#. news title
-msgctxt "20260204.html"
-msgid "Release GCompris 26.0"
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Today we are releasing GCompris version 26.0."
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"We are also releasing the first official version of our companion tool for "
-"teachers: GCompris-teachers! You can find more information about it on the "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">schools page</a>."
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr ""
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
-"cogwheel."
-msgstr ""
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
-"activity is hidden by default. It becomes visible after some datasets for it "
-"have been sent from GCompris-teachers."
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is fully translated in the following languages:"
-msgstr ""
-
-#. list item
-msgctxt "20260204.html"
-msgid "{{ oneLocale }}"
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is also partially translated in the following languages:"
-msgstr ""
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20260204.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
 
 #. news title
 msgctxt "20260311.html"
@@ -153,6 +67,58 @@ msgstr ""
 
 #. paragraph
 msgctxt "20260311.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr ""
+
+#. news title
+msgctxt "20260923.html"
+msgid "Release GCompris 26.2"
+msgstr ""
+
+#. paragraph
+msgctxt "20260923.html"
+msgid "Today we are releasing GCompris version 26.2."
+msgstr ""
+
+#. paragraph
+msgctxt "20260923.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr ""
+
+#. paragraph
+msgctxt "20260923.html"
+msgid "It is fully translated in the following languages:"
+msgstr ""
+
+#. list item
+msgctxt "20260923.html"
+msgid "{{ oneLocale }}"
+msgstr ""
+
+#. paragraph
+msgctxt "20260923.html"
+msgid "It is also partially translated in the following languages:"
+msgstr ""
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+msgctxt "20260923.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr ""
+
+#. paragraph
+msgctxt "20260923.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+
+#. paragraph
+msgctxt "20260923.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr ""
 

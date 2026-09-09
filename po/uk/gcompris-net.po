@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-07 02:06+0000\n"
+"POT-Creation-Date: 2026-09-09 02:26+0000\n"
 "PO-Revision-Date: 2026-07-07 10:29+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -21,110 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 23.04.3\n"
-
-# news title
-#. news title
-msgctxt "20260204.html"
-msgid "Release GCompris 26.0"
-msgstr "Випуск GCompris 26.0"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Today we are releasing GCompris version 26.0."
-msgstr "Сьогодні нами випущено GCompris версії 26.0."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"We are also releasing the first official version of our companion tool for "
-"teachers: GCompris-teachers! You can find more information about it on the "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">schools page</a>."
-msgstr ""
-"Нами також випущено першу офіційну версію нашого додаткового інструменту для "
-"вчителів: GCompris-teachers! Дізнатися більше про нього можна на <a href=\\"
-"\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">сторінці школ</a>."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Містить 197 вправ, зокрема 2 нових:"
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
-"cogwheel."
-msgstr ""
-"«Колеса для малювання» — вправа з малювання за допомогою шестерень і "
-"зубчастих колес."
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
-"activity is hidden by default. It becomes visible after some datasets for it "
-"have been sent from GCompris-teachers."
-msgstr ""
-"«Питання з вибором» — вправа з декількома правильними відповідями. Зауважте, "
-"що типово цю вправу приховано. Вона стане видимою, лише після того, як буде "
-"надіслано декілька наборів даних з GCompris-teachers."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "Також виправлено вади та удосконалення у декількох вправах."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr ""
-"Ми включили до пакунка дві нових мови перекладу: каннадську та тамільську."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Повністю перекладено такими мовами:"
-
-#. list item
-msgctxt "20260204.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Також частково перекладено такими мовами:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20260204.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-# paragraph
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Посилання на пакунки нової версії для GNU/Linux, Windows, Android та "
-"Raspberry можна знайти на <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">сторінці отримання пакунків</a>. Невдовзі "
-"пакунки оновленої версії також з'являться у крамниці Android Play, сховищі F-"
-"Droid та крамниці Windows."
-
-# paragraph
-#. paragraph
-msgctxt "20260204.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
 # news title
 #. news title
@@ -183,6 +79,98 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20260311.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
+
+# news title
+#. news title
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Release GCompris 26.0"
+msgctxt "20260923.html"
+msgid "Release GCompris 26.2"
+msgstr "Випуск GCompris 26.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Today we are releasing GCompris version 26.0."
+msgctxt "20260923.html"
+msgid "Today we are releasing GCompris version 26.2."
+msgstr "Сьогодні нами випущено GCompris версії 26.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid "It contains bug fixes and improvements on many activities."
+msgctxt "20260923.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr "Виправлено вади та удосконалено програму у багатьох вправах."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Повністю перекладено такими мовами:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Також частково перекладено такими мовами:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260923.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Посилання на пакунки нової версії для GNU/Linux, Windows, Android і "
+"Raspberry Pi можна знайти на <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">сторінці отримання пакунків</a>. Невдовзі "
+"пакунки оновленої версії також з'являться у крамниці Android Play, сховищі F-"
+"Droid та крамниці Windows."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260923.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Дякуємо вам усім, <br/>Timothée і Johnny"
 
@@ -1489,6 +1477,64 @@ msgstr "Читання"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Стратегія"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "We are also releasing the first official version of our companion tool "
+#~ "for teachers: GCompris-teachers! You can find more information about it "
+#~ "on the <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+#~ "teachers\\\">schools page</a>."
+#~ msgstr ""
+#~ "Нами також випущено першу офіційну версію нашого додаткового інструменту "
+#~ "для вчителів: GCompris-teachers! Дізнатися більше про нього можна на <a "
+#~ "href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
+#~ "\">сторінці школ</a>."
+
+#~ msgctxt "20260204.html"
+#~ msgid "This new version contains 197 activities, including 2 new ones:"
+#~ msgstr "Містить 197 вправ, зокрема 2 нових:"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating "
+#~ "in a cogwheel."
+#~ msgstr ""
+#~ "«Колеса для малювання» — вправа з малювання за допомогою шестерень і "
+#~ "зубчастих колес."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+#~ "activity is hidden by default. It becomes visible after some datasets for "
+#~ "it have been sent from GCompris-teachers."
+#~ msgstr ""
+#~ "«Питання з вибором» — вправа з декількома правильними відповідями. "
+#~ "Зауважте, що типово цю вправу приховано. Вона стане видимою, лише після "
+#~ "того, як буде надіслано декілька наборів даних з GCompris-teachers."
+
+#~ msgctxt "20260204.html"
+#~ msgid "It also contains bug fixes and improvements on multiple activities."
+#~ msgstr "Також виправлено вади та удосконалення у декількох вправах."
+
+#~ msgctxt "20260204.html"
+#~ msgid "We ship translations for two more languages: Kannada and Tamil."
+#~ msgstr ""
+#~ "Ми включили до пакунка дві нових мови перекладу: каннадську та тамільську."
+
+# paragraph
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, Android "
+#~ "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#~ "be available soon in the Android Play store, the F-Droid repository and "
+#~ "the Windows store."
+#~ msgstr ""
+#~ "Посилання на пакунки нової версії для GNU/Linux, Windows, Android та "
+#~ "Raspberry можна знайти на <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">сторінці отримання пакунків</a>. Невдовзі "
+#~ "пакунки оновленої версії також з'являться у крамниці Android Play, "
+#~ "сховищі F-Droid та крамниці Windows."
 
 # news title
 #~ msgctxt "20250521.html"

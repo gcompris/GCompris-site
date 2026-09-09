@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris-site 2013-11\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-07 02:06+0000\n"
+"POT-Creation-Date: 2026-09-09 02:26+0000\n"
 "PO-Revision-Date: 2026-01-24 19:49+0200\n"
 "Last-Translator: Rolandas Jakštys <rolandas@jakstys.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -20,107 +20,6 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 3.8\n"
 "X-Poedit-Bookmarks: 88,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-
-#. news title
-msgctxt "20260204.html"
-msgid "Release GCompris 26.0"
-msgstr "GCompris 26.0 versija"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Today we are releasing GCompris version 26.0."
-msgstr "Šiandien išleidžiame GCompris 26.0 versiją."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"We are also releasing the first official version of our companion tool for "
-"teachers: GCompris-teachers! You can find more information about it on the "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">schools page</a>."
-msgstr ""
-"Taip pat išleidžiame pirmąją oficialią mūsų pagalbinio įrankio mokytojams "
-"versiją – GCompris-mokytojams! Daugiau informacijos rasite <a href=\"https://"
-"gcompris.net/schools{{ suffix }}.html#gcompris-teachers\">Mokyklų puslapyje</"
-"a>."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Naujoje versijoje yra 197 pamokėlės, įskaitant 2 naujas:"
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
-"cogwheel."
-msgstr ""
-"Piešimas krumpliaračiais – piešimas naudojant krumpliaratį, besisukantį kito "
-"krumpliaračio viduje."
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
-"activity is hidden by default. It becomes visible after some datasets for it "
-"have been sent from GCompris-teachers."
-msgstr ""
-"Klausimai su keliais galimais atsakymais – tai veikla su pasirenkamu "
-"atsakymu (MCQ). Atkreipkite dėmesį, kad ši veikla pagal numatytuosius "
-"nustatymus yra paslėpta. Ji tampa matoma tik tada, kai iš GCompris-"
-"mokytojams versijos jai yra išsiunčiami duomenų rinkiniai."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "Ištaisėme klaidas ir patobulinome kelias pamokėles."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr "Pridėjome vertimą į kanadų ir Tamilų (Indija) kalbas."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Jis visiškai išverstas į šias kalbas:"
-
-#. list item
-msgctxt "20260204.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20260204.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Šios naujos versijos paketus, skirtus GNU/Linux, Windows, Android ir "
-"Raspberry Pi, rasite <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">Atsisiųsti „GCompris“ žaidimus</a> puslapyje. Atnaujinimas netrukus "
-"taip pat bus pasiekiamas „Android Play“, „F-Droid“ ir „Windows“ parduotuvėse."
-
-# Šiais laikais vardų lietuvinti labai nereikia.
-#. paragraph
-msgctxt "20260204.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
 #. news title
 msgctxt "20260311.html"
@@ -177,6 +76,96 @@ msgstr ""
 # Šiais laikais vardų lietuvinti labai nereikia.
 #. paragraph
 msgctxt "20260311.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20220224.html"
+#| msgid "Release GCompris 2.2"
+msgctxt "20260923.html"
+msgid "Release GCompris 26.2"
+msgstr "GCompris 2.2 leidimas"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Today we are releasing GCompris version 26.0."
+msgctxt "20260923.html"
+msgid "Today we are releasing GCompris version 26.2."
+msgstr "Šiandien išleidžiame GCompris 26.0 versiją."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid "It contains bug fixes and improvements on many activities."
+msgctxt "20260923.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr "Ištaisėme klaidas ir patobulinome grafiką daugelyje pamokėlių."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Jis visiškai išverstas į šias kalbas:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "Jis taip pat iš dalies išverstas į šias kalbas:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260923.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Šios versijos paketus GNU/Linux, Windows, Android ir Raspberry Pi "
+"platformoms galite rasti <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">atsisiuntimo puslapyje</a>. Šis atnaujinimas "
+"netrukus bus pasiekiamas Android Play parduotuvėje, F-Droid saugykloje ir "
+"Windows parduotuvėje."
+
+# Šiais laikais vardų lietuvinti labai nereikia.
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260923.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Nuoširdžiai dėkojame, <br/>Timothée ir Johnny"
 
@@ -1469,6 +1458,67 @@ msgstr "Skaitymas"
 msgid "Strategy"
 msgstr "Strateginiai žaidimai"
 
+#~ msgctxt "20260204.html"
+#~ msgid "Release GCompris 26.0"
+#~ msgstr "GCompris 26.0 versija"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "We are also releasing the first official version of our companion tool "
+#~ "for teachers: GCompris-teachers! You can find more information about it "
+#~ "on the <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+#~ "teachers\\\">schools page</a>."
+#~ msgstr ""
+#~ "Taip pat išleidžiame pirmąją oficialią mūsų pagalbinio įrankio mokytojams "
+#~ "versiją – GCompris-mokytojams! Daugiau informacijos rasite <a href="
+#~ "\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers"
+#~ "\">Mokyklų puslapyje</a>."
+
+#~ msgctxt "20260204.html"
+#~ msgid "This new version contains 197 activities, including 2 new ones:"
+#~ msgstr "Naujoje versijoje yra 197 pamokėlės, įskaitant 2 naujas:"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating "
+#~ "in a cogwheel."
+#~ msgstr ""
+#~ "Piešimas krumpliaračiais – piešimas naudojant krumpliaratį, besisukantį "
+#~ "kito krumpliaračio viduje."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+#~ "activity is hidden by default. It becomes visible after some datasets for "
+#~ "it have been sent from GCompris-teachers."
+#~ msgstr ""
+#~ "Klausimai su keliais galimais atsakymais – tai veikla su pasirenkamu "
+#~ "atsakymu (MCQ). Atkreipkite dėmesį, kad ši veikla pagal numatytuosius "
+#~ "nustatymus yra paslėpta. Ji tampa matoma tik tada, kai iš GCompris-"
+#~ "mokytojams versijos jai yra išsiunčiami duomenų rinkiniai."
+
+#~ msgctxt "20260204.html"
+#~ msgid "It also contains bug fixes and improvements on multiple activities."
+#~ msgstr "Ištaisėme klaidas ir patobulinome kelias pamokėles."
+
+#~ msgctxt "20260204.html"
+#~ msgid "We ship translations for two more languages: Kannada and Tamil."
+#~ msgstr "Pridėjome vertimą į kanadų ir Tamilų (Indija) kalbas."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, Android "
+#~ "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#~ "be available soon in the Android Play store, the F-Droid repository and "
+#~ "the Windows store."
+#~ msgstr ""
+#~ "Šios naujos versijos paketus, skirtus GNU/Linux, Windows, Android ir "
+#~ "Raspberry Pi, rasite <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">Atsisiųsti „GCompris“ žaidimus</a> "
+#~ "puslapyje. Atnaujinimas netrukus taip pat bus pasiekiamas „Android Play“, "
+#~ "„F-Droid“ ir „Windows“ parduotuvėse."
+
 #~ msgctxt "20250521.html"
 #~ msgid "Release GCompris 25.1 and 4.3.1"
 #~ msgstr "GCompris 25.1 ir 4.3.1 versijos"
@@ -1948,10 +1998,6 @@ msgstr "Strateginiai žaidimai"
 
 #~ msgid "Version %(version)s"
 #~ msgstr "Versija %(version)s"
-
-#~ msgctxt "20220224.html"
-#~ msgid "Release GCompris 2.2"
-#~ msgstr "GCompris 2.2 leidimas"
 
 #~ msgctxt "20220224.html"
 #~ msgid ""

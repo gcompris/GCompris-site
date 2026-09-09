@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-gcompris-net\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-07-07 02:06+0000\n"
+"POT-Creation-Date: 2026-09-09 02:26+0000\n"
 "PO-Revision-Date: 2026-08-15 19:42+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -20,109 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 1.3\n"
 "X-Generator: Lokalize 26.04.3\n"
-
-#. news title
-msgctxt "20260204.html"
-msgid "Release GCompris 26.0"
-msgstr "Llançament del GCompris 26.0"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "Today we are releasing GCompris version 26.0."
-msgstr "Avui fem el llançament del GCompris versió 26.0."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"We are also releasing the first official version of our companion tool for "
-"teachers: GCompris-teachers! You can find more information about it on the "
-"<a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-teachers\\"
-"\">schools page</a>."
-msgstr ""
-"També llancem la primera versió oficial de la nostra eina d'acompanyament "
-"per al professorat: GCompris-teachers! Podeu trobar més informació sobre "
-"ella a la <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
-"teachers\\\">pàgina d'escoles</a>."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "This new version contains 197 activities, including 2 new ones:"
-msgstr "Aquesta versió nova conté 197 activitats, incloent-hi 2 de noves:"
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating in a "
-"cogwheel."
-msgstr ""
-"«Rodes de dibuix» és una activitat per a dibuixar fent servir un engranatge "
-"girant en una roda dentada."
-
-#. list item
-msgctxt "20260204.html"
-msgid ""
-"\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
-"activity is hidden by default. It becomes visible after some datasets for it "
-"have been sent from GCompris-teachers."
-msgstr ""
-"«Preguntes d'elecció múltiple» és una activitat de PEM (MCQ en anglès). "
-"Tingueu en compte que aquesta activitat està oculta de manera "
-"predeterminada. Esdevé visible després d'enviar-hi alguns conjunts de dades "
-"des del GCompris-teachers."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It also contains bug fixes and improvements on multiple activities."
-msgstr "També conté correccions d'errors i millores en diverses activitats."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "We ship translations for two more languages: Kannada and Tamil."
-msgstr ""
-"Distribuïm les traduccions de dues llengües més: el kanarès i el tàmil."
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is fully translated in the following languages:"
-msgstr "Està traduït completament als idiomes següents:"
-
-#. list item
-msgctxt "20260204.html"
-msgid "{{ oneLocale }}"
-msgstr "{{ oneLocale }}"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid "It is also partially translated in the following languages:"
-msgstr "També està traduït parcialment als idiomes següents:"
-
-#. The arguments are the language name and its percentage of completion. Keep
-#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
-#. and/or reverse the order if needed for your locale.
-msgctxt "20260204.html"
-msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
-
-#. paragraph
-msgctxt "20260204.html"
-msgid ""
-"You can find packages of this new version for GNU/Linux, Windows, Android "
-"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-"downloads{{ suffix }}.html\\\">download page</a>. This update will also be "
-"available soon in the Android Play store, the F-Droid repository and the "
-"Windows store."
-msgstr ""
-"Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Android "
-"i Raspberry Pi a la <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
-"html\\\">pàgina de baixades</a>. Aquesta actualització també estarà "
-"disponible aviat a la botiga Android Play, el repositori d'F-Droid i a la "
-"botiga de Windows."
-
-# paragraph
-#. paragraph
-msgctxt "20260204.html"
-msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr "Gràcies a tots, <br/>Timothée i Johnny"
 
 #. news title
 msgctxt "20260311.html"
@@ -179,6 +76,96 @@ msgstr ""
 # paragraph
 #. paragraph
 msgctxt "20260311.html"
+msgid "Thank you all, <br/>Timothée & Johnny"
+msgstr "Gràcies a tots, <br/>Timothée i Johnny"
+
+#. news title
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Release GCompris 26.0"
+msgctxt "20260923.html"
+msgid "Release GCompris 26.2"
+msgstr "Llançament del GCompris 26.0"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Today we are releasing GCompris version 26.0."
+msgctxt "20260923.html"
+msgid "Today we are releasing GCompris version 26.2."
+msgstr "Avui fem el llançament del GCompris versió 26.0."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid "It contains bug fixes and improvements on many activities."
+msgctxt "20260923.html"
+msgid "It contains bug fixes and improvements on many activities."
+msgstr "Conté correccions d'errors i millores en moltes activitats."
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is fully translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is fully translated in the following languages:"
+msgstr "Està traduït completament als idiomes següents:"
+
+#. list item
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }}"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }}"
+msgstr "{{ oneLocale }}"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "It is also partially translated in the following languages:"
+msgctxt "20260923.html"
+msgid "It is also partially translated in the following languages:"
+msgstr "També està traduït parcialment als idiomes següents:"
+
+#. The arguments are the language name and its percentage of completion. Keep
+#. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
+#. and/or reverse the order if needed for your locale.
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgctxt "20260923.html"
+msgid "{{ oneLocale }} ({{ oneStatus }}%)"
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
+
+#. paragraph
+#, fuzzy
+#| msgctxt "20260311.html"
+#| msgid ""
+#| "You can find packages of this new version for GNU/Linux, Windows, "
+#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
+#| "soon be available in the Android Play store, the F-Droid repository and "
+#| "the Windows store."
+msgctxt "20260923.html"
+msgid ""
+"You can find packages of this new version for GNU/Linux, Windows, Android, "
+"and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+"downloads{{ suffix }}.html\\\">download page</a>. Also this update will soon "
+"be available in the Android Play store, the F-Droid repository and the "
+"Windows store."
+msgstr ""
+"Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, Android "
+"i Raspberry Pi a la <a href=\\\"https://gcompris.net/downloads{{ suffix }}."
+"html\\\">pàgina de baixades</a>. Aquesta actualització també estarà "
+"disponible aviat a la botiga Android Play, el repositori d'F-Droid i a la "
+"botiga de Windows."
+
+# paragraph
+#. paragraph
+#, fuzzy
+#| msgctxt "20260204.html"
+#| msgid "Thank you all, <br/>Timothée & Johnny"
+msgctxt "20260923.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Gràcies a tots, <br/>Timothée i Johnny"
 
@@ -1479,6 +1466,64 @@ msgstr "Lectura"
 #: template/screenshots.html:46
 msgid "Strategy"
 msgstr "Estratègia"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "We are also releasing the first official version of our companion tool "
+#~ "for teachers: GCompris-teachers! You can find more information about it "
+#~ "on the <a href=\\\"https://gcompris.net/schools{{ suffix }}.html#gcompris-"
+#~ "teachers\\\">schools page</a>."
+#~ msgstr ""
+#~ "També llancem la primera versió oficial de la nostra eina d'acompanyament "
+#~ "per al professorat: GCompris-teachers! Podeu trobar més informació sobre "
+#~ "ella a la <a href=\\\"https://gcompris.net/schools{{ suffix }}."
+#~ "html#gcompris-teachers\\\">pàgina d'escoles</a>."
+
+#~ msgctxt "20260204.html"
+#~ msgid "This new version contains 197 activities, including 2 new ones:"
+#~ msgstr "Aquesta versió nova conté 197 activitats, incloent-hi 2 de noves:"
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Drawing wheels\\\" is an activity for drawing using a gear rotating "
+#~ "in a cogwheel."
+#~ msgstr ""
+#~ "«Rodes de dibuix» és una activitat per a dibuixar fent servir un "
+#~ "engranatge girant en una roda dentada."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "\\\"Multiple choice questions\\\" is an MCQ activity. Note that this "
+#~ "activity is hidden by default. It becomes visible after some datasets for "
+#~ "it have been sent from GCompris-teachers."
+#~ msgstr ""
+#~ "«Preguntes d'elecció múltiple» és una activitat de PEM (MCQ en anglès). "
+#~ "Tingueu en compte que aquesta activitat està oculta de manera "
+#~ "predeterminada. Esdevé visible després d'enviar-hi alguns conjunts de "
+#~ "dades des del GCompris-teachers."
+
+#~ msgctxt "20260204.html"
+#~ msgid "It also contains bug fixes and improvements on multiple activities."
+#~ msgstr "També conté correccions d'errors i millores en diverses activitats."
+
+#~ msgctxt "20260204.html"
+#~ msgid "We ship translations for two more languages: Kannada and Tamil."
+#~ msgstr ""
+#~ "Distribuïm les traduccions de dues llengües més: el kanarès i el tàmil."
+
+#~ msgctxt "20260204.html"
+#~ msgid ""
+#~ "You can find packages of this new version for GNU/Linux, Windows, Android "
+#~ "and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">download page</a>. This update will also "
+#~ "be available soon in the Android Play store, the F-Droid repository and "
+#~ "the Windows store."
+#~ msgstr ""
+#~ "Trobareu els paquets d'aquesta nova versió per a GNU/Linux, Windows, "
+#~ "Android i Raspberry Pi a la <a href=\\\"https://gcompris.net/"
+#~ "downloads{{ suffix }}.html\\\">pàgina de baixades</a>. Aquesta "
+#~ "actualització també estarà disponible aviat a la botiga Android Play, el "
+#~ "repositori d'F-Droid i a la botiga de Windows."
 
 #~ msgctxt "20250521.html"
 #~ msgid "Release GCompris 25.1 and 4.3.1"
