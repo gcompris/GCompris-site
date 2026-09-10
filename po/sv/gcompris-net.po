@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-09-09 02:26+0000\n"
-"PO-Revision-Date: 2026-07-21 20:53+0200\n"
+"PO-Revision-Date: 2026-09-09 17:19+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Generated-By: Babel 0.9.6\n"
-"X-Generator: Lokalize 26.04.3\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 # news title
 #. news title
@@ -81,49 +81,31 @@ msgstr "Tack allesamman, <br/>Timothée och Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "Release GCompris 26.0"
 msgctxt "20260923.html"
 msgid "Release GCompris 26.2"
-msgstr "Utgivning av GCompris 26.0"
+msgstr "Utgivning av GCompris 26.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "Today we are releasing GCompris version 26.0."
 msgctxt "20260923.html"
 msgid "Today we are releasing GCompris version 26.2."
-msgstr "Idag ger vi ut GCompris version 26.0."
+msgstr "Idag ger vi ut GCompris version 26.2."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid "It contains bug fixes and improvements on many activities."
 msgctxt "20260923.html"
 msgid "It contains bug fixes and improvements on many activities."
 msgstr "Den innehåller felrättningar och förbättringar för många aktiviteter."
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "It is fully translated in the following languages:"
 msgctxt "20260923.html"
 msgid "It is fully translated in the following languages:"
 msgstr "Den är fullständigt översatt på följande språk:"
 
 #. list item
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "{{ oneLocale }}"
 msgctxt "20260923.html"
 msgid "{{ oneLocale }}"
 msgstr "{{ oneLocale }}"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "It is also partially translated in the following languages:"
 msgctxt "20260923.html"
 msgid "It is also partially translated in the following languages:"
 msgstr "Den är också delvis översatt på följande språk:"
@@ -131,23 +113,12 @@ msgstr "Den är också delvis översatt på följande språk:"
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgctxt "20260923.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
 msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20260311.html"
-#| msgid ""
-#| "You can find packages of this new version for GNU/Linux, Windows, "
-#| "Android, and Raspberry Pi on the <a href=\\\"https://gcompris.net/"
-#| "downloads{{ suffix }}.html\\\">download page</a>. Also this update will "
-#| "soon be available in the Android Play store, the F-Droid repository and "
-#| "the Windows store."
 msgctxt "20260923.html"
 msgid ""
 "You can find packages of this new version for GNU/Linux, Windows, Android, "
@@ -163,9 +134,6 @@ msgstr ""
 
 # paragraph
 #. paragraph
-#, fuzzy
-#| msgctxt "20260204.html"
-#| msgid "Thank you all, <br/>Timothée & Johnny"
 msgctxt "20260923.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
 msgstr "Tack allesamman, <br/>Timothée och Johnny"
