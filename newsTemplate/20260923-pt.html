@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Lançamento do GCompris 26.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.2.png' class='col-xs-12 col-md-4' alt='gcompris 26.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.2.png')"/>
+
+<p>Hoje anunciamos o lançamento do GCompris na versão 26.2.</p>
+<p>Inclui correcções de erros e melhorias em muitas actividades.</p>
+
+<p>Está totalmente traduzida para os seguintes idiomas:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Encontra-se também parcialmente traduzida para as seguintes línguas:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Pode encontrar os pacotes desta nova versão para GNU/Linux, Windows, Android e Raspberry Pi na <a href="https://gcompris.net/downloads{{ suffix }}.html">página de transferências</a>. Esta actualização também estará em breve disponível na Play Store do Android, no repositório do F-Droid e na loja de aplicações do Windows Store.</p>
+
+<p>Obrigado a todos, <br/>Timothée & Johnny</p>
+
+{% endblock %}
