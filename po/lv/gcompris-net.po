@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-09 02:26+0000\n"
+"POT-Creation-Date: 2026-09-24 02:17+0000\n"
 "PO-Revision-Date: 2024-09-02 18:23+0300\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
@@ -487,7 +487,7 @@ msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Toms Trasūns"
 
-#: gcompris.py:432
+#: gcompris.py:436
 msgid "For Christmas, offer GCompris to your children."
 msgstr "Ziemassvētkos saviem bērniem uzdāvini „GCompris“!"
 
@@ -686,7 +686,7 @@ msgstr "Android"
 msgid "The version for Android is distributed in the Play Store."
 msgstr "Šo „Android“ versiju mēs izplatām „Play“ veikalā."
 
-#: template/downloads.html:61
+#: template/downloads.html:60
 msgid ""
 "We support both android 32bit and 64bit from the Play Store. The appropriate "
 "version is downloaded automatically depending on your Android operating "
@@ -695,7 +695,7 @@ msgstr ""
 "Mēs „Play“ veikalā atbalstām gan 32 bitu, gan 64 bitu instalācijas. Ierīce "
 "pati lejupielādēs atbilstošo versiju, ņemot vērā „Android“ operētājsistēmu."
 
-#: template/downloads.html:63
+#: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
@@ -703,7 +703,7 @@ msgstr ""
 "„GCompris“ ir pieejams no arī „F-Droid“ — brīvās un atvērtā koda „Android“ "
 "programmu krātuves."
 
-#: template/downloads.html:68
+#: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
@@ -711,7 +711,7 @@ msgstr ""
 "Varat arī tiešā veidā lejupielādēt „apk“ no mūsu tīmekļa vietnes, lai to "
 "manuāli instalētu ierīcē."
 
-#: template/downloads.html:73
+#: template/downloads.html:72
 #, fuzzy
 #| msgid ""
 #| "For devices running Android 2.3 to 4.0, the last compatible version is <a "
@@ -726,7 +726,7 @@ msgstr ""
 "versija ir <a href= \"https://gcompris.net/download/qt/android/GCompris-"
 "Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">„GCompris 0.81“</a>."
 
-#: template/downloads.html:74
+#: template/downloads.html:73
 msgid ""
 "For devices running Android 2.3 to 4.0, the last compatible version is <a "
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
@@ -736,31 +736,31 @@ msgstr ""
 "versija ir <a href= \"https://gcompris.net/download/qt/android/GCompris-"
 "Android-release-signed-aligned-armeabi-v7a-dl-0.81.apk\">„GCompris 0.81“</a>."
 
-#: template/downloads.html:85
+#: template/downloads.html:84
 msgid "macOS"
 msgstr "macOS"
 
-#: template/downloads.html:89
+#: template/downloads.html:88
 msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
 
-#: template/downloads.html:90
+#: template/downloads.html:89
 #, fuzzy
 #| msgid "Else, you can download the installer from the links below."
 msgid "You can download the last version available macOS from the link below."
 msgstr "Pretējā gadījumā varat instalēt, izmantojot norādītās saites."
 
-#: template/downloads.html:91
+#: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
 msgstr "Būvēts un pārbaudīts operētājsistēmā „macOS 10.13“."
 
-#: template/downloads.html:104
+#: template/downloads.html:103
 msgid "GNU/Linux"
 msgstr "GNU/Linux"
 
-#: template/downloads.html:108
+#: template/downloads.html:107
 msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
@@ -768,7 +768,7 @@ msgstr ""
 "Varat pārbaudīt, vai Jūsu distribūcija sniedz pakotni ar jaunāko „GCompris“ "
 "versiju."
 
-#: template/downloads.html:109
+#: template/downloads.html:108
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
@@ -776,13 +776,13 @@ msgstr ""
 "Tāpat arī sniedzam patstāvīgas „GNU/Linux“ pakotnes, kam jādarbojas jebkurā "
 "modernā distributīvā."
 
-#: template/downloads.html:109
+#: template/downloads.html:108
 #, fuzzy
 #| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: linux kernel 5.15, glibc 2.35."
 msgstr "Sistēmas prasības: „Windows“ 7, 8 vai 10 ar „OpenGL 2“ atbalstu."
 
-#: template/downloads.html:113 template/downloads.html:149
+#: template/downloads.html:112 template/downloads.html:148
 msgid ""
 "To use it, open a terminal in the folder where you downloaded the installer "
 "and run these commands:"
@@ -790,7 +790,7 @@ msgstr ""
 "Lai to izmantotu, atveriet termināli mapē, kurā lejupielādējāt instalāciju, "
 "un palaidiet šīs komandas:"
 
-#: template/downloads.html:118 template/downloads.html:154
+#: template/downloads.html:117 template/downloads.html:153
 msgid ""
 "Then read the license or press q to skip it, answer yes to the questions, "
 "and the software will be installed in a new folder next to the installer."
@@ -799,7 +799,7 @@ msgstr ""
 "„jā“ („Yes“) uz jautājumiem. Programmatūra ieinstalēsies jaunā mapē blakus "
 "instalācijai."
 
-#: template/downloads.html:119 template/downloads.html:155
+#: template/downloads.html:118 template/downloads.html:154
 msgid ""
 "Finally, to launch gcompris, go in the new folder, in bin, and double-click "
 "on gcompris-qt.sh."
@@ -807,7 +807,7 @@ msgstr ""
 "Beigās palaidiet „gcompris“ — jaunajā mapē ejiet uz „bin“ un veiciet "
 "dubultklikšķi uz „gcompris-qt.sh“."
 
-#: template/downloads.html:120
+#: template/downloads.html:119
 msgid ""
 "Note: If your system doesn't have OpenGL 2 support or if it's not working "
 "properly, please add the option \"--software-renderer\" at the end of the "
@@ -822,7 +822,7 @@ msgstr ""
 "conf“). Atrodiet šajā datnē rindiņu „renderer=auto“, kurā vārdu „auto“ "
 "aizstājiet ar „software“, un datni saglabājiet."
 
-#: template/downloads.html:121
+#: template/downloads.html:120
 msgid ""
 "Alternatively, you can install GCompris from <a href=\"https://flathub.org/"
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
@@ -832,43 +832,43 @@ msgstr ""
 "org.kde.gcompris\">„Flathub“</a> vai no <a href=\"https://snapcraft.io/"
 "gcompris\">„Snap“ veikala</a>."
 
-#: template/downloads.html:122
+#: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
 
-#: template/downloads.html:122
+#: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
 
-#: template/downloads.html:136
+#: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
-#: template/downloads.html:140
+#: template/downloads.html:139
 #, fuzzy
 #| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
 msgstr "Mēs piedāvājam neatkarīgu „Raspberry Pi“ versiju."
 
-#: template/downloads.html:140
+#: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
 msgstr "To esam pārbaudījuši tikai „Raspberry Pi 3“ sistēmā."
 
-#: template/downloads.html:144
+#: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
 
-#: template/downloads.html:165 template/schools.html:42
+#: template/downloads.html:164 template/schools.html:42
 msgid "GCompris-teachers"
 msgstr ""
 
-#: template/downloads.html:169
+#: template/downloads.html:168
 #, python-format
 msgid ""
 "GCompris-teachers is the companion application for teachers to enhance their "
@@ -878,24 +878,24 @@ msgid ""
 "the main GCompris application."
 msgstr ""
 
-#: template/downloads.html:170
+#: template/downloads.html:169
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
 
-#: template/downloads.html:184
+#: template/downloads.html:183
 msgid "Source code"
 msgstr "Pirmkods"
 
-#: template/downloads.html:188
+#: template/downloads.html:187
 msgid "The source code is available under the AGPLv3 license."
 msgstr "Pirmkods ir pieejams saskaņā ar AGPLv3 licenci"
 
-#: template/downloads.html:201
+#: template/downloads.html:200
 msgid "SHA-256 and GPG"
 msgstr "SHA-256 un GPG"
 
-#: template/downloads.html:205
+#: template/downloads.html:204
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
@@ -903,7 +903,7 @@ msgstr ""
 "Lai pārbaudītu lejupielāžu integritāti, varat iegūt oriģinālo datņu SHA-256 "
 "jaucējkodu, lejupielādes URL adresei galā pievienojot „.sha256“."
 
-#: template/downloads.html:206
+#: template/downloads.html:205
 #, fuzzy, python-format
 #| msgid ""
 #| "The source tarball and the Linux installers are signed with the GPG key "
@@ -915,7 +915,7 @@ msgstr ""
 "Pirmkoda „tar“ arhīva datnes un „Linux“ instalācijas datnes ir parakstītas "
 "ar GPG atslēgu no Timothée Giet (publiskā atslēga: %(public_gpg_key)s)"
 
-#: template/downloads.html:208
+#: template/downloads.html:207
 msgid "sig files:"
 msgstr "„sig“ datnes:"
 
