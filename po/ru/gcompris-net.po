@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-09-24 02:17+0000\n"
-"PO-Revision-Date: 2020-03-17 00:07+0100\n"
+"PO-Revision-Date: 2026-09-27 08:58+0200\n"
 "Last-Translator: Timo <animtim@gmail.com>\n"
 "Language-Team: Russian <kde-i18n-doc@kde.org>\n"
 "Language: ru\n"
@@ -24,49 +24,41 @@ msgstr ""
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20191201.html"
-#| msgid "Release GCompris 0.97"
 msgctxt "20260311.html"
 msgid "Release GCompris 26.1"
-msgstr "Выпуск GCompris 0.97"
+msgstr "Выпуск GCompris 26.1"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20191201.html"
-#| msgid ""
-#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#| "0.97."
 msgctxt "20260311.html"
 msgid "Today we are releasing GCompris version 26.1."
-msgstr "Здравствуйте,<br />\\nМы рады объявить о выпуске GCompris версии 0.97."
+msgstr "Сегодня мы выпускаем GCompris версии 26.1."
 
 #. paragraph
 msgctxt "20260311.html"
 msgid "It contains bug fixes and improvements on many activities."
-msgstr ""
+msgstr "Он содержит исправления ошибок и улучшения во многих заданиях."
 
 #. paragraph
 msgctxt "20260311.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Он полностью переведён на следующие языки:"
 
 #. list item
 msgctxt "20260311.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20260311.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Также он частично переведён на следующие языки:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20260311.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20260311.html"
@@ -77,57 +69,53 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
+"Пакеты этой новой версии для GNU/Linux, Windows, Android и Raspberry Pi "
+"доступны на <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">странице загрузки</a>. Кроме того, это обновление скоро появится в "
+"Android Play Store, репозитории F-Droid и Windows Store."
 
 #. paragraph
 msgctxt "20260311.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "Спасибо всем, <br/>Timothée и Johnny"
 
 # news title
 #. news title
-#, fuzzy
-#| msgctxt "20191201.html"
-#| msgid "Release GCompris 0.97"
 msgctxt "20260923.html"
 msgid "Release GCompris 26.2"
-msgstr "Выпуск GCompris 0.97"
+msgstr "Выпуск GCompris 26.2"
 
 #. paragraph
-#, fuzzy
-#| msgctxt "20191201.html"
-#| msgid ""
-#| "Hi,<br />\\nWe are pleased to announce the release of GCompris version "
-#| "0.97."
 msgctxt "20260923.html"
 msgid "Today we are releasing GCompris version 26.2."
-msgstr "Здравствуйте,<br />\\nМы рады объявить о выпуске GCompris версии 0.97."
+msgstr "Сегодня мы выпускаем GCompris версии 26.2."
 
 #. paragraph
 msgctxt "20260923.html"
 msgid "It contains bug fixes and improvements on many activities."
-msgstr ""
+msgstr "Он содержит исправления ошибок и улучшения во многих заданиях."
 
 #. paragraph
 msgctxt "20260923.html"
 msgid "It is fully translated in the following languages:"
-msgstr ""
+msgstr "Он полностью переведён на следующие языки:"
 
 #. list item
 msgctxt "20260923.html"
 msgid "{{ oneLocale }}"
-msgstr ""
+msgstr "{{ oneLocale }}"
 
 #. paragraph
 msgctxt "20260923.html"
 msgid "It is also partially translated in the following languages:"
-msgstr ""
+msgstr "Также он частично переведён на следующие языки:"
 
 #. The arguments are the language name and its percentage of completion. Keep
 #. the entries {{ oneLocale }} and {{ oneStatus }} as this, only move the %
 #. and/or reverse the order if needed for your locale.
 msgctxt "20260923.html"
 msgid "{{ oneLocale }} ({{ oneStatus }}%)"
-msgstr ""
+msgstr "{{ oneLocale }} ({{ oneStatus }}%)"
 
 #. paragraph
 msgctxt "20260923.html"
@@ -138,305 +126,308 @@ msgid ""
 "be available in the Android Play store, the F-Droid repository and the "
 "Windows store."
 msgstr ""
+"Пакеты этой новой версии для GNU/Linux, Windows, Android и Raspberry Pi "
+"доступны на <a href=\\\"https://gcompris.net/downloads{{ suffix }}.html\\"
+"\">странице загрузки</a>. Кроме того, это обновление скоро появится в "
+"Android Play Store, репозитории F-Droid и Windows Store."
 
 #. paragraph
 msgctxt "20260923.html"
 msgid "Thank you all, <br/>Timothée & Johnny"
-msgstr ""
+msgstr "Спасибо всем, <br/>Timothée и Johnny"
 
 #: gcompris.py:83
 msgctxt "language name, item list"
 msgid "UK English"
-msgstr ""
+msgstr "Английский (Великобритания)"
 
 #: gcompris.py:84
 msgctxt "language name, item list"
 msgid "American English"
-msgstr ""
+msgstr "Английский (США)"
 
 #: gcompris.py:85
 msgctxt "language name, item list"
 msgid "Arabic"
-msgstr ""
+msgstr "Арабский"
 
 #: gcompris.py:86
 msgctxt "language name, item list"
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Азербайджанский"
 
 #: gcompris.py:87
 msgctxt "language name, item list"
 msgid "Bulgarian"
-msgstr ""
+msgstr "Болгарский"
 
 #: gcompris.py:88
 msgctxt "language name, item list"
 msgid "Breton"
-msgstr ""
+msgstr "Бретонский"
 
 #: gcompris.py:89
 msgctxt "language name, item list"
 msgid "Belarusian"
-msgstr ""
+msgstr "Белорусский"
 
 #: gcompris.py:90
 msgctxt "language name, item list"
 msgid "Catalan"
-msgstr ""
+msgstr "Каталонский"
 
 #: gcompris.py:91
 msgctxt "language name, item list"
 msgid "Catalan (Valencian)"
-msgstr ""
+msgstr "Каталонский (Валенсия)"
 
 #: gcompris.py:92
 msgctxt "language name, item list"
 msgid "Czech"
-msgstr ""
+msgstr "Чешский"
 
 #: gcompris.py:93
 msgctxt "language name, item list"
 msgid "Danish"
-msgstr ""
+msgstr "Датский"
 
 #: gcompris.py:94
 msgctxt "language name, item list"
 msgid "German"
-msgstr ""
+msgstr "Немецкий"
 
 #: gcompris.py:95
 msgctxt "language name, item list"
 msgid "Greek"
-msgstr ""
+msgstr "Греческий"
 
 #: gcompris.py:96
 msgctxt "language name, item list"
 msgid "Esperanto"
-msgstr ""
+msgstr "Эсперанто"
 
 #: gcompris.py:97
 msgctxt "language name, item list"
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 #: gcompris.py:98
 msgctxt "language name, item list"
 msgid "Estonian"
-msgstr ""
+msgstr "Эстонский"
 
 #: gcompris.py:99
 msgctxt "language name, item list"
 msgid "Basque"
-msgstr ""
+msgstr "Баскский"
 
 # list item
 #: gcompris.py:100
-#, fuzzy
-#| msgctxt "20190303.html"
-#| msgid "Finnish (90%)"
 msgctxt "language name, item list"
 msgid "Finnish"
-msgstr "Финский (90%)"
+msgstr "Финский"
 
 #: gcompris.py:101
 msgctxt "language name, item list"
 msgid "French"
-msgstr ""
+msgstr "Французский"
 
 #: gcompris.py:102
 msgctxt "language name, item list"
 msgid "Irish"
-msgstr ""
+msgstr "Ирландский"
 
 #: gcompris.py:103
 msgctxt "language name, item list"
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Гэльский (Шотландия)"
 
 #: gcompris.py:104
 msgctxt "language name, item list"
 msgid "Galician"
-msgstr ""
+msgstr "Галисийский"
 
 #: gcompris.py:105
 msgctxt "language name, item list"
 msgid "Hebrew"
-msgstr ""
+msgstr "Иврит"
 
 #: gcompris.py:106
 msgctxt "language name, item list"
 msgid "Hindi"
-msgstr ""
+msgstr "Хинди"
 
 #: gcompris.py:107
 msgctxt "language name, item list"
 msgid "Croatian"
-msgstr ""
+msgstr "Хорватский"
 
 #: gcompris.py:108
 msgctxt "language name, item list"
 msgid "Hungarian"
-msgstr ""
+msgstr "Венгерский"
 
 #: gcompris.py:109
 msgctxt "language name, item list"
 msgid "Indonesian"
-msgstr ""
+msgstr "Индонезийский"
 
 #: gcompris.py:110
 msgctxt "language name, item list"
 msgid "Italian"
-msgstr ""
+msgstr "Итальянский"
 
 #: gcompris.py:111
 msgctxt "language name, item list"
 msgid "Georgian"
-msgstr ""
+msgstr "Грузинский"
 
 #: gcompris.py:112
 msgctxt "language name, item list"
 msgid "Kannada"
-msgstr ""
+msgstr "Каннада"
 
 #: gcompris.py:113
 msgctxt "language name, item list"
 msgid "Korean"
-msgstr ""
+msgstr "Корейский"
 
 #: gcompris.py:114
 msgctxt "language name, item list"
 msgid "Lithuanian"
-msgstr ""
+msgstr "Литовский"
 
 #: gcompris.py:115
 msgctxt "language name, item list"
 msgid "Latvian"
-msgstr ""
+msgstr "Латышский"
 
 #: gcompris.py:116
 msgctxt "language name, item list"
 msgid "Macedonian"
-msgstr ""
+msgstr "Македонский"
 
 #: gcompris.py:117
 msgctxt "language name, item list"
 msgid "Malayalam"
-msgstr ""
+msgstr "Малаялам"
 
 #: gcompris.py:118
 msgctxt "language name, item list"
 msgid "Dutch"
-msgstr ""
+msgstr "Нидерландский"
 
 #: gcompris.py:119
 msgctxt "language name, item list"
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Норвежский (нюнорск)"
 
 #: gcompris.py:120
 msgctxt "language name, item list"
 msgid "Polish"
-msgstr ""
+msgstr "Польский"
 
 #: gcompris.py:121
 msgctxt "language name, item list"
 msgid "Portuguese"
-msgstr ""
+msgstr "Португальский"
 
 #: gcompris.py:122
 msgctxt "language name, item list"
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Португальский (Бразилия)"
 
 #: gcompris.py:123
 msgctxt "language name, item list"
 msgid "Romanian"
-msgstr ""
+msgstr "Румынский"
 
 #: gcompris.py:124
 msgctxt "language name, item list"
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: gcompris.py:125
 msgctxt "language name, item list"
 msgid "Sanskrit"
-msgstr ""
+msgstr "Санскрит"
 
 #: gcompris.py:126
 msgctxt "language name, item list"
 msgid "Slovak"
-msgstr ""
+msgstr "Словацкий"
 
 #: gcompris.py:127
 msgctxt "language name, item list"
 msgid "Slovenian"
-msgstr ""
+msgstr "Словенский"
 
 #: gcompris.py:128
 msgctxt "language name, item list"
 msgid "Albanian"
-msgstr ""
+msgstr "Албанский"
 
 #: gcompris.py:129
 msgctxt "language name, item list"
 msgid "Serbian"
-msgstr ""
+msgstr "Сербский"
 
 #: gcompris.py:130
 msgctxt "language name, item list"
 msgid "Swedish"
-msgstr ""
+msgstr "Шведский"
 
 #: gcompris.py:131
 msgctxt "language name, item list"
 msgid "Swahili"
-msgstr ""
+msgstr "Суахили"
 
 #: gcompris.py:132
 msgctxt "language name, item list"
 msgid "Tamil"
-msgstr ""
+msgstr "Тамильский"
 
 #: gcompris.py:133
 msgctxt "language name, item list"
 msgid "Thai"
-msgstr ""
+msgstr "Тайский"
 
 #: gcompris.py:134
 msgctxt "language name, item list"
 msgid "Turkish"
-msgstr ""
+msgstr "Турецкий"
 
 #: gcompris.py:135
 msgctxt "language name, item list"
 msgid "Ukrainian"
-msgstr ""
+msgstr "Украинский"
 
 #: gcompris.py:136
 msgctxt "language name, item list"
 msgid "Chinese Simplified"
-msgstr ""
+msgstr "Китайский (упрощённый)"
 
 #: gcompris.py:137
 msgctxt "language name, item list"
 msgid "Chinese Traditional"
-msgstr ""
+msgstr "Китайский (традиционный)"
 
 #: gcompris.py:269
 msgid ""
 "This software is a GNU Package and is released under the GNU Affero General "
 "Public License."
 msgstr ""
+"Эта программа является пакетом GNU и распространяется на условиях GNU Affero "
+"General Public License."
 
 #: gcompris.py:270
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Alexander Yavorsky"
 
 #: gcompris.py:436
 msgid "For Christmas, offer GCompris to your children."
-msgstr ""
+msgstr "Подарите GCompris своим детям на Рождество."
 
 #: template/base.html:76 template/news.html:3 template/news.html:8
 #: template/newsall.html:3 template/newsall.html:8 template/singlenews.html:3
@@ -459,7 +450,7 @@ msgstr "Скриншоты"
 
 #: template/base.html:80 template/schools.html:3 template/schools.html:8
 msgid "Schools"
-msgstr ""
+msgstr "Школам"
 
 #: template/base.html:81
 msgid "Manual"
@@ -467,7 +458,7 @@ msgstr "Руководство"
 
 #: template/base.html:82
 msgid "FAQ"
-msgstr ""
+msgstr "Вопросы и ответы"
 
 #: template/base.html:83
 msgid "Contribute"
@@ -476,117 +467,97 @@ msgstr "Содействовать"
 #: template/base.html:117
 #, python-format
 msgid "Site last updated on %(revision_date)s."
-msgstr ""
+msgstr "Сайт обновлён %(revision_date)s."
 
 #: template/base.html:122
 #, python-format
 msgid "Site translated by: %(translators_names)s."
-msgstr ""
+msgstr "Сайт перевели: %(translators_names)s."
 
 #: template/christmas.html:3 template/christmas.html:10
 msgid "GCompris for Christmas"
-msgstr ""
+msgstr "GCompris на Рождество"
 
 #: template/christmas.html:15
 msgid ""
 "For Christmas, offer GCompris to your children. It's free and will give them "
 "hours of educational fun."
 msgstr ""
+"Подарите GCompris своим детям на Рождество. Она бесплатна и подарит им часы "
+"познавательных развлечений."
 
 #: template/christmas.html:16
 msgid "Get GCompris from our Download page"
-msgstr ""
+msgstr "Получить GCompris на нашей странице загрузки"
 
 #: template/christmas.html:17
 msgid "Get GCompris from the Play Store"
-msgstr ""
+msgstr "Получить GCompris в Play Store"
 
 #: template/christmas.html:18
 msgid "Get GCompris from the Windows Store"
-msgstr ""
+msgstr "Получить GCompris в Windows Store"
 
 #: template/donate.html:13
-#, fuzzy
-#| msgid ""
-#| "You, your children, your classroom love GCompris. You have now the "
-#| "opportunity to help this project."
 msgid ""
 "You, your children or your school love GCompris. You can support the project "
 "with a donation."
 msgstr ""
-"Если вы, ваши дети или ваш класс полюбили программу GCompris, вы можете "
-"помочь проекту!"
+"Вы, ваши дети или ваша школа любите GCompris. Вы можете поддержать проект "
+"пожертвованием."
 
 #: template/donate.html:14
-#, fuzzy
-#| msgid ""
-#| "Developing software takes a lot of time, it needs hardware, it implies "
-#| "moving to promote the project. Said simply, I need your help to continue "
-#| "my investment in this project."
 msgid ""
 "Developing software takes a lot of time, it needs hardware, and other "
 "requirements that have a cost."
 msgstr ""
-"Разработка программ занимает много времени, требует покупки оборудования и "
-"средств для продвижения проекта. Проще говоря, нам нужна ваша помощь, чтобы "
-"продолжать развивать GCompris."
+"Разработка программ занимает много времени, требует оборудования и других "
+"вещей, которые стоят денег."
 
 #: template/donate.html:16
 msgid ""
 "If you want to support the development of GCompris in a sustainable way, "
 "please become a patron of GCompris on Patreon:"
 msgstr ""
+"Если вы хотите поддерживать разработку GCompris постоянно, станьте "
+"покровителем GCompris на Patreon:"
 
 #: template/donate.html:18 template/downloads.html:10 template/index.html:150
 msgid "Become a Patron"
-msgstr ""
+msgstr "Стать покровителем"
 
 #: template/donate.html:21
-#, fuzzy
-#| msgid ""
-#| "You can donate the amount of your choice by clicking on the button below:"
 msgid "Also, you can donate the amount of your choice to KDE:"
-msgstr "Вы можете пожертвовать любую сумму, нажав на кнопку PayPal ниже:"
+msgstr "Также вы можете пожертвовать KDE любую сумму:"
 
 #: template/donate.html:22
-#, fuzzy
-#| msgid "Donate"
 msgid "Donate to KDE"
-msgstr "Пожертвования"
+msgstr "Пожертвовать KDE"
 
 #: template/donate.html:24
-#, fuzzy
-#| msgid "Thanks for your support of free software in education."
 msgid "Thanks for supporting Free Software in education."
 msgstr ""
-"Спасибо за поддержку свободного программного обеспечения для образования."
+"Спасибо за поддержку свободного программного обеспечения в образовании."
 
 #: template/donate.html:27
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: template/donate.html:30
-#, fuzzy
-#| msgid "Thanks for your support of free software in education."
 msgid "Thanks to everyone supporting GCompris on Patreon!"
-msgstr ""
-"Спасибо за поддержку свободного программного обеспечения для образования."
+msgstr "Спасибо всем, кто поддерживает GCompris на Patreon!"
 
 #: template/downloads.html:16
 msgid "Windows"
 msgstr "Windows"
 
 #: template/downloads.html:20
-#, fuzzy
-#| msgid ""
-#| "You can buy the full version of GCompris <a href=\"https://www.microsoft."
-#| "com/en-us/store/p/gcompris/9pgxjtcxn8qm\">in the Windows Store</a>."
 msgid ""
 "You can install GCompris <a href=\"https://www.microsoft.com/en-us/store/p/"
 "gcompris/9pgxjtcxn8qm\">from the Windows Store</a>."
 msgstr ""
-"Вы можете купить полную версию GCompris в <a href=\"https://www.microsoft."
-"com/en-us/store/p/gcompris/9pgxjtcxn8qm\">Microsoft Store</a>."
+"GCompris возможно установить <a href=\"https://www.microsoft.com/en-us/store/"
+"p/gcompris/9pgxjtcxn8qm\">из Windows Store</a>."
 
 #: template/downloads.html:21
 msgid "Note: the Windows Store requires Windows 10."
@@ -594,38 +565,31 @@ msgstr "Обратите внимание: для Windows Store необходи
 
 #: template/downloads.html:23
 msgid "Else, you can download the installer from the links below."
-msgstr ""
+msgstr "Кроме того, программу установки возможно загрузить по ссылкам ниже."
 
 #: template/downloads.html:24
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: Windows 10 or 11."
-msgstr "Системные требования: Windows 7, 8 или 10 с поддержкой OpenGL 2."
+msgstr "Системные требования: Windows 10 или 11."
 
 #: template/downloads.html:28
 msgid "We also provide an msi installer."
-msgstr ""
+msgstr "Мы также предоставляем программу установки в формате msi."
 
 #: template/downloads.html:32
-#, fuzzy
-#| msgid ""
-#| "Note: If your system doesn't have OpenGL 2 support or if it's not working "
-#| "properly, please use the entry GCompris (Safe Mode) in the start menu to "
-#| "launch GCompris with the software rendering mode which doesn't use OpenGL."
 msgid ""
 "Note: If your system doesn't have Direct3D 11 support or if it's not working "
 "properly, please use the entry GCompris (Safe Mode) in the start menu to "
 "launch GCompris with the software rendering mode."
 msgstr ""
-"Обратите внимание: если ваша система не поддерживает OpenGL 2 или он "
-"работает некорректно, выберите в меню приложений «GCompris (безопасный "
-"режим)», чтобы запустить GCompris в режиме, не использующем OpenGL."
+"Обратите внимание: если ваша система не поддерживает Direct3D 11 или он "
+"работает неправильно, выберите в меню запуска пункт «GCompris (безопасный "
+"режим)», чтобы запустить GCompris в режиме программной отрисовки."
 
 #: template/downloads.html:33
 msgid ""
 "The last version available for Windows 7 and 8 can be downloaded from the "
 "link below."
-msgstr ""
+msgstr "Последнюю версию для Windows 7 и 8 возможно загрузить по ссылке ниже."
 
 #: template/downloads.html:38
 msgid ""
@@ -643,20 +607,16 @@ msgid ""
 "200202 in the entry box that contains the word CODE when you start the "
 "application."
 msgstr ""
+"Чтобы в этой старой версии стали доступны все задания, введите код 200202 в "
+"поле со словом CODE при запуске приложения."
 
 #: template/downloads.html:52
 msgid "Android"
 msgstr "Android"
 
 #: template/downloads.html:56
-#, fuzzy
-#| msgid ""
-#| "The version for Android is distributed in the Play Store. The demo and "
-#| "the full version have separate installers."
 msgid "The version for Android is distributed in the Play Store."
-msgstr ""
-"Версия для Android распространяется через Google Play. Демо-версия и полная "
-"версия устанавливаются отдельно."
+msgstr "Версия для Android распространяется через Play Store."
 
 #: template/downloads.html:60
 msgid ""
@@ -664,18 +624,25 @@ msgid ""
 "version is downloaded automatically depending on your Android operating "
 "system."
 msgstr ""
+"В Play Store поддерживаются 32- и 64-разрядные версии Android. Подходящая "
+"версия загружается автоматически в зависимости от вашей операционной системы "
+"Android."
 
 #: template/downloads.html:62
 msgid ""
 "GCompris is also available from F-Droid, the Free and Open Source Android "
 "app repository."
 msgstr ""
+"GCompris также доступна в F-Droid — репозитории свободных приложений Android "
+"с открытым исходным кодом."
 
 #: template/downloads.html:67
 msgid ""
 "You can also directly download the apk from our website to install it "
 "manually on your device."
 msgstr ""
+"Также возможно загрузить файл apk прямо с нашего сайта и установить его на "
+"устройство вручную."
 
 #: template/downloads.html:72
 msgid ""
@@ -683,6 +650,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 msgstr ""
+"Для устройств с Android от 4.1 до 8.0 последняя совместимая версия — <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-4.3.1.apk\">GCompris 4.3.1</a>."
 
 #: template/downloads.html:73
 msgid ""
@@ -690,6 +660,9 @@ msgid ""
 "href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
 "signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 msgstr ""
+"Для устройств с Android от 2.3 до 4.0 последняя совместимая версия — <a "
+"href= \"https://gcompris.net/download/qt/android/GCompris-Android-release-"
+"signed-aligned-armeabi-v7a-dl-0.81.apk\">GCompris 0.81</a>."
 
 #: template/downloads.html:84
 msgid "macOS"
@@ -700,10 +673,13 @@ msgid ""
 "The latest version is not yet available on macOS due to lack of "
 "infrastructure to build and test it."
 msgstr ""
+"Последняя версия пока недоступна для macOS из-за отсутствия оборудования для "
+"её сборки и проверки."
 
 #: template/downloads.html:89
 msgid "You can download the last version available macOS from the link below."
 msgstr ""
+"Последнюю доступную для macOS версию возможно загрузить по ссылке ниже."
 
 #: template/downloads.html:90
 msgid "Built and tested on macOS 10.13."
@@ -718,24 +694,20 @@ msgid ""
 "You can check if your distribution provides a package for the latest version "
 "of GCompris."
 msgstr ""
+"Проверьте, не предоставляет ли ваш дистрибутив пакет с последней версией "
+"GCompris."
 
 #: template/downloads.html:108
-#, fuzzy
-#| msgid ""
-#| "We provide standalone packages for GNU/Linux. They should work on any "
-#| "distribution (requires at least linux kernel 3.10, and gstreamer 1.0)."
 msgid ""
 "We also provide standalone packages for GNU/Linux. They should work on any "
 "recent distribution."
 msgstr ""
-"Мы предоставляем готовые сборки для GNU/Linux. Они должны работать на любом "
-"дистрибутиве (требуется как минимум ядро Linux 3.10 и gstreamer 1.0)."
+"Мы также предоставляем автономные пакеты для GNU/Linux. Они должны работать "
+"в любом современном дистрибутиве."
 
 #: template/downloads.html:108
-#, fuzzy
-#| msgid "System requirements: Windows 7, 8 or 10 with OpenGL 2 support."
 msgid "System requirements: linux kernel 5.15, glibc 2.35."
-msgstr "Системные требования: Windows 7, 8 или 10 с поддержкой OpenGL 2."
+msgstr "Системные требования: ядро Linux 5.15, glibc 2.35."
 
 #: template/downloads.html:112 template/downloads.html:148
 msgid ""
@@ -770,6 +742,11 @@ msgid ""
 "configuration file (in ~/.config/gcompris-qt/gcompris-qt.conf): find the "
 "line renderer=auto , replace auto with software and save the file."
 msgstr ""
+"Обратите внимание: если ваша система не поддерживает OpenGL 2 или он "
+"работает неправильно, добавьте параметр «--software-renderer» в конец "
+"последней строки сценария gcompris-qt.sh. Другой способ — изменить файл "
+"настройки (~/.config/gcompris-qt/gcompris-qt.conf): найдите строку "
+"renderer=auto, замените auto на software и сохраните файл."
 
 #: template/downloads.html:120
 msgid ""
@@ -777,42 +754,48 @@ msgid ""
 "apps/details/org.kde.gcompris\">Flathub</a> or from the <a href=\"https://"
 "snapcraft.io/gcompris\">Snap store</a>."
 msgstr ""
+"Кроме того, GCompris возможно установить из <a href=\"https://flathub.org/"
+"apps/details/org.kde.gcompris\">Flathub</a> или из <a href=\"https://"
+"snapcraft.io/gcompris\">Snap store</a>."
 
 #: template/downloads.html:121
 msgid ""
 "The last version available for 32bit Linux distributions can be downloaded "
 "from the following link."
 msgstr ""
+"Последнюю версию для 32-разрядных дистрибутивов Linux возможно загрузить по "
+"следующей ссылке."
 
 #: template/downloads.html:121
 msgid ""
 "System requirements: linux kernel 3.10, glibc 2.17, pulseaudio, gstreamer "
 "1.0."
 msgstr ""
+"Системные требования: ядро Linux 3.10, glibc 2.17, pulseaudio, gstreamer 1.0."
 
 #: template/downloads.html:135
 msgid "Raspberry Pi"
 msgstr "Raspberry Pi"
 
 #: template/downloads.html:139
-#, fuzzy
-#| msgid "We provide a standalone package for Raspberry Pi."
 msgid "We provide a standalone package for Raspberry Pi (64bit)."
-msgstr "Мы предоставляем готовые сборки для Raspberry Pi."
+msgstr "Мы предоставляем автономный пакет для Raspberry Pi (64-разрядный)."
 
 #: template/downloads.html:139
 msgid "It was tested only on Raspberry Pi 3."
-msgstr ""
+msgstr "Она проверялась только на Raspberry Pi 3."
 
 #: template/downloads.html:143
 msgid ""
 "The last version available for 32bit is the version 4.3 at the following "
 "link:"
 msgstr ""
+"Последняя версия для 32-разрядных систем — 4.3, она доступна по следующей "
+"ссылке:"
 
 #: template/downloads.html:164 template/schools.html:42
 msgid "GCompris-teachers"
-msgstr ""
+msgstr "GCompris-teachers"
 
 #: template/downloads.html:168
 #, python-format
@@ -823,33 +806,37 @@ msgid ""
 "\">Schools page</a>. Note that to use it, you should use the same version of "
 "the main GCompris application."
 msgstr ""
+"GCompris-teachers — вспомогательное приложение для учителей, позволяющее "
+"эффективнее использовать GCompris в классе. Подробнее о нём рассказано на "
+"нашей <a href=\"https://gcompris.net/schools%(suffix)s.html#gcompris-teachers"
+"\">странице для школ</a>. Обратите внимание: версия этого приложения должна "
+"совпадать с версией основного приложения GCompris."
 
 #: template/downloads.html:169
 msgid ""
 "GCompris-teachers is available for GNU/Linux and Windows operating systems."
 msgstr ""
+"GCompris-teachers доступно для операционных систем GNU/Linux и Windows."
 
 #: template/downloads.html:183
 msgid "Source code"
 msgstr "Исходный код"
 
 #: template/downloads.html:187
-#, fuzzy
-#| msgid "The source code is available under the GPLv3 license."
 msgid "The source code is available under the AGPLv3 license."
-msgstr "Исходный код программы распространяется на условиях лицензии GPLv3."
+msgstr "Исходный код доступен на условиях лицензии AGPLv3."
 
 #: template/downloads.html:200
-#, fuzzy
-#| msgid "MD5 and GPG"
 msgid "SHA-256 and GPG"
-msgstr "MD5 и GPG"
+msgstr "SHA-256 и GPG"
 
 #: template/downloads.html:204
 msgid ""
 "To check the integrity of your downloads, you can get the original SHA-256 "
 "hash of the files by adding \".sha256\" at the end of their download url."
 msgstr ""
+"Чтобы проверить целостность загруженных файлов, получите их исходные хеши "
+"SHA-256, добавив «.sha256» в конец адреса загрузки."
 
 #: template/downloads.html:205
 #, python-format
@@ -857,22 +844,24 @@ msgid ""
 "The source tarball and the Linux installer are signed with the GPG key from "
 "Timothée Giet (public key: %(public_gpg_key)s)"
 msgstr ""
+"Архив с исходным кодом и программа установки для Linux подписаны ключом GPG "
+"Timothée Giet (открытый ключ: %(public_gpg_key)s)"
 
 #: template/downloads.html:207
 msgid "sig files:"
-msgstr ""
+msgstr "Файлы sig:"
 
 #: template/faq.html:3
 msgid "FAQ - GCompris"
-msgstr ""
+msgstr "Вопросы и ответы — GCompris"
 
 #: template/faq.html:8
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Часто задаваемые вопросы"
 
 #: template/faq.html:13
 msgid "Why are some assets not contained in the software itself?"
-msgstr ""
+msgstr "Почему часть материалов не входит в само приложение?"
 
 #: template/faq.html:14
 msgid ""
@@ -883,6 +872,12 @@ msgid ""
 "installer size we decided to not include those and let users download them "
 "from the software if they want to."
 msgstr ""
+"Если включить озвучивание на всех языках, программа установки станет слишком "
+"большой, а большинству пользователей нужно озвучивание только на своём "
+"языке. Дополнительные изображения и фоновая музыка тоже занимают довольно "
+"много места, хотя для работы приложения не требуются. Поэтому, чтобы базовая "
+"программа установки была как можно меньше, мы решили не включать их, а дать "
+"пользователям возможность загрузить их из самого приложения при желании."
 
 #: template/faq.html:15
 msgid ""
@@ -890,16 +885,21 @@ msgid ""
 "disable the option \"Enable automatic downloads/updates of external assets\" "
 "in the main configuration page."
 msgstr ""
+"Если вы не хотите, чтобы приложение загружало что-либо автоматически, "
+"отключите параметр «Включить автоматическую загрузку и обновление внешних "
+"материалов» на главной странице настройки."
 
 #: template/faq.html:17
 msgid "How can I manually download and install the extra assets?"
-msgstr ""
+msgstr "Как загрузить и установить дополнительные материалы вручную?"
 
 #: template/faq.html:18
 msgid ""
 "IMPORTANT: for GCompris versions older than 4.0, you need to replace "
 "\"data3\" with \"data2\" in all instructions below."
 msgstr ""
+"ВАЖНО: для версий GCompris старее 4.0 во всех указаниях ниже замените "
+"«data3» на «data2»."
 
 #: template/faq.html:19
 msgid ""
@@ -907,10 +907,13 @@ msgid ""
 "in the .rcc filenames. So you need to look in the \"Contents\" files what is "
 "the name of the latest one before downloading it. For example:"
 msgstr ""
+"ВАЖНО: начиная с версии GCompris 4.0 в имена файлов .rcc добавляется дата "
+"последнего обновления. Поэтому перед загрузкой посмотрите в файлах "
+"«Contents», как называется самый свежий из них. Например:"
 
 #: template/faq.html:19
 msgid "For older versions, the filenames don't contain the date. Example:"
-msgstr ""
+msgstr "В более старых версиях имена файлов не содержат даты. Пример:"
 
 #: template/faq.html:20
 msgid ""
@@ -919,6 +922,9 @@ msgid ""
 "aac\" for macOS systems. Also, replace \"-localeCode\" with the code of your "
 "locale."
 msgstr ""
+"ВАЖНО: в указаниях ниже замените «-codecName» на «-mp3» для систем Windows, "
+"«-ogg» для систем Linux или Android либо «-aac» для систем macOS. Также "
+"замените «-localeCode» на код вашей локали."
 
 #: template/faq.html:20
 msgid ""
@@ -926,113 +932,131 @@ msgid ""
 "the date you found in the \"Contents\" file; for older versions, remove the "
 "\"-date\" part."
 msgstr ""
+"И, как сказано выше, начиная с версии GCompris 4.0 замените «-date» на дату, "
+"найденную в файле «Contents»; для более старых версий уберите часть «-date»."
 
 #: template/faq.html:21
 msgid "You can download the extra assets from this link:"
-msgstr ""
+msgstr "Дополнительные материалы возможно загрузить по этой ссылке:"
 
 #: template/faq.html:25
 msgid ""
 "For the background music, you need to go in the folder named "
 "\"backgroundMusic\" and download those 2 files:"
 msgstr ""
+"Для фоновой музыки перейдите в папку «backgroundMusic» и загрузите эти два "
+"файла:"
 
 #: template/faq.html:30
 msgid ""
 "Then copy those 2 files in a folder named \"backgroundMusic\" in the cache "
 "folder of the application."
 msgstr ""
+"Затем скопируйте эти два файла в папку «backgroundMusic» внутри папки кэша "
+"приложения."
 
 #: template/faq.html:31
 msgid ""
 "For the voices, you need to go in the folder named \"voices-codecName\" and "
 "download those 2 files:"
 msgstr ""
+"Для озвучивания перейдите в папку «voices-codecName» и загрузите эти два "
+"файла:"
 
 #: template/faq.html:36
 msgid ""
 "Then copy those 2 files in a folder named \"voices-codecName\" in the cache "
 "folder of the application."
 msgstr ""
+"Затем скопируйте эти два файла в папку «voices-codecName» внутри папки кэша "
+"приложения."
 
 #: template/faq.html:37
 msgid ""
 "For the images, you need to go in the folder named \"words\" and download "
 "those 2 files:"
-msgstr ""
+msgstr "Для изображений перейдите в папку «words» и загрузите эти два файла:"
 
 #: template/faq.html:42
 msgid ""
 "Then copy those 2 files in a folder named \"words\" in the cache folder of "
 "the application."
 msgstr ""
+"Затем скопируйте эти два файла в папку «words» внутри папки кэша приложения."
 
 #: template/faq.html:43
 msgid ""
 "The path to the cache folder is different depending on the operating system."
-msgstr ""
+msgstr "Путь к папке кэша зависит от операционной системы."
 
 #: template/faq.html:44
-#, fuzzy
-#| msgid "Windows"
 msgid "Path on Windows:"
-msgstr "Windows"
+msgstr "Путь в Windows:"
 
 #: template/faq.html:48
 msgid "Path on Linux:"
-msgstr ""
+msgstr "Путь в Linux:"
 
 #: template/faq.html:52
 msgid "Path on Android (you need to have root access to edit this folder):"
-msgstr ""
+msgstr "Путь в Android (для изменения этой папки нужен доступ с правами root):"
 
 #: template/faq.html:56
 msgid "Path on macOS:"
-msgstr ""
+msgstr "Путь в macOS:"
 
 #: template/faq.html:61
 msgid "Is GCompris a GNU package or a KDE package?"
-msgstr ""
+msgstr "GCompris — это пакет GNU или пакет KDE?"
 
 #: template/faq.html:62
 msgid ""
 "It is both. From the beginning, GCompris has always been and still is a GNU "
 "package. Since 2014 it is maintained by the KDE community."
 msgstr ""
+"И то, и другое. С самого начала GCompris была и остаётся пакетом GNU. С 2014 "
+"года её сопровождает сообщество KDE."
 
 #: template/faq.html:64
 msgid "Why is it called GCompris?"
-msgstr ""
+msgstr "Почему приложение называется GCompris?"
 
 #: template/faq.html:65
 msgid ""
 "The name GCompris sounds like \"J'ai compris\" in French, which means \"I "
 "understand\" in English. Also, the G stands for GNU."
 msgstr ""
+"Название GCompris звучит как французское «J’ai compris», то есть «я понял». "
+"А буква G означает GNU."
 
 #: template/faq.html:67
 msgid "Does this software depend on non-free packages or content?"
-msgstr ""
+msgstr "Зависит ли это приложение от несвободных пакетов или материалов?"
 
 #: template/faq.html:68
 msgid ""
 "All the content and dependencies are under licenses compatible with the "
 "AGPLv3 license."
 msgstr ""
+"Все материалы и зависимости распространяются на условиях лицензий, "
+"совместимых с лицензией AGPLv3."
 
 #: template/faq.html:70
 msgid "Why is it not available for iOS?"
-msgstr ""
+msgstr "Почему приложения нет для iOS?"
 
 #: template/faq.html:71
 msgid ""
 "The requirements to build and publish software for iOS are not compatible "
 "with the GPLv3 and AGPLv3 licenses used by this software."
 msgstr ""
+"Требования к сборке и публикации приложений для iOS несовместимы с "
+"лицензиями GPLv3 и AGPLv3, на условиях которых распространяется это "
+"приложение."
 
 #: template/faq.html:73
 msgid "Why is it not available on the amazon store?"
-msgstr ""
+msgstr "Почему приложения нет в магазине Amazon?"
 
 #: template/faq.html:74
 msgid ""
@@ -1041,6 +1065,10 @@ msgid ""
 "you can directly install the latest apk from our website, and use a third "
 "party launcher to access the application from a child profile."
 msgstr ""
+"Для Android мы уже публикуем приложение в Play Store и F-Droid, а публикация "
+"во всех магазинах потребовала бы слишком много труда. Если вы пользуетесь "
+"планшетом Fire, возможно установить последний apk прямо с нашего сайта и "
+"открывать приложение из детского профиля через стороннюю оболочку."
 
 #: template/index.html:3
 msgid "GCompris Educational Software"
@@ -1056,35 +1084,35 @@ msgstr "Последние новости"
 
 #: template/index.html:91
 msgid "Click or tap"
-msgstr ""
+msgstr "Нажмите мышью или коснитесь"
 
 #: template/index.html:97
 msgid "Identify colors"
-msgstr ""
+msgstr "Определение цветов"
 
 #: template/index.html:103
 msgid "Learn clock"
-msgstr ""
+msgstr "Изучение часов"
 
 #: template/index.html:109
 msgid "Keyboard training"
-msgstr ""
+msgstr "Тренировка набора на клавиатуре"
 
 #: template/index.html:115
 msgid "Learn additions"
-msgstr ""
+msgstr "Изучение сложения"
 
 #: template/index.html:121
 msgid "Discover the watercycle"
-msgstr ""
+msgstr "Знакомство с круговоротом воды"
 
 #: template/index.html:127
 msgid "Play chess against your friend"
-msgstr ""
+msgstr "Игра в шахматы с другом"
 
 #: template/index.html:133
 msgid "Click on a lowercase letter"
-msgstr ""
+msgstr "Нажатие на строчную букву"
 
 #: template/index.html:147
 msgid "View all screenshots"
@@ -1108,53 +1136,39 @@ msgstr ""
 
 #: template/index.html:155
 msgid "Here is the list of activity categories with some examples:"
-msgstr ""
+msgstr "Вот список разделов заданий с примерами:"
 
 #: template/index.html:157
-#, fuzzy
-#| msgid "computer discovery: keyboard, mouse, different mouse gestures, ..."
 msgid "computer discovery: keyboard, mouse, touchscreen ..."
-msgstr ""
-"основы компьютерной грамотности: использование клавиатуры и мыши; падающие "
-"буквы; …"
+msgstr "знакомство с компьютером: клавиатура, мышь, сенсорный экран…"
 
 #: template/index.html:158
-#, fuzzy
-#| msgid "reading: reading practice"
 msgid "reading: letters, words, reading practice, typing text ..."
-msgstr "чтение: практика чтения; изучение иностранных языков …"
+msgstr "чтение: буквы, слова, практика чтения, набор текста…"
 
 #: template/index.html:159
-#, fuzzy
-#| msgid ""
-#| "arithmetic: table memory, enumeration, double entry table, mirror "
-#| "image, ..."
 msgid ""
 "arithmetic: numbers, operations, table memory, enumeration, double entry "
 "table ..."
-msgstr "арифметика: основы счёта; таблица умножения; сложение и вычитание; …"
+msgstr ""
+"арифметика: числа, действия, таблица умножения, счёт предметов, таблица с "
+"двумя входами…"
 
 #: template/index.html:160
-#, fuzzy
-#| msgid ""
-#| "science: the canal lock, the water cycle, the submarine, electric "
-#| "simulation ..."
 msgid "science: the canal lock, the water cycle, renewable energy ..."
-msgstr "основы физики: электричество; круговорот воды; подводная лодка; …"
+msgstr "наука: шлюз, круговорот воды, возобновляемые источники энергии…"
 
 #: template/index.html:161
 msgid "geography: countries, regions, culture ..."
-msgstr ""
+msgstr "география: страны, регионы, культура…"
 
 #: template/index.html:162
-#, fuzzy
-#| msgid "games: chess, memory, connect 4, oware, sudoku ..."
 msgid "games: chess, memory, align 4, hangman, tic-tac-toe ..."
-msgstr "игры: шахматы; соедини точки; судоку; игры на развитие памяти;…"
+msgstr "игры: шахматы, игра в пары, «Четыре в ряд», виселица, крестики-нолики…"
 
 #: template/index.html:163
 msgid "other: colors, shapes, Braille, learn to tell time ..."
-msgstr ""
+msgstr "разное: цвета, фигуры, азбука Брайля, определение времени…"
 
 #: template/index.html:165
 msgid ""
@@ -1173,6 +1187,8 @@ msgid ""
 "The GCompris project is hosted and developed by <a target=\"_blank\" rel="
 "\"noopener\" href=\"https://www.kde.org/\">the KDE community</a>."
 msgstr ""
+"Проект GCompris размещается и разрабатывается <a target=\"_blank\" rel="
+"\"noopener\" href=\"https://www.kde.org/\">сообществом KDE</a>."
 
 #: template/news.html:14 template/singlenews.html:13
 msgid "All the news"
@@ -1183,22 +1199,23 @@ msgid ""
 "GCompris is officially recommended for teachers in the following countries "
 "and states:"
 msgstr ""
+"GCompris официально рекомендована учителям в следующих странах и штатах:"
 
 #: template/schools.html:15
 msgid "France"
-msgstr ""
+msgstr "Франция"
 
 #: template/schools.html:16
 msgid "Italy"
-msgstr ""
+msgstr "Италия"
 
 #: template/schools.html:17
 msgid "Kerala"
-msgstr ""
+msgstr "Керала"
 
 #: template/schools.html:18
 msgid "Lithuania"
-msgstr ""
+msgstr "Литва"
 
 #: template/schools.html:21
 msgid ""
@@ -1207,6 +1224,11 @@ msgid ""
 "Public License. It is multiplatform (GNU/Linux, Windows, Android, macOS), "
 "and can run on low power computers."
 msgstr ""
+"GCompris — средство электронного обучения, дающее учебные упражнения для "
+"занятий в классе и вне его. Это свободное программное обеспечение, "
+"распространяемое на условиях GNU General Public License. Оно работает на "
+"разных платформах (GNU/Linux, Windows, Android, macOS) и запускается даже на "
+"маломощных компьютерах."
 
 #: template/schools.html:22
 msgid ""
@@ -1214,45 +1236,53 @@ msgid ""
 "offers more than 150 activities covering the main pedagogical domains, "
 "including:"
 msgstr ""
+"GCompris уже более двадцати лет используется в школах по всему миру и "
+"содержит свыше 150 заданий, охватывающих основные области обучения, в том "
+"числе:"
 
 #: template/schools.html:24
 msgid "Learning how to use a computer"
-msgstr ""
+msgstr "Освоение работы с компьютером"
 
 #: template/schools.html:25
 msgid ""
 "Practising reading with activities to learn letters, words and lexical sets"
-msgstr ""
+msgstr "Практика чтения с заданиями на изучение букв, слов и наборов лексики"
 
 #: template/schools.html:26
 msgid ""
 "Acquiring proficiency in math by practising numeration, arithmetic, measures "
 "and puzzles"
 msgstr ""
+"Освоение математики через упражнения на счёт, арифметику, измерения и "
+"головоломки"
 
 #: template/schools.html:27
 msgid "Discovering the world through logic, the arts and music"
-msgstr ""
+msgstr "Знакомство с миром через логику, искусство и музыку"
 
 #: template/schools.html:28
 msgid ""
 "Exploring science and humanities through experimentation, history and "
 "geography"
 msgstr ""
+"Изучение естественных и гуманитарных наук через опыты, историю и географию"
 
 #: template/schools.html:29
 msgid "Developing strategic thinking with board games"
-msgstr ""
+msgstr "Развитие стратегического мышления с помощью настольных игр"
 
 #: template/schools.html:32
 msgid ""
 "GCompris does not require an Internet connection, does not collect any data, "
 "and so strictly complies with the EU's General Data Protection Regulation."
 msgstr ""
+"GCompris не требует подключения к Интернету и не собирает никаких данных, а "
+"значит, полностью соответствует Общему регламенту ЕС по защите данных."
 
 #: template/schools.html:34
 msgid "Datasets"
-msgstr ""
+msgstr "Наборы данных"
 
 #: template/schools.html:35
 msgid ""
@@ -1264,6 +1294,13 @@ msgid ""
 "can grade the activity for children who can only read numbers or make it "
 "harder for children who can read both numbers and words."
 msgstr ""
+"Начиная с версии 1.0 GCompris позволяет преподавателям выбирать уровень "
+"заданий в соответствии с умениями каждого ребёнка. Например, в задании на "
+"счёт возможно выбрать, с какими числами будет работать ребёнок, оставив "
+"более крупные и сложные числа на потом. А в задании, где нужно расположить "
+"картинки в хронологическом порядке, возможно подобрать уровень для детей, "
+"умеющих читать только числа, или усложнить его для тех, кто читает и числа, "
+"и слова."
 
 #: template/schools.html:38
 msgid ""
@@ -1271,6 +1308,9 @@ msgid ""
 "pupils to practice mathematics, language, science and humanities. They will "
 "also be able to play strategic games to train their problem-solving skills."
 msgstr ""
+"Такая градация позволяет предлагать ученикам упражнения по математике, "
+"языку, естественным и гуманитарным наукам. Они также смогут играть в "
+"стратегические игры, развивая умение решать задачи."
 
 #: template/schools.html:40
 msgid ""
@@ -1278,6 +1318,9 @@ msgid ""
 "have been based on the French elementary school curriculum, which defines "
 "what French teachers must teach in class."
 msgstr ""
+"Чтобы обеспечить прочную педагогическую основу, уровни заданий GCompris "
+"построены на программе французской начальной школы, которая определяет, что "
+"французские учителя обязаны преподавать в классе."
 
 #: template/schools.html:43
 #, python-format
@@ -1289,10 +1332,16 @@ msgid ""
 "teachers\">Download page</a>, and find the manual to learn more about from "
 "the link below."
 msgstr ""
+"GCompris-teachers — вспомогательное приложение для учителей, позволяющее "
+"эффективнее использовать GCompris в классе. Оно даёт учителям возможность "
+"создавать собственные наборы данных и получать результаты учеников по "
+"некоторым заданиям. Загрузить его возможно с нашей <a href=\"https://"
+"gcompris.net/downloads%(suffix)s.html#gcompris-teachers\">страницы загрузки</"
+"a>, а руководство с подробностями доступно по ссылке ниже."
 
 #: template/schools.html:45
 msgid "GCompris-teachers manual"
-msgstr ""
+msgstr "Руководство GCompris-teachers"
 
 #: template/screenshot.html:33
 msgid "Description:"
@@ -1318,7 +1367,7 @@ msgstr "Благодарность:"
 
 #: template/screenshots.html:36
 msgid "Select a category"
-msgstr ""
+msgstr "Выберите раздел"
 
 #: template/screenshots.html:38
 msgid "All"
@@ -1326,35 +1375,35 @@ msgstr "Все"
 
 #: template/screenshots.html:39
 msgid "Computer"
-msgstr ""
+msgstr "Компьютер"
 
 #: template/screenshots.html:40
 msgid "Discovery"
-msgstr ""
+msgstr "Знакомство с миром"
 
 #: template/screenshots.html:41
 msgid "Sciences"
-msgstr ""
+msgstr "Науки"
 
 #: template/screenshots.html:42
 msgid "Fun"
-msgstr ""
+msgstr "Развлечения"
 
 #: template/screenshots.html:43
 msgid "Mathematics"
-msgstr ""
+msgstr "Математика"
 
 #: template/screenshots.html:44
 msgid "Puzzle"
-msgstr ""
+msgstr "Головоломки"
 
 #: template/screenshots.html:45
 msgid "Reading"
-msgstr ""
+msgstr "Чтение"
 
 #: template/screenshots.html:46
 msgid "Strategy"
-msgstr ""
+msgstr "Стратегия"
 
 # news title
 #, fuzzy
