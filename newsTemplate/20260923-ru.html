@@ -1,0 +1,28 @@
+{% extends "template/onenews.html" %}
+{% set title = 'Выпуск GCompris 26.2' %}
+{% set withlongcontent = 0 %}
+{% block content %}
+<img src='{{ newsFolder }}images/r26.2.png' class='col-xs-12 col-md-4' alt='gcompris 26.2' style='float: right; padding-left: 10px; cursor: pointer;' onclick="window.open('{{ newsFolder }}images/r26.2.png')"/>
+
+<p>Сегодня мы выпускаем GCompris версии 26.2.</p>
+<p>Он содержит исправления ошибок и улучшения во многих заданиях.</p>
+
+<p>Он полностью переведён на следующие языки:</p>
+<ul>
+  {% for oneLocale in fullyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }}</li>
+  {% endfor %}
+</ul>
+
+<p>Также он частично переведён на следующие языки:</p>
+<ul>
+  {% for oneLocale,oneStatus in partiallyTranslatedLocales %}
+  <li class="puce">{{ oneLocale }} ({{ oneStatus }}%)</li>
+  {% endfor %}
+</ul>
+
+<p>Пакеты этой новой версии для GNU/Linux, Windows, Android и Raspberry Pi доступны на <a href="https://gcompris.net/downloads{{ suffix }}.html">странице загрузки</a>. Кроме того, это обновление скоро появится в Android Play Store, репозитории F-Droid и Windows Store.</p>
+
+<p>Спасибо всем, <br/>Timothée и Johnny</p>
+
+{% endblock %}
